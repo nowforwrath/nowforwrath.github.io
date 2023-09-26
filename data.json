@@ -25102,6 +25102,14 @@
 					{
 						"name": "War Horn",
 						"points": 30
+					},
+					{
+						"name": "Tookish Hunter",
+						"points": 1,
+						"availableOn": [
+							"Paladin Took",
+							"Peregrin, Captain of the Shire"
+						]
 					}
 				],
 				"specialRules": [
@@ -25258,9 +25266,9 @@
 				],
 				"options": [
 					{
-						"name": "Battlin`' Brandybuck",
+						"name": "Battlin' Brandybuck",
 						"points": 1,
-						"unlockedBy": "Meriadoc, Captan of the Shire"
+						"unlockedBy": "Meriadoc, Captain of the Shire"
 					}
 				],
 				"specialRules": [
@@ -26511,6 +26519,15 @@
 				"modifiesStats": [
 					{
 						"stat": "strength",
+						"modifier": 1
+					}
+				]
+			},
+			{
+				"name": "Tookish Hunter",
+				"modifiesStats": [
+					{
+						"stat": "fight",
 						"modifier": 1
 					}
 				]
