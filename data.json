@@ -514,6 +514,10 @@
 				"name": "Ugluk's Scouts",
 				"alignment": "evil",
 				"parentFaction": "Isengard",
+				"keywordMatches": [
+					"Orc",
+					"Uruk-Hai"
+				],
 				"armyBonus": "\"Their Pace has Quickened\" - If your army includes Mauhúr then any Uruk-hai Scouts in your force may be upgraded to Mauhúr's Marauders rather\n                than just the ones in Mauhúr's warband - this upgrade is free rather than costing 1 point per model. Additionally, Uglúk, Uruk-hai Scout Captains and Uruk-hai Drummers increase their Move value to 8\".\n                \"Make Haste to Isengard\" - Friendly models gain the Woodland Creature special rule.\n                \"Animosity\" - Friendly Orc models gain a bonus of+1 To Wound in the Fight phase if they are involved in the same fight as a friendly Uruk-hai model. Friendly Uruk-hai models gain a bonus of\n                +1 To Wound in the Fight phase if they are involved in the same fight as a friendly Orc model.\n                -Only Orc Hero models may lead Orc Warrior models. -Only Uruk-hai Hero models may lead Uruk-hai Warrior models.\n                "
 			},
 			{
@@ -1094,6 +1098,10 @@
 				"name": "Cirith Ungol",
 				"alignment": "Evil",
 				"parentFaction": "Mordor",
+				"keywordMatches": [
+					"Orc",
+					"Uruk-Hai"
+				],
 				"armyBonus": "\"Animosity\" - Friendly Orc models gain a bonus of +1 To Wound in the Fight phase if they are involved in the same fight as a friendly Uruk-hai model. Friendly Uruk-hai models gain a bonus of +1 To Wound in the Fight phase if they are involved in the same fight as a friendly Orc model.\n                \"Rivals for Power\" - Keep track of how many models Gorbag and Shagrat have each killed. If at any point one of them has fewer kills than the other, that model may re-roll a single D6 when making a Duel roll.\n                \"She Hungers for Sweeter Meats\" - Shelob adds 1 to her Attack characteristic when involved in a fight with an enemy Man, Elf, Dwarf or Hobbit model.\n                \"She is Always Hungry\" - At the start of her Move phase, so long as she is not Engaged in a Fight, Shelob can choose to kill and remove a friendly model within 1\" of her from the board. If she does so, Shelob can re-roll any number of dice when making a Duel roll.\n                -Only Orc Hero models may lead Orc Warrior models.\n                -Only Uruk-hai Hero models may lead Uruk-hai Warrior models."
 			},
 			{
@@ -1231,6 +1239,10 @@
 			{
 				"name": "The Men of the West",
 				"parentFaction": "Minas Tirith",
+				"keywordMatches": [
+					"Gondor",
+					"Rohan"
+				],
 				"alignment": "Good",
 				"armyBonus": "All models in this force must have the Infantry keyword. No Cavalry models are available.\n                Only Gondor Hero models may lead Gondor Warrior models. Only Rohan Hero models may lead Rohan Warrior models.\n                This Day We Fight! - Whilst Aragorn, King Elessar, is alive and on the battlefield, all models from this army list automatically pass all Courage tests that they are required to make.\n                For Frodo! - Once per game, at the start of any Fight phase, so long as he is alive and on the battlefield, Aragorn can declare he is using this ability. Friendly models within 12\" increase their Fight value by 1 until the end of the turn."
 			},
@@ -4633,7 +4645,7 @@
 					},
 					{
 						"name": "Cirith Ungol",
-						"heroicTier": "Hero of Fortitude"
+						"heroicTier": "Minor Hero"
 					},
 					{
 						"name": "Assault on Lothlorien",
@@ -8662,6 +8674,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
+				"requiredIn": "Rangers of Ithilien",
 				"points": 60,
 				"movement": 4,
 				"fight": 3,
@@ -8754,6 +8767,7 @@
 						"unlockedBy": "Frodo Baggins"
 					}
 				],
+				"requiredIn": "Rangers of Ithilien",
 				"points": 40,
 				"movement": 4,
 				"fight": 3,
@@ -8965,10 +8979,10 @@
 					},
 					{
 						"name": "Rangers of Ithilien",
-						"heroicTier": "Independent Hero",
-						"unlockedBy": "Samwise Gamgee"
+						"heroicTier": "Independent Hero"
 					}
 				],
+				"requiredIn": "Rangers of Ithilien",
 				"points": 30,
 				"movement": 5,
 				"fight": 4,
@@ -9019,6 +9033,9 @@
 						"name": "Thorin's Company",
 						"heroicTier": "Hero of Legend"
 					}
+				],
+				"requiredIn": [
+					"Vanquishers of the Necromancer"
 				],
 				"points": 170,
 				"movement": 6,
@@ -22417,7 +22434,10 @@
 				],
 				"additionalHeroes": [
 					"Razgush, War Leader of the North",
-					"Druzhag the Beastcaller",
+					{
+						"name": "Druzhag the Beastcaller",
+						"availableIn": "Moria"
+					},
 					{
 						"name": "Orc Captain",
 						"unlockedBy": "Razgush, War Leader of the North"
@@ -23262,8 +23282,9 @@
 			},
 			{
 				"name": "Goblin Mercenary",
-				"factions": [
-					"Azog's Legion"
+				"factions": [],
+				"additionalHeroes": [
+					"Goblin Mercenary Captain"
 				],
 				"points": 5,
 				"movement": 5,
@@ -24116,7 +24137,7 @@
 					{
 						"name": "Venom-back",
 						"points": 2,
-						"availableOn": "Ashrak"
+						"unlockedBy": "Ashrak"
 					}
 				],
 				"specialRules": [
