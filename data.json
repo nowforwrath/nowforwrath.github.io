@@ -18201,6 +18201,7 @@
 						"heroicTier": "Minor Hero"
 					}
 				],
+				"unlimited": true,
 				"points": 40,
 				"movement": 6,
 				"fight": 5,
