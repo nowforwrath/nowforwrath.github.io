@@ -15431,7 +15431,7 @@
 				"factions": [
 					{
 						"name": "Moria",
-						"heroicTier": "Hero of Fortitude"
+						"heroicTier": "Minor Hero"
 					},
 					{
 						"name": "Depths of Moria",
@@ -15536,7 +15536,7 @@
 				"factions": [
 					{
 						"name": "Moria",
-						"heroicTier": "Hero of Fortitude"
+						"heroicTier": "Minor Hero"
 					},
 					{
 						"name": "Depths of Moria",
@@ -24271,7 +24271,6 @@
 				],
 				"wargear": [
 					"Warg",
-					"Orc Bow",
 					"Orc Bow",
 					"Armour",
 					"Sword",
