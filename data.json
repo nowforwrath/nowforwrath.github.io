@@ -16263,6 +16263,10 @@
 					{
 						"name": "The Misty Mountains",
 						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Radagast's Alliance",
+						"heroicTier": "Hero of Legend"
 					}
 				],
 				"points": 150,
@@ -16716,6 +16720,10 @@
 				"factions": [
 					{
 						"name": "The Beornings",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Radagast's Alliance",
 						"heroicTier": "Hero of Valour"
 					}
 				],
@@ -24522,7 +24530,8 @@
 			{
 				"name": "Great Eagle",
 				"factions": [
-					"The Misty Mountains"
+					"The Misty Mountains",
+					"Radagast's Alliance"
 				],
 				"points": 100,
 				"movement": 3,
