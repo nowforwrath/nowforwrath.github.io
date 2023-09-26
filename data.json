@@ -4625,7 +4625,7 @@
 					},
 					{
 						"name": "Barad Dur",
-						"heroicTier": "Hero of Fortitude"
+						"heroicTier": "Minor Hero"
 					},
 					{
 						"name": "Wolves of Isengard",
@@ -5306,7 +5306,11 @@
 				"options": [
 					{
 						"name": "Horse",
-						"points": 10
+						"points": 10,
+						"availableIn": [
+							"Rivendell",
+							"The White Council"
+						]
 					},
 					{
 						"name": "Heavy Armour",
@@ -7056,7 +7060,10 @@
 				"options": [
 					{
 						"name": "Horse",
-						"points": 10
+						"points": 10,
+						"availableIn": [
+							"The White Council"
+						]
 					}
 				],
 				"magicalPowers": [
@@ -9007,6 +9014,10 @@
 					{
 						"name": "Vanquishers of the Necromancer",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Thorin's Company",
+						"heroicTier": "Hero of Legend"
 					}
 				],
 				"points": 170,
@@ -14339,13 +14350,66 @@
 						"points": 15
 					},
 					{
-						"name": "The Ring",
+						"name": "The One Ring",
 						"points": 0
 					}
 				],
 				"specialRules": [
 					"Resistant to Magic",
 					"Throw Stones (range 8, Strength 1)"
+				],
+				"wargear": [
+					"Dagger"
+				]
+			},
+			{
+				"name": "Bilbo Baggins (Thorin's Company)",
+				"factions": [
+					{
+						"name": "Thorin's Company",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 60,
+				"movement": 4,
+				"fight": 3,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 6,
+				"might": 2,
+				"will": 3,
+				"fate": 3,
+				"heroicActions": [
+					"Heroic Resolve",
+					"Heroic Strike",
+					"Heroic Defence"
+				],
+				"keywords": [
+					"Hobbit",
+					"Infantry",
+					"Hero"
+				],
+				"options": [
+					{
+						"name": "Pony",
+						"points": 5
+					},
+					{
+						"name": "Sting",
+						"points": 5
+					},
+					{
+						"name": "The One Ring",
+						"points": 0
+					}
+				],
+				"specialRules": [
+					"Resistant to Magic",
+					"Throw Stones (range 8, Strength 1)",
+					"It has not yet Awoken"
 				],
 				"wargear": [
 					"Dagger"
@@ -15899,7 +15963,11 @@
 					{
 						"name": "Exchange Staff of Power for Great Eagle",
 						"points": 50,
-						"usesDefinition": "Great Eagle"
+						"usesDefinition": "Great Eagle",
+						"availableIn": [
+							"Radagast's Alliance",
+							"The White Council"
+						]
 					},
 					{
 						"name": "Sleigh",
@@ -15907,11 +15975,19 @@
 					},
 					{
 						"name": "Horse",
-						"points": 10
+						"points": 10,
+						"availableIn": [
+							"Radagast's Alliance",
+							"The White Council"
+						]
 					},
 					{
 						"name": "Sebastian",
-						"points": 5
+						"points": 5,
+						"availableIn": [
+							"Radagast's Alliance",
+							"The White Council"
+						]
 					}
 				],
 				"specialRules": [
@@ -18380,8 +18456,7 @@
 				"includesHeroes": [
 					"Mahud Beastmaster Chieftan",
 					"Mumak"
-				],
-				"increasesWarbandSize": -16
+				]
 			},
 			{
 				"name": "War Mumak of Harad",
@@ -18459,8 +18534,7 @@
 				"includesHeroes": [
 					"Haradrim Commander",
 					"Mumak"
-				],
-				"increasesWarbandSize": -16
+				]
 			},
 			{
 				"name": "Haradrim Commander",
@@ -19387,6 +19461,10 @@
 					{
 						"name": "The Chief's Ruffians",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Sharkey's Rogues",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 30,
@@ -20052,6 +20130,14 @@
 				"factions": [
 					{
 						"name": "Wanderers in the Wild",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Chief's Ruffians",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Sharkey's Rogues",
 						"heroicTier": "Minor Hero"
 					}
 				],
@@ -22249,6 +22335,69 @@
 					"Armour",
 					"Sword",
 					"Sword"
+				]
+			},
+			{
+				"name": "Catapult Troll",
+				"factions": [
+					"Azog's Legion"
+				],
+				"points": 180,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 7,
+				"defence": 7,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 3,
+				"keywords": [
+					"Troll",
+					"Gundabad",
+					"Monster",
+					"Siege Engine",
+					"Infantry"
+				],
+				"options": [],
+				"specialRules": [
+					"Terror",
+					"Area Effect",
+					"Goblin Crew"
+				],
+				"wargear": [
+					"Catapult",
+					"Metal gauntlets"
+				]
+			},
+			{
+				"name": "Troll Brute",
+				"factions": [
+					"Azog's Legion"
+				],
+				"points": 100,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 6,
+				"strength": 7,
+				"defence": 6,
+				"attack": 3,
+				"wounds": 4,
+				"courage": 3,
+				"keywords": [
+					"Troll",
+					"Gundabad",
+					"Monster",
+					"Infantry",
+					"Warrior"
+				],
+				"options": [],
+				"specialRules": [
+					"Fearless",
+					"Terror",
+					"Crushing Blow"
+				],
+				"wargear": [
+					"Flails"
 				]
 			},
 			{
@@ -24532,6 +24681,13 @@
 					"The Serpent Horde",
 					"Grand Army of the South"
 				],
+				"additionalHeroes": [
+					{
+						"name": "The Mumak Warleader",
+						"availableIn": "Far Harad"
+					},
+					"War Mumak of Far Harad"
+				],
 				"points": 6,
 				"movement": 6,
 				"fight": 3,
@@ -25073,6 +25229,9 @@
 				"factions": [
 					"The Shire",
 					"Defenders of the Shire"
+				],
+				"additionalHeroes": [
+					"Ted Sandyman"
 				],
 				"points": 4,
 				"movement": 4,
@@ -26362,6 +26521,14 @@
 			{
 				"name": "Boar spear",
 				"definition": "A boar spear can be used as either a spear or a two-handed axe."
+			},
+			{
+				"name": "Catapult",
+				"definition": "A Catapult Troll always follows the rules for Volley Fire, giving it a range of 12\"-96\". Shots fired from the Catapult are resolved at Strength 10. When firing the Catapult, follow the rules for Siege Engines in the main rules manual with the following exceptions:\n\n                The Catapult Troll may still fire in the same turn that it has moved in, even if this is up to its full Move value. However, if the Catapult Troll has moved, it will only hit on the roll of a 6. The Catapult may still be fired whilst the Troll is in combat. If you wish to do this, and a 1 is rolled when rolling To Hit, the Catapult will malfunction and the Catapult Troll will suffer a wound. A Catapult Troll does not have a crew in the same way as a conventional Siege Engine – however, it is classed as a large Siege Engine and the Troll itself is considered to be the Siege Veteran. However, unlike other Siege Veterans, the Troll has no points of Might, Will or Fate. Unlike other Siege Engines, the Catapult Troll cannot be destroyed if a model spends its entire turn in base contact with it."
+			},
+			{
+				"name": "Metal Gauntlets",
+				"definition": "Catapult Trolls never count as being unarmed. Furthermore, count their Strength as 10 when rolling for distance with a Hurl Brutal Power Attack."
 			}
 		],
 		"magicalPowers": [
@@ -26649,7 +26816,7 @@
 			},
 			{
 				"name": "Royal Standard of Rohan",
-				"definition": "This precious heirloom is a banner.\n                Additionally, any Rohan Hero models that are within 3\" of the Royal\n                Standard of Rohan at the start of any turn, and have no Might remaining,\n                automatically add 1 point of Might to their store. This cannot take a Hero\n                model's Might beyond its starting level. Gamling suffers no penalties for\n                carrying the Royal Standard of Rohan."
+				"definition": "This precious heirloom is a banner.\n                Additionally, any Rohan Hero models that are within 3\" of the Royal\n                Standard of Rohan at the start of any turn, and have no Might remaining,\n                automatically add 1 point of Might to their store. This cannot take a Hero\n                model's Might beyond its starting level, and is limited to one hero per turn. Gamling suffers no penalties for\n                carrying the Royal Standard of Rohan."
 			},
 			{
 				"name": "Helmingas",
@@ -28325,6 +28492,18 @@
 			{
 				"name": "Deadeye",
 				"definition": "If Ori scores a 6 when rolling To Hit, do not take any In The Way tests, and do not roll To Wound. His target automatically suffers a single Wound."
+			},
+			{
+				"name": "Goblin Crew",
+				"definition": "If the Catapult Troll wins the Fight, in addition to any Strikes that the Troll makes, the Goblin crew may also make Strikes against those in combat with the Troll. The Goblins inflict D6 Strength 3 Strikes if the Catapult Troll wins the Fight. Note that if the Catapult Troll uses a Brutal Power Attack, then the Goblins do not get these additional Strikes."
+			},
+			{
+				"name": "Crushing Blow",
+				"definition": "Each time a Troll Brute moves into base contact with another model, it must inflict a single Strength 10 hit upon that model. Cavalry models suffer these hits on both the rider and the mount. If the model is slain, then the Troll Brute may continue its move. If it is not slain, then the Troll Brute stops (exactly like a charging model would) and, if the model is an enemy, will fight it as normal in the Fight phase."
+			},
+			{
+				"name": "It has not yet Awoken",
+				"definition": "Bilbo Baggins ignores the Sauron’s Will section of the One Ring’s rules. Furthermore, if Bilbo is the only model left on the controlling player's side, and is wearing the Ring, he is not removed as a casualty, as would usually be the case."
 			}
 		]
 	}
