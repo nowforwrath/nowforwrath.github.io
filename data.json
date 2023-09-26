@@ -308,7 +308,7 @@
 			{
 				"name": "Mordor",
 				"alignment": "evil",
-				"armyBonus": "\"Our Enemy is Ready, His full Strength gathered\"\n                - Whilst you have more models on the board than\n                your opponent, friendly Mordor Warrior models\n                gain + 1 Courage and may re-roll ls To Wound when\n                making Strikes.",
+				"armyBonus": "\"Our Enemy is Ready, His full Strength gathered\" - Whilst you have more models on the board than your opponent, friendly Mordor Warrior models gain + 1 Courage and may re-roll ls To Wound when making Strikes.",
 				"primaryAllies": [
 					"The Easterlings",
 					"The Serpent Horde"
@@ -10720,6 +10720,226 @@
 				]
 			},
 			{
+				"name": "Ori the Dwarf",
+				"factions": [
+					{
+						"name": "Thorin's Company",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 40,
+				"movement": 5,
+				"fight": 3,
+				"shoot": 3,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 5,
+				"might": 1,
+				"will": 3,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Accuracy"
+				],
+				"keywords": [
+					"Dwarf",
+					"Infantry",
+					"Hero"
+				],
+				"options": [
+					{
+						"name": "Pony",
+						"points": 5
+					}
+				],
+				"specialRules": [
+					"Chronicler",
+					"Deadeye"
+				],
+				"wargear": [
+					"Dagger",
+					"Slingshot"
+				]
+			},
+			{
+				"name": "Nori the Dwarf, Champion of Erebor",
+				"factions": [
+					{
+						"name": "Erebor Reclaimed",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Defenders of Erebor",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 80,
+				"movement": 5,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 8,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 5,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Strike",
+					"Heroic Strength"
+				],
+				"keywords": [
+					"Dwarf",
+					"Erebor",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": [
+					"Sworn Protector (Thorin Oakenshield, King Under the Mountain)",
+					"Weapon Master",
+					"Weapon Synergy"
+				],
+				"wargear": [
+					"Heavy Dwarf Armour",
+					"Mace",
+					"Shield"
+				]
+			},
+			{
+				"name": "Nori the Dwarf",
+				"factions": [
+					{
+						"name": "Thorin's Company",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 55,
+				"movement": 5,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Strike"
+				],
+				"keywords": [
+					"Dwarf",
+					"Infantry",
+					"Hero"
+				],
+				"options": [
+					{
+						"name": "Pony",
+						"points": 5
+					}
+				],
+				"specialRules": [
+					"Weapon Master"
+				],
+				"wargear": [
+					"Armour",
+					"Dagger",
+					"Two-handed mace"
+				]
+			},
+			{
+				"name": "Dori the Dwarf, Champion of Erebor",
+				"factions": [
+					{
+						"name": "Erebor Reclaimed",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Defenders of Erebor",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 75,
+				"movement": 5,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 8,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 5,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Strength",
+					"Heroic Defence"
+				],
+				"keywords": [
+					"Dwarf",
+					"Erebor",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": [
+					"Sworn Protector (Thorin Oakenshield, King Under the Mountain)",
+					"A Good Sort Really",
+					"Weapon Master"
+				],
+				"wargear": [
+					"Heavy Dwarf Armour",
+					"Two-handed Mace"
+				]
+			},
+			{
+				"name": "Dori the Dwarf",
+				"factions": [
+					{
+						"name": "Thorin'S company",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 55,
+				"movement": 5,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 5,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Strength"
+				],
+				"keywords": [
+					"Dwarf",
+					"Infantry",
+					"Hero"
+				],
+				"options": [
+					{
+						"name": "Pony",
+						"points": 5
+					}
+				],
+				"specialRules": [
+					"A Good Sort Really"
+				],
+				"wargear": [
+					"Armour",
+					"Sword",
+					"Flail"
+				]
+			},
+			{
 				"name": "Oin the Dwarf, Champion of Erebor",
 				"factions": [
 					{
@@ -10762,6 +10982,137 @@
 					"Heavy Dwarf Armour",
 					"Sword",
 					"Shield"
+				]
+			},
+			{
+				"name": "Oin the Dwarf",
+				"factions": [
+					{
+						"name": "Thorin's company",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 45,
+				"movement": 5,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 6,
+				"might": 1,
+				"will": 4,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Resolve"
+				],
+				"keywords": [
+					"Dwarf",
+					"Infantry",
+					"Hero"
+				],
+				"options": [
+					{
+						"name": "Pony",
+						"points": 5
+					}
+				],
+				"specialRules": [
+					"Healing Herbs",
+					"Prognostication"
+				],
+				"wargear": [
+					"Hand-and-a-half staff"
+				]
+			},
+			{
+				"name": "Gloin the Dwarf, Champion of Erebor",
+				"factions": [
+					{
+						"name": "Erebor Reclaimed",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Defenders of Erebor",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 90,
+				"movement": 5,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 8,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 6,
+				"might": 3,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Strike",
+					"Heroic Strength"
+				],
+				"keywords": [
+					"Dwarf",
+					"Erebor",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": [
+					"Sworn Protector (Thorin Oakenshield, King Under the Mountain)",
+					"A Warrior Born",
+					"Weapon Master"
+				],
+				"wargear": [
+					"Heavy Dwarf Armour",
+					"Two-handed Axe"
+				]
+			},
+			{
+				"name": "Gloin the Dwarf",
+				"factions": [
+					{
+						"name": "Thorin's Company",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 85,
+				"movement": 5,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 6,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Strike",
+					"Heroic Strength"
+				],
+				"keywords": [
+					"Dwarf",
+					"Infantry",
+					"Hero"
+				],
+				"options": [
+					{
+						"name": "Pony",
+						"points": 5
+					}
+				],
+				"specialRules": [
+					"A Warrior Born"
+				],
+				"wargear": [
+					"Dwarf Armour",
+					"Two axes",
+					"Throwing axes"
 				]
 			},
 			{
@@ -12144,6 +12495,264 @@
 				]
 			},
 			{
+				"name": "Bifur the Dwarf, Champion of Erebor",
+				"factions": [
+					{
+						"name": "Erebor Reclaimed",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Defenders of Erebor",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 65,
+				"movement": 5,
+				"fight": 4,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 8,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Strike"
+				],
+				"keywords": [
+					"Dwarf",
+					"Erebor",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": [
+					"Throw Stones (range 8\", Strength 1)",
+					"Sworn Protector (Thorin Oakenshield, King Under the Mountain)",
+					"Embedded Axe-blade"
+				],
+				"wargear": [
+					"Heavy Dwarf Armour",
+					"Hand-and-a-half axe"
+				]
+			},
+			{
+				"name": "Bifur the Dwarf",
+				"factions": [
+					{
+						"name": "Thorin's Company",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 45,
+				"movement": 5,
+				"fight": 4,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Strike"
+				],
+				"keywords": [
+					"Dwarf",
+					"Infantry",
+					"Hero"
+				],
+				"options": [
+					{
+						"name": "Pony",
+						"points": 5
+					}
+				],
+				"specialRules": [
+					"Throw Stones (range 8\", Strength 1)",
+					"Embedded Axe-blade"
+				],
+				"wargear": [
+					"Armour",
+					"Dagger",
+					"Boar spear"
+				]
+			},
+			{
+				"name": "Bofur the Dwarf, Champion of Erebor",
+				"factions": [
+					{
+						"name": "Erebor Reclaimed",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Defenders of Erebor",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 65,
+				"movement": 5,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 8,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Resolve",
+					"Heroic Strike"
+				],
+				"keywords": [
+					"Dwarf",
+					"Erebor",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": [
+					"Sworn Protector (Thorin Oakenshield, King Under the Mountain)",
+					"Steadfast"
+				],
+				"wargear": [
+					"Heavy Dwarf Armour",
+					"Hand-and-a-half hammer"
+				]
+			},
+			{
+				"name": "Bofur the Dwarf",
+				"factions": [
+					{
+						"name": "Thorin's Company",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 45,
+				"movement": 5,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Resolve"
+				],
+				"keywords": [
+					"Dwarf",
+					"Infantry",
+					"Hero"
+				],
+				"options": [
+					{
+						"name": "Pony",
+						"points": 5
+					}
+				],
+				"specialRules": [
+					"Steadfast"
+				],
+				"wargear": [
+					"Armour",
+					"Mattock"
+				]
+			},
+			{
+				"name": "Bombur the Dwarf, Champion of Erebor",
+				"factions": [
+					{
+						"name": "Erebor Reclaimed",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 60,
+				"movement": 5,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 2,
+				"wounds": 3,
+				"courage": 5,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Defence"
+				],
+				"keywords": [
+					"Dwarf",
+					"Erebor",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": [
+					"Sworn Protector (Thorin Oakenshield, King Under the Mountain)",
+					"Beefy",
+					"Lumbering",
+					"Raising Spirits"
+				],
+				"wargear": [
+					"Heavy Dwarf Armour",
+					"Flail"
+				]
+			},
+			{
+				"name": "Bombur the Dwarf",
+				"factions": [
+					{
+						"name": "Thorin's company",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 45,
+				"movement": 5,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 4,
+				"attack": 2,
+				"wounds": 3,
+				"courage": 5,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Defence"
+				],
+				"keywords": [
+					"Dwarf",
+					"Infantry",
+					"Hero"
+				],
+				"options": [
+					{
+						"name": "Pony",
+						"points": 5
+					}
+				],
+				"specialRules": [
+					"Beefy",
+					"Lumbering",
+					"Raising Spirits"
+				],
+				"wargear": [
+					"Cleaver (counts as a sword)"
+				]
+			},
+			{
 				"name": "Thrydan Wolfsbane",
 				"factions": [
 					{
@@ -12466,7 +13075,7 @@
 					},
 					{
 						"name": "Army of Dunland",
-						"heroicTier": "Hero of Valour"
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 55,
@@ -25749,6 +26358,10 @@
 			{
 				"name": "Lantern",
 				"definition": "The area within a 12\" radius of Harry Goatleaf is illuminated as if it were daylight. Models within this area can be seen clearly, unless another special rule would prevent them from doing so."
+			},
+			{
+				"name": "Boar spear",
+				"definition": "A boar spear can be used as either a spear or a two-handed axe."
 			}
 		],
 		"magicalPowers": [
@@ -26871,7 +27484,7 @@
 			},
 			{
 				"name": "Weapon Master",
-				"definition": "Dwalin the Dwarf, Champion of Erebor (or Young Dwalin the Dwarf) is never considered unarmed, and never suffers the usual -1 penalty to the Duel roll for fighting with a two-handed weapon."
+				"definition": "This model is never considered unarmed, and never suffers the usual -1 penalty to the Duel roll for fighting with a two-handed weapon."
 			},
 			{
 				"name": "The King's Axeman",
@@ -27676,6 +28289,42 @@
 			{
 				"name": "Gatekeeper",
 				"definition": "During the Priority phase, after Priority has been rolled, Harry Goatleaf may spend a point of Will to use this special rule. If he does so, select one enemy Infantry model within 6\" and Line of Sight of Harry Goatleaf and roll a D6. On a 3+, the chosen model cannot move that turn, though they can still do anything else they would normally be able to do. Harry may use Might to influence this roll. Monster models are unaffected by this special rule."
+			},
+			{
+				"name": "Embedded Axe-blade",
+				"definition": "If Bifur the Dwarf, Champion of Erebor wins a fight, he may choose to headbutt his enemy with the axe-blade embedded in his skull. Instead of striking normally, he may make a single Strike against his opponent. If Bifur manages to successfully wound his opponent, then the axe has been removed from his skull. Once the axe-blade is removed, Bifur may call a Heroic Move each turn without reducing his own Might store."
+			},
+			{
+				"name": "Steadfast",
+				"definition": "Whenever Bofur is targeted by a Magical Power or special rule, he may try to ignore its effects. Roll a D6. On the score of a 2+, its effects are ignored. This roll may be modified by Might. If you wish to try to Resist a Magical Power, you must do so before making Bofur’s Steadfast roll."
+			},
+			{
+				"name": "Beefy",
+				"definition": "When Bombur the Dwarf makes Strikes, he may choose to use the Bash Special Strike just as if he were using a mace."
+			},
+			{
+				"name": "Lumbering",
+				"definition": "When making Jump or Climb tests, Bombur the Dwarf must re-roll results of 6. Additionally, he may not call Heroic Moves."
+			},
+			{
+				"name": "Raising Spirits",
+				"definition": "Once each turn, at any point in Bombur’s Move phase, choose a friendly model in base contact with Bombur the Dwarf and roll a D6. On a 4+, the chosen model regains a point of Will spent earlier in the battle (or campaign)."
+			},
+			{
+				"name": "Weapon Synergy",
+				"definition": "Nori the Dwarf, Champion of Erebor may re-roll one dice to win a Duel and may re-roll one dice when making Strikes."
+			},
+			{
+				"name": "A Good Sort Really",
+				"definition": "If Bilbo Baggins, Master Burglar is within 3\" of Dori the Dwarf, Champion of Erebor, he may spend Dori’s Might, Will and Fate points as if they were his own."
+			},
+			{
+				"name": "A Warrior Born",
+				"definition": "Gloin the Dwarf must re-roll scores of 1 To Wound in combat."
+			},
+			{
+				"name": "Deadeye",
+				"definition": "If Ori scores a 6 when rolling To Hit, do not take any In The Way tests, and do not roll To Wound. His target automatically suffers a single Wound."
 			}
 		]
 	}
