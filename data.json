@@ -2,6 +2,9 @@
 	"config": {
 		"trackHighestDivision": true
 	},
+	"creditText": "Now for Wrath, a blog full of battle report writeups!",
+	"creditUrl": "nowforwrath.com",
+	"creditEmail": "nowforwrathblog@gmail.com",
 	"game": "Middle-Earth Strategy Battle Game",
 	"elements": [
 		{
