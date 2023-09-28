@@ -24179,7 +24179,19 @@
 					{
 						"name": "Venom-back",
 						"points": 2,
-						"unlockedBy": "Ashrak"
+						"unlockedBy": "Ashrak",
+						"availableIn": [
+							"Dark Denizens of Mirkwood",
+							"Fell Beings of Mirkwood"
+						]
+					},
+					{
+						"name": "Venom-back",
+						"points": 0,
+						"unlockedBy": "Ashrak",
+						"availableIn": [
+							"Assault on Lothlorien"
+						]
 					}
 				],
 				"specialRules": [
