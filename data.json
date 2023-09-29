@@ -1221,6 +1221,10 @@
 			{
 				"name": "Assault on Lothlorien",
 				"parentFaction": "Mordor",
+				"keywordMatches": [
+					"Orc",
+					"Goblin"
+				],
 				"alignment": "Evil",
 				"armyBonus": "An Assault on Lothlórien force must always include Muzgúr and at least one named Goblin Hero model.\n                Only Orc Hero models may lead Orc Warrior models. Only Goblin Hero models may lead Goblin Warrior models.\n                Spider models may only be included in warbands led by Drûzhag or Ashrâk.\n                In this Legendary Legion, Muzgúr, Drûzhag and Ashrâk are Heroes of Valour, and Shamans are Heroes of Fortitude.\n                Cover of Darkness - Any battle featuring this Legendary Legion takes place at night. As such, due to the reduced visibility, models cannot be targeted by shooting, Magical Powers or special abilities over 12\" away. However, as it is much harder to avoid a shot in the dark, all shooting attacks gain a bonus of +1 when rolling To Wound. Siege Engines may still target enemy models more than 12\" away, however in this situation they will only ever hit on the roll of a 6. Models with the Cave Dweller special rule can see as normal.\n                Ruthless Savagery - Friendly Orc and Goblin models gain a bonus of +1 To Wound in a fight in which the opposing model is outnumbered. Note that supporting models do not count for either side for the purpose of this rule.\n                Dark Magics - Friendly models may re-roll any number of D6 when making a Casting roll.\n                Venom-back Spiders - If your force contains Ashrâk then all Giant Spiders in your force can be upgraded to Venom-back Spiders for free."
 			},
@@ -6833,7 +6837,8 @@
 							"The Iron Hills",
 							"Defenders of Erebor",
 							"Erebor Reclaimed"
-						]
+						],
+						"usesDefinition": "Mattock"
 					}
 				],
 				"specialRules": [
@@ -21686,7 +21691,8 @@
 					},
 					{
 						"name": "Exchange Shield for Mattock",
-						"points": 0
+						"points": 0,
+						"usesDefinition": "Mattock"
 					},
 					{
 						"name": "Exchange Shield for Crossbow",
@@ -21731,8 +21737,9 @@
 						"points": 25
 					},
 					{
-						"name": "Exchange Shield for Mattock",
-						"points": 0
+						"name": "Exchange War Spear for Mattock",
+						"points": 0,
+						"usesDefinition": "Mattock"
 					}
 				],
 				"specialRules": [
@@ -24182,7 +24189,7 @@
 						"unlockedBy": "Ashrak",
 						"availableIn": [
 							"Dark Denizens of Mirkwood",
-							"Fell Beings of Mirkwood"
+							"Moria"
 						]
 					},
 					{
