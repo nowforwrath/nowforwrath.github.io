@@ -12021,7 +12021,8 @@
 				"keywords": [],
 				"options": [],
 				"specialRules": [],
-				"wargear": []
+				"wargear": [],
+				"decreaseModelCount": 1
 			},
 			{
 				"name": "Thorin Oakenshield, King Under the Mountain",
