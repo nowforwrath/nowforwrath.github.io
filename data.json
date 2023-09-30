@@ -8142,7 +8142,12 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [],
+				"options": [
+					{
+						"name": "Shield",
+						"points": 5
+					}
+				],
 				"specialRules": [
 					"Blades of the Dead",
 					"Spectral Walk",
