@@ -22566,12 +22566,10 @@
 					{
 						"name": "Galadhrim Guard",
 						"points": 1,
-						"unlockedBy": "Galadriel"
-					},
-					{
-						"name": "Galadhrim Guard",
-						"points": 1,
-						"unlockedBy": "Celeborn"
+						"availableOn": [
+							"Galadriel",
+							"Celeborn"
+						]
 					}
 				],
 				"specialRules": [
@@ -22726,7 +22724,7 @@
 					{
 						"name": "Hearthguard",
 						"points": 2,
-						"unlockedBy": "Durin, King of Khazad-Dum"
+						"availableOn": "Durin, King of Khazad-Dum"
 					}
 				],
 				"specialRules": [
@@ -25355,7 +25353,7 @@
 					{
 						"name": "Battlin' Brandybuck",
 						"points": 1,
-						"unlockedBy": "Meriadoc, Captain of the Shire"
+						"availableOn": "Meriadoc, Captain of the Shire"
 					}
 				],
 				"specialRules": [
