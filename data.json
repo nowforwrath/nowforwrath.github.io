@@ -17122,7 +17122,8 @@
 					"Armour",
 					"War Spear",
 					"Sword"
-				]
+				],
+				"unlimited": true
 			},
 			{
 				"name": "Haradrim Taskmaster",
@@ -17165,7 +17166,8 @@
 					"Armour",
 					"club",
 					"whip"
-				]
+				],
+				"unlimited": true
 			},
 			{
 				"name": "Raza, Fang of the Serpent",
