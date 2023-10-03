@@ -623,7 +623,8 @@
 					"Goblin-town",
 					"Moria",
 					"The Trolls"
-				]
+				],
+				"bowLimitPercentage": 50
 			},
 			{
 				"name": "Breaking of the Fellowship",
@@ -1135,7 +1136,8 @@
 					"Isengard",
 					"Moria",
 					"Variags of Khand"
-				]
+				],
+				"bowLimitPercentage": 50
 			},
 			{
 				"name": "Corsairs of Umbar",
@@ -1271,7 +1273,8 @@
 				"name": "Grand Army of the South",
 				"parentFaction": "The Serpent Horde",
 				"alignment": "Evil",
-				"armyBonus": "A Grand Army of the South force must always include either Suladân the Serpent Lord or the Mûmak War Leader (it may have both if you wish).\n                Only Mahûd Hero models may lead Mahûd Warrior models.\n                At least 50% of the models in a Grand Army of the South force must have the Haradrim keyword.\n                Your force must include at least one Mumak model.\n                Hail of Poisoned Arrows - A Grand Army of the South force may have 50% of its Warrior models armed with bows.\n                The Making of a King - You army’s leader may declare a free Heroic Action at the start of any Fight phase in which they are Engaged in combat with the enemy leader. If the Mûmak War Leader is your leader, he may still use this ability whilst atop his Royal War Mûmak, in which case the Mûmak will be affected as if it had been the one to declare the Heroic Action.\n                War Beasts of the South - All Mûmak models in your force gain the Harbinger of Evil special rule.\n                Warrior Pride - Mahûd Warrior models that are within 6\" of a friendly Mahûd Hero model that is Engaged in combat automatically pass all Courage tests they are required to make.\n                "
+				"armyBonus": "A Grand Army of the South force must always include either Suladân the Serpent Lord or the Mûmak War Leader (it may have both if you wish).\n                Only Mahûd Hero models may lead Mahûd Warrior models.\n                At least 50% of the models in a Grand Army of the South force must have the Haradrim keyword.\n                Your force must include at least one Mumak model.\n                Hail of Poisoned Arrows - A Grand Army of the South force may have 50% of its Warrior models armed with bows.\n                The Making of a King - You army’s leader may declare a free Heroic Action at the start of any Fight phase in which they are Engaged in combat with the enemy leader. If the Mûmak War Leader is your leader, he may still use this ability whilst atop his Royal War Mûmak, in which case the Mûmak will be affected as if it had been the one to declare the Heroic Action.\n                War Beasts of the South - All Mûmak models in your force gain the Harbinger of Evil special rule.\n                Warrior Pride - Mahûd Warrior models that are within 6\" of a friendly Mahûd Hero model that is Engaged in combat automatically pass all Courage tests they are required to make.\n                ",
+				"bowLimitPercentage": 50
 			},
 			{
 				"name": "Dark Denizens of Mirkwood",
