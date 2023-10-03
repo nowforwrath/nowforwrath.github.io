@@ -9697,6 +9697,10 @@
 					{
 						"name": "Pits of Dol Guldur",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Dark Powers of Dol Guldur",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 45,
@@ -11702,6 +11706,10 @@
 					},
 					{
 						"name": "Pits of Dol Guldur",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Dark Powers of Dol Guldur",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -22352,7 +22360,8 @@
 				"name": "Hunter Orc",
 				"factions": [
 					"Azog's Hunters",
-					"Pits of Dol Guldur"
+					"Pits of Dol Guldur",
+					"Dark Powers of Dol Guldur"
 				],
 				"points": 8,
 				"movement": 6,
@@ -22528,7 +22537,8 @@
 				"factions": [
 					"Azog's Hunters",
 					"Fell Beings of Mirkwood",
-					"Pits of Dol Guldur"
+					"Pits of Dol Guldur",
+					"Dark Powers of Dol Guldur"
 				],
 				"additionalHeroes": [
 					"Razgush, War Leader of the North",
@@ -23159,7 +23169,8 @@
 				"name": "Gundabad Orc Warrior",
 				"factions": [
 					"Azog's Legion",
-					"Pits of Dol Guldur"
+					"Pits of Dol Guldur",
+					"Dark Powers of Dol Guldur"
 				],
 				"points": 8,
 				"movement": 6,
@@ -25537,7 +25548,8 @@
 				"name": "Mirkwood Spider",
 				"factions": [
 					"Fell Beings of Mirkwood",
-					"Dark Denizens of Mirkwood"
+					"Dark Denizens of Mirkwood",
+					"Dark Powers of Dol Guldur"
 				],
 				"additionalHeroes": [
 					"Razgush, War Leader of the North",
