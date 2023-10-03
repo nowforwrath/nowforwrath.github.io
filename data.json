@@ -22510,6 +22510,37 @@
 				]
 			},
 			{
+				"name": "War Bat",
+				"factions": [
+					"Azog's Legion"
+				],
+				"points": 25,
+				"movement": 12,
+				"fight": 3,
+				"shoot": 5,
+				"strength": 4,
+				"defence": 4,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 3,
+				"keywords": [
+					"Bat",
+					"Gundabad",
+					"Infantry",
+					"Warrior"
+				],
+				"options": [],
+				"specialRules": [
+					"Fly",
+					"Piercing Talons",
+					"Pluck"
+				],
+				"wargear": [
+					"Razor-sharp teeth",
+					"Talons"
+				]
+			},
+			{
 				"name": "Fell Warg",
 				"factions": [
 					"Azog's Hunters",
@@ -28663,6 +28694,14 @@
 			{
 				"name": "Relentless Advance",
 				"definition": "When an Ogre charges into combat, they can pass ‘through’ friendly Orc, Goblin and Bat models when they move and each model that they pass through suffers a Strength 3 hit. A model that they end their move on is automatically removed as a casualty. A model with this special rule cannot be Compelled/Commanded over friendly models if it is forced to Charge as part of that Magical Power."
+			},
+			{
+				"name": "Piercing Talons",
+				"definition": "When a War Bat Charges, the Defence of the charged model, and any models that subsequently counter-charge, is reduced by 2 against the War Bat’s Strikes."
+			},
+			{
+				"name": "Pluck",
+				"definition": "At the end of a War Bat’s Move, pick an unengaged Man-sized (or smaller) enemy model that it has moved over and roll a D6. On a 4+, that model suffers a Strength 4 hit. If it survives, roll another dice. On a 4+, that model is Knocked to the Ground."
 			}
 		]
 	}
