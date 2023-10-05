@@ -22918,7 +22918,7 @@
 					"Axe",
 					"Iron Shield"
 				],
-				"unavailableSolo": true
+				"autoAddOnly": true
 			},
 			{
 				"name": "Foe Spear",
@@ -22948,7 +22948,7 @@
 					"Dwarf Armour",
 					"Foe Spear"
 				],
-				"unavailableSolo": true
+				"autoAddOnly": true
 			},
 			{
 				"name": "Easterling Warrior",
@@ -24492,7 +24492,7 @@
 					"Armour",
 					"Club"
 				],
-				"unavailableSolo": true
+				"autoAddOnly": true
 			},
 			{
 				"name": "Knight of Dol Amroth",
