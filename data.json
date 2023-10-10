@@ -6691,7 +6691,7 @@
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
-						"name": "The Wanderers in the Wild",
+						"name": "Wanderers in the Wild",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -20136,7 +20136,7 @@
 				"options": []
 			},
 			{
-				"name": "Barliman Butterbut",
+				"name": "Barliman Butterbur",
 				"factions": [
 					{
 						"name": "Wanderers in the Wild",
