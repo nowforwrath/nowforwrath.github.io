@@ -2985,7 +2985,7 @@
 				"wounds": 1,
 				"courage": 5,
 				"might": 2,
-				"will": 12,
+				"will": 14,
 				"fate": 2,
 				"heroicActions": [
 					"Heroic Channeling"
@@ -4404,6 +4404,16 @@
 						"points": 10,
 						"requiredIn": [
 							"Wolves of Isengard"
+						],
+						"availableIn": [
+							"Mordor",
+							"The Black Gate Opens",
+							"Barad Dur",
+							"Isengard",
+							"Wolves of Isengard",
+							"Ugluk's Scouts",
+							"Assault on Lothlorien",
+							"Fell Beings of Mirkwood"
 						]
 					},
 					{
@@ -4702,6 +4712,14 @@
 						"points": 10,
 						"requiredIn": [
 							"Wolves of Isengard"
+						],
+						"availableIn": [
+							"Mordor",
+							"The Army of Gothmog",
+							"Barad Dur",
+							"Wolves of Isengard",
+							"Assault on Lothlorien",
+							"Fell Beings of Mirkwood"
 						]
 					}
 				],
@@ -9707,6 +9725,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
+				"unlimited": true,
 				"points": 45,
 				"movement": 6,
 				"fight": 4,
@@ -11717,6 +11736,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
+				"unlimited": true,
 				"points": 50,
 				"movement": 6,
 				"fight": 4,
@@ -20343,7 +20363,11 @@
 				],
 				"ignoreBowLimitIn": [
 					"Rohan",
-					"Paths of the Druadan"
+					"Paths of the Druadan",
+					"Riders of Theoden",
+					"Riders of Eomer",
+					"Theodred's Guard",
+					"Helm's Guard"
 				]
 			},
 			{
@@ -21684,7 +21708,8 @@
 						"on": [
 							"Faramir, Captain of Gondor",
 							"Madril, Captain of of Ithilien",
-							"Damrod, Ranger of Ithilien"
+							"Damrod, Ranger of Ithilien",
+							"Anborn, Ranger of Ithilien"
 						],
 						"in": [
 							"Rangers of Ithilien"
