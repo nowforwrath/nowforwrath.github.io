@@ -2047,7 +2047,7 @@
 					"Throwing spears",
 					"Felarof"
 				],
-				"specialText": "If your force contains Eorl the Young and any other named Hero models\n                from the Rohan army list then it will automatically lose its Army Bonus.\n                Also, if your army includes Eorl, then every alliance will be Impossible\n                Allies. One exception would be Minas Tirith, so long as the Minas Tirith\n                force also includes no named Hero models."
+				"specialText": "If your force contains Eorl the Young and any other named Hero models from the Rohan army list then it will automatically lose its Army Bonus.\n                Also, if your army includes Eorl, then every alliance will be Impossible Allies. One exception would be Minas Tirith, so long as the Minas Tirith force also includes no named Hero models."
 			},
 			{
 				"name": "King's Huntsman",
@@ -4892,7 +4892,7 @@
 				"options": [],
 				"specialRules": [],
 				"wargear": [
-					"Aarmour",
+					"Armour",
 					"Dagger",
 					"War drum (Mordor Orc)"
 				]
@@ -5309,7 +5309,7 @@
 					"Heavy armour",
 					"Aiglos"
 				],
-				"specialText": "If your force contains Gil-Galad and either Arwen, Elladdan & Elrohir, Lindir or Bilbo, then it will automatically lose its Army Bonus. Additionally, the force will automatically\n                be Impossible Allies withh every other army list regardless of what the alliance would normally be.  If your force contains Gil-galad, then every alliance will be Impossible Allies with the following exceptions: Númenor will still be Historical Allies, and Lothlórien, Fangorn, and the Misty Mountains will still be Convenient Allies."
+				"specialText": "If your force contains Gil-Galad and either Arwen, Elladdan & Elrohir, Lindir or Bilbo, then it will automatically lose its Army Bonus. Additionally, the force will automatically\n                be Impossible Allies with every other army list regardless of what the alliance would normally be.  If your force contains Gil-galad, then every alliance will be Impossible Allies with the following exceptions: Númenor will still be Historical Allies, and Lothlórien, Fangorn, and the Misty Mountains will still be Convenient Allies."
 			},
 			{
 				"name": "Elrond, Master of Rivendell",
@@ -6172,6 +6172,9 @@
 					"Heavy armour",
 					"Sword",
 					"The Horn of Gondor"
+				],
+				"unavailableWithHeroes": [
+					"Aragorn - King Elessar"
 				]
 			},
 			{
@@ -6653,7 +6656,17 @@
 					"Heavy Dwarf Armour",
 					"Barazantathul"
 				],
-				"specialText": "If your force contains Dáin Ironfoot, King Under the Mountain, or Thorin III Stonehelm, then all models in this Army List change their Iron Hills keyword for the Erebor\n                keyword. Additionally, your force may not also include the following models from the Erebor Reclaimed army list:\n                Thorin Oakenshield, King Under the Mountain; Kíli the Dwarf, Champion of Erebor; Fíli the Dwarf, Champion of Erebor; Balin the Dwarf, Champion of Erebor; Bombur the\n                Dwarf, Champion of Erebor; Ori the Dwarf, Champion of Erebor; Óin the Dwarf, Champion of Erebor; Dáin Ironfoot, Lord of the Iron Hills. \n                Also, Dwalin may not take a War Goat.\n                Additionally, ignore the Allies Matrix for the Erebor Reclaimed army list. Instead, they will be Historical Allies with the Garrison of Dale, so long as the list contains\n                Brand, King of Dale, or Bard II, Prince of Dale. They will be Convenient Allies with The Dead of Dunharrow, Fangorn, The Fellowship, The Fiefdoms, Halls of Thranduil,\n                Lothlórien, Minas Tirith, The Misty Mountains, The Rangers, Rivendell, Rohan, The Shire and Wildmen of Drúadan. They will be Impossible Allies with all other army lists."
+				"specialText": "If your force contains Dáin Ironfoot, King Under the Mountain, or Thorin III Stonehelm, then all models in this Army List change their Iron Hills keyword for the Erebor\n                keyword. Additionally, your force may not also include the following models from the Erebor Reclaimed army list:\n                Thorin Oakenshield, King Under the Mountain; Kíli the Dwarf, Champion of Erebor; Fíli the Dwarf, Champion of Erebor; Balin the Dwarf, Champion of Erebor; Bombur the\n                Dwarf, Champion of Erebor; Ori the Dwarf, Champion of Erebor; Óin the Dwarf, Champion of Erebor; Dáin Ironfoot, Lord of the Iron Hills. \n                Also, Dwalin may not take a War Goat.\n                Additionally, ignore the Allies Matrix for the Erebor Reclaimed army list. Instead, they will be Historical Allies with the Garrison of Dale, so long as the list contains\n                Brand, King of Dale, or Bard II, Prince of Dale. They will be Convenient Allies with The Dead of Dunharrow, Fangorn, The Fellowship, The Fiefdoms, Halls of Thranduil,\n                Lothlórien, Minas Tirith, The Misty Mountains, The Rangers, Rivendell, Rohan, The Shire and Wildmen of Drúadan. They will be Impossible Allies with all other army lists.",
+				"unavailableWithHeroes": [
+					"Thorin Oakenshield, King Under the Mountain",
+					"Kili the Dwarf, Champion of Erebor",
+					"Fili the Dwarf, Champion of Erebor",
+					"Balin the Dwarf, Champion of Erebor",
+					"Bombur the Dwarf, Champion of Erebor",
+					"Ori the Dwarf, Champion of Erebor",
+					"Oin the Dwarf, Champion of Erebor",
+					"Dain Ironfoot, Lord of the Iron Hills"
+				]
 			},
 			{
 				"name": "Thorin III Stonehelm",
@@ -6699,7 +6712,17 @@
 					"Shield",
 					"Hand-and-a-half pick."
 				],
-				"specialText": "If your force contains Dáin Ironfoot, King Under the Mountain, or Thorin III Stonehelm, then all models in this Army List change their Iron Hills keyword for the Erebor\n                keyword. Additionally, your force may not also include the following models from the Erebor Reclaimed army list:\n                Thorin Oakenshield, King Under the Mountain; Kíli the Dwarf, Champion of Erebor; Fíli the Dwarf, Champion of Erebor; Balin the Dwarf, Champion of Erebor; Bombur the\n                Dwarf, Champion of Erebor; Ori the Dwarf, Champion of Erebor; Óin the Dwarf, Champion of Erebor; Dáin Ironfoot, Lord of the Iron Hills. \n                Also, Dwalin may not take a War Goat.\n                Additionally, ignore the Allies Matrix for the Erebor Reclaimed army list. Instead, they will be Historical Allies with the Garrison of Dale, so long as the list contains\n                Brand, King of Dale, or Bard II, Prince of Dale. They will be Convenient Allies with The Dead of Dunharrow, Fangorn, The Fellowship, The Fiefdoms, Halls of Thranduil,\n                Lothlórien, Minas Tirith, The Misty Mountains, The Rangers, Rivendell, Rohan, The Shire and Wildmen of Drúadan. They will be Impossible Allies with all other army lists."
+				"specialText": "If your force contains Dáin Ironfoot, King Under the Mountain, or Thorin III Stonehelm, then all models in this Army List change their Iron Hills keyword for the Erebor\n                keyword. Additionally, your force may not also include the following models from the Erebor Reclaimed army list:\n                Thorin Oakenshield, King Under the Mountain; Kíli the Dwarf, Champion of Erebor; Fíli the Dwarf, Champion of Erebor; Balin the Dwarf, Champion of Erebor; Bombur the\n                Dwarf, Champion of Erebor; Ori the Dwarf, Champion of Erebor; Óin the Dwarf, Champion of Erebor; Dáin Ironfoot, Lord of the Iron Hills. \n                Also, Dwalin may not take a War Goat.\n                Additionally, ignore the Allies Matrix for the Erebor Reclaimed army list. Instead, they will be Historical Allies with the Garrison of Dale, so long as the list contains\n                Brand, King of Dale, or Bard II, Prince of Dale. They will be Convenient Allies with The Dead of Dunharrow, Fangorn, The Fellowship, The Fiefdoms, Halls of Thranduil,\n                Lothlórien, Minas Tirith, The Misty Mountains, The Rangers, Rivendell, Rohan, The Shire and Wildmen of Drúadan. They will be Impossible Allies with all other army lists.",
+				"unavailableWithHeroes": [
+					"Thorin Oakenshield, King Under the Mountain",
+					"Kili the Dwarf, Champion of Erebor",
+					"Fili the Dwarf, Champion of Erebor",
+					"Balin the Dwarf, Champion of Erebor",
+					"Bombur the Dwarf, Champion of Erebor",
+					"Ori the Dwarf, Champion of Erebor",
+					"Oin the Dwarf, Champion of Erebor",
+					"Dain Ironfoot, Lord of the Iron Hills"
+				]
 			},
 			{
 				"name": "Murin & Drar",
@@ -7594,7 +7617,8 @@
 				"wargear": [
 					"Anduril, Flame of the West",
 					"Heavy Armour"
-				]
+				],
+				"specialText": "Aragorn - King Elessar cannot be in the same army as Boromir or Denethor."
 			},
 			{
 				"name": "Knight of the White Tower",
@@ -9206,6 +9230,9 @@
 				"wargear": [
 					"Armour",
 					"Sword"
+				],
+				"unavailableWithHeroes": [
+					"Aragorn - King Elessar"
 				]
 			},
 			{
@@ -16738,7 +16765,7 @@
 					"Hand-and-a-half-axe",
 					"Great Bow"
 				],
-				"specialText": "Grimbeorn is Historical Allies with the Halls ofThranduil, so long as the army contains Thranduil. He is Convenient Allies with The Dead of\n                Dunharrow, Erebor Reclaimed (so long as it includes Dáin Ironfoot, King Under the Mountain or Thorin III Stonehelm), Fangorn, The Fellowship,\n                The Fiefdoms, Garrison ofDale (so long as it includes either Brand or Bard II), Lothlórien, Minas Tirith, The Misty Mountains, The Rangers,\n                Rivendell, Rohan, The Shire and Wildmen of Drúadan. He is Impossible Allies with all other army lists."
+				"specialText": "Grimbeorn is Historical Allies with the Halls of Thranduil, so long as the army contains Thranduil. He is Convenient Allies with The Dead of Dunharrow, Erebor Reclaimed (so long as it includes Dáin Ironfoot, King Under the Mountain or Thorin III Stonehelm), Fangorn, The Fellowship, The Fiefdoms, Garrison of Dale (so long as it includes either Brand or Bard II), Lothlórien, Minas Tirith, The Misty Mountains, The Rangers, Rivendell, Rohan, The Shire and Wildmen of Drúadan. He is Impossible Allies with all other army lists."
 			},
 			{
 				"name": "Grimbeorn the Bear",
@@ -27565,7 +27592,7 @@
 			},
 			{
 				"name": "The Rule of Gondor is Mine, and no Other's!",
-				"definition": "If your force contains Denethor then he must be your leader, unless your force also contains Aragorn, King Elessar."
+				"definition": "If your force contains Denethor then he must be your leader."
 			},
 			{
 				"name": "Resolute Fighter",
