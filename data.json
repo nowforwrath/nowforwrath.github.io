@@ -1324,7 +1324,7 @@
 			},
 			{
 				"name": "Pits of Dol Guldur",
-				"parentFaction": "Azog's Legion",
+				"parentFaction": "Dark Powers of Dol Guldur",
 				"alignment": "Evil",
 				"armyBonus": "Surprise Attack – Once per game, before Priority is determined, so long as he is alive and on the battlefield, Azog can declare that he is using this ability. If he does so, do not roll for Priority. Instead, Azog’s controlling player will automatically win the Priority roll. Additionally, enemy models may not declare Heroic Moves in the following Move phase.\n                Magical Void - Friendly models gain the Resistant to Magic special rule.\n                Fury of the Pale Orc - Azog may declare a Heroic Combat each turn without spending Might.\n                "
 			},
