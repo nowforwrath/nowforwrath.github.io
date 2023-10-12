@@ -663,7 +663,17 @@
 			{
 				"name": "The Kingdom of Khazad-Dum",
 				"alignment": "good",
-				"armyBonus": "\"The Wealth of Moria lay not in Gold or Jewels, but in Mithril\" - Friendly Dwarf models with either the Khazad-Dum or Moria keyword may re-roll To Wound rolls of a 1 when fighting in close combat."
+				"armyBonus": "\"The Wealth of Moria lay not in Gold or Jewels, but in Mithril\" - Friendly Dwarf models with either the Khazad-Dum or Moria keyword may re-roll To Wound rolls of a 1 when fighting in close combat.",
+				"primaryAllies": [],
+				"secondaryAllies": [
+					"Arnor",
+					"Fangorn",
+					"Halls of Thranduil",
+					"Lothlorien",
+					"The Misty Mountains",
+					"Rivendell",
+					"The White Council"
+				]
 			},
 			{
 				"name": "The Kingdom of Moria",
@@ -24517,6 +24527,28 @@
 				]
 			},
 			{
+				"name": "Moria Blackshield Drummers",
+				"factions": [
+					"Moria",
+					"Depths of Moria"
+				],
+				"points": 75,
+				"hideStats": true,
+				"includesWarriors": [
+					"Moria Blackshield Drummer",
+					"Moria Blackshield Drummer"
+				],
+				"keywords": [
+					"Goblin",
+					"Moria",
+					"Infantry",
+					"Warrior"
+				],
+				"options": [],
+				"specialRules": [],
+				"wargear": []
+			},
+			{
 				"name": "Moria Goblin Drummer",
 				"factions": [
 					"Moria"
@@ -24542,6 +24574,41 @@
 				],
 				"wargear": [
 					"Armour",
+					"Club"
+				],
+				"autoAddOnly": true
+			},
+			{
+				"name": "Moria Blackshield Drummer",
+				"factions": [
+					"Moria"
+				],
+				"points": 0,
+				"movement": 5,
+				"fight": 2,
+				"shoot": 5,
+				"strength": 3,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 3,
+				"keywords": [
+					"Moria",
+					"Goblin",
+					"Infantry",
+					"Warrior"
+				],
+				"options": [],
+				"specialRules": [
+					"Cave Dweller",
+					"Hatred (Dwarf)",
+					"Hatred",
+					"Run and Drum",
+					"Doom! Doom!",
+					"Take up the Drum"
+				],
+				"wargear": [
+					"Heavy Armour",
 					"Club"
 				],
 				"autoAddOnly": true
@@ -28757,6 +28824,18 @@
 			{
 				"name": "Pluck",
 				"definition": "At the end of a War Bat’s Move, pick an unengaged Man-sized (or smaller) enemy model that it has moved over and roll a D6. On a 4+, that model suffers a Strength 4 hit. If it survives, roll another dice. On a 4+, that model is Knocked to the Ground."
+			},
+			{
+				"name": "Run and Drum",
+				"definition": "The Drum is considered to be playing as long as the Drummer and the Drum Bearer are in base contact with each other."
+			},
+			{
+				"name": "Doom! Doom!",
+				"definition": "When the Drum is being played, it has the following effects:\n                \n                All Fights within 12\" of one or more Drums that also include at least one friendly Moria Goblin model, may re-roll a single D6 for their Duel roll. Note that this is not cumulative with the effects of a banner.\n                \n                All friendly Moria Goblin models on the battlefield add 1 to their Courage value, and all enemy models suffer a -1 penalty to their Courage value. Note that this is not cumulative with other rules that confer similar modifiers."
+			},
+			{
+				"name": "Take up the Drum",
+				"definition": "If either the Drummer or the Drum Bearer is slain, they may pass on their wargear to any other unengaged Moria Blackshield within 1\" - immediately replace the model with the slain Drummer or Drum Bearer. Models that take up the Drummer's wargear will automatically drop any that they are carrying."
 			}
 		]
 	}
