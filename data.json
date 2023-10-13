@@ -12106,6 +12106,36 @@
 				"decreaseModelCount": 1
 			},
 			{
+				"name": "No Hero",
+				"factions": [
+					{
+						"name": "Dark Denizens of Mirkwood",
+						"heroicTier": "Hero of Fortitude",
+						"unlockedBy": "The Spider Queen"
+					}
+				],
+				"unlimited": true,
+				"points": 0,
+				"movement": 0,
+				"fight": 0,
+				"shoot": 0,
+				"strength": 0,
+				"defence": 0,
+				"attack": 0,
+				"wounds": 0,
+				"courage": 0,
+				"might": 0,
+				"will": 0,
+				"fate": 0,
+				"heroicActions": [],
+				"keywords": [],
+				"options": [],
+				"specialRules": [],
+				"wargear": [],
+				"decreaseModelCount": 1,
+				"specialText": "Warband must have either 6+ wargs, 2+ spiders, or a mixture of 10+ models."
+			},
+			{
 				"name": "Thorin Oakenshield, King Under the Mountain",
 				"factions": [
 					{
@@ -22608,7 +22638,8 @@
 					"Azog's Hunters",
 					"Fell Beings of Mirkwood",
 					"Pits of Dol Guldur",
-					"Dark Powers of Dol Guldur"
+					"Dark Powers of Dol Guldur",
+					"Dark Denizens of Mirkwood"
 				],
 				"additionalHeroes": [
 					"Razgush, War Leader of the North",
