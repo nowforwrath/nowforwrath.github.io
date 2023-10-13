@@ -459,7 +459,7 @@
 				"name": "Riders of Eomer",
 				"alignment": "good",
 				"parentFaction": "Rohan",
-				"armyBonus": "\"To the King!\" - Friendly Rohan Cavalry models within 12\" of Eomer gain +1 Strength on a turn in which they Charge.\n        \n                            \"Look to the Sun\" - Once per battle, so long as Gandalf is alive and in your\n                            force, you can declare that you are using this ability at the\n                            start of any friendly Move phase. Until the end of the turn,\n                            enemy models that are Engaged with, or supporting a model\n                            Engaged with, any friendly Cavalry models that made a Charge that turn suffer a penalty of -1 to their Duel rolls."
+				"armyBonus": "\"To the King!\" - Friendly Rohan Cavalry models within 12\" of Eomer gain +1 Strength on a turn in which they Charge.        \n                            \"Look to the Sun\" - Once per battle, so long as Gandalf is alive and in your force, you can declare that you are using this ability at the start of any friendly Move phase. Until the end of the turn, enemy models that are Engaged with, or supporting a model Engaged with, any friendly Cavalry models that made a Charge that turn suffer a penalty of -1 to their Duel rolls."
 			},
 			{
 				"name": "Angmar",
@@ -14985,7 +14985,7 @@
 				"specialRules": [
 					"Bodyguard",
 					"Woodland Creature",
-					"King's Guard"
+					"King's Guard (Thranduil)"
 				],
 				"wargear": [
 					"Elven-made hand-and-a-half sword",
@@ -24051,7 +24051,7 @@
 				"specialRules": [
 					"Woodland Creature",
 					"Bodyguard",
-					"King's Guard"
+					"King's Guard (Thranduil)"
 				],
 				"wargear": [
 					"Heavy Armour",
@@ -28197,7 +28197,7 @@
 				"definition": "If Kíli the Dwarf, Champion of Erebor is in your army, and is killed, Tauriel's Strength is immediately increased to 5 and her Defence is reduced to 4 for the remainder of the battle."
 			},
 			{
-				"name": "King's Guard",
+				"name": "King's Guard (Thranduil)",
 				"definition": "Whilst within 3\" of Thranduil, King of the Woodland Realm, this model receives a bonus of +1 to their Fight value."
 			},
 			{
