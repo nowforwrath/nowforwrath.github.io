@@ -6524,7 +6524,7 @@
 					},
 					{
 						"name": "Rangers of Ithilien",
-						"herociTier": "Minor Hero"
+						"heroicTier": "Minor Hero"
 					}
 				],
 				"points": 35,
