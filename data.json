@@ -4421,7 +4421,6 @@
 							"Barad Dur",
 							"Isengard",
 							"Wolves of Isengard",
-							"Ugluk's Scouts",
 							"Assault on Lothlorien",
 							"Fell Beings of Mirkwood"
 						]
@@ -9414,7 +9413,7 @@
 					},
 					{
 						"name": "Pits of Dol Guldur",
-						"heroicTier": "Hero of Valour"
+						"heroicTier": "Hero of Legend"
 					}
 				],
 				"points": 165,
@@ -15580,11 +15579,11 @@
 					},
 					{
 						"name": "Depths of Moria",
-						"heroicTier": "Hero of Fortitude"
+						"heroicTier": "Minor Hero"
 					},
 					{
 						"name": "Assault on Lothlorien",
-						"heroicTier": "Hero of Fortitude"
+						"heroicTier": "Minor Hero"
 					}
 				],
 				"unlimited": true,
@@ -15685,7 +15684,7 @@
 					},
 					{
 						"name": "Depths of Moria",
-						"heroicTier": "Hero of Fortitude"
+						"heroicTier": "Minor Hero"
 					}
 				],
 				"unlimited": true,
@@ -18517,7 +18516,8 @@
 					"Royal War Mumak",
 					"Armour",
 					"Long-bladed spear"
-				]
+				],
+				"decreaseModelCount": -1
 			},
 			{
 				"name": "War Mumak of Far Harad",
