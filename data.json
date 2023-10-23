@@ -16759,6 +16759,10 @@
 					{
 						"name": "The Beornings",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Wanderers in the Wild",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"hideStats": true,
