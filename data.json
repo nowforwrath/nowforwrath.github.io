@@ -1245,7 +1245,8 @@
 				"alignment": "Good",
 				"armyBonus": "Fear! Fire! Foes! - Hobbig models from this army list gain the Woodland Creature Special Rule.",
 				"primaryAllies": [
-					"Rivendell"
+					"Rivendell",
+					"The Rangers"
 				],
 				"secondaryAllies": [
 					"The Dead of Dunharrow",
@@ -1256,9 +1257,7 @@
 					"Lothlorien",
 					"Minas Tirith",
 					"The Misty Mountains",
-					"The Rangers",
 					"Rohan",
-					"The Shire",
 					"The White Council",
 					"Wildmen of Druadan"
 				]
