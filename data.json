@@ -24976,6 +24976,9 @@
 				"factions": [
 					"The Beornings"
 				],
+				"additionalHeroes": [
+					"Grimbeorn"
+				],
 				"points": 20,
 				"movement": 6,
 				"fight": 5,
