@@ -6077,6 +6077,11 @@
 					{
 						"name": "The Rangers",
 						"heroicTier": "Independent Hero"
+					},
+					{
+						"name": "The Shire",
+						"heroicTier": "Independent Hero",
+						"unlockedBy": "Gandalf the Grey"
 					}
 				],
 				"unlimited": true,
@@ -9110,6 +9115,10 @@
 					},
 					{
 						"name": "Thorin's Company",
+						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "The Shire",
 						"heroicTier": "Hero of Legend"
 					}
 				],
