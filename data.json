@@ -9158,8 +9158,7 @@
 						"points": 10,
 						"availableIn": [
 							"The Fellowship",
-							"Survivors of Lake-town",
-							"The White Council"
+							"Survivors of Lake-town"
 						]
 					},
 					{
@@ -9221,6 +9220,7 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
+				"leaderPriority": 1,
 				"points": 35,
 				"movement": 6,
 				"fight": 5,
@@ -16320,6 +16320,7 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
+				"leaderPriority": 2,
 				"points": 50,
 				"movement": 6,
 				"fight": 4,
