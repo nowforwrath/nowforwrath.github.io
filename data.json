@@ -26214,6 +26214,11 @@
 				"definition": "24\" Range, 4 Strength"
 			},
 			{
+				"name": "Short Bow",
+				"type": "bow",
+				"definition": "18\" Range, 2 Strength"
+			},
+			{
 				"name": "Orc Bow",
 				"type": "bow",
 				"definition": "18\" Range, 2 Strength"
