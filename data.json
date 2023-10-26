@@ -8735,6 +8735,31 @@
 				]
 			},
 			{
+				"name": "Frodo, Samwise, and Smeagol",
+				"factions": [
+					{
+						"name": "Rangers of Ithilien",
+						"heroicTier": "Independent Hero"
+					}
+				],
+				"availableOn": [
+					"Faramir, Captain of Gondor"
+				],
+				"warnInOptions": true,
+				"points": 155,
+				"hideStats": true,
+				"heroicActions": [],
+				"includesHeroes": [
+					"Frodo Baggins (Rangers of Ithilien)",
+					"Samwise Gamgee (Rangers of Ithilien)",
+					"Smeagol (Rangers of Ithilien)"
+				],
+				"keywords": [],
+				"wargear": [],
+				"options": [],
+				"specialRules": []
+			},
+			{
 				"name": "Frodo Baggins",
 				"factions": [
 					{
@@ -8744,13 +8769,8 @@
 					{
 						"name": "Breaking of the Fellowship",
 						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Rangers of Ithilien",
-						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"requiredIn": "Rangers of Ithilien",
 				"points": 60,
 				"movement": 4,
 				"fight": 3,
@@ -8827,6 +8847,43 @@
 				]
 			},
 			{
+				"name": "Frodo Baggins (Rangers of Ithilien)",
+				"factions": [],
+				"autoAddOnly": true,
+				"points": 0,
+				"movement": 4,
+				"fight": 3,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 6,
+				"might": 2,
+				"will": 3,
+				"fate": 3,
+				"heroicActions": [
+					"Heroic Defence"
+				],
+				"keywords": [
+					"Hobbit",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": [
+					"Resistant to Magic",
+					"Throw Stones (range 8\", Strength 1)"
+				],
+				"wargear": [
+					"Dagger",
+					"The One Ring",
+					"Elven Cloak",
+					"Sting",
+					"Mithril Coat"
+				]
+			},
+			{
 				"name": "Samwise Gamgee",
 				"factions": [
 					{
@@ -8836,14 +8893,8 @@
 					{
 						"name": "Breaking of the Fellowship",
 						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Rangers of Ithilien",
-						"heroicTier": "Hero of Fortitude",
-						"unlockedBy": "Frodo Baggins"
 					}
 				],
-				"requiredIn": "Rangers of Ithilien",
 				"points": 40,
 				"movement": 4,
 				"fight": 3,
@@ -8892,6 +8943,42 @@
 				],
 				"wargear": [
 					"Dagger"
+				]
+			},
+			{
+				"name": "Samwise Gamgee (Rangers of Ithilien)",
+				"factions": [],
+				"autoAddOnly": true,
+				"points": 0,
+				"movement": 4,
+				"fight": 3,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 6,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Strike",
+					"Heroic Strength"
+				],
+				"keywords": [
+					"Hobbit",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": [
+					"Resistant to Magic",
+					"Throw Stones (range 8\", Strength 1)",
+					"Let Him Go or I'll Have You, Longshanks!"
+				],
+				"wargear": [
+					"Dagger",
+					"Elven Cloak"
 				]
 			},
 			{
@@ -9052,14 +9139,40 @@
 						"name": "The Fellowship",
 						"heroicTier": "Independent Hero",
 						"unlockedBy": "Frodo Baggins"
-					},
-					{
-						"name": "Rangers of Ithilien",
-						"heroicTier": "Independent Hero"
 					}
 				],
-				"requiredIn": "Rangers of Ithilien",
 				"points": 30,
+				"movement": 5,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 4,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"might": 1,
+				"will": 0,
+				"fate": 1,
+				"heroicActions": [],
+				"keywords": [
+					"Hobbit",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": [
+					"Cave Dweller",
+					"Serve the Master of the Precious"
+				],
+				"wargear": [
+					"Strangling Fingers"
+				]
+			},
+			{
+				"name": "Smeagol (Rangers of Ithilien)",
+				"factions": [],
+				"points": 0,
+				"autoAddOnly": true,
 				"movement": 5,
 				"fight": 4,
 				"shoot": 4,
