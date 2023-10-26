@@ -4937,10 +4937,12 @@
 				"might": 0,
 				"will": 0,
 				"fate": 0,
-				"decreaseModelCount": 1,
 				"heroicActions": [],
 				"keywords": [
 					"Siege Engine"
+				],
+				"includesHeroes": [
+					"Orc Siege Veteran"
 				],
 				"options": [
 					{
@@ -4960,10 +4962,6 @@
 				],
 				"wargear": [],
 				"requiredWarriors": [
-					{
-						"name": "Orc Siege Veteran",
-						"quantity": 1
-					},
 					{
 						"name": "Orc Crew",
 						"quantity": 2,
@@ -4988,6 +4986,9 @@
 					}
 				],
 				"unlimited": true,
+				"includesHeroes": [
+					"Orc Siege Veteran"
+				],
 				"points": 160,
 				"movement": 0,
 				"fight": 0,
@@ -5000,7 +5001,6 @@
 				"might": 0,
 				"will": 0,
 				"fate": 0,
-				"decreaseModelCount": 1,
 				"heroicActions": [],
 				"keywords": [
 					"Siege Engine"
@@ -5033,10 +5033,6 @@
 						"name": "Orc",
 						"quantity": 2,
 						"requiredOptions": []
-					},
-					{
-						"name": "Orc Siege Veteran",
-						"quantity": 1
 					},
 					{
 						"name": "Mordor Troll",
@@ -6924,6 +6920,9 @@
 						"heroicTier": "Minor Hero"
 					}
 				],
+				"includesHeroes": [
+					"Iron Hills Dwarf Siege Veteran"
+				],
 				"unlimited": true,
 				"points": 125,
 				"movement": 0,
@@ -6937,7 +6936,6 @@
 				"might": 0,
 				"will": 0,
 				"fate": 0,
-				"decreaseModelCount": 1,
 				"heroicActions": [],
 				"keywords": [
 					"Siege Weapon",
@@ -6966,10 +6964,6 @@
 						"name": "Iron Hills Dwarf Crew",
 						"quantity": 3,
 						"requiredOptions": []
-					},
-					{
-						"name": "Iron Hills Dwarf Siege Veteran",
-						"quantity": 1
 					}
 				]
 			},
@@ -6986,6 +6980,9 @@
 					}
 				],
 				"unlimited": true,
+				"includesHeroes": [
+					"Uruk-hai Siege Veteran"
+				],
 				"points": 65,
 				"movement": 0,
 				"fight": 0,
@@ -6998,7 +6995,6 @@
 				"might": 0,
 				"will": 0,
 				"fate": 0,
-				"decreaseModelCount": 1,
 				"heroicActions": [],
 				"keywords": [
 					"Siege Engine"
@@ -7026,10 +7022,6 @@
 						"name": "Uruk-hai Crew",
 						"quantity": 2,
 						"requiredOptions": []
-					},
-					{
-						"name": "Uruk-hai Siege Veteran",
-						"quantity": 1
 					}
 				]
 			},
@@ -8038,6 +8030,9 @@
 					}
 				],
 				"unlimited": true,
+				"includesHeroes": [
+					"Dale Siege Veteran"
+				],
 				"points": 75,
 				"movement": 0,
 				"fight": 0,
@@ -8051,7 +8046,6 @@
 				"will": 0,
 				"fate": 0,
 				"heroicActions": [],
-				"decreaseModelCount": 1,
 				"keywords": [
 					"Siege Weapon",
 					"Iron Hills"
@@ -8072,11 +8066,6 @@
 				"requiredWarriors": [
 					{
 						"name": "Dale Crew",
-						"quantity": 1,
-						"requiredOptions": []
-					},
-					{
-						"name": "Dale Siege Veteran",
 						"quantity": 1,
 						"requiredOptions": []
 					}
@@ -15096,6 +15085,9 @@
 					}
 				],
 				"unlimited": true,
+				"includesHeroes": [
+					"Minas Tirith Siege Veteran"
+				],
 				"points": 80,
 				"movement": 0,
 				"fight": 0,
@@ -15108,7 +15100,6 @@
 				"might": 0,
 				"will": 0,
 				"fate": 0,
-				"decreaseModelCount": 1,
 				"heroicActions": [],
 				"keywords": [
 					"Siege Engine"
@@ -15136,10 +15127,6 @@
 						"name": "Warrior of Minas Tirith",
 						"quantity": 2,
 						"requiredOptions": []
-					},
-					{
-						"name": "Minas Tirith Siege Veteran",
-						"quantity": 1
 					}
 				]
 			},
@@ -15751,6 +15738,9 @@
 						"heroicTier": "Minor Hero"
 					}
 				],
+				"includesHeroes": [
+					"Minas Tirith Siege Veteran"
+				],
 				"unlimited": true,
 				"points": 50,
 				"movement": 0,
@@ -15764,7 +15754,6 @@
 				"might": 0,
 				"will": 0,
 				"fate": 0,
-				"decreaseModelCount": 1,
 				"heroicActions": [],
 				"keywords": [
 					"Siege Engine"
@@ -15791,11 +15780,197 @@
 						"name": "Warrior of Minas Tirith",
 						"quantity": 2,
 						"requiredOptions": []
+					}
+				]
+			},
+			{
+				"name": "Minas Tirith Siege Veteran",
+				"factions": [
+					"Minas Tirith"
+				],
+				"autoAddOnly": true,
+				"points": 0,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 3,
+				"will": 1,
+				"might": 1,
+				"fate": 1,
+				"keywords": [
+					"Man",
+					"Gondor",
+					"Infantry",
+					"Warrior"
+				],
+				"options": [
+					{
+						"name": "Upgrade to Engineer Captain",
+						"points": 50,
+						"usesDefinition": "Engineer Captain"
+					}
+				],
+				"specialRules": [],
+				"wargear": [
+					"Heavy armour",
+					"Sword"
+				]
+			},
+			{
+				"name": "Orc Siege Veteran",
+				"factions": [
+					"Mordor"
+				],
+				"autoAddOnly": true,
+				"points": 0,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 5,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 2,
+				"will": 1,
+				"might": 1,
+				"fate": 1,
+				"keywords": [
+					"Orc",
+					"Mordor",
+					"Infantry",
+					"Warrior"
+				],
+				"options": [
+					{
+						"name": "Orc Engineer Captain",
+						"points": 40,
+						"usesDefinition": "Engineer Captain"
 					},
 					{
-						"name": "Minas Tirith Siege Veteran",
-						"quantity": 1
+						"name": "Orc bow",
+						"points": 5,
+						"unlockedBy": "Orc Engineer Captain"
+					},
+					{
+						"name": "Orc shield",
+						"points": 5,
+						"unlockedBy": "Orc Engineer Captain"
 					}
+				],
+				"specialRules": [],
+				"wargear": [
+					"Armour",
+					"Sword"
+				]
+			},
+			{
+				"name": "Uruk-hai Siege Veteran",
+				"factions": [
+					"Isengard"
+				],
+				"autoAddOnly": true,
+				"points": 0,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 3,
+				"will": 1,
+				"might": 1,
+				"fate": 1,
+				"keywords": [
+					"Uruk-hai",
+					"Isengard",
+					"Infantry",
+					"Warrior"
+				],
+				"options": [
+					{
+						"name": "Uruk-hai Engineer Captain",
+						"points": 50,
+						"usesDefinition": "Engineer Captain"
+					}
+				],
+				"specialRules": [],
+				"wargear": [
+					"Heavy armour",
+					"Sword"
+				]
+			},
+			{
+				"name": "Iron Hills Dwarf Siege Veteran",
+				"factions": [
+					"The Iron Hills"
+				],
+				"autoAddOnly": true,
+				"points": 0,
+				"movement": 5,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 4,
+				"will": 1,
+				"might": 1,
+				"fate": 1,
+				"keywords": [
+					"Dwarf",
+					"Iron Hills",
+					"Infantry",
+					"Warrior"
+				],
+				"options": [
+					{
+						"name": "Iron Hills Dwarf Engineer Captain",
+						"points": 75,
+						"usesDefinition": "Engineer Captain"
+					}
+				],
+				"specialRules": [],
+				"wargear": [
+					"Armour",
+					"Sword"
+				]
+			},
+			{
+				"name": "Dale Siege Veteran",
+				"factions": [
+					"Garrison of Dale",
+					"The Army of Dale"
+				],
+				"autoAddOnly": true,
+				"points": 0,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 3,
+				"will": 1,
+				"might": 1,
+				"fate": 1,
+				"keywords": [
+					"Man",
+					"Dale",
+					"Infantry",
+					"Warrior"
+				],
+				"options": [],
+				"specialRules": [],
+				"wargear": [
+					"Armour",
+					"Sword"
 				]
 			},
 			{
@@ -21107,90 +21282,6 @@
 				]
 			},
 			{
-				"name": "Orc Siege Veteran",
-				"factions": [
-					"Mordor"
-				],
-				"autoAddOnly": true,
-				"points": 0,
-				"movement": 6,
-				"fight": 3,
-				"shoot": 5,
-				"strength": 3,
-				"defence": 4,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 2,
-				"will": 1,
-				"might": 1,
-				"fate": 1,
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Warrior"
-				],
-				"options": [
-					{
-						"name": "Orc Engineer Captain",
-						"points": 40,
-						"usesDefinition": "Engineer Captain"
-					},
-					{
-						"name": "Orc bow",
-						"points": 5,
-						"unlockedBy": "Orc Engineer Captain"
-					},
-					{
-						"name": "Orc shield",
-						"points": 5,
-						"unlockedBy": "Orc Engineer Captain"
-					}
-				],
-				"specialRules": [],
-				"wargear": [
-					"Armour",
-					"Sword"
-				]
-			},
-			{
-				"name": "Uruk-hai Siege Veteran",
-				"factions": [
-					"Isengard"
-				],
-				"autoAddOnly": true,
-				"points": 0,
-				"movement": 6,
-				"fight": 3,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 5,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 3,
-				"will": 1,
-				"might": 1,
-				"fate": 1,
-				"keywords": [
-					"Uruk-hai",
-					"Isengard",
-					"Infantry",
-					"Warrior"
-				],
-				"options": [
-					{
-						"name": "Uruk-hai Engineer Captain",
-						"points": 50,
-						"usesDefinition": "Engineer Captain"
-					}
-				],
-				"specialRules": [],
-				"wargear": [
-					"Heavy armour",
-					"Sword"
-				]
-			},
-			{
 				"name": "Orc Crew",
 				"factions": [
 					"Mordor"
@@ -21894,80 +21985,6 @@
 				]
 			},
 			{
-				"name": "Iron Hills Dwarf Siege Veteran",
-				"factions": [
-					"The Iron Hills"
-				],
-				"autoAddOnly": true,
-				"points": 0,
-				"movement": 5,
-				"fight": 4,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 6,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 4,
-				"will": 1,
-				"might": 1,
-				"fate": 1,
-				"keywords": [
-					"Dwarf",
-					"Iron Hills",
-					"Infantry",
-					"Warrior"
-				],
-				"options": [
-					{
-						"name": "Iron Hills Dwarf Engineer Captain",
-						"points": 75,
-						"usesDefinition": "Engineer Captain"
-					}
-				],
-				"specialRules": [],
-				"wargear": [
-					"Armour",
-					"Sword"
-				]
-			},
-			{
-				"name": "Minas Tirith Siege Veteran",
-				"factions": [
-					"Minas Tirith"
-				],
-				"autoAddOnly": true,
-				"points": 0,
-				"movement": 6,
-				"fight": 3,
-				"shoot": 4,
-				"strength": 3,
-				"defence": 5,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 3,
-				"will": 1,
-				"might": 1,
-				"fate": 1,
-				"keywords": [
-					"Man",
-					"Gondor",
-					"Infantry",
-					"Warrior"
-				],
-				"options": [
-					{
-						"name": "Upgrade to Engineer Captain",
-						"points": 50,
-						"usesDefinition": "Engineer Captain"
-					}
-				],
-				"specialRules": [],
-				"wargear": [
-					"Heavy armour",
-					"Sword"
-				]
-			},
-			{
 				"name": "Iron Hills Dwarf Crew",
 				"factions": [
 					"The Iron Hills"
@@ -22285,38 +22302,6 @@
 					"Sword",
 					"Spear",
 					"Shield"
-				]
-			},
-			{
-				"name": "Dale Siege Veteran",
-				"factions": [
-					"Garrison of Dale",
-					"The Army of Dale"
-				],
-				"autoAddOnly": true,
-				"points": 0,
-				"movement": 6,
-				"fight": 4,
-				"shoot": 4,
-				"strength": 3,
-				"defence": 4,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 3,
-				"will": 1,
-				"might": 1,
-				"fate": 1,
-				"keywords": [
-					"Man",
-					"Dale",
-					"Infantry",
-					"Warrior"
-				],
-				"options": [],
-				"specialRules": [],
-				"wargear": [
-					"Armour",
-					"Sword"
 				]
 			},
 			{
