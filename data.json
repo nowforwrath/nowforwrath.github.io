@@ -6476,7 +6476,7 @@
 						"points": 10,
 						"availableIn": [
 							"Minas Tirith",
-							"Rangers of Ithilient"
+							"Rangers of Ithilien"
 						]
 					},
 					{
@@ -8746,7 +8746,7 @@
 					"Faramir, Captain of Gondor"
 				],
 				"warnInOptions": true,
-				"points": 155,
+				"points": 160,
 				"hideStats": true,
 				"heroicActions": [],
 				"includesHeroes": [
@@ -12095,7 +12095,7 @@
 				]
 			},
 			{
-				"name": "Anborn, Ranger of of Ithilien",
+				"name": "Anborn, Ranger of Ithilien",
 				"factions": [
 					{
 						"name": "Minas Tirith",
