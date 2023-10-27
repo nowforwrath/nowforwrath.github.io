@@ -9340,14 +9340,18 @@
 						"points": 10,
 						"availableIn": [
 							"The Fellowship",
-							"Survivors of Lake-town"
+							"Survivors of Lake-town",
+							"The White Council",
+							"Thorin's Company",
+							"The Shire"
 						]
 					},
 					{
 						"name": "Cart",
 						"points": 25,
 						"availableIn": [
-							"The Fellowship"
+							"The Fellowship",
+							"The Shire"
 						]
 					}
 				],
