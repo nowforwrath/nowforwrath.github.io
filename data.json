@@ -2022,6 +2022,18 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
+				"allianceRules": {
+					"loseArmyBonusWithNamedIn": [
+						"Rohan"
+					],
+					"impossibleWithNamedIn": [
+						"Minas Tirith"
+					],
+					"impossibleWithExcept": [
+						"Minas Tirith",
+						"Rohan"
+					]
+				},
 				"points": 115,
 				"movement": 6,
 				"fight": 5,
@@ -5270,6 +5282,28 @@
 						"heroicTier": "Hero of Legend"
 					}
 				],
+				"allianceRules": {
+					"loseArmyBonusWithHero": [
+						"Arwen Undomiel",
+						"Elladan & Elrohir",
+						"Lindir of Rivendell",
+						"Bilbo Baggins"
+					],
+					"becomeImpossibleWithAllWithHero": [
+						"Arwen Undomiel",
+						"Elladan & Elrohir",
+						"Lindir of Rivendell",
+						"Bilbo Baggins"
+					],
+					"adjustFactionPrimaryAllies": [
+						"Numenor"
+					],
+					"adjustFactionSecondaryAllies": [
+						"Lothlorien",
+						"Fangorn",
+						"The Misty Mountains"
+					]
+				},
 				"points": 170,
 				"movement": 6,
 				"fight": 9,
@@ -5925,6 +5959,14 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
+				"allianceRules": {
+					"loseArmyBonusWithHero": [
+						"Aragorn - Strider"
+					],
+					"becomeImpossibleWithAllWithHero": [
+						"Aragorn - Strider"
+					]
+				},
 				"points": 75,
 				"movement": 6,
 				"fight": 5,
@@ -6634,6 +6676,10 @@
 						"heroicTier": "Hero of Legend"
 					}
 				],
+				"allianceRules": {
+					"adjustFactionPrimaryAlliesWith": [],
+					"adjustFactionSecondaryAllies": []
+				},
 				"points": 130,
 				"movement": 5,
 				"fight": 6,
@@ -6748,6 +6794,36 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
+				"allianceRules": {
+					"primaryAlliesWith": [
+						{
+							"heroes": [
+								"Cirion, Lieutenant of Amon Barad"
+							],
+							"factions": [
+								"Minas Tirith"
+							]
+						}
+					],
+					"secondaryAllies": [
+						"The Fellowship",
+						"The Shire",
+						"The Rangers of the North",
+						"Minas Tirith",
+						"The Fiefdoms",
+						"The Dead of Dunharrow",
+						"Rohan",
+						"The Wildmen of Druadan",
+						"Rivendell",
+						"Lothlorien",
+						"Fangorn",
+						"The Misty Mountains",
+						"The Garrison of Dale",
+						"Halls of Thranduil",
+						"Radagast's Alliance",
+						"The White Council"
+					]
+				},
 				"specialText": "Múrin & Drár are Historical Allies with Minas Tirith, so long as the army contains Cirion, Lieutenant of Amon Barad.\n                They are Convenient Allies with The Fellowship, The Shire, The Rangers of the North, Minas Tirith, The Fiefdoms, The Dead of Dunharrow, Rohan, The Wildmen of Drúadan, Rivendell, Lothlórien, Fangorn, The Misty Mountains, The Garrison of Dale, Halls of Thranduil, Radagast’s Alliance and The White Council.\n                They are Impossible Allies with all other army lists.",
 				"points": 140,
 				"hideStats": true,
@@ -9367,6 +9443,9 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
+				"unavailableWithNamedHeroesInFactions": [
+					"Minas Tirith"
+				],
 				"unlimited": true,
 				"points": 60,
 				"movement": 6,
@@ -10544,6 +10623,9 @@
 						"name": "The Kingdom of Moria",
 						"heroicTier": "Hero of Fortitude"
 					}
+				],
+				"allowedNamedHeroes": [
+					"Balin the Dwarf, King of Moria"
 				],
 				"points": 75,
 				"movement": 5,
@@ -13398,6 +13480,13 @@
 						"name": "Helm's Guard",
 						"heroicTier": "Hero of Legend"
 					}
+				],
+				"allianceRules": {
+					"adjustFactionPrimaryAllies": [],
+					"adjustFactionSecondaryAllies": []
+				},
+				"unavailableWithNamedHeroesInFactions": [
+					"Rohan"
 				],
 				"requiredIn": [
 					"Helm's Guard"
@@ -17056,6 +17145,50 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
+				"allianceRules": {
+					"primaryAlliesWith": [
+						{
+							"heroes": [
+								"Thranduil, King of the Woodland Realm"
+							],
+							"factions": [
+								"Halls of Thranduil"
+							]
+						}
+					],
+					"secondaryAlliesWith": [
+						{
+							"heroes": [
+								"Dain Ironfoot, King Under the Mountain"
+							],
+							"factions": [
+								"Erebor Reclaimed"
+							]
+						},
+						{
+							"heroes": [
+								"Brand, King of Dale",
+								"Bard II, Prince of Dale"
+							],
+							"factions": [
+								"Garrison of Dale"
+							]
+						}
+					],
+					"secondaryAllies": [
+						"Fangorn",
+						"The Fellowship",
+						"The Fiefdoms",
+						"Lothlorien",
+						"Minas Tirith",
+						"The Misty Mountains",
+						"The Rangers",
+						"Rivendell",
+						"Rohan",
+						"The Shire",
+						"Wildmen of Druadan"
+					]
+				},
 				"hideStats": true,
 				"heroicActions": [],
 				"options": [],
@@ -19526,6 +19659,11 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
+				"allianceRules": {
+					"loseArmyBonusWithKeyword": [
+						"Hobbit"
+					]
+				},
 				"specialText": "If your force contains Bandobras Took and any other named Hobbit Hero models, then it will automatically lose its Army Bonus. Additionally, the force will automatically be Impossible Allies with every other army list regardless of what the alliance would normally be.",
 				"points": 40,
 				"movement": 4,
@@ -20406,6 +20544,37 @@
 						"heroicTier": "Independent Hero"
 					}
 				],
+				"allianceRules": {
+					"primaryAllies": [],
+					"secondaryAllies": [
+						"The Misty Mountains",
+						"Army of Lake-town",
+						"Army of Thror",
+						"Arnor",
+						"The Dead of Dunharrow",
+						"Erebor Reclaimed",
+						"Fangorn",
+						"The Fiefdoms",
+						"Garrison of Dale",
+						"Halls of Thranduil",
+						"The Iron Hills",
+						"The Kingdom of Khazad-Dum",
+						"Lothlorien",
+						"Minas Tirith",
+						"The Misty Mountains",
+						"Numenor",
+						"The Rangers",
+						"Rivendell",
+						"Rohan",
+						"The Shire",
+						"Survivors of Lake-town",
+						"The White Council",
+						"Wildmen of Druadan",
+						"The Fellowship",
+						"Radagast's Alliance",
+						"Thorin's Company"
+					]
+				},
 				"specialText": "Tom Bombadil is Convenient Allies with all Good army lists.",
 				"points": 160,
 				"movement": 6,
@@ -20454,6 +20623,37 @@
 						"heroicTier": "Independent Hero"
 					}
 				],
+				"allianceRules": {
+					"primaryAllies": [],
+					"secondaryAllies": [
+						"The Misty Mountains",
+						"Army of Lake-town",
+						"Army of Thror",
+						"Arnor",
+						"The Dead of Dunharrow",
+						"Erebor Reclaimed",
+						"Fangorn",
+						"The Fiefdoms",
+						"Garrison of Dale",
+						"Halls of Thranduil",
+						"The Iron Hills",
+						"The Kingdom of Khazad-Dum",
+						"Lothlorien",
+						"Minas Tirith",
+						"The Misty Mountains",
+						"Numenor",
+						"The Rangers",
+						"Rivendell",
+						"Rohan",
+						"The Shire",
+						"Survivors of Lake-town",
+						"The White Council",
+						"Wildmen of Druadan",
+						"The Fellowship",
+						"Radagast's Alliance",
+						"Thorin's Company"
+					]
+				},
 				"specialText": "Goldberry is Convenient Allies with all Good army lists.",
 				"points": 140,
 				"movement": 6,
@@ -20498,6 +20698,77 @@
 						"heroicTier": "Independent Hero"
 					}
 				],
+				"allianceRules": {
+					"primaryAlliesWith": [
+						{
+							"heroes": [
+								"Gandalf the Grey"
+							],
+							"factions": [
+								"The White Council"
+							]
+						}
+					],
+					"secondaryAllies": [
+						"The Fellowship",
+						"The Shire",
+						"The Rangers of the North",
+						"Minas Tirith",
+						"The Fiefdoms",
+						"The Dead of Dunharrow",
+						"Rohan",
+						"The Wildmen of Druadan",
+						"Rivendell",
+						"Lothlorien",
+						"Fangorn",
+						"The Misty Mountains",
+						"The Garrison of Dale",
+						"Halls of Thranduil",
+						"Radagast's Alliance",
+						"The White Council"
+					]
+				},
+				"specialText": "Thráin the Broken is Historical Allies with The White Council, so long as the army contains Gandalf the Grey; and Historical Allies with the Dark Powers of Dol Guldur, so long as it includes The Necromancer of Dol Guldur.\n                He is Impossible Allies with all other army lists.",
+				"points": 10,
+				"movement": 5,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 2,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 4,
+				"might": 0,
+				"will": 0,
+				"fate": 0,
+				"heroicActions": [],
+				"keywords": [
+					"Dwarf",
+					"Infantry",
+					"Hero"
+				],
+				"specialRules": [
+					"Shattered Spirit"
+				],
+				"wargear": [
+					"Dagger"
+				],
+				"options": []
+			},
+			{
+				"name": "Thrain the Broken (Evil)",
+				"factions": [
+					{
+						"name": "Dark Powers of Dol Guldur",
+						"heroicTier": "Independent Hero",
+						"unlockedBy": "The Necromancer of Dol Guldur"
+					}
+				],
+				"allianceRules": {
+					"impossibleWithExcept": [
+						"Dark Powers of Dol Guldur"
+					]
+				},
 				"specialText": "Thráin the Broken is Historical Allies with The White Council, so long as the army contains Gandalf the Grey; and Historical Allies with the Dark Powers of Dol Guldur, so long as it includes The Necromancer of Dol Guldur.\n                He is Impossible Allies with all other army lists.",
 				"points": 10,
 				"movement": 5,
@@ -20533,6 +20804,25 @@
 						"heroicTier": "Minor Hero"
 					}
 				],
+				"allianceRules": {
+					"primaryAllies": [
+						"The Fellowship"
+					],
+					"secondaryAllies": [
+						"The Shire",
+						"The Rangers",
+						"Minas Tirith",
+						"The Fiefdoms",
+						"The Dead of Dunharrow",
+						"Rohan",
+						"Wildmen of Druadan",
+						"Rivendell",
+						"Lothlorien",
+						"Halls of Thranduil",
+						"Fangorn",
+						"The Misty Mountains"
+					]
+				},
 				"specialText": "Barliman Butterbur is Historical Allies with The Fellowship.\n                He is Convenient Allies with The Shire, The Rangers, Minas Tirith, The Fiefdoms, The Dead of Dunharrow, Rohan, Wildmen of Drúadan, Rivendell, Lothlórien, Halls of Thranduil, Fangorn and The Misty Mountains.\n                He is Impossible Allies with all other army lists.\n                ",
 				"points": 40,
 				"movement": 6,
@@ -20580,6 +20870,23 @@
 						"heroicTier": "Minor Hero"
 					}
 				],
+				"allianceRules": {
+					"primaryAllies": [
+						"The Fellowship"
+					],
+					"secondaryAllies": [
+						"The Rangers",
+						"Minas Tirith",
+						"The Fiefdoms",
+						"The Dead of Dunharrow",
+						"Rohan",
+						"Wildmen of Druadan",
+						"Rivendell",
+						"Lothlórien",
+						"Fangorn",
+						"The Misty Mountains"
+					]
+				},
 				"specialText": "Harry Goatleaf can either be taken as a Good or an Evil model.\n                If taken as a Good model he is: \n                • Historical Allies with The Fellowship.\n                • Convenient Allies with The Rangers, Minas Tirith, The Fiefdoms, The Dead of Dunharrow, Rohan, Wildmen of Drúadan, Rivendell, Lothlórien, Fangorn and The Misty Mountains.\n                • Impossible Allies with all other army lists.\n                If taken as an Evil model, Harry Goatleaf counts as a Hero of Fortitude. He may be taken as part of the Sharkey’s Rogues army list and may also be included as part of The Chief’s Ruffians Legendary Legion.\n                ",
 				"points": 40,
 				"movement": 6,
