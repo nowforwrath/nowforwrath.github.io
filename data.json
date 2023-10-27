@@ -10622,14 +10622,16 @@
 					{
 						"name": "The Kingdom of Moria",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Kingdom of Khazad-Dum",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"allowedNamedHeroesIn": [
 					{
-						"faction": "The Kingdom of Moria",
-						"heroes": [
-							"Balin the Dwarf, King of Moria"
-						]
+						"faction": "The Kingdom of Khazad-Dum",
+						"heroes": []
 					}
 				],
 				"points": 75,
@@ -10669,6 +10671,9 @@
 						"name": "The Kingdom of Moria",
 						"heroicTier": "Hero of Legend"
 					}
+				],
+				"requiredIn": [
+					"The Kingdom of Moria"
 				],
 				"points": 110,
 				"movement": 5,
