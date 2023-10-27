@@ -10624,8 +10624,13 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"allowedNamedHeroes": [
-					"Balin the Dwarf, King of Moria"
+				"allowedNamedHeroesIn": [
+					{
+						"faction": "The Kingdom of Moria",
+						"heroes": [
+							"Balin the Dwarf, King of Moria"
+						]
+					}
 				],
 				"points": 75,
 				"movement": 5,
