@@ -561,7 +561,7 @@
 			{
 				"name": "The Dead of Dunharrow",
 				"alignment": "good",
-				"armyBonus": "\"The Dead do not suffer the Living to pass\" - The King of the Dead gains the Harbinger of Evil special rule. Additionally, warbands from this army that contain eight or more models, do not need a Hero to be the Captain of the Warband. \n                Instead, one of the Warrior models within the warband takes on the role of the warband's Captain for the purpose of deployment.",
+				"armyBonus": "\"The Dead do not suffer the Living to pass\" - The King of the Dead gains the Harbinger of Evil special rule. Additionally, warbands from this army that contain eight to 12 models, do not need a Hero to be the Captain of the Warband. \n                Instead, one of the Warrior models within the warband takes on the role of the warband's Captain for the purpose of deployment.",
 				"primaryAllies": [
 					"Minas Tirith",
 					"The Rangers"
@@ -752,7 +752,7 @@
 			{
 				"name": "Thorin's Company",
 				"alignment": "good",
-				"armyBonus": "“I would take each and every one of these Dwarves over an army from the Iron Hills, for when I called upon them, they answered” - Models from this army\n                list may re-roll To Wound rolls of a 1 whilst within 3\" of Thorin Oakenshield.",
+				"armyBonus": "“I would take each and every one of these Dwarves over an army from the Iron Hills, for when I called upon them, they answered” - Models from this army\n                list may re-roll To Wound rolls of a 1 whilst within 3\" of Thorin Oakenshield. Additionally, all models from this army list gain Heoric March.",
 				"primaryAllies": [
 					"Army of Lake-town",
 					"The Misty Mountains"
@@ -1130,7 +1130,7 @@
 				"name": "The Beornings",
 				"alignment": "Good",
 				"parentFaction": "Radagast's Alliance",
-				"armyBonus": "\"Great Resilience\" - Whenever a friendly Bear model suffers a Wound, roll a D6. On the roll of a natural 6 the Wound is ignored just as if a point of Fate had been spent.\n                \"Charge of the Bear\" - Whilst they have the Bear keyword, Beorn and Grimbeorn gain the Monstrous Charge special rule.\n                \"Natural Resistance\" - Friendly models gain the Resistant to Magic special rule.\n                \"Fuelled by Fury - Beorn and Grimbeorn do not need to roll for their Skin-changer special rule; they can transform at will.\n                -If a Beornings force includes both Beorn and Grimbeorn, then Beorn will automatically be the leader.\n                -Friendly models may benefit from Beorn's Heroic Actions. Additionally, Beorning models may benefit from Beorn's Stand Fast!"
+				"armyBonus": "\"Great Resilience\" - Whenever a friendly Bear model suffers a Wound, roll a D6. On the roll of a natural 6 the Wound is ignored just as if a point of Fate had been spent.\n                \"Charge of the Bear\" - Whilst they have the Bear keyword, Beorn and Grimbeorn gain the Monstrous Charge special rule.\n                \"Natural Resistance\" - Friendly models gain the Resistant to Magic special rule.\n                \"Fuelled by Fury - Beorn and Grimbeorn do not need to roll for their Skin-changer special rule; they can transform at will.\n                -If a Beornings force includes both Beorn and Grimbeorn, then Beorn will automatically be the leader.\n                -Friendly models may benefit from Beorn's Heroic Actions. Additionally, Beorning models may benefit from Beorn's Stand Fast!\n                -Whilst he is in bear form, Beorn may still benefit from the Heroic Actions of Grimbeorn regardless of his berserk special rule."
 			},
 			{
 				"name": "The Serpent Horde",
@@ -1169,7 +1169,7 @@
 				"name": "Vanquishers of the Necromancer",
 				"parentFaction": "The White Council",
 				"alignment": "Good",
-				"armyBonus": "“Are you in need of Assistance?” - Friendly models gain a bonus of +1 to Resist tests if they are within 6\" of another friendly model.\n                \"Masters of Magic\" - Friendly models may still attempt to cast Magical Powers even if they are already engaged in combat.\n                \"Meddle not in the Affairs of Wizards\" - The Attacks characteristic of Wizard models in this Legendary Legion is always equal to their remaining Wounds.\n                \"Lady of the Golden Wood\" - Galadriel may target any enemy model with the Banishment Magical Power as if it were a Spirit model. Non-Spirit models targeted by Galadriel's Banishment gain a single 'free'’' point of Will to immediately Resist this Magical Power. Additionally, friendly models within 3\" of Galadriel gain Resistant to Magic. \n                \"The Grey Wanderer\" - Gandalf gains the Fearless special rule. Furthermore, friendly models within 3\" of Gandalf cannot have their Courage value reduced by enemy Magical Powers or special rules.\n                \"Lord of Imladris\" - Elrond may declare a Heroic Strike every Fight phase without expending Might. Additionally, other friendly models within 3\" of Elrond count as being in range of a banner.\n                \"Wisest of the Istari\" - Saruman can attempt to cast two Magical Powers each turn rather than one, but may not attempt to cast the same Magical Power twice or target the same model twice. Additionally, when other friendly models within 3\" of Saruman attempt to cast a Magical Power, they may re-roll a single D6 as part of the casting attempt.\n                \"Protector of the Greenwood\" - Once each turn, at any point in his Move phase, Radagast may choose a single model in base contact with him and roll a D6. On a 4 or 5, the chosen model regains a Wound lost earlier in the battle; on a 6, the model regains all of its lost Wounds. Additionally, friendly models within 3\" of Radagast may move through difficult terrain without penalty.\n                “Go Back to the Void, from Whence You Came!” - Once per game, if Galadriel has at least 1 Will point remaining, Galadriel may choose to exert her full power instead of casting a Magical Power. If she does so, then she immediately casts the channelled version of the Banishment Magical Power, which cannot be resisted. Models may use Fate to prevent these Wounds individually as normal. However, immediately after casting the Banishment Magical Power in this way, place Galadriel prone and reduce her Will to 0. Additionally, for the rest of the battle she does not benefit from her The Lady of Lothlórien and War Aspect special rules."
+				"armyBonus": "“Are you in need of Assistance?” - Friendly models gain a bonus of +1 to Resist tests if they are within 6\" of another friendly model.\n                \"Masters of Magic\" - Friendly models may still attempt to cast Magical Powers even if they are already engaged in combat.\n                \"Meddle not in the Affairs of Wizards\" - The Attacks characteristic of Wizard models in this Legendary Legion is always equal to their remaining Wounds.\n                \"Lady of the Golden Wood\" - Galadriel may target any enemy model with the Banishment Magical Power as if it were a Spirit model. Non-Spirit models targeted by Galadriel's Banishment gain a single 'free'’' point of Will to immediately Resist this Magical Power. Additionally, friendly models within 3\" of Galadriel gain Resistant to Magic. \n                \"The Grey Wanderer\" - Gandalf gains the Fearless special rule. Furthermore, friendly models within 3\" of Gandalf cannot have their Courage value reduced by enemy Magical Powers or special rules.\n                \"Lord of Imladris\" - Elrond may declare a Heroic Strike every Fight phase without expending Might. Additionally, other friendly models within 3\" of Elrond count as being in range of a banner.\n                \"Wisest of the Istari\" - Saruman can attempt to cast two Magical Powers each turn rather than one, but may not attempt to cast the same Magical Power twice or target the same model twice. Additionally, when other friendly models within 3\" of Saruman attempt to cast a Magical Power, they may re-roll a single D6 as part of the casting attempt.\n                \"Protector of the Greenwood\" - Once each turn, at any point in his Move phase, Radagast may choose a single model in base contact with him and roll a D6. On a 4 or 5, the chosen model regains a Wound lost earlier in the battle; on a 6, the model regains all of its lost Wounds. Additionally, friendly models within 3\" of Radagast may move through difficult terrain without penalty.\n                “Go Back to the Void, from Whence You Came!” - Once per game, if Galadriel has at least 1 Will point remaining, Galadriel may choose to exert her full power instead of casting a Magical Power. If she does so, then she immediately casts the channelled version of the Banishment Magical Power, which cannot be resisted. Models may use Fate to prevent these Wounds individually as normal. However, immediately after casting the Banishment Magical Power in this way, place Galadriel prone and reduce her Will to 0. Additionally, for the rest of the battle she does not benefit from her The Lady of Lothlórien and War Aspect special rules.\n                The Vanquishers of the Necromancer must always include Galadriel, Lady of Light, Gandalf the Grey, and Saruman the White. Saruman the White is always the army's leader."
 			},
 			{
 				"name": "Rangers of Mirkwood",
@@ -1245,10 +1245,10 @@
 				"alignment": "Good",
 				"armyBonus": "Fear! Fire! Foes! - Hobbig models from this army list gain the Woodland Creature Special Rule.",
 				"primaryAllies": [
-					"Rivendell",
 					"The Rangers"
 				],
 				"secondaryAllies": [
+					"Rivendell",
 					"The Dead of Dunharrow",
 					"Fangorn",
 					"The Fellowship",
@@ -3405,7 +3405,7 @@
 				],
 				"wargear": [
 					"Heavy armour",
-					"Sword"
+					"Mace or sword"
 				]
 			},
 			{
@@ -6120,7 +6120,7 @@
 					},
 					{
 						"name": "The Shire",
-						"heroicTier": "Independent Hero",
+						"heroicTier": "Minor Hero",
 						"unlockedBy": "Gandalf the Grey"
 					}
 				],
@@ -6914,6 +6914,7 @@
 					"Expert Shot"
 				],
 				"wargear": [
+					"Axe",
 					"Dwarf Armour",
 					"Dwarf Bow"
 				]
@@ -16568,7 +16569,7 @@
 					},
 					{
 						"name": "Nature's Wrath",
-						"range": 6,
+						"range": 3,
 						"casting": 4
 					},
 					{
@@ -17842,7 +17843,8 @@
 					},
 					{
 						"name": "Assault on Lothlorien",
-						"heroicTier": "Hero of Valour"
+						"heroicTier": "Hero of Valour",
+						"leaderPriority": 1
 					}
 				],
 				"requiredIn": [
@@ -22873,7 +22875,7 @@
 				"options": [
 					{
 						"name": "Swap shield for War drum (Isengard)",
-						"points": 30
+						"points": 25
 					},
 					{
 						"name": "Swap Sword for Spear",
@@ -24957,7 +24959,8 @@
 				"specialRules": [
 					"On the Hunt",
 					"Lethal Union",
-					"Warg Marauder"
+					"Warg Marauder",
+					"Cave Dweller"
 				],
 				"wargear": [
 					"Warg",
@@ -25429,7 +25432,7 @@
 					"Followers of the Bear"
 				],
 				"wargear": [
-					"dagger",
+					"Axe",
 					"Hand-and-a-half axe"
 				]
 			},
@@ -26532,7 +26535,8 @@
 				"wounds": 4,
 				"courage": 2,
 				"specialRules": [
-					"Woodland Creature"
+					"Woodland Creature",
+					"Fleetfoot"
 				],
 				"definition": "If Radagast is slain or dismounts, remove the sleigh from play."
 			},
@@ -27780,7 +27784,7 @@
 			},
 			{
 				"name": "Piercing Shot",
-				"definition": "If a shot from <this siege weapon> Bow hits a Battlefield target,\n                then they will suffer one Strength 9 hit. Additionally, if the target has a\n                Strength of 5 or lower, they will be knocked Prone and flung D6\" directly\n                away from the Siege Bow. Any model that the target passes over will also\n                be knocked Prone and suffer one Strength 6 hit. If the target comes into\n                contact with a piece of impassable terrain, or a model that is Strength 6\n                or higher, then it will immediately stop and be knocked Prone. Both the\n                target and the Obstacle or model (if it has a Defence value) will suffer one\n                Strength 6 hit."
+				"definition": "If a shot from <this siege weapon> Bow hits a Battlefield target,\n                then they will suffer one Strength 9 hit. Additionally, if the target has a\n                Strength of 5 or lower, they will be knocked Prone and flung D6\" directly\n                away from the Siege Bow. Any model that the target passes over will also\n                be knocked Prone and suffer one Strength 6 hit. If the target comes into\n                contact with a piece of impassable terrain, or a model that is Strength 6\n                or higher, then it will immediately stop and be knocked Prone. Both the\n                target and the Obstacle or model (if it has a Defence value) will suffer one\n                Strength 6 hit.\n                An Isengard Assault Ballista has a range of 6\"-48\"."
 			},
 			{
 				"name": "Accurate",
@@ -27792,7 +27796,7 @@
 			},
 			{
 				"name": "Area Effect",
-				"definition": "If a Catapult scores a hit against a Battlefield\n                target, all models within 2\" of the target suffer one Strength 5\n                hit (this additional hit does not kill a target outright)."
+				"definition": "If a Catapult scores a hit against a Battlefield\n                target, all models within 2\" of the target suffer one Strength 5\n                hit and are knocked prone (this additional hit does not kill a target outright)."
 			},
 			{
 				"name": "Wall-breaker",
@@ -27868,7 +27872,7 @@
 			},
 			{
 				"name": "Foresight of the Eldar",
-				"definition": "Before the game begins, roll a D6 and make a note of the result - these are Elrond's Foresight points for the battle. During the priority phase, after the dice has been rolled, Elrond may chose to expend these Foresight points to alter the controlling player's dice roll. For each point expended, Elrond may alter the dice by either +1 or -1, to a minimum of 1 and a maximum of 6."
+				"definition": "Before the game begins, roll a D6 and make a note of the result - these are Elrond's Foresight points for the battle. During the priority phase, after the dice has been rolled, so long as he is alive and on the battlefield, Elrond may chose to expend these Foresight points to alter the controlling player's dice roll. For each point expended, Elrond may alter the dice by either +1 or -1, to a minimum of 1 and a maximum of 6."
 			},
 			{
 				"name": "Shieldwall",
@@ -28344,7 +28348,7 @@
 			},
 			{
 				"name": "Knights of the Dragon Cult",
-				"definition": "Dragon Knights may only include Easterling models with the Black Dragon upgrade within their warbands."
+				"definition": "Dragon Knights may only include Easterling models with the Black Dragon upgrade or Dragon Cult Acolytes in their warbands."
 			},
 			{
 				"name": "Emperor of the Easterlings",
@@ -28864,7 +28868,7 @@
 			},
 			{
 				"name": "Detonating the Charge",
-				"definition": "To use the demolition charge it must be dropped. A model with a flaming brand in base contact with the charge, which is not also Engaged in combat, may attempt to set it off at the start of the Fight phase. The model attempting to set off the charge must pass a Courage test. If it fails, it cannot detonate the charge. If it succeeds, the Evil player rolls on the Detonation table to determine the effects.\n                When it explodes, a demolition charge automatically strikes everything within 2\" of the model - gates, doors, and of course, any models ( friend or foe) that are in range of it. Each target struck automatically takes D6 Wounds, regardless of its Defence value. Cavalry models take D6 hits on both the mount and the rider.\n                "
+				"definition": "To use the demolition charge it must be dropped. A model with a flaming brand in base contact with the charge, which is not also Engaged in combat, may attempt to set it off at the start of the Fight phase. A model may only attempt to detonate the charge if the resulting explosion would affect at least two enemy models, or an enemy Siege target; meaning there must be at least two enemy models within 2\" of the charge to detonate it.The model attempting to set off the charge must pass a Courage test. If it fails, it cannot detonate the charge. If it succeeds, the Evil player rolls on the Detonation table to determine the effects.\n                When it explodes, a demolition charge automatically strikes everything within 2\" of the model - gates, doors, and of course, any models ( friend or foe) that are in range of it. Each target struck automatically takes D6 Wounds, regardless of its Defence value. Cavalry models take D6 hits on both the mount and the rider.\n                "
 			},
 			{
 				"name": "Desperate Detonations",
@@ -28880,7 +28884,7 @@
 			},
 			{
 				"name": "Detonation Table",
-				"definition": "1: Dud. The charge has been damaged in some way and will not detonate; remove it from play.\n                2-5: Instant Reaction. The charge has been damaged in some way and will not detonate; remove it from play. \n                6: Titanic Explosion. The charge catches instantly, exploding in a roar of smoke and flame, as described previously.\n                "
+				"definition": "1: Dud. The charge has been damaged in some way and will not detonate yet - roll again next turn and add +1 to the roll..\n                2-5: Instant Reaction. The charge has been damaged in some way and will not detonate; remove it from play. \n                6: Titanic Explosion. The charge catches instantly, exploding in a roar of smoke and flame, as described previously.\n                "
 			},
 			{
 				"name": "Murderous Power",
