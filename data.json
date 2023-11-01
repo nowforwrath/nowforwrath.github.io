@@ -22359,13 +22359,11 @@
 					},
 					{
 						"name": "Exchange Shield for Mattock",
-						"points": 0,
-						"usesDefinition": "Mattock"
+						"points": 0
 					},
 					{
 						"name": "Exchange Shield for Crossbow",
-						"points": 1,
-						"usesDefinition": "Crossbow"
+						"points": 1
 					}
 				],
 				"specialRules": [
@@ -26667,6 +26665,28 @@
 				"definition": "24\" Range, 4 Strength. A model with a crossbow may not fire in the same turn that it has moved."
 			},
 			{
+				"name": "Exchange Shield for Crossbow",
+				"type": "bow",
+				"definition": "24\" Range, 4 Strength. A model with a crossbow may not fire in the same turn that it has moved.",
+				"modifiesStats": [
+					{
+						"stat": "defence",
+						"modifier": -1
+					}
+				]
+			},
+			{
+				"name": "Exchange Shield for Banner",
+				"type": "banner",
+				"definition": "A banner provides a single re-roll to friendly models who are involved in a Fight within 3\". Any model carrying a banner is encumbered by its weight, and suffers a -1 penalty to their Duel rolls.",
+				"modifiesStats": [
+					{
+						"stat": "defence",
+						"modifier": -1
+					}
+				]
+			},
+			{
 				"name": "Uruk-Hai Bow",
 				"type": "bow",
 				"definition": "18\" Range, 3 Strength"
@@ -26730,6 +26750,17 @@
 				"name": "Mattock",
 				"type": "Two-handed weapon",
 				"definition": "A mattock is a two-handed weapon that can either use the\n                Bash or Piercing Strike Special Strikes."
+			},
+			{
+				"name": "Exchange Shield for Mattock",
+				"type": "Two-handed weapon",
+				"definition": "A mattock is a two-handed weapon that can either use the\n                Bash or Piercing Strike Special Strikes.",
+				"modifiesStats": [
+					{
+						"stat": "defence",
+						"modifier": -1
+					}
+				]
 			},
 			{
 				"name": "Helmingas",
