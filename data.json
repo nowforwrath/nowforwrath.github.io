@@ -23206,39 +23206,6 @@
 				]
 			},
 			{
-				"name": "Goblin Mercenary",
-				"factions": [
-					"Goblin-Town"
-				],
-				"points": 5,
-				"movement": 5,
-				"fight": 2,
-				"shoot": 5,
-				"strength": 3,
-				"defence": 4,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 2,
-				"keywords": [
-					"Goblin",
-					"Infantry",
-					"Warrior"
-				],
-				"options": [],
-				"specialRules": [
-					"Cave Dweller",
-					"Chittering Hordes",
-					"Mercenary Ambush"
-				],
-				"wargear": [
-					"Armour"
-				],
-				"wargearOptions": [
-					"Sword",
-					"Pick"
-				]
-			},
-			{
 				"name": "Dwarf Warrior",
 				"factions": [
 					"The Kingdom of Khazad-Dum",
@@ -23948,12 +23915,7 @@
 					"Infantry",
 					"Warrior"
 				],
-				"options": [
-					{
-						"name": "Two-handed Pick",
-						"points": 1
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Cave Dweller",
 					"Chittering Hordes",
