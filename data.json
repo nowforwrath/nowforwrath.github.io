@@ -17759,29 +17759,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Horse",
-						"points": 10,
-						"availableIn": [
-							"The Serpent Horde"
-						]
-					},
-					{
-						"name": "Bow with poisoned arrows",
-						"points": 5,
-						"availableIn": [
-							"The Serpent Horde"
-						]
-					},
-					{
-						"name": "War spear",
-						"points": 5,
-						"availableIn": [
-							"The Serpent Horde"
-						]
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Bane of Kings",
 					"Sworn Protector (Suladan)",
