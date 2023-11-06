@@ -20068,6 +20068,35 @@
 				]
 			},
 			{
+				"name": "No Hero",
+				"factions": [
+					{
+						"name": "The Chief's Ruffians",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"unlimited": true,
+				"points": 0,
+				"movement": 0,
+				"fight": 0,
+				"shoot": 0,
+				"strength": 0,
+				"defence": 0,
+				"attack": 0,
+				"wounds": 0,
+				"courage": 0,
+				"might": 0,
+				"will": 0,
+				"fate": 0,
+				"heroicActions": [],
+				"keywords": [],
+				"options": [],
+				"specialRules": [],
+				"wargear": [],
+				"decreaseModelCount": 1,
+				"specialText": "Warband must have 10-12 ruffians. Cannot be used without first adding all other heroes from this Legendary Legion."
+			},
+			{
 				"name": "The Spider Queen",
 				"factions": [
 					{
