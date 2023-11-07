@@ -7304,8 +7304,7 @@
 				],
 				"wargear": [
 					"Armour",
-					"Sword",
-					"Uruk-Hai Bow"
+					"Sword"
 				]
 			},
 			{
@@ -7356,8 +7355,7 @@
 				],
 				"wargear": [
 					"Armour",
-					"Sword",
-					"Uruk-Hai Bow"
+					"Sword"
 				]
 			},
 			{
@@ -27670,7 +27668,7 @@
 			},
 			{
 				"name": "The Age of Men is Over",
-				"definition": "Gothmog, and all friendly Mordor Ore models within 3\" of him, gain the\n                Hatred (Man) special rule."
+				"definition": "Gothmog, and all friendly Mordor Orc models within 3\" of him, gain the\n                Hatred (Man) special rule."
 			},
 			{
 				"name": "Hatred",
@@ -27682,7 +27680,7 @@
 			},
 			{
 				"name": "The Time of the Orc has Come",
-				"definition": "Once per game, at the start of any Fight phase, Gothmog can declare that\n                he is using this ability. For the remainder of the turn, all friendly Mordor\n                Ore models within 12\" of Gothmog may re-roll failed To Wound rolls\n                when making Strikes."
+				"definition": "Once per game, at the start of any Fight phase, Gothmog can declare that\n                he is using this ability. For the remainder of the turn, all friendly Mordor\n                Orc models within 12\" of Gothmog may re-roll failed To Wound rolls\n                when making Strikes."
 			},
 			{
 				"name": "Woodland Creature",
@@ -27694,7 +27692,7 @@
 			},
 			{
 				"name": "Heart of Darkness",
-				"definition": "At the start of any Priority phase, before any dice are rolled, Kardush can\n                drain the life force of a friendly Ore model within 6 \", causing it to be\n                removed as a casualty. Kardush then immediately regains D3 Will points.\n                This cannot take his Will points above their starting level.",
+				"definition": "At the start of any Priority phase, before any dice are rolled, Kardush can\n                drain the life force of a friendly Orc model within 6 \", causing it to be\n                removed as a casualty. Kardush then immediately regains D3 Will points.\n                This cannot take his Will points above their starting level.",
 				"active": true
 			},
 			{
