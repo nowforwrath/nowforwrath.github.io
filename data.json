@@ -26246,7 +26246,10 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 2
+				"courage": 2,
+				"specialRules": [
+					"Fell Sight"
+				]
 			},
 			{
 				"name": "Shadowfax",
@@ -29312,6 +29315,10 @@
 			{
 				"name": "Take up the Drum",
 				"definition": "If either the Drummer or the Drum Bearer is slain, they may pass on their wargear to any other unengaged Moria Blackshield within 1\" - immediately replace the model with the slain Drummer or Drum Bearer. Models that take up the Drummer's wargear will automatically drop any that they are carrying."
+			},
+			{
+				"name": "Fell Sight",
+				"definition": "A model with this special rule does not need Line of Sight to be able to Charge. Additionally, they may target models with the Stalk Unseen special rule with no penalty."
 			}
 		]
 	}
