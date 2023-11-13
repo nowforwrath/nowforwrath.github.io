@@ -11738,7 +11738,8 @@
 						"quantity": 6,
 						"requiredOptions": [
 							"Black Dragons"
-						]
+						],
+						"hideFromPrint": true
 					}
 				],
 				"increasesWarbandSize": 6,
@@ -14827,6 +14828,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
+				"unlimited": true,
 				"points": 40,
 				"movement": 6,
 				"fight": 4,
