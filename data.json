@@ -18754,13 +18754,9 @@
 				"might": 0,
 				"will": 12,
 				"fate": 0,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength",
-					"Heroic Challenge"
-				],
+				"heroicActions": [],
 				"keywords": [
-					"Orc",
+					"Spirit",
 					"Dol Guldur",
 					"Infantry",
 					"Hero"
