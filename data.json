@@ -26645,6 +26645,10 @@
 				]
 			},
 			{
+				"name": "Additional Crew",
+				"addsModel": true
+			},
+			{
 				"name": "Exchange Shield for Banner",
 				"type": "banner",
 				"definition": "A banner provides a single re-roll to friendly models who are involved in a Fight within 3\". Any model carrying a banner is encumbered by its weight, and suffers a -1 penalty to their Duel rolls.",
