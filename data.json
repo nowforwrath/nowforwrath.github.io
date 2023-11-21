@@ -23487,10 +23487,6 @@
 						"points": 1
 					},
 					{
-						"name": "Axe",
-						"points": 1
-					},
-					{
 						"name": "Black Dragons",
 						"points": 2,
 						"availableIn": [
@@ -23590,10 +23586,6 @@
 							"The Dragon Emperor of Rhun",
 							"Easterling Dragon Knight"
 						]
-					},
-					{
-						"name": "Axe",
-						"points": 1
 					}
 				],
 				"wargear": [
