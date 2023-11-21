@@ -3784,6 +3784,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
+				"unlimited": true,
 				"points": 65,
 				"movement": 6,
 				"fight": 5,
@@ -12033,6 +12034,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
+				"unlimited": true,
 				"points": 50,
 				"movement": 5,
 				"fight": 3,
@@ -14786,6 +14788,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
+				"unlimited": true,
 				"points": 40,
 				"movement": 6,
 				"fight": 3,
@@ -15171,6 +15174,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
+				"unlimited": true,
 				"points": 75,
 				"movement": 6,
 				"fight": 6,
@@ -15219,6 +15223,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
+				"unlimited": true,
 				"points": 75,
 				"movement": 6,
 				"fight": 6,
