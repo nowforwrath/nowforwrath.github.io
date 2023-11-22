@@ -26968,6 +26968,10 @@
 				"definition": "Glamdring is an Elven-made hand-and-a-half sword. Additionally, Glamdring increases Gandalf's Strength by 1 when making Strikes with it."
 			},
 			{
+				"name": "Herugrim",
+				"definition": "Herugrim is a sword. Additionally, Theoden may use the Feint Special Strike even if his fight value is lower than his opponent's."
+			},
+			{
 				"name": "Narya",
 				"definition": "Gandlf may re-roll his dice when making Fate rolls."
 			},
@@ -27315,6 +27319,10 @@
 			{
 				"name": "Metal Gauntlets",
 				"definition": "Catapult Trolls never count as being unarmed. Furthermore, count their Strength as 10 when rolling for distance with a Hurl Brutal Power Attack."
+			},
+			{
+				"name": "Royal Standard of Rohan",
+				"definition": "This precious heirloom is a banner.\n                Additionally, any Rohan Hero models that are within 3\" of the Royal\n                Standard of Rohan at the start of any turn, and have no Might remaining,\n                automatically add 1 point of Might to their store. This cannot take a Hero\n                model's Might beyond its starting level, and is limited to one hero per turn. Gamling suffers no penalties for\n                carrying the Royal Standard of Rohan."
 			}
 		],
 		"magicalPowers": [
@@ -27599,10 +27607,6 @@
 			{
 				"name": "Elven Cloak",
 				"definition": "A model wearing an Elven cloak has the Stalk Unseen special rule (If a model with this special rule is partially concealed from view\n                    by a piece of terrain, they cannot be seen at all at distances of\n                    more than 6\" – they appear to melt into the background. This\n                    means that enemies cannot Charge, Shoot or target them with\n                    Magical Powers or special rules at ranges of greater than 6\", unless\n                    they have a completely clear view of the target.\n                    If the model is riding a mount, Stalk Unseen has no effect.)"
-			},
-			{
-				"name": "Royal Standard of Rohan",
-				"definition": "This precious heirloom is a banner.\n                Additionally, any Rohan Hero models that are within 3\" of the Royal\n                Standard of Rohan at the start of any turn, and have no Might remaining,\n                automatically add 1 point of Might to their store. This cannot take a Hero\n                model's Might beyond its starting level, and is limited to one hero per turn. Gamling suffers no penalties for\n                carrying the Royal Standard of Rohan."
 			},
 			{
 				"name": "Helmingas",
