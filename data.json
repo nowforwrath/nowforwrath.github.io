@@ -27323,6 +27323,14 @@
 			{
 				"name": "Royal Standard of Rohan",
 				"definition": "This precious heirloom is a banner.\n                Additionally, any Rohan Hero models that are within 3\" of the Royal\n                Standard of Rohan at the start of any turn, and have no Might remaining,\n                automatically add 1 point of Might to their store. This cannot take a Hero\n                model's Might beyond its starting level, and is limited to one hero per turn. Gamling suffers no penalties for\n                carrying the Royal Standard of Rohan."
+			},
+			{
+				"name": "Elven Cloak",
+				"definition": "A model wearing an Elven cloak has the Stalk Unseen special rule (If a model with this special rule is partially concealed from view\n                    by a piece of terrain, they cannot be seen at all at distances of\n                    more than 6\" – they appear to melt into the background. This\n                    means that enemies cannot Charge, Shoot or target them with\n                    Magical Powers or special rules at ranges of greater than 6\", unless\n                    they have a completely clear view of the target.\n                    If the model is riding a mount, Stalk Unseen has no effect.)"
+			},
+			{
+				"name": "Helmingas",
+				"definition": "If your army includes Grimbold, you may upgrade any number of Warriors\n                of Rohan to Helmingas for a cost of +1 point per model. Helmingas are\n                Strength 4, rather than 3."
 			}
 		],
 		"magicalPowers": [
@@ -27603,14 +27611,6 @@
 			{
 				"name": "Throw Stones (range 8\", Strength 1)",
 				"definition": "If this model does not move at all during the Move phase, then in\n                the Shoot phase it may make a shooting attack with Strength 1\n                and range 8\"."
-			},
-			{
-				"name": "Elven Cloak",
-				"definition": "A model wearing an Elven cloak has the Stalk Unseen special rule (If a model with this special rule is partially concealed from view\n                    by a piece of terrain, they cannot be seen at all at distances of\n                    more than 6\" – they appear to melt into the background. This\n                    means that enemies cannot Charge, Shoot or target them with\n                    Magical Powers or special rules at ranges of greater than 6\", unless\n                    they have a completely clear view of the target.\n                    If the model is riding a mount, Stalk Unseen has no effect.)"
-			},
-			{
-				"name": "Helmingas",
-				"definition": "If your army includes Grimbold, you may upgrade any number of Warriors\n                of Rohan to Helmingas for a cost of +1 point per model. Helmingas are\n                Strength 4, rather than 3."
 			},
 			{
 				"name": "Legendary Hero",
@@ -27920,10 +27920,6 @@
 				"definition": "If Dáin Ironfoot, Lord of the Iron Hills wins a Duel roll but fails to\n                slay his opponent, select one enemy Man-sized (or smaller) model\n                in the fight and roll a D6. On a 5+, Dáin will headbutt that model\n                and it will be Knocked to the Ground."
 			},
 			{
-				"name": "Headbutt",
-				"definition": "If Dáin Ironfoot, Lord of the Iron Hills wins a Duel roll but fails to\n                slay his opponent, select one enemy Man-sized (or smaller) model\n                in the fight and roll a D6. On a 5+, Dáin will headbutt that model\n                and it will be Knocked to the Ground."
-			},
-			{
 				"name": "Reliable",
 				"definition": "When firing an Iron Hills Ballista at a target, the shot will only\n                scatter 3\", rather than 6\". Furthermore, the Iron Hills Crew may\n                re-roll 1s to hit."
 			},
@@ -28180,10 +28176,6 @@
 				"definition": "Any model that suffers a Wound from a model with this special rule's shooting attacks, and isn't slain, must roll a D6 at the start of each subsequent turn. On\n                the roll of a 1, that model suffers a Wound."
 			},
 			{
-				"name": "Morgul Arrows",
-				"definition": "Any model that suffers a Wound from a model with this special rule's shooting attacks, and isn't slain, must roll a D6 at the start of each subsequent turn. On\n                the roll of a 1, that model suffers a Wound."
-			},
-			{
 				"name": "Ancient Enemies (Elf)",
 				"definition": "A model with this special rule re-rolls 1s To Wound when fighting in combat against models with the keywords listed in the brackets in its profile. For example, a modle that has the Ancient Enemies (Elf) special rule will get to re-roll 1s To Wound against all Elf models"
 			},
@@ -28349,7 +28341,7 @@
 			},
 			{
 				"name": "Shield of Blades",
-				"definition": "Dragon Knights can use the SHielding rule whilst armed with two swords."
+				"definition": "Dragon Knights can use the Shielding rule whilst armed with two swords."
 			},
 			{
 				"name": "Knights of the Dragon Cult",
