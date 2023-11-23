@@ -29416,6 +29416,10 @@
 			{
 				"name": "Fell Sight",
 				"definition": "A model with this special rule does not need Line of Sight to be able to Charge. Additionally, they may target models with the Stalk Unseen special rule with no penalty."
+			},
+			{
+				"name": "Fearless",
+				"definition": "This model automatically passes any Courage test it is required to make."
 			}
 		]
 	}
