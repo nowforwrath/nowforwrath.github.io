@@ -486,6 +486,9 @@
 			{
 				"name": "The Iron Hills",
 				"alignment": "good",
+				"keywords": [
+					"Master of Battle"
+				],
 				"armyBonus": "\"Ironfoot has come!\" - In Scenarios where you roll for additional forces to arrive (such as those that use the Reinforcements rule), you may modify your own Reinforcements rolls for warbands from this army list by +1 or -1.\nIn Scenarios where you roll to see which part of the board your warbands deploy in, you may modify the dice roll by +1 or -1.\nAdditionally, Dáin Ironfoot, Lord of the Iron Hills receives the Master of Battle 4+ special rule.",
 				"primaryAllies": [
 					"Army of Thror",
