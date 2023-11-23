@@ -368,6 +368,9 @@
 			{
 				"name": "The Fellowship",
 				"alignment": "good",
+				"keywords": [
+					"Fearless"
+				],
 				"armyBonus": "“You have my sword.” - Friendly As long as Frodo is alive and on the table (or escapes the board in Scenarios where this applies), all models from The Fellowship army list gain the Fearless special rule. Additionally, a force that consists solely of models from The Fellowship army list will never be considered broken if FRodo is alive and on the table (or escapes the board in Scenarios where this applies).",
 				"primaryAllies": [
 					"Lothlorien",
@@ -390,6 +393,9 @@
 			{
 				"name": "The Rangers",
 				"alignment": "good",
+				"keywords": [
+					"Woodland Creature"
+				],
 				"armyBonus": "\"They're dangerous folk, wandering the wilds\" - All models from this army list gain the Woodland Creature special rule, and the Rangers of the North and Dunedain may benefit from the Stand Fast! of Arathorn, Halbarad and Aragorn - Strider. Additionally, the Rangers of the North and the Dunedain increase their Attacks value to 2, while they have the Infantry keyword.",
 				"primaryAllies": [
 					"The Dead of Dunharrow",
@@ -453,6 +459,9 @@
 				"name": "The Grey Company",
 				"alignment": "good",
 				"parentFaction": "The Rangers",
+				"keywords": [
+					"Woodland Creature"
+				],
 				"armyBonus": "\"Passing of the Grey Company\" - All models from this army list gain the Woodland Creature special rule, and Rangers of the North may benefit from the Stand Fast! of Aragorn, Legolas, Gimli, Halbarad, and Elladan & Elrohir. Additionally, Rangers of the North increase their Attacks value to 2 whilst they have the Infantry keyword.\n\"The Grey Company\" - A Grey Company army is always deployed as a single warband, regardless of the number of models, with Aragorn as the warband's captain.\n\"The Heir of Isildur\" - Aragorn does not have to pay any points for Andúril, Flame of the West, he automatically has this upgrade - it is free."
 			},
 			{
@@ -464,6 +473,9 @@
 			{
 				"name": "Angmar",
 				"alignment": "evil",
+				"keywords": [
+					"Terror"
+				],
 				"armyBonus": "\"If that fell Kingdom should rise again, Rivendell, Lorien, The Shire, even Gondor itself shall fall.\" - Friendly Angmar Orc models within 3\" of a friendly Spirit Hero model gain the Terror special rule.",
 				"primaryAllies": [],
 				"secondaryAllies": [
@@ -556,11 +568,17 @@
 				"name": "The Black Gate Opens",
 				"alignment": "evil",
 				"parentFaction": "Mordor",
+				"keywords": [
+					"Fearless"
+				],
 				"armyBonus": "\"Greatest of the Trolls\" - The Mordor Troll Chieftain that is your leader gains the Fearless special rule and an additional point of Might, Will and Fate.\n\"The Hordes of Mordor\" - Mordor Orc models gain a bonus of +1 To Wound in a Duel in which they outnumber their opponent in the Fight. Note that supporting models do not count for either side for the purpose of this rule."
 			},
 			{
 				"name": "The Dead of Dunharrow",
 				"alignment": "good",
+				"keywords": [
+					"Harbinger of Evil"
+				],
 				"armyBonus": "\"The Dead do not suffer the Living to pass\" - The King of the Dead gains the Harbinger of Evil special rule. Additionally, warbands from this army that contain eight to 12 models, do not need a Hero to be the Captain of the Warband. Instead, one of the Warrior models within the warband takes on the role of the warband's Captain for the purpose of deployment.",
 				"primaryAllies": [
 					"Minas Tirith",
@@ -583,6 +601,9 @@
 			{
 				"name": "The Return of the King",
 				"alignment": "good",
+				"keywords": [
+					"Harbinger of Evil"
+				],
 				"parentFaction": "The Dead of Dunharrow",
 				"armyBonus": "\"The King of the Dead\" - The King of the Dead gains the Harbinger of Evil special rule.\n\"The Heir of Isildur\" - Aragorn does not have to pay any points for Andúril, Flame of the West, he automatically has this upgrade - it is free.\n\"Fight for us and Regain Your Honor\" - Spirit models from this army list count as being in range of a banner if Aragorn is within 6\".\n                "
 			},
@@ -598,6 +619,9 @@
 			{
 				"name": "Azog's Legion",
 				"alignment": "evil",
+				"keywords": [
+					"Master of Battle"
+				],
 				"armyBonus": "Let the Legions Come Forth!\" - If either Azog or Bolg is the leader of your force then they gain the Master of Battle special rule.",
 				"primaryAllies": [
 					"Azog's Hunters",
@@ -636,6 +660,9 @@
 				"name": "Theodred's Guard",
 				"alignment": "good",
 				"parentFaction": "Rohan",
+				"keywords": [
+					"Sworn Protector"
+				],
 				"armyBonus": "“Protect the Prince” - All models in this force gain the Sword Protector (Theodred) special rule.\n\"Riders of Theodred!” - Captains of Rohan, Riders of Rohan and Rohan Royal Guard treat Théodred as if he were Théoden for the purpose of their Arise Riders of Théoden special rule.\n\"Fight in Ranks!\" - Friendly Rohan Infantry models armed with throwing spears spears may use them as standard spears in addition to their normal use. However, if a model uses their spear as a throwing spear in a turn, they cannot use it as a standard spear in the same turn. "
 			},
 			{
@@ -722,6 +749,9 @@
 			{
 				"name": "Wildmen of Druadan",
 				"alignment": "good",
+				"keywords": [
+					"Mountain Dweller"
+				],
 				"armyBonus": "\"Wild men have Long Ears and Long Eyes; know all Paths\" - Models from this army list gain the Mountain Dweller special rule. Additionally, enemy models do not gain any benefits from the Stalk Unseen special rule, or any suchs special rules thatg ive similar benefits, against models from this army list.\nAdditionally, warbands from this army list, that contain between 9 and 12 models, do not need a Hero to be the captain of the warband. Instead, one of the Warrior models within the warband takes on the role of the warband's captain for the purpose of deployment."
 			},
 			{
@@ -733,6 +763,9 @@
 			{
 				"name": "Erebor Reclaimed",
 				"alignment": "good",
+				"keywords": [
+					"Du Bekar"
+				],
 				"armyBonus": "\"Will you follow me, one last time?\" - All friendly Erebor Dwarf models from this army list gain the Du Bekar special rule.\n\"Du Bekar\" - A model with this special rule counts as being in range of a banner if they are within 6\" of Thorin Oakenshield, King Under the Mountain.",
 				"primaryAllies": [
 					"Halls of Thranduil",
@@ -772,6 +805,9 @@
 				"name": "The Army of Dale",
 				"parentFaction": "Garrison of Dale",
 				"alignment": "good",
+				"keywords": [
+					"Sworn Protector"
+				],
 				"armyBonus": "\"Skilled Bowmen\" - Captains of Dale and Warriors of Dale have their Shoot value improved to 3+.\n\"Protect the King!\" - Friendly Dale models gain the Sworn Protector (Brand) special rule."
 			},
 			{
@@ -792,6 +828,9 @@
 				"name": "Army of Dunland",
 				"parentFaction": "Isengard",
 				"alignment": "good",
+				"keywords": [
+					"Hatred"
+				],
 				"armyBonus": "\"Death to the Forgoil!\" - Friendly Dunlending models gain the Hatred (Rohan) special rule.\n\"Dunlending Pride\" - The range of banners in this army is increased to 6\".\n\"Dunlending War Cry\" - Once per game, at the start of any Fight phase, Thrydan can declare that he is using this ability. Until the end of the turn, friendly Dunlending models within 12\" of Thrydan gain a bonus of +1 To Wound when making strikes."
 			},
 			{
@@ -817,6 +856,9 @@
 			{
 				"name": "Lothlorien",
 				"alignment": "good",
+				"keywords": [
+					"Resistant to Magic"
+				],
 				"armyBonus": "\"They say a great Sorceress lives in these woods...\": Friendly Lorien models gain the Resistant to Magic special rule. ",
 				"primaryAllies": [
 					"The Fellowship",
@@ -850,6 +892,9 @@
 			{
 				"name": "Fangorn",
 				"alignment": "good",
+				"keywords": [
+					"Fearless"
+				],
 				"armyBonus": "\"Don't be Hasty\": Ent models from this army list gain the Fearless special rule. Additionally, Ent models are completely unaffected by any Magical Powers or special rules that would prevent them from moving or move them against their will (the only exception is that they will still take the hit from a Sorcerrous Blast, but it will suffer no further effects). Additionally, Ent models are completely unaffected by the Nature's Wrath and Wrath of Bruinen Magical Powers.",
 				"primaryAllies": [],
 				"secondaryAllies": [
@@ -1130,6 +1175,10 @@
 				"name": "The Beornings",
 				"alignment": "Good",
 				"parentFaction": "Radagast's Alliance",
+				"keywords": [
+					"Monstrous Charge",
+					"Resistant to Magic"
+				],
 				"armyBonus": "\"Great Resilience\" - Whenever a friendly Bear model suffers a Wound, roll a D6. On the roll of a natural 6 the Wound is ignored just as if a point of Fate had been spent.\n\"Charge of the Bear\" - Whilst they have the Bear keyword, Beorn and Grimbeorn gain the Monstrous Charge special rule.\n\"Natural Resistance\" - Friendly models gain the Resistant to Magic special rule.\n\"Fuelled by Fury - Beorn and Grimbeorn do not need to roll for their Skin-changer special rule; they can transform at will.\n-If a Beornings force includes both Beorn and Grimbeorn, then Beorn will automatically be the leader.\n-Friendly models may benefit from Beorn's Heroic Actions. Additionally, Beorning models may benefit from Beorn's Stand Fast!\n-Whilst he is in bear form, Beorn may still benefit from the Heroic Actions of Grimbeorn regardless of his berserk special rule."
 			},
 			{
@@ -1152,6 +1201,9 @@
 			{
 				"name": "Corsairs of Umbar",
 				"alignment": "evil",
+				"keywords": [
+					"Backstabbers"
+				],
 				"armyBonus": "\"The Corsairs are upon us! It is the last Stroke of Doom!\" - Corsair models gain the Backstabbers special rule.",
 				"primaryAllies": [
 					"The Serpent Horde"
@@ -1175,6 +1227,9 @@
 				"name": "Rangers of Mirkwood",
 				"parentFaction": "Halls of Thranduil",
 				"alignment": "Good",
+				"keywords": [
+					"Hatred"
+				],
 				"armyBonus": "*A Rangers of Mirkwood force must contain either Legolas Greenleaf, Prince of Mirkwood, or Tauriel.\n*A Rangers of Mirkwood force may have 100% of its models armed with bows.\n\"Knife Mastery\" - Friendly models may re-roll 1s ToWound when making strikes. Additionally, friendly models may use the Shielding special rule even though they are not armed with a shield; however, if they elect to shield, they may not use their Knife Fighters or Blade Mistress special rules.\n\"The Prince of Mirkwood\" - Legolas gains the Knife Fighters special rule when part of this Legendary Legion.\n\"Knife Fighters\" - Mirkwood Rangers receive an additional Attack for each enemy model they are Engaged in combat with after the first (to a maximum of 3 bonus Attacks). This bonus is determined at the start of each fight, and lasts until all Strikes from that fight have been resolved.\n\"Clear the Nests\" - Friendly models gain the Hatred (Spider) special rule.\n\"Masters of the Forest\" - Whenever a friendly model that is within 1\" of a tree or within a piece of woodland terrain suffers a Wound, roll a D6. On the roll of a natural 6 that Wound is ignored exactly as if a point of Fate had been spent.\n\"Silent Ambush\" - In Scenarios where you roll for additional forces to arrive (such as those that use the Reinforcements rule), you receive a bonus of+1 to the dice roll for warbands from this Legendary Legion. In Scenarios where you roll to see which part of the board your warbands deploy in, you may modify the dice roll by +1 or -1."
 			},
 			{
@@ -1212,6 +1267,9 @@
 				"name": "Rise of the Necromancer",
 				"parentFaction": "Dark Powers of Dol Guldur",
 				"alignment": "Evil",
+				"keywords": [
+					"Resistant to Magic"
+				],
 				"armyBonus": "“His Spirit has lost none of its Potency” - Whenever the Necromancer of Dol Guldur attempts to cast a Magical Power, by expending one or more Will points, he automatically adds an extra free Will point to the Casting test.\n\"Power of the Necromancer\" - Friendly models gain the Resistant o Magic special rule. Additionally, the Necromancer can attempt to cast two Magical Powers each turn rather than one. However, he may not attempt to cast the same Magical Power twice or target the same enemy model twice.\n\"The Dark Lord Returns\" - The Necromancer of Dol Guldur increases his Attacks Characteristic to 2 when part of this Legendary Legion"
 			},
 			{
@@ -1243,6 +1301,9 @@
 			{
 				"name": "The Shire",
 				"alignment": "Good",
+				"keywords": [
+					"Woodland Creature"
+				],
 				"armyBonus": "\"Fear! Fire! Foes!\" - Hobbit models from this army list gain the Woodland Creature Special Rule.",
 				"primaryAllies": [
 					"The Rangers"
@@ -1279,12 +1340,18 @@
 					"Gondor"
 				],
 				"alignment": "Good",
+				"keywords": [
+					"Woodland Creature"
+				],
 				"armyBonus": "A Rangers of Ithilien force must always include Faramir, Captain of Gondor, who is always the army’s leader, Samwise Gamgee, Frodo Baggins, and Smeagol.\nFrodo, Sam and Sméagol may not lead Warrior models in this force.\n\"Faramir's Rangers\" - Rangers of Gondor in warbands lead by Faramir, Madril or Damrod do not count toward this force's Bow Limit.\n\"Captured by Gondor\" - Frodo, Sam and Smeagol must either be deployed together as one warband, or included as part of Faramir's warband.\n\"Experienced Trackers\" - Rangers of Gondor from this army list gain the Woodland Creature special rule."
 			},
 			{
 				"name": "Grand Army of the South",
 				"parentFaction": "The Serpent Horde",
 				"alignment": "Evil",
+				"keywords": [
+					"Harbinger of Evil"
+				],
 				"armyBonus": "A Grand Army of the South force must always include either Suladân the Serpent Lord or the Mûmak War Leader (it may have both if you wish).\nOnly Mahûd Hero models may lead Mahûd Warrior models.\nAt least 50% of the models in a Grand Army of the South force must have the Haradrim keyword.\nYour force must include at least one Mumak model.\n\"Hail of Poisoned Arrows\" - A Grand Army of the South force may have 50% of its Warrior models armed with bows.\n\"The Making of a King\" - You army’s leader may declare a free Heroic Action at the start of any Fight phase in which they are Engaged in combat with the enemy leader. If the Mûmak War Leader is your leader, he may still use this ability whilst atop his Royal War Mûmak, in which case the Mûmak will be affected as if it had been the one to declare the Heroic Action.\n\"War Beasts of the South\" - All Mûmak models in your force gain the Harbinger of Evil special rule.\n\"Warrior Pride\" - Mahûd Warrior models that are within 6\" of a friendly Mahûd Hero model that is Engaged in combat automatically pass all Courage tests they are required to make.",
 				"bowLimitPercentage": 50
 			},
@@ -1308,6 +1375,10 @@
 				"name": "Fell Beings of Mirkwood",
 				"parentFaction": "Dark Denizens of Mirkwood",
 				"alignment": "Evil",
+				"keywords": [
+					"Woodland Creature",
+					"Hatred"
+				],
 				"armyBonus": "\"Through the Forest\" - Friendly Infantry models gain the Woodland Creature special rule.\n\"Death to the Elves\" - Friendly models gain the Hatred (Elf) special rule.\n\"The War Leader\" - Razgush gains a bonus of +1 to his Fight falue when engaged with an enemy Elf models."
 			},
 			{
@@ -1347,6 +1418,9 @@
 				"name": "Defenders of the Shire",
 				"alignment": "Good",
 				"parentFaction": "The Shire",
+				"keywords": [
+					"Woodland Creature"
+				],
 				"armyBonus": "\"Fear! Fire! Foes!\" - Friendly Hobbit models gain the Woodland Creature special rule.\n\"Heroes of the Shire\" - Friendly Hobbit Hero models may benefit from the Stand Fast! of Merry.\n\"Laying in Wait\" - After both sides have deployed, but before the first turn of the game begins, a player using a Defenders of the Shire force may place eight 25mm Trap markers on the board: two each of Snare Trap, Tripwire Trap, Pitfall Trap and Dummy Trap markers following the rules given on page 64.\n\"Ambush!\" - At the start of the game, before any models are deployed, you may select a single warband led by a Hobbit Hero that is not Frodo, Sam, Merry or Pippin. That warband is ambushing and does not deploy on the board as normal. Instead, once both players have completed their third Move phase, the ambushing warband must choose one of the following:\n• Move onto the board from any board edge via the rules for Reinforcements.\nor\n• Deploy in, or within 1\" of, a wood, building, rocky outcrop, or other similar piece of terrain that Hobbits could hide in. A degree of common sense is required when deciding which pieces of terrain the Hobbits can ambush from – Hobbits shouldn’t be leaping out from behind a single rock or from a river! It is best to decide with your opponent before the game which pieces of terrain your Hobbits can ambush from. Models deployed in this way may not be placed within the Control Zones of any enemy models. Models that enter the board in this way cannot move any further that turn, and count as having moved half of their Move allowance for the purposes of shooting."
 			},
 			{
