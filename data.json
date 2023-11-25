@@ -14317,7 +14317,8 @@
 				"options": [
 					{
 						"name": "Merry & Pippin",
-						"points": 10
+						"points": 10,
+						"addsModels": 2
 					}
 				],
 				"specialRules": [
