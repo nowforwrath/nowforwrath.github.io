@@ -19018,6 +19018,9 @@
 					}
 				],
 				"unlimited": true,
+				"includesHeroes": [
+					"Royal War Mumak"
+				],
 				"points": 400,
 				"movement": 6,
 				"fight": 5,
@@ -19128,6 +19131,77 @@
 				"includesHeroes": [
 					"Mahud Beastmaster Chieftan",
 					"Mumak"
+				]
+			},
+			{
+				"name": "Royal War Mumak",
+				"factions": [
+					{
+						"name": "Far Harad",
+						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Grand Army of the South",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"unavailableSolo": true,
+				"unlimited": true,
+				"points": 300,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic March"
+				],
+				"keywords": [
+					"Mahud",
+					"Monster",
+					"War Beast",
+					"Hero"
+				],
+				"options": [
+					{
+						"name": "Rocks",
+						"points": 20
+					},
+					{
+						"name": "Sigils of Defiance",
+						"points": 20
+					},
+					{
+						"name": "Tusk Weapons",
+						"points": 20
+					},
+					{
+						"name": "Foul Temperament",
+						"points": 15
+					},
+					{
+						"name": "Rappelling Lines",
+						"points": 10
+					}
+				],
+				"specialRules": [
+					"Long-bladed spear",
+					"Royal War Mumak",
+					"Imposing Presence",
+					"High King of the Mahud"
+				],
+				"wargear": [
+					"Armour",
+					"Club",
+					"Gnarled Hide",
+					"Sigils of Defiance",
+					"Tusk Weapons"
 				]
 			},
 			{
