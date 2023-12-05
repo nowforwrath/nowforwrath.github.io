@@ -1257,7 +1257,7 @@
 			{
 				"name": "Arnor",
 				"alignment": "Good",
-				"armyBonus": "\"Protect the King\" - Friendly Arnor models automatically pass courage tests whilst within 6\" of Arvedui, Last Kind of Arnor",
+				"armyBonus": "\"Protect the King\" - Friendly Arnor models automatically pass courage tests whilst within 6\" of Arvedui, Last King of Arnor",
 				"primaryAllies": [],
 				"secondaryAllies": [
 					"Fangorn",
@@ -5330,7 +5330,7 @@
 				],
 				"wargear": [
 					"Heavy Armour",
-					"Pick",
+					"Two-handed Pick",
 					"Sword"
 				]
 			},
@@ -17589,7 +17589,7 @@
 				"wargear": [
 					"Armour",
 					"Sword",
-					"the Serpent Banner"
+					"The Serpent Banner"
 				]
 			},
 			{
