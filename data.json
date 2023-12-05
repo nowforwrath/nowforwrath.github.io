@@ -29498,6 +29498,10 @@
 			{
 				"name": "Fearless",
 				"definition": "This model automatically passes any Courage test it is required to make."
+			},
+			{
+				"name": "Backstabbers",
+				"definition": "This model receives +1 to their To Wound rolls when making Strikes against a Trapped model. This bonus is cumulative with other bonuses, such as using a two-handed weapon."
 			}
 		]
 	}
