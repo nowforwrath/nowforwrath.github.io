@@ -9404,8 +9404,14 @@
 					},
 					{
 						"name": "The Shire",
-						"heroicTier": "Hero of Legend"
+						"heroicTier": "Hero of Valour"
 					}
+				],
+				"unavailableWithHeroes": [
+					"Frodo of the Nine Fingers",
+					"Samwise the Brave",
+					"Meriadoc, Captain of the Shire",
+					"Peregrin, Captain of the Shire"
 				],
 				"requiredIn": [
 					"Vanquishers of the Necromancer"
