@@ -25995,10 +25995,26 @@
 					{
 						"name": "Tookish Hunter",
 						"points": 1,
+						"availableIn": [
+							"Arnor",
+							"The Shire"
+						],
 						"availableOn": [
 							"Paladin Took",
 							"Peregrin, Captain of the Shire"
 						]
+					},
+					{
+						"name": "Tookish Hunter",
+						"points": 1,
+						"availableIn": [
+							"Defenders of the Shire"
+						],
+						"availableOn": [
+							"Paladin Took",
+							"Peregrin, Captain of the Shire"
+						],
+						"requiredOn": "Peregrin, Captain of the Shire"
 					}
 				],
 				"specialRules": [
@@ -26157,7 +26173,19 @@
 					{
 						"name": "Battlin' Brandybuck",
 						"points": 1,
-						"availableOn": "Meriadoc, Captain of the Shire"
+						"availableOn": "Meriadoc, Captain of the Shire",
+						"availableIn": [
+							"The Shire"
+						]
+					},
+					{
+						"name": "Battlin' Brandybuck",
+						"points": 1,
+						"availableOn": "Meriadoc, Captain of the Shire",
+						"availableIn": [
+							"Defenders of the Shire"
+						],
+						"requiredOn": "Meriadoc, Captain of the Shire"
 					}
 				],
 				"specialRules": [
