@@ -9557,8 +9557,8 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
-				"unavailableWithNamedHeroesInFactions": [
-					"Minas Tirith"
+				"unavailableWithNamedHeroesWithKeyword": [
+					"Gondor"
 				],
 				"unlimited": true,
 				"points": 60,
