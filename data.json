@@ -16964,7 +16964,7 @@
 					"Terror",
 					"Lord of the Eagles"
 				],
-				"warger": [
+				"wargear": [
 					"Claws",
 					"Beak"
 				]
@@ -24477,6 +24477,9 @@
 					"Elf Bow",
 					"Elven Cloak",
 					"Elven-made Sword"
+				],
+				"ignoreBowLimitIn": [
+					"Rangers of Mirkwood"
 				]
 			},
 			{
@@ -27464,7 +27467,7 @@
 			{
 				"name": "Foul Temperament",
 				"definition": "The Mumak has its Attacks increased to 4, however, it will suffer a -1 penalty to all Courage tests when rolling to see whether or not it will Stampede.",
-				"mofifiesStats": [
+				"modifiesStats": [
 					{
 						"stat": "attack",
 						"modifier": 1
