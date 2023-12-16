@@ -20293,6 +20293,13 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
+				"requiredWarriors": [
+					{
+						"name": "Broodling",
+						"quantity": 0,
+						"hideFromPrint": true
+					}
+				],
 				"points": 115,
 				"movement": 10,
 				"fight": 6,
@@ -26354,6 +26361,33 @@
 				"wargear": [
 					"Venomous Fangs"
 				]
+			},
+			{
+				"name": "Broodling",
+				"factions": [
+					"Fell Beings of Mirkwood",
+					"Dark Denizens of Mirkwood",
+					"Dark Powers of Dol Guldur"
+				],
+				"autoAddOnly": true,
+				"points": 0,
+				"movement": 10,
+				"fight": 2,
+				"shoot": 6,
+				"strength": 3,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 2,
+				"keywords": [
+					"Spider",
+					"Mirkwood",
+					"Infantry",
+					"Warrior"
+				],
+				"options": [],
+				"specialRules": [],
+				"wargear": []
 			},
 			{
 				"name": "Ruffian",
