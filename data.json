@@ -2830,7 +2830,7 @@
 					},
 					{
 						"name": "Two-handed flail",
-						"points": 10,
+						"points": 5,
 						"availableIn": [
 							"Mordor",
 							"Angmar",
