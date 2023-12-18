@@ -2830,7 +2830,7 @@
 					},
 					{
 						"name": "Two-handed flail",
-						"points": 5,
+						"points": 10,
 						"availableIn": [
 							"Mordor",
 							"Angmar",
@@ -19136,7 +19136,8 @@
 				"includesHeroes": [
 					"Mahud Beastmaster Chieftan",
 					"Mumak"
-				]
+				],
+				"increasesWarbandSize": 1
 			},
 			{
 				"name": "Royal War Mumak",
@@ -19285,7 +19286,8 @@
 				"includesHeroes": [
 					"Haradrim Commander",
 					"Mumak"
-				]
+				],
+				"increasesWarbandSize": 1
 			},
 			{
 				"name": "Haradrim Commander",
