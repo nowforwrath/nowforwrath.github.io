@@ -2830,7 +2830,7 @@
 					},
 					{
 						"name": "Two-handed flail",
-						"points": 10,
+						"points": 5,
 						"availableIn": [
 							"Mordor",
 							"Angmar",
@@ -18350,12 +18350,17 @@
 						"casting": 5
 					},
 					{
-						"name": "Sap will",
+						"name": "Sap Will",
 						"range": 12,
 						"casting": 5
 					},
 					{
 						"name": "Curse",
+						"range": 12,
+						"casting": 4
+					},
+					{
+						"name": "Shroud of Shadows",
 						"range": 12,
 						"casting": 4
 					}
@@ -19136,8 +19141,7 @@
 				"includesHeroes": [
 					"Mahud Beastmaster Chieftan",
 					"Mumak"
-				],
-				"increasesWarbandSize": 1
+				]
 			},
 			{
 				"name": "Royal War Mumak",
@@ -19286,8 +19290,7 @@
 				"includesHeroes": [
 					"Haradrim Commander",
 					"Mumak"
-				],
-				"increasesWarbandSize": 1
+				]
 			},
 			{
 				"name": "Haradrim Commander",
