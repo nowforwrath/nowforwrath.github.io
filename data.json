@@ -19290,7 +19290,8 @@
 				"includesHeroes": [
 					"Haradrim Commander",
 					"Mumak"
-				]
+				],
+				"increasesWarbandSize": 1
 			},
 			{
 				"name": "Haradrim Commander",
