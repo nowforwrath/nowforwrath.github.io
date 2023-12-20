@@ -19141,7 +19141,8 @@
 				"includesHeroes": [
 					"Mahud Beastmaster Chieftan",
 					"Mumak"
-				]
+				],
+				"increasesWarbandSize": 1
 			},
 			{
 				"name": "Royal War Mumak",
