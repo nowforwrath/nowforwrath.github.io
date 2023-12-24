@@ -9754,7 +9754,8 @@
 						"availableIn": [
 							"Azog's Legion"
 						],
-						"increasesWarbandSize": 6
+						"increasesWarbandSize": 6,
+						"addsModels": 7
 					},
 					{
 						"name": "The White Warg",
@@ -16923,6 +16924,46 @@
 				]
 			},
 			{
+				"name": "Catapult Troll",
+				"factions": [
+					{
+						"name": "Azog's Legion",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"unlimited": true,
+				"points": 180,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 7,
+				"defence": 7,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 3,
+				"might": 0,
+				"will": 0,
+				"fate": 0,
+				"keywords": [
+					"Troll",
+					"Gundabad",
+					"Monster",
+					"Siege Engine",
+					"Infantry"
+				],
+				"heroicActions": [],
+				"options": [],
+				"specialRules": [
+					"Terror",
+					"Area Effect",
+					"Goblin Crew"
+				],
+				"wargear": [
+					"Catapult",
+					"Metal gauntlets"
+				]
+			},
+			{
 				"name": "Gwaihir",
 				"factions": [
 					{
@@ -23145,38 +23186,6 @@
 					"Armour",
 					"Sword",
 					"Sword"
-				]
-			},
-			{
-				"name": "Catapult Troll",
-				"factions": [
-					"Azog's Legion"
-				],
-				"points": 180,
-				"movement": 6,
-				"fight": 6,
-				"shoot": 4,
-				"strength": 7,
-				"defence": 7,
-				"attack": 3,
-				"wounds": 3,
-				"courage": 3,
-				"keywords": [
-					"Troll",
-					"Gundabad",
-					"Monster",
-					"Siege Engine",
-					"Infantry"
-				],
-				"options": [],
-				"specialRules": [
-					"Terror",
-					"Area Effect",
-					"Goblin Crew"
-				],
-				"wargear": [
-					"Catapult",
-					"Metal gauntlets"
 				]
 			},
 			{
