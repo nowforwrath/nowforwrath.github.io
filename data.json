@@ -1732,7 +1732,8 @@
 						"name": "Horse",
 						"points": 10,
 						"availableIn": [
-							"Rohan"
+							"Rohan",
+							"Riders of Eomer"
 						],
 						"requiredIn": [
 							"Riders of Eomer"
