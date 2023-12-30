@@ -1725,7 +1725,6 @@
 						],
 						"requiredIn": [
 							"Riders of Theoden",
-							"Riders of Eomer",
 							"Paths of the Druadan"
 						]
 					},
@@ -1734,6 +1733,9 @@
 						"points": 10,
 						"availableIn": [
 							"Rohan"
+						],
+						"requiredIn": [
+							"Riders of Eomer"
 						]
 					},
 					{
@@ -12122,7 +12124,8 @@
 						"points": 5,
 						"availableIn": [
 							"Azog's Legion",
-							"Pits of Dol Guldur"
+							"Pits of Dol Guldur",
+							"Dark Powers of Dol Guldur"
 						]
 					}
 				],
