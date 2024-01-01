@@ -9731,6 +9731,9 @@
 						"heroicTier": "Hero of Legend"
 					}
 				],
+				"requiredIn": [
+					"Pits of Dol Guldur"
+				],
 				"points": 165,
 				"movement": 6,
 				"fight": 7,
@@ -20970,6 +20973,10 @@
 					},
 					{
 						"name": "Wanderers in the Wild (Evil)",
+						"heroicTier": "Independent Hero"
+					},
+					{
+						"name": "Pits of Dol Guldur",
 						"heroicTier": "Independent Hero"
 					}
 				],
