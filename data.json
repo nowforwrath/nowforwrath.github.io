@@ -1454,6 +1454,11 @@
 				"name": "Wanderers in the Wild",
 				"alignment": "Good",
 				"armyBonus": "As the Wanderers in the Wild are not an army, and not even really a fighting force, there is no Army Bonus for them."
+			},
+			{
+				"name": "Wanderers in the Wild (Evil)",
+				"alignment": "Evil",
+				"armyBonus": "As the Wanderers in the Wild are not an army, and not even really a fighting force, there is no Army Bonus for them."
 			}
 		],
 		"heroicTiers": [
@@ -20962,6 +20967,10 @@
 					{
 						"name": "Wanderers in the Wild",
 						"heroicTier": "Independent Hero"
+					},
+					{
+						"name": "Wanderers in the Wild (Evil)",
+						"heroicTier": "Independent Hero"
 					}
 				],
 				"allianceRules": {
@@ -20972,6 +20981,14 @@
 							],
 							"factions": [
 								"The White Council"
+							]
+						},
+						{
+							"heroes": [
+								"The Necromancer of Dol Guldur"
+							],
+							"factions": [
+								"Dark Powers of Dol Guldur"
 							]
 						}
 					],
@@ -22180,7 +22197,13 @@
 					"Woodland Creature",
 					"Expert Rider"
 				],
-				"ignoreBowLimitWith": "Elrond, Master of Rivendell"
+				"ignoreBowLimitWith": "Elrond, Master of Rivendell",
+				"ignoreLimits": [
+					{
+						"with": "Elrond, Master of Rivendell",
+						"type": "bow"
+					}
+				]
 			},
 			{
 				"name": "Morgul Knight",
@@ -22573,6 +22596,22 @@
 						"in": [
 							"Rangers of Ithilien"
 						]
+					}
+				],
+				"ignoreLimits": [
+					{
+						"in": [
+							"Rangers of Ithilien",
+							"Faramir, Captain of Gondor"
+						],
+						"type": "bow"
+					},
+					{
+						"in": [
+							"Rangers of Ithilien",
+							"Madril, Captain of Ithilien"
+						],
+						"type": "bow"
 					}
 				]
 			},
