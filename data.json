@@ -1364,7 +1364,7 @@
 				"keywords": [
 					"Woodland Creature"
 				],
-				"armyBonus": "A Rangers of Ithilien force must always include Faramir, Captain of Gondor, who is always the army’s leader, Samwise Gamgee, Frodo Baggins, and Smeagol.\nFrodo, Sam and Sméagol may not lead Warrior models in this force.\n\"Faramir's Rangers\" - Rangers of Gondor in warbands lead by Faramir, Madril or Damrod do not count toward this force's Bow Limit.\n\"Captured by Gondor\" - Frodo, Sam and Smeagol must either be deployed together as one warband, or included as part of Faramir's warband.\n\"Experienced Trackers\" - Rangers of Gondor from this army list gain the Woodland Creature special rule."
+				"armyBonus": "A Rangers of Ithilien force must always include Faramir, Captain of Gondor, who is always the army’s leader, Samwise Gamgee, Frodo Baggins, and Smeagol.\nFrodo, Sam and Sméagol may not lead Warrior models in this force.\n\"Faramir's Rangers\" - Rangers of Gondor in warbands lead by Faramir, Madril, Damrod, Anborn, and Mablung do not count toward this force's Bow Limit.\n\"Captured by Gondor\" - Frodo, Sam and Smeagol must either be deployed together as one warband, or included as part of Faramir's warband.\n\"Experienced Trackers\" - Rangers of Gondor from this army list gain the Woodland Creature special rule."
 			},
 			{
 				"name": "Grand Army of the South",
@@ -22557,7 +22557,8 @@
 							"Faramir, Captain of Gondor",
 							"Madril, Captain of of Ithilien",
 							"Damrod, Ranger of Ithilien",
-							"Anborn, Ranger of Ithilien"
+							"Anborn, Ranger of Ithilien",
+							"Mablung, Ranger of Ithilien"
 						],
 						"in": [
 							"Rangers of Ithilien"
