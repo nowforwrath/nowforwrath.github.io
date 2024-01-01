@@ -15925,7 +15925,7 @@
 					},
 					{
 						"name": "Assault on Lothlorien",
-						"heroicTier": "Minor Hero"
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -21009,47 +21009,6 @@
 						"Halls of Thranduil",
 						"Radagast's Alliance",
 						"The White Council"
-					]
-				},
-				"specialText": "Thráin the Broken is Historical Allies with The White Council, so long as the army contains Gandalf the Grey; and Historical Allies with the Dark Powers of Dol Guldur, so long as it includes The Necromancer of Dol Guldur.\n                He is Impossible Allies with all other army lists.",
-				"points": 10,
-				"movement": 5,
-				"fight": 4,
-				"shoot": 4,
-				"strength": 2,
-				"defence": 4,
-				"attack": 1,
-				"wounds": 2,
-				"courage": 4,
-				"might": 0,
-				"will": 0,
-				"fate": 0,
-				"heroicActions": [],
-				"keywords": [
-					"Dwarf",
-					"Infantry",
-					"Hero"
-				],
-				"specialRules": [
-					"Shattered Spirit"
-				],
-				"wargear": [
-					"Dagger"
-				],
-				"options": []
-			},
-			{
-				"name": "Thrain the Broken (Evil)",
-				"factions": [
-					{
-						"name": "Dark Powers of Dol Guldur",
-						"heroicTier": "Independent Hero",
-						"unlockedBy": "The Necromancer of Dol Guldur"
-					}
-				],
-				"allianceRules": {
-					"impossibleWithExcept": [
-						"Dark Powers of Dol Guldur"
 					]
 				},
 				"specialText": "Thráin the Broken is Historical Allies with The White Council, so long as the army contains Gandalf the Grey; and Historical Allies with the Dark Powers of Dol Guldur, so long as it includes The Necromancer of Dol Guldur.\n                He is Impossible Allies with all other army lists.",
