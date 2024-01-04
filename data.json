@@ -4736,7 +4736,7 @@
 				]
 			},
 			{
-				"name": "Mordor Troll Chieftan",
+				"name": "Mordor Troll Chieftain",
 				"factions": [
 					{
 						"name": "Mordor",
@@ -8259,7 +8259,7 @@
 				]
 			},
 			{
-				"name": "Black Gate Troll Chieftan (Leader)",
+				"name": "Black Gate Troll Chieftain (Leader)",
 				"factions": [
 					{
 						"name": "The Black Gate Opens",
@@ -11780,7 +11780,7 @@
 						"points": 15,
 						"availableIn": [
 							"The Easterlings",
-							"Host of the Dragon Emperor"
+							"The Host of the Dragon Emperor"
 						]
 					}
 				],
@@ -19191,7 +19191,7 @@
 					"Club"
 				],
 				"includesHeroes": [
-					"Mahud Beastmaster Chieftan",
+					"Mahud Beastmaster Chieftain",
 					"Mumak"
 				],
 				"increasesWarbandSize": 1
@@ -19308,7 +19308,7 @@
 						"points": 30
 					},
 					{
-						"name": "Mahud Beastmaster Chieftan",
+						"name": "Mahud Beastmaster Chieftain",
 						"points": 25
 					},
 					{
@@ -19385,7 +19385,7 @@
 				]
 			},
 			{
-				"name": "Mahud Beastmaster Chieftan",
+				"name": "Mahud Beastmaster Chieftain",
 				"factions": [
 					{
 						"name": "The Serpent Horde",
@@ -19452,7 +19452,7 @@
 				"wargear": []
 			},
 			{
-				"name": "Mahud Beastmaster Chieftan",
+				"name": "Mahud Beastmaster Chieftain",
 				"factions": [
 					{
 						"name": "Far Harad",
