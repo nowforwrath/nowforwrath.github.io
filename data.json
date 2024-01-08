@@ -28295,7 +28295,7 @@
 				"definition": "Only Warriors and Riders of the Dead may use the King of the Dead's Stand Fast! or benefit from his Heroic Actions."
 			},
 			{
-				"name": "The Kings Counsel",
+				"name": "The King's Counsel",
 				"definition": "If the King of the Dead is within 3\" of one or more Heralds of the Dead at the start of any phase, the King of the Dead can spend one of the Herald's \n                Will points to declare a Heroic Action instead of spending one of his own Might points. Heralds of the Dead also benefit from the King of the Dead's The Dead and the Living special rule. "
 			},
 			{
@@ -28449,6 +28449,10 @@
 			{
 				"name": "Ancient Enemies (Elf)",
 				"definition": "A model with this special rule re-rolls 1s To Wound when fighting in combat against models with the keywords listed in the brackets in its profile. For example, a modle that has the Ancient Enemies (Elf) special rule will get to re-roll 1s To Wound against all Elf models"
+			},
+			{
+				"name": "Mighty Hero",
+				"definition": "A model with this special rule may expend 1 point of Might eachturn without reducing their own store of Might."
 			},
 			{
 				"name": "Ancient Enemies (Dwarf)",
