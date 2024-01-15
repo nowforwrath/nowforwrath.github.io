@@ -8005,6 +8005,10 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
+				"unavailableWithHeroes": [
+					"Brand, King of Dale",
+					"Bard II, Prince of Dale"
+				],
 				"points": 75,
 				"movement": 6,
 				"fight": 5,
@@ -23579,7 +23583,9 @@
 						"points": 1
 					}
 				],
-				"specialRules": [],
+				"specialRules": [
+					"Mountain Dweller"
+				],
 				"wargear": [
 					"Armour",
 					"Axe"
