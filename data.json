@@ -10111,7 +10111,8 @@
 						"points": 10,
 						"availableIn": [
 							"Azog's Hunters",
-							"Pits of Dol Guldur"
+							"Pits of Dol Guldur",
+							"Dark Powers of Dol Guldur"
 						]
 					},
 					{
@@ -10119,7 +10120,8 @@
 						"points": 5,
 						"availableIn": [
 							"Azog's Hunters",
-							"Pits of Dol Guldur"
+							"Pits of Dol Guldur",
+							"Dark Powers of Dol Guldur"
 						]
 					},
 					{
@@ -10127,7 +10129,8 @@
 						"points": 5,
 						"availableIn": [
 							"Azog's Hunters",
-							"Pits of Dol Guldur"
+							"Pits of Dol Guldur",
+							"Dark Powers of Dol Guldur"
 						]
 					}
 				],
@@ -13834,7 +13837,10 @@
 					},
 					{
 						"name": "The Ring",
-						"points": 0
+						"points": 0,
+						"unavailableWith": [
+							"Elendil"
+						]
 					}
 				],
 				"specialText": "As long as your force does not contain either Elendil or Anarion, then Isildur may carry The Ring.",
