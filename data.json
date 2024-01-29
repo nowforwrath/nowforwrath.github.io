@@ -9728,7 +9728,7 @@
 					},
 					{
 						"name": "Azog's Hunters",
-						"heroicTier": "Hero of Valour"
+						"heroicTier": "Hero of Legend"
 					},
 					{
 						"name": "Pits of Dol Guldur",
@@ -24108,12 +24108,21 @@
 					"Infantry",
 					"Warrior"
 				],
-				"options": [],
+				"options": [
+					{
+						"name": "Crushing Club (Only choose one)",
+						"points": 0,
+						"usesDefinition": "Crushing Club"
+					},
+					{
+						"name": "Scythe Gauntlets (Only choose one)",
+						"points": 0,
+						"usesDefinition": "Scythe Gauntlets"
+					}
+				],
 				"specialRules": [
 					"Ancient Enemies (Dwarf)(Elf)",
-					"Ancient Enemies",
-					"Crushing Club",
-					"Scythe Gauntlets"
+					"Ancient Enemies"
 				],
 				"wargear": [
 					"Heavy Armour"
