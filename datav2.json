@@ -2,6 +2,7 @@
 	"config": {
 		"trackHighestDivision": true
 	},
+	"appVersion": 2,
 	"credit": [
 		{
 			"type": "text",
