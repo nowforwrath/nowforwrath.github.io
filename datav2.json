@@ -10012,7 +10012,7 @@
 						"heroicTier": "Independent Hero"
 					}
 				],
-				"availableOn": [
+				"availableIn": [
 					"Faramir, Captain of Gondor"
 				],
 				"warnInOptions": true,
@@ -26795,7 +26795,7 @@
 			{
 				"name": "Goblin Mercenary",
 				"factions": [],
-				"availableWith": [
+				"availableIn": [
 					"Goblin Mercenary Captain"
 				],
 				"points": 5,
