@@ -23339,7 +23339,7 @@
 				"factions": [
 					"Rangers of Ithilien"
 				],
-				"availableOn": [
+				"availableIn": [
 					"Faramir, Captain of Gondor"
 				],
 				"unique": true,
@@ -23857,7 +23857,7 @@
 					{
 						"name": "Westfold Redshields",
 						"points": 1,
-						"availableOn": [
+						"availableIn": [
 							"Erkenbrand, Captain of Rohan"
 						]
 					}
@@ -25439,7 +25439,7 @@
 					{
 						"name": "Marauder",
 						"points": 1,
-						"availableOn": [
+						"availableIn": [
 							"Mauhur"
 						]
 					}
@@ -26063,7 +26063,7 @@
 					{
 						"name": "Galadhrim Guard",
 						"points": 1,
-						"availableOn": [
+						"availableIn": [
 							"Galadriel",
 							"Celeborn"
 						]
@@ -26188,7 +26188,9 @@
 					{
 						"name": "Hearthguard",
 						"points": 2,
-						"availableOn": "Durin, King of Khazad-Dum"
+						"availableIn": [
+							"Durin, King of Khazad-Dum"
+						]
 					}
 				],
 				"specialRules": [
@@ -28296,7 +28298,7 @@
 					{
 						"name": "Guardians of the King",
 						"points": 1,
-						"availableOn": [
+						"availableIn": [
 							"Thror"
 						]
 					}
