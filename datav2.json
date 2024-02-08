@@ -15,7 +15,7 @@
 		},
 		{
 			"type": "text",
-			"text": " or wrtten battle reports "
+			"text": " or written battle reports "
 		},
 		{
 			"type": "url",
@@ -12183,18 +12183,19 @@
 				"hideStats": true,
 				"unlimited": true,
 				"heroicActions": [],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "warriors",
+						"name": "Herald",
+						"quantity": 2,
+						"points": 0,
+						"lockedChildren": true
+					}
+				],
 				"includes": [
 					{
 						"dataSource": "heroes",
 						"name": "King's Champion"
-					},
-					{
-						"dataSource": "heroes",
-						"name": "Herald"
-					},
-					{
-						"dataSource": "heroes",
-						"name": "Herald"
 					}
 				],
 				"keywords": [
@@ -12250,51 +12251,6 @@
 					"Heavy Dwarf Armour",
 					"Axe",
 					"Axe"
-				]
-			},
-			{
-				"name": "Herald",
-				"factions": [
-					{
-						"name": "The Kingdom of Moria",
-						"heroicTier": "Independent Hero"
-					},
-					{
-						"name": "The Kingdom of Khazad-Dum",
-						"heroicTier": "Independent Hero"
-					}
-				],
-				"points": 0,
-				"movement": 5,
-				"fight": 4,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 7,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 4,
-				"might": 0,
-				"will": 1,
-				"fate": 2,
-				"heroicActions": [],
-				"specialText": "The King's Champion will always be the warband leader, and a Herald counts as an Independent Hero.",
-				"keywords": [
-					"Dwarf",
-					"Khazad-Dum",
-					"Infantry",
-					"Hero"
-				],
-				"unavailableSolo": true,
-				"options": [],
-				"specialRules": [
-					"The Herald's Duty",
-					"The Life Guard"
-				],
-				"wargear": [
-					"Dwarf Armour",
-					"Axe",
-					"Shield",
-					"Banner"
 				]
 			},
 			{
@@ -22759,6 +22715,45 @@
 		],
 		"warriors": [
 			{
+				"name": "Herald",
+				"factions": [
+					"The Kingdom of Moria",
+					"The Kingdom of Khazad-Dum"
+				],
+				"points": 0,
+				"movement": 5,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 4,
+				"might": 0,
+				"will": 1,
+				"fate": 2,
+				"heroicActions": [],
+				"specialText": "The King's Champion will always be the warband leader, and a Herald counts as an Independent Hero.",
+				"keywords": [
+					"Dwarf",
+					"Khazad-Dum",
+					"Infantry",
+					"Hero"
+				],
+				"unavailableSolo": true,
+				"options": [],
+				"specialRules": [
+					"The Herald's Duty",
+					"The Life Guard"
+				],
+				"wargear": [
+					"Dwarf Armour",
+					"Axe",
+					"Shield",
+					"Banner"
+				]
+			},
+			{
 				"name": "Tom Bombadil",
 				"factions": [
 					"Wanderers in the Wild"
@@ -26242,6 +26237,16 @@
 					"The Kingdom of Moria"
 				],
 				"points": 25,
+				"includes": [
+					{
+						"dataSource": "warriors",
+						"name": "Iron Shield"
+					},
+					{
+						"dataSource": "warriors",
+						"name": "Foe Spear"
+					}
+				],
 				"hideStats": true,
 				"includesWarriors": [
 					"Iron Shield",
