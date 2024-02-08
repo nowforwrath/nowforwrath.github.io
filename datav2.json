@@ -23,9 +23,6 @@
 			"url": "https://nowforwrath.com"
 		}
 	],
-	"creditText": "Now for Wrath, a blog full of battle report writeups!",
-	"creditUrl": "nowforwrath.com",
-	"creditEmail": "nowforwrathblog@gmail.com",
 	"game": "Middle-Earth Strategy Battle Game",
 	"usePrimarySecondaryAllianceLevels": true,
 	"allianceTerms": {
@@ -13455,7 +13452,7 @@
 				]
 			},
 			{
-				"name": "Madril, Captain of of Ithilien",
+				"name": "Madril, Captain of Ithilien",
 				"factions": [
 					{
 						"name": "Minas Tirith",
