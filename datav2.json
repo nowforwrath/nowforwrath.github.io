@@ -1,10 +1,29 @@
 {
 	"config": {
-		"trackHighestDivision": false
+		"trackHighestDivision": true
 	},
 	"appVersion": 2,
-	"credit": [],
-	"game": "Bolt Action",
+	"credit": [
+		{
+			"type": "text",
+			"text": "Data provided by Now For Wrath. Check out their YouTube channel with battle reports "
+		},
+		{
+			"type": "url",
+			"text": "Here",
+			"url": "https://www.youtube.com/@NowForWrathGaming"
+		},
+		{
+			"type": "text",
+			"text": " or written battle reports "
+		},
+		{
+			"type": "url",
+			"text": "Here",
+			"url": "https://nowforwrath.com"
+		}
+	],
+	"game": "Middle-Earth Strategy Battle Game",
 	"usePrimarySecondaryAllianceLevels": true,
 	"allianceTerms": {
 		"primary": "Historical",
@@ -13,32 +32,246 @@
 	},
 	"stats": [
 		{
+			"name": "Movement",
+			"abbreviation": "Mv",
+			"trail": "\""
+		},
+		{
+			"name": "Fight",
+			"abbreviation": "F",
+			"trail": "/"
+		},
+		{
+			"name": "Shoot",
+			"trail": "+",
+			"shareWith": "Fight"
+		},
+		{
 			"name": "Strength",
 			"abbreviation": "S"
+		},
+		{
+			"name": "Defence",
+			"abbreviation": "D"
+		},
+		{
+			"name": "Attack",
+			"abbreviation": "A"
+		},
+		{
+			"name": "Wounds",
+			"abbreviation": "W",
+			"expendable": true,
+			"onlyExpendableIfGreaterThanOne": true
+		},
+		{
+			"name": "Courage",
+			"abbreviation": "C"
+		},
+		{
+			"name": "",
+			"abbreviation": "|",
+			"showIf": "Might"
+		},
+		{
+			"name": "Might",
+			"abbreviation": "M",
+			"expendable": true
+		},
+		{
+			"name": "Will",
+			"abbreviation": "W",
+			"expendable": true
+		},
+		{
+			"name": "Fate",
+			"abbreviation": "F",
+			"expendable": true
 		}
 	],
-	"limits": [],
-	"counts": [],
-	"calculations": [],
-	"additionalPrint": [],
+	"limits": [
+		{
+			"type": "bow",
+			"property": "warriors",
+			"byFaction": true,
+			"maximumPercentage": 33.33,
+			"roundUp": true,
+			"label": "warrior bows"
+		}
+	],
+	"counts": [
+		"bow"
+	],
+	"calculations": [
+		{
+			"label": "Broken",
+			"property": "models",
+			"percentage": 50.00001,
+			"roundup": true,
+			"suffix": " killed"
+		},
+		{
+			"label": "Quartered",
+			"property": "models",
+			"percentage": 25,
+			"roundup": false,
+			"suffix": " remaining"
+		}
+	],
+	"leaderConfig": {
+		"elementPropertyName": "heroes",
+		"usesProperty": "heroicTier"
+	},
+	"additionalPrint": [
+		{
+			"propertyName": "wargear",
+			"label": "Wargear"
+		},
+		{
+			"propertyName": "heroicActions",
+			"label": "Heroic Actions"
+		},
+		{
+			"propertyName": "specialRules",
+			"label": "Special Rules"
+		}
+	],
 	"elements": [
 		{
 			"propertyName": "factions",
-			"label": "Force",
+			"label": "Faction",
 			"type": "faction",
 			"dataSource": "factions",
+			"removeWhenNotPrimary": [
+				"armyBonus"
+			],
+			"divisionProperty": "alignment",
+			"divisions": [
+				"Good",
+				"Evil"
+			],
 			"children": [
 				{
-					"propertyName": "units",
-					"dataSource": "units",
-					"label": "Unit",
+					"propertyName": "heroes",
+					"dataSource": "heroes",
+					"label": "Hero",
 					"type": "main",
+					"tierProperty": "heroicTier",
+					"tierData": "heroicTiers",
+					"tiers": [
+						{
+							"name": "Hero of Legend - Sauron",
+							"maximumChildren": {
+								"warriors": 24
+							},
+							"rank": 1
+						},
+						{
+							"name": "Hero of Legend",
+							"maximumChildren": {
+								"warriors": 18
+							},
+							"rank": 1
+						},
+						{
+							"name": "Hero of Valour",
+							"maximumChildren": {
+								"warriors": 15
+							},
+							"rank": 2
+						},
+						{
+							"name": "Hero of Fortitude",
+							"maximumChildren": {
+								"warriors": 12
+							},
+							"rank": 3
+						},
+						{
+							"name": "Minor Hero",
+							"maximumChildren": {
+								"warriors": 6
+							},
+							"rank": 4
+						},
+						{
+							"name": "Independent Hero",
+							"maximumChildren": {
+								"warriors": 0
+							},
+							"canBeChild": true,
+							"rank": 5
+						}
+					],
 					"children": [
 						{
-							"propertyName": "equipment",
-							"label": "Equipment",
+							"singleKey": "warrior",
+							"dataSource": "warriors",
+							"propertyName": "warriors",
+							"label": "Warrior",
+							"type": "list",
+							"children": [
+								{
+									"propertyName": "options",
+									"selectedProperty": "chosenOptions",
+									"requiredProperty": "requiredOptions",
+									"requiredThroughSecondParentProperty": "requiredOn",
+									"requiredThroughRootProperty": "requiredIn",
+									"type": "checkbox",
+									"dataSource": "gear",
+									"disallowedMultiples": [
+										"bow",
+										"mount",
+										"armour",
+										"shield"
+									],
+									"universalOptions": [
+										{
+											"name": "Weapon Swap",
+											"points": 1,
+											"manualText": true
+										}
+									]
+								},
+								{
+									"propertyName": "wargear",
+									"label": "Wargear",
+									"type": "static",
+									"dataSource": "gear",
+									"disallowedMultiples": [
+										"bow",
+										"mount",
+										"armour",
+										"shield"
+									]
+								},
+								{
+									"propertyName": "specialRules",
+									"type": "static",
+									"label": "Special Rules",
+									"dataSource": "keywords",
+									"children": [
+										{
+											"label": "Special Rules",
+											"propertyName": "specialRules",
+											"type": "static",
+											"dataSource": "keywords"
+										}
+									]
+								}
+							]
+						},
+						{
+							"propertyName": "wargear",
+							"label": "Wargear",
 							"type": "static",
-							"dataSource": "equipment"
+							"dataSource": "gear",
+							"disallowedMultiples": [
+								"bow",
+								"mount",
+								"armour",
+								"shield"
+							]
 						},
 						{
 							"propertyName": "keywords",
@@ -65,6 +298,14 @@
 									"propertyName": "specialRules",
 									"type": "static",
 									"dataSource": "keywords"
+								}
+							],
+							"universalOptions": [
+								{
+									"name": "Weapon Swap",
+									"points": 5,
+									"availableWithProperty": "unlimited",
+									"manualText": true
 								}
 							]
 						},
@@ -11942,18 +12183,19 @@
 				"hideStats": true,
 				"unlimited": true,
 				"heroicActions": [],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "warriors",
+						"name": "Herald",
+						"quantity": 2,
+						"points": 0,
+						"lockedChildren": true
+					}
+				],
 				"includes": [
 					{
 						"dataSource": "heroes",
 						"name": "King's Champion"
-					},
-					{
-						"dataSource": "heroes",
-						"name": "Herald"
-					},
-					{
-						"dataSource": "heroes",
-						"name": "Herald"
 					}
 				],
 				"keywords": [
@@ -12009,51 +12251,6 @@
 					"Heavy Dwarf Armour",
 					"Axe",
 					"Axe"
-				]
-			},
-			{
-				"name": "Herald",
-				"factions": [
-					{
-						"name": "The Kingdom of Moria",
-						"heroicTier": "Independent Hero"
-					},
-					{
-						"name": "The Kingdom of Khazad-Dum",
-						"heroicTier": "Independent Hero"
-					}
-				],
-				"points": 0,
-				"movement": 5,
-				"fight": 4,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 7,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 4,
-				"might": 0,
-				"will": 1,
-				"fate": 2,
-				"heroicActions": [],
-				"specialText": "The King's Champion will always be the warband leader, and a Herald counts as an Independent Hero.",
-				"keywords": [
-					"Dwarf",
-					"Khazad-Dum",
-					"Infantry",
-					"Hero"
-				],
-				"autoAddOnly": true,
-				"options": [],
-				"specialRules": [
-					"The Herald's Duty",
-					"The Life Guard"
-				],
-				"wargear": [
-					"Dwarf Armour",
-					"Axe",
-					"Shield",
-					"Banner"
 				]
 			},
 			{
@@ -13211,7 +13408,7 @@
 				]
 			},
 			{
-				"name": "Madril, Captain of of Ithilien",
+				"name": "Madril, Captain of Ithilien",
 				"factions": [
 					{
 						"name": "Minas Tirith",
@@ -13352,7 +13549,7 @@
 				"name": "No Hero (Dead)",
 				"factions": [
 					{
-						"name": "Wildmen of Druadan",
+						"name": "The Dead of Dunharrow",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -22518,6 +22715,45 @@
 		],
 		"warriors": [
 			{
+				"name": "Herald",
+				"factions": [
+					"The Kingdom of Moria",
+					"The Kingdom of Khazad-Dum"
+				],
+				"points": 0,
+				"movement": 5,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 4,
+				"might": 0,
+				"will": 1,
+				"fate": 2,
+				"heroicActions": [],
+				"specialText": "The King's Champion will always be the warband leader, and a Herald counts as an Independent Hero.",
+				"keywords": [
+					"Dwarf",
+					"Khazad-Dum",
+					"Infantry",
+					"Hero"
+				],
+				"autoAddOnly": true,
+				"options": [],
+				"specialRules": [
+					"The Herald's Duty",
+					"The Life Guard"
+				],
+				"wargear": [
+					"Dwarf Armour",
+					"Axe",
+					"Shield",
+					"Banner"
+				]
+			},
+			{
 				"name": "Tom Bombadil",
 				"factions": [
 					"Wanderers in the Wild"
@@ -26001,6 +26237,16 @@
 					"The Kingdom of Moria"
 				],
 				"points": 25,
+				"includes": [
+					{
+						"dataSource": "warriors",
+						"name": "Iron Shield"
+					},
+					{
+						"dataSource": "warriors",
+						"name": "Foe Spear"
+					}
+				],
 				"hideStats": true,
 				"includesWarriors": [
 					"Iron Shield",
