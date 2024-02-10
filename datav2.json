@@ -18539,7 +18539,28 @@
 					{
 						"name": "The Beornings",
 						"heroicTier": "Hero of Valour"
+					}
+				],
+				"hideStats": true,
+				"heroicActions": [],
+				"options": [],
+				"specialRules": [],
+				"decreaseModelCount": 1
+			},
+			{
+				"name": "Grimbeorn (Wanderers)",
+				"includes": [
+					{
+						"dataSource": "heroes",
+						"name": "Grimbeorn (Man)"
 					},
+					{
+						"dataSource": "heroes",
+						"name": "Grimbeorn the Bear"
+					}
+				],
+				"points": 200,
+				"factions": [
 					{
 						"name": "Wanderers in the Wild",
 						"heroicTier": "Hero of Valour"
@@ -28329,10 +28350,12 @@
 					"The Beornings"
 				],
 				"additionalHeroes": [
-					"Grimbeorn"
+					"Grimbeorn",
+					"Grimbeorn (Wanderers)"
 				],
 				"availableIn": [
-					"Grimbeorn"
+					"Grimbeorn",
+					"Grimbeorn (Wanderers)"
 				],
 				"points": 20,
 				"movement": 6,
