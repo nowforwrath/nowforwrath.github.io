@@ -7773,11 +7773,42 @@
 					"adjustAllianceLevels": [
 						{
 							"level": "primary",
-							"factions": []
+							"factions": [
+								"Garrison of Dale"
+							],
+							"with": [
+								{
+									"any": [
+										"Brand, King of Dale",
+										"Bard II, Prince of Dale"
+									]
+								}
+							]
+						},
+						{
+							"level": "primary",
+							"factions": [
+								"Erebor Reclaimed",
+								"Defenders of Erebor"
+							]
 						},
 						{
 							"level": "secondary",
-							"factions": []
+							"factions": [
+								"The Dead of Dunharrow",
+								"Fangorn",
+								"The Fellowship",
+								"The Fiefdoms",
+								"Halls of Thranduil",
+								"Lothlorien",
+								"Minas Tirith",
+								"The Misty Mountains",
+								"The Rangers",
+								"Riendell",
+								"Rohan",
+								"The Shire",
+								"Wildmen of Druadan"
+							]
 						}
 					]
 				},
