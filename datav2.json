@@ -3555,7 +3555,8 @@
 							"Mordor",
 							"Angmar",
 							"Barad Dur"
-						]
+						],
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Fell Beast",
@@ -3564,7 +3565,8 @@
 							"Mordor",
 							"Angmar",
 							"Barad Dur"
-						]
+						],
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Crown of Morgul",
@@ -3582,7 +3584,8 @@
 							"Mordor",
 							"Angmar",
 							"Barad Dur"
-						]
+						],
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Horse",
@@ -3592,7 +3595,8 @@
 							"Angmar",
 							"Barad Dur",
 							"The Black Riders"
-						]
+						],
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Morgul Blade",
@@ -3719,19 +3723,23 @@
 				"options": [
 					{
 						"name": "Armoured Fell Beast",
-						"points": 70
+						"points": 70,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Fell Beast",
-						"points": 50
+						"points": 50,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Armoured Horse",
-						"points": 15
+						"points": 15,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Horse",
-						"points": 10
+						"points": 10,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -3810,19 +3818,23 @@
 				"options": [
 					{
 						"name": "Armoured Fell Beast",
-						"points": 70
+						"points": 70,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Fell Beast",
-						"points": 50
+						"points": 50,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Armoured Horse",
-						"points": 15
+						"points": 15,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Horse",
-						"points": 10
+						"points": 10,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -3901,15 +3913,18 @@
 				"options": [
 					{
 						"name": "Armoured Fell Beast",
-						"points": 70
+						"points": 70,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Fell Beast",
-						"points": 50
+						"points": 50,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Horse",
-						"points": 10
+						"points": 10,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -3988,15 +4003,18 @@
 				"options": [
 					{
 						"name": "Armoured Fell Beast",
-						"points": 70
+						"points": 70,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Fell Beast",
-						"points": 50
+						"points": 50,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Horse",
-						"points": 10
+						"points": 10,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -4080,15 +4098,18 @@
 				"options": [
 					{
 						"name": "Armoured Fell Beast",
-						"points": 70
+						"points": 70,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Fell Beast",
-						"points": 50
+						"points": 50,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Horse",
-						"points": 10
+						"points": 10,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -4172,15 +4193,18 @@
 				"options": [
 					{
 						"name": "Armoured Fell Beast",
-						"points": 70
+						"points": 70,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Fell Beast",
-						"points": 50
+						"points": 50,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Horse",
-						"points": 10
+						"points": 10,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -4968,19 +4992,23 @@
 				"options": [
 					{
 						"name": "Armoured fell beast",
-						"points": 70
+						"points": 70,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Fell beast",
-						"points": 50
+						"points": 50,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Armoured horse",
-						"points": 15
+						"points": 15,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Horse",
-						"points": 10
+						"points": 10,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -5065,19 +5093,23 @@
 				"options": [
 					{
 						"name": "Armoured fell beast",
-						"points": 70
+						"points": 70,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Fell beast",
-						"points": 50
+						"points": 50,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Armoured horse",
-						"points": 15
+						"points": 15,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Horse",
-						"points": 10
+						"points": 10,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -5182,7 +5214,8 @@
 						"availableIn": [
 							"Mordor",
 							"Barad Dur"
-						]
+						],
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Fell beast",
@@ -5190,7 +5223,8 @@
 						"availableIn": [
 							"Mordor",
 							"Barad Dur"
-						]
+						],
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Horse",
@@ -5199,7 +5233,8 @@
 							"Mordor",
 							"Barad Dur",
 							"The Black Riders"
-						]
+						],
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Might",
@@ -17853,11 +17888,13 @@
 						"availableIn": [
 							"Radagast's Alliance",
 							"The White Council"
-						]
+						],
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Sleigh",
-						"points": 45
+						"points": 45,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Horse",
@@ -17865,7 +17902,8 @@
 						"availableIn": [
 							"Radagast's Alliance",
 							"The White Council"
-						]
+						],
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Sebastian",
@@ -26800,14 +26838,14 @@
 				],
 				"options": [
 					{
-						"name": "Crushing Club (Only choose one)",
+						"name": "Crushing Club",
 						"points": 0,
-						"usesDefinition": "Crushing Club"
+						"chooseOneKey": "a"
 					},
 					{
-						"name": "Scythe Gauntlets (Only choose one)",
+						"name": "Scythe Gauntlets",
 						"points": 0,
-						"usesDefinition": "Scythe Gauntlets"
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
