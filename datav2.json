@@ -28649,13 +28649,15 @@
 				],
 				"options": [
 					{
-						"name": "Bow with poisoned arrows (Only choose one option)",
+						"name": "Bow with poisoned arrows",
 						"points": 0,
-						"usesDefinition": "Bow with poisoned arrows"
+						"usesDefinition": "Bow with poisoned arrows",
+						"chooseOneKey": "a"
 					},
 					{
-						"name": "Twin Blades (Only choose one option)",
-						"points": 0
+						"name": "Twin Blades",
+						"points": 0,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
