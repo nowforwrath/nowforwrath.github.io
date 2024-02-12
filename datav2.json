@@ -2372,14 +2372,17 @@
 							"Riders of Theoden",
 							"Riders of Eomer",
 							"Paths of the Druadan"
-						]
+						],
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Horse",
 						"points": 10,
 						"availableIn": [
-							"Rohan"
-						]
+							"Rohan",
+							"Riders of Eomer"
+						],
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
@@ -26341,10 +26344,6 @@
 					}
 				],
 				"hideStats": true,
-				"includesWarriors": [
-					"Iron Shield",
-					"Foe Spear"
-				],
 				"keywords": [
 					"Dwarf",
 					"Khazad-Dum",
@@ -26992,10 +26991,19 @@
 				],
 				"points": 80,
 				"hideStats": true,
-				"includesWarriors": [
-					"Uruk-hai Warrior",
-					"Uruk-hai Warrior",
-					"Uruk-hai Berserker"
+				"includes": [
+					{
+						"dataSource": "warriors",
+						"name": "Uruk-hai Warrior"
+					},
+					{
+						"dataSource": "warriors",
+						"name": "Uruk-hai Warrior"
+					},
+					{
+						"dataSource": "warriors",
+						"name": "Uruk-hai Berserker"
+					}
 				],
 				"keywords": [
 					"Uruk-hai",
@@ -27995,9 +28003,15 @@
 				],
 				"points": 75,
 				"hideStats": true,
-				"includesWarriors": [
-					"Moria Goblin Drummer",
-					"Moria Goblin Drummer"
+				"includes": [
+					{
+						"dataSource": "warriors",
+						"name": "Moria Goblin Drummer"
+					},
+					{
+						"dataSource": "warriors",
+						"name": "Moria Goblin Drummer"
+					}
 				],
 				"keywords": [
 					"Goblin",
@@ -28019,9 +28033,15 @@
 				],
 				"points": 75,
 				"hideStats": true,
-				"includesWarriors": [
-					"Moria Blackshield Drummer",
-					"Moria Blackshield Drummer"
+				"includes": [
+					{
+						"dataSource": "warriors",
+						"name": "Moria Blackshield Drummer"
+					},
+					{
+						"dataSource": "warriors",
+						"name": "Moria Blackshield Drummer"
+					}
 				],
 				"keywords": [
 					"Goblin",
