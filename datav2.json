@@ -17442,7 +17442,6 @@
 						"heroicTier": "Minor Hero"
 					}
 				],
-				"decreaseModelCount": 1,
 				"unlimited": true,
 				"points": 50,
 				"movement": 0,
@@ -22741,13 +22740,14 @@
 					"Dagger"
 				],
 				"options": []
-			}
-		],
-		"warriors": [
+			},
 			{
 				"name": "Uruk-hai Siege Veteran",
 				"factions": [
-					"Isengard"
+					{
+						"name": "Isengard",
+						"heroicTier": "Hero of Fortitude"
+					}
 				],
 				"autoAddOnly": true,
 				"points": 0,
@@ -22784,7 +22784,10 @@
 			{
 				"name": "Iron Hills Dwarf Siege Veteran",
 				"factions": [
-					"The Iron Hills"
+					{
+						"name": "The Iron Hills",
+						"heroicTier": "Hero of Fortitude"
+					}
 				],
 				"autoAddOnly": true,
 				"points": 0,
@@ -22821,7 +22824,10 @@
 			{
 				"name": "Orc Siege Veteran",
 				"factions": [
-					"Mordor"
+					{
+						"name": "Mordor",
+						"heroicTier": "Hero of Fortitude"
+					}
 				],
 				"autoAddOnly": true,
 				"points": 0,
@@ -22868,7 +22874,10 @@
 			{
 				"name": "Minas Tirith Siege Veteran",
 				"factions": [
-					"Minas Tirith"
+					{
+						"name": "Minas Tirith",
+						"heroicTier": "Hero of Fortitude"
+					}
 				],
 				"autoAddOnly": true,
 				"points": 0,
@@ -22901,7 +22910,9 @@
 					"Heavy armour",
 					"Sword"
 				]
-			},
+			}
+		],
+		"warriors": [
 			{
 				"name": "Herald",
 				"factions": [
