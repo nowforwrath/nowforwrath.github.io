@@ -1075,6 +1075,7 @@
 								"quantity": 6,
 								"points": 0,
 								"lockedChildren": true,
+								"ignoreModels": true,
 								"requiredChildren": [
 									{
 										"elementPropertyName": "options",
@@ -5895,6 +5896,12 @@
 						"heroicTier": "Minor Hero"
 					}
 				],
+				"includes": [
+					{
+						"dataSource": "heroes",
+						"name": "Orc Siege Veteran"
+					}
+				],
 				"unlimited": true,
 				"points": 50,
 				"movement": 0,
@@ -5912,8 +5919,22 @@
 				"keywords": [
 					"Siege Engine"
 				],
-				"decreaseModelCount": 1,
 				"options": [
+					{
+						"name": "Orc Engineer Captain",
+						"points": 40,
+						"usesDefinition": "Engineer Captain"
+					},
+					{
+						"name": "Orc bow",
+						"points": 5,
+						"unlockedBy": "Orc Engineer Captain"
+					},
+					{
+						"name": "Orc shield",
+						"points": 5,
+						"unlockedBy": "Orc Engineer Captain"
+					},
 					{
 						"name": "Flaming Ammunition",
 						"points": 15
@@ -5936,12 +5957,6 @@
 						"name": "Orc Crew",
 						"quantity": 2,
 						"points": 0
-					},
-					{
-						"elementPropertyName": "warriors",
-						"name": "Orc Siege Veteran",
-						"quantity": 1,
-						"points": 0
 					}
 				]
 			},
@@ -5959,6 +5974,12 @@
 					{
 						"name": "Barad Dur",
 						"heroicTier": "Minor Hero"
+					}
+				],
+				"includes": [
+					{
+						"dataSource": "heroes",
+						"name": "Orc Siege Veteran"
 					}
 				],
 				"unlimited": true,
@@ -5979,6 +6000,21 @@
 					"Siege Engine"
 				],
 				"options": [
+					{
+						"name": "Orc Engineer Captain",
+						"points": 40,
+						"usesDefinition": "Engineer Captain"
+					},
+					{
+						"name": "Orc bow",
+						"points": 5,
+						"unlockedBy": "Orc Engineer Captain"
+					},
+					{
+						"name": "Orc shield",
+						"points": 5,
+						"unlockedBy": "Orc Engineer Captain"
+					},
 					{
 						"name": "Flaming Ammunition",
 						"points": 15
@@ -6011,12 +6047,6 @@
 					{
 						"elementPropertyName": "warriors",
 						"name": "Mordor Troll",
-						"quantity": 1,
-						"points": 0
-					},
-					{
-						"elementPropertyName": "warriors",
-						"name": "Orc Siege Veteran",
 						"quantity": 1,
 						"points": 0
 					}
@@ -8177,11 +8207,22 @@
 				"will": 0,
 				"fate": 0,
 				"heroicActions": [],
+				"includes": [
+					{
+						"name": "Iron Hills Dwarf Siege Veteran",
+						"dataSource": "heroes"
+					}
+				],
 				"keywords": [
 					"Siege Weapon",
 					"Iron Hills"
 				],
 				"options": [
+					{
+						"name": "Iron Hills Dwarf Engineer Captain",
+						"points": 75,
+						"usesDefinition": "Engineer Captain"
+					},
 					{
 						"name": "Superior Construction",
 						"points": 15
@@ -8203,12 +8244,6 @@
 					{
 						"elementPropertyName": "warriors",
 						"name": "Iron Hills Dwarf Crew",
-						"quantity": 3,
-						"points": 0
-					},
-					{
-						"elementPropertyName": "warriors",
-						"name": "Iron Hills Dwarf Siege Veteran",
 						"quantity": 3,
 						"points": 0
 					}
@@ -8243,7 +8278,18 @@
 				"keywords": [
 					"Siege Engine"
 				],
+				"includes": [
+					{
+						"name": "Uruk-hai Siege Veteran",
+						"dataSource": "heroes"
+					}
+				],
 				"options": [
+					{
+						"name": "Uruk-hai Engineer Captain",
+						"points": 50,
+						"usesDefinition": "Engineer Captain"
+					},
 					{
 						"name": "Additional Crew",
 						"points": 9,
@@ -8267,10 +8313,6 @@
 						"name": "Uruk-hai Crew",
 						"quantity": 2,
 						"points": 0
-					},
-					{
-						"elementPropertyName": "warriors",
-						"name": "Uruk-hai Siege Veteran"
 					}
 				]
 			},
@@ -12576,6 +12618,56 @@
 				]
 			},
 			{
+				"name": "Orc Siege Veteran",
+				"factions": [
+					{
+						"name": "Mordor",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"autoAddOnly": true,
+				"points": 0,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 5,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 2,
+				"will": 1,
+				"might": 1,
+				"fate": 1,
+				"keywords": [
+					"Orc",
+					"Mordor",
+					"Infantry",
+					"Warrior"
+				],
+				"options": [
+					{
+						"name": "Orc Engineer Captain",
+						"points": 40,
+						"usesDefinition": "Engineer Captain"
+					},
+					{
+						"name": "Orc bow",
+						"points": 5,
+						"unlockedBy": "Orc Engineer Captain"
+					},
+					{
+						"name": "Orc shield",
+						"points": 5,
+						"unlockedBy": "Orc Engineer Captain"
+					}
+				],
+				"specialRules": [],
+				"wargear": [
+					"Armour",
+					"Sword"
+				]
+			},
+			{
 				"name": "Oin the Dwarf, Champion of Erebor",
 				"factions": [
 					{
@@ -13048,6 +13140,7 @@
 						"name": "Easterling Warrior",
 						"quantity": 6,
 						"points": 0,
+						"ignoreModels": true,
 						"requiredChildren": [
 							{
 								"elementPropertyName": "options",
@@ -13061,8 +13154,7 @@
 				"increasesWarbandSize": 6,
 				"increaseMaximumChildren": {
 					"warriors": 6
-				},
-				"decreaseModelCount": 6
+				}
 			},
 			{
 				"name": "Rutabi, General of the Dragon Legion",
@@ -16702,7 +16794,18 @@
 				"keywords": [
 					"Siege Engine"
 				],
+				"includes": [
+					{
+						"name": "Minas Tirith Siege Veteran",
+						"dataSource": "heroes"
+					}
+				],
 				"options": [
+					{
+						"name": "Upgrade to Engineer Captain",
+						"points": 50,
+						"usesDefinition": "Engineer Captain"
+					},
 					{
 						"name": "Flaming Ammunition",
 						"points": 15
@@ -16728,13 +16831,6 @@
 						"points": 0,
 						"hideFromPrint": true,
 						"lockedChildren": true
-					},
-					{
-						"elementPropertyName": "warriors",
-						"name": "Minas Tirith Siege Veteran",
-						"quantity": 1,
-						"points": 0,
-						"hideFromPrint": true
 					}
 				]
 			},
@@ -17364,7 +17460,18 @@
 				"keywords": [
 					"Siege Engine"
 				],
+				"includes": [
+					{
+						"name": "Minas Tirith Siege Veteran",
+						"dataSource": "heroes"
+					}
+				],
 				"options": [
+					{
+						"name": "Upgrade to Engineer Captain",
+						"points": 50,
+						"usesDefinition": "Engineer Captain"
+					},
 					{
 						"name": "Swift Reload",
 						"points": 20
@@ -17388,12 +17495,6 @@
 						"quantity": 2,
 						"points": 0,
 						"hideFromPrint": true
-					},
-					{
-						"elementPropertyName": "warriors",
-						"name": "Minas Tirith Siege Veteran",
-						"quantity": 1,
-						"points": 0
 					}
 				]
 			},
@@ -30399,6 +30500,10 @@
 				"name": "The Light of Earendil",
 				"tag": "Passive",
 				"definition": "Shooting attacks that are directed against Galadriel, Lady of Light, or any model within 6\" of her, will only hit on a To Hit roll of a 6."
+			},
+			{
+				"name": "Engineer Captain",
+				"definition": "If you choose this option, replace the Siege Veteran with a Captain from the relevant army list. You should use a suitable model for this. Engineer Captains have all the usual weapons that a Captain would have, and may even be upgraded to carry any equipment that a Captain could take, with the exception that they can never be mounted. They will also have the Hero keyword and be counted as a Hero of Fortitude. Unlike other Hero models, Engineer Captains may use their Might to influence To Hit, To Wound and Scatter rolls for the Siege Engine. Only a single Engineer Captain may be attached to each Siege Engine."
 			},
 			{
 				"name": "The Serpent Banner",
