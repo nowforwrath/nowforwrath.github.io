@@ -5881,178 +5881,6 @@
 				]
 			},
 			{
-				"name": "Mordor Siege Bow",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Minor Hero"
-					},
-					{
-						"name": "The Army of Gothmog",
-						"heroicTier": "Minor Hero"
-					},
-					{
-						"name": "Barad Dur",
-						"heroicTier": "Minor Hero"
-					}
-				],
-				"includes": [
-					{
-						"dataSource": "heroes",
-						"name": "Orc Siege Veteran"
-					}
-				],
-				"unlimited": true,
-				"points": 50,
-				"movement": 0,
-				"fight": 0,
-				"shoot": 0,
-				"strength": 9,
-				"defence": 10,
-				"attack": 0,
-				"wounds": 3,
-				"courage": 0,
-				"might": 0,
-				"will": 0,
-				"fate": 0,
-				"heroicActions": [],
-				"keywords": [
-					"Siege Engine"
-				],
-				"options": [
-					{
-						"name": "Orc Engineer Captain",
-						"points": 40,
-						"usesDefinition": "Engineer Captain"
-					},
-					{
-						"name": "Orc bow",
-						"points": 5,
-						"unlockedBy": "Orc Engineer Captain"
-					},
-					{
-						"name": "Orc shield",
-						"points": 5,
-						"unlockedBy": "Orc Engineer Captain"
-					},
-					{
-						"name": "Flaming Ammunition",
-						"points": 15
-					},
-					{
-						"name": "Additional Crew",
-						"points": 5,
-						"increment": true,
-						"max": 3
-					}
-				],
-				"specialRules": [
-					"Piercing Shot",
-					"Accurate"
-				],
-				"wargear": [],
-				"requiredChildren": [
-					{
-						"elementPropertyName": "warriors",
-						"name": "Orc Crew",
-						"quantity": 2,
-						"points": 0
-					}
-				]
-			},
-			{
-				"name": "Mordor War Catapult",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Minor Hero"
-					},
-					{
-						"name": "The Army of Gothmog",
-						"heroicTier": "Minor Hero"
-					},
-					{
-						"name": "Barad Dur",
-						"heroicTier": "Minor Hero"
-					}
-				],
-				"includes": [
-					{
-						"dataSource": "heroes",
-						"name": "Orc Siege Veteran"
-					}
-				],
-				"unlimited": true,
-				"points": 160,
-				"movement": 0,
-				"fight": 0,
-				"shoot": 0,
-				"strength": 10,
-				"defence": 10,
-				"attack": 0,
-				"wounds": 4,
-				"courage": 0,
-				"might": 0,
-				"will": 0,
-				"fate": 0,
-				"heroicActions": [],
-				"keywords": [
-					"Siege Engine"
-				],
-				"options": [
-					{
-						"name": "Orc Engineer Captain",
-						"points": 40,
-						"usesDefinition": "Engineer Captain"
-					},
-					{
-						"name": "Orc bow",
-						"points": 5,
-						"unlockedBy": "Orc Engineer Captain"
-					},
-					{
-						"name": "Orc shield",
-						"points": 5,
-						"unlockedBy": "Orc Engineer Captain"
-					},
-					{
-						"name": "Flaming Ammunition",
-						"points": 15
-					},
-					{
-						"name": "Severed Heads",
-						"points": 5
-					},
-					{
-						"name": "Additional Crew",
-						"points": 5,
-						"increment": true,
-						"max": 2
-					}
-				],
-				"specialRules": [
-					"Indirect Fire",
-					"Area Effect",
-					"Wall-breaker",
-					"Troll"
-				],
-				"wargear": [],
-				"requiredChildren": [
-					{
-						"elementPropertyName": "warriors",
-						"name": "Orc",
-						"quantity": 2,
-						"points": 0
-					},
-					{
-						"elementPropertyName": "warriors",
-						"name": "Mordor Troll",
-						"quantity": 1,
-						"points": 0
-					}
-				]
-			},
-			{
 				"name": "Gildor Inglorion",
 				"factions": [
 					{
@@ -8116,207 +7944,6 @@
 				]
 			},
 			{
-				"name": "Iron Hills Captain",
-				"factions": [
-					{
-						"name": "The Iron Hills",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Erebor Reclaimed",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Defenders of Erebor",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
-				"unlimited": true,
-				"points": 80,
-				"movement": 5,
-				"fight": 5,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 8,
-				"attack": 2,
-				"wounds": 2,
-				"courage": 5,
-				"might": 2,
-				"will": 1,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic March"
-				],
-				"keywords": [
-					"Dwarf",
-					"Iron Hills",
-					"Infantry",
-					"Hero"
-				],
-				"options": [
-					{
-						"name": "War goat",
-						"points": 10,
-						"availableIn": [
-							"The Iron Hills",
-							"Defenders of Erebor",
-							"Erebor Reclaimed"
-						]
-					},
-					{
-						"name": "Exchange War Spear for Mattock",
-						"points": 0,
-						"availableIn": [
-							"The Iron Hills",
-							"Defenders of Erebor",
-							"Erebor Reclaimed"
-						],
-						"usesDefinition": "Mattock"
-					}
-				],
-				"specialRules": [
-					"Master of Battle (5+)",
-					"Shieldwall"
-				],
-				"wargear": [
-					"Heavy Armour",
-					"War Spear",
-					"Sword",
-					"Shield"
-				]
-			},
-			{
-				"name": "Iron Hills Ballista",
-				"factions": [
-					{
-						"name": "The Iron Hills",
-						"heroicTier": "Minor Hero"
-					}
-				],
-				"unlimited": true,
-				"points": 125,
-				"movement": 0,
-				"fight": 0,
-				"shoot": 0,
-				"strength": 8,
-				"defence": 10,
-				"attack": 0,
-				"wounds": 4,
-				"courage": 0,
-				"might": 0,
-				"will": 0,
-				"fate": 0,
-				"heroicActions": [],
-				"includes": [
-					{
-						"name": "Iron Hills Dwarf Siege Veteran",
-						"dataSource": "heroes"
-					}
-				],
-				"keywords": [
-					"Siege Weapon",
-					"Iron Hills"
-				],
-				"options": [
-					{
-						"name": "Iron Hills Dwarf Engineer Captain",
-						"points": 75,
-						"usesDefinition": "Engineer Captain"
-					},
-					{
-						"name": "Superior Construction",
-						"points": 15
-					},
-					{
-						"name": "Additional Dwarf Crew",
-						"points": 10,
-						"increment": true,
-						"max": 8
-					}
-				],
-				"specialRules": [
-					"Reliable",
-					"The Old Twirly Whirlies",
-					"Tremendous Impact"
-				],
-				"wargear": [],
-				"requiredChildren": [
-					{
-						"elementPropertyName": "warriors",
-						"name": "Iron Hills Dwarf Crew",
-						"quantity": 3,
-						"points": 0
-					}
-				]
-			},
-			{
-				"name": "Isengard Assault Ballista",
-				"factions": [
-					{
-						"name": "Isengard",
-						"heroicTier": "Minor Hero"
-					},
-					{
-						"name": "Assault on Helm's Deep",
-						"heroicTier": "Minor Hero"
-					}
-				],
-				"unlimited": true,
-				"points": 65,
-				"movement": 0,
-				"fight": 0,
-				"shoot": 0,
-				"strength": 9,
-				"defence": 10,
-				"attack": 0,
-				"wounds": 4,
-				"courage": 0,
-				"might": 0,
-				"will": 0,
-				"fate": 0,
-				"heroicActions": [],
-				"keywords": [
-					"Siege Engine"
-				],
-				"includes": [
-					{
-						"name": "Uruk-hai Siege Veteran",
-						"dataSource": "heroes"
-					}
-				],
-				"options": [
-					{
-						"name": "Uruk-hai Engineer Captain",
-						"points": 50,
-						"usesDefinition": "Engineer Captain"
-					},
-					{
-						"name": "Additional Crew",
-						"points": 9,
-						"increment": true,
-						"max": 8
-					},
-					{
-						"name": "Superior Construction",
-						"points": 15
-					}
-				],
-				"specialRules": [
-					"Piercing Shot",
-					"Raise the Ladders!",
-					"Accurate"
-				],
-				"wargear": [],
-				"requiredChildren": [
-					{
-						"elementPropertyName": "warriors",
-						"name": "Uruk-hai Crew",
-						"quantity": 2,
-						"points": 0
-					}
-				]
-			},
-			{
 				"name": "Saruman",
 				"factions": [
 					{
@@ -9380,7 +9007,8 @@
 						"name": "Additional Crew",
 						"points": 7,
 						"increment": true,
-						"max": 3
+						"max": 3,
+						"addsModels": 1
 					}
 				],
 				"specialRules": [
@@ -13141,6 +12769,7 @@
 						"quantity": 6,
 						"points": 0,
 						"ignoreModels": true,
+						"lockedChildren": true,
 						"requiredChildren": [
 							{
 								"elementPropertyName": "options",
@@ -16776,7 +16405,6 @@
 						"heroicTier": "Minor Hero"
 					}
 				],
-				"decreaseModelCount": 1,
 				"unlimited": true,
 				"points": 80,
 				"movement": 0,
@@ -16814,7 +16442,8 @@
 						"name": "Additional Crew",
 						"points": 7,
 						"increment": true,
-						"max": 2
+						"max": 2,
+						"addsModels": 1
 					}
 				],
 				"specialRules": [
@@ -17479,7 +17108,8 @@
 						"name": "Additional Crew",
 						"points": 7,
 						"increment": true,
-						"max": 2
+						"max": 2,
+						"addsModels": 1
 					}
 				],
 				"specialRules": [
@@ -18091,6 +17721,385 @@
 				]
 			},
 			{
+				"name": "Iron Hills Captain",
+				"factions": [
+					{
+						"name": "The Iron Hills",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Erebor Reclaimed",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Defenders of Erebor",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"unlimited": true,
+				"points": 80,
+				"movement": 5,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 8,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic March"
+				],
+				"keywords": [
+					"Dwarf",
+					"Iron Hills",
+					"Infantry",
+					"Hero"
+				],
+				"options": [
+					{
+						"name": "War goat",
+						"points": 10,
+						"availableIn": [
+							"The Iron Hills",
+							"Defenders of Erebor",
+							"Erebor Reclaimed"
+						]
+					},
+					{
+						"name": "Exchange War Spear for Mattock",
+						"points": 0,
+						"availableIn": [
+							"The Iron Hills",
+							"Defenders of Erebor",
+							"Erebor Reclaimed"
+						],
+						"usesDefinition": "Mattock"
+					}
+				],
+				"specialRules": [
+					"Master of Battle (5+)",
+					"Shieldwall"
+				],
+				"wargear": [
+					"Heavy Armour",
+					"War Spear",
+					"Sword",
+					"Shield"
+				]
+			},
+			{
+				"name": "Mordor Siege Bow",
+				"factions": [
+					{
+						"name": "Mordor",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "The Army of Gothmog",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Barad Dur",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"includes": [
+					{
+						"dataSource": "heroes",
+						"name": "Orc Siege Veteran"
+					}
+				],
+				"unlimited": true,
+				"points": 50,
+				"movement": 0,
+				"fight": 0,
+				"shoot": 0,
+				"strength": 9,
+				"defence": 10,
+				"attack": 0,
+				"wounds": 3,
+				"courage": 0,
+				"might": 0,
+				"will": 0,
+				"fate": 0,
+				"heroicActions": [],
+				"keywords": [
+					"Siege Engine"
+				],
+				"options": [
+					{
+						"name": "Orc Engineer Captain",
+						"points": 40,
+						"usesDefinition": "Engineer Captain"
+					},
+					{
+						"name": "Orc bow",
+						"points": 5,
+						"unlockedBy": "Orc Engineer Captain"
+					},
+					{
+						"name": "Orc shield",
+						"points": 5,
+						"unlockedBy": "Orc Engineer Captain"
+					},
+					{
+						"name": "Flaming Ammunition",
+						"points": 15
+					},
+					{
+						"name": "Additional Crew",
+						"points": 5,
+						"increment": true,
+						"max": 3,
+						"addsModels": 1
+					}
+				],
+				"specialRules": [
+					"Piercing Shot",
+					"Accurate"
+				],
+				"wargear": [],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "warriors",
+						"name": "Orc Crew",
+						"quantity": 2,
+						"points": 0,
+						"lockedChildren": true
+					}
+				]
+			},
+			{
+				"name": "Mordor War Catapult",
+				"factions": [
+					{
+						"name": "Mordor",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "The Army of Gothmog",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Barad Dur",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"includes": [
+					{
+						"dataSource": "heroes",
+						"name": "Orc Siege Veteran"
+					}
+				],
+				"unlimited": true,
+				"points": 160,
+				"movement": 0,
+				"fight": 0,
+				"shoot": 0,
+				"strength": 10,
+				"defence": 10,
+				"attack": 0,
+				"wounds": 4,
+				"courage": 0,
+				"might": 0,
+				"will": 0,
+				"fate": 0,
+				"heroicActions": [],
+				"keywords": [
+					"Siege Engine"
+				],
+				"options": [
+					{
+						"name": "Orc Engineer Captain",
+						"points": 40,
+						"usesDefinition": "Engineer Captain"
+					},
+					{
+						"name": "Orc bow",
+						"points": 5,
+						"unlockedBy": "Orc Engineer Captain"
+					},
+					{
+						"name": "Orc shield",
+						"points": 5,
+						"unlockedBy": "Orc Engineer Captain"
+					},
+					{
+						"name": "Flaming Ammunition",
+						"points": 15
+					},
+					{
+						"name": "Severed Heads",
+						"points": 5
+					},
+					{
+						"name": "Additional Crew",
+						"points": 5,
+						"increment": true,
+						"max": 2,
+						"addsModels": 1
+					}
+				],
+				"specialRules": [
+					"Indirect Fire",
+					"Area Effect",
+					"Wall-breaker",
+					"Troll"
+				],
+				"wargear": [],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "warriors",
+						"name": "Orc",
+						"quantity": 2,
+						"points": 0,
+						"lockedChildren": true
+					},
+					{
+						"elementPropertyName": "warriors",
+						"name": "Mordor Troll",
+						"quantity": 1,
+						"points": 0,
+						"lockedChildren": true
+					}
+				]
+			},
+			{
+				"name": "Iron Hills Ballista",
+				"factions": [
+					{
+						"name": "The Iron Hills",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"unlimited": true,
+				"points": 125,
+				"movement": 0,
+				"fight": 0,
+				"shoot": 0,
+				"strength": 8,
+				"defence": 10,
+				"attack": 0,
+				"wounds": 4,
+				"courage": 0,
+				"might": 0,
+				"will": 0,
+				"fate": 0,
+				"heroicActions": [],
+				"includes": [
+					{
+						"name": "Iron Hills Dwarf Siege Veteran",
+						"dataSource": "heroes"
+					}
+				],
+				"keywords": [
+					"Siege Weapon",
+					"Iron Hills"
+				],
+				"options": [
+					{
+						"name": "Iron Hills Dwarf Engineer Captain",
+						"points": 75,
+						"usesDefinition": "Engineer Captain"
+					},
+					{
+						"name": "Superior Construction",
+						"points": 15
+					},
+					{
+						"name": "Additional Dwarf Crew",
+						"points": 10,
+						"increment": true,
+						"max": 8
+					}
+				],
+				"specialRules": [
+					"Reliable",
+					"The Old Twirly Whirlies",
+					"Tremendous Impact"
+				],
+				"wargear": [],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "warriors",
+						"name": "Iron Hills Dwarf Crew",
+						"quantity": 3,
+						"points": 0
+					}
+				]
+			},
+			{
+				"name": "Isengard Assault Ballista",
+				"factions": [
+					{
+						"name": "Isengard",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Assault on Helm's Deep",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"unlimited": true,
+				"points": 65,
+				"movement": 0,
+				"fight": 0,
+				"shoot": 0,
+				"strength": 9,
+				"defence": 10,
+				"attack": 0,
+				"wounds": 4,
+				"courage": 0,
+				"might": 0,
+				"will": 0,
+				"fate": 0,
+				"heroicActions": [],
+				"keywords": [
+					"Siege Engine"
+				],
+				"includes": [
+					{
+						"name": "Uruk-hai Siege Veteran",
+						"dataSource": "heroes"
+					}
+				],
+				"options": [
+					{
+						"name": "Uruk-hai Engineer Captain",
+						"points": 50,
+						"usesDefinition": "Engineer Captain"
+					},
+					{
+						"name": "Additional Crew",
+						"points": 9,
+						"increment": true,
+						"max": 8,
+						"addsModels": 1
+					},
+					{
+						"name": "Superior Construction",
+						"points": 15
+					}
+				],
+				"specialRules": [
+					"Piercing Shot",
+					"Raise the Ladders!",
+					"Accurate"
+				],
+				"wargear": [],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "warriors",
+						"name": "Uruk-hai Crew",
+						"quantity": 2,
+						"points": 0
+					}
+				]
+			},
+			{
 				"name": "Dwarf Ballista",
 				"factions": [
 					{
@@ -18115,7 +18124,6 @@
 				"might": 0,
 				"will": 0,
 				"fate": 0,
-				"decreaseModelCount": 1,
 				"heroicActions": [],
 				"keywords": [
 					"Siege Engine"
@@ -18133,7 +18141,8 @@
 						"name": "Additional Crew",
 						"points": 8,
 						"increment": true,
-						"max": 3
+						"max": 3,
+						"addsModels": 1
 					}
 				],
 				"specialRules": [
@@ -26649,25 +26658,33 @@
 						"name": "Black Dragons",
 						"points": 2,
 						"availableIn": [
-							"The Easterlings",
-							"The Host of the Dragon Emperor"
+							[
+								"The Host of the Dragon Emperor"
+							]
 						],
 						"unavailableIn": [
-							"The Dragon Emperor of Rhun",
-							"Easterling Dragon Knight"
+							[
+								"The Dragon Emperor of Rhun",
+								"The Host of the Dragon Emperor"
+							],
+							[
+								"Easterling Dragon Knight",
+								"The Host of the Dragon Emperor"
+							]
 						]
 					},
 					{
 						"name": "Black Dragons",
 						"points": 0,
 						"availableIn": [
-							"The Host of the Dragon Emperor"
-						],
-						"unavailableIn": [
-							"Rutabi, General of the Dragon Legion",
-							"Easterling Captain",
-							"Easterling War Priest",
-							"Brorgir the Conjurer"
+							[
+								"The Host of the Dragon Emperor",
+								"The Dragon Emperor of Rhun"
+							],
+							[
+								"The Host of the Dragon Emperor",
+								"Easterling Dragon Knight"
+							]
 						]
 					}
 				],
@@ -29878,10 +29895,6 @@
 				]
 			},
 			{
-				"name": "Additional Crew",
-				"addsModel": true
-			},
-			{
 				"name": "Exchange Shield for Banner",
 				"type": "banner",
 				"definition": "A banner provides a single re-roll to friendly models who are involved in a Fight within 3\". Any model carrying a banner is encumbered by its weight, and suffers a -1 penalty to their Duel rolls.",
@@ -32383,7 +32396,7 @@
 			},
 			{
 				"name": "Rapid Fire (Siege)",
-				"definition": "An Avenger Bolt Thrower fires D6 shots each turn rather than one. Each shot is resolved in the same was as a shooting attack rather than a Siege Enginer. This means that no scatter is rolled for an Avenger Bolt Thrower - it will either\n                hit or miss. Resolve each shot individually, rolling To Hit and To Wound before moving on to the next shot. Shots fired from the Avenger Bolt Thrower do not kill targets outright nor do they knock them to the ground."
+				"definition": "An Avenger Bolt Thrower fires D6 shots each turn rather than one. Each shot is resolved in the same was as a shooting attack rather than a Siege Engineer. This means that no scatter is rolled for an Avenger Bolt Thrower - it will either\n                hit or miss. Resolve each shot individually, rolling To Hit and To Wound before moving on to the next shot. Shots fired from the Avenger Bolt Thrower do not kill targets outright nor do they knock them to the ground."
 			},
 			{
 				"name": "Short Range",
