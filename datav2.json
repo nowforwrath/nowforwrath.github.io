@@ -1067,7 +1067,7 @@
 					{
 						"elementPropertyName": "heroes",
 						"name": "The Dragon Emperor of Rhun",
-						"points": 170,
+						"points": 200,
 						"requiredChildren": [
 							{
 								"elementPropertyName": "warriors",
@@ -12726,7 +12726,7 @@
 				"requiredIn": [
 					"The Host of the Dragon Emperor"
 				],
-				"points": 170,
+				"points": 200,
 				"movement": 6,
 				"fight": 6,
 				"shoot": 4,
