@@ -89,6 +89,10 @@
 			"expendable": true
 		}
 	],
+	"dataTableKeys": [
+		"heroes",
+		"warriors"
+	],
 	"limits": [
 		{
 			"type": "bow",
@@ -9021,7 +9025,8 @@
 						"elementPropertyName": "warriors",
 						"name": "Dale Crew",
 						"quantity": 1,
-						"points": 0
+						"points": 0,
+						"lockedChildren": true
 					}
 				]
 			},
@@ -16427,6 +16432,9 @@
 						"dataSource": "heroes"
 					}
 				],
+				"increaseMaximumChildren": {
+					"warriors": -4
+				},
 				"options": [
 					{
 						"name": "Upgrade to Engineer Captain",
@@ -17087,6 +17095,9 @@
 				"keywords": [
 					"Siege Engine"
 				],
+				"increaseMaximumChildren": {
+					"warriors": -4
+				},
 				"includes": [
 					{
 						"name": "Minas Tirith Siege Veteran",
@@ -17122,7 +17133,8 @@
 						"name": "Warrior of Minas Tirith",
 						"quantity": 2,
 						"points": 0,
-						"hideFromPrint": true
+						"hideFromPrint": true,
+						"lockedChildren": true
 					}
 				]
 			},
@@ -17811,6 +17823,9 @@
 						"name": "Orc Siege Veteran"
 					}
 				],
+				"increaseMaximumChildren": {
+					"warriors": -4
+				},
 				"unlimited": true,
 				"points": 50,
 				"movement": 0,
@@ -17893,6 +17908,9 @@
 						"name": "Orc Siege Veteran"
 					}
 				],
+				"increaseMaximumChildren": {
+					"warriors": -4
+				},
 				"unlimited": true,
 				"points": 160,
 				"movement": 0,
@@ -17994,6 +18012,9 @@
 						"dataSource": "heroes"
 					}
 				],
+				"increaseMaximumChildren": {
+					"warriors": -4
+				},
 				"keywords": [
 					"Siege Weapon",
 					"Iron Hills"
@@ -18065,6 +18086,9 @@
 						"dataSource": "heroes"
 					}
 				],
+				"increaseMaximumChildren": {
+					"warriors": -4
+				},
 				"options": [
 					{
 						"name": "Uruk-hai Engineer Captain",
@@ -22755,6 +22779,7 @@
 					}
 				],
 				"autoAddOnly": true,
+				"unavailableSolo": true,
 				"points": 0,
 				"movement": 6,
 				"fight": 3,
@@ -22795,6 +22820,7 @@
 					}
 				],
 				"autoAddOnly": true,
+				"unavailableSolo": true,
 				"points": 0,
 				"movement": 5,
 				"fight": 4,
@@ -22835,6 +22861,7 @@
 					}
 				],
 				"autoAddOnly": true,
+				"unavailableSolo": true,
 				"points": 0,
 				"movement": 6,
 				"fight": 3,
@@ -22885,6 +22912,7 @@
 					}
 				],
 				"autoAddOnly": true,
+				"unavailableSolo": true,
 				"points": 0,
 				"movement": 6,
 				"fight": 3,
