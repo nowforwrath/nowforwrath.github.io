@@ -23733,6 +23733,18 @@
 				"factions": [
 					"The Rangers"
 				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"with": "Gandalf the Grey"
+							},
+							{
+								"in": "The Shire"
+							}
+						]
+					}
+				],
 				"points": 25,
 				"movement": 6,
 				"fight": 4,
