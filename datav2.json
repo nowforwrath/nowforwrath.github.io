@@ -7774,7 +7774,34 @@
 					{
 						"name": "The Iron Hills",
 						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"specialText": "Múrin & Drár are Historical Allies with Minas Tirith, so long as the army contains Cirion, Lieutenant of Amon Barad.\n                They are Convenient Allies with The Fellowship, The Shire, The Rangers of the North, Minas Tirith, The Fiefdoms, The Dead of Dunharrow, Rohan, The Wildmen of Drúadan, Rivendell, Lothlórien, Fangorn, The Misty Mountains, The Garrison of Dale, Halls of Thranduil, Radagast’s Alliance and The White Council.\n                They are Impossible Allies with all other army lists.",
+				"points": 140,
+				"hideStats": true,
+				"heroicActions": [],
+				"includes": [
+					{
+						"dataSource": "heroes",
+						"name": "Murin"
 					},
+					{
+						"dataSource": "heroes",
+						"name": "Drar"
+					}
+				],
+				"keywords": [
+					"Dwarf",
+					"Iron Hills",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": []
+			},
+			{
+				"name": "Murin & Drar (Wanderers)",
+				"factions": [
 					{
 						"name": "Wanderers in the Wild",
 						"heroicTier": "Hero of Fortitude"
@@ -15478,12 +15505,7 @@
 				"might": 0,
 				"will": 3,
 				"fate": 1,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength",
-					"Heroic Resolve",
-					"Heroic Accuracy"
-				],
+				"heroicActions": [],
 				"keywords": [
 					"Man",
 					"Lake-town",
@@ -29700,7 +29722,8 @@
 				"defence": 3,
 				"attack": 0,
 				"wounds": 1,
-				"courage": 2
+				"courage": 2,
+				"definition": "If a model riding a Pony wishes to charge, the model must make a Courage test. If the test is failed, the model may not Charge but may move as normal. Note that a model must always take this Courage test, even if it would usually automatically pass. A model riding a poney does not get the Extra Attack or Knock to the Ground bonuses when charging."
 			},
 			{
 				"name": "War boar",
@@ -29792,6 +29815,20 @@
 					"Fleetfoot"
 				],
 				"definition": "If Radagast is slain or dismounts, remove the sleigh from play."
+			},
+			{
+				"name": "Cart",
+				"type": "mount",
+				"movement": 8,
+				"fight": 0,
+				"shoot": 0,
+				"strength": 3,
+				"defence": 5,
+				"attack": 0,
+				"wounds": 3,
+				"courage": 3,
+				"specialRules": [],
+				"definition": "At the start of every friendly Shoot phase, select a single enemy model wtihin 6\" of the cart and roll a D6. On a 4+, that model suffers one Strength 2 hit."
 			},
 			{
 				"name": "Great Eagle",
