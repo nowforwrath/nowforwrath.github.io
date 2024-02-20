@@ -129,7 +129,8 @@
 	"additionalPrint": [
 		{
 			"propertyName": "wargear",
-			"label": "Wargear"
+			"label": "Wargear",
+			"dataSource": "gear"
 		},
 		{
 			"propertyName": "heroicActions",
@@ -137,7 +138,8 @@
 		},
 		{
 			"propertyName": "specialRules",
-			"label": "Special Rules"
+			"label": "Special Rules",
+			"dataSource": "keywords"
 		}
 	],
 	"elements": [
