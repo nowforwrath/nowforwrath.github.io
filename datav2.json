@@ -16073,8 +16073,7 @@
 				"specialRules": [
 					"Expert Rider",
 					"Woodland Creature",
-					"Fleetfoot",
-					"Bladelord"
+					"Fleetfoot"
 				],
 				"wargear": [
 					"Elven-made Sword",
@@ -30535,7 +30534,14 @@
 						"modifier": 1
 					}
 				],
-				"definition": "When equipped with an additional Elven-made sword, Thranduil, King of the Woodland Realm increases his Attacks to 3 and his Fight value to 7. Additionally, he gains the Bladelord special rule."
+				"definition": "When equipped with an additional Elven-made sword, Thranduil, King of the Woodland Realm increases his Attacks to 3 and his Fight value to 7. Additionally, he gains the Bladelord special rule.",
+				"additionalDefinitions": [
+					{
+						"dataSource": "keywords",
+						"name": "Bladelord",
+						"elementPropertyName": "specialRules"
+					}
+				]
 			},
 			{
 				"name": "Circlet of Kings",
