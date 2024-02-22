@@ -25627,53 +25627,7 @@
 			{
 				"name": "Uruk-hai Scout",
 				"factions": [
-					"Isengard"
-				],
-				"points": 8,
-				"movement": 6,
-				"fight": 4,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 4,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 3,
-				"keywords": [
-					"Uruk-Hai",
 					"Isengard",
-					"Infantry",
-					"Warrior"
-				],
-				"options": [
-					{
-						"name": "Shield",
-						"points": 1
-					},
-					{
-						"name": "Banner",
-						"points": 25
-					},
-					{
-						"name": "Uruk-Hai Bow",
-						"points": 1
-					},
-					{
-						"name": "Marauder",
-						"points": 1,
-						"availableIn": [
-							"Mauhur"
-						]
-					}
-				],
-				"specialRules": [],
-				"wargear": [
-					"Armour",
-					"Sword"
-				]
-			},
-			{
-				"name": "Uruk-hai Scout",
-				"factions": [
 					"Lurtz's Scouts",
 					"Ugluk's Scouts"
 				],
@@ -25707,8 +25661,34 @@
 					},
 					{
 						"name": "Marauder",
+						"points": 1,
+						"availableIn": [
+							[
+								"Isengard",
+								"Mauhur"
+							]
+						],
+						"unavailableIn": [
+							[
+								"Lurtz's Scouts"
+							],
+							[
+								"Ugluk's Scouts"
+							]
+						]
+					},
+					{
+						"name": "Marauder",
 						"points": 0,
-						"unlockedBy": "Mauhur"
+						"unlockedBy": "Mauhur",
+						"availableIn": [
+							[
+								"Lurtz's Scouts"
+							],
+							[
+								"Ugluk's Scouts"
+							]
+						]
 					}
 				],
 				"specialRules": [],
