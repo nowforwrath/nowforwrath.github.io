@@ -19755,6 +19755,11 @@
 						"casting": 4
 					},
 					{
+						"name": "Shroud of Shadows",
+						"range": 12,
+						"casting": 4
+					},
+					{
 						"name": "Your Staff is Broken",
 						"range": 12,
 						"casting": 4
