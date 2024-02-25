@@ -22474,14 +22474,45 @@
 				]
 			},
 			{
-				"name": "Thrain the Broken",
+				"name": "Thrain the Broken (Pits)",
+				"factions": [
+					{
+						"name": "Pits of Dol Guldur",
+						"heroicTier": "Independent Hero"
+					}
+				],
+				"specialText": "Thráin the Broken is Historical Allies with The White Council, so long as the army contains Gandalf the Grey; and Historical Allies with the Dark Powers of Dol Guldur, so long as it includes The Necromancer of Dol Guldur.\n                He is Impossible Allies with all other army lists.",
+				"points": 10,
+				"movement": 5,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 2,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 4,
+				"might": 0,
+				"will": 0,
+				"fate": 0,
+				"heroicActions": [],
+				"keywords": [
+					"Dwarf",
+					"Infantry",
+					"Hero"
+				],
+				"specialRules": [
+					"Shattered Spirit"
+				],
+				"wargear": [
+					"Dagger"
+				],
+				"options": []
+			},
+			{
+				"name": "Thrain the Broken (Wanderers)",
 				"factions": [
 					{
 						"name": "Wanderers in the Wild",
-						"heroicTier": "Independent Hero"
-					},
-					{
-						"name": "Pits of Dol Guldur",
 						"heroicTier": "Independent Hero"
 					}
 				],
@@ -23139,10 +23170,44 @@
 			{
 				"name": "Thrain the Broken (Evil)",
 				"factions": [
-					"Dark Powers of Dol Guldur"
+					"Dark Powers of Dol Guldur",
+					"Pits of Dol Guldur"
 				],
 				"unlockedBy": "The Necromancer of Dol Guldur",
 				"specialText": "Thráin the Broken is Historical Allies with The White Council, so long as the army contains Gandalf the Grey; and Historical Allies with the Dark Powers of Dol Guldur, so long as it includes The Necromancer of Dol Guldur.\n                He is Impossible Allies with all other army lists.",
+				"unique": true,
+				"points": 10,
+				"movement": 5,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 2,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 4,
+				"might": 0,
+				"will": 0,
+				"fate": 0,
+				"heroicActions": [],
+				"keywords": [
+					"Dwarf",
+					"Infantry",
+					"Hero"
+				],
+				"specialRules": [
+					"Shattered Spirit"
+				],
+				"wargear": [
+					"Dagger"
+				],
+				"options": []
+			},
+			{
+				"name": "Thrain the Broken (Pits)",
+				"factions": [
+					"Dark Powers of Dol Guldur",
+					"Pits of Dol Guldur"
+				],
 				"unique": true,
 				"points": 10,
 				"movement": 5,
