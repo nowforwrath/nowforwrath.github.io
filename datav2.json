@@ -3263,7 +3263,10 @@
 					"Unbreakable Bond",
 					"Woodland Creature",
 					"Twin Elven Blades"
-				]
+				],
+				"increaseMaximumChildren": {
+					"warriors": -1
+				}
 			},
 			{
 				"name": "Elladan",
