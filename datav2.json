@@ -997,7 +997,7 @@
 							{
 								"name": "Heavy Armour",
 								"elementPropertyName": "options",
-								"points": 15
+								"points": 5
 							}
 						]
 					}
@@ -9039,6 +9039,11 @@
 					"Iron Hills"
 				],
 				"options": [
+					{
+						"name": "Upgrade Siege Veteran to Dale Engineer Captain",
+						"points": 50,
+						"usesDefinition": "Engineer Captain"
+					},
 					{
 						"name": "Additional Crew",
 						"points": 7,
