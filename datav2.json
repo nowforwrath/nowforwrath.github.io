@@ -17202,6 +17202,38 @@
 				]
 			},
 			{
+				"name": "Dwarf Siege Veteran",
+				"factions": [
+					"The Kingdom of Moria",
+					"The Kingdom of Khazad-Dum"
+				],
+				"autoAddOnly": true,
+				"points": 0,
+				"movement": 5,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"might": 1,
+				"will": 1,
+				"fate": 1,
+				"keywords": [
+					"Dwarf",
+					"Khazad-Dum",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": [],
+				"wargear": [
+					"Heavy Dwarf Armour",
+					"Axe"
+				]
+			},
+			{
 				"name": "Dragon",
 				"factions": [
 					{
@@ -18163,6 +18195,12 @@
 					{
 						"name": "The Kingdom of Khazad-Dum",
 						"heroicTier": "Minor Hero"
+					}
+				],
+				"includes": [
+					{
+						"name": "Dwarf Siege Veteran",
+						"dataSource": "heroes"
 					}
 				],
 				"unlimited": true,
