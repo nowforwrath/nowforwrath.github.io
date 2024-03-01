@@ -26421,7 +26421,9 @@
 						"points": 1
 					}
 				],
-				"wargear": [],
+				"wargear": [
+					"Sword, pick, mace, or flail"
+				],
 				"specialRules": [
 					"Cave Dweller",
 					"Chittering Hordes"
