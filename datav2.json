@@ -19,7 +19,7 @@
 		},
 		{
 			"type": "url",
-			"text": "Here.",
+			"text": "Here",
 			"url": "https://nowforwrath.com"
 		}
 	],
@@ -18246,9 +18246,10 @@
 					{
 						"elementPropertyName": "warriors",
 						"name": "Dwarf Warrior",
-						"quantity": 2,
+						"quantity": 1,
 						"points": 0,
-						"hideFromPrint": true
+						"hideFromPrint": true,
+						"lockedChildren": true
 					}
 				]
 			},
