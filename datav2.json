@@ -7801,7 +7801,10 @@
 					"Hero"
 				],
 				"options": [],
-				"specialRules": []
+				"specialRules": [],
+				"increaseMaximumChildren": {
+					"warriors": -1
+				}
 			},
 			{
 				"name": "Murin & Drar (Wanderers)",
@@ -7898,7 +7901,10 @@
 					"Hero"
 				],
 				"options": [],
-				"specialRules": []
+				"specialRules": [],
+				"increaseMaximumChildren": {
+					"warriors": -1
+				}
 			},
 			{
 				"name": "Murin",
