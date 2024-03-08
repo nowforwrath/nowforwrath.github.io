@@ -30333,6 +30333,16 @@
 				]
 			},
 			{
+				"name": "Westfold Redshields",
+				"type": "upgrade",
+				"modifiesStats": [
+					{
+						"stat": "fight",
+						"modifier": 1
+					}
+				]
+			},
+			{
 				"name": "Guardians of the King",
 				"type": "upgrade",
 				"modifiesStats": [
