@@ -120,6 +120,12 @@
 			"percentage": 25,
 			"roundup": false,
 			"suffix": " remaining"
+		},
+		{
+			"label": "Warband Rating",
+			"properties": [
+				"might"
+			]
 		}
 	],
 	"leaderConfig": {
