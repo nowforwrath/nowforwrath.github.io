@@ -31669,11 +31669,6 @@
 				"definition": "When determining what number models with this special rule need To Wound their opponents, \n                use their opponent's Courage rather than its Defence on the Wound chart. Models with this special rule cannot use Special Strikes."
 			},
 			{
-				"name": "Drain Soul",
-				"tag": "Active",
-				"definition": "Any model that suffers a Wound from the King of the Dead is automatically slain, \n                regardless of how many Wounds it has remaing. Hero models may prevent these with Fate, but if even a single Wound is not prevented, they are slain."
-			},
-			{
 				"name": "Spectral Walk",
 				"tag": "Passive",
 				"definition": "A model with this rule may move over water features as if they were open ground."
@@ -32858,7 +32853,7 @@
 			{
 				"name": "Drain Soul",
 				"tag": "Active",
-				"definition": "Any model that suffers a wound from the Necromancer during the Fight phase is automatically slain regardless of the number\n                of Wounds on its profile. A Hero can use Fate to avoid Wounds suffered, but if even a single Wound is not avoided then the Hero is slain and removed as a casualty."
+				"definition": "Any model that suffers a wound from this model during the Fight phase is automatically slain regardless of the number\n                of Wounds on its profile. A Hero can use Fate to avoid Wounds suffered, but if even a single Wound is not avoided then the Hero is slain and removed as a casualty."
 			},
 			{
 				"name": "Master of the Nazgul",
