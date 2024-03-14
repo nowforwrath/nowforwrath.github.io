@@ -3,6 +3,20 @@
 		"trackHighestDivision": true
 	},
 	"appVersion": 2,
+	"colors": {
+		"light": {
+			"primary": "#841912",
+			"pageBackground": "#fffffe",
+			"buttonBackground": "#f6f3ee",
+			"primaryBorder": "#841912"
+		},
+		"dark": {
+			"pageBackground": "#390400",
+			"primary": "#eeeeee",
+			"buttonBackground": "#4f0500",
+			"primaryBorder": "#9e5b57"
+		}
+	},
 	"credit": [
 		{
 			"type": "text",
@@ -9563,7 +9577,7 @@
 					},
 					{
 						"name": "Instill Fear",
-						"range": 18,
+						"range": 3,
 						"casting": 3
 					},
 					{
