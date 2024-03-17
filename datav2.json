@@ -31906,7 +31906,7 @@
 			{
 				"name": "Lethal Aim",
 				"tag": "Active",
-				"definition": "Each turn, This Hero may spend a single point of Might without reducing his store (even if he has none remaining) to modify either a To Hit roll, an In The Way\n                roll or a To Wound roll when shooting his Orc bow."
+				"definition": "Each turn, This Hero may spend a single point of Might without reducing his store (even if he has none remaining) to modify either a To Hit roll, an In The Way\n                roll or a To Wound roll when shooting his bow."
 			},
 			{
 				"name": "Hunt Master",
