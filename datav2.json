@@ -1973,7 +1973,14 @@
 					{
 						"elementPropertyName": "heroes",
 						"name": "Faramir, Captain of Gondor",
-						"points": 80
+						"points": 80,
+						"requiredChildren": [
+							{
+								"name": "Bow",
+								"elementPropertyName": "options",
+								"points": 5
+							}
+						]
 					}
 				],
 				"armyBonus": "A Rangers of Ithilien force must always include Faramir, Captain of Gondor, who is always the army’s leader, Samwise Gamgee, Frodo Baggins, and Smeagol.\nFrodo, Sam and Sméagol may not lead Warrior models in this force.\n\"Faramir's Rangers\" - Rangers of Gondor in warbands lead by Faramir, Madril, Damrod, Anbor, or Mablung do not count toward this force's Bow Limit.\n\"Captured by Gondor\" - Frodo, Sam and Smeagol must either be deployed together as one warband, or included as part of Faramir's warband.\n\"Experienced Trackers\" - Rangers of Gondor from this army list gain the Woodland Creature special rule."
