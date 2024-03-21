@@ -28298,15 +28298,14 @@
 					"Depths of Moria"
 				],
 				"points": 75,
-				"hideStats": true,
 				"includes": [
 					{
 						"dataSource": "warriors",
 						"name": "Moria Goblin Drummer"
 					},
 					{
-						"dataSource": "warriors",
-						"name": "Moria Goblin Drummer"
+						"dataSource": "gear",
+						"name": "Moria Goblin Drum (Drum)"
 					}
 				],
 				"keywords": [
@@ -28317,9 +28316,7 @@
 				],
 				"options": [],
 				"specialRules": [],
-				"wargear": [
-					"Moria Goblin Drum"
-				]
+				"wargear": []
 			},
 			{
 				"name": "Moria Blackshield Drummers",
@@ -29747,7 +29744,7 @@
 				]
 			},
 			{
-				"name": "Moria Goblin Drum",
+				"name": "Moria Goblin Drum (Drum)",
 				"type": "mount",
 				"movement": 0,
 				"fight": 0,
