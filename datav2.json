@@ -6,11 +6,13 @@
 	"colors": {
 		"light": {
 			"primary": "#841912",
+			"background": "#fffffe",
 			"pageBackground": "#fffffe",
 			"buttonBackground": "#f6f3ee",
 			"primaryBorder": "#841912"
 		},
 		"dark": {
+			"background": "#290300",
 			"pageBackground": "#290300",
 			"primary": "#eeeeee",
 			"buttonBackground": "#4f0500",
