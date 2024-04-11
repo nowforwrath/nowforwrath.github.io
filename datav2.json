@@ -23087,6 +23087,79 @@
 		],
 		"warriors": [
 			{
+				"name": "Dernhelm",
+				"factions": [],
+				"unavailableWith": [
+					"Helm Hammerhand"
+				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Elfhelm, Captain of Rohan"
+							},
+							{
+								"in": "Riders of Theoden"
+							}
+						]
+					}
+				],
+				"unique": true,
+				"points": 75,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 5,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 5,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Resolve",
+					"Heroic Strike",
+					"Heroic Strength"
+				],
+				"includes": [
+					{
+						"dataSource": "heroes",
+						"name": "Meriadoc Brandybuck, Knight of the Mark"
+					},
+					{
+						"dataSource": "heroes",
+						"name": "Éowyn, Shield Maiden of Rohan"
+					}
+				],
+				"keywords": [
+					"Woman",
+					"Rohan",
+					"Cavalry",
+					"Hero"
+				],
+				"options": [
+					{
+						"name": "Throwing spears",
+						"points": 5,
+						"availableIn": [
+							"Rohan",
+							"Riders of Theoden",
+							"Paths of the Druadan"
+						]
+					}
+				],
+				"specialRules": [
+					"Merry"
+				],
+				"wargear": [
+					"Armour",
+					"Shield",
+					"Sword",
+					"Horse"
+				]
+			},
+			{
 				"name": "Herald",
 				"factions": [
 					"The Kingdom of Moria",
