@@ -499,6 +499,11 @@
 								"name": "Shield",
 								"elementPropertyName": "options",
 								"points": 5
+							},
+							{
+								"name": "Heavy armour",
+								"elementPropertyName": "options",
+								"points": 5
 							}
 						]
 					}
