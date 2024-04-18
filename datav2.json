@@ -274,6 +274,12 @@
 									]
 								},
 								{
+									"propertyName": "keywords",
+									"label": "Keywords",
+									"type": "static",
+									"dataSource": "keywords"
+								},
+								{
 									"propertyName": "specialRules",
 									"type": "static",
 									"label": "Special Rules",
