@@ -162,6 +162,10 @@
 			"propertyName": "specialRules",
 			"label": "Special Rules",
 			"dataSource": "keywords"
+		},
+		{
+			"propertyName": "keywords",
+			"label": "Keywords"
 		}
 	],
 	"elements": [
