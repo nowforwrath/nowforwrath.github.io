@@ -13655,6 +13655,10 @@
 						"points": 10,
 						"availableIn": [
 							"Erebor Reclaimed"
+						],
+						"unavailableWith": [
+							"Dain Ironfoot, King Under the Mountain",
+							"Thorin III Stonehelm"
 						]
 					}
 				],
@@ -14876,7 +14880,7 @@
 						"name": "The Ring",
 						"points": 0,
 						"unavailableWith": [
-							"Elendil"
+							"Elendil, High King of Gondor and Arnor"
 						]
 					}
 				],
