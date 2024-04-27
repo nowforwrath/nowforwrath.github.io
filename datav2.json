@@ -4077,7 +4077,7 @@
 					"Harbinger of Evil",
 					"Terror",
 					"Will of Evil",
-					"Aracana Leech",
+					"Arcana Leech",
 					"Eternal Willpower"
 				],
 				"wargear": [
@@ -33394,6 +33394,11 @@
 				"name": "Mountain Dweller",
 				"tag": "Active",
 				"definition": "Mountain Dwellers may re-roll any Jump, Leap and Climb tests. In addition, they may move through rocky areas that are classified as difficult terrain as if they were open ground."
+			},
+			{
+				"name": "Arcana Leech",
+				"tag": "Passive",
+				"definition": "At the start of the Move phase, before Heroic Actions are declared, The Undying may spend a Will point to activate this ability. The Undying regains one Will point for each Magical Power successfully cast by another model within 6\"."
 			}
 		]
 	}
