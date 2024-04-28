@@ -4874,19 +4874,9 @@
 				"wounds": 2,
 				"courage": 4,
 				"heroicActions": [],
-				"keywords": [
-					"Great Beast",
-					"Mordor",
-					"Monster",
-					"War Beast",
-					"Hero"
-				],
+				"keywords": [],
 				"options": [],
-				"specialRules": [
-					"Terror",
-					"Trample",
-					"Battle Platform"
-				],
+				"specialRules": [],
 				"wargear": [
 					"Orc Comander",
 					"Great Beast",
@@ -18127,7 +18117,7 @@
 					}
 				],
 				"increaseMaximumChildren": {
-					"warriors": -4
+					"warriors": -3
 				},
 				"keywords": [
 					"Siege Weapon",
@@ -31622,12 +31612,12 @@
 			{
 				"name": "In Defence of the King",
 				"tag": "Active",
-				"definition": "Whilst he is within 3\" of either Denethor or Aragorn, King Elessar, Húrin gains the Fearless soecial rule and may re-roll a single D6 when making a Duel roll."
+				"definition": "Whilst he is within 3\" of either Denethor or Aragorn, King Elessar, Húrin gains the Fearless special rule and may re-roll a single D6 when making a Duel roll."
 			},
 			{
 				"name": "Line of Command",
 				"tag": "Passive",
-				"definition": "If the Leader of your army is a Gondor Hero then, Whilst Húrin the Tall is alive and on the battlefield, your opponent cannot score Victory Points for slaying the enemy leader."
+				"definition": "If the Leader of your army is a Gondor Hero then, whilst Húrin the Tall is alive and on the battlefield, your opponent cannot score Victory Points for slaying the enemy leader."
 			},
 			{
 				"name": "Chill Aura",
