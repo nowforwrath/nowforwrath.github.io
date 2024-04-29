@@ -29696,6 +29696,14 @@
 		],
 		"gear": [
 			{
+				"name": "Severed Heads",
+				"definition": "The Siege Engine may choose to either fire in the normal way, or to fire a collection of severed heads at the enemy. If Severed Heads are fired at a Battlefield Target, ignore the normal Strength of the Siege Engine; instead, the initial target and all models within 2\" suffer one Strength 3 hit. This shot will not knock models Prone and will only ever inflict one Wound. Any enemy models hit must immediately pass a Courage test or be removed from play."
+			},
+			{
+				"name": "Flaming Ammunition",
+				"definition": "If this Siege Engine hits a Siege Target, the firing player may re-roll any To Wound rolls of a 1."
+			},
+			{
 				"name": "Horse",
 				"type": "mount",
 				"movement": 10,
