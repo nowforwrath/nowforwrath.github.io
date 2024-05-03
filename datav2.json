@@ -30446,16 +30446,6 @@
 				]
 			},
 			{
-				"name": "Westfold Redshields",
-				"type": "upgrade",
-				"modifiesStats": [
-					{
-						"stat": "fight",
-						"modifier": 1
-					}
-				]
-			},
-			{
 				"name": "Guardians of the King",
 				"type": "upgrade",
 				"modifiesStats": [
@@ -31919,7 +31909,7 @@
 			{
 				"name": "Broken Mind",
 				"tag": "Passive",
-				"definition": "At the start of every turn, before Priority is rolled, the controlling player must take a Courage test for Denethor. If the test is passed, all is fine. If the test is failed, Denethor is controlled by the opposing player until the End phase of that turn. Whislt under the control of the opposing player, friendly models cannot target Denethor with shooting attack or Magical Powers that cause damage and may not make Strikes if they beat him in a fight.\n                If Boromir is part of the same army as Denethor, then Denethor will automatically pass these Courage tests so long as Boromir is alive. Should Boromir be slain, then Denethor will automatically fail the next Courage test he must take for this special rule."
+				"definition": "At the start of every turn, before Priority is rolled, the controlling player must take a Courage test for Denethor. If the test is passed, all is fine. If the test is failed, Denethor is controlled by the opposing player until the End phase of that turn. Whilst under the control of the opposing player, friendly models cannot target Denethor with shooting attack or Magical Powers that cause damage and may not make Strikes if they beat him in a fight.\n                If Boromir is part of the same army as Denethor, then Denethor will automatically pass these Courage tests so long as Boromir is alive. Should Boromir be slain, then Denethor will automatically fail the next Courage test he must take for this special rule."
 			},
 			{
 				"name": "The Rule of Gondor is Mine, and no Other's!",
