@@ -8143,6 +8143,7 @@
 				"magicalPowers": [
 					{
 						"name": "Aura of Command",
+						"range": 6,
 						"casting": 2
 					},
 					{
