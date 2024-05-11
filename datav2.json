@@ -261,7 +261,8 @@
 										{
 											"name": "Weapon Swap",
 											"points": 1,
-											"manualText": true
+											"manualText": true,
+											"unavailableWithProperty": "unique"
 										}
 									]
 								},
@@ -28360,7 +28361,7 @@
 					"Goblin",
 					"Warg",
 					"Moria",
-					"Infantry",
+					"Cavalry",
 					"Warrior"
 				],
 				"options": [],
