@@ -27056,6 +27056,11 @@
 					"Terror",
 					"Venom",
 					"Slow-acting Venom"
+				],
+				"unavailableIn": [
+					[
+						"Easterling Dragon Knight"
+					]
 				]
 			},
 			{
