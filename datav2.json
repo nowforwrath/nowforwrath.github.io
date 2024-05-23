@@ -32368,7 +32368,7 @@
 			{
 				"name": "Oblivious to Pain (Uruk-hai)",
 				"tag": "Passive",
-				"definition": "Every time an this model suffers a wound, roll a D6. On the roll of a 6, the wound is ignored exactly as if a point of fate had been spent. This is not cumulative with other special rules that confer the same effect."
+				"definition": "Every time this model suffers a wound, roll a D6. On the roll of a 6, the wound is ignored exactly as if a point of fate had been spent. This is not cumulative with other special rules that confer the same effect."
 			},
 			{
 				"name": "Impervious to Bow-fire",
@@ -32553,7 +32553,7 @@
 			{
 				"name": "Fly",
 				"tag": "Active",
-				"definition": "This model may ignore all intervening models and terrain as it moves - flying over buildings, woods and so on. The model may not end its movement within woods or upon any terrain that its\n                base will not safely balance upon (flatrocks, hills and the like are fine, but don't try to perch your model precariously upon trees, sloped roofs, and so on). When flying, a model may move up to\n                12\". A model with this special rule may still choose to use their normal Move value if they wish, however, they will gain none of the benefits of the Fly special rule if they move in this way. If a\n                model with the Fly special rule walks into a wood, they cannot use the Fly special rule again until they have fully left the wood. Furthermore, a model with this special rule may pass 'over' enemy\n                Control Zones without charging the model - as long as they end their move outside of the Control Zone."
+				"definition": "This model may ignore all intervening models and terrain as it moves - flying over buildings, woods and so on. The model may not end its movement within woods or upon any terrain that its\n                base will not safely balance upon (flat rocks, hills and the like are fine, but don't try to perch your model precariously upon trees, sloped roofs, and so on). When flying, a model may move up to\n                12\". A model with this special rule may still choose to use their normal Move value if they wish, however, they will gain none of the benefits of the Fly special rule if they move in this way. If a\n                model with the Fly special rule walks into a wood, they cannot use the Fly special rule again until they have fully left the wood. Furthermore, a model with this special rule may pass 'over' enemy\n                Control Zones without charging the model - as long as they end their move outside of the Control Zone."
 			},
 			{
 				"name": "Fleetfoot",
@@ -32647,7 +32647,7 @@
 			{
 				"name": "Flame of Udun",
 				"tag": "Passive",
-				"definition": "The Balrog is never considered to be unarmed and any model that suffers a Wound from the Balrog's Strikes (even if it is sunsequently saved by Fate) and not slain must roll a D6. On a 6, the model\n                suffers the Set Ablaze special rule. Additionally, the Balrog is immune to any fire-based attacks or special rules, such as Dragon's Breathe Fire or the Set Ablaze special rule."
+				"definition": "The Balrog is never considered to be unarmed and any model that suffers a Wound from the Balrog's Strikes (even if it is subsequently saved by Fate) and not slain must roll a D6. On a 6, the model\n                suffers the Set Ablaze special rule. Additionally, the Balrog is immune to any fire-based attacks or special rules, such as Dragon's Breathe Fire or the Set Ablaze special rule."
 			},
 			{
 				"name": "Demon of the Ancient World",
@@ -32696,12 +32696,12 @@
 			{
 				"name": "Take Up the Drum",
 				"tag": "Passive",
-				"definition": "If either of the Drummers are slain, they may pass on their wargear to any other unengaged Moria Goblin Warrior within 1\". Immediately replace the model with the slaim Drummer. Models that take up the Drummer's wargear will automatically drop any that they are carrying."
+				"definition": "If either of the Drummers are slain, they may pass on their wargear to any other unengaged Moria Goblin Warrior within 1\". Immediately replace the model with the slain Drummer. Models that take up the Drummer's wargear will automatically drop any that they are carrying."
 			},
 			{
 				"name": "Drums in the Deep",
 				"tag": "Active",
-				"definition": "A Moria Goblin Drum takes up two spaces within a warband and counts as two models towards the army. It is deployed in the same way as the rest of the warband.\n        \n                For the Drum to be played, at least one Moria Goblin Drummer must have started the turn in base contact with the Drum, and also not be Engaged in a Fight. When the Drum is being played, it has the following effects:\n                \n                -All Fights within 18\" of one or more Drums, that also include at least one friendly Moria Goblin model, mey re-roll a single D6 for their Duel roll. Note that this not cumulative with the effects of a banner.\n                \n                -All friendly Moria Goblin models on the battlefield add 1 to their Courage value, and all enemy models suffer a -1 penalty to their Courage value. Note that this is not cumulative with other rules that confer similar modifiers.\n                \n                The Drum is a Heavy Object and as such is moved exactly like one. The Drum cannot be played in a turn in which it has moved."
+				"definition": "A Moria Goblin Drum takes up two spaces within a warband and counts as two models towards the army. It is deployed in the same way as the rest of the warband.\n        \n                For the Drum to be played, at least one Moria Goblin Drummer must have started the turn in base contact with the Drum, and also not be Engaged in a Fight. When the Drum is being played, it has the following effects:\n                \n                -All Fights within 18\" of one or more Drums, that also include at least one friendly Moria Goblin model, may re-roll a single D6 for their Duel roll. Note that this not cumulative with the effects of a banner.\n                \n                -All friendly Moria Goblin models on the battlefield add 1 to their Courage value, and all enemy models suffer a -1 penalty to their Courage value. Note that this is not cumulative with other rules that confer similar modifiers.\n                \n                The Drum is a Heavy Object and as such is moved exactly like one. The Drum cannot be played in a turn in which it has moved."
 			},
 			{
 				"name": "Death-touch",
@@ -32720,7 +32720,7 @@
 			},
 			{
 				"name": "Rapid Fire (Siege)",
-				"definition": "An Avenger Bolt Thrower fires D6 shots each turn rather than one. Each shot is resolved in the same was as a shooting attack rather than a Siege Engineer. This means that no scatter is rolled for an Avenger Bolt Thrower - it will either\n                hit or miss. Resolve each shot individually, rolling To Hit and To Wound before moving on to the next shot. Shots fired from the Avenger Bolt Thrower do not kill targets outright nor do they knock them to the ground."
+				"definition": "An Avenger Bolt Thrower fires D6 shots each turn rather than one. Each shot is resolved in the same way as a shooting attack rather than a Siege Engineer. This means that no scatter is rolled for an Avenger Bolt Thrower - it will either\n                hit or miss. Resolve each shot individually, rolling To Hit and To Wound before moving on to the next shot. Shots fired from the Avenger Bolt Thrower do not kill targets outright nor do they knock them to the ground."
 			},
 			{
 				"name": "Short Range",
@@ -32965,7 +32965,7 @@
 			{
 				"name": "Mindless Killers",
 				"tag": "Active",
-				"definition": "Any Corsair Reaver that starts its move at least 6\" away from a friendly Corsair Bo'sun must take a Courage test. \n                If the test is failed, they will be driven into a bloodthirsty rampage, and will Charge the nearest enemy model. \n                If two or more models are an equal distance away from each other then the Reaver's controlling player may choose which model he Reaver will Charge. \n                If a Reaver fails this Courage test, and it is not possible for it to Charge an enemy model, it will Charge the nearest friendly model instead. \n                Should a Corsair Reaver Charge a friendly model, then the Charged model may not move during the Move phase and must fight the Reaver during the Fight phase. \n                If a Reaver fails this test, and there are no models (friend or foe) that it can Charge, it will move 6\" towards the closest enemy model instead.\n        \n                The Reaver's controlling player may choose to have the Reaver automatically fail this Courage test if they wish. \n                \n                When driven into this bloodthirsty rampage, Corsair Reavers gain a bonus of +1 to any To Wound rolls and do not need to take Courage tests for charging Terror-causing models."
+				"definition": "Any Corsair Reaver that starts its move at least 6\" away from a friendly Corsair Bo'sun must take a Courage test. \n                If the test is failed, they will be driven into a bloodthirsty rampage, and will Charge the nearest enemy model. \n                If two or more models are an equal distance away from each other then the Reaver's controlling player may choose which model the Reaver will Charge. \n                If a Reaver fails this Courage test, and it is not possible for it to Charge an enemy model, it will Charge the nearest friendly model instead. \n                Should a Corsair Reaver Charge a friendly model, then the Charged model may not move during the Move phase and must fight the Reaver during the Fight phase. \n                If a Reaver fails this test, and there are no models (friend or foe) that it can Charge, it will move 6\" towards the closest enemy model instead.\n        \n                The Reaver's controlling player may choose to have the Reaver automatically fail this Courage test if they wish. \n                \n                When driven into this bloodthirsty rampage, Corsair Reavers gain a bonus of +1 to any To Wound rolls and do not need to take Courage tests for charging Terror-causing models."
 			},
 			{
 				"name": "Who would have the nerve to question my authority?",
@@ -33197,7 +33197,7 @@
 			},
 			{
 				"name": "Roast 'em Slowly",
-				"definition": "When Bert wins a Fight, he may choose to perform a Roast ‘em Slowly Brutal Power Attack instead of making Strikes, as long as he is within 6\" of a fire. Choose an enemy model involved in the Fight and place it in basde contact with the fire. That model is immediately Set Ablaze."
+				"definition": "When Bert wins a Fight, he may choose to perform a Roast ‘em Slowly Brutal Power Attack instead of making Strikes, as long as he is within 6\" of a fire. Choose an enemy model involved in the Fight and place it in base contact with the fire. That model is immediately Set Ablaze."
 			},
 			{
 				"name": "Lingering Cold",
@@ -33411,7 +33411,7 @@
 			{
 				"name": "Mighty Hero",
 				"tag": "Active",
-				"definition": "A model with this special rule may expend 1 point of Might eachturn without reducing their own store of Might."
+				"definition": "A model with this special rule may expend 1 point of Might each turn without reducing their own store of Might."
 			},
 			{
 				"name": "The Young Sage",
