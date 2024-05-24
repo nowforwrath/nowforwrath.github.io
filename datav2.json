@@ -534,7 +534,7 @@
 						"elementPropertyName": "keywords"
 					}
 				],
-				"armyBonus": "“You have my sword.” - Friendly As long as Frodo is alive and on the table (or escapes the board in Scenarios where this applies), all models from The Fellowship army list gain the Fearless special rule. Additionally, a force that consists solely of models from The Fellowship army list will never be considered broken if FRodo is alive and on the table (or escapes the board in Scenarios where this applies).",
+				"armyBonus": "“You have my sword.” - Friendly As long as Frodo is alive and on the table (or escapes the board in Scenarios where this applies), all models from The Fellowship army list gain the Fearless special rule. Additionally, a force that consists solely of models from The Fellowship army list will never be considered broken if Frodo is alive and on the table (or escapes the board in Scenarios where this applies).",
 				"primaryAllies": [
 					"Lothlorien",
 					"The Misty Mountains",
@@ -586,7 +586,7 @@
 			{
 				"name": "Minas Tirith",
 				"alignment": "good",
-				"armyBonus": "\"You are Men of Gondor. Whatever comes throught that Gate, you will stand your Ground!\" - Friendly Gondor models from this army list increase their Courage value by 1.",
+				"armyBonus": "\"You are Men of Gondor. Whatever comes through that Gate, you will stand your Ground!\" - Friendly Gondor models from this army list increase their Courage value by 1.",
 				"primaryAllies": [
 					"The Dead of Dunharrow",
 					"The Fiefdoms",
@@ -750,7 +750,7 @@
 						"quantity": 1
 					}
 				],
-				"armyBonus": "\"A Worthy Foe\" - Lurtz may declare a Heroic Challenge against any Hero model regardless of Heroic Tier. Additionally, if Lurtz declares a Heroic Challenge, and the targetted Hero declines then Lurtz regains the Might point spent in declaring the Heroic Challenge.\n\"Relentless March\" - If your army includes Mauhúr then any Uruk-hai Scouts in your force may be upgraded to Mauhúr's Marauders rather than just the ones in Mauhúr's warband - this upgrade is free rather than costing 1 point per model. Additionally, Lurtz, Uglúk, Uruk-hai Scout Captains and Uruk-hai Drummers increase their Move value to 8\"\n\"Shield Throw\" -\" Once per game, Lurtz can choose to use his shield as a throwing weapon. This has a Strength of 4, and any Man-sized (or smaller) model hit by the shield is automatically knocked Prone. Once Lurtz has thrown his shield he no longer carries it and cannot use it for the remainder of the battle. Note that even though he no longer has a shield, Lurtz's Defence will not be reduced."
+				"armyBonus": "\"A Worthy Foe\" - Lurtz may declare a Heroic Challenge against any Hero model regardless of Heroic Tier. Additionally, if Lurtz declares a Heroic Challenge, and the targeted Hero declines then Lurtz regains the Might point spent in declaring the Heroic Challenge.\n\"Relentless March\" - If your army includes Mauhúr then any Uruk-hai Scouts in your force may be upgraded to Mauhúr's Marauders rather than just the ones in Mauhúr's warband - this upgrade is free rather than costing 1 point per model. Additionally, Lurtz, Uglúk, Uruk-hai Scout Captains and Uruk-hai Drummers increase their Move value to 8\"\n\"Shield Throw\" -\" Once per game, Lurtz can choose to use his shield as a throwing weapon. This has a Strength of 4, and any Man-sized (or smaller) model hit by the shield is automatically knocked Prone. Once Lurtz has thrown his shield he no longer carries it and cannot use it for the remainder of the battle. Note that even though he no longer has a shield, Lurtz's Defence will not be reduced."
 			},
 			{
 				"name": "Ugluk's Scouts",
@@ -810,7 +810,7 @@
 						]
 					}
 				],
-				"armyBonus": "\"Leader of the Pack\" - Sharku may declare a Heroic Combat each turn without expending Might.\n\"Ambush\" - In Scenarios that use the Maelstrom of Battle special rule, a Wolves of Isengard force may choose to automatically win or lose Priority on the first turn. However, if both forces have special rules that allow them to do this, roll for Priority as normal. Additionally, models from this force may Charge in the same turn in which they enter the board, even if they may not normally be allowed to do so. Should a model entering the board in this manner fail a Courage test to charge a Terror causing enemy, the model may still move onto the board as normal, but may not Charge anything that turn.\n\"Scouts\" - At the start of the game, after both sides have deployed but before the first Priority has been rolled, select up to D6 friendly Warrior models in your force. The selected models may immediately make a move as if it were the Move phase, and then Shoot as if it were the Shoot phase (if able). During this additional move, the selected models may not move within 1\" of an enemy model, and therefore may not Charge. In scenarios where you roll for additional models to arrive, such as those that use the Reinforcements or Maelstrom of Battle special rule, the selected D6 models may roll to enter the board before the first turn of the game, re-rolling any results that would cause them to not enter the board until they come onto the board; trear each model as an individual warband.\nFriendly models gain the Isengard Keyword. Additionally, any Orc Shamans in a Wolves of Isengard force change their Fury (Mordor Orc) Magical Power to Fury (Isengard Orc)."
+				"armyBonus": "\"Leader of the Pack\" - Sharku may declare a Heroic Combat each turn without expending Might.\n\"Ambush\" - In Scenarios that use the Maelstrom of Battle special rule, a Wolves of Isengard force may choose to automatically win or lose Priority on the first turn. However, if both forces have special rules that allow them to do this, roll for Priority as normal. Additionally, models from this force may Charge in the same turn in which they enter the board, even if they may not normally be allowed to do so. Should a model entering the board in this manner fail a Courage test to charge a Terror causing enemy, the model may still move onto the board as normal, but may not Charge anything that turn.\n\"Scouts\" - At the start of the game, after both sides have deployed but before the first Priority has been rolled, select up to D6 friendly Warrior models in your force. The selected models may immediately make a move as if it were the Move phase, and then Shoot as if it were the Shoot phase (if able). During this additional move, the selected models may not move within 1\" of an enemy model, and therefore may not Charge. In scenarios where you roll for additional models to arrive, such as those that use the Reinforcements or Maelstrom of Battle special rule, the selected D6 models may roll to enter the board before the first turn of the game, re-rolling any results that would cause them to not enter the board until they come onto the board; treat each model as an individual warband.\nFriendly models gain the Isengard Keyword. Additionally, any Orc Shamans in a Wolves of Isengard force change their Fury (Mordor Orc) Magical Power to Fury (Isengard Orc)."
 			},
 			{
 				"name": "Garrison of Dale",
@@ -1023,7 +1023,7 @@
 						"elementPropertyName": "keywords"
 					}
 				],
-				"armyBonus": "“Protect the Prince” - All models in this force gain the Sword Protector (Theodred) special rule.\n\"Riders of Theodred!” - Captains of Rohan, Riders of Rohan and Rohan Royal Guard treat Théodred as if he were Théoden for the purpose of their Arise Riders of Théoden special rule.\n\"Fight in Ranks!\" - Friendly Rohan Infantry models armed with throwing spears spears may use them as standard spears in addition to their normal use. However, if a model uses their spear as a throwing spear in a turn, they cannot use it as a standard spear in the same turn. ",
+				"armyBonus": "“Protect the Prince” - All models in this force gain the Sword Protector (Theodred) special rule.\n\"Riders of Theodred!” - Captains of Rohan, Riders of Rohan and Rohan Royal Guard treat Théodred as if he were Théoden for the purpose of their Arise Riders of Théoden special rule.\n\"Fight in Ranks!\" - Friendly Rohan Infantry models armed with throwing spears may use them as standard spears in addition to their normal use. However, if a model uses their spear as a throwing spear in a turn, they cannot use it as a standard spear in the same turn. ",
 				"requiredChildren": [
 					{
 						"name": "Théodred, Heir of Rohan",
@@ -1037,7 +1037,7 @@
 				"name": "Defenders of Helm's Deep",
 				"alignment": "good",
 				"parentFaction": "Rohan",
-				"armyBonus": "\"Fight in Ranks!\" - Friendly Rohan Infantry models armed with throwing spears spears may use them as standard spears in addition to their normal use. However, if a model uses their spear as a throwing spear in a turn, they cannot use it as a standard spear in the same turn.\n\"Give them a Volley\" - Models from this Legendary Legion armed with either a bow, longbow or Elf bow may increase the range of their type of bow from 24\" to 30\", provided they have not moved that turn.\n\"Fall Back to the keep! - If this force is Broken, then Warrior models from this force add 1 to their Courage value. Additionally, if this force is Broken, friendly Warrior models may re-roll failed Courage tests whilst they are within 6\" of Théoden.\"\nA Defenders of Helm's Deep Legendary Legion may only have a maximum of 33% of its models with the Lorien Keyword.",
+				"armyBonus": "\"Fight in Ranks!\" - Friendly Rohan Infantry models armed with throwing spears may use them as standard spears in addition to their normal use. However, if a model uses their spear as a throwing spear in a turn, they cannot use it as a standard spear in the same turn.\n\"Give them a Volley\" - Models from this Legendary Legion armed with either a bow, longbow or Elf bow may increase the range of their type of bow from 24\" to 30\", provided they have not moved that turn.\n\"Fall Back to the keep! - If this force is Broken, then Warrior models from this force add 1 to their Courage value. Additionally, if this force is Broken, friendly Warrior models may re-roll failed Courage tests whilst they are within 6\" of Théoden.\"\nA Defenders of Helm's Deep Legendary Legion may only have a maximum of 33% of its models with the Lorien Keyword.",
 				"requiredChildren": [
 					{
 						"elementPropertyName": "heroes",
@@ -1170,7 +1170,7 @@
 				"keywords": [
 					"Mountain Dweller"
 				],
-				"armyBonus": "\"Wild men have Long Ears and Long Eyes; know all Paths\" - Models from this army list gain the Mountain Dweller special rule. Additionally, enemy models do not gain any benefits from the Stalk Unseen special rule, or any suchs special rules that give similar benefits, against models from this army list.\nAdditionally, warbands from this army list, that contain between 9 and 12 models, do not need a Hero to be the captain of the warband. Instead, one of the Warrior models within the warband takes on the role of the warband's captain for the purpose of deployment."
+				"armyBonus": "\"Wild men have Long Ears and Long Eyes; know all Paths\" - Models from this army list gain the Mountain Dweller special rule. Additionally, enemy models do not gain any benefits from the Stalk Unseen special rule, or any such special rules that give similar benefits, against models from this army list.\nAdditionally, warbands from this army list, that contain between 9 and 12 models, do not need a Hero to be the captain of the warband. Instead, one of the Warrior models within the warband takes on the role of the warband's captain for the purpose of deployment."
 			},
 			{
 				"name": "Paths of the Druadan",
@@ -1402,7 +1402,7 @@
 						"elementPropertyName": "keywords"
 					}
 				],
-				"armyBonus": "\"Don't be Hasty\": Ent models from this army list gain the Fearless special rule. Additionally, Ent models are completely unaffected by any Magical Powers or special rules that would prevent them from moving or move them against their will (the only exception is that they will still take the hit from a Sorcerrous Blast, but it will suffer no further effects). Additionally, Ent models are completely unaffected by the Nature's Wrath and Wrath of Bruinen Magical Powers.",
+				"armyBonus": "\"Don't be Hasty\": Ent models from this army list gain the Fearless special rule. Additionally, Ent models are completely unaffected by any Magical Powers or special rules that would prevent them from moving or move them against their will (the only exception is that they will still take the hit from a Sorcerous Blast, but it will suffer no further effects). Additionally, Ent models are completely unaffected by the Nature's Wrath and Wrath of Bruinen Magical Powers.",
 				"primaryAllies": [],
 				"secondaryAllies": [
 					"Army of Lake-town",
@@ -1851,7 +1851,7 @@
 						"elementPropertyName": "keywords"
 					}
 				],
-				"armyBonus": "*A Rangers of Mirkwood force must contain either Legolas Greenleaf, Prince of Mirkwood, or Tauriel.\n*A Rangers of Mirkwood force may have 100% of its models armed with bows.\n\"Knife Mastery\" - Friendly models may re-roll 1s ToWound when making strikes. Additionally, friendly models may use the Shielding special rule even though they are not armed with a shield; however, if they elect to shield, they may not use their Knife Fighters or Blade Mistress special rules.\n\"The Prince of Mirkwood\" - Legolas gains the Knife Fighters special rule when part of this Legendary Legion.\n\"Knife Fighters\" - Mirkwood Rangers receive an additional Attack for each enemy model they are Engaged in combat with after the first (to a maximum of 3 bonus Attacks). This bonus is determined at the start of each fight, and lasts until all Strikes from that fight have been resolved.\n\"Clear the Nests\" - Friendly models gain the Hatred (Spider) special rule.\n\"Masters of the Forest\" - Whenever a friendly model that is within 1\" of a tree or within a piece of woodland terrain suffers a Wound, roll a D6. On the roll of a natural 6 that Wound is ignored exactly as if a point of Fate had been spent.\n\"Silent Ambush\" - In Scenarios where you roll for additional forces to arrive (such as those that use the Reinforcements rule), you receive a bonus of+1 to the dice roll for warbands from this Legendary Legion. In Scenarios where you roll to see which part of the board your warbands deploy in, you may modify the dice roll by +1 or -1."
+				"armyBonus": "*A Rangers of Mirkwood force must contain either Legolas Greenleaf, Prince of Mirkwood, or Tauriel.\n*A Rangers of Mirkwood force may have 100% of its models armed with bows.\n\"Knife Mastery\" - Friendly models may re-roll 1s To Wound when making strikes. Additionally, friendly models may use the Shielding special rule even though they are not armed with a shield; however, if they elect to shield, they may not use their Knife Fighters or Blade Mistress special rules.\n\"The Prince of Mirkwood\" - Legolas gains the Knife Fighters special rule when part of this Legendary Legion.\n\"Knife Fighters\" - Mirkwood Rangers receive an additional Attack for each enemy model they are Engaged in combat with after the first (to a maximum of 3 bonus Attacks). This bonus is determined at the start of each fight, and lasts until all Strikes from that fight have been resolved.\n\"Clear the Nests\" - Friendly models gain the Hatred (Spider) special rule.\n\"Masters of the Forest\" - Whenever a friendly model that is within 1\" of a tree or within a piece of woodland terrain suffers a Wound, roll a D6. On the roll of a natural 6 that Wound is ignored exactly as if a point of Fate had been spent.\n\"Silent Ambush\" - In Scenarios where you roll for additional forces to arrive (such as those that use the Reinforcements rule), you receive a bonus of+1 to the dice roll for warbands from this Legendary Legion. In Scenarios where you roll to see which part of the board your warbands deploy in, you may modify the dice roll by +1 or -1."
 			},
 			{
 				"name": "Arnor",
@@ -2084,7 +2084,7 @@
 						"elementPropertyName": "keywords"
 					}
 				],
-				"armyBonus": "\"Through the Forest\" - Friendly Infantry models gain the Woodland Creature special rule.\n\"Death to the Elves\" - Friendly models gain the Hatred (Elf) special rule.\n\"The War Leader\" - Razgush gains a bonus of +1 to his Fight falue when engaged with an enemy Elf models."
+				"armyBonus": "\"Through the Forest\" - Friendly Infantry models gain the Woodland Creature special rule.\n\"Death to the Elves\" - Friendly models gain the Hatred (Elf) special rule.\n\"The War Leader\" - Razgush gains a bonus of +1 to his Fight value when engaged with an enemy Elf models."
 			},
 			{
 				"name": "The Trolls",
@@ -11819,7 +11819,7 @@
 				"might": 3,
 				"will": 3,
 				"fate": 1,
-				"specialText": "If your army includes Balin the Dwarf, King of Moria, it may not include any other named Hero models from the Kingdom of Khazad-Dum army list with the exception\n                of Floi Stonehand. Additionally, if your amy contains Balin, you may include Ori the Dwarf, Champion of Erebor and Oin the Dwarf, Champion of Erebor from the Erebor Reclaimed army list,\n                and Gimli, son of Gloin, from The Fellowship army list, as Heroes of Fortitude for the time being. If your army has Balin as its leader then you may wish to change the name of\n                the army list to 'The Kingdom of Moria' instead.\n                \n                Ori the Dwarf, Champion of Erebor; Oin the Dwarf, Champion of Erebor; Gimli Son of Gloin; Dwarf Kings; King's Champions; Dwarf Captains; Shieldbearers; Dwarf Warriors; Khazad Guard; Iron Guard;\n                Dwarf Rangers; Vault Warden Teams and Dwarf Ballistae that are part of the same army list as Balin will exchange their Erebor or Khazad-Dum keyword for the Moria keyword.\n                \n                Also, if your army includes Balin, then every alliance will be Impossible Allies as contact was lost following Balin's triumph in Moria.",
+				"specialText": "If your army includes Balin the Dwarf, King of Moria, it may not include any other named Hero models from the Kingdom of Khazad-Dum army list with the exception\n                of Floi Stonehand. Additionally, if your army contains Balin, you may include Ori the Dwarf, Champion of Erebor and Oin the Dwarf, Champion of Erebor from the Erebor Reclaimed army list,\n                and Gimli, son of Gloin, from The Fellowship army list, as Heroes of Fortitude for the time being. If your army has Balin as its leader then you may wish to change the name of\n                the army list to 'The Kingdom of Moria' instead.\n                \n                Ori the Dwarf, Champion of Erebor; Oin the Dwarf, Champion of Erebor; Gimli Son of Gloin; Dwarf Kings; King's Champions; Dwarf Captains; Shieldbearers; Dwarf Warriors; Khazad Guard; Iron Guard;\n                Dwarf Rangers; Vault Warden Teams and Dwarf Ballistae that are part of the same army list as Balin will exchange their Erebor or Khazad-Dum keyword for the Moria keyword.\n                \n                Also, if your army includes Balin, then every alliance will be Impossible Allies as contact was lost following Balin's triumph in Moria.",
 				"heroicActions": [
 					"Heroic Resolve",
 					"Heroic March",
@@ -19230,7 +19230,7 @@
 					"Two-handed weapon",
 					"the Golden Throne"
 				],
-				"specialText": "The Golden King and his bearers are represented by a single model with the combined profile shown above, and the component parts cannot be attacked\n                or wounded separately. Once the Golden King is reduced to 0 Wounds, or otherwise removed as a castualty, remove the entire model from play. Treat the Golden King's Control Zone as being \n                the area within 1\" of either of the bearer's base."
+				"specialText": "The Golden King and his bearers are represented by a single model with the combined profile shown above, and the component parts cannot be attacked\n                or wounded separately. Once the Golden King is reduced to 0 Wounds, or otherwise removed as a casualty, remove the entire model from play. Treat the Golden King's Control Zone as being \n                the area within 1\" of either of the bearer's base."
 			},
 			{
 				"name": "Hasharin",
@@ -29982,7 +29982,7 @@
 				"attack": 0,
 				"wounds": 1,
 				"courage": 2,
-				"definition": "If a model riding a Pony wishes to charge, the model must make a Courage test. If the test is failed, the model may not Charge but may move as normal. Note that a model must always take this Courage test, even if it would usually automatically pass. A model riding a poney does not get the Extra Attack or Knock to the Ground bonuses when charging."
+				"definition": "If a model riding a Pony wishes to charge, the model must make a Courage test. If the test is failed, the model may not Charge but may move as normal. Note that a model must always take this Courage test, even if it would usually automatically pass. A model riding a pony does not get the Extra Attack or Knock to the Ground bonuses when charging."
 			},
 			{
 				"name": "War boar",
@@ -30087,7 +30087,7 @@
 				"wounds": 3,
 				"courage": 3,
 				"specialRules": [],
-				"definition": "At the start of every friendly Shoot phase, select a single enemy model wtihin 6\" of the cart and roll a D6. On a 4+, that model suffers one Strength 2 hit."
+				"definition": "At the start of every friendly Shoot phase, select a single enemy model within 6\" of the cart and roll a D6. On a 4+, that model suffers one Strength 2 hit."
 			},
 			{
 				"name": "Great Eagle",
@@ -30461,7 +30461,7 @@
 			{
 				"name": "Asfaloth",
 				"tag": "Passive",
-				"definition": "Asfaloth is a horse with a Move value of 12\" rather than 10\". Additionally, whilst riding Asfaloth, the rider gaines the Fleetfoot special rule."
+				"definition": "Asfaloth is a horse with a Move value of 12\" rather than 10\". Additionally, whilst riding Asfaloth, the rider gains the Fleetfoot special rule."
 			},
 			{
 				"name": "Armour of Gondolin",
@@ -30529,7 +30529,7 @@
 				"name": "Banner of Arwen Evenstar",
 				"type": "Banner",
 				"tag": "Passive",
-				"definition": "This is a banner that affects all friendly models within 6\" rather than 3\".\n                Friendly models within 6\" gain the Fearless special rule. Additionally, Halbarad suffersno penalties for carrying the banner."
+				"definition": "This is a banner that affects all friendly models within 6\" rather than 3\".\n                Friendly models within 6\" gain the Fearless special rule. Additionally, Halbarad suffers no penalties for carrying the banner."
 			},
 			{
 				"name": "The Horn of Gondor",
@@ -30579,11 +30579,11 @@
 			{
 				"name": "Narya",
 				"tag": "Passive",
-				"definition": "Gandlf may re-roll his dice when making Fate rolls."
+				"definition": "Gandalf may re-roll his dice when making Fate rolls."
 			},
 			{
 				"name": "Staff of Power",
-				"definition": "A Staff of Power is a hand-and-a-half Staff, and may use the Stun Special Strike like all other Staves. \n                In addition, the bearer can expend 1 point of Will each turn without reducing their own Will store. \n                \"STUN\" - If the model's side wins the Fight, rather than striking normally, choose one opponent and roll a D6. \n                On a 5+ (or a 6 if the target is a Monster), the victim is reduced to a Fight value and Attacks value of 1, and Shoot value of 6+, \n                until the end of the followng turn. You may wish to place a marker next to the stunned model as a reminder."
+				"definition": "A Staff of Power is a hand-and-a-half Staff, and may use the Stun Special Strike like all other Staves. \n                In addition, the bearer can expend 1 point of Will each turn without reducing their own Will store. \n                \"STUN\" - If the model's side wins the Fight, rather than striking normally, choose one opponent and roll a D6. \n                On a 5+ (or a 6 if the target is a Monster), the victim is reduced to a Fight value and Attacks value of 1, and Shoot value of 6+, \n                until the end of the following turn. You may wish to place a marker next to the stunned model as a reminder."
 			},
 			{
 				"name": "The Warden's Sword",
@@ -30660,7 +30660,7 @@
 				"name": "Torozul",
 				"type": "Weapon",
 				"tag": "Active",
-				"definition": "This is a Foe Spear with the Trollbane specual rule. Additionally, Mardin adds +1 To Wound against Monster models."
+				"definition": "This is a Foe Spear with the Trollbane special rule. Additionally, Mardin adds +1 To Wound against Monster models."
 			},
 			{
 				"name": "Foe Spear",
@@ -30672,7 +30672,7 @@
 				"name": "Fiery Lash",
 				"type": "Weapon",
 				"tag": "Active",
-				"definition": "This is a throwing weapon with a range of 8\" and a Strength of 7. Additionally, a model that is hit by  this weapon and not slain is dragged directly towards and into\n                base contact with the Balrog, even over intervening models or terrain. If the model cannot be placed where it should be placed, instead place it in base contact with the Balrog as close\n                as possible to the posiiton it should have been in. If, for whatever reason, the model cannot be placed anywhere in base contact, then it is not moved at all."
+				"definition": "This is a throwing weapon with a range of 8\" and a Strength of 7. Additionally, a model that is hit by  this weapon and not slain is dragged directly towards and into\n                base contact with the Balrog, even over intervening models or terrain. If the model cannot be placed where it should be placed, instead place it in base contact with the Balrog as close\n                as possible to the position it should have been in. If, for whatever reason, the model cannot be placed anywhere in base contact, then it is not moved at all."
 			},
 			{
 				"name": "Elven-made Glaive",
@@ -30838,7 +30838,7 @@
 			},
 			{
 				"name": "Breathe Fire",
-				"definition": "Each time a Dragon Breathes Fire, it expense a point of Will. Treat the Dragon's fiery breath as a bow with a range of 12\". If the shot hits, the target and all models (friends and foe) within 2\" suffer a Strength 10 hit. Any model that suffers an unsaved wound (Fate may still bge taken) from a Dragon's Breathe Fire is automatically slain."
+				"definition": "Each time a Dragon Breathes Fire, it expends a point of Will. Treat the Dragon's fiery breath as a bow with a range of 12\". If the shot hits, the target and all models (friends and foe) within 2\" suffer a Strength 10 hit. Any model that suffers an unsaved wound (Fate may still be taken) from a Dragon's Breathe Fire is automatically slain."
 			},
 			{
 				"name": "Tough Hide",
@@ -30897,7 +30897,7 @@
 			{
 				"name": "Pavise",
 				"tag": "Passive",
-				"definition": "This giant wooden shield provised the bearer +3 Defence, so long as the bearer is not Engaged in combat with another model. The bearer may use the rules for\n                shielding, although they will not gain the +1 Defence bonus as they also carry a crossbow."
+				"definition": "This giant wooden shield provides the bearer +3 Defence, so long as the bearer is not Engaged in combat with another model. The bearer may use the rules for\n                shielding, although they will not gain the +1 Defence bonus as they also carry a crossbow."
 			},
 			{
 				"name": "Trident Spear",
@@ -30970,7 +30970,7 @@
 			},
 			{
 				"name": "Pitchfork",
-				"definition": "This is a hand-and-a-half weapon that may use the Stab Special Stirke, and may support as if it was a spear."
+				"definition": "This is a hand-and-a-half weapon that may use the Stab Special Strike, and may support as if it was a spear."
 			},
 			{
 				"name": "Campfire",
@@ -31063,7 +31063,7 @@
 			{
 				"name": "Command",
 				"duration": "Temporary",
-				"definition": "This power targets one enemy model within range. The caster may move the target model up to half of its maximum Move distance. They can do this even if the model has already moved this turn. The move cannot force the target to jump, leap, climb, dismount or lie down, but can take them into difficultterrain, and even make them Charge an enemy. No Courage test is required to Charge Terror-causing foes (see page 107). It can even force an unengaged victim to drop an object (but not wargear) that it is holding or to put on The One Ring (if they carry it). Once the target has finished the move, it may move no further that turn for any reason.\n                Finally, the target suffers the effect of the Immobilise/Transfix\n                magical power (see page 98).",
+				"definition": "This power targets one enemy model within range. The caster may move the target model up to half of its maximum Move distance. They can do this even if the model has already moved this turn. The move cannot force the target to jump, leap, climb, dismount or lie down, but can take them into difficult terrain, and even make them Charge an enemy. No Courage test is required to Charge Terror-causing foes (see page 107). It can even force an unengaged victim to drop an object (but not wargear) that it is holding or to put on The One Ring (if they carry it). Once the target has finished the move, it may move no further that turn for any reason.\n                Finally, the target suffers the effect of the Immobilise/Transfix\n                magical power (see page 98).",
 				"channelled": "Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (rounding up), and may not Strike if they win a Duel."
 			},
 			{
@@ -31075,7 +31075,7 @@
 			{
 				"name": "Compel",
 				"duration": "Temporary",
-				"definition": "This power targets one enemy model within range. The caster may move the target model up to half of its maximum Move distance. They can do this even if the model has already moved this turn. The move cannot force the target to jump, leap, climb, dismount or lie down, but can take them into difficultterrain, and even make them Charge an enemy. No Courage test is required to Charge Terror-causing foes (see page 107). It can even force an unengaged victim to drop an object (but not wargear) that it is holding or to put on The One Ring (if they carry it). Once the target has finished the move, it may move no further that turn for any reason.\n                Finally, the target suffers the effect of the Immobilise/Transfix\n                magical power (see page 98).",
+				"definition": "This power targets one enemy model within range. The caster may move the target model up to half of its maximum Move distance. They can do this even if the model has already moved this turn. The move cannot force the target to jump, leap, climb, dismount or lie down, but can take them into difficult terrain, and even make them Charge an enemy. No Courage test is required to Charge Terror-causing foes (see page 107). It can even force an unengaged victim to drop an object (but not wargear) that it is holding or to put on The One Ring (if they carry it). Once the target has finished the move, it may move no further that turn for any reason.\n                Finally, the target suffers the effect of the Immobilise/Transfix\n                magical power (see page 98).",
 				"channelled": "Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (rounding up), and may not Strike if they win a Duel."
 			},
 			{
@@ -31148,7 +31148,7 @@
 				"name": "Panic Steed",
 				"duration": "Instant",
 				"definition": "This power targets one enemy model within range. This power may only target Cavalry models. The rider is immediately thrown and the mount instantly flees. Remove the mount from play and roll on the Thrown Rider table to determine the effect on the rider.",
-				"channelled": "This power also targets all enemy models wtihin 3\" of the initial target."
+				"channelled": "This power also targets all enemy models within 3\" of the initial target."
 			},
 			{
 				"name": "Paralyse",
@@ -31196,7 +31196,7 @@
 				"name": "Sorcerous Blast",
 				"duration": "Instant",
 				"definition": "This power targets one enemy model within range. The target is blasted D6\" directly away from the caster and knocked Prone. If the target comes into contact with another model that is Strength 5 or less, it will immediately stop and both models will be knocked Prone. If the target, or one of the models that is knocked Prone, is Engaged in combat, then all the models (friend and foe) in the same Fight are also knocked Prone. The target model suffers one Strength 5 hit, and any other model knocked Prone suffers one Strength 3 hit. Cavalry models are treated as having rolled the Knocked Flying result on the Thrown Rider chart.\n                Additionally, If the target comes into contact with a piece of terrain, such as an Obstacle like a hedge, house or large rock, or a model that is Strength 6 or higher, then it will immediately stop and be knocked Prone, however the Strength 6 model will not be knocked Prone. Both the target and the Obstacle or model (if it has a Defence value) will suffer one Strength 3 hit.\n                Note: Even Transfixed/Compelled or otherwise immobilised models will be blasted by this power.",
-				"channelled": "The initial hit is instead Strength 6 and every other modeel suffers instead one Strength 4 hit."
+				"channelled": "The initial hit is instead Strength 6 and every other model suffers instead one Strength 4 hit."
 			},
 			{
 				"name": "Strengthen Will",
@@ -31387,7 +31387,7 @@
 			{
 				"name": "Combat Mimicry",
 				"tag": "Active",
-				"definition": "At the start of any Fight phase, before Heroic Actions are\n                declared, The Knight of Umbar may spend a Will point to\n                activate this ability. The Knight ofUmbar can elect to use\n                the Fight, Strength and/or Attack values of his opponent\n                instead of his own. He does not need to adopt all of\n                these characteristics; he could, for example, only adopt\n                the Fight value."
+				"definition": "At the start of any Fight phase, before Heroic Actions are\n                declared, The Knight of Umbar may spend a Will point to\n                activate this ability. The Knight of Umbar can elect to use\n                the Fight, Strength and/or Attack values of his opponent\n                instead of his own. He does not need to adopt all of\n                these characteristics; he could, for example, only adopt\n                the Fight value."
 			},
 			{
 				"name": "Master of Poisons",
@@ -31575,7 +31575,7 @@
 			{
 				"name": "For Theoden!",
 				"tag": "Active",
-				"definition": "If Théoden is Engaged in a Fight within 12\" of Déorwine, then Déorwine may call a Heroic Combat without using Might. If the Heroic Combat is successful, then Déorwine must use the followin gmove to join Théoden’s combat. If this is not possible then Déorwine must move as close as possible to Théoden."
+				"definition": "If Théoden is Engaged in a Fight within 12\" of Déorwine, then Déorwine may call a Heroic Combat without using Might. If the Heroic Combat is successful, then Déorwine must use the following move to join Théoden’s combat. If this is not possible then Déorwine must move as close as possible to Théoden."
 			},
 			{
 				"name": "Come here Maggot!",
@@ -31635,12 +31635,12 @@
 			{
 				"name": "Powers of Nature",
 				"tag": "Passive",
-				"definition": "If, when a Casting test is made, the StormCaller rolls a natural 6 on one or more dice, then the Will points spent in casting the Magical Power are returned to the StormCaller's styore of Will upon completion of the effects of the Magical Power."
+				"definition": "If, when a Casting test is made, the StormCaller rolls a natural 6 on one or more dice, then the Will points spent in casting the Magical Power are returned to the StormCaller's store of Will upon completion of the effects of the Magical Power."
 			},
 			{
 				"name": "Foresight of the Eldar",
 				"tag": "Passive",
-				"definition": "Before the game begins, roll a D6 and make a note of the result - these are Elrond's Foresight points for the battle. During the priority phase, after the dice has been rolled, so long as he is alive and on the battlefield, Elrond may chose to expend these Foresight points to alter the controlling player's dice roll. For each point expended, Elrond may alter the dice by either +1 or -1, to a minimum of 1 and a maximum of 6."
+				"definition": "Before the game begins, roll a D6 and make a note of the result - these are Elrond's Foresight points for the battle. During the priority phase, after the dice has been rolled, so long as he is alive and on the battlefield, Elrond may choose to expend these Foresight points to alter the controlling player's dice roll. For each point expended, Elrond may alter the dice by either +1 or -1, to a minimum of 1 and a maximum of 6."
 			},
 			{
 				"name": "Shieldwall",
@@ -31759,7 +31759,7 @@
 			{
 				"name": "Mighty Blow",
 				"tag": "Active",
-				"definition": "For each Strike that succesesfully Wounds in close combat, this model inflicts 2 Wounds rather than 1."
+				"definition": "For each Strike that successfully Wounds in close combat, this model inflicts 2 Wounds rather than 1."
 			},
 			{
 				"name": "The Bladelord's Skill",
@@ -31899,7 +31899,7 @@
 			},
 			{
 				"name": "Unstoppable (Brutal Power Attack)",
-				"definition": "Instead of striking as normal, Sauron can instead make one Strength 8 hit on every enemy model involved in the samefight, including spear and pike supports."
+				"definition": "Instead of striking as normal, Sauron can instead make one Strength 8 hit on every enemy model involved in the same fight, including spear and pike supports."
 			},
 			{
 				"name": "Deadly Shot",
@@ -31924,7 +31924,7 @@
 			{
 				"name": "Only a Pony",
 				"tag": "Passive",
-				"definition": " Bill the Pony may may never Charge an enemy model for any reason and no other models may use his Stand Fast!. He may, however, benefit from the Stand Fast! roll of any friendly Hobbit model."
+				"definition": " Bill the Pony may never Charge an enemy model for any reason and no other models may use his Stand Fast!. He may, however, benefit from the Stand Fast! roll of any friendly Hobbit model."
 			},
 			{
 				"name": "Second Breakfast",
@@ -32004,12 +32004,12 @@
 			{
 				"name": "Ancient Enemies (Elf)",
 				"tag": "Active",
-				"definition": "A model with this special rule re-rolls 1s To Wound when fighting in combat against models with the keywords listed in the brackets in its profile. For example, a modle that has the Ancient Enemies (Elf) special rule will get to re-roll 1s To Wound against all Elf models"
+				"definition": "A model with this special rule re-rolls 1s To Wound when fighting in combat against models with the keywords listed in the brackets in its profile. For example, a model that has the Ancient Enemies (Elf) special rule will get to re-roll 1s To Wound against all Elf models"
 			},
 			{
 				"name": "Ancient Enemies (Dwarf)",
 				"tag": "Active",
-				"definition": "A model with this special rule re-rolls 1s To Wound when fighting in combat against models with the keywords listed in the brackets in its profile. For example, a modle that has the Ancient Enemies (Elf) special rule will get to re-roll 1s To Wound against all Elf models"
+				"definition": "A model with this special rule re-rolls 1s To Wound when fighting in combat against models with the keywords listed in the brackets in its profile. For example, a model that has the Ancient Enemies (Elf) special rule will get to re-roll 1s To Wound against all Elf models"
 			},
 			{
 				"name": "Burly",
@@ -32094,7 +32094,7 @@
 			{
 				"name": "Swap with Me",
 				"tag": "Active",
-				"definition": "Swap with Me is a special Heroic Action that Grinnah can use at the start of any phase. Using Swap with Me enables Grinnah to swap places with any friendly Goblin model (except the Goblin Scribe) within 3\". This does not countas moving. If there is no room to place the swapped model, you must choose another, or the Heroic Action is wasted."
+				"definition": "Swap with Me is a special Heroic Action that Grinnah can use at the start of any phase. Using Swap with Me enables Grinnah to swap places with any friendly Goblin model (except the Goblin Scribe) within 3\". This does not count as moving. If there is no room to place the swapped model, you must choose another, or the Heroic Action is wasted."
 			},
 			{
 				"name": "Chittering Hordes",
@@ -32109,7 +32109,7 @@
 			{
 				"name": "Immobile",
 				"tag": "Passive",
-				"definition": "The Goblin Scribe is automatically Trapped if he loses a Fight. Additionally, inthe Move phase, friendly models may move him and his frame, in which case he is considered to be a Heavy Object."
+				"definition": "The Goblin Scribe is automatically Trapped if he loses a Fight. Additionally, in the Move phase, friendly models may move him and his frame, in which case he is considered to be a Heavy Object."
 			},
 			{
 				"name": "The Precious",
@@ -32209,7 +32209,7 @@
 			{
 				"name": "Unyielding Combat Stance",
 				"tag": "Active",
-				"definition": "If a model with this special rule is knocked Prone, roll a D6. On a 4+, this model keeps their footing and is not knocked Prone. If this model was mounted when knocked Prone, and passes the roll to keep their footing, they will stay on their feet but they will still be separated from their mount. This model may still make this roll even it it automatically suffers the Knocked Flying result and, if the roll is successful, will not suffer any of its effects."
+				"definition": "If a model with this special rule is knocked Prone, roll a D6. On a 4+, this model keeps their footing and is not knocked Prone. If this model was mounted when knocked Prone, and passes the roll to keep their footing, they will stay on their feet but they will still be separated from their mount. This model may still make this roll even if it automatically suffers the Knocked Flying result and, if the roll is successful, will not suffer any of its effects."
 			},
 			{
 				"name": "Shield of Blades",
@@ -32845,7 +32845,7 @@
 			},
 			{
 				"name": "Detonating the Charge",
-				"definition": "To use the demolition charge it must be dropped. A model with a flaming brand in base contact with the charge, which is not also Engaged in combat, may attempt to set it off at the start of the Fight phase. A model may only attempt to detonate the charge if the resulting explosion would affect at least two enemy models, or an enemy Siege target; meaning there must be at least two enemy models within 2\" of the charge to detonate it.The model attempting to set off the charge must pass a Courage test. If it fails, it cannot detonate the charge. If it succeeds, the Evil player rolls on the Detonation table to determine the effects.\n                When it explodes, a demolition charge automatically strikes everything within 2\" of the model - gates, doors, and of course, any models ( friend or foe) that are in range of it. Each target struck automatically takes D6 Wounds, regardless of its Defence value. Cavalry models take D6 hits on both the mount and the rider.\n                "
+				"definition": "To use the demolition charge it must be dropped. A model with a flaming brand in base contact with the charge, which is not also Engaged in combat, may attempt to set it off at the start of the Fight phase. A model may only attempt to detonate the charge if the resulting explosion would affect at least two enemy models, or an enemy Siege target; meaning there must be at least two enemy models within 2\" of the charge to detonate it. The model attempting to set off the charge must pass a Courage test. If it fails, it cannot detonate the charge. If it succeeds, the Evil player rolls on the Detonation table to determine the effects.\n                When it explodes, a demolition charge automatically strikes everything within 2\" of the model - gates, doors, and of course, any models ( friend or foe) that are in range of it. Each target struck automatically takes D6 Wounds, regardless of its Defence value. Cavalry models take D6 hits on both the mount and the rider.\n                "
 			},
 			{
 				"name": "Desperate Detonations",
@@ -32915,7 +32915,7 @@
 			{
 				"name": "Cunning Mind",
 				"tag": "Passive",
-				"definition": "Snaga can choose not to take part in a friendly Hero model's Heroic Action and still be able to act as normal later in the phase, even if by not participating as part of the Heroic Action he would\n                normally not be able to act that turn. Additionally, if Snaga chooses to participate in a friendly Hero model'’'s Heroic Action, he does not have to remain within a specific range of the Hero."
+				"definition": "Snaga can choose not to take part in a friendly Hero model's Heroic Action and still be able to act as normal later in the phase, even if by not participating as part of the Heroic Action he would\n                normally not be able to act that turn. Additionally, if Snaga chooses to participate in a friendly Hero model's Heroic Action, he does not have to remain within a specific range of the Hero."
 			},
 			{
 				"name": "Ascendant",
