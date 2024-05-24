@@ -1851,7 +1851,7 @@
 						"elementPropertyName": "keywords"
 					}
 				],
-				"armyBonus": "*A Rangers of Mirkwood force must contain either Legolas Greenleaf, Prince of Mirkwood, or Tauriel.\n*A Rangers of Mirkwood force may have 100% of its models armed with bows.\n\"Knife Mastery\" - Friendly models may re-roll 1s To Wound when making strikes. Additionally, friendly models may use the Shielding special rule even though they are not armed with a shield; however, if they elect to shield, they may not use their Knife Fighters or Blade Mistress special rules.\n\"The Prince of Mirkwood\" - Legolas gains the Knife Fighters special rule when part of this Legendary Legion.\n\"Knife Fighters\" - Mirkwood Rangers receive an additional Attack for each enemy model they are Engaged in combat with after the first (to a maximum of 3 bonus Attacks). This bonus is determined at the start of each fight, and lasts until all Strikes from that fight have been resolved.\n\"Clear the Nests\" - Friendly models gain the Hatred (Spider) special rule.\n\"Masters of the Forest\" - Whenever a friendly model that is within 1\" of a tree or within a piece of woodland terrain suffers a Wound, roll a D6. On the roll of a natural 6 that Wound is ignored exactly as if a point of Fate had been spent.\n\"Silent Ambush\" - In Scenarios where you roll for additional forces to arrive (such as those that use the Reinforcements rule), you receive a bonus of+1 to the dice roll for warbands from this Legendary Legion. In Scenarios where you roll to see which part of the board your warbands deploy in, you may modify the dice roll by +1 or -1."
+				"armyBonus": "*A Rangers of Mirkwood force must contain either Legolas Greenleaf, Prince of Mirkwood, or Tauriel.\n*A Rangers of Mirkwood force may have 100% of its models armed with bows.\n\"Knife Mastery\" - Friendly models may re-roll 1s ToWound when making strikes. Additionally, friendly models may use the Shielding special rule even though they are not armed with a shield; however, if they elect to shield, they may not use their Knife Fighters or Blade Mistress special rules.\n\"The Prince of Mirkwood\" - Legolas gains the Knife Fighters special rule when part of this Legendary Legion.\n\"Knife Fighters\" - Mirkwood Rangers receive an additional Attack for each enemy model they are Engaged in combat with after the first (to a maximum of 3 bonus Attacks). This bonus is determined at the start of each fight, and lasts until all Strikes from that fight have been resolved.\n\"Clear the Nests\" - Friendly models gain the Hatred (Spider) special rule.\n\"Masters of the Forest\" - Whenever a friendly model that is within 1\" of a tree or within a piece of woodland terrain suffers a Wound, roll a D6. On the roll of a natural 6 that Wound is ignored exactly as if a point of Fate had been spent.\n\"Silent Ambush\" - In Scenarios where you roll for additional forces to arrive (such as those that use the Reinforcements rule), you receive a bonus of+1 to the dice roll for warbands from this Legendary Legion. In Scenarios where you roll to see which part of the board your warbands deploy in, you may modify the dice roll by +1 or -1."
 			},
 			{
 				"name": "Arnor",
@@ -26901,6 +26901,30 @@
 						]
 					}
 				],
+				"requiredChildren": [
+					{
+						"name": "Black Dragons",
+						"elementPropertyName": "options",
+						"points": 2,
+						"in": [
+							[
+								"The Easterlings",
+								"Easterling Dragon Knight"
+							]
+						]
+					},
+					{
+						"name": "Black Dragons",
+						"elementPropertyName": "options",
+						"points": 0,
+						"in": [
+							[
+								"The Host of the Dragon Emperor",
+								"Easterling Dragon Knight"
+							]
+						]
+					}
+				],
 				"wargear": [
 					"Heavy Armour"
 				],
@@ -27024,6 +27048,11 @@
 				"specialRules": [
 					"Unyielding Combat Stance",
 					"Supreme Agility"
+				],
+				"unavailableIn": [
+					[
+						"Easterling Dragon Knight"
+					]
 				]
 			},
 			{
@@ -30838,7 +30867,7 @@
 			},
 			{
 				"name": "Breathe Fire",
-				"definition": "Each time a Dragon Breathes Fire, it expends a point of Will. Treat the Dragon's fiery breath as a bow with a range of 12\". If the shot hits, the target and all models (friends and foe) within 2\" suffer a Strength 10 hit. Any model that suffers an unsaved wound (Fate may still be taken) from a Dragon's Breathe Fire is automatically slain."
+				"definition": "Each time a Dragon Breathes Fire, it expense a point of Will. Treat the Dragon's fiery breath as a bow with a range of 12\". If the shot hits, the target and all models (friends and foe) within 2\" suffer a Strength 10 hit. Any model that suffers an unsaved wound (Fate may still bge taken) from a Dragon's Breathe Fire is automatically slain."
 			},
 			{
 				"name": "Tough Hide",
@@ -32701,7 +32730,7 @@
 			{
 				"name": "Drums in the Deep",
 				"tag": "Active",
-				"definition": "A Moria Goblin Drum takes up two spaces within a warband and counts as two models towards the army. It is deployed in the same way as the rest of the warband.\n        \n                For the Drum to be played, at least one Moria Goblin Drummer must have started the turn in base contact with the Drum, and also not be Engaged in a Fight. When the Drum is being played, it has the following effects:\n                \n                -All Fights within 18\" of one or more Drums, that also include at least one friendly Moria Goblin model, may re-roll a single D6 for their Duel roll. Note that this not cumulative with the effects of a banner.\n                \n                -All friendly Moria Goblin models on the battlefield add 1 to their Courage value, and all enemy models suffer a -1 penalty to their Courage value. Note that this is not cumulative with other rules that confer similar modifiers.\n                \n                The Drum is a Heavy Object and as such is moved exactly like one. The Drum cannot be played in a turn in which it has moved."
+				"definition": "A Moria Goblin Drum takes up two spaces within a warband and counts as two models towards the army. It is deployed in the same way as the rest of the warband.\n        \n                For the Drum to be played, at least one Moria Goblin Drummer must have started the turn in base contact with the Drum, and also not be Engaged in a Fight. When the Drum is being played, it has the following effects:\n                \n                -All Fights within 18\" of one or more Drums, that also include at least one friendly Moria Goblin model, may re-roll a single D6 for their Duel roll. Note that this is not cumulative with the effects of a banner.\n                \n                -All friendly Moria Goblin models on the battlefield add 1 to their Courage value, and all enemy models suffer a -1 penalty to their Courage value. Note that this is not cumulative with other rules that confer similar modifiers.\n                \n                The Drum is a Heavy Object and as such is moved exactly like one. The Drum cannot be played in a turn in which it has moved."
 			},
 			{
 				"name": "Death-touch",
