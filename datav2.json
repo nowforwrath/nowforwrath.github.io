@@ -27016,6 +27016,30 @@
 				"specialRules": [
 					"Phalanx",
 					"The Gleaming Horde"
+				],
+				"requiredChildren": [
+					{
+						"name": "Black Dragons",
+						"elementPropertyName": "options",
+						"points": 2,
+						"in": [
+							[
+								"The Easterlings",
+								"Easterling Dragon Knight"
+							]
+						]
+					},
+					{
+						"name": "Black Dragons",
+						"elementPropertyName": "options",
+						"points": 0,
+						"in": [
+							[
+								"The Host of the Dragon Emperor",
+								"Easterling Dragon Knight"
+							]
+						]
+					}
 				]
 			},
 			{
