@@ -18048,7 +18048,7 @@
 					}
 				],
 				"increaseMaximumChildren": {
-					"warriors": -4
+					"warriors": -3
 				},
 				"unlimited": true,
 				"points": 160,
