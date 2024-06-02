@@ -29783,6 +29783,11 @@
 		],
 		"gear": [
 			{
+				"name": "Venom-back",
+				"tag": "Passive",
+				"definition": "This model gains the Venom keyword: This model must re-roll all failed To Wound rolls when making Strikes in close combat."
+			},
+			{
 				"name": "Severed Heads",
 				"definition": "The Siege Engine may choose to either fire in the normal way, or to fire a collection of severed heads at the enemy. If Severed Heads are fired at a Battlefield Target, ignore the normal Strength of the Siege Engine; instead, the initial target and all models within 2\" suffer one Strength 3 hit. This shot will not knock models Prone and will only ever inflict one Wound. Any enemy models hit must immediately pass a Courage test or be removed from play."
 			},
@@ -31560,11 +31565,6 @@
 				"name": "Venom",
 				"tag": "Active",
 				"definition": "This model must re-roll all failed To Wound rolls when making\n                Strikes in close combat."
-			},
-			{
-				"name": "Venom-back",
-				"tag": "Passive",
-				"definition": "This model gains the Venom keyword: This model must re-roll all failed To Wound rolls when making Strikes in close combat."
 			},
 			{
 				"name": "Caught in a Web",
