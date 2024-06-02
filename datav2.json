@@ -29784,8 +29784,14 @@
 		"gear": [
 			{
 				"name": "Venom-back",
-				"tag": "Passive",
-				"definition": "This model gains the Venom keyword: This model must re-roll all failed To Wound rolls when making Strikes in close combat."
+				"definition": "This model gains the Venom keyword: This model must re-roll all failed To Wound rolls when making Strikes in close combat.",
+				"additionalDefinitions": [
+					{
+						"dataSource": "keywords",
+						"name": "Venom",
+						"elementPropertyName": "specialRules"
+					}
+				]
 			},
 			{
 				"name": "Severed Heads",
