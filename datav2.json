@@ -31562,6 +31562,11 @@
 				"definition": "This model must re-roll all failed To Wound rolls when making\n                Strikes in close combat."
 			},
 			{
+				"name": "Venom-back",
+				"tag": "Passive",
+				"definition": "This model gains the Venom keyword: This model must re-roll all failed To Wound rolls when making Strikes in close combat."
+			},
+			{
 				"name": "Caught in a Web",
 				"definition": "Instead of striking as normal, Shelob can instead opt to direct a single\n                Strike at one model involved in the Fight. This model may not be a\n                Monster. The chosen model suffers one Strength 7 hit. If the model is\n                wounded, and the Wound is not prevented by Fate, the model is treated as\n                being under the effect of the Paralyse Magical Power.",
 				"brutalPowerAttack": true
