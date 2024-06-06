@@ -27542,7 +27542,9 @@
 					{
 						"name": "Equip Uruk-hai Warrior with flaming brand",
 						"usesDefinition": "Flaming Brands",
-						"points": 1
+						"points": 1,
+						"increment": true,
+						"max": 2
 					}
 				],
 				"specialRules": [
