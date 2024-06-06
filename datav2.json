@@ -23210,7 +23210,8 @@
 					"Shield",
 					"Sword",
 					"Horse"
-				]
+				],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Herald",
@@ -23249,7 +23250,8 @@
 					"Axe",
 					"Shield",
 					"Banner"
-				]
+				],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Tom Bombadil",
@@ -23295,7 +23297,8 @@
 						"range": 6,
 						"casting": 3
 					}
-				]
+				],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Goldberry",
@@ -23337,7 +23340,8 @@
 						"range": 3,
 						"casting": 2
 					}
-				]
+				],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Thrain the Broken",
@@ -23370,7 +23374,8 @@
 				"wargear": [
 					"Dagger"
 				],
-				"options": []
+				"options": [],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Thrain the Broken (Evil)",
@@ -23405,7 +23410,8 @@
 				"wargear": [
 					"Dagger"
 				],
-				"options": []
+				"options": [],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Thrain the Broken (Pits)",
@@ -23438,7 +23444,8 @@
 				"wargear": [
 					"Dagger"
 				],
-				"options": []
+				"options": [],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Rosie Cotton",
@@ -23473,7 +23480,8 @@
 				],
 				"wargear": [
 					"Pitchfork"
-				]
+				],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "The Watcher in the Water",
@@ -23513,7 +23521,8 @@
 					"Water Dweller",
 					"Dragged to the Depths"
 				],
-				"wargear": []
+				"wargear": [],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Alfrid the Councillor",
@@ -23552,7 +23561,8 @@
 				],
 				"wargear": [
 					"Unarmed"
-				]
+				],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Sigrid & Tilda",
@@ -23585,7 +23595,8 @@
 					"Da! Down Here!",
 					"Something to Fight For"
 				],
-				"wargear": []
+				"wargear": [],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Bain, Son of Bard",
@@ -23625,7 +23636,8 @@
 				],
 				"wargear": [
 					"Sword"
-				]
+				],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Gollum",
@@ -23659,7 +23671,8 @@
 				"wargear": [
 					"Strangling fingers"
 				],
-				"options": []
+				"options": [],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Aldor, Rohan Archer",
@@ -23706,7 +23719,8 @@
 					"Sword",
 					"Bow"
 				],
-				"options": []
+				"options": [],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Haleth, Son of Hama",
@@ -23753,7 +23767,8 @@
 					"Sword",
 					"Bow"
 				],
-				"options": []
+				"options": [],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Bill the Pony",
@@ -23786,7 +23801,8 @@
 					"Only a Pony",
 					"Second Breakfast"
 				],
-				"wargear": []
+				"wargear": [],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Smeagol",
@@ -23820,7 +23836,8 @@
 				],
 				"wargear": [
 					"Strangling Fingers"
-				]
+				],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Frodo, Samwise, and Smeagol",
@@ -23852,7 +23869,8 @@
 				"keywords": [],
 				"wargear": [],
 				"options": [],
-				"specialRules": []
+				"specialRules": [],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Grima Wormtongue",
@@ -23891,7 +23909,8 @@
 				],
 				"wargear": [
 					"Dagger"
-				]
+				],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Peregrin Took, Guard of the Citadel",
@@ -23937,7 +23956,8 @@
 				"wargear": [
 					"Armour",
 					"Dagger"
-				]
+				],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Uruk-Hai Drummer",
@@ -23971,7 +23991,8 @@
 					"Armour",
 					"Dagger",
 					"War drum (Isengard Uruk-hai)"
-				]
+				],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Ranger of the North",
@@ -24026,7 +24047,8 @@
 					"Sword",
 					"Armour",
 					"Bow"
-				]
+				],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Dunedain",
@@ -24078,7 +24100,8 @@
 				"wargear": [
 					"Sword",
 					"Bow"
-				]
+				],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Orc Drummer",
@@ -24118,7 +24141,8 @@
 					[
 						"Razgush, War Leader of the North"
 					]
-				]
+				],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Black Guard Drummer",
@@ -24155,7 +24179,8 @@
 					[
 						"Razgush, War Leader of the North"
 					]
-				]
+				],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Meriadoc Brandybuck, Knight of the Mark",
@@ -24215,7 +24240,8 @@
 				"wargear": [
 					"Armour",
 					"Dagger"
-				]
+				],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Bilbo Baggins",
@@ -24264,7 +24290,8 @@
 				],
 				"wargear": [
 					"Dagger"
-				]
+				],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Warrior of Rohan",
