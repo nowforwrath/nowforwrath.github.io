@@ -30090,10 +30090,6 @@
 				]
 			},
 			{
-				"name": "Armour of the Sundered Land",
-				"description": "The Knight of Umbar only loses a point of Will for having been in a Fight if he loses a Fight during the Fight phase (for example, he doesn't win the Duel roll to see which side may make Strikes)."
-			},
-			{
 				"name": "Pony",
 				"type": "mount",
 				"movement": 8,
@@ -30762,6 +30758,11 @@
 				"name": "The Ring of Durin",
 				"tag": "Passive",
 				"definition": "Once per game, the bearer of the Ring of Durin may re-roll a single Priority roll."
+			},
+			{
+				"name": "Armour of the Sundered Land",
+				"tag": "Passive",
+				"description": "The Knight of Umbar only loses a point of Will for having been in a Fight if he loses a Fight during the Fight phase (for example, he doesn't win the Duel roll to see which side may make Strikes)."
 			},
 			{
 				"name": "Arkenstone",
