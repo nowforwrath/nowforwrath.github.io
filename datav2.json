@@ -4990,7 +4990,7 @@
 				"options": [],
 				"specialRules": [
 					"Terror",
-					"Trample",
+					"Trample (Great Beast)",
 					"Battle Platform"
 				],
 				"wargear": [
@@ -30090,6 +30090,10 @@
 				]
 			},
 			{
+				"name": "Armour of the Sundered Land",
+				"description": "The Knight of Umbar only loses a point of Will for having been in a Fight if he loses a Fight during the Fight phase (for example, he doesn't win the Duel roll to see which side may make Strikes)."
+			},
+			{
 				"name": "Pony",
 				"type": "mount",
 				"movement": 8,
@@ -30998,7 +31002,7 @@
 				"definition": "This is a banner. However, it does not hinder the Golden King in any way. He does not suffer the -1 penalty for carrying it."
 			},
 			{
-				"name": "Twin Blades (Only choose one option)",
+				"name": "Twin Blades",
 				"tag": "Active",
 				"modifiesStats": [
 					{
@@ -31560,6 +31564,10 @@
 			},
 			{
 				"name": "Trample",
+				"definition": "When a War Mumak of Harad tramples, it will inflict three Strength 9 hits"
+			},
+			{
+				"name": "Trample (Great Beast)",
 				"definition": "When a Great Beast Tramples, it will inflict two Strength 6 hits."
 			},
 			{
