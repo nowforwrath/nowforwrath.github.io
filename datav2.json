@@ -16768,7 +16768,8 @@
 					"Terror",
 					"Goblin Mastery",
 					"Flame of Udun",
-					"Demon of the Ancient World"
+					"Demon of the Ancient World",
+					"Set Ablaze"
 				],
 				"wargear": [
 					"Giant Flaming Sword",
@@ -28577,7 +28578,11 @@
 					"Warrior"
 				],
 				"options": [],
-				"specialRules": [],
+				"specialRules": [
+					"Destroying the Drum",
+					"Take up the Drum",
+					"Drums in the Deep"
+				],
 				"wargear": []
 			},
 			{
@@ -30040,11 +30045,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"specialRules": [
-					"Destroying the Drum",
-					"Take up the Drum",
-					"Drums in the Deep"
-				]
+				"specialRules": []
 			},
 			{
 				"name": "Khandish Chariot",
@@ -31394,6 +31395,10 @@
 			}
 		],
 		"keywords": [
+			{
+				"name": "Set Ablaze",
+				"definition": "The model immediately suffers one Strength 9 hit. If the model survives, it will suffer a further one Strength 5 Hit in the end phase until the blaze is extinguished.\n                To extinguish the blaze, the model must either lie down and then crawl 1\", or enter a water feature, at which point the blaze is immediately put out."
+			},
 			{
 				"name": "Ride for Ruin and the World's Ending!",
 				"definition": "Friendly Rohan Cavalry models gain + 1 Strength on a turn in which they Charge."
