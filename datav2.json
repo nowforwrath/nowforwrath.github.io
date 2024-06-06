@@ -30762,7 +30762,7 @@
 			{
 				"name": "Armour of the Sundered Land",
 				"tag": "Passive",
-				"description": "The Knight of Umbar only loses a point of Will for having been in a Fight if he loses a Fight during the Fight phase (for example, he doesn't win the Duel roll to see which side may make Strikes)."
+				"definition": "The Knight of Umbar only loses a point of Will for having been in a Fight if he loses a Fight during the Fight phase (for example, he doesn't win the Duel roll to see which side may make Strikes)."
 			},
 			{
 				"name": "Arkenstone",
