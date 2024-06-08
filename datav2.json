@@ -32017,7 +32017,7 @@
 			{
 				"name": "Lead by Example",
 				"tag": "Active",
-				"definition": "In a turn in which Buhrdur slays an enemy Hero or Monster model in combat, \n                all friendly Angmar Orc models and Troll models within 6\" of him count as being in rage of a banner."
+				"definition": "In a turn in which Buhrdur slays an enemy Hero or Monster model in combat, \n                all friendly Angmar Orc models and Troll models within 6\" of him count as being in range of a banner."
 			},
 			{
 				"name": "Packlord",
