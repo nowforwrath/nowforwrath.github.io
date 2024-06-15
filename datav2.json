@@ -3699,7 +3699,7 @@
 					},
 					{
 						"name": "Two-handed flail",
-						"points": 10,
+						"points": 5,
 						"availableIn": [
 							"Mordor",
 							"Angmar",
@@ -22288,7 +22288,10 @@
 					"Hero"
 				],
 				"options": [],
-				"specialRules": []
+				"specialRules": [],
+				"increaseMaximumChildren": {
+					"warriors": -1
+				}
 			},
 			{
 				"name": "Sharkey",
@@ -27302,7 +27305,8 @@
 					"Armour",
 					"Dagger",
 					"Hand-and-a-Half-Axe",
-					"Bow"
+					"Bow",
+					"Horse"
 				],
 				"specialRules": [
 					"Khandish Horseman Dismount"
