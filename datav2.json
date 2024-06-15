@@ -12182,7 +12182,7 @@
 					}
 				],
 				"specialRules": [
-					"Chronicler",
+					"Chronicler (Thorin's Company)",
 					"Deadeye"
 				],
 				"wargear": [
@@ -32330,6 +32330,11 @@
 				"name": "Chronicler",
 				"tag": "Active",
 				"definition": "Any time that Thorin Oakenshield, King under the Mountain, or a Champion of Erebor slays an enemy Hero or Monster model within 3\" of Ori the Dwarf,\n                 that model immediately regains a point of Might, Will or Fate (your choice) that has previously been spent in that game (or campaign)."
+			},
+			{
+				"name": "Chronicler (Thorin's Company)",
+				"tag": "Active",
+				"definition": "Any time that a member of Thorin's Company slays an enemy Hero or Monster model within 3\" of Ori the Dwarf,\n                 that model immediately regains a point of Might, Will or Fate (your choice) that has previously been spent in that game (or campaign)."
 			},
 			{
 				"name": "Healing Herbs",
