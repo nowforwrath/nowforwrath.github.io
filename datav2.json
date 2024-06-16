@@ -30995,7 +30995,7 @@
 			},
 			{
 				"name": "Breathe Fire",
-				"definition": "Each time a Dragon Breathes Fire, it expense a point of Will. Treat the Dragon's fiery breath as a bow with a range of 12\". If the shot hits, the target and all models (friends and foe) within 2\" suffer a Strength 10 hit. Any model that suffers an unsaved wound (Fate may still bge taken) from a Dragon's Breathe Fire is automatically slain."
+				"definition": "Each time a Dragon Breathes Fire, it expends a point of Will. Treat the Dragon's fiery breath as a bow with a range of 12\". If the shot hits, the target and all models (friends and foe) within 2\" suffer a Strength 10 hit. Any model that suffers an unsaved wound (Fate may still be taken) from a Dragon's Breathe Fire is automatically slain."
 			},
 			{
 				"name": "Tough Hide",
@@ -31010,6 +31010,22 @@
 					}
 				],
 				"definition": "The Dragon increases its wounds and defence to 9, rather than 7."
+			},
+			{
+				"name": "Wyrmtongue",
+				"definition": "A Dragon with this ability can spend a single Will point each turn without reducing its own store of Will, so long as the Will point is used to cast Transfix or Compel. The controlling player may still spend extra Will points to increase the number of dice in the usual way.",
+				"additionalDefinitions": [
+					{
+						"dataSource": "magicalPowers",
+						"name": "Transfix",
+						"elementPropertyName": "magicalPowers"
+					},
+					{
+						"dataSource": "magicalPowers",
+						"name": "Compel",
+						"elementPropertyName": "magicalPowers"
+					}
+				]
 			},
 			{
 				"name": "Sebastian",
