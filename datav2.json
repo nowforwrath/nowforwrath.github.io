@@ -18320,6 +18320,9 @@
 				"will": 0,
 				"fate": 0,
 				"heroicActions": [],
+				"increaseMaximumChildren": {
+					"warriors": -5
+				},
 				"keywords": [
 					"Siege Engine"
 				],
