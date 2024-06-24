@@ -2101,7 +2101,15 @@
 						"elementPropertyName": "keywords"
 					}
 				],
-				"armyBonus": "\"Through the Forest\" - Friendly Infantry models gain the Woodland Creature special rule.\n\"Death to the Elves\" - Friendly models gain the Hatred (Elf) special rule.\n\"The War Leader\" - Razgush gains a bonus of +1 to his Fight value when engaged with an enemy Elf models."
+				"armyBonus": "\"Through the Forest\" - Friendly Infantry models gain the Woodland Creature special rule.\n\"Death to the Elves\" - Friendly models gain the Hatred (Elf) special rule.\n\"The War Leader\" - Razgush gains a bonus of +1 to his Fight value when engaged with an enemy Elf models.",
+				"requiredChildren": [
+					{
+						"elementPropertyName": "heroes",
+						"name": "Razgush, War Leader of the North",
+						"quantity": 1,
+						"points": 110
+					}
+				]
 			},
 			{
 				"name": "The Trolls",
