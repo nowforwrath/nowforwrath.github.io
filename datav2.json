@@ -9381,7 +9381,8 @@
 							"The Fellowship",
 							"The Grey Company",
 							"The Return of the King",
-							"Defenders of Helm's Deep"
+							"Defenders of Helm's Deep",
+							"The Kingdom of Moria"
 						]
 					},
 					{
@@ -28694,7 +28695,7 @@
 					"Hatred",
 					"Run and Drum",
 					"Doom! Doom!",
-					"Take up the Drum"
+					"Take up the Drum (Blackshield)"
 				],
 				"wargear": [
 					"Heavy Armour",
@@ -33595,7 +33596,7 @@
 				"definition": "When the Drum is being played, it has the following effects:\n                \n                All Fights within 12\" of one or more Drums that also include at least one friendly Moria Goblin model, may re-roll a single D6 for their Duel roll. Note that this is not cumulative with the effects of a banner.\n                \n                All friendly Moria Goblin models on the battlefield add 1 to their Courage value, and all enemy models suffer a -1 penalty to their Courage value. Note that this is not cumulative with other rules that confer similar modifiers."
 			},
 			{
-				"name": "Take up the Drum",
+				"name": "Take up the Drum (Blackshield)",
 				"tag": "Passive",
 				"definition": "If either the Drummer or the Drum Bearer is slain, they may pass on their wargear to any other unengaged Moria Blackshield within 1\" - immediately replace the model with the slain Drummer or Drum Bearer. Models that take up the Drummer's wargear will automatically drop any that they are carrying."
 			},
