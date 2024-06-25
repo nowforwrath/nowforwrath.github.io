@@ -23838,6 +23838,40 @@
 				"countAsProperty": "heroes"
 			},
 			{
+				"name": "Bill the Pony (Wanderers)",
+				"factions": [
+					"Wanderers in the Wild"
+				],
+				"unique": true,
+				"unlockedBy": "Barliman Butterbur",
+				"points": 25,
+				"movement": 8,
+				"fight": 1,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 3,
+				"might": 0,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [],
+				"keywords": [
+					"Pony",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": [
+					"Official Meals",
+					"Only a Pony",
+					"Second Breakfast"
+				],
+				"wargear": [],
+				"countAsProperty": "heroes"
+			},
+			{
 				"name": "Smeagol",
 				"factions": [
 					"The Fellowship"
