@@ -33676,6 +33676,11 @@
 				"name": "Arcana Leech",
 				"tag": "Passive",
 				"definition": "At the start of the Move phase, before Heroic Actions are declared, The Undying may spend a Will point to activate this ability. The Undying regains one Will point for each Magical Power successfully cast by another model within 6\"."
+			},
+			{
+				"name": "Imposing Presence",
+				"tag": "Passive",
+				"definition": "Whilst mounted upon his Royal War Mûmak, the first time each turn that an enemy model declares a Heroic Move within 12\" of the Mûmak War Leader, roll a D6. On a 4+, the Heroic Move is immediately cancelled and any Might points spent in declaring it are lost. Whilst the Mûmak War Leader is atop his Royal War Mûmak, measure the range of this special rule from the Mûmak’s base."
 			}
 		]
 	}
