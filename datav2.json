@@ -856,7 +856,7 @@
 				],
 				"requiredChildren": [
 					{
-						"name": "Black Gate Troll Chieftan (Leader)",
+						"name": "Troll Chieftan Leader",
 						"points": 140,
 						"elementPropertyName": "heroes",
 						"quantity": 1
@@ -9179,7 +9179,7 @@
 				]
 			},
 			{
-				"name": "Black Gate Troll Chieftan (Leader)",
+				"name": "Troll Chieftan Leader",
 				"factions": [
 					{
 						"name": "The Black Gate Opens",
