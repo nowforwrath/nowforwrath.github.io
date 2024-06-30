@@ -856,7 +856,7 @@
 				],
 				"requiredChildren": [
 					{
-						"name": "Mordor Troll Chieftan Leader",
+						"name": "Mordor Troll Chieftain Leader",
 						"points": 140,
 						"elementPropertyName": "heroes",
 						"quantity": 1
@@ -5685,7 +5685,7 @@
 				]
 			},
 			{
-				"name": "Mordor Troll Chieftan",
+				"name": "Mordor Troll Chieftain",
 				"factions": [
 					{
 						"name": "Mordor",
@@ -9179,7 +9179,7 @@
 				]
 			},
 			{
-				"name": "Mordor Troll Chieftan Leader",
+				"name": "Mordor Troll Chieftain Leader",
 				"factions": [
 					{
 						"name": "The Black Gate Opens",
@@ -20726,7 +20726,7 @@
 				"includes": [
 					{
 						"dataSource": "heroes",
-						"name": "Mahud Beastmaster Chieftan"
+						"name": "Mahud Beastmaster Chieftain"
 					},
 					{
 						"dataSource": "heroes",
@@ -20847,7 +20847,7 @@
 						"points": 30
 					},
 					{
-						"name": "Mahud Beastmaster Chieftan",
+						"name": "Mahud Beastmaster Chieftain",
 						"points": 25
 					},
 					{
@@ -20929,7 +20929,7 @@
 				]
 			},
 			{
-				"name": "Mahud Beastmaster Chieftan",
+				"name": "Mahud Beastmaster Chieftain",
 				"factions": [
 					{
 						"name": "The Serpent Horde",
@@ -20996,7 +20996,7 @@
 				"wargear": []
 			},
 			{
-				"name": "Mahud Beastmaster Chieftan",
+				"name": "Mahud Beastmaster Chieftain",
 				"factions": [
 					{
 						"name": "Far Harad",
