@@ -7233,6 +7233,7 @@
 					{
 						"name": "The Banner of Minas Tirith",
 						"points": 40,
+						"chooseOneKey": "a",
 						"availableIn": [
 							"Minas Tirith"
 						]
@@ -7254,6 +7255,7 @@
 					{
 						"name": "Lance",
 						"points": 5,
+						"chooseOneKey": "a",
 						"availableIn": [
 							"Minas Tirith"
 						]
@@ -11627,7 +11629,7 @@
 					"Immobile"
 				],
 				"wargear": [
-					"Dagger"
+					"Unarmed"
 				],
 				"options": []
 			},
