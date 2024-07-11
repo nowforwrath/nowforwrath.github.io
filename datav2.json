@@ -32336,7 +32336,7 @@
 			{
 				"name": "Blubbery Mass",
 				"tag": "Passive",
-				"definition": "Every time the Goblin King is wounded, roll a D6. Ona3+, the Wound is ignored. Magical Powers and Elven-made weapons ignore this ability."
+				"definition": "Every time the Goblin King is wounded, roll a D6. On a 3+, the Wound is ignored. Magical Powers and Elven-made weapons ignore this ability."
 			},
 			{
 				"name": "Goblin Projectile",
