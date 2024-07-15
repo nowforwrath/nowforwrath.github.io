@@ -23958,6 +23958,11 @@
 				"availableIn": [
 					"Faramir, Captain of Gondor"
 				],
+				"unavailableIn": [
+					[
+						"Minas Tirith"
+					]
+				],
 				"unique": true,
 				"warnInOptions": true,
 				"points": 160,
