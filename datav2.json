@@ -11207,7 +11207,7 @@
 					}
 				],
 				"unlimited": true,
-				"points": 175,
+				"points": 250,
 				"movement": 8,
 				"fight": 4,
 				"shoot": 4,
@@ -11227,29 +11227,18 @@
 				],
 				"options": [
 					{
-						"name": "Iron Hills Captain (replaces driver)",
-						"points": 75
-					},
-					{
-						"name": "Champions of Erebor (replaces crew)",
-						"points": 325
+						"name": "Champions of Erebor (replaces crew and captain)",
+						"points": 250
 					}
 				],
 				"specialRules": [
 					"Fearless",
-					"Monstrous Charge"
+					"Monstrous Charge",
+					"Note about the Iron Hills Chariot"
 				],
 				"wargear": [
 					"Heavy armour",
 					"Sword"
-				],
-				"requiredChildren": [
-					{
-						"elementPropertyName": "warriors",
-						"name": "Iron Hills Chariot Crew",
-						"quantity": 4,
-						"points": 0
-					}
 				]
 			},
 			{
@@ -23181,6 +23170,53 @@
 		],
 		"warriors": [
 			{
+				"name": "Iron Hills Chariot",
+				"factions": [
+					"The Iron Hills"
+				],
+				"points": 175,
+				"movement": 8,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 8,
+				"attack": 2,
+				"wounds": 5,
+				"courage": 3,
+				"keywords": [
+					"Dwarf",
+					"Iron Hills",
+					"Warrior"
+				],
+				"options": [],
+				"specialRules": [
+					"Fearless",
+					"Monstrous Charge"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Sword"
+				],
+				"includes": [
+					{
+						"dataSource": "warriors",
+						"name": "Iron Hills Chariot Crew"
+					},
+					{
+						"dataSource": "warriors",
+						"name": "Iron Hills Chariot Crew"
+					},
+					{
+						"dataSource": "warriors",
+						"name": "Iron Hills Chariot Crew"
+					},
+					{
+						"dataSource": "warriors",
+						"name": "Iron Hills Chariot Crew"
+					}
+				]
+			},
+			{
 				"name": "Dernhelm",
 				"factions": [],
 				"unavailableWith": [
@@ -23852,7 +23888,7 @@
 				],
 				"unique": true,
 				"unlockedBy": "Barliman Butterbur",
-				"points": 25,
+				"points": 10,
 				"movement": 8,
 				"fight": 1,
 				"shoot": 4,
@@ -28400,6 +28436,29 @@
 							}
 						]
 					}
+				],
+				"unavailableIn": [
+					[
+						"Assault on Lothlorien",
+						"Orc Captain"
+					],
+					[
+						"Assault on Lothlorien",
+						"Orc Shaman"
+					],
+					[
+						"Assault on Lothlorien",
+						"Wild Warg Chieftain"
+					],
+					[
+						"Assault on Lothlorien",
+						"Moria Goblin Captain"
+					],
+					null,
+					[
+						"Assault on Lothlorien",
+						"Moria Goblin Shaman"
+					]
 				],
 				"points": 20,
 				"movement": 10,
@@ -33689,6 +33748,10 @@
 				"name": "Imposing Presence",
 				"tag": "Passive",
 				"definition": "Whilst mounted upon his Royal War Mûmak, the first time each turn that an enemy model declares a Heroic Move within 12\" of the Mûmak War Leader, roll a D6. On a 4+, the Heroic Move is immediately cancelled and any Might points spent in declaring it are lost. Whilst the Mûmak War Leader is atop his Royal War Mûmak, measure the range of this special rule from the Mûmak’s base."
+			},
+			{
+				"name": "Note about the Iron Hills Chariot",
+				"definition": "The Iron Hills Chariot may only be a hero if it has either the captain or Champions of Erebor upgrade. Therefore, the cost of the Captain is included in the cost of this entry, and that cost is subtracted from the usual cost of Champions of Erebor since you will be replacing the Captain with it."
 			}
 		]
 	}
