@@ -10701,6 +10701,9 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
+				"unavailableWith": [
+					"King of Men"
+				],
 				"points": 65,
 				"movement": 6,
 				"fight": 4,
@@ -10741,6 +10744,9 @@
 						"name": "Minas Tirith",
 						"heroicTier": "Hero of Fortitude"
 					}
+				],
+				"unavailableWith": [
+					"King of Men"
 				],
 				"points": 65,
 				"movement": 6,
@@ -13344,6 +13350,9 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
+				"unavailableWith": [
+					"King of Men"
+				],
 				"points": 55,
 				"movement": 6,
 				"fight": 4,
@@ -13388,6 +13397,9 @@
 						"name": "Rangers of Ithilien",
 						"heroicTier": "Minor Hero"
 					}
+				],
+				"unavailableWith": [
+					"King of Men"
 				],
 				"points": 35,
 				"movement": 6,
