@@ -276,6 +276,20 @@
 										"mount",
 										"armour",
 										"shield"
+									],
+									"children": [
+										{
+											"label": "Keywords",
+											"propertyName": "keywords",
+											"type": "static",
+											"dataSource": "keywords"
+										},
+										{
+											"propertyName": "wargear",
+											"label": "Wargear",
+											"type": "static",
+											"dataSource": "gear"
+										}
 									]
 								},
 								{
@@ -30118,6 +30132,15 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 2,
+				"keywords": [
+					"Warg",
+					"Infantry",
+					"Warrior"
+				],
+				"wargear": [
+					"Claws",
+					"Teeth"
+				],
 				"specialRules": [
 					"Fell Sight"
 				]
