@@ -11671,7 +11671,9 @@
 					"Hero"
 				],
 				"specialRules": [
-					"Cave Dweller"
+					"Cave Dweller",
+					"Strangler",
+					"The Precious"
 				],
 				"wargear": [
 					"Strangling fingers"
