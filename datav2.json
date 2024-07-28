@@ -15519,7 +15519,7 @@
 				"specialRules": [
 					"Bludgeon (Brutal Power Attack)",
 					"Terror",
-					"Throw Stones (12\" Range, Strength 8)",
+					"Throw Stones (18\" Range, Strength 10)",
 					"Woodland Creature",
 					"Deep-rooted Hatred"
 				],
@@ -15560,7 +15560,7 @@
 				"specialRules": [
 					"Bludgeon (Brutal Power Attack)",
 					"Terror",
-					"Throw Stones (12\" Range, Strength 8)",
+					"Throw Stones (18\" Range, Strength 10)",
 					"Woodland Creature"
 				],
 				"wargear": [
@@ -22289,7 +22289,7 @@
 				"strength": 2,
 				"defence": 3,
 				"attack": 1,
-				"wounds": 2,
+				"wounds": 1,
 				"courage": 3,
 				"might": 1,
 				"will": 1,
@@ -22307,8 +22307,7 @@
 					"A Bad Influence"
 				],
 				"wargear": [
-					"Dagger",
-					"Whip"
+					"Hammer"
 				]
 			},
 			{
