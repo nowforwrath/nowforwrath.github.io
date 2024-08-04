@@ -4466,7 +4466,7 @@
 				"fate": 1,
 				"heroicActions": [
 					"Heroic March",
-					"March Channeling"
+					"Heroic Channeling"
 				],
 				"keywords": [
 					"Man",
@@ -18442,7 +18442,7 @@
 					},
 					{
 						"name": "Radagast's Alliance",
-						"heroicTier": "Hero of Legend"
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 150,
@@ -23631,8 +23631,7 @@
 			{
 				"name": "Alfrid the Councillor",
 				"factions": [
-					"Survivors of Lake-town",
-					"Army of Lake-town"
+					"Survivors of Lake-town"
 				],
 				"unique": true,
 				"points": 20,
