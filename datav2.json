@@ -2246,7 +2246,7 @@
 					{
 						"elementPropertyName": "heroes",
 						"matchPropertyName": "keywords",
-						"value": "Man",
+						"value": "Gondor",
 						"childElementPropertyName": "warriors"
 					},
 					{
@@ -9396,7 +9396,7 @@
 				"will": 5,
 				"fate": 1,
 				"heroicActions": [
-					"Heroic Challenge"
+					"Heroic Channeling"
 				],
 				"keywords": [
 					"Spirit",
@@ -30500,8 +30500,20 @@
 				"factions": [
 					"Arnor",
 					"The Shire",
-					"Defenders of the Shire",
-					"Battle of Fornost"
+					"Defenders of the Shire"
+				],
+				"availableIn": [
+					"Razgush, War Leader of the North",
+					{
+						"all": [
+							{
+								"in": "Ranger of the North"
+							},
+							{
+								"in": "Battle of Fornost"
+							}
+						]
+					}
 				],
 				"points": 5,
 				"movement": 4,
