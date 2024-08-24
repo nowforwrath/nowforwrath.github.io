@@ -9297,6 +9297,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
+				"unlimited": true,
 				"points": 55,
 				"movement": 6,
 				"fight": 4,
@@ -9450,6 +9451,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
+				"unlimited": true,
 				"points": 75,
 				"movement": 6,
 				"fight": 1,
