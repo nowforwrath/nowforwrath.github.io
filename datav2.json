@@ -10160,10 +10160,9 @@
 				"factions": [
 					{
 						"name": "Wolf Pack of Angmar",
-						"heroicTier": "Hero of Fortitude"
+						"heroicTier": "Hero of Valour"
 					}
 				],
-				"unlimited": true,
 				"points": 80,
 				"movement": 10,
 				"fight": 5,
