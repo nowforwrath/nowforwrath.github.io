@@ -2275,7 +2275,7 @@
 				"name": "Host of the Witch-King",
 				"alignment": "Evil",
 				"parentFaction": "Angmar",
-				"armyBonus": "\"If that Fell Kingdom should rise again...\": Angmar orcs within 6\" of a friendly spirit cause terror.\n                \"Dark Sorceries\": Ringrwaith models may re-roll a single D6 when making casting or resist tests.\n                \"Lord of the Nazgul\": The Witch King increases his attacks to 3 and only loses will for having been in a fight if he loses\n                \"No man can kill me\": The Witch King gains +1 to his fight value while engaged with an enemy man model.",
+				"armyBonus": "\"If that Fell Kingdom should rise again...\": Angmar orcs within 6\" of a friendly spirit hero cause terror.\n                \"Dark Sorceries\": Ringrwaith models may re-roll a single D6 when making casting or resist tests.\n                \"Lord of the Nazgul\": The Witch King increases his attacks to 3 and only loses will for having been in a fight if he loses\n                \"No man can kill me\": The Witch King gains +1 to his fight value while engaged with an enemy man model.",
 				"requiredChildren": [
 					{
 						"elementPropertyName": "heroes",
