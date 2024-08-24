@@ -2222,6 +2222,108 @@
 				"name": "Wanderers in the Wild (Evil)",
 				"alignment": "Evil",
 				"armyBonus": "As the Wanderers in the Wild are not an army, and not even really a fighting force, there is no Army Bonus for them."
+			},
+			{
+				"name": "Battle of Fornost",
+				"alignment": "Good",
+				"parentFaction": "Minas Tirith",
+				"armyBonus": "Only Gondor hero models may lead Gondor warrior models, and only Elf hero models may lead Elf warrior models.\n                Hobbits may only be in the warband of a ranger of the north or dunedain, in which case they will count as a minor hero.\n                \"Earnur's Defiance\": Earnur cannot have his courage value reduced by special rules or magical powers.\n                \"Power of the Elves\": Friendly models gain resistant to magic\n                \"Charge of Gondor\": Friendly Gondor Cavalry gain +1 fight in a turn in which they charge.",
+				"requiredChildren": [
+					{
+						"elementPropertyName": "heroes",
+						"name": "Glorfindel, Lord of the West",
+						"points": 145,
+						"quantity": 1
+					},
+					{
+						"elementPropertyName": "heroes",
+						"name": "Earnur, Last King of Gondor",
+						"points": 100,
+						"quantity": 1
+					}
+				],
+				"childMatchesRequired": [
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "keywords",
+						"value": "Man",
+						"childElementPropertyName": "warriors"
+					},
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "keywords",
+						"value": "Elf",
+						"childElementPropertyName": "warriors"
+					}
+				]
+			},
+			{
+				"name": "Army of Arnor",
+				"alignment": "Good",
+				"parentFaction": "Arnor",
+				"armyBonus": "Rangers of the North and Dunedain gain the Arnor keyword.\n                \"Protect the King\": Friendly Arnor models within 6\" of Arvedui automatically pass courage tests.\n                \"Power of the Seer\": Friendly Arnor hero models gain +1 when rolling for Malbeth's Gifts of Foresight special rule\n                \"Forsight of the Eldar\": Malbeth gains Elrond's foresight ability special rule.",
+				"requiredChildren": [
+					{
+						"elementPropertyName": "heroes",
+						"name": "Arvedui, Last King of Arnor",
+						"points": 80,
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"name": "Host of the Witch-King",
+				"alignment": "Evil",
+				"parentFaction": "Angmar",
+				"armyBonus": "\"If that Fell Kingdom should rise again...\": Angmar orcs within 6\" of a friendly spirit cause terror.\n                \"Dark Sorceries\": Ringrwaith models may re-roll a single D6 when making casting or resist tests.\n                \"Lord of the Nazgul\": The Witch King increases his attacks to 3 and only loses will for having been in a fight if he loses\n                \"No man can kill me\": The Witch King gains +1 to his fight value while engaged with an enemy man model.",
+				"requiredChildren": [
+					{
+						"elementPropertyName": "heroes",
+						"name": "The Witch-King of Angmar",
+						"points": 75,
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"name": "Army of Carn-Dum",
+				"alignment": "Evil",
+				"parentFaction": "Angmar",
+				"armyBonus": "\"Show of Strength\": If a Carn-Dum hero kills an enemy model in combat, then for the duration of the following turn, they get +1 to their fight value.\n                \"Banners of Carn Dum\": The range of your banners is increased to 6\"\n                \"Words of Power\": The range of Fraecht's incantations are increased to 6\"",
+				"requiredChildren": [
+					{
+						"elementPropertyName": "heroes",
+						"name": "Aldrac, Warlord of Carn Dum",
+						"points": 120,
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"name": "Wolf Pack of Angmar",
+				"alignment": "Evil",
+				"parentFaction": "Angmar",
+				"armyBonus": "Werewolves benefit from Warg Chieftain's heroic actions and stand fast!\n                \"Leader of the Pack\": The leader of this force gains an additional might, will and fate and is treated as a hero of valour\n                \"Howl of the Wolf\": Once per game at the start of any fight phase, your leader may use this ability. Until the end of the turn, friendly models gain +1 fight and re-roll 1s to wound\n                \"Protect the Alpha\": If your leader suffers a wound, they become a 6\" banner\n                \"Feral Charge\": Your wargs gain the werewolf's Feral Charge special rule"
+			},
+			{
+				"name": "Arathorn's Stand",
+				"alignment": "Good",
+				"parentFaction": "Rangers of the North",
+				"armyBonus": "\"Dangerous Folk\": Rangers of the North and Dunedain benefit from Arathorn and Halbarad's Stand Fast! and have 2 attacks whilst they have the Infantry keyword\n                \"Masters of Terrain\": Friendly models gain the woodland creature and mountain dweller special rules\n                \"Isildur's Heir\": When Arathorn spends might, on a 4+, he gets it back\n                \"Silent Ambush\": In scenarios where you roll for additional forces to arrive, you receive a bonus of +1 to the dice roll for warbands from this Legendary Legion. In scenarios where you roll to see which part of the board your warbands deploy in, you may modify the dice roll by +1 or -1."
+			},
+			{
+				"name": "Buhrdur's Horde",
+				"alignment": "Evil",
+				"parentFaction": "Angmar",
+				"armyBonus": "\"Masters of Terrain\": Friendly models gain the woodland creature and mountain dweller special rules\n                \"A Fearsome Foe\": Burdhur gains the Blood and Glory special rule. Additionally, he gains the fearless special rule for the rest of the battle if he slays a hero in combat.\n                \"Ambushers\": TBD",
+				"requiredChildren": [
+					{
+						"elementPropertyName": "heroes",
+						"name": "Buhrdur, Troll Chieftain",
+						"points": 110,
+						"quantity": 1
+					}
+				]
 			}
 		],
 		"heroicTiers": [
@@ -3652,6 +3754,10 @@
 					{
 						"name": "The Black Riders",
 						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Host of the Witch-King",
+						"heroicTier": "Hero of Legend"
 					}
 				],
 				"points": 70,
@@ -3717,7 +3823,8 @@
 						"availableIn": [
 							"Mordor",
 							"Angmar",
-							"Barad Dur"
+							"Barad Dur",
+							"Host of the Witch-King"
 						],
 						"chooseOneKey": "a"
 					},
@@ -3728,7 +3835,8 @@
 							"Mordor",
 							"Angmar",
 							"Barad Dur",
-							"The Black Riders"
+							"The Black Riders",
+							"Host of the Witch-King"
 						],
 						"chooseOneKey": "a"
 					},
@@ -3739,7 +3847,8 @@
 							"Mordor",
 							"Angmar",
 							"Barad Dur",
-							"The Black Riders"
+							"The Black Riders",
+							"Host of the Witch-King"
 						]
 					},
 					{
@@ -5090,6 +5199,10 @@
 					{
 						"name": "Angmar",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Host of the Witch-King",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 120,
@@ -5119,12 +5232,20 @@
 					{
 						"name": "Armoured fell beast",
 						"points": 70,
-						"chooseOneKey": "a"
+						"chooseOneKey": "a",
+						"availableIn": [
+							"Mordor",
+							"Angmar"
+						]
 					},
 					{
 						"name": "Fell beast",
 						"points": 50,
-						"chooseOneKey": "a"
+						"chooseOneKey": "a",
+						"availableIn": [
+							"Mordor",
+							"Angmar"
+						]
 					},
 					{
 						"name": "Armoured horse",
@@ -5191,6 +5312,10 @@
 					{
 						"name": "Angmar",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Host of the Witch-King",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 120,
@@ -5220,12 +5345,20 @@
 					{
 						"name": "Armoured fell beast",
 						"points": 70,
-						"chooseOneKey": "a"
+						"chooseOneKey": "a",
+						"availableIn": [
+							"Mordor",
+							"Angmar"
+						]
 					},
 					{
 						"name": "Fell beast",
 						"points": 50,
-						"chooseOneKey": "a"
+						"chooseOneKey": "a",
+						"availableIn": [
+							"Mordor",
+							"Angmar"
+						]
 					},
 					{
 						"name": "Armoured horse",
@@ -5535,6 +5668,18 @@
 				"factions": [
 					{
 						"name": "Angmar",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Host of the Witch-King",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of Carn-Dum",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Buhrdur's Horde",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -5853,6 +5998,14 @@
 				"factions": [
 					{
 						"name": "Angmar",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Host of the Witch-King",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Buhrdur's Horde",
 						"heroicTier": "Minor Hero"
 					}
 				],
@@ -6453,6 +6606,10 @@
 					{
 						"name": "The White Council",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Battle of Fornost",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 145,
@@ -6657,6 +6814,10 @@
 					{
 						"name": "Rivendell",
 						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Battle of Fornost",
+						"heroicTier": "Minor Hero"
 					}
 				],
 				"points": 80,
@@ -6719,6 +6880,10 @@
 				"factions": [
 					{
 						"name": "Rivendell",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Battle of Fornost",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -6981,6 +7146,10 @@
 					{
 						"name": "The Rangers",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Arathorn's Stand",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"allianceRules": {
@@ -7055,6 +7224,10 @@
 					{
 						"name": "The Grey Company",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Arathorn's Stand",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 70,
@@ -7111,6 +7284,23 @@
 					},
 					{
 						"name": "The Grey Company",
+						"heroicTier": "Independent Hero"
+					},
+					{
+						"name": "Arnor",
+						"heroicTier": "Independent Hero",
+						"unlockedBy": "Aranarth, First Chieftain of the Dunedain"
+					},
+					{
+						"name": "Battle of Fornost",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Army of Arnor",
+						"heroicTier": "Independent Hero"
+					},
+					{
+						"name": "Arathorn's Stand",
 						"heroicTier": "Independent Hero"
 					}
 				],
@@ -7170,6 +7360,23 @@
 						"name": "The Shire",
 						"heroicTier": "Minor Hero",
 						"unlockedBy": "Gandalf the Grey"
+					},
+					{
+						"name": "Arnor",
+						"heroicTier": "Independent Hero",
+						"unlockedBy": "Gandalf the Grey"
+					},
+					{
+						"name": "Battle of Fornost",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Army of Arnor",
+						"heroicTier": "Independent Hero"
+					},
+					{
+						"name": "Arathorn's Stand",
+						"heroicTier": "Independent Hero"
 					}
 				],
 				"unlimited": true,
@@ -7494,6 +7701,10 @@
 				"factions": [
 					{
 						"name": "Angmar",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Host of the Witch-King",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -8919,6 +9130,354 @@
 				]
 			},
 			{
+				"name": "Earnur, Last King of Gondor",
+				"factions": [
+					{
+						"name": "Minas Tirith",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Battle of Fornost",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 100,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 6,
+				"might": 3,
+				"will": 3,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Resolve",
+					"Heroic Challenge",
+					"Heroic Strike"
+				],
+				"keywords": [
+					"Man",
+					"Gondor",
+					"Infantry",
+					"Hero"
+				],
+				"unavailableWith": [
+					"King of Men"
+				],
+				"options": [
+					{
+						"name": "Armoured Horse",
+						"points": 15
+					},
+					{
+						"name": "Lance",
+						"points": 5
+					}
+				],
+				"specialRules": [
+					"A Fool's Challenge",
+					"Master Duelist"
+				],
+				"wargear": [
+					"Heavy Armour",
+					"Sword",
+					"Shield"
+				]
+			},
+			{
+				"name": "Aldrac, Warlord of Carn Dum",
+				"factions": [
+					{
+						"name": "Angmar",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Army of Carn-Dum",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 120,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 5,
+				"defence": 6,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 5,
+				"might": 3,
+				"will": 3,
+				"fate": 3,
+				"heroicActions": [
+					"Heroic Strike",
+					"Heroic Strength"
+				],
+				"keywords": [
+					"Man",
+					"Carn-Dum",
+					"Angmar",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": [
+					"Warlord of Carn Dum",
+					"Mighty Blow",
+					"Battle Frenzy"
+				],
+				"wargear": [
+					"Mace",
+					"Shield",
+					"Armour"
+				]
+			},
+			{
+				"name": "Fraecht, Vassal of the Witch King",
+				"factions": [
+					{
+						"name": "Angmar",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of Carn-Dum",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 65,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"might": 1,
+				"will": 4,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Resolve"
+				],
+				"keywords": [
+					"Man",
+					"Carn-Dum",
+					"Angmar",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": [
+					"Incantations of Power",
+					"Strength",
+					"Endurance",
+					"Swiftness"
+				],
+				"wargear": [
+					"Armour",
+					"Staff",
+					"Dagger"
+				]
+			},
+			{
+				"name": "Captain of Carn Dum",
+				"factions": [
+					{
+						"name": "Angmar",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of Carn-Dum",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 55,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic March"
+				],
+				"keywords": [
+					"Man",
+					"Carn-Dum",
+					"Angmar",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": [
+					"Glory Seekers"
+				],
+				"wargear": [
+					"Armour",
+					"Shield",
+					"Mace"
+				]
+			},
+			{
+				"name": "Nazthak, Orc Captain",
+				"factions": [
+					{
+						"name": "Angmar",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Host of the Witch-King",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 50,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 5,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 3,
+				"might": 3,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Defence"
+				],
+				"keywords": [
+					"Orc",
+					"Angmar",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": [
+					"Scavenge"
+				],
+				"wargear": [
+					"Armour",
+					"Dagger"
+				]
+			},
+			{
+				"name": "The Shadow of Rhudaur",
+				"factions": [
+					{
+						"name": "Angmar",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Host of the Witch-King",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 80,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 5,
+				"strength": 3,
+				"defence": 7,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"might": 2,
+				"will": 5,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Challenge"
+				],
+				"keywords": [
+					"Spirit",
+					"Angmar",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": [
+					"Blades of the Dead",
+					"Terror",
+					"Herald of Doom",
+					"Powers of Angmar"
+				],
+				"wargear": [
+					"Armour",
+					"Sword"
+				],
+				"magicalPowers": [
+					{
+						"name": "Drain Courage",
+						"range": 6,
+						"casting": 3
+					},
+					{
+						"name": "Curse",
+						"range": 6,
+						"casting": 3
+					},
+					{
+						"name": "Wither",
+						"range": 6,
+						"casting": 4
+					},
+					{
+						"name": "Sap will",
+						"range": 6,
+						"casting": 5
+					}
+				]
+			},
+			{
+				"name": "Shade (Rise of Angmar)",
+				"factions": [
+					{
+						"name": "Angmar",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Host of the Witch-King",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 75,
+				"movement": 6,
+				"fight": 1,
+				"shoot": 5,
+				"strength": 1,
+				"defence": 8,
+				"attack": 2,
+				"wounds": 3,
+				"courage": 6,
+				"might": 0,
+				"will": 4,
+				"fate": 1,
+				"heroicActions": [],
+				"keywords": [
+					"Spirit",
+					"Angmar",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": [
+					"Blades of the Dead",
+					"Terror",
+					"Conduit of Angmar",
+					"Swirling Mists",
+					"Ghostly Resolve"
+				],
+				"wargear": [
+					"Never Unarmed"
+				]
+			},
+			{
 				"name": "Girion, Lord of Dale",
 				"factions": [
 					{
@@ -9491,6 +10050,10 @@
 					{
 						"name": "Angmar",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Buhrdur's Horde",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 110,
@@ -9536,6 +10099,14 @@
 					},
 					{
 						"name": "Assault on Lothlorien",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Wolf Pack of Angmar",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Buhrdur's Horde",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -13284,6 +13855,10 @@
 					},
 					{
 						"name": "Rangers of Ithilien",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Battle of Fornost",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -19753,6 +20328,10 @@
 					{
 						"name": "Arnor",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Army of Arnor",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 80,
@@ -19795,6 +20374,10 @@
 					{
 						"name": "Arnor",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of Arnor",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 70,
@@ -19827,10 +20410,114 @@
 				]
 			},
 			{
+				"name": "Aranarth, First Chieftain of the Dunedain",
+				"factions": [
+					{
+						"name": "Arnor",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Battle of Fornost",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Army of Arnor",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 80,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"might": 3,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Accuracy",
+					"Heroic Strike"
+				],
+				"keywords": [
+					"Man",
+					"Arnor",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": [
+					"Expert Shot",
+					"Hatred (Angmar)",
+					"Hatred",
+					"Chieftain of the Dunedain"
+				],
+				"wargear": [
+					"Armour",
+					"Sword",
+					"Bow"
+				]
+			},
+			{
+				"name": "Argadir, Captain of Arnor",
+				"factions": [
+					{
+						"name": "Arnor",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of Arnor",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 85,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"might": 3,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic March",
+					"Heroic Defence"
+				],
+				"keywords": [
+					"Man",
+					"Arnor",
+					"Cavalry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": [
+					"Master of Battle 5+",
+					"Hatred (Angmar)",
+					"Hatred",
+					"Expert Rider"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Sword",
+					"Shield",
+					"War Spear",
+					"Horse"
+				]
+			},
+			{
 				"name": "Captain of Arnor",
 				"factions": [
 					{
 						"name": "Arnor",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of Arnor",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -24139,7 +24826,22 @@
 				"name": "Ranger of the North",
 				"factions": [
 					"The Rangers",
-					"The Grey Company"
+					"The Grey Company",
+					"Battle of Fornost",
+					"Army of Arnor",
+					"Arathorn's Stand"
+				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"with": "Aranarth, First Chieftain of the Dunedain"
+							},
+							{
+								"in": "Arnor"
+							}
+						]
+					}
 				],
 				"ignoreLimits": [
 					{
@@ -24194,7 +24896,10 @@
 			{
 				"name": "Dunedain",
 				"factions": [
-					"The Rangers"
+					"The Rangers",
+					"Battle of Fornost",
+					"Army of Arnor",
+					"Arathorn's Stand"
 				],
 				"availableIn": [
 					{
@@ -24204,6 +24909,16 @@
 							},
 							{
 								"in": "The Shire"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"with": "Aranarth, First Chieftain of the Dunedain"
+							},
+							{
+								"in": "Arnor"
 							}
 						]
 					}
@@ -24849,7 +25564,10 @@
 			{
 				"name": "Angmar Orc Warrior",
 				"factions": [
-					"Angmar"
+					"Angmar",
+					"Host of the Witch-King",
+					"Army of Carn-Dum",
+					"Buhrdur's Horde"
 				],
 				"points": 5,
 				"movement": 6,
@@ -25073,7 +25791,8 @@
 					"Mordor",
 					"Barad Dur",
 					"Assault on Lothlorien",
-					"Fell Beings of Mirkwood"
+					"Fell Beings of Mirkwood",
+					"Army of Carn-Dum"
 				],
 				"points": 5,
 				"movement": 6,
@@ -25160,7 +25879,10 @@
 			{
 				"name": "Angmar Warg Rider",
 				"factions": [
-					"Angmar"
+					"Angmar",
+					"Host of the Witch-King",
+					"Army of Carn-Dum",
+					"Buhrdur's Horde"
 				],
 				"points": 11,
 				"movement": 6,
@@ -25427,7 +26149,8 @@
 			{
 				"name": "High Elf Warrior",
 				"factions": [
-					"Rivendell"
+					"Rivendell",
+					"Battle of Fornost"
 				],
 				"points": 9,
 				"movement": 6,
@@ -25587,7 +26310,8 @@
 				"factions": [
 					"Minas Tirith",
 					"The Men of the West",
-					"Rangers of Ithilien"
+					"Rangers of Ithilien",
+					"Battle of Fornost"
 				],
 				"points": 7,
 				"movement": 6,
@@ -25637,7 +26361,8 @@
 			{
 				"name": "Knight of Minas Tirith",
 				"factions": [
-					"Minas Tirith"
+					"Minas Tirith",
+					"Battle of Fornost"
 				],
 				"points": 13,
 				"movement": 6,
@@ -25756,7 +26481,8 @@
 			{
 				"name": "Dead Marsh Spectre",
 				"factions": [
-					"Angmar"
+					"Angmar",
+					"Host of the Witch-King"
 				],
 				"points": 15,
 				"movement": 6,
@@ -25789,7 +26515,9 @@
 				"factions": [
 					"Angmar",
 					"Wolves of Isengard",
-					"Assault on Lothlorien"
+					"Assault on Lothlorien",
+					"Wolf Pack of Angmar",
+					"Buhrdur's Horde"
 				],
 				"additionalHeroes": [
 					"Druzhag the Beastcaller"
@@ -26654,7 +27382,8 @@
 					"Fell Beings of Mirkwood",
 					"Pits of Dol Guldur",
 					"Dark Powers of Dol Guldur",
-					"Dark Denizens of Mirkwood"
+					"Dark Denizens of Mirkwood",
+					"Wolf Pack of Angmar"
 				],
 				"availableIn": [
 					{
@@ -26700,6 +27429,71 @@
 				"wargear": [
 					"Claws",
 					"Teeth"
+				]
+			},
+			{
+				"name": "Werewolf",
+				"factions": [
+					"Angmar",
+					"Wolf Pack of Angmar"
+				],
+				"points": 25,
+				"movement": 10,
+				"fight": 5,
+				"shoot": 5,
+				"strength": 5,
+				"defence": 4,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 3,
+				"keywords": [
+					"Spirit",
+					"Angmar",
+					"Infantry",
+					"Warrior"
+				],
+				"options": [],
+				"specialRules": [
+					"Fell Sight",
+					"Terror",
+					"Feral Charge"
+				],
+				"wargear": [
+					"Claws",
+					"Teeth"
+				]
+			},
+			{
+				"name": "Hill Troll",
+				"factions": [
+					"Angmar",
+					"Buhrdur's Horde"
+				],
+				"points": 75,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 6,
+				"defence": 6,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 3,
+				"keywords": [
+					"Troll",
+					"Angmar",
+					"Monster",
+					"Infantry",
+					"Warrior"
+				],
+				"options": [],
+				"specialRules": [
+					"Terror",
+					"Throw Stones (Range 12\" Strength 8)",
+					"Pathfinders",
+					"Hill Troll Intelligence"
+				],
+				"wargear": [
+					"Sword"
 				]
 			},
 			{
@@ -29544,7 +30338,8 @@
 			{
 				"name": "Warrior of Arnor",
 				"factions": [
-					"Arnor"
+					"Arnor",
+					"Army of Arnor"
 				],
 				"points": 8,
 				"movement": 6,
@@ -29580,9 +30375,86 @@
 				]
 			},
 			{
+				"name": "Warrior of Carn Dum",
+				"factions": [
+					"Angmar",
+					"Army of Carn-Dum"
+				],
+				"points": 9,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 3,
+				"keywords": [
+					"Man",
+					"Carn-Dum",
+					"Angmar",
+					"Infantry",
+					"Warrior"
+				],
+				"options": [
+					{
+						"name": "Banner",
+						"points": 25
+					},
+					{
+						"name": "Spear",
+						"points": 1
+					}
+				],
+				"specialRules": [
+					"Glory Seekers"
+				],
+				"wargear": [
+					"Armour",
+					"Shield",
+					"Mace"
+				]
+			},
+			{
+				"name": "Knight of Arnor",
+				"factions": [
+					"Arnor",
+					"Army of Arnor"
+				],
+				"points": 14,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 6,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 2,
+				"keywords": [
+					"Man",
+					"Arnor",
+					"Cavalry",
+					"Warrior"
+				],
+				"options": [],
+				"specialRules": [
+					"Hatred",
+					"Hatred (Angmar)"
+				],
+				"wargear": [
+					"Heavy Armour",
+					"Sword",
+					"War spear",
+					"Shield",
+					"Horse"
+				]
+			},
+			{
 				"name": "Ranger of Arnor",
 				"factions": [
-					"Arnor"
+					"Arnor",
+					"Battle of Fornost",
+					"Army of Arnor"
 				],
 				"points": 8,
 				"movement": 6,
@@ -29617,7 +30489,8 @@
 				"factions": [
 					"Arnor",
 					"The Shire",
-					"Defenders of the Shire"
+					"Defenders of the Shire",
+					"Battle of Fornost"
 				],
 				"points": 5,
 				"movement": 4,
@@ -33794,6 +34667,86 @@
 			{
 				"name": "Note about the Iron Hills Chariot",
 				"definition": "The Iron Hills Chariot may only be a hero if it has either the captain or Champions of Erebor upgrade. Therefore, the cost of the Captain is included in the cost of this entry, and that cost is subtracted from the usual cost of Champions of Erebor since you will be replacing the Captain with it."
+			},
+			{
+				"name": "Chieftain of the Dunedain",
+				"tag": "Passive",
+				"definition": "If your force includes Aranarth, you may include Ragners of the North and Dunedain as if they were from the Arnor army list. Additionally, friendly Rangers of the North and Dundedain within 6\" of Aranarth count as being in range of a banner. Any Rangers of the North and Dunedain in your force gain the Arnor keyword."
+			},
+			{
+				"name": "A Fool's Challenge",
+				"tag": "Active",
+				"definition": "If Earnur is the target of a heroic challenge, he may never choose to decline under any circumstances. Additionally, Earnur must always charge an enemy hero model if he is able to do so."
+			},
+			{
+				"name": "Master Duelist",
+				"tag": "Active",
+				"definition": "At the start of a fight including Earnur, after resolving any special rules that affect an enemy model's Fight value, but before any Heroic Strikes are resolved, Earnur may increase his fight value to match that of a single non monster model he is engaged with."
+			},
+			{
+				"name": "Scavenge",
+				"tag": "Active",
+				"definition": "Whenever Nazthak kills an enemy model in combat (with the exception of monster models), he may choose to scavenge a single piece of wargear carried by that model, with the exception of a mount, the One Ring or items of wargear that are integral to the model (such as claws and teeth). This will happen before any effects that allow the slain model to pass on that piece of warger.\n                Add the scavenged item to Nazthak's list of wargear. Nazthak will benefit from the scavenged wargear as if he was the original model. Nazthak may choose to discard any piece of scavenged wargear at any time, though if he does so he cannot reclaim it - it is lost."
+			},
+			{
+				"name": "Herald of Doom",
+				"tag": "Passive",
+				"definition": "At the start of the game, select one hero model in your opponent's list. While the Shadow of Rhudaur is within 6\" of them, they suffer -1 to fate rolls and -1 courage."
+			},
+			{
+				"name": "Powers of Angmar",
+				"tag": "Active",
+				"definition": "If the Shadow of Rhudaur rolls a natural 6 when making a casting roll then the channelled version of the magical power will be used if it is not resisted."
+			},
+			{
+				"name": "Conduit of Angmar",
+				"tag": "Passive",
+				"definition": "If an Angmar Ringwraith model is within 6\" of a Shade, they may use the Shade to determine line of sight and range when casting magical powers. Additionally, after making a casting roll within 6\" of a friendly Shade, an Angmar Ringwraith model can choose to deal a single wound to the Shade to add one to the casting value."
+			},
+			{
+				"name": "Swirling Mists",
+				"tag": "Active",
+				"definition": "At the start of the shoot phase before heroics are declared, a Shade may expend a point of Will to activate this ability. For the remainder of the turn, enemy models will suffer a -1 to hit pentalty when making a shooting attack that targets a friendly model within 6\" of the shade. If the enemy model is within 12\" of the Shade, they will suffer -2 instead."
+			},
+			{
+				"name": "Ghostly Resolve",
+				"tag": "Passive",
+				"definition": "Friendly Angmar Orc models within 12\" of one or more friendly Shades add 1 to their courage value."
+			},
+			{
+				"name": "Feral Charge",
+				"tag": "Active",
+				"definition": "When a werewolf charges an enemy infantry model, they gain knock to the ground as if they were cavalry."
+			},
+			{
+				"name": "Pathfinders",
+				"tag": "Passive",
+				"definition": "At the start of the game if you have any number of hill trolls in your force, select a single piece of difficult terrain on the board (otehr than a water feature). Friendly Angmar models do not treat that piece of terrain as difficult terrain. This still does not allow a model to fly out of a wood."
+			},
+			{
+				"name": "Hill Troll Intelligence",
+				"tag": "Active",
+				"definition": "A Hill Troll may re-roll a single D6 in a duel roll when fighting solely against infantry models (but not monster models). If your force includes Burdhur, he will also gain this special rule for the duration of the game."
+			},
+			{
+				"name": "Warlord of Carn Dum",
+				"tag": "Passive",
+				"definition": "Friendly Carn-Dum models within 6\" re-roll failed courage tests."
+			},
+			{
+				"name": "Battle Frenzy",
+				"tag": "Active",
+				"definition": "If Aldrac slays an enemy model in combat, then he may declare a Heroic Combat during the following turn wtihout spending might."
+			},
+			{
+				"name": "Incantations of Power",
+				"tag": "Active",
+				"definition": "After rolling for priority, Fraecht can spend a point of will to have one of the following incantations take effect until the End Phase of the turn:\n                Strength - Friendly Carn-Dum models within 3\" re-roll wound rolls of 1 when making strikes.\n                Endurance - Whenever a friendly Carn-Dum model within 3\" suffers a wound, roll a D6 and on a 6+, the wound is ignored.\n                Swiftness - Friendly Carn-Dum models that start their move wtihin 3\" are not slowed by difficult terrain (with the exception of water features)"
+			},
+			{
+				"name": "Glory Seekers",
+				"tag": "Active",
+				"definition": "+1 to wound enemy hero models in combat"
 			}
 		]
 	}
