@@ -2303,7 +2303,15 @@
 				"name": "Wolf Pack of Angmar",
 				"alignment": "Evil",
 				"parentFaction": "Angmar",
-				"armyBonus": "Werewolves benefit from Warg Chieftain's heroic actions and stand fast!\n                \"Leader of the Pack\": The leader of this force gains an additional might, will and fate and is treated as a hero of valour\n                \"Howl of the Wolf\": Once per game at the start of any fight phase, your leader may use this ability. Until the end of the turn, friendly models gain +1 fight and re-roll 1s to wound\n                \"Protect the Alpha\": If your leader suffers a wound, they become a 6\" banner\n                \"Feral Charge\": Your wargs gain the werewolf's Feral Charge special rule"
+				"armyBonus": "Werewolves benefit from Warg Chieftain's heroic actions and stand fast!\n                \"Leader of the Pack\": The leader of this force gains an additional might, will and fate and is treated as a hero of valour\n                \"Howl of the Wolf\": Once per game at the start of any fight phase, your leader may use this ability. Until the end of the turn, friendly models gain +1 fight and re-roll 1s to wound\n                \"Protect the Alpha\": If your leader suffers a wound, they become a 6\" banner\n                \"Feral Charge\": Your wargs gain the werewolf's Feral Charge special rule",
+				"requiredChildren": [
+					{
+						"elementPropertyName": "heroes",
+						"name": "Wild Warg Chieftain Leader",
+						"points": 80,
+						"quantity": 1
+					}
+				]
 			},
 			{
 				"name": "Arathorn's Stand",
@@ -10129,6 +10137,45 @@
 				"might": 2,
 				"will": 2,
 				"fate": 1,
+				"heroicActions": [
+					"Heroic March",
+					"Heroic Strength"
+				],
+				"keywords": [
+					"Warg",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": [
+					"Terror",
+					"Packlord"
+				],
+				"wargear": [
+					"Claws and teeth"
+				]
+			},
+			{
+				"name": "Wild Warg Chieftain Leader",
+				"factions": [
+					{
+						"name": "Wolf Pack of Angmar",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"unlimited": true,
+				"points": 80,
+				"movement": 10,
+				"fight": 5,
+				"shoot": 5,
+				"strength": 6,
+				"defence": 5,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 4,
+				"might": 3,
+				"will": 3,
+				"fate": 2,
 				"heroicActions": [
 					"Heroic March",
 					"Heroic Strength"
