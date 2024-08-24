@@ -13890,7 +13890,8 @@
 						"points": 10,
 						"availableIn": [
 							"Minas Tirith",
-							"Rangers of Ithilien"
+							"Rangers of Ithilien",
+							"Battle of Fornost"
 						]
 					},
 					{
@@ -13899,7 +13900,8 @@
 						"availableIn": [
 							"Minas Tirith",
 							"The Men of the West",
-							"Rangers of Ithilien"
+							"Rangers of Ithilien",
+							"Battle of Fornost"
 						]
 					},
 					{
@@ -13907,7 +13909,8 @@
 						"points": 5,
 						"availableIn": [
 							"Minas Tirith",
-							"Rangers of Ithilien"
+							"Rangers of Ithilien",
+							"Battle of Fornost"
 						]
 					},
 					{
@@ -13916,7 +13919,8 @@
 						"availableIn": [
 							"Minas Tirith",
 							"The Men of the West",
-							"Rangers of Ithilien"
+							"Rangers of Ithilien",
+							"Battle of Fornost"
 						]
 					}
 				],
