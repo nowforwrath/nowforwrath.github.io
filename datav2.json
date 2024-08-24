@@ -7265,7 +7265,8 @@
 						"name": "Horse",
 						"points": 10,
 						"availableIn": [
-							"The Rangers"
+							"The Rangers",
+							"Arathorn's Stand"
 						]
 					}
 				],
@@ -7332,14 +7333,16 @@
 						"points": 1,
 						"availableIn": [
 							"The Rangers",
-							"The Grey Company"
+							"The Grey Company",
+							"Arathorn's Stand"
 						]
 					},
 					{
 						"name": "Horse",
 						"points": 10,
 						"availableIn": [
-							"The Rangers"
+							"The Rangers",
+							"Arathorn's Stand"
 						]
 					}
 				],
@@ -7406,7 +7409,8 @@
 						"name": "Spear",
 						"points": 1,
 						"availableIn": [
-							"The Rangers"
+							"The Rangers",
+							"Arathorn's Stand"
 						]
 					}
 				],
@@ -24879,14 +24883,16 @@
 						"points": 1,
 						"availableIn": [
 							"The Rangers",
-							"The Grey Company"
+							"The Grey Company",
+							"Arathorn's Stand"
 						]
 					},
 					{
 						"name": "Horse",
 						"points": 10,
 						"availableIn": [
-							"The Rangers"
+							"The Rangers",
+							"Arathorn's Stand"
 						]
 					}
 				],
@@ -24953,7 +24959,8 @@
 						"name": "Spear",
 						"points": 1,
 						"availableIn": [
-							"The Rangers"
+							"The Rangers",
+							"Arathorn's Stand"
 						]
 					}
 				],
