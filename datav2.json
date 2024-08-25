@@ -7342,7 +7342,10 @@
 						"availableIn": [
 							"The Rangers",
 							"The Grey Company",
-							"Arathorn's Stand"
+							"Arathorn's Stand",
+							"Arnor",
+							"Battle of Fornost",
+							"Army of Arnor"
 						]
 					},
 					{
@@ -7418,7 +7421,10 @@
 						"points": 1,
 						"availableIn": [
 							"The Rangers",
-							"Arathorn's Stand"
+							"Arathorn's Stand",
+							"Arnor",
+							"Battle of Fornost",
+							"Army of Arnor"
 						]
 					}
 				],
@@ -24932,7 +24938,9 @@
 						"availableIn": [
 							"The Rangers",
 							"The Grey Company",
-							"Arathorn's Stand"
+							"Arathorn's Stand",
+							"Army of Arnor",
+							"Battle of Fornost"
 						]
 					},
 					{
@@ -25008,6 +25016,9 @@
 						"points": 1,
 						"availableIn": [
 							"The Rangers",
+							"Arathorn's Stand",
+							"Battle of Fornost",
+							"Army of Arnor",
 							"Arathorn's Stand"
 						]
 					}
@@ -34792,7 +34803,7 @@
 			{
 				"name": "Pathfinders",
 				"tag": "Passive",
-				"definition": "At the start of the game if you have any number of hill trolls in your force, select a single piece of difficult terrain on the board (otehr than a water feature). Friendly Angmar models do not treat that piece of terrain as difficult terrain. This still does not allow a model to fly out of a wood."
+				"definition": "At the start of the game if you have any number of hill trolls in your force, select a single piece of difficult terrain on the board (other than a water feature). Friendly Angmar models do not treat that piece of terrain as difficult terrain. This still does not allow a model to fly out of a wood."
 			},
 			{
 				"name": "Hill Troll Intelligence",
