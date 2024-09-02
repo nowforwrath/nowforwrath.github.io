@@ -16265,6 +16265,7 @@
 			},
 			{
 				"name": "Alfrid the Councillor",
+				"specialTest": "Alfrid may only be included in an army that includes either the Master of Lake-town or Bard the Bowman.",
 				"factions": [
 					{
 						"name": "Survivors of Lake-town",
