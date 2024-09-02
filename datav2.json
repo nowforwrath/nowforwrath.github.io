@@ -30562,11 +30562,20 @@
 					"Defenders of the Shire"
 				],
 				"availableIn": [
-					"Razgush, War Leader of the North",
 					{
 						"all": [
 							{
 								"in": "Ranger of the North"
+							},
+							{
+								"in": "Battle of Fornost"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Dunedain"
 							},
 							{
 								"in": "Battle of Fornost"
