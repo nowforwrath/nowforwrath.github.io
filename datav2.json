@@ -34833,7 +34833,7 @@
 			{
 				"name": "Incantations of Power",
 				"tag": "Active",
-				"definition": "After rolling for priority, Fraecht can spend a point of will to have one of the following incantations take effect until the End Phase of the turn:\n                Strength - Friendly Carn-Dum models within 3\" re-roll wound rolls of 1 when making strikes.\n                Endurance - Whenever a friendly Carn-Dum model within 3\" suffers a wound, roll a D6 and on a 6+, the wound is ignored.\n                Swiftness - Friendly Carn-Dum models that start their move wtihin 3\" are not slowed by difficult terrain (with the exception of water features)"
+				"definition": "During the priority phase, after priority has been rolled, Fraecht can spend a will point to use an incantation. If he does so, choose one of the incantations below - the effects last until the end of the turn.\n                Incantation of Strength - Friendly Carn Dum models within 3\" of Fraecht must 1s to wound when making strikes.\n                Incantation of Endurance - Whenever a friendly Carn Dum model within 3\" of Fraecht suffers a wound, roll a D6. On a 5+, the wound is ignored.\n                Incantation of Swiftness - Friendly Carn Dum models that start their Move wtihin 3\" of Fraecht are not slowed by difficult terrain (with the exception of water features)"
 			},
 			{
 				"name": "Glory Seekers",
