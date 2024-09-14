@@ -46,6 +46,26 @@
 		"secondary": "Convenient",
 		"none": "Impossible"
 	},
+	"scenarios": [
+		"Heirlooms of Ages Past",
+		"Hold Ground",
+		"Command the Battlefield",
+		"Seize the Prize",
+		"Destroy the Supplies",
+		"Retrieval",
+		"Storm the Camp",
+		"Reconnoitre",
+		"Divide & Conquer",
+		"Domination",
+		"Capture & Control",
+		"Breakthrough",
+		"Lords of Battle",
+		"Contest of Champions",
+		"To the Death!",
+		"Fog of War",
+		"Clash by Moonlight",
+		"Assassination"
+	],
 	"stats": [
 		{
 			"name": "Movement",
@@ -3351,10 +3371,6 @@
 				],
 				"wargear": [
 					"Armour"
-				],
-				"wargearOptions": [
-					"Sword",
-					"Axe"
 				]
 			},
 			{
@@ -5673,10 +5689,6 @@
 				"specialRules": [],
 				"wargear": [
 					"Armour"
-				],
-				"wargearOptions": [
-					"Sword",
-					"Pick"
 				]
 			},
 			{
@@ -5738,10 +5750,6 @@
 				"specialRules": [],
 				"wargear": [
 					"Armour"
-				],
-				"wargearOptions": [
-					"Sword",
-					"Pick"
 				]
 			},
 			{
@@ -5792,10 +5800,6 @@
 				],
 				"wargear": [
 					"Armour"
-				],
-				"wargearOptions": [
-					"Mace",
-					"Whip"
 				]
 			},
 			{
@@ -12351,10 +12355,6 @@
 				],
 				"wargear": [
 					"Armour"
-				],
-				"wargearOptions": [
-					"Sword",
-					"Pick"
 				],
 				"options": []
 			},
@@ -25282,10 +25282,6 @@
 				"specialRules": [],
 				"wargear": [
 					"Armour"
-				],
-				"wargearOptions": [
-					"Sword",
-					"Axe"
 				]
 			},
 			{
@@ -25343,10 +25339,6 @@
 					"Shield",
 					"Bow",
 					"Horse"
-				],
-				"wargearOptions": [
-					"Sword",
-					"Axe"
 				],
 				"ignoreLimits": [
 					{
@@ -25765,11 +25757,6 @@
 				"wargear": [
 					"Heavy armour"
 				],
-				"wargearOptions": [
-					"Sword",
-					"Mace",
-					"Axe"
-				],
 				"unavailableIn": [
 					[
 						"Razgush, War Leader of the North"
@@ -26086,11 +26073,6 @@
 				"wargear": [
 					"Armour",
 					"Hand-and-a-half sword, hand-and-a-half club, or hand-and-a-half hammer"
-				],
-				"wargearOptions": [
-					"Hand-and-a-half sword",
-					"Hand-and-a-half club",
-					"Hand-and-a-half hammer"
 				],
 				"unavailableIn": [
 					[
@@ -27230,10 +27212,6 @@
 				"wargear": [
 					"Armour",
 					"Sword or Axe"
-				],
-				"wargearOptions": [
-					"Sword",
-					"Axe"
 				]
 			},
 			{
@@ -27666,12 +27644,6 @@
 				"specialRules": [
 					"Cave Dweller",
 					"Chittering Hordes"
-				],
-				"wargearOptions": [
-					"Sword",
-					"Pick",
-					"Mace",
-					"Flail"
 				]
 			},
 			{
@@ -28028,10 +28000,6 @@
 				],
 				"wargear": [
 					"Heavy Armour"
-				],
-				"wargearOptions": [
-					"Sword",
-					"Dagger"
 				],
 				"specialRules": [
 					"Phalanx"
@@ -28409,10 +28377,6 @@
 				],
 				"wargear": [
 					"Armour"
-				],
-				"wargearOptions": [
-					"Sword",
-					"Axe"
 				]
 			},
 			{
@@ -28484,10 +28448,6 @@
 				],
 				"wargear": [
 					"Armour"
-				],
-				"wargearOptions": [
-					"Sword",
-					"Pick"
 				]
 			},
 			{
