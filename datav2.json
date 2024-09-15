@@ -9423,7 +9423,7 @@
 				"will": 5,
 				"fate": 2,
 				"heroicActions": [
-					"Heroic Channeling"
+					"Heroic Challenge"
 				],
 				"keywords": [
 					"Spirit",
@@ -34867,7 +34867,7 @@
 			{
 				"name": "Glory Seekers",
 				"tag": "Active",
-				"definition": "+1 to wound enemy hero models in combat"
+				"definition": "If this model is in combat with an enemy Hero model (though not if they are Supporting), then this model gains a bonus of +1 to Wound that Hero when making strikes."
 			}
 		]
 	}
