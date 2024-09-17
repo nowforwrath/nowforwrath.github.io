@@ -18809,7 +18809,7 @@
 					"Indirect Fire",
 					"Area Effect",
 					"Wall-breaker",
-					"Troll"
+					"Troll (Siege)"
 				],
 				"wargear": [],
 				"requiredChildren": [
@@ -33943,7 +33943,7 @@
 				"definition": "Mirkwood Rangers receive an additional Attack for each enemy model they are Engaged in combat with after the first (to a maximum of 3 bonus Attacks). This bonus is determined at the start of each fight, and lasts until all Strikes from that fight have been resolved."
 			},
 			{
-				"name": "Troll",
+				"name": "Troll (Siege)",
 				"definition": "A Siege Engine that has a Troll crew member may re-roll the To Hit roll and the roll on the Scatter chart, providing that the Troll is in base contact with the Siege Engine and not Engaged in combat. The Troll does not count towards the minimum number of crew required, so you must have at least two other crew members to operate the Siege Engine. The Troll follows the profile for the relevant Troll from the same army list but may not take any additional upgrades. Only a single Troll may be attached to each Siege Engine."
 			},
 			{
