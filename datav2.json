@@ -9240,7 +9240,7 @@
 				"courage": 5,
 				"might": 3,
 				"will": 3,
-				"fate": 3,
+				"fate": 1,
 				"heroicActions": [
 					"Heroic Strike",
 					"Heroic Strength"
@@ -34852,7 +34852,7 @@
 			{
 				"name": "Warlord of Carn Dum",
 				"tag": "Passive",
-				"definition": "Friendly Carn-Dum models within 6\" re-roll failed courage tests."
+				"definition": "Friendly Carn-Dum models within 6\" of Aldrac, Warlord of Carn Dum, must re-roll failed courage tests."
 			},
 			{
 				"name": "Battle Frenzy",
