@@ -16277,11 +16277,19 @@
         "factions": [
           {
             "name": "Survivors of Lake-town",
-            "heroicTier": "Independent Hero"
+            "heroicTier": "Independent Hero",
+            "unlockedBy": [
+              "Master of Lake-town",
+              "Bard The Bowman"
+            ]
           },
           {
             "name": "Army of Lake-town",
-            "heroicTier": "Hero of Fortitude"
+            "heroicTier": "Hero of Fortitude",
+            "unlockedBy": [
+              "Master of Lake-town",
+              "Bard The Bowman"
+            ]
           }
         ],
         "points": 20,
