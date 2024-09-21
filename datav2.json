@@ -31041,6 +31041,11 @@
     ],
     "gear": [
       {
+        "name": "Horn of the Riddermark",
+        "tag": "Active",
+        "definition": "Whilst carrying the Horn of the Riddermark, all Hobbit models gain +1 to their Courage value. If Merry is slain, the horn is lost."
+      },
+      {
         "name": "Venom-back",
         "definition": "This model gains the Venom keyword: This model must re-roll all failed To Wound rolls when making Strikes in close combat.",
         "additionalDefinitions": [
@@ -34452,14 +34457,9 @@
         "definition": "All Hobbit models within 6\" of Frodo count as being in range of a banner."
       },
       {
-        "name": "Horn of the Riddermark",
+        "name": "Against All Odds",
         "tag": "Active",
-        "definition": "Whilst carrying the Horn of the Riddermark, all Hobbit models gain +1 to their Courage value. If Merry is slain, the horn is lost."
-      },
-      {
-        "name": "Against all Odds",
-        "tag": "Active",
-        "definition": "Pippin may re-roll any failed To Wound rolls when making strikes against Monster of Hero models."
+        "definition": "Pippin may re-roll any failed To Wound rolls when making strikes against Monster or Hero models."
       },
       {
         "name": "To me Shire-folk!",
