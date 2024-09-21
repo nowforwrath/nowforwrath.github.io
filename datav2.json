@@ -265,10 +265,6 @@
               "children": [
                 {
                   "propertyName": "options",
-                  "selectedProperty": "chosenOptions",
-                  "requiredProperty": "requiredOptions",
-                  "requiredThroughSecondParentProperty": "requiredOn",
-                  "requiredThroughRootProperty": "requiredIn",
                   "type": "checkbox",
                   "dataSource": "gear",
                   "disallowedMultiples": [
@@ -354,9 +350,6 @@
             },
             {
               "propertyName": "options",
-              "selectedProperty": "chosenOptions",
-              "requiredThroughRootProperty": "requiredIn",
-              "requiredThroughParentProperty": "requiredOptions",
               "type": "checkbox",
               "dataSource": "gear",
               "disallowedMultiples": [
@@ -7689,11 +7682,12 @@
         ]
       },
       {
-        "name": "Shade",
+        "name": "Shade (old)",
         "factions": [
           {
             "name": "Angmar",
-            "heroicTier": "Hero of Fortitude"
+            "heroicTier": "Hero of Fortitude",
+            "unlockedBy": "nothing"
           }
         ],
         "unlimited": true,
@@ -9466,7 +9460,7 @@
         ]
       },
       {
-        "name": "Shade (Rise of Angmar)",
+        "name": "Shade",
         "factions": [
           {
             "name": "Angmar",
