@@ -18954,7 +18954,7 @@
 					}
 				],
 				"specialRules": [
-					"Piercing Shot",
+					"Piercing Shot (Isengard)",
 					"Raise the Ladders!",
 					"Accurate"
 				],
@@ -32889,6 +32889,10 @@
 			},
 			{
 				"name": "Piercing Shot",
+				"definition": "If a shot from <this siege weapon> Bow hits a Battlefield target,\n                then they will suffer one Strength 9 hit. Additionally, if the target has a\n                Strength of 5 or lower, they will be knocked Prone and flung D6\" directly\n                away from the Siege Bow. Any model that the target passes over will also\n                be knocked Prone and suffer one Strength 6 hit. If the target comes into\n                contact with a piece of impassable terrain, or a model that is Strength 6\n                or higher, then it will immediately stop and be knocked Prone. Both the\n                target and the Obstacle or model (if it has a Defence value) will suffer one\n                Strength 6 hit."
+			},
+			{
+				"name": "Piercing Shot (Isengard)",
 				"definition": "If a shot from <this siege weapon> Bow hits a Battlefield target,\n                then they will suffer one Strength 9 hit. Additionally, if the target has a\n                Strength of 5 or lower, they will be knocked Prone and flung D6\" directly\n                away from the Siege Bow. Any model that the target passes over will also\n                be knocked Prone and suffer one Strength 6 hit. If the target comes into\n                contact with a piece of impassable terrain, or a model that is Strength 6\n                or higher, then it will immediately stop and be knocked Prone. Both the\n                target and the Obstacle or model (if it has a Defence value) will suffer one\n                Strength 6 hit.\n                An Isengard Assault Ballista has a range of 6\"-48\"."
 			},
 			{
