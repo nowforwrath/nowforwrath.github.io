@@ -21531,7 +21531,7 @@
 				"unlimited": true,
 				"points": 300,
 				"movement": 8,
-				"fight": 4,
+				"fight": 5,
 				"shoot": 5,
 				"strength": 9,
 				"defence": 8,
