@@ -2736,6 +2736,52 @@
 				]
 			},
 			{
+				"name": "Éowyn, Shield Maiden of Rohan (Dernhelm)",
+				"factions": [
+					{
+						"name": "Rohan",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"unavailableSolo": true,
+				"unavailableWith": [
+					"Helm Hammerhand"
+				],
+				"points": 40,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 4,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Resolve",
+					"Heroid Strike",
+					"Heroic Strength"
+				],
+				"keywords": [
+					"Woman",
+					"Rohan",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": [
+					"Expert Rider",
+					"Horse Lord",
+					"I Shall Kill You if You Touch Him"
+				],
+				"wargear": [
+					"Sword",
+					"Shield"
+				]
+			},
+			{
 				"name": "Meriadoc Brandybuck, Knight of the Mark",
 				"factions": [
 					{
@@ -2798,6 +2844,54 @@
 				"wargear": [
 					"Armour",
 					"Dagger"
+				]
+			},
+			{
+				"name": "Meriadoc Brandybuck, Knight of the Mark (Dernhelm)",
+				"factions": [
+					{
+						"name": "Rohan",
+						"heroicTier": "Independent Hero"
+					},
+					{
+						"name": "The Men of the West",
+						"heroicTier": "Independent Hero"
+					}
+				],
+				"unavailableWith": [
+					"Helm Hammerhand"
+				],
+				"unavailableSolo": true,
+				"points": 25,
+				"movement": 4,
+				"fight": 3,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 4,
+				"might": 1,
+				"will": 1,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Strike"
+				],
+				"keywords": [
+					"Hobbit",
+					"Rohan",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": [
+					"Resistant to Magic",
+					"Throw Stones (range 8\", Strength 1)"
+				],
+				"wargear": [
+					"Armour",
+					"Dagger",
+					"Shield"
 				]
 			},
 			{
@@ -3403,11 +3497,11 @@
 				"includes": [
 					{
 						"dataSource": "heroes",
-						"name": "Meriadoc Brandybuck, Knight of the Mark"
+						"name": "Meriadoc Brandybuck, Knight of the Mark (Dernhelm)"
 					},
 					{
 						"dataSource": "heroes",
-						"name": "Éowyn, Shield Maiden of Rohan"
+						"name": "Éowyn, Shield Maiden of Rohan (Dernhelm)"
 					}
 				],
 				"keywords": [
