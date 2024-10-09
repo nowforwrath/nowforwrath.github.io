@@ -13083,7 +13083,7 @@
 				"options": [],
 				"specialRules": [
 					"Sworn Protector (Thorin Oakenshield, King Under the Mountain)",
-					"A Good Sort Really",
+					"A Good Sort Really (Champions)",
 					"Weapon Master"
 				],
 				"wargear": [
@@ -17414,8 +17414,6 @@
 				"options": [],
 				"specialRules": [
 					"Go for the Horse!",
-					"Hatred (Rohan)",
-					"Hatred",
 					"Readied Stance"
 				],
 				"wargear": [
@@ -17462,9 +17460,7 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Ironskin",
-					"Hatred (Rohan)",
-					"Hatred"
+					"Ironskin"
 				],
 				"wargear": [
 					"Armour",
@@ -34786,9 +34782,14 @@
 				"definition": "Nori the Dwarf, Champion of Erebor may re-roll one dice to win a Duel and may re-roll one dice when making Strikes."
 			},
 			{
-				"name": "A Good Sort Really",
+				"name": "A Good Sort Really (Champions)",
 				"tag": "Passive",
 				"definition": "If Bilbo Baggins, Master Burglar is within 3\" of Dori the Dwarf, Champion of Erebor, he may spend Dori’s Might, Will and Fate points as if they were his own."
+			},
+			{
+				"name": "A Good Sort Really",
+				"tag": "Passive",
+				"definition": "If Bilbo Baggins is within 3\" of Dori the Dwarf, he may spend Dori’s Might, Will and Fate points as if they were his own."
 			},
 			{
 				"name": "A Warrior Born",
