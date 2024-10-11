@@ -2752,7 +2752,7 @@
 				"fight": 5,
 				"shoot": 4,
 				"strength": 3,
-				"defence": 4,
+				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
 				"courage": 5,
@@ -2777,6 +2777,7 @@
 					"I Shall Kill You if You Touch Him"
 				],
 				"wargear": [
+					"Armour",
 					"Sword",
 					"Shield"
 				]
@@ -21580,12 +21581,7 @@
 						"points": 10
 					}
 				],
-				"specialRules": [
-					"Long-bladed spear",
-					"Royal War Mumak",
-					"Imposing Presence",
-					"High King of the Mahud"
-				],
+				"specialRules": [],
 				"wargear": [
 					"Armour",
 					"Club"
