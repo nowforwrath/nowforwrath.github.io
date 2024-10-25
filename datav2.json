@@ -327,6 +327,11 @@
 											"dataSource": "keywords"
 										}
 									]
+								},
+								{
+									"propertyName": "heroicActions",
+									"label": "Heroic Actions",
+									"type": "static"
 								}
 							]
 						},
