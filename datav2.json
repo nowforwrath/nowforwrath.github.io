@@ -173,6 +173,17 @@
 			],
 			"minimum": 2,
 			"message": "You must have at least one hero of at least Hero of Valour per faction for a Convenient or Impossible alliance."
+		},
+		{
+			"type": "propertyPerTier",
+			"property": "keywords",
+			"value": [
+				"Siege Engine",
+				"Siege Weapon"
+			],
+			"maxPer": 1,
+			"tier": 3,
+			"message": "You must have one Hero of Fortitude for each Siege keyword."
 		}
 	],
 	"leaderConfig": {
