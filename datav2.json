@@ -182,8 +182,11 @@
 				"Siege Weapon"
 			],
 			"maxPer": 1,
+			"exceptionChild": [
+				"Upgrade to Engineer Captain"
+			],
 			"tier": 3,
-			"message": "You must have one Hero of Fortitude for each Siege keyword."
+			"message": "You must have one hero of at least Hero of Fortitude for each Siege keyword."
 		}
 	],
 	"leaderConfig": {
