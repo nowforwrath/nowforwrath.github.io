@@ -27516,7 +27516,7 @@
 				"options": [],
 				"specialRules": [
 					"Terror",
-					"Relentless Advance"
+					"Relentless Advance (Ogre)"
 				],
 				"wargear": [
 					"Wooden clubs"
@@ -34846,7 +34846,7 @@
 				"definition": "Bilbo Baggins ignores the Sauron’s Will section of the One Ring’s rules. Furthermore, if Bilbo is the only model left on the controlling player's side, and is wearing the Ring, he is not removed as a casualty, as would usually be the case."
 			},
 			{
-				"name": "Relentless Advance",
+				"name": "Relentless Advance (Ogre)",
 				"tag": "Active",
 				"definition": "When an Ogre charges into combat, they can pass ‘through’ friendly Orc, Goblin and Bat models when they move and each model that they pass through suffers a Strength 3 hit. A model that they end their move on is automatically removed as a casualty. A model with this special rule cannot be Compelled/Commanded over friendly models if it is forced to Charge as part of that Magical Power."
 			},
