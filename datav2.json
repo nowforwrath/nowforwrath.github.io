@@ -18199,18 +18199,6 @@
 				],
 				"wargear": [
 					"Claws and Teeth"
-				],
-				"magicalPowers": [
-					{
-						"name": "Transfix",
-						"range": 12,
-						"casting": 3
-					},
-					{
-						"name": "Compel",
-						"range": 12,
-						"casting": 4
-					}
 				]
 			},
 			{
