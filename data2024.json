@@ -432,6 +432,11 @@
 							"type": "static"
 						},
 						{
+							"propertyName": "baseSize",
+							"label": "Base Size",
+							"type": "static"
+						},
+						{
 							"propertyName": "magicalPowers",
 							"label": "Magical Powers",
 							"type": "static",
@@ -625,7 +630,7 @@
 						"elementPropertyName": "keywords"
 					}
 				],
-				"armyBonus": "\"They're dangerous folk, wandering the wilds\" - All models from this army list gain the Woodland Creature special rule, and the Rangers of the North and Dunedain may benefit from the Stand Fast! of Arathorn, Halbarad and Aragorn - Strider. Additionally, the Rangers of the North and the Dunedain increase their Attacks value to 2, while they have the Infantry keyword.",
+				"armyBonus": "\"They're dangerous folk, wandering the wilds\" - All models from this army list gain the Woodland Creature special rule, and the Rangers of the North and Dunedain may benefit from the Stand Fast! of Arathorn, Halbarad and Aragorn (Strider). Additionally, the Rangers of the North and the Dunedain increase their Attacks value to 2, while they have the Infantry keyword.",
 				"primaryAllies": [
 					"The Dead of Dunharrow",
 					"The Shire"
@@ -698,7 +703,7 @@
 				"armyBonus": "\"Passing of the Grey Company\" - All models from this army list gain the Woodland Creature special rule, and Rangers of the North may benefit from the Stand Fast! of Aragorn, Legolas, Gimli, Halbarad, and Elladan & Elrohir. Additionally, Rangers of the North increase their Attacks value to 2 whilst they have the Infantry keyword.\n\"The Grey Company\" - A Grey Company army is always deployed as a single warband, regardless of the number of models, with Aragorn as the warband's captain.\n\"The Heir of Isildur\" - Aragorn does not have to pay any points for Andúril, Flame of the West, he automatically has this upgrade - it is free.",
 				"requiredChildren": [
 					{
-						"name": "Aragorn - Strider",
+						"name": "Aragorn (Strider)",
 						"elementPropertyName": "heroes",
 						"points": 160,
 						"quantity": 1,
@@ -975,7 +980,7 @@
 						"quantity": 1
 					},
 					{
-						"name": "Aragorn - Strider",
+						"name": "Aragorn (Strider)",
 						"elementPropertyName": "heroes",
 						"points": 160,
 						"quantity": 1,
@@ -1060,7 +1065,7 @@
 				"armyBonus": "“You have my sword.” - As long as Frodo is alive and on the table (or escapes the board in Scenarios where this applies), all models from The Fellowship army list gain the Fearless special rule. Additionally, a force that consists solely of models from The Fellowship army list will never be considered broken if Frodo is alive and on the table (or escapes the board in Scenarios where this applies).\n\"The Bond of Fellowship\" - Models from this Legendary Legion count as in range of a banner if there is another friendly model within 3\".\n\"Blessing of Galadriel\" - Friendly models always count as having had the Fortify Spirit Magical Power cast upon them. This is always in effect, even if their Will points have been reduced to 0.\n\"Gifts of Galadriel\" - Each member of the Fellowship will gain the item listed below:\nFrodo - Light of Erendil: Each turn Frodo may use a single \"Free\" Will point to attempt to cast the Blinding Light Magical Power. This is cast on a 3+ and cannot be Channeled. Frodo cannot use this if he is wearing the Ring.\nSam - Elven Rope: Sam always counts as rolling a 6 for any Climb, Jump, or Leap tests that he has to make.\nMerry & Pippin - Daggers of the Noldorin: Merry & Pippin may re-roll any failed To Wound rolls in combat.\nAragorn - Elven Dagger: This is an Elven-made dagger with the Uruk-Hai bane special rule.\nLegolas - Bow of the Galadhrim: Whilst within 3\" of a friendly model, Legolas may re-roll any failed To Hit rolls when shooting.\nGimli - Galadriel's Locks: Gimli may re-roll all dice in a Duel roll. Gimli may only use this ability three times per game.\nBoromir - Golden Belt: Boromir gains the Woodland Creature special rule.",
 				"requiredChildren": [
 					{
-						"name": "Aragorn - Strider",
+						"name": "Aragorn (Strider)",
 						"elementPropertyName": "heroes",
 						"points": 160,
 						"quantity": 1,
@@ -7032,7 +7037,7 @@
 					{
 						"name": "The Fellowship",
 						"heroicTier": "Minor Hero",
-						"unlockedBy": "Aragorn - Strider"
+						"unlockedBy": "Aragorn (Strider)"
 					}
 				],
 				"points": 60,
@@ -7316,7 +7321,7 @@
 				]
 			},
 			{
-				"name": "Aragorn - Strider",
+				"name": "Aragorn (Strider)",
 				"factions": [
 					{
 						"name": "The Rangers",
@@ -7350,29 +7355,39 @@
 				],
 				"points": 160,
 				"movement": 6,
-				"fight": 6,
+				"fight": 7,
 				"shoot": 3,
 				"strength": 4,
 				"defence": 5,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 3,
 				"might": 3,
 				"will": 3,
 				"fate": 3,
-				"heroicActions": [
-					"Heroic Resolve",
-					"Heroic March",
-					"Heroic Accuracy",
-					"Heroic Strike",
-					"Heroic Strength",
-					"Heroic Defence",
-					"Heroic Challenge"
+				"race": [
+					"Man"
 				],
-				"keywords": [
-					"Man",
+				"faction": [
+					"Fellowship, Dunedain"
+				],
+				"heroicActions": [
+					"Heroic Accuracy",
+					"Heroic Challenge",
+					"Heroic Defence",
+					"Heroic March",
+					"Heroic Resolve",
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"options": [
 					{
@@ -7396,8 +7411,8 @@
 						]
 					},
 					{
-						"name": "Horse",
-						"points": 10,
+						"name": "Brego",
+						"points": 20,
 						"availableIn": [
 							"The Rangers",
 							"The Fellowship"
@@ -7459,11 +7474,13 @@
 					}
 				],
 				"specialRules": [
+					"Horse Lord",
 					"Mighty Hero",
-					"Horse Lord"
+					"Resistant to Magic"
 				],
 				"wargear": [
-					"Sword"
+					"Ring of Barahir",
+					"Hand-and-a-half weapon"
 				]
 			},
 			{
@@ -7485,7 +7502,7 @@
 							"with": [
 								{
 									"any": [
-										"Aragorn - Strider"
+										"Aragorn (Strider)"
 									]
 								}
 							]
@@ -7497,17 +7514,17 @@
 							"with": [
 								{
 									"any": [
-										"Aragorn - Strider"
+										"Aragorn (Strider)"
 									]
 								}
 							]
 						}
 					],
 					"loseArmyBonusWithHero": [
-						"Aragorn - Strider"
+						"Aragorn (Strider)"
 					],
 					"becomeImpossibleWithAllWithHero": [
-						"Aragorn - Strider"
+						"Aragorn (Strider)"
 					]
 				},
 				"points": 75,
@@ -7538,7 +7555,7 @@
 					"Armour",
 					"Bow"
 				],
-				"specialText": "If your force contains Arathorn and Aragorn - Strider, then it will automatically lose its Army Bonus. Additionally, the force will automatically be\n                Impossible Allies with every other army list regardless of what the alliance would normally be."
+				"specialText": "If your force contains Arathorn and Aragorn (Strider), then it will automatically lose its Army Bonus. Additionally, the force will automatically be\n                Impossible Allies with every other army list regardless of what the alliance would normally be."
 			},
 			{
 				"name": "Halbarad",
@@ -26771,15 +26788,29 @@
 					"Rangers of Ithilien",
 					"Battle of Fornost"
 				],
-				"points": 7,
+				"points": 8,
 				"movement": 6,
-				"fight": 3,
+				"fight": 4,
 				"shoot": 4,
 				"strength": 3,
 				"defence": 5,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"keywords": [
 					"Man",
 					"Gondor",
@@ -26788,23 +26819,23 @@
 				],
 				"options": [
 					{
-						"name": "War horn",
-						"points": 30
+						"name": "War horn and Shield",
+						"points": 26
 					},
 					{
 						"name": "Banner",
 						"points": 25
 					},
 					{
-						"name": "Shield",
-						"points": 1
+						"name": "Shield and spear",
+						"points": 2
 					},
 					{
 						"name": "Bow",
 						"points": 1
 					},
 					{
-						"name": "Spear",
+						"name": "Shield",
 						"points": 1
 					}
 				],
@@ -26813,7 +26844,7 @@
 				],
 				"wargear": [
 					"Heavy Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -31454,6 +31485,37 @@
 		],
 		"gear": [
 			{
+				"name": "Shield and Spear",
+				"includes": [
+					{
+						"name": "Shield",
+						"dataSource": "gear"
+					},
+					{
+						"name": "Spear",
+						"dataSource": "gear"
+					}
+				]
+			},
+			{
+				"name": "War horn and Shield",
+				"includes": [
+					{
+						"name": "War horn",
+						"dataSource": "gear"
+					},
+					{
+						"name": "Shield",
+						"dataSource": "gear"
+					}
+				]
+			},
+			{
+				"name": "Ring of Barahir",
+				"tag": "Passive",
+				"definition": "This is a Unique piece of Wargear. Whenever Aragorn is affected by a Magical Power, after any Resist Tests have been made (if able), he may roll a D6. On a natural 6, Aragorn is not affected by that Magical Power."
+			},
+			{
 				"name": "Flaming Brand",
 				"tag": "Passive",
 				"definition": "A model with a flaming brand has the Terror (Cavalry) and Terror (Beast) special rules. Additionally, a model with a flaming brand counts as 2 models rather than 1 when working out how many models are within range of an Objective Marker."
@@ -31493,6 +31555,22 @@
 				"attack": 0,
 				"wounds": 1,
 				"courage": 3
+			},
+			{
+				"name": "Brego",
+				"type": "mount",
+				"movement": 10,
+				"fight": 2,
+				"shoot": 6,
+				"strength": 3,
+				"defence": 4,
+				"attack": 0,
+				"wounds": 1,
+				"courage": 6,
+				"intelligence": 6,
+				"specialRules": [
+					"Sure-footed Steed"
+				]
 			},
 			{
 				"name": "Scythe Gauntlets",
@@ -31952,7 +32030,7 @@
 			{
 				"name": "Dwarf Long Bow",
 				"type": "bow",
-				"definition": "24\" Range, 2 Strength"
+				"definition": "24\" Range, 3 Strength"
 			},
 			{
 				"name": "Crossbow",
@@ -35275,6 +35353,11 @@
 				"name": "Spear Mastery",
 				"tag": "Active",
 				"definition": "This model may use its throwing spears as a normal spear during the Fight Phase, so long as it hasn't made a Shooting Attack with it in either the preceding Move Phase or Shoot Phase."
+			},
+			{
+				"name": "Sure-footed Steed",
+				"tag": "Active",
+				"definition": "If Aragorn would be knocked Prone whilst riding Brego, and Brego is not slain as a result of the effect causing Aragorn to be knocked Prone, then before becoming a Separated Mount Aragorn may roll a D6. On a 6, Aragorn is not knocked Prone and stays mounted upon Brego. Aragorn may use Might to improve this roll."
 			}
 		]
 	}
