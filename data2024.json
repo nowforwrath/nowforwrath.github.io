@@ -26820,23 +26820,28 @@
 				"options": [
 					{
 						"name": "War horn and Shield",
-						"points": 26
+						"points": 26,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Banner",
-						"points": 25
+						"points": 25,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Shield and spear",
-						"points": 2
+						"points": 2,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Bow",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
