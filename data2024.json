@@ -979,6 +979,16 @@
 						"elementPropertyName": "heroes"
 					}
 				]
+			},
+			{
+				"name": "Army of Thror",
+				"alignment": "good",
+				"armyBonus": "\"Thror ruled with utter surety, never doubting his house would endure\" - Friendly Erebor models treat Thror as a banner with a range of 6\"\n                \"Erebor Treasure Hoard\" - Friendly Erebor models gain a bonus of +1 To Wound when making Strikes against an enemy model that is in possession of an Objective Marker. Additionally, Friendly Erebor models that are within their deployment zone may re-roll To Wound Rolls of a natural 1 when making Strikes."
+			},
+			{
+				"name": "The Battle of Five Armies",
+				"alignment": "good",
+				"armyBonus": "\"Something?\" - Friendly models may re-roll To Wound Rolls of a natural 1 when making Strikes if they are involved in a Combat with a friendly model that has a different racial Keyword to themselves."
 			}
 		],
 		"heroicTiers": [
@@ -1233,7 +1243,7 @@
 				"name": "Hera, The Bride of Death",
 				"factions": [
 					{
-						"name": "defenders of the Hornburg",
+						"name": "Defenders of the Hornburg",
 						"heroicTier": "Hero of Legend"
 					}
 				],
@@ -8196,7 +8206,7 @@
 						"heroicTier": "Hero of Legend"
 					},
 					{
-						"name": "Erebor Reclaimed",
+						"name": "The Battle of Five Armies",
 						"heroicTier": "Hero of Valour"
 					}
 				],
@@ -11779,6 +11789,10 @@
 					{
 						"name": "The Shire",
 						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Legend"
 					}
 				],
 				"points": 170,
@@ -11833,7 +11847,8 @@
 							"Survivors of Lake-town",
 							"The White Council",
 							"Thorin's Company",
-							"The Shire"
+							"The Shire",
+							"The Battle of Five Armies"
 						]
 					},
 					{
@@ -13296,6 +13311,10 @@
 					{
 						"name": "The Iron Hills",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Army of Thror",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 85,
@@ -13404,6 +13423,43 @@
 						]
 					}
 				],
+				"specialRules": [],
+				"wargear": [
+					"Heavy Dwarf Armour",
+					"Axe"
+				]
+			},
+			{
+				"name": "Erebor Dwarf Captain",
+				"factions": [
+					{
+						"name": "Army of Thror",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 75,
+				"movement": 5,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"unlimited": true,
+				"heroicActions": [
+					"Heroic March"
+				],
+				"keywords": [
+					"Dwarf",
+					"Khazad-Dum",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
 				"specialRules": [],
 				"wargear": [
 					"Heavy Dwarf Armour",
@@ -13551,9 +13607,13 @@
 					{
 						"name": "Erebor Reclaimed",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 55,
+				"points": 50,
 				"movement": 5,
 				"fight": 4,
 				"shoot": 3,
@@ -13637,9 +13697,13 @@
 					{
 						"name": "Defenders of Erebor",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 80,
+				"points": 75,
 				"movement": 5,
 				"fight": 5,
 				"shoot": 4,
@@ -13725,6 +13789,10 @@
 					},
 					{
 						"name": "Defenders of Erebor",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Battle of Five Armies",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -13864,9 +13932,13 @@
 					{
 						"name": "Erebor Reclaimed",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 65,
+				"points": 60,
 				"movement": 5,
 				"fight": 4,
 				"shoot": 4,
@@ -13951,9 +14023,13 @@
 					{
 						"name": "Defenders of Erebor",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 90,
+				"points": 100,
 				"movement": 5,
 				"fight": 6,
 				"shoot": 4,
@@ -14969,11 +15045,11 @@
 				"name": "Thorin Oakenshield, King Under the Mountain",
 				"factions": [
 					{
-						"name": "Erebor Reclaimed",
+						"name": "The Battle of Five Armies",
 						"heroicTier": "Hero of Legend"
 					}
 				],
-				"points": 115,
+				"points": 130,
 				"movement": 5,
 				"fight": 6,
 				"shoot": 4,
@@ -15002,7 +15078,7 @@
 						"name": "Orcrist",
 						"points": 10,
 						"availableIn": [
-							"Erebor Reclaimed"
+							"The Battle of Five Armies"
 						]
 					},
 					{
@@ -15091,9 +15167,13 @@
 					{
 						"name": "Defenders of Erebor",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Valour"
 					}
 				],
-				"points": 115,
+				"points": 110,
 				"movement": 5,
 				"fight": 6,
 				"shoot": 4,
@@ -15200,7 +15280,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 50,
+				"points": 55,
 				"movement": 5,
 				"fight": 5,
 				"shoot": 3,
@@ -15247,7 +15327,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 50,
+				"points": 70,
 				"movement": 5,
 				"fight": 5,
 				"shoot": 3,
@@ -15294,7 +15374,7 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
-				"points": 40,
+				"points": 60,
 				"movement": 5,
 				"fight": 4,
 				"shoot": 4,
@@ -15338,9 +15418,13 @@
 					{
 						"name": "Erebor Reclaimed",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Valour"
 					}
 				],
-				"points": 75,
+				"points": 70,
 				"movement": 5,
 				"fight": 5,
 				"shoot": 3,
@@ -15394,9 +15478,13 @@
 					{
 						"name": "Erebor Reclaimed",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Valour"
 					}
 				],
-				"points": 75,
+				"points": 70,
 				"movement": 5,
 				"fight": 5,
 				"shoot": 3,
@@ -15450,6 +15538,10 @@
 					{
 						"name": "Erebor Reclaimed",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 60,
@@ -15493,6 +15585,10 @@
 					},
 					{
 						"name": "Defenders of Erebor",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Battle of Five Armies",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -15582,6 +15678,10 @@
 					{
 						"name": "Defenders of Erebor",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 65,
@@ -15606,7 +15706,12 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [],
+				"options": [
+					{
+						"name": "Troll Brute",
+						"points": 100
+					}
+				],
 				"specialRules": [
 					"Sworn Protector (Thorin Oakenshield, King Under the Mountain)",
 					"Steadfast"
@@ -15663,6 +15768,10 @@
 				"factions": [
 					{
 						"name": "Erebor Reclaimed",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Battle of Five Armies",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -17028,9 +17137,13 @@
 					{
 						"name": "Army of Lake-town",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Legend"
 					}
 				],
-				"points": 140,
+				"points": 125,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 3,
@@ -17054,6 +17167,28 @@
 					"Infantry",
 					"Hero"
 				],
+				"requiredChildren": [
+					{
+						"name": "Armour",
+						"points": 5,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"The Battle of Five Armies"
+							]
+						]
+					},
+					{
+						"name": "Horse",
+						"points": 20,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"The Battle of Five Armies"
+							]
+						]
+					}
+				],
 				"options": [
 					{
 						"name": "The Windlance",
@@ -17065,7 +17200,7 @@
 					},
 					{
 						"name": "Horse",
-						"points": 10
+						"points": 20
 					}
 				],
 				"specialRules": [
@@ -17274,10 +17409,14 @@
 				]
 			},
 			{
-				"name": "Percy",
+				"name": "Percy, Lake-town Archer",
 				"factions": [
 					{
 						"name": "Survivors of Lake-town",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Battle of Five Armies",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -17317,9 +17456,13 @@
 					{
 						"name": "Survivors of Lake-town",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 30,
+				"points": 35,
 				"movement": 6,
 				"fight": 2,
 				"shoot": 4,
@@ -17354,9 +17497,13 @@
 					{
 						"name": "Survivors of Lake-town",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 90,
+				"points": 75,
 				"movement": 4,
 				"fight": 3,
 				"shoot": 3,
@@ -17520,10 +17667,14 @@
 					{
 						"name": "Survivors of Lake-town",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
-				"points": 40,
+				"points": 50,
 				"movement": 6,
 				"fight": 3,
 				"shoot": 4,
@@ -17544,12 +17695,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Shield",
-						"points": 5
-					}
-				],
+				"options": [],
 				"specialRules": [],
 				"wargear": [
 					"Spear",
@@ -17640,9 +17786,13 @@
 					{
 						"name": "Halls of Thranduil",
 						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Legend"
 					}
 				],
-				"points": 100,
+				"points": 130,
 				"movement": 6,
 				"fight": 6,
 				"shoot": 2,
@@ -17672,20 +17822,8 @@
 						"points": 10
 					},
 					{
-						"name": "Elk",
-						"points": 20
-					},
-					{
-						"name": "Additional Elven-made Sword",
+						"name": "Great Elk",
 						"points": 30
-					},
-					{
-						"name": "Circlet of Kings",
-						"points": 25
-					},
-					{
-						"name": "Elf Bow",
-						"points": 5
 					}
 				],
 				"specialRules": [
@@ -17779,6 +17917,10 @@
 					{
 						"name": "Rangers of Mirkwood",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 95,
@@ -17809,21 +17951,24 @@
 						"points": 5,
 						"availableIn": [
 							"Halls of Thranduil",
-							"Rangers of Mirkwood"
+							"Rangers of Mirkwood",
+							"The Battle of Five Armies"
 						]
 					},
 					{
 						"name": "Horse",
 						"points": 10,
 						"availableIn": [
-							"Halls of Thranduil"
+							"Halls of Thranduil",
+							"The Battle of Five Armies"
 						]
 					},
 					{
 						"name": "Orcrist",
 						"points": 10,
 						"availableIn": [
-							"Halls of Thranduil"
+							"Halls of Thranduil",
+							"The Battle of Five Armies"
 						]
 					}
 				],
@@ -17838,7 +17983,7 @@
 				]
 			},
 			{
-				"name": "Tauriel",
+				"name": "Tauriel, Ranger of Mirkwood",
 				"factions": [
 					{
 						"name": "Halls of Thranduil",
@@ -17849,7 +17994,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 85,
+				"points": 90,
 				"movement": 6,
 				"fight": 6,
 				"shoot": 3,
@@ -17871,29 +18016,10 @@
 					"Infantry",
 					"Hero"
 				],
-				"requiredChildren": [
-					{
-						"elementPropertyName": "options",
-						"name": "Elf Bow",
-						"in": [
-							[
-								"Rangers of Mirkwood"
-							]
-						],
-						"points": 5
-					}
-				],
 				"options": [
 					{
 						"name": "Elf Bow",
-						"points": 5,
-						"availableIn": [
-							"Halls of Thranduil",
-							"Rangers of Mirkwood"
-						],
-						"requiredIn": [
-							"Rangers of Mirkwood"
-						]
+						"points": 5
 					}
 				],
 				"specialRules": [
@@ -17957,10 +18083,14 @@
 				]
 			},
 			{
-				"name": "Mirkwood Captain",
+				"name": "Mirkwood Elf Captain",
 				"factions": [
 					{
 						"name": "Halls of Thranduil",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Battle of Five Armies",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -19161,6 +19291,10 @@
 					{
 						"name": "Vanquishers of the Necromancer",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Legend"
 					}
 				],
 				"points": 150,
@@ -19184,38 +19318,41 @@
 					"Infantry",
 					"Hero"
 				],
+				"requiredChildren": [
+					{
+						"name": "Great Eagle",
+						"points": 50,
+						"elementProperyName": "options",
+						"in": [
+							[
+								"The Battle of Five Armies"
+							]
+						]
+					}
+				],
 				"options": [
 					{
-						"name": "Exchange Staff of Power for Great Eagle",
+						"name": "Great Eagle",
 						"points": 50,
 						"usesDefinition": "Great Eagle",
-						"availableIn": [
-							"Radagast's Alliance",
-							"The White Council"
-						],
 						"chooseOneKey": "a"
 					},
 					{
 						"name": "Sleigh",
 						"points": 45,
-						"chooseOneKey": "a"
+						"chooseOneKey": "a",
+						"availableIn": []
 					},
 					{
 						"name": "Horse",
 						"points": 10,
-						"availableIn": [
-							"Radagast's Alliance",
-							"The White Council"
-						],
-						"chooseOneKey": "a"
+						"chooseOneKey": "a",
+						"availableIn": []
 					},
 					{
 						"name": "Sebastian",
 						"points": 5,
-						"availableIn": [
-							"Radagast's Alliance",
-							"The White Council"
-						]
+						"availableIn": []
 					}
 				],
 				"specialRules": [
@@ -19433,6 +19570,10 @@
 					{
 						"name": "The Iron Hills",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -19474,7 +19615,10 @@
 				"options": [
 					{
 						"name": "Iron Hills Chariot",
-						"points": 170
+						"points": 170,
+						"availableIn": [
+							"The Iron Hills"
+						]
 					},
 					{
 						"name": "Exchange Shield and Spear for Mattock",
@@ -19955,6 +20099,10 @@
 					{
 						"name": "Men of the West",
 						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 150,
@@ -20016,7 +20164,7 @@
 						"heroicTier": "Hero of Legend"
 					}
 				],
-				"points": 120,
+				"points": 130,
 				"movement": 5,
 				"fight": 6,
 				"shoot": 4,
@@ -20051,14 +20199,14 @@
 				"specialText": "If your army does not include Durin, King of Khadad-Dum, then Thror carries the Ring of Durin"
 			},
 			{
-				"name": "Thrain",
+				"name": "Thrain, Son of Thror",
 				"factions": [
 					{
 						"name": "Army of Thror",
 						"heroicTier": "Hero of Valour"
 					}
 				],
-				"points": 120,
+				"points": 130,
 				"movement": 5,
 				"fight": 6,
 				"shoot": 4,
@@ -20100,7 +20248,7 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
-				"points": 100,
+				"points": 110,
 				"movement": 5,
 				"fight": 6,
 				"shoot": 4,
@@ -20124,12 +20272,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "The Oakenshield",
-						"points": 5
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"To Arms!"
 				],
@@ -20146,7 +20289,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 55,
+				"points": 60,
 				"movement": 5,
 				"fight": 4,
 				"shoot": 4,
@@ -20184,7 +20327,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 85,
+				"points": 90,
 				"movement": 5,
 				"fight": 5,
 				"shoot": 4,
@@ -20226,7 +20369,7 @@
 					}
 				],
 				"unlimited": true,
-				"points": 70,
+				"points": 80,
 				"movement": 5,
 				"fight": 5,
 				"shoot": 4,
@@ -20463,6 +20606,10 @@
 					{
 						"name": "Radagast's Alliance",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"hideStats": true,
@@ -20480,6 +20627,10 @@
 					},
 					{
 						"name": "Radagast's Alliance",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "The Battle of Five Armies",
 						"heroicTier": "Hero of Valour"
 					}
 				],
@@ -31655,7 +31806,7 @@
 				"options": []
 			},
 			{
-				"name": "Grim Hammer",
+				"name": "Grim Hammer Warrior",
 				"factions": [
 					"Army of Thror"
 				],
@@ -31674,23 +31825,7 @@
 					"Infantry",
 					"Warrior"
 				],
-				"options": [
-					{
-						"name": "War Horn",
-						"points": 30
-					},
-					{
-						"name": "Banner",
-						"points": 25
-					},
-					{
-						"name": "Guardians of the King",
-						"points": 1,
-						"availableIn": [
-							"Thror"
-						]
-					}
-				],
+				"options": [],
 				"specialRules": [],
 				"wargear": [
 					"Heavy Armour",
@@ -31699,11 +31834,11 @@
 				]
 			},
 			{
-				"name": "Warrior of Erebor",
+				"name": "Erebor Dwarf Warrior",
 				"factions": [
 					"Army of Thror"
 				],
-				"points": 8,
+				"points": 9,
 				"movement": 5,
 				"fight": 4,
 				"shoot": 4,
@@ -31720,12 +31855,8 @@
 				],
 				"options": [
 					{
-						"name": "War Horn",
-						"points": 30
-					},
-					{
-						"name": "Banner",
-						"points": 25
+						"name": "Shield and Spear",
+						"points": 2
 					},
 					{
 						"name": "Shield",
