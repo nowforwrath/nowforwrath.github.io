@@ -654,6 +654,13 @@
 						"type": "bow",
 						"percentage": 50
 					}
+				],
+				"requiredChildren": [
+					{
+						"name": "Faramir, Captain of Gondor",
+						"points": 100,
+						"elementPropertyName": "heroes"
+					}
 				]
 			},
 			{
@@ -2868,10 +2875,24 @@
 				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
 				],
@@ -2921,18 +2942,6 @@
 						]
 					},
 					{
-						"name": "Bow",
-						"points": 5,
-						"availableIn": [
-							"Rohan",
-							"Riders of Theoden",
-							"Theodred's Guard",
-							"Defenders of Helm's Deep",
-							"Paths of the Druadan",
-							"Helm's Guard"
-						]
-					},
-					{
 						"name": "Exchange armour for heavy armour",
 						"usesDefinition": "Heavy Armour",
 						"points": 5
@@ -2953,11 +2962,11 @@
 				],
 				"specialRules": [
 					"Expert Rider",
-					"Horse Lord",
-					"Arise Riders of Theoden!"
+					"Horse Lord"
 				],
 				"wargear": [
-					"Armour"
+					"Armour",
+					"Hand weapon"
 				]
 			},
 			{
@@ -4448,7 +4457,7 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
-				"points": 70,
+				"points": 75,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
@@ -4457,9 +4466,24 @@
 				"attack": 2,
 				"wounds": 2,
 				"courage": 5,
+				"intelligence": 6,
 				"might": 2,
 				"will": 4,
 				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March",
 					"Heroic Channeling"
@@ -4477,27 +4501,29 @@
 					}
 				],
 				"specialRules": [
-					"Terror"
+					"Harbinger of Evil (6\")",
+					"Terror",
+					"Sense of impending doom"
 				],
 				"wargear": [
 					"Heavy armour",
-					"Hand-and-a-half Sword"
+					"Hand-and-a-half weapon"
 				],
 				"magicalPowers": [
 					{
 						"name": "Drain Courage",
 						"range": 12,
-						"casting": 2
+						"casting": 3
+					},
+					{
+						"name": "Curse",
+						"range": 12,
+						"casting": 4
 					},
 					{
 						"name": "Transfix",
 						"range": 12,
 						"casting": 3
-					},
-					{
-						"name": "Instill Fear",
-						"range": 3,
-						"casting": 5
 					}
 				]
 			},
@@ -6201,15 +6227,32 @@
 				"points": 100,
 				"movement": 10,
 				"fight": 7,
-				"shoot": 6,
+				"shoot": 4,
 				"strength": 7,
 				"defence": 7,
 				"attack": 1,
 				"wounds": 6,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 5,
 				"might": 0,
 				"will": 6,
 				"fate": 0,
+				"race": [
+					"Spider"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Monster",
+					"Beast",
+					"Unique"
+				],
+				"baseSize": [
+					"60mm"
+				],
 				"heroicActions": [],
 				"keywords": [
 					"Spider",
@@ -6220,16 +6263,19 @@
 				],
 				"options": [],
 				"specialRules": [
+					"Dominant (4)",
 					"Monstrous Charge",
 					"Survival Instinct",
 					"Swift Movement",
 					"Terror",
 					"Venom",
-					"Caught in a Web",
-					"Lone Hunter"
+					"Lone Hunter",
+					"She is always hungry",
+					"She hungers for sweeter meats",
+					"Caught in a Web"
 				],
 				"wargear": [
-					"Large Venomous Fangs"
+					"Fangs (hand weapon)"
 				]
 			},
 			{
@@ -7961,7 +8007,7 @@
 						"heroicTier": "Hero of Valour"
 					},
 					{
-						"name": "Rangers of Ithilien",
+						"name": "Garrison of Ithilien",
 						"heroicTier": "Hero of Valour"
 					},
 					{
@@ -8013,12 +8059,16 @@
 					{
 						"name": "Horse",
 						"points": 20,
-						"availableIn": []
+						"availableIn": [
+							"Minas Tirith"
+						]
 					},
 					{
 						"name": "Shield",
 						"points": 5,
-						"availableIn": []
+						"availableIn": [
+							"Minas Tirith"
+						]
 					},
 					{
 						"name": "Exchange armour and bow for heavy armour",
@@ -9060,10 +9110,6 @@
 				"name": "Damrod, Ranger of Ithilien",
 				"factions": [
 					{
-						"name": "Minas Tirith",
-						"heroicTier": "Minor Hero"
-					},
-					{
 						"name": "Rangers of Ithilien",
 						"heroicTier": "Minor Hero"
 					}
@@ -9298,11 +9344,26 @@
 				"strength": 2,
 				"defence": 4,
 				"attack": 1,
-				"wounds": 1,
-				"courage": 4,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 6,
 				"might": 1,
 				"will": 1,
 				"fate": 2,
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Defence"
 				],
@@ -9329,7 +9390,7 @@
 				],
 				"wargear": [
 					"Armour",
-					"Dagger"
+					"Hand weapon"
 				]
 			},
 			{
@@ -10058,19 +10119,34 @@
 				],
 				"points": 100,
 				"movement": 6,
-				"fight": 5,
+				"fight": 6,
 				"shoot": 4,
 				"strength": 4,
 				"defence": 8,
 				"attack": 2,
-				"wounds": 2,
-				"courage": 7,
+				"wounds": 3,
+				"courage": 3,
+				"intelligence": 5,
 				"might": 1,
 				"will": 6,
 				"fate": 3,
+				"race": [
+					"Spirit"
+				],
+				"faction": [
+					"Dunharrow"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic Strike",
-					"Heroic March"
+					"Heroic March",
+					"Heroic Strike"
 				],
 				"keywords": [
 					"Spirit",
@@ -10080,14 +10156,14 @@
 				"options": [],
 				"specialRules": [
 					"Blades of the Dead",
-					"Drain Soul",
 					"Spectral Walk",
 					"Terror",
+					"Drain Soul",
 					"The Dead and the Living"
 				],
 				"wargear": [
 					"Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -10108,29 +10184,38 @@
 				],
 				"unlimited": true,
 				"points": 70,
-				"movement": 6,
+				"movement": 8,
 				"fight": 4,
 				"shoot": 4,
 				"strength": 4,
-				"defence": 7,
+				"defence": 8,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 6,
 				"might": 0,
 				"will": 3,
 				"fate": 2,
+				"race": [
+					"Spirit"
+				],
+				"faction": [
+					"Dunharrow"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [],
 				"keywords": [
 					"Spirit",
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Shield",
-						"points": 5
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Blades of the Dead",
 					"Spectral Walk",
@@ -10138,9 +10223,10 @@
 					"The King's Counsel"
 				],
 				"wargear": [
+					"Pennant of the Dead",
 					"Armour",
-					"Sword",
-					"Pennant of the Dead"
+					"Hand weapon",
+					"Shield"
 				]
 			},
 			{
@@ -14520,7 +14606,7 @@
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
-						"name": "Rangers of Ithilien",
+						"name": "Garrison of Ithilien",
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
@@ -14543,16 +14629,30 @@
 				"unlimited": true,
 				"points": 60,
 				"movement": 6,
-				"fight": 4,
+				"fight": 5,
 				"shoot": 4,
 				"strength": 4,
-				"defence": 6,
+				"defence": 7,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
 				],
@@ -14564,11 +14664,12 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Shield Wall"
+					"Shieldwall"
 				],
 				"wargear": [
 					"Heavy Armour",
-					"Sword"
+					"Hand weapon",
+					"Shield"
 				]
 			},
 			{
@@ -14576,6 +14677,10 @@
 				"factions": [
 					{
 						"name": "Reclamation of Osgiliath",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Garrison of Ithilien",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -17929,7 +18034,8 @@
 					}
 				],
 				"specialRules": [
-					"Indirect Fire",
+					"Arcing Shot",
+					"Static",
 					"Area Effect",
 					"Wall-breaker"
 				],
@@ -18373,10 +18479,24 @@
 				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 7,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Goblin"
+				],
+				"faction": [
+					"Moria"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
 				],
@@ -18397,7 +18517,7 @@
 				],
 				"wargear": [
 					"Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -18811,13 +18931,27 @@
 				"defence": 6,
 				"attack": 6,
 				"wounds": 6,
-				"courage": 3,
+				"courage": 6,
+				"intelligence": 7,
 				"might": 1,
 				"will": 5,
 				"fate": 1,
-				"heroicActions": [
-					"Heroic Strength"
+				"race": [
+					"Kraken"
 				],
+				"faction": [
+					"Moria"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Monster",
+					"Unique"
+				],
+				"baseSize": [
+					"130mm"
+				],
+				"heroicActions": [],
 				"keywords": [
 					"Kraken",
 					"Monster",
@@ -18826,16 +18960,20 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Harbinger of Evil",
+					"Dominant (6)",
+					"Harbinger of Evil (12\")",
+					"Large Target",
 					"Resistant to Magic",
 					"Terror",
-					"From the Deep",
 					"Many Tentacles",
-					"Tentacles",
 					"Water Dweller",
+					"From the Deep",
+					"Grasping Tentacles",
 					"Dragged to the Depths"
 				],
-				"wargear": []
+				"wargear": [
+					"Tentacles (hand weapon)"
+				]
 			},
 			{
 				"name": "Prince Imrahil of Dol Amroth",
@@ -19487,8 +19625,20 @@
 					"Iron Hills"
 				],
 				"options": [],
-				"specialRules": [],
-				"wargear": []
+				"specialRules": [
+					"Direct Shot",
+					"Piercing Shot",
+					"Bladed Bolts"
+				],
+				"wargear": [],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "warriors",
+						"name": "Corsair Siege Crew",
+						"quantity": 3,
+						"points": 0
+					}
+				]
 			},
 			{
 				"name": "Iron Hills Ballista",
@@ -20602,10 +20752,24 @@
 				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Harad"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
 				],
@@ -20621,11 +20785,13 @@
 						"points": 5
 					}
 				],
-				"specialRules": [],
+				"specialRules": [
+					"Poisoned Attacks (bow)"
+				],
 				"wargear": [
 					"Armour",
-					"War Spear",
-					"Sword"
+					"Spear",
+					"Hand weapon"
 				],
 				"unlimited": true
 			},
@@ -20838,15 +21004,30 @@
 				"points": 55,
 				"movement": 6,
 				"fight": 5,
-				"shoot": 4,
+				"shoot": 3,
 				"strength": 4,
 				"defence": 4,
-				"attack": 2,
-				"wounds": 2,
-				"courage": 4,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Corsair",
+					"Umbar"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
 				],
@@ -20867,8 +21048,9 @@
 					"Sharpshooter"
 				],
 				"wargear": [
-					"Sword",
-					"Throwing Daggers"
+					"Light armour",
+					"Hand weapon",
+					"Two-handed weapon and throwing weapons"
 				]
 			},
 			{
@@ -20883,15 +21065,30 @@
 				"points": 55,
 				"movement": 6,
 				"fight": 5,
-				"shoot": 4,
+				"shoot": 3,
 				"strength": 4,
 				"defence": 4,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Corsair",
+					"Umbar"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
 				],
@@ -20909,8 +21106,9 @@
 				],
 				"specialRules": [],
 				"wargear": [
-					"Sword",
-					"Throwing Daggers"
+					"Light armour",
+					"Hand weapon",
+					"Two-handed weapon and throwing weapons"
 				]
 			},
 			{
@@ -25021,13 +25219,27 @@
 				"defence": 6,
 				"attack": 6,
 				"wounds": 6,
-				"courage": 3,
+				"courage": 6,
+				"intelligence": 7,
 				"might": 1,
 				"will": 5,
 				"fate": 1,
-				"heroicActions": [
-					"Heroic Strength"
+				"race": [
+					"Kraken"
 				],
+				"faction": [
+					"Moria"
+				],
+				"unitType": [
+					"Monster",
+					"Infantry",
+					"Hero",
+					"Unique"
+				],
+				"baseSize": [
+					"130mm"
+				],
+				"heroicActions": [],
 				"keywords": [
 					"Kraken",
 					"Monster",
@@ -25036,16 +25248,20 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Harbinger of Evil",
+					"Dominant (6)",
+					"Harbinger of Evil (12\")",
+					"Large Target",
 					"Resistant to Magic",
 					"Terror",
-					"From the Deep",
 					"Many Tentacles",
-					"Tentacles",
 					"Water Dweller",
+					"From the Deep",
+					"Grasping Tentacles",
 					"Dragged to the Depths"
 				],
-				"wargear": [],
+				"wargear": [
+					"Tentacles (hand weapon)"
+				],
 				"countAsProperty": "heroes"
 			},
 			{
@@ -25542,11 +25758,26 @@
 				"strength": 2,
 				"defence": 4,
 				"attack": 1,
-				"wounds": 1,
-				"courage": 4,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 6,
 				"might": 1,
 				"will": 1,
 				"fate": 2,
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Defence"
 				],
@@ -25561,7 +25792,9 @@
 						"name": "Elven cloak",
 						"points": 5,
 						"availableIn": [
-							"Minas Tirith"
+							"Minas Tirith",
+							"Defenders of the Pelennor",
+							"Men of the West"
 						]
 					}
 				],
@@ -25571,7 +25804,7 @@
 				],
 				"wargear": [
 					"Armour",
-					"Dagger"
+					"Hand weapon"
 				],
 				"countAsProperty": "heroes"
 			},
@@ -27111,6 +27344,49 @@
 				]
 			},
 			{
+				"name": "Corsair Siege Crew",
+				"factions": [
+					"Corsair Fleet"
+				],
+				"autoAddOnly": true,
+				"points": 0,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Corsair",
+					"Umbar"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"keywords": [
+					"Orc",
+					"Mordor",
+					"Infantry",
+					"Warrior"
+				],
+				"options": [],
+				"specialRules": [],
+				"wargear": [
+					"Light armour",
+					"Hand weapon"
+				]
+			},
+			{
 				"name": "Uruk-hai Crew",
 				"factions": [
 					"Isengard",
@@ -27504,13 +27780,27 @@
 				],
 				"points": 15,
 				"movement": 6,
-				"fight": 3,
+				"fight": 4,
 				"shoot": 4,
 				"strength": 3,
-				"defence": 5,
+				"defence": 6,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Warrior",
+					"Cavalry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"keywords": [
 					"Man",
 					"Gondor",
@@ -27528,10 +27818,10 @@
 				],
 				"wargear": [
 					"Heavy Armour",
-					"Sword",
+					"Hand weapon",
+					"Shield",
 					"Lance",
-					"Horse",
-					"Shield"
+					"Horse"
 				]
 			},
 			{
@@ -27647,12 +27937,26 @@
 				"points": 15,
 				"movement": 6,
 				"fight": 2,
-				"shoot": 4,
+				"shoot": 6,
 				"strength": 3,
-				"defence": 5,
+				"defence": 6,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 7,
+				"race": [
+					"Spirit"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"keywords": [
 					"Spirit",
 					"Angmar",
@@ -27661,13 +27965,14 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Terror",
 					"Blades of the Dead",
-					"A Fell Light is in Them"
+					"Spectral Walk",
+					"Terror",
+					"A fell light is in them"
 				],
 				"wargear": [
 					"Heavy Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -27745,12 +28050,27 @@
 				"points": 75,
 				"movement": 6,
 				"fight": 6,
-				"shoot": 5,
+				"shoot": 4,
 				"strength": 6,
 				"defence": 6,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 3,
+				"courage": 6,
+				"intelligence": 9,
+				"race": [
+					"Troll"
+				],
+				"faction": [
+					"Moria"
+				],
+				"unitType": [
+					"Warrior",
+					"Monster",
+					"Infantry"
+				],
+				"baseSize": [
+					"50mm"
+				],
 				"keywords": [
 					"Troll",
 					"Monster",
@@ -27768,12 +28088,12 @@
 					}
 				],
 				"specialRules": [
-					"burly",
+					"Dominant (3)",
 					"Terror",
 					"Throw Stones (range 12\", Strength 8)"
 				],
 				"wargear": [
-					"Spear"
+					"Troll Chain"
 				]
 			},
 			{
@@ -28344,14 +28664,28 @@
 					"Defenders of the Pelennor"
 				],
 				"points": 14,
-				"movement": 6,
+				"movement": 8,
 				"fight": 3,
 				"shoot": 4,
 				"strength": 3,
 				"defence": 7,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 6,
+				"race": [
+					"Spirit"
+				],
+				"faction": [
+					"Dunharrow"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"keywords": [
 					"Spirit",
 					"Infantry",
@@ -28386,7 +28720,7 @@
 				],
 				"wargear": [
 					"Armour",
-					"Sword or Axe"
+					"Hand weapon"
 				]
 			},
 			{
@@ -28397,14 +28731,28 @@
 					"Defenders of the Pelennor"
 				],
 				"points": 25,
-				"movement": 6,
+				"movement": 8,
 				"fight": 3,
 				"shoot": 4,
 				"strength": 3,
 				"defence": 8,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 6,
+				"race": [
+					"Spirit"
+				],
+				"faction": [
+					"Dunharrow"
+				],
+				"unitType": [
+					"Warrior",
+					"Cavalry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"keywords": [
 					"Spirit",
 					"Infantry",
@@ -30665,7 +31013,21 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 2,
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Goblin"
+				],
+				"faction": [
+					"Moria"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"keywords": [
 					"Goblin",
 					"Moria",
@@ -30691,7 +31053,7 @@
 				],
 				"wargear": [
 					"Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -31388,7 +31750,18 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Harad"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
 				"keywords": [
 					"Man",
 					"Haradrim",
@@ -31413,10 +31786,12 @@
 						"points": 1
 					}
 				],
-				"specialRules": [],
+				"specialRules": [
+					"Poisoned Attacks (bow)"
+				],
 				"wargear": [
 					"Armour",
-					"Dagger"
+					"Hand weapon"
 				]
 			},
 			{
@@ -31609,7 +31984,22 @@
 				"defence": 3,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Corsair",
+					"Umbar"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"keywords": [
 					"Man",
 					"Corsair",
@@ -31632,8 +32022,8 @@
 				],
 				"specialRules": [],
 				"wargear": [
-					"Throwing Daggers",
-					"Sword"
+					"Light armour",
+					"Hand weapon"
 				]
 			},
 			{
@@ -32421,7 +32811,7 @@
 			},
 			{
 				"name": "Flaming Ammunition",
-				"definition": "If this Siege Engine hits a Siege Target, the firing player may re-roll any To Wound rolls of a 1."
+				"definition": "A Siege Engine upgraded with Flaming Ammunition may re-roll any failed To Wound rolls against a Siege Target"
 			},
 			{
 				"name": "Horse",
@@ -32501,14 +32891,28 @@
 			{
 				"name": "Spectral Steed",
 				"type": "mount",
-				"movement": 10,
-				"fight": 3,
+				"movement": 12,
+				"fight": 2,
 				"shoot": 6,
 				"strength": 3,
-				"defence": 6,
+				"defence": 4,
 				"attack": 0,
 				"wounds": 1,
-				"courage": 3
+				"courage": 5,
+				"intelligence": 7,
+				"race": [
+					"Spirit"
+				],
+				"unitType": [
+					"Mount"
+				],
+				"baseSize": [
+					"40mm"
+				],
+				"specialRules": [
+					"Spectral Walk",
+					"Terror"
+				]
 			},
 			{
 				"name": "Warg",
@@ -33072,6 +33476,11 @@
 				"definition": "3\" Range, 5 Strength"
 			},
 			{
+				"name": "Troll Spear",
+				"type": "spear",
+				"definition": "This is a spear. Additionally, if this model is not Supporting, any To Wound Rolls of a natural 6 it makes when making Strikes that are not prevented will deal 2 Wounds rather than 1."
+			},
+			{
 				"name": "War spear",
 				"type": "Spear",
 				"definition": "Counts as a lance while mounted, and a spear while dismounted"
@@ -33377,7 +33786,7 @@
 			},
 			{
 				"name": "Pennant of the Dead",
-				"definition": "Friendly Spirit models within 3\" of a Pennant of the Dead gain the Resistant to Magic special rule."
+				"definition": "Friendly Dunharrow models within 3\" of a model with the Pennant of the Dead count as having the Resistant to Magic special rule."
 			},
 			{
 				"name": "Sting",
@@ -33712,7 +34121,7 @@
 			},
 			{
 				"name": "Gnarled Hide",
-				"definition": "The Mumak has Defence 8 rather than 7.",
+				"definition": "The Mumak has a Defence of 8 rather than 7.",
 				"modifiesStats": [
 					{
 						"stat": "defence",
@@ -33722,7 +34131,7 @@
 			},
 			{
 				"name": "Foul Temperament",
-				"definition": "The Mumak has its Attacks increased to 4, however, it will suffer a -1 penalty to all Courage tests when rolling to see whether or not it will Stampede.",
+				"definition": "The Mumak has 4 Attacks rather than 3; however, it suffers a -1 penalty to its Courage Test when seeing if it will Stampede.",
 				"modifiesStats": [
 					{
 						"stat": "attack",
@@ -33732,19 +34141,19 @@
 			},
 			{
 				"name": "Rappelling Lines",
-				"definition": "Models in the Howdah may attempt to dismount from the Mûmak during the Move phase, after the Mûmak has moved. Roll a D6 for each model that is attempting to dismount. On a 1, the rope has snapped and the unfortunate model suffers falling damage as normal. On a 2+, the model successfully dismounts, place it in base contact with the Mûmak. Models that dismount may still Charge as normal, although they may not make shooting attacks."
+				"definition": "Models in the Howdah may attempt to dismount during their Activation by rolling a D6. On a 2+, the model successfully dismounts and is placed in base contact with the Mumak. However, on a 1 the model suffers Falling Damage - if it survives, place it in base contact with the Mumak. A model that successfully dismounts (though not if it rolld a 1) may then continue its activation as normal, even Charging if it wishes, though may not make a shooting attack that turn."
 			},
 			{
 				"name": "Rocks",
-				"definition": "If they do not move, models in the Howdah may make a Shooting attack with a range of 8\" and a Strength of 6."
+				"definition": "If they do not move during their activation, models in the Howdah can make a Shooting attack with a range of 8\" and a Strength of 6 instead of using a different shooting attack.."
 			},
 			{
 				"name": "Sigils of Defiance",
-				"definition": "Models in the Howdah gain the Resistant to Magic special rule. Additionally, every time a model in the Howdah suffers a Wound, roll a D6. On a 6, the Wound is ignored exactly as if a point of Fate had been expended."
+				"definition": "The Mumak and any models in the Howdah gain the Resistant to Magic special rule, and whenever they suffer a wound htey may roll a D6. On a natural 6, the Wound is prevented."
 			},
 			{
 				"name": "Tusk Weapons",
-				"definition": "A Mumak with Tusk Weapons will inflict four Strength 9 hits when it Tramples, rather than three."
+				"definition": "When the Mumak Tramples, it will inflict 4 Strength 9 Impact Hits rather than 3."
 			},
 			{
 				"name": "Battlin' Brandybuck",
@@ -34415,13 +34824,13 @@
 			},
 			{
 				"name": "Caught in a Web",
-				"definition": "Instead of striking as normal, Shelob can instead opt to direct a single\n                Strike at one model involved in the Fight. This model may not be a\n                Monster. The chosen model suffers one Strength 7 hit. If the model is\n                wounded, and the Wound is not prevented by Fate, the model is treated as\n                being under the effect of the Paralyse Magical Power.",
-				"brutalPowerAttack": true
+				"tag": "Brutal Power Attack",
+				"definition": "Instead of making Strikes, Shelob may instead choose a single enemy model that was involved in the Combat. The chosen model immediately suffers a single Strength 8 hit, and, if it survives, will be subject to the Paralyse Magical Power - however, this model witll not automatically revover should Shelog be removed as a casualty, leave the board or be reduced to 0 Will Points."
 			},
 			{
 				"name": "Lone Hunter",
 				"tag": "Passive",
-				"definition": "Shelob may never be taken as part of another model's warband."
+				"definition": "Shelob may never be included in another model's warband. Additionally, Shelob can never benefit from the Heroic Actions of other models."
 			},
 			{
 				"name": "War Drum (Mordor)",
@@ -34434,7 +34843,11 @@
 			},
 			{
 				"name": "Piercing Shot",
-				"definition": "If a shot from <this siege weapon> Bow hits a Battlefield target,\n                then they will suffer one Strength 9 hit. Additionally, if the target has a\n                Strength of 5 or lower, they will be knocked Prone and flung D6\" directly\n                away from the Siege Bow. Any model that the target passes over will also\n                be knocked Prone and suffer one Strength 6 hit. If the target comes into\n                contact with a piece of impassable terrain, or a model that is Strength 6\n                or higher, then it will immediately stop and be knocked Prone. Both the\n                target and the Obstacle or model (if it has a Defence value) will suffer one\n                Strength 6 hit."
+				"definition": "A model that is hit by the shot of a Corsair Ballista will be flung back D6\" directly away from the Ballista if it has a Strength of 5 or lower. Any model that is passed over by the flung model suffers a Strength 5 hit and will be knocked Prone. If the flung model comes into contact with a piece of impassable terrain or a model with a Strenght of 6 or higher, then it will stop and both the flung model and the model or piece of terrain that was hit will suffer one Strength 6 hit. After being flung back, the flung model will be knocked Prone if they survive. If after teh model is flung back it would finish over other models and it has survived, then move the other models the minimum distance possible to allow the flung model to be placed where it has landed."
+			},
+			{
+				"name": "Bladed Bolts",
+				"definition": "A Corsair Ballista must re-roll To Wound rolls of a 1, including against any model that suffers a Strength 6 hit caused by the model that is flung back, if applicable."
 			},
 			{
 				"name": "Piercing Shot (Isengard)",
@@ -34453,8 +34866,8 @@
 				"definition": "After rolling To Hit against the actual target, if the actual target was a Battlefield Target then all other models within 2\" of the actual target suffer a Strength 5 hit and, if they survive, will be knocked prone."
 			},
 			{
-				"name": "Wall-breaker",
-				"definition": "When a Catapult rolls To Wound against a\n                Siege target, the controlling player may roll two dice and\n                pick the highest."
+				"name": "Wallbreaker",
+				"definition": "When rolling To Wound against a Siege Target, a Gondor Battlecry Trebuchet makes 2 To Wound rolls and picks the highest. Additionally, a successful To Wound roll against a Siege Target will do D3 Wounds rather than 1."
 			},
 			{
 				"name": "Blood and Glory",
@@ -34717,12 +35130,12 @@
 			{
 				"name": "The Dead and the Living",
 				"tag": "Passive",
-				"definition": "Only Warriors and Riders of the Dead may use the King of the Dead's Stand Fast! or benefit from his Heroic Actions."
+				"definition": "Only friendly Dunharrow models may benefit from the King of the Dead's Stand Fast or benefit from his Heroic Actions."
 			},
 			{
 				"name": "The King's Counsel",
 				"tag": "Passive",
-				"definition": "If the King of the Dead is within 3\" of one or more Heralds of the Dead at the start of any phase, the King of the Dead can spend one of the Herald's \n                Will points to declare a Heroic Action instead of spending one of his own Might points. Heralds of the Dead also benefit from the King of the Dead's The Dead and the Living special rule. "
+				"definition": "Whilst the King of the Dead is within 3\" of this model, the King of the Dead can spend this model's Will Points to declare a Heroic Action instead of spending one of his own Might Points."
 			},
 			{
 				"name": "Master-Forged",
@@ -35319,7 +35732,7 @@
 			{
 				"name": "A Fell Light is in Them",
 				"tag": "Active",
-				"definition": "At any point during its move, a Spectre can choose a single enemy model within 12\" and Line of Sight. This model must pass a Courage test or make a full move under the control of the Spectre's controlling player - even if it has already moved. This move cannot be used to enter an enemy model's Control Zone, or perform actions that would cause direct harm to the target (such as jumping down a cliff). It may also not be used to have the target dismount or lie down. Affected models may move no further that turn, and may not use Active abilities for the remainder of the Move phase."
+				"definition": "At the end of this model's Move, it can choose a single enemy model within 12\" and Line of Sight. The chosen model must take an Intelligence Test. If the test is failed, you may Move the chosen model up to its Move Value directly towards this model, even if it has already Moved that turn.\n                The chosen model will stop Moving if it would enter the Control Zone of an enemy model (with the exception of this model), If it comes into contact with an Obstacle, another model (though they will never count as Charging in this instance, and therefore cannot be involved in Combat with the model) or piece of impassable terrain, or if the model reaches the edge of a cliff or other such edge that would cause it to take falling damage.\n                This Move cannot be used to move a Model out of Combat, make a model dismount, drop an item, or Lie Down. However, if the Move would allow the chosen model to Charge this model, then this model may make them Charge. A model affected by this special rule cannot Move any further that turn, and may not use Active abilities. "
 			},
 			{
 				"name": "The Lady of Lorien",
@@ -35640,12 +36053,12 @@
 			{
 				"name": "From the Deep",
 				"tag": "Active",
-				"definition": "The Watcher in the Water can never be part of another Hero model's warband. When you deploy your army, do not deploy the Watcher in the Water on the board - instead keep it to one side for later. During each Priority phase, after Priority has been rolled, announce if you would like the Watcher to arrive and if yes, roll a D6. On a 3+, the Watcher is ready to enter play. Once you have declared the Watcher is ready to enter, you must roll during each Priority phase thereafter until it is available. \n                When the Watcher is ready to enter play, immediately place it anywhere on the battlefield - it can displace models. Move any displaced models the minimum distance possible so that they are 1\" away from the Watcher ( or as close as this situation will allow). In this situation, players take it in turns to displace models, starting with the Watcher's controlling player. This may create some odd situations, but represents the Watcher bursting forth, scattering warriors both friend and foe alike. The Watcher cannot charge on the turn it arrives. "
+				"definition": "The Watcher in the Water can never be part of another Hero model's warband. When you deploy your army, do not deploy the Watcher in the Water - keep it aside for later. During the Priority phase, after Priority has been determined, the Watcher's controlling player must decide if they wish for the Watcher to enter play. If they do, they must roll a D6 and on a 3+ the Watcher is ready to enter play. If this roll is failed, you must roll in each subsequent Priority Phase until the Watcher is ready to enter play.\n                When the Watcher is ready to enter play, immediately place it anywhere on the battlefield; however, the Watcher cannot displace other models when it enters play in this manner.\n                The Watcher in the Water cannot Change on the turn in which it arrives, but may otherwise act normally."
 			},
 			{
 				"name": "Many Tentacles",
 				"tag": "Passive",
-				"definition": "When the Watcher is reduced to 3 or less Wounds remaining, its Attacks are also reduced to 3."
+				"definition": "Whilst the Watcher in the Water has 3 or fewer Wounds remaining, its Attacks are reduceed to 3."
 			},
 			{
 				"name": "Tentacles",
@@ -35655,11 +36068,11 @@
 			{
 				"name": "Water Dweller",
 				"tag": "Passive",
-				"definition": "The Watcher is not slowed when entering a water feature. In fact, whilst within one, its Move value is doubled and it always counts as having rolled a 6 on the Swim chart. Additionally, if the Watcher charges whilst within a Water Feature, it gains the Monstrous Charge special rule."
+				"definition": "The Watcher in the Water is never slowed when moving within a water feature, can still Shoot whilst within deep water, and always counts as rolling a 6 on the Swim Chart. Additionally, whilst within a water feature, the Watcher in the Water increases its Move Value to 8\" and gains the Monstrous Charge special rule."
 			},
 			{
 				"name": "Dragged to the Depths",
-				"definition": "Instead of striking normally, if the Watcher in the Water is within a water feature it can select a single Man-sized or smaller model involved in the same fight, and then roll a D6. On a 3+, that model suffers a Wound (Fate rolls can be made as usual). If the Wound is not saved, the model is dragged to the depths and immediately slain. The Watcher is then removed from the board and its controlling player will start to roll for the Watcher to re-arrive as described in the From the Deep special rule on this page."
+				"definition": "Instead of making Strikes, if the Watcher is within 6\" of a water feature it may use this Brutal Power Attack. If it does, select a single enemy model that was involved in the Combat and roll a D6. On a 2+, the model suffers a Wound and, if the Wound is not prevented, the model will immediately be slain.\n                The Watcher is then removed from the battlefield and its controlling player must roll to see if it enters the battlefield again in the same manner as described in the From the Deep special rule."
 			},
 			{
 				"name": "Protect the Nest",
@@ -35891,7 +36304,7 @@
 			{
 				"name": "Drain Soul",
 				"tag": "Active",
-				"definition": "Any model that suffers a wound from this model during the Fight phase is automatically slain regardless of the number\n                of Wounds on its profile. A Hero can use Fate to avoid Wounds suffered, but if even a single Wound is not avoided then the Hero is slain and removed as a casualty."
+				"definition": "A model that suffers a Wound from the King of the Dead in Combat, which is not then prevented, will automatically have their Wounds reduced to 0, causing them to be slain and removed as a casualty."
 			},
 			{
 				"name": "Master of the Nazgul",
@@ -36616,6 +37029,26 @@
 				"name": "Dwarven Crew",
 				"tag": "Active",
 				"definition": "Any Iron Hills Warrior that ends their activation in base contact with an Iron Hills Chariot may join its crew. If it does, remove the Iron Hills Warrior from the board as a Casualty. The Iron Hills Chariot then immediately regains a single Wound lost earlier in teh battle."
+			},
+			{
+				"name": "Sense of impending doom",
+				"tag": "Passive",
+				"definition": "Enemy models wtihin 6\" of the Mouth of Sauron cannot re-roll 1s as part of a Duel Roll, regardless of special rules that would normally allow them to."
+			},
+			{
+				"name": "She is always hungry",
+				"tag": "Passive",
+				"definition": "At the start of her Activation, so long as she isnot Engaged in Combat, Shelob can choose to kill a friendly model within 1\" of her - remove the chosen model as a casualty. If she does, until the end of the turn Shelog may re-roll a single dice during any Duel Roll she participates in."
+			},
+			{
+				"name": "She hungers for sweeter meats",
+				"tag": "Passive",
+				"definition": "Shelog adds 1 to her Attacks characteristic while she is Engaged in Combat with an enemy Man, Elf, Dwarf, or Hobbit model."
+			},
+			{
+				"name": "Grasping Tentacles",
+				"tag": "Active",
+				"definition": "In the Shoot Phase, the Watcher in the Water may make D6 shooting attacks. These have a range of 6\", a Strength of 3 and never require In The Way Rolls. The Watcher can still make these shooting attacks regardless of how far it Moved in the Move phase, and never suffers the -1 penalty for Moving and Shooting.\n                Additionally, any model that is hit by a tentacle and is not slain will be removed from the board and then placed anywhere in base contact with the Watcher in the Water, as chosen by the Watcher in the Water's controlling player. A Cavalry model that is hit will have the whole model dragged in this way.\n                If, for whatever reason, the model cannot be place in base contact, then it is not moved at all. If a model placed in this way would end up in base contact with other enemy models in addition to the Watcher, then those models do not count as being Engaged in Combat with the placed model unless they subsequently Charge the placed model. The Watcher can still make these shooting attacks whilst it is Engaged in Combat."
 			}
 		]
 	}
