@@ -762,6 +762,59 @@
 				"name": "The Eagles",
 				"alignment": "good",
 				"armyBonus": "\"The Eagles are Coming!\" - Friendly Eagle models gain a bonus of +1 to their Strength on a turn in which they Charge.\n                \"Piercing Cry\" - Once per game, at the start of any Move Phase, Gwaihir can use this special rule so long as he is alive and on the battlefield. If he does, then enemy models within 6\" of Gwaihir cannot Move during that turn, but may otherwise act normally."
+			},
+			{
+				"name": "Barad-Dur",
+				"alignment": "evil",
+				"armyBonus": "\"The power of the Ring could not be undone\" - So long as Sauron has at least 3 Wounds remaining, a Barad-Dur army can never count as being Broken. Should Sauron have 2 or fewer Wounds remaining, a Barad-Dur Army will Break as normal. However, should Sauron ever be removed as a casualty, a Barad-Dur Army will immediately count as being broken.\n                \"Teeming with Orcs\" - Sauron's Warband may include 24 models rather than the usual 18 for a Hero of Legend.\n                \"Vistory is at hand\" - So long as Sauron is alive and on the battlefield, friendly Orc models gain a +1 bonus to any Courage Tests they are required to take.",
+				"requiredChildren": [
+					{
+						"name": "The Dark Lord Sauron",
+						"points": 400,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "The Black Riders",
+				"alignment": "evil",
+				"armyBonus": "\"Terror in the night\" - An enemy model within the range of multiple friendly Ringwraith models' Harbinger of Evil special rule, will suffer a -2 penalty to their Courage Test rather than -1.\n                \"Screech of the Nazgul\" - A friendly Ringwraight model can use this special rule at the start of their Activation. If they do, choose an enemy model within 12\" and Line of Sight of the Ringwraith. The chosen model is immediately subject to the Transfix Magical Power, which will count as being Cast on a 6 - they may take a Resist test as normal. A Ringwraith model that uses this special rule cannot also Cast a Magical Power during their Activation. Only a single Ringwraight can use this special rule each turn, and each Ringwraith can only use this special rule once per game.\n                \"The Will of Sauron\" - Friendly Ringwraight models do not lose a Will Point for being Engaged in Combat as per the Will of Evil special rule.\n                \"Hunt the Ringbearer\" - At the start of the Fight Phase, before any other Heroic Actions are declared, a single friendly Ringwraith may declare a Heroic Combat for free. This can only be done if, should the Heroic Combat be successful, the Ringwraith could charge the Ringbearer, though any other models in the Heroic Combat may act as normal.\n                If both players declare a Heroic Combat in the Fight Phase in which this special rule is used, this player will automatically win the roll-off to see which Heroic Combat goes first; howver, this Heroic Combat declared by this special rule must be the one chosen to go first.\n                ",
+				"requiredChildren": [
+					{
+						"name": "The Witch-King of Angmar B",
+						"points": 120,
+						"elementPropertyName": "heroes",
+						"requiredChildren": [
+							{
+								"name": "Horse",
+								"elementPropertyName": "options",
+								"points": 20
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "Wraiths on Wings",
+				"alignment": "evil",
+				"armyBonus": "\"Full Force Charge\" - The first time a friendly Monster model Charges during its Activation, it may choose to use this special rule. If it does, each model it has Charged suffers a single Strength 5 hit. Cavalry models suffer these hits on both the Mount and the rider. If after these hits have been resolved the Monster is no longer Engaged in Combat, it may continue its Activation and may even Charge again if it wishes; though if it does, any subsequent Charges will not confer this effect.\n                \"Strafing Attack\" - At the end of a friendly Monster model's Move, if it is not Engaged in Combat, you may choose a single enemy model, that is not Engaged in Combat, that lies int he direct path between where the Monster began its move, and where it finished its Move - the path is the same width as the Monster model's base. The chosen model suffers a Strength 5 hit and, if it survives, will be knocked Prone. Cavalry models suffer these hits on both the Mount and the rider."
+			},
+			{
+				"name": "Army of Gothmog",
+				"alignment": "evil",
+				"armyBonus": "\"The Destruction of Men\" - The range of Gothmog's \"The Age of Men is Over\" special rule is increased to 12\". Additionally, the range of Gothmog's \"The Time of the Orc has Come\" special rule is increased to battlefield wide.\n                \"Tyrannical Rule\" - Friendly Orc Hero models may benefit from Gothmog's Stand Fast\n                \"Ruthless Assault\" - Friendly Orc models may re-roll To Wound rolls of a natural 1 when amking Strikes against a Trapped model.",
+				"requiredChildren": [
+					{
+						"name": "Gothmog, Lieutenant of Sauron",
+						"points": 120,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Legions of Mordor",
+				"alignment": "evil",
+				"armyBonus": "\"Bring the City to its Knees\" - Friendly Hero models may re-roll To Wound Rolls of a natural 1 when making Strikes against an enemy Hero model."
 			}
 		],
 		"heroicTiers": [
@@ -2917,14 +2970,6 @@
 						"heroicTier": "Hero of Legend"
 					},
 					{
-						"name": "Barad Dur",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "The Black Riders",
-						"heroicTier": "Hero of Legend"
-					},
-					{
 						"name": "Host of the Witch-King",
 						"heroicTier": "Hero of Legend"
 					}
@@ -3002,8 +3047,7 @@
 						"points": 5,
 						"availableIn": [
 							"Mordor",
-							"Angmar",
-							"Barad Dur"
+							"Angmar"
 						]
 					}
 				],
@@ -3066,7 +3110,7 @@
 						"heroicTier": "Hero of Legend"
 					},
 					{
-						"name": "Barad Dur",
+						"name": "Barad-Dur",
 						"heroicTier": "Hero of Valour"
 					},
 					{
@@ -3076,6 +3120,10 @@
 					{
 						"name": "Host of the Witch-King",
 						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Wraiths on Wings",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 120,
@@ -3122,25 +3170,56 @@
 					"Infantry",
 					"Hero"
 				],
+				"requiredChildren": [
+					{
+						"name": "Fell Beast",
+						"points": 50,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Wraiths on Wings"
+							]
+						]
+					}
+				],
 				"options": [
 					{
 						"name": "Armoured Fell Beast",
 						"points": 70,
-						"chooseOneKey": "a"
+						"chooseOneKey": "a",
+						"availableIn": []
 					},
 					{
 						"name": "Fell Beast",
 						"points": 50,
-						"chooseOneKey": "a"
+						"chooseOneKey": "a",
+						"availableIn": [
+							"Wraiths on Wings"
+						]
+					},
+					{
+						"name": "Upgrade Fell Beast to Armoured Fell Beast",
+						"usesDefinition": "Armoured Fell Beast",
+						"points": 20,
+						"availableIn": [
+							"Wraiths on Wings"
+						]
 					},
 					{
 						"name": "Crown of Morgul",
-						"points": 25
+						"points": 25,
+						"availableIn": [
+							"Wraiths on Wings"
+						]
 					},
 					{
 						"name": "Horse",
 						"points": 20,
-						"chooseOneKey": "a"
+						"chooseOneKey": "a",
+						"availableIn": [
+							"The Black Riders",
+							"Barad-Dur"
+						]
 					},
 					{
 						"name": "Morgul Blade",
@@ -3151,8 +3230,7 @@
 						"points": 5,
 						"availableIn": [
 							"Mordor",
-							"Angmar",
-							"Barad Dur"
+							"Angmar"
 						]
 					}
 				],
@@ -3207,23 +3285,7 @@
 				"name": "The Witch-King of Angmar C",
 				"factions": [
 					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Legend"
-					},
-					{
-						"name": "Angmar",
-						"heroicTier": "Hero of Legend"
-					},
-					{
-						"name": "Barad Dur",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "The Black Riders",
-						"heroicTier": "Hero of Legend"
-					},
-					{
-						"name": "Host of the Witch-King",
+						"name": "Legions of Mordor",
 						"heroicTier": "Hero of Legend"
 					}
 				],
@@ -3271,6 +3333,28 @@
 					"Infantry",
 					"Hero"
 				],
+				"requiredChildren": [
+					{
+						"name": "Crown of Morgul",
+						"points": 25,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Legions of Mordor"
+							]
+						]
+					},
+					{
+						"name": "Armoured Fell Beast",
+						"points": 70,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Legions of Mordor"
+							]
+						]
+					}
+				],
 				"options": [
 					{
 						"name": "Armoured Fell Beast",
@@ -3280,7 +3364,8 @@
 					{
 						"name": "Fell Beast",
 						"points": 50,
-						"chooseOneKey": "a"
+						"chooseOneKey": "a",
+						"availableIn": []
 					},
 					{
 						"name": "Crown of Morgul",
@@ -3289,7 +3374,8 @@
 					{
 						"name": "Horse",
 						"points": 20,
-						"chooseOneKey": "a"
+						"chooseOneKey": "a",
+						"availableIn": []
 					},
 					{
 						"name": "Morgul Blade",
@@ -3297,12 +3383,7 @@
 					},
 					{
 						"name": "Two-handed weapon",
-						"points": 5,
-						"availableIn": [
-							"Mordor",
-							"Angmar",
-							"Barad Dur"
-						]
+						"points": 5
 					}
 				],
 				"specialRules": [
@@ -3924,15 +4005,15 @@
 				"name": "Gothmog, Lieutenant of Sauron",
 				"factions": [
 					{
-						"name": "Mordor",
+						"name": "Legions of Mordor",
 						"heroicTier": "Hero of Valour"
 					},
 					{
-						"name": "The Army of Gothmog",
+						"name": "Army of Gothmog",
 						"heroicTier": "Hero of Legend"
 					}
 				],
-				"points": 130,
+				"points": 120,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 5,
@@ -3958,7 +4039,7 @@
 				"options": [
 					{
 						"name": "Warg",
-						"points": 10
+						"points": 20
 					},
 					{
 						"name": "Shield",
@@ -4288,11 +4369,11 @@
 				"name": "Morannon Orc Captain",
 				"factions": [
 					{
-						"name": "Mordor",
+						"name": "Legions of Mordor",
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
-						"name": "The Army of Gothmog",
+						"name": "Army of Gothmog",
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
@@ -4864,14 +4945,6 @@
 					{
 						"name": "Mordor",
 						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Barad Dur",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "The Black Riders",
-						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -4940,7 +5013,6 @@
 						"points": 20,
 						"availableIn": [
 							"Mordor",
-							"Barad Dur",
 							"The Black Riders"
 						],
 						"chooseOneKey": "a"
@@ -4987,15 +5059,19 @@
 				"name": "Ringwraith B",
 				"factions": [
 					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Fortitude"
+						"name": "Legions of Mordor",
+						"heroicTier": "Hero of Valour"
 					},
 					{
-						"name": "Barad Dur",
+						"name": "Barad-Dur",
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
 						"name": "The Black Riders",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Wraiths on Wings",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -5046,29 +5122,58 @@
 								"The Black Riders"
 							]
 						],
-						"points": 10
+						"points": 20
+					},
+					{
+						"name": "Fell Beast",
+						"points": 50,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Wraiths on Wings"
+							],
+							[
+								"Legions of Mordor"
+							]
+						]
 					}
 				],
 				"options": [
 					{
 						"name": "Armoured fell beast",
 						"points": 70,
-						"chooseOneKey": "a"
+						"chooseOneKey": "a",
+						"availableIn": []
 					},
 					{
 						"name": "Fell beast",
 						"points": 50,
-						"chooseOneKey": "a"
+						"chooseOneKey": "a",
+						"availableIn": [
+							"Wraiths on Wings",
+							"Legions of Mordor"
+						]
+					},
+					{
+						"name": "Upgrade Fell Beast to Armoured Fell Beast",
+						"points": 20,
+						"chooseOneKey": "a",
+						"availableIn": [
+							"Wraiths on Wings"
+						]
 					},
 					{
 						"name": "Horse",
 						"points": 20,
+						"chooseOneKey": "a",
 						"availableIn": [
-							"Mordor",
-							"Barad Dur",
-							"The Black Riders"
-						],
-						"chooseOneKey": "a"
+							"The Black Riders",
+							"Barad-Dur"
+						]
+					},
+					{
+						"name": "Morgul Blade",
+						"points": 10
 					}
 				],
 				"specialRules": [
@@ -5113,14 +5218,6 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Barad Dur",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "The Black Riders",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -5190,7 +5287,6 @@
 						"points": 20,
 						"availableIn": [
 							"Mordor",
-							"Barad Dur",
 							"The Black Riders"
 						],
 						"chooseOneKey": "a"
@@ -5234,7 +5330,7 @@
 				]
 			},
 			{
-				"name": "Orc Captain",
+				"name": "Mordor Orc Captain",
 				"factions": [
 					{
 						"name": "Mordor",
@@ -5245,7 +5341,7 @@
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
-						"name": "Barad Dur",
+						"name": "Barad-Dur",
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
@@ -5274,7 +5370,7 @@
 					}
 				],
 				"unlimited": true,
-				"points": 40,
+				"points": 45,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 5,
@@ -5307,29 +5403,7 @@
 						"points": 10
 					}
 				],
-				"options": [
-					{
-						"name": "Warg",
-						"points": 10,
-						"availableIn": [
-							"Mordor",
-							"The Black Gate Opens",
-							"Barad Dur",
-							"Isengard",
-							"Wolves of Isengard",
-							"Assault on Lothlorien",
-							"Fell Beings of Mirkwood"
-						]
-					},
-					{
-						"name": "Orc bow",
-						"points": 5
-					},
-					{
-						"name": "Shield",
-						"points": 5
-					}
-				],
+				"options": [],
 				"specialRules": [],
 				"wargear": [
 					"Armour"
@@ -5404,14 +5478,6 @@
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
-						"name": "The Army of Gothmog",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Barad Dur",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
 						"name": "Fell Beings of Mirkwood",
 						"heroicTier": "Hero of Fortitude"
 					}
@@ -5451,10 +5517,6 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Barad Dur",
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
@@ -5519,12 +5581,12 @@
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
-						"name": "Barad Dur",
+						"name": "Barad-Dur",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
-				"points": 140,
+				"points": 150,
 				"movement": 6,
 				"fight": 7,
 				"shoot": 5,
@@ -5562,14 +5624,6 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"heroicTier": "Minor Hero"
-					},
-					{
-						"name": "The Army of Gothmog",
-						"heroicTier": "Minor Hero"
-					},
-					{
-						"name": "Barad Dur",
 						"heroicTier": "Minor Hero"
 					},
 					{
@@ -5629,8 +5683,6 @@
 						"points": 10,
 						"availableIn": [
 							"Mordor",
-							"The Army of Gothmog",
-							"Barad Dur",
 							"Wolves of Isengard",
 							"Assault on Lothlorien",
 							"Fell Beings of Mirkwood"
@@ -5728,10 +5780,6 @@
 						"heroicTier": "Independent Hero"
 					},
 					{
-						"name": "Barad Dur",
-						"heroicTier": "Independent Hero"
-					},
-					{
 						"name": "Cirith Ungol",
 						"heroicTier": "Independent Hero"
 					}
@@ -5779,11 +5827,7 @@
 						"heroicTier": "Independent Hero"
 					},
 					{
-						"name": "The Army of Gothmog",
-						"heroicTier": "Independent Hero"
-					},
-					{
-						"name": "Barad Dur",
+						"name": "Barad-Dur",
 						"heroicTier": "Independent Hero"
 					},
 					{
@@ -5883,10 +5927,6 @@
 					{
 						"name": "Mordor",
 						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "The Army of Gothmog",
-						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"legacy": true,
@@ -5926,15 +5966,15 @@
 				"name": "Gothmog's Enforcer",
 				"factions": [
 					{
-						"name": "Mordor",
+						"name": "Legions of Mordor",
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
-						"name": "The Army of Gothmog",
+						"name": "Army of Gothmog",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 60,
+				"points": 55,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 4,
@@ -5968,15 +6008,15 @@
 				"name": "Guritz, Master of Reserves",
 				"factions": [
 					{
-						"name": "Mordor",
+						"name": "Legions of Mordor",
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
-						"name": "The Army of Gothmog",
+						"name": "Army of Gothmog",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 60,
+				"points": 65,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 5,
@@ -6013,10 +6053,6 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "The Army of Gothmog",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -10046,7 +10082,7 @@
 				"name": "The Dark Lord Sauron",
 				"factions": [
 					{
-						"name": "Barad Dur",
+						"name": "Barad-Dur",
 						"heroicTier": "Hero of Legend - Sauron"
 					}
 				],
@@ -13346,9 +13382,13 @@
 					{
 						"name": "The Host of the Dragon Emperor",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Legions of Mordor",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 50,
+				"points": 60,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 4,
@@ -13369,32 +13409,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Swap Easterling Glaive for Armoured Horse and Sword",
-						"points": 10,
-						"availableIn": [
-							"The Easterlings",
-							"The Host of the Dragon Emperor"
-						]
-					},
-					{
-						"name": "Bow",
-						"points": 5,
-						"availableIn": [
-							"The Easterlings",
-							"The Host of the Dragon Emperor"
-						]
-					},
-					{
-						"name": "Shield",
-						"points": 5,
-						"availableIn": [
-							"The Easterlings",
-							"The Host of the Dragon Emperor"
-						]
-					}
-				],
+				"options": [],
 				"unlimited": true,
 				"specialRules": [
 					"Phalanx",
@@ -18729,14 +18744,6 @@
 					{
 						"name": "Mordor",
 						"heroicTier": "Minor Hero"
-					},
-					{
-						"name": "The Army of Gothmog",
-						"heroicTier": "Minor Hero"
-					},
-					{
-						"name": "Barad Dur",
-						"heroicTier": "Minor Hero"
 					}
 				],
 				"includes": [
@@ -18812,15 +18819,15 @@
 				"name": "Mordor War Catapult",
 				"factions": [
 					{
-						"name": "Mordor",
+						"name": "Legions of Mordor",
 						"heroicTier": "Minor Hero"
 					},
 					{
-						"name": "The Army of Gothmog",
+						"name": "Army of Gothmog",
 						"heroicTier": "Minor Hero"
 					},
 					{
-						"name": "Barad Dur",
+						"name": "Barad-Dur",
 						"heroicTier": "Minor Hero"
 					}
 				],
@@ -18834,7 +18841,7 @@
 					"warriors": -3
 				},
 				"unlimited": true,
-				"points": 160,
+				"points": 150,
 				"movement": 0,
 				"fight": 0,
 				"shoot": 0,
@@ -18852,34 +18859,12 @@
 				],
 				"options": [
 					{
-						"name": "Orc Engineer Captain",
-						"points": 40,
-						"usesDefinition": "Engineer Captain"
-					},
-					{
-						"name": "Orc bow",
-						"points": 5,
-						"unlockedBy": "Orc Engineer Captain"
-					},
-					{
-						"name": "Orc shield",
-						"points": 5,
-						"unlockedBy": "Orc Engineer Captain"
-					},
-					{
 						"name": "Flaming Ammunition",
-						"points": 15
+						"points": 10
 					},
 					{
 						"name": "Severed Heads",
-						"points": 5
-					},
-					{
-						"name": "Additional Crew",
-						"points": 5,
-						"increment": true,
-						"max": 2,
-						"addsModels": 1
+						"points": 20
 					}
 				],
 				"specialRules": [
@@ -19983,6 +19968,10 @@
 					{
 						"name": "Grand Army of the South",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Legions of Mordor",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 50,
@@ -20008,11 +19997,7 @@
 				],
 				"options": [
 					{
-						"name": "Horse",
-						"points": 10
-					},
-					{
-						"name": "Bow with poisoned arrows",
+						"name": "Bow ",
 						"points": 5
 					}
 				],
@@ -21360,7 +21345,7 @@
 				]
 			},
 			{
-				"name": "The Mumak Warleader",
+				"name": "The Mumak War Leader",
 				"factions": [
 					{
 						"name": "Far Harad",
@@ -21369,6 +21354,10 @@
 					{
 						"name": "Grand Army of the South",
 						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Legions of Mordor",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"includes": [
@@ -21573,10 +21562,14 @@
 					{
 						"name": "Grand Army of the South",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Legions of Mordor",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
-				"points": 275,
+				"points": 250,
 				"movement": 8,
 				"fight": 4,
 				"shoot": 5,
@@ -21600,7 +21593,7 @@
 				"options": [
 					{
 						"name": "Gnarled Hide",
-						"points": 30
+						"points": 25
 					},
 					{
 						"name": "Mahud Beastmaster Chieftain",
@@ -25072,11 +25065,10 @@
 				"countAsProperty": "heroes"
 			},
 			{
-				"name": "Orc Drummer",
+				"name": "Mordor Orc Drummer",
 				"factions": [
 					"Mordor",
-					"The Army of Gothmog",
-					"Barad Dur",
+					"Barad-Dur",
 					"Fell Beings of Mirkwood"
 				],
 				"points": 30,
@@ -25713,7 +25705,6 @@
 				"name": "Orc",
 				"factions": [
 					"Mordor",
-					"Barad Dur",
 					"The Black Gate Opens",
 					"The Army of Gothmog",
 					"Isengard"
@@ -25745,7 +25736,7 @@
 				"name": "Mordor Orc Warrior",
 				"factions": [
 					"Mordor",
-					"Barad Dur",
+					"Barad-Dur",
 					"The Black Gate Opens",
 					"The Army of Gothmog",
 					"Isengard",
@@ -25914,9 +25905,9 @@
 			{
 				"name": "Morannon Orc Warrior",
 				"factions": [
-					"Mordor",
+					"Legions of Mordor",
 					"The Black Gate Opens",
-					"The Army of Gothmog"
+					"Army of Gothmog"
 				],
 				"points": 8,
 				"movement": 6,
@@ -25975,9 +25966,7 @@
 			},
 			{
 				"name": "Black Guard of Barad-Dur",
-				"factions": [
-					"Mordor"
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 12,
 				"movement": 6,
@@ -26066,7 +26055,6 @@
 				"name": "Orc Tracker",
 				"factions": [
 					"Mordor",
-					"Barad Dur",
 					"Assault on Lothlorien",
 					"Fell Beings of Mirkwood",
 					"Army of Carn-Dum"
@@ -26105,10 +26093,10 @@
 				]
 			},
 			{
-				"name": "Warg Rider",
+				"name": "Mordor Warg Rider",
 				"factions": [
 					"Mordor",
-					"Barad Dur",
+					"Barad-Dur",
 					"Isengard",
 					"Wolves of Isengard",
 					"Assault on Lothlorien",
@@ -26131,8 +26119,8 @@
 				],
 				"options": [
 					{
-						"name": "Banner",
-						"points": 25
+						"name": "Shield & throwing spears",
+						"points": 2
 					},
 					{
 						"name": "Orc bow",
@@ -26206,7 +26194,6 @@
 				"name": "Black Numenorean",
 				"factions": [
 					"Mordor",
-					"Barad Dur",
 					"Corsairs of Umbar"
 				],
 				"points": 9,
@@ -26251,12 +26238,12 @@
 			{
 				"name": "Mordor Troll",
 				"factions": [
-					"Mordor",
+					"Legions of Mordor",
 					"The Black Gate Opens",
-					"The Army of Gothmog",
-					"Barad Dur"
+					"Army of Gothmog",
+					"Barad-Dur"
 				],
-				"points": 100,
+				"points": 90,
 				"movement": 6,
 				"fight": 7,
 				"shoot": 5,
@@ -26275,7 +26262,7 @@
 				"options": [
 					{
 						"name": "War drum (Mordor)",
-						"points": 30
+						"points": 25
 					}
 				],
 				"specialRules": [
@@ -26584,8 +26571,7 @@
 			{
 				"name": "Black Numenorean Knight",
 				"factions": [
-					"Mordor",
-					"Barad Dur"
+					"Mordor"
 				],
 				"points": 18,
 				"movement": 6,
@@ -28244,7 +28230,8 @@
 				"name": "Easterling Warrior",
 				"factions": [
 					"The Easterlings",
-					"The Host of the Dragon Emperor"
+					"The Host of the Dragon Emperor",
+					"Legions of Mordor"
 				],
 				"points": 7,
 				"movement": 6,
@@ -30460,7 +30447,8 @@
 				"name": "Haradrim Warrior",
 				"factions": [
 					"The Serpent Horde",
-					"Grand Army of the South"
+					"Grand Army of the South",
+					"Legions of Mordor"
 				],
 				"additionalHeroes": [
 					{
