@@ -11741,19 +11741,36 @@
 					}
 				],
 				"leaderPriority": 1,
-				"points": 35,
+				"points": 50,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
 				"strength": 4,
-				"defence": 5,
+				"defence": 6,
 				"attack": 2,
 				"wounds": 2,
 				"courage": 5,
-				"might": 0,
+				"intelligence": 5,
+				"might": 2,
 				"will": 3,
-				"fate": 0,
-				"heroicActions": [],
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Defence"
+				],
 				"keywords": [
 					"Man",
 					"Gondor",
@@ -11762,12 +11779,13 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Broken Mind",
-					"The Rule of Gondor is Mine, and no Other's!"
+					"Leader (Citadel Guard)",
+					"Leader (Guard of the Fountain Court)",
+					"Broken Mind"
 				],
 				"wargear": [
-					"Armour",
-					"Sword"
+					"Heavy armour",
+					"Hand weapon"
 				],
 				"unavailableWith": [
 					"Aragorn - King Elessar",
@@ -11910,12 +11928,26 @@
 				"defence": 6,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
-				"might": 3,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 2,
 				"will": 1,
-				"fate": 1,
+				"fate": 2,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic March",
 					"Heroic Defence"
 				],
 				"keywords": [
@@ -11926,12 +11958,14 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Bodyguard",
-					"Defend the White City!"
+					"Leader (Citadel Guard)",
+					"Sworn Protector (Denethor)",
+					"Defend the White City!",
+					"Captain of the Citadel Guard"
 				],
 				"wargear": [
 					"Heavy Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -27871,7 +27905,21 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 6,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"keywords": [
 					"Man",
 					"Gondor",
@@ -27892,48 +27940,13 @@
 						"points": 1
 					}
 				],
-				"specialRules": [],
+				"specialRules": [
+					"Woodland Creature"
+				],
 				"wargear": [
 					"Armour",
 					"Bow",
-					"Sword"
-				],
-				"ignoreLimits": [
-					{
-						"in": [
-							"Rangers of Ithilien",
-							"Faramir, Captain of Gondor"
-						],
-						"type": "bow"
-					},
-					{
-						"in": [
-							"Rangers of Ithilien",
-							"Madril, Captain of Ithilien"
-						],
-						"type": "bow"
-					},
-					{
-						"in": [
-							"Rangers of Ithilien",
-							"Damrod, Ranger of Ithilien"
-						],
-						"type": "bow"
-					},
-					{
-						"in": [
-							"Rangers of Ithilien",
-							"Anborn, Ranger of Ithilien"
-						],
-						"type": "bow"
-					},
-					{
-						"in": [
-							"Rangers of Ithilien",
-							"Mablung, Ranger of Ithilien"
-						],
-						"type": "bow"
-					}
+					"Hand weapon"
 				]
 			},
 			{
@@ -28241,13 +28254,27 @@
 				],
 				"points": 9,
 				"movement": 6,
-				"fight": 3,
+				"fight": 4,
 				"shoot": 4,
 				"strength": 3,
 				"defence": 5,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 6,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"keywords": [
 					"Man",
 					"Gondor",
@@ -28269,11 +28296,12 @@
 					}
 				],
 				"specialRules": [
+					"Hatred (Mordor)",
 					"Loyal to the Captain"
 				],
 				"wargear": [
 					"Heavy Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -34760,7 +34788,7 @@
 			{
 				"name": "Loyal to the Captain",
 				"tag": "Passive",
-				"definition": " If this model is within 6\" of either Boromir or Faramir, then this model will receive a +1 bonus to its Fight value. This is cumulative with other Fight value bonuses."
+				"definition": "While within 6\" of either Boromir or Faramir, this model may re-roll To Wound rolls of a natural 1 when making Strikes."
 			},
 			{
 				"name": "Mighty Blow",
@@ -34956,8 +34984,8 @@
 			},
 			{
 				"name": "Broken Mind",
-				"tag": "Passive",
-				"definition": "At the start of every turn, before Priority is rolled, the controlling player must take a Courage test for Denethor. If the test is passed, all is fine. If the test is failed, Denethor is controlled by the opposing player until the End phase of that turn. Whilst under the control of the opposing player, friendly models cannot target Denethor with shooting attack or Magical Powers that cause damage and may not make Strikes if they beat him in a fight.\n                If Boromir is part of the same army as Denethor, then Denethor will automatically pass these Courage tests so long as Boromir is alive. Should Boromir be slain, then Denethor will automatically fail the next Courage test he must take for this special rule."
+				"tag": "Active",
+				"definition": "During each Priority Phase, after Priority has been determined, Denethor must take an Intelligence Test. If the test is passed, all is fine and Denethor acts as normal. If the test is failed, then during this turn Denethor is controlled by the opposing player and will be Activated during the player's activation Phase as if he is one of their models, and may even Charge and fight models form his own Army. When Denethor is Activated by the opposing player he is still considered to be a friendly model, and so friendly models cannot target him with shooting attacks or Magical Powers that cause damage, and may not make Strikes against him if they beat him in a Combat. When Denethor is under the control of the opposing player, they cannot use any of Denethor's Might, Will, or Fate Points. Even when under the control of the opposing player, Denethor always counts as a model in his controlling player's Army.\n                If Boromir is part of the same Army, then Denethor will automatically pass this Intelligence Test so long as Boromir is alive. However, should Boromir be slain, then Denethor will automatically fail the next Intelligence Test he has to make for this special rule."
 			},
 			{
 				"name": "The Rule of Gondor is Mine, and no Other's!",
@@ -34972,7 +35000,7 @@
 			{
 				"name": "Defend the White City!",
 				"tag": "Active",
-				"definition": "Irolas may use the Shielding special rule even though he is not armed with a shield. If Irolas elects to shield, and wins the ensuing Fight, he may make a single Strength 4 Strike against one enemy model from the same Fight."
+				"definition": "Irolas may use the Shielding special rule even though he is not armed with a shield. If Irolas elects to shield, and wins the ensuing Combat, he may make a single Strike against one enemy model that was involved in the Combat."
 			},
 			{
 				"name": "General of the North",
@@ -36753,6 +36781,11 @@
 				"name": "Adaptive Fighter",
 				"tag": "Active",
 				"definition": "If Gorbag wins a Duel Roll, then before models Back Away Gorbag may choose a single enemy model involved in the combat. The chosen model is Backed Away in a direction chosen by Gorbag. This direciton may be chosen so that the model is forced to Back Away over the edge of a cliff, in which case they will suffer falling damage as normal. Once this has been resolved, other models Back Away as normal and Strikes are resolved. However, i a model has been Backed Away over the edge of a cliff as described earlier, Gorbag cannot make strikes against that model."
+			},
+			{
+				"name": "Captain of the Citadel Guard",
+				"tag": "Passive",
+				"definition": "Friendly Citadel Guard within 3\" of Irolas gain a bonus of +1 To Wound when making Strikes"
 			}
 		]
 	}
