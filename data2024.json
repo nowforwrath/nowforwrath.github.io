@@ -634,6 +634,11 @@
 				"name": "Army of Edoras",
 				"alignment": "good",
 				"armyBonus": "\"Forth Eorlingas!\" - Once per game, at the start of any Fight Phase, your General can use this special rule if they Charged in the preceding Move Phase. If they do, then until the end of the turn friendly Rohan models within 12\" of your General must re-roll all failed To Wound Rollws when making strikes.\n                \"Protect the King\" - When a friendly Rohan Hero Charges, until the end of the turn friendly Rohan Warrior models within 6\" of them will automatically pass all Courage Tests they are required to take for Charging an enemy with the Terror special rule."
+			},
+			{
+				"name": "Defenders of the Hornburg",
+				"alignment": "good",
+				"armyBonus": "\"Defend the Hornburg\" - Friendly Rohan Infantry gain the Dominant (2) special rule.\n                \"A Desperate Defence\" - Friendly Rohan Infantry Warrior models must re-roll To Wound Rollw of a Natural 1 when making Strikes.\n                \"Frenzy of the King\" - At the start of the End Phase of a turn in which Helm Hammerhand kills an enemy Hero or Monster, enemy models within 3\" of Helm must take a Courage Test in an order chosen by Helm's controlling player. If the test if failed, the model must Move up to its Move Value directly away from Helm."
 			}
 		],
 		"heroicTiers": [
@@ -886,7 +891,12 @@
 			},
 			{
 				"name": "Hera, The Bride of Death",
-				"factions": [],
+				"factions": [
+					{
+						"name": "defenders of the Hornburg",
+						"heroicTier": "Hero of Legend"
+					}
+				],
 				"points": 125,
 				"movement": 6,
 				"fight": 6,
@@ -942,6 +952,10 @@
 					{
 						"name": "Army of Edoras",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Defenders of the Hornburg",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 80,
@@ -995,6 +1009,10 @@
 				"factions": [
 					{
 						"name": "Army of Edoras",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Defenders of the Hornburg",
 						"heroicTier": "Minor Hero"
 					}
 				],
@@ -2163,6 +2181,10 @@
 					{
 						"name": "The Men of the West",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Defenders of the Hornburg",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -2210,6 +2232,7 @@
 						"name": "Horse",
 						"points": 20,
 						"availableIn": [
+							"Defenders of the Hornburg",
 							"Army of Edoras",
 							"Ride Out",
 							"Road to Helm's Deep",
@@ -2243,6 +2266,7 @@
 						"name": "Shield",
 						"points": 5,
 						"availableIn": [
+							"Defenders of the Hornburg",
 							"Army of Edoras",
 							"Ride Out",
 							"Road to Helm's Deep",
@@ -15068,7 +15092,15 @@
 			},
 			{
 				"name": "Helm Hammerhand, Wraith of the Hornburg",
-				"factions": [],
+				"factions": [
+					{
+						"name": "Defenders of the Hornburg",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"increaseMaximumChildren": {
+					"warriors": -18
+				},
 				"points": 180,
 				"movement": 6,
 				"fight": 7,
@@ -25057,7 +25089,8 @@
 				"factions": [
 					"Kingdom of Rohan",
 					"Defenders of Helm's Deep",
-					"Army of Edoras"
+					"Army of Edoras",
+					"Defenders of the Hornburg"
 				],
 				"points": 1,
 				"movement": 6,
@@ -25125,7 +25158,8 @@
 					"Riders of Eomer",
 					"Theodred's Guard",
 					"Paths of the Druadan",
-					"Helm's Guard"
+					"Helm's Guard",
+					"Defenders of the Hornburg"
 				],
 				"points": 14,
 				"movement": 6,
