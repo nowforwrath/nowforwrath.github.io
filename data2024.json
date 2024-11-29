@@ -4541,20 +4541,35 @@
 				],
 				"points": 110,
 				"movement": 6,
-				"fight": 5,
+				"fight": 6,
 				"shoot": 4,
 				"strength": 5,
 				"defence": 5,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 4,
+				"courage": 5,
+				"intelligence": 5,
 				"might": 3,
 				"will": 3,
 				"fate": 3,
+				"race": [
+					"Uruk-hai"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic Strike",
+					"Heroic Challenge",
 					"Heroic Strength",
-					"Heroic Challenge"
+					"Heroic Strike"
 				],
 				"keywords": [
 					"Uruk-Hai",
@@ -4564,11 +4579,13 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Blood and Glory"
+					"General Hunter",
+					"Hands off the shiny shirt; that's mine!",
+					"Cleaving Blow"
 				],
 				"wargear": [
 					"Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -4585,19 +4602,34 @@
 				],
 				"points": 60,
 				"movement": 6,
-				"fight": 4,
+				"fight": 5,
 				"shoot": 5,
 				"strength": 4,
 				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 6,
+				"ingelligence": 5,
 				"might": 3,
-				"will": 1,
+				"will": 2,
 				"fate": 1,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength"
+					"Heroic Challenge",
+					"Heroic Strike"
 				],
 				"keywords": [
 					"Orc",
@@ -4605,18 +4637,14 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Shield",
-						"points": 5
-					}
-				],
+				"options": [],
 				"specialRules": [
-					"Orcish Brawler"
+					"Orcish Brawler",
+					"Adaptive Fighter"
 				],
 				"wargear": [
 					"Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -6440,15 +6468,30 @@
 				"points": 55,
 				"movement": 6,
 				"fight": 4,
-				"shoot": 4,
+				"shoot": 5,
 				"strength": 4,
 				"defence": 6,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 6,
 				"might": 1,
 				"will": 3,
 				"fate": 1,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Defence"
 				],
@@ -6464,7 +6507,7 @@
 				],
 				"wargear": [
 					"Heavy Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -6487,10 +6530,25 @@
 				"defence": 6,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 3,
-				"might": 3,
-				"will": 1,
+				"courage": 7,
+				"intelligence": 6,
+				"might": 2,
+				"will": 2,
 				"fate": 1,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
 				],
@@ -6503,12 +6561,12 @@
 				"options": [],
 				"specialRules": [
 					"Master of Reserves",
-					"Two-Handed"
+					"End the Race of Men"
 				],
 				"wargear": [
 					"Heavy Armour",
-					"Two-handed Pick",
-					"Sword"
+					"Two-handed weapon",
+					"Hand weapon"
 				]
 			},
 			{
@@ -21123,15 +21181,30 @@
 				"points": 50,
 				"movement": 6,
 				"fight": 4,
-				"shoot": 4,
+				"shoot": 3,
 				"strength": 4,
 				"defence": 4,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 1,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Corsair",
+					"Umbar"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
 				],
@@ -34726,7 +34799,7 @@
 			{
 				"name": "Orcish Brawler",
 				"tag": "Active",
-				"definition": "If Gorbag is outnumbered during a Fight, then he gains a bonus of+ 1 to\n                both his Fight and Attack values. Models that are supporting do not count\n                as in the Fight for working out if a model is outnumbered."
+				"definition": "If Gorbag is outnumbered during a Combat, he increases his Attacks to 3 for the duration of the Combat."
 			},
 			{
 				"name": "Heart of Darkness",
@@ -34902,12 +34975,12 @@
 			{
 				"name": "Gothmog's Right Hand",
 				"tag": "Passive",
-				"definition": "If Gothmog’s Enforcer is within 3\" of Gothmog at the start \n                of a turn, Gothmog may spend one of Gothmog’s Enforcer’s Will points to \n                declare a Heroic Move instead of spending one of his own Might points. (Gondor at War p90)"
+				"definition": "Whilst Gothmog's Enforcer is within 3\" of Gothmog, then Gothmog can spend Gothmog's Enforcer's Will Points to declare a Heroic Move or Heroic March instead of using his own Might Points. Additionally, when Gothmog declares a Heroic Move or Heroic March within 3\" of Gothmog's Enforcer, Gothmog can measure the range of the With Me or At the Double from Gothmog's Enforcer rather than himself if he wishes."
 			},
 			{
 				"name": "Master of Reserves",
 				"tag": "Passive",
-				"definition": "In Scenarios where you roll for Warbands to arrive, or ones where you roll to see which part of the board you deploy a Warband in (though not when rolling to choose deployment zones), you may modify the roll for Madril's Warband by +1 or -1, even if he is not on the battlefield. If Madril is on the battlefield, you may also modify the roll for other Warbands in your Army by +1 or -2"
+				"definition": "In Scenarios where you roll for Warbands to arrive, or ones where you roll to see which part of the board you deploy a Warband in (though not when rolling to choose deployment zones), you may modify the roll this model's Warband by +1 or -1, even if he is not on the battlefield. If this model is on the battlefield, you may also modify the roll for other Warbands in your Army by +1 or -2"
 			},
 			{
 				"name": "Reckless Fighter",
@@ -36279,7 +36352,7 @@
 			{
 				"name": "Commanding Bellow",
 				"tag": "Active",
-				"definition": "Friendly Corsair models within 3\" of a Corsair Bo'sun count as being in range of a banner."
+				"definition": "Friendly Corsair models treat a Corsair Bo'sun as a banner."
 			},
 			{
 				"name": "Ruthless Commander",
@@ -37049,6 +37122,21 @@
 				"name": "Grasping Tentacles",
 				"tag": "Active",
 				"definition": "In the Shoot Phase, the Watcher in the Water may make D6 shooting attacks. These have a range of 6\", a Strength of 3 and never require In The Way Rolls. The Watcher can still make these shooting attacks regardless of how far it Moved in the Move phase, and never suffers the -1 penalty for Moving and Shooting.\n                Additionally, any model that is hit by a tentacle and is not slain will be removed from the board and then placed anywhere in base contact with the Watcher in the Water, as chosen by the Watcher in the Water's controlling player. A Cavalry model that is hit will have the whole model dragged in this way.\n                If, for whatever reason, the model cannot be place in base contact, then it is not moved at all. If a model placed in this way would end up in base contact with other enemy models in addition to the Watcher, then those models do not count as being Engaged in Combat with the placed model unless they subsequently Charge the placed model. The Watcher can still make these shooting attacks whilst it is Engaged in Combat."
+			},
+			{
+				"name": "Hands off the shiny shirt; that's mine!",
+				"tag": "Active",
+				"definition": "During a Scenario that involves picking up and carrying Objectives, Shagrat can use this special rule at any point during his Move. If he does, he may select any friendly model within 3\" that is carrying an Objective and take an Intelligence Test. If the test is passed, Shagrat immediately gains possession of that Objective, even if the Scenario would not normally allow for that Objective to be passed. Additionally, Shagrat can always carry multiple Objectives, even if the Scenario would state that models can only carry one."
+			},
+			{
+				"name": "Cleaving Blow",
+				"tag": "Active",
+				"definition": "If this model rolls a natural 6 To Wound when making a Strike, and the Wound is successful, then the target will suffer 2 Wounds rather than 1."
+			},
+			{
+				"name": "Adaptive Fighter",
+				"tag": "Active",
+				"definition": "If Gorbag wins a Duel Roll, then before models Back Away Gorbag may choose a single enemy model involved in the combat. The chosen model is Backed Away in a direction chosen by Gorbag. This direciton may be chosen so that the model is forced to Back Away over the edge of a cliff, in which case they will suffer falling damage as normal. Once this has been resolved, other models Back Away as normal and Strikes are resolved. However, i a model has been Backed Away over the edge of a cliff as described earlier, Gorbag cannot make strikes against that model."
 			}
 		]
 	}
