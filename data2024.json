@@ -989,6 +989,11 @@
 				"name": "The Battle of Five Armies",
 				"alignment": "good",
 				"armyBonus": "\"Something?\" - Friendly models may re-roll To Wound Rolls of a natural 1 when making Strikes if they are involved in a Combat with a friendly model that has a different racial Keyword to themselves."
+			},
+			{
+				"name": "Halls of Thranduil",
+				"alignment": "good",
+				"armyBonus": "\"The Elves of Mirkwood are not like their kin. They are less wise, and more dangerous\" - Friendly Mirkwood Warrior models within 3\" of Thranduil gain a bonus of +1 To Wound when making Strikes.\n                \"Stoic Command\" - Friendly Warrior models treat your General as a banner."
 			}
 		],
 		"heroicTiers": [
@@ -2675,64 +2680,6 @@
 					}
 				],
 				"legacy": true,
-				"unavailableWith": [
-					"Helm Hammerhand"
-				],
-				"allianceRules": {
-					"remove": [
-						{
-							"property": "armyBonus",
-							"with": [
-								{
-									"parent": [
-										"Rohan"
-									]
-								},
-								{
-									"property": "unlimited",
-									"value": false
-								}
-							]
-						}
-					],
-					"setAllianceLevel": [
-						{
-							"level": "none",
-							"with": [
-								{
-									"parent": [
-										"Minas Tirith"
-									]
-								},
-								{
-									"property": "unlimited",
-									"value": false
-								}
-							]
-						},
-						{
-							"level": "none",
-							"except": [
-								{
-									"parent": [
-										"Rohan",
-										"Minas Tirith"
-									]
-								}
-							]
-						}
-					],
-					"loseArmyBonusWithNamedIn": [
-						"Rohan"
-					],
-					"impossibleWithNamedIn": [
-						"Minas Tirith"
-					],
-					"impossibleWithExcept": [
-						"Minas Tirith",
-						"Rohan"
-					]
-				},
 				"points": 115,
 				"movement": 6,
 				"fight": 5,
@@ -7437,38 +7384,6 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
-				"allianceRules": {
-					"remove": [
-						{
-							"property": "armyBonus",
-							"with": [
-								{
-									"any": [
-										"Aragorn (Strider)"
-									]
-								}
-							]
-						}
-					],
-					"setAllianceLevel": [
-						{
-							"level": "none",
-							"with": [
-								{
-									"any": [
-										"Aragorn (Strider)"
-									]
-								}
-							]
-						}
-					],
-					"loseArmyBonusWithHero": [
-						"Aragorn (Strider)"
-					],
-					"becomeImpossibleWithAllWithHero": [
-						"Aragorn (Strider)"
-					]
-				},
 				"points": 75,
 				"movement": 6,
 				"fight": 5,
@@ -8280,49 +8195,6 @@
 						"heroicTier": "Hero of Legend"
 					}
 				],
-				"allianceRules": {
-					"adjustAllianceLevels": [
-						{
-							"level": "primary",
-							"factions": [
-								"Garrison of Dale"
-							],
-							"with": [
-								{
-									"any": [
-										"Brand, King of Dale",
-										"Bard II, Prince of Dale"
-									]
-								}
-							]
-						},
-						{
-							"level": "primary",
-							"factions": [
-								"Erebor Reclaimed",
-								"Defenders of Erebor"
-							]
-						},
-						{
-							"level": "secondary",
-							"factions": [
-								"The Dead of Dunharrow",
-								"Fangorn",
-								"The Fellowship",
-								"The Fiefdoms",
-								"Halls of Thranduil",
-								"Lothlorien",
-								"Minas Tirith",
-								"The Misty Mountains",
-								"The Rangers",
-								"Riendell",
-								"Rohan",
-								"The Shire",
-								"Wildmen of Druadan"
-							]
-						}
-					]
-				},
 				"points": 130,
 				"movement": 5,
 				"fight": 6,
@@ -8356,17 +8228,6 @@
 				"wargear": [
 					"Heavy Dwarf Armour",
 					"Barazantathul"
-				],
-				"specialText": "If your force contains Dáin Ironfoot, King Under the Mountain, or Thorin III Stonehelm, then all models in this Army List change their Iron Hills keyword for the Erebor\n                keyword. Additionally, your force may not also include the following models from the Erebor Reclaimed army list:\n                Thorin Oakenshield, King Under the Mountain; Kíli the Dwarf, Champion of Erebor; Fíli the Dwarf, Champion of Erebor; Balin the Dwarf, Champion of Erebor; Bombur the\n                Dwarf, Champion of Erebor; Ori the Dwarf, Champion of Erebor; Óin the Dwarf, Champion of Erebor; Dáin Ironfoot, Lord of the Iron Hills. \n                Also, Dwalin may not take a War Goat.\n                Additionally, ignore the Allies Matrix for the Erebor Reclaimed army list. Instead, they will be Historical Allies with the Garrison of Dale, so long as the list contains\n                Brand, King of Dale, or Bard II, Prince of Dale. They will be Convenient Allies with The Dead of Dunharrow, Fangorn, The Fellowship, The Fiefdoms, Halls of Thranduil,\n                Lothlórien, Minas Tirith, The Misty Mountains, The Rangers, Rivendell, Rohan, The Shire and Wildmen of Drúadan. They will be Impossible Allies with all other army lists.",
-				"unavailableWith": [
-					"Thorin Oakenshield, King Under the Mountain",
-					"Kili the Dwarf, Champion of Erebor",
-					"Fili the Dwarf, Champion of Erebor",
-					"Balin the Dwarf, Champion of Erebor",
-					"Bombur the Dwarf, Champion of Erebor",
-					"Ori the Dwarf, Champion of Erebor",
-					"Oin the Dwarf, Champion of Erebor",
-					"Dain Ironfoot, Lord of the Iron Hills"
 				]
 			},
 			{
@@ -8412,17 +8273,6 @@
 					"Heavy Armour",
 					"Shield",
 					"Hand-and-a-half pick."
-				],
-				"specialText": "If your force contains Dáin Ironfoot, King Under the Mountain, or Thorin III Stonehelm, then all models in this Army List change their Iron Hills keyword for the Erebor\n                keyword. Additionally, your force may not also include the following models from the Erebor Reclaimed army list:\n                Thorin Oakenshield, King Under the Mountain; Kíli the Dwarf, Champion of Erebor; Fíli the Dwarf, Champion of Erebor; Balin the Dwarf, Champion of Erebor; Bombur the\n                Dwarf, Champion of Erebor; Ori the Dwarf, Champion of Erebor; Óin the Dwarf, Champion of Erebor; Dáin Ironfoot, Lord of the Iron Hills. \n                Also, Dwalin may not take a War Goat.\n                Additionally, ignore the Allies Matrix for the Erebor Reclaimed army list. Instead, they will be Historical Allies with the Garrison of Dale, so long as the list contains\n                Brand, King of Dale, or Bard II, Prince of Dale. They will be Convenient Allies with The Dead of Dunharrow, Fangorn, The Fellowship, The Fiefdoms, Halls of Thranduil,\n                Lothlórien, Minas Tirith, The Misty Mountains, The Rangers, Rivendell, Rohan, The Shire and Wildmen of Drúadan. They will be Impossible Allies with all other army lists.",
-				"unavailableWith": [
-					"Thorin Oakenshield, King Under the Mountain",
-					"Kili the Dwarf, Champion of Erebor",
-					"Fili the Dwarf, Champion of Erebor",
-					"Balin the Dwarf, Champion of Erebor",
-					"Bombur the Dwarf, Champion of Erebor",
-					"Ori the Dwarf, Champion of Erebor",
-					"Oin the Dwarf, Champion of Erebor",
-					"Dain Ironfoot, Lord of the Iron Hills"
 				]
 			},
 			{
@@ -8463,72 +8313,6 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"allianceRules": {
-					"unitAllianceLevel": [
-						{
-							"level": "primary",
-							"factions": [
-								"Minas Tirith"
-							],
-							"with": [
-								{
-									"any": [
-										"Cirion, Lieutenant of Amon Barad"
-									]
-								}
-							]
-						},
-						{
-							"level": "secondary",
-							"factions": [
-								"The Fellowship",
-								"The Shire",
-								"The Rangers of the North",
-								"Minas Tirith",
-								"The Fiefdoms",
-								"The Dead of Dunharrow",
-								"Rohan",
-								"The Wildmen of Druadan",
-								"Rivendell",
-								"Lothlorien",
-								"Fangorn",
-								"The Misty Mountains",
-								"The Garrison of Dale",
-								"Halls of Thranduil",
-								"Radagast's Alliance",
-								"The White Council"
-							]
-						}
-					],
-					"primaryAlliesWith": [
-						{
-							"heroes": [
-								"Cirion, Lieutenant of Amon Barad"
-							],
-							"factions": [
-								"Minas Tirith"
-							]
-						}
-					],
-					"secondaryAllies": [
-						"The Fellowship",
-						"The Shire",
-						"The Rangers of the North",
-						"Minas Tirith",
-						"The Fiefdoms",
-						"The Dead of Dunharrow",
-						"Rohan",
-						"The Wildmen of Druadan",
-						"Rivendell",
-						"Lothlorien",
-						"Fangorn",
-						"The Misty Mountains",
-						"The Garrison of Dale",
-						"Halls of Thranduil",
-						"Radagast's Alliance",
-						"The White Council"
-					]
-				},
 				"specialText": "Múrin & Drár are Historical Allies with Minas Tirith, so long as the army contains Cirion, Lieutenant of Amon Barad.\n                They are Convenient Allies with The Fellowship, The Shire, The Rangers of the North, Minas Tirith, The Fiefdoms, The Dead of Dunharrow, Rohan, The Wildmen of Drúadan, Rivendell, Lothlórien, Fangorn, The Misty Mountains, The Garrison of Dale, Halls of Thranduil, Radagast’s Alliance and The White Council.\n                They are Impossible Allies with all other army lists.",
 				"points": 140,
 				"hideStats": true,
@@ -9174,7 +8958,7 @@
 				"name": "Damrod, Ranger of Ithilien",
 				"factions": [
 					{
-						"name": "Rangers of Ithilien",
+						"name": "Garrison of Ithilien",
 						"heroicTier": "Minor Hero"
 					}
 				],
@@ -17232,9 +17016,13 @@
 							"Master of Lake-town",
 							"Bard The Bowman"
 						]
+					},
+					{
+						"name": "The Battle of Five Armies",
+						"heroicTier": "Independent Hero"
 					}
 				],
-				"points": 20,
+				"points": 30,
 				"movement": 6,
 				"fight": 3,
 				"shoot": 4,
@@ -17262,7 +17050,7 @@
 				]
 			},
 			{
-				"name": "Sigrid & Tilda",
+				"name": "Bard's Family",
 				"factions": [
 					{
 						"name": "Survivors of Lake-town",
@@ -17271,9 +17059,13 @@
 					{
 						"name": "Army of Lake-town",
 						"heroicTier": "Independent Hero"
+					},
+					{
+						"name": "The Battle of Five Armies",
+						"heroicTier": "Independent Hero"
 					}
 				],
-				"points": 30,
+				"points": 60,
 				"hideStats": true,
 				"heroicActions": [],
 				"includes": [
@@ -17923,7 +17715,7 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
-				"points": 95,
+				"points": 105,
 				"movement": 6,
 				"fight": 6,
 				"shoot": 3,
@@ -17957,7 +17749,7 @@
 					},
 					{
 						"name": "Horse",
-						"points": 10,
+						"points": 20,
 						"availableIn": [
 							"Halls of Thranduil",
 							"The Battle of Five Armies"
@@ -18042,7 +17834,7 @@
 					}
 				],
 				"unlimited": true,
-				"points": 75,
+				"points": 80,
 				"movement": 6,
 				"fight": 6,
 				"shoot": 3,
@@ -19322,7 +19114,7 @@
 					{
 						"name": "Great Eagle",
 						"points": 50,
-						"elementProperyName": "options",
+						"elementPropertyName": "options",
 						"in": [
 							[
 								"The Battle of Five Armies"
@@ -20534,8 +20326,7 @@
 				"wargear": [
 					"Hand-and-a-half-axe",
 					"Great Bow"
-				],
-				"specialText": "Grimbeorn is Historical Allies with the Halls of Thranduil, so long as the army contains Thranduil. He is Convenient Allies with The Dead of Dunharrow, Erebor Reclaimed (so long as it includes Dáin Ironfoot, King Under the Mountain or Thorin III Stonehelm), Fangorn, The Fellowship, The Fiefdoms, Garrison of Dale (so long as it includes either Brand or Bard II), Lothlórien, Minas Tirith, The Misty Mountains, The Rangers, Rivendell, Rohan, The Shire and Wildmen of Drúadan. He is Impossible Allies with all other army lists."
+				]
 			},
 			{
 				"name": "Grimbeorn the Bear",
@@ -23233,22 +23024,6 @@
 					}
 				],
 				"legacy": true,
-				"allianceRules": {
-					"remove": [
-						{
-							"property": "armyBonus",
-							"with": [
-								{
-									"property": "keywords",
-									"value": "Hobbit"
-								}
-							]
-						}
-					],
-					"loseArmyBonusWithKeyword": [
-						"Hobbit"
-					]
-				},
 				"specialText": "If your force contains Bandobras Took and any other named Hobbit Hero models, then it will automatically lose its Army Bonus. Additionally, the force will automatically be Impossible Allies with every other army list regardless of what the alliance would normally be.",
 				"points": 40,
 				"movement": 4,
@@ -24207,74 +23982,6 @@
 						"heroicTier": "Independent Hero"
 					}
 				],
-				"allianceRules": {
-					"unitAllianceLevel": [
-						{
-							"level": "primary",
-							"factions": []
-						},
-						{
-							"level": "secondary",
-							"factions": [
-								"The Misty Mountains",
-								"Army of Lake-town",
-								"Army of Thror",
-								"Arnor",
-								"The Dead of Dunharrow",
-								"Erebor Reclaimed",
-								"Fangorn",
-								"The Fiefdoms",
-								"Garrison of Dale",
-								"Halls of Thranduil",
-								"The Iron Hills",
-								"The Kingdom of Khazad-Dum",
-								"Lothlorien",
-								"Minas Tirith",
-								"The Misty Mountains",
-								"Numenor",
-								"The Rangers",
-								"Rivendell",
-								"Rohan",
-								"The Shire",
-								"Survivors of Lake-town",
-								"The White Council",
-								"Wildmen of Druadan",
-								"The Fellowship",
-								"Radagast's Alliance",
-								"Thorin's Company"
-							]
-						}
-					],
-					"primaryAllies": [],
-					"secondaryAllies": [
-						"The Misty Mountains",
-						"Army of Lake-town",
-						"Army of Thror",
-						"Arnor",
-						"The Dead of Dunharrow",
-						"Erebor Reclaimed",
-						"Fangorn",
-						"The Fiefdoms",
-						"Garrison of Dale",
-						"Halls of Thranduil",
-						"The Iron Hills",
-						"The Kingdom of Khazad-Dum",
-						"Lothlorien",
-						"Minas Tirith",
-						"The Misty Mountains",
-						"Numenor",
-						"The Rangers",
-						"Rivendell",
-						"Rohan",
-						"The Shire",
-						"Survivors of Lake-town",
-						"The White Council",
-						"Wildmen of Druadan",
-						"The Fellowship",
-						"Radagast's Alliance",
-						"Thorin's Company"
-					]
-				},
 				"specialText": "Tom Bombadil is Convenient Allies with all Good army lists.",
 				"points": 160,
 				"movement": 6,
@@ -24323,74 +24030,6 @@
 						"heroicTier": "Independent Hero"
 					}
 				],
-				"allianceRules": {
-					"unitAllianceLevel": [
-						{
-							"level": "primary",
-							"factions": []
-						},
-						{
-							"level": "secondary",
-							"factions": [
-								"The Misty Mountains",
-								"Army of Lake-town",
-								"Army of Thror",
-								"Arnor",
-								"The Dead of Dunharrow",
-								"Erebor Reclaimed",
-								"Fangorn",
-								"The Fiefdoms",
-								"Garrison of Dale",
-								"Halls of Thranduil",
-								"The Iron Hills",
-								"The Kingdom of Khazad-Dum",
-								"Lothlorien",
-								"Minas Tirith",
-								"The Misty Mountains",
-								"Numenor",
-								"The Rangers",
-								"Rivendell",
-								"Rohan",
-								"The Shire",
-								"Survivors of Lake-town",
-								"The White Council",
-								"Wildmen of Druadan",
-								"The Fellowship",
-								"Radagast's Alliance",
-								"Thorin's Company"
-							]
-						}
-					],
-					"primaryAllies": [],
-					"secondaryAllies": [
-						"The Misty Mountains",
-						"Army of Lake-town",
-						"Army of Thror",
-						"Arnor",
-						"The Dead of Dunharrow",
-						"Erebor Reclaimed",
-						"Fangorn",
-						"The Fiefdoms",
-						"Garrison of Dale",
-						"Halls of Thranduil",
-						"The Iron Hills",
-						"The Kingdom of Khazad-Dum",
-						"Lothlorien",
-						"Minas Tirith",
-						"The Misty Mountains",
-						"Numenor",
-						"The Rangers",
-						"Rivendell",
-						"Rohan",
-						"The Shire",
-						"Survivors of Lake-town",
-						"The White Council",
-						"Wildmen of Druadan",
-						"The Fellowship",
-						"Radagast's Alliance",
-						"Thorin's Company"
-					]
-				},
 				"specialText": "Goldberry is Convenient Allies with all Good army lists.",
 				"points": 140,
 				"movement": 6,
@@ -24470,93 +24109,6 @@
 						"heroicTier": "Independent Hero"
 					}
 				],
-				"allianceRules": {
-					"unitAllianceLevel": [
-						{
-							"level": "primary",
-							"factions": [
-								"The White Council"
-							],
-							"with": [
-								{
-									"any": [
-										"Gandalf the Grey"
-									]
-								}
-							]
-						},
-						{
-							"level": "primary",
-							"factions": [
-								"Dark Powers of Dol Guldur"
-							],
-							"with": [
-								{
-									"any": [
-										"The Necromancer of Dol Guldur"
-									]
-								}
-							]
-						},
-						{
-							"level": "secondary",
-							"factions": [
-								"The Fellowship",
-								"The Shire",
-								"The Rangers of the North",
-								"Minas Tirith",
-								"The Fiefdoms",
-								"The Dead of Dunharrow",
-								"Rohan",
-								"The Wildmen of Druadan",
-								"Rivendell",
-								"Lothlorien",
-								"Fangorn",
-								"The Misty Mountains",
-								"The Garrison of Dale",
-								"Halls of Thranduil",
-								"Radagast's Alliance",
-								"The White Council"
-							]
-						}
-					],
-					"primaryAlliesWith": [
-						{
-							"heroes": [
-								"Gandalf the Grey"
-							],
-							"factions": [
-								"The White Council"
-							]
-						},
-						{
-							"heroes": [
-								"The Necromancer of Dol Guldur"
-							],
-							"factions": [
-								"Dark Powers of Dol Guldur"
-							]
-						}
-					],
-					"secondaryAllies": [
-						"The Fellowship",
-						"The Shire",
-						"The Rangers of the North",
-						"Minas Tirith",
-						"The Fiefdoms",
-						"The Dead of Dunharrow",
-						"Rohan",
-						"The Wildmen of Druadan",
-						"Rivendell",
-						"Lothlorien",
-						"Fangorn",
-						"The Misty Mountains",
-						"The Garrison of Dale",
-						"Halls of Thranduil",
-						"Radagast's Alliance",
-						"The White Council"
-					]
-				},
 				"specialText": "Thráin the Broken is Historical Allies with The White Council, so long as the army contains Gandalf the Grey; and Historical Allies with the Dark Powers of Dol Guldur, so long as it includes The Necromancer of Dol Guldur.\n                He is Impossible Allies with all other army lists.",
 				"points": 10,
 				"movement": 5,
@@ -24630,46 +24182,6 @@
 						"heroicTier": "Minor Hero"
 					}
 				],
-				"allianceRules": {
-					"unitAllianceLevel": [
-						{
-							"level": "primary",
-							"factions": [
-								"The Fellowship"
-							]
-						},
-						{
-							"level": "secondary",
-							"factions": [
-								"The Rangers",
-								"Minas Tirith",
-								"The Fiefdoms",
-								"The Dead of Dunharrow",
-								"Rohan",
-								"Wildmen of Druadan",
-								"Rivendell",
-								"Lothlórien",
-								"Fangorn",
-								"The Misty Mountains"
-							]
-						}
-					],
-					"primaryAllies": [
-						"The Fellowship"
-					],
-					"secondaryAllies": [
-						"The Rangers",
-						"Minas Tirith",
-						"The Fiefdoms",
-						"The Dead of Dunharrow",
-						"Rohan",
-						"Wildmen of Druadan",
-						"Rivendell",
-						"Lothlórien",
-						"Fangorn",
-						"The Misty Mountains"
-					]
-				},
 				"specialText": "Harry Goatleaf can either be taken as a Good or an Evil model.\n                If taken as a Good model he is: \n                • Historical Allies with The Fellowship.\n                • Convenient Allies with The Rangers, Minas Tirith, The Fiefdoms, The Dead of Dunharrow, Rohan, Wildmen of Drúadan, Rivendell, Lothlórien, Fangorn and The Misty Mountains.\n                • Impossible Allies with all other army lists.\n                If taken as an Evil model, Harry Goatleaf counts as a Hero of Fortitude. He may be taken as part of the Sharkey’s Rogues army list and may also be included as part of The Chief’s Ruffians Legendary Legion.\n                ",
 				"points": 40,
 				"movement": 6,
@@ -25484,10 +24996,11 @@
 			{
 				"name": "Alfrid the Councillor",
 				"factions": [
-					"Survivors of Lake-town"
+					"Survivors of Lake-town",
+					"The Battle of Five Armies"
 				],
 				"unique": true,
-				"points": 20,
+				"points": 30,
 				"movement": 6,
 				"fight": 3,
 				"shoot": 4,
@@ -28434,7 +27947,8 @@
 				"factions": [
 					"The Iron Hills",
 					"Erebor Reclaimed",
-					"Defenders of Erebor"
+					"Defenders of Erebor",
+					"The Battle of Five Armies"
 				],
 				"points": 10,
 				"movement": 5,
@@ -28505,7 +28019,8 @@
 				"factions": [
 					"The Iron Hills",
 					"Erebor Reclaimed",
-					"Defenders of Erebor"
+					"Defenders of Erebor",
+					"The Battle of Five Armies"
 				],
 				"points": 20,
 				"movement": 5,
@@ -30592,7 +30107,6 @@
 			{
 				"name": "Wood Elf Sentinel",
 				"factions": [
-					"Halls of Thranduil",
 					"Rangers of Mirkwood"
 				],
 				"points": 25,
@@ -30677,7 +30191,8 @@
 			{
 				"name": "Lake-town Militia",
 				"factions": [
-					"Survivors of Lake-town"
+					"Survivors of Lake-town",
+					"The Battle of Five Armies"
 				],
 				"points": 5,
 				"movement": 6,
@@ -30696,16 +30211,19 @@
 				],
 				"options": [
 					{
-						"name": "Shield",
-						"points": 1
+						"name": "Light shield",
+						"points": 1,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Bow",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Spear",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -30774,15 +30292,11 @@
 				],
 				"options": [
 					{
-						"name": "War horn",
-						"points": 30
+						"name": "Shield and Elven spear",
+						"points": 2
 					},
 					{
-						"name": "Banner",
-						"points": 25
-					},
-					{
-						"name": "Spear",
+						"name": "Elven spear",
 						"points": 1
 					},
 					{
@@ -30801,9 +30315,10 @@
 				]
 			},
 			{
-				"name": "Mirkwood Elf",
+				"name": "Mirkwood Elf Warrior",
 				"factions": [
-					"Halls of Thranduil"
+					"Halls of Thranduil",
+					"The Battle of Five Armies"
 				],
 				"points": 9,
 				"movement": 6,
@@ -30822,12 +30337,8 @@
 				],
 				"options": [
 					{
-						"name": "Elven-made Glaive",
+						"name": "Elven Glaive",
 						"points": 2
-					},
-					{
-						"name": "Banner",
-						"points": 25
 					},
 					{
 						"name": "Elf Bow",
@@ -30847,9 +30358,10 @@
 				]
 			},
 			{
-				"name": "Mirkwood Cavalry",
+				"name": "Mirkwood Elf Knight",
 				"factions": [
-					"Halls of Thranduil"
+					"Halls of Thranduil",
+					"The Battle of Five Armies"
 				],
 				"points": 16,
 				"movement": 6,
@@ -30866,16 +30378,7 @@
 					"Cavalry",
 					"Warrior"
 				],
-				"options": [
-					{
-						"name": "Banner",
-						"points": 25
-					},
-					{
-						"name": "Shield",
-						"points": 1
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Woodland Creature",
 					"Expert Rider",
@@ -30908,12 +30411,7 @@
 					"Infantry",
 					"Warrior"
 				],
-				"options": [
-					{
-						"name": "War Horn",
-						"points": 30
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Woodland Creature",
 					"Knife Fighters"
@@ -30927,12 +30425,6 @@
 					{
 						"in": [
 							"Rangers of Mirkwood"
-						],
-						"type": "bow"
-					},
-					{
-						"in": [
-							"Halls of Thranduil"
 						],
 						"type": "bow"
 					}
@@ -31712,7 +31204,8 @@
 				"factions": [
 					"The Eagles",
 					"Radagast's Alliance",
-					"Men of the West"
+					"Men of the West",
+					"The Battle of Five Armies"
 				],
 				"points": 100,
 				"movement": 12,
@@ -31757,11 +31250,12 @@
 				"options": []
 			},
 			{
-				"name": "FledgelingGreat Eagle",
+				"name": "Fledgeling Great Eagle",
 				"factions": [
 					"The Eagles",
 					"Radagast's Alliance",
-					"Men of the West"
+					"Men of the West",
+					"The Battle of Five Armies"
 				],
 				"points": 75,
 				"movement": 12,
