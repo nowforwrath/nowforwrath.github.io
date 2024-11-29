@@ -598,7 +598,7 @@
 								"points": 5
 							},
 							{
-								"name": "Snowmane with Armour",
+								"name": "Snowmane with armour",
 								"elementPropertyName": "options",
 								"points": 25
 							}
@@ -639,6 +639,22 @@
 				"name": "Defenders of the Hornburg",
 				"alignment": "good",
 				"armyBonus": "\"Defend the Hornburg\" - Friendly Rohan Infantry gain the Dominant (2) special rule.\n                \"A Desperate Defence\" - Friendly Rohan Infantry Warrior models must re-roll To Wound Rollw of a Natural 1 when making Strikes.\n                \"Frenzy of the King\" - At the start of the End Phase of a turn in which Helm Hammerhand kills an enemy Hero or Monster, enemy models within 3\" of Helm must take a Courage Test in an order chosen by Helm's controlling player. If the test if failed, the model must Move up to its Move Value directly away from Helm."
+			},
+			{
+				"name": "Minas Tirith",
+				"alignment": "good",
+				"armyBonus": "\"Do you think the eyes of the white tower are blind?\" - Once per game, during the Priority Phase but before the roll for Priority, Denethor can use this special rule so long as he is alive and on the battlefield. If he does, Denethor's controlling player automatically wins the roll to choose hwo has Priority for that turn. If both sides have a specia rule allowing them to do this and both with to use it in the same turn, players roll off as normal and both special rules count as being used.\n                \"Is there a captain here who still has the courage to do his lord's will?\" - If your army includes both Faramir and Denethor, then whilst Denethor is alive and on the battlefield, Faramir will automatically pass all Courage Tests he is required to make. Additionally, whilst Denethor is alive and on the battlefield, when Faramir Moves he must Charge if able to do so.\n                \"Faramir's Charge\" - Whilst he has the Cavalry keyword, before Faramir Charges make a note of where he begins his Activation. Until the end of the turn, friendly Gondor Cavalry Warrior models within 6\" of where Faramir begins his Activation gain the Fearless special rule and, if they Charge, gain a bonus of +1 to their Fight Value."
+			},
+			{
+				"name": "Garrison of Ithilien",
+				"alignment": "good",
+				"armyBonus": "\"Captured by Gondor\" - Frodo, Sam and Smeagol may either be deployed as a single Warband with Frodo as the Warband's Captin, or as part of Faramir's Warband\n                \"Faramir's Rangers\" - A Garrison of Ithilien Army has a Bow Limit of 50% rather than the usual 33%\n                \"Experienced Trackers\" - At the start of each game, you may choose either Woodland Creature or Mountain Dwellers. Friendly Gondor models gain the chosen special rule for the duration of the game.\n                \"I think at last we understand one another, Frodo Baggins\" - At the end of the game, you will score an additional Victory Point for each of Frodo, Sam and Smeagol that are still alive, or have excaped the battlefield in Scenarios where this applies. This can never take your total number of Victory Points for a Scenario above 20.",
+				"adjustLimits": [
+					{
+						"type": "bow",
+						"percentage": 50
+					}
+				]
 			}
 		],
 		"heroicTiers": [
@@ -1234,7 +1250,8 @@
 						"chooseOneKey": "a",
 						"availableIn": [
 							"Kingdom of Rohan",
-							"Road to Helm's Deep"
+							"Road to Helm's Deep",
+							"Ride Out"
 						]
 					},
 					{
@@ -1249,11 +1266,19 @@
 					{
 						"name": "Exchange armour for heavy armour",
 						"usesDefinition": "Heavy armour",
-						"points": 5
+						"points": 5,
+						"availableIn": [
+							"Kingdom of Rohan",
+							"Ride Out"
+						]
 					},
 					{
 						"name": "Shield",
-						"points": 5
+						"points": 5,
+						"availableIn": [
+							"Kingdom of Rohan",
+							"Ride Out"
+						]
 					}
 				],
 				"specialRules": [
@@ -1878,8 +1903,8 @@
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
-						"name": "Kingdom of Rohan",
-						"heroicTier": "Road to Helm's Deep"
+						"name": "Road to Helm's Deep",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unavailableWith": [
@@ -6954,7 +6979,8 @@
 				"options": [
 					{
 						"name": "Banner of Minas Tirith",
-						"points": 40
+						"points": 40,
+						"availableIn": []
 					},
 					{
 						"name": "Horse",
@@ -6978,10 +7004,6 @@
 			{
 				"name": "Gandalf the White",
 				"factions": [
-					{
-						"name": "Minas Tirith",
-						"heroicTier": "Hero of Valour"
-					},
 					{
 						"name": "Riders of Eomer",
 						"heroicTier": "Hero of Valour"
@@ -7112,12 +7134,7 @@
 			},
 			{
 				"name": "Hurin the Tall, Warden of the Keys",
-				"factions": [
-					{
-						"name": "Minas Tirith",
-						"heroicTier": "Hero of Valour"
-					}
-				],
+				"factions": [],
 				"points": 80,
 				"movement": 6,
 				"fight": 5,
@@ -7305,15 +7322,18 @@
 				"options": [
 					{
 						"name": "Horse",
-						"points": 20
+						"points": 20,
+						"availableIn": []
 					},
 					{
 						"name": "Shield",
-						"points": 5
+						"points": 5,
+						"availableIn": []
 					},
 					{
 						"name": "Exchange armour and bow for heavy armour",
-						"points": 0
+						"points": 0,
+						"availableIn": []
 					}
 				],
 				"specialRules": [
@@ -7333,10 +7353,6 @@
 			{
 				"name": "Mablung, Ranger of Ithilien",
 				"factions": [
-					{
-						"name": "Minas Tirith",
-						"heroicTier": "Minor Hero"
-					},
 					{
 						"name": "Rangers of Ithilien",
 						"heroicTier": "Minor Hero"
@@ -8400,7 +8416,7 @@
 						"heroicTier": "Minor Hero"
 					}
 				],
-				"points": 25,
+				"points": 40,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 3,
@@ -8437,10 +8453,6 @@
 			{
 				"name": "Aragorn, King Elessar",
 				"factions": [
-					{
-						"name": "Minas Tirith",
-						"heroicTier": "Hero of Legend"
-					},
 					{
 						"name": "The Men of the West",
 						"heroicTier": "Hero of Legend"
@@ -8507,12 +8519,7 @@
 			},
 			{
 				"name": "Knight of the White Tower",
-				"factions": [
-					{
-						"name": "Minas Tirith",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"unlimited": true,
 				"points": 60,
@@ -8550,10 +8557,6 @@
 			{
 				"name": "Beregond, Guard of the Citadel",
 				"factions": [
-					{
-						"name": "Minas Tirith",
-						"heroicTier": "Minor Hero"
-					},
 					{
 						"name": "The Men of the West",
 						"heroicTier": "Minor Hero"
@@ -8605,10 +8608,6 @@
 				"name": "Peregrin Took, Guard of the Citadel",
 				"factions": [
 					{
-						"name": "Minas Tirith",
-						"heroicTier": "Independent Hero"
-					},
-					{
 						"name": "The Men of the West",
 						"heroicTier": "Independent Hero"
 					}
@@ -8657,12 +8656,7 @@
 			},
 			{
 				"name": "Cirion, Lieutenant of Amon Barad",
-				"factions": [
-					{
-						"name": "Minas Tirith",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 55,
 				"movement": 6,
@@ -8702,10 +8696,6 @@
 			{
 				"name": "Earnur, Last King of Gondor",
 				"factions": [
-					{
-						"name": "Minas Tirith",
-						"heroicTier": "Hero of Valour"
-					},
 					{
 						"name": "Battle of Fornost",
 						"heroicTier": "Hero of Valour"
@@ -10260,15 +10250,22 @@
 				]
 			},
 			{
-				"name": "Frodo Baggins (Rangers of Ithilien)",
-				"factions": [],
-				"autoAddOnly": true,
-				"points": 0,
+				"name": "Frodo Baggins (Garrison of Ithilien)",
+				"factions": [
+					{
+						"name": "Garrison of Ithilien",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"increaseMaximumChildren": {
+					"warriors": -12
+				},
+				"points": 55,
 				"movement": 4,
 				"fight": 3,
 				"shoot": 3,
 				"strength": 2,
-				"defence": 6,
+				"defence": 3,
 				"attack": 1,
 				"wounds": 2,
 				"courage": 6,
@@ -10283,17 +10280,90 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "options",
+						"name": "Elven Cloak",
+						"in": [
+							[
+								"Breaking of the Fellowship"
+							]
+						],
+						"points": 0
+					},
+					{
+						"elementPropertyName": "options",
+						"name": "Elven Cloak",
+						"in": [
+							[
+								"Garrison of Ithilien"
+							]
+						],
+						"points": 5
+					},
+					{
+						"elementPropertyName": "options",
+						"name": "Sting",
+						"in": [
+							[
+								"Garrison of Ithilien"
+							]
+						],
+						"points": 5
+					},
+					{
+						"elementPropertyName": "options",
+						"name": "Mithril Coat",
+						"in": [
+							[
+								"Garrison of Ithilien"
+							]
+						],
+						"points": 15
+					}
+				],
+				"options": [
+					{
+						"name": "Sting",
+						"points": 5,
+						"availableIn": [
+							"Garrison of Ithilien",
+							"The Fellowship",
+							"Breaking of the Fellowship",
+							"Road to Rivendell"
+						],
+						"requiredIn": [
+							"Garrison of Ithilien"
+						]
+					},
+					{
+						"name": "Mithril Coat",
+						"points": 15,
+						"availableIn": [
+							"Garrison of Ithilien",
+							"The Fellowship",
+							"Breaking of the Fellowship",
+							"Road to Rivendell"
+						],
+						"requiredIn": [
+							"Garrison of Ithilien"
+						]
+					},
+					{
+						"name": "Elven Cloak",
+						"points": 5,
+						"availableIn": [
+							"Garrison of Ithilien"
+						]
+					}
+				],
 				"specialRules": [
 					"Resistant to Magic",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
 					"Dagger",
-					"The One Ring",
-					"Elven Cloak",
-					"Sting",
-					"Mithril Coat"
+					"The One Ring"
 				]
 			},
 			{
@@ -10344,9 +10414,6 @@
 						"in": [
 							[
 								"Breaking of the Fellowship"
-							],
-							[
-								"Rangers of Ithilien"
 							]
 						],
 						"points": 0
@@ -10375,10 +10442,18 @@
 				]
 			},
 			{
-				"name": "Samwise Gamgee (Rangers of Ithilien)",
-				"factions": [],
-				"autoAddOnly": true,
-				"points": 0,
+				"name": "Samwise Gamgee (Garrison of Ithilien)",
+				"factions": [
+					{
+						"name": "Garrison of Ithilien",
+						"heroicTier": "Hero of Fortitude",
+						"unlockedBy": "Frodo Baggins (Garrison of Ithilien)"
+					}
+				],
+				"increaseMaximumChildren": {
+					"warriors": -12
+				},
+				"points": 40,
 				"movement": 4,
 				"fight": 3,
 				"shoot": 3,
@@ -10399,15 +10474,58 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "options",
+						"name": "Elven Cloak",
+						"in": [
+							[
+								"Breaking of the Fellowship"
+							],
+							[
+								"Rangers of Ithilien"
+							]
+						],
+						"points": 0
+					},
+					{
+						"elementPropertyName": "options",
+						"name": "Elven Cloak",
+						"in": [
+							[
+								"Garrison of Ithilien"
+							]
+						],
+						"points": 5
+					}
+				],
+				"options": [
+					{
+						"name": "Elven Cloak",
+						"points": 0,
+						"availableIn": [
+							"Breaking of the Fellowship"
+						],
+						"requiredIn": [
+							"Breaking of the Fellowship",
+							"Rangers of Ithilien"
+						]
+					},
+					{
+						"name": "Elven Cloak",
+						"points": 5,
+						"availableIn": [
+							"Garrison of Ithilien"
+						]
+					}
+				],
 				"specialRules": [
 					"Resistant to Magic",
 					"Throw Stones (range 8\", Strength 1)",
 					"Let Him Go or I'll Have You, Longshanks!"
 				],
 				"wargear": [
-					"Dagger",
-					"Elven Cloak"
+					"Dagger"
 				]
 			},
 			{
@@ -10625,10 +10743,15 @@
 				"wargear": []
 			},
 			{
-				"name": "Smeagol (Rangers of Ithilien)",
-				"factions": [],
-				"points": 0,
-				"autoAddOnly": true,
+				"name": "Smeagol (Garrison of Ithilien)",
+				"factions": [
+					{
+						"name": "Garrison of Ithilien",
+						"heroicTier": "Independent Hero",
+						"unlockedBy": "Samwise Gamgee (Garrison of Ithilien)"
+					}
+				],
+				"points": 30,
 				"movement": 5,
 				"fight": 4,
 				"shoot": 4,
@@ -10783,7 +10906,7 @@
 				]
 			},
 			{
-				"name": "Denethor",
+				"name": "Denethor, Steward of Gondor",
 				"factions": [
 					{
 						"name": "Minas Tirith",
@@ -10826,12 +10949,7 @@
 			},
 			{
 				"name": "King of Men",
-				"factions": [
-					{
-						"name": "Minas Tirith",
-						"heroicTier": "Hero of Valour"
-					}
-				],
+				"factions": [],
 				"unlimited": true,
 				"points": 60,
 				"movement": 6,
@@ -10901,12 +11019,7 @@
 			},
 			{
 				"name": "Ingold, Warden of the Rammas Echor",
-				"factions": [
-					{
-						"name": "Minas Tirith",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"unavailableWith": [
 					"King of Men"
 				],
@@ -13565,7 +13678,7 @@
 					}
 				],
 				"unlimited": true,
-				"points": 50,
+				"points": 60,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 4,
@@ -13586,46 +13699,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Horse",
-						"points": 10,
-						"availableIn": [
-							"Minas Tirith",
-							"Rangers of Ithilien",
-							"Battle of Fornost"
-						]
-					},
-					{
-						"name": "Bow",
-						"points": 5,
-						"availableIn": [
-							"Minas Tirith",
-							"The Men of the West",
-							"Rangers of Ithilien",
-							"Battle of Fornost"
-						]
-					},
-					{
-						"name": "Lance",
-						"points": 5,
-						"availableIn": [
-							"Minas Tirith",
-							"Rangers of Ithilien",
-							"Battle of Fornost"
-						]
-					},
-					{
-						"name": "Shield",
-						"points": 5,
-						"availableIn": [
-							"Minas Tirith",
-							"The Men of the West",
-							"Rangers of Ithilien",
-							"Battle of Fornost"
-						]
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Shield Wall"
 				],
@@ -13637,10 +13711,6 @@
 			{
 				"name": "Madril, Captain of Ithilien",
 				"factions": [
-					{
-						"name": "Minas Tirith",
-						"heroicTier": "Hero of Fortitude"
-					},
 					{
 						"name": "Rangers of Ithilien",
 						"heroicTier": "Hero of Fortitude"
@@ -13685,10 +13755,6 @@
 			{
 				"name": "Anborn, Ranger of Ithilien",
 				"factions": [
-					{
-						"name": "Minas Tirith",
-						"heroicTier": "Minor Hero"
-					},
 					{
 						"name": "Rangers of Ithilien",
 						"heroicTier": "Minor Hero"
@@ -16965,12 +17031,7 @@
 			},
 			{
 				"name": "Gondor Battlecry Trebuchet",
-				"factions": [
-					{
-						"name": "Minas Tirith",
-						"heroicTier": "Minor Hero"
-					}
-				],
+				"factions": [],
 				"unlimited": true,
 				"points": 80,
 				"movement": 0,
@@ -17654,12 +17715,7 @@
 			},
 			{
 				"name": "Gondor Avenger Bolt Thrower",
-				"factions": [
-					{
-						"name": "Minas Tirith",
-						"heroicTier": "Minor Hero"
-					}
-				],
+				"factions": [],
 				"unlimited": true,
 				"points": 50,
 				"movement": 0,
@@ -23616,12 +23672,7 @@
 			},
 			{
 				"name": "Minas Tirith Siege Veteran",
-				"factions": [
-					{
-						"name": "Minas Tirith",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"autoAddOnly": true,
 				"unavailableSolo": true,
 				"points": 0,
@@ -24505,14 +24556,6 @@
 				"factions": [
 					"Rangers of Ithilien"
 				],
-				"availableIn": [
-					"Faramir, Captain of Gondor"
-				],
-				"unavailableIn": [
-					[
-						"Minas Tirith"
-					]
-				],
 				"unique": true,
 				"warnInOptions": true,
 				"points": 160,
@@ -24581,7 +24624,6 @@
 			{
 				"name": "Peregrin Took, Guard of the Citadel",
 				"factions": [
-					"Minas Tirith",
 					"The Men of the West"
 				],
 				"unique": true,
@@ -26361,7 +26403,7 @@
 				"factions": [
 					"Minas Tirith",
 					"The Men of the West",
-					"Rangers of Ithilien",
+					"Garrison of Ithilien",
 					"Battle of Fornost"
 				],
 				"points": 8,
@@ -26432,9 +26474,10 @@
 				"name": "Knight of Minas Tirith",
 				"factions": [
 					"Minas Tirith",
-					"Battle of Fornost"
+					"Battle of Fornost",
+					"Garrison of Minas Tirith"
 				],
-				"points": 13,
+				"points": 15,
 				"movement": 6,
 				"fight": 3,
 				"shoot": 4,
@@ -26451,12 +26494,8 @@
 				],
 				"options": [
 					{
-						"name": "Banner",
+						"name": "Exchange lance and shield for banner",
 						"points": 25
-					},
-					{
-						"name": "Shield",
-						"points": 1
 					}
 				],
 				"specialRules": [
@@ -26466,7 +26505,8 @@
 					"Heavy Armour",
 					"Sword",
 					"Lance",
-					"Horse"
+					"Horse",
+					"Shield"
 				]
 			},
 			{
@@ -26712,8 +26752,7 @@
 			{
 				"name": "Ranger of Gondor",
 				"factions": [
-					"Minas Tirith",
-					"Rangers of Ithilien"
+					"Garrison of Ithilien"
 				],
 				"points": 8,
 				"movement": 6,
@@ -26731,6 +26770,14 @@
 					"Warrior"
 				],
 				"options": [
+					{
+						"name": "Banner",
+						"points": 25
+					},
+					{
+						"name": "War horn",
+						"points": 25
+					},
 					{
 						"name": "Spear",
 						"points": 1
@@ -27049,10 +27096,9 @@
 			{
 				"name": "Osgiliath Veteran",
 				"factions": [
-					"Minas Tirith",
-					"Rangers of Ithilien"
+					"Garrison of Ithilien"
 				],
-				"points": 8,
+				"points": 9,
 				"movement": 6,
 				"fight": 3,
 				"shoot": 4,
