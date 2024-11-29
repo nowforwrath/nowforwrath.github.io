@@ -963,7 +963,8 @@
 				"requiredChildren": [
 					{
 						"name": "Corsair Captain Leader",
-						"points": 55
+						"points": 55,
+						"elementPropertyName": "heroes"
 					}
 				]
 			},
