@@ -1031,6 +1031,16 @@
 				"name": "Thorin's Company",
 				"alignment": "good",
 				"armyBonus": "\"March to the Lonely Mountain\" - If your Army contains only Thorin's Company models, then friendly Dwarf models may spend their Will Points to declare a Heroic March instead of using Might Points, even if htey do not normally have the ability to declare a Heroic March.\n                \"We're making a long-term deposit\" - At the beginning of the game, choose one Objective Marker on the board. Friendly Dwarf models within range of the chosen Objective Marker gain the Dominant (2) special rule.\n                \"Family Ties\" - The Dwarves of Thorin's Company are divided into Family Groups, which are as follows:\n                -Balin and Dwalin\n                -Kili and Fili\n                -Bifur, Bofur and Bombur\n                -Ori, Nori and Dori\n                -Oin and Gloin\n                Hero models from this Army that are within 3\" of another Hero from the same Family Group may spend that model's Might, Will and Fate points as if they were their own."
+			},
+			{
+				"name": "Azog's Hunters",
+				"alignment": "evil",
+				"armyBonus": "\"Morgul Arrows\" - Any enemy model that suffers a Wound from a shooting attack made by a friendly model, and that Wound isn't prevented, must roll a D6 during the End Phase of every turn after suffering the Wound. On the roll of a 1, the model immediately suffers a Wound. A model that has suffered multiple Wounds in this manner still only rolls a single D6 during the End Phase.\n                \"They Strike in the wee small hours when everyone's asleep\" - An Azog's Hunter Army has a Bow Limit of 50% rather than the usual 33%\n                \"Relentless Hunters\" - All models in this army list gain the Woodland Creature and Mountain Dweller special rules.\n                \"The Pale Orc's Demands\" - Whilst within 6\" of a friendly Hero, friendly Orc Warrior models gain a bonus of +1 to any Courage Tests to Charge an enemy model with the Terror special rule."
+			},
+			{
+				"name": "Army of Gundabad",
+				"alignment": "evil",
+				"armyBonus": "\"Commander of Legions\" - If your General is either Azog or Bolg, then your General gains the Master of Battle (5+) special rule.\n                \"Here ends your filthy bloodline!\" - Azog may re-roll any failed To Wound Rolls when making Strikes against Erebor models.\n                \"The Horn of Gorgoroth\" - Once per game, after priority has been determined, as long as your General is alive and on the battlefield they can order the Horn of Gorgoroth to be blown. Until the End of the turn, all friendly Gundabad models gain a bonus of +2 to any Courage Tests they are required to take. Additionally, until the end of the turn, all enemy models on the battlefield suffer a -2 penalty to any Courage Tests they are required to take. Note that this is not cumulative with other rules that confer similar penaltives.\n                \"Raise the Banners\" - During the Priority Phase, after Priority has been determined, as long as your General is alive and on the battlefield they may command one of the banners on the signal tower to be raised. If they do, choose one of the banners below and apply its effects until the End Phase of the turn. You may not raise the same banner as the previous turn.\n                -The Banner of Dol Guldur - All friendly Gundabad models on the battlefield count themselves as being in range of a banner.\n                -The Banner of Gundabad - All friendly Gundabad Hero models on the battlefield may declare a Heroic March for free\n                -The Banner of Angmar - Whenever a friendly Gundabad model suffers a Wound, roll a D6. On the roll of a natural 6, the Wound is ignored. Gundabad Berserkers will instead pass their Oblivious to Pain roll on a natural 5+ instead of a natural 6."
 			}
 		],
 		"heroicTiers": [
@@ -11933,10 +11943,14 @@
 					},
 					{
 						"name": "Azog's Hunters",
-						"heroicTier": "Hero of Valour"
+						"heroicTier": "Hero of Legend"
 					},
 					{
 						"name": "Pits of Dol Guldur",
+						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Army of Gundabad",
 						"heroicTier": "Hero of Legend"
 					}
 				],
@@ -11979,6 +11993,13 @@
 					"Infantry",
 					"Hero"
 				],
+				"requiredChildren": [
+					{
+						"name": "Heavy Armour",
+						"points": 10,
+						"elementPropertyName": "options"
+					}
+				],
 				"options": [
 					{
 						"name": "The White Warg",
@@ -11986,11 +12007,17 @@
 					},
 					{
 						"name": "Stone Flail",
-						"points": 15
+						"points": 15,
+						"availableIn": [
+							"Army of Gundabad"
+						]
 					},
 					{
 						"name": "Heavy Armour",
-						"points": 10
+						"points": 10,
+						"availableIn": [
+							"Army of Gundabad"
+						]
 					}
 				],
 				"specialRules": [
@@ -12011,6 +12038,10 @@
 					},
 					{
 						"name": "Azog's Hunters",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Army of Gundabad",
 						"heroicTier": "Hero of Valour"
 					}
 				],
@@ -12122,14 +12153,14 @@
 				]
 			},
 			{
-				"name": "Yazneg",
+				"name": "Yazneg, Hunter Orc Captain",
 				"factions": [
 					{
 						"name": "Azog's Hunters",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 45,
+				"points": 55,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 5,
@@ -12151,18 +12182,8 @@
 				],
 				"options": [
 					{
-						"name": "Fell Warg",
-						"points": 10,
-						"availableIn": [
-							"Azog's Hunters"
-						]
-					},
-					{
-						"name": "Lance",
-						"points": 5,
-						"availableIn": [
-							"Azog's Hunters"
-						]
+						"name": "Fell Warg and lance",
+						"points": 25
 					}
 				],
 				"specialRules": [
@@ -12182,7 +12203,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 50,
+				"points": 55,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 4,
@@ -12202,15 +12223,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Fell Warg",
-						"points": 10,
-						"availableIn": [
-							"Azog's Hunters"
-						]
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Expert Rider",
 					"Morgul Arrows",
@@ -12223,7 +12236,7 @@
 				]
 			},
 			{
-				"name": "Fimbul The Hunter",
+				"name": "Fimbul, Hunter Orc Captain",
 				"factions": [
 					{
 						"name": "Azog's Hunters",
@@ -12253,10 +12266,7 @@
 				"options": [
 					{
 						"name": "Fell Warg",
-						"points": 10,
-						"availableIn": [
-							"Azog's Hunters"
-						]
+						"points": 20
 					}
 				],
 				"specialRules": [
@@ -12309,30 +12319,15 @@
 				"options": [
 					{
 						"name": "Fell Warg",
-						"points": 10,
-						"availableIn": [
-							"Azog's Hunters",
-							"Pits of Dol Guldur",
-							"Dark Powers of Dol Guldur"
-						]
+						"points": 20
 					},
 					{
 						"name": "Orc Bow",
-						"points": 5,
-						"availableIn": [
-							"Azog's Hunters",
-							"Pits of Dol Guldur",
-							"Dark Powers of Dol Guldur"
-						]
+						"points": 5
 					},
 					{
-						"name": "Two-handed pick",
-						"points": 5,
-						"availableIn": [
-							"Azog's Hunters",
-							"Pits of Dol Guldur",
-							"Dark Powers of Dol Guldur"
-						]
+						"name": "Two-handed weapon",
+						"points": 5
 					}
 				],
 				"specialRules": [
@@ -14433,10 +14428,14 @@
 					{
 						"name": "Dark Powers of Dol Guldur",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of Gundabad",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
-				"points": 50,
+				"points": 60,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 5,
@@ -14457,12 +14456,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Shield",
-						"points": 5
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Ancient Enemies (Dwarf)(Elf)",
 					"Ancient Enemies"
@@ -14481,6 +14475,10 @@
 					},
 					{
 						"name": "Goblin-Town",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of Gundabad",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -19792,10 +19790,10 @@
 				]
 			},
 			{
-				"name": "Catapult Troll",
+				"name": "Gundabad Catapult Troll",
 				"factions": [
 					{
-						"name": "Azog's Legion",
+						"name": "Army of Gundabad",
 						"heroicTier": "Minor Hero"
 					}
 				],
@@ -26827,6 +26825,43 @@
 				]
 			},
 			{
+				"name": "Hunter Orc Warg Rider",
+				"factions": [
+					"Azog's Hunters"
+				],
+				"points": 15,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 5,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 2,
+				"keywords": [
+					"Orc",
+					"Mordor",
+					"Cavalry",
+					"Warrior"
+				],
+				"options": [
+					{
+						"name": "Orc bow",
+						"points": 1
+					},
+					{
+						"name": "Two-handed weapon",
+						"points": 1
+					}
+				],
+				"specialRules": [],
+				"wargear": [
+					"Armour",
+					"Sword",
+					"Warg"
+				]
+			},
+			{
 				"name": "Isengard Warg Rider",
 				"factions": [
 					"Army of the White Hand",
@@ -28511,7 +28546,7 @@
 				]
 			},
 			{
-				"name": "Hunter Orc",
+				"name": "Hunter Orc Warrior",
 				"factions": [
 					"Azog's Hunters",
 					"Pits of Dol Guldur",
@@ -28533,23 +28568,11 @@
 				],
 				"options": [
 					{
-						"name": "War Horn",
-						"points": 30
-					},
-					{
-						"name": "Banner",
-						"points": 25
-					},
-					{
-						"name": "Fell Warg",
-						"points": 8
-					},
-					{
 						"name": "Orc Bow",
 						"points": 1
 					},
 					{
-						"name": "Two-Handed Pick",
+						"name": "Two-Handed weapon",
 						"points": 1
 					}
 				],
@@ -28565,9 +28588,9 @@
 			{
 				"name": "Troll Brute",
 				"factions": [
-					"Azog's Legion"
+					"Army of Gundabad"
 				],
-				"points": 100,
+				"points": 120,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 6,
@@ -28594,9 +28617,9 @@
 				]
 			},
 			{
-				"name": "Ogre",
+				"name": "Gundabad Ogre",
 				"factions": [
-					"Azog's Legion"
+					"Army of Gundabad"
 				],
 				"points": 60,
 				"movement": 8,
@@ -28626,7 +28649,7 @@
 			{
 				"name": "War Bat",
 				"factions": [
-					"Azog's Legion"
+					"Army of Gundabad"
 				],
 				"points": 25,
 				"movement": 12,
@@ -29425,9 +29448,10 @@
 				"factions": [
 					"Azog's Legion",
 					"Pits of Dol Guldur",
-					"Dark Powers of Dol Guldur"
+					"Dark Powers of Dol Guldur",
+					"Army of Gundabad"
 				],
-				"points": 8,
+				"points": 9,
 				"movement": 6,
 				"fight": 3,
 				"shoot": 5,
@@ -29444,16 +29468,24 @@
 				],
 				"options": [
 					{
+						"name": "Banner and shield",
+						"points": 26,
+						"chooseOneKey": "a"
+					},
+					{
 						"name": "Banner",
-						"points": 25
+						"points": 25,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Spear",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -29590,7 +29622,8 @@
 			{
 				"name": "Gundabad Berserker",
 				"factions": [
-					"Azog's Legion"
+					"Azog's Legion",
+					"Army of Gundabad"
 				],
 				"points": 15,
 				"movement": 8,
@@ -29609,7 +29642,7 @@
 				],
 				"options": [
 					{
-						"name": "Two-handed Pick",
+						"name": "Two-handed weapon",
 						"points": 1
 					}
 				],
@@ -29625,7 +29658,7 @@
 			{
 				"name": "Gundabad Troll",
 				"factions": [
-					"Azog's Legion"
+					"Army of Gundabad"
 				],
 				"points": 120,
 				"movement": 6,
@@ -29651,7 +29684,7 @@
 					},
 					{
 						"name": "Scythe Gauntlets",
-						"points": 0,
+						"points": 10,
 						"chooseOneKey": "a"
 					}
 				],
@@ -29666,9 +29699,8 @@
 			},
 			{
 				"name": "Goblin Mercenary",
-				"factions": [],
-				"availableIn": [
-					"Goblin Mercenary Captain"
+				"factions": [
+					"Army of Gundabad"
 				],
 				"points": 5,
 				"movement": 5,
