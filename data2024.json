@@ -883,7 +883,7 @@
 				"armyBonus": "\"Relentless March\" - Friendly models increase their Move Value to 8\". Additionally, friendly models gain the Woodland Creature special rule.\n                \"You do not know pain, you do not know fear\" - The Break Point for Lurtz's Scouts is 66% rather than 50%\n                \"Kill the others\" - Lurtz gains the General Hunter special rule and may declare a Heroic Combat each turn for free.",
 				"requiredChildren": [
 					{
-						"name": "Lurtz, Huruk-hai Scout Captain",
+						"name": "Lurtz, Uruk-hai Scout Captain",
 						"points": 100,
 						"elementPropertyName": "heroes"
 					}
@@ -8640,7 +8640,7 @@
 				]
 			},
 			{
-				"name": "Lurtz, Uruk-Hai Scout Captain",
+				"name": "Lurtz, Uruk-hai Scout Captain",
 				"factions": [
 					{
 						"name": "Isengard",
