@@ -994,6 +994,30 @@
 				"name": "Halls of Thranduil",
 				"alignment": "good",
 				"armyBonus": "\"The Elves of Mirkwood are not like their kin. They are less wise, and more dangerous\" - Friendly Mirkwood Warrior models within 3\" of Thranduil gain a bonus of +1 To Wound when making Strikes.\n                \"Stoic Command\" - Friendly Warrior models treat your General as a banner."
+			},
+			{
+				"name": "Survivors of Lake-town",
+				"alignment": "good",
+				"armyBonus": "\"Saviour of Lake-town\" - Other friendly Lake-town models within 6\" of Bard gain a bonus of +1 to their Fight Value. Additionally, other friendly Lake-town models treat Bard as a banner with a range of 6\". Alfrid does not benefit from this special rule.\n                \"Heir of Dale\" - Bard the Bowman gains the Might Hero and Fearless special rules.\n                \"Hold the Streets\" - Friendly Warrior models within range of an Objective Marker may re-roll To Wound Rolls of a natural 1 when making Strikes.\n                \"Master Burglar\" - Whilst Bilbo is holding an Objective Marker in Scenarios where this is relevant, he increases his Attacks to 2. Additionally, whilst Bilto is wearing the One Ring and is Insvisible, if he Moves through an enemy model that is holding an Objective Marker in Scenarios where this is relevant, Bilbo may roll a D6; on a 2+, Bilbo immediately gains control of the Objective Marker. Bilbo cannot use this ability if he cannot carry the Objective Marker in question for whatever reason.",
+				"requiredChildren": [
+					{
+						"name": "Bard the Bowman",
+						"points": 125,
+						"elementPropertyName": "heroes",
+						"requiredChildren": [
+							{
+								"name": "Horse",
+								"points": 20,
+								"elementPropertyName": "options"
+							},
+							{
+								"name": "Armour",
+								"points": 5,
+								"elementPropertyName": "options"
+							}
+						]
+					}
+				]
 			}
 		],
 		"heroicTiers": [
@@ -16912,7 +16936,7 @@
 				]
 			},
 			{
-				"name": "Bard The Bowman",
+				"name": "Bard the Bowman",
 				"factions": [
 					{
 						"name": "Survivors of Lake-town",
@@ -16976,7 +17000,8 @@
 				"options": [
 					{
 						"name": "The Windlance",
-						"points": 75
+						"points": 75,
+						"availableIn": []
 					},
 					{
 						"name": "Armour",
@@ -16999,15 +17024,10 @@
 			},
 			{
 				"name": "Alfrid the Councillor",
-				"specialTest": "Alfrid may only be included in an army that includes either the Master of Lake-town or Bard the Bowman.",
 				"factions": [
 					{
 						"name": "Survivors of Lake-town",
-						"heroicTier": "Independent Hero",
-						"unlockedBy": [
-							"Master of Lake-town",
-							"Bard The Bowman"
-						]
+						"heroicTier": "Independent Hero"
 					},
 					{
 						"name": "Army of Lake-town",
@@ -17162,10 +17182,6 @@
 			{
 				"name": "Bain, Son of Bard",
 				"factions": [
-					{
-						"name": "Survivors of Lake-town",
-						"heroicTier": "Minor Hero"
-					},
 					{
 						"name": "Army of Lake-town",
 						"heroicTier": "Independent Hero"
