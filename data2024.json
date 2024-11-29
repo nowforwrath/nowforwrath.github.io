@@ -708,6 +708,45 @@
 				"name": "Defenders of the Pelennor",
 				"alignment": "good",
 				"armyBonus": "\"Defend the White City\" - Each Hero in your Army can, once per game, declare a Heroic Combat for free."
+			},
+			{
+				"name": "Men of the West",
+				"alignment": "good",
+				"armyBonus": "\"For Frodo!\" - Once per game, at the start of any Fight Phase, Aragorn can use this special rule so long as he is alive and on the battlefield. If he does, then friendly non-Eagle models within 6\" of Aragorn gain a bonus of +1 Fight Value and may re-roll To Wound rolls of a natural 1 when making Strikes until the end of the turn. This is treated as an Active ability belonging to Aragorn.\n                \"The White Wizard\" - Gandalf may re-roll a single D6 in any Casting roll he makes.\n                \"This day we fight!\" - So long as Aragorn is alive and on the battlefield, friendly models automatically pass any Courage Tests they are required to take.\n                \"The Final Stand\" - Friendly Infantry models within 3\" of a friendly Hero model gain the Dominant (2) special rule.",
+				"requiredChildren": [
+					{
+						"name": "Aragorn, King Elessar",
+						"points": 225,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Numenor",
+				"alignment": "good",
+				"armyBonus": "\"Blood of Numenor\" - Friendly Numenor models gain the Resistant to Magic special rule whilst they are within 6\" of a friendly Unique Numenor Hero model.\n                \"The Resolve of Men\" - Friendly Numenor models gain a bonus of +1 to any Courage tests they have to take.\n                \"The Line of Kings\" - If they have the Unique keyword, your General gains the General Hunter special rule. Additionally, your General must always accept a Heroic Challenge directed at them."
+			},
+			{
+				"name": "Lindon",
+				"alignment": "good",
+				"armyBonus": "\"...haid, leithio i philinn!\" - Whilst within 3\" of a friendly Hero, friendly Warrior models may re-roll failed to Hit rolls when making a shooting attack, providing they didn't move in the preceding Move Phase.\n                \"The Power of the Noldor\" - Friendly models within 6\" of Gil-galad gain the Resistant to Magic special rule.",
+				"requiredChildren": [
+					{
+						"name": "Gil-galad, High King of the Noldor",
+						"points": 175,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Rivendell",
+				"alignment": "good",
+				"armyBonus": "\"Protection of Imladris\" - Friendly models gain a bonus of +1 to any Courage Tests they are required to take.\n                \"Defensive Stance\" - Friendly Elf Warrior models may re-roll To Wound rolls of a natural 1 when making Strikes so long as they have not Moved during the preceding Move Phase.\n                \"Invoke the Bruinen\" - Once per game, so long as either Elrond or Arwen are alive and on the battlefield, you may use this special rule at the start of any Move Phase in which your Army is Broken. Place a 25mm Marker anywhere within 12\" and Line of Sight of Elrond or Arwen, and then roll a D6 for each enemy model within 3\" of that Marker. If the roll is equal to or over the Strength of the model, or is a natural 6, then the model immediately suffers a Strength 4 hit and, if it survives, will be knocked Prone. Remove the Marker after every affected enemy model has been rolled for."
+			},
+			{
+				"name": "The Last Alliance",
+				"alignment": "good",
+				"armyBonus": "\"Whirl of Steel\" - Whenever a friendly Rivendell Infantry model that is not Engaged in Combat is Charged, they may roll a D6. On a natural 6, the model that Charged them immediately suffers a Wound. If this model was a Cavalry model, roll a further D6. On a 1-3 it will be the Mount that suffers the wound, on a 4+ it will be the rider that suffers the Wound. This is considered an Active ability.\n                \"There were some who resisted\" - Friendly models may re-roll any dice that roll a 1 when making Courage Tests.\n                \"Strength of Numenor\" - Whilst being supported by or supporting a friendly Rivendell model, friendly Numenor models may re-roll To Wound rolls of a natural 1 when making Strikes."
 			}
 		],
 		"heroicTiers": [
@@ -1478,7 +1517,7 @@
 						"heroicTier": "Hero of Valour"
 					},
 					{
-						"name": "The Men of the West",
+						"name": "Men of the West",
 						"heroicTier": "Hero of Valour"
 					},
 					{
@@ -1559,9 +1598,8 @@
 						"points": 20,
 						"chooseOneKey": "a",
 						"availableIn": [
-							[
-								"Kingdom of Rohan"
-							]
+							"Kingdom of Rohan",
+							"Men of the West"
 						]
 					},
 					{
@@ -1753,7 +1791,7 @@
 						"heroicTier": "Independent Hero"
 					},
 					{
-						"name": "The Men of the West",
+						"name": "Men of the West",
 						"heroicTier": "Independent Hero"
 					}
 				],
@@ -1798,7 +1836,8 @@
 						"name": "Elven Cloak",
 						"points": 5,
 						"availableIn": [
-							"Rohan"
+							"Rohan",
+							"Men of the West"
 						]
 					},
 					{
@@ -2364,7 +2403,7 @@
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
-						"name": "The Men of the West",
+						"name": "Men of the West",
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
@@ -2441,7 +2480,6 @@
 						"name": "Bow",
 						"points": 5,
 						"availableIn": [
-							"The Men of the West",
 							"Rohan",
 							"Riders of Theoden",
 							"Theodred's Guard",
@@ -2459,6 +2497,7 @@
 						"name": "Shield",
 						"points": 5,
 						"availableIn": [
+							"Men of the West",
 							"Defenders of the Hornburg",
 							"Army of Edoras",
 							"Ride Out",
@@ -2554,10 +2593,6 @@
 				"name": "Elladan & Elrohir",
 				"factions": [
 					{
-						"name": "Rivendell",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
 						"name": "The Grey Company",
 						"heroicTier": "Hero of Fortitude"
 					},
@@ -2622,10 +2657,6 @@
 				"name": "Elladan",
 				"factions": [
 					{
-						"name": "Rivendell",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
 						"name": "The Grey Company",
 						"heroicTier": "Hero of Fortitude"
 					}
@@ -2662,10 +2693,6 @@
 			{
 				"name": "Elrohir",
 				"factions": [
-					{
-						"name": "Rivendell",
-						"heroicTier": "Hero of Fortitude"
-					},
 					{
 						"name": "The Grey Company",
 						"heroicTier": "Hero of Fortitude"
@@ -5793,12 +5820,7 @@
 			},
 			{
 				"name": "Gildor Inglorion",
-				"factions": [
-					{
-						"name": "Rivendell",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 70,
 				"movement": 8,
@@ -6019,7 +6041,11 @@
 				"name": "Gil-Galad, High King of the Noldor",
 				"factions": [
 					{
-						"name": "Rivendell",
+						"name": "Lindon",
+						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "The Last Alliance",
 						"heroicTier": "Hero of Legend"
 					}
 				],
@@ -6088,6 +6114,14 @@
 					{
 						"name": "Vanquishers of the Necromancer",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Lindon",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "The Last Alliance",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 170,
@@ -6155,10 +6189,6 @@
 				"name": "Glorfindel, Lord of the West",
 				"factions": [
 					{
-						"name": "Rivendell",
-						"heroicTier": "Hero of Valour"
-					},
-					{
 						"name": "The White Council",
 						"heroicTier": "Hero of Valour"
 					},
@@ -6212,12 +6242,7 @@
 			},
 			{
 				"name": "Erestor",
-				"factions": [
-					{
-						"name": "Rivendell",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 85,
 				"movement": 6,
@@ -6255,14 +6280,14 @@
 				"factions": [
 					{
 						"name": "Rivendell",
-						"heroicTier": "Minor Hero"
+						"heroicTier": "Hero of Fortitude"
 					},
 					{
 						"name": "Road to Rivendell",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 60,
+				"points": 70,
 				"movement": 6,
 				"fight": 6,
 				"shoot": 3,
@@ -6298,7 +6323,7 @@
 					},
 					{
 						"name": "Hadhafang",
-						"points": 10,
+						"points": 0,
 						"elementPropertyName": "options",
 						"in": [
 							[
@@ -6314,15 +6339,10 @@
 					},
 					{
 						"name": "Hadhafang",
-						"points": 10
-					},
-					{
-						"name": "Horse",
-						"points": 10
-					},
-					{
-						"name": "Elven Cloak",
-						"points": 5
+						"points": 0,
+						"availableIn": [
+							"Road to Rivendell"
+						]
 					}
 				],
 				"specialRules": [
@@ -6410,12 +6430,12 @@
 				"name": "Cirdan of the Grey Havens",
 				"factions": [
 					{
-						"name": "Rivendell",
+						"name": "Battle of Fornost",
 						"heroicTier": "Minor Hero"
 					},
 					{
-						"name": "Battle of Fornost",
-						"heroicTier": "Minor Hero"
+						"name": "Lindon",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 75,
@@ -6503,6 +6523,14 @@
 					{
 						"name": "Battle of Fornost",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Lindon",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Last Alliance",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -6562,12 +6590,7 @@
 			},
 			{
 				"name": "High Elf Stormcaller",
-				"factions": [
-					{
-						"name": "Rivendell",
-						"heroicTier": "Minor Hero"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"unlimited": true,
 				"points": 60,
@@ -7190,7 +7213,7 @@
 						"heroicTier": "Hero of Valour"
 					},
 					{
-						"name": "The Men of the West",
+						"name": "Men of the West",
 						"heroicTier": "Hero of Valour"
 					},
 					{
@@ -7264,7 +7287,8 @@
 						"points": 25,
 						"requiredIn": [
 							"Riders of Eomer",
-							"Defenders of the Pelennor"
+							"Defenders of the Pelennor",
+							"Men of the West"
 						]
 					},
 					{
@@ -7273,7 +7297,8 @@
 						"unlockedBy": "Shadowfax",
 						"availableIn": [
 							"Atop the Wall",
-							"Defenders of the Pelennor"
+							"Defenders of the Pelennor",
+							"Men of the West"
 						]
 					}
 				],
@@ -8651,7 +8676,7 @@
 				"name": "Aragorn, King Elessar",
 				"factions": [
 					{
-						"name": "The Men of the West",
+						"name": "Men of the West",
 						"heroicTier": "Hero of Legend"
 					}
 				],
@@ -8805,7 +8830,7 @@
 				"name": "Peregrin Took, Guard of the Citadel",
 				"factions": [
 					{
-						"name": "The Men of the West",
+						"name": "Men of the West",
 						"heroicTier": "Independent Hero"
 					},
 					{
@@ -8847,7 +8872,8 @@
 						"points": 5,
 						"availableIn": [
 							"Minas Tirith",
-							"Defenders of the Pelennor"
+							"Defenders of the Pelennor",
+							"Men of the West"
 						]
 					}
 				],
@@ -9702,7 +9728,7 @@
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
-						"name": "The Men of the West",
+						"name": "Men of the West",
 						"heroicTier": "Hero of Valour"
 					},
 					{
@@ -9749,6 +9775,7 @@
 						"name": "Elven Cloak",
 						"points": 5,
 						"availableIn": [
+							"Men of the West",
 							"Defenders of the Pelennor",
 							"Road to Helm's Deep",
 							"The Rangers",
@@ -10130,7 +10157,7 @@
 						"heroicTier": "Hero of Valour"
 					},
 					{
-						"name": "The Men of the West",
+						"name": "Men of the West",
 						"heroicTier": "Hero of Valour"
 					},
 					{
@@ -10200,6 +10227,7 @@
 						"name": "Elven Cloak",
 						"points": 5,
 						"availableIn": [
+							"Men of the West",
 							"Ride Out",
 							"Road to Helm's Deep",
 							"The Rangers",
@@ -10223,7 +10251,7 @@
 						"name": "Armour",
 						"points": 5,
 						"availableIn": [
-							"The Men of the West",
+							"Men of the West",
 							"The Grey Company",
 							"The Return of the King",
 							"Defenders of Helm's Deep",
@@ -10234,7 +10262,8 @@
 						"name": "Horse",
 						"points": 20,
 						"availableIn": [
-							"Road to Helm's Deep"
+							"Road to Helm's Deep",
+							"Men of the West"
 						]
 					}
 				],
@@ -13898,7 +13927,7 @@
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
-						"name": "The Men of the West",
+						"name": "Men of the West",
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
@@ -15472,6 +15501,10 @@
 					{
 						"name": "Numenor",
 						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "The Last Alliance",
+						"heroicTier": "Hero of Legend"
 					}
 				],
 				"points": 175,
@@ -15528,6 +15561,10 @@
 					{
 						"name": "Numenor",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Last Alliance",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -15579,6 +15616,10 @@
 				"factions": [
 					{
 						"name": "Numenor",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "The Last Alliance",
 						"heroicTier": "Hero of Valour"
 					}
 				],
@@ -16683,7 +16724,8 @@
 						"name": "The One Ring",
 						"points": 0,
 						"availableIn": [
-							"The Shire"
+							"The Shire",
+							"Rivendell"
 						]
 					}
 				],
@@ -19155,6 +19197,10 @@
 					{
 						"name": "Radagast's Alliance",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Men of the West",
+						"heroicTier": "Hero of Legend"
 					}
 				],
 				"points": 150,
@@ -24864,9 +24910,76 @@
 				"countAsProperty": "heroes"
 			},
 			{
+				"name": "Meriadoc Brandybuck, Esquire of Rohan",
+				"factions": [
+					"Rohan",
+					"Men of the West"
+				],
+				"unique": true,
+				"points": 25,
+				"movement": 4,
+				"fight": 3,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 6,
+				"might": 1,
+				"will": 1,
+				"fate": 2,
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strike"
+				],
+				"keywords": [
+					"Hobbit",
+					"Rohan",
+					"Infantry",
+					"Hero"
+				],
+				"options": [
+					{
+						"name": "Elven Cloak",
+						"points": 5,
+						"availableIn": [
+							"Rohan",
+							"Men of the West"
+						]
+					},
+					{
+						"name": "Shield",
+						"points": 5
+					}
+				],
+				"specialRules": [
+					"Resistant to Magic",
+					"Throw Stones (range 8\", Strength 1)"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				],
+				"countAsProperty": "heroes"
+			},
+			{
 				"name": "Peregrin Took, Guard of the Citadel",
 				"factions": [
-					"The Men of the West",
+					"Men of the West",
 					"Atop the Wall",
 					"Defenders of the Pelennor"
 				],
@@ -25322,9 +25435,7 @@
 			},
 			{
 				"name": "Bilbo Baggins",
-				"factions": [
-					"Rivendell"
-				],
+				"factions": [],
 				"unique": true,
 				"specialText": "Bilbo may only wear the Mithril Coat if no other model wears it. Bilbo may only take Sting if no other model has it. Bilbo may only wear the Ring if Frodo is not in the force.\n                If your force contains Bilbo and any of Frodo of the Nine Fingers; Samwise the Brave; Meriadoc, Captain of the Shire or Peregrin Took, Captain of the Shire, then it will automatically lose its Army Bonus. Additionally, the force will automatically be Impossible Allies with every other army list regardless of what the alliance would normally be.",
 				"points": 40,
@@ -25376,7 +25487,8 @@
 					"Kingdom of Rohan",
 					"Defenders of Helm's Deep",
 					"Army of Edoras",
-					"Defenders of the Hornburg"
+					"Defenders of the Hornburg",
+					"Men of the West"
 				],
 				"points": 1,
 				"movement": 6,
@@ -26466,7 +26578,9 @@
 				"name": "Rivendell Warrior",
 				"factions": [
 					"Rivendell",
-					"Battle of Fornost"
+					"Battle of Fornost",
+					"Lindon",
+					"The Last Alliance"
 				],
 				"points": 9,
 				"movement": 6,
@@ -26537,7 +26651,8 @@
 			{
 				"name": "Rivendell Knight",
 				"factions": [
-					"Rivendell"
+					"Rivendell",
+					"Lindon"
 				],
 				"points": 20,
 				"movement": 6,
@@ -26651,7 +26766,7 @@
 				"name": "Warrior of Minas Tirith",
 				"factions": [
 					"Minas Tirith",
-					"The Men of the West",
+					"Men of the West",
 					"Garrison of Ithilien",
 					"Battle of Fornost",
 					"Reclamation of Osgiliath",
@@ -29041,7 +29156,8 @@
 			{
 				"name": "Warrior of Numenor",
 				"factions": [
-					"Numenor"
+					"Numenor",
+					"The Last Alliance"
 				],
 				"points": 9,
 				"movement": 6,
@@ -30263,7 +30379,8 @@
 				"name": "Great Eagle",
 				"factions": [
 					"The Misty Mountains",
-					"Radagast's Alliance"
+					"Radagast's Alliance",
+					"Men of the West"
 				],
 				"points": 100,
 				"movement": 3,
