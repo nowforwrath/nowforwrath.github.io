@@ -7237,7 +7237,7 @@
 						"heroicTier": "Hero of Valour"
 					},
 					{
-						"name": "The Return of the King",
+						"name": "Return of the King",
 						"heroicTier": "Hero of Legend"
 					},
 					{
@@ -7252,11 +7252,6 @@
 						"name": "Defenders of the Pelennor",
 						"heroicTier": "Hero of Legend"
 					}
-				],
-				"requiredIn": [
-					"The Return of the King",
-					"The Grey Company",
-					"Breaking of the Fellowship"
 				],
 				"points": 160,
 				"movement": 6,
@@ -7308,11 +7303,11 @@
 						"points": 0,
 						"availableIn": [
 							"The Grey Company",
-							"The Return of the King"
+							"Return of the King"
 						],
 						"requiredIn": [
 							"The Grey Company",
-							"The Return of the King"
+							"Return of the King"
 						]
 					},
 					{
@@ -7356,7 +7351,7 @@
 							"Road to Helm's Deep",
 							"The Rangers",
 							"The Grey Company",
-							"The Return of the King",
+							"Return of the King",
 							"Defenders of the Pelennor"
 						]
 					},
@@ -8937,7 +8932,7 @@
 				]
 			},
 			{
-				"name": "Sharku",
+				"name": "Sharku, Warg Rider Captain",
 				"factions": [
 					{
 						"name": "Isengard",
@@ -10164,16 +10159,13 @@
 						"heroicTier": "Hero of Valour"
 					},
 					{
-						"name": "The Return of the King",
+						"name": "Return of the King",
 						"heroicTier": "Hero of Valour"
 					},
 					{
 						"name": "Defenders of the Pelennor",
 						"heroicTier": "Hero of Valour"
 					}
-				],
-				"requiredIn": [
-					"The Return of the King"
 				],
 				"points": 100,
 				"movement": 6,
@@ -10232,7 +10224,7 @@
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
-						"name": "The Return of the King",
+						"name": "Return of the King",
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
@@ -10303,7 +10295,7 @@
 						"heroicTier": "Hero of Valour"
 					},
 					{
-						"name": "The Return of the King",
+						"name": "Return of the King",
 						"heroicTier": "Hero of Valour"
 					},
 					{
@@ -10386,7 +10378,7 @@
 							"Road to Helm's Deep",
 							"The Rangers",
 							"The Grey Company",
-							"The Return of the King",
+							"Return of the King",
 							"Defenders of Helm's Deep",
 							"The Kingdom of Moria"
 						]
@@ -10752,7 +10744,7 @@
 						"heroicTier": "Hero of Valour"
 					},
 					{
-						"name": "The Return of the King",
+						"name": "Return of the King",
 						"heroicTier": "Hero of Valour"
 					},
 					{
@@ -10854,7 +10846,7 @@
 							"Road to Helm's Deep",
 							"The Rangers",
 							"The Grey Company",
-							"The Return of the King",
+							"Return of the King",
 							"Defenders of Helm's Deep",
 							"Defenders of the Pelennor"
 						]
@@ -10875,7 +10867,7 @@
 						"availableIn": [
 							"Men of the West",
 							"The Grey Company",
-							"The Return of the King",
+							"Return of the King",
 							"Defenders of Helm's Deep",
 							"Defenders of the Pelennor"
 						]
@@ -26498,6 +26490,12 @@
 							"Riders of Eomer"
 						],
 						"type": "bow"
+					},
+					{
+						"in": [
+							"Ride Out"
+						],
+						"type": "bow"
 					}
 				]
 			},
@@ -28733,7 +28731,7 @@
 				"name": "Warrior of the Dead",
 				"factions": [
 					"The Dead of Dunharrow",
-					"The Return of the King",
+					"Return of the King",
 					"Defenders of the Pelennor"
 				],
 				"points": 14,
@@ -28800,7 +28798,7 @@
 				"name": "Rider of the Dead",
 				"factions": [
 					"The Dead of Dunharrow",
-					"The Return of the King",
+					"Return of the King",
 					"Defenders of the Pelennor"
 				],
 				"points": 25,
