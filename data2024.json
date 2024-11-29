@@ -1683,22 +1683,17 @@
 				],
 				"points": 80,
 				"movement": 6,
-				"fight": 1,
-				"shoot": 1,
+				"fight": 5,
+				"shoot": 4,
 				"strength": 4,
-				"defence": 5,
-				"attack": 3,
-				"wounds": 3,
-				"courage": 5,
-				"intelligence": 5,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 3,
-				"will": 3,
-				"fate": 2,
-				"heroicActions": [
-					"Heroic Challenge",
-					"Heroic Strength",
-					"Heroic Strike"
-				],
+				"will": 2,
+				"fate": 1,
 				"race": [
 					"Man"
 				],
@@ -1707,18 +1702,24 @@
 				],
 				"unitType": [
 					"Hero",
-					"Cavalry",
+					"Infantry",
 					"Unique"
 				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Strength"
+				],
 				"specialRules": [
-					"General Hunter",
-					"Hatred (Rohand)",
-					"The Usurper King"
+					"Hatred (Rohan)",
+					"Dunlending Heritage",
+					"Claim the Throne"
 				],
 				"wargear": [
-					"Armour",
-					"Hand weapons",
-					"Horse"
+					"Heavy Armour",
+					"Hand weapon"
 				],
 				"options": []
 			},
@@ -36786,6 +36787,16 @@
 				"name": "Captain of the Citadel Guard",
 				"tag": "Passive",
 				"definition": "Friendly Citadel Guard within 3\" of Irolas gain a bonus of +1 To Wound when making Strikes"
+			},
+			{
+				"name": "Dunlending Heritage",
+				"tag": "Passive",
+				"definition": "Friendly Dunland Warrior models within 6\" of Freca gain a bonus of +1 to their Fight Value"
+			},
+			{
+				"name": "Claim the Throne",
+				"tag": "Passive",
+				"definition": "If the enemy General is removed as a casualty whilst within 6\" of Freca, then for the duration of the battle friendly Dunland models treat Freca as a banner with a range of 6\"."
 			}
 		]
 	}
