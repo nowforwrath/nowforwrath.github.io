@@ -8600,10 +8600,24 @@
 				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Uruk-hai"
+				],
+				"faction": [
+					"Isengard"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
 				],
@@ -8613,24 +8627,11 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Shield",
-						"points": 5
-					},
-					{
-						"name": "Uruk-Hai Bow",
-						"points": 5
-					},
-					{
-						"name": "Two-handed Weapon",
-						"points": 5
-					}
-				],
+				"options": [],
 				"specialRules": [],
 				"wargear": [
-					"Heavy Armour",
-					"Sword"
+					"Armour",
+					"Two-handed weapon"
 				]
 			},
 			{
@@ -11899,14 +11900,29 @@
 				"defence": 4,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 4,
 				"might": 3,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Lothlorien"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic Strike",
 					"Heroic Accuracy",
-					"Heroic Strength"
+					"Heroic Strength",
+					"Heroic Strike"
 				],
 				"keywords": [
 					"Elf",
@@ -11970,10 +11986,10 @@
 					}
 				],
 				"specialRules": [
-					"Allies 'til the End",
 					"Expert Shot",
-					"One Final Blow",
-					"Woodland Creature"
+					"Sharpshooter",
+					"Woodland Creature",
+					"One Final Blow"
 				],
 				"wargear": [
 					"Elven-made Hand-and-a-Half sword"
@@ -12000,10 +12016,24 @@
 				"defence": 6,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 4,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Lothlorien"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
 				],
@@ -12014,9 +12044,8 @@
 					"Hero"
 				],
 				"specialRules": [
-					"Expert Rider",
-					"Woodland Creature",
-					"Fleetfoot"
+					"Sharpshooter",
+					"Woodland Creature"
 				],
 				"wargear": [
 					"Heavy Armour",
@@ -15765,14 +15794,29 @@
 				"defence": 3,
 				"attack": 1,
 				"wounds": 3,
-				"courage": 7,
+				"courage": 3,
+				"intelligence": 3,
 				"might": 3,
 				"will": 6,
 				"fate": 3,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Lothlorien"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic Resolve",
-					"Heroic Channeling",
-					"Heroic Defence"
+					"Heroic Channelling",
+					"Heroic Defence",
+					"Heroic Resolve"
 				],
 				"keywords": [
 					"Elf",
@@ -15789,34 +15833,44 @@
 				"specialRules": [
 					"Terror",
 					"Woodland Creature",
-					"The Lady of Lothlorien"
+					"The Lady of Lorien"
 				],
 				"wargear": [
+					"Unarmed",
 					"Nenya"
 				],
 				"magicalPowers": [
 					{
-						"name": "Blinding Light",
-						"range": null,
-						"casting": 2
+						"name": "Compel",
+						"range": 12,
+						"casting": 3
+					},
+					{
+						"name": "Transfix",
+						"range": 12,
+						"casting": 3
 					},
 					{
 						"name": "Blessing of the Valar",
 						"range": 12,
-						"casting": 3
+						"casting": 4
 					},
 					{
-						"name": "Immobilise",
-						"range": 12,
-						"casting": 3
+						"name": "Blinding Light",
+						"range": null,
+						"casting": 4
 					},
 					{
-						"name": "Command",
+						"name": "Fog of Disarray",
+						"range": null,
+						"casting": 4
+					},
+					{
+						"name": "Foil Magic",
 						"range": 12,
 						"casting": 4
 					}
-				],
-				"specialText": "Galadriel is unarmed but wears the ring Nenya."
+				]
 			},
 			{
 				"name": "Galadriel, Lady of Light",
@@ -32618,7 +32672,7 @@
 			{
 				"name": "Mirror of Galadriel",
 				"tag": "Passive",
-				"definition": "The mirror is a Heavy Object with a Defence of 8 and 3 Wounds. It is deployed within 6\" of Galadriel at the start of the game. For Scenarios that require both armies to move onto the board, any models within Galadriel's warband may\n                carry the mirror onto the board. During the End phase of each turn, one friendly Hero model within 6\" may restore their Fate to its starting value."
+				"definition": "The Mirror of Galadriel is a Heavy Object with a 40mm base, and has a Defence of 8 and 3 Wounds. It is deployed within 6\" of Galadriel at the start of the game, though for Scenarios in which models Move onto the board it can be carried onto the battlefield by two friendly models. During the Priority phase, after the roll for Priority has happened, if Galadriel or Celeborn is in base contact with the Mirror of Galadriel, then their controlling player may add 1 to their roll for Priority. Additionally, during the End Phase of each turn, one friendly Hero within 6\" of the Mirror of Galadriel may restore their Fate points to their starting value."
 			},
 			{
 				"name": "Nenya",
@@ -34377,9 +34431,9 @@
 				"definition": "At any point during its move, a Spectre can choose a single enemy model within 12\" and Line of Sight. This model must pass a Courage test or make a full move under the control of the Spectre's controlling player - even if it has already moved. This move cannot be used to enter an enemy model's Control Zone, or perform actions that would cause direct harm to the target (such as jumping down a cliff). It may also not be used to have the target dismount or lie down. Affected models may move no further that turn, and may not use Active abilities for the remainder of the Move phase."
 			},
 			{
-				"name": "The Lady of Lothlorien",
+				"name": "The Lady of Lorien",
 				"tag": "Passive",
-				"definition": "Galadriel may expend a single point of Will each turn without reducing her own store."
+				"definition": "Galadriel gains a free Will Point at the start of each turn. If this free Will Point is not spent by the end of the turn, it is lost."
 			},
 			{
 				"name": "Caras Galadhon Fighting Style",
@@ -35631,6 +35685,11 @@
 				"name": "\"Looks like meat's back on the menu, boys!",
 				"tag": "Active",
 				"definition": "At the start of his Activation, Ugluk can kill a friendly Orc Warrior within 2\" of him; remove the killed model as a casualty. If Ugluk does this, then all friendly Uruk-hai models within 6\" of him gain the Fearless special rule and gain a bonus of +1 To Wound when making STrikes until the end of the turn. If Ugluk does this in a turn in which his Army is Borken, then it will also count as triggering the Head Taker rule above."
+			},
+			{
+				"name": "One Final Blow",
+				"tag": "Active",
+				"definition": "If Haldir is slain in Combat, he may immediately make a single Strength 4 Strike on each enemy model that was involved in the Combat in which Haldir was slain. Haldir may use Might to increase these To Wound rolls as normal."
 			}
 		]
 	}
