@@ -747,6 +747,21 @@
 				"name": "The Last Alliance",
 				"alignment": "good",
 				"armyBonus": "\"Whirl of Steel\" - Whenever a friendly Rivendell Infantry model that is not Engaged in Combat is Charged, they may roll a D6. On a natural 6, the model that Charged them immediately suffers a Wound. If this model was a Cavalry model, roll a further D6. On a 1-3 it will be the Mount that suffers the wound, on a 4+ it will be the rider that suffers the Wound. This is considered an Active ability.\n                \"There were some who resisted\" - Friendly models may re-roll any dice that roll a 1 when making Courage Tests.\n                \"Strength of Numenor\" - Whilst being supported by or supporting a friendly Rivendell model, friendly Numenor models may re-roll To Wound rolls of a natural 1 when making Strikes."
+			},
+			{
+				"name": "Lothlorien",
+				"alignment": "good",
+				"armyBonus": "\"They say a great sorceress lives in these woods...\" - Friendly Lothlorien models gain the Resistant to Magic special rule.\n                \"The Dwarf breathes so loud, we could have shot him in the dark\" - Friendly Lothlorien models may re-roll To Hit rolls of a 1 when making a shooting attack if the target of the shooting attack is unable to see them due to the effects of an Elven cloak."
+			},
+			{
+				"name": "Fangorn",
+				"alignment": "good",
+				"armyBonus": "\"Don't be Hasty\" - Friendly Ent models are completely unaffected by any Magical Powers that would attempt to Move them, or prevent them from Activating or Moving.\n                \"One with the Forest\" - Friendly Ent models are completely unaffected by the Call Winds, Nature's Wrath, Wrath of Bruinen, and Writhing Vines Magical Powers.\n                \"Beech. Oak. Chestnut. Ash. Many have come\" - Whenever you include an Ent Warrior in your Army, you may assign one of four types of Ent to it, as listed below. You must split the types of Ent as evenly as possible. So, if you want to have a second of one type of Ent, you must first have one of each of the types. If you want to have a third of one type of Ent, you must first have two of each of the types, and so on.\n                Beech - The Ent may re-roll To Wound rolls of a natural 1 when making Strikes.\n                Oak - The Ent improves its Wounds characteristic to 4.\n                Chestnut - The Ent gains the Mighty Blow special rule.\n                Ash - The Ent improves their Shoot Value to 3+ and can still use its Throw Stones special rule even if it has Moved that turn (though not if it has Moved over half its Move Value)."
+			},
+			{
+				"name": "The Eagles",
+				"alignment": "good",
+				"armyBonus": "\"The Eagles are Coming!\" - Friendly Eagle models gain a bonus of +1 to their Strength on a turn in which they Charge.\n                \"Piercing Cry\" - Once per game, at the start of any Move Phase, Gwaihir can use this special rule so long as he is alive and on the battlefield. If he does, then enemy models within 6\" of Gwaihir cannot Move during that turn, but may otherwise act normally."
 			}
 		],
 		"heroicTiers": [
@@ -11829,7 +11844,7 @@
 				"factions": [
 					{
 						"name": "Lothlorien",
-						"heroicTier": "Hero of Valour"
+						"heroicTier": "Hero of Fortitude"
 					},
 					{
 						"name": "Defenders of Helm's Deep",
@@ -11972,20 +11987,6 @@
 					"Elven-made Hand-and-a-half Sword"
 				],
 				"options": [
-					{
-						"name": "Armoured Horse",
-						"points": 15,
-						"availableIn": [
-							"Lothlorien"
-						]
-					},
-					{
-						"name": "Shield",
-						"points": 5,
-						"availableIn": [
-							"Lothlorien"
-						]
-					},
 					{
 						"name": "Elf Bow",
 						"points": 5,
@@ -15734,14 +15735,14 @@
 				]
 			},
 			{
-				"name": "Galadriel",
+				"name": "Galadriel, Lady of Lothlorien",
 				"factions": [
 					{
 						"name": "Lothlorien",
 						"heroicTier": "Hero of Legend"
 					}
 				],
-				"points": 130,
+				"points": 125,
 				"movement": 6,
 				"fight": 6,
 				"shoot": 3,
@@ -15918,20 +15919,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Heavy Armour",
-						"points": 10
-					},
-					{
-						"name": "Shield",
-						"points": 5
-					},
-					{
-						"name": "Elven-made Hand-and-a-half Sword",
-						"points": 5
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Terror",
 					"Woodland Creature",
@@ -15966,12 +15954,7 @@
 			},
 			{
 				"name": "Wood Elf Captain",
-				"factions": [
-					{
-						"name": "Lothlorien",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"unlimited": true,
 				"points": 65,
 				"movement": 6,
@@ -16029,12 +16012,7 @@
 			},
 			{
 				"name": "Galadhrim Stormcaller",
-				"factions": [
-					{
-						"name": "Lothlorien",
-						"heroicTier": "Minor Hero"
-					}
-				],
+				"factions": [],
 				"unlimited": true,
 				"points": 60,
 				"movement": 6,
@@ -16082,12 +16060,7 @@
 			},
 			{
 				"name": "Rumil",
-				"factions": [
-					{
-						"name": "Lothlorien",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"points": 85,
 				"movement": 6,
 				"fight": 6,
@@ -16127,12 +16100,7 @@
 			},
 			{
 				"name": "Orophin",
-				"factions": [
-					{
-						"name": "Lothlorien",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"points": 85,
 				"movement": 6,
 				"fight": 6,
@@ -16220,7 +16188,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 160,
+				"points": 150,
 				"movement": 6,
 				"fight": 8,
 				"shoot": 4,
@@ -16262,7 +16230,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 140,
+				"points": 150,
 				"movement": 8,
 				"fight": 7,
 				"shoot": 4,
@@ -19191,7 +19159,7 @@
 				"name": "Gwaihir",
 				"factions": [
 					{
-						"name": "The Misty Mountains",
+						"name": "The Eagles",
 						"heroicTier": "Hero of Legend"
 					},
 					{
@@ -19571,108 +19539,6 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
-				"allianceRules": {
-					"unitAllianceLevel": [
-						{
-							"level": "primary",
-							"factions": [
-								"Halls of Thranduil"
-							],
-							"with": [
-								{
-									"any": [
-										"Thranduil, King of the Woodland Realm"
-									]
-								}
-							]
-						},
-						{
-							"level": "secondary",
-							"with": [
-								{
-									"any": [
-										"Dain Ironfoot, King Under the Mountain"
-									]
-								}
-							],
-							"factions": [
-								"Erebor Reclaimed"
-							]
-						},
-						{
-							"level": "secondary",
-							"with": [
-								{
-									"any": [
-										"Brand, King of Dale",
-										"Bard II, Prince of Dale"
-									]
-								}
-							],
-							"factions": [
-								"Garrison of Dale"
-							]
-						},
-						{
-							"level": "secondary",
-							"factions": [
-								"Fangorn",
-								"The Fellowship",
-								"The Fiefdoms",
-								"Lothlorien",
-								"Minas Tirith",
-								"The Misty Mountains",
-								"The Rangers",
-								"Rivendell",
-								"Rohan",
-								"The Shire",
-								"Wildmen of Druadan"
-							]
-						}
-					],
-					"primaryAlliesWith": [
-						{
-							"heroes": [
-								"Thranduil, King of the Woodland Realm"
-							],
-							"factions": [
-								"Halls of Thranduil"
-							]
-						}
-					],
-					"secondaryAlliesWith": [
-						{
-							"heroes": [
-								"Dain Ironfoot, King Under the Mountain"
-							],
-							"factions": [
-								"Erebor Reclaimed"
-							]
-						},
-						{
-							"heroes": [
-								"Brand, King of Dale",
-								"Bard II, Prince of Dale"
-							],
-							"factions": [
-								"Garrison of Dale"
-							]
-						}
-					],
-					"secondaryAllies": [
-						"Fangorn",
-						"The Fellowship",
-						"The Fiefdoms",
-						"Lothlorien",
-						"Minas Tirith",
-						"The Misty Mountains",
-						"The Rangers",
-						"Rivendell",
-						"Rohan",
-						"The Shire",
-						"Wildmen of Druadan"
-					]
-				},
 				"hideStats": true,
 				"heroicActions": [],
 				"options": [],
@@ -29210,9 +29076,7 @@
 			},
 			{
 				"name": "Galadhrim Knight",
-				"factions": [
-					"Lothlorien"
-				],
+				"factions": [],
 				"points": 18,
 				"movement": 6,
 				"fight": 5,
@@ -29255,9 +29119,7 @@
 			},
 			{
 				"name": "Guard of the Galadhrim Court",
-				"factions": [
-					"Lothlorien"
-				],
+				"factions": [],
 				"points": 12,
 				"movement": 6,
 				"fight": 6,
@@ -29291,7 +29153,6 @@
 			{
 				"name": "Wood Elf Sentinel",
 				"factions": [
-					"Lothlorien",
 					"Halls of Thranduil",
 					"Rangers of Mirkwood"
 				],
@@ -29342,7 +29203,28 @@
 					"Infantry",
 					"Warrior"
 				],
-				"options": [],
+				"options": [
+					{
+						"name": "Beech",
+						"points": 0,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Oak",
+						"points": 0,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Chestnut",
+						"points": 0,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Ash",
+						"points": 0,
+						"chooseOneKey": "a"
+					}
+				],
 				"specialRules": [
 					"Bludgeon (Brutal Power Attack)",
 					"Terror",
@@ -30378,11 +30260,44 @@
 			{
 				"name": "Great Eagle",
 				"factions": [
-					"The Misty Mountains",
+					"The Eagles",
 					"Radagast's Alliance",
 					"Men of the West"
 				],
 				"points": 100,
+				"movement": 3,
+				"fight": 7,
+				"shoot": 4,
+				"strength": 6,
+				"defence": 8,
+				"attack": 2,
+				"wounds": 3,
+				"courage": 6,
+				"keywords": [
+					"Eagle",
+					"Monster",
+					"Infantry",
+					"Warrior"
+				],
+				"wargear": [
+					"Claws",
+					"Beak"
+				],
+				"specialRules": [
+					"Fly",
+					"Monstrous Charge",
+					"Terror"
+				],
+				"options": []
+			},
+			{
+				"name": "Fledgeling Great Eagle",
+				"factions": [
+					"The Eagles",
+					"Radagast's Alliance",
+					"Men of the West"
+				],
+				"points": 75,
 				"movement": 3,
 				"fight": 7,
 				"shoot": 4,
@@ -35647,7 +35562,7 @@
 			{
 				"name": "Mutual Respect",
 				"tag": "Active",
-				"definition": "Whilst within Hera, Frealaf gains the Master of Battle (4+) special rule."
+				"definition": "Whilst within 6\" of Hera, Frealaf gains the Master of Battle (4+) special rule."
 			},
 			{
 				"name": "Lord of Harrowdale",
