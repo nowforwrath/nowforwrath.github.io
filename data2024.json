@@ -781,21 +781,17 @@
 				],
 				"points": 100,
 				"movement": 6,
-				"fight": 1,
-				"shoot": 1,
-				"strength": 1,
-				"defence": 1,
-				"attack": 2,
-				"wounds": 2,
-				"courage": 6,
-				"intelligence": 5,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 4,
+				"intelligence": 4,
 				"might": 2,
 				"will": 3,
-				"fate": 2,
-				"heroicActions": [
-					"Heroic Accuracy",
-					"Heroic Defence"
-				],
+				"fate": 3,
 				"race": [
 					"Man"
 				],
@@ -804,29 +800,30 @@
 				],
 				"unitType": [
 					"Hero",
-					"Cavalry",
+					"Infantry",
 					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic Resolve"
 				],
 				"specialRules": [
 					"Expert Rider",
 					"Horse Lord",
-					"Sharpshooter",
-					"The Warrior Poet"
+					"Mutual Respect",
+					"Lord of Harrowdalet"
 				],
 				"wargear": [
-					"Heavy armour",
-					"Hand weapon",
-					"Bow",
-					"Horse"
+					"Armour",
+					"Hand weapon"
 				],
 				"options": [
 					{
 						"name": "Horse",
 						"points": 20
-					},
-					{
-						"name": "Bow",
-						"points": 5
 					}
 				]
 			},
@@ -840,21 +837,17 @@
 				],
 				"points": 70,
 				"movement": 6,
-				"fight": 1,
-				"shoot": 1,
-				"strength": 1,
-				"defence": 1,
+				"fight": 5,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 6,
-				"intelligence": 5,
-				"might": 2,
-				"will": 3,
-				"fate": 2,
-				"heroicActions": [
-					"Heroic Accuracy",
-					"Heroic Defence"
-				],
+				"courage": 4,
+				"intelligence": 4,
+				"might": 3,
+				"will": 2,
+				"fate": 3,
 				"race": [
 					"Man"
 				],
@@ -863,25 +856,83 @@
 				],
 				"unitType": [
 					"Hero",
-					"Cavalry",
+					"Infantry",
 					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic Resolve",
+					"Heroic Strike"
 				],
 				"specialRules": [
 					"Expert Rider",
 					"Horse Lord",
-					"Sharpshooter",
-					"The Warrior Poet"
+					"Daughter of Rohan"
 				],
 				"wargear": [
-					"Heavy armour",
-					"Hand weapon",
-					"Bow",
-					"Horse"
+					"Armour",
+					"Hand weapons",
+					"Spyglass"
 				],
 				"options": [
 					{
-						"name": "Horse",
+						"name": "Ashere",
 						"points": 20
+					}
+				]
+			},
+			{
+				"name": "Hera, The Bride of Death",
+				"factions": [],
+				"points": 125,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 5,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 3,
+				"will": 3,
+				"fate": 3,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Defence",
+					"Heroic Strike"
+				],
+				"specialRules": [
+					"Fearless",
+					"Unyielding Combat Stance",
+					"The Warrior Bride",
+					"Fury of the Hammerhand"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				],
+				"options": [
+					{
+						"name": "Shield",
+						"points": 5
 					}
 				]
 			},
@@ -895,20 +946,20 @@
 				],
 				"points": 80,
 				"movement": 6,
-				"fight": 1,
-				"shoot": 1,
-				"strength": 1,
-				"defence": 1,
-				"attack": 2,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 3,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 5,
 				"intelligence": 5,
 				"might": 2,
-				"will": 3,
-				"fate": 2,
+				"will": 2,
+				"fate": 3,
 				"heroicActions": [
-					"Heroic Accuracy",
-					"Heroic Defence"
+					"Heroic Defence",
+					"Heroic Resolve"
 				],
 				"race": [
 					"Man"
@@ -918,20 +969,19 @@
 				],
 				"unitType": [
 					"Hero",
-					"Cavalry",
+					"Infantry",
 					"Unique"
 				],
 				"specialRules": [
 					"Expert Rider",
 					"Horse Lord",
-					"Sharpshooter",
-					"The Warrior Poet"
+					"Sworn Protector (Hera)",
+					"Stalwart Fighter"
 				],
 				"wargear": [
-					"Heavy armour",
-					"Hand weapon",
-					"Bow",
-					"Horse"
+					"Light armour",
+					"Shield",
+					"Hand weapon"
 				],
 				"options": [
 					{
@@ -950,21 +1000,17 @@
 				],
 				"points": 50,
 				"movement": 6,
-				"fight": 1,
-				"shoot": 1,
-				"strength": 1,
-				"defence": 1,
-				"attack": 2,
+				"fight": 3,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
 				"wounds": 2,
-				"courage": 6,
-				"intelligence": 5,
-				"might": 2,
-				"will": 3,
-				"fate": 2,
-				"heroicActions": [
-					"Heroic Accuracy",
-					"Heroic Defence"
-				],
+				"courage": 7,
+				"intelligence": 7,
+				"might": 1,
+				"will": 5,
+				"fate": 1,
 				"race": [
 					"Man"
 				],
@@ -973,20 +1019,22 @@
 				],
 				"unitType": [
 					"Hero",
-					"Cavalry",
+					"Infantry",
 					"Unique"
 				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Defence"
+				],
 				"specialRules": [
-					"Expert Rider",
 					"Horse Lord",
-					"Sharpshooter",
-					"The Warrior Poet"
+					"Orders from Edoras"
 				],
 				"wargear": [
-					"Heavy armour",
-					"Hand weapon",
-					"Bow",
-					"Horse"
+					"Light armour",
+					"Hand weapon"
 				],
 				"options": [
 					{
@@ -1130,15 +1178,30 @@
 				"strength": 4,
 				"defence": 5,
 				"attack": 2,
-				"wounds": 2,
+				"wounds": 3,
 				"courage": 5,
+				"intelligence": 5,
 				"might": 3,
 				"will": 3,
 				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
+					"Heroic Challenge",
 					"Heroic March",
-					"Heroic Strike",
-					"Heroic Challenge"
+					"Heroic Strike"
 				],
 				"keywords": [
 					"Man",
@@ -1178,8 +1241,9 @@
 				"specialRules": [
 					"Expert Rider",
 					"Horse Lord",
-					"The Will of Men is Easily Corrupted",
-					"Forth, and Fear no Darkness"
+					"Leader (Rohan Royal Guard)",
+					"Forth, and Fear no Darkness",
+					"The will of men is easily corrupted"
 				],
 				"wargear": [
 					"Armour",
@@ -1187,7 +1251,7 @@
 				]
 			},
 			{
-				"name": "Théodred, Prince of Rohan",
+				"name": "Theodred, Prince of Rohan",
 				"factions": [
 					{
 						"name": "Kingdom of Rohan",
@@ -1203,16 +1267,31 @@
 				],
 				"points": 85,
 				"movement": 6,
-				"fight": 5,
+				"fight": 6,
 				"shoot": 4,
 				"strength": 4,
 				"defence": 6,
 				"attack": 3,
 				"wounds": 2,
 				"courage": 5,
+				"intelligence": 6,
 				"might": 3,
 				"will": 3,
 				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Strike",
 					"Heroic Challenge"
@@ -1236,11 +1315,12 @@
 				"specialRules": [
 					"Expert Rider",
 					"Horse Lord",
+					"Leader (Rohan Royal Guard)",
 					"Reckless Charge"
 				],
 				"wargear": [
 					"Heavy armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -1272,19 +1352,34 @@
 				],
 				"points": 110,
 				"movement": 6,
-				"fight": 5,
+				"fight": 6,
 				"shoot": 4,
 				"strength": 4,
 				"defence": 6,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 5,
+				"courage": 4,
+				"intelligence": 5,
 				"might": 3,
 				"will": 3,
 				"fate": 3,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength"
+					"Heroic Strength",
+					"Heroic Strike"
 				],
 				"keywords": [
 					"Man",
@@ -1320,11 +1415,12 @@
 				"specialRules": [
 					"Expert Rider",
 					"Horse Lord",
+					"Leader (Rohan Royal Guard)",
 					"The Price of Grief"
 				],
 				"wargear": [
 					"Heavy armour",
-					"Sword"
+					"Guthwine"
 				]
 			},
 			{
@@ -1342,18 +1438,33 @@
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
-				"strength": 3,
-				"defence": 3,
+				"strength": 4,
+				"defence": 4,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 5,
+				"courage": 4,
+				"intelligence": 5,
 				"might": 2,
 				"will": 2,
-				"fate": 2,
+				"fate": 3,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic Resolve",
-					"Heroid Strike",
-					"Heroic Strength"
+					"Heroic Defence",
+					"Heroid Resolve",
+					"Heroic Strike"
 				],
 				"keywords": [
 					"Woman",
@@ -1365,6 +1476,11 @@
 					{
 						"name": "Horse",
 						"points": 20
+					},
+					{
+						"name": "Merry",
+						"points": 25,
+						"unlockedBy": "Horse"
 					},
 					{
 						"name": "Armour",
@@ -1382,10 +1498,10 @@
 				"specialRules": [
 					"Expert Rider",
 					"Horse Lord",
-					"I Shall Kill You if You Touch Him"
+					"I shall kill you if you touch him"
 				],
 				"wargear": [
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -1436,7 +1552,7 @@
 				]
 			},
 			{
-				"name": "Meriadoc Brandybuck, Knight of the Mark",
+				"name": "Meriadoc Brandybuck, Esquire of Rohan",
 				"factions": [
 					{
 						"name": "Rohan",
@@ -1447,9 +1563,6 @@
 						"heroicTier": "Independent Hero"
 					}
 				],
-				"unavailableWith": [
-					"Helm Hammerhand"
-				],
 				"points": 25,
 				"movement": 4,
 				"fight": 3,
@@ -1457,11 +1570,26 @@
 				"strength": 2,
 				"defence": 4,
 				"attack": 1,
-				"wounds": 1,
-				"courage": 4,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 6,
 				"might": 1,
 				"will": 1,
 				"fate": 2,
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Strike"
 				],
@@ -1480,13 +1608,6 @@
 						]
 					},
 					{
-						"name": "Pony",
-						"points": 5,
-						"availableIn": [
-							"Rohan"
-						]
-					},
-					{
 						"name": "Shield",
 						"points": 5
 					}
@@ -1497,7 +1618,7 @@
 				],
 				"wargear": [
 					"Armour",
-					"Dagger"
+					"Hand weapon"
 				]
 			},
 			{
@@ -1648,19 +1769,34 @@
 				],
 				"points": 55,
 				"movement": 6,
-				"fight": 4,
+				"fight": 5,
 				"shoot": 4,
 				"strength": 4,
 				"defence": 6,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
-				"might": 3,
+				"courage": 6,
+				"intelligence": 5,
+				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic March",
-					"Heroic Defence"
+					"Heroic Defence",
+					"Heroic March"
 				],
 				"keywords": [
 					"Man",
@@ -1685,6 +1821,15 @@
 				],
 				"options": [
 					{
+						"name": "Royal Standard of Rohan",
+						"availableIn": [
+							"Ride Out",
+							"Defenders of Helm's Deep",
+							"Kingdom of Rohan"
+						],
+						"points": 40
+					},
+					{
 						"name": "Horse",
 						"points": 20,
 						"availableIn": [
@@ -1694,25 +1839,17 @@
 							"Riders of Theoden",
 							"Paths of the Druadan"
 						]
-					},
-					{
-						"name": "Royal Standard of Rohan",
-						"availableIn": [
-							"Ride Out",
-							"Defenders of Helm's Deep",
-							"Kingdom of Rohan"
-						],
-						"points": 40
 					}
 				],
 				"specialRules": [
 					"Expert Rider",
 					"Horse Lord",
+					"Leader (Rohan Royal Guard)",
 					"Sworn Protector (Theoden)"
 				],
 				"wargear": [
 					"Heavy armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -1732,16 +1869,31 @@
 				],
 				"points": 60,
 				"movement": 6,
-				"fight": 4,
+				"fight": 5,
 				"shoot": 4,
 				"strength": 4,
 				"defence": 6,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
-				"might": 3,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Defence"
 				],
@@ -1753,13 +1905,13 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Expert Rider",
-					"Horse Lord",
-					"Sworn Protector (Theoden)"
+					"Leader (Rohan Royal Guard)",
+					"Sworn Protector (Theoden)",
+					"Doorward of Meduseld"
 				],
 				"wargear": [
 					"Heavy armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -2494,7 +2646,7 @@
 				]
 			},
 			{
-				"name": "The Witch-King of Angmar",
+				"name": "The Witch-King of Angmar A",
 				"factions": [
 					{
 						"name": "Mordor",
@@ -2517,24 +2669,41 @@
 						"heroicTier": "Hero of Legend"
 					}
 				],
-				"points": 70,
+				"points": 80,
 				"movement": 6,
-				"fight": 5,
+				"fight": 6,
 				"shoot": 4,
 				"strength": 4,
 				"defence": 8,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 6,
-				"might": 0,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 1,
 				"will": 10,
-				"fate": 0,
+				"fate": 1,
+				"race": [
+					"Spirit",
+					"Ringwraith"
+				],
+				"faction": [
+					"Mordor",
+					"Angmar"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Channelling",
 					"Heroic Resolve",
-					"Heroic Channeling",
-					"Heroic Strike",
 					"Heroic Strength",
-					"Heroic Challenge"
+					"Heroic Strike"
 				],
 				"keywords": [
 					"Spirit",
@@ -2548,96 +2717,38 @@
 					{
 						"name": "Armoured Fell Beast",
 						"points": 70,
-						"availableIn": [
-							"Mordor",
-							"Angmar",
-							"Barad Dur"
-						],
 						"chooseOneKey": "a"
 					},
 					{
 						"name": "Fell Beast",
 						"points": 50,
-						"availableIn": [
-							"Mordor",
-							"Angmar",
-							"Barad Dur"
-						],
 						"chooseOneKey": "a"
 					},
 					{
 						"name": "Crown of Morgul",
-						"points": 25,
-						"availableIn": [
-							"Mordor",
-							"Angmar",
-							"Barad Dur"
-						]
-					},
-					{
-						"name": "Armoured Horse",
-						"points": 15,
-						"availableIn": [
-							"Mordor",
-							"Angmar",
-							"Barad Dur",
-							"Host of the Witch-King"
-						],
-						"chooseOneKey": "a"
+						"points": 25
 					},
 					{
 						"name": "Horse",
-						"points": 10,
-						"availableIn": [
-							"Mordor",
-							"Angmar",
-							"Barad Dur",
-							"The Black Riders",
-							"Host of the Witch-King"
-						],
+						"points": 20,
 						"chooseOneKey": "a"
 					},
 					{
 						"name": "Morgul Blade",
-						"points": 10,
-						"availableIn": [
-							"Mordor",
-							"Angmar",
-							"Barad Dur",
-							"The Black Riders",
-							"Host of the Witch-King"
-						]
+						"points": 10
 					},
 					{
-						"name": "Two-handed flail",
+						"name": "Two-handed weapon",
 						"points": 5,
 						"availableIn": [
 							"Mordor",
 							"Angmar",
 							"Barad Dur"
 						]
-					},
-					{
-						"name": "Might",
-						"points": 5,
-						"increment": true,
-						"max": 3
-					},
-					{
-						"name": "Will",
-						"points": 5,
-						"increment": true,
-						"max": 10
-					},
-					{
-						"name": "Fate",
-						"points": 5,
-						"increment": true,
-						"max": 3
 					}
 				],
 				"specialRules": [
-					"Harbinger of Evil",
+					"Harbinger of Evil (12\")",
 					"Terror",
 					"Will of Evil"
 				],
@@ -2647,9 +2758,9 @@
 				],
 				"magicalPowers": [
 					{
-						"name": "Drain Courage",
+						"name": "Compel",
 						"range": 12,
-						"casting": 2
+						"casting": 3
 					},
 					{
 						"name": "Transfix",
@@ -2657,27 +2768,325 @@
 						"casting": 3
 					},
 					{
-						"name": "Compel",
+						"name": "Drain Courage",
 						"range": 12,
 						"casting": 4
 					},
 					{
-						"name": "Instill Fear",
-						"range": 3,
-						"casting": 4
-					},
-					{
-						"name": "Your Staff is Broken",
+						"name": "Enchant Blades",
 						"range": 12,
 						"casting": 4
 					},
 					{
 						"name": "Black Dart",
-						"range": 12,
+						"range": 6,
 						"casting": 5
 					},
 					{
-						"name": "Sap will",
+						"name": "Instill Fear",
+						"range": 0,
+						"casting": 5
+					},
+					{
+						"name": "Your Staff is Broken",
+						"range": 12,
+						"casting": 5
+					}
+				]
+			},
+			{
+				"name": "The Witch-King of Angmar B",
+				"factions": [
+					{
+						"name": "Mordor",
+						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Angmar",
+						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Barad Dur",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "The Black Riders",
+						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Host of the Witch-King",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 120,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 8,
+				"attack": 2,
+				"wounds": 1,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 2,
+				"will": 14,
+				"fate": 2,
+				"race": [
+					"Spirit",
+					"Ringwraith"
+				],
+				"faction": [
+					"Mordor",
+					"Angmar"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Channelling",
+					"Heroic Resolve",
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"keywords": [
+					"Spirit",
+					"Ringwraith",
+					"Mordor",
+					"Angmar",
+					"Infantry",
+					"Hero"
+				],
+				"options": [
+					{
+						"name": "Armoured Fell Beast",
+						"points": 70,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Fell Beast",
+						"points": 50,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Crown of Morgul",
+						"points": 25
+					},
+					{
+						"name": "Horse",
+						"points": 20,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Morgul Blade",
+						"points": 10
+					},
+					{
+						"name": "Two-handed weapon",
+						"points": 5,
+						"availableIn": [
+							"Mordor",
+							"Angmar",
+							"Barad Dur"
+						]
+					}
+				],
+				"specialRules": [
+					"Harbinger of Evil (12\")",
+					"Terror",
+					"Will of Evil"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Sword"
+				],
+				"magicalPowers": [
+					{
+						"name": "Compel",
+						"range": 12,
+						"casting": 3
+					},
+					{
+						"name": "Transfix",
+						"range": 12,
+						"casting": 3
+					},
+					{
+						"name": "Drain Courage",
+						"range": 12,
+						"casting": 4
+					},
+					{
+						"name": "Enchant Blades",
+						"range": 12,
+						"casting": 4
+					},
+					{
+						"name": "Black Dart",
+						"range": 6,
+						"casting": 5
+					},
+					{
+						"name": "Instill Fear",
+						"range": 0,
+						"casting": 5
+					},
+					{
+						"name": "Your Staff is Broken",
+						"range": 12,
+						"casting": 5
+					}
+				]
+			},
+			{
+				"name": "The Witch-King of Angmar C",
+				"factions": [
+					{
+						"name": "Mordor",
+						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Angmar",
+						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Barad Dur",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "The Black Riders",
+						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Host of the Witch-King",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 150,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 8,
+				"attack": 3,
+				"wounds": 1,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 3,
+				"will": 18,
+				"fate": 3,
+				"race": [
+					"Spirit",
+					"Ringwraith"
+				],
+				"faction": [
+					"Mordor",
+					"Angmar"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Channelling",
+					"Heroic Resolve",
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"keywords": [
+					"Spirit",
+					"Ringwraith",
+					"Mordor",
+					"Angmar",
+					"Infantry",
+					"Hero"
+				],
+				"options": [
+					{
+						"name": "Armoured Fell Beast",
+						"points": 70,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Fell Beast",
+						"points": 50,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Crown of Morgul",
+						"points": 25
+					},
+					{
+						"name": "Horse",
+						"points": 20,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Morgul Blade",
+						"points": 10
+					},
+					{
+						"name": "Two-handed weapon",
+						"points": 5,
+						"availableIn": [
+							"Mordor",
+							"Angmar",
+							"Barad Dur"
+						]
+					}
+				],
+				"specialRules": [
+					"Harbinger of Evil (12\")",
+					"Terror",
+					"Will of Evil"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Sword"
+				],
+				"magicalPowers": [
+					{
+						"name": "Compel",
+						"range": 12,
+						"casting": 3
+					},
+					{
+						"name": "Transfix",
+						"range": 12,
+						"casting": 3
+					},
+					{
+						"name": "Drain Courage",
+						"range": 12,
+						"casting": 4
+					},
+					{
+						"name": "Enchant Blades",
+						"range": 12,
+						"casting": 4
+					},
+					{
+						"name": "Black Dart",
+						"range": 6,
+						"casting": 5
+					},
+					{
+						"name": "Instill Fear",
+						"range": 0,
+						"casting": 5
+					},
+					{
+						"name": "Your Staff is Broken",
 						"range": 12,
 						"casting": 5
 					}
@@ -3632,7 +4041,7 @@
 					}
 				],
 				"unlimited": true,
-				"points": 50,
+				"points": 55,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 5,
@@ -3640,12 +4049,26 @@
 				"defence": 6,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 7,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
 				"heroicActions": [
 					"Heroic March"
+				],
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"keywords": [
 					"Orc",
@@ -3663,10 +4086,12 @@
 						"points": 5
 					}
 				],
-				"specialRules": [],
+				"specialRules": [
+					"End the Race of Men"
+				],
 				"wargear": [
 					"Heavy armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -4174,7 +4599,7 @@
 				]
 			},
 			{
-				"name": "Ringwraith",
+				"name": "Ringwraith A",
 				"factions": [
 					{
 						"name": "Mordor",
@@ -4190,7 +4615,7 @@
 					}
 				],
 				"unlimited": true,
-				"points": 55,
+				"points": 60,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
@@ -4198,12 +4623,26 @@
 				"defence": 8,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 4,
 				"might": 0,
 				"will": 7,
 				"fate": 0,
+				"race": [
+					"Spirit",
+					"Ringwraith"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic March",
 					"Heroic Channeling"
 				],
 				"keywords": [
@@ -4229,55 +4668,28 @@
 					{
 						"name": "Armoured fell beast",
 						"points": 70,
-						"availableIn": [
-							"Mordor",
-							"Barad Dur"
-						],
 						"chooseOneKey": "a"
 					},
 					{
 						"name": "Fell beast",
 						"points": 50,
-						"availableIn": [
-							"Mordor",
-							"Barad Dur"
-						],
 						"chooseOneKey": "a"
 					},
 					{
 						"name": "Horse",
-						"points": 10,
+						"points": 20,
 						"availableIn": [
 							"Mordor",
 							"Barad Dur",
 							"The Black Riders"
 						],
 						"chooseOneKey": "a"
-					},
-					{
-						"name": "Might",
-						"points": 5,
-						"increment": true,
-						"max": 2
-					},
-					{
-						"name": "Will",
-						"points": 5,
-						"increment": true,
-						"max": 7
-					},
-					{
-						"name": "Fate",
-						"points": 5,
-						"increment": true,
-						"max": 2
 					}
 				],
 				"specialRules": [
-					"Harbinger of Evil",
+					"Harbinger of Evil (12\")",
 					"Terror",
-					"Will of Evil",
-					"One of Nine"
+					"Will of Evil"
 				],
 				"wargear": [
 					"Heavy armour",
@@ -4285,9 +4697,9 @@
 				],
 				"magicalPowers": [
 					{
-						"name": "Drain Courage",
+						"name": "Compel",
 						"range": 12,
-						"casting": 2
+						"casting": 3
 					},
 					{
 						"name": "Transfix",
@@ -4295,23 +4707,268 @@
 						"casting": 3
 					},
 					{
-						"name": "Compel",
+						"name": "Drain Courage",
 						"range": 12,
 						"casting": 4
 					},
 					{
 						"name": "Black Dart",
-						"range": 12,
+						"range": 6,
 						"casting": 5
 					},
 					{
 						"name": "Instill Fear",
-						"range": 3,
+						"range": 0,
+						"casting": 5
+					}
+				]
+			},
+			{
+				"name": "Ringwraith B",
+				"factions": [
+					{
+						"name": "Mordor",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Barad Dur",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Black Riders",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"unlimited": true,
+				"points": 90,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 8,
+				"attack": 2,
+				"wounds": 1,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 1,
+				"will": 10,
+				"fate": 1,
+				"race": [
+					"Spirit",
+					"Ringwraith"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Channeling"
+				],
+				"keywords": [
+					"Spirit",
+					"Ringwraith",
+					"Mordor",
+					"Infantry",
+					"Hero"
+				],
+				"requiredChildren": [
+					{
+						"name": "Horse",
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"The Black Riders"
+							]
+						],
+						"points": 10
+					}
+				],
+				"options": [
+					{
+						"name": "Armoured fell beast",
+						"points": 70,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Fell beast",
+						"points": 50,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Horse",
+						"points": 20,
+						"availableIn": [
+							"Mordor",
+							"Barad Dur",
+							"The Black Riders"
+						],
+						"chooseOneKey": "a"
+					}
+				],
+				"specialRules": [
+					"Harbinger of Evil (12\")",
+					"Terror",
+					"Will of Evil"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Sword"
+				],
+				"magicalPowers": [
+					{
+						"name": "Compel",
+						"range": 12,
+						"casting": 3
+					},
+					{
+						"name": "Transfix",
+						"range": 12,
+						"casting": 3
+					},
+					{
+						"name": "Drain Courage",
+						"range": 12,
+						"casting": 4
+					},
+					{
+						"name": "Black Dart",
+						"range": 6,
 						"casting": 5
 					},
 					{
-						"name": "Sap will",
+						"name": "Instill Fear",
+						"range": 0,
+						"casting": 5
+					}
+				]
+			},
+			{
+				"name": "Ringwraith C",
+				"factions": [
+					{
+						"name": "Mordor",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Barad Dur",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Black Riders",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"unlimited": true,
+				"points": 90,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 8,
+				"attack": 3,
+				"wounds": 1,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 2,
+				"will": 14,
+				"fate": 2,
+				"race": [
+					"Spirit",
+					"Ringwraith"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Channeling"
+				],
+				"keywords": [
+					"Spirit",
+					"Ringwraith",
+					"Mordor",
+					"Infantry",
+					"Hero"
+				],
+				"requiredChildren": [
+					{
+						"name": "Horse",
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"The Black Riders"
+							]
+						],
+						"points": 10
+					}
+				],
+				"options": [
+					{
+						"name": "Armoured fell beast",
+						"points": 70,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Fell beast",
+						"points": 50,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Horse",
+						"points": 20,
+						"availableIn": [
+							"Mordor",
+							"Barad Dur",
+							"The Black Riders"
+						],
+						"chooseOneKey": "a"
+					}
+				],
+				"specialRules": [
+					"Harbinger of Evil (12\")",
+					"Terror",
+					"Will of Evil"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Sword"
+				],
+				"magicalPowers": [
+					{
+						"name": "Compel",
 						"range": 12,
+						"casting": 3
+					},
+					{
+						"name": "Transfix",
+						"range": 12,
+						"casting": 3
+					},
+					{
+						"name": "Drain Courage",
+						"range": 12,
+						"casting": 4
+					},
+					{
+						"name": "Black Dart",
+						"range": 6,
+						"casting": 5
+					},
+					{
+						"name": "Instill Fear",
+						"range": 0,
 						"casting": 5
 					}
 				]
@@ -4855,7 +5512,7 @@
 				]
 			},
 			{
-				"name": "Orc Drummer",
+				"name": "Mordor Orc Drummer",
 				"factions": [
 					{
 						"name": "Mordor",
@@ -4877,16 +5534,30 @@
 				"unlimited": true,
 				"points": 30,
 				"movement": 6,
-				"fight": 4,
+				"fight": 3,
 				"shoot": 5,
 				"strength": 4,
-				"defence": 5,
+				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 8,
 				"might": 0,
 				"will": 0,
 				"fate": 1,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [],
 				"keywords": [
 					"Orc",
@@ -4898,13 +5569,8 @@
 				"specialRules": [],
 				"wargear": [
 					"Armour",
-					"Dagger",
+					"Hand weapon",
 					"War drum (Mordor Orc)"
-				],
-				"unavailableIn": [
-					[
-						"Razgush, War Leader of the North"
-					]
 				]
 			},
 			{
@@ -5132,82 +5798,14 @@
 				]
 			},
 			{
-				"name": "Gil-Galad, High King of the Elves",
+				"name": "Gil-Galad, High King of the Noldor",
 				"factions": [
 					{
 						"name": "Rivendell",
 						"heroicTier": "Hero of Legend"
 					}
 				],
-				"allianceRules": {
-					"remove": [
-						{
-							"property": "armyBonus",
-							"with": [
-								{
-									"any": [
-										"Arwen Undomiel",
-										"Elladan & Elrohir",
-										"Lindir of Rivendell",
-										"Bilbo Baggins"
-									]
-								}
-							]
-						}
-					],
-					"setAllianceLevel": [
-						{
-							"level": "none",
-							"with": [
-								{
-									"any": [
-										"Arwen Undomiel",
-										"Elladan & Elrohir",
-										"Lindir of Rivendell",
-										"Bilbo Baggins"
-									]
-								}
-							]
-						}
-					],
-					"adjustAllianceLevels": [
-						{
-							"level": "primary",
-							"factions": [
-								"Numenor"
-							]
-						},
-						{
-							"level": "secondary",
-							"factions": [
-								"Lothlorien",
-								"Fangorn",
-								"The Misty Mountains"
-							]
-						}
-					],
-					"loseArmyBonusWithHero": [
-						"Arwen Undomiel",
-						"Elladan & Elrohir",
-						"Lindir of Rivendell",
-						"Bilbo Baggins"
-					],
-					"becomeImpossibleWithAllWithHero": [
-						"Arwen Undomiel",
-						"Elladan & Elrohir",
-						"Lindir of Rivendell",
-						"Bilbo Baggins"
-					],
-					"adjustFactionPrimaryAllies": [
-						"Numenor"
-					],
-					"adjustFactionSecondaryAllies": [
-						"Lothlorien",
-						"Fangorn",
-						"The Misty Mountains"
-					]
-				},
-				"points": 170,
+				"points": 175,
 				"movement": 6,
 				"fight": 9,
 				"shoot": 3,
@@ -5215,16 +5813,29 @@
 				"defence": 7,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 7,
+				"courage": 3,
+				"intelligence": 4,
 				"might": 3,
 				"will": 3,
 				"fate": 1,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Rivendell"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic Strike",
 					"Heroic Challenge",
 					"Heroic Resolve",
-					"Heroic Strength",
-					"Heroic Defence"
+					"Heroic Strength"
 				],
 				"keywords": [
 					"Elf",
@@ -5232,18 +5843,8 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Horse",
-						"points": 10
-					},
-					{
-						"name": "Shield",
-						"points": 5
-					}
-				],
+				"options": [],
 				"specialRules": [
-					"Blood & Glory",
 					"Terror",
 					"Woodland Creature",
 					"High King of the Elves",
@@ -5529,46 +6130,66 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 65,
+				"points": 70,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 3,
 				"strength": 4,
 				"defence": 4,
-				"attack": 1,
+				"attack": 2,
 				"wounds": 2,
-				"courage": 5,
+				"courage": 4,
+				"intelligence": 5,
 				"might": 1,
 				"will": 3,
 				"fate": 1,
-				"heroicActions": [],
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Rivendell"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Channelling"
+				],
 				"keywords": [
 					"Elf",
 					"Rivendell",
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Heavy Armour",
-						"points": 10
-					},
-					{
-						"name": "Horse",
-						"points": 10
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Woodland Creature",
-					"Song to Elbereth",
+					"Song of Elbereth",
 					"Wise Council"
 				],
 				"wargear": [
-					"Elven-made Sword"
+					"Elven hand weapon"
+				],
+				"magicalPowers": [
+					{
+						"name": "Foil Magic",
+						"range": 6,
+						"casting": 4
+					},
+					{
+						"name": "Renew",
+						"range": 6,
+						"casting": 4
+					}
 				]
 			},
 			{
-				"name": "Cirdan",
+				"name": "Cirdan of the Grey Havens",
 				"factions": [
 					{
 						"name": "Rivendell",
@@ -5579,7 +6200,7 @@
 						"heroicTier": "Minor Hero"
 					}
 				],
-				"points": 80,
+				"points": 75,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 3,
@@ -5587,13 +6208,28 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 3,
 				"might": 1,
 				"will": 4,
 				"fate": 1,
 				"heroicActions": [
-					"Heroic Resolve",
-					"Heroic Channeling"
+					"Heroic Channelling",
+					"Heroic Resolve"
+				],
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Rivendell"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"keywords": [
 					"Elf",
@@ -5603,27 +6239,32 @@
 				],
 				"options": [],
 				"specialRules": [
+					"Resistant to Magic",
 					"Terror",
 					"Woodland Creature",
-					"Resistant to Magic",
-					"The Shipwright's power"
+					"The Shipwright's Power"
 				],
 				"wargear": [
 					"Unarmed"
 				],
 				"magicalPowers": [
 					{
-						"name": "Aura of Command",
+						"name": "Fog of Disarray",
 						"range": null,
-						"casting": 2
+						"casting": 3
 					},
 					{
-						"name": "Blinding Light",
-						"range": null,
-						"casting": 2
+						"name": "Blessing of the Valar",
+						"range": 6,
+						"casting": 4
 					},
 					{
-						"name": "Enchanted Blades",
+						"name": "Call Winds",
+						"range": 12,
+						"casting": 4
+					},
+					{
+						"name": "Enchant Blades",
 						"range": 6,
 						"casting": 4
 					},
@@ -5635,7 +6276,7 @@
 				]
 			},
 			{
-				"name": "High Elf Captain",
+				"name": "Rivendell Captain",
 				"factions": [
 					{
 						"name": "Rivendell",
@@ -5647,7 +6288,7 @@
 					}
 				],
 				"unlimited": true,
-				"points": 75,
+				"points": 70,
 				"movement": 6,
 				"fight": 6,
 				"shoot": 3,
@@ -5655,10 +6296,24 @@
 				"defence": 6,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 4,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Rivendell"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
 				],
@@ -5673,24 +6328,16 @@
 					"Woodland Creature"
 				],
 				"wargear": [
-					"Heavy Armour",
-					"Elven-made Hand-and-a-half Sword"
+					"Heavy armour",
+					"Elven-made Hand-and-a-half weapon"
 				],
 				"options": [
 					{
-						"name": "Horse",
-						"points": 10
+						"name": "Horse, Elf bow and Elven lance",
+						"points": 30
 					},
 					{
 						"name": "Shield",
-						"points": 5
-					},
-					{
-						"name": "Lance",
-						"points": 5
-					},
-					{
-						"name": "Elf Bow",
 						"points": 5
 					}
 				]
@@ -6251,6 +6898,7 @@
 				"attack": 3,
 				"wounds": 3,
 				"courage": 4,
+				"intellicence": 5,
 				"might": 6,
 				"will": 3,
 				"fate": 3,
@@ -6591,23 +7239,38 @@
 					}
 				],
 				"requiredIn": "Rangers of Ithilien",
-				"points": 80,
+				"points": 100,
 				"movement": 6,
-				"fight": 5,
+				"fight": 6,
 				"shoot": 3,
 				"strength": 4,
 				"defence": 5,
-				"attack": 2,
+				"attack": 3,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 4,
 				"might": 3,
 				"will": 3,
 				"fate": 2,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic Resolve",
 					"Heroic Accuracy",
-					"Heroic Strike",
-					"Heroic Defence"
+					"Heroic Defence",
+					"Heroic Resolve",
+					"Heroic Strike"
 				],
 				"keywords": [
 					"Man",
@@ -6615,61 +7278,32 @@
 					"Infantry",
 					"Hero"
 				],
-				"unavailableWith": [
-					"King of Men"
-				],
 				"options": [
 					{
-						"name": "Armoured Horse",
-						"points": 15,
-						"availableIn": [
-							"Minas Tirith"
-						]
-					},
-					{
 						"name": "Horse",
-						"points": 10,
-						"availableIn": [
-							"Minas Tirith",
-							"Rangers of Ithilien"
-						]
-					},
-					{
-						"name": "Bow",
-						"points": 5,
-						"availableIn": [
-							"Minas Tirith"
-						]
-					},
-					{
-						"name": "Heavy Armour",
-						"points": 5,
-						"availableIn": [
-							"Minas Tirith"
-						]
-					},
-					{
-						"name": "Lance",
-						"points": 5,
-						"availableIn": [
-							"Minas Tirith"
-						]
+						"points": 20
 					},
 					{
 						"name": "Shield",
-						"points": 5,
-						"availableIn": [
-							"Minas Tirith"
-						]
+						"points": 5
+					},
+					{
+						"name": "Exchange armour and bow for heavy armour",
+						"points": 0
 					}
 				],
 				"specialRules": [
-					"Is there a Captain here who still has the Courage to do his Lord's Will?",
-					"Woodland Creature"
+					"Leader (Citadel Guard",
+					"Resistant to Magic",
+					"Sharpshooter",
+					"A Chance for Faramir, Captain of Gondor to show his Quality",
+					"Woodland Creature",
+					"Wizard's Pupil"
 				],
 				"wargear": [
 					"Armour",
-					"Sword"
+					"Hand weapon",
+					"Bow"
 				]
 			},
 			{
@@ -7159,7 +7793,7 @@
 						"heroicTier": "Hero of Legend"
 					}
 				],
-				"points": 180,
+				"points": 170,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
@@ -7167,12 +7801,28 @@
 				"defence": 5,
 				"attack": 1,
 				"wounds": 3,
-				"courage": 7,
+				"courage": 3,
+				"intelligence": 3,
 				"might": 3,
 				"will": 6,
 				"fate": 3,
+				"race": [
+					"Wizard"
+				],
+				"faction": [
+					"Isengard"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic Channeling"
+					"Heroic Channeling",
+					"Heroic Defence"
 				],
 				"keywords": [
 					"Wizard",
@@ -7181,47 +7831,59 @@
 					"Hero"
 				],
 				"specialRules": [
-					"Lord of the Istari",
-					"The Palantir",
-					"Voice of curunir"
+					"Voice of Curunir",
+					"Saruman's Deceit"
 				],
 				"wargear": [
-					"Staff of Power"
+					"Staff of Power",
+					"Palantir"
 				],
 				"options": [
 					{
 						"name": "Horse",
-						"points": 10,
-						"availableIn": [
-							"Isengard"
-						]
+						"points": 20
 					}
 				],
 				"magicalPowers": [
 					{
-						"name": "Flameburst",
-						"range": 6,
-						"casting": 5
-					},
-					{
-						"name": "Immobilise",
-						"range": 18,
-						"casting": 2
-					},
-					{
-						"name": "Terrifying Aura",
-						"range": 0,
-						"casting": 2
-					},
-					{
-						"name": "Command",
+						"name": "Compel",
 						"range": 18,
 						"casting": 3
 					},
 					{
-						"name": "Sorcerous Blast",
+						"name": "Terrifying Aura",
+						"range": 0,
+						"casting": 3
+					},
+					{
+						"name": "Transfix",
+						"range": 18,
+						"casting": 3
+					},
+					{
+						"name": "Curse",
 						"range": 12,
 						"casting": 4
+					},
+					{
+						"name": "Foil Magic",
+						"range": 18,
+						"casting": 4
+					},
+					{
+						"name": "Aura of Dismay",
+						"range": 0,
+						"casting": 5
+					},
+					{
+						"name": "Flameburst",
+						"range": 12,
+						"casting": 5
+					},
+					{
+						"name": "Sorcerous Blast",
+						"range": 12,
+						"casting": 5
 					}
 				]
 			},
@@ -7305,7 +7967,7 @@
 				]
 			},
 			{
-				"name": "Lurtz",
+				"name": "Lurtz, Uruk-Hai Scout Captain",
 				"requiredIn": [
 					"Lurtz's Scouts"
 				],
@@ -7319,23 +7981,38 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
-				"points": 90,
+				"points": 100,
 				"movement": 6,
-				"fight": 5,
+				"fight": 6,
 				"shoot": 3,
 				"strength": 5,
 				"defence": 6,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 5,
+				"courage": 4,
+				"intelligence": 5,
 				"might": 3,
-				"will": 1,
+				"will": 3,
 				"fate": 1,
+				"race": [
+					"Uruk-hai"
+				],
+				"faction": [
+					"Isengard"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic Strike",
+					"Heroic Challenge",
 					"Heroic March",
 					"Heroic Strength",
-					"Heroic Challenge"
+					"Heroic Strike"
 				],
 				"keywords": [
 					"Uruk-Hai",
@@ -7350,16 +8027,19 @@
 					}
 				],
 				"specialRules": [
-					"Find the Halflings"
+					"Sharpshooter",
+					"Find the Halflings",
+					"Shield Throw",
+					"Oblivious to Pain"
 				],
 				"wargear": [
 					"Armour",
-					"Sword",
+					"Hand weapon",
 					"Uruk-hai bow"
 				]
 			},
 			{
-				"name": "Ugluk",
+				"name": "Ugluk, Uruk-hai Scout Captain",
 				"requiredIn": [
 					"Ugluk's Scouts"
 				],
@@ -7377,7 +8057,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 65,
+				"points": 75,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
@@ -7385,14 +8065,29 @@
 				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 3,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Uruk-hai"
+				],
+				"faction": [
+					"Isengard"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic Strike",
 					"Heroic March",
-					"Heroic Strength"
+					"Heroic Strength",
+					"Heroic Strike"
 				],
 				"keywords": [
 					"Uruk-Hai",
@@ -7402,11 +8097,13 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Head Taker"
+					"Head Taker",
+					"\"Looks like meat's back on the menu, boys!"
 				],
 				"wargear": [
 					"Armour",
-					"Sword"
+					"Hand weapon",
+					"Whip"
 				]
 			},
 			{
@@ -7714,7 +8411,7 @@
 				]
 			},
 			{
-				"name": "Aragorn - King Elessar",
+				"name": "Aragorn, King Elessar",
 				"factions": [
 					{
 						"name": "Minas Tirith",
@@ -7727,23 +8424,38 @@
 				],
 				"points": 225,
 				"movement": 6,
-				"fight": 6,
+				"fight": 7,
 				"shoot": 3,
 				"strength": 4,
 				"defence": 7,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 3,
 				"might": 3,
 				"will": 3,
 				"fate": 3,
 				"heroicActions": [
-					"Heroic Resolve",
-					"Heroic March",
-					"Heroic Strike",
-					"Heroic Strength",
+					"Heroic Challenge",
 					"Heroic Defence",
-					"Heroic Challenge"
+					"Heroic March",
+					"Heroic Resolve",
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"keywords": [
 					"Man",
@@ -7751,22 +8463,17 @@
 					"Infantry",
 					"Hero"
 				],
-				"unavailableWith": [
-					"King of Men"
-				],
 				"options": [
 					{
 						"name": "Armoured Horse",
-						"points": 15,
-						"availableIn": [
-							"Minas Tirith"
-						]
+						"points": 25
 					}
 				],
 				"specialRules": [
-					"Mighty Hero",
 					"Horse Lord",
-					"Stand Men of the West!"
+					"Mighty Hero",
+					"Resistant to Magic",
+					"Stand, Men of the West!"
 				],
 				"wargear": [
 					"Anduril, Flame of the West",
@@ -9077,15 +9784,31 @@
 				"defence": 10,
 				"attack": 4,
 				"wounds": 5,
-				"courage": 7,
+				"courage": 3,
+				"intelligence": 3,
 				"might": 3,
 				"will": 6,
 				"fate": 0,
+				"race": [
+					"Spirit"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Monster",
+					"Unique"
+				],
+				"baseSize": [
+					"40mm"
+				],
 				"heroicActions": [
-					"Heroic Channeling",
-					"Heroic Strike",
+					"Heroic Challenge",
+					"Heroic Channelling",
 					"Heroic Strength",
-					"Heroic Challenge"
+					"Heroic Strike"
 				],
 				"keywords": [
 					"Spirit",
@@ -9096,50 +9819,49 @@
 				],
 				"options": [],
 				"specialRules": [
-					"The One Ring**",
-					"The Lord of the Rings",
-					"Ancient Evil",
+					"Dominant (10)",
+					"Harbinger of Evil (18\")",
 					"Resistant to Magic",
 					"Terror",
-					"The Dark Lord",
-					"The Flames of Evil (Brutal Power Attack)",
-					"Unstoppable (Brutal Power Attack)"
+					"The Lord of the Rings",
+					"Unstoppable",
+					"The Flames of Evil"
 				],
 				"wargear": [
 					"Heavy Armour",
 					"Mace",
-					"The One Ring"
+					"The One Ring (Sauron)"
 				],
 				"magicalPowers": [
-					{
-						"name": "Chill Soul",
-						"range": 18,
-						"casting": 4
-					},
-					{
-						"name": "Drain Courage",
-						"range": 18,
-						"casting": 2
-					},
 					{
 						"name": "Compel",
 						"range": 18,
 						"casting": 3
 					},
 					{
-						"name": "Instill Fear",
-						"range": 3,
+						"name": "Fog of Disarray",
+						"range": 0,
 						"casting": 3
 					},
 					{
 						"name": "Transfix",
 						"range": 18,
-						"casting": 2
+						"casting": 3
 					},
 					{
-						"name": "Sap will",
+						"name": "Chill Soul",
+						"range": 12,
+						"casting": 4
+					},
+					{
+						"name": "Drain Courage",
 						"range": 18,
 						"casting": 4
+					},
+					{
+						"name": "Instill Fear",
+						"range": 0,
+						"casting": 5
 					}
 				]
 			},
@@ -10241,7 +10963,7 @@
 				]
 			},
 			{
-				"name": "Azog",
+				"name": "Azog, the Defiler",
 				"factions": [
 					{
 						"name": "Azog's Legion",
@@ -10256,23 +10978,38 @@
 						"heroicTier": "Hero of Legend"
 					}
 				],
-				"points": 165,
+				"points": 175,
 				"movement": 6,
 				"fight": 7,
-				"shoot": 5,
+				"shoot": 4,
 				"strength": 5,
 				"defence": 5,
 				"attack": 3,
 				"wounds": 3,
 				"courage": 5,
+				"intelligence": 5,
 				"might": 3,
 				"will": 3,
 				"fate": 1,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Gundabad"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
+					"Heroic Challenge",
 					"Heroic March",
-					"Heroic Strike",
 					"Heroic Strength",
-					"Heroic Challenge"
+					"Heroic Strike"
 				],
 				"keywords": [
 					"Orc",
@@ -10282,39 +11019,16 @@
 				],
 				"options": [
 					{
-						"name": "Signal Tower",
-						"points": 200,
-						"availableIn": [
-							"Azog's Legion"
-						],
-						"increasesWarbandSize": 6,
-						"increaseMaximumChildren": {
-							"warriors": 6
-						},
-						"addsModels": 7
-					},
-					{
 						"name": "The White Warg",
-						"points": 50,
-						"availableIn": [
-							"Azog's Legion",
-							"Azog's Hunters",
-							"Pits of Dol Guldur"
-						]
-					},
-					{
-						"name": "Heavy Armour",
-						"points": 10,
-						"availableIn": [
-							"Azog's Legion"
-						]
+						"points": 50
 					},
 					{
 						"name": "Stone Flail",
-						"points": 20,
-						"availableIn": [
-							"Azog's Legion"
-						]
+						"points": 15
+					},
+					{
+						"name": "Heavy Armour",
+						"points": 10
 					}
 				],
 				"specialRules": [
@@ -10323,12 +11037,11 @@
 					"I am the Master"
 				],
 				"wargear": [
-					"Sword",
-					"Mace"
+					"Hand weapons"
 				]
 			},
 			{
-				"name": "Bolg",
+				"name": "Bolg, Spawn of Azog",
 				"factions": [
 					{
 						"name": "Azog's Legion",
@@ -10339,23 +11052,38 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
-				"points": 165,
+				"points": 175,
 				"movement": 6,
 				"fight": 7,
-				"shoot": 5,
+				"shoot": 4,
 				"strength": 5,
 				"defence": 7,
 				"attack": 3,
 				"wounds": 3,
 				"courage": 5,
+				"intelligence": 5,
 				"might": 3,
 				"will": 3,
 				"fate": 1,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Gundabad"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
+					"Heroic Challenge",
 					"Heroic March",
-					"Heroic Strike",
 					"Heroic Strength",
-					"Heroic Challenge"
+					"Heroic Strike"
 				],
 				"keywords": [
 					"Orc",
@@ -10366,32 +11094,21 @@
 				"options": [
 					{
 						"name": "Fell Warg",
-						"points": 10,
-						"availableIn": [
-							"Azog's Legion",
-							"Azog's Hunters"
-						]
+						"points": 20
 					},
 					{
 						"name": "Orc Bow",
-						"points": 5,
-						"availableIn": [
-							"Azog's Legion",
-							"Azog's Hunters"
-						]
+						"points": 5
 					}
 				],
-				"specialText": "If your army includes Bolg, all Hunter Orcs and Hunter Orc Captains in your army gain the Morgul Arrows special rule.",
 				"specialRules": [
 					"Ancient Enemies (Dwarf)(Elf)",
-					"Ancient Enemies",
 					"Burly",
-					"The Bringer of Death",
-					"Morgul Arrows"
+					"The Bringer of Death"
 				],
 				"wargear": [
 					"Heavy Armour",
-					"Two-Handed Pick"
+					"Two-Handed weapon"
 				]
 			},
 			{
@@ -10881,6 +11598,55 @@
 				]
 			},
 			{
+				"name": "Lothlorien Captain",
+				"factions": [],
+				"unlimited": true,
+				"points": 65,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 4,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Lothlorien"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic March"
+				],
+				"keywords": [
+					"Elf",
+					"Lorien",
+					"Infantry",
+					"Hero"
+				],
+				"specialRules": [
+					"Woodland Creature"
+				],
+				"wargear": [
+					"Elven-made Hand-and-a-half weapon",
+					"Elf bow",
+					"Elven cloak"
+				],
+				"options": []
+			},
+			{
 				"name": "Aldor, Rohan Archer",
 				"factions": [
 					{
@@ -10903,12 +11669,27 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 4,
+				"courage": 7,
+				"intelligence": 8,
 				"might": 1,
 				"will": 1,
 				"fate": 1,
 				"heroicActions": [
 					"Heroic Accuracy"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"keywords": [
 					"Man",
@@ -10917,12 +11698,13 @@
 					"Hero"
 				],
 				"specialRules": [
+					"Fearful",
 					"Unsteady Nerves",
 					"Lucky Shot"
 				],
 				"wargear": [
 					"Armour",
-					"Sword",
+					"Hand weapon",
 					"Bow"
 				],
 				"options": []
@@ -10939,9 +11721,6 @@
 						"heroicTier": "Independent Hero"
 					}
 				],
-				"unavailableWith": [
-					"Helm Hammerhand"
-				],
 				"points": 30,
 				"movement": 6,
 				"fight": 3,
@@ -10950,10 +11729,25 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 2,
-				"courage": 5,
+				"courage": 6,
+				"intelligence": 7,
 				"might": 1,
 				"will": 1,
 				"fate": 2,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Defence"
 				],
@@ -10964,7 +11758,8 @@
 					"Hero"
 				],
 				"specialRules": [
-					"There is Always Hope",
+					"Fearful",
+					"There is always hope",
 					"Fight to the Last"
 				],
 				"wargear": [
@@ -14214,22 +15009,35 @@
 				],
 				"points": 160,
 				"movement": 6,
-				"fight": 5,
+				"fight": 6,
 				"shoot": 4,
 				"strength": 5,
 				"defence": 7,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 5,
 				"might": 3,
 				"will": 3,
-				"fate": 1,
+				"fate": 3,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic Resolve",
+					"Heroic Challenge",
 					"Heroic Strength",
-					"Heroic Defence",
-					"Heroic Strike",
-					"Heroic Challenge"
+					"Heroic Strike"
 				],
 				"keywords": [
 					"Man",
@@ -14244,15 +15052,74 @@
 					}
 				],
 				"specialRules": [
+					"Burly",
 					"Expert Rider",
 					"Horse Lord",
-					"Burly",
-					"Inspiring Presence",
-					"The Hammerhand"
+					"Leader (Rohan Royal Guard)",
+					"The Hammerhand",
+					"Into the Fray"
 				],
 				"wargear": [
 					"Heavy Armour",
-					"Two-Handed Sword",
+					"Two-Handed weapon",
+					"Hand weapon",
+					"Horn of the Hammerhand"
+				]
+			},
+			{
+				"name": "Helm Hammerhand, Wraith of the Hornburg",
+				"factions": [],
+				"points": 180,
+				"movement": 6,
+				"fight": 7,
+				"shoot": 5,
+				"strength": 65,
+				"defence": 5,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 3,
+				"intelligence": 5,
+				"might": 3,
+				"will": 3,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"keywords": [
+					"Man",
+					"Rohan",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": [
+					"Burly",
+					"Dominant (4)",
+					"Fearless",
+					"Hatred (Dunland)",
+					"Might Blow",
+					"The Hammerhand",
+					"No Longer a Leader",
+					"Berserk Rage"
+				],
+				"wargear": [
+					"Light armour",
 					"Horn of the Hammerhand"
 				]
 			},
@@ -14264,23 +15131,37 @@
 						"heroicTier": "Hero of Legend"
 					}
 				],
-				"points": 185,
+				"points": 175,
 				"movement": 6,
-				"fight": 7,
+				"fight": 8,
 				"shoot": 4,
 				"strength": 5,
 				"defence": 7,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 4,
 				"might": 3,
 				"will": 3,
 				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Numenor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic Strike",
+					"Heroic Challenge",
 					"Heroic Strength",
-					"Heroic Defence",
-					"Heroic Challenge"
+					"Heroic Strike"
 				],
 				"keywords": [
 					"Man",
@@ -14288,19 +15169,10 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Horse",
-						"points": 10
-					},
-					{
-						"name": "Shield",
-						"points": 5
-					}
-				],
+				"options": [],
 				"specialRules": [
-					"High King of Gondor and Arnor",
-					"Unbending Resolve"
+					"Resistant to Magic",
+					"High King of Gondor and Arnor"
 				],
 				"wargear": [
 					"Narsil",
@@ -14316,20 +15188,34 @@
 					}
 				],
 				"unlimited": true,
-				"points": 50,
+				"points": 70,
 				"movement": 6,
-				"fight": 5,
+				"fight": 6,
 				"shoot": 4,
-				"strength": 4,
-				"defence": 5,
+				"strength": 5,
+				"defence": 6,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
 				"heroicActions": [
 					"Heroic March"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Numenor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"keywords": [
 					"Man",
@@ -14337,57 +15223,51 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Horse",
-						"points": 10
-					},
-					{
-						"name": "Bow",
-						"points": 5
-					},
-					{
-						"name": "Lance",
-						"points": 5
-					},
-					{
-						"name": "Heavy Armour",
-						"points": 5
-					},
-					{
-						"name": "Shield",
-						"points": 5
-					}
-				],
-				"specialRules": [
-					"Blood of Numenor"
-				],
+				"options": [],
+				"specialRules": [],
 				"wargear": [
 					"Armour",
-					"Sword"
+					"Shield",
+					"Hand weapon"
 				]
 			},
 			{
-				"name": "Isildur",
+				"name": "Isildur, Prince of Numenor",
 				"factions": [
 					{
 						"name": "Numenor",
 						"heroicTier": "Hero of Valour"
 					}
 				],
-				"points": 120,
+				"points": 130,
 				"movement": 6,
-				"fight": 6,
+				"fight": 7,
 				"shoot": 4,
 				"strength": 5,
 				"defence": 7,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 5,
 				"might": 3,
 				"will": 2,
 				"fate": 2,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Numenor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
+					"Heroic Challenge",
 					"Heroic Strike",
 					"Heroic Strength"
 				],
@@ -14400,27 +15280,24 @@
 				"options": [
 					{
 						"name": "Horse",
-						"points": 10
-					},
-					{
-						"name": "Shield",
-						"points": 5
+						"points": 20
 					},
 					{
 						"name": "The Ring",
 						"points": 0,
 						"unavailableWith": [
-							"Elendil, High King of Gondor and Arnor"
+							"Elendil, High King of Gondor and Arnor",
+							"Gil-Galad, High King of the Noldor"
 						]
 					}
 				],
-				"specialText": "As long as your force does not contain either Elendil or Anarion, then Isildur may carry The Ring.",
 				"specialRules": [
-					"Blood of Numenor"
+					"Resistant to Magic",
+					"The Shards of Narsil"
 				],
 				"wargear": [
-					"Hand-and-a-half Sword",
-					"Heavy Armour"
+					"Heavy Armour",
+					"Hand-and-a-half Sword"
 				]
 			},
 			{
@@ -14608,7 +15485,7 @@
 				]
 			},
 			{
-				"name": "Celeborn",
+				"name": "Celeborn, Lord of Lothlorien",
 				"factions": [
 					{
 						"name": "Lothlorien",
@@ -14619,22 +15496,37 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
-				"points": 130,
+				"points": 125,
 				"movement": 6,
 				"fight": 6,
 				"shoot": 3,
 				"strength": 4,
 				"defence": 4,
-				"attack": 3,
+				"attack": 1,
 				"wounds": 3,
-				"courage": 7,
+				"courage": 3,
+				"intelligence": 4,
 				"might": 3,
 				"will": 3,
 				"fate": 3,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Lothlorien"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Channeling",
-					"Heroic Defence"
+					"Heroic Channelling",
+					"Heroic Defence",
+					"Heroic Strike"
 				],
 				"keywords": [
 					"Elf",
@@ -14659,27 +15551,32 @@
 				"specialRules": [
 					"Terror",
 					"Woodland Creature",
-					"Lord of the West",
-					"Lord of Lorien"
+					"The Lord of Lorien",
+					"Battle Wisdom"
 				],
 				"wargear": [
 					"Unarmed"
 				],
 				"magicalPowers": [
 					{
-						"name": "Aura of Command",
-						"range": null,
-						"casting": 2
-					},
-					{
-						"name": "Enchanted Blades",
-						"range": 6,
-						"casting": 3
-					},
-					{
-						"name": "Immobilise",
+						"name": "Transfix",
 						"range": 12,
 						"casting": 3
+					},
+					{
+						"name": "Aura of Dismay",
+						"range": 0,
+						"casting": 4
+					},
+					{
+						"name": "Enchant Blades",
+						"range": 6,
+						"casting": 4
+					},
+					{
+						"name": "Writhing Vines",
+						"range": 0,
+						"casting": 4
 					}
 				]
 			},
@@ -16257,18 +17154,34 @@
 					"Depths of Moria"
 				],
 				"points": 350,
-				"movement": 6,
+				"movement": 8,
 				"fight": 10,
 				"shoot": 3,
 				"strength": 9,
 				"defence": 9,
 				"attack": 4,
 				"wounds": 10,
-				"courage": 7,
+				"courage": 3,
+				"intelligence": 5,
 				"might": 0,
 				"will": 10,
 				"fate": 0,
 				"heroicActions": [],
+				"race": [
+					"Spirit"
+				],
+				"faction": [
+					"Moria"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Monster",
+					"Unique"
+				],
+				"baseSize": [
+					"60mm"
+				],
 				"keywords": [
 					"Spirit",
 					"Monster",
@@ -16277,17 +17190,18 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Ancient Evil",
+					"Dominant (10)",
 					"Fearless",
+					"Harbinger of Evil (18\")",
+					"Large Target",
 					"Resistant to Magic",
 					"Terror",
 					"Goblin Mastery",
 					"Flame of Udun",
-					"Demon of the Ancient World",
-					"Set Ablaze"
+					"Demon of the Ancient World"
 				],
 				"wargear": [
-					"Giant Flaming Sword",
+					"Giant flaming hand weapon",
 					"Fiery Lash"
 				]
 			},
@@ -23870,17 +24784,30 @@
 				],
 				"points": 30,
 				"movement": 6,
-				"fight": 4,
+				"fight": 3,
 				"shoot": 5,
 				"strength": 4,
 				"defence": 5,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 8,
 				"might": 0,
 				"will": 0,
 				"fate": 1,
-				"heroicActions": [],
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"keywords": [
 					"Orc",
 					"Mordor",
@@ -23891,13 +24818,8 @@
 				"specialRules": [],
 				"wargear": [
 					"Armour",
-					"Dagger",
+					"Hand weapon",
 					"War drum (Mordor Orc)"
-				],
-				"unavailableIn": [
-					[
-						"Razgush, War Leader of the North"
-					]
 				],
 				"countAsProperty": "heroes"
 			},
@@ -24213,7 +25135,21 @@
 				"defence": 5,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 6,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Warrior",
+					"Cavalry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"keywords": [
 					"Man",
 					"Rohan",
@@ -24232,11 +25168,13 @@
 				],
 				"specialRules": [
 					"Expert Rider",
-					"Arise Riders of Theoden!"
+					"Spear Mastery",
+					"Arise, Riders of Rohan!"
 				],
 				"wargear": [
 					"Armour",
 					"Shield",
+					"Hand weapon",
 					"Bow",
 					"Horse"
 				],
@@ -24294,7 +25232,22 @@
 				"defence": 6,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 6,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry",
+					"Elite"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"keywords": [
 					"Man",
 					"Rohan",
@@ -24350,12 +25303,13 @@
 				"specialRules": [
 					"Bodyguard",
 					"Expert Rider",
-					"Arise Riders of Theoden!"
+					"Spear Mastery",
+					"Arise, Riders of Rohan!"
 				],
 				"wargear": [
-					"Heavy Armour",
-					"Sword",
-					"Shield"
+					"Heavy armour",
+					"Shield",
+					"Hand weapon"
 				]
 			},
 			{
@@ -24485,7 +25439,7 @@
 				]
 			},
 			{
-				"name": "Orc Warrior",
+				"name": "Mordor Orc Warrior",
 				"factions": [
 					"Mordor",
 					"Barad Dur",
@@ -24505,7 +25459,21 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 2,
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"keywords": [
 					"Orc",
 					"Mordor",
@@ -24515,29 +25483,34 @@
 				"options": [
 					{
 						"name": "Banner",
-						"points": 25
+						"points": 25,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Orc bow",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Spear",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Two-handed weapon",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [],
 				"wargear": [
 					"Armour",
-					"Sword"
+					"Hand weapon"
 				],
 				"ignoreLimits": [
 					{
@@ -24636,7 +25609,7 @@
 				]
 			},
 			{
-				"name": "Morannon Orc",
+				"name": "Morannon Orc Warrior",
 				"factions": [
 					"Mordor",
 					"The Black Gate Opens",
@@ -24645,12 +25618,26 @@
 				"points": 8,
 				"movement": 6,
 				"fight": 3,
-				"shoot": 5,
+				"shoot": 4,
 				"strength": 4,
 				"defence": 5,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 2,
+				"courage": 8,
+				"intelligence": 7,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"keywords": [
 					"Orc",
 					"Mordor",
@@ -24675,14 +25662,12 @@
 						"points": 1
 					}
 				],
-				"specialRules": [],
-				"wargear": [
-					"Heavy armour"
+				"specialRules": [
+					"End the Race of Men"
 				],
-				"unavailableIn": [
-					[
-						"Razgush, War Leader of the North"
-					]
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon"
 				]
 			},
 			{
@@ -25082,6 +26067,20 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 5,
+				"intelligence": 6,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Lothlorien"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"keywords": [
 					"Elf",
 					"Lorien",
@@ -25103,19 +26102,23 @@
 				"options": [
 					{
 						"name": "Banner",
-						"points": 25
+						"points": 25,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Elf bow",
-						"points": 2
+						"points": 2,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Elven throwing weapons",
-						"points": 2
+						"points": 2,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Wood Elf spear",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Noldorian Exile",
@@ -25130,12 +26133,12 @@
 					"Woodland Creature"
 				],
 				"wargear": [
-					"Elven-made hand-and-a-half sword",
+					"Elven-made hand-and-a-half weapon",
 					"Elven cloak"
 				]
 			},
 			{
-				"name": "High Elf Warrior",
+				"name": "Rivendell Warrior",
 				"factions": [
 					"Rivendell",
 					"Battle of Fornost"
@@ -25149,6 +26152,20 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 5,
+				"intelligence": 5,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Rivendell"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"keywords": [
 					"Elf",
 					"Rivendell",
@@ -25157,30 +26174,30 @@
 				],
 				"options": [
 					{
-						"name": "War horn",
-						"points": 30
-					},
-					{
 						"name": "Banner",
-						"points": 25
+						"points": 25,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Elf Bow",
+						"chooseOneKey": "a",
 						"points": 2
 					},
 					{
-						"name": "Shield",
-						"points": 1
+						"name": "Shield and Elven spear",
+						"points": 2,
+						"chooseOneKey": "a"
 					},
 					{
-						"name": "Spear",
-						"points": 1
+						"name": "Shield",
+						"points": 1,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "King's Guard",
 						"points": 1,
 						"availableIn": [
-							"Gil-Galad, High King of the Elves"
+							"Gil-Galad, High King of the Noldor"
 						]
 					}
 				],
@@ -25189,7 +26206,7 @@
 				],
 				"wargear": [
 					"Heavy Armour",
-					"Elven-made hand-and-a-half sword"
+					"Elven-made hand-and-a-half weapon"
 				]
 			},
 			{
@@ -25197,7 +26214,7 @@
 				"factions": [
 					"Rivendell"
 				],
-				"points": 21,
+				"points": 20,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 3,
@@ -25206,6 +26223,20 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 5,
+				"intelligence": 5,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Rivendell"
+				],
+				"unitType": [
+					"Warrior",
+					"Cavalry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"keywords": [
 					"Elf",
 					"Rivendell",
@@ -25214,23 +26245,21 @@
 				],
 				"options": [
 					{
-						"name": "War horn",
-						"points": 30
-					},
-					{
-						"name": "Banner",
-						"points": 25
+						"name": "Exchange Elven lance for banner",
+						"points": 25,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					}
 				],
 				"wargear": [
 					"Heavy Armour",
-					"Lance",
-					"Elven-made hand-and-a-half sword",
-					"Elf Bow",
+					"Elven lance",
+					"Elven-made hand-and-a-half weapon",
+					"Elf bow",
 					"Horse"
 				],
 				"specialRules": [
@@ -25419,29 +26448,36 @@
 				"defence": 6,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 6,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry",
+					"Elite"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"keywords": [
 					"Man",
 					"Gondor",
 					"Infantry",
 					"Warrior"
 				],
-				"options": [
-					{
-						"name": "Replace Spear with Banner",
-						"points": 25
-					},
-					{
-						"name": "Shield",
-						"points": 1
-					}
-				],
+				"options": [],
 				"specialRules": [
-					"Bodyguard"
+					"Bodyguard",
+					"Protectors of the White Tree"
 				],
 				"wargear": [
 					"Heavy Armour",
-					"Dagger",
+					"Hand weapon",
 					"Spear"
 				]
 			},
@@ -25450,7 +26486,7 @@
 				"factions": [
 					"Minas Tirith"
 				],
-				"points": 9,
+				"points": 8,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 4,
@@ -25458,7 +26494,22 @@
 				"defence": 5,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 6,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry",
+					"Elite"
+				],
+				"basseSize": [
+					"25mm"
+				],
 				"keywords": [
 					"Man",
 					"Gondor",
@@ -25467,13 +26518,14 @@
 				],
 				"options": [
 					{
-						"name": "Swap Spear for Longbow",
-						"usesDefinition": "Longbow",
-						"points": 1
+						"name": "Longbow",
+						"points": 1,
+						"chooseOneKey": "a"
 					},
 					{
-						"name": "Horse",
-						"points": 7
+						"name": "Spear",
+						"points": 1,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -25481,8 +26533,7 @@
 				],
 				"wargear": [
 					"Heavy Armour",
-					"Sword",
-					"Spear"
+					"Hand weapon"
 				]
 			},
 			{
@@ -26515,6 +27566,20 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 5,
+				"intelligence": 5,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Lothlorien"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"keywords": [
 					"Elf",
 					"Lorien",
@@ -26547,7 +27612,7 @@
 						"points": 1
 					},
 					{
-						"name": "Galadhrim Guard",
+						"name": "Lorien Guard",
 						"points": 1,
 						"availableIn": [
 							"Galadriel",
@@ -26560,7 +27625,7 @@
 				],
 				"wargear": [
 					"Heavy Armour",
-					"Elven-made hand-and-a-half sword"
+					"Elven-made hand-and-a-half weapon"
 				]
 			},
 			{
@@ -27629,15 +28694,29 @@
 				"factions": [
 					"Numenor"
 				],
-				"points": 8,
+				"points": 9,
 				"movement": 6,
-				"fight": 4,
+				"fight": 5,
 				"shoot": 4,
 				"strength": 4,
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Numenor"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"keywords": [
 					"Man",
 					"Numenor",
@@ -27646,28 +28725,22 @@
 				],
 				"options": [
 					{
-						"name": "Banner",
-						"points": 25
+						"name": "Shield and spear",
+						"points": 2
+					},
+					{
+						"name": "Longbow",
+						"points": 1
 					},
 					{
 						"name": "Shield",
 						"points": 1
-					},
-					{
-						"name": "Bow",
-						"points": 1
-					},
-					{
-						"name": "Spear",
-						"points": 1
 					}
 				],
-				"specialRules": [
-					"Blood of Numenor"
-				],
+				"specialRules": [],
 				"wargear": [
 					"Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -30221,18 +31294,31 @@
 				"type": "mount",
 				"movement": 10,
 				"fight": 5,
-				"shoot": 5,
+				"shoot": 6,
 				"strength": 5,
 				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
-				"might": 3,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Warg"
+				],
+				"faction": [
+					"Gundabad"
+				],
+				"unitType": [
+					"Hero",
+					"Mount"
+				],
+				"baseSize": [
+					"50mm"
+				],
 				"wargear": [
-					"Teeth",
-					"Claws"
+					"Claws and teeth (hand weapons)"
 				],
 				"keyword": [
 					"Warg",
@@ -30240,11 +31326,10 @@
 					"Hero"
 				],
 				"specialRules": [
+					"Fearless",
 					"Fell Sight",
 					"Terror",
-					"Deadly Union",
-					"Pack Master",
-					"Raging Beast"
+					"Pack Master"
 				]
 			},
 			{
@@ -30288,24 +31373,39 @@
 			{
 				"name": "Fell beast",
 				"type": "mount",
-				"movement": 3,
+				"movement": 12,
 				"fight": 5,
-				"shoot": 5,
+				"shoot": 6,
 				"strength": 6,
 				"defence": 6,
 				"attack": 2,
 				"wounds": 3,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 8,
+				"race": [
+					"Fell Beast"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Mount",
+					"Monster"
+				],
+				"baseSize": [
+					"60mm"
+				],
 				"wargear": [
-					"Teeth",
-					"Claws"
+					"Claws and teeth (hand weapons)"
 				],
 				"keyword": [
 					"Monster",
 					"Cavalry"
 				],
 				"specialRules": [
+					"Dominant (3)",
 					"Fly",
+					"Large Target",
 					"Monstrous Charge",
 					"Terror",
 					"Feral"
@@ -30314,24 +31414,39 @@
 			{
 				"name": "Armoured Fell beast",
 				"type": "mount",
-				"movement": 3,
+				"movement": 12,
 				"fight": 5,
-				"shoot": 5,
+				"shoot": 6,
 				"strength": 6,
 				"defence": 7,
 				"attack": 2,
 				"wounds": 3,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 8,
+				"race": [
+					"Fell Beast"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Mount",
+					"Monster"
+				],
+				"baseSize": [
+					"60mm"
+				],
 				"wargear": [
-					"Teeth",
-					"Claws"
+					"Claws and teeth (hand weapons)"
 				],
 				"keyword": [
 					"Monster",
 					"Cavalry"
 				],
 				"specialRules": [
+					"Dominant (3)",
 					"Fly",
+					"Large Target",
 					"Monstrous Charge",
 					"Terror",
 					"Feral"
@@ -30620,7 +31735,7 @@
 			{
 				"name": "Wood Elf Spear",
 				"type": "weapon",
-				"definition": "In addition to the normal rules for spears, a model armed with a Wood Elf spear may also parry, allowing the model to use the rules for Shielding."
+				"definition": "This is an Elven spear. Additionally, a model armed with a Wood Elf Spear may use the Shielding rule even though they do not have a shield."
 			},
 			{
 				"name": "Pick-hammer",
@@ -30762,12 +31877,12 @@
 						"modifier": 2
 					}
 				],
-				"definition": "If the Witch-king has the Crown of\n                Morgul, his Attack value is increased to 3. Additionally, whilst\n                wearing the Crown of Morgul, the Witch-king of Angmar can\n                choose to re-roll one dice when making Casting or Resist tests."
+				"definition": "This is a Unique piece of Wargear. Whilst wearing the Crown of Morgul, enemy models within 6\" of the Witch-king, or attempting to Charge the Witch-king, cannot benefit from special rules that would allow them to automatically pass Courage Tests, with the exception of Heroic Resolve. Additionally, once per game, at the start of any Fight Phase, the Witch-king can imbue its great power to ignite his hand weapon - until the end of the turn, any model that suffers a Wound from a Strike made by the Witch-king is Set Ablaze."
 			},
 			{
 				"name": "Morgul Blade",
 				"tag": "Active",
-				"definition": "Once per game, this model's\n                controlling player may declare they are using their Morgul\n                blade during the Fight phase before rolling To Wound. If a\n                model is using a Morgul blade, they must direct all of their\n                Strikes against a single target. An enemy that suffers a Wound\n                from the Morgul blade is automatically slain, regardless of\n                the number of Wounds on their profile. Heroes may use Fate\n                to avoid these Wounds, but if even a single Wound is not\n                saved, they are slain. If the model using the Morgul blade is\n                mounted, they must use the rider's Attacks and Strength if\n                using the Morgul blade."
+				"definition": "This is a hand weapon. Once per game, a model with a Morgul Blade can use 1t during a Combat instead of their normal hand weapon; th1s must be declared before strikes are made. If they do, all their Strikes must be resolved against a single enemy model, and if the target suffers a wound that is not prevented in some way, they will immediately lose all remaining Wounds and be removed as a casualty. If the model using the Morgul Blade is mounted, they must use the Strength and Attacks of the rider rather than their Mount."
 			},
 			{
 				"name": "Might",
@@ -30804,7 +31919,7 @@
 			{
 				"name": "Aiglos",
 				"tag": "Active",
-				"definition": "Aiglos is an Elven-made spear. Additionally, \n                Gil-Galad may add +1 to all of his rolls To Wound when making Strikes with Aiglos."
+				"definition": "This is a Unique Elven spear. Additionally, a model wielding Aiglos gains a bonus of +l To Wound When making Strikes."
 			},
 			{
 				"name": "Swift Reload",
@@ -30862,14 +31977,9 @@
 				]
 			},
 			{
-				"name": "Galadhrim Guard",
+				"name": "Lorien Guard",
 				"type": "upgrade",
-				"modifiesStats": [
-					{
-						"stat": "courage",
-						"modifier": 1
-					}
-				]
+				"definition": "Lorien Guard may re-roll To Wound rolls of a natural 1 when making Strikes."
 			},
 			{
 				"name": "Marauder",
@@ -30905,12 +32015,7 @@
 			{
 				"name": "Horn of the Hammerhand",
 				"tag": "Active",
-				"definition": "This is a War Horn. Additionally, in a turn in which Helm Hammerhand charges into combat, he causes Terror until the end of the turn."
-			},
-			{
-				"name": "The Horn of the Hammerhand",
-				"tag": "Active",
-				"definition": "This is a War Horn that adds +2 Courage rather than +1. However, this war horn only affects friendly Rohan models."
+				"definition": "This is a Unique war horn. Additionally, once per game at the start of any Move Phase, Helm can unleash a fearsome blow of the Horn of the Hammerhand. Until the End Phase of the turn, enemy models within 24\" of Helm suffer a -1 penalty to any Courage Test they are required to make."
 			},
 			{
 				"name": "Banner of Minas Tirith",
@@ -30994,7 +32099,7 @@
 			{
 				"name": "Stone Flail",
 				"tag": "Active",
-				"definition": "The stone flail is a two-handed weapon that follows the normal rules for flails, with the following exceptions. When fighting\n                with the stone flail, Azog's Fight value is reduced to 6/5+. Azog does not reduce his Fight value for using the Whirl Special Strike. \n                Additionally, Wounds inflicted by the stone flail cause not 1 Wound but D3 Wounds instead (determine the number of\n                Wounds after Fate points are used), and any model that is struck, but not slain, is knocked Prone."
+				"definition": "This is a Unique two-handed weapon. If Azog uses the Stone Flail during a Combat, he gains the Mighty Blow special rule, though reduces his Fight Value to 6 for the duration of the Combat - even after a Heroic Strike. Additionally, any model that is struck by the Stone Flail and not slain will be Knocked Prone at the end of the Combat."
 			},
 			{
 				"name": "Durin's Axe",
@@ -31043,7 +32148,7 @@
 				"name": "Fiery Lash",
 				"type": "Weapon",
 				"tag": "Active",
-				"definition": "This is a throwing weapon with a range of 8\" and a Strength of 7. Additionally, a model that is hit by  this weapon and not slain is dragged directly towards and into\n                base contact with the Balrog, even over intervening models or terrain. If the model cannot be placed where it should be placed, instead place it in base contact with the Balrog as close\n                as possible to the position it should have been in. If, for whatever reason, the model cannot be placed anywhere in base contact, then it is not moved at all."
+				"definition": "This is a throwing weapon with a range of 8\" and a Strength of 7. Additionally, a model that is hit by this weapon and not slain will be removed from the board and then placed anywhere in base contact with the Balrog, as chosen by the Balrog's controlling player. A Cavalry model that is hit will have the whole model dragged in this way. If for whatever reason, the model cannot be placed in base contact, then it is not moved at all. If a model polaced in this way would end up in base contact with other enemy models in addition to the Balrog, then those models do not count as being Engaged in Combat with the placed model unless they subsequently charge the placed model. This is a fire-based attack so if a model is immune to fire-based attacks, they are immune to this attack."
 			},
 			{
 				"name": "Elven-made Glaive",
@@ -31133,7 +32238,7 @@
 				"name": "Narsil",
 				"type": "Weapon",
 				"tag": "Active",
-				"definition": "Narsil is a Master-Forged Hand-and-a-half sword. Additionally, Elendil may call a Heroic Combat each turn without expending Might."
+				"definition": "This is a Unique Master-forged two-handed weapon. Additionally, a model wielding Narsil may declare a Heroic Combat during each Fight Phase for free."
 			},
 			{
 				"name": "Bone-breaker",
@@ -31386,7 +32491,7 @@
 			{
 				"name": "Royal Standard of Rohan",
 				"tag": "Passive",
-				"definition": "This precious heirloom is a banner.\n                Additionally, any Rohan Hero models that are within 3\" of the Royal\n                Standard of Rohan at the start of any turn, and have no Might remaining,\n                automatically add 1 point of Might to their store. This cannot take a Hero\n                model's Might beyond its starting level, and is limited to one hero per turn. Gamling suffers no penalties for\n                carrying the Royal Standard of Rohan."
+				"definition": "This is a Unique banner with a range of 6\". Garnling does not suffer the -1 penalty to his Duel Roll for carrying a banner. Additionally, whenever a friendly Rohan Hero model within 6\" of the Royal Standard of Rohan spends a Might Point, they may roll a D6. On a natural 6, the Might Point is free and is not spent."
 			},
 			{
 				"name": "Elven Cloak",
@@ -31396,6 +32501,144 @@
 			{
 				"name": "Helmingas",
 				"definition": "If your army includes Grimbold, you may upgrade any number of Warriors\n                of Rohan to Helmingas for a cost of +1 point per model. Helmingas are\n                Strength 4, rather than 3."
+			},
+			{
+				"name": "Guthwine",
+				"definition": "This. is a Unique hand weapon. Additionally, each time a model armed with Guthwine rolls a natural 6 To Wound when making a Strike, they may immediately make a  single additional To Wound roll against the same target. If this additional To Wound roll is a natural 6, this will not benefit from this special rule."
+			},
+			{
+				"name": "Ashere",
+				"type": "mount",
+				"movement": 10,
+				"fight": 2,
+				"shoot": 6,
+				"strength": 3,
+				"defence": 4,
+				"attack": 0,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Horse"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Mount"
+				],
+				"baseSize": [
+					"40mm"
+				],
+				"specialRules": [
+					"Swift Gallop"
+				]
+			},
+			{
+				"name": "Firefoot",
+				"type": "mount",
+				"movement": 12,
+				"fight": 2,
+				"shoot": 6,
+				"strength": 3,
+				"defence": 4,
+				"attack": 0,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Horse"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Mount"
+				],
+				"baseSize": [
+					"40mm"
+				]
+			},
+			{
+				"name": "Firefoot with armour",
+				"type": "mount",
+				"movement": 12,
+				"fight": 2,
+				"shoot": 6,
+				"strength": 3,
+				"defence": 5,
+				"attack": 0,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Horse"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Mount"
+				],
+				"baseSize": [
+					"40mm"
+				]
+			},
+			{
+				"name": "Snowmane",
+				"type": "mount",
+				"movement": 10,
+				"fight": 2,
+				"shoot": 6,
+				"strength": 3,
+				"defence": 4,
+				"attack": 0,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Horse"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Mount"
+				],
+				"baseSize": [
+					"40mm"
+				],
+				"specialRules": [
+					"Faithful Servant"
+				]
+			},
+			{
+				"name": "Snowmane with armour",
+				"type": "mount",
+				"movement": 10,
+				"fight": 2,
+				"shoot": 6,
+				"strength": 3,
+				"defence": 5,
+				"attack": 0,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Horse"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Mount"
+				],
+				"baseSize": [
+					"40mm"
+				],
+				"specialRules": [
+					"Faithful Servant"
+				]
 			}
 		],
 		"magicalPowers": [
@@ -31465,7 +32708,7 @@
 				"definition": "This Magical Power targets one enemy model in range. The target immediately worsens their Courage value by 1 for the remainder of the game, so a model with a Courage of 5+ that is affected by this Magical Power would then have a Courage of 6+. A model can be affected by this Magical Power multiple times over the course of the battle, worsening its Courage value each time. If this Magical Power targets a Cavalry model, the caster must choose whether the rider or the Mount is the target."
 			},
 			{
-				"name": "Enchanted Blades",
+				"name": "Enchant Blades",
 				"duration": "Temporary",
 				"definition": "This Magical Power targets one friendly model within range. In the ensuing Fight Phase, the target may re-roll all failed To Wound rolls when making Strikes."
 			},
@@ -31603,19 +32846,19 @@
 				"definition": "Whilst this model is mounted, they may choose to expend their own Fate points to prevent Wounds caused to their mount."
 			},
 			{
-				"name": "The Will of Men is Easily Corrupted",
+				"name": "The will of men is easily corrupted",
 				"tag": "Passive",
-				"definition": "If Grima Worm tongue is within 6\" of Theoden, King of\n                Rohan, then Theoden is reduced to Fight value 3/4+ and\n                1 Attack Additionally, he may not declare Heroic Actions and\n                may not use Will points."
+				"definition": "Whilst Grima Wormtongue is within 6\" of Theoden, Theoden reduces his Fight Value to 3, cannot declare Heroic Actions, and cannot spend Will Points."
 			},
 			{
 				"name": "Forth, and Fear no Darkness",
 				"tag": "Active",
-				"definition": "Theoden's Stand Fast! is 12\" rather than 6\" ."
+				"definition": "The range of Theoden's Stand Fast is 12\" rather than 6\"."
 			},
 			{
 				"name": "The Price of Grief",
 				"tag": "Active",
-				"definition": "If Theoden or Eowyn are in the same force as Eomer, and either (or both)\n                are slain, for the remainder of the game Eomer adds + 1 to all To Wound\n                rolls during the Fight phase. Additionally, for the remainder of the game,\n                Eomer must Charge if able to do so."
+				"definition": "If Theoden or Eowyn are in the same Army as Eomer, and either (or both) are removed as a casualty, then for the remainder of-the game Eomer must re-roll all failed To Wound rolls when making Strikes. Additionally, for the remainder of the game, when Eomer Moves he must Charge an enemy model if possible."
 			},
 			{
 				"name": "Sworn Protector (Theoden)",
@@ -31645,7 +32888,7 @@
 			{
 				"name": "I Shall Kill You if You Touch Him",
 				"tag": "Active",
-				"definition": "If Theoden is in your force and is slain, place a 25mm marker where he\n                fell. Eowyn must move directly towards this marker during each of her\n                Move phases if she is able to. Once Eowyn has moved within 3\" of this\n                marker, she may not willingly move further than 3\" away from it for any\n                reason for the remainder of the game. Additionally, whilst within 3\" of\n                the marker Eowyn becomes Fearless and must re-roll any failed To Wound\n                rolls. In addition, she also receives a bonus of +1 To Wound when making\n                strikes against the model that slew Theoden."
+				"definition": "Whilst within 3\" of Theoden, Eowyn may re-roll To Wound rolls of a natural 1 when making Strikes. Additionally, if Theoden is slain and removed as a casualty, make a note of the enemy model that killed Theoden. For the remainder of the game, Eowyn gains the Fearless special rule and must reroll all failed To Wound rolls when making  Strikes against the model who slew Theoden."
 			},
 			{
 				"name": "Resistant to Magic",
@@ -31673,9 +32916,9 @@
 				"definition": "Outriders may use a friendly Hero model's Stand Fast! regardless of range."
 			},
 			{
-				"name": "Arise Riders of Theoden!",
+				"name": "Arise, Riders of Rohan!",
 				"tag": "Active",
-				"definition": "If this model is within 12\" of Theoden and has the Cavalry keyword, then a model with this special rule receives a +1 bonus to their Fight value on a turn in which they Charge."
+				"definition": "If this model is within 12\" of a Rohan General and has the Cavalry keyword, then it gains a bonus of +1 to its Fight Value on a turn in which it Charges."
 			},
 			{
 				"name": "Bodyguard",
@@ -31689,7 +32932,7 @@
 			{
 				"name": "Reckless Charge",
 				"tag": "Active",
-				"definition": "Theodred must Charge an enemy model if he is able to do so.\n                Additionally, on a turn in which he Charges, Theodred may re-roll any\n                failed To Wound rolls during the Fight phase."
+				"definition": "When Theodred Moves, he must always Charge an enemy model if possible. Additionally, in a turn in which Theodred Charges he must re-roll any failed to Wound rolls when making Strikes."
 			},
 			{
 				"name": "Mighty Blow",
@@ -31794,7 +33037,7 @@
 			{
 				"name": "Feral",
 				"tag": "Passive",
-				"definition": "If the Ringwraith riding a Fell Beast is slain or dismounts, the creature automatically fails its Courage test and flees the battlefield."
+				"definition": "When a Fell Beast becomes a Separated Mount, it will automatically fail the Courage Test and will flee."
 			},
 			{
 				"name": "Harbinger of Evil",
@@ -31911,7 +33154,8 @@
 			},
 			{
 				"name": "Merry",
-				"definition": "Merry follows the rules for Passengers as presented in the main rules manual, with the exception that whilst he remains Dernhelm’s passenger, he may spend his Might points to declare Heroic Actions and affect Dernhelm’s rolls in any of the usual\n                ways. Additionally, whilst Merry is a passenger, Dernhelm also gains the benefits of his Resistant to Magic special rule. If Merry is slain, or dismounts, reduce Dernhelm’s Attacks value to 2."
+				"tag": "Passive",
+				"definition": "If Eowyn is upgraded to take Merry, then Merry will be treated as a Passenger on Eowyn's horse. Merry uses the Meriadoc Brandybuck, Esquire of Rohan profile (see page 35), has a shield, and will always count as an Independent Hero in this instance. Merry will still count towards the Army's total number of models and Break Point, though will not take up a space in Eowyn's Warband. Whilst Merry is mounted on Eowyn's horse, Eowyn gains the Resistant to Magic special rule, increases her Attacks characteristic to 3, and can spend Merry's Might, Will and Fate Points as if they were her own."
 			},
 			{
 				"name": "Pinpoint Accuracy",
@@ -31946,7 +33190,7 @@
 			{
 				"name": "High King of the Elves",
 				"tag": "Active",
-				"definition": "Gil-Galad's Stand Fast! is 12\" rather than 6\". Additionally, friendly Elf Hero models may use Gil-Galad's Stand Fast!"
+				"definition": "The range of Gil-galad's Stand Fast is 12\" rather than 6\". Additionally, friendly Elf Hero models may benefit from Gil-galad's Stand Fast."
 			},
 			{
 				"name": "To Arms!",
@@ -31956,7 +33200,7 @@
 			{
 				"name": "Lord of the West",
 				"tag": "Active",
-				"definition": "A model with this special rule may re-roll a single D6 when making a Duel roll. Additionally, they may re-roll a single D6 when rolling To Wound."
+				"definition": "This model may re-roll a single D6 when making a Duel Roll. Additionally, they may re-roll a single D6 when rolling To Wound when making Strikes."
 			},
 			{
 				"name": "Unbending Resolve",
@@ -31964,19 +33208,19 @@
 				"definition": "This model always counts as having had the Fortify Spirit Magical Power cast upon him. This is always in effect, even if their will is reduced to 0."
 			},
 			{
-				"name": "Song to Elbereth",
+				"name": "Songs of Elbereth",
 				"tag": "Active",
-				"definition": "All friendly Rivendell models within 6\" of Lindir gain the Resistant to Magic special rule."
+				"definition": "All friendly Rivendell models within 3\" of Lindir gain the Resistant to Magic special rule."
 			},
 			{
-				"name": "Wise Council",
+				"name": "Wise Counsel",
 				"tag": "Passive",
-				"definition": "If Lindir is within 6\" of Elrond, then Elrond may expend a single point of Will each turn without reducing his own store, even if he has none remaining."
+				"definition": "lf Elrond is within 6\" of Lindir at the start of a turn, then Elrond gains a free Will Point for the turn. If this free Will Point is not spent by the end of the turn, it is lost."
 			},
 			{
 				"name": "The Shipwright's power",
 				"tag": "Passive",
-				"definition": "Cirdan may spend a single point of Will each turn without reducing his own store of will."
+				"definition": "Cirdan gains a free Will Point at the start of each turn. If this free Will Point is not spent by the end of the turn, it is lost."
 			},
 			{
 				"name": "Powers of Nature",
@@ -32070,7 +33314,7 @@
 			{
 				"name": "Voice of Curunir",
 				"tag": "Active",
-				"definition": "Saruman's Stand Fast! has a range of 12\" and, unlike other Hero models' Stand Fast! rolls, can affect other Hero models."
+				"definition": "The range of Saruman's Stand Fast is 12\" rather than 6\". Additionally, friendly Hero models can benefit from Saruman's Stand Fast."
 			},
 			{
 				"name": "The Palantir",
@@ -32080,12 +33324,12 @@
 			{
 				"name": "Head Taker",
 				"tag": "Active",
-				"definition": "Should Uglúk's force be broken, Uglúk can choose to kill a nearby model instead of taking a Courage test. Simply choose a friendly Warrior within 2\" of Uglúk and remove it as a casualty. \n                Furthermore, in a turn that Uglúk does this, he will automatically pass his Courage test and his Stand Fast! has a range of 12\" and affects both Warrior and Hero models."
+				"definition": "Should Ugluk's Army be broken, then at the start of his Activation, instead of taking his Courage Test Ugluk can choose to kill a friendly Warrior model within 2\" of him; remove the killed model as a casualty. If he does, then Ugluk will automatically pass his Courage Test and his Stand Fast will be increased to 12\" and will affect both Hero and Warrior models."
 			},
 			{
 				"name": "Find the Halflings",
 				"tag": "Passive",
-				"definition": "Any warband led by Lurtz does not have to roll to determine when and where it arrives in Scenarios that require such a roll. Instead, Lurtz may choose the result."
+				"definition": "In Scenarios that use the Maelstrom of Battle special rule, Lurtz's Warband does not roll to determine where they isArrayBufferView. Instead, Lurtz may choose the result."
 			},
 			{
 				"name": "Sharku's Riding Dagger",
@@ -32093,9 +33337,9 @@
 				"definition": "This is a dagger. Additionally, whenever an enemy Hero model in base contact resolves a \n                Strike against Sharku and fails To Wound, immediately resolve one Strength 4 Strike against that model."
 			},
 			{
-				"name": "Stand Men of the West!",
+				"name": "Stand, Men of the West!",
 				"tag": "Passive",
-				"definition": "Friendly models within 6\" of Aragorn, King Elessar count as being in range of a banner."
+				"definition": "Friendly models treat Aragom, King Elessar as a banner with a range of 6\"."
 			},
 			{
 				"name": "Loyal to the Captain",
@@ -32220,9 +33464,9 @@
 				"definition": "If an enemy Hero model is within 6\" of Grima, 2 Might points must be expended to use Heroic Actions instead of 1."
 			},
 			{
-				"name": "The One Ring**",
+				"name": "The One Ring (Sauron)",
 				"tag": "Passive",
-				"definition": "Sauron does not follow the normal rules for The One Ring. Instead, whilst he wields The One Ring, whenever Sauron loses his last Wound or would be removed as a \n                casualty, roll a D6. On a 2+, the power of the Ring sustains him and he has a single Wound restored. During the Fight phase, Sauron will make this roll for each Wound suffered \n                that would cause him to be removed as a casualty. Sauron may use Might to influence this roll."
+				"definition": "Sauron does not follow the normal rules for the One Ring. Instead, each time Sauron would lose his last Wound and be removed as a casualty, roll a D6. On a 2+, the power of the One Ring sustains him and instead of being removed as a casualty he will remain on the board with 1 Wound remaining. if during a Combat Sauron suffers multiple wounds that would cause him to removed as a casualty, he will make his roll for each of them. Sauron may use Might to improve this roll."
 			},
 			{
 				"name": "The Lord of the Rings",
@@ -32240,12 +33484,14 @@
 				"definition": "If Sauron is in your force, he must be your leader."
 			},
 			{
-				"name": "The Flames of Evil (Brutal Power Attack)",
-				"definition": "Sauron makes a single Strike against a single Infantry or Cavalry model Engaged in the fight. If the model is a Cavalry model, then only the rider will be affected. If the model is 'fortunate' enough to survive, even if \n                they did not suffer a Wound, then the target is also Set Ablaze - remember that this also inflicts one Strength 9 hit on the poor model that Sauron has in his grasp."
+				"name": "The Flames of Evil",
+				"tag": "Brutal Power Attack",
+				"definition": "Instead of making Strikes, Sauron may instead choose a single enemy model involved in the Combat. The chosen model immediately suffers a single Strength 10 hit and, if they survive, will be Set Ablaze and knocked Prone."
 			},
 			{
-				"name": "Unstoppable (Brutal Power Attack)",
-				"definition": "Instead of striking as normal, Sauron can instead make one Strength 8 hit on every enemy model involved in the same fight, including spear and pike supports."
+				"name": "Unstoppable",
+				"tag": "Brutal Power Attack",
+				"definition": "Instead of making Strikes, Sauron can instead make a single Strength 8 hit on every model involved in the Combat, and one Strength 8 hit on every model Supporting a model involved in the Combat."
 			},
 			{
 				"name": "Deadly Shot",
@@ -32315,12 +33561,12 @@
 			{
 				"name": "General of the North",
 				"tag": "Active",
-				"definition": "Azog's Stand Fast! rule has a range of 12\" and, unlike any other Hero model's Stand Fast! rule, can affect other Orc Hero models."
+				"definition": "The range of Azog's Stand Fast is 12\" rather than 6\". Additionally, friendly Orc Hero models can benefit from Azog's Stand Fast."
 			},
 			{
 				"name": "I am the Master",
 				"tag": "Active",
-				"definition": "When rolling To Wound an enemy Hero model after winning a fight, Azog never needs to roll more than a 3+ to score a wound, regardless of their Defence."
+				"definition": "When Azog makes strikes against an enemy Hero, he may choose to use this special rule. If he does, then a roll of a natural 3+ will always count as a successful To Wound Roll, regardless of the Hero model's Defence."
 			},
 			{
 				"name": "Deadly Union",
@@ -32330,7 +33576,7 @@
 			{
 				"name": "Pack Master",
 				"tag": "Passive",
-				"definition": "Once separated from Azog, only Warg models may use the White Warg's Stand Fast! rule or benefit from its Heroic Actions."
+				"definition": "Once the White Warg is separated from Azog, only Warg models may benefit from its Heroic Actions or Stand Fast."
 			},
 			{
 				"name": "Raging Beast",
@@ -32340,7 +33586,7 @@
 			{
 				"name": "The Bringer of Death",
 				"tag": "Active",
-				"definition": "Every time that Bolg slays an enemy model, take note of it. Once he has killed two or more enemies, he causes Terror. Once he has killed five or more enemies,\n                he also gains the Harbinger of Evil special rule. Once he has killed 10 or more enemies, he gains the Mighty Hero special rule."
+				"definition": "Keep a track of how many enemy models Bolg kills in Combat. Once he has killed two or more enemies, Bolg gains the Terror special rule. Once he has killed five or more models, Bolg gains the Harbinger of Evil (12\") special rule. Once he has killed eight or more models, Bolg gains the Mighty Hero special rule."
 			},
 			{
 				"name": "Morgul Arrows",
@@ -32405,22 +33651,22 @@
 			{
 				"name": "Lucky Shot",
 				"tag": "Active",
-				"definition": "Aldor must re-roll failed To Hit and To Wound rolls when firing his bow."
+				"definition": "Aldar must re-roll failed To Hit rolls and failed To Wound rolls when making a shooting attack."
 			},
 			{
 				"name": "Unsteady Nerves",
 				"tag": "Active",
-				"definition": "Aldor must always shoot first in the Shoot phase, even before Heroic shoots are resolved."
+				"definition": "Aldar must always shoot first during the Shoot Phase, and will shoot even before Heroic Shoots are resolved. However, Aldar may not declare a Heroic Shoot himself."
 			},
 			{
 				"name": "There is Always Hope",
 				"tag": "Active",
-				"definition": "Whilst within 6\" of Aragorn, Haleth increases his Attacks to 2."
+				"definition": "Whilst within 6\" of Aragorn, Haleth increases his Attacks characteristic to 2."
 			},
 			{
 				"name": "Fight to the Last",
 				"tag": "Passive",
-				"definition": "If at the start of the Fight phase, Haleth is engaged in combat, for the duration of the turn Aragorn and other friendly Rohan Infantry models within\n                6\" of Haleth add 1 to their Fight value. This benefit ends immediately if Haleth is slain."
+				"definition": "If at the start of the Fight phase Haleth is Engaged in Combat, then for the duration of the Fight Phase Aragorn and other friendly Rohan Infantry models within\n                6\" of Haleth gain a bonus of +1 to their Fight value. This benefit ends immediately if Haleth is slain."
 			},
 			{
 				"name": "Relentless Advance",
@@ -32634,7 +33880,7 @@
 			{
 				"name": "Oblivious to Pain",
 				"tag": "Passive",
-				"definition": "Every time a Gundabad Berserker suffers a Wound, roll a D6. On a roll of a 6 (or a 5+, if the Banner of Angmar on Azog's Signal Tower is on the battlefield\n                and manned), the Wound is ignored exactly as if a point of Fate had been spent. This is not cumulative with other special rules that confer the same effect."
+				"definition": "Whenever Lurtz suffers a Wound, roll a D6. On a roll of a natural 6, the Wound is ignored."
 			},
 			{
 				"name": "Master of Ambush",
@@ -32734,12 +33980,12 @@
 			{
 				"name": "The Hammerhand",
 				"tag": "Passive",
-				"definition": "Helm Hammerhand may choose to fight with his fists instead of his sword, in which case he may use the Bash special strike. Additionally, Helm Hammerhand never counts as unarmed."
+				"definition": "Helm is never considered to be Unarmed; ever."
 			},
 			{
 				"name": "High King of Gondor and Arnor",
 				"tag": "Active",
-				"definition": "The Range of Elendil's Stand Fast! is 12\" rather than 6\"."
+				"definition": "The Range of Elendil's Stand Fast is 12\" rather than 6\"."
 			},
 			{
 				"name": "Blood of Numenor",
@@ -32772,9 +34018,9 @@
 				"definition": "In addition to the normal rules for pikes, the Guard of the Galadhrim Court may also use the rules for shielding. The usual restrictions for shielding still apply, chiefly that a Guard of the Galadhrim Court that is shielding cannot be supported by another model, not even by another Guard of the Galadhrim Court."
 			},
 			{
-				"name": "Lord of Lorien",
+				"name": "The Lord of Lorien",
 				"tag": "Active",
-				"definition": "Celeborn's Stand Fast! is 12\" rather than 6\"."
+				"definition": "Celeborn gains a free Will Point at the start of each turn. If this free Will Point is not spent by the end of the turn, it is lost."
 			},
 			{
 				"name": "Swift Parry",
@@ -32993,17 +34239,17 @@
 			{
 				"name": "Goblin Mastery",
 				"tag": "Passive",
-				"definition": "Friendly Moria Goblin models within 12\" of the Balrog automatically pass Courage tests."
+				"definition": "Friendly Moria Goblin models within 6\" of the Balrog automatically pass any Courage Tests they are required to make."
 			},
 			{
 				"name": "Flame of Udun",
 				"tag": "Passive",
-				"definition": "The Balrog is never considered to be unarmed and any model that suffers a Wound from the Balrog's Strikes (even if it is subsequently saved by Fate) and not slain must roll a D6. On a 6, the model\n                suffers the Set Ablaze special rule. Additionally, the Balrog is immune to any fire-based attacks or special rules, such as Dragon's Breathe Fire or the Set Ablaze special rule."
+				"definition": "The Balrog is never considered to be unarmed. Additinoally at the end of a Combat involving the Balrog, any model that suffered a Wound from the Balrog (even if the Wound is prevented) and was not slain must roll a D6. On a natural 6, the model is immediately Set Ablaze. If a model is immune to fire-based attacks, they will still suffer Wounds from the Balrog's Strikes as normal, but can not be Set Ablaze. The Balris itself is immune to fire-based attacks."
 			},
 			{
 				"name": "Demon of the Ancient World",
 				"tag": "Passive",
-				"definition": "The Balrog may call a Heroic Combat each turn without the need to expend a point of Might. Additionally, special rules and Strikes that would slay the Balrog (such as Drain Soul or a Morgul blade) will only inflict half of the Balrog's starting Wounds rather than all of them."
+				"definition": "The Balrog may declare a Heroic Combat each turn for free. Additionally, special rules or Wargear that would slay the Balrog instantly (such as the King of the Dead's Drain Soul or a Morgul Blade) will only inflict half of the Balrog's starting wounds rather than all of them."
 			},
 			{
 				"name": "Iron Fist",
@@ -33911,6 +35157,111 @@
 			{
 				"name": "Lord of the Mearas",
 				"definition": "Whilst mounted upon Shadowfax, whenever Gandalf makes a Jump, Leap, or Swim test, he may roll two dice and pick the highest result. Additionally, Shadowfax will only halve his Move Value when Moving through difficult terrain rather than quarter it."
+			},
+			{
+				"name": "Battle Wisdom",
+				"tag": "Passive",
+				"definition": "Friendly Lothlorien Warrior models w1thin 3\" of Celeborn gain a bonus of +1 To Wound when making Strikes."
+			},
+			{
+				"name": "Protectors of the White Tree",
+				"tag": "Passive",
+				"definition": "If this model is within 6\" of a friendly Gondor General, it is treated as having the Dominant (2) special rule."
+			},
+			{
+				"name": "A Chance for Faramir, Captain of Gondor to show his Quality",
+				"tag": "Active",
+				"definition": "Should Faramir's Army be Broken, then from that point onwards Faramir may re-roll any failed To Wound rolls when making Strikes. Additionally, should Faramir's Army be Broken, then Faramir may declare a Heroic Resolve each turn for free."
+			},
+			{
+				"name": "Wizard's Pupil",
+				"tag": "Passive",
+				"definition": "Whilst Faramir is alive and on the battlefield, if you win the roll to choose who has Priority, and cboose to give Priority to your opponent, then until the end of the turn Faramir and friendly Warrior models within 3\" of him gain the Dominant (2) special rule."
+			},
+			{
+				"name": "Mutual Respect",
+				"tag": "Active",
+				"definition": "Whilst within Hera, Frealaf gains the Master of Battle (4+) special rule."
+			},
+			{
+				"name": "Lord of Harrowdale",
+				"tag": "Passive",
+				"definition": "Any Warriors of Roban included in Frealaf's Warband are automatically upgraded to Warriors of Harrowdale. Warriors 0f Harrowdale that can draw Line of Sight to Frealaf may re-roll any failed Intelligence Tests and gain the Shieldwall special rule."
+			},
+			{
+				"name": "Doorward of Meduseld",
+				"tag": "Passive",
+				"definition": "So long as Theoden is alive and on the battlefield, Hama and any Rohan Royal Guard within 6\" of him count as having the Dominant (2) special rule."
+			},
+			{
+				"name": "Into the Fray",
+				"tag": "Active",
+				"definition": "Helm Hamrnerhand may declare a Heroic Combat each Fight Phase for free. However, after he has slain an enemy model, for the rest of the battle whenever Helm Moves he must Charge an enemy model if possible."
+			},
+			{
+				"name": "No Longer a Leader",
+				"tag": "Active",
+				"definition": "If your Army includes Helm, then he can never be your Army's General even if he is the Hero with the highest Heroic Tier. Additionally, Helm can never call Stand Fast and friendly models cannot benefit from any Heroic Action declared by Helm."
+			},
+			{
+				"name": "Berserk Rage",
+				"tag": "Active",
+				"definition": "Helm Hammerhand must always Charge if he is able to do so. Additionally, if Helm Charges into Combat then he gains the Terror special rule until the End Phase of the turn, and may declare a Heroic Combat in the Fight Phase without spending Might."
+			},
+			{
+				"name": "Swift Gallop",
+				"tag": "Active",
+				"definition": "When Hera Activates whilst mounted on Ashere, she can declare that Ashere will use this special rule. If she does, Ashere increases her Move Value to 12\" and gains the Woodland Creature special rule until the end of Hera's Activation. However, Hera cannot Charge during this Move."
+			},
+			{
+				"name": "The Warrior Bride",
+				"tag": "Active",
+				"definition": "Enemy models Engaged in Combat with Hera cannot declare a Heroic Strike."
+			},
+			{
+				"name": "Fury of the Hammerhand",
+				"tag": "Active",
+				"definition": "In a tum in which Hera Charges, she must re-roll any failed To Wound rolls when making St rikes."
+			},
+			{
+				"name": "The Shards of Narsil",
+				"tag": "Active",
+				"definition": "If your Army also contains Elendi!, then if Elendil is slain, place a 25mm Marker where he was killed. If lsildur ends his Activation within 1\" of this Marker, he may gain the Shards of Narsil - remove the Marker. The Sharas of Narsil are a Unique hand weapon, and a model fighting with it in Combat gains a bonus of+ 1 To Wound when making strikes."
+			},
+			{
+				"name": "Orders from Edoras",
+				"tag": "Passive",
+				"definition": "Lief may spend a Will Point at the end of his Activation to use this ability, so long as he is not Engaged in Combat. If he does, pick one of the following orders; its effects will last until the end of the turn. Each order can only be chosen once per game.\n• Friendly Rohan Hero models within 3\" of Lief may declare a Heroic Combat for free.\n• Friendly Rohan models within 3\" of Lief gain the Fearless special rule.\n• Friendly Rohan models within 3° of Lief do not suffer the -1 penalty To Hit when moving and shooting and may re-roll failed To Hit rolls when making shooting attacks.\n• Friendly Rohan models that start their Activation within 3\" of Lief gain the Woodland Creature and Mountain Dweller special rules.\n• Friendly Rohan models that start their Activation within 3\" of Lief increase their Move Value by 2\"."
+			},
+			{
+				"name": "Stalwart Fighter",
+				"tag": "Active",
+				"definition": "Whilst Olwyn is outnumbered in a Combat, enemy models will require a 6 To Wound her when making strikes, regardless of their Strength characteristic. Note, as this\ndoes not require a natural 6, enemy models may use Might to influence their To Wound rolls against Olwyn and any bonuses To Wound will still apply as normal."
+			},
+			{
+				"name": "Faithful Servant",
+				"tag": "Active",
+				"definition": "Whilst mounted on Snowmane, Theoden may re-roll any failed Courage Tests to Charge an enemy model with the Terror special rule."
+			},
+			{
+				"name": "Shield Throw",
+				"tag": "Passive",
+				"definition": "If Lurtz has been equipped with a shield, then once per game Lurtz can use it as a throwing weapon and may re-roll the To Hit Roll. This has a Strength of 4 and any model on a 25mm base that is hit willl immediately be knocked Prone. Once Lurtz has thrown his shield, he no longer carries it; though Lurtz's Defence will not be reduced as a result."
+			},
+			{
+				"name": "End the Race of Men",
+				"tag": "Active",
+				"definition": "Whilst Engaged in Combat with an enemy Man model, this model gains a bonus of +1 to their Fight Value."
+			},
+			{
+				"name": "Saruman's Deceit",
+				"tag": "Passive",
+				"definition": "At the beginning of the game, after both sides have deployed, Saruman may choose a single enemy Hero. The chosen Hero suffers a -1 penalty to any Resist Tests they take when targeted by a Magical Power Cast by Saruman; though a natural 6 will still count as a 6."
+			},
+			{
+				"name": "\"Looks like meat's back on the menu, boys!",
+				"tag": "Active",
+				"definition": "At the start of his Activation, Ugluk can kill a friendly Orc Warrior within 2\" of him; remove the killed model as a casualty. If Ugluk does this, then all friendly Uruk-hai models within 6\" of him gain the Fearless special rule and gain a bonus of +1 To Wound when making STrikes until the end of the turn. If Ugluk does this in a turn in which his Army is Borken, then it will also count as triggering the Head Taker rule above."
 			}
 		]
 	}
