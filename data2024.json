@@ -655,6 +655,59 @@
 						"percentage": 50
 					}
 				]
+			},
+			{
+				"name": "Reclamation of Osgiliath",
+				"alignment": "good",
+				"armyBonus": "\"Remember today, little brother\" - While Boromir and Faramir are within 3\" of each other, they may spend each other's Might, Will and Fate points as if they were their own.\n                \"This city was once the jewel of our kingdom\" - Friendly models gain the Mountain Dweller special rule.\n                \"For Gondor!\" - Once per game, at the start of any Fight Phase, Boromir can use this special rule so long as he is alive and on the battlefield. If he does, then friendly Gondor Warrior models within 6\" of Boromir gain a bonus of +1 To Wound when making Strikes untilt he end of the turn. This is treated as an Active ability belonging to Boromir.",
+				"requiredChildren": [
+					{
+						"name": "Boromir, Captain of the White Tower",
+						"points": 160,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Atop the Wall",
+				"alignment": "good",
+				"armyBonus": "\"Fight to the last Man\" - Friendly Gondor models within 12\" of Gandalf the White automatically pass any Courage Tests they ahve to take.\n                \"Return to your posts\" - Friendly Gondor models within range of an Objective Marker may re-roll To Wound rolls of a natural 1 when making shooting attacks or making Strikes.\n                \"Send these foul creatures into the abyss\" - Friendly Gondor models within 12\" of Gandalf the White gain the Hatred (Mordor) special rule.",
+				"requiredChildren": [
+					{
+						"name": "Gandalf the White",
+						"points": 200,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Return of the King",
+				"alignment": "good",
+				"armyBonus": "\"The Heir of Isildur\" - Aragorn does not have to pay any points for Anduril, Flame of the West; he automatically has this upgrade - it is free.\n                \"Fight for us and regain your honour\" - Friendly Dunharrow Warrior models within 3\" of Aragorn gain a bonus of +1 to their Fight Value.\n                \"Visions of Terror\" - Whenever the King of the Dead Charges into Combat, after the Charge has been completed, he may spend a Will Point to use this special rule. If he does, enemy models within 3\" of the King of the Dead must take a Courage Test in an order chosen by the King of the Dead's controlling player. If the test is failed, the model must Move up to its Move Value directly away from the King of the Dead.",
+				"requiredChildren": [
+					{
+						"name": "Aragorn (Strider)",
+						"points": 160,
+						"elementPropertyName": "heroes",
+						"requiredChildren": [
+							{
+								"name": "Anduril, Flame of the West",
+								"elementPropertyName": "options",
+								"points": 0
+							}
+						]
+					},
+					{
+						"name": "The King of the Dead",
+						"points": 100,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Defenders of the Pelennor",
+				"alignment": "good",
+				"armyBonus": "\"Defend the White City\" - Each Hero in your Army can, once per game, declare a Heroic Combat for free."
 			}
 		],
 		"heroicTiers": [
@@ -1200,6 +1253,10 @@
 					{
 						"name": "Paths of the Druadan",
 						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroicTier": "Hero of Legend"
 					}
 				],
 				"unavailableWith": [
@@ -1243,6 +1300,38 @@
 					"Infantry",
 					"Hero"
 				],
+				"requiredChildren": [
+					{
+						"name": "Exchange armour for heavy armour",
+						"points": 5,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Defenders of the Pelennor"
+							]
+						]
+					},
+					{
+						"name": "Shield",
+						"points": 5,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Defenders of the Pelennor"
+							]
+						]
+					},
+					{
+						"name": "Snowmane with Armour",
+						"points": 25,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Defenders of the Pelennor"
+							]
+						]
+					}
+				],
 				"options": [
 					{
 						"name": "Snowmane with Armour",
@@ -1251,7 +1340,8 @@
 						"availableIn": [
 							"Kingdom of Rohan",
 							"Road to Helm's Deep",
-							"Ride Out"
+							"Ride Out",
+							"Defenders of the Pelennor"
 						]
 					},
 					{
@@ -1269,7 +1359,8 @@
 						"points": 5,
 						"availableIn": [
 							"Kingdom of Rohan",
-							"Ride Out"
+							"Ride Out",
+							"Defenders of the Pelennor"
 						]
 					},
 					{
@@ -1277,7 +1368,8 @@
 						"points": 5,
 						"availableIn": [
 							"Kingdom of Rohan",
-							"Ride Out"
+							"Ride Out",
+							"Defenders of the Pelennor"
 						]
 					}
 				],
@@ -1388,6 +1480,10 @@
 					{
 						"name": "The Men of the West",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"unavailableWith": [
@@ -1429,6 +1525,28 @@
 					"Rohan",
 					"Infantry",
 					"Hero"
+				],
+				"requiredChildren": [
+					{
+						"name": "Firefoot with armour",
+						"points": 25,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Defenders of the Pelennor"
+							]
+						]
+					},
+					{
+						"name": "Shield",
+						"points": 5,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Defenders of the Pelennor"
+							]
+						]
+					}
 				],
 				"options": [
 					{
@@ -1472,10 +1590,11 @@
 					{
 						"name": "Kingdom of Rohan",
 						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroicTier": "Hero of Fortitude"
 					}
-				],
-				"unavailableWith": [
-					"Helm Hammerhand"
 				],
 				"points": 60,
 				"movement": 6,
@@ -1514,6 +1633,38 @@
 					"Rohan",
 					"Infantry",
 					"Hero"
+				],
+				"requiredChildren": [
+					{
+						"name": "Armour",
+						"points": 5,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Defenders of the Pelennor"
+							]
+						]
+					},
+					{
+						"name": "Horse",
+						"points": 20,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Defenders of the Pelennor"
+							]
+						]
+					},
+					{
+						"name": "Merry",
+						"points": 25,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Defenders of the Pelennor"
+							]
+						]
+					}
 				],
 				"options": [
 					{
@@ -1805,6 +1956,10 @@
 					{
 						"name": "Defenders of Helm's Deep",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unavailableWith": [
@@ -1858,6 +2013,9 @@
 							],
 							[
 								"Ride Out"
+							],
+							[
+								"Defenders of the Pelennor"
 							]
 						]
 					}
@@ -1868,7 +2026,8 @@
 						"availableIn": [
 							"Ride Out",
 							"Defenders of Helm's Deep",
-							"Kingdom of Rohan"
+							"Kingdom of Rohan",
+							"Defenders of the Pelennor"
 						],
 						"points": 40
 					},
@@ -1880,7 +2039,8 @@
 							"Road to Helm's Deep",
 							"Rohan",
 							"Riders of Theoden",
-							"Paths of the Druadan"
+							"Paths of the Druadan",
+							"Defenders of the Pelennor"
 						]
 					}
 				],
@@ -2210,6 +2370,10 @@
 					{
 						"name": "Defenders of the Hornburg",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -2248,6 +2412,9 @@
 							],
 							[
 								"Riders of Eomer"
+							],
+							[
+								"Defenders of the Pelennor"
 							]
 						]
 					}
@@ -2266,7 +2433,8 @@
 							"Riders of Eomer",
 							"Theodred's Guard",
 							"Paths of the Druadan",
-							"Helm's Guard"
+							"Helm's Guard",
+							"Defenders of the Pelennor"
 						]
 					},
 					{
@@ -2295,7 +2463,8 @@
 							"Army of Edoras",
 							"Ride Out",
 							"Road to Helm's Deep",
-							"Kingdom of Rohan"
+							"Kingdom of Rohan",
+							"Defenders of the Pelennor"
 						]
 					}
 				],
@@ -6474,7 +6643,7 @@
 					},
 					{
 						"name": "The Return of the King",
-						"heroicTier": "Hero of Valour"
+						"heroicTier": "Hero of Legend"
 					},
 					{
 						"name": "Breaking of the Fellowship",
@@ -6483,6 +6652,10 @@
 					{
 						"name": "Defenders of Helm's Deep",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroicTier": "Hero of Legend"
 					}
 				],
 				"requiredIn": [
@@ -6531,7 +6704,8 @@
 						"name": "Anduril, Flame of the West",
 						"points": 40,
 						"availableIn": [
-							"The Rangers"
+							"The Rangers",
+							"Defenders of the Pelennor"
 						]
 					},
 					{
@@ -6587,7 +6761,8 @@
 							"Road to Helm's Deep",
 							"The Rangers",
 							"The Grey Company",
-							"The Return of the King"
+							"The Return of the King",
+							"Defenders of the Pelennor"
 						]
 					},
 					{
@@ -6936,6 +7111,10 @@
 					{
 						"name": "Minas Tirith",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Reclamation of Osgiliath",
+						"heroicTier": "Hero of Legend"
 					}
 				],
 				"points": 160,
@@ -6980,7 +7159,9 @@
 					{
 						"name": "Banner of Minas Tirith",
 						"points": 40,
-						"availableIn": []
+						"availableIn": [
+							"Reclamation of Osgiliath"
+						]
 					},
 					{
 						"name": "Horse",
@@ -7011,6 +7192,14 @@
 					{
 						"name": "The Men of the West",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Atop the Wall",
+						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroicTier": "Hero of Legend"
 					}
 				],
 				"points": 200,
@@ -7074,14 +7263,18 @@
 						"name": "Shadowfax",
 						"points": 25,
 						"requiredIn": [
-							"Riders of Eomer"
+							"Riders of Eomer",
+							"Defenders of the Pelennor"
 						]
 					},
 					{
 						"name": "Pippin",
 						"points": 25,
 						"unlockedBy": "Shadowfax",
-						"availableIn": []
+						"availableIn": [
+							"Atop the Wall",
+							"Defenders of the Pelennor"
+						]
 					}
 				],
 				"magicalPowers": [
@@ -7276,6 +7469,10 @@
 					},
 					{
 						"name": "Rangers of Ithilien",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Reclamation of Osgiliath",
 						"heroicTier": "Hero of Valour"
 					}
 				],
@@ -8610,7 +8807,18 @@
 					{
 						"name": "The Men of the West",
 						"heroicTier": "Independent Hero"
+					},
+					{
+						"name": "Atop the Wall",
+						"heroicTier": "Independent Hero"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroicTier": "Independent Hero"
 					}
+				],
+				"unavailableWith": [
+					"Pippin"
 				],
 				"points": 25,
 				"movement": 4,
@@ -8633,15 +8841,13 @@
 					"Infantry",
 					"Hero"
 				],
-				"unavailableWith": [
-					"King of Men"
-				],
 				"options": [
 					{
 						"name": "Elven cloak",
 						"points": 5,
 						"availableIn": [
-							"Minas Tirith"
+							"Minas Tirith",
+							"Defenders of the Pelennor"
 						]
 					}
 				],
@@ -9368,6 +9574,10 @@
 					{
 						"name": "The Return of the King",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"requiredIn": [
@@ -9416,6 +9626,10 @@
 					},
 					{
 						"name": "The Return of the King",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Defenders of the Pelennor",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -9490,6 +9704,10 @@
 					{
 						"name": "The Men of the West",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 100,
@@ -9531,6 +9749,7 @@
 						"name": "Elven Cloak",
 						"points": 5,
 						"availableIn": [
+							"Defenders of the Pelennor",
 							"Road to Helm's Deep",
 							"The Rangers",
 							"The Grey Company",
@@ -9913,6 +10132,10 @@
 					{
 						"name": "The Men of the West",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 100,
@@ -9982,7 +10205,8 @@
 							"The Rangers",
 							"The Grey Company",
 							"The Return of the King",
-							"Defenders of Helm's Deep"
+							"Defenders of Helm's Deep",
+							"Defenders of the Pelennor"
 						]
 					},
 					{
@@ -10002,7 +10226,8 @@
 							"The Men of the West",
 							"The Grey Company",
 							"The Return of the King",
-							"Defenders of Helm's Deep"
+							"Defenders of Helm's Deep",
+							"Defenders of the Pelennor"
 						]
 					},
 					{
@@ -11061,6 +11286,14 @@
 				"factions": [
 					{
 						"name": "Minas Tirith",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Atop the Wall",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Defenders of the Pelennor",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -13675,6 +13908,18 @@
 					{
 						"name": "Battle of Fornost",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Reclamation of Osgiliath",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Atop the Wall",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -13712,14 +13957,14 @@
 				"name": "Madril, Captain of Ithilien",
 				"factions": [
 					{
-						"name": "Rangers of Ithilien",
+						"name": "Reclamation of Osgiliath",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unavailableWith": [
 					"King of Men"
 				],
-				"points": 55,
+				"points": 60,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 3,
@@ -17031,9 +17276,18 @@
 			},
 			{
 				"name": "Gondor Battlecry Trebuchet",
-				"factions": [],
+				"factions": [
+					{
+						"name": "Atop the Wall",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroicTier": "Minor Hero"
+					}
+				],
 				"unlimited": true,
-				"points": 80,
+				"points": 100,
 				"movement": 0,
 				"fight": 0,
 				"shoot": 0,
@@ -17060,20 +17314,8 @@
 				},
 				"options": [
 					{
-						"name": "Upgrade to Engineer Captain",
-						"points": 50,
-						"usesDefinition": "Engineer Captain"
-					},
-					{
 						"name": "Flaming Ammunition",
-						"points": 15
-					},
-					{
-						"name": "Additional Crew",
-						"points": 7,
-						"increment": true,
-						"max": 2,
-						"addsModels": 1
+						"points": 10
 					}
 				],
 				"specialRules": [
@@ -24624,7 +24866,9 @@
 			{
 				"name": "Peregrin Took, Guard of the Citadel",
 				"factions": [
-					"The Men of the West"
+					"The Men of the West",
+					"Atop the Wall",
+					"Defenders of the Pelennor"
 				],
 				"unique": true,
 				"points": 25,
@@ -25201,7 +25445,8 @@
 					"Theodred's Guard",
 					"Paths of the Druadan",
 					"Helm's Guard",
-					"Defenders of the Hornburg"
+					"Defenders of the Hornburg",
+					"Defenders of the Pelennor"
 				],
 				"points": 14,
 				"movement": 6,
@@ -25346,6 +25591,9 @@
 							],
 							[
 								"Ride Out"
+							],
+							[
+								"Defenders of the Pelennor"
 							]
 						],
 						"points": 5
@@ -25358,7 +25606,8 @@
 						"availableIn": [
 							"Ride Out",
 							"Kingdom of Rohan",
-							"Road to Helm's Deep"
+							"Road to Helm's Deep",
+							"Defenders of the Pelennor"
 						],
 						"chooseOneKey": "a"
 					},
@@ -26404,7 +26653,10 @@
 					"Minas Tirith",
 					"The Men of the West",
 					"Garrison of Ithilien",
-					"Battle of Fornost"
+					"Battle of Fornost",
+					"Reclamation of Osgiliath",
+					"Atop the Wall",
+					"Defenders of the Pelennor"
 				],
 				"points": 8,
 				"movement": 6,
@@ -26475,7 +26727,10 @@
 				"factions": [
 					"Minas Tirith",
 					"Battle of Fornost",
-					"Garrison of Minas Tirith"
+					"Garrison of Minas Tirith",
+					"Reclamatin of Osgiliath",
+					"Atop the Wall",
+					"Defenders of the Pelennor"
 				],
 				"points": 15,
 				"movement": 6,
@@ -26558,7 +26813,9 @@
 			{
 				"name": "Citadel Guard",
 				"factions": [
-					"Minas Tirith"
+					"Minas Tirith",
+					"Atop the Wall",
+					"Defenders of the Pelennor"
 				],
 				"points": 8,
 				"movement": 6,
@@ -26752,7 +27009,8 @@
 			{
 				"name": "Ranger of Gondor",
 				"factions": [
-					"Garrison of Ithilien"
+					"Garrison of Ithilien",
+					"Reclamation of Osgiliath"
 				],
 				"points": 8,
 				"movement": 6,
@@ -27096,7 +27354,8 @@
 			{
 				"name": "Osgiliath Veteran",
 				"factions": [
-					"Garrison of Ithilien"
+					"Garrison of Ithilien",
+					"Reclamation of Osgiliath"
 				],
 				"points": 9,
 				"movement": 6,
@@ -27251,7 +27510,8 @@
 				"name": "Warrior of the Dead",
 				"factions": [
 					"The Dead of Dunharrow",
-					"The Return of the King"
+					"The Return of the King",
+					"Defenders of the Pelennor"
 				],
 				"points": 14,
 				"movement": 6,
@@ -27269,16 +27529,24 @@
 				],
 				"options": [
 					{
+						"name": "Banner",
+						"points": 25,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Shield and spear",
+						"points": 2,
+						"chooseOneKey": "a"
+					},
+					{
 						"name": "Shield",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Spear",
-						"points": 1
-					},
-					{
-						"name": "Banner",
-						"points": 25
+						"points": 1,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -27295,9 +27563,10 @@
 				"name": "Rider of the Dead",
 				"factions": [
 					"The Dead of Dunharrow",
-					"The Return of the King"
+					"The Return of the King",
+					"Defenders of the Pelennor"
 				],
-				"points": 24,
+				"points": 25,
 				"movement": 6,
 				"fight": 3,
 				"shoot": 4,
