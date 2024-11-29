@@ -151,6 +151,14 @@
 			"maximumPercentage": 33.33,
 			"roundUp": true,
 			"label": "warrior bows"
+		},
+		{
+			"type": "throwingWeapon",
+			"property": "warriors",
+			"byFaction": true,
+			"maximumPercentage": 33.33,
+			"roundUp": true,
+			"label": "warrior throwing weapons"
 		}
 	],
 	"counts": [
@@ -1018,6 +1026,11 @@
 						]
 					}
 				]
+			},
+			{
+				"name": "Thorin's Company",
+				"alignment": "good",
+				"armyBonus": "\"March to the Lonely Mountain\" - If your Army contains only Thorin's Company models, then friendly Dwarf models may spend their Will Points to declare a Heroic March instead of using Might Points, even if htey do not normally have the ability to declare a Heroic March.\n                \"We're making a long-term deposit\" - At the beginning of the game, choose one Objective Marker on the board. Friendly Dwarf models within range of the chosen Objective Marker gain the Dominant (2) special rule.\n                \"Family Ties\" - The Dwarves of Thorin's Company are divided into Family Groups, which are as follows:\n                -Balin and Dwalin\n                -Kili and Fili\n                -Bifur, Bofur and Bombur\n                -Ori, Nori and Dori\n                -Oin and Gloin\n                Hero models from this Army that are within 3\" of another Hero from the same Family Group may spend that model's Might, Will and Fate points as if they were their own."
 			}
 		],
 		"heroicTiers": [
@@ -11592,7 +11605,7 @@
 					},
 					{
 						"name": "Thorin's Company",
-						"heroicTier": "Hero of Legend"
+						"heroicTier": "Hero of Valour"
 					},
 					{
 						"name": "The Shire",
@@ -11654,7 +11667,6 @@
 						"availableIn": [
 							"Survivors of Lake-town",
 							"The White Council",
-							"Thorin's Company",
 							"The Shire",
 							"The Battle of Five Armies"
 						]
@@ -13480,12 +13492,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Pony",
-						"points": 5
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Chronicler (Thorin's Company)",
 					"Deadeye"
@@ -13573,12 +13580,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Pony",
-						"points": 5
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Weapon Master"
 				],
@@ -13665,12 +13667,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Pony",
-						"points": 5
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"A Good Sort Really"
 				],
@@ -13787,7 +13784,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 45,
+				"points": 50,
 				"movement": 5,
 				"fight": 4,
 				"shoot": 4,
@@ -13807,12 +13804,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Pony",
-						"points": 5
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Healing Herbs",
 					"Prognostication"
@@ -13899,12 +13891,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Pony",
-						"points": 5
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"A Warrior Born"
 				],
@@ -14945,13 +14932,6 @@
 						]
 					},
 					{
-						"name": "Pony",
-						"points": 5,
-						"availableIn": [
-							"Thorin's Company"
-						]
-					},
-					{
 						"name": "The Oakenshield",
 						"points": 5,
 						"availableIn": [
@@ -15059,15 +15039,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Pony",
-						"points": 5,
-						"availableIn": [
-							"Thorin's Company"
-						]
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Burly",
 					"Fearless",
@@ -15088,7 +15060,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 55,
+				"points": 50,
 				"movement": 5,
 				"fight": 5,
 				"shoot": 3,
@@ -15109,15 +15081,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Pony",
-						"points": 5,
-						"availableIn": [
-							"Thorin's Company"
-						]
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Combat Synergy"
 				],
@@ -15135,7 +15099,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 70,
+				"points": 50,
 				"movement": 5,
 				"fight": 5,
 				"shoot": 3,
@@ -15156,15 +15120,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Pony",
-						"points": 5,
-						"availableIn": [
-							"Thorin's Company"
-						]
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Combat Synergy"
 				],
@@ -15182,7 +15138,7 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
-				"points": 60,
+				"points": 40,
 				"movement": 5,
 				"fight": 4,
 				"shoot": 4,
@@ -15203,15 +15159,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Pony",
-						"points": 5,
-						"availableIn": [
-							"Thorin's Company"
-						]
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Longbeard"
 				],
@@ -15460,12 +15408,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Pony",
-						"points": 5
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Throw Stones (range 8\", Strength 1)",
 					"Embedded Axe-blade"
@@ -15557,12 +15500,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Pony",
-						"points": 5
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Steadfast"
 				],
@@ -15644,12 +15582,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Pony",
-						"points": 5
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Beefy",
 					"Lumbering",
@@ -17424,7 +17357,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 60,
+				"points": 55,
 				"movement": 4,
 				"fight": 3,
 				"shoot": 3,
@@ -17447,10 +17380,6 @@
 					"Hero"
 				],
 				"options": [
-					{
-						"name": "Pony",
-						"points": 5
-					},
 					{
 						"name": "Sting",
 						"points": 5
@@ -19103,6 +19032,10 @@
 					{
 						"name": "The Battle of Five Armies",
 						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Thorin's Company",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 150,
@@ -19143,13 +19076,18 @@
 						"name": "Great Eagle",
 						"points": 50,
 						"usesDefinition": "Great Eagle",
+						"availableIn": [
+							"The Battle of Five Armies"
+						],
 						"chooseOneKey": "a"
 					},
 					{
 						"name": "Sleigh",
 						"points": 45,
 						"chooseOneKey": "a",
-						"availableIn": []
+						"availableIn": [
+							"Thorin's Company"
+						]
 					},
 					{
 						"name": "Horse",
@@ -19910,6 +19848,10 @@
 					},
 					{
 						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Thorin's Company",
 						"heroicTier": "Hero of Valour"
 					}
 				],
@@ -21117,7 +21059,8 @@
 				"wargear": [
 					"Light armour",
 					"Hand weapon",
-					"Two-handed weapon and throwing weapons"
+					"Two-handed weapon",
+					"Throwing weapons"
 				]
 			},
 			{
@@ -31221,7 +31164,8 @@
 					"The Eagles",
 					"Radagast's Alliance",
 					"Men of the West",
-					"The Battle of Five Armies"
+					"The Battle of Five Armies",
+					"Thorin's Company"
 				],
 				"points": 100,
 				"movement": 12,
