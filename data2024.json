@@ -959,6 +959,18 @@
 						"points": 55
 					}
 				]
+			},
+			{
+				"name": "The Iron Hills",
+				"alignment": "good",
+				"armyBonus": "\"Ironfoot has come!\" - In Scenarios where you roll for Warbands to arrive, or ones where you roll to see which part of the board you deploy a Warband in (though not when rolling to choose deployment zones), you may modify the roll for Warabnds from this army by +1 or -2.\n                \"Yanad Durinul - Friendly Infantry models may re-roll To Wound Rolls of a natural 1 when making Strikes, so long as they are in base contact with 2 or more friendly Infantry models.\n                \"Long March from the Iron Hills\" - Friendly models gain the Mountain Dweller special rule.\n                \"I've always found Thoring the more reasonable of the two...\" - Dain gains the Master of Battle (5+) special rule.",
+				"requiredChildren": [
+					{
+						"name": "Dain Ironfoot, Lord of the Iron Hills",
+						"points": 160,
+						"elementPropertyName": "heroes"
+					}
+				]
 			}
 		],
 		"heroicTiers": [
@@ -5414,10 +5426,6 @@
 				"name": "Ringwraith B",
 				"factions": [
 					{
-						"name": "Legions of Mordor",
-						"heroicTier": "Hero of Valour"
-					},
-					{
 						"name": "Barad-Dur",
 						"heroicTier": "Hero of Fortitude"
 					},
@@ -5584,6 +5592,10 @@
 					{
 						"name": "Mordor",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Legions of Mordor",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"unlimited": true,
@@ -5645,7 +5657,10 @@
 					{
 						"name": "Fell beast",
 						"points": 50,
-						"chooseOneKey": "a"
+						"chooseOneKey": "a",
+						"availableIn": [
+							"Legions of Mordor"
+						]
 					},
 					{
 						"name": "Horse",
@@ -5655,6 +5670,20 @@
 							"The Black Riders"
 						],
 						"chooseOneKey": "a"
+					},
+					{
+						"name": "Morgul Blade",
+						"points": 10,
+						"availableIn": [
+							"Legions of Mordor"
+						]
+					},
+					{
+						"name": "Two-handed weapon",
+						"points": 5,
+						"availableIn": [
+							"Legions of Mordor"
+						]
 					}
 				],
 				"specialRules": [
@@ -8067,24 +8096,38 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
-				"points": 140,
+				"points": 160,
 				"movement": 5,
-				"fight": 6,
+				"fight": 7,
 				"shoot": 4,
 				"strength": 5,
 				"defence": 8,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 7,
+				"courage": 3,
+				"intelligence": 5,
 				"might": 3,
 				"will": 3,
 				"fate": 3,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Iron Hills"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic Resolve",
+					"Heroic Challenge",
 					"Heroic March",
-					"Heroic Strike",
 					"Heroic Strength",
-					"Heroic Challenge"
+					"Heroic Strike"
 				],
 				"keywords": [
 					"Dwarf",
@@ -8095,11 +8138,7 @@
 				"options": [
 					{
 						"name": "War boar",
-						"points": 20,
-						"availableIn": [
-							"The Iron Hills",
-							"Erebor Reclaimed"
-						]
+						"points": 25
 					}
 				],
 				"specialRules": [
@@ -8108,12 +8147,11 @@
 					"Lord of the Iron Hills",
 					"Fiery Temper",
 					"Fearsome Charge",
-					"Headbutt",
-					"Two-Handed"
+					"Headbutt"
 				],
 				"wargear": [
 					"Heavy Dwarf Armour",
-					"Two-handed hammer"
+					"Two-handed weapon"
 				]
 			},
 			{
@@ -8275,12 +8313,7 @@
 			},
 			{
 				"name": "Murin & Drar",
-				"factions": [
-					{
-						"name": "The Iron Hills",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"specialText": "Múrin & Drár are Historical Allies with Minas Tirith, so long as the army contains Cirion, Lieutenant of Amon Barad.\n                They are Convenient Allies with The Fellowship, The Shire, The Rangers of the North, Minas Tirith, The Fiefdoms, The Dead of Dunharrow, Rohan, The Wildmen of Drúadan, Rivendell, Lothlórien, Fangorn, The Misty Mountains, The Garrison of Dale, Halls of Thranduil, Radagast’s Alliance and The White Council.\n                They are Impossible Allies with all other army lists.",
 				"points": 140,
@@ -8410,12 +8443,7 @@
 			},
 			{
 				"name": "Murin",
-				"factions": [
-					{
-						"name": "The Iron Hills",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"unavailableSolo": true,
 				"points": 0,
 				"movement": 5,
@@ -8448,12 +8476,7 @@
 			},
 			{
 				"name": "Drar",
-				"factions": [
-					{
-						"name": "The Iron Hills",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"unavailableSolo": true,
 				"points": 0,
 				"movement": 5,
@@ -12358,36 +12381,46 @@
 					}
 				],
 				"unlimited": true,
-				"points": 250,
+				"points": 170,
 				"movement": 8,
 				"fight": 4,
 				"shoot": 4,
 				"strength": 4,
 				"defence": 8,
 				"attack": 2,
-				"wounds": 5,
-				"courage": 3,
+				"wounds": 4,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 0,
 				"will": 0,
 				"fate": 0,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Iron Hills"
+				],
+				"unitType": [
+					"Warrior",
+					"Chariot"
+				],
+				"baseSize": [
+					"170mm oval"
+				],
 				"heroicActions": [],
 				"keywords": [
 					"Dwarf",
 					"Iron Hills",
 					"Warrior"
 				],
-				"options": [
-					{
-						"name": "Champions of Erebor (replaces crew and captain)",
-						"points": 250
-					}
-				],
+				"options": [],
 				"specialRules": [
-					"Fearless",
-					"Monstrous Charge",
-					"Note about the Iron Hills Chariot"
+					"Dominant (4)",
+					"Chariot Charge",
+					"Dwarven Crew"
 				],
 				"wargear": [
+					"Rapid-fire Bolt Thrower",
 					"Heavy armour",
 					"Sword"
 				]
@@ -13124,15 +13157,11 @@
 				"name": "Dwarf King",
 				"factions": [
 					{
-						"name": "The Kingdom of Moria",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "The Kingdom of Khazad-Dum",
+						"name": "The Iron Hills",
 						"heroicTier": "Hero of Valour"
 					}
 				],
-				"points": 75,
+				"points": 85,
 				"movement": 5,
 				"fight": 6,
 				"shoot": 4,
@@ -13140,14 +13169,28 @@
 				"defence": 8,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 4,
 				"might": 2,
 				"will": 2,
-				"fate": 1,
+				"fate": 2,
 				"unlimited": true,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"*"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic Resolve",
-					"Heroic March"
+					"Heroic March",
+					"Heroic Resolve"
 				],
 				"keywords": [
 					"Dwarf",
@@ -13155,25 +13198,10 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Throwing Axes",
-						"points": 5,
-						"availableIn": [
-							"The Kingdom of Khazad-Dum",
-							"The Kingdom of Moria"
-						]
-					},
-					{
-						"name": "Two-Handed Axe",
-						"points": 5,
-						"availableIn": [
-							"The Kingdom of Khazad-Dum",
-							"The Kingdom of Moria"
-						]
-					}
+				"options": [],
+				"specialRules": [
+					"Dwarven Lords"
 				],
-				"specialRules": [],
 				"wargear": [
 					"Heavy Dwarf Armour",
 					"Axe"
@@ -19216,14 +19244,6 @@
 					{
 						"name": "The Iron Hills",
 						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Erebor Reclaimed",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Defenders of Erebor",
-						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -19236,9 +19256,23 @@
 				"attack": 2,
 				"wounds": 2,
 				"courage": 5,
+				"intelligence": 5,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Iron Hills"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
 				],
@@ -19250,22 +19284,12 @@
 				],
 				"options": [
 					{
-						"name": "War goat",
-						"points": 10,
-						"availableIn": [
-							"The Iron Hills",
-							"Defenders of Erebor",
-							"Erebor Reclaimed"
-						]
+						"name": "Iron Hills Chariot",
+						"points": 170
 					},
 					{
-						"name": "Exchange War Spear for Mattock",
+						"name": "Exchange Shield and Spear for Mattock",
 						"points": 0,
-						"availableIn": [
-							"The Iron Hills",
-							"Defenders of Erebor",
-							"Erebor Reclaimed"
-						],
 						"usesDefinition": "Mattock"
 					}
 				],
@@ -19275,9 +19299,9 @@
 				],
 				"wargear": [
 					"Heavy Armour",
-					"War Spear",
-					"Sword",
-					"Shield"
+					"Shield",
+					"Spear",
+					"Hand weapon"
 				]
 			},
 			{
@@ -19475,7 +19499,7 @@
 					}
 				],
 				"unlimited": true,
-				"points": 125,
+				"points": 130,
 				"movement": 0,
 				"fight": 0,
 				"shoot": 0,
@@ -19519,9 +19543,10 @@
 					}
 				],
 				"specialRules": [
-					"Reliable",
-					"The Old Twirly Whirlies",
-					"Tremendous Impact"
+					"Arcing Shot",
+					"Area Effect",
+					"Accurate",
+					"The Old Twirly Whirlies"
 				],
 				"wargear": [],
 				"requiredChildren": [
@@ -24343,12 +24368,7 @@
 			},
 			{
 				"name": "Iron Hills Dwarf Siege Veteran",
-				"factions": [
-					{
-						"name": "The Iron Hills",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"autoAddOnly": true,
 				"unavailableSolo": true,
 				"points": 0,
@@ -27867,21 +27887,35 @@
 				]
 			},
 			{
-				"name": "Iron Hills Dwarf",
+				"name": "Iron Hills Warrior",
 				"factions": [
 					"The Iron Hills",
 					"Erebor Reclaimed",
 					"Defenders of Erebor"
 				],
-				"points": 11,
+				"points": 10,
 				"movement": 5,
 				"fight": 4,
 				"shoot": 4,
 				"strength": 4,
-				"defence": 7,
+				"defence": 6,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 6,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"The Iron Hills"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"keywords": [
 					"Dwarf",
 					"Iron Hills",
@@ -27890,20 +27924,29 @@
 				],
 				"options": [
 					{
-						"name": "Spear",
-						"points": 1
+						"name": "Banner and shield",
+						"points": 26,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Banner",
-						"points": 25
+						"points": 25,
+						"chooseOneKey": "a"
 					},
 					{
-						"name": "Exchange Shield for Mattock",
-						"points": 0
+						"name": "Shield and spear",
+						"points": 2,
+						"chooseOneKey": "a"
 					},
 					{
-						"name": "Exchange Shield for Crossbow",
-						"points": 1
+						"name": "Crossbow",
+						"points": 2,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Mattock",
+						"points": 1,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -27911,8 +27954,7 @@
 				],
 				"wargear": [
 					"Heavy Armour",
-					"Shield",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -27930,7 +27972,21 @@
 				"defence": 6,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 6,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"The Iron Hills"
+				],
+				"unitType": [
+					"Warrior",
+					"Cavalry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"keywords": [
 					"Dwarf",
 					"Iron Hills",
@@ -27939,18 +27995,12 @@
 				],
 				"options": [
 					{
-						"name": "Banner",
-						"points": 25
-					},
-					{
 						"name": "Exchange War Spear for Mattock",
 						"points": 0,
 						"usesDefinition": "Mattock"
 					}
 				],
-				"specialRules": [
-					"Devastating Charge"
-				],
+				"specialRules": [],
 				"wargear": [
 					"Heavy Armour",
 					"War spear",
@@ -33039,7 +33089,7 @@
 			{
 				"name": "Mattock",
 				"type": "Two-handed weapon",
-				"definition": "A mattock is a two-handed weapon that can either use the\n                Bash or Piercing Strike Special Strikes."
+				"definition": "This is a two-handed weapon. Additionally, if a model wielding a Mattock wins a Duel Roll they may choose to try to knock down an enemy model instead of making Strikes. If they do, choose a single enemy model involved in the Combat. This model and the chosen model both roll a single D6 and add their Strength characteristic. If this model rolls equal to or higher than the chosen model, then teh chosen model is immediately knocked Prone. This may be done before any other friendly models make their strikes."
 			},
 			{
 				"name": "Exchange Shield for Mattock",
@@ -33898,6 +33948,11 @@
 				"name": "Frying Pan",
 				"tag": "Active",
 				"definition": "Instead of making Strikes if he wins a Duel Roll, Sam may choose to use his Frying Pan as a weapon. Choose one enemy Infantry model involved in the Combat (with the exception of a Monster) and roll a D6. On a 4+, the chosen model is stunned by the hit and cannot Move during the following turn, but may otherwise act normally."
+			},
+			{
+				"name": "Rapid-fire Bolt Thrower",
+				"tag": "Active",
+				"definition": "This is a crossbow that fires D6 shots per turn rather than just one. A Rapid-fire Bolt Thrower only has a limited field of fire of 45° to its left or right, which can be measured by placing the Chariot Pivot Template with the X over the bolt thrower and the dotted line running down the wooden shaft connecting the goats - this is the Chariot's filed of fire.\n                An Iron Hills Chariot may still shoot even if it has Moved that turn, and never suffers the -1 penalty for Moving and Shooting.\n                An Iron Hills Chariot may still Shoot even if it is Engaged in Combat, and does not need to take In The Way Tests for models it is in combat with."
 			}
 		],
 		"magicalPowers": [
@@ -34395,7 +34450,7 @@
 			},
 			{
 				"name": "Area Effect",
-				"definition": "If a Catapult scores a hit against a Battlefield\n                target, all models within 2\" of the target suffer one Strength 5\n                hit and are knocked prone (this additional hit does not kill a target outright)."
+				"definition": "After rolling To Hit against the actual target, if the actual target was a Battlefield Target then all other models within 2\" of the actual target suffer a Strength 5 hit and, if they survive, will be knocked prone."
 			},
 			{
 				"name": "Wall-breaker",
@@ -34524,22 +34579,22 @@
 			{
 				"name": "Lord of the Iron Hills",
 				"tag": "Passive",
-				"definition": "Whilst Dáin Ironfoot, Lord of the Iron Hills is alive and on the\n                battlefield, all Iron Hills Dwarf models within 12\" of Dáin\n                automatically pass all Courage tests they are required to make."
+				"definition": "Friendly Iron Hills models within 12\" of Dain automatically pass all Courage Tests they are required to take."
 			},
 			{
 				"name": "Fiery Temper",
 				"tag": "Active",
-				"definition": "As soon as Dáin Ironfoot, Lord of the Iron Hills kills an enemy\n                model, for the rest of the game, if Dáin is in range to Charge, he\n                must do so if he is able to."
+				"definition": "After Dain has killed an enemy model, then from that point onwards whenever Dain Moves, he must always Charge an enemy model is possible."
 			},
 			{
 				"name": "Fearsome Charge",
 				"tag": "Passive",
-				"definition": "In a turn that Dáin Ironfoot, Lord of the Iron Hills Charges into\n                combat, he causes Terror until the end of the turn."
+				"definition": "If Dain Charges into Combat, then until the end of the turn he counts as having the Terror special rule."
 			},
 			{
 				"name": "Headbutt",
 				"tag": "Active",
-				"definition": "If Dáin Ironfoot, Lord of the Iron Hills wins a Duel roll but fails to\n                slay his opponent, select one enemy Man-sized (or smaller) model\n                in the fight and roll a D6. On a 5+, Dáin will headbutt that model\n                and it will be Knocked to the Ground."
+				"definition": "If Dain wins a Duel Roll but afils to slay every enemy model involved in the combat, he may choose a single enemy model on a 25mm base involved in the combat and roll a D6. On a 5+, the chosen model is immediately knocked Prone."
 			},
 			{
 				"name": "Reliable",
@@ -34548,7 +34603,7 @@
 			{
 				"name": "The Old Twirly Whirlies",
 				"tag": "Active",
-				"definition": "The Iron Hills Ballista always counts as declaring a Heroic\n                Shoot - there is no need to spend Might. Additionally, the\n                Ballista follows the rules for Volley Fire. When the Ballista hits a target, place a marker under the centre of the target model.\n                Draw a line from the centre of the Ballista to the centre of the\n                marker. Shooting attacks that are Strength 6 or less cannot target\n                any model within 3\" of that line for the remainder of the turn.\n                Additionally, shooting attacks that are Strength 6 or less cannot be\n                made if they cross the line at any point. If a shooting attack that is \n                Strength 7 or more targets a model that is either within 3\" of the\n                line, or the shot crosses the line, roll a D6. On the roll of a 5+, the\n                shooting attack is prevented. At the end of the turn, remove any\n                marker placed due to this special rule. An Iron Hills Ballista has a range of 12\" to 48\"."
+				"definition": "An Iron Hills Ballista always counts as declaring a Heroic Shoot each Shoot Phase for free. When the Ballista hits a target, place a 25mm marker directly underneat the actual target, then draw a 1mm wide line from the centre of the Iron Hills Ballista to the center of the marker. Any shooting attacks (friend or foe) that have a Strength of 6 or lower cannot be made if they cross the line, or if they target a model within 3\" of the line. If a shooting attack that has a Strength of 7 or higher crosses the line, or targets a model within 3\" of the line, roll a D6. On a 5+ the shooting attack is immediately cancelled and does not hit its target - otherwise it will hit as normal. At the end of the turn, remove any markers placed by this special rule."
 			},
 			{
 				"name": "Tremendous Impact",
@@ -34647,7 +34702,7 @@
 			},
 			{
 				"name": "Accurate",
-				"definition": "When firing the Windlance at a battlefield target, the shot only\n                scatters 3\" rather than 6\"."
+				"definition": "An Iron Hills Ballista will only Scatter 3\" rather than 6\"."
 			},
 			{
 				"name": "Blades of the Dead",
@@ -35129,7 +35184,7 @@
 			{
 				"name": "Chariot Charge",
 				"tag": "Active",
-				"definition": "A Khandish Chariot has the Monstrous Charge special rule. Additionally, a Khandish Chariot is an unusual model and moves in the following way:\n        \n                At the start of its Move phase, the controlling player may pivot the Chariot up to 45º. When pivoting, the Chariot may touch models or terrain. In the case of models, move them out of the way by the shortest route possible. In the case of terrain, move the Chariot away just enough to complete its pivot.\n                \n                The Chariot may then move up to 10\" in a straight line. After each full 3\" the Chariot has moved, it may pivot a further 45º.\n                \n                Once the Chariot has pivoted to face its desired direction, move it forwards the desired amount in a straight line, ignoring enemy models' Control Zones. \n                Any models the Chariot comes into contact with whilst moving (not pivoting) will suffer two Strength 4 hits. If the model is slain, the Chariot may continue with its movement. \n                Cavalry models suffer two hits on both the rider and mount. If the rider survives but the mount is slain, the rider is thrown and, after testing on the Thrown Rider chart, is placed into base contact with the Chariot. \n                Might may not be used to affect the result of these hits. A Chariot that is affected by a Heroic March may still inflict these hits as normal.\n                \n                If the model the Chariot charged survives, the Chariot will still gain the benefits of its Monstrous Charge special rule.\n                \n                The Chariot may instead choose to forgo its movement to face any direction. If a Chariot is moved by an enemy model, it may not pivot in this way.\n                \n                A Khandish Chariot cannot jump obstacles that form a physical barrier, such as hedges, walls, fences or rocks. They may attempt to cross obstacles such as streams or gullies if they wish, but if a 1 is rolled, the rider is automatically thrown and the Chariot is destroyed."
+				"definition": "When an Iron Hills Chariot Moves via Chariot Charge, it will inflict 3 Strength 6 Impact Hits."
 			},
 			{
 				"name": "Mercenary Ambush",
@@ -36551,6 +36606,16 @@
 				"name": "Protect the little ones!",
 				"tag": "Passive",
 				"definition": "Whilst within 3\" of a friendly Fellowship Hobbit model, Boromir gains the Fearless special rule and may re-roll failed To Wound rolls when making Strikes."
+			},
+			{
+				"name": "Dwarven Lords",
+				"tag": "Passive",
+				"definitioin": "A Dwarf King will always have the Faction Keyword of the most common type of Dwarf model in the same Army. So, if the majority of friendly Dwarf models have the Erebor keyword, then the Dwarf King will also have the Erebor keyword. A Dwarf King will gain a special rule depending on the Keyword they have, as listed below:\n                Erebor - This model gains the Ancient Enemies (Orc) special rule.\n                Iron Hills - This model gains the Fearless special rule.\n                Khazad-dum - This model gains throwing weapons."
+			},
+			{
+				"name": "Dwarven Crew",
+				"tag": "Active",
+				"definition": "Any Iron Hills Warrior that ends their activation in base contact with an Iron Hills Chariot may join its crew. If it does, remove the Iron Hills Warrior from the board as a Casualty. The Iron Hills Chariot then immediately regains a single Wound lost earlier in teh battle."
 			}
 		]
 	}
