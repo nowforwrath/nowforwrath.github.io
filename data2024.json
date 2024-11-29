@@ -25402,7 +25402,7 @@
 					"Defenders of the Hornburg",
 					"Men of the West"
 				],
-				"points": 1,
+				"points": 6,
 				"movement": 6,
 				"fight": 3,
 				"shoot": 4,
@@ -25629,6 +25629,7 @@
 						"points": 5,
 						"availableIn": [
 							"Ride Out",
+							"Army of Edoras",
 							"Kingdom of Rohan",
 							"Road to Helm's Deep",
 							"Defenders of the Pelennor"
