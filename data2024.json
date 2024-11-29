@@ -16782,17 +16782,34 @@
 				"points": 190,
 				"movement": 6,
 				"fight": 8,
-				"shoot": 4,
+				"shoot": 3,
 				"strength": 8,
 				"defence": 8,
-				"attack": 3,
-				"wounds": 3,
-				"courage": 7,
+				"attack": 4,
+				"wounds": 4,
+				"courage": 3,
+				"intelligence": 4,
 				"might": 3,
-				"will": 6,
+				"will": 4,
 				"fate": 3,
+				"race": [
+					"Ent"
+				],
+				"faction": [
+					"Fangorn"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Monster",
+					"Unique"
+				],
+				"baseSize": [
+					"60mm"
+				],
 				"heroicActions": [
 					"Heroic Defence",
+					"Heroic March",
 					"Heroic Strength",
 					"Heroic Strike"
 				],
@@ -16810,13 +16827,16 @@
 					}
 				],
 				"specialRules": [
-					"Bludgeon (Brutal Power Attack)",
+					"Dominant (5)",
+					"Fearless",
+					"Large Target",
 					"Terror",
 					"Throw Stones (18\" Range, Strength 10)",
-					"Woodland Creature"
+					"Woodland Creature",
+					"Bludgeon"
 				],
 				"wargear": [
-					"Roots and Branches"
+					"Roots and Branches (hand weapon)"
 				]
 			},
 			{
@@ -16834,14 +16854,30 @@
 				"strength": 8,
 				"defence": 8,
 				"attack": 3,
-				"wounds": 3,
-				"courage": 6,
+				"wounds": 4,
+				"courage": 4,
+				"intelligence": 5,
 				"might": 3,
 				"will": 1,
-				"fate": 1,
+				"fate": 0,
+				"race": [
+					"Ent"
+				],
+				"faction": [
+					"Fangorn"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Monster",
+					"Unique"
+				],
+				"baseSize": [
+					"60mm"
+				],
 				"heroicActions": [
-					"Heroic Strength",
-					"Heroic Strike"
+					"Heroic Challenge",
+					"Heroic Strength"
 				],
 				"keywords": [
 					"Ent",
@@ -16851,14 +16887,17 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Bludgeon (Brutal Power Attack)",
+					"Dominant (3)",
+					"Fearless",
+					"Large Target",
 					"Terror",
 					"Throw Stones (18\" Range, Strength 10)",
 					"Woodland Creature",
+					"Bludgeon",
 					"Deep-rooted Hatred"
 				],
 				"wargear": [
-					"Roots and Branches"
+					"Roots and Branches (hand weapon)"
 				]
 			},
 			{
@@ -35483,13 +35522,13 @@
 				"definition": "A Sentinel may sing one song each turn, providing they are not Engaged in combat. These function exactly like Magical Powers except they are automatically cast without spending Will, and cannot be resisted.\n        \n                The Hymn of Elbereth - Range 12\" - This beautiful song raises the spirits of the targeted model. The target friendly model will automatically pass Courage tests for the remainder of the turn.\n                \n                Eldamar Madrigal - Range 12\" - The target enemy model must immediately take a Courage test. If the test is passed, nothing happens. If the test is failed, the target model falls under the control of the opposing player who then may move it up to its maximum Move, even if it has already moved that turn. This move cannot be used to enter an enemy's Control Zone, dismount, lay down, perform an action that would cause harm to the target (such as jumping off a cliff, etc) or anything that would require the model to roll a D6 (such as a Jump test). Affected models may move no further that turn.\n                \n                The Lay of Gondolin - This somber verse recalls the mighty Elf city of Gondolin - a name fit to freeze the hearts of Evil beings. If the Sentinel sings this song, they cause Terror until the end of the turn."
 			},
 			{
-				"name": "Bludgeon (Brutal Power Attack)",
-				"definition": "Select one enemy model in the Fight to be picked up by the Ent and become the bludgeon. If the model is a Cavalry model, the rider is picked up and immediately dismounted. This model cannot be a Monster.\n        \n                Select another model in the Fight for the Ent to hit with the bludgeon. Both the target and the bludgeon suffer one Strength 8 hit. If the target is slain, the Ent may pick another target and repeat the process again. This may be done repeatedly until either the Ent fails to slay a target, or there are no more eligible targets to choose. Should the bludgeon survive, they will be knocked Prone. Note that the Ent may keep using the bludgeon even if the bludgeon is slain."
+				"name": "Bludgeon",
+				"definition": "Before models Back Away, select one enemy model involved in the Combat to be picked up by the Ent and be the Bludgeon. If this is a Cavalry model then it is the rider that is picked up and the mount becomes a Separated Mount. The chosen model cannot be a Monster, Chariot, or War Beast.\n                Choose another model involved in the Combat. Both the chosen model and the Bludgeon suffer one Strength 8 hit. If the chosen model is slain, choose a different model involved in the Combat and repeat the process. Keep doing this until either the Ent fails to slay a chosen model, or no more models can be chosen. The process carries on even if the Bludgeon is slain; the Ent keeps using their body as a weapon. If the Bludgeon survives, they will be placed back where they were in the Combat and be knocked Prone. Once this Brutal Power Attack is resolved, enemy models Back Away as normal."
 			},
 			{
 				"name": "Deep-rooted Hatred",
 				"tag": "Passive",
-				"definition": "Beechbone must re-roll failed To Wound rolls when making Strikes against any Orc, Uruk-hai, Goblin or Isengard models. In addition, Beechbone must always Charge an enemy Orc, Uruk-hai, Goblin or Isengard model if able to do so."
+				"definition": "Beechbone must re-roll all failed to Wound rolls when making Strikes against any Orc, Uruk-hai, Goblin or Isengard models. In addition, when Beechbone Moves he must always Charge an Orc, Uruk-hai, Goblin or Isengard model is possible."
 			},
 			{
 				"name": "Raise the Ladders!",
