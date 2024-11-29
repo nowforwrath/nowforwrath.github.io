@@ -41,7 +41,7 @@
 			"url": "https://nowforwrath.com"
 		}
 	],
-	"game": "Middle-Earth Strategy Battle Game",
+	"game": "Middle-Earth Strategy Battle Game - 2024",
 	"usePrimarySecondaryAllianceLevels": true,
 	"allianceTerms": {
 		"primary": "Historical",
@@ -815,6 +815,150 @@
 				"name": "Legions of Mordor",
 				"alignment": "evil",
 				"armyBonus": "\"Bring the City to its Knees\" - Friendly Hero models may re-roll To Wound Rolls of a natural 1 when making Strikes against an enemy Hero model."
+			},
+			{
+				"name": "Minas Morgul",
+				"alignment": "evil",
+				"armyBonus": "\"The Dead City\" - Mordor Orc Captains and Mordor Orc Warriors gain the Blades of the Dead special rule.\n                \"Call of Morgul\" - If the enemy Army contains a Ringbearer, they will suffer a -1 penalty when rolling for Sauron's Will.\n                \"Lead through fear\" - Friendly Orc models within 3\" of a friendly Spirit model automatically pass Courage Tests when attempting to Charge a model with the Terror special rule.",
+				"requiredChildren": [
+					{
+						"name": "The Witch-King of Angmar C",
+						"points": 150,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Cirith Ungol",
+				"alignment": "evil",
+				"armyBonus": "\"Animosity\" - Friendly Orc models gain a bonus of +1 To Wound when making Strikes if there is a friendly Uruk-hai model Engaged in the same Combat. Friendly uruk-hai models gain a bonus of +1 To Wound when making strikes if there is a friendly Orc model engaged in the same Combat.\n                \"Rivals for Power\" - Keep track of how many models Gorbag and Shagrat have each killed. If at any point either of them has fewer kills than the other, that model may re-roll a single D6 during the Duel Roll.\n                \"Swift Hunter\" - During the declare Heroic Actions step of the Move Phase, Shelob can choose to kill a friendly model within 1\" of her - remove the chosen model as a casualty. If she does, Shelog may declare a Heroic Move for free, though she may not shoud \"With Me as part of this Heroic Move.",
+				"requiredChildren": [
+					{
+						"name": "Shagrat, Captain of Cirith Ungol",
+						"points": 110,
+						"elementPropertyName": "heroes"
+					},
+					{
+						"name": "Gorbag, Orc Captain",
+						"points": 60,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "The Black Gate Opens",
+				"alignment": "evil",
+				"armyBonus": "\"Greatest of the Trolls\" - The Mordor Troll Chieftain that is your General gains the Fearless special rule, and an additional point each of Might, Will and Fate.\n                \"The Hordes of Mordor\" - Friendly Mordor Orc models engaged in a Combat gain a bonus of +1 To Wound when making strikes against an outnumbered opponent.\n                \"Temptation of Sauron\" - At the start of each Move Phase, before the Declare Heroic Actions Step, you may choose a single enemy model on the battlefield. The chosen model must immediately take an Intelligence Test. If the test if failed, you may immediately Move the chosen model up to its Move Value following all the usual rules for moving, including making them Charge if you wish. The chosen model may not Move later in the Move Phase, but may otherwise act normally.",
+				"requiredChildren": [
+					{
+						"name": "Mordor Troll Chieftain Leader",
+						"points": 150,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Army of the White Hand",
+				"alignment": "evil",
+				"armyBonus": "\"Serve the White Wizard\" - Other friendly models that can draw Line of Sight to Saruman gain a bonus of +1 to any Courage Tests they are required to take.\n                \"The Voice of Saruman\" - During his activation, Saruman can use one of the following abilities instead of Casting a Magical Power. Each of these abilities can only be used once per game.\n                Conjure Lightning - Choose a point on the battlefield at least 12\" away from any friendly model (with the exception of Grima Wormtongue). Each model within 2\" of hte chosen point suffers a Strength 6 hit. If a Cavalry model is affected, both the rider and Mount will suffer a Strength 6 hit.\n                Summon Gale - Until the end of the turn, enemy models halve their Move Value.\n                Call Thunder - Until the end of the turn, enemy models have the Fearful special rule.\n                \"Spies of Saruman\" - Saruman can draw Line of Sight form any friendly Crebain models on the battlefield."
+			},
+			{
+				"name": "Lurtz's Scouts",
+				"alignment": "evil",
+				"armyBonus": "\"Relentless March\" - Friendly models increase their Move Value to 8\". Additionally, friendly models gain the Woodland Creature special rule.\n                \"You do not know pain, you do not know fear\" - The Break Point for Lurtz's Scouts is 66% rather than 50%\n                \"Kill the others\" - Lurtz gains the General Hunter special rule and may declare a Heroic Combat each turn for free.",
+				"requiredChildren": [
+					{
+						"name": "Lurtz, Huruk-hai Scout Captain",
+						"points": 100,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Ugluk's Scouts",
+				"alignment": "evil",
+				"armyBonus": "\"Their pace has quickened\" - Friendly Uruk-hai models increase their Move Value to 8\". Additionally, friendly Uruk-hai models gain the Woodland Creature special rule.\n                \"Get a fire going\" - Once per game, in Scenarios that use Objective Markers, Ugluk can use this special rule during his Move to choose an Objective Marker in base contact. So long as Ugluk is alive and on the battlefield, friendly models wtihin range of the chosen Objective Marker gain the Dominant (2) special rule.\n                \"Animosity\" - Friendly Orc models gain a bonus of +1 To Wound when making Strikes if there is a friendly Uruk-hai model Engaged in the same Combat. Friendly Uruk-hai models gain a bonus of +1 To Wound when making Strikes if there is a friendly Orc model engaged in the same Combat.",
+				"requiredChildren": [
+					{
+						"name": "Ugluk, Uruk-hai Scout Captain",
+						"points": 75,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Wolves of Isengard",
+				"alignment": "evil",
+				"armyBonus": "\"Leader of the Pack\" - Sharku may declare a Heroic Combat each turn for free.\n                \"Savage Charge\" - Friendly Cavalry models still gain the Extra Attack bonus even when they Charge a Cavalry model, and will retain it even if they are subsequently Charged by a Cavalry model.\n                \"Warg Scouts\" - At the start of the game, after both sides have deployed but before the first Priority has been rolled, you may select up to D6 friendly Warrior models. The selected models may immediately Move as if it were the Move Phase, and then make a shooting attack as if it were the Shoot Phase. During this Move, friendly models may not move within 1\" of an enemy model and therefore may not Charge. In Scenarios where models enter the board, the selected models wtill Move onto the board before the first turn of the game, treating any roll to enter the board as a 6. Each model is treated as a separate Warband in this instance.\n                \"Ambush\" - In Scenarios that use the Maelstrom of Battle special rule, a Wolves of Isengard Army will automatically win the roll to choose who has Priority on the first turn. If both Armies have rules that allow them to do this, roll for Priority a normal. Additionally, models from this Army may Charge on the turn they enter the board, even though they may not normally be allowed to do so. Models Charging in this manner do not need to take a Courage Test to Charge an enemy with the Terror special rule.",
+				"requiredChildren": [
+					{
+						"name": "Sharku, Warg Rider Captain",
+						"points": 70,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Muster of Isengard",
+				"alignment": "evil",
+				"armyBonus": "\"You do not know pain, you do not know fear\" - The Break Point for a Muster of Isengard army is 66% rather than 50%\n                \"Isengard Unleashed\" - During the first turn of the game, each friendly Uruk-hai Hero may declare a Heroic March for free. Additionally, Uruk-hai Captains gain Heroic Strike.\n                \"There will be no dawn for men\" - Friendly Uruk-hai models gain the Hatred (Man) special rule.",
+				"requiredChildren": [
+					{
+						"name": "Saruman",
+						"points": 170,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Assault Upon Helm's Deep",
+				"alignment": "evil",
+				"armyBonus": "\"You do not know pain, you do not know fear\" - The Break Point for an Assault Upon Helm's Deep army is 66% rather than 50%\n                \"Commander of the Uruk-hai\" - The Uruk-hai Captain that is your General increases its Attacks and Wounds to 3 each.\n                \"Break the Walls\" - Friendly Isengard Assault Ballistae may re-roll To Hit and Scatter rolls of a 1. Additinoally, when a friendly Demolition Charge is detonated, you may roll two dice on the Detonation Table rather than one and pick either result.",
+				"requiredChildren": [
+					{
+						"name": "Uruk-hai Captain Leader",
+						"points": 65,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Usurpers of Edoras",
+				"alignment": "evil",
+				"armyBonus": "\"Whipped into a frenzy\" - Whenever a Hill Tribesman or Hill Tribes Chieftain suffers a wound, roll a D6. On a natural 6, the Wound is ignored.\n                \"Barbarous Killers\" - Friendly Dunland models gain a bonus of +1 To Wound when making Strikes against enemy Hero models."
+			},
+			{
+				"name": "Besiegers of the Hornburg",
+				"alignment": "evil",
+				"armyBonus": "\"Wulf's Revenge\" - Whenever Wulf Moves, he must always Charge an enemy model if possible. Additionally, once per game Wulf may declare a Heroic Challenge for free, though this Heroic Challenge must target the enemy General. Wulf may still do this even if the enemy General has a lower Heroic Tier.\n                \"The Promise of Wealth\" - Friendly Dunland Warrior models within range of an Objective Marker gain a bonus of +1 To Wound when making Strikes.\n                \"Shank & Wrot\" - Friendly Mordor models cannot benefit from the Heroic Actions or Stand Fast of friendly Dunland models and friendly Dunland models cannot benefit from the Heroic Actions or Stand Fast of friendly Mordor models.",
+				"requiredChildren": [
+					{
+						"name": "Wulf, High Lord of the Hill Tribes",
+						"points": 110,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Depths of Moria",
+				"alignment": "evil",
+				"armyBonus": "\"Drums in the Deep\" - Enemy models suffer a -1 penalty to any Courage Tests they are required to take, whilst friendly Moria Goblin models gain a bonus of +1 to any Courage Tests they are required to take. Additionally, friendly Moria Goblin models always count as being in range of a banner.\n                \"Dominion of the Balrog\" - Friendly Moria Goblin models within 6\" of the Balrog gain a bonus of +1 to their Fight Value. Additionally, so long as the Balrog has at least 6 Wounds remaining, a Depths of Moria Army can never count as being Broken. Should the Balrog have 5 or fewer Wounds remaining, a Depths of Moria Army will Break as normal. However, should the Balrog ever be removed as a casualty, a Depths of Moria Army will immediately count as being Broken.\n                \"Shadow...\" - Shooting attacks that target the Balrog will only ever hit on the roll of a 5+.\n                \"...and Flame\" - Once per game, at the start of any Shoot Phase, the Balrog may select a single model within 3\" of it and roll a D6. On a 2+, the model is immediately Set Ablaze. This is an active ability belonging to the Balrog, and after it has used this ability, the Balrog no longer benefits from the 'Shawod...' special rule."
+			},
+			{
+				"name": "Harad",
+				"alignment": "evil",
+				"armyBonus": "\"War Beasts from the South\" - Friendly Mumak models gain the Harbinger of Evil (12\") special rule.\n                \"The Scorpion's Sting\" - Friendly models with the Poisoned Attacks (bow) special rule exchange it for the Poisoned Attacks on all of their weapons.\n                \"Monstrous Rampgage\" - Each Hero that is commanding a Mumak can, once per game, declare a Heroic Combat for free whilst atop a Mumak. When they do, the Mumak will be affected as if they had been the one to declare the Heroic Combat, though they may not pivot before they Trample as part of a Heroic Combat."
+			},
+			{
+				"name": "Corsair Fleet",
+				"alignment": "evil",
+				"armyBonus": "\"The Fleetmaster\" - The Corsair Captain that is your General increases their Attacks and Wounds to 3 each, and gains the Fearless and Sharpshooter special rules.\n                \"The Last Stroke of Doom\" - Friendly Corsaid models gain the Backstabbers special rule.\n                \"Ballistae Assault\" - After both sides have been deployed, but before the first turn of the game, a single Corsair Ballista may make a shooting attack following all the normal rules for doing so.",
+				"requiredChildren": [
+					{
+						"name": "Corsair Captain Leader",
+						"points": 55
+					}
+				]
 			}
 		],
 		"heroicTiers": [
@@ -1241,11 +1385,15 @@
 				"name": "General Targg",
 				"factions": [
 					{
-						"name": "Dunland",
+						"name": "Usurpers of Edoras",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Besiegers of the Hornburg",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 1,
+				"points": 80,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
@@ -1280,7 +1428,214 @@
 				],
 				"wargear": [
 					"Armour",
-					"Hand weapon",
+					"Hand weapon"
+				],
+				"options": [
+					{
+						"name": "Horse",
+						"points": 20
+					}
+				]
+			},
+			{
+				"name": "Lord Thorne of the Wold",
+				"factions": [
+					{
+						"name": "Usurpers of Edoras",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 70,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 4,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic March"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Dunland"
+				],
+				"unitType": [
+					"Hero",
+					"Cavalry",
+					"Unique"
+				],
+				"specialRules": [
+					"Hatred (Rohand)",
+					"Master of Battle (4+)",
+					"Dunlending Commander"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Hill Tribes Chieftain",
+				"factions": [
+					{
+						"name": "Usurpers of Edoras",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Besiegers of the Hornburg",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 40,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 4,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic March"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Dunland"
+				],
+				"unitType": [
+					"Hero",
+					"Cavalry",
+					"Unique"
+				],
+				"specialRules": [
+					"Hatred (Rohand)",
+					"Master of Battle (4+)",
+					"Dunlending Commander"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				],
+				"options": [
+					{
+						"name": "Light shield",
+						"points": 5
+					},
+					{
+						"name": "Two-handed weapon",
+						"points": 5
+					}
+				]
+			},
+			{
+				"name": "Shank & Wrot, Orc Scavengers",
+				"factions": [
+					{
+						"name": "Besiegers of the Hornburg",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"points": 150,
+				"movement": 6,
+				"fight": 1,
+				"shoot": 1,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 4,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic March"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Dunland"
+				],
+				"unitType": [
+					"Hero",
+					"Cavalry",
+					"Unique"
+				],
+				"specialRules": [
+					"Hatred (Rohand)",
+					"Master of Battle (4+)",
+					"Dunlending Commander"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Freca, Lord of the West March",
+				"factions": [
+					{
+						"name": "Usurpers of Edoras",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 80,
+				"movement": 6,
+				"fight": 1,
+				"shoot": 1,
+				"strength": 4,
+				"defence": 5,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 3,
+				"will": 3,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Dunland"
+				],
+				"unitType": [
+					"Hero",
+					"Cavalry",
+					"Unique"
+				],
+				"specialRules": [
+					"General Hunter",
+					"Hatred (Rohand)",
+					"The Usurper King"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapons",
 					"Horse"
 				],
 				"options": []
@@ -1289,11 +1644,15 @@
 				"name": "Wulf, High Lord of the Hill Tribes",
 				"factions": [
 					{
-						"name": "Dunland",
+						"name": "Usurpers of Edoras",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Besiegers of the Hornburg",
+						"heroicTier": "Hero of Legend"
 					}
 				],
-				"points": 1,
+				"points": 110,
 				"movement": 6,
 				"fight": 6,
 				"shoot": 3,
@@ -1332,7 +1691,12 @@
 					"Hand weapons",
 					"Horse"
 				],
-				"options": []
+				"options": [
+					{
+						"name": "Horse",
+						"points": 20
+					}
+				]
 			},
 			{
 				"name": "Theoden, King of Rohan",
@@ -3287,6 +3651,10 @@
 					{
 						"name": "Legions of Mordor",
 						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Minas Morgul",
+						"heroicTier": "Hero of Legend"
 					}
 				],
 				"points": 150,
@@ -3365,7 +3733,9 @@
 						"name": "Fell Beast",
 						"points": 50,
 						"chooseOneKey": "a",
-						"availableIn": []
+						"availableIn": [
+							"Minas Morgul"
+						]
 					},
 					{
 						"name": "Crown of Morgul",
@@ -3375,7 +3745,9 @@
 						"name": "Horse",
 						"points": 20,
 						"chooseOneKey": "a",
-						"availableIn": []
+						"availableIn": [
+							"Minas Morgul"
+						]
 					},
 					{
 						"name": "Morgul Blade",
@@ -4060,10 +4432,6 @@
 				"name": "The Mouth of Sauron",
 				"factions": [
 					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Valour"
-					},
-					{
 						"name": "The Black Gate Opens",
 						"heroicTier": "Hero of Valour"
 					}
@@ -4093,7 +4461,7 @@
 				"options": [
 					{
 						"name": "Armoured horse",
-						"points": 15
+						"points": 25
 					}
 				],
 				"specialRules": [
@@ -4133,7 +4501,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 100,
+				"points": 110,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
@@ -4156,16 +4524,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Shield of Cirith Ungol",
-						"points": 10
-					},
-					{
-						"name": "Heavy armour",
-						"points": 5
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Blood and Glory"
 				],
@@ -4186,7 +4545,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 55,
+				"points": 60,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 5,
@@ -4234,7 +4593,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 50,
+				"points": 55,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 5,
@@ -4379,6 +4738,10 @@
 					{
 						"name": "The Black Gate Opens",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Minas Morgul",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -4517,7 +4880,7 @@
 				]
 			},
 			{
-				"name": "Mordor Uruk-Hai Captain",
+				"name": "Mordor Uruk-hai Captain",
 				"factions": [
 					{
 						"name": "Mordor",
@@ -4551,14 +4914,6 @@
 					"Hero"
 				],
 				"options": [
-					{
-						"name": "Orc bow",
-						"points": 5
-					},
-					{
-						"name": "Shield",
-						"points": 5
-					},
 					{
 						"name": "Two-handed weapon",
 						"points": 5
@@ -5073,6 +5428,14 @@
 					{
 						"name": "Wraiths on Wings",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Minas Morgul",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "The Black Gate Opens",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -5151,7 +5514,8 @@
 						"chooseOneKey": "a",
 						"availableIn": [
 							"Wraiths on Wings",
-							"Legions of Mordor"
+							"Legions of Mordor",
+							"Minas Morgul"
 						]
 					},
 					{
@@ -5168,7 +5532,8 @@
 						"chooseOneKey": "a",
 						"availableIn": [
 							"The Black Riders",
-							"Barad-Dur"
+							"Barad-Dur",
+							"Minas Morgul"
 						]
 					},
 					{
@@ -5337,10 +5702,6 @@
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
-						"name": "The Black Gate Opens",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
 						"name": "Barad-Dur",
 						"heroicTier": "Hero of Fortitude"
 					},
@@ -5349,15 +5710,7 @@
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
-						"name": "Wolves of Isengard",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
 						"name": "Cirith Ungol",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Ugluk's Scouts",
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
@@ -5366,6 +5719,10 @@
 					},
 					{
 						"name": "Fell Beings of Mirkwood",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Minas Morgul",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -5391,19 +5748,59 @@
 					"Infantry",
 					"Hero"
 				],
-				"requiredChildren": [
+				"options": [],
+				"specialRules": [],
+				"wargear": [
+					"Armour"
+				]
+			},
+			{
+				"name": "Isengard Orc Captain",
+				"factions": [
 					{
-						"name": "Warg",
-						"elementPropertyName": "options",
-						"in": [
-							[
-								"Wolves of Isengard"
-							]
-						],
-						"points": 10
+						"name": "Army of the White Hand",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Ugluk's Scouts",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Wolves of Isengard",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"options": [],
+				"unlimited": true,
+				"points": 45,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 5,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 3,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic March"
+				],
+				"keywords": [
+					"Orc",
+					"Mordor",
+					"Infantry",
+					"Hero"
+				],
+				"options": [
+					{
+						"name": "Warg",
+						"points": 20,
+						"availableIn": [
+							"Wolves of Isengard"
+						]
+					}
+				],
 				"specialRules": [],
 				"wargear": [
 					"Armour"
@@ -5471,7 +5868,7 @@
 				]
 			},
 			{
-				"name": "Orc Taskmaster",
+				"name": "Mordor Orc Taskmaster",
 				"factions": [
 					{
 						"name": "Mordor",
@@ -5480,10 +5877,18 @@
 					{
 						"name": "Fell Beings of Mirkwood",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Minas Morgul",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Black Gate Opens",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
-				"points": 50,
+				"points": 45,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 5,
@@ -5627,14 +6032,6 @@
 						"heroicTier": "Minor Hero"
 					},
 					{
-						"name": "Wolves of Isengard",
-						"heroicTier": "Minor Hero"
-					},
-					{
-						"name": "Cirith Ungol",
-						"heroicTier": "Minor Hero"
-					},
-					{
 						"name": "Assault on Lothlorien",
 						"heroicTier": "Hero of Fortitude"
 					},
@@ -5665,25 +6062,12 @@
 					"Infantry",
 					"Hero"
 				],
-				"requiredChildren": [
-					{
-						"name": "Warg",
-						"elementPropertyName": "options",
-						"in": [
-							[
-								"Wolves of Isengard"
-							]
-						],
-						"points": 10
-					}
-				],
 				"options": [
 					{
 						"name": "Warg",
 						"points": 10,
 						"availableIn": [
 							"Mordor",
-							"Wolves of Isengard",
 							"Assault on Lothlorien",
 							"Fell Beings of Mirkwood"
 						]
@@ -5785,7 +6169,7 @@
 					}
 				],
 				"cannotBeChild": true,
-				"points": 90,
+				"points": 100,
 				"movement": 10,
 				"fight": 7,
 				"shoot": 6,
@@ -5832,6 +6216,10 @@
 					},
 					{
 						"name": "Fell Beings of Mirkwood",
+						"heroicTier": "Independent Hero"
+					},
+					{
+						"name": "Minas Morgul",
 						"heroicTier": "Independent Hero"
 					}
 				],
@@ -8102,7 +8490,11 @@
 				"name": "Saruman",
 				"factions": [
 					{
-						"name": "Isengard",
+						"name": "Muster of Isengard",
+						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Army of the White Hand",
 						"heroicTier": "Hero of Legend"
 					}
 				],
@@ -8281,9 +8673,6 @@
 			},
 			{
 				"name": "Lurtz, Uruk-Hai Scout Captain",
-				"requiredIn": [
-					"Lurtz's Scouts"
-				],
 				"factions": [
 					{
 						"name": "Isengard",
@@ -8353,9 +8742,6 @@
 			},
 			{
 				"name": "Ugluk, Uruk-hai Scout Captain",
-				"requiredIn": [
-					"Ugluk's Scouts"
-				],
 				"factions": [
 					{
 						"name": "Isengard",
@@ -8431,10 +8817,7 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
-				"requiredIn": [
-					"Wolves of Isengard"
-				],
-				"points": 50,
+				"points": 70,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 5,
@@ -8455,31 +8838,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"requiredChildren": [
-					{
-						"elementPropertyName": "options",
-						"name": "Warg",
-						"in": [
-							[
-								"Wolves of Isengard"
-							]
-						],
-						"points": 10
-					}
-				],
-				"options": [
-					{
-						"name": "Shield",
-						"points": 5
-					},
-					{
-						"name": "Warg",
-						"points": 10,
-						"requiredIn": [
-							"Wolves of Isengard"
-						]
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Sharku's Riding Dagger"
 				],
@@ -8535,14 +8894,6 @@
 					{
 						"name": "Isengard",
 						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Lurtz's Scouts",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Ugluk's Scouts",
-						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"legacy": true,
@@ -8579,7 +8930,7 @@
 				"name": "Uruk-Hai Scout Captain",
 				"factions": [
 					{
-						"name": "Isengard",
+						"name": "Army of the White Hand",
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
@@ -8588,6 +8939,10 @@
 					},
 					{
 						"name": "Ugluk's Scouts",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Muster of Isengard",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -8698,10 +9053,25 @@
 				"defence": 5,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 1,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Accuracy"
 				],
@@ -8716,12 +9086,13 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Woodland Creature"
+					"Woodland Creature",
+					"Well-aimed Shot"
 				],
 				"wargear": [
 					"Armour",
 					"Bow",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -9635,7 +10006,8 @@
 				"options": [],
 				"specialRules": [
 					"Terror",
-					"Throw Stones (range 12\", Strength 8)"
+					"Throw Stones (range 12\", Strength 8)",
+					"Fearless"
 				],
 				"wargear": [
 					"Heavy armour",
@@ -9796,10 +10168,25 @@
 				"defence": 8,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 6,
 				"might": 3,
 				"will": 2,
-				"fate": 2,
+				"fate": 3,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Fellowship"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Strike",
 					"Heroic Strength"
@@ -9850,16 +10237,13 @@
 				],
 				"specialRules": [
 					"Axes of the Dwarves!",
-					"I Myself am sitting pretty on 43",
-					"Master-Forged",
-					"Two-Handed"
+					"I Myself am sitting pretty on 43"
 				],
 				"wargear": [
-					"Axe",
-					"Axe",
-					"Master Forged two-handed axe",
-					"Throwing axes",
-					"Heavy Dwarf Armour"
+					"Heavy Dwarf Armour",
+					"Master-forged two-handed weapon",
+					"Two hand weapons",
+					"Throwing weapons"
 				]
 			},
 			{
@@ -10047,7 +10431,11 @@
 				"name": "Grima Wormtongue",
 				"factions": [
 					{
-						"name": "Isengard",
+						"name": "Army of the White Hand",
+						"heroicTier": "Independent Hero"
+					},
+					{
+						"name": "Muster of Isengard",
 						"heroicTier": "Independent Hero"
 					}
 				],
@@ -10220,18 +10608,33 @@
 				"points": 100,
 				"movement": 6,
 				"fight": 6,
-				"shoot": 3,
+				"shoot": 2,
 				"strength": 4,
 				"defence": 4,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 4,
 				"might": 3,
 				"will": 2,
 				"fate": 3,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Fellowship"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Accuracy"
+					"Heroic Accuracy",
+					"Heroic Strike"
 				],
 				"keywords": [
 					"Elf",
@@ -10320,13 +10723,15 @@
 					}
 				],
 				"specialRules": [
+					"Sharpshooter",
 					"Woodland Creature",
 					"Final Count, 42",
-					"Deadly Shot"
+					"Deadly Shot",
+					"Pinpoint Shot"
 				],
 				"wargear": [
 					"Elf Bow",
-					"Elven-made daggers"
+					"Elven hand weapon"
 				]
 			},
 			{
@@ -10343,30 +10748,42 @@
 				],
 				"points": 95,
 				"movement": 6,
-				"fight": 6,
+				"fight": 7,
 				"shoot": 4,
 				"strength": 4,
 				"defence": 5,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 5,
 				"might": 6,
 				"will": 1,
 				"fate": 0,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Fellowship"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength",
+					"Heroic Defence",
 					"Heroic March",
-					"Heroic Defence"
+					"Heroic Strength",
+					"Heroic Strike"
 				],
 				"keywords": [
 					"Man",
 					"Gondor",
 					"Infantry",
 					"Hero"
-				],
-				"unavailableWith": [
-					"King of Men"
 				],
 				"requiredChildren": [
 					{
@@ -10389,6 +10806,11 @@
 						]
 					},
 					{
+						"name": "Elven Cloak",
+						"points": 5,
+						"availableIn": []
+					},
+					{
 						"name": "Shield",
 						"points": 5,
 						"availableIn": [
@@ -10397,9 +10819,11 @@
 						]
 					}
 				],
-				"specialRules": [],
+				"specialRules": [
+					"Protect the little ones!"
+				],
 				"wargear": [
-					"Sword",
+					"Hand weapon",
 					"Armour",
 					"Horn of Gondor"
 				]
@@ -10466,10 +10890,25 @@
 				"defence": 3,
 				"attack": 1,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 5,
 				"might": 2,
 				"will": 3,
 				"fate": 3,
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Fellowship"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Defence"
 				],
@@ -10544,6 +10983,11 @@
 						"requiredIn": [
 							"Rangers of Ithilien"
 						]
+					},
+					{
+						"name": "Elven Cloak",
+						"points": 5,
+						"availableIn": []
 					}
 				],
 				"specialRules": [
@@ -10551,7 +10995,7 @@
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
-					"Dagger",
+					"Hand weapon",
 					"The One Ring"
 				]
 			},
@@ -10698,15 +11142,30 @@
 				"shoot": 3,
 				"strength": 2,
 				"defence": 3,
-				"attack": 1,
+				"attack": 2,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 5,
 				"might": 2,
 				"will": 2,
 				"fate": 2,
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Fellowship"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength"
+					"Heroic Strength",
+					"Heroic Strike"
 				],
 				"keywords": [
 					"Hobbit",
@@ -10733,18 +11192,23 @@
 							"Breaking of the Fellowship"
 						],
 						"requiredIn": [
-							"Breaking of the Fellowship",
-							"Rangers of Ithilien"
+							"Breaking of the Fellowship"
 						]
+					},
+					{
+						"name": "Elven Cloak",
+						"points": 5,
+						"availableIn": []
 					}
 				],
 				"specialRules": [
 					"Resistant to Magic",
 					"Throw Stones (range 8\", Strength 1)",
-					"Let Him Go or I'll Have You, Longshanks!"
+					"Let him go or I'll have you, Longshanks!"
 				],
 				"wargear": [
-					"Dagger"
+					"Hand weapon",
+					"Frying Pan"
 				]
 			},
 			{
@@ -10862,10 +11326,25 @@
 				"defence": 3,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 0,
 				"will": 0,
-				"fate": 1,
+				"fate": 2,
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Fellowship"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [],
 				"keywords": [
 					"Hobbit",
@@ -10894,6 +11373,11 @@
 						"requiredIn": [
 							"Breaking of the Fellowship"
 						]
+					},
+					{
+						"name": "Elven Cloak",
+						"points": 5,
+						"availableIn": []
 					}
 				],
 				"specialRules": [
@@ -10902,7 +11386,7 @@
 					"For the Shire!"
 				],
 				"wargear": [
-					"Dagger"
+					"Hand weapon"
 				]
 			},
 			{
@@ -10933,10 +11417,11 @@
 				"defence": 3,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 7,
 				"might": 0,
 				"will": 0,
-				"fate": 1,
+				"fate": 2,
 				"heroicActions": [],
 				"keywords": [
 					"Hobbit",
@@ -10965,6 +11450,11 @@
 						"requiredIn": [
 							"Breaking of the Fellowship"
 						]
+					},
+					{
+						"name": "Elven Cloak",
+						"points": 5,
+						"availableIn": []
 					}
 				],
 				"specialRules": [
@@ -10973,7 +11463,7 @@
 					"For the Shire!"
 				],
 				"wargear": [
-					"Dagger"
+					"Hand weapon"
 				]
 			},
 			{
@@ -10990,16 +11480,32 @@
 				],
 				"points": 25,
 				"movement": 8,
-				"fight": 1,
-				"shoot": 4,
+				"fight": 2,
+				"shoot": 6,
 				"strength": 3,
 				"defence": 4,
 				"attack": 1,
 				"wounds": 2,
-				"courage": 3,
+				"courage": 6,
+				"intelligence": 7,
 				"might": 0,
 				"will": 1,
-				"fate": 1,
+				"fate": 2,
+				"race": [
+					"Pony"
+				],
+				"faction": [
+					"Fellowship"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Beast",
+					"Unique"
+				],
+				"baseSize": [
+					"40mm"
+				],
 				"heroicActions": [],
 				"keywords": [
 					"Pony",
@@ -11008,11 +11514,14 @@
 				],
 				"options": [],
 				"specialRules": [
+					"Fearful",
 					"Official Meals",
-					"Only a Pony",
-					"Second Breakfast"
+					"Second Breakfast",
+					"Only a Pony"
 				],
-				"wargear": []
+				"wargear": [
+					"Iron-shod hooves (hand weapon)"
+				]
 			},
 			{
 				"name": "The Gatekeeper of Bree",
@@ -11112,29 +11621,36 @@
 						"heroicTier": "Hero of Legend"
 					}
 				],
-				"unavailableWith": [
-					"Frodo of the Nine Fingers",
-					"Samwise the Brave",
-					"Meriadoc, Captain of the Shire",
-					"Peregrin, Captain of the Shire"
-				],
-				"requiredIn": [
-					"Vanquishers of the Necromancer"
-				],
 				"points": 170,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
 				"strength": 4,
 				"defence": 5,
-				"attack": 1,
+				"attack": 2,
 				"wounds": 3,
-				"courage": 7,
+				"courage": 3,
+				"intelligence": 3,
 				"might": 3,
 				"will": 6,
 				"fate": 3,
+				"race": [
+					"Wizard"
+				],
+				"faction": [
+					"Fellowship"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Channeling",
+					"Heroic Defence",
 					"Heroic Resolve",
 					"Heroic Strike"
 				],
@@ -11145,14 +11661,14 @@
 				],
 				"specialRules": [],
 				"wargear": [
-					"Staff of Power",
 					"Glamdring",
-					"Narya"
+					"Narya",
+					"Staff of Power"
 				],
 				"options": [
 					{
 						"name": "Horse",
-						"points": 10,
+						"points": 20,
 						"availableIn": [
 							"Survivors of Lake-town",
 							"The White Council",
@@ -11170,34 +11686,19 @@
 				],
 				"magicalPowers": [
 					{
-						"name": "Blinding Light",
-						"range": 0,
-						"casting": 2
-					},
-					{
-						"name": "Collapse Rocks",
+						"name": "Protection of the Valar",
 						"range": 6,
-						"casting": 5
-					},
-					{
-						"name": "Command",
-						"range": 12,
-						"casting": 4
-					},
-					{
-						"name": "Immobilise",
-						"range": 12,
 						"casting": 3
 					},
 					{
-						"name": "Protection of the Valar",
+						"name": "Terrifying Aura",
 						"range": 0,
-						"casting": 4
+						"casting": 3
 					},
 					{
-						"name": "Sorcerous Blast",
-						"range": 12,
-						"casting": 5
+						"name": "Blinding Light",
+						"range": 0,
+						"casting": 4
 					},
 					{
 						"name": "Strengthen Will",
@@ -11205,9 +11706,24 @@
 						"casting": 4
 					},
 					{
-						"name": "Terrifying Aura",
-						"range": 0,
-						"casting": 2
+						"name": "Transfix",
+						"range": 12,
+						"casting": 4
+					},
+					{
+						"name": "Collapse Rocks",
+						"range": 12,
+						"casting": 5
+					},
+					{
+						"name": "Foil Magic",
+						"range": 12,
+						"casting": 5
+					},
+					{
+						"name": "Sorcerous Blast",
+						"range": 12,
+						"casting": 5
 					}
 				]
 			},
@@ -14046,10 +14562,25 @@
 				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 3,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Accuracy",
 					"Heroic March"
@@ -14062,13 +14593,13 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Master of Ambush",
+					"Master of Reserves",
 					"Woodland Creature"
 				],
 				"wargear": [
 					"Armour",
 					"Bow",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -15083,12 +15614,16 @@
 				"name": "Uruk-Hai Captain",
 				"factions": [
 					{
-						"name": "Isengard",
+						"name": "Muster of Isengard",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Assault Upon Helm's Deep",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
-				"points": 60,
+				"points": 65,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
@@ -15109,20 +15644,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Crossbow",
-						"points": 5
-					},
-					{
-						"name": "Shield",
-						"points": 5
-					},
-					{
-						"name": "Two-handed weapon",
-						"points": 5
-					}
-				],
+				"options": [],
 				"specialRules": [],
 				"wargear": [
 					"Heavy Armour",
@@ -15130,10 +15652,10 @@
 				]
 			},
 			{
-				"name": "Uruk-Hai Captain - Assault on Helm's Deep",
+				"name": "Uruk-hai Captain Leader",
 				"factions": [
 					{
-						"name": "Assault on Helm's Deep",
+						"name": "Assault Upon Helm's Deep",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -15141,8 +15663,7 @@
 				"increaseMaximumChildren": {
 					"warriors": 6
 				},
-				"unlimited": true,
-				"points": 60,
+				"points": 65,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
@@ -15163,20 +15684,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Crossbow",
-						"points": 5
-					},
-					{
-						"name": "Shield",
-						"points": 5
-					},
-					{
-						"name": "Two-handed weapon",
-						"points": 5
-					}
-				],
+				"options": [],
 				"specialRules": [],
 				"wargear": [
 					"Heavy Armour",
@@ -15352,19 +15860,15 @@
 				]
 			},
 			{
-				"name": "Dunlending Chieftain",
+				"name": "Wild Man Chieftain",
 				"factions": [
 					{
-						"name": "Isengard",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Army of Dunland",
+						"name": "Army of the White Hand",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"legacy": true,
-				"points": 55,
+				"points": 40,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 4,
@@ -15388,13 +15892,12 @@
 				"unlimited": true,
 				"options": [
 					{
-						"name": "Bow",
+						"name": "Light shield",
 						"points": 5
 					},
 					{
-						"name": "Swap Two-Handed Axe for Axe and Shield",
-						"usesDefinition": "Shield",
-						"points": 0
+						"name": "Two-handed weapon",
+						"points": 5
 					}
 				],
 				"specialRules": [],
@@ -17517,6 +18020,10 @@
 					{
 						"name": "Army of Dunland",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of the White Hand",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 55,
@@ -17563,9 +18070,6 @@
 						"name": "Depths of Moria",
 						"heroicTier": "Hero of Legend"
 					}
-				],
-				"requiredIn": [
-					"Depths of Moria"
 				],
 				"points": 350,
 				"movement": 8,
@@ -17833,7 +18337,7 @@
 					}
 				],
 				"unlimited": true,
-				"points": 35,
+				"points": 40,
 				"movement": 5,
 				"fight": 3,
 				"shoot": 5,
@@ -17858,10 +18362,6 @@
 					{
 						"name": "Orc Bow",
 						"points": 5
-					},
-					{
-						"name": "Shield",
-						"points": 5
 					}
 				],
 				"specialRules": [
@@ -17877,10 +18377,6 @@
 				"factions": [
 					{
 						"name": "Moria",
-						"heroicTier": "Minor Hero"
-					},
-					{
-						"name": "Depths of Moria",
 						"heroicTier": "Minor Hero"
 					},
 					{
@@ -17938,10 +18434,6 @@
 					{
 						"name": "Moria",
 						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Depths of Moria",
-						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"legacy": true,
@@ -17983,10 +18475,6 @@
 				"factions": [
 					{
 						"name": "Moria",
-						"heroicTier": "Minor Hero"
-					},
-					{
-						"name": "Depths of Moria",
 						"heroicTier": "Minor Hero"
 					}
 				],
@@ -18283,7 +18771,7 @@
 				"name": "The Watcher in the Water",
 				"factions": [
 					{
-						"name": "Moria",
+						"name": "Depths of Moria",
 						"heroicTier": "Independent Hero"
 					}
 				],
@@ -18946,6 +19434,39 @@
 				]
 			},
 			{
+				"name": "Corsair Ballista",
+				"factions": [
+					{
+						"name": "Corsair Fleet",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"unlimited": true,
+				"points": 70,
+				"movement": 0,
+				"fight": 0,
+				"shoot": 0,
+				"strength": 8,
+				"defence": 10,
+				"attack": 0,
+				"wounds": 4,
+				"courage": 0,
+				"might": 0,
+				"will": 0,
+				"fate": 0,
+				"heroicActions": [],
+				"increaseMaximumChildren": {
+					"warriors": -3
+				},
+				"keywords": [
+					"Siege Weapon",
+					"Iron Hills"
+				],
+				"options": [],
+				"specialRules": [],
+				"wargear": []
+			},
+			{
 				"name": "Iron Hills Ballista",
 				"factions": [
 					{
@@ -19020,12 +19541,12 @@
 						"heroicTier": "Minor Hero"
 					},
 					{
-						"name": "Assault on Helm's Deep",
+						"name": "Assault Upon Helm's Deep",
 						"heroicTier": "Minor Hero"
 					}
 				],
 				"unlimited": true,
-				"points": 65,
+				"points": 75,
 				"movement": 0,
 				"fight": 0,
 				"shoot": 0,
@@ -19211,21 +19732,36 @@
 					}
 				],
 				"points": 150,
-				"movement": 3,
+				"movement": 12,
 				"fight": 8,
 				"shoot": 4,
 				"strength": 6,
 				"defence": 8,
-				"attack": 2,
+				"attack": 3,
 				"wounds": 3,
-				"courage": 6,
+				"courage": 3,
+				"intelligence": 3,
 				"might": 3,
 				"will": 3,
 				"fate": 3,
+				"race": [
+					"Eagle"
+				],
+				"faction": [
+					"Misty Mountains"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Monster",
+					"Unique"
+				],
+				"baseSize": [
+					"60mm"
+				],
 				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength",
-					"Heroic Defence"
+					"Heroic Defence",
+					"Heroic Strength"
 				],
 				"keywords": [
 					"Eagle",
@@ -19235,14 +19771,15 @@
 				],
 				"options": [],
 				"specialRules": [
+					"Dominant (4)",
 					"Fly",
+					"Large Target",
 					"Monstrous Charge",
 					"Terror",
-					"Lord of the Eagles"
+					"The Windlord"
 				],
 				"wargear": [
-					"Claws",
-					"Beak"
+					"Claws and beak (hand weapon)"
 				]
 			},
 			{
@@ -20016,6 +20553,10 @@
 				"name": "Haradrim Chieftain",
 				"factions": [
 					{
+						"name": "Harad",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
 						"name": "The Serpent Horde",
 						"heroicTier": "Hero of Fortitude"
 					},
@@ -20261,15 +20802,15 @@
 				]
 			},
 			{
-				"name": "Corsair Captain",
+				"name": "Corsair Captain Leader",
 				"factions": [
 					{
-						"name": "Corsairs of Umbar",
+						"name": "Corsair Fleet",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
-				"points": 50,
+				"points": 55,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
@@ -20292,20 +20833,53 @@
 				],
 				"options": [
 					{
-						"name": "Bow",
-						"points": 5
-					},
+						"name": "Exchange two-handed weapon for crossbow",
+						"points": 0
+					}
+				],
+				"specialRules": [
+					"Fearless",
+					"Sharpshooter"
+				],
+				"wargear": [
+					"Sword",
+					"Throwing Daggers"
+				]
+			},
+			{
+				"name": "Corsair Captain",
+				"factions": [
 					{
-						"name": "Crossbow",
-						"points": 5
-					},
+						"name": "Corsair Fleet",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"unlimited": true,
+				"points": 55,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 4,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic March"
+				],
+				"keywords": [
+					"Man",
+					"Corsair",
+					"Infantry",
+					"Hero"
+				],
+				"options": [
 					{
-						"name": "Two-Handed Axe",
-						"points": 5
-					},
-					{
-						"name": "Shield",
-						"points": 5
+						"name": "Exchange two-handed weapon for crossbow",
+						"points": 0
 					}
 				],
 				"specialRules": [],
@@ -20318,12 +20892,12 @@
 				"name": "Corsair Bo'sun",
 				"factions": [
 					{
-						"name": "Corsairs of Umbar",
+						"name": "Corsair Fleet",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
-				"points": 45,
+				"points": 50,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 4,
@@ -20346,24 +20920,8 @@
 				],
 				"options": [
 					{
-						"name": "Bow",
-						"points": 5
-					},
-					{
-						"name": "Crossbow",
-						"points": 5
-					},
-					{
-						"name": "Two-Handed Axe",
-						"points": 5
-					},
-					{
-						"name": "Spear",
-						"points": 1
-					},
-					{
-						"name": "Shield",
-						"points": 5
+						"name": "Exchange spear for crossbow",
+						"points": 0
 					}
 				],
 				"specialRules": [
@@ -21402,7 +21960,7 @@
 				"name": "The Mumak War Leader",
 				"factions": [
 					{
-						"name": "Far Harad",
+						"name": "Harad",
 						"heroicTier": "Hero of Legend"
 					},
 					{
@@ -21609,6 +22167,10 @@
 				"name": "War Mumak of Harad",
 				"specialText": "A War Mumak of Harad's Howdah has a capacity of 12 models, in addition to the commander. The only models that may ride within the Howdah are Haradrim Warriors, Serpent Guard and Watchers of Karna.",
 				"factions": [
+					{
+						"name": "Harad",
+						"heroicTier": "Hero of Fortitude"
+					},
 					{
 						"name": "The Serpent Horde",
 						"heroicTier": "Hero of Fortitude"
@@ -23912,9 +24474,10 @@
 			{
 				"name": "Hill Tribesman",
 				"factions": [
-					"Dunland"
+					"Usurpers of Edoras",
+					"Besiegers of the Hornburg"
 				],
-				"points": 1,
+				"points": 5,
 				"movement": 6,
 				"fight": 3,
 				"shoot": 4,
@@ -23964,6 +24527,65 @@
 					{
 						"name": "Two-handed weapon",
 						"points": 0,
+						"chooseOneKey": "a"
+					}
+				],
+				"specialRules": [
+					"Hatred (Rohan)"
+				],
+				"wargear": [
+					"Hand weapon"
+				]
+			},
+			{
+				"name": "Rohirrim Traitor",
+				"factions": [
+					"Usurpers of Edoras"
+				],
+				"points": 5,
+				"movement": 6,
+				"fight": 1,
+				"shoot": 1,
+				"strength": 1,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 8,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Dunland"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"options": [
+					{
+						"name": "War horn, shield, and throwing spears",
+						"points": 28,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Banner",
+						"points": 25,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Shield and throwing spears",
+						"points": 3,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Bow",
+						"points": 1,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Shield",
+						"points": 1,
 						"chooseOneKey": "a"
 					}
 				],
@@ -24785,7 +25407,8 @@
 			{
 				"name": "Grima Wormtongue",
 				"factions": [
-					"Isengard"
+					"Army of the White Hand",
+					"Muster of Isengard"
 				],
 				"unique": true,
 				"points": 25,
@@ -24807,12 +25430,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Horse",
-						"points": 10
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"A Traitor Within",
 					"Wormtongue"
@@ -25123,7 +25741,8 @@
 				"factions": [
 					"Mordor",
 					"Barad-Dur",
-					"Fell Beings of Mirkwood"
+					"Fell Beings of Mirkwood",
+					"Minas Morgul"
 				],
 				"points": 30,
 				"movement": 6,
@@ -25760,7 +26379,6 @@
 				"name": "Orc",
 				"factions": [
 					"Mordor",
-					"The Black Gate Opens",
 					"The Army of Gothmog",
 					"Isengard"
 				],
@@ -25790,13 +26408,12 @@
 			{
 				"name": "Mordor Orc Warrior",
 				"factions": [
+					"Minas Morgul",
 					"Mordor",
 					"Barad-Dur",
-					"The Black Gate Opens",
 					"The Army of Gothmog",
 					"Isengard",
 					"Cirith Ungol",
-					"Ugluk's Scouts",
 					"Assault on Lothlorien",
 					"Fell Beings of Mirkwood"
 				],
@@ -25815,6 +26432,83 @@
 				],
 				"faction": [
 					"Mordor"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"keywords": [
+					"Orc",
+					"Mordor",
+					"Infantry",
+					"Warrior"
+				],
+				"options": [
+					{
+						"name": "Banner",
+						"points": 25,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Orc bow",
+						"points": 1,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Shield",
+						"points": 1,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Spear",
+						"points": 1,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Two-handed weapon",
+						"points": 1,
+						"chooseOneKey": "a"
+					}
+				],
+				"specialRules": [],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				],
+				"ignoreLimits": [
+					{
+						"type": "bow",
+						"in": [
+							"Mordor",
+							"Great Beast of Gorgoroth"
+						]
+					}
+				]
+			},
+			{
+				"name": "Isengard Orc Warrior",
+				"factions": [
+					"Army of the White Hand",
+					"Ugluk's Scouts"
+				],
+				"points": 5,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 5,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Isengard"
 				],
 				"unitType": [
 					"Warrior",
@@ -25962,7 +26656,8 @@
 				"factions": [
 					"Legions of Mordor",
 					"The Black Gate Opens",
-					"Army of Gothmog"
+					"Army of Gothmog",
+					"Minas Morgul"
 				],
 				"points": 8,
 				"movement": 6,
@@ -26059,7 +26754,6 @@
 			{
 				"name": "Mordor Uruk-Hai",
 				"factions": [
-					"Mordor",
 					"Cirith Ungol"
 				],
 				"points": 8,
@@ -26079,19 +26773,7 @@
 				],
 				"options": [
 					{
-						"name": "Banner",
-						"points": 25
-					},
-					{
-						"name": "Orc bow",
-						"points": 1
-					},
-					{
-						"name": "Shield",
-						"points": 1
-					},
-					{
-						"name": "Two-handed mace",
+						"name": "Two-handed weapon",
 						"points": 1
 					}
 				],
@@ -26153,9 +26835,54 @@
 					"Mordor",
 					"Barad-Dur",
 					"Isengard",
-					"Wolves of Isengard",
 					"Assault on Lothlorien",
 					"Fell Beings of Mirkwood"
+				],
+				"points": 11,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 5,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 2,
+				"keywords": [
+					"Orc",
+					"Mordor",
+					"Cavalry",
+					"Warrior"
+				],
+				"options": [
+					{
+						"name": "Shield & throwing spears",
+						"points": 2
+					},
+					{
+						"name": "Orc bow",
+						"points": 1
+					},
+					{
+						"name": "Shield",
+						"points": 1
+					},
+					{
+						"name": "Throwing spears",
+						"points": 1
+					}
+				],
+				"specialRules": [],
+				"wargear": [
+					"Armour",
+					"Sword",
+					"Warg"
+				]
+			},
+			{
+				"name": "Isengard Warg Rider",
+				"factions": [
+					"Army of the White Hand",
+					"Wolves of Isengard"
 				],
 				"points": 11,
 				"movement": 6,
@@ -26296,7 +27023,8 @@
 					"Legions of Mordor",
 					"The Black Gate Opens",
 					"Army of Gothmog",
-					"Barad-Dur"
+					"Barad-Dur",
+					"Minas Morgul"
 				],
 				"points": 90,
 				"movement": 6,
@@ -26890,10 +27618,11 @@
 				]
 			},
 			{
-				"name": "Dead Marsh Spectre",
+				"name": "Spectre",
 				"factions": [
 					"Angmar",
-					"Host of the Witch-King"
+					"Host of the Witch-King",
+					"Minas Morgul"
 				],
 				"points": 15,
 				"movement": 6,
@@ -26925,10 +27654,40 @@
 				"name": "Wild Warg",
 				"factions": [
 					"Angmar",
-					"Wolves of Isengard",
 					"Assault on Lothlorien",
 					"Wolf Pack of Angmar",
 					"Buhrdur's Horde"
+				],
+				"additionalHeroes": [
+					"Druzhag the Beastcaller"
+				],
+				"availableIn": [
+					"Druzhag the Beastcaller"
+				],
+				"points": 7,
+				"movement": 10,
+				"fight": 3,
+				"shoot": 5,
+				"strength": 4,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 2,
+				"keywords": [
+					"Warg",
+					"Infantry",
+					"Warrior"
+				],
+				"options": [],
+				"specialRules": [],
+				"wargear": [
+					"Claws and Teeth"
+				]
+			},
+			{
+				"name": "Isengard Warg",
+				"factions": [
+					"Wolves of Isengard"
 				],
 				"additionalHeroes": [
 					"Druzhag the Beastcaller"
@@ -26980,11 +27739,11 @@
 				],
 				"options": [
 					{
-						"name": "Troll Chain",
+						"name": "Troll Spear",
 						"points": 5
 					},
 					{
-						"name": "Swap Spear for Hand-and-a-half hammer",
+						"name": "Hand-and-a-half hammer",
 						"points": 5
 					}
 				],
@@ -27258,9 +28017,10 @@
 			{
 				"name": "Uruk-hai Scout",
 				"factions": [
-					"Isengard",
+					"Army of the White Hand",
 					"Lurtz's Scouts",
-					"Ugluk's Scouts"
+					"Ugluk's Scouts",
+					"Muster of Isengard"
 				],
 				"points": 8,
 				"movement": 6,
@@ -27279,12 +28039,12 @@
 				],
 				"options": [
 					{
-						"name": "Shield",
-						"points": 1
-					},
-					{
 						"name": "Banner",
 						"points": 25
+					},
+					{
+						"name": "Shield",
+						"points": 1
 					},
 					{
 						"name": "Uruk-Hai Bow",
@@ -27300,9 +28060,6 @@
 							]
 						],
 						"unavailableIn": [
-							[
-								"Lurtz's Scouts"
-							],
 							[
 								"Ugluk's Scouts"
 							]
@@ -27332,7 +28089,8 @@
 				"name": "Uruk-hai Warrior",
 				"factions": [
 					"Isengard",
-					"Assault on Helm's Deep"
+					"Assault Upon Helm's Deep",
+					"Muster of Isengard"
 				],
 				"points": 9,
 				"movement": 6,
@@ -28877,8 +29635,8 @@
 			{
 				"name": "Uruk-hai Berserker",
 				"factions": [
-					"Isengard",
-					"Assault on Helm's Deep"
+					"Muster of Isengard",
+					"Assault Upon Helm's Deep"
 				],
 				"points": 15,
 				"movement": 6,
@@ -28908,7 +29666,7 @@
 				"name": "Uruk-Hai Demolition Team",
 				"factions": [
 					"Isengard",
-					"Assault on Helm's Deep"
+					"Assault Upon Helm's Deep"
 				],
 				"points": 80,
 				"hideStats": true,
@@ -28932,15 +29690,7 @@
 					"Infantry",
 					"Warrior"
 				],
-				"options": [
-					{
-						"name": "Equip Uruk-hai Warrior with flaming brand",
-						"usesDefinition": "Flaming Brands",
-						"points": 1,
-						"increment": true,
-						"max": 2
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Demolition Charge",
 					"Moving the Charge",
@@ -29029,7 +29779,7 @@
 			{
 				"name": "Wild Man of Dunland",
 				"factions": [
-					"Isengard",
+					"Army of the White Hand",
 					"Army of Dunland"
 				],
 				"points": 5,
@@ -29049,8 +29799,34 @@
 				],
 				"options": [
 					{
+						"name": "Light shield and Flaming Brand",
+						"points": 2,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Bow",
+						"points": 1,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Flaming Brand",
+						"points": 1,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Light shield",
+						"points": 1,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Spear",
+						"points": 1,
+						"chooseOneKey": "a"
+					},
+					{
 						"name": "Two-handed axe",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -29611,8 +30387,9 @@
 			{
 				"name": "Crebain",
 				"factions": [
-					"Isengard",
-					"Army of Dunland"
+					"Army of the White Hand",
+					"Usurpers of Edoras",
+					"Besiegers of the Hornburg"
 				],
 				"points": 20,
 				"movement": 4,
@@ -29870,8 +30647,7 @@
 			{
 				"name": "Moria Blackshield",
 				"factions": [
-					"Moria",
-					"Depths of Moria"
+					"Moria"
 				],
 				"legacy": true,
 				"points": 8,
@@ -29910,7 +30686,6 @@
 				"name": "Moria Goblin Prowlers",
 				"factions": [
 					"Moria",
-					"Depths of Moria",
 					"Assault on Lothlorien"
 				],
 				"points": 7,
@@ -29980,8 +30755,7 @@
 			{
 				"name": "Moria Goblin Drum",
 				"factions": [
-					"Moria",
-					"Depths of Moria"
+					"Moria"
 				],
 				"points": 75,
 				"includes": [
@@ -30011,8 +30785,7 @@
 			{
 				"name": "Moria Blackshield Drummers",
 				"factions": [
-					"Moria",
-					"Depths of Moria"
+					"Moria"
 				],
 				"legacy": true,
 				"points": 75,
@@ -30307,14 +31080,29 @@
 					"Men of the West"
 				],
 				"points": 100,
-				"movement": 3,
+				"movement": 12,
 				"fight": 7,
 				"shoot": 4,
 				"strength": 6,
 				"defence": 8,
 				"attack": 2,
 				"wounds": 3,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 4,
+				"race": [
+					"Eagle"
+				],
+				"faction": [
+					"The Misty Mountains"
+				],
+				"unitType": [
+					"Warrior",
+					"Monster",
+					"Infantry"
+				],
+				"baseSize": [
+					"60mm"
+				],
 				"keywords": [
 					"Eagle",
 					"Monster",
@@ -30322,32 +31110,48 @@
 					"Warrior"
 				],
 				"wargear": [
-					"Claws",
-					"Beak"
+					"Claws and beak (hand weapon)"
 				],
 				"specialRules": [
+					"Dominant (3)",
 					"Fly",
+					"Large Target",
 					"Monstrous Charge",
 					"Terror"
 				],
 				"options": []
 			},
 			{
-				"name": "Fledgeling Great Eagle",
+				"name": "FledgelingGreat Eagle",
 				"factions": [
 					"The Eagles",
 					"Radagast's Alliance",
 					"Men of the West"
 				],
 				"points": 75,
-				"movement": 3,
-				"fight": 7,
+				"movement": 12,
+				"fight": 6,
 				"shoot": 4,
-				"strength": 6,
-				"defence": 8,
+				"strength": 5,
+				"defence": 7,
 				"attack": 2,
 				"wounds": 3,
-				"courage": 6,
+				"courage": 5,
+				"intelligence": 5,
+				"race": [
+					"Eagle"
+				],
+				"faction": [
+					"The Misty Mountains"
+				],
+				"unitType": [
+					"Warrior",
+					"Monster",
+					"Infantry"
+				],
+				"baseSize": [
+					"60mm"
+				],
 				"keywords": [
 					"Eagle",
 					"Monster",
@@ -30355,11 +31159,12 @@
 					"Warrior"
 				],
 				"wargear": [
-					"Claws",
-					"Beak"
+					"Claws and beak (hand weapon)"
 				],
 				"specialRules": [
+					"Dominant (2)",
 					"Fly",
+					"Large Target",
 					"Monstrous Charge",
 					"Terror"
 				],
@@ -30503,7 +31308,8 @@
 				"factions": [
 					"The Serpent Horde",
 					"Grand Army of the South",
-					"Legions of Mordor"
+					"Legions of Mordor",
+					"Harad"
 				],
 				"additionalHeroes": [
 					{
@@ -30546,16 +31352,15 @@
 					},
 					{
 						"name": "War Horn",
-						"points": 30
+						"points": 25
+					},
+					{
+						"name": "Bow",
+						"points": 1
 					},
 					{
 						"name": "Spear",
 						"points": 1
-					},
-					{
-						"name": "Bow with poisoned arrows",
-						"points": 1,
-						"usesDefinition": "Bow with poisoned arrows"
 					}
 				],
 				"specialRules": [],
@@ -30744,9 +31549,9 @@
 			{
 				"name": "Corsair of Umbar",
 				"factions": [
-					"Corsairs of Umbar"
+					"Corsair Fleet"
 				],
-				"points": 7,
+				"points": 8,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 4,
@@ -30763,11 +31568,11 @@
 				],
 				"options": [
 					{
-						"name": "Shield",
+						"name": "Bow",
 						"points": 1
 					},
 					{
-						"name": "Bow",
+						"name": "Light shield and throwing weapons",
 						"points": 1
 					},
 					{
@@ -31594,6 +32399,31 @@
 				"intelligence": 6,
 				"specialRules": [
 					"Sure-footed Steed"
+				]
+			},
+			{
+				"name": "Gandalf's Cart",
+				"type": "mount",
+				"movement": 8,
+				"fight": 1,
+				"shoot": 6,
+				"strength": 3,
+				"defence": 3,
+				"attack": 0,
+				"wounds": 3,
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Horse"
+				],
+				"unitType": [
+					"Mount"
+				],
+				"baseSize": [
+					"60mm"
+				],
+				"specialRules": [
+					"Gandalf's Rockets"
 				]
 			},
 			{
@@ -33063,6 +33893,11 @@
 				"specialRules": [
 					"Faithful Servant"
 				]
+			},
+			{
+				"name": "Frying Pan",
+				"tag": "Active",
+				"definition": "Instead of making Strikes if he wins a Duel Roll, Sam may choose to use his Frying Pan as a weapon. Choose one enemy Infantry model involved in the Combat (with the exception of a Monster) and roll a D6. On a 4+, the chosen model is stunned by the hit and cannot Move during the following turn, but may otherwise act normally."
 			}
 		],
 		"magicalPowers": [
@@ -33604,7 +34439,7 @@
 			{
 				"name": "Master of Reserves",
 				"tag": "Passive",
-				"definition": "In Scenarios where you roll for additional forces to arrive \n                (such as those that use the Reinforcements rule), you may modify the \n                Reinforcements roll for Guritz’s warband by +1 or -1. If Guritz is already \n                on the board, then all warbands in your army may also modify their Reinforcements \n                roll by +1 or -1. In Scenarios where you roll to see which part of the board your \n                warbands deploy in, you may modify the dice roll by +1 or -1. (Gondor at War p90)"
+				"definition": "In Scenarios where you roll for Warbands to arrive, or ones where you roll to see which part of the board you deploy a Warband in (though not when rolling to choose deployment zones), you may modify the roll for Madril's Warband by +1 or -1, even if he is not on the battlefield. If Madril is on the battlefield, you may also modify the roll for other Warbands in your Army by +1 or -2"
 			},
 			{
 				"name": "Reckless Fighter",
@@ -33845,12 +34680,12 @@
 			{
 				"name": "Axes of the Dwarves!",
 				"tag": "Active",
-				"definition": "At the beginning of each fight, Gimli can choose to use either an Axe in each hand, in which case he fights with 3 Attacks, or use his Two-handed Axe."
+				"definition": "At the beginning of each Combat he is involved in, Gimli can choose to either fight with an axe in each hand, in which case he will fight with 3 Attacks, or his two-handed axe."
 			},
 			{
 				"name": "I Myself am sitting pretty on 43",
 				"tag": "Active",
-				"definition": "If Legolas and Gimli are in the same army, then keep track of how many models they have both killed. \n                If at any point Gimli has fewer kills than Legolas, then Gimli receives a +1 bonus To Wound whilst in combat."
+				"definition": "If your Army contains both Legolas Greenleaf and Gimli, son of Gloin, then keep track of how many enemy models each of them has killed. When he has fewer kills than Legolas, Gimli gains a bonus of +1 To Wound when making Strikes."
 			},
 			{
 				"name": "Strength of Body, Strength of Will",
@@ -33920,32 +34755,32 @@
 			{
 				"name": "Deadly Shot",
 				"tag": "Active",
-				"definition": "Legolas may fire his bow three times in the Shoot phase rather than once. Each of these shots may be made against a different target. \n                Alternatively, Legolas may instead choose to make one shot, but in this case he will always hit on the roll of a 2+, regardless of In The Way tests, \n                if the target is Engaged in combat or any other factors including modifiers, Magical Powers and so forth. \n                If Legolas uses this one shot to target a Cavalry model, he may choose whether he hits the rider or the mount."
+				"definition": "Legolas may make three shooting attacks during the Shoot Phase instead of one, using all the normal rules for shooting. Additionally, Legolas may still make shooting attacks whilst he is Engaged in Combat and does not suffer the -1 pentalty To Hit for Moving and Shooting so long as he has the Infantry keyword. If Legolas shoots whilst he is Engaged in Combat, he may shoot at models he is Engaged in Combat with, and does not need to make In The Way Tests for shooting at models he is Engaged in Combat with (though they may still block Line of Sight as normal)"
 			},
 			{
 				"name": "Final Count, 42",
 				"tag": "Active",
-				"definition": "If Legolas and Gimli are in the same army, then keep track of how many models they have both killed. If at any point Legolas has fewer kills than Gimli, then Legolas' Shoot value is improved by 1."
+				"definition": "If your Army contains both Legolas Greenleaf and Gimli, son of Gloin, then keep track of how many enemy models each oif them has killed. Whilst he has fewer kills than Gimili, Legolas gains a bonus of +1 To Wound when making shooting attacks."
 			},
 			{
-				"name": "Let Him Go or I'll Have You, Longshanks!",
+				"name": "Let him go or I'll have you, Longshanks!",
 				"tag": "Active",
-				"definition": "If Frodo is Engaged in a Fight within 6\" of Sam, then Sam may call a Heroic Combat without using Might. If the Heroic Combat is successful then Sam must use the following move to join Frodo's combat. If this is not possible then Sam must move as close as possible to Frodo."
+				"definition": "During the Declar Heroic Actions step of the Fight Phase, if Frodo is Engaged in Combat and is within 6\" of Sam, then Sam may declare a free Heroic Combat. If this Heroic Combat is successful, then Sam must use the following Move to join Frodo's Combat. If this is not possible, then Sam must move as close as possible to Frodo. Sam cannot use this special rule if he is in the same Combat as Frodo."
 			},
 			{
 				"name": "Official Meals",
 				"tag": "Passive",
-				"definition": "Hobbit models treat Bill the Pony as a banner."
+				"definition": "Friendly Fellowship models treat Bill the Pony as a banner."
 			},
 			{
 				"name": "Only a Pony",
 				"tag": "Passive",
-				"definition": " Bill the Pony may never Charge an enemy model for any reason and no other models may use his Stand Fast!. He may, however, benefit from the Stand Fast! roll of any friendly Hobbit model."
+				"definition": " Bill the Pony may never provide a Stand Fast. However, Bill the Pony may benefit from the Stand Fast of other Fellowship models."
 			},
 			{
 				"name": "Second Breakfast",
 				"tag": "Passive",
-				"definition": " Each turn, a single member of the Fellowship that ends their move in base contact with Bill the Pony may attempt to regain a point of Might, Will or Fate spent earlier in the battle. Roll a dice - on the score of a 5+, the point is restored."
+				"definition": "A friendly Fellowship model who ends their Activation in base contact with Bill the Pony may roll a D6. On a 5+, the model may regain a single point of Might, Will, or Fate spent earlier in the battle. Only a single friendly model can use this special rule each turn."
 			},
 			{
 				"name": "Cave Dweller",
@@ -35691,6 +36526,31 @@
 				"name": "One Final Blow",
 				"tag": "Active",
 				"definition": "If Haldir is slain in Combat, he may immediately make a single Strength 4 Strike on each enemy model that was involved in the Combat in which Haldir was slain. Haldir may use Might to increase these To Wound rolls as normal."
+			},
+			{
+				"name": "Well-aimed Shot",
+				"tag": "Active",
+				"definition": "When making a shooting attack, the first time Damrod fails an In The Way Roll he may make an Intelligence Test. If the test is passed, the In The Way Roll will be successful instead."
+			},
+			{
+				"name": "The Windlord",
+				"tag": "Active",
+				"definition": "Only Eagle and Wizard models may benefit from Gwaihir's Stand Fast or benefit from his Heroic Actions."
+			},
+			{
+				"name": "Pinpoint Shot",
+				"tag": "Active",
+				"definition": "Instead of shooting normally, Legolas may make a single shooting attack against an enemy model Engaged in Combat with a friendly model (including himself). If he does, then if the To Hit roll is successful, Legolas doesn't need to make any In The Way Rolls - the shot will automatically hit its garget."
+			},
+			{
+				"name": "Gandalf's Rockets",
+				"tag": "Active",
+				"definition": "At the start of every friendly Shoot Phase, Gandalf may select one of the fireworks listed below, then choose one enemy model he has Line of Sight to and is within 6\" of his cart and roll a D6. On a 2+, the chosen model suffers the effect of the selected firework. This can be done even if Gandalf is engaed in Combat, and may even target an enemy model who is themselves Engaged in Combat. No In The Way Rolls are required for this special rule.\n                Wooshing Arrow - The target immediately suffers a Strength 2 hit.\n                Goblin Popper - The target is immediately knocked Prone. This has no effect on Monster models.\n                Flaming Wheel - The target suffers a -1 Penalty to their Duel Rolls in the ensuins Fight Phase.\n                The Big One - The target immediately suffers a Strength 8 hit and, if they survive, are knocked Prone. This firework can only be used once per game."
+			},
+			{
+				"name": "Protect the little ones!",
+				"tag": "Passive",
+				"definition": "Whilst within 3\" of a friendly Fellowship Hobbit model, Boromir gains the Fearless special rule and may re-roll failed To Wound rolls when making Strikes."
 			}
 		]
 	}
