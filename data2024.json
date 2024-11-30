@@ -1203,6 +1203,11 @@
 				"name": "Erebor Reclaimed",
 				"alignment": "good",
 				"armyBonus": "\"The Dwarves, they're rallying\" - Any Infantry Hero in this Army may declare a Heroic March, even if it is not listed as one of their Heroic Actions. Additionally, Infantry models in this Army list can still charge after participating in a Heroic March.\n                \"Family Ties\" - The Dwarves of Thorin's Company are divided into Family Groups, which are as follows:\n                -Balin and Dwalin\n                -Kili and Fili\n                -Bifur, Bofur and Bombur\n                -Ori, Nori and Dori\n                -Oin and Gloin\n                Hero models from this Army that are within 3\" of another Hero from the same Family Group may spend that model's Might, Will and Fate points as if they were their own.\n                \"To the King!\" - If your Army contains only Hero models with the Infantry keyword at the beginning of the game, then friendly models may re-roll any To Wound Rolls of a natural 1 when making Strikes."
+			},
+			{
+				"name": "Realms of Men",
+				"alignment": "good",
+				"armyBonus": "\"Kings of Men are always a Hero of Legend. A King of Men may include Warrior models in their Warband from any Army List, so long as they share the same Faction Keyword.\n                When working out which King of Men is your Army's General, it must be the one which shares the most common Faction Keyword throughout your Army. For example, if the most common Faction Keyword in your Army is Rohan, then the King of Men with the Rohan Keyword must be your General.\n                A Realms of Men Army may not have two Kings of Men with the same Faction Keyword; however, they may have multiple Kings of Men with different Faction Keywords.\n                A Realms of Men Army can never include any models with the Unique Keyword under any circumstances. However, it can include Hero models without the Unique Keyword so long as they share a Faction Keyword with a King of Men already in the Army. For example, a Realms of Men Army with a King of Men with the Gondor Keyword could include a Captain of Minas Tirith as they would both have the Gondor Keyword. Hero models included in this manner may also include Warrior models in their Warband with the same Faction Keyword.\n                The Realms of Men Army List allows you to create your own forces and combine multiple factions of Men in a way that suits you.\n                \""
 			}
 		],
 		"heroicTiers": [
@@ -3039,6 +3044,10 @@
 					{
 						"name": "Defenders of the Pelennor",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Realms of Men",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -3116,7 +3125,8 @@
 							"Theodred's Guard",
 							"Paths of the Druadan",
 							"Helm's Guard",
-							"Defenders of the Pelennor"
+							"Defenders of the Pelennor",
+							"Realms of Men"
 						]
 					},
 					{
@@ -3128,6 +3138,7 @@
 						"name": "Shield",
 						"points": 5,
 						"availableIn": [
+							"Realms of Men",
 							"Men of the West",
 							"Defenders of the Hornburg",
 							"Army of Edoras",
@@ -8006,9 +8017,6 @@
 					"Infantry",
 					"Hero"
 				],
-				"unavailableWith": [
-					"King of Men"
-				],
 				"options": [
 					{
 						"name": "Horse",
@@ -8235,9 +8243,6 @@
 					"Gondor",
 					"Infantry",
 					"Hero"
-				],
-				"unavailableWith": [
-					"King of Men"
 				],
 				"options": [],
 				"specialRules": [
@@ -9125,9 +9130,6 @@
 					"Infantry",
 					"Hero"
 				],
-				"unavailableWith": [
-					"King of Men"
-				],
 				"options": [],
 				"specialRules": [
 					"Woodland Creature",
@@ -9271,9 +9273,6 @@
 					"Infantry",
 					"Hero"
 				],
-				"unavailableWith": [
-					"King of Men"
-				],
 				"options": [
 					{
 						"name": "Horse",
@@ -9393,9 +9392,6 @@
 					"Infantry",
 					"Hero"
 				],
-				"unavailableWith": [
-					"King of Men"
-				],
 				"options": [],
 				"specialRules": [
 					"Boldest of the Bold"
@@ -9436,9 +9432,6 @@
 					"Gondor",
 					"Infantry",
 					"Hero"
-				],
-				"unavailableWith": [
-					"King of Men"
 				],
 				"options": [
 					{
@@ -9821,6 +9814,10 @@
 					},
 					{
 						"name": "Erebor & Dale",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Realms of Men",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -11837,31 +11834,34 @@
 				"wargear": [
 					"Heavy armour",
 					"Hand weapon"
-				],
-				"unavailableWith": [
-					"Aragorn - King Elessar",
-					"King of Men"
 				]
 			},
 			{
-				"name": "King of Men",
-				"factions": [],
+				"name": "King of Men (Gondor)",
+				"factions": [
+					{
+						"name": "Realms of Men",
+						"heroicTier": "Hero of Legend"
+					}
+				],
 				"unlimited": true,
-				"points": 60,
+				"points": 75,
 				"movement": 6,
-				"fight": 5,
+				"fight": 6,
 				"shoot": 4,
 				"strength": 4,
 				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 5,
-				"might": 2,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 3,
 				"will": 2,
-				"fate": 1,
+				"fate": 2,
 				"heroicActions": [
 					"Heroic March",
-					"Heroic Defence"
+					"Heroic Resolve",
+					"Heroic STrike"
 				],
 				"keywords": [
 					"Man",
@@ -11869,55 +11869,340 @@
 					"Infantry",
 					"Hero"
 				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"options": [
 					{
-						"name": "Armoured Horse",
-						"points": 15,
-						"availableIn": [
-							"Minas Tirith"
-						]
-					},
-					{
 						"name": "Horse",
-						"points": 10,
-						"availableIn": [
-							"Minas Tirith"
-						]
+						"points": 20
 					},
 					{
-						"name": "Heavy Armour",
-						"points": 5,
-						"availableIn": [
-							"Minas Tirith"
-						]
+						"name": "Exchange armour for heavy armour",
+						"points": 5
 					},
 					{
 						"name": "Lance",
-						"points": 5,
-						"availableIn": [
-							"Minas Tirith"
-						]
+						"points": 5
 					},
 					{
 						"name": "Shield",
-						"points": 5,
-						"availableIn": [
-							"Minas Tirith"
-						]
+						"points": 5
 					}
 				],
-				"specialRules": [],
+				"specialRules": [
+					"Leader (Citadel Guard)",
+					"Leader (Guard of the Fountain Court",
+					"Shieldwall"
+				],
 				"wargear": [
 					"Armour",
-					"Sword"
+					"Hand weapon"
+				]
+			},
+			{
+				"name": "King of Men (Rohan)",
+				"factions": [
+					{
+						"name": "Realms of Men",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"unlimited": true,
+				"points": 75,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic March",
+					"Heroic Resolve",
+					"Heroic STrike"
+				],
+				"keywords": [
+					"Man",
+					"Gondor",
+					"Infantry",
+					"Hero"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"options": [
+					{
+						"name": "Horse",
+						"points": 20
+					},
+					{
+						"name": "Exchange armour for heavy armour",
+						"points": 5
+					},
+					{
+						"name": "Lance",
+						"points": 5
+					},
+					{
+						"name": "Shield",
+						"points": 5
+					}
+				],
+				"specialRules": [
+					"Expert Rider",
+					"Horse Lord",
+					"Leader (Rohan Royal Guard)"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				]
+			},
+			{
+				"name": "King of Men (Arnor)",
+				"factions": [
+					{
+						"name": "Realms of Men",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"unlimited": true,
+				"points": 75,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic March",
+					"Heroic Resolve",
+					"Heroic STrike"
+				],
+				"keywords": [
+					"Man",
+					"Gondor",
+					"Infantry",
+					"Hero"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Arnor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"options": [
+					{
+						"name": "Horse",
+						"points": 20
+					},
+					{
+						"name": "Exchange armour for heavy armour",
+						"points": 5
+					},
+					{
+						"name": "Lance",
+						"points": 5
+					},
+					{
+						"name": "Shield",
+						"points": 5
+					}
+				],
+				"specialRules": [
+					"Fearless"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				]
+			},
+			{
+				"name": "King of Men (Dale)",
+				"factions": [
+					{
+						"name": "Realms of Men",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"unlimited": true,
+				"points": 75,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 3,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic March",
+					"Heroic Resolve",
+					"Heroic STrike"
+				],
+				"keywords": [
+					"Man",
+					"Gondor",
+					"Infantry",
+					"Hero"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Dale"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"options": [
+					{
+						"name": "Horse",
+						"points": 20
+					},
+					{
+						"name": "Exchange armour for heavy armour",
+						"points": 5
+					},
+					{
+						"name": "Lance",
+						"points": 5
+					},
+					{
+						"name": "Shield",
+						"points": 5
+					}
+				],
+				"specialRules": [
+					"12\" Stand Fast affects friendly Dale Hero models"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				]
+			},
+			{
+				"name": "King of Men (Numenor)",
+				"factions": [
+					{
+						"name": "Realms of Men",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"unlimited": true,
+				"points": 75,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 5,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic March",
+					"Heroic Resolve",
+					"Heroic STrike"
+				],
+				"keywords": [
+					"Man",
+					"Gondor",
+					"Infantry",
+					"Hero"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Numenor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"options": [
+					{
+						"name": "Horse",
+						"points": 20
+					},
+					{
+						"name": "Exchange armour for heavy armour",
+						"points": 5
+					},
+					{
+						"name": "Lance",
+						"points": 5
+					},
+					{
+						"name": "Shield",
+						"points": 5
+					}
+				],
+				"specialRules": [
+					"Resistant to Magic"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
 				]
 			},
 			{
 				"name": "Ingold, Warden of the Rammas Echor",
 				"factions": [],
-				"unavailableWith": [
-					"King of Men"
-				],
 				"points": 65,
 				"movement": 6,
 				"fight": 4,
@@ -11966,9 +12251,6 @@
 						"name": "Defenders of the Pelennor",
 						"heroicTier": "Hero of Fortitude"
 					}
-				],
-				"unavailableWith": [
-					"King of Men"
 				],
 				"points": 65,
 				"movement": 6,
@@ -14716,6 +14998,10 @@
 					{
 						"name": "Defenders of the Pelennor",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Realms of Men",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -14776,9 +15062,6 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"unavailableWith": [
-					"King of Men"
-				],
 				"points": 60,
 				"movement": 6,
 				"fight": 4,
@@ -14836,9 +15119,6 @@
 					}
 				],
 				"legacy": true,
-				"unavailableWith": [
-					"King of Men"
-				],
 				"points": 35,
 				"movement": 6,
 				"fight": 4,
@@ -16390,6 +16670,10 @@
 					},
 					{
 						"name": "The Last Alliance",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Realms of Men",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -26418,7 +26702,8 @@
 					"Defenders of Helm's Deep",
 					"Army of Edoras",
 					"Defenders of the Hornburg",
-					"Men of the West"
+					"Men of the West",
+					"Realms of Men"
 				],
 				"points": 6,
 				"movement": 6,
@@ -26488,7 +26773,8 @@
 					"Paths of the Druadan",
 					"Helm's Guard",
 					"Defenders of the Hornburg",
-					"Defenders of the Pelennor"
+					"Defenders of the Pelennor",
+					"Realms of Men"
 				],
 				"points": 14,
 				"movement": 6,
@@ -26591,7 +26877,8 @@
 					"Theodred's Guard",
 					"Defenders of Helm's Deep",
 					"Paths of the Druadan",
-					"Helm's Guard"
+					"Helm's Guard",
+					"Realms of Men"
 				],
 				"points": 11,
 				"movement": 6,
@@ -27953,7 +28240,8 @@
 					"Battle of Fornost",
 					"Reclamation of Osgiliath",
 					"Atop the Wall",
-					"Defenders of the Pelennor"
+					"Defenders of the Pelennor",
+					"Realms of Men"
 				],
 				"points": 8,
 				"movement": 6,
@@ -28029,7 +28317,8 @@
 					"Garrison of Minas Tirith",
 					"Reclamatin of Osgiliath",
 					"Atop the Wall",
-					"Defenders of the Pelennor"
+					"Defenders of the Pelennor",
+					"Realms of Men"
 				],
 				"points": 15,
 				"movement": 6,
@@ -28080,7 +28369,8 @@
 			{
 				"name": "Guard of the Fountain Court",
 				"factions": [
-					"Minas Tirith"
+					"Minas Tirith",
+					"Realms of Men"
 				],
 				"points": 10,
 				"movement": 6,
@@ -28128,7 +28418,8 @@
 				"factions": [
 					"Minas Tirith",
 					"Atop the Wall",
-					"Defenders of the Pelennor"
+					"Defenders of the Pelennor",
+					"Realms of Men"
 				],
 				"points": 8,
 				"movement": 6,
@@ -28384,7 +28675,8 @@
 				"name": "Ranger of Gondor",
 				"factions": [
 					"Garrison of Ithilien",
-					"Reclamation of Osgiliath"
+					"Reclamation of Osgiliath",
+					"Realms of Men"
 				],
 				"points": 8,
 				"movement": 6,
@@ -28742,7 +29034,8 @@
 				"name": "Osgiliath Veteran",
 				"factions": [
 					"Garrison of Ithilien",
-					"Reclamation of Osgiliath"
+					"Reclamation of Osgiliath",
+					"Realms of Men"
 				],
 				"points": 9,
 				"movement": 6,
@@ -28805,7 +29098,8 @@
 					"Garrison of Dale",
 					"The Army of Dale",
 					"Defenders of Erebor",
-					"Erebor & Dale"
+					"Erebor & Dale",
+					"Realms of Men"
 				],
 				"points": 7,
 				"movement": 6,
@@ -28860,7 +29154,8 @@
 				"factions": [
 					"Garrison of Dale",
 					"The Army of Dale",
-					"Defenders of Erebor"
+					"Defenders of Erebor",
+					"Realms of Men"
 				],
 				"points": 11,
 				"movement": 6,
@@ -30499,7 +30794,8 @@
 				"name": "Warrior of Numenor",
 				"factions": [
 					"Numenor",
-					"The Last Alliance"
+					"The Last Alliance",
+					"Realms of Men"
 				],
 				"points": 9,
 				"movement": 6,
