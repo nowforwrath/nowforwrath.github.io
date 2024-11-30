@@ -9991,6 +9991,10 @@
 					{
 						"name": "The Army of Dale",
 						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Realms of Men",
+						"heroicTier": "Minor Hero"
 					}
 				],
 				"unlimited": true,
@@ -18647,6 +18651,10 @@
 					},
 					{
 						"name": "Defenders of the Pelennor",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Realms of Men",
 						"heroicTier": "Minor Hero"
 					}
 				],
