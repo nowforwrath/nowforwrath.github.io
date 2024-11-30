@@ -1010,17 +1010,12 @@
 				"requiredChildren": [
 					{
 						"name": "Bard the Bowman",
-						"points": 125,
+						"points": 130,
 						"elementPropertyName": "heroes",
 						"requiredChildren": [
 							{
-								"name": "Horse",
+								"name": "Exchange great bow for armour and horse",
 								"points": 20,
-								"elementPropertyName": "options"
-							},
-							{
-								"name": "Armour",
-								"points": 5,
 								"elementPropertyName": "options"
 							}
 						]
@@ -1121,6 +1116,93 @@
 						"elementPropertyName": "heroes"
 					}
 				]
+			},
+			{
+				"name": "Desolator of the North",
+				"alignment": "evil",
+				"armyBonus": "\"Sheer Dominance\" - Whilst Smaug is in range of an Objective Marker, he is automatically considered to be holding it and the opposition are considered to have no models within range of the Objective Marker. If models from both sides have a special rule that confers this effect, then this special rule will override the opposing one, regardless of what the opposing special rule states.\n                \"Lust for Gold\" - In Scenarios where models can carry Objective Markers, then when Smaug Moves, he must always Charge an enemy model carrying an Objective Marker if possible. If there are multiple enemy models carrying an Objective Marker that he can Charge, Smaug may choose which one he charges.\n                \"I will not part with a single coin!\" - At the start of each game, after both sides have been deployed, Smaug's opposing player must select three of their models to each be given a stash of gold - these must be different models. These models are given a Gold Marker, which is a Light Object that can never be passed to another model, and are treated as Objective Markers for the purpose of the Lust for Gold special rule. If Smaug kills an enemy model with a Gold Marker in combat, then he immediately regains the Gold Marker and it is removed from the game. If a model holding a Gold Marker is slain in any other manner, the Gold Marker drops like any other Light Object and may be picked up by another model; if this is Smaug, it will be removed from play. At the end of the game, if Smaug has reclaimed all three Gold Markers then he will score an additional 2 Victory Points. However, if any Gold Markers are in the possession of an enemy model, then Smaug's opposing player will score an additional 2 Victory Points. In either instance, this can never take an Army's total number of Victory Points above 20.",
+				"requiredChildren": [
+					{
+						"name": "Smaug",
+						"elementPropertyName": "heroes",
+						"points": 700
+					}
+				]
+			},
+			{
+				"name": "The White Council",
+				"alignment": "good",
+				"armyBonus": "\"Council of the Wise\" - Each friendly White Council model gains the special rule associated with them as listed below:\n                -Saruman - Friendly White Council models within 3\" of Saruman may re-roll any 1 in their rolls to Cast a Magical Power.\n                -Gandalf - Friendly White Council models wtihin 3\" of Gandalf may re-roll To Wound Rolls of a natural 1 when making Strikes.\n                -Radagast - Friendly White Council models that begin their Activation within 3\" of Radagast may Move through difficult terrain without penalty.\n                -Elrond - Friendly White Council models treat Elrond as a banner.\n                -Galadriel - Friendly White Council models within 3\" of Galadriel gain the Resistant to Magic special rule.\n                \"Masters of Magic\" - Friendly White Council models may still be Activated whilst Engaged in Combat (though they still may not Move), and therefore may attempt to Cast Magical Powers whilst Engaged in Combat, with the exception of the following Magical Powers: Nature's Wrath, Sorcerous Blast, Wrath of Bruinen.\n                \"Are you in need of assistance?\" - Friendly White Council models gain a bonus of +1 to any Resist Tests whilst within 6\" of another friendly White Council model.\n                \"Last Stand of the Council\" - Friendly White Council models gain the Dominant (3) special rule.\n                "
+			},
+			{
+				"name": "Assault on Ravenhill",
+				"alignment": "good",
+				"armyBonus": "\"Orcrist\" - Legolas beings the game with Orcrist - no points are paid for Orcrist, it is free. Additionally, at the start of any Fight Phase, if Legolas is within 6\" of Thorin and Thorin is Engaged in Combat, then Legolas can throw Orcrist to Thorin. From that point on, Thorin carries Orcrist instead of Legolas.\n                \"The Line of Durin\" - Friendly models treat Thorin as a banner with a range of 6\". So long as he is still alive, Thorin will count as a banner for the purpose of Victory Points in Scenarios that award Victory Points for having a banner left alive.\n                Additionally, Kili and Fili increase their Attacks to 3 in this Army List.\n                \"The King's Protector\" - If Thorin is Engaged in Combat within 6\" of Dwalin, then Dwalin may declare a Heroic Combat for free. If the Heroic Combat is successful then Dwalin must use the following Move to join Thorin's combat. If this is not possible, then Dwalin must Move as close as possible to Thorin.\n                \"Heroes of Mirkwood\" - Legolas increases his Fight Value to 7 and his Attacks to 3. Additionally, Tauriel must re-roll all failed To Wound rolls when making Strikes.\n                \"Throwing Stones\" - Instead of using his Throw Stones special rule as normal, Bilbo may use stones in the same way as a Throwing Weapon. These have a Strength of 1 and a range of 8\", and Bilbo may re-roll any failed To Wound Rolls when using stones as a Throwing Weapon.",
+				"requiredChildren": [
+					{
+						"name": "Thorin Oakenshield, King Under the Mountain",
+						"points": 130,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Garrison of Dale",
+				"alignment": "good",
+				"armyBonus": "\"Girion, lord of the city, rallied his bowmen to fire upon the beast\" - Friendly Dale models improve their Shoot Value to 3+\n                \"Bring down the Dragon\" - FriendlY Dale models may apply their Hatred (Dragon) special rule to their shooting attacks. Additionally, friendly Dale models may re-roll failed To Hit Rolls when making a shooting attack targeting a Monster model.\n                \"Girion's Last Stand\" - Girion gains the Fearless special rule. Additionally, friendly Dale models that can draw Line of Sight to Girion gain a bonus of +1 to any Courage Tests they are required to take.\n                \"Defenders of Dale\" - Friendly Dale models that are within their deployment zone, and/or within 6\" of a friendly Windlance, gain a bonus of +1 To Wound when making strikes.",
+				"requiredChildren": [
+					{
+						"name": "Girion, Lord of Dale",
+						"points": 80,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Erebor & Dale",
+				"alignment": "good",
+				"armyBonus": "\"Alliance of Men and Dwarves\" - Friendly Dale models may re-roll To Wound Rolls of a natural 1 when making Strikes if there is a friendly Erebor model Engaged in the same Combat. Friendly Erebor models may re-roll To Wound Rolls of a natural 1 when making Strikes if there is a friendly Dale model Engaged in the same Combat.\n                \"Lords of the Kingdoms\" - Friendly Dale models treat Girion as a banner. Friendly Erebor models treat Thror as a banner.\n                \"Great Prosperity\" - Whenever a friendly Hero model spends a Might Point, roll a D6. On a natural 6, the Might Ponit was free and does not reduce the Hero model's store of Might.",
+				"requiredChildren": [
+					{
+						"name": "Girion, Lord of Dale",
+						"points": 80,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Radagast's Alliance",
+				"alignment": "good",
+				"armyBonus": "\"The Eagles are Coming!\" - FriendlY Eagle models gain a bonus of +1 to their Strength on a turn in which they Charge.\n                \"Beorn's Fury\" - If Beorn is involved in a Combat and kills every model he was Engaged in Combat with, then in the following turn he may declare a Heroic Move for free.",
+				"requiredChildren": [
+					{
+						"name": "Radagast the Brown",
+						"points": 150,
+						"elementPropertyName": "heroes",
+						"requiredChildren": [
+							{
+								"name": "Great Eagle",
+								"points": 50,
+								"elementPropertyName": "options"
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "Rangers of Mirkwood",
+				"alignment": "good",
+				"armyBonus": "\"Knife Mastery\" - Friendly Elf models may re-roll To Wound Rolls of a natural 1 when making Strikes. Additionally, friendly Elf models may use the Shielding special rule, however, they cannot use their Knife Fighters or Blade Mistress special rules in a turn in which they elect to Shield.\n                \"The Prince of Mirkwood\" - Legolas gains the Knife Fighters special rule (see page 69)\n                \"Dwarven Resilience\" - Friendly Dwarf models may re-roll failed Fate Rolls.\n                \"Clear the Nests\" - Friendly models gain the Hatred (Spider) special rule.\n                \"If you think I'm giving you a weapon Dwarf, you are sorely mistaken\" - Friendly Dwarf models cannot benefit from the Heroic Actions or Stand Fast of friendly Elf models and friendly Elf models cannot benefit from the Heroic Actions or Stand Fast of friendly Dwarf models. Additionally, Tauriel's Vengeful Fury special rule does not apply in this Army List."
+			},
+			{
+				"name": "Army of Lake-town",
+				"alignment": "good",
+				"armyBonus": "\"The Master's Coin\" - At the end of his Activation if he is within 3\" of Braga, the Master of Lake-town may spend a Will Point. If he does, Braga immediately gains a Will Point spent earlier in the battle.\n                \"Air of Self-importance\" - The Master of Lake-town, Alfrid and Braga may not take part in any Heroic Action declared by Bard of a member of Bard's Family.\n                \"I Shall Protect You\" - Tauriel may include Kili, Fili, Bofur, and Oin in her warband. Additionally, if Tauriel is within 3\" of a friendly Dwarf model who is Engaged in Combat, she gains a bonus of +1 To Wound when making Strikes.\n                \"Stubborn to a Fault\" - Friendly Dwarf models may re-roll failed To Wound Rolls either when making a shooting attack or when making Strikes."
+			},
+			{
+				"name": "Erebor Reclaimed",
+				"alignment": "good",
+				"armyBonus": "\"The Dwarves, they're rallying\" - Any Infantry Hero in this Army may declare a Heroic March, even if it is not listed as one of their Heroic Actions. Additionally, Infantry models in this Army list can still charge after participating in a Heroic March.\n                \"Family Ties\" - The Dwarves of Thorin's Company are divided into Family Groups, which are as follows:\n                -Balin and Dwalin\n                -Kili and Fili\n                -Bifur, Bofur and Bombur\n                -Ori, Nori and Dori\n                -Oin and Gloin\n                Hero models from this Army that are within 3\" of another Hero from the same Family Group may spend that model's Might, Will and Fate points as if they were their own.\n                \"To the King!\" - If your Army contains only Hero models with the Infantry keyword at the beginning of the game, then friendly models may re-roll any To Wound Rolls of a natural 1 when making Strikes."
 			}
 		],
 		"heroicTiers": [
@@ -2852,8 +2934,7 @@
 					"Shield",
 					"Throwing spears",
 					"Felarof"
-				],
-				"specialText": "If your force contains Eorl the Young and any other named Hero models from the Rohan army list then it will automatically lose its Army Bonus.\n                Also, if your army includes Eorl, then every alliance will be Impossible Allies. One exception would be Minas Tirith, so long as the Minas Tirith force also includes no named Hero models."
+				]
 			},
 			{
 				"name": "King's Huntsman",
@@ -6685,8 +6766,7 @@
 				"wargear": [
 					"Heavy armour",
 					"Aiglos"
-				],
-				"specialText": "If your force contains Gil-Galad and either Arwen, Elladdan & Elrohir, Lindir or Bilbo, then it will automatically lose its Army Bonus. Additionally, the force will automatically\n                be Impossible Allies with every other army list regardless of what the alliance would normally be.  If your force contains Gil-galad, then every alliance will be Impossible Allies with the following exceptions: Númenor will still be Historical Allies, and Lothlórien, Fangorn, and the Misty Mountains will still be Convenient Allies."
+				]
 			},
 			{
 				"name": "Elrond, Master of Rivendell",
@@ -6745,7 +6825,12 @@
 				"options": [
 					{
 						"name": "Horse",
-						"points": 20
+						"points": 20,
+						"availableIn": [
+							"Rivendell",
+							"Lindon",
+							"The Last Alliance"
+						]
 					}
 				],
 				"specialRules": [
@@ -6770,16 +6855,11 @@
 						"range": 12,
 						"casting": 3
 					}
-				],
-				"specialText": "If your army contains Elrond, then Rivendell Knights do not count towards your Bow Limit."
+				]
 			},
 			{
 				"name": "Glorfindel, Lord of the West",
 				"factions": [
-					{
-						"name": "The White Council",
-						"heroicTier": "Hero of Valour"
-					},
 					{
 						"name": "Battle of Fornost",
 						"heroicTier": "Hero of Valour"
@@ -7469,8 +7549,7 @@
 					"Sword",
 					"Armour",
 					"Bow"
-				],
-				"specialText": "If your force contains Arathorn and Aragorn (Strider), then it will automatically lose its Army Bonus. Additionally, the force will automatically be\n                Impossible Allies with every other army list regardless of what the alliance would normally be."
+				]
 			},
 			{
 				"name": "Halbarad",
@@ -8181,6 +8260,10 @@
 					{
 						"name": "The Battle of Five Armies",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Erebor Reclaimed",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 160,
@@ -8225,7 +8308,11 @@
 				"options": [
 					{
 						"name": "War boar",
-						"points": 25
+						"points": 25,
+						"availableIn": [
+							"The Iron Hills",
+							"The Battle of Five Armies"
+						]
 					}
 				],
 				"specialRules": [
@@ -8244,10 +8331,6 @@
 			{
 				"name": "Dain Ironfoot, King Under the Mountain",
 				"factions": [
-					{
-						"name": "Erebor Reclaimed",
-						"heroicTier": "Hero of Legend"
-					},
 					{
 						"name": "Defenders of Erebor",
 						"heroicTier": "Hero of Legend"
@@ -8292,10 +8375,6 @@
 				"name": "Thorin III Stonehelm",
 				"factions": [
 					{
-						"name": "Erebor Reclaimed",
-						"heroicTier": "Hero of Valour"
-					},
-					{
 						"name": "Defenders of Erebor",
 						"heroicTier": "Hero of Valour"
 					}
@@ -8337,7 +8416,6 @@
 				"name": "Murin & Drar",
 				"factions": [],
 				"legacy": true,
-				"specialText": "Múrin & Drár are Historical Allies with Minas Tirith, so long as the army contains Cirion, Lieutenant of Amon Barad.\n                They are Convenient Allies with The Fellowship, The Shire, The Rangers of the North, Minas Tirith, The Fiefdoms, The Dead of Dunharrow, Rohan, The Wildmen of Drúadan, Rivendell, Lothlórien, Fangorn, The Misty Mountains, The Garrison of Dale, Halls of Thranduil, Radagast’s Alliance and The White Council.\n                They are Impossible Allies with all other army lists.",
 				"points": 140,
 				"hideStats": true,
 				"heroicActions": [],
@@ -8371,7 +8449,6 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"specialText": "Múrin & Drár are Historical Allies with Minas Tirith, so long as the army contains Cirion, Lieutenant of Amon Barad.\n                They are Convenient Allies with The Fellowship, The Shire, The Rangers of the North, Minas Tirith, The Fiefdoms, The Dead of Dunharrow, Rohan, The Wildmen of Drúadan, Rivendell, Lothlórien, Fangorn, The Misty Mountains, The Garrison of Dale, Halls of Thranduil, Radagast’s Alliance and The White Council.\n                They are Impossible Allies with all other army lists.",
 				"points": 140,
 				"hideStats": true,
 				"heroicActions": [],
@@ -8613,15 +8690,7 @@
 				"wargear": [
 					"Staff of Power"
 				],
-				"options": [
-					{
-						"name": "Horse",
-						"points": 10,
-						"availableIn": [
-							"The White Council"
-						]
-					}
-				],
+				"options": [],
 				"magicalPowers": [
 					{
 						"name": "Aura of Command",
@@ -9134,8 +9203,7 @@
 				"wargear": [
 					"Anduril, Flame of the West",
 					"Heavy Armour"
-				],
-				"specialText": "Aragorn - King Elessar cannot be in the same army as Boromir or Denethor."
+				]
 			},
 			{
 				"name": "Knight of the White Tower",
@@ -9690,13 +9758,13 @@
 					{
 						"name": "Garrison of Dale",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Erebor & Dale",
+						"heroicTier": "Hero of Legend"
 					}
 				],
-				"unavailableWith": [
-					"Brand, King of Dale",
-					"Bard II, Prince of Dale"
-				],
-				"points": 75,
+				"points": 80,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 3,
@@ -9721,11 +9789,10 @@
 				"options": [
 					{
 						"name": "Windlance",
-						"points": 75
-					},
-					{
-						"name": "Great Bow",
-						"points": 5
+						"points": 50,
+						"availableIn": [
+							"Garrison of Dale"
+						]
 					}
 				],
 				"specialRules": [
@@ -9751,10 +9818,14 @@
 					{
 						"name": "Defenders of Erebor",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Erebor & Dale",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
-				"points": 50,
+				"points": 55,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
@@ -9775,16 +9846,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"options": [
-					{
-						"name": "Shield",
-						"points": 5
-					},
-					{
-						"name": "Esgaroth Bow",
-						"points": 5
-					}
-				],
+				"options": [],
 				"specialRules": [],
 				"wargear": [
 					"Sword",
@@ -9794,10 +9856,6 @@
 			{
 				"name": "Brand, King of Dale",
 				"factions": [
-					{
-						"name": "Garrison of Dale",
-						"heroicTier": "Hero of Legend"
-					},
 					{
 						"name": "The Army of Dale",
 						"heroicTier": "Hero of Legend"
@@ -9847,10 +9905,6 @@
 			{
 				"name": "Bard II, Prince of Dale",
 				"factions": [
-					{
-						"name": "Garrison of Dale",
-						"heroicTier": "Hero of Valour"
-					},
 					{
 						"name": "The Army of Dale",
 						"heroicTier": "Hero of Valour"
@@ -9913,7 +9967,7 @@
 						"name": "Dale Siege Veteran"
 					}
 				],
-				"points": 75,
+				"points": 70,
 				"movement": 0,
 				"fight": 0,
 				"shoot": 0,
@@ -9930,20 +9984,7 @@
 					"Siege Weapon",
 					"Iron Hills"
 				],
-				"options": [
-					{
-						"name": "Upgrade Siege Veteran to Dale Engineer Captain",
-						"points": 50,
-						"usesDefinition": "Engineer Captain"
-					},
-					{
-						"name": "Additional Crew",
-						"points": 7,
-						"increment": true,
-						"max": 3,
-						"addsModels": 1
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Superior Construction",
 					"Accurate"
@@ -11687,7 +11728,6 @@
 						"points": 20,
 						"availableIn": [
 							"Survivors of Lake-town",
-							"The White Council",
 							"The Shire",
 							"The Battle of Five Armies"
 						]
@@ -11870,8 +11910,7 @@
 				"wargear": [
 					"Armour",
 					"Sword"
-				],
-				"specialText": "Kings of Men may not be included in any army that contains any other named Gondor Hero models."
+				]
 			},
 			{
 				"name": "Ingold, Warden of the Rammas Echor",
@@ -13134,7 +13173,6 @@
 				"might": 1,
 				"will": 3,
 				"fate": 1,
-				"specialText": "If your force contains Floi, then the only other named Hero from this list that it may contain is Balin the Dwarf, King of Moria.",
 				"heroicActions": [],
 				"keywords": [
 					"Dwarf",
@@ -13176,7 +13214,6 @@
 				"might": 3,
 				"will": 3,
 				"fate": 1,
-				"specialText": "If your army includes Balin the Dwarf, King of Moria, it may not include any other named Hero models from the Kingdom of Khazad-Dum army list with the exception\n                of Floi Stonehand. Additionally, if your army contains Balin, you may include Ori the Dwarf, Champion of Erebor and Oin the Dwarf, Champion of Erebor from the Erebor Reclaimed army list,\n                and Gimli, son of Gloin, from The Fellowship army list, as Heroes of Fortitude for the time being. If your army has Balin as its leader then you may wish to change the name of\n                the army list to 'The Kingdom of Moria' instead.\n                \n                Ori the Dwarf, Champion of Erebor; Oin the Dwarf, Champion of Erebor; Gimli Son of Gloin; Dwarf Kings; King's Champions; Dwarf Captains; Shieldbearers; Dwarf Warriors; Khazad Guard; Iron Guard;\n                Dwarf Rangers; Vault Warden Teams and Dwarf Ballistae that are part of the same army list as Balin will exchange their Erebor or Khazad-Dum keyword for the Moria keyword.\n                \n                Also, if your army includes Balin, then every alliance will be Impossible Allies as contact was lost following Balin's triumph in Moria.",
 				"heroicActions": [
 					"Heroic Resolve",
 					"Heroic March",
@@ -13327,6 +13364,10 @@
 				"factions": [
 					{
 						"name": "Army of Thror",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Erebor & Dale",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -13488,7 +13529,6 @@
 					"Heroic Strike",
 					"Heroic Strength"
 				],
-				"specialText": "The King's Champion will always be the warband leader, and a Herald counts as an Independent Hero.",
 				"keywords": [
 					"Dwarf",
 					"Khazad-Dum",
@@ -13559,6 +13599,10 @@
 					{
 						"name": "Thorin's Company",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Rangers of Mirkwood",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 40,
@@ -13647,6 +13691,10 @@
 					{
 						"name": "Thorin's Company",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Rangers of Mirkwood",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 55,
@@ -13734,6 +13782,10 @@
 					{
 						"name": "Thorin's Company",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Rangers of Mirkwood",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 55,
@@ -13871,6 +13923,14 @@
 					{
 						"name": "Thorin's Company",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Rangers of Mirkwood",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Army of Lake-town",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 50,
@@ -13971,6 +14031,10 @@
 					{
 						"name": "Thorin's Company",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Rangers of Mirkwood",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 85,
@@ -14939,14 +15003,21 @@
 				"options": [],
 				"specialRules": [],
 				"wargear": [],
-				"decreaseModelCount": 1,
-				"specialText": "Warband must have either 6+ wargs, 2+ spiders, or a mixture of 10+ models."
+				"decreaseModelCount": 1
 			},
 			{
 				"name": "Thorin Oakenshield, King Under the Mountain",
 				"factions": [
 					{
 						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Assault on Ravenhill",
+						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Erebor Reclaimed",
 						"heroicTier": "Hero of Legend"
 					}
 				],
@@ -14979,15 +15050,14 @@
 						"name": "Orcrist",
 						"points": 10,
 						"availableIn": [
-							"The Battle of Five Armies"
+							"The Battle of Five Armies",
+							"Erebor Reclaimed"
 						]
 					},
 					{
 						"name": "War Goat",
 						"points": 10,
-						"availableIn": [
-							"Erebor Reclaimed"
-						]
+						"availableIn": []
 					}
 				],
 				"specialRules": [
@@ -15005,6 +15075,10 @@
 					{
 						"name": "Thorin's Company",
 						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Rangers of Mirkwood",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 100,
@@ -15029,19 +15103,33 @@
 					"Infantry",
 					"Hero"
 				],
+				"requiredChildren": [
+					{
+						"name": "Orcrist",
+						"points": 10,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Rangers of Mirkwood"
+							]
+						]
+					}
+				],
 				"options": [
 					{
 						"name": "Orcrist",
 						"points": 10,
 						"availableIn": [
-							"Thorin's Company"
+							"Thorin's Company",
+							"Rangers of Mirkwood"
 						]
 					},
 					{
 						"name": "The Oakenshield",
 						"points": 5,
 						"availableIn": [
-							"Thorin's Company"
+							"Thorin's Company",
+							"Rangers of Mirkwood"
 						]
 					}
 				],
@@ -15064,6 +15152,10 @@
 					},
 					{
 						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Assault on Ravenhill",
 						"heroicTier": "Hero of Valour"
 					}
 				],
@@ -15093,9 +15185,7 @@
 					{
 						"name": "War Goat",
 						"points": 10,
-						"availableIn": [
-							"Erebor Reclaimed"
-						],
+						"availableIn": [],
 						"unavailableWith": [
 							"Dain Ironfoot, King Under the Mountain",
 							"Thorin III Stonehelm"
@@ -15120,6 +15210,10 @@
 				"factions": [
 					{
 						"name": "Thorin's Company",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Rangers of Mirkwood",
 						"heroicTier": "Hero of Valour"
 					}
 				],
@@ -15164,6 +15258,14 @@
 					{
 						"name": "Thorin's Company",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Rangers of Mirkwood",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Army of Lake-town",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 50,
@@ -15203,6 +15305,14 @@
 					{
 						"name": "Thorin's Company",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Rangers of Mirkwood",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Army of Lake-town",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 50,
@@ -15241,6 +15351,10 @@
 				"factions": [
 					{
 						"name": "Thorin's Company",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Rangers of Mirkwood",
 						"heroicTier": "Hero of Valour"
 					}
 				],
@@ -15283,6 +15397,10 @@
 					},
 					{
 						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Assault on Ravenhill",
 						"heroicTier": "Hero of Valour"
 					}
 				],
@@ -15343,6 +15461,10 @@
 					},
 					{
 						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Assault on Ravenhill",
 						"heroicTier": "Hero of Valour"
 					}
 				],
@@ -15492,6 +15614,10 @@
 					{
 						"name": "Thorin's Company",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Rangers of Mirkwood",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 45,
@@ -15584,6 +15710,14 @@
 					{
 						"name": "Thorin's Company",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Rangers of Mirkwood",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Army of Lake-town",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 45,
@@ -15666,6 +15800,10 @@
 					{
 						"name": "Thorin's Company",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Rangers of Mirkwood",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 45,
@@ -16587,10 +16725,6 @@
 					{
 						"name": "Lothlorien",
 						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "The White Council",
-						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 125,
@@ -17046,7 +17180,7 @@
 						"heroicTier": "Hero of Legend"
 					}
 				],
-				"points": 125,
+				"points": 130,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 3,
@@ -17072,17 +17206,7 @@
 				],
 				"requiredChildren": [
 					{
-						"name": "Armour",
-						"points": 5,
-						"elementPropertyName": "options",
-						"in": [
-							[
-								"The Battle of Five Armies"
-							]
-						]
-					},
-					{
-						"name": "Horse",
+						"name": "Exchange great bow for armour and horse",
 						"points": 20,
 						"elementPropertyName": "options",
 						"in": [
@@ -17094,17 +17218,19 @@
 				],
 				"options": [
 					{
-						"name": "The Windlance",
-						"points": 75,
-						"availableIn": []
+						"name": "Windlance",
+						"points": 50,
+						"availableIn": [
+							"Army of Lake-town"
+						]
 					},
 					{
-						"name": "Armour",
-						"points": 5
-					},
-					{
-						"name": "Horse",
-						"points": 20
+						"name": "Exchange great bow for armour and horse",
+						"points": 20,
+						"availableIn": [
+							"The Battle of Five Armies",
+							"Survivors of Lake-town"
+						]
 					}
 				],
 				"specialRules": [
@@ -17126,11 +17252,7 @@
 					},
 					{
 						"name": "Army of Lake-town",
-						"heroicTier": "Hero of Fortitude",
-						"unlockedBy": [
-							"Master of Lake-town",
-							"Bard The Bowman"
-						]
+						"heroicTier": "Hero of Fortitude"
 					},
 					{
 						"name": "The Battle of Five Armies",
@@ -17276,12 +17398,7 @@
 			},
 			{
 				"name": "Bain, Son of Bard",
-				"factions": [
-					{
-						"name": "Army of Lake-town",
-						"heroicTier": "Independent Hero"
-					}
-				],
+				"factions": [],
 				"points": 40,
 				"movement": 6,
 				"fight": 3,
@@ -17404,6 +17521,10 @@
 					{
 						"name": "The Battle of Five Armies",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Assault on Ravenhill",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 75,
@@ -17452,7 +17573,6 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"specialText": "Bilbo may only wear the Mithril Coat if no other model wears it. Bilbo may only take Sting if no other model has it. Bilbo may only wear the Ring if Frodo is not in the force.\n                If your force contains Bilbo and any of Frodo of the Nine Fingers; Samwise the Brave; Meriadoc, Captain of the Shire or Peregrin Took, Captain of the Shire, then it will automatically lose its Army Bonus. Additionally, the force will automatically be Impossible Allies with every other army list regardless of what the alliance would normally be.",
 				"points": 45,
 				"movement": 4,
 				"fight": 3,
@@ -17561,6 +17681,80 @@
 				]
 			},
 			{
+				"name": "Bilbo Baggins",
+				"factions": [
+					{
+						"name": "Rangers of Mirkwood",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"unique": true,
+				"points": 55,
+				"movement": 4,
+				"fight": 3,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 2,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 6,
+				"might": 1,
+				"will": 3,
+				"fate": 3,
+				"heroicActions": [
+					"Heroic Resolve"
+				],
+				"keywords": [
+					"Hobbit",
+					"Infantry",
+					"Hero"
+				],
+				"requiredChildren": [
+					{
+						"name": "Sting",
+						"points": 5,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Rangers of Mirkwood"
+							]
+						]
+					},
+					{
+						"name": "The One Ring",
+						"points": 0,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Rangers of Mirkwood"
+							]
+						]
+					}
+				],
+				"options": [
+					{
+						"name": "Sting",
+						"points": 5
+					},
+					{
+						"name": "Mithril Coat",
+						"points": 15
+					},
+					{
+						"name": "The One Ring",
+						"points": 0
+					}
+				],
+				"specialRules": [
+					"Resistant to Magic",
+					"Throw Stones (range 8, Strength 1)"
+				],
+				"wargear": [
+					"Dagger"
+				],
+				"countAsProperty": "heroes"
+			},
+			{
 				"name": "Lake-town Militia Captain",
 				"factions": [
 					{
@@ -17611,7 +17805,7 @@
 					}
 				],
 				"unlimited": true,
-				"points": 40,
+				"points": 45,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 4,
@@ -17647,7 +17841,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 50,
+				"points": 55,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 4,
@@ -17820,6 +18014,10 @@
 					{
 						"name": "The Battle of Five Armies",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Assault on Ravenhill",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 105,
@@ -17895,6 +18093,14 @@
 					{
 						"name": "The Battle of Five Armies",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Assault on Ravenhill",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of Lake-town",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 90,
@@ -17922,7 +18128,12 @@
 				"options": [
 					{
 						"name": "Elf Bow",
-						"points": 5
+						"points": 5,
+						"availableIn": [
+							"Halls of Thranduil",
+							"Rangers of Mirkwood",
+							"The Battle of Five Armies"
+						]
 					}
 				],
 				"specialRules": [
@@ -18834,7 +19045,6 @@
 			{
 				"name": "Dale Siege Veteran",
 				"factions": [
-					"Garrison of Dale",
 					"The Army of Dale"
 				],
 				"autoAddOnly": true,
@@ -19257,7 +19467,8 @@
 						"points": 50,
 						"usesDefinition": "Great Eagle",
 						"availableIn": [
-							"The Battle of Five Armies"
+							"The Battle of Five Armies",
+							"Radagast's Alliance"
 						],
 						"chooseOneKey": "a"
 					},
@@ -19266,7 +19477,8 @@
 						"points": 45,
 						"chooseOneKey": "a",
 						"availableIn": [
-							"Thorin's Company"
+							"Thorin's Company",
+							"The White Council"
 						]
 					},
 					{
@@ -19459,7 +19671,7 @@
 					}
 				],
 				"leaderPriority": 2,
-				"points": 50,
+				"points": 70,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 4,
@@ -19499,6 +19711,10 @@
 					},
 					{
 						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Erebor Reclaimed",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -20087,10 +20303,14 @@
 				]
 			},
 			{
-				"name": "Thror",
+				"name": "Thror, King Under the Mountain",
 				"factions": [
 					{
 						"name": "Army of Thror",
+						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Erebor & Dale",
 						"heroicTier": "Hero of Legend"
 					}
 				],
@@ -20125,14 +20345,17 @@
 					"Shield",
 					"Arkenstone",
 					"The Ring of Durin"
-				],
-				"specialText": "If your army does not include Durin, King of Khadad-Dum, then Thror carries the Ring of Durin"
+				]
 			},
 			{
 				"name": "Thrain, Son of Thror",
 				"factions": [
 					{
 						"name": "Army of Thror",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Erebor & Dale",
 						"heroicTier": "Hero of Valour"
 					}
 				],
@@ -20167,14 +20390,17 @@
 					"Heavy Dwarf Armour",
 					"Master Forged two-handed hammer",
 					"The Ring of Durin"
-				],
-				"specialText": "If your army does not include Durin, King of Khadad-Dum, or Thror, then Thrain carries the Ring of Durin"
+				]
 			},
 			{
 				"name": "Young Thorin Oakenshield",
 				"factions": [
 					{
 						"name": "Army of Thror",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Erebor & Dale",
 						"heroicTier": "Hero of Valour"
 					}
 				],
@@ -20217,6 +20443,10 @@
 					{
 						"name": "Army of Thror",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Erebor & Dale",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 60,
@@ -20271,6 +20501,10 @@
 					{
 						"name": "Army of Thror",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Erebor & Dale",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 90,
@@ -20326,6 +20560,10 @@
 				"factions": [
 					{
 						"name": "Army of Thror",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Erebor & Dale",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -20848,8 +21086,7 @@
 				"wargear": [
 					"Two-handed weapon",
 					"the Golden Throne"
-				],
-				"specialText": "The Golden King and his bearers are represented by a single model with the combined profile shown above, and the component parts cannot be attacked\n                or wounded separately. Once the Golden King is reduced to 0 Wounds, or otherwise removed as a casualty, remove the entire model from play. Treat the Golden King's Control Zone as being \n                the area within 1\" of either of the bearer's base."
+				]
 			},
 			{
 				"name": "Hasharin",
@@ -21661,7 +21898,6 @@
 					"Infantry",
 					"Hero"
 				],
-				"specialText": "Note: The Necromancer is in fact Sauron. This means you cannot have both Sauron and the Necromancer in the same army.",
 				"options": [],
 				"specialRules": [
 					"Ancient Evil",
@@ -22581,7 +22817,6 @@
 			},
 			{
 				"name": "War Mumak of Harad",
-				"specialText": "A War Mumak of Harad's Howdah has a capacity of 12 models, in addition to the commander. The only models that may ride within the Howdah are Haradrim Warriors, Serpent Guard and Watchers of Karna.",
 				"factions": [
 					{
 						"name": "Harad",
@@ -23209,7 +23444,6 @@
 					}
 				],
 				"legacy": true,
-				"specialText": "If your force contains Bandobras Took and any other named Hobbit Hero models, then it will automatically lose its Army Bonus. Additionally, the force will automatically be Impossible Allies with every other army list regardless of what the alliance would normally be.",
 				"points": 40,
 				"movement": 4,
 				"fight": 3,
@@ -23644,8 +23878,7 @@
 				"options": [],
 				"specialRules": [],
 				"wargear": [],
-				"decreaseModelCount": 1,
-				"specialText": "Warband must have 10-12 ruffians. Cannot be used without first adding all other heroes from this Legendary Legion."
+				"decreaseModelCount": 1
 			},
 			{
 				"name": "No Hero (Sharkey)",
@@ -23673,8 +23906,7 @@
 				"options": [],
 				"specialRules": [],
 				"wargear": [],
-				"decreaseModelCount": 1,
-				"specialText": "Warband must have 10-12 ruffians."
+				"decreaseModelCount": 1
 			},
 			{
 				"name": "The Spider Queen",
@@ -24207,7 +24439,6 @@
 						"heroicTier": "Independent Hero"
 					}
 				],
-				"specialText": "Tom Bombadil is Convenient Allies with all Good army lists.",
 				"points": 160,
 				"movement": 6,
 				"fight": 0,
@@ -24255,7 +24486,6 @@
 						"heroicTier": "Independent Hero"
 					}
 				],
-				"specialText": "Goldberry is Convenient Allies with all Good army lists.",
 				"points": 140,
 				"movement": 6,
 				"fight": 0,
@@ -24299,7 +24529,6 @@
 						"heroicTier": "Independent Hero"
 					}
 				],
-				"specialText": "Thráin the Broken is Historical Allies with The White Council, so long as the army contains Gandalf the Grey; and Historical Allies with the Dark Powers of Dol Guldur, so long as it includes The Necromancer of Dol Guldur.\n                He is Impossible Allies with all other army lists.",
 				"points": 10,
 				"movement": 5,
 				"fight": 4,
@@ -24327,14 +24556,13 @@
 				"options": []
 			},
 			{
-				"name": "Thrain the Broken (Wanderers)",
+				"name": "Thrain the Broken",
 				"factions": [
 					{
-						"name": "Wanderers in the Wild",
+						"name": "The White Council",
 						"heroicTier": "Independent Hero"
 					}
 				],
-				"specialText": "Thráin the Broken is Historical Allies with The White Council, so long as the army contains Gandalf the Grey; and Historical Allies with the Dark Powers of Dol Guldur, so long as it includes The Necromancer of Dol Guldur.\n                He is Impossible Allies with all other army lists.",
 				"points": 10,
 				"movement": 5,
 				"fight": 4,
@@ -24407,7 +24635,6 @@
 						"heroicTier": "Minor Hero"
 					}
 				],
-				"specialText": "Harry Goatleaf can either be taken as a Good or an Evil model.\n                If taken as a Good model he is: \n                • Historical Allies with The Fellowship.\n                • Convenient Allies with The Rangers, Minas Tirith, The Fiefdoms, The Dead of Dunharrow, Rohan, Wildmen of Drúadan, Rivendell, Lothlórien, Fangorn and The Misty Mountains.\n                • Impossible Allies with all other army lists.\n                If taken as an Evil model, Harry Goatleaf counts as a Hero of Fortitude. He may be taken as part of the Sharkey’s Rogues army list and may also be included as part of The Chief’s Ruffians Legendary Legion.\n                ",
 				"points": 40,
 				"movement": 6,
 				"fight": 3,
@@ -24448,7 +24675,6 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"specialText": "Harry Goatleaf can either be taken as a Good or an Evil model.\n                If taken as a Good model he is: \n                • Historical Allies with The Fellowship.\n                • Convenient Allies with The Rangers, Minas Tirith, The Fiefdoms, The Dead of Dunharrow, Rohan, Wildmen of Drúadan, Rivendell, Lothlórien, Fangorn and The Misty Mountains.\n                • Impossible Allies with all other army lists.\n                If taken as an Evil model, Harry Goatleaf counts as a Hero of Fortitude. He may be taken as part of the Sharkey’s Rogues army list and may also be included as part of The Chief’s Ruffians Legendary Legion.\n                ",
 				"points": 40,
 				"movement": 6,
 				"fight": 3,
@@ -24838,7 +25064,6 @@
 				"will": 1,
 				"fate": 2,
 				"heroicActions": [],
-				"specialText": "The King's Champion will always be the warband leader, and a Herald counts as an Independent Hero.",
 				"keywords": [
 					"Dwarf",
 					"Khazad-Dum",
@@ -24864,7 +25089,6 @@
 				"factions": [
 					"Wanderers in the Wild"
 				],
-				"specialText": "Tom Bombadil is Convenient Allies with all Good army lists.",
 				"unique": true,
 				"points": 160,
 				"movement": 6,
@@ -24911,7 +25135,6 @@
 				"factions": [
 					"Wanderers in the Wild"
 				],
-				"specialText": "Goldberry is Convenient Allies with all Good army lists.",
 				"unique": true,
 				"points": 140,
 				"movement": 6,
@@ -24952,9 +25175,8 @@
 			{
 				"name": "Thrain the Broken",
 				"factions": [
-					"Wanderers in the Wild"
+					"The White Council"
 				],
-				"specialText": "Thráin the Broken is Historical Allies with The White Council, so long as the army contains Gandalf the Grey; and Historical Allies with the Dark Powers of Dol Guldur, so long as it includes The Necromancer of Dol Guldur.\n                He is Impossible Allies with all other army lists.",
 				"unique": true,
 				"points": 10,
 				"movement": 5,
@@ -24990,7 +25212,6 @@
 					"Pits of Dol Guldur"
 				],
 				"unlockedBy": "The Necromancer of Dol Guldur",
-				"specialText": "Thráin the Broken is Historical Allies with The White Council, so long as the army contains Gandalf the Grey; and Historical Allies with the Dark Powers of Dol Guldur, so long as it includes The Necromancer of Dol Guldur.\n                He is Impossible Allies with all other army lists.",
 				"unique": true,
 				"points": 10,
 				"movement": 5,
@@ -25189,13 +25410,13 @@
 				"countAsProperty": "heroes"
 			},
 			{
-				"name": "Sigrid & Tilda",
+				"name": "Bard's Family",
 				"factions": [
 					"Survivors of Lake-town",
 					"Army of Lake-town"
 				],
 				"unique": true,
-				"points": 30,
+				"points": 60,
 				"hideStats": true,
 				"heroicActions": [],
 				"includes": [
@@ -25224,9 +25445,7 @@
 			},
 			{
 				"name": "Bain, Son of Bard",
-				"factions": [
-					"Army of Lake-town"
-				],
+				"factions": [],
 				"unique": true,
 				"ignoreLimits": [
 					{
@@ -26104,10 +26323,11 @@
 			},
 			{
 				"name": "Bilbo Baggins",
-				"factions": [],
+				"factions": [
+					"Rangers of Mirkwood"
+				],
 				"unique": true,
-				"specialText": "Bilbo may only wear the Mithril Coat if no other model wears it. Bilbo may only take Sting if no other model has it. Bilbo may only wear the Ring if Frodo is not in the force.\n                If your force contains Bilbo and any of Frodo of the Nine Fingers; Samwise the Brave; Meriadoc, Captain of the Shire or Peregrin Took, Captain of the Shire, then it will automatically lose its Army Bonus. Additionally, the force will automatically be Impossible Allies with every other army list regardless of what the alliance would normally be.",
-				"points": 40,
+				"points": 55,
 				"movement": 4,
 				"fight": 3,
 				"shoot": 3,
@@ -26126,6 +26346,28 @@
 					"Hobbit",
 					"Infantry",
 					"Hero"
+				],
+				"requiredChildren": [
+					{
+						"name": "Sting",
+						"points": 5,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Rangers of Mirkwood"
+							]
+						]
+					},
+					{
+						"name": "The One Ring",
+						"points": 0,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Rangers of Mirkwood"
+							]
+						]
+					}
 				],
 				"options": [
 					{
@@ -28537,7 +28779,8 @@
 				"factions": [
 					"Garrison of Dale",
 					"The Army of Dale",
-					"Defenders of Erebor"
+					"Defenders of Erebor",
+					"Erebor & Dale"
 				],
 				"points": 7,
 				"movement": 6,
@@ -28556,24 +28799,29 @@
 				],
 				"options": [
 					{
-						"name": "Shield",
-						"points": 1
-					},
-					{
-						"name": "Esgaroth Bow",
-						"points": 2
-					},
-					{
-						"name": "Spear",
-						"points": 1
-					},
-					{
 						"name": "Banner",
-						"points": 25
+						"points": 25,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "War Horn",
-						"points": 30
+						"points": 25,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Esgaroth Bow",
+						"points": 2,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Shield and spear",
+						"points": 2,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Shield",
+						"points": 1,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [],
@@ -30355,9 +30603,7 @@
 			},
 			{
 				"name": "Wood Elf Sentinel",
-				"factions": [
-					"Rangers of Mirkwood"
-				],
+				"factions": [],
 				"points": 25,
 				"movement": 6,
 				"fight": 5,
@@ -30506,7 +30752,7 @@
 				"factions": [
 					"Army of Lake-town"
 				],
-				"points": 5,
+				"points": 7,
 				"movement": 6,
 				"fight": 3,
 				"shoot": 4,
@@ -31540,7 +31786,8 @@
 			{
 				"name": "Grim Hammer Warrior",
 				"factions": [
-					"Army of Thror"
+					"Army of Thror",
+					"Erebor & Dale"
 				],
 				"points": 11,
 				"movement": 5,
@@ -31584,7 +31831,8 @@
 			{
 				"name": "Erebor Dwarf Warrior",
 				"factions": [
-					"Army of Thror"
+					"Army of Thror",
+					"Erebor & Dale"
 				],
 				"points": 9,
 				"movement": 5,
