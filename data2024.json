@@ -6970,18 +6970,33 @@
 				"movement": 6,
 				"fight": 6,
 				"shoot": 3,
-				"strength": 3,
-				"defence": 3,
-				"attack": 1,
+				"strength": 4,
+				"defence": 4,
+				"attack": 2,
 				"wounds": 2,
-				"courage": 6,
-				"might": 1,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 2,
 				"will": 4,
-				"fate": 1,
+				"fate": 2,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Rivendell"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic Resolve",
-					"Heroic Channeling",
-					"Heroic Defence"
+					"Heroic Channelling",
+					"Heroic Defence",
+					"Heroic Resolve"
 				],
 				"keywords": [
 					"Elf",
@@ -7029,12 +7044,17 @@
 					"Woodland Creature"
 				],
 				"wargear": [
-					"Elven-made Hand-and-a-half Sword"
+					"Elven hand weapon"
 				],
 				"magicalPowers": [
 					{
+						"name": "Renew",
+						"range": 12,
+						"casting": 3
+					},
+					{
 						"name": "Wrath of Bruinen",
-						"range": null,
+						"range": 3,
 						"casting": 4
 					}
 				]
@@ -7790,7 +7810,7 @@
 				"attack": 3,
 				"wounds": 3,
 				"courage": 4,
-				"intellicence": 5,
+				"intelligence": 5,
 				"might": 6,
 				"will": 3,
 				"fate": 3,
@@ -8179,6 +8199,18 @@
 					"Infantry",
 					"Hero"
 				],
+				"requiredChildren": [
+					{
+						"name": "Exchange armour and bow for heavy armour",
+						"points": 0,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Minas Tirith"
+							]
+						]
+					}
+				],
 				"options": [
 					{
 						"name": "Horse",
@@ -8188,7 +8220,7 @@
 						]
 					},
 					{
-						"name": "Shield",
+						"name": "Shield (Without Bow)",
 						"points": 5,
 						"availableIn": [
 							"Minas Tirith"
@@ -8197,7 +8229,9 @@
 					{
 						"name": "Exchange armour and bow for heavy armour",
 						"points": 0,
-						"availableIn": []
+						"availableIn": [
+							"Minas Tirith"
+						]
 					}
 				],
 				"specialRules": [
@@ -33895,6 +33929,16 @@
 				]
 			},
 			{
+				"name": "Shield (Without Bow)",
+				"type": "shield",
+				"modifiesStats": [
+					{
+						"stat": "defence",
+						"modifier": 1
+					}
+				]
+			},
+			{
 				"name": "Bow",
 				"type": "bow",
 				"definition": "24\" Range, 2 Strength"
@@ -34206,11 +34250,6 @@
 				"name": "Vilya",
 				"tag": "Passive",
 				"definition": "Elrond, Master of Rivendell may re-roll his dice when using Fate points."
-			},
-			{
-				"name": "Asfaloth",
-				"tag": "Passive",
-				"definition": "Asfaloth is a horse with a Move value of 12\" rather than 10\". Additionally, whilst riding Asfaloth, the rider gains the Fleetfoot special rule."
 			},
 			{
 				"name": "Armour of Gondolin",
@@ -34830,6 +34869,32 @@
 				],
 				"baseSize": [
 					"40mm"
+				]
+			},
+			{
+				"name": "Asfaloth",
+				"type": "mount",
+				"movement": 12,
+				"fight": 3,
+				"shoot": 6,
+				"strength": 3,
+				"defence": 4,
+				"attack": 0,
+				"wounds": 1,
+				"courage": 6,
+				"intelligence": 6,
+				"race": [
+					"Horse"
+				],
+				"unitType": [
+					"Hero",
+					"Mount"
+				],
+				"baseSize": [
+					"40mm"
+				],
+				"specialRules": [
+					"Woodland Creature"
 				]
 			},
 			{
