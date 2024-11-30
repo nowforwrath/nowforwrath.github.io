@@ -1060,7 +1060,7 @@
 				"armyBonus": "\"Surprise Attack\" - Once per game, at the beginning of the Priority Phase, Azog can use this special rule if he is alive and on the battlefield. If he does, Azog's controlling player will automatically count as having won the roll to choose who has Priority for that turn, though must choose to have Priority. If both sides have a special rulea llowing them to do this and both wish to use it in the same turn, players roll off as normal and both special rules count as being used. Enemy models cannot declare Heroic Moves in the turn in which this special rule is used.\n                \"Magical Void\" - Friendly models gain the Resistant to Magic special rule.\n                \"Thrain's Imprisonment\" - Thrain the Broken is an Evil model in this Army. Additionally, if Thrain fails his Intelligence Test for his Shattered Spirit special rule whilst within 6\" of the Keeper of the Dungeons, then he will count as passing the test instead, though will not count as rolling a double.\n                \"Wizard Hunters\" - Friendly Orc Warrior models gain a bonus of +1 To Wound when making Strikes against enemy models that can cast Magical Powers",
 				"requiredChildren": [
 					{
-						"name": "Azog the Defiler",
+						"name": "Azog, the Defiler",
 						"points": 175,
 						"elementPropertyName": "heroes"
 					}
@@ -1097,6 +1097,28 @@
 								"elementPropertyName": "options"
 							}
 						]
+					}
+				]
+			},
+			{
+				"name": "The Three Trolls",
+				"alignment": "evil",
+				"armyBonus": "\"The Campfire\" - After both Armies have been deployed, you may place the Campfire anywhere on the battlefield outside of your opponent's deployment zone. The Campfire is on an 80mm base, and must be placed flat on the battlefield. Friendly Troll models treat the Campfire as a banner with a range of 6\", and gain the Resistant to Magic special rule and a bonus of +1 to any Courage Tests within 6\" of it.\n                \"A Troll's Hoard\" - The Three Trolls Army works in an unusual way in that they are allowed to purchase additional special rules. Each of the special rules listed on Bill can be purchased for 50 points, allowing The Three Trolls to be taken at many different point values and not just at 400 points.\"",
+				"requiredChildren": [
+					{
+						"name": "Bill the Troll",
+						"points": 150,
+						"elementPropertyName": "heroes"
+					},
+					{
+						"name": "Bert the Troll",
+						"points": 130,
+						"elementPropertyName": "heroes"
+					},
+					{
+						"name": "Tom the Troll",
+						"points": 120,
+						"elementPropertyName": "heroes"
 					}
 				]
 			}
@@ -12219,7 +12241,7 @@
 				]
 			},
 			{
-				"name": "Narzug",
+				"name": "Narzug, Hunter Orc Captain",
 				"factions": [
 					{
 						"name": "Azog's Hunters",
@@ -12229,15 +12251,30 @@
 				"points": 55,
 				"movement": 6,
 				"fight": 4,
-				"shoot": 4,
+				"shoot": 3,
 				"strength": 4,
-				"defence": 5,
+				"defence": 4,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
-				"might": 3,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Gundabad"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Accuracy"
 				],
@@ -12248,13 +12285,13 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Expert Rider",
-					"Morgul Arrows",
+					"Expert Shot",
+					"Poisoned Attacks (Orc Bow)",
 					"Lethal Aim"
 				],
 				"wargear": [
-					"Armour",
-					"Sword",
+					"Light armour",
+					"Hand weapon",
 					"Orc Bow"
 				]
 			},
@@ -12268,18 +12305,33 @@
 				],
 				"points": 50,
 				"movement": 6,
-				"fight": 5,
+				"fight": 4,
 				"shoot": 5,
 				"strength": 4,
 				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
-				"might": 3,
-				"will": 1,
+				"courage": 6,
+				"intelligence": 7,
+				"might": 2,
+				"will": 2,
 				"fate": 1,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Gundabad"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic Strike"
+					"Heroic Strength"
 				],
 				"keywords": [
 					"Orc",
@@ -12298,8 +12350,7 @@
 				],
 				"wargear": [
 					"Armour",
-					"Sword",
-					"Orc Bow"
+					"Hand weapon"
 				]
 			},
 			{
@@ -17839,6 +17890,10 @@
 					},
 					{
 						"name": "Rangers of Mirkwood",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Battle of Five Armies",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -23684,7 +23739,7 @@
 				"name": "Bill the Troll",
 				"factions": [
 					{
-						"name": "The Trolls",
+						"name": "The Three Trolls",
 						"heroicTier": "Hero of Valour"
 					}
 				],
@@ -23712,8 +23767,48 @@
 				],
 				"options": [
 					{
-						"name": "Campfire",
-						"points": 15
+						"name": "Full Bellies",
+						"points": 50
+					},
+					{
+						"name": "Stone Troll Endurance",
+						"points": 50
+					},
+					{
+						"name": "Nothing like a warm fire",
+						"points": 50
+					},
+					{
+						"name": "Rumbling Momentum",
+						"points": 50
+					},
+					{
+						"name": "Bowl them over",
+						"points": 50
+					},
+					{
+						"name": "Dominant presence",
+						"points": 50
+					},
+					{
+						"name": "Savvy Fighters",
+						"points": 50
+					},
+					{
+						"name": "Tasty Livestock",
+						"points": 50
+					},
+					{
+						"name": "Cover of Darkness",
+						"points": 50
+					},
+					{
+						"name": "Troll Cunning",
+						"points": 50
+					},
+					{
+						"name": "Kitchen Utensils",
+						"points": 50
 					}
 				],
 				"specialRules": [
@@ -23730,7 +23825,7 @@
 				"name": "Bert the Troll",
 				"factions": [
 					{
-						"name": "The Trolls",
+						"name": "The Three Trolls",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -23771,7 +23866,7 @@
 				"name": "Tom the Troll",
 				"factions": [
 					{
-						"name": "The Trolls",
+						"name": "The Three Trolls",
 						"heroicTier": "Hero of Valour"
 					}
 				],
@@ -34254,6 +34349,57 @@
 				"name": "Rapid-fire Bolt Thrower",
 				"tag": "Active",
 				"definition": "This is a crossbow that fires D6 shots per turn rather than just one. A Rapid-fire Bolt Thrower only has a limited field of fire of 45° to its left or right, which can be measured by placing the Chariot Pivot Template with the X over the bolt thrower and the dotted line running down the wooden shaft connecting the goats - this is the Chariot's filed of fire.\n                An Iron Hills Chariot may still shoot even if it has Moved that turn, and never suffers the -1 penalty for Moving and Shooting.\n                An Iron Hills Chariot may still Shoot even if it is Engaged in Combat, and does not need to take In The Way Tests for models it is in combat with."
+			},
+			{
+				"name": "Full Bellies",
+				"definition": "Bill, Bert, and Tom increase their starting Might, Will and Fate points to 3"
+			},
+			{
+				"name": "Stone Troll Endurance",
+				"definition": "Each time Bill, Bert, or Tom is wounded, roll a D6. On a natural 6, the Wound is ignored."
+			},
+			{
+				"name": "Nothing like a warm fire",
+				"definition": "The range of the Campfire's effects are increased from 6\" to 18\". Additionally, as long as there are no enemy models in base contact with the Campfire at the end fo the game, the Campfire will count as a banner for the purpose of Victory Points in Scenarios that award Victory Points for having a banner left alive."
+			},
+			{
+				"name": "Rumbling Momentum",
+				"definition": "Bill, Bert, and Tom increase their Attacks to 4 on a turn in which they Charge."
+			},
+			{
+				"name": "Bowl them over",
+				"definition": "Instead of using their Throw Stones special rule as normal, Bill, Bert, and Tom may use stones in the same way as a Throwing Weapon. These have a strength of 8 and a range of 12\". Additionally, Bill, Bert and Tom may re-roll the dice when determining the Hurl Distance when using the Hurl Brutal Power Attack."
+			},
+			{
+				"name": "Dominant presence",
+				"definition": "Whilst either Bill, Bert, or Tom are within 3\" of an Objective Marker, they are automatically considered to be holding it and the opposition are considered to have no models within range of the Objective Marker. If models from both sides have a special rule that confers this effect, and the applicable models are within range of the same Objective Marker, then neither Army will get their corresponding special rule."
+			},
+			{
+				"name": "Savvy Fighters",
+				"definition": "Bill, Bert, and Tom all gain Heroic Strike if they didn't already have it. Additionally, whenever an enemy model Engaged in Combat with Bill, Bert or Tom declares a Heroic Strike, roll a D6. On a 4+, the Troll in the same fight may declare a Heroic Strike for free."
+			},
+			{
+				"name": "Tasty Livestock",
+				"definition": "After both sides have deployed, but before the first turn begins, a player using The Three Trolls may place four 25mm Livestock Markers on the board. Livestock Markers cannot be set up within 3\" of an enemy model or Objective Marker, and cannot be set up within 6\" of the edge of the board or another Livestock Marker. If, during their activation, Bill, Bert, or Tom are within 3\" of a friendly Livestock Marker they can remove it from the battlefield and immediately regain 1 Wound lost earlier in the battle."
+			},
+			{
+				"name": "Cover of Darkness",
+				"definition": "At the start of each game using this Army List, you may choose for the Scenario to take place at night if you wish. Additionally, Bill, Bert, and Tom gain the Cave Dweller special rule",
+				"specialRules": [
+					"Cave Dweller"
+				]
+			},
+			{
+				"name": "Troll Cunning",
+				"definition": "Bill, Bert, and Tom can never be Trapped whilst still standing. Additionally, Bill, Bert and Tom may re-roill any failed To Wound rolls when making Strikes against a Trapped model."
+			},
+			{
+				"name": "Kitchen Utensils",
+				"definition": "Bill, Bert, and Tom may re-roll any To Wound Rolls of a natural 1 when making Strikes"
+			},
+			{
+				"name": "That's Mine That Is!",
+				"definition": "At the start of their Activation, Bill, Bert, or Tom may place a single 25mm Stash Marker in base contact with themself. Each Troll may only have a single Stash Marker on the board at a time. If a Stash Marker is within range of an Objective Marker, then it will count as a single friendly Warrior model for the purpose of working out how many models control that Objective Marker. An enemy model may remove a Stash Marker if they are in base contact with it during the End Phase of any turn, provided they ahve not Cast any Magical Power, used a Missile Weapon, been Engaged in Combat, Supported a Combat, been rendered unable to Move that turn due to a special rule or result of a test (such as a Thrown Rider test) or been under the effects of an enemy Magical Power that turn."
 			}
 		],
 		"magicalPowers": [
@@ -35240,12 +35386,12 @@
 			{
 				"name": "Lethal Aim",
 				"tag": "Active",
-				"definition": "Each turn, This Hero may spend a single point of Might without reducing his store (even if he has none remaining) to modify either a To Hit roll, an In The Way\n                roll or a To Wound roll when shooting his bow."
+				"definition": "Each turn, This Hero gains a free Might Point that can only be spent during a shooting attack on either a to Hit Roll, a To Wound Roll, or an In The Way Test. If this free Might Point is not spent by the end of the turn, it is lost."
 			},
 			{
 				"name": "Hunt Master",
 				"tag": "Active",
-				"definition": "When mounted, Fimbul ignores the penalties suffered by Cavalry models attempting to move in difficult terrain - this even enables him to gain the\n                bonuses for charging!"
+				"definition": "Whilst he has the Cavalry keyword, Fimbul does not suffer any penalties for Moving through Difficult Terrain, and therefore may still gain the bonuses for Chargin whilst in Difficult Terrain. Additionally, whilst he has the Cavalry keyword, Fimbul gains a bonus of +1 to his Fight Value on a turn in which he Charges."
 			},
 			{
 				"name": "Many Blades",
