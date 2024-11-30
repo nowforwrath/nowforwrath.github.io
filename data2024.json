@@ -747,7 +747,7 @@
 				"armyBonus": "\"...haid, leithio i philinn!\" - Whilst within 3\" of a friendly Hero, friendly Warrior models may re-roll failed to Hit rolls when making a shooting attack, providing they didn't move in the preceding Move Phase.\n                \"The Power of the Noldor\" - Friendly models within 6\" of Gil-galad gain the Resistant to Magic special rule.",
 				"requiredChildren": [
 					{
-						"name": "Gil-galad, High King of the Noldor",
+						"name": "Gil-Galad, High King of the Noldor",
 						"points": 175,
 						"elementPropertyName": "heroes"
 					}
@@ -1532,36 +1532,35 @@
 				"fight": 5,
 				"shoot": 4,
 				"strength": 4,
-				"defence": 5,
+				"defence": 6,
 				"attack": 2,
 				"wounds": 2,
 				"courage": 6,
-				"intelligence": 4,
+				"intelligence": 6,
 				"might": 2,
 				"will": 2,
-				"fate": 2,
+				"fate": 1,
 				"heroicActions": [
-					"Heroic Defence",
-					"Heroic March"
+					"Heroic Challenge"
 				],
 				"race": [
 					"Man"
 				],
 				"faction": [
-					"Dunland"
+					"Rohan"
 				],
 				"unitType": [
 					"Hero",
-					"Cavalry",
+					"Infantry",
 					"Unique"
 				],
 				"specialRules": [
-					"Hatred (Rohand)",
-					"Master of Battle (4+)",
-					"Dunlending Commander"
+					"Hatred (Rohan)",
+					"Traitor of Rohan",
+					"Edoras Shall Fall"
 				],
 				"wargear": [
-					"Armour",
+					"Heavy armour",
 					"Hand weapon"
 				],
 				"options": []
@@ -1580,21 +1579,17 @@
 				],
 				"points": 40,
 				"movement": 6,
-				"fight": 5,
+				"fight": 4,
 				"shoot": 4,
 				"strength": 4,
-				"defence": 5,
+				"defence": 4,
 				"attack": 2,
 				"wounds": 2,
 				"courage": 6,
-				"intelligence": 4,
+				"intelligence": 7,
 				"might": 2,
-				"will": 2,
-				"fate": 2,
-				"heroicActions": [
-					"Heroic Defence",
-					"Heroic March"
-				],
+				"will": 1,
+				"fate": 1,
 				"race": [
 					"Man"
 				],
@@ -1603,16 +1598,18 @@
 				],
 				"unitType": [
 					"Hero",
-					"Cavalry",
-					"Unique"
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic March"
 				],
 				"specialRules": [
-					"Hatred (Rohand)",
-					"Master of Battle (4+)",
-					"Dunlending Commander"
+					"Hatred (Rohan)"
 				],
 				"wargear": [
-					"Armour",
 					"Hand weapon"
 				],
 				"options": [
@@ -1635,41 +1632,123 @@
 					}
 				],
 				"points": 150,
+				"heroicActions": [],
+				"includes": [
+					{
+						"dataSource": "heroes",
+						"name": "Shank"
+					},
+					{
+						"dataSource": "heroes",
+						"name": "Wrot"
+					},
+					{
+						"dataSource": "warriors",
+						"name": "Snow Troll"
+					}
+				],
+				"keywords": [],
+				"options": [],
+				"specialRules": [],
+				"increaseMaximumChildren": {
+					"warriors": -2
+				}
+			},
+			{
+				"name": "Shank",
+				"factions": [
+					{
+						"name": "Besiegers of the Hornburg",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"autoAddOnly": true,
+				"points": 0,
 				"movement": 6,
-				"fight": 1,
-				"shoot": 1,
+				"fight": 4,
+				"shoot": 4,
 				"strength": 4,
 				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 6,
-				"intelligence": 4,
+				"courage": 7,
+				"intelligence": 7,
 				"might": 2,
-				"will": 2,
-				"fate": 2,
-				"heroicActions": [
-					"Heroic Defence",
-					"Heroic March"
-				],
+				"will": 3,
+				"fate": 1,
 				"race": [
-					"Man"
+					"Orc"
 				],
 				"faction": [
-					"Dunland"
+					"Mordor"
 				],
 				"unitType": [
 					"Hero",
-					"Cavalry",
+					"Infantry",
 					"Unique"
 				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strike"
+				],
 				"specialRules": [
-					"Hatred (Rohand)",
-					"Master of Battle (4+)",
-					"Dunlending Commander"
+					"Loot the Bodies",
+					"Call 'the Beast'"
 				],
 				"wargear": [
 					"Armour",
-					"Hand weapon"
+					"Orcish Halberd"
+				],
+				"options": []
+			},
+			{
+				"name": "Wrot",
+				"factions": [
+					{
+						"name": "Besiegers of the Hornburg",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"autoAddOnly": true,
+				"points": 0,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 5,
+				"strength": 4,
+				"defence": 5,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 9,
+				"might": 1,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strength"
+				],
+				"specialRules": [
+					"Loot the Bodies",
+					"Tasty Fingers"
+				],
+				"wargear": [
+					"Armour",
+					"Orcish Halberd"
 				],
 				"options": []
 			},
@@ -1893,7 +1972,6 @@
 						"chooseOneKey": "a",
 						"availableIn": [
 							"Kingdom of Rohan",
-							"Road to Helm's Deep",
 							"Ride Out",
 							"Defenders of the Pelennor"
 						]
@@ -13293,12 +13371,26 @@
 				"shoot": 4,
 				"strength": 4,
 				"defence": 7,
-				"attack": 2,
+				"attack": 3,
 				"wounds": 2,
 				"courage": 5,
+				"intelligence": 6,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"unlimited": true,
 				"heroicActions": [
 					"Heroic March"
@@ -13310,10 +13402,12 @@
 					"Hero"
 				],
 				"options": [],
-				"specialRules": [],
+				"specialRules": [
+					"Mountain Dweller"
+				],
 				"wargear": [
-					"Heavy Dwarf Armour",
-					"Axe"
+					"Heavy Armour",
+					"Hand weapons"
 				]
 			},
 			{
@@ -13867,13 +13961,28 @@
 				"defence": 8,
 				"attack": 3,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 5,
 				"might": 3,
-				"will": 1,
-				"fate": 1,
+				"will": 2,
+				"fate": 3,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength"
+					"Heroic Strength",
+					"Heroic Strike"
 				],
 				"keywords": [
 					"Dwarf",
@@ -13883,13 +13992,12 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Sworn Protector (Thorin Oakenshield, King Under the Mountain)",
-					"A Warrior Born",
-					"Weapon Master"
+					"Sworn Protector (Thorin)",
+					"Axe Mastery"
 				],
 				"wargear": [
 					"Heavy Dwarf Armour",
-					"Two-handed Axe"
+					"Two-handed weapon"
 				]
 			},
 			{
@@ -16909,19 +17017,32 @@
 					}
 				],
 				"points": 150,
-				"movement": 8,
+				"movement": 6,
 				"fight": 7,
 				"shoot": 4,
-				"strength": 8,
+				"strength": 7,
 				"defence": 8,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 6,
-				"might": 3,
-				"will": 1,
-				"fate": 1,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 1,
+				"will": 2,
+				"fate": 3,
+				"race": [
+					"Ent"
+				],
+				"faction": [
+					"Fangorn"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Monster",
+					"Unique"
+				],
 				"heroicActions": [
-					"Heroic March"
+					"Heroic Strength"
 				],
 				"keywords": [
 					"Ent",
@@ -16931,13 +17052,17 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Bludgeon (Brutal Power Attack)",
+					"Dominant (3)",
+					"Fearless",
+					"Large Target",
 					"Terror",
 					"Throw Stones (18\" Range, Strength 10)",
-					"Woodland Creature"
+					"Woodland Creature",
+					"Bludgeon",
+					"Naturally Unhasty"
 				],
 				"wargear": [
-					"Roots and Branches"
+					"Roots and Branches (hand weapon)"
 				]
 			},
 			{
@@ -17912,10 +18037,24 @@
 				"defence": 6,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 5,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Mirkwood"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
 				],
@@ -17927,10 +18066,10 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Glaive"
+					"Woodland Creature"
 				],
 				"wargear": [
-					"Elven-made Glaive",
+					"Elven Glaive",
 					"Heavy Armour"
 				]
 			},
@@ -20113,18 +20252,34 @@
 				],
 				"points": 60,
 				"movement": 5,
-				"fight": 4,
+				"fight": 5,
 				"shoot": 4,
 				"strength": 4,
-				"defence": 5,
+				"defence": 6,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 6,
-				"might": 1,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 2,
 				"will": 3,
 				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic Defence"
+					"Heroic Defence",
+					"Heroic Resolve"
 				],
 				"keywords": [
 					"Dwarf",
@@ -20134,11 +20289,11 @@
 				],
 				"options": [],
 				"specialRules": [
-					"The Young Sage"
+					"Longbeard"
 				],
 				"wargear": [
-					"Dwarf Armour",
-					"Sword-mace"
+					"Armour",
+					"Hand-and-a-half weapon"
 				]
 			},
 			{
@@ -20151,16 +20306,31 @@
 				],
 				"points": 90,
 				"movement": 5,
-				"fight": 5,
+				"fight": 6,
 				"shoot": 4,
 				"strength": 5,
 				"defence": 6,
-				"attack": 3,
+				"attack": 2,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 5,
 				"might": 2,
 				"will": 2,
 				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Strike",
 					"Heroic Strength"
@@ -20178,8 +20348,8 @@
 					"Dwarven Fury"
 				],
 				"wargear": [
-					"Dwarf Armour",
-					"Two Axes"
+					"Armour",
+					"Grasper & Keeper"
 				]
 			},
 			{
@@ -20200,9 +20370,23 @@
 				"attack": 2,
 				"wounds": 2,
 				"courage": 5,
+				"intelligence": 5,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
 				],
@@ -20213,11 +20397,13 @@
 					"Hero"
 				],
 				"options": [],
-				"specialRules": [],
+				"specialRules": [
+					"Ancient Enemies (Orc)"
+				],
 				"wargear": [
 					"Heavy Dwarf Armour",
-					"Pick-hammer",
-					"Throwing Axes"
+					"Mattock",
+					"Throwing weapon"
 				]
 			},
 			{
@@ -24522,23 +24708,26 @@
 				],
 				"points": 5,
 				"movement": 6,
-				"fight": 1,
-				"shoot": 1,
-				"strength": 1,
-				"defence": 3,
+				"fight": 3,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
 				"courage": 7,
-				"intelligence": 8,
+				"intelligence": 6,
 				"race": [
 					"Man"
 				],
 				"faction": [
-					"Dunland"
+					"Rohan"
 				],
 				"unitType": [
 					"Warrior",
 					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"options": [
 					{
@@ -24568,7 +24757,8 @@
 					}
 				],
 				"specialRules": [
-					"Hatred (Rohan)"
+					"Hatred (Rohan)",
+					"Spear Mastery"
 				],
 				"wargear": [
 					"Hand weapon"
@@ -26278,7 +26468,11 @@
 					{
 						"name": "Throwing spears",
 						"points": 2,
-						"chooseOneKey": "a"
+						"chooseOneKey": "a",
+						"availableIn": [
+							"Army of Edoras",
+							"Kingdom of Rohan"
+						]
 					},
 					{
 						"name": "Horse and throwing spears",
@@ -26287,6 +26481,14 @@
 							"Kingdom of Rohan"
 						],
 						"chooseOneKey": "a"
+					},
+					{
+						"name": "Throwing spears",
+						"points": 2,
+						"availableIn": [
+							"Road to Helm's Deep",
+							"Ride Out"
+						]
 					}
 				],
 				"specialRules": [
@@ -27117,6 +27319,53 @@
 					[
 						"Razgush, War Leader of the North"
 					]
+				]
+			},
+			{
+				"name": "Snow Troll",
+				"autoAddOnly": true,
+				"unavailableSolo": true,
+				"factions": [],
+				"points": 0,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 6,
+				"defence": 7,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 5,
+				"intelligence": 8,
+				"race": [
+					"Troll"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry",
+					"Monster"
+				],
+				"baseSize": [
+					"50mm"
+				],
+				"keywords": [
+					"Troll",
+					"Mordor",
+					"Monster",
+					"Infantry",
+					"Warrior"
+				],
+				"options": [],
+				"specialRules": [
+					"Dominant (3)",
+					"Mountain Dweller",
+					"Terror",
+					"Horned Charge"
+				],
+				"wargear": [
+					"Claws (hand weapon)"
 				]
 			},
 			{
@@ -30200,7 +30449,7 @@
 				"factions": [
 					"Fangorn"
 				],
-				"points": 120,
+				"points": 100,
 				"movement": 6,
 				"fight": 7,
 				"shoot": 4,
@@ -30208,7 +30457,22 @@
 				"defence": 8,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 5,
+				"race": [
+					"Ent"
+				],
+				"faction": [
+					"Fangorn"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry",
+					"Monster"
+				],
+				"baseSize": [
+					"60mm"
+				],
 				"keywords": [
 					"Ent",
 					"Monster",
@@ -30238,13 +30502,16 @@
 					}
 				],
 				"specialRules": [
-					"Bludgeon (Brutal Power Attack)",
+					"Dominant (3)",
+					"Fearless",
+					"Large Target",
 					"Terror",
 					"Throw Stones (18\" Range, Strength 10)",
-					"Woodland Creature"
+					"Woodland Creature",
+					"Bludgeon"
 				],
 				"wargear": [
-					"Roots and Branches"
+					"Roots and Branches (hand weapon)"
 				]
 			},
 			{
@@ -30383,11 +30650,25 @@
 				"movement": 6,
 				"fight": 5,
 				"shoot": 3,
-				"strength": 3,
+				"strength": 4,
 				"defence": 5,
 				"attack": 1,
 				"wounds": 1,
 				"courage": 5,
+				"intelligence": 6,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Mirkwood"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"keywords": [
 					"Elf",
 					"Mirkwood",
@@ -30413,7 +30694,7 @@
 				],
 				"wargear": [
 					"Heavy Armour",
-					"Elven-made hand-and-a-half Sword"
+					"Elven-made hand-and-a-half weapon"
 				]
 			},
 			{
@@ -31372,7 +31653,21 @@
 				"defence": 7,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 6,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"keywords": [
 					"Dwarf",
 					"Erebor",
@@ -31380,11 +31675,13 @@
 					"Warrior"
 				],
 				"options": [],
-				"specialRules": [],
+				"specialRules": [
+					"Ancient Enemies (Orc)"
+				],
 				"wargear": [
-					"Heavy Armour",
-					"Pick-hammer",
-					"Throwing Axes"
+					"Heavy Dwarf Armour",
+					"Mattock",
+					"Throwing weapons"
 				]
 			},
 			{
@@ -31400,7 +31697,21 @@
 				"defence": 6,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 7,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"keywords": [
 					"Dwarf",
 					"Erebor",
@@ -31410,21 +31721,26 @@
 				"options": [
 					{
 						"name": "Shield and Spear",
-						"points": 2
+						"points": 2,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Spear",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					}
 				],
-				"specialRules": [],
+				"specialRules": [
+					"Mountain Dweller"
+				],
 				"wargear": [
-					"Dwarf Armour",
-					"Axe"
+					"Heavy Armour",
+					"Hand weapon"
 				]
 			},
 			{
@@ -33223,6 +33539,16 @@
 				"definition": "8\" Range, 3 Strength"
 			},
 			{
+				"name": "Throwing weapon",
+				"type": "throwingWeapon",
+				"definition": "8\" Range, 3 Strength"
+			},
+			{
+				"name": "Throwing weapons",
+				"type": "throwingWeapon",
+				"definition": "8\" Range, 3 Strength"
+			},
+			{
 				"name": "Throwing Axes",
 				"type": "throwingWeapon",
 				"definition": "6\" Range, 3 Strength"
@@ -33513,6 +33839,11 @@
 				"definition": "This is a Unique Elven hand-and-a-half weapon. A model gains a bonus of +1 to their Strength when making Strikes with Glamdring."
 			},
 			{
+				"name": "Grasper & Keeper",
+				"tag": "Active",
+				"definition": "These are Unique hand weapons. Additionally, a model gains a bonus of +1 to its Attacks characteristic when using Grasper & Keeper, and any to Wound rolls of a natural 6 that are not prevented will deal 2 Wounds rather than 1."
+			},
+			{
 				"name": "Herugrim",
 				"tag": "Active",
 				"definition": "Herugrim is a sword. Additionally, Theoden may use the Feint Special Strike even if his fight value is lower than his opponent's."
@@ -33621,10 +33952,10 @@
 				"definition": "This is a throwing weapon with a range of 8\" and a Strength of 7. Additionally, a model that is hit by this weapon and not slain will be removed from the board and then placed anywhere in base contact with the Balrog, as chosen by the Balrog's controlling player. A Cavalry model that is hit will have the whole model dragged in this way. If for whatever reason, the model cannot be placed in base contact, then it is not moved at all. If a model polaced in this way would end up in base contact with other enemy models in addition to the Balrog, then those models do not count as being Engaged in Combat with the placed model unless they subsequently charge the placed model. This is a fire-based attack so if a model is immune to fire-based attacks, they are immune to this attack."
 			},
 			{
-				"name": "Elven-made Glaive",
+				"name": "Elven Glaive",
 				"type": "Weapon",
 				"tag": "Active",
-				"definition": "A glaive can be used either as a spear or a hand-and-a-half sword. Alternatively, the bearer of a glaive can use the Shielding rule."
+				"definition": "This is an Elven spear. Additionally, a model armed with this weapon that is Engaged in Combat and is not being Supported may either gain a bonus of +1 Attacks for their Duel Roll, or +1 Attacks when making Strikes. This must be decided before the Duel Roll takes place."
 			},
 			{
 				"name": "Dunlending War Axe",
@@ -34925,7 +35256,7 @@
 			{
 				"name": "Dwarven Fury",
 				"tag": "Active",
-				"definition": "Before making a Duel roll, Young Dwalin the Dwarf may choose to reduce his Fight value by D3. If he does this, Young Dwalin the Dwarf may re-roll all failed To Wound rolls in the following fight."
+				"definition": "At the start of a Combat involving Dwalin, roll a D6. On a 5+, Dwalin may re-roll failed To Wound Rolls during that Combat. On a 2-4, nothing happens and the Combat proceeds as normal. However on a 1, Dwalin reduces his Fight Value by D3 before the Duel Roll takes place."
 			},
 			{
 				"name": "Lead by Example",
@@ -35215,7 +35546,7 @@
 			{
 				"name": "Longbeard",
 				"tag": "Active",
-				"definition": "In the priority phase, Balin may spend a Will point to enable his side to re-roll their D6 in the priority roll."
+				"definition": "During the Priority Phase, after the roll for Priority has taken place, Balin can spend a Will Point to allow his controlling player to re-roll their roll for Priority."
 			},
 			{
 				"name": "In Defence of the King (Shieldbearer)",
@@ -35399,7 +35730,7 @@
 			{
 				"name": "Weapon Master",
 				"tag": "Active",
-				"definition": "This model is never considered unarmed, and never suffers the usual -1 penalty to the Duel roll for fighting with a two-handed weapon."
+				"definition": "This model is never considered to be unarmed."
 			},
 			{
 				"name": "The King's Axeman",
@@ -36836,6 +37167,45 @@
 				"name": "Claim the Throne",
 				"tag": "Passive",
 				"definition": "If the enemy General is removed as a casualty whilst within 6\" of Freca, then for the duration of the battle friendly Dunland models treat Freca as a banner with a range of 6\"."
+			},
+			{
+				"name": "Naturally Unhasty",
+				"tag": "Passive",
+				"definition": "If the opposing player won the roll for Priority and chose to have Priority themselves that turn, then during the Declare Heroic Actions step of the ensuing Move Phase, Birchseed may declare a Heroic Move for free."
+			},
+			{
+				"name": "Axe Mastery",
+				"definition": "If Gloin is outnumbered in a Combat, he increases his Attacks to 4 for the duration of the Combat."
+			},
+			{
+				"name": "Traitor of Rohan",
+				"tag": "Passive",
+				"definition": "Lord Thorne may only include Rohirrim Traitors in his Warband"
+			},
+			{
+				"name": "Edoras Shall Fall",
+				"tag": "Passive",
+				"definition": "During the Fight Phase, friendly Rohirrim Traitors within 6\" of Lord Thorne gain a bonus of +1 to their Fight Value."
+			},
+			{
+				"name": "Loot the Bodies",
+				"tag": "Active",
+				"definition": "Whenever Shank or Wrot slays a model in Combat, they may roll a D6. On a natural 6, they ahve found a trinket of note and pocketed it. Keep a track of how many trinkets they have found collectively during the course of the game. At the end of the game, so long as at least one of Shank & Wrot are alive, their controlling player gains an additional Victory Point for each trinket they ahve found, up to a maximum of 5 Victory Points. This can never take Shank's & Wrot's controlling player's total number of victory points above 20."
+			},
+			{
+				"name": "Call 'the Beast'",
+				"tag": "Active",
+				"definition": "Shank may spend a Will Point at the start of his activation to use this ability. If he does, then if the Snow Troll is within 6\" of Shank and not Engaged in Combat, then it must Charge during its Activation if possible and, untilt he end of the turn gains the Fearless special rule and may re-roll failed To Wound rolls when making Strikes."
+			},
+			{
+				"name": "Tasty Fingers",
+				"tag": "Active",
+				"definition": "Whenever Wrot slays an enemy model in Combat, he may roll a D6. On a 4+, Wrot immediately regains either a Wound or a Fate Point spent earlier in the battle."
+			},
+			{
+				"name": "Horned Charge",
+				"tag": "Active",
+				"definition": "During a turn in which a Snow Troll Charges, it gains a bonus of +1 Attack and +1 to its Fight Value until the end of the turn."
 			}
 		]
 	}
