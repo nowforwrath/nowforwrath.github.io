@@ -195,20 +195,6 @@
 			],
 			"minimum": 2,
 			"message": "You must have at least one hero of at least Hero of Valour per faction for a Convenient or Impossible alliance."
-		},
-		{
-			"type": "propertyPerTier",
-			"property": "keywords",
-			"value": [
-				"Siege Engine",
-				"Siege Weapon"
-			],
-			"maxPer": 1,
-			"exceptionChild": [
-				"Upgrade to Engineer Captain"
-			],
-			"tier": 3,
-			"message": "You must have one hero of at least Hero of Fortitude for each Siege keyword."
 		}
 	],
 	"leaderConfig": {
@@ -229,10 +215,6 @@
 			"propertyName": "specialRules",
 			"label": "Special Rules",
 			"dataSource": "keywords"
-		},
-		{
-			"propertyName": "keywords",
-			"label": "Keywords"
 		}
 	],
 	"elements": [
@@ -334,24 +316,12 @@
 									],
 									"children": [
 										{
-											"label": "Keywords",
-											"propertyName": "keywords",
-											"type": "static",
-											"dataSource": "keywords"
-										},
-										{
 											"propertyName": "wargear",
 											"label": "Wargear",
 											"type": "static",
 											"dataSource": "gear"
 										}
 									]
-								},
-								{
-									"propertyName": "keywords",
-									"label": "Keywords",
-									"type": "static",
-									"dataSource": "keywords"
 								},
 								{
 									"propertyName": "specialRules",
@@ -1816,7 +1786,6 @@
 						"name": "Snow Troll"
 					}
 				],
-				"keywords": [],
 				"options": [],
 				"specialRules": [],
 				"increaseMaximumChildren": {
@@ -2096,12 +2065,6 @@
 					"Heroic March",
 					"Heroic Strike"
 				],
-				"keywords": [
-					"Man",
-					"Rohan",
-					"Infantry",
-					"Hero"
-				],
 				"requiredChildren": [
 					{
 						"name": "Exchange armour for heavy armour",
@@ -2235,12 +2198,6 @@
 					"Heroic Strike",
 					"Heroic Challenge"
 				],
-				"keywords": [
-					"Man",
-					"Rohan",
-					"Infantry",
-					"Hero"
-				],
 				"options": [
 					{
 						"name": "Brego",
@@ -2323,12 +2280,6 @@
 				"heroicActions": [
 					"Heroic Strength",
 					"Heroic Strike"
-				],
-				"keywords": [
-					"Man",
-					"Rohan",
-					"Infantry",
-					"Hero"
 				],
 				"requiredChildren": [
 					{
@@ -2440,12 +2391,6 @@
 					"Heroic Defence",
 					"Heroid Resolve",
 					"Heroic Strike"
-				],
-				"keywords": [
-					"Woman",
-					"Rohan",
-					"Infantry",
-					"Hero"
 				],
 				"requiredChildren": [
 					{
@@ -2562,12 +2507,6 @@
 				"heroicActions": [
 					"Heroic Strike"
 				],
-				"keywords": [
-					"Hobbit",
-					"Rohan",
-					"Infantry",
-					"Hero"
-				],
 				"options": [
 					{
 						"name": "Elven Cloak",
@@ -2622,12 +2561,6 @@
 				"heroicActions": [
 					"Heroic March",
 					"Heroic Strength"
-				],
-				"keywords": [
-					"Man",
-					"Rohan",
-					"Infantry",
-					"Hero"
 				],
 				"requiredChildren": [
 					{
@@ -2723,12 +2656,6 @@
 				"heroicActions": [
 					"Heroic Defence",
 					"Heroic March"
-				],
-				"keywords": [
-					"Man",
-					"Rohan",
-					"Infantry",
-					"Hero"
 				],
 				"requiredChildren": [
 					{
@@ -2831,12 +2758,6 @@
 				"heroicActions": [
 					"Heroic Defence"
 				],
-				"keywords": [
-					"Man",
-					"Rohan",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Leader (Rohan Royal Guard)",
@@ -2879,12 +2800,6 @@
 				"heroicActions": [
 					"Heroic Strength"
 				],
-				"keywords": [
-					"Man",
-					"Rohan",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Mighty Blow",
@@ -2922,12 +2837,6 @@
 					"Heroic Strike",
 					"Heroic Strength",
 					"Heroic Defence"
-				],
-				"keywords": [
-					"Man",
-					"Rohan",
-					"Cavalry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
@@ -2975,12 +2884,6 @@
 				"fate": 1,
 				"heroicActions": [
 					"Heroic Accuracy"
-				],
-				"keywords": [
-					"Man",
-					"Rohan",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
@@ -3082,12 +2985,6 @@
 				"heroicActions": [
 					"Heroic March"
 				],
-				"keywords": [
-					"Man",
-					"Rohan",
-					"Infantry",
-					"Hero"
-				],
 				"requiredChildren": [
 					{
 						"name": "Horse",
@@ -3184,12 +3081,6 @@
 						"name": "Elrohir"
 					}
 				],
-				"keywords": [
-					"Elf",
-					"Rivendell",
-					"Infantry",
-					"Hero"
-				],
 				"options": [
 					{
 						"name": "Horse",
@@ -3248,12 +3139,6 @@
 				"heroicActions": [
 					"Heroic Strike"
 				],
-				"keywords": [
-					"Elf",
-					"Rivendell",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
@@ -3284,12 +3169,6 @@
 				"fate": 2,
 				"heroicActions": [
 					"Heroic Strike"
-				],
-				"keywords": [
-					"Elf",
-					"Rivendell",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [],
@@ -3332,12 +3211,6 @@
 				"heroicActions": [
 					"Heroic Accuracy",
 					"Heroic Defence"
-				],
-				"keywords": [
-					"Man",
-					"Rohan",
-					"Infantry",
-					"Hero"
 				],
 				"requiredChildren": [
 					{
@@ -3408,12 +3281,6 @@
 				"heroicActions": [
 					"Heroic March",
 					"Heroic Strike"
-				],
-				"keywords": [
-					"Man",
-					"Rohan",
-					"Infantry",
-					"Hero"
 				],
 				"requiredChildren": [
 					{
@@ -3504,14 +3371,6 @@
 					"Heroic Resolve",
 					"Heroic Strength",
 					"Heroic Strike"
-				],
-				"keywords": [
-					"Spirit",
-					"Ringwraith",
-					"Mordor",
-					"Angmar",
-					"Infantry",
-					"Hero"
 				],
 				"options": [
 					{
@@ -3656,14 +3515,6 @@
 					"Heroic Resolve",
 					"Heroic Strength",
 					"Heroic Strike"
-				],
-				"keywords": [
-					"Spirit",
-					"Ringwraith",
-					"Mordor",
-					"Angmar",
-					"Infantry",
-					"Hero"
 				],
 				"requiredChildren": [
 					{
@@ -3824,14 +3675,6 @@
 					"Heroic Strength",
 					"Heroic Strike"
 				],
-				"keywords": [
-					"Spirit",
-					"Ringwraith",
-					"Mordor",
-					"Angmar",
-					"Infantry",
-					"Hero"
-				],
 				"requiredChildren": [
 					{
 						"name": "Crown of Morgul",
@@ -3964,14 +3807,6 @@
 					"Heroic Channeling",
 					"Heroic Strike",
 					"Heroic Challenge"
-				],
-				"keywords": [
-					"Spirit",
-					"Ringwraith",
-					"Easterling",
-					"Mordor",
-					"Infantry",
-					"Hero"
 				],
 				"options": [
 					{
