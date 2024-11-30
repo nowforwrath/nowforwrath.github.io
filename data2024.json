@@ -6051,7 +6051,7 @@
 				"name": "Mordor Orc Taskmaster",
 				"factions": [
 					{
-						"name": "Mordor",
+						"name": "Cirith Ungol",
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
@@ -6407,7 +6407,7 @@
 				"name": "Mordor Orc Drummer",
 				"factions": [
 					{
-						"name": "Mordor",
+						"name": "Cirith Ungol",
 						"heroicTier": "Independent Hero"
 					},
 					{
@@ -18042,6 +18042,18 @@
 					"Infantry",
 					"Hero"
 				],
+				"requiredChildren": [
+					{
+						"name": "Orcrist",
+						"points": 0,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Assault on Ravenhill"
+							]
+						]
+					}
+				],
 				"options": [
 					{
 						"name": "Elven Cloak",
@@ -18066,6 +18078,13 @@
 						"availableIn": [
 							"Halls of Thranduil",
 							"The Battle of Five Armies"
+						]
+					},
+					{
+						"name": "Orcrist",
+						"points": 0,
+						"availableIn": [
+							"Assault on Ravenhill"
 						]
 					}
 				],
@@ -26096,7 +26115,7 @@
 			{
 				"name": "Mordor Orc Drummer",
 				"factions": [
-					"Mordor",
+					"Cirith Ungol",
 					"Barad-Dur",
 					"Fell Beings of Mirkwood",
 					"Minas Morgul"
@@ -28399,15 +28418,18 @@
 				"options": [
 					{
 						"name": "Banner",
-						"points": 25
+						"points": 25,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "War horn",
-						"points": 25
+						"points": 25,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Spear",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -28754,15 +28776,18 @@
 				"options": [
 					{
 						"name": "Shield",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Bow",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Spear",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -29386,7 +29411,7 @@
 				"factions": [
 					"Goblin-Town"
 				],
-				"points": 4,
+				"points": 5,
 				"movement": 5,
 				"fight": 2,
 				"shoot": 5,
