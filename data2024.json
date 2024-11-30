@@ -10015,7 +10015,7 @@
 				"strength": 7,
 				"defence": 8,
 				"attack": 3,
-				"wounds": 3,
+				"wounds": 4,
 				"courage": 4,
 				"might": 3,
 				"will": 2,
@@ -26944,7 +26944,8 @@
 							"Kingdom of Rohan",
 							"Road to Helm's Deep",
 							"Defenders of the Pelennor",
-							"Riders of Theoden"
+							"Riders of Theoden",
+							"Realms of Men"
 						],
 						"chooseOneKey": "a"
 					},
@@ -26954,14 +26955,16 @@
 						"chooseOneKey": "a",
 						"availableIn": [
 							"Army of Edoras",
-							"Kingdom of Rohan"
+							"Kingdom of Rohan",
+							"Realms of Men"
 						]
 					},
 					{
 						"name": "Horse and throwing spears",
 						"points": 7,
 						"availableIn": [
-							"Kingdom of Rohan"
+							"Kingdom of Rohan",
+							"Realms of Men"
 						],
 						"chooseOneKey": "a"
 					},
@@ -26971,7 +26974,8 @@
 						"availableIn": [
 							"Road to Helm's Deep",
 							"Ride Out",
-							"Riders of Theoden"
+							"Riders of Theoden",
+							"Realms of Men"
 						]
 					}
 				],
