@@ -13015,7 +13015,12 @@
 			},
 			{
 				"name": "Lothlorien Captain",
-				"factions": [],
+				"factions": [
+					{
+						"name": "Lothlorien",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
 				"unlimited": true,
 				"points": 65,
 				"movement": 6,
@@ -14961,10 +14966,6 @@
 				"factions": [
 					{
 						"name": "Azog's Legion",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Goblin-Town",
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
