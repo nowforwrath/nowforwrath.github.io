@@ -25874,11 +25874,13 @@
 				"options": [
 					{
 						"name": "Banner",
-						"points": 25
+						"points": 25,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Throwing spears",
-						"points": 2
+						"points": 2,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -26224,27 +26226,27 @@
 					{
 						"name": "Banner",
 						"points": 25,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Orc bow",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Spear",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Two-handed weapon",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					}
 				],
 				"specialRules": [],
@@ -26465,19 +26467,23 @@
 				"options": [
 					{
 						"name": "Banner",
-						"points": 25
+						"points": 25,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Shield and Spear",
-						"points": 2
+						"points": 2,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Spear",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -26684,11 +26690,13 @@
 				"options": [
 					{
 						"name": "Orc bow",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Two-handed weapon",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [],
@@ -27535,12 +27543,12 @@
 					{
 						"name": "Longbow",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Spear",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -27854,27 +27862,27 @@
 					{
 						"name": "Banner and shield",
 						"points": 26,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Banner",
 						"points": 25,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Shield and spear",
 						"points": 2,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Crossbow",
 						"points": 2,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Mattock",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -28473,11 +28481,13 @@
 				"options": [
 					{
 						"name": "Orc Bow",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Two-Handed weapon",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -28741,27 +28751,33 @@
 				"options": [
 					{
 						"name": "War horn and Elf Bow",
-						"points": 27
+						"points": 27,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Banner",
-						"points": 25
+						"points": 25,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Elf Bow",
-						"points": 2
+						"points": 2,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Shield and Elven spear",
-						"points": 2
+						"points": 2,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Elven Spear",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Lorien Guard",
@@ -29096,22 +29112,22 @@
 					{
 						"name": "Banner",
 						"points": 25,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Easterling Halberd and shield",
 						"points": 2,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Bow",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					}
 				],
 				"wargear": [
@@ -29324,22 +29340,22 @@
 					{
 						"name": "Banner and shield",
 						"points": 26,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Banner",
 						"points": 25,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Spear",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -29857,15 +29873,18 @@
 				"options": [
 					{
 						"name": "Shield and spear",
-						"points": 2
+						"points": 2,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Longbow",
-						"points": 1
+						"points": 1,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
-						"points": 1
+						"points": 1,
+						"requireChooseOneKey": "a"
 					}
 				],
 				"specialRules": [],
@@ -30075,17 +30094,17 @@
 					{
 						"name": "Light shield",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Bow",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Spear",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -30155,15 +30174,18 @@
 				"options": [
 					{
 						"name": "Shield and Elven spear",
-						"points": 2
+						"points": 2,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Elven spear",
-						"points": 1
+						"points": 1,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
-						"points": 1
+						"points": 1,
+						"requireChooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -30214,15 +30236,18 @@
 				"options": [
 					{
 						"name": "Elven Glaive",
-						"points": 2
+						"points": 2,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Elf Bow",
-						"points": 2
+						"points": 2,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
-						"points": 1
+						"points": 1,
+						"requireChooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -31223,17 +31248,17 @@
 					{
 						"name": "Shield and Spear",
 						"points": 2,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Spear",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					}
 				],
 				"specialRules": [
