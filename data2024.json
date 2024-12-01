@@ -27730,27 +27730,27 @@
 					{
 						"name": "War horn and Shield",
 						"points": 26,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Banner",
 						"points": 25,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Shield and spear",
 						"points": 2,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Bow",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -33260,6 +33260,16 @@
 				]
 			},
 			{
+				"name": "Exchange armour and bow for heavy armour",
+				"type": "armour",
+				"modifiesStats": [
+					{
+						"stat": "defence",
+						"modifier": 2
+					}
+				]
+			},
+			{
 				"name": "Dwarf Armour",
 				"type": "armour",
 				"modifiesStats": [
@@ -33415,12 +33425,27 @@
 				"definition": "A banner provides a single re-roll to friendly models who are involved in a Fight within 3\". Any model carrying a banner is encumbered by its weight, and suffers a -1 penalty to their Duel rolls."
 			},
 			{
+				"name": "Two-handed weapon and throwing weapons",
+				"type": "throwingWeapon",
+				"definition": "8\" Range, 3 Strength"
+			},
+			{
 				"name": "Throwing Spears",
 				"type": "throwingWeapon",
 				"definition": "8\" Range, 3 Strength"
 			},
 			{
 				"name": "Throwing weapon",
+				"type": "throwingWeapon",
+				"definition": "8\" Range, 3 Strength"
+			},
+			{
+				"name": "Elven throwing weapon",
+				"type": "throwingWeapon",
+				"definition": "8\" Range, 3 Strength"
+			},
+			{
+				"name": "Elven throwing weapons",
 				"type": "throwingWeapon",
 				"definition": "8\" Range, 3 Strength"
 			},
@@ -33436,6 +33461,11 @@
 			},
 			{
 				"name": "Troll Chain",
+				"type": "throwingWeapon",
+				"definition": "3\" Range, 5 Strength"
+			},
+			{
+				"name": "Light shield and throwing weapons",
 				"type": "throwingWeapon",
 				"definition": "3\" Range, 5 Strength"
 			},
@@ -34597,6 +34627,10 @@
 			},
 			{
 				"name": "Heavy Armour",
+				"definition": "A model who is upgraded to wear heavy armour or Dwarf armour adds 2 to their Defence, unless they are already wearing armour, in which case they add 1."
+			},
+			{
+				"name": "Exchange armour and bow for heavy armour",
 				"definition": "A model who is upgraded to wear heavy armour or Dwarf armour adds 2 to their Defence, unless they are already wearing armour, in which case they add 1."
 			},
 			{
