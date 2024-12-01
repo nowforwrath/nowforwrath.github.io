@@ -27632,7 +27632,8 @@
 				"ignoreLimits": [
 					{
 						"with": [
-							"Elrond, Master of Rivendell"
+							"Elrond, Master of Rivendell",
+							"Rivendell"
 						],
 						"type": "bow"
 					}
@@ -29141,7 +29142,7 @@
 						"points": 1,
 						"availableIn": [
 							"Galadriel",
-							"Celeborn"
+							"Celeborn, Lord of Lothlorien"
 						]
 					}
 				],
