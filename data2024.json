@@ -839,6 +839,11 @@
 						"name": "Mordor Troll Chieftain Leader",
 						"points": 150,
 						"elementPropertyName": "heroes"
+					},
+					{
+						"name": "The Mouth of Sauron",
+						"points": 75,
+						"elementPropertyName": "heroes"
 					}
 				]
 			},
@@ -1716,6 +1721,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
+				"unlimited": true,
 				"points": 40,
 				"movement": 6,
 				"fight": 4,
@@ -2685,7 +2691,8 @@
 							"Ride Out",
 							"Defenders of Helm's Deep",
 							"Kingdom of Rohan",
-							"Defenders of the Pelennor"
+							"Defenders of the Pelennor",
+							"Riders of Theoden"
 						],
 						"points": 40
 					},
@@ -2693,6 +2700,7 @@
 						"name": "Horse",
 						"points": 20,
 						"availableIn": [
+							"Kingdom of Rohan",
 							"Ride Out",
 							"Road to Helm's Deep",
 							"Rohan",
@@ -3018,7 +3026,7 @@
 							"Army of Edoras",
 							"Ride Out",
 							"Road to Helm's Deep",
-							"Rohan",
+							"Kingdom of Rohan",
 							"Riders of Theoden",
 							"Riders of Eomer",
 							"Theodred's Guard",
@@ -3037,6 +3045,7 @@
 						"name": "Shield",
 						"points": 5,
 						"availableIn": [
+							"Riders of Eomer",
 							"Realms of Men",
 							"Men of the West",
 							"Defenders of the Hornburg",
@@ -3896,13 +3905,6 @@
 				"heroicActions": [
 					"Heroic Channeling"
 				],
-				"keywords": [
-					"Spirit",
-					"Ringwraith",
-					"Mordor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [
 					{
 						"name": "Armoured Fell Beast",
@@ -3991,13 +3993,6 @@
 				"heroicActions": [
 					"Heroic Channeling"
 				],
-				"keywords": [
-					"Spirit",
-					"Ringwraith",
-					"Mordor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [
 					{
 						"name": "Armoured Fell Beast",
@@ -4080,13 +4075,6 @@
 				"fate": 0,
 				"heroicActions": [
 					"Heroic Channeling"
-				],
-				"keywords": [
-					"Spirit",
-					"Ringwraith",
-					"Mordor",
-					"Infantry",
-					"Hero"
 				],
 				"options": [
 					{
@@ -4176,13 +4164,6 @@
 				"heroicActions": [
 					"Heroic Channeling"
 				],
-				"keywords": [
-					"Spirit",
-					"Ringwraith",
-					"Mordor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [
 					{
 						"name": "Armoured Fell Beast",
@@ -4269,14 +4250,6 @@
 				"fate": 2,
 				"heroicActions": [
 					"Heroic Channeling"
-				],
-				"keywords": [
-					"Spirit",
-					"Ringwraith",
-					"Haradrim",
-					"Mordor",
-					"Infantry",
-					"Hero"
 				],
 				"options": [
 					{
@@ -4368,12 +4341,6 @@
 					"Heroic Strike",
 					"Heroic Defence"
 				],
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [
 					{
 						"name": "Warg",
@@ -4432,12 +4399,6 @@
 				"heroicActions": [
 					"Heroic March",
 					"Heroic Channeling"
-				],
-				"keywords": [
-					"Man",
-					"Mordor",
-					"Infantry",
-					"Hero"
 				],
 				"options": [
 					{
@@ -4516,12 +4477,6 @@
 					"Heroic Strength",
 					"Heroic Strike"
 				],
-				"keywords": [
-					"Uruk-Hai",
-					"Mordor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"General Hunter",
@@ -4576,12 +4531,6 @@
 					"Heroic Challenge",
 					"Heroic Strike"
 				],
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Orcish Brawler",
@@ -4618,12 +4567,6 @@
 				"fate": 1,
 				"heroicActions": [
 					"Heroic Strike"
-				],
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Hero"
 				],
 				"options": [
 					{
@@ -4666,12 +4609,6 @@
 				"heroicActions": [
 					"Heroic Challenge"
 				],
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Servant of Mordor",
@@ -4705,12 +4642,6 @@
 				"fate": 1,
 				"heroicActions": [
 					"Heroic Channeling"
-				],
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
@@ -4785,12 +4716,6 @@
 				"baseSize": [
 					"25mm"
 				],
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [
 					{
 						"name": "Shield",
@@ -4833,12 +4758,6 @@
 				"heroicActions": [
 					"Heroic March"
 				],
-				"keywords": [
-					"Uruk-Hai",
-					"Mordor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"For the Dark Lord!"
@@ -4871,12 +4790,6 @@
 				"will": 0,
 				"fate": 1,
 				"heroicActions": [],
-				"keywords": [
-					"Uruk-Hai",
-					"Mordor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
@@ -4918,12 +4831,6 @@
 				"heroicActions": [
 					"Heroic March"
 				],
-				"keywords": [
-					"Uruk-Hai",
-					"Mordor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [
 					{
 						"name": "Two-handed weapon",
@@ -4957,7 +4864,6 @@
 				"wounds": 2,
 				"courage": 4,
 				"heroicActions": [],
-				"keywords": [],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
@@ -5025,13 +4931,6 @@
 				"wounds": 5,
 				"courage": 2,
 				"heroicActions": [],
-				"keywords": [
-					"Great Beast",
-					"Mordor",
-					"Monster",
-					"War Beast",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Terror",
@@ -5067,12 +4966,6 @@
 				"will": 1,
 				"fate": 1,
 				"heroicActions": [],
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
@@ -5110,14 +5003,6 @@
 				"fate": 2,
 				"heroicActions": [
 					"Heroic Channeling"
-				],
-				"keywords": [
-					"Spirit",
-					"Ringwraith",
-					"Mordor",
-					"Angmar",
-					"Infantry",
-					"Hero"
 				],
 				"options": [
 					{
@@ -5223,14 +5108,6 @@
 				"fate": 2,
 				"heroicActions": [
 					"Heroic Channeling"
-				],
-				"keywords": [
-					"Spirit",
-					"Ringwraith",
-					"Mordor",
-					"Angmar",
-					"Infantry",
-					"Hero"
 				],
 				"options": [
 					{
@@ -5344,13 +5221,6 @@
 				"heroicActions": [
 					"Heroic Channeling"
 				],
-				"keywords": [
-					"Spirit",
-					"Ringwraith",
-					"Mordor",
-					"Infantry",
-					"Hero"
-				],
 				"requiredChildren": [
 					{
 						"name": "Horse",
@@ -5439,10 +5309,6 @@
 					{
 						"name": "Minas Morgul",
 						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "The Black Gate Opens",
-						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -5475,13 +5341,6 @@
 				],
 				"heroicActions": [
 					"Heroic Channeling"
-				],
-				"keywords": [
-					"Spirit",
-					"Ringwraith",
-					"Mordor",
-					"Infantry",
-					"Hero"
 				],
 				"requiredChildren": [
 					{
@@ -5595,6 +5454,10 @@
 					{
 						"name": "Legions of Mordor",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "The Black Gate Opens",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -5628,13 +5491,6 @@
 				"heroicActions": [
 					"Heroic Channeling"
 				],
-				"keywords": [
-					"Spirit",
-					"Ringwraith",
-					"Mordor",
-					"Infantry",
-					"Hero"
-				],
 				"requiredChildren": [
 					{
 						"name": "Horse",
@@ -5645,20 +5501,34 @@
 							]
 						],
 						"points": 10
+					},
+					{
+						"name": "Fell Beast",
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"The Black Gate Opens"
+							]
+						],
+						"points": 50
 					}
 				],
 				"options": [
 					{
 						"name": "Armoured fell beast",
 						"points": 70,
-						"chooseOneKey": "a"
+						"chooseOneKey": "a",
+						"availableIn": [
+							"Legions of Mordor"
+						]
 					},
 					{
 						"name": "Fell beast",
 						"points": 50,
 						"chooseOneKey": "a",
 						"availableIn": [
-							"Legions of Mordor"
+							"Legions of Mordor",
+							"The Black Gate Opens"
 						]
 					},
 					{
@@ -5674,7 +5544,8 @@
 						"name": "Morgul Blade",
 						"points": 10,
 						"availableIn": [
-							"Legions of Mordor"
+							"Legions of Mordor",
+							"The Black Gate Opens"
 						]
 					},
 					{
@@ -5760,26 +5631,36 @@
 				"fight": 4,
 				"shoot": 5,
 				"strength": 4,
-				"defence": 5,
+				"defence": 6,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 7,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
-				],
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
-					"Armour"
+					"Armour",
+					"Shield",
+					"Hand weapon"
 				]
 			},
 			{
@@ -5813,12 +5694,6 @@
 				"fate": 1,
 				"heroicActions": [
 					"Heroic March"
-				],
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Hero"
 				],
 				"options": [
 					{
@@ -5870,12 +5745,6 @@
 				"heroicActions": [
 					"Heroic March"
 				],
-				"keywords": [
-					"Orc",
-					"Angmar",
-					"Infantry",
-					"Hero"
-				],
 				"options": [
 					{
 						"name": "Warg",
@@ -5924,22 +5793,30 @@
 				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 7,
 				"might": 1,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
 				],
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
-					"Whip of the Masters"
+					"Whips of the Master"
 				],
 				"wargear": [
 					"Armour"
@@ -5972,12 +5849,6 @@
 				"fate": 1,
 				"heroicActions": [
 					"Heroic March"
-				],
-				"keywords": [
-					"Man",
-					"Mordor",
-					"Infantry",
-					"Hero"
 				],
 				"options": [
 					{
@@ -6021,35 +5892,44 @@
 				"unlimited": true,
 				"points": 150,
 				"movement": 6,
-				"fight": 7,
-				"shoot": 5,
+				"fight": 8,
+				"shoot": 4,
 				"strength": 7,
 				"defence": 8,
 				"attack": 3,
-				"wounds": 3,
-				"courage": 4,
+				"wounds": 4,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength"
+				"race": [
+					"Troll"
 				],
-				"keywords": [
-					"Troll",
-					"Mordor",
-					"Monster",
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Monster"
+				],
+				"baseSize": [
+					"60mm"
+				],
+				"heroicActions": [
+					"Heroic Strength",
+					"Heroic Strike"
 				],
 				"options": [],
 				"specialRules": [
+					"Dominant (4)",
 					"Terror",
 					"Throw Stones (range 12\", Strength 8)"
 				],
 				"wargear": [
 					"Heavy armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -6083,12 +5963,6 @@
 				"fate": 1,
 				"heroicActions": [
 					"Heroic Channeling"
-				],
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Hero"
 				],
 				"options": [
 					{
@@ -6152,12 +6026,6 @@
 				"fate": 1,
 				"heroicActions": [
 					"Heroic Channeling"
-				],
-				"keywords": [
-					"Orc",
-					"Angmar",
-					"Infantry",
-					"Hero"
 				],
 				"options": [
 					{
@@ -6227,13 +6095,6 @@
 					"60mm"
 				],
 				"heroicActions": [],
-				"keywords": [
-					"Spider",
-					"Mordor",
-					"Monster",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Dominant (4)",
@@ -6277,7 +6138,7 @@
 				"fight": 3,
 				"shoot": 5,
 				"strength": 4,
-				"defence": 4,
+				"defence": 5,
 				"attack": 1,
 				"wounds": 1,
 				"courage": 7,
@@ -6299,12 +6160,6 @@
 					"25mm"
 				],
 				"heroicActions": [],
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
@@ -6334,11 +6189,6 @@
 					"Heroic Resolve",
 					"Heroic March",
 					"Heroic Defence"
-				],
-				"keywords": [
-					"Elf",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
@@ -6380,12 +6230,6 @@
 				"fate": 1,
 				"heroicActions": [
 					"Heroic Strike"
-				],
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
@@ -6440,12 +6284,6 @@
 				"heroicActions": [
 					"Heroic Defence"
 				],
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Gothmog's Right Hand"
@@ -6497,12 +6335,6 @@
 				"heroicActions": [
 					"Heroic March"
 				],
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Master of Reserves",
@@ -6538,12 +6370,6 @@
 				"heroicActions": [
 					"Heroic Strike",
 					"Heroic Strength"
-				],
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
@@ -6597,12 +6423,6 @@
 					"Heroic Challenge",
 					"Heroic Resolve",
 					"Heroic Strength"
-				],
-				"keywords": [
-					"Elf",
-					"Rivendell",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
@@ -6731,12 +6551,6 @@
 					"Heroic Resolve",
 					"Heroic Strength"
 				],
-				"keywords": [
-					"Elf",
-					"Rivendell",
-					"Infantry",
-					"Hero"
-				],
 				"options": [
 					{
 						"name": "Asfaloth",
@@ -6774,12 +6588,6 @@
 				"fate": 2,
 				"heroicActions": [
 					"Heroic Strike"
-				],
-				"keywords": [
-					"Elf",
-					"Rivendell",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
@@ -6834,12 +6642,6 @@
 					"Heroic Channelling",
 					"Heroic Defence",
 					"Heroic Resolve"
-				],
-				"keywords": [
-					"Elf",
-					"Rivendell",
-					"Infantry",
-					"Hero"
 				],
 				"requiredChildren": [
 					{
@@ -6934,12 +6736,6 @@
 				"heroicActions": [
 					"Heroic Channelling"
 				],
-				"keywords": [
-					"Elf",
-					"Rivendell",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Woodland Creature",
@@ -7004,12 +6800,6 @@
 				],
 				"baseSize": [
 					"25mm"
-				],
-				"keywords": [
-					"Elf",
-					"Rivendell",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
@@ -7099,12 +6889,6 @@
 				"heroicActions": [
 					"Heroic March"
 				],
-				"keywords": [
-					"Elf",
-					"Rivendell",
-					"Infantry",
-					"Hero"
-				],
 				"specialRules": [
 					"Expert Rider",
 					"Woodland Creature"
@@ -7143,12 +6927,6 @@
 				"fate": 1,
 				"heroicActions": [
 					"Heroic Channeling"
-				],
-				"keywords": [
-					"Elf",
-					"Rivendell",
-					"Infantry",
-					"Hero"
 				],
 				"specialRules": [
 					"Woodland Creature",
@@ -7407,11 +7185,6 @@
 					"Heroic Strike"
 				],
 				"options": [],
-				"keywords": [
-					"Man",
-					"Infantry",
-					"Hero"
-				],
 				"specialRules": [],
 				"wargear": [
 					"Sword",
@@ -7450,11 +7223,6 @@
 				"heroicActions": [
 					"Heroic Accuracy",
 					"Heroic Strike"
-				],
-				"keywords": [
-					"Man",
-					"Infantry",
-					"Hero"
 				],
 				"specialRules": [],
 				"options": [
@@ -7525,11 +7293,6 @@
 				"fate": 1,
 				"heroicActions": [
 					"Heroic Accuracy"
-				],
-				"keywords": [
-					"Man",
-					"Infantry",
-					"Hero"
 				],
 				"specialRules": [],
 				"options": [
@@ -7602,11 +7365,6 @@
 				"heroicActions": [
 					"Heroic Accuracy"
 				],
-				"keywords": [
-					"Man",
-					"Infantry",
-					"Hero"
-				],
 				"specialRules": [],
 				"options": [
 					{
@@ -7655,12 +7413,6 @@
 					"Heroic Challenge",
 					"Heroic Strength",
 					"Heroic Strike"
-				],
-				"keywords": [
-					"Man",
-					"Gondor",
-					"Infantry",
-					"Hero"
 				],
 				"race": [
 					"Man"
@@ -7755,11 +7507,6 @@
 					"Heroic Defence",
 					"Heroic Resolve",
 					"Heroic Strike"
-				],
-				"keywords": [
-					"Wizard",
-					"Infantry",
-					"Hero"
 				],
 				"specialRules": [],
 				"wargear": [
@@ -7868,12 +7615,6 @@
 					"Heroic Strength",
 					"Heroic Resolve"
 				],
-				"keywords": [
-					"Man",
-					"Gondor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [
 					{
 						"name": "Horse",
@@ -7915,12 +7656,6 @@
 				"will": 8,
 				"fate": 0,
 				"heroicActions": [],
-				"keywords": [
-					"Spirit",
-					"Angmar",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Blades of the Dead",
@@ -7957,12 +7692,6 @@
 				"will": 5,
 				"fate": 0,
 				"heroicActions": [],
-				"keywords": [
-					"Spirit",
-					"Angmar",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Blades of the Dead",
@@ -8029,12 +7758,6 @@
 					"Heroic Defence",
 					"Heroic Resolve",
 					"Heroic Strike"
-				],
-				"keywords": [
-					"Man",
-					"Gondor",
-					"Infantry",
-					"Hero"
 				],
 				"requiredChildren": [
 					{
@@ -8109,12 +7832,6 @@
 				"heroicActions": [
 					"Heroic Accuracy"
 				],
-				"keywords": [
-					"Man",
-					"Gondor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Birdcalls",
@@ -8175,12 +7892,6 @@
 					"Heroic Strength",
 					"Heroic Strike"
 				],
-				"keywords": [
-					"Dwarf",
-					"Iron Hills",
-					"Infantry",
-					"Hero"
-				],
 				"options": [
 					{
 						"name": "War boar",
@@ -8230,12 +7941,6 @@
 					"Heroic Strength",
 					"Heroic Challenge"
 				],
-				"keywords": [
-					"Dwarf",
-					"Iron Hills",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Fearless",
@@ -8272,12 +7977,6 @@
 					"Heroic Strike",
 					"Heroic Strength"
 				],
-				"keywords": [
-					"Dwarf",
-					"Erebor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Cool-headed"
@@ -8304,12 +8003,6 @@
 						"dataSource": "heroes",
 						"name": "Drar"
 					}
-				],
-				"keywords": [
-					"Dwarf",
-					"Iron Hills",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [],
@@ -8338,12 +8031,6 @@
 						"name": "Drar"
 					}
 				],
-				"keywords": [
-					"Dwarf",
-					"Iron Hills",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [],
 				"increaseMaximumChildren": {
@@ -8368,12 +8055,6 @@
 				"fate": 1,
 				"heroicActions": [
 					"Heroic Strike"
-				],
-				"keywords": [
-					"Dwarf",
-					"Iron Hills",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [],
@@ -8401,12 +8082,6 @@
 				"fate": 1,
 				"heroicActions": [
 					"Heroic Accuracy"
-				],
-				"keywords": [
-					"Dwarf",
-					"Iron Hills",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
@@ -8460,12 +8135,6 @@
 				"heroicActions": [
 					"Heroic Channeling",
 					"Heroic Defence"
-				],
-				"keywords": [
-					"Wizard",
-					"Isengard",
-					"Infantry",
-					"Hero"
 				],
 				"specialRules": [
 					"Voice of Curunir",
@@ -8553,11 +8222,6 @@
 					"Heroic Channeling",
 					"Heroic Defence"
 				],
-				"keywords": [
-					"Wizard",
-					"Infantry",
-					"Hero"
-				],
 				"specialRules": [
 					"Consuming Rivalry",
 					"Lord of the Istari",
@@ -8640,12 +8304,6 @@
 					"Heroic Strength",
 					"Heroic Strike"
 				],
-				"keywords": [
-					"Uruk-Hai",
-					"Isengard",
-					"Infantry",
-					"Hero"
-				],
 				"options": [
 					{
 						"name": "Shield",
@@ -8712,12 +8370,6 @@
 					"Heroic Strength",
 					"Heroic Strike"
 				],
-				"keywords": [
-					"Uruk-Hai",
-					"Isengard",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Head Taker",
@@ -8756,12 +8408,6 @@
 				"heroicActions": [
 					"Heroic March"
 				],
-				"keywords": [
-					"Orc",
-					"Isengard",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Sharku's Riding Dagger"
@@ -8795,12 +8441,6 @@
 				"heroicActions": [
 					"Heroic Accuracy",
 					"Heroic March"
-				],
-				"keywords": [
-					"Uruk-Hai",
-					"Isengard",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
@@ -8836,12 +8476,6 @@
 				"heroicActions": [
 					"Heroic Strength",
 					"Heroic March"
-				],
-				"keywords": [
-					"Uruk-Hai",
-					"Isengard",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [],
@@ -8900,12 +8534,6 @@
 				"heroicActions": [
 					"Heroic March"
 				],
-				"keywords": [
-					"Uruk-Hai",
-					"Isengard",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
@@ -8943,12 +8571,6 @@
 				"will": 0,
 				"fate": 1,
 				"heroicActions": [],
-				"keywords": [
-					"Uruk-Hai",
-					"Isengard",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
@@ -8994,12 +8616,6 @@
 				],
 				"heroicActions": [
 					"Heroic Accuracy"
-				],
-				"keywords": [
-					"Man",
-					"Gondor",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
@@ -9055,12 +8671,6 @@
 				"baseSize": [
 					"25mm"
 				],
-				"keywords": [
-					"Man",
-					"Gondor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [
 					{
 						"name": "Armoured Horse",
@@ -9098,12 +8708,6 @@
 				"heroicActions": [
 					"Heroic Strike"
 				],
-				"keywords": [
-					"Man",
-					"Gondor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Mighty Blow",
@@ -9137,12 +8741,6 @@
 				"fate": 1,
 				"heroicActions": [
 					"Heroic Accuracy"
-				],
-				"keywords": [
-					"Man",
-					"Gondor",
-					"Infantry",
-					"Hero"
 				],
 				"options": [
 					{
@@ -9211,12 +8809,6 @@
 				"heroicActions": [
 					"Heroic Defence"
 				],
-				"keywords": [
-					"Hobbit",
-					"Gondor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [
 					{
 						"name": "Elven cloak",
@@ -9257,12 +8849,6 @@
 					"Heroic Strike",
 					"Heroic Resolve"
 				],
-				"keywords": [
-					"Man",
-					"Gondor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Boldest of the Bold"
@@ -9297,12 +8883,6 @@
 					"Heroic Resolve",
 					"Heroic Challenge",
 					"Heroic Strike"
-				],
-				"keywords": [
-					"Man",
-					"Gondor",
-					"Infantry",
-					"Hero"
 				],
 				"options": [
 					{
@@ -9352,13 +8932,6 @@
 					"Heroic Strike",
 					"Heroic Strength"
 				],
-				"keywords": [
-					"Man",
-					"Carn-Dum",
-					"Angmar",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Warlord of Carn Dum",
@@ -9397,13 +8970,6 @@
 				"fate": 1,
 				"heroicActions": [
 					"Heroic Resolve"
-				],
-				"keywords": [
-					"Man",
-					"Carn-Dum",
-					"Angmar",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
@@ -9445,13 +9011,6 @@
 				"fate": 1,
 				"heroicActions": [
 					"Heroic March"
-				],
-				"keywords": [
-					"Man",
-					"Carn-Dum",
-					"Angmar",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
@@ -9885,36 +9444,31 @@
 				],
 				"points": 140,
 				"movement": 6,
-				"fight": 7,
-				"shoot": 5,
+				"fight": 8,
+				"shoot": 4,
 				"strength": 7,
 				"defence": 8,
 				"attack": 3,
 				"wounds": 4,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 3,
 				"will": 2,
 				"fate": 2,
 				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength"
-				],
-				"keywords": [
-					"Troll",
-					"Mordor",
-					"Monster",
-					"Infantry",
-					"Hero"
+					"Heroic Strength",
+					"Heroic Strike"
 				],
 				"options": [],
 				"specialRules": [
+					"Dominant (4)",
 					"Terror",
 					"Throw Stones (range 12\", Strength 8)",
 					"Fearless"
 				],
 				"wargear": [
 					"Heavy armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -10631,6 +10185,7 @@
 						"name": "Armour",
 						"points": 5,
 						"availableIn": [
+							"Ride Out",
 							"Men of the West",
 							"The Grey Company",
 							"Return of the King",
@@ -10642,6 +10197,7 @@
 						"name": "Horse",
 						"points": 20,
 						"availableIn": [
+							"Ride Out",
 							"Road to Helm's Deep",
 							"Men of the West"
 						]
@@ -14300,34 +13856,41 @@
 				],
 				"points": 60,
 				"movement": 6,
-				"fight": 4,
+				"fight": 5,
 				"shoot": 4,
 				"strength": 4,
 				"defence": 6,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 5,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Easterling"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
-				],
-				"keywords": [
-					"Man",
-					"Easterling",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"unlimited": true,
 				"specialRules": [
-					"Phalanx",
-					"The Gleaming Horde"
+					"Phalanx"
 				],
 				"wargear": [
 					"Heavy Armour",
-					"Easterling Glaive (Hand-and-a-half axe)"
+					"Easterling Halberd"
 				]
 			},
 			{
@@ -27435,12 +26998,20 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 2,
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Cavalry",
-					"Warrior"
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Warrior",
+					"Cavalry"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"options": [
 					{
@@ -27463,7 +27034,7 @@
 				"specialRules": [],
 				"wargear": [
 					"Armour",
-					"Sword",
+					"Hand weapon",
 					"Warg"
 				]
 			},
@@ -27660,14 +27231,22 @@
 				"strength": 7,
 				"defence": 7,
 				"attack": 3,
-				"wounds": 3,
-				"courage": 4,
-				"keywords": [
-					"Troll",
-					"Mordor",
-					"Monster",
+				"wounds": 4,
+				"courage": 6,
+				"intelligence": 8,
+				"race": [
+					"Troll"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Warrior",
 					"Infantry",
-					"Warrior"
+					"Monster"
+				],
+				"baseSize": [
+					"60mm"
 				],
 				"options": [
 					{
@@ -27676,17 +27255,13 @@
 					}
 				],
 				"specialRules": [
+					"Dominant (3)",
 					"Terror",
 					"Throw Stones (range 12\", Strength 8)"
 				],
 				"wargear": [
 					"Armour",
-					"Hand-and-a-half sword, hand-and-a-half club, or hand-and-a-half hammer"
-				],
-				"unavailableIn": [
-					[
-						"Razgush, War Leader of the North"
-					]
+					"Hand-and-a-half weapon"
 				]
 			},
 			{
@@ -29873,105 +29448,54 @@
 					"The Host of the Dragon Emperor",
 					"Legions of Mordor"
 				],
-				"points": 7,
+				"points": 8,
 				"movement": 6,
-				"fight": 3,
+				"fight": 4,
 				"shoot": 4,
 				"strength": 3,
 				"defence": 5,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
-				"keywords": [
-					"Man",
-					"Easterling",
-					"Infantry",
-					"Warrior"
+				"courage": 7,
+				"intelligence": 6,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Easterling"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"options": [
 					{
 						"name": "Banner",
-						"points": 25
+						"points": 25,
+						"chooseOneKey": "a"
 					},
 					{
-						"name": "Pike",
-						"points": 1
+						"name": "Easterling Halberd and shield",
+						"points": 2,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Bow",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
-						"points": 1
-					},
-					{
-						"name": "Black Dragons",
-						"points": 2,
-						"availableIn": [
-							"The Easterlings"
-						]
-					},
-					{
-						"name": "Black Dragons",
-						"points": 2,
-						"availableIn": [
-							[
-								"The Host of the Dragon Emperor"
-							]
-						],
-						"unavailableIn": [
-							[
-								"The Dragon Emperor of Rhun",
-								"The Host of the Dragon Emperor"
-							],
-							[
-								"Easterling Dragon Knight",
-								"The Host of the Dragon Emperor"
-							]
-						]
-					},
-					{
-						"name": "Black Dragons",
-						"points": 0,
-						"availableIn": [
-							[
-								"The Host of the Dragon Emperor",
-								"The Dragon Emperor of Rhun"
-							],
-							[
-								"The Host of the Dragon Emperor",
-								"Easterling Dragon Knight"
-							]
-						]
-					}
-				],
-				"requiredChildren": [
-					{
-						"name": "Black Dragons",
-						"elementPropertyName": "options",
-						"points": 2,
-						"in": [
-							[
-								"The Easterlings",
-								"Easterling Dragon Knight"
-							]
-						]
-					},
-					{
-						"name": "Black Dragons",
-						"elementPropertyName": "options",
-						"points": 0,
-						"in": [
-							[
-								"The Host of the Dragon Emperor",
-								"Easterling Dragon Knight"
-							]
-						]
+						"points": 1,
+						"chooseOneKey": "a"
 					}
 				],
 				"wargear": [
-					"Heavy Armour"
+					"Heavy Armour",
+					"Hand weapon"
 				],
 				"specialRules": [
 					"Phalanx"
@@ -34540,6 +34064,11 @@
 				]
 			},
 			{
+				"name": "Easterling Halberd",
+				"tag": "Active",
+				"definition": "This can be used as either a pike or a two-handed weapon."
+			},
+			{
 				"name": "Smoke Bombs",
 				"tag": "Active",
 				"definition": "These are a throwing weapon with Strength 1. Any model hit, but not slain, by these weapons must immediately expend a point of Will or be subjected to the effects of the Channelled version of the Transfix Magical Power. \n                Should Dalamyr ever roll a 1 To Hit with his smoke bombs then his supply has run out and he cannot use them for the remainder of the game."
@@ -35320,9 +34849,9 @@
 				"definition": "There can only be a maximum of nine Ringwraith models,\n                of any combination (including Ringwraiths, Nazgul of Dol\n                Guldur or any of the named Ringwraiths ), in your force."
 			},
 			{
-				"name": "Whip of the Masters",
+				"name": "Whips of the Master",
 				"tag": "Active",
-				"definition": "Each time a friendly Hero model within 6\" of the Taskmaster from the\n                same army list, including the Taskmaster itself, attempts a Heroic Move,\n                Heroic March or Heroic Shoot, roll a D6. On a 4+, they may call the\n                declared Heroic Action without expending Might."
+				"definition": "Whenever a friendly Hero model within 6\" declares a Heroic Move, Heroic March, or Heroic Shoot, roll a D6. On a 4+ the Hero does not spend the Might Point and the Heroic Action is free."
 			},
 			{
 				"name": "Monstrous Charge",
@@ -36040,7 +35569,7 @@
 			{
 				"name": "Phalanx",
 				"tag": "Active",
-				"definition": "Easterling models can use pikes and shields at the same time without penalty. Furthermore, should an Easterling model on foot with this special rule lose a Duel roll, up to two other models that also have the Phalanx special rule can Make Way instead of one."
+				"definition": "A model with this special rule can use a pike and a shield at the same time without penalty. Additionally, should an Infantry model with this special rule lose a Combat, up to two friendly models with this special rule can Make Way instead of one."
 			},
 			{
 				"name": "The Gleaming Horde",
