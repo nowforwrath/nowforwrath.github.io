@@ -20187,7 +20187,7 @@
 				"factions": [
 					{
 						"name": "Army of Thror",
-						"heroicTier": "Hero of Fortitude"
+						"heroicTier": "Hero of Valour"
 					},
 					{
 						"name": "Erebor & Dale",
@@ -20245,7 +20245,7 @@
 				"factions": [
 					{
 						"name": "Army of Thror",
-						"heroicTier": "Hero of Fortitude"
+						"heroicTier": "Hero of Valour"
 					},
 					{
 						"name": "Erebor & Dale",
@@ -20360,12 +20360,7 @@
 			},
 			{
 				"name": "Captain of Erebor",
-				"factions": [
-					{
-						"name": "Army of Thror",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"unlimited": true,
 				"points": 60,
 				"movement": 5,
@@ -28610,7 +28605,6 @@
 			{
 				"name": "Knight of Dale",
 				"factions": [
-					"Garrison of Dale",
 					"The Army of Dale",
 					"Defenders of Erebor",
 					"Realms of Men"
