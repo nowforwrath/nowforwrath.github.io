@@ -5303,10 +5303,6 @@
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
-						"name": "Wraiths on Wings",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
 						"name": "Minas Morgul",
 						"heroicTier": "Hero of Valour"
 					}
@@ -5359,9 +5355,6 @@
 						"elementPropertyName": "options",
 						"in": [
 							[
-								"Wraiths on Wings"
-							],
-							[
 								"Legions of Mordor"
 							]
 						]
@@ -5379,7 +5372,6 @@
 						"points": 50,
 						"chooseOneKey": "a",
 						"availableIn": [
-							"Wraiths on Wings",
 							"Legions of Mordor",
 							"Minas Morgul"
 						]
@@ -5388,9 +5380,7 @@
 						"name": "Upgrade Fell Beast to Armoured Fell Beast",
 						"points": 20,
 						"chooseOneKey": "a",
-						"availableIn": [
-							"Wraiths on Wings"
-						]
+						"availableIn": []
 					},
 					{
 						"name": "Horse",
@@ -5458,16 +5448,20 @@
 					{
 						"name": "The Black Gate Opens",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Wraiths on Wings",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
-				"points": 90,
+				"points": 120,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
 				"strength": 4,
 				"defence": 8,
-				"attack": 3,
+				"attack": 2,
 				"wounds": 1,
 				"courage": 4,
 				"intelligence": 4,
@@ -5508,6 +5502,12 @@
 						"in": [
 							[
 								"The Black Gate Opens"
+							],
+							[
+								"Wraiths on Wings"
+							],
+							[
+								"Legions of Mordor"
 							]
 						],
 						"points": 50
@@ -5518,9 +5518,7 @@
 						"name": "Armoured fell beast",
 						"points": 70,
 						"chooseOneKey": "a",
-						"availableIn": [
-							"Legions of Mordor"
-						]
+						"availableIn": []
 					},
 					{
 						"name": "Fell beast",
@@ -5528,7 +5526,15 @@
 						"chooseOneKey": "a",
 						"availableIn": [
 							"Legions of Mordor",
-							"The Black Gate Opens"
+							"The Black Gate Opens",
+							"Wraiths on Wings"
+						]
+					},
+					{
+						"name": "Upgrade fell beast to armoured fell beast",
+						"points": 20,
+						"availableIn": [
+							"Wraiths on Wings"
 						]
 					},
 					{
@@ -5545,15 +5551,14 @@
 						"points": 10,
 						"availableIn": [
 							"Legions of Mordor",
-							"The Black Gate Opens"
+							"The Black Gate Opens",
+							"Wraiths on Wings"
 						]
 					},
 					{
 						"name": "Two-handed weapon",
 						"points": 5,
-						"availableIn": [
-							"Legions of Mordor"
-						]
+						"availableIn": []
 					}
 				],
 				"specialRules": [
