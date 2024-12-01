@@ -22797,16 +22797,7 @@
 			},
 			{
 				"name": "Frodo of the Nine Fingers",
-				"factions": [
-					{
-						"name": "The Shire",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Defenders of the Shire",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"points": 60,
 				"movement": 4,
 				"fight": 3,
@@ -22848,188 +22839,8 @@
 				]
 			},
 			{
-				"name": "Samwise the Brave",
-				"factions": [
-					{
-						"name": "The Shire",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Defenders of the Shire",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
-				"points": 45,
-				"movement": 4,
-				"fight": 3,
-				"shoot": 3,
-				"strength": 2,
-				"defence": 3,
-				"attack": 1,
-				"wounds": 2,
-				"courage": 6,
-				"might": 2,
-				"will": 2,
-				"fate": 3,
-				"heroicActions": [
-					"Heroic Resolve",
-					"Heroic Strike"
-				],
-				"keywords": [
-					"Hobbit",
-					"Infantry",
-					"Hero"
-				],
-				"options": [
-					{
-						"name": "Elven Cloak",
-						"points": 5
-					},
-					{
-						"name": "Pony",
-						"points": 5
-					}
-				],
-				"specialRules": [
-					"Resistant to Magic",
-					"Throw Stones (range 8\", Strength 1)"
-				],
-				"wargear": [
-					"Sting"
-				]
-			},
-			{
-				"name": "Meriadoc, Captain of the Shire",
-				"factions": [
-					{
-						"name": "The Shire",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "Defenders of the Shire",
-						"heroicTier": "Hero of Valour"
-					}
-				],
-				"requiredIn": [
-					"Defenders of the Shire"
-				],
-				"points": 45,
-				"movement": 4,
-				"fight": 3,
-				"shoot": 3,
-				"strength": 2,
-				"defence": 4,
-				"attack": 2,
-				"wounds": 2,
-				"courage": 5,
-				"might": 2,
-				"will": 2,
-				"fate": 2,
-				"heroicActions": [
-					"Heroic March",
-					"Heroic Strike",
-					"Heroic Challenge"
-				],
-				"keywords": [
-					"Hobbit",
-					"Infantry",
-					"Hero"
-				],
-				"options": [
-					{
-						"name": "Elven Cloak",
-						"points": 5
-					},
-					{
-						"name": "Pony",
-						"points": 5
-					},
-					{
-						"name": "Shield",
-						"points": 5
-					}
-				],
-				"specialRules": [
-					"Resistant to Magic",
-					"Throw Stones (range 8\", Strength 1)"
-				],
-				"wargear": [
-					"Horn of the Riddermark"
-				]
-			},
-			{
-				"name": "Peregrin, Captain of the Shire",
-				"factions": [
-					{
-						"name": "The Shire",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "Defenders of the Shire",
-						"heroicTier": "Hero of Valour"
-					}
-				],
-				"requiredIn": [
-					"Defenders of the Shire"
-				],
-				"points": 45,
-				"movement": 4,
-				"fight": 3,
-				"shoot": 3,
-				"strength": 2,
-				"defence": 4,
-				"attack": 2,
-				"wounds": 2,
-				"courage": 5,
-				"might": 2,
-				"will": 2,
-				"fate": 2,
-				"heroicActions": [
-					"Heroic March",
-					"Heroic Strike",
-					"Heroic Accuracy"
-				],
-				"keywords": [
-					"Hobbit",
-					"Infantry",
-					"Hero"
-				],
-				"options": [
-					{
-						"name": "Elven Cloak",
-						"points": 5
-					},
-					{
-						"name": "Pony",
-						"points": 5
-					},
-					{
-						"name": "Shield",
-						"points": 5
-					}
-				],
-				"specialRules": [
-					"Resistant to Magic",
-					"Throw Stones (range 8\", Strength 1)",
-					"Against All Odds"
-				],
-				"wargear": [
-					"Armour",
-					"Sword"
-				]
-			},
-			{
 				"name": "Paladin Took",
-				"factions": [
-					{
-						"name": "The Shire",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Defenders of the Shire",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"points": 25,
 				"movement": 4,
 				"fight": 2,
@@ -23145,10 +22956,6 @@
 				"name": "Fredegar Bolger",
 				"factions": [
 					{
-						"name": "The Shire",
-						"heroicTier": "Minor Hero"
-					},
-					{
 						"name": "Defenders of the Shire",
 						"heroicTier": "Minor Hero"
 					}
@@ -23182,12 +22989,7 @@
 			},
 			{
 				"name": "Bandobras Took",
-				"factions": [
-					{
-						"name": "The Shire",
-						"heroicTier": "Hero of Valour"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 40,
 				"movement": 4,
@@ -23222,16 +23024,7 @@
 			},
 			{
 				"name": "Farmer Tolman Cotton",
-				"factions": [
-					{
-						"name": "The Shire",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Defenders of the Shire",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"points": 35,
 				"movement": 4,
 				"fight": 2,
@@ -23269,10 +23062,6 @@
 					{
 						"name": "The Shire",
 						"heroicTier": "Independent Hero"
-					},
-					{
-						"name": "Defenders of the Shire",
-						"heroicTier": "Independent Hero"
 					}
 				],
 				"points": 20,
@@ -23305,16 +23094,7 @@
 			},
 			{
 				"name": "Will Whitfoot, Mayor of Hobbiton",
-				"factions": [
-					{
-						"name": "The Shire",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Defenders of the Shire",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"points": 30,
 				"movement": 4,
 				"fight": 2,
@@ -23347,16 +23127,7 @@
 			},
 			{
 				"name": "Folco Boffin",
-				"factions": [
-					{
-						"name": "The Shire",
-						"heroicTier": "Minor Hero"
-					},
-					{
-						"name": "Defenders of the Shire",
-						"heroicTier": "Minor Hero"
-					}
-				],
+				"factions": [],
 				"points": 20,
 				"movement": 4,
 				"fight": 2,
@@ -23387,16 +23158,7 @@
 			},
 			{
 				"name": "Holfoot Bracegirdle, Shirriff-Leader",
-				"factions": [
-					{
-						"name": "The Shire",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Defenders of the Shire",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"points": 30,
 				"movement": 4,
 				"fight": 3,
@@ -23429,16 +23191,7 @@
 			},
 			{
 				"name": "Robin Smallburrow, Hobbit Shirriff",
-				"factions": [
-					{
-						"name": "The Shire",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Defenders of the Shire",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"points": 20,
 				"movement": 4,
 				"fight": 3,
@@ -23475,10 +23228,6 @@
 					{
 						"name": "The Shire",
 						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Defenders of the Shire",
-						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 35,
@@ -23511,16 +23260,7 @@
 			},
 			{
 				"name": "Baldo Tulpenny",
-				"factions": [
-					{
-						"name": "The Shire",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Defenders of the Shire",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"points": 40,
 				"movement": 4,
 				"fight": 3,
@@ -23554,20 +23294,7 @@
 			},
 			{
 				"name": "Lotho Sackville-Baggins",
-				"factions": [
-					{
-						"name": "The Shire",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "The Chief's Ruffians",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Sharkey's Rogues",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"points": 30,
 				"movement": 4,
 				"fight": 2,
@@ -25775,28 +25502,6 @@
 					"Battle of Fornost",
 					"Army of Arnor",
 					"Arathorn's Stand"
-				],
-				"availableIn": [
-					{
-						"all": [
-							{
-								"with": "Gandalf the Grey"
-							},
-							{
-								"in": "The Shire"
-							}
-						]
-					},
-					{
-						"all": [
-							{
-								"with": "Aranarth, First Chieftain of the Dunedain"
-							},
-							{
-								"in": "Arnor"
-							}
-						]
-					}
 				],
 				"points": 25,
 				"movement": 6,
@@ -32192,9 +31897,7 @@
 			{
 				"name": "Hobbit Archer",
 				"factions": [
-					"Arnor",
-					"The Shire",
-					"Defenders of the Shire"
+					"Arnor"
 				],
 				"availableIn": [
 					{
@@ -32453,10 +32156,7 @@
 			},
 			{
 				"name": "Hobbit Militia",
-				"factions": [
-					"The Shire",
-					"Defenders of the Shire"
-				],
+				"factions": [],
 				"additionalHeroes": [
 					"Ted Sandyman"
 				],
@@ -32493,11 +32193,7 @@
 				"options": [
 					{
 						"name": "Battlin' Brandybuck",
-						"points": 1,
-						"availableIn": [
-							"The Shire",
-							"Defenders of the Shire"
-						]
+						"points": 1
 					}
 				],
 				"specialRules": [
@@ -32511,9 +32207,7 @@
 			},
 			{
 				"name": "Grip",
-				"factions": [
-					"The Shire"
-				],
+				"factions": [],
 				"autoAddOnly": true,
 				"points": 0,
 				"movement": 8,
@@ -32538,9 +32232,7 @@
 			},
 			{
 				"name": "Fang",
-				"factions": [
-					"The Shire"
-				],
+				"factions": [],
 				"autoAddOnly": true,
 				"points": 0,
 				"movement": 8,
@@ -32565,9 +32257,7 @@
 			},
 			{
 				"name": "Wolf",
-				"factions": [
-					"The Shire"
-				],
+				"factions": [],
 				"autoAddOnly": true,
 				"points": 0,
 				"movement": 8,
@@ -32592,10 +32282,7 @@
 			},
 			{
 				"name": "Hobbit Shirriff",
-				"factions": [
-					"The Shire",
-					"Defenders of the Shire"
-				],
+				"factions": [],
 				"points": 5,
 				"movement": 4,
 				"fight": 3,
