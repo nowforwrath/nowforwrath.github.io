@@ -11005,17 +11005,9 @@
 				"will": 1,
 				"fate": 1,
 				"heroicActions": [],
-				"keywords": [
-					"Pony",
-					"Infantry",
-					"Hero"
-				],
+				"keywords": [],
 				"options": [],
-				"specialRules": [
-					"Official Meals",
-					"Only a Pony",
-					"Second Breakfast"
-				],
+				"specialRules": [],
 				"wargear": []
 			},
 			{
@@ -25936,9 +25928,7 @@
 			},
 			{
 				"name": "Rohan Royal Guard",
-				"factions": [
-					"Defenders of the Pelennor"
-				],
+				"factions": [],
 				"availableIn": [
 					{
 						"all": [
