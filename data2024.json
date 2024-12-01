@@ -25937,17 +25937,219 @@
 			{
 				"name": "Rohan Royal Guard",
 				"factions": [
-					"Army of Edoras",
-					"Ride Out",
-					"Road to Helm's Deep",
-					"Kingdom of Rohan",
-					"Riders of Theoden",
-					"Theodred's Guard",
-					"Defenders of Helm's Deep",
-					"Paths of the Druadan",
-					"Helm's Guard",
-					"Realms of Men",
 					"Defenders of the Pelennor"
+				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Helm Hammerhand, King of Rohan"
+							},
+							{
+								"in": "Army of Edoras"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Hama, Captain of Rohan"
+							},
+							{
+								"in": "Army of Edoras"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Theoden, King of Rohan"
+							},
+							{
+								"in": "Ride Out"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Gamling, Captain of Rohan"
+							},
+							{
+								"in": "Ride Out"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Theoden, King of Rohan"
+							},
+							{
+								"in": "Road to Helm's Deep"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Gamling, Captain of Rohan"
+							},
+							{
+								"in": "Road to Helm's Deep"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Hama, Captain of Rohan"
+							},
+							{
+								"in": "Road to Helm's Deep"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Theoden, King of Rohan"
+							},
+							{
+								"in": "Kingdom of Rohan"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Eomer, Marshal of the Riddermark"
+							},
+							{
+								"in": "Kingdom of Rohan"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Theodred, Prince of Rohan"
+							},
+							{
+								"in": "Kingdom of Rohan"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Gamling, Captain of Rohan"
+							},
+							{
+								"in": "Kingdom of Rohan"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Hama, Captain of Rohan"
+							},
+							{
+								"in": "Kingdom of Rohan"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Theoden, King of Rohan"
+							},
+							{
+								"in": "Riders of Theoden"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Eomer, Marshal of the Riddermark"
+							},
+							{
+								"in": "Riders of Theoden"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Gamling, Captain of Rohan"
+							},
+							{
+								"in": "Riders of Theoden"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Theoden, King of Rohan"
+							},
+							{
+								"in": "Defenders of Helm's Deep"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Gamling, Captain of Rohan"
+							},
+							{
+								"in": "Defenders of Helm's Deep"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "King of Men (Rohan)"
+							},
+							{
+								"in": "Realms of Men"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Theoden, King of Rohan"
+							},
+							{
+								"in": "Defenders of the Pelennor"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Eomer, Marshal of the Riddermark"
+							},
+							{
+								"in": "Defenders of the Pelennor"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Gamling, Captain of Rohan"
+							},
+							{
+								"in": "Defenders of the Pelennor"
+							}
+						]
+					}
 				],
 				"points": 11,
 				"movement": 6,
@@ -25972,12 +26174,6 @@
 				],
 				"baseSize": [
 					"25mm"
-				],
-				"keywords": [
-					"Man",
-					"Rohan",
-					"Infantry",
-					"Warrior"
 				],
 				"requiredChildren": [
 					{
