@@ -15864,7 +15864,6 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"legacy": true,
 				"points": 40,
 				"movement": 6,
 				"fight": 4,
@@ -15990,7 +15989,7 @@
 				"movement": 6,
 				"fight": 7,
 				"shoot": 5,
-				"strength": 65,
+				"strength": 6,
 				"defence": 5,
 				"attack": 3,
 				"wounds": 3,
@@ -24644,33 +24643,33 @@
 				"options": [
 					{
 						"name": "Bow",
-						"points": 0,
+						"points": 1,
 						"chooseOneKey": "a"
 					},
 					{
 						"name": "Flaming brand",
-						"points": 0,
+						"points": 1,
 						"chooseOneKey": "a"
 					},
 					{
 						"name": "Light shield",
-						"points": 0,
+						"points": 1,
 						"chooseOneKey": "a"
 					},
 					{
 						"name": "Light shield and flaming brand",
 						"usesDefinition": "Flaming Brand",
-						"points": 0,
+						"points": 2,
 						"chooseOneKey": "a"
 					},
 					{
 						"name": "Spear",
-						"points": 0,
+						"points": 1,
 						"chooseOneKey": "a"
 					},
 					{
 						"name": "Two-handed weapon",
-						"points": 0,
+						"points": 1,
 						"chooseOneKey": "a"
 					}
 				],
@@ -24686,7 +24685,7 @@
 				"factions": [
 					"Usurpers of Edoras"
 				],
-				"points": 5,
+				"points": 6,
 				"movement": 6,
 				"fight": 3,
 				"shoot": 4,
@@ -26321,7 +26320,8 @@
 					"Defenders of Helm's Deep",
 					"Paths of the Druadan",
 					"Helm's Guard",
-					"Realms of Men"
+					"Realms of Men",
+					"Defenders of the Pelennor"
 				],
 				"points": 11,
 				"movement": 6,
@@ -29935,7 +29935,7 @@
 				"factions": [
 					"Army of Gundabad"
 				],
-				"points": 5,
+				"points": 6,
 				"movement": 5,
 				"fight": 2,
 				"shoot": 5,
@@ -33553,12 +33553,6 @@
 			{
 				"name": "Crown of Morgul",
 				"tag": "Passive",
-				"modifiesStats": [
-					{
-						"stat": "attack",
-						"modifier": 2
-					}
-				],
 				"definition": "This is a Unique piece of Wargear. Whilst wearing the Crown of Morgul, enemy models within 6\" of the Witch-king, or attempting to Charge the Witch-king, cannot benefit from special rules that would allow them to automatically pass Courage Tests, with the exception of Heroic Resolve. Additionally, once per game, at the start of any Fight Phase, the Witch-king can imbue its great power to ignite his hand weapon - until the end of the turn, any model that suffers a Wound from a Strike made by the Witch-king is Set Ablaze."
 			},
 			{
