@@ -26221,8 +26221,7 @@
 						"availableIn": [
 							"Army of Edoras",
 							"Kingdom of Rohan",
-							"Realms of Men",
-							"Defenders of the Pelennor"
+							"Realms of Men"
 						]
 					},
 					{
@@ -26240,7 +26239,8 @@
 						"availableIn": [
 							"Road to Helm's Deep",
 							"Ride Out",
-							"Riders of Theoden"
+							"Riders of Theoden",
+							"Defenders of the Pelennor"
 						]
 					}
 				],
