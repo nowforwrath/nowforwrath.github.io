@@ -564,7 +564,7 @@
 			{
 				"name": "Ride Out",
 				"alignment": "good",
-				"armyBonus": "\"Now for wrath, now for ruin, and the red dawn\" - When a friendly Cavalry model Moves, it must Charge if able. Additionally, on a turn in which a friendlY Cavalry model Charges, they gain a bonus of +1 to their strength and may re-roll any 1s during a Duel Roll tha turn.\n                \"The horn of Helm Hammerhand shall soundi n the deep; one last time\" - Once per game, at the start of any Move phase, you can declare you are using this special rule. Until the end of the turn, friendly Cavalry models gain the Terror special rule.\n                \"For Death and Glory\" - Friendly models gain the Fearless special rule",
+				"armyBonus": "\"Now for wrath, now for ruin, and the red dawn\" - When a friendly Cavalry model Moves, it must Charge if able. Additionally, on a turn in which a friendly Cavalry model Charges, they gain a bonus of +1 to their strength and may re-roll any 1s during a Duel Roll tha turn.\n                \"The horn of Helm Hammerhand shall soundi n the deep; one last time\" - Once per game, at the start of any Move phase, you can declare you are using this special rule. Until the end of the turn, friendly Cavalry models gain the Terror special rule.\n                \"For Death and Glory\" - Friendly models gain the Fearless special rule",
 				"requiredChildren": [
 					{
 						"name": "Theoden, King of Rohan",
@@ -961,7 +961,7 @@
 			{
 				"name": "The Iron Hills",
 				"alignment": "good",
-				"armyBonus": "\"Ironfoot has come!\" - In Scenarios where you roll for Warbands to arrive, or ones where you roll to see which part of the board you deploy a Warband in (though not when rolling to choose deployment zones), you may modify the roll for Warabnds from this army by +1 or -2.\n                \"Yanad Durinul - Friendly Infantry models may re-roll To Wound Rolls of a natural 1 when making Strikes, so long as they are in base contact with 2 or more friendly Infantry models.\n                \"Long March from the Iron Hills\" - Friendly models gain the Mountain Dweller special rule.\n                \"I've always found Thoring the more reasonable of the two...\" - Dain gains the Master of Battle (5+) special rule.",
+				"armyBonus": "\"Ironfoot has come!\" - In Scenarios where you roll for Warbands to arrive, or ones where you roll to see which part of the board you deploy a Warband in (though not when rolling to choose deployment zones), you may modify the roll for Warabnds from this army by +1 or -2.\n                \"Yanad Durinul - Friendly Infantry models may re-roll To Wound Rolls of a natural 1 when making Strikes, so long as they are in base contact with 2 or more friendly Infantry models.\n                \"Long March from the Iron Hills\" - Friendly models gain the Mountain Dweller special rule.\n                \"I've always found Thorin the more reasonable of the two...\" - Dain gains the Master of Battle (5+) special rule.",
 				"requiredChildren": [
 					{
 						"name": "Dain Ironfoot, Lord of the Iron Hills",
@@ -26832,19 +26832,23 @@
 				"options": [
 					{
 						"name": "Shield & throwing spears",
-						"points": 2
+						"points": 2,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Orc bow",
-						"points": 1
+						"points": 1,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
-						"points": 1
+						"points": 1,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Throwing spears",
-						"points": 1
+						"points": 1,
+						"requireChooseOneKey": "a"
 					}
 				],
 				"specialRules": [],
@@ -26918,19 +26922,23 @@
 				"options": [
 					{
 						"name": "Shield & throwing spears",
-						"points": 2
+						"points": 2,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Orc bow",
-						"points": 1
+						"points": 1,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
-						"points": 1
+						"points": 1,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Throwing spears",
-						"points": 1
+						"points": 1,
+						"requireChooseOneKey": "a"
 					}
 				],
 				"specialRules": [],
@@ -34268,7 +34276,7 @@
 			},
 			{
 				"name": "That's Mine That Is!",
-				"definition": "At the start of their Activation, Bill, Bert, or Tom may place a single 25mm Stash Marker in base contact with themself. Each Troll may only have a single Stash Marker on the board at a time. If a Stash Marker is within range of an Objective Marker, then it will count as a single friendly Warrior model for the purpose of working out how many models control that Objective Marker. An enemy model may remove a Stash Marker if they are in base contact with it during the End Phase of any turn, provided they ahve not Cast any Magical Power, used a Missile Weapon, been Engaged in Combat, Supported a Combat, been rendered unable to Move that turn due to a special rule or result of a test (such as a Thrown Rider test) or been under the effects of an enemy Magical Power that turn."
+				"definition": "At the start of their Activation, Bill, Bert, or Tom may place a single 25mm Stash Marker in base contact with themself. Each Troll may only have a single Stash Marker on the board at a time. If a Stash Marker is within range of an Objective Marker, then it will count as a single friendly Warrior model for the purpose of working out how many models control that Objective Marker. An enemy model may remove a Stash Marker if they are in base contact with it during the End Phase of any turn, provided they have not Cast any Magical Power, used a Missile Weapon, been Engaged in Combat, Supported a Combat, been rendered unable to Move that turn due to a special rule or result of a test (such as a Thrown Rider test) or been under the effects of an enemy Magical Power that turn."
 			}
 		],
 		"magicalPowers": [
@@ -34918,7 +34926,7 @@
 			{
 				"name": "Headbutt",
 				"tag": "Active",
-				"definition": "If Dain wins a Duel Roll but afils to slay every enemy model involved in the combat, he may choose a single enemy model on a 25mm base involved in the combat and roll a D6. On a 5+, the chosen model is immediately knocked Prone."
+				"definition": "If Dain wins a Duel Roll but fails to slay every enemy model involved in the combat, he may choose a single enemy model on a 25mm base involved in the combat and roll a D6. On a 5+, the chosen model is immediately knocked Prone."
 			},
 			{
 				"name": "Reliable",
@@ -37013,7 +37021,7 @@
 			{
 				"name": "Loot the Bodies",
 				"tag": "Active",
-				"definition": "Whenever Shank or Wrot slays a model in Combat, they may roll a D6. On a natural 6, they ahve found a trinket of note and pocketed it. Keep a track of how many trinkets they have found collectively during the course of the game. At the end of the game, so long as at least one of Shank & Wrot are alive, their controlling player gains an additional Victory Point for each trinket they ahve found, up to a maximum of 5 Victory Points. This can never take Shank's & Wrot's controlling player's total number of victory points above 20."
+				"definition": "Whenever Shank or Wrot slays a model in Combat, they may roll a D6. On a natural 6, they have found a trinket of note and pocketed it. Keep a track of how many trinkets they have found collectively during the course of the game. At the end of the game, so long as at least one of Shank & Wrot are alive, their controlling player gains an additional Victory Point for each trinket they have found, up to a maximum of 5 Victory Points. This can never take Shank's & Wrot's controlling player's total number of victory points above 20."
 			},
 			{
 				"name": "Call 'the Beast'",
