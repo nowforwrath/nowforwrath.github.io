@@ -8597,8 +8597,8 @@
 				"shoot": 3,
 				"strength": 4,
 				"defence": 5,
-				"attack": 1,
-				"wounds": 1,
+				"attack": 2,
+				"wounds": 2,
 				"courage": 6,
 				"intelligence": 6,
 				"might": 1,
@@ -14868,12 +14868,6 @@
 					"Heroic Strike",
 					"Heroic Strength"
 				],
-				"keywords": [
-					"Dwarf",
-					"Erebor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [
 					{
 						"name": "War Goat",
@@ -14916,21 +14910,30 @@
 				"shoot": 4,
 				"strength": 5,
 				"defence": 6,
-				"attack": 3,
+				"attack": 2,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 5,
 				"might": 2,
 				"will": 2,
 				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Strike",
 					"Heroic Strength"
-				],
-				"keywords": [
-					"Dwarf",
-					"Erebor",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
@@ -14939,10 +14942,9 @@
 					"Weapon Master"
 				],
 				"wargear": [
-					"Dwarf Armour",
-					"Two-handed Hammer",
-					"Two axes",
-					"Dagger"
+					"Armour",
+					"Grasper & Keeper",
+					"Two-handed weapon"
 				]
 			},
 			{
@@ -15055,14 +15057,29 @@
 				"movement": 5,
 				"fight": 4,
 				"shoot": 4,
-				"strength": 3,
+				"strength": 4,
 				"defence": 5,
 				"attack": 1,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 4,
 				"might": 1,
 				"will": 3,
 				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Defence",
 					"Heroic Resolve"
@@ -15078,7 +15095,7 @@
 				],
 				"wargear": [
 					"Armour",
-					"Sword-Mace"
+					"Hand-and-a-half weapon"
 				]
 			},
 			{
@@ -15225,14 +15242,29 @@
 				"movement": 5,
 				"fight": 4,
 				"shoot": 4,
-				"strength": 3,
+				"strength": 4,
 				"defence": 8,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 4,
 				"might": 1,
 				"will": 3,
 				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Resolve",
 					"Heroic Defence"
@@ -15246,11 +15278,11 @@
 				"options": [],
 				"specialRules": [
 					"Longbeard",
-					"Sworn Protector (Thorin Oakenshield, King Under the Mountain)"
+					"Sworn Protector (Thorin)"
 				],
 				"wargear": [
-					"Heavy Dwarf Armour",
-					"Two-Handed Mace"
+					"Heavy Dwarf armour",
+					"Two-handed weapon"
 				]
 			},
 			{
@@ -16874,21 +16906,30 @@
 				"defence": 4,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 4,
 				"might": 3,
 				"will": 3,
 				"fate": 3,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength",
-					"Heroic Resolve",
-					"Heroic Accuracy"
+				"race": [
+					"Man"
 				],
-				"keywords": [
-					"Man",
-					"Lake-town",
+				"faction": [
+					"Lake-town"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Accuracy",
+					"Heroic Resolve",
+					"Heroic Strength",
+					"Heroic Strike"
 				],
 				"requiredChildren": [
 					{
@@ -16920,13 +16961,14 @@
 					}
 				],
 				"specialRules": [
-					"Rapid Fire (Bard)",
-					"The Black Arrow",
-					"Saviour of Lake-town"
+					"Rapid Fire",
+					"Swift Shot",
+					"Windlance Trained",
+					"The Black Arrow"
 				],
 				"wargear": [
-					"Sword",
-					"Great Bow"
+					"Hand weapon",
+					"Great bow"
 				]
 			},
 			{
@@ -20561,23 +20603,34 @@
 				"defence": 5,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 6,
+				"courage": 3,
+				"intelligence": 4,
 				"might": 3,
 				"will": 3,
 				"fate": 3,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength",
-					"Heroic Defence"
+				"race": [
+					"Man"
 				],
-				"keywords": [
-					"Man",
+				"faction": [
+					"Beorning"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic Strength",
+					"Heroic Strike"
 				],
 				"options": [],
 				"specialRules": [
 					"Burly",
+					"Dominant (2)",
 					"Fearless",
 					"Resistant to Magic",
 					"Woodland Creature",
@@ -20607,31 +20660,43 @@
 				"strength": 8,
 				"defence": 8,
 				"attack": 3,
-				"wounds": 0,
-				"courage": 6,
+				"wounds": 3,
+				"courage": 3,
+				"intelligence": 6,
 				"might": 0,
 				"will": 0,
 				"fate": 0,
+				"race": [
+					"Bear"
+				],
+				"faction": [
+					"Beorning"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Monster",
+					"Unique"
+				],
+				"baseSize": [
+					"60mm"
+				],
 				"heroicActions": [
 					"Heroic Strike",
 					"Heroic Strength",
 					"Heroic Defence"
 				],
-				"keywords": [
-					"Bear",
-					"Monster",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Burly",
+					"Dominant (5)",
 					"Fearless",
+					"Monstrous Charge",
 					"Resistant to Magic",
+					"Terror",
 					"Woodland Creature",
 					"Skin-changer",
 					"Berserk",
-					"Terror",
 					"Crushing Strength"
 				],
 				"wargear": [
@@ -35010,12 +35075,12 @@
 			{
 				"name": "Rapid Fire",
 				"tag": "Active",
-				"definition": "If this model hits a target with his great bow, it may\n                take another shot at a target within 3\" of it - it may even be the\n                same target. If that shot is also a hit, he may shoot again - to a maximum of three shots in total."
+				"definition": "If this model hits a target with its great bow, it may make another shooting attack with its great bow that targets a model within 3\" of the initial target - it may even be the same target. If that second shot also hits, then this model may Shoot again as described above. This model can make a maximum of three shots per turn as a result of this special rule."
 			},
 			{
 				"name": "Windlance Trained",
 				"tag": "Active",
-				"definition": "Girion, Lord of Dale's Windlance follows all the rules for Bard the Bowman's Windlance"
+				"definition": "If this model is upgraded to take a Windlance, then he counts as the only crew for the Siege Engine. However, unlike normal Siege Engine crew, this model may move further than 6\" away from the Windlance at any point and may rotate it without suffering the -1 penalty to his rolls To Hit. Additionally, when making a shooting attack with the Windlance that targets a Monster model, this model gains a bonus of +1 to any rolls on the Scatter Table."
 			},
 			{
 				"name": "Lord of Dale",
@@ -35712,7 +35777,7 @@
 			{
 				"name": "The Black Arrow",
 				"tag": "Active",
-				"definition": "Once per game, Bard the Bowman can fire his Black Arrow instead of shooting the Windlance normally. If you choose to do so, declare that he is firing his Black Arrow before rolling To Hit. When shooting the Black Arrow, Bard the Bowman re-rolls a failed To Hit rolls and any failed In The Way tests. Furthermore, do not roll on the Scatter table when firing the Black Arrow - a successful To Hit roll against a Battlefield target automatically counts as a Dead On! result."
+				"definition": "If he is upgraded to take the Windlance, then once per game Bard can fire The Black Arrow instead of shooting normally. If he does, declare that he is using the Black Arrow before rolling To Hit. When shooting The Black Arrow, Bard may re-roll any failed To Hit Rolls and any failed In The Way Tests. Furthermore, do not roll on the Scatter Table shooting the Black Arrow - a successful To Hit Roll against a Battlefield Target will always count as a Dead On result."
 			},
 			{
 				"name": "Saviour of Lake-town",
@@ -36129,7 +36194,7 @@
 			{
 				"name": "Skin-changer",
 				"tag": "Active",
-				"definition": "To change this model's form, the controlling player may roll a D6 at the start of its Move. On the roll of a 4+ (Might may be used to modify this\n                roll), the model changes shape from a man into a bear (or vice-versa). Replace the man model with the Bear model (or vice-versa).\n                The model can then continue with his move as normal, including making Charges. The model cannot change form if there is an enemy model in base contact with him."
+				"definition": "At the beginning of his Activation, Beorn the Bear can change his form from Bear to Man. If he does, place the Man model in base contact with the Bear model, and then remove the Bear model from play. If there is no space to place the Man model, then Beorn cannot transform. Once he has transformed, Beorn may continue his Activation as normal, including Charging in which case check the Line of Sight from the newly placed Man model to determine whether Beorn can Charge. Once Beorn the Bear has transformed, he uses the Beorn profile - though his Wounds, Might, Will and Fate Points remain the same between both profiles."
 			},
 			{
 				"name": "Leader of the Beornings",
@@ -36138,12 +36203,13 @@
 			},
 			{
 				"name": "Crushing Strength",
-				"definition": "Brutal Power Attack. If this model wins a Duel, instead of striking as normal, choose a losing model - that model immediately suffers a Strength 10 hit. If the To Wound roll is successful, the victim suffers another\n                Strength 10 hit, and so on, until the victim is dead or this model fails to wound his victim."
+				"tag": "Brutal Power Attack",
+				"definition": "If Beorn wins a Duel Roll he can choose to use this Brutal Power Attack. If he does, choose a single enemy model involved in the Combat. The chosen model immediately suffers a Strength 10 hit. If the Wound Roll is successful (even if the Wound is prevented), the model immediately suffers another Strength 10 hit, and so on until either Beorn fails a To Wound roll, or the chosen model is slain and removed as a casualty."
 			},
 			{
 				"name": "Berserk",
 				"tag": "Passive",
-				"definition": "Beorn the Bear must always Charge an enemy if he is able to. Additionally, Beorn may not use the Stand Fast! or Heroic Actions of other models, and other models may not use his, whilst he is in bear form."
+				"definition": "When Beorn the Bear begins his Activation, he must check to see if he can Charge an enemy model. If he can then he may not change form during this Activation and he must Charge an enemy model if possible. Additionally, Beorn the Bear may not benefit from the Heroic Actions of other friendly models with the exception of friendly Bear models, and other friendly models may not benefit from the Heroic Actions or Stand fast of Beorn unless they have the Beorning keyword."
 			},
 			{
 				"name": "Followers of the Bear",
@@ -37037,6 +37103,11 @@
 				"name": "Horned Charge",
 				"tag": "Active",
 				"definition": "During a turn in which a Snow Troll Charges, it gains a bonus of +1 Attack and +1 to its Fight Value until the end of the turn."
+			},
+			{
+				"name": "Swift Shot",
+				"tag": "Active",
+				"definition": "Bard never suffers the -1 penalty To Hit for Moving and Shooting"
 			}
 		]
 	}
