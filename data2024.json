@@ -15303,34 +15303,43 @@
 				],
 				"points": 65,
 				"movement": 5,
-				"fight": 4,
+				"fight": 5,
 				"shoot": 3,
 				"strength": 4,
 				"defence": 8,
 				"attack": 2,
 				"wounds": 2,
 				"courage": 5,
-				"might": 2,
-				"will": 1,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Strike"
+				"intelligence": 7,
+				"might": 1,
+				"will": 2,
+				"fate": 2,
+				"race": [
+					"Dwarf"
 				],
-				"keywords": [
-					"Dwarf",
-					"Erebor",
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strength"
 				],
 				"options": [],
 				"specialRules": [
+					"Sworn Protector (Thorin)",
 					"Throw Stones (range 8\", Strength 1)",
-					"Sworn Protector (Thorin Oakenshield, King Under the Mountain)",
-					"Embedded Axe-blade"
+					"Embedded Axe"
 				],
 				"wargear": [
 					"Heavy Dwarf Armour",
-					"Hand-and-a-half axe"
+					"Two-handed weapon"
 				]
 			},
 			{
@@ -15354,26 +15363,36 @@
 				"attack": 2,
 				"wounds": 2,
 				"courage": 5,
-				"might": 2,
+				"intelligence": 7,
+				"might": 1,
 				"will": 1,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Strike"
+				"fate": 2,
+				"race": [
+					"Dwarf"
 				],
-				"keywords": [
-					"Dwarf",
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strength"
 				],
 				"options": [],
 				"specialRules": [
-					"Throw Stones (range 8\", Strength 1)",
-					"Embedded Axe-blade"
+					"Throw Stones (range 8\", Strength 2)",
+					"Embedded Axe"
 				],
 				"wargear": [
-					"Armour",
-					"Dagger",
-					"Boar spear"
+					"Light armour",
+					"Hand weapon",
+					"Boar Spear"
 				]
 			},
 			{
@@ -15394,25 +15413,33 @@
 				],
 				"points": 65,
 				"movement": 5,
-				"fight": 4,
+				"fight": 5,
 				"shoot": 4,
 				"strength": 4,
 				"defence": 8,
 				"attack": 2,
 				"wounds": 2,
 				"courage": 5,
+				"intelligence": 6,
 				"might": 2,
 				"will": 1,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Resolve",
-					"Heroic Strike"
+				"fate": 2,
+				"race": [
+					"Dwarf"
 				],
-				"keywords": [
-					"Dwarf",
-					"Erebor",
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Resolve"
 				],
 				"options": [
 					{
@@ -15421,12 +15448,13 @@
 					}
 				],
 				"specialRules": [
-					"Sworn Protector (Thorin Oakenshield, King Under the Mountain)",
+					"Sworn Protector (Thorin)",
 					"Steadfast"
 				],
 				"wargear": [
 					"Heavy Dwarf Armour",
-					"Hand-and-a-half hammer"
+					"Two-handed weapon",
+					"Throwing weapons"
 				]
 			},
 			{
@@ -34093,7 +34121,7 @@
 			{
 				"name": "Boar spear",
 				"tag": "Active",
-				"definition": "A boar spear can be used as either a spear or a two-handed axe."
+				"definition": "This can be used as either a spear or a two-handed weapon."
 			},
 			{
 				"name": "Catapult",
@@ -36608,14 +36636,14 @@
 				"definition": "During the Priority phase, after Priority has been rolled, Harry Goatleaf may spend a point of Will to use this special rule. If he does so, select one enemy Infantry model within 6\" and Line of Sight of Harry Goatleaf and roll a D6. On a 3+, the chosen model cannot move that turn, though they can still do anything else they would normally be able to do. Harry may use Might to influence this roll. Monster models are unaffected by this special rule."
 			},
 			{
-				"name": "Embedded Axe-blade",
+				"name": "Embedded Axe",
 				"tag": "Active",
-				"definition": "If Bifur the Dwarf, Champion of Erebor wins a fight, he may choose to headbutt his enemy with the axe-blade embedded in his skull. Instead of striking normally, he may make a single Strike against his opponent. If Bifur manages to successfully wound his opponent, then the axe has been removed from his skull. Once the axe-blade is removed, Bifur may call a Heroic Move each turn without reducing his own Might store."
+				"definition": "If Bifur wins a Duel Roll, then he may choose to headbutt an enemy model instead of making Strikes. If he does, choose a single enemy model involved in the Combat. The chosen model suffers a Strength 4 Strike from Bifur, though this will not be doubled if the chosen model is Trapped. If Bifur Wounds the chosen model with this Strike, then the axe-blade will have been freed from his skull. From this point on, at the start of each Move Phase, before the Declare Heroic Actions step, Bifur may take an Intelligence Test. If the test is passed, Bifur may declare a Heroic Move that turn for free."
 			},
 			{
 				"name": "Steadfast",
-				"tag": "Passive",
-				"definition": "Whenever Bofur is targeted by a Magical Power or special rule, he may try to ignore its effects. Roll a D6. On the score of a 2+, its effects are ignored. This roll may be modified by Might. If you wish to try to Resist a Magical Power, you must do so before making Bofur’s Steadfast roll."
+				"tag": "Active",
+				"definition": "Whenever a friendly Erebor Hero within 3\" of Bofur is affected by an enemy special rule or Magical Power, they may roll a D6. On a 3+, the model will ignore its effects. In the case of a Magical Power, any Resist Tests must be made before using this special rule."
 			},
 			{
 				"name": "Beefy",
