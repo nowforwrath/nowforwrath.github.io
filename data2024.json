@@ -8216,20 +8216,35 @@
 				"shoot": 4,
 				"strength": 4,
 				"defence": 5,
-				"attack": 1,
+				"attack": 2,
 				"wounds": 3,
-				"courage": 7,
+				"courage": 3,
+				"intelligence": 3,
 				"might": 3,
 				"will": 6,
 				"fate": 3,
+				"race": [
+					"Wizard"
+				],
+				"faction": [
+					"White Council"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Channeling",
 					"Heroic Defence"
 				],
 				"specialRules": [
+					"Voice of Curunir",
 					"Consuming Rivalry",
-					"Lord of the Istari",
-					"Voice of Curunir"
+					"Lord of the Istari"
 				],
 				"wargear": [
 					"Staff of Power"
@@ -8237,29 +8252,38 @@
 				"options": [],
 				"magicalPowers": [
 					{
-						"name": "Aura of Command",
-						"range": 6,
-						"casting": 2
-					},
-					{
-						"name": "Immobilise",
-						"range": 18,
-						"casting": 2
-					},
-					{
-						"name": "Terrifying Aura",
-						"range": 0,
-						"casting": 2
-					},
-					{
-						"name": "Command",
+						"name": "Compel",
 						"range": 18,
 						"casting": 3
 					},
 					{
-						"name": "Sorcerous Blast",
+						"name": "Fog of Disarray",
+						"casting": 3
+					},
+					{
+						"name": "Protection of the Valar",
+						"range": 12,
+						"casting": 3
+					},
+					{
+						"name": "Terrifying Aura",
+						"range": 0,
+						"casting": 3
+					},
+					{
+						"name": "Transfix",
+						"range": 18,
+						"casting": 3
+					},
+					{
+						"name": "Foil Magic",
 						"range": 12,
 						"casting": 4
+					},
+					{
+						"name": "Sorcerous Blast",
+						"range": 12,
+						"casting": 5
 					}
 				]
 			},
@@ -9197,21 +9221,30 @@
 				"shoot": 3,
 				"strength": 4,
 				"defence": 6,
-				"attack": 2,
+				"attack": 3,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 5,
 				"might": 3,
 				"will": 2,
 				"fate": 1,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Accuracy"
+				"race": [
+					"Man"
 				],
-				"keywords": [
-					"Man",
-					"Dale",
+				"faction": [
+					"Dale"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Accuracy",
+					"Heroic Strike"
 				],
 				"options": [
 					{
@@ -9223,12 +9256,13 @@
 					}
 				],
 				"specialRules": [
+					"Hatred (Dragon)",
 					"Windlance Trained",
-					"Rapid Fire"
+					"Lord of Dale"
 				],
 				"wargear": [
-					"Sword",
-					"Heavy armour"
+					"Armour",
+					"Hand weapon"
 				]
 			},
 			{
@@ -9423,14 +9457,11 @@
 				"will": 0,
 				"fate": 0,
 				"heroicActions": [],
-				"keywords": [
-					"Siege Weapon",
-					"Iron Hills"
-				],
 				"options": [],
 				"specialRules": [
-					"Superior Construction",
-					"Accurate"
+					"Direct Shot",
+					"Accurage",
+					"Piercing Shot"
 				],
 				"wargear": [],
 				"requiredChildren": [
@@ -13280,27 +13311,38 @@
 				"defence": 7,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 5,
-				"might": 1,
-				"will": 3,
-				"fate": 1,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Defence"
 				],
-				"keywords": [
-					"Dwarf",
-					"Erebor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
-					"Sworn Protector (Thorin Oakenshield, King Under the Mountain)",
-					"Chronicler"
+					"Sworn Protector (Thorin)",
+					"Chronicler",
+					"Protect the Young"
 				],
 				"wargear": [
 					"Heavy Dwarf Armour",
-					"Hand-and-a-Half Axe"
+					"Two-handed weapon",
+					"Throwing weapons"
 				]
 			},
 			{
@@ -13323,26 +13365,37 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 2,
-				"courage": 5,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 1,
-				"will": 3,
-				"fate": 1,
+				"will": 2,
+				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Accuracy"
 				],
-				"keywords": [
-					"Dwarf",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
-					"Chronicler (Thorin's Company)",
-					"Deadeye"
+					"Sharpshooter",
+					"Deadeye",
+					"Chronicler"
 				],
 				"wargear": [
-					"Dagger",
-					"Slingshot"
+					"Hand weapon",
+					"Sling"
 				]
 			},
 			{
@@ -13366,33 +13419,42 @@
 				"fight": 5,
 				"shoot": 4,
 				"strength": 4,
-				"defence": 8,
+				"defence": 9,
 				"attack": 3,
 				"wounds": 2,
 				"courage": 5,
+				"intelligence": 5,
 				"might": 2,
-				"will": 1,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength"
+				"will": 2,
+				"fate": 2,
+				"race": [
+					"Dwarf"
 				],
-				"keywords": [
-					"Dwarf",
-					"Erebor",
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strike"
 				],
 				"options": [],
 				"specialRules": [
-					"Sworn Protector (Thorin Oakenshield, King Under the Mountain)",
+					"Sworn Protector (Thorin)",
 					"Weapon Master",
-					"Weapon Synergy"
+					"Just a couple of keepsakes"
 				],
 				"wargear": [
 					"Heavy Dwarf Armour",
-					"Mace",
-					"Shield"
+					"Hand weapon",
+					"Shield",
+					"Throwing weapons"
 				]
 			},
 			{
@@ -13416,25 +13478,36 @@
 				"attack": 2,
 				"wounds": 2,
 				"courage": 5,
+				"intelligence": 5,
 				"might": 2,
 				"will": 1,
-				"fate": 1,
+				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Strike"
 				],
-				"keywords": [
-					"Dwarf",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
-					"Weapon Master"
+					"Weapon Master",
+					"Just a couple of keepsakes"
 				],
 				"wargear": [
-					"Armour",
-					"Dagger",
-					"Two-handed mace"
+					"Light armour",
+					"Hand weapon",
+					"Two-handed weapon"
 				]
 			},
 			{
@@ -13617,31 +13690,41 @@
 				"shoot": 4,
 				"strength": 4,
 				"defence": 8,
-				"attack": 1,
+				"attack": 2,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 6,
 				"might": 1,
-				"will": 4,
+				"will": 5,
 				"fate": 1,
-				"heroicActions": [
-					"Heroic Resolve"
+				"race": [
+					"Dwarf"
 				],
-				"keywords": [
-					"Dwarf",
-					"Erebor",
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Defence"
 				],
 				"options": [],
 				"specialRules": [
-					"Sworn Protector (Thorin Oakenshield, King Under the Mountain)",
+					"Sworn Protector (Thorin)",
 					"Healing Herbs",
-					"Prognostication"
+					"Reading the Portents"
 				],
 				"wargear": [
 					"Heavy Dwarf Armour",
-					"Sword",
-					"Shield"
+					"Shield",
+					"Hand weapon",
+					"Hearing Trumpet"
 				]
 			},
 			{
@@ -13668,25 +13751,36 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 6,
 				"might": 1,
-				"will": 4,
+				"will": 5,
 				"fate": 1,
-				"heroicActions": [
-					"Heroic Resolve"
+				"race": [
+					"Dwarf"
 				],
-				"keywords": [
-					"Dwarf",
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Defence"
 				],
 				"options": [],
 				"specialRules": [
 					"Healing Herbs",
-					"Prognostication"
+					"Reading the Portents"
 				],
 				"wargear": [
-					"Hand-and-a-half staff"
+					"Hand-and-a-half weapon",
+					"Hearing Trumpet"
 				]
 			},
 			{
@@ -13772,27 +13866,37 @@
 				"defence": 7,
 				"attack": 3,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 5,
 				"might": 2,
-				"will": 1,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength"
+				"will": 2,
+				"fate": 2,
+				"race": [
+					"Dwarf"
 				],
-				"keywords": [
-					"Dwarf",
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strength",
+					"Heroic Strike"
 				],
 				"options": [],
 				"specialRules": [
-					"A Warrior Born"
+					"Axe Mastery"
 				],
 				"wargear": [
-					"Dwarf Armour",
-					"Two axes",
-					"Throwing axes"
+					"Heavy armour",
+					"Hand weapons",
+					"Throwing weapons"
 				]
 			},
 			{
@@ -14744,27 +14848,36 @@
 				],
 				"points": 130,
 				"movement": 5,
-				"fight": 6,
+				"fight": 7,
 				"shoot": 4,
 				"strength": 4,
 				"defence": 8,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 5,
 				"might": 3,
 				"will": 3,
 				"fate": 1,
-				"heroicActions": [
-					"Heroic Resolve",
-					"Heroic Strike",
-					"Heroic Strength",
-					"Heroic Challenge"
+				"race": [
+					"Dwarf"
 				],
-				"keywords": [
-					"Dwarf",
-					"Erebor",
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic March",
+					"Heroic Strength",
+					"Heroic Strike"
 				],
 				"options": [
 					{
@@ -14774,20 +14887,17 @@
 							"The Battle of Five Armies",
 							"Erebor Reclaimed"
 						]
-					},
-					{
-						"name": "War Goat",
-						"points": 10,
-						"availableIn": []
 					}
 				],
 				"specialRules": [
-					"A Score to Settle",
+					"Fearless",
+					"Hatred (Gundabad)",
+					"Du Bekar",
 					"Ancestral Fury"
 				],
 				"wargear": [
 					"Heavy Dwarf Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -14810,19 +14920,30 @@
 				"defence": 7,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 5,
 				"might": 3,
 				"will": 3,
 				"fate": 3,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength",
-					"Heroic Challenge"
+				"race": [
+					"Dwarf"
 				],
-				"keywords": [
-					"Dwarf",
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic March",
+					"Heroic Strength",
+					"Heroic Strike"
 				],
 				"requiredChildren": [
 					{
@@ -14854,10 +14975,12 @@
 						]
 					}
 				],
-				"specialRules": [],
+				"specialRules": [
+					"Loyalty, honour, a willing heart. I can ask no more than that"
+				],
 				"wargear": [
-					"Dwarf Armour",
-					"Sword"
+					"Heavy Armour",
+					"Hand weapon"
 				]
 			},
 			{
@@ -15005,26 +15128,33 @@
 				"attack": 2,
 				"wounds": 2,
 				"courage": 5,
+				"intelligence": 6,
 				"might": 2,
 				"will": 1,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Accuracy"
+				"fate": 2,
+				"race": [
+					"Dwarf"
 				],
-				"keywords": [
-					"Dwarf",
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
+				],
+				"heroicActions": [
+					"Heroic Accuracy",
+					"Heroic Strike"
 				],
 				"options": [],
 				"specialRules": [
 					"Combat Synergy"
 				],
 				"wargear": [
-					"Armour",
-					"Sword",
-					"Dwarf Bow"
+					"Light armour",
+					"Hand weapon",
+					"Dwarf bow"
 				]
 			},
 			{
@@ -15052,26 +15182,36 @@
 				"attack": 2,
 				"wounds": 2,
 				"courage": 5,
+				"intelligence": 5,
 				"might": 2,
 				"will": 1,
-				"fate": 1,
+				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Strike",
 					"Heroic Strength"
-				],
-				"keywords": [
-					"Dwarf",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
 					"Combat Synergy"
 				],
 				"wargear": [
-					"Armour",
-					"Swords",
-					"Throwing Axes"
+					"Light armour",
+					"Hand weapons",
+					"Throwing weapons"
 				]
 			},
 			{
@@ -15156,43 +15296,36 @@
 				"attack": 2,
 				"wounds": 2,
 				"courage": 5,
+				"intelligence": 6,
 				"might": 3,
-				"will": 1,
+				"will": 2,
 				"fate": 1,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Accuracy"
+				"race": [
+					"Dwarf"
 				],
-				"keywords": [
-					"Dwarf",
-					"Erebor",
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
 				],
-				"options": [
-					{
-						"name": "War Goat",
-						"points": 10,
-						"availableIn": [
-							"Erebor Reclaimed"
-						]
-					},
-					{
-						"name": "Dwarf Bow",
-						"points": 5,
-						"availableIn": [
-							"Erebor Reclaimed"
-						]
-					}
+				"baseSize": [
+					"25mm"
 				],
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Strike"
+				],
+				"options": [],
 				"specialRules": [
-					"Combat Synergy",
-					"Sworn Protector (Thorin Oakenshield, King Under the Mountain)",
-					"Du Bekar"
+					"Sworn Protector (Thorin)",
+					"Combat Synergy"
 				],
 				"wargear": [
 					"Heavy Dwarf Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -16466,7 +16599,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"points": 130,
+				"points": 125,
 				"movement": 6,
 				"fight": 6,
 				"shoot": 3,
@@ -16474,45 +16607,55 @@
 				"defence": 3,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 7,
+				"courage": 3,
+				"intelligence": 3,
 				"might": 3,
 				"will": 6,
 				"fate": 3,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"White Council"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Channeling",
 					"Heroic Strike"
-				],
-				"keywords": [
-					"Elf",
-					"Lorien",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
 					"Terror",
 					"Woodland Creature",
-					"The Lady of Lothlorien",
-					"War Aspect"
+					"The Lady of Lorien",
+					"War Aspect",
+					"Go back to the void, from whence you came!"
 				],
 				"wargear": [
-					"The Light of Earendil",
-					"Nenya"
+					"Nenya",
+					"The Light of Earendil"
 				],
 				"magicalPowers": [
 					{
 						"name": "Fortify Spirit",
 						"range": 12,
-						"casting": 2
+						"casting": 3
 					},
 					{
 						"name": "Banishment",
 						"range": 12,
-						"casting": 3
+						"casting": 4
 					},
 					{
 						"name": "Instill Fear",
-						"range": 3,
+						"range": 0,
 						"casting": 4
 					}
 				]
@@ -17244,25 +17387,31 @@
 				"defence": 4,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
-				"might": 3,
-				"will": 1,
-				"fate": 1,
+				"courage": 6,
+				"intelligence": 7,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Lake-town"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
 				"heroicActions": [
 					"Heroic Accuracy"
 				],
-				"keywords": [
-					"Man",
-					"Lake-town",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
-					"Archers, This Way!"
+					"Archers, this way!"
 				],
 				"wargear": [
-					"Sword",
+					"Hand weapon",
 					"Bow"
 				]
 			},
@@ -17636,24 +17785,34 @@
 				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 7,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Lake-town"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
 				],
-				"keywords": [
-					"Man",
-					"Lake-town",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
-				"specialRules": [],
+				"specialRules": [
+					"Everyone has a Price"
+				],
 				"wargear": [
-					"Sword",
-					"Armour"
+					"Armour",
+					"Hand weapon"
 				]
 			},
 			{
@@ -17705,27 +17864,32 @@
 				],
 				"points": 130,
 				"movement": 6,
-				"fight": 6,
-				"shoot": 2,
+				"fight": 7,
+				"shoot": 3,
 				"strength": 4,
 				"defence": 4,
-				"attack": 2,
+				"attack": 3,
 				"wounds": 3,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 4,
 				"might": 3,
 				"will": 3,
 				"fate": 3,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Accuracy",
-					"Heroic Strength",
-					"Heroic Defence"
+				"race": [
+					"Elf"
 				],
-				"keywords": [
-					"Elf",
-					"Mirkwood",
+				"faction": [
+					"Mirkwood"
+				],
+				"unitTYpe": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
+				],
+				"heroicActions": [
+					"Heroic Resolve",
+					"Heroic Strength",
+					"Heroic Strike"
 				],
 				"options": [
 					{
@@ -17739,12 +17903,14 @@
 				],
 				"specialRules": [
 					"Expert Rider",
+					"Leader (Palace Guard)",
 					"Woodland Creature",
-					"Fleetfoot"
+					"Bladelord",
+					"Fury of the Elvenking",
+					"Do not talk to me of Dragon fire\""
 				],
 				"wargear": [
-					"Elven-made Sword",
-					"Elven Cloak"
+					"Elven hand-and-a-half weapons"
 				]
 			},
 			{
@@ -17841,24 +18007,33 @@
 				"points": 105,
 				"movement": 6,
 				"fight": 6,
-				"shoot": 3,
+				"shoot": 2,
 				"strength": 4,
 				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 4,
 				"might": 3,
 				"will": 2,
 				"fate": 3,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Accuracy"
+				"race": [
+					"Elf"
 				],
-				"keywords": [
-					"Elf",
-					"Mirkwood",
+				"faction": [
+					"Mirkwood"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Accuracy",
+					"Heroic Strike"
 				],
 				"requiredChildren": [
 					{
@@ -17907,8 +18082,11 @@
 					}
 				],
 				"specialRules": [
+					"Leader (Palace Guard)",
+					"Sharpshooter",
 					"Woodland Creature",
-					"Deadly Shot"
+					"Deadly Shot",
+					"Pinpoint Shot"
 				],
 				"wargear": [
 					"Elf Bow",
@@ -17948,19 +18126,28 @@
 				"defence": 5,
 				"attack": 3,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 4,
 				"might": 3,
 				"will": 2,
 				"fate": 3,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Accuracy"
+				"race": [
+					"Elf"
 				],
-				"keywords": [
-					"Elf",
-					"Mirkwood",
+				"faction": [
+					"Mirkwood"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Accuracy",
+					"Heroic Strike"
 				],
 				"options": [
 					{
@@ -17974,14 +18161,16 @@
 					}
 				],
 				"specialRules": [
+					"Expert Shot",
+					"Sharpshooter",
 					"Woodland Creature",
 					"Blade Mistress",
 					"Vengeful Fury"
 				],
 				"wargear": [
-					"Elven Cloak",
-					"Elven-made daggers",
-					"Armour"
+					"Armour",
+					"Elven hand weapons",
+					"Elven Cloak"
 				]
 			},
 			{
@@ -18001,18 +18190,26 @@
 				"defence": 6,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 4,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Mirkwood"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
-				],
-				"keywords": [
-					"Elf",
-					"Mirkwood",
-					"Infantry",
-					"Hero"
 				],
 				"options": [
 					{
@@ -18025,8 +18222,9 @@
 				],
 				"specialRules": [
 					"Bodyguard",
+					"Leader (Palace Guard)",
 					"Woodland Creature",
-					"King's Guard (Thranduil)"
+					"The King's Guard"
 				],
 				"wargear": [
 					"Elven-made hand-and-a-half sword",
@@ -18111,28 +18309,37 @@
 				"defence": 4,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 5,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Mirkwood"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Accuracy"
 				],
-				"keywords": [
-					"Elf",
-					"Mirkwood",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
+					"Sharpshooter",
 					"Woodland Creature",
-					"Knife Fighters"
+					"Knife Fighter"
 				],
 				"wargear": [
-					"Elf Bow",
-					"Elven Cloak",
-					"Elven-made daggers"
+					"Elven hand weapon",
+					"Elf bow",
+					"Elven cloak"
 				]
 			},
 			{
@@ -19269,26 +19476,36 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
-				"points": 150,
+				"points": 145,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
 				"strength": 4,
 				"defence": 5,
-				"attack": 1,
+				"attack": 2,
 				"wounds": 3,
-				"courage": 7,
+				"courage": 3,
+				"intelligence": 4,
 				"might": 3,
 				"will": 6,
 				"fate": 3,
+				"race": [
+					"Wizard"
+				],
+				"faction": [
+					"Thorn's Company"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Channelling",
 					"Heroic Defence"
-				],
-				"keywords": [
-					"Wizard",
-					"Infantry",
-					"Hero"
 				],
 				"requiredChildren": [
 					{
@@ -19321,54 +19538,49 @@
 							"Thorin's Company",
 							"The White Council"
 						]
-					},
-					{
-						"name": "Horse",
-						"points": 10,
-						"chooseOneKey": "a",
-						"availableIn": []
-					},
-					{
-						"name": "Sebastian",
-						"points": 5,
-						"availableIn": []
 					}
 				],
 				"specialRules": [
-					"Master of Birds",
-					"One with Nature"
+					"Mountain Dweller",
+					"Stalk Unseen",
+					"Woodland Creature",
+					"Master of Birds"
 				],
 				"wargear": [
 					"Staff of Power",
-					"Dagger"
+					"Hand weapon",
+					"Sebastian"
 				],
 				"magicalPowers": [
 					{
 						"name": "Panic Steed",
 						"range": 12,
-						"casting": 2
+						"casting": 3
 					},
 					{
 						"name": "Terrifying Aura",
-						"casting": 2
-					},
-					{
-						"name": "Immobilise",
-						"range": 12,
 						"casting": 3
 					},
 					{
 						"name": "Renew",
 						"range": 12,
-						"casting": 3
+						"casting": 4
 					},
 					{
-						"name": "Nature's Wrath",
-						"range": 3,
+						"name": "Transfix",
+						"range": 12,
 						"casting": 4
 					},
 					{
 						"name": "Aura of Dismay",
+						"casting": 5
+					},
+					{
+						"name": "Nature's Wrath",
+						"casting": 4
+					},
+					{
+						"name": "Writhing Vines",
 						"casting": 5
 					}
 				]
@@ -19514,30 +19726,40 @@
 				"leaderPriority": 2,
 				"points": 70,
 				"movement": 6,
-				"fight": 4,
-				"shoot": 4,
+				"fight": 3,
+				"shoot": 5,
 				"strength": 3,
 				"defence": 4,
-				"attack": 2,
+				"attack": 1,
 				"wounds": 2,
-				"courage": 3,
+				"courage": 8,
+				"intelligence": 7,
 				"might": 2,
-				"will": 2,
+				"will": 4,
 				"fate": 2,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Lake-town"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Defence"
 				],
-				"keywords": [
-					"Man",
-					"Lake-town",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
+					"Fearful",
 					"Moneybags",
-					"Dragon-sickness",
-					"Who would have the nerve to question my authority?"
+					"Price of Greed",
+					"Save the Gold!"
 				],
 				"wargear": [
 					"Unarmed"
@@ -19840,6 +20062,9 @@
 				"will": 0,
 				"fate": 0,
 				"heroicActions": [],
+				"baseSize": [
+					"100mm"
+				],
 				"includes": [
 					{
 						"name": "Iron Hills Dwarf Siege Veteran",
@@ -19849,27 +20074,7 @@
 				"increaseMaximumChildren": {
 					"warriors": -3
 				},
-				"keywords": [
-					"Siege Weapon",
-					"Iron Hills"
-				],
-				"options": [
-					{
-						"name": "Iron Hills Dwarf Engineer Captain",
-						"points": 75,
-						"usesDefinition": "Engineer Captain"
-					},
-					{
-						"name": "Superior Construction",
-						"points": 15
-					},
-					{
-						"name": "Additional Dwarf Crew",
-						"points": 10,
-						"increment": true,
-						"max": 8
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Arcing Shot",
 					"Area Effect",
@@ -20163,27 +20368,37 @@
 				"defence": 9,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 5,
 				"might": 3,
 				"will": 3,
 				"fate": 1,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength",
-					"Heroic Challenge"
+				"race": [
+					"Dwarf"
 				],
-				"keywords": [
-					"Dwarf",
-					"Erebor",
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Strike"
 				],
 				"options": [],
-				"specialRules": [],
+				"specialRules": [
+					"Ancient Enemies (Orc)"
+				],
 				"wargear": [
-					"Heavy Dwarf Armour",
-					"Sword",
+					"Mithril armour",
 					"Shield",
+					"Hand weapon",
 					"Arkenstone",
 					"The Ring of Durin"
 				]
@@ -20208,29 +20423,43 @@
 				"defence": 8,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 5,
 				"might": 3,
 				"will": 3,
 				"fate": 3,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Defence"
+				"race": [
+					"Dwarf"
 				],
-				"keywords": [
-					"Dwarf",
-					"Erebor",
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
 				],
-				"options": [],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"options": [
+					{
+						"name": "The Ring of Durin",
+						"points": 0,
+						"unavailableWith": "Thror, King Under the Mountain"
+					}
+				],
 				"specialRules": [
-					"Durin's Heir",
-					"Blood Feud"
+					"Hatred (Gundabad)",
+					"Durin's Heir"
 				],
 				"wargear": [
 					"Heavy Dwarf Armour",
-					"Master Forged two-handed hammer",
-					"The Ring of Durin"
+					"Master-forged two-handed weapon"
 				]
 			},
 			{
@@ -20250,32 +20479,39 @@
 				"fight": 6,
 				"shoot": 4,
 				"strength": 4,
-				"defence": 7,
+				"defence": 8,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 5,
 				"might": 3,
 				"will": 3,
 				"fate": 3,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Defence",
-					"Heroic Challenge",
-					"Heroic Strength"
+				"race": [
+					"Dwarf"
 				],
-				"keywords": [
-					"Dwarf",
-					"Erebor",
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
+				],
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Defence",
+					"Heroic Strength",
+					"Heroic Strike"
 				],
 				"options": [],
 				"specialRules": [
 					"To Arms!"
 				],
 				"wargear": [
-					"Dwarf Armour",
-					"Sword"
+					"Heavy armour",
+					"Hand weapon",
+					"The Oakenshield"
 				]
 			},
 			{
@@ -24103,28 +24339,39 @@
 					}
 				],
 				"points": 10,
-				"movement": 5,
+				"movement": 6,
 				"fight": 4,
 				"shoot": 4,
 				"strength": 2,
 				"defence": 4,
 				"attack": 1,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 0,
 				"will": 0,
-				"fate": 0,
-				"heroicActions": [],
-				"keywords": [
-					"Dwarf",
-					"Infantry",
-					"Hero"
+				"fate": 1,
+				"race": [
+					"Dwarf"
 				],
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
 				"specialRules": [
-					"Shattered Spirit"
+					"Shattered Spirit",
+					"Gandalf's Intervention"
 				],
 				"wargear": [
-					"Dagger"
+					"Hand weapon"
 				],
 				"options": []
 			},
@@ -24542,46 +24789,40 @@
 				"factions": [
 					"The Iron Hills"
 				],
-				"points": 175,
+				"points": 170,
 				"movement": 8,
 				"fight": 4,
 				"shoot": 4,
 				"strength": 4,
 				"defence": 8,
 				"attack": 2,
-				"wounds": 5,
-				"courage": 3,
-				"keywords": [
-					"Dwarf",
-					"Iron Hills",
-					"Warrior"
+				"wounds": 4,
+				"courage": 6,
+				"intelligence": 6,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Iron Hills"
+				],
+				"unitType": [
+					"Warrior",
+					"Chariot"
+				],
+				"baseSize": [
+					"170mmm oval"
 				],
 				"options": [],
 				"specialRules": [
-					"Fearless",
-					"Monstrous Charge"
+					"Dominant (4)",
+					null,
+					"Chariot Charge",
+					"Dwarven Crew"
 				],
 				"wargear": [
 					"Heavy armour",
-					"Sword"
-				],
-				"includes": [
-					{
-						"dataSource": "warriors",
-						"name": "Iron Hills Chariot Crew"
-					},
-					{
-						"dataSource": "warriors",
-						"name": "Iron Hills Chariot Crew"
-					},
-					{
-						"dataSource": "warriors",
-						"name": "Iron Hills Chariot Crew"
-					},
-					{
-						"dataSource": "warriors",
-						"name": "Iron Hills Chariot Crew"
-					}
+					"Hand weapon",
+					"Rapid-fire Bolt Thrower"
 				]
 			},
 			{
@@ -28576,13 +28817,8 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
-				"keywords": [
-					"Man",
-					"Dale",
-					"Infantry",
-					"Warrior"
-				],
+				"courage": 7,
+				"intelligence": 7,
 				"options": [
 					{
 						"name": "Banner",
@@ -28610,10 +28846,12 @@
 						"chooseOneKey": "a"
 					}
 				],
-				"specialRules": [],
+				"specialRules": [
+					"Hatred (Dragon)"
+				],
 				"wargear": [
 					"Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -30459,24 +30697,32 @@
 				"fight": 2,
 				"shoot": 4,
 				"strength": 3,
-				"defence": 4,
+				"defence": 3,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
-				"keywords": [
-					"Man",
-					"Lake-town",
-					"Infantry",
-					"Warrior"
+				"courage": 7,
+				"intelligence": 8,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Lake-town"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"options": [
 					{
-						"name": "Light shield",
+						"name": "Bow",
 						"points": 1,
 						"requireChooseOneKey": "a"
 					},
 					{
-						"name": "Bow",
+						"name": "Light shield",
 						"points": 1,
 						"requireChooseOneKey": "a"
 					},
@@ -30487,11 +30733,11 @@
 					}
 				],
 				"specialRules": [
-					"Onwards, Men of Esgaroth"
+					"Onwards Men of Esgaroth"
 				],
 				"wargear": [
-					"Armour",
-					"Sword or axe"
+					"Light armour",
+					"Hand weapon"
 				]
 			},
 			{
@@ -30507,27 +30753,39 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 2,
-				"keywords": [
-					"Man",
-					"Lake-town",
-					"Infantry",
-					"Warrior"
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Lake-town"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"options": [
 					{
 						"name": "Bow",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Spear",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					}
 				],
-				"specialRules": [],
+				"specialRules": [
+					"Everyone has a Price"
+				],
 				"wargear": [
 					"Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -30544,11 +30802,20 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 5,
-				"keywords": [
-					"Elf",
-					"Mirkwood",
+				"intelligence": 5,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Mirkwood"
+				],
+				"unitType": [
+					"Warrior",
 					"Infantry",
-					"Warrior"
+					"Elite"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"options": [
 					{
@@ -30568,13 +30835,13 @@
 					}
 				],
 				"specialRules": [
-					"Woodland Creature",
 					"Bodyguard",
-					"King's Guard (Thranduil)"
+					"Woodland Creature",
+					"The King's Guard"
 				],
 				"wargear": [
-					"Heavy Armour",
-					"Elven-made hand-and-a-half Sword"
+					"Heavy armour",
+					"Elven hand-and-a-half weapon"
 				]
 			},
 			{
@@ -30652,11 +30919,19 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 5,
-				"keywords": [
-					"Elf",
-					"Mirkwood",
-					"Cavalry",
-					"Warrior"
+				"intelligence": 6,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Mirkwood"
+				],
+				"unitType": [
+					"Warrior",
+					"Cavalry"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"options": [],
 				"specialRules": [
@@ -30666,7 +30941,7 @@
 				],
 				"wargear": [
 					"Heavy Armour",
-					"Elven-made hand-and-a-half Sword",
+					"Elven hand-and-a-half weapon",
 					"Horse"
 				]
 			},
@@ -30685,20 +30960,29 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 5,
-				"keywords": [
-					"Elf",
-					"Mirkwood",
-					"Infantry",
-					"Warrior"
+				"intelligence": 6,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Mirkwood"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"options": [],
 				"specialRules": [
+					"Sharpshooter",
 					"Woodland Creature",
-					"Knife Fighters"
+					"Knife Fighter"
 				],
 				"wargear": [
-					"Elf Bow",
-					"Elven-made daggers",
+					"Elven hand weapon",
+					"Elf bow",
 					"Elven cloak"
 				],
 				"ignoreLimits": [
@@ -33223,18 +33507,28 @@
 				"name": "Sleigh",
 				"type": "mount",
 				"movement": 10,
-				"fight": 3,
+				"fight": 2,
 				"shoot": 6,
-				"strength": 2,
+				"strength": 3,
 				"defence": 3,
-				"attack": 4,
+				"attack": 2,
 				"wounds": 4,
-				"courage": 2,
-				"specialRules": [
-					"Woodland Creature",
-					"Fleetfoot"
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Rabbit"
 				],
-				"definition": "If Radagast is slain or dismounts, remove the sleigh from play."
+				"unitType": [
+					"Chariot"
+				],
+				"baseSize": [
+					"120mm oval"
+				],
+				"specialRules": [
+					"Dominant (3)",
+					"Woodland Creature",
+					"Chariot Charge"
+				]
 			},
 			{
 				"name": "Cart",
@@ -33253,19 +33547,40 @@
 			{
 				"name": "Great Eagle",
 				"type": "mount",
-				"movement": 3,
+				"movement": 12,
 				"fight": 7,
 				"shoot": 4,
 				"strength": 6,
 				"defence": 8,
 				"attack": 2,
 				"wounds": 3,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 4,
+				"race": [
+					"Eagle"
+				],
+				"faction": [
+					"Misty Mountain"
+				],
+				"unitType": [
+					"Warrior",
+					"Mount",
+					"Monster"
+				],
+				"baseSize": [
+					"60mm"
+				],
+				"wargear": [
+					"Claws and beak (hand weapon)"
+				],
 				"specialRules": [
+					"Dominant (3)",
 					"Fly",
+					"Large Target",
 					"Monstrous Charge",
 					"Terror"
-				]
+				],
+				"specialText": "Additionally, if Radagast dismounts from the Great Eagle it will automatically pass its Courage Test for being a Separated Mount."
 			},
 			{
 				"name": "Armour",
@@ -33626,7 +33941,7 @@
 						"modifier": 1
 					}
 				],
-				"definition": "The Oakenshield is a shield. Additionally, should Thorin opt to use it for Shielding during a Fight and he wins, he may make a single Strike at his Strength (receiving no bonuses from any weapons)."
+				"definition": "This is a Unique shield. Additionally, if Thorin elects to shield with the Oakenshield wins the Combat, then he may inflict a single Strength 4 hit on one enemy model involved in the Combat."
 			},
 			{
 				"name": "Crown of Morgul",
@@ -33802,6 +34117,11 @@
 				"definition": "Herugrim is a sword. Additionally, Theoden may use the Feint Special Strike even if his fight value is lower than his opponent's."
 			},
 			{
+				"name": "Hearing Trumpet",
+				"tag": "Active",
+				"definition": "Whenever an enemy Hero declares a Heroic Action within 6\" of Oin, you may roll a D6. On a 5+, Oin may immediately declare the same Heroic Action for free. However, on a natural 1, Oin immediately loses a Will Points. If he cannot lose a Will Point in this manner, then Oin cannot Move during that turn as he tries to fix his Hearing Trumpet."
+			},
+			{
 				"name": "Narya",
 				"tag": "Passive",
 				"definition": "This is a Unique piece of Wargear. Gandalf may re-roll any failed Fate rolls."
@@ -33870,7 +34190,7 @@
 			{
 				"name": "The Ring of Durin",
 				"tag": "Passive",
-				"definition": "Once per game, the bearer of the Ring of Durin may re-roll a single Priority roll."
+				"definition": "Once per game during the Priority Phase, after the roll for Priority has taken place, the bearer of the Ring of Durin can re-roll their side's Priority Roll."
 			},
 			{
 				"name": "Armour of the Sundered Land",
@@ -33878,9 +34198,9 @@
 				"definition": "The Knight of Umbar only loses a point of Will for having been in a Fight if he loses a Fight during the Fight phase (for example, he doesn't win the Duel roll to see which side may make Strikes)."
 			},
 			{
-				"name": "Arkenstone",
+				"name": "The Arkenstone",
 				"tag": "Passive",
-				"definition": "The bearer of the Arkenstone passes Fate rolls on a 3+. In addition, when taking a Fate roll, if the roll is a 4 or better, there is no need to expend the Fate point at all; it is free."
+				"definition": "This is a Unique piece of wargear. The bearer of the Arkenstone passes Fate Rolls on a 3+. Additionally, when making a Fate Roll, if the result is a 4 or better, then the Fate Point is free and is not spent."
 			},
 			{
 				"name": "The Crown of Kings",
@@ -33968,7 +34288,7 @@
 				"name": "Orcrist",
 				"type": "Weapon",
 				"tag": "Active",
-				"definition": "Orcrist is an Elven-made hand-and-a-half sword that has the Orcbane, Goblinbane and Uruk-haibane special rules. Additionally, the bearer of Orcrist has the Terror (Goblin), Terror (Orc) and Terror (Uruk-hai) special rules."
+				"definition": "This is a Unique Elven hand-and-a-half weapon. Orcrist has the Orcbane, Goblinbane and Uruk-haibane special rules. Additionally, the wielder of Orctrist has the Terror (Orc), Terror (Goblin) and Terror (Uruk-hai) special rules."
 			},
 			{
 				"name": "The Oakenshield",
@@ -34068,9 +34388,10 @@
 				"defence": 10,
 				"wounds": 3,
 				"specialRules": [
-					"Accurate"
-				],
-				"definition": "The Windlance follows all of the rules for a Siege Engine with the Superior Construction upgrade,\n                as described in the main rules manual.\n                The Windlance is a small Siege Engine and Bard the Bowman counts as the Siege Engine's only crew. Note that this means that he cannot move the Windlance, though unlike normal crew, he can choose to move more than 6\" away from it even if it has not yet been destroyed.\n                Provided that he is in base contact with the Windlance and is not Engaged in combat, Bard the Bowman can fire the Windlance every turn. Bard the Bowman may use his Might to influence To Hit, To Wound and Scatter table rolls made for the Windlance."
+					"Direct Shot",
+					"Accurate",
+					"Piercing Shot"
+				]
 			},
 			{
 				"name": "Breathe Fire",
@@ -34108,8 +34429,8 @@
 			},
 			{
 				"name": "Sebastian",
-				"tag": "Passive",
-				"definition": "If Radagast is accompanied by Sebastian, he may always make an additional Attack in close combat, with a Fight value and Strength of 1 (roll a separate D6 for Sebastian) which cannot be altered by Might."
+				"tag": "Active",
+				"definition": "This is a Unique piece of Wargear. During a Combat, Radagast may roll an additional D6 in his Duel Roll, and may make an additional Strike if he wins the Combat. This additional D6 cannot be modified by Might, and is treated as being Strength 1 when making Strikes - roll a separate dice for Sebastian to make sure."
 			},
 			{
 				"name": "The Light of Earendil",
@@ -34322,6 +34643,35 @@
 				],
 				"baseSize": [
 					"40mm"
+				]
+			},
+			{
+				"name": "Great Elk",
+				"type": "mount",
+				"movement": 10,
+				"fight": 4,
+				"shoot": 6,
+				"strength": 4,
+				"defence": 5,
+				"attack": 0,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 7,
+				"race": [
+					"Elk"
+				],
+				"faction": [
+					"Mirkwood"
+				],
+				"unitType": [
+					"Mount"
+				],
+				"baseSize": [
+					"50mm"
+				],
+				"specialRules": [
+					"Woodland Creature",
+					"Majestic Steed"
 				]
 			},
 			{
@@ -35055,7 +35405,7 @@
 			{
 				"name": "To Arms!",
 				"tag": "Active",
-				"definition": "Once per game, when moving Young Thorin Oakenshield, the controlling player may declare \"To Arms!\". At the start of the following Fight phase, all friendly Erebor Dwarf models within 3\" increase their Strength by 1 for that phase."
+				"definition": "Once per game, at the start of his Activation, Thorin can declare he is using this special rule. If he does, then until the end of the turn all friendly Erebor models within 3\" of Thorin increase their Strength by 1."
 			},
 			{
 				"name": "Lord of the West",
@@ -35164,12 +35514,12 @@
 			{
 				"name": "Consuming Rivalry",
 				"tag": "Passive",
-				"definition": "Saruman the White will never move as part of a Heroic Action called by Gandalf the Grey, \n                nor will he accept Gandalf the Grey’s aid in the form of the Strengthen Will spell – if Gandalf the Grey \n                casts this Magical Power on Saruman the White, it has no effect."
+				"definition": "Saruman may never benefit from a Heroic Action declared by Gandalf the Grey, nor may he be targeted by any Magial Power Cast by a friendly Grandalf the Grey."
 			},
 			{
 				"name": "Lord of the Istari",
-				"tag": "Passive",
-				"definition": "Saruman the White can choose to re-roll one dice when making Casting or Resist tests."
+				"tag": "Active",
+				"definition": "At the beginning of each Move Phase, before the Declare Heroic Actions Step, Saruman may choose a single enemy model within 6\" and Line of Sight. The chosen model must immediately take an Intelligence Test. If the test is failed, the chosen model cannot be Activated that turn."
 			},
 			{
 				"name": "Voice of Curunir",
@@ -35228,13 +35578,13 @@
 			},
 			{
 				"name": "Windlance Trained",
-				"tag": "Active",
+				"tag": "Passive",
 				"definition": "If this model is upgraded to take a Windlance, then he counts as the only crew for the Siege Engine. However, unlike normal Siege Engine crew, this model may move further than 6\" away from the Windlance at any point and may rotate it without suffering the -1 penalty to his rolls To Hit. Additionally, when making a shooting attack with the Windlance that targets a Monster model, this model gains a bonus of +1 to any rolls on the Scatter Table."
 			},
 			{
 				"name": "Lord of Dale",
 				"tag": "Active",
-				"definition": "Brand's Stand Fast! is 12\" rather than 6\"."
+				"definition": "This model's Stand Fast is 12\" rather than 6\". Additionally, friendly Dale models within 3\" of this model may re-roll To Wound Rolls of a natural 1 when making strikes."
 			},
 			{
 				"name": "Stoic Fighter",
@@ -35616,7 +35966,7 @@
 			{
 				"name": "Chronicler",
 				"tag": "Active",
-				"definition": "Any time that Thorin Oakenshield, King under the Mountain, or a Champion of Erebor slays an enemy Hero or Monster model within 3\" of Ori the Dwarf,\n                 that model immediately regains a point of Might, Will or Fate (your choice) that has previously been spent in that game (or campaign)."
+				"definition": "Whenever a friendly Erebor Hero within 6\" and Line of Sight of Ori slays an enemy Hero or Monster, then that Erebor Hero may immediately regain a single point of either Might, Will or Fate spent earlier in the battle. If they are unable to regain a point of Might, Will or Fate, because their stores of each are full, then you may choose a different friendly Erebor Hero within 6\" and Line of Sight of Ori to regain it instead."
 			},
 			{
 				"name": "Chronicler (Thorin's Company)",
@@ -35626,7 +35976,7 @@
 			{
 				"name": "Healing Herbs",
 				"tag": "Active",
-				"definition": "In the Move phase, instead of moving, Óin the Dwarf may attempt to heal a friendly model with which he is in base contact. Roll a D6. On a 1-3, there is no\n                effect. On a 4 or 5, the model regains a Wound lost previously in the game (or campaign). On a 6, the model regains all of its lost Wounds."
+				"definition": "At any point during his Activation, Oin can choose a friendly Erebor Hero in base contact and roll a D6. On a 4+, the chosen model immediately regains a Wound lost earlier in the battle. Oin can only use this special rule once per turn."
 			},
 			{
 				"name": "Prognostication",
@@ -35770,7 +36120,7 @@
 			{
 				"name": "Ancestral Fury",
 				"tag": "Active",
-				"definition": "Thorin Oakenshield, King Under the Mountain may call a Heroic Combat every Fight phase without expending Might."
+				"definition": "If Throing Charges into Combat whilst he has the Infantry keyword, then during the Fight Phase he may declare a Heroic Combat for free."
 			},
 			{
 				"name": "Weapon Master",
@@ -35790,7 +36140,7 @@
 			{
 				"name": "Du Bekar",
 				"tag": "Passive",
-				"definition": "A model with this special rule counts as being in range of a banner if they are within 6\" of Thorin Oakenshield, King Under the Mountain."
+				"definition": "Friendly Dwarf models treat Thorin as a banner."
 			},
 			{
 				"name": "Twin Elven Blades",
@@ -35934,9 +36284,9 @@
 				"definition": "Bard the Bowman's Stand Fast! rule has a range of 6\". Furthermore, Bain, Son of Bard, Percy; Hilda Bianca; Lake-town Militia Captains and Lake-town Militia within 6\" of Bard the Bowman receive a +1 bonus to their Fight Value and count as being in range of a banner."
 			},
 			{
-				"name": "Onwards, Men of Esgaroth",
+				"name": "Onwards Men of Esgaroth",
 				"tag": "Passive",
-				"definition": "Lake-town Militia that are within 3\" of a friendly Lake-town Hero model who is in combat do not need to take Courage tests for being Broken."
+				"definition": "Whilst within 3\" of a friendly Lake-town Hero who is Engaged in Combat, this model automatically passes any Courage Tests they are required to take for being part of a Broken Army."
 			},
 			{
 				"name": "Dubious Counsel",
@@ -35954,9 +36304,9 @@
 				"definition": "Whilst Bain, Son of Bard is within 6\" of Bard the Bowman, he gains a bonus of +1 to his Courage value."
 			},
 			{
-				"name": "Archers, This Way!",
+				"name": "Archers, this way!",
 				"tag": "Passive",
-				"definition": "Percy, and Lake-town Militia within 6\" of Percy, may re-roll 1s To Hit when making shooting attacks with a bow."
+				"definition": "Friendly Lake-town models within 6\" and Line of Sight of Percy may re-roll To Hit Rolls of a 1 when making Shooting Attacks."
 			},
 			{
 				"name": "Stand by our Men!",
@@ -35975,7 +36325,7 @@
 			{
 				"name": "Bladelord",
 				"tag": "Active",
-				"definition": "Whilst he has the Infantry keyword (and the extra elven-made sword), Thranduil, King of the Woodland Realm receives +1 Attack. Furthermore, Thranduil, King of the Woodland Realm receives an additional Attack for each enemy model he is Engaged with after the first. This bonus is determined at the start of each Fight and lasts until all Strikes from that Fight have been resolved."
+				"definition": "If he is Outnumbered in a Combat, Thranduil may re-roll To Wound Rolls of a natural 1 when making Strikes. If he has the Infantry keyword and is Outnumbered in a Combat, Thranduil may instead re-roll all failed To Wound Rolls when making Strikes."
 			},
 			{
 				"name": "Breathe Fire",
@@ -36015,17 +36365,17 @@
 			{
 				"name": "Blade Mistress",
 				"tag": "Active",
-				"definition": "Tauriel receives an additional Attack for each enemy model she is Engaged with after the first. This bonus is determined at the start of each Fight, and lasts until all Strikes from that Fight have been resolved."
+				"definition": "If Tauriel is Outnumbered in a Combat, then before making her Duel Roll she gains an additional Attack for each model she is Engaged in Combat with after the first. This bonus lasts until the end of the Combat."
 			},
 			{
 				"name": "Vengeful Fury",
 				"tag": "Passive",
-				"definition": "If Kíli the Dwarf, Champion of Erebor is in your army, and is killed, Tauriel's Strength is immediately increased to 5 and her Defence is reduced to 4 for the remainder of the battle."
+				"definition": "If your army includes Kili, and he is removed as a casualty, then Tauriel's Strength is increased to 5 and her Defence reduced to 4 for the remainder of the battle. Additionally, if Kili is slain, then Tauriel must always Charge an enemy model when she Activates, if possible."
 			},
 			{
-				"name": "King's Guard (Thranduil)",
+				"name": "The King's Guard",
 				"tag": "Passive",
-				"definition": "Whilst within 3\" of Thranduil, King of the Woodland Realm, this model receives a bonus of +1 to their Fight value."
+				"definition": "Whilst within 3\" of Thranduil, this model gains a bonus of +1 to their Fight value."
 			},
 			{
 				"name": "King's Knights",
@@ -36038,9 +36388,9 @@
 				"definition": "A glaive can be used either as a spear or a hand-and-a-half sword. Alternatively, the bearer of a glaive can use the Shielding rule."
 			},
 			{
-				"name": "Knife Fighters",
+				"name": "Knife Fighter",
 				"tag": "Active",
-				"definition": "Mirkwood Rangers receive an additional Attack for each enemy model they are Engaged in combat with after the first (to a maximum of 3 bonus Attacks). This bonus is determined at the start of each fight, and lasts until all Strikes from that fight have been resolved."
+				"definition": "If this model is Outnumbered in a Comabt, then before making their Duel Roll they gain an additional Attack for each model they are Engaged in Combat with after the first, to a maximum of 3 bonus Attacks. This bonus lasts until the end of the Combat."
 			},
 			{
 				"name": "Troll (Siege)",
@@ -36229,7 +36579,7 @@
 			{
 				"name": "Master of Birds",
 				"tag": "Passive",
-				"definition": "Radagast is always assumed to have Line of Sight to any point on the battlefield. Additionally, Eagle models within 12\" of Radagast have the Resistant to Magic special rule."
+				"definition": "Radagast is always assumed to have Line of Sight to any point on the battlefield. Additionally, friendly Eagle models within 12\" of Radagast gain the Resistant to Magic special rule."
 			},
 			{
 				"name": "One with Nature",
@@ -36239,7 +36589,7 @@
 			{
 				"name": "War Aspect",
 				"tag": "Passive",
-				"definition": "All enemy models within 6\" of Galadriel, Lady of Light suffer a -1 penalty to their Courage. Furthermore, Galadriel, Lady of Light never counts as being unarmed."
+				"definition": "Enemy models within 6\" of Galadriel suffer a -1 penalty to any Courage Tests they take. Additionally, Galadriel never counts as unarmed."
 			},
 			{
 				"name": "*The Lord of Lossarnach",
@@ -36274,7 +36624,7 @@
 			{
 				"name": "Moneybags",
 				"tag": "Active",
-				"definition": "The Master of Lake-town can choose to expend a single point of Might at the start of the Fight phase. If he does so, Braga, Captain of the Guard, any Lake-town Guard Captains or Lake-town\n                Guard within 6\" receive a bonus of +1 to their Fight value, and count as being in range of a banner, until the end of the phase."
+				"definition": "At the start of the Fight Phase, before the declare Heroic Actions Step, the Master of Lake-town may spend a Will Point to use this special rule. If he does, then Braga, Captain of the Guard, and any friendly Lake-town Guard Captains and Lake-town Guard within 6\" of the Master of Lake-town gains a bonus of +1 to their Fight Value and treat the Master of Lake-town as a banner until the end of the turn."
 			},
 			{
 				"name": "Dragon-sickness",
@@ -36328,7 +36678,7 @@
 			{
 				"name": "Durin's Heir",
 				"tag": "Passive",
-				"definition": "Thrain's Stand Fast! is unusual. In addition to all of the normal rules for Stand Fast!, when Thrain passes a Stand Fast! roll, every friendly Dwarf model on the battlefield is automatically affected, including other Dwarf Hero models."
+				"definition": "Thrain's Stand Fast has a range of 12\". Additionally, friendly Dwarf Hero models may benefit from Thrain's Stand Fast."
 			},
 			{
 				"name": "Blood Feud",
@@ -36734,7 +37084,7 @@
 			{
 				"name": "Shattered Spirit",
 				"tag": "Passive",
-				"definition": "At the start of every Priority phase, before rolling for Priority, Thráin must take an unmodified Courage test. If the test is passed, he acts normally. If it is passed on a double, Thráin adds +2 to his Fight, Strength, Attacks and Courage until the end of the turn. If the Courage test is failed, then the opposing player controls Thráin as if he was one of their models. If Thráin is being used as a Good model, then when he fails his Courage test, the only difference between him and other Evil models is that Good models cannot target Thráin with missile fire or Magical Powers that cause damage, and cannot make Strikes against him. Thráin must always take this Courage test, he can never be forced to automatically pass it."
+				"definition": "At the start of the Move Phase, before the Declare Heroic Actions Step, Thrain must take an Intelligence Test. If the test is passed, Thrain acts normally during the turn. If the test is passed on a double (i.e., both dice show the same score) then until the end of the turn, Thrain increases his Attacks to 3, his Strength to 4, and gains the Fearless special rule. If the test is failed, then the opposing player controls Thrain as if he was one of their models, and will activate Thrain during their own Activation Phase. Though he is being controlled by the opposing player, Thrain cannot be targeted with shooting attacks, Magical Powers or special rules that affect enemy models. Additionally, if Thrain was a Good model, then other Good models cannot make Strikes against him should they beat him in a Combat or make Shooting Attacks if he would be In The Way as with any other Good model."
 			},
 			{
 				"name": "Barliman Butterbur, At Your Service",
@@ -37266,6 +37616,66 @@
 				"name": "Captain of the Guard",
 				"tag": "Passive",
 				"definition": "So long as Braga has Will Points remaining, friendly Lake-town Guard Captains and Lake-town Guard within 3\" of him count as having the Dominant (2) special rule."
+			},
+			{
+				"name": "Go back to the void, from whence you came!",
+				"tag": "Active",
+				"definition": "Galadriel may target any enemy model with the Banishment Magical Power as if it was a Spirit model; though non-Spirit models targeted in this way gain an additional free Will Point when attempting to Resist this Magical Power. Once per game, so long as she has at least 1 Will Point remaining, Galadriel may use this special rule instead of attempting to Cast a Magical Power. If she does, then Galadriel may choose a single model within 6\". The chosen model immediatley suffers D3 Wounds. After using this special rule, Galadriel reduces her Will Points to 0, is placed Prone, and no longer benefits from her The Lady of Lorien or War Aspect special rules (this will mean she is then Unarmed)."
+			},
+			{
+				"name": "Everyone has a Price",
+				"tag": "Passive",
+				"definition": "Whilst within 6\" and in Line of Sight of the Master of Lake-town, this model may re-roll failed To Wound Rolls of a natural 1 when making STrikes. This special rule has no effect if the Master of Lake-town has no Will Points remaining."
+			},
+			{
+				"name": "Just a couple of keepsakes",
+				"tag": "Active",
+				"definition": "Whilst Nori is carrying an Objective in Scenarios where this applies, he may re-roll all failed To Wound Rolls when making Strikes. However, Nori may never pass an Objective Marker to a friendly model."
+			},
+			{
+				"name": "Reading the Portents",
+				"tag": "Active",
+				"definition": "During the Fight Phase, Oin can spend a Will Point to allow a friendly Erebor Hero within 6\" to re-roll a single dice during their Duel Roll. Oin can use this special rule multiple times during the same Fight Phase, so long as he has Will Points remaining."
+			},
+			{
+				"name": "Protect the Young",
+				"tag": "Passive",
+				"definition": "Other friendly Erebor Hero models within 6\" of Ori do not suffer the -1 penalty to their Duel Roll for fighting with a two-handed weapon."
+			},
+			{
+				"name": "Price of Greed",
+				"tag": "Passive",
+				"definition": "At the beginning of the game, your opponent must choose one of their Hero models to be the bearer of a large sum of gold. If the chosen Hero model Moves into base contact with the Master of Lake-town, then the Master of Lake-town must immediately take a Courage Test. If ehte test is failed, then the Master of Lake-town immediately flees and is removed as a casualty."
+			},
+			{
+				"name": "Save the Gold!",
+				"tag": "Passive",
+				"definition": "Whenever an enemy Hero model within 3\" of the Master of Lake-town is removed as a casualty, the Master of Lake-town immediately regains a single Will Point spent earlier in the battle. Additionally, if the Master of Lake-town is in base contact with an Objective M arker during the End Phase of a turn, he may regain a single Will Point spent earlier in the battle."
+			},
+			{
+				"name": "Loyalty, honour, a willing heart. I can ask no more than that",
+				"tag": "Passive",
+				"definition": "Friendly Thorin's Company models within 6\" of Thorin may re-roll To Wound Rolls of a natural 1 when making Strikes. Additionally, friendly Thorin's Company models may benefit from Thorin's Stand Fast."
+			},
+			{
+				"name": "Gandalf's Intervention",
+				"tag": "Active",
+				"definition": "If when Thrain takes his Intelligence Test for his Shattered Spirit special rule he is within 3\" of a friendly Gandalf the Grey, then he may alter a single dice rolled as part of his Intelligence Test by 1, either up or down. If after this alteration the score of the Intelligence Test is a double, then Thrain may gain the benefits of rolling a double as described in his Shattered Spirit special rule."
+			},
+			{
+				"name": "Fury of the Elvenking",
+				"tag": "Active",
+				"definition": "If Thranduil is Outnumbered in a Combat, and successfully kills all enemy models that he was Engaged in Combat with, then in the following turn Thranduil may declare a Heroic Combat for free."
+			},
+			{
+				"name": "Do no talk to me of Dragon fire",
+				"tag": "Active",
+				"definition": "At the beginnign of his Activation, Thranduil can spend a Will Point to use this special rule. If he does, then until the end of the turn Thranduil has the Terror special rule. Additionally, if Thranduil has the Infantry Keyword when he uses this special rule, then each enemy model within 3\" of him, that is not Engaged in Combat, must take a Courage Test in an order chosen by Thranduil's controlling player. If the test is failed, they must immediately Move Directly Away from Thranduil as far as they can, up to the limit of their Move Value. Models Moved by this special rule cannot Move again during the turn, but may otherwise act normally."
+			},
+			{
+				"name": "Majestic Steed",
+				"tag": "Active",
+				"definition": "In a turn in which Thranduil Charges into Combat, he resolves his Strikes at Stength 5. Additionally, each time this model Charges into Combat, it will inflict a single Strength 4 hit upon the model it has Charged (Cavalry models suffer this hit on both the rider and the Mount). If after this hit Thranduil is no longer Engaged in Combat, he may continue his Move in any way his controlling player wishes; stopping straight away. Charging anohter enemy model, or anything in between."
 			}
 		]
 	}
