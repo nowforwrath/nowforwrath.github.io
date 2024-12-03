@@ -23375,21 +23375,33 @@
 				"defence": 3,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 7,
 				"might": 0,
 				"will": 1,
 				"fate": 2,
-				"heroicActions": [],
-				"keywords": [
-					"Hobbit",
-					"Infantry",
-					"Hero"
+				"race": [
+					"Hobbit"
 				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
 				"options": [],
 				"specialRules": [
+					"Fearful",
 					"Resistant to Magic",
 					"Throw Stones (range 8\", Strength 1)",
-					"If I were to marry anyone, it would've been her"
+					"If I were to marry anyone, it would've been her",
+					"Sweet Maiden of the Golden Ale"
 				],
 				"wargear": [
 					"Unarmed"
@@ -23542,23 +23554,33 @@
 				"attack": 1,
 				"wounds": 2,
 				"courage": 5,
+				"intelligence": 7,
 				"might": 1,
 				"will": 1,
-				"fate": 1,
-				"heroicActions": [],
-				"keywords": [
-					"Hobbit",
-					"Infantry",
-					"Hero"
+				"fate": 2,
+				"race": [
+					"Hobbit"
 				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
 					"Throw Stones (range 8\", Strength 1)",
-					"Leave my Flowers Alone!"
+					"Leave me flowers alone!"
 				],
 				"wargear": [
-					"Spade (staff)"
+					"Hand weapon"
 				]
 			},
 			{
@@ -36927,7 +36949,12 @@
 			{
 				"name": "If I were to marry anyone, it would've been her",
 				"tag": "Passive",
-				"definition": "Whilst Rosie Cotton is within 6\" of Samwise the Brave, Sam increases his Attacks characteristic to 2. Additionally, if Rosie Cotton is within 4\" of Samwise the Brave, Sam may declare a Heroic Combat without spending Might. However, if Rosie Cotton is Engaged in a Fight then Sam must declare a Heroic Combat and, if successful, Sam must use the following move to join Rosie’s combat. If this is not possible then Sam must move as close as possible to Rosie."
+				"definition": "Whilst Sam is within 3\" of Rosie, Sam may re-roll any failed To Wound rolls when making Strikes."
+			},
+			{
+				"name": "Sweet Maiden of the Golden Ale",
+				"tag": "Passive",
+				"definition": "Friendly Hobbit models treat Rosie Cotton as a banner with a range of 6\". Additionally, so long as she is alive, Rosie will count as a ..."
 			},
 			{
 				"name": "Mayor of Hobbiton",
@@ -36950,9 +36977,9 @@
 				"definition": "In Scenarios where you roll for additional forces to arrive (such as those that use the Reinforcements rule), you may modify the Reinforcements roll for Robin Smallburrow’s warband by +1 or -1. In Scenarios where you roll to see which part of the board Robin’s warband deploys in, you may modify the dice roll by +1 or -1."
 			},
 			{
-				"name": "Leave my Flowers Alone!",
+				"name": "Leave me flowers alone!",
 				"tag": "Passive",
-				"definition": "At the start of the game, after both sides have deployed, Hamfast’s controlling player may place three 25mm Flower markers anywhere on the board. These are the plants that Hamfast has tended to; these are open ground, however, models may not finish their move on a Flower marker. Hamfast, and friendly Hobbit Warrior models within 3\" of Hamfast, may re-roll To Wound rolls of a 1 when throwing a stone or making strikes against an enemy model that is within 4\" of a Flower marker. During the End phase, an enemy model may remove a Flower marker from the board that they are in base contact with providing that they did not fight (including supporting) in the preceding Fight phase. Hamfast may re-roll all failed To Wound rolls against any model that removes a Flower marker in this way for the remainder of the game."
+				"definition": "After both sides have deployed, before the first turn begins, Hamfast's controlling player may place three 25mm Flower Markers anywhere on the board. Models can Move freely over Flower Markers, but may never end their Move overlapping a Flower Marker. They may also not Back Away or Make Way so that they are overlapping a Flower Marker. Objects such as a Siege Engine, Heavy Object, or other such items can never be placed so that they are overlapping a Flower Marker. Friendly Hobbit models may re-roll failed To Wound rolls when making Strikes or shooting attacks that target an enemy model within 3\" of a friendly Flower Marker. Additionally, Hamfast gains a bonus of +1 To Wound when making Strikes or shooitng attacks that target an enemy model within 3\" of a friendly Flower Marker."
 			},
 			{
 				"name": "Champion Stone Skipper",
