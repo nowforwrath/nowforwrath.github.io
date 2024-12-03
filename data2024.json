@@ -20450,7 +20450,9 @@
 					{
 						"name": "The Ring of Durin",
 						"points": 0,
-						"unavailableWith": "Thror, King Under the Mountain"
+						"unavailableWith": [
+							"Thror, King Under the Mountain"
+						]
 					}
 				],
 				"specialRules": [
@@ -25217,9 +25219,7 @@
 					"Survivors of Lake-town",
 					"Army of Lake-town"
 				],
-				"unlockedBy": [
-					"Bard the Bowman"
-				],
+				"unlockedBy": "Bard the Bowman",
 				"unique": true,
 				"points": 60,
 				"hideStats": true,
