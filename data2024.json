@@ -9261,27 +9261,38 @@
 				"fight": 5,
 				"shoot": 4,
 				"strength": 4,
-				"defence": 5,
+				"defence": 6,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Dale"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
 				],
-				"keywords": [
-					"Man",
-					"Dale",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
-				"specialRules": [],
+				"specialRules": [
+					"Hatred (Dragon)"
+				],
 				"wargear": [
-					"Sword",
-					"Armour"
+					"Armour",
+					"Shield",
+					"Hand weapon"
 				]
 			},
 			{
@@ -13448,31 +13459,39 @@
 				"shoot": 4,
 				"strength": 4,
 				"defence": 8,
-				"attack": 3,
+				"attack": 2,
 				"wounds": 2,
 				"courage": 5,
+				"intelligence": 5,
 				"might": 2,
-				"will": 1,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Strength",
-					"Heroic Defence"
+				"will": 2,
+				"fate": 2,
+				"race": [
+					"Dwarf"
 				],
-				"keywords": [
-					"Dwarf",
-					"Erebor",
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Resolve",
+					"Heroic Strength"
 				],
 				"options": [],
 				"specialRules": [
-					"Sworn Protector (Thorin Oakenshield, King Under the Mountain)",
-					"A Good Sort Really (Champions)",
-					"Weapon Master"
+					"Sworn Protector (Thorin)",
+					"A Good Sort"
 				],
 				"wargear": [
 					"Heavy Dwarf Armour",
-					"Two-handed Mace"
+					"Two-handed weapon"
 				]
 			},
 			{
@@ -13493,28 +13512,37 @@
 				"shoot": 4,
 				"strength": 4,
 				"defence": 5,
-				"attack": 3,
+				"attack": 2,
 				"wounds": 2,
 				"courage": 5,
+				"intelligence": 5,
 				"might": 2,
-				"will": 1,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Strength"
+				"will": 2,
+				"fate": 2,
+				"race": [
+					"Dwarf"
 				],
-				"keywords": [
-					"Dwarf",
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Resolve"
 				],
 				"options": [],
 				"specialRules": [
-					"A Good Sort Really"
+					"A Good Sort"
 				],
 				"wargear": [
-					"Armour",
-					"Sword",
-					"Flail"
+					"Light armour",
+					"Hand weapons"
 				]
 			},
 			{
@@ -14858,38 +14886,43 @@
 				"shoot": 4,
 				"strength": 5,
 				"defence": 8,
-				"attack": 3,
+				"attack": 2,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intellingece": 5,
 				"might": 3,
 				"will": 2,
 				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength"
+					"Heroic Strength",
+					"Heroic Strike"
 				],
-				"options": [
-					{
-						"name": "War Goat",
-						"points": 10,
-						"availableIn": [],
-						"unavailableWith": [
-							"Dain Ironfoot, King Under the Mountain",
-							"Thorin III Stonehelm"
-						]
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Burly",
 					"Fearless",
-					"Sworn Protector (Thorin Oakenshield, King Under the Mountain)",
 					"Weapon Master",
-					"The King's Axeman"
+					"Sworn Protector (Thorin)",
+					"The King's Axemen"
 				],
 				"wargear": [
 					"Heavy Dwarf Armour",
-					"Two-handed Axe",
-					"Two axes"
+					"Grasper & Keeper",
+					"Two-handed weapon"
 				]
 			},
 			{
@@ -15187,43 +15220,36 @@
 				"attack": 2,
 				"wounds": 2,
 				"courage": 5,
+				"intelligence": 6,
 				"might": 3,
-				"will": 1,
+				"will": 2,
 				"fate": 1,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength"
+				"race": [
+					"Dwarf"
 				],
-				"keywords": [
-					"Dwarf",
-					"Erebor",
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
 				],
-				"options": [
-					{
-						"name": "War Goat",
-						"points": 10,
-						"availableIn": [
-							"Erebor Reclaimed"
-						]
-					},
-					{
-						"name": "Dwarf Bow",
-						"points": 5,
-						"availableIn": [
-							"Erebor Reclaimed"
-						]
-					}
+				"baseSize": [
+					"25mm"
 				],
+				"heroicActions": [
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"options": [],
 				"specialRules": [
-					"Combat Synergy",
-					"Sworn Protector (Thorin Oakenshield, King Under the Mountain)",
-					"Du Bekar"
+					"Sworn Protector (Thorin)",
+					"Combat Synergy"
 				],
 				"wargear": [
 					"Heavy Dwarf Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -15482,16 +15508,26 @@
 				"attack": 2,
 				"wounds": 2,
 				"courage": 5,
+				"intelligence": 5,
 				"might": 2,
 				"will": 1,
-				"fate": 1,
+				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Resolve"
-				],
-				"keywords": [
-					"Dwarf",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
@@ -15522,23 +15558,29 @@
 				"defence": 7,
 				"attack": 2,
 				"wounds": 3,
-				"courage": 5,
-				"might": 2,
-				"will": 1,
-				"fate": 1,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 1,
+				"will": 3,
+				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
 				"heroicActions": [
 					"Heroic Defence"
 				],
-				"keywords": [
-					"Dwarf",
-					"Erebor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
-					"Sworn Protector (Thorin Oakenshield, King Under the Mountain)",
-					"Beefy",
+					"Dominant (2)",
+					"Sworn Protector (Thorin)",
 					"Lumbering",
 					"Raising Spirits"
 				],
@@ -15567,21 +15609,31 @@
 				"defence": 4,
 				"attack": 2,
 				"wounds": 3,
-				"courage": 5,
-				"might": 2,
-				"will": 1,
-				"fate": 1,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 1,
+				"will": 3,
+				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Defence"
 				],
-				"keywords": [
-					"Dwarf",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
-					"Beefy",
+					"Dominant (2)",
 					"Lumbering",
 					"Raising Spirits"
 				],
@@ -17017,72 +17069,26 @@
 				],
 				"points": 30,
 				"movement": 6,
-				"fight": 3,
+				"fight": 2,
 				"shoot": 4,
 				"strength": 3,
 				"defence": 3,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
-				"might": 0,
+				"courage": 8,
+				"intelligence": 7,
+				"might": 1,
 				"will": 3,
 				"fate": 1,
 				"heroicActions": [],
-				"keywords": [
-					"Man",
-					"Lake-town",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
+					"Fearful",
 					"Dubious Counsel"
 				],
 				"wargear": [
 					"Unarmed"
 				]
-			},
-			{
-				"name": "Bard's Family",
-				"factions": [
-					{
-						"name": "Survivors of Lake-town",
-						"heroicTier": "Independent Hero"
-					},
-					{
-						"name": "Army of Lake-town",
-						"heroicTier": "Independent Hero"
-					},
-					{
-						"name": "The Battle of Five Armies",
-						"heroicTier": "Independent Hero"
-					}
-				],
-				"points": 60,
-				"hideStats": true,
-				"heroicActions": [],
-				"includes": [
-					{
-						"dataSource": "heroes",
-						"name": "Sigrid"
-					},
-					{
-						"dataSource": "heroes",
-						"name": "Tilda"
-					}
-				],
-				"keywords": [
-					"Women",
-					"Lake-town",
-					"Infantry",
-					"Hero"
-				],
-				"options": [],
-				"specialRules": [
-					"Da! Down Here!",
-					"Something to Fight For"
-				],
-				"wargear": []
 			},
 			{
 				"name": "Sigrid",
@@ -17101,19 +17107,31 @@
 				"defence": 2,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 4,
+				"courage": 7,
+				"intelligence": 7,
 				"might": 0,
 				"will": 1,
 				"fate": 2,
-				"heroicActions": [],
-				"keywords": [
-					"Women",
-					"Lake-town",
-					"Infantry",
-					"Hero"
+				"race": [
+					"Man"
 				],
+				"faction": [
+					"Lake-town"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
 				"options": [],
-				"specialRules": [],
+				"specialRules": [
+					"Fearful",
+					"Da! Down here!"
+				],
 				"wargear": [
 					"Unarmed"
 				]
@@ -17135,19 +17153,31 @@
 				"defence": 2,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
+				"courage": 8,
+				"intelligence": 7,
 				"might": 0,
 				"will": 1,
 				"fate": 2,
-				"heroicActions": [],
-				"keywords": [
-					"Women",
-					"Lake-town",
-					"Infantry",
-					"Hero"
+				"race": [
+					"Man"
 				],
+				"faction": [
+					"Lake-town"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
 				"options": [],
-				"specialRules": [],
+				"specialRules": [
+					"Fearful",
+					"Da! Down here!"
+				],
 				"wargear": [
 					"Unarmed"
 				]
@@ -17155,7 +17185,8 @@
 			{
 				"name": "Bain, Son of Bard",
 				"factions": [],
-				"points": 40,
+				"unavailableSolo": true,
+				"points": 0,
 				"movement": 6,
 				"fight": 3,
 				"shoot": 4,
@@ -17163,25 +17194,34 @@
 				"defence": 3,
 				"attack": 1,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 7,
 				"might": 1,
 				"will": 3,
 				"fate": 2,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Lake-town"
+				],
+				"uniType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Strike"
-				],
-				"keywords": [
-					"Man",
-					"Lake-town",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
 					"Family Bond"
 				],
 				"wargear": [
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -17289,27 +17329,37 @@
 				"shoot": 3,
 				"strength": 2,
 				"defence": 6,
-				"attack": 1,
+				"attack": 2,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 4,
 				"might": 3,
 				"will": 3,
 				"fate": 3,
-				"heroicActions": [
-					"Heroic Resolve",
-					"Heroic Strike",
-					"Heroic Defence"
+				"race": [
+					"Hobbit"
 				],
-				"keywords": [
-					"Hobbit",
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic Resolve",
+					"Heroic Strike"
 				],
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
 					"Throw Stones (range 8, Strength 1)",
-					"It has not yet Awoken"
+					"It has not yet awoken"
 				],
 				"wargear": [
 					"The One Ring",
@@ -17337,17 +17387,27 @@
 				"defence": 2,
 				"attack": 1,
 				"wounds": 2,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 5,
 				"might": 1,
 				"will": 3,
 				"fate": 3,
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Resolve"
-				],
-				"keywords": [
-					"Hobbit",
-					"Infantry",
-					"Hero"
 				],
 				"requiredChildren": [
 					{
@@ -17381,10 +17441,11 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones (range 8, Strength 1)"
+					"Throw Stones (range 8, Strength 1)",
+					"Slip Away"
 				],
 				"wargear": [
-					"Dagger"
+					"Hand weapon"
 				]
 			},
 			{
@@ -17450,20 +17511,29 @@
 				"fight": 3,
 				"shoot": 3,
 				"strength": 2,
-				"defence": 2,
+				"defence": 3,
 				"attack": 1,
 				"wounds": 2,
-				"courage": 6,
-				"might": 1,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 2,
 				"will": 3,
 				"fate": 3,
-				"heroicActions": [
-					"Heroic Resolve"
+				"race": [
+					"Hobbit"
 				],
-				"keywords": [
-					"Hobbit",
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
+				],
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic Resolve",
+					"Heroic Strike"
 				],
 				"requiredChildren": [
 					{
@@ -17493,20 +17563,17 @@
 						"points": 5
 					},
 					{
-						"name": "Mithril Coat",
-						"points": 15
-					},
-					{
 						"name": "The One Ring",
 						"points": 0
 					}
 				],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones (range 8, Strength 1)"
+					"Throw Stones (range 8, Strength 1)",
+					"It has not yet awoken"
 				],
 				"wargear": [
-					"Dagger"
+					"Hand weapon"
 				],
 				"countAsProperty": "heroes"
 			},
@@ -17605,27 +17672,22 @@
 				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 3,
-				"might": 3,
-				"will": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"might": 2,
+				"will": 2,
 				"fate": 1,
 				"heroicActions": [
-					"Heroic March",
-					"Heroic Defence"
-				],
-				"keywords": [
-					"Man",
-					"Lake-town",
-					"Infantry",
-					"Hero"
+					"Heroic Defence",
+					"Heroic March"
 				],
 				"options": [],
 				"specialRules": [
 					"The Master's Puppet",
-					"Air of Self-importance"
+					"Captain of the Guard"
 				],
 				"wargear": [
-					"Sword",
+					"Hand weapon",
 					"Armour"
 				]
 			},
@@ -24892,6 +24954,9 @@
 					"Survivors of Lake-town",
 					"Army of Lake-town"
 				],
+				"unlockedBy": [
+					"Bard the Bowman"
+				],
 				"unique": true,
 				"points": 60,
 				"hideStats": true,
@@ -24904,18 +24969,15 @@
 					{
 						"dataSource": "heroes",
 						"name": "Tilda"
+					},
+					{
+						"dataSource": "heroes",
+						"name": "Bain, Son of Bard"
 					}
-				],
-				"keywords": [
-					"Women",
-					"Lake-town",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
-					"Da! Down Here!",
-					"Something to Fight For"
+					"Bard's Family"
 				],
 				"wargear": [],
 				"countAsProperty": "heroes"
@@ -24923,13 +24985,14 @@
 			{
 				"name": "Bain, Son of Bard",
 				"factions": [],
+				"unavailableSolo": true,
 				"unique": true,
 				"ignoreLimits": [
 					{
 						"type": "bow"
 					}
 				],
-				"points": 40,
+				"points": 0,
 				"movement": 6,
 				"fight": 3,
 				"shoot": 4,
@@ -24937,10 +25000,25 @@
 				"defence": 3,
 				"attack": 1,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 7,
 				"might": 1,
 				"will": 3,
 				"fate": 2,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Lake-town"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Strike"
 				],
@@ -24955,7 +25033,7 @@
 					"Family Bond"
 				],
 				"wargear": [
-					"Sword"
+					"Hand weapon"
 				],
 				"countAsProperty": "heroes"
 			},
@@ -25787,20 +25865,29 @@
 				"fight": 3,
 				"shoot": 3,
 				"strength": 2,
-				"defence": 2,
+				"defence": 3,
 				"attack": 1,
 				"wounds": 2,
-				"courage": 6,
-				"might": 1,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 2,
 				"will": 3,
 				"fate": 3,
-				"heroicActions": [
-					"Heroic Resolve"
+				"race": [
+					"Hobbit"
 				],
-				"keywords": [
-					"Hobbit",
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
+				],
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic Resolve",
+					"Heroic Strike"
 				],
 				"requiredChildren": [
 					{
@@ -25830,20 +25917,17 @@
 						"points": 5
 					},
 					{
-						"name": "Mithril Coat",
-						"points": 15
-					},
-					{
 						"name": "The One Ring",
 						"points": 0
 					}
 				],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones (range 8, Strength 1)"
+					"Throw Stones (range 8, Strength 1)",
+					"It has not yet awoken"
 				],
 				"wargear": [
-					"Dagger"
+					"Hand weapon"
 				],
 				"countAsProperty": "heroes"
 			},
@@ -26015,6 +26099,12 @@
 					{
 						"in": [
 							"Ride Out"
+						],
+						"type": "bow"
+					},
+					{
+						"in": [
+							"Army of Edoras"
 						],
 						"type": "bow"
 					}
@@ -33363,7 +33453,32 @@
 				"definition": "A banner provides a single re-roll to friendly models who are involved in a Fight within 3\". Any model carrying a banner is encumbered by its weight, and suffers a -1 penalty to their Duel rolls."
 			},
 			{
+				"name": "War horn, shield, and throwing spears",
+				"type": "throwingWeapon",
+				"definition": "8\" Range, 3 Strength"
+			},
+			{
 				"name": "Two-handed weapon and throwing weapons",
+				"type": "throwingWeapon",
+				"definition": "8\" Range, 3 Strength"
+			},
+			{
+				"name": "Light shield and throwing spears",
+				"type": "throwingWeapon",
+				"definition": "8\" Range, 3 Strength"
+			},
+			{
+				"name": "Shield and throwing spears",
+				"type": "throwingWeapon",
+				"definition": "8\" Range, 3 Strength"
+			},
+			{
+				"name": "Shield & throwing spears",
+				"type": "throwingWeapon",
+				"definition": "8\" Range, 3 Strength"
+			},
+			{
+				"name": "Horse and throwing spears",
 				"type": "throwingWeapon",
 				"definition": "8\" Range, 3 Strength"
 			},
@@ -33566,7 +33681,7 @@
 			},
 			{
 				"name": "Hadhafang",
-				"definition": "This is an Elven-made hand-and-a-half sword. Additionally, Elrond gets a bonus of +1 to wound Spirit models when making strikes with Hadhafang"
+				"definition": "This is a Unique Elven hand-and-a-half weapon. Additionally, a model wielding Hadhafang gains a bonus of +1 To Wound when making Strikes against a Spirit model."
 			},
 			{
 				"name": "Elven Cloak",
@@ -33717,12 +33832,13 @@
 			{
 				"name": "Sting",
 				"tag": "Active",
-				"definition": "Sting is an Elven-made dagger. Additionally, whilst carrying Sting, a model adds +1 to their Strength when making Strikes."
+				"definition": "This is a Unique Elven hand weapon. A model gains a bonus of +1 to their Strength when making Strikes with Sting."
 			},
 			{
 				"name": "Mithril Coat",
 				"type": "armour",
 				"tag": "Passive",
+				"definition": "This is a Unique piece of Mithril armour. Additionally, the wearer may re-roll Fate rolls of a 1.",
 				"modifiesStats": [
 					{
 						"stat": "defence",
@@ -33739,6 +33855,11 @@
 				"name": "Stone Flail",
 				"tag": "Active",
 				"definition": "This is a Unique two-handed weapon. If Azog uses the Stone Flail during a Combat, he gains the Mighty Blow special rule, though reduces his Fight Value to 6 for the duration of the Combat - even after a Heroic Strike. Additionally, any model that is struck by the Stone Flail and not slain will be Knocked Prone at the end of the Combat."
+			},
+			{
+				"name": "Flail",
+				"tag": "Active",
+				"definition": "This is a hand-and-a-half weapon. Additionally, if the bearer wins a Duel Roll, then they can either make Strikes as normal or make a single Strike against each enemy model that was involved in the Combat."
 			},
 			{
 				"name": "Durin's Axe",
@@ -35657,14 +35778,14 @@
 				"definition": "This model is never considered to be unarmed."
 			},
 			{
-				"name": "The King's Axeman",
+				"name": "The King's Axemen",
 				"tag": "Active",
-				"definition": "Whilst he has the Infantry keyword, at the beginning of each fight, Dwalin the Dwarf, Champion of Erebor can choose to use either an axe in each hand, in which case he fights with 4 Attacks, or use a two-handed axe."
+				"definition": "At the beginning of a Combat, so long as he is within 3\" of Thoring, Dwalin can use this special rule. If he does, Dwalin increases his Strength by 1 when making Strikes should he win the Duel Roll; however, if he loses the Duel Roll he will reduce his Defence by D3 until the end of the Combat, before any enemy models make Strikes."
 			},
 			{
 				"name": "Combat Synergy",
 				"tag": "Active",
-				"definition": "If they are in base contact, Fíli the Dwarf and Kíli the Dwarf may choose to swap places with one another at the start of any phase - this does not count as moving."
+				"definition": "At the start of any phase, before the Declare Heroic Actions step, if Kili and Fili are within 1\" of each other then they can swap places with each other - this does not count as Moving. If they have used this special rule during a turn, then during the Fight Phase of that turn they may each re-roll a single D6 when making a Duel Roll."
 			},
 			{
 				"name": "Du Bekar",
@@ -35820,17 +35941,12 @@
 			{
 				"name": "Dubious Counsel",
 				"tag": "Active",
-				"definition": "Alfrid can choose to expend any number of Will points at the start of the Priority phase, before any dice are rolled. For each point of Will he expends, nominate a single friendly Lake-town Hero model within 6\" and roll a D6. For each roll of a 2+, the nominated Lake-town Hero gains a point of Might. On the roll of a 1, however, the nominated Lake-town Hero instead loses a point of Might and Alfrid gains a point of Might. Might gained in this way can take the chosen Lake-town Hero model's store of Might points beyond its initial level."
+				"definition": "At the start of his Activation, Alfrid may choose a single other friendly Lake-town Hero model within 6\" of him. Roll a D6 and consult the table below to see what effect Alfrid's counsels has had. Alfrid may spend his Will Points to alter the score on the D6 either up or down by 1 for each Will Point spent in this manner.\n                1. The chosen Hero loses a Might Point and Alfrid gains a Might Point. If the chosen Hero has no Might Points remaining, this has no effect.\n                2. The chosen Hero immediately regains a single Will Point spent earlier in the battle.\n                3. The chosen Hero may re-roll to Wound Rolls of a natural 1 when making Strikes until the end of the turn.\n                4. The chosen Hero gains the Fearless special rule until the end of the turn.\n                5. The chosen Hero increases their Fight Value by 1 until the end of the turn.\n                6. The chosen Hero immediately regains a single Might Point spent earlier in the battle."
 			},
 			{
 				"name": "Da! Down Here!",
 				"tag": "Passive",
-				"definition": "Bard the Bowman and Bain, Son of Bard receive a bonus of +1 to their Fight value if they are within 6\" of either Sigrid or Tilda. If Bard the Bowman or Bain, Son of Bard are within 6\" of both Sigrid and Tilda then Bard and/or Bain receive a bonus of +1 to their Fight value and may call a Heroic Combat each turn without spending Might."
-			},
-			{
-				"name": "Something to Fight For",
-				"tag": "Passive",
-				"definition": "If either Sigrid or Tilda are slain, Bard the Bowman will automatically pass all Courage tests. Additionally, when Bard moves, he must Charge the model that killed his daughter if possible. If this is not possible, Bard must move as close as possible to the model that killed his daughter. Once the model that killed his daughter has been slain, Bard must move as fast as possible towards the nearest visible enemy model for the rest of the game, Charging if possible.\n                \n                It is possible for two models to be the target of Bard's rage if both Sigrid and Tilda have been slain. In this case, Bard will target the closest of these two models until it has been slain, following which he will immediately target the second model. Once both models have been slain, Bard must continue to move as fast as possible towards the nearest visible enemy model for the rest of the game, Charging if possible."
+				"definition": "Whilst within 6\" of Sigrid or Tilda, Bard the Bowman gains a bonus of +1 to his Fight Value. If Bard the Bowman is within 6\" of both Sigrid and Tilda, then he will gain a bonus of +1 to his Fight Value and may re-roll a single D6 when making a Duel Roll. Additionally, during the Declare Heroic Actions Step of the Fight Phase, if Sigrid or Tilda are within 6\" of Bard and are Engaged in Combat, then Bard may declare a Heroic Combat for free. If this Heroic Combat is successful, then Bard must use the following Move to join Sigrid's or Tilda's Combat. If this is not possible, then Bard must move as close as possible to Sigrid or Tilda.\n                Bard cannot use this special rule whilst he is in the same Combat as either Sigrid or Tilda, unless the other one of Sigrid or Tilda is in a different combat within 6\"."
 			},
 			{
 				"name": "Family Bond",
@@ -35850,7 +35966,7 @@
 			{
 				"name": "It has not yet Awoken",
 				"tag": "Passive",
-				"definition": "Bilbo Baggins, Master Burglar ignores the Sauron's Will section of the One Ring's rules. Furthermore, if Bilbo is the only model left on the controlling player's side, and is wearing the Ring, he is not removed as a casualty, as would usually be the case."
+				"definition": "Bilbo ignores the Sauron's Will section of the rules for the One Ring. Furthermore, if Bilbo is the only model left on his controlling player's side, and is wearing the One Ring, he is not removed as a casualty as would usually be the case."
 			},
 			{
 				"name": "Thranduil's Elk",
@@ -36168,7 +36284,7 @@
 			{
 				"name": "The Master's Puppet",
 				"tag": "Active",
-				"definition": "As long as the Master of Lake-town has Will points remaining, if Braga declares a Heroic Action within 6\" of the Master of Lake-town, roll a D6. On a 4+, the\n                Heroic Action is \"free\" and no points of Might are spent."
+				"definition": "Whilst within 6\" and Line of Sight of the Master of Lake-town, Braga automatically passes all Courage Tests he is required to take and may re-roll all failed To Wound Rolls when making Strikes. This special rule has no effect if the Master of Lake-town has no Will Points remaining."
 			},
 			{
 				"name": "Air of Self-importance",
@@ -36653,12 +36769,12 @@
 			{
 				"name": "Lumbering",
 				"tag": "Passive",
-				"definition": "When making Jump or Climb tests, Bombur the Dwarf must re-roll results of 6. Additionally, he may not call Heroic Moves."
+				"definition": "Bombur may not declare Heroic Moves. Additionally, if Bombur rolls a natural 6 on a Jump, Climb, Leap, or Swim Test, then he must re-roll the result."
 			},
 			{
 				"name": "Raising Spirits",
 				"tag": "Active",
-				"definition": "Once each turn, at any point in Bombur’s Move phase, choose a friendly model in base contact with Bombur the Dwarf and roll a D6. On a 4+, the chosen model regains a point of Will spent earlier in the battle (or campaign)."
+				"definition": "Once per turn, during his Activation, Bombur can choose a friendly Erebor Hero model within 3\" and roll a D6. On a 4+, the chosen model regains a single Will Point spent earlier in the battle."
 			},
 			{
 				"name": "Weapon Synergy",
@@ -36666,9 +36782,9 @@
 				"definition": "Nori the Dwarf, Champion of Erebor may re-roll one dice to win a Duel and may re-roll one dice when making Strikes."
 			},
 			{
-				"name": "A Good Sort Really (Champions)",
+				"name": "A Good Sort",
 				"tag": "Passive",
-				"definition": "If Bilbo Baggins, Master Burglar is within 3\" of Dori the Dwarf, Champion of Erebor, he may spend Dori’s Might, Will and Fate points as if they were his own."
+				"definition": "Whilst within 3\" of either Ori or Nori, Dori increases his Attacks to 3 and may re-roll any rolls of a 1 in his Duel Rolls."
 			},
 			{
 				"name": "A Good Sort Really",
@@ -37036,7 +37152,7 @@
 			{
 				"name": "Dwarven Lords",
 				"tag": "Passive",
-				"definitioin": "A Dwarf King will always have the Faction Keyword of the most common type of Dwarf model in the same Army. So, if the majority of friendly Dwarf models have the Erebor keyword, then the Dwarf King will also have the Erebor keyword. A Dwarf King will gain a special rule depending on the Keyword they have, as listed below:\n                Erebor - This model gains the Ancient Enemies (Orc) special rule.\n                Iron Hills - This model gains the Fearless special rule.\n                Khazad-dum - This model gains throwing weapons."
+				"definitioin": "A Dwarf King will always have the Faction Keyword of the most common type of Dwarf model in the same Army. So, if the majority of friendly Dwarf models have the Erebor Keyword, then the Dwarf King will also have the Erebor Keyword. A Dwarf King will gain a special rule depending on the Keyword they have, as listed below:\n                Erebor - This model gains the Ancient Enemies (Orc) special rule.\n                Iron Hills - This model gains the Fearless special rule.\n                Khazad-dum - This model gains throwing weapons."
 			},
 			{
 				"name": "Dwarven Crew",
@@ -37136,6 +37252,20 @@
 				"name": "Swift Shot",
 				"tag": "Active",
 				"definition": "Bard never suffers the -1 penalty To Hit for Moving and Shooting"
+			},
+			{
+				"name": "Bard's Family",
+				"definition": "If any member of Bard's Family is slain, then make a note of the model that killed them. For the remainder of the game, whenever Bard Activates if he can Charge an enemy model that killed a member of his family, then he must prioritize that model to Charge. If when Bard Activates he can Charge multiple enemy models that have killed members of his family (if applicable), then he may choose which of them he must Charge."
+			},
+			{
+				"name": "Slip Away",
+				"tag": "Passive",
+				"definition": "Whilst Bilbo is wearing the One Ring and is invisible, enemy models Engaged in Combat with Bilbo will halve their Fight Value even if there are other models friendly to Bilbo Engaged in the same Combat."
+			},
+			{
+				"name": "Captain of the Guard",
+				"tag": "Passive",
+				"definition": "So long as Braga has Will Points remaining, friendly Lake-town Guard Captains and Lake-town Guard within 3\" of him count as having the Dominant (2) special rule."
 			}
 		]
 	}
