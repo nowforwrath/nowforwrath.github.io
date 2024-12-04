@@ -4337,16 +4337,30 @@
 				"shoot": 5,
 				"strength": 4,
 				"defence": 6,
-				"attack": 3,
+				"attack": 2,
 				"wounds": 3,
 				"courage": 5,
+				"intelligence": 4,
 				"might": 3,
 				"will": 3,
 				"fate": 1,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic March",
-					"Heroic Strike",
-					"Heroic Defence"
+					"Heroic Defence",
+					"Heroic March"
 				],
 				"options": [
 					{
@@ -4359,13 +4373,13 @@
 					}
 				],
 				"specialRules": [
-					"Master of Battle",
+					"Master of Battle (2+)",
 					"The Age of Men is Over",
-					"The Time of the Orc has Come"
+					"The time of the Orc has come"
 				],
 				"wargear": [
 					"Heavy armour",
-					"Mace or sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -9528,7 +9542,7 @@
 					}
 				],
 				"points": 100,
-				"movement": 6,
+				"movement": 8,
 				"fight": 6,
 				"shoot": 4,
 				"strength": 4,
@@ -11036,25 +11050,45 @@
 					}
 				],
 				"points": 40,
-				"movement": 8,
-				"fight": 1,
-				"shoot": 4,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 5,
 				"strength": 3,
-				"defence": 4,
+				"defence": 3,
 				"attack": 1,
 				"wounds": 2,
-				"courage": 3,
-				"might": 0,
-				"will": 1,
+				"courage": 7,
+				"intelligence": 8,
+				"might": 1,
+				"will": 3,
 				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Bree"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [],
-				"keywords": [],
+				"keywords": [
+					"Gatekeeper",
+					"A Light in the Dark"
+				],
 				"options": [],
 				"specialRules": [],
-				"wargear": []
+				"wargear": [
+					"Hand weapon"
+				]
 			},
 			{
-				"name": "Smeagol (Garrison of Ithilien)",
+				"name": "Smeagol",
 				"factions": [
 					{
 						"name": "Garrison of Ithilien",
@@ -11065,25 +11099,38 @@
 				"points": 30,
 				"movement": 5,
 				"fight": 4,
-				"shoot": 4,
+				"shoot": 5,
 				"strength": 4,
 				"defence": 4,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 7,
+				"intelligence": 6,
 				"might": 1,
 				"will": 0,
 				"fate": 1,
-				"heroicActions": [],
-				"keywords": [
-					"Hobbit",
-					"Infantry",
-					"Hero"
+				"race": [
+					"Hobbit"
 				],
+				"faction": [
+					"Fellowship"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
 				"options": [],
 				"specialRules": [
 					"Cave Dweller",
-					"Serve the Master of the Precious"
+					"Mountain Dweller",
+					"Stalk Unseen",
+					"Serve the Master of the Precious",
+					"Soft and quick and shadows we must be"
 				],
 				"wargear": [
 					"Strangling Fingers"
@@ -12500,9 +12547,7 @@
 						"heroicTier": "Independent Hero"
 					}
 				],
-				"unavailableWith": [
-					"Helm Hammerhand"
-				],
+				"unique": true,
 				"points": 20,
 				"movement": 6,
 				"fight": 3,
@@ -12516,9 +12561,6 @@
 				"might": 1,
 				"will": 1,
 				"fate": 1,
-				"heroicActions": [
-					"Heroic Accuracy"
-				],
 				"race": [
 					"Man"
 				],
@@ -12533,11 +12575,8 @@
 				"baseSize": [
 					"25mm"
 				],
-				"keywords": [
-					"Man",
-					"Rohan",
-					"Infantry",
-					"Hero"
+				"heroicActions": [
+					"Heroic Accuracy"
 				],
 				"specialRules": [
 					"Fearful",
@@ -23197,23 +23236,57 @@
 				"attack": 2,
 				"wounds": 2,
 				"courage": 5,
+				"intelligence": 5,
 				"might": 1,
 				"will": 2,
 				"fate": 2,
-				"heroicActions": [],
-				"keywords": [
-					"Hobbit",
-					"Infantry",
-					"Hero"
+				"race": [
+					"Hobbit"
 				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones (range 8\", Strength 1)"
+					"Throw Stones (range 8\", Strength 1)",
+					"Get out of my fields!"
 				],
 				"wargear": [
-					"Two-handed scythe (pick)",
+					"Two-handed weapon",
 					"Grip, Fang, and Wolf"
+				],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "warriors",
+						"name": "Grip",
+						"quantity": 1,
+						"points": 0,
+						"hideFromPrint": true
+					},
+					{
+						"elementPropertyName": "warriors",
+						"name": "Fang",
+						"quantity": 1,
+						"points": 0,
+						"hideFromPrint": true
+					},
+					{
+						"elementPropertyName": "warriors",
+						"name": "Wolf",
+						"quantity": 1,
+						"points": 0,
+						"hideFromPrint": true
+					}
 				]
 			},
 			{
@@ -24415,25 +24488,35 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 2,
-				"courage": 4,
-				"might": 1,
+				"courage": 6,
+				"intelligence": 7,
+				"might": 2,
 				"will": 3,
 				"fate": 2,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Fellowship"
+				],
+				"uniType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Resolve",
 					"Heroic Defence"
 				],
-				"keywords": [
-					"Man",
-					"Infantry",
-					"Hero"
-				],
 				"specialRules": [
-					"Barliman Butterbur, At Your Service",
-					"Bill the Pony"
+					"Barliman Butterbur, at your service",
+					"Well fed, and ready to fighty"
 				],
 				"wargear": [
-					"Cudgel (Club"
+					"Hand weapon"
 				],
 				"options": []
 			},
@@ -25358,26 +25441,36 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 4,
+				"courage": 7,
+				"intelligence": 8,
 				"might": 1,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Accuracy"
 				],
-				"keywords": [
-					"Man",
-					"Rohan",
-					"Infantry",
-					"Hero"
-				],
 				"specialRules": [
+					"Fearful",
 					"Unsteady Nerves",
 					"Lucky Shot"
 				],
 				"wargear": [
 					"Armour",
-					"Sword",
+					"Hand weapon",
 					"Bow"
 				],
 				"options": [],
@@ -25440,16 +25533,32 @@
 				"unique": true,
 				"points": 25,
 				"movement": 8,
-				"fight": 1,
-				"shoot": 4,
+				"fight": 2,
+				"shoot": 6,
 				"strength": 3,
 				"defence": 4,
 				"attack": 1,
 				"wounds": 2,
-				"courage": 3,
+				"courage": 6,
+				"intelligence": 7,
 				"might": 0,
 				"will": 1,
-				"fate": 1,
+				"fate": 2,
+				"race": [
+					"Pony"
+				],
+				"faction": [
+					"Fellowship"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Beast",
+					"Unique"
+				],
+				"baseSize": [
+					"40mm"
+				],
 				"heroicActions": [],
 				"keywords": [
 					"Pony",
@@ -25458,11 +25567,14 @@
 				],
 				"options": [],
 				"specialRules": [
+					"Fearful",
 					"Official Meals",
-					"Only a Pony",
-					"Second Breakfast"
+					"Second Breakfast",
+					"Only a Pony"
 				],
-				"wargear": [],
+				"wargear": [
+					"Iron-shod hooves (hand weapon)"
+				],
 				"countAsProperty": "heroes"
 			},
 			{
@@ -31091,18 +31203,29 @@
 					"Besiegers of the Hornburg"
 				],
 				"points": 20,
-				"movement": 4,
+				"movement": 12,
 				"fight": 2,
 				"shoot": 6,
 				"strength": 2,
 				"defence": 3,
 				"attack": 2,
 				"wounds": 4,
-				"courage": 3,
-				"keywords": [
-					"Bird",
+				"courage": 8,
+				"intelligence": 7,
+				"race": [
+					"Bird"
+				],
+				"faction": [
+					"Dunland"
+				],
+				"unitType": [
+					"Warrior",
 					"Infantry",
-					"Warrior"
+					"Beast",
+					"Swarm"
+				],
+				"baseSize": [
+					"40mm"
 				],
 				"options": [],
 				"specialRules": [
@@ -31111,7 +31234,7 @@
 					"Cloud of Birds"
 				],
 				"wargear": [
-					"Beaks and Claws"
+					"Beaks and Claws (hand weapon)"
 				]
 			},
 			{
@@ -32837,22 +32960,35 @@
 				"points": 0,
 				"movement": 8,
 				"fight": 3,
-				"shoot": 4,
+				"shoot": 6,
 				"strength": 3,
 				"defence": 3,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
-				"keywords": [
-					"Dog",
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Dog"
+				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
 					"Infantry",
-					"Warrior"
+					"Warrior",
+					"Beast",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"options": [],
-				"specialRules": [],
+				"specialRules": [
+					"Woodland Creature",
+					"Loyal Hounds"
+				],
 				"wargear": [
-					"Claws",
-					"Teeth"
+					"Teeth and claws (hand weapons)"
 				]
 			},
 			{
@@ -32862,22 +32998,35 @@
 				"points": 0,
 				"movement": 8,
 				"fight": 3,
-				"shoot": 4,
+				"shoot": 6,
 				"strength": 3,
 				"defence": 3,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
-				"keywords": [
-					"Dog",
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Dog"
+				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
 					"Infantry",
-					"Warrior"
+					"Warrior",
+					"Beast",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"options": [],
-				"specialRules": [],
+				"specialRules": [
+					"Woodland Creature",
+					"Loyal Hounds"
+				],
 				"wargear": [
-					"Claws",
-					"Teeth"
+					"Teeth and claws (hand weapons)"
 				]
 			},
 			{
@@ -32887,22 +33036,35 @@
 				"points": 0,
 				"movement": 8,
 				"fight": 3,
-				"shoot": 4,
+				"shoot": 6,
 				"strength": 3,
 				"defence": 3,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
-				"keywords": [
-					"Dog",
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Dog"
+				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
 					"Infantry",
-					"Warrior"
+					"Warrior",
+					"Beast",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"options": [],
-				"specialRules": [],
+				"specialRules": [
+					"Woodland Creature",
+					"Loyal Hounds"
+				],
 				"wargear": [
-					"Claws",
-					"Teeth"
+					"Teeth and claws (hand weapons)"
 				]
 			},
 			{
@@ -35206,7 +35368,7 @@
 			{
 				"name": "The Age of Men is Over",
 				"tag": "Passive",
-				"definition": "Gothmog, and all friendly Mordor Orc models within 3\" of him, gain the\n                Hatred (Man) special rule."
+				"definition": "Friendly Mordor Orcs within 3\" of Gothmog gain the Hatred (Man) special rule."
 			},
 			{
 				"name": "Hatred",
@@ -35221,7 +35383,7 @@
 			{
 				"name": "The Time of the Orc has Come",
 				"tag": "Active",
-				"definition": "Once per game, at the start of any Fight phase, Gothmog can declare that\n                he is using this ability. For the remainder of the turn, all friendly Mordor\n                Orc models within 12\" of Gothmog may re-roll failed To Wound rolls\n                when making Strikes."
+				"definition": "Once per game, at the start of any Fight phase, Gothmog can declare that he is using this ability. Until the end of the turn, friendly Mordor Orc models within 12\" of Gothmog may re-roll any failed To Wound Rolls when making Strikes."
 			},
 			{
 				"name": "Woodland Creature",
@@ -35763,7 +35925,7 @@
 			{
 				"name": "Serve the Master of the Precious",
 				"tag": "Passive",
-				"definition": "Smeagol may only be taken if Frodo is also in the same army."
+				"definition": "Whilst within 6\" of Frodo, Smeagol treats his Courage Value as 5+."
 			},
 			{
 				"name": "For the Shire!",
@@ -36456,12 +36618,12 @@
 			{
 				"name": "Keen Sight",
 				"tag": "Passive",
-				"definition": "Enemy models within 12\" of one or more Crebain gain no benefit from the Stalk Unseen special rule."
+				"definition": "Enemy models within 12\" of this model gain no benefit from the Stalk Unseen special rule."
 			},
 			{
 				"name": "Cloud of Birds",
 				"tag": "Passive",
-				"definition": "Shooting attacks will only ever hit a Crebain on the roll of a natural 6."
+				"definition": "Shooting attacks that target a Crebain will only ever hit on the roll of a natural 6."
 			},
 			{
 				"name": "Goblin Mastery",
@@ -37116,7 +37278,7 @@
 			{
 				"name": "Barliman Butterbur, At Your Service",
 				"tag": "Active",
-				"definition": "During his Move phase, if Barliman Butterbur is in base contact with a friendly Hero model, he can spend a Will point to use this ability. If he does, roll a D6. On a 5+, the Hero regains a Wound lost earlier in the battle. If Barliman Butterbur uses this special rule on a Hero from the Fellowship army list, they will regain a lost Wound on a 4+ instead."
+				"definition": "If Barliman finishes his Move in base contact with a friendly Fellowship model, he may spend a Will Point to roll a D6. On a 4+, the friendly model regains a Wound lost earlier in the battle."
 			},
 			{
 				"name": "Bill the Pony",
@@ -37703,6 +37865,36 @@
 				"name": "Majestic Steed",
 				"tag": "Active",
 				"definition": "In a turn in which Thranduil Charges into Combat, he resolves his Strikes at Stength 5. Additionally, each time this model Charges into Combat, it will inflict a single Strength 4 hit upon the model it has Charged (Cavalry models suffer this hit on both the rider and the Mount). If after this hit Thranduil is no longer Engaged in Combat, he may continue his Move in any way his controlling player wishes; stopping straight away. Charging anohter enemy model, or anything in between."
+			},
+			{
+				"name": "Well fed, and ready to fight",
+				"tag": "Passive",
+				"definition": "Friendly Fellowship models within 6\" of Barliman count as having the Dominant (2) special rule."
+			},
+			{
+				"name": "Get out of my fields!",
+				"tag": "Active",
+				"definition": "Whilst within range of an Objective Marker, Farmer Maggot does not suffer the -1 penalty to his Duel Rolls for using a two-handed weapon."
+			},
+			{
+				"name": "Loyal Hounds",
+				"tag": "Passive",
+				"definition": "Grip, Fant, and Wolf will always use Farmer Maggt's Courage characteristic whilst he is alive and on the battlefield. Additionally, Grip, Fang and Wolf treat Farmer Maggot as a banner with a range of 6\", and may re-roll failed To Wound rolls whilst within 6\" of Farmer Maggot."
+			},
+			{
+				"name": "Soft and quick and shadows we must be",
+				"tag": "Active",
+				"definition": "Smeagol does not halve his Move Value when Moving through Difficult Terrain. Additionally, if Frodo or Sam begin their Activation within 6\" of Smeagol, they will also benefit from this special rule."
+			},
+			{
+				"name": "Gatekeeper",
+				"tag": "Active",
+				"definition": "At the end of the Priority Phase, the Gatekeeper of Bree may spend a Will Point to use this special rule. If he does, the Gatekeeper may select a single enemy Infantry model within 6\" and Line of Sight and roll a D6. On a 3+, the chosen model may not Move during their Activation, but may otherwise act normally. Monster models are unaffected by this special rule."
+			},
+			{
+				"name": "A Light in the Dark",
+				"tag": "Passive",
+				"definition": "The area within 6\" of the Gatekeeper is always considered to be daylight. Additionally, enemy models cannot Charge friendly models if they could Charge the Gatekeeper instead. If an enemy model cannot Charge the Gatekeeper ...?"
 			}
 		]
 	}
