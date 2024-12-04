@@ -4582,25 +4582,36 @@
 				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 3,
-				"might": 3,
-				"will": 1,
+				"courage": 7,
+				"intelligence": 5,
+				"might": 2,
+				"will": 2,
 				"fate": 1,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Isengard"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Strike"
 				],
-				"options": [
-					{
-						"name": "Shield",
-						"points": 5
-					}
-				],
+				"options": [],
 				"specialRules": [
-					"Backstabbers"
+					"Backstabbers",
+					"Let's put a maggot hole in your belly"
 				],
 				"wargear": [
 					"Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -4618,26 +4629,40 @@
 				"points": 50,
 				"movement": 6,
 				"fight": 4,
-				"shoot": 5,
+				"shoot": 4,
 				"strength": 4,
 				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 3,
-				"might": 3,
+				"courage": 7,
+				"intelligence": 6,
+				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Isengard"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Challenge"
 				],
 				"options": [],
 				"specialRules": [
-					"Servant of Mordor",
 					"Cunning Mind"
 				],
 				"wargear": [
 					"Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -4845,10 +4870,24 @@
 				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Uurk-hai"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
 				],
@@ -4858,10 +4897,12 @@
 						"points": 5
 					}
 				],
-				"specialRules": [],
+				"specialRules": [
+					"Cleaving Blow"
+				],
 				"wargear": [
 					"Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -5710,13 +5751,27 @@
 				"fight": 4,
 				"shoot": 5,
 				"strength": 4,
-				"defence": 5,
+				"defence": 6,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 7,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Isengard"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
 				],
@@ -5731,7 +5786,9 @@
 				],
 				"specialRules": [],
 				"wargear": [
-					"Armour"
+					"Armour",
+					"Shield",
+					"Hand weapon"
 				]
 			},
 			{
@@ -8443,20 +8500,38 @@
 				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 3,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 3,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Isengard"
+				],
+				"unitType": [
+					"Hero",
+					"Cavalry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
-					"Heroic March"
+					"Heroic March",
+					"Heroic Strike"
 				],
 				"options": [],
 				"specialRules": [
-					"Sharku's Riding Dagger"
+					"Expert Rider",
+					"Fury of the Pack"
 				],
 				"wargear": [
 					"Riding Dagger",
-					"Armour"
+					"Armour",
+					"Warg"
 				]
 			},
 			{
@@ -8608,18 +8683,33 @@
 				"defence": 5,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 7,
 				"might": 0,
 				"will": 0,
 				"fate": 1,
+				"race": [
+					"Uruk-hai"
+				],
+				"faction": [
+					"Isengard"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
 					"Armour",
-					"Dagger",
-					"War drum (Isengard Uruk-hai)"
-				]
+					"Hand weapon",
+					"War drum (Uruk-hai)"
+				],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Damrod, Ranger of Ithilien",
@@ -9977,21 +10067,30 @@
 				"defence": 3,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 2,
+				"courage": 8,
+				"intelligence": 6,
 				"might": 0,
 				"will": 0,
 				"fate": 0,
-				"heroicActions": [],
-				"keywords": [
-					"Man",
-					"Isengard",
-					"Infantry",
-					"Hero"
+				"race": [
+					"Man"
 				],
+				"faction": [
+					"Isengard"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
 				"options": [],
 				"specialRules": [
-					"A Traitor Within",
-					"Wormtongue"
+					"Wormtongue",
+					"A Traitor Within"
 				],
 				"wargear": [
 					"Dagger"
@@ -15882,27 +15981,38 @@
 				"fight": 5,
 				"shoot": 4,
 				"strength": 5,
-				"defence": 6,
+				"defence": 7,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Uruk-hai"
+				],
+				"faction": [
+					"Isengard"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
 				],
-				"keywords": [
-					"Uruk-Hai",
-					"Isengard",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
-				"specialRules": [],
+				"specialRules": [
+					"Shieldwall"
+				],
 				"wargear": [
 					"Heavy Armour",
-					"Sword"
+					"Shield",
+					"Hand weapon"
 				]
 			},
 			{
@@ -16119,22 +16229,30 @@
 				"movement": 6,
 				"fight": 4,
 				"shoot": 4,
-				"strength": 5,
-				"defence": 5,
+				"strength": 4,
+				"defence": 4,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 7,
 				"might": 2,
 				"will": 2,
 				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Dunland"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
-				],
-				"keywords": [
-					"Man",
-					"Dunlending",
-					"Infantry",
-					"Hero"
 				],
 				"unlimited": true,
 				"options": [
@@ -16147,11 +16265,11 @@
 						"points": 5
 					}
 				],
-				"specialRules": [],
+				"specialRules": [
+					"Hatred (Rohan)"
+				],
 				"wargear": [
-					"Armour",
-					"Dagger",
-					"Two-Handed Axe"
+					"Hand weapon"
 				]
 			},
 			{
@@ -18564,29 +18682,38 @@
 				"defence": 4,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 3,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Dunland",
+					"Isengard"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Strength"
 				],
-				"keywords": [
-					"Man",
-					"Dunlending",
-					"Isengard",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
-					"Bloodoath",
+					"Fearless",
 					"Hatred (Rohan)",
-					"Hatred",
+					"Bloodoath",
 					"We Will Die For Saruman"
 				],
 				"wargear": [
-					"Dagger"
+					"Hand weapon"
 				]
 			},
 			{
@@ -25857,23 +25984,31 @@
 				"defence": 5,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 7,
 				"might": 0,
 				"will": 0,
 				"fate": 1,
-				"heroicActions": [],
-				"keywords": [
-					"Uruk-Hai",
-					"Isengard",
-					"Infantry",
-					"Hero"
+				"race": [
+					"Uruk-hai"
 				],
+				"faction": [
+					"Isengard"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
 					"Armour",
-					"Dagger",
-					"War drum (Isengard Uruk-hai)"
+					"Hand weapon",
+					"War drum (Uruk-hai)"
 				],
 				"countAsProperty": "heroes"
 			},
@@ -27270,11 +27405,6 @@
 					"Heavy armour",
 					"Sword",
 					"Shield"
-				],
-				"unavailableIn": [
-					[
-						"Razgush, War Leader of the North"
-					]
 				]
 			},
 			{
@@ -27290,12 +27420,20 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
-				"keywords": [
-					"Uruk-Hai",
-					"Mordor",
-					"Infantry",
-					"Warrior"
+				"courage": 6,
+				"intelligence": 7,
+				"race": [
+					"Uruk-hai"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"options": [
 					{
@@ -27303,15 +27441,12 @@
 						"points": 1
 					}
 				],
-				"specialRules": [],
+				"specialRules": [
+					"Cleaving Blow"
+				],
 				"wargear": [
 					"Armour",
-					"Sword"
-				],
-				"unavailableIn": [
-					[
-						"Razgush, War Leader of the North"
-					]
+					"Hand weapon"
 				]
 			},
 			{
@@ -27470,12 +27605,20 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 2,
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Cavalry",
-					"Warrior"
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Isengard"
+				],
+				"unitType": [
+					"Warrior",
+					"Cavalry"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"options": [
 					{
@@ -27502,7 +27645,7 @@
 				"specialRules": [],
 				"wargear": [
 					"Armour",
-					"Sword",
+					"Hand weapon",
 					"Warg"
 				]
 			},
@@ -28409,21 +28552,31 @@
 				"points": 7,
 				"movement": 10,
 				"fight": 3,
-				"shoot": 5,
+				"shoot": 6,
 				"strength": 4,
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 2,
-				"keywords": [
-					"Warg",
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Warg"
+				],
+				"faction": [
+					"Isengard"
+				],
+				"unitType": [
+					"Warrior",
 					"Infantry",
-					"Warrior"
+					"Beast"
+				],
+				"baseSize": [
+					"40mm"
 				],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
-					"Claws and Teeth"
+					"Teeth and claws (hand weapon)"
 				]
 			},
 			{
@@ -28771,25 +28924,36 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
-				"keywords": [
-					"Uruk-Hai",
-					"Isengard",
-					"Infantry",
-					"Warrior"
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Uruk-hai"
+				],
+				"faction": [
+					"Isengard"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"options": [
 					{
 						"name": "Banner",
-						"points": 25
+						"points": 25,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Uruk-Hai Bow",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Marauder",
@@ -28823,7 +28987,7 @@
 				"specialRules": [],
 				"wargear": [
 					"Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -28841,35 +29005,49 @@
 				"defence": 5,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
-				"keywords": [
-					"Uruk-Hai",
-					"Isengard",
-					"Infantry",
-					"Warrior"
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Uruk-hai"
+				],
+				"faction": [
+					"Isengard"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"options": [
 					{
 						"name": "Shield",
-						"points": 1
+						"points": 1,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Banner",
-						"points": 25
+						"points": 25,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Crossbow",
-						"points": 2
+						"points": 2,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Pike",
-						"points": 1
+						"points": 1,
+						"requireChooseOneKey": "a"
 					}
 				],
-				"specialRules": [],
+				"specialRules": [
+					"Shieldwall"
+				],
 				"wargear": [
 					"Heavy Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -30388,26 +30566,34 @@
 				],
 				"points": 15,
 				"movement": 6,
-				"fight": 4,
+				"fight": 5,
 				"shoot": 4,
 				"strength": 4,
 				"defence": 5,
 				"attack": 2,
 				"wounds": 1,
-				"courage": 7,
-				"keywords": [
-					"Uruk-Hai",
-					"Isengard",
-					"Infantry",
-					"Warrior"
+				"courage": 3,
+				"intelligence": 8,
+				"race": [
+					"Uruk-hai"
+				],
+				"faction": [
+					"Isengard"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"options": [],
 				"specialRules": [
-					"Oblivious to Pain (Uruk-hai)",
-					"Impervious to Bow-fire"
+					"Oblivious to Pain"
 				],
 				"wargear": [
-					"Berserker Blade"
+					"Berserker Blade",
+					"Light armour"
 				]
 			},
 			{
@@ -30538,12 +30724,20 @@
 				"defence": 3,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
-				"keywords": [
-					"Man",
-					"Dunlending",
-					"Infantry",
-					"Warrior"
+				"courage": 7,
+				"intelligence": 8,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Dunland"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"options": [
 					{
@@ -30578,11 +30772,10 @@
 					}
 				],
 				"specialRules": [
-					"Hatred",
 					"Hatred (Rohan)"
 				],
 				"wargear": [
-					"Sword or axe"
+					"Hand weapon"
 				]
 			},
 			{
@@ -34496,7 +34689,7 @@
 				"name": "Berserker Blade",
 				"type": "Weapon",
 				"tag": "Active",
-				"definition": "A Berserker Blade is a hand-and-a-half sword. If an Uruk-Hai Berserker wins a Duel roll while fighting with its Berserker Blade as a two-handed weapon, it may either assign strikes\n                as normal, or do one Strength 4 hit at +1 To Wound on every model Engages in the fight or supporting the Berserker and in base contact (friend and foe)."
+				"definition": "This is a hand-and-a-half weapon. Additionally, if an Uruk-hai Berserker wins a Combat whilst using their Berserker Blade as a two-handed weapon, they may make a single Strike against every enemy model they were Engaged in Combat with."
 			},
 			{
 				"name": "Narsil",
@@ -35726,9 +35919,9 @@
 				"definition": "In Scenarios that use the Maelstrom of Battle special rule, Lurtz's Warband does not roll to determine where they isArrayBufferView. Instead, Lurtz may choose the result."
 			},
 			{
-				"name": "Sharku's Riding Dagger",
+				"name": "Riding Dagger",
 				"tag": "Active",
-				"definition": "This is a dagger. Additionally, whenever an enemy Hero model in base contact resolves a \n                Strike against Sharku and fails To Wound, immediately resolve one Strength 4 Strike against that model."
+				"definition": "This is a hand weapon. Additionally, whenever an enemy model makes a Strike against Sharku (but not his Warg) and fails the To Wound roll, Sharku may immediately make a single Strength 4 hit against that model."
 			},
 			{
 				"name": "Stand, Men of the West!",
@@ -35850,12 +36043,12 @@
 			{
 				"name": "A Traitor Within",
 				"tag": "Passive",
-				"definition": "Grima must be deployed in Saruman's warband if deployed as part of the Isengard force. Alternatively, \n                before deployment begins, you may attach Grima to an enemy warband. When this warband is deployed or moves onto the \n                battlefield, you must immediately place Grima afterwards as if he was a member of that warband. Grima is always controlled \n                by his controlling player and moves and fights when it is his controlling player's turn to do so as usual.        \n                If deployed as part of the enemy's army (but not as part of his own army), no enemy model can shoot at or strike blows against Grima. \n                Nor can they shoot if Grima is In The Way of the shot. Enemy models are allowed to Charge Grima and fight, but strike no blows if they win. \n                Note that Grima can be targeted by Magical Powers - after all, it is Gandalf who roots out his wicked ways!        \n                This restriction ends if Saruman is Slain, if Grima voluntarily Charges an enemy model or if Grima scores a Wound with his dagger \n                (even if the Wound is avoided with Fate). Gríma can decide not to strike blows if he wins a Duel roll in order not to reveal his real allegiance. \n                Once one of the conditions is met, the depth of Grima's evil is revealed and he becomes an enemy who can be shot at and fought in the same way as any other enemy model."
+				"definition": "Gríma can be deployed in one of two ways, though his controlling player must decide which before either Army is deployed. Gríma can either be deployed as part of Saruman's Warband (in which case he will not take up a space in the Warband), or as part of the enemy Army.\nIf Gríma chooses to be deployed as part of the enemy Army, he must select an enemy Hero. Once that Hero and their Warband has been deployed, Gríma's controlling player can deploy Gríma as if he was also part of that Warband, following all the usual deployment rules. Gríma is still part of his controlling player's Army, and will Activate like any other model in his controlling player's Army.\nIf Gríma is deployed as part of the enemy Army, then enemy models treat him as a friendly model, and therefore cannot shoot him, Charge him, make Strikes against him, target him with special rules, or make a shooting attack in which Gríma would be In The Way. They may also ignore his Control Zone. They can, however, target him with Magical Powers like\nany other enemy model.\nWhilst Gríma is considered a friendly model, Grima may ignore the Control Zones of enemy models and may Move through enemy models as if they weren't there. When Gríma Moves this way, he cannot end his Move overlapping or in base contact with an enemy model. Grima can choose to Charge an enemy model as normal if he wishes.\nThese restrictions immediately end if Saruman is slain, if Grima Charges an enemy model, if Grima destroys an enemy Siege Engine, or if Grima interacts with an Objective Marker (such as destroying a Supply Marker or picking up an objective), at which point Grima is treated as a normal enemy model and can be Charged, shot at and slain like any other model"
 			},
 			{
 				"name": "Wormtongue",
 				"tag": "Passive",
-				"definition": "If an enemy Hero model is within 6\" of Grima, 2 Might points must be expended to use Heroic Actions instead of 1."
+				"definition": "An enemy Hero within 6\" of Grima must spend 2 Might Points rather than 1 in order to declare a Heroic Action."
 			},
 			{
 				"name": "The One Ring (Sauron)",
@@ -36274,7 +36467,7 @@
 			{
 				"name": "Oblivious to Pain",
 				"tag": "Passive",
-				"definition": "Whenever Lurtz suffers a Wound, roll a D6. On a roll of a natural 6, the Wound is ignored."
+				"definition": "Whenever this model suffers a Wound, roll a D6. On a roll of a natural 6, the Wound is ignored."
 			},
 			{
 				"name": "Master of Ambush",
@@ -36603,12 +36796,12 @@
 			{
 				"name": "Bloodoath",
 				"tag": "Passive",
-				"definition": "Friendly Wild Men of Dunland within 6\" of The Wild Man Oathmaker gain the Fearless special rule."
+				"definition": "Friendly Dunland models within 6\" of the Wild Man Oathmaker count as having the fearless special rule."
 			},
 			{
 				"name": "We Will Die For Saruman",
 				"tag": "Passive",
-				"definition": "All Wild Men of Dunland included in the same army as The Wild Man Oathmaker gain the Isengard Keyword for the duration of the battle."
+				"definition": "Whilst Saruman is alive and on the battlefield, the Wild Man Oathmaker and friendly Dunland models must re-roll To Wound Rolls of a natural 1 when making Strikes."
 			},
 			{
 				"name": "Favour of the War Chief",
@@ -36902,7 +37095,7 @@
 			{
 				"name": "Cunning Mind",
 				"tag": "Passive",
-				"definition": "Snaga can choose not to take part in a friendly Hero model's Heroic Action and still be able to act as normal later in the phase, even if by not participating as part of the Heroic Action he would\n                normally not be able to act that turn. Additionally, if Snaga chooses to participate in a friendly Hero model's Heroic Action, he does not have to remain within a specific range of the Hero."
+				"definition": "Whenever Snaga benefits from the Heroic Action of another friendly Hero, he may roll a D6. On a 5+, Snaga may regain a Might Point htat he spent earlier in the battle. Additionally, Snaga may choose to not benefit from the Heroic Move or Heroic March of a friendly Hero, in which case he does not forego his Activation and may Activate as normal later in the Move Phase."
 			},
 			{
 				"name": "Ascendant",
@@ -37895,6 +38088,16 @@
 				"name": "A Light in the Dark",
 				"tag": "Passive",
 				"definition": "The area within 6\" of the Gatekeeper is always considered to be daylight. Additionally, enemy models cannot Charge friendly models if they could Charge the Gatekeeper instead. If an enemy model cannot Charge the Gatekeeper ...?"
+			},
+			{
+				"name": "Let's put a maggot hole in your belly",
+				"tag": "Active",
+				"definition": "If Grishnakh wins a Duel Roll, and there are no other allies involved in the Combat (including Supporting models), then Grishnakh can choose a single enemy model on a 25mm base that he was engaged in Combat with and roll a D6. On a 4+, the chosen model is knocked Prone before Strikes are made."
+			},
+			{
+				"name": "Fury of the Pack",
+				"tag": "Active",
+				"definition": "Whilst he has the Cavalry keyword, whenever Sharku charges he increases his Fight Value to 5 and his Attacks to 3 until the End Phase of the turn."
 			}
 		]
 	}
