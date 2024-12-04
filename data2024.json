@@ -12810,17 +12810,27 @@
 				"defence": 4,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 3,
-				"might": 3,
+				"courage": 7,
+				"intelligence": 7,
+				"might": 2,
 				"will": 1,
 				"fate": 1,
-				"heroicActions": [
-					"Heroic Strike"
+				"race": [
+					"Goblin"
 				],
-				"keywords": [
-					"Goblin",
+				"factino": [
+					"Goblin-town"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Challenge"
 				],
 				"specialRules": [
 					"Cave Dweller",
@@ -12828,8 +12838,8 @@
 					"Swap with Me"
 				],
 				"wargear": [
-					"Dagger",
-					"Scourge"
+					"Hand weapon",
+					"Whip"
 				],
 				"options": []
 			},
@@ -12876,7 +12886,7 @@
 						"heroicTier": "Independent Hero"
 					}
 				],
-				"points": 35,
+				"points": 40,
 				"movement": 5,
 				"fight": 4,
 				"shoot": 4,
@@ -12884,21 +12894,32 @@
 				"defence": 4,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 5,
 				"might": 1,
 				"will": 0,
 				"fate": 1,
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Goblin-town"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
 				],
-				"keywords": [
-					"Hobbit",
-					"Infantry",
-					"Hero"
-				],
 				"specialRules": [
 					"Cave Dweller",
-					"Strangler",
+					"Mountain Dweller",
+					"Stalk Unseen",
 					"The Precious"
 				],
 				"wargear": [
@@ -12923,24 +12944,33 @@
 				"defence": 4,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 7,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Goblin"
+				],
+				"faction": [
+					"Goblin-town"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
-				],
-				"keywords": [
-					"Goblin",
-					"Infantry",
-					"Hero"
 				],
 				"specialRules": [
 					"Cave Dweller",
 					"Chittering Hordes"
 				],
 				"wargear": [
-					"Armour"
+					"Hand weapon"
 				],
 				"options": []
 			},
@@ -14631,17 +14661,26 @@
 				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 6,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Goblin"
+				],
+				"faction": [
+					"Gundabad"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
-				],
-				"keywords": [
-					"Goblin",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
@@ -14650,8 +14689,8 @@
 					"Mercenary Ambush"
 				],
 				"wargear": [
-					"Heavy Armour",
-					"Sword"
+					"Armour",
+					"Hand weapon"
 				]
 			},
 			{
@@ -20410,29 +20449,40 @@
 				"unlimited": true,
 				"points": 180,
 				"movement": 6,
-				"fight": 6,
+				"fight": 7,
 				"shoot": 4,
-				"strength": 7,
-				"defence": 7,
+				"strength": 8,
+				"defence": 8,
 				"attack": 3,
 				"wounds": 5,
-				"courage": 3,
+				"courage": 6,
+				"intelligence": 7,
 				"might": 0,
 				"will": 0,
 				"fate": 0,
-				"keywords": [
-					"Troll",
-					"Gundabad",
+				"race": [
+					"Troll"
+				],
+				"faction": [
+					"Gundabad"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
 					"Monster",
-					"Siege Engine",
-					"Infantry"
+					"Siege Weapon"
+				],
+				"baseSize": [
+					"160mm"
 				],
 				"heroicActions": [],
 				"options": [],
 				"specialRules": [
-					"Terror",
-					"Area Effect",
-					"Goblin Crew"
+					"Ancient Enemies (Dwarf)",
+					"Ancient Enemies (Elf)",
+					"Dominant (5)",
+					"Large Target",
+					"Terror"
 				],
 				"wargear": [
 					"Catapult",
@@ -23976,25 +24026,35 @@
 				],
 				"points": 150,
 				"movement": 6,
-				"fight": 7,
-				"shoot": 5,
+				"fight": 8,
+				"shoot": 4,
 				"strength": 7,
 				"defence": 7,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 7,
 				"might": 3,
 				"will": 1,
 				"fate": 1,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength"
+				"race": [
+					"Troll"
 				],
-				"keywords": [
-					"Troll",
-					"Monster",
+				"faction": [
+					"Trollshaws"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Monster",
+					"Unique"
+				],
+				"baseSize": [
+					"60mm"
+				],
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Strike"
 				],
 				"options": [
 					{
@@ -24043,10 +24103,12 @@
 					}
 				],
 				"specialRules": [
+					"Dominant (5)",
+					"Large Target",
 					"Terror",
 					"Throw Stones (range 12\", Strength 8)",
-					"Keep 'em for Later",
-					"Mince 'em Fine"
+					"Mince 'em Fine",
+					"Keep 'em for Later"
 				],
 				"wargear": [
 					"Club or fork (counts as dagger)"
@@ -24063,34 +24125,46 @@
 				"points": 130,
 				"movement": 6,
 				"fight": 7,
-				"shoot": 5,
+				"shoot": 4,
 				"strength": 7,
 				"defence": 7,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 7,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
-				"heroicActions": [
-					"Heroic Strength",
-					"Heroic Defence"
+				"race": [
+					"Troll"
 				],
-				"keywords": [
-					"Troll",
-					"Monster",
+				"faction": [
+					"Trollshaws"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Monster",
+					"Unique"
+				],
+				"baseSize": [
+					"60mm"
+				],
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic Strength"
 				],
 				"options": [],
 				"specialRules": [
+					"Dominant (3)",
+					"Large Target",
 					"Terror",
 					"Throw Stones (range 12\", Strength 8)",
-					"Keep 'em for Later",
-					"Roast 'em Slowly"
+					"Roast 'em Slowly",
+					"Keep 'em for Later"
 				],
 				"wargear": [
-					"Club or fork (counts as dagger)"
+					"Hand weapon"
 				]
 			},
 			{
@@ -25524,20 +25598,33 @@
 				"defence": 4,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 5,
 				"might": 1,
 				"will": 0,
 				"fate": 1,
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Goblin-town"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
 				],
-				"keywords": [
-					"Hobbit",
-					"Infantry",
-					"Hero"
-				],
 				"specialRules": [
-					"Cave Dweller"
+					"Cave Dweller",
+					"Mountain Dweller",
+					"Stalk Unseen",
+					"The Precious"
 				],
 				"wargear": [
 					"Strangling fingers"
@@ -29472,21 +29559,32 @@
 				"defence": 5,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 3,
-				"keywords": [
-					"Ogre",
-					"Gundabad",
-					"Monster",
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Ogre"
+				],
+				"faction": [
+					"Gundabad"
+				],
+				"unitType": [
+					"Warrior",
 					"Infantry",
-					"Warrior"
+					"Monster"
+				],
+				"baseSize": [
+					"50mm"
 				],
 				"options": [],
 				"specialRules": [
+					"Ancient Enemies (Dwarf)",
+					"Ancient Enemies (Elf)",
+					"Dominant (3)",
 					"Terror",
 					"Relentless Advance"
 				],
 				"wargear": [
-					"Wooden clubs"
+					"Hand weapon"
 				]
 			},
 			{
@@ -29557,24 +29655,33 @@
 				"points": 8,
 				"movement": 10,
 				"fight": 3,
-				"shoot": 5,
+				"shoot": 6,
 				"strength": 4,
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 2,
-				"keywords": [
-					"Warg",
+				"courage": 8,
+				"intelligence": 7,
+				"race": [
+					"Warg"
+				],
+				"faction": [
+					"Gundabad"
+				],
+				"unitType": [
+					"Warrior",
 					"Infantry",
-					"Warrior"
+					"Beast"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"options": [],
 				"specialRules": [
 					"Fell Sight"
 				],
 				"wargear": [
-					"Claws",
-					"Teeth"
+					"Claws and teeth (hand weapon)"
 				]
 			},
 			{
@@ -29738,11 +29845,20 @@
 				"defence": 3,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 2,
-				"keywords": [
-					"Goblin",
-					"Infantry",
-					"Warrior"
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Goblin"
+				],
+				"faction": [
+					"Goblin-town"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"options": [
 					{
@@ -29751,7 +29867,7 @@
 					}
 				],
 				"wargear": [
-					"Sword, pick, mace, or flail"
+					"Hand weapon"
 				],
 				"specialRules": [
 					"Cave Dweller",
@@ -30432,12 +30548,20 @@
 				"defence": 5,
 				"attack": 2,
 				"wounds": 1,
-				"courage": 6,
-				"keywords": [
-					"Orc",
-					"Gundabad",
-					"Infantry",
-					"Warrior"
+				"courage": 4,
+				"intelligence": 5,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Gundabad"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"options": [
 					{
@@ -30447,11 +30571,11 @@
 				],
 				"specialRules": [
 					"Ancient Enemies (Dwarf)(Elf)",
-					"Ancient Enemies",
 					"Oblivious to Pain"
 				],
 				"wargear": [
-					"Armour"
+					"Armour",
+					"Hand weapon"
 				]
 			},
 			{
@@ -30509,11 +30633,20 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 2,
-				"keywords": [
-					"Goblin",
-					"Infantry",
-					"Warrior"
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Goblin"
+				],
+				"faction": [
+					"Gundabad"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"options": [],
 				"specialRules": [
@@ -30522,7 +30655,8 @@
 					"Mercenary Ambush"
 				],
 				"wargear": [
-					"Armour"
+					"Armour",
+					"Hand weapon"
 				]
 			},
 			{
@@ -36258,7 +36392,7 @@
 			{
 				"name": "Relentless Advance",
 				"tag": "Active",
-				"definition": "When the Goblin King Charges into combat, he can pass 'through' friendly Goblin models when he moves. Each Goblin he moves through suffers a Strength 3 hit. Any Goblin that he ends his move on is automatically slain. A model with this special rule cannot be Compelled/Commanded over friendly models if it is forced to Charge as a part of that Magical Power."
+				"definition": "This model may Move through friendly Orc, Goblin, or Bat models when they Charge into Combat, though not when forced to Move by the effects of an enemy Magical Power or special rule. Each friendly model Moved through in this way immediately suffers a Strength 3 hit. This model may finish its Move overlapping friendly models, though any friendly models it finish its Move overlapping will automatically be slain."
 			},
 			{
 				"name": "Blubbery Mass",
@@ -36273,12 +36407,12 @@
 			{
 				"name": "Swap with Me",
 				"tag": "Active",
-				"definition": "Swap with Me is a special Heroic Action that Grinnah can use at the start of any phase. Using Swap with Me enables Grinnah to swap places with any friendly Goblin model (except the Goblin Scribe) within 3\". This does not count as moving. If there is no room to place the swapped model, you must choose another, or the Heroic Action is wasted."
+				"definition": "At the start of the Fight Phase, before the Declare Heroic Actions Step, Grinnah can choose a friendly Goblin model on a 25mm base within 3\" and swap places with it. This does not count as Moving."
 			},
 			{
 				"name": "Chittering Hordes",
 				"tag": "Active",
-				"definition": "Models with this special rule can Support as if they had spears, with the exception that they can only ever Support another model with the Chittering Hordes special rule. A Supporting model does get the benefit of having a two-handed weapon, if it has one."
+				"definition": "This model may Support as if it had a spear, with the exception that they can only Support another model with this special rule. A model Supporting whilst using this special rule cannot also use a two-handed weapon in the same Combat."
 			},
 			{
 				"name": "Always more where they came from",
@@ -36293,7 +36427,7 @@
 			{
 				"name": "The Precious",
 				"tag": "Active",
-				"definition": "Unless there is another Ringbearer (such as Bilbo, Frodo or even Sauron himself!) in play, Gollum always has the Ring. Should the Ringbearer be slain in a Fight with Gollum, then he automatically recovers the Ring - add it to his wargear."
+				"definition": "If your opponent's Army contains a Ringbearer, then when Gollum Moves, he must always Charge the enemy Ringbearer if possible. Additionally, if Gollum kills the enemy Ringbearer in Combat, then he will automatically regain the One Ring - from that point onwards he counts as having it as part of his Wargear."
 			},
 			{
 				"name": "Strangler",
@@ -36303,7 +36437,7 @@
 			{
 				"name": "Mercenary Ambush",
 				"tag": "Active",
-				"definition": "Warbands led by a Goblin Mercenary Captain that contain solely Goblin Mercenaries do not have to deploy on the board at the start of the game.\n                Instead, they may be kept in reserve. From turn 2 onwards, the controlling player must test to see if their Goblin Mercenaries have arrived. To do this, the Goblin Mercenary Captain must make a Courage test at any point during the controlling player's Move phase.\n                If the test is passed, the controlling player may choose whether or not the Goblin Mercenaries have arrived. If the test is failed, then the opposing player may choose whether or not the Goblin Mercenaries have arrived.\n                Once they have arrived, the controlling player places the warband fully within any eligible terrain piece on the board. Models deployed in this way may not be placed within the Control Zones of any enemy models. This counts as the Goblin Mercenaries' movement for that turn. If the entire warband cannot be placed for any reason (such as there are no eligible terrain pieces), then they may arrive as Reinforcements from a board edge of the controlling player's choice instead"
+				"definition": "Warbands led by a Goblin Mercenary Captain that contain solely Goblin Mercenaries do not have to be deployed at the start of the game.\n                Instead, they may be kept in reserve if their controlling player wishes. If they are kept in reserve, then from turn 2 onwards at the end of each of their controlling player's Activation Phases, the Goblin Mercenary Captain must take an Intelligence Test. If the test is passed, then their controlling player may decide whether or not they arrive. If the test is failed, then the opposing player may decide whether or not they arrive.\n                When the Goblin Mercenaries arrive, their controlling player places the Warband fully within or in base contact with an eligible terrain piece on the board. For a terrain piece to be eligible it needs to be large enough for the entire Warband to hide in or behind, such as a wood, building, rocky outcrop, etc. It is important to discuss with your opponent before the game begins exactly what counts as an eligible terrain piece.\n                Models placed on the board in this manner cannot be placed in the Control Zones of enemy models, and cannot move during that turn but may otherwise act normally. If the entire warband cannot be placed as described above, then the Warband may move onto the board from any table edge via the rules for Reinforcements."
 			},
 			{
 				"name": "Loremaster",
@@ -37369,15 +37503,16 @@
 			{
 				"name": "Keep 'em for Later",
 				"tag": "Active",
-				"definition": "If this Troll wins a Fight, they may choose one Man-sized (or smaller) model from the Fight and Keep ‘em for Later instead of rolling for Strikes or using a Brutal Power Attack. Replace the model with a 25mm marker that represents the unfortunate victim stuffed in a bag. The model thereafter counts as being subject to the Paralyse Magical Power."
+				"definition": "If this model wins a Duel Roll, they may choose a single enemy model on a 25mm base instead of making Strikes or using a Brutal Power Attack. The chosen model is stuffed into a bag and suffers the effects of the Paralyse Magical Power; however, the effects will not immediately end should this model have no Will Points or be slain. If the model is still Paralysed at the end of the game, then they will count as slain and be removed as a casualty."
 			},
 			{
 				"name": "Mince 'em Fine",
-				"definition": "When Bill wins a Fight, he may choose to perform a Mince ‘em Fine Brutal Power Attack instead of making Strikes. Choose one enemy model in the Fight – both Bill and the chosen model roll a D6 and add their respective Strength values. If Bill rolls higher, the victim suffers a number of Wounds equal to the difference – each of which may be prevented by a Fate point in the usual way. Regardless of who rolls higher, the victim Backs Away as normal."
+				"definition": "Instead of making Strikes, Bill may choose a single enemy model involved in the Combat. Bill and the chosen model both roll a D6 and add their respective Strength characteristics, then the chosen model suffers a number of Wounds equal to the difference between the two scores."
 			},
 			{
 				"name": "Roast 'em Slowly",
-				"definition": "When Bert wins a Fight, he may choose to perform a Roast ‘em Slowly Brutal Power Attack instead of making Strikes, as long as he is within 6\" of a fire. Choose an enemy model involved in the Fight and place it in base contact with the fire. That model is immediately Set Ablaze."
+				"tag": "Brutal Power Attack",
+				"definition": "Instead of making Strikes, if he is within 6\" of a Campfire, Bert may choose a single enemy model involved in the Combat. The chosen model is then placed in base contact with the Campfire and is immediately Set Ablaze."
 			},
 			{
 				"name": "Lingering Cold",
