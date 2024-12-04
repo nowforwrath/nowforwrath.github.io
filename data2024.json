@@ -34491,7 +34491,7 @@
 			{
 				"name": "Herugrim",
 				"tag": "Active",
-				"definition": "Herugrim is a sword. Additionally, Theoden may use the Feint Special Strike even if his fight value is lower than his opponent's."
+				"definition": "This is a Unique hand weapon. Additionally, if a model armed with Herugrim is involved in a Drawn Combat where the Combat is tied at this model's Fight Value (i.e. both sides have Fight Value 5 as their highest, or whatever Fight Value Theoden reaches should he declare a Heroic Strike), then instead of rolling off to see who wins, this model wins instead. If both sides have a similar special rule, roll off as normal."
 			},
 			{
 				"name": "Hearing Trumpet",
