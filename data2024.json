@@ -1654,7 +1654,8 @@
 					"Unique"
 				],
 				"specialRules": [
-					"Hatred (Rohand)",
+					"Hatred (X)",
+					"Hatred (Rohan)",
 					"Master of Battle (4+)",
 					"Dunlending Commander"
 				],
@@ -1705,6 +1706,7 @@
 					"Unique"
 				],
 				"specialRules": [
+					"Hatred (X)",
 					"Hatred (Rohan)",
 					"Traitor of Rohan",
 					"Edoras Shall Fall"
@@ -1758,6 +1760,7 @@
 					"Heroic March"
 				],
 				"specialRules": [
+					"Hatred (X)",
 					"Hatred (Rohan)"
 				],
 				"wargear": [
@@ -1942,6 +1945,7 @@
 					"Heroic Strength"
 				],
 				"specialRules": [
+					"Hatred (X)",
 					"Hatred (Rohan)",
 					"Dunlending Heritage",
 					"Claim the Throne"
@@ -1995,7 +1999,8 @@
 				],
 				"specialRules": [
 					"General Hunter",
-					"Hatred (Rohand)",
+					"Hatred (X)",
+					"Hatred (Rohan)",
 					"The Usurper King"
 				],
 				"wargear": [
@@ -2156,6 +2161,7 @@
 				"specialRules": [
 					"Expert Rider",
 					"Horse Lord",
+					"Leader (X)",
 					"Leader (Rohan Royal Guard)",
 					"Forth, and Fear no Darkness",
 					"The will of men is easily corrupted"
@@ -2224,6 +2230,7 @@
 				"specialRules": [
 					"Expert Rider",
 					"Horse Lord",
+					"Leader (X)",
 					"Leader (Rohan Royal Guard)",
 					"Reckless Charge"
 				],
@@ -2349,6 +2356,7 @@
 				"specialRules": [
 					"Expert Rider",
 					"Horse Lord",
+					"Leader (X)",
 					"Leader (Rohan Royal Guard)",
 					"The Price of Grief"
 				],
@@ -2720,6 +2728,7 @@
 				"specialRules": [
 					"Expert Rider",
 					"Horse Lord",
+					"Leader (X)",
 					"Leader (Rohan Royal Guard)",
 					"Sworn Protector (Theoden)"
 				],
@@ -2775,6 +2784,7 @@
 				],
 				"options": [],
 				"specialRules": [
+					"Leader (X)",
 					"Leader (Rohan Royal Guard)",
 					"Sworn Protector (Theoden)",
 					"Doorward of Meduseld"
@@ -7324,6 +7334,7 @@
 					}
 				],
 				"specialRules": [
+					"Leader (X)",
 					"Leader (Citadel Guard)",
 					"Son of Gondor"
 				],
@@ -7667,6 +7678,7 @@
 					}
 				],
 				"specialRules": [
+					"Leader (X)",
 					"Leader (Citadel Guard",
 					"Resistant to Magic",
 					"Sharpshooter",
@@ -9156,6 +9168,7 @@
 					}
 				],
 				"specialRules": [
+					"Hatred (X)",
 					"Hatred (Dragon)",
 					"Windlance Trained",
 					"Lord of Dale"
@@ -9221,6 +9234,7 @@
 				],
 				"options": [],
 				"specialRules": [
+					"Hatred (X)",
 					"Hatred (Dragon)"
 				],
 				"wargear": [
@@ -11204,6 +11218,7 @@
 				],
 				"options": [],
 				"specialRules": [
+					"Leader (X)",
 					"Leader (Citadel Guard)",
 					"Leader (Guard of the Fountain Court)",
 					"Broken Mind"
@@ -11278,6 +11293,7 @@
 					}
 				],
 				"specialRules": [
+					"Leader (X)",
 					"Leader (Citadel Guard)",
 					"Leader (Guard of the Fountain Court",
 					"Shieldwall"
@@ -11354,6 +11370,7 @@
 				"specialRules": [
 					"Expert Rider",
 					"Horse Lord",
+					"Leader (X)",
 					"Leader (Rohan Royal Guard)"
 				],
 				"wargear": [
@@ -11667,6 +11684,7 @@
 				],
 				"options": [],
 				"specialRules": [
+					"Leader (X)",
 					"Leader (Citadel Guard)",
 					"Sworn Protector (Denethor)",
 					"Defend the White City!",
@@ -14734,7 +14752,7 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Hatred",
+					"Hatred (X)",
 					"Hatred (Goblin)(Orc)(Uruk-Hai)",
 					"Stalk Unseen",
 					"Woodland Creature"
@@ -14891,6 +14909,7 @@
 				],
 				"specialRules": [
 					"Fearless",
+					"Hatred (X)",
 					"Hatred (Gundabad)",
 					"Du Bekar",
 					"Ancestral Fury"
@@ -16161,6 +16180,7 @@
 					}
 				],
 				"specialRules": [
+					"Hatred (X)",
 					"Hatred (Rohan)"
 				],
 				"wargear": [
@@ -16227,6 +16247,7 @@
 					"Burly",
 					"Expert Rider",
 					"Horse Lord",
+					"Leader (X)",
 					"Leader (Rohan Royal Guard)",
 					"The Hammerhand",
 					"Into the Fray"
@@ -16292,6 +16313,7 @@
 					"Burly",
 					"Dominant (4)",
 					"Fearless",
+					"Hatred (X)",
 					"Hatred (Dunland)",
 					"Might Blow",
 					"The Hammerhand",
@@ -16519,7 +16541,7 @@
 				"options": [],
 				"specialRules": [
 					"Elfbane",
-					"Hatred",
+					"Hatred (X)",
 					"Hatred (Elf)",
 					"The Beasts of Mirkwood",
 					"War Leader of the North"
@@ -17940,6 +17962,7 @@
 				],
 				"specialRules": [
 					"Expert Rider",
+					"Leader (X)",
 					"Leader (Palace Guard)",
 					"Woodland Creature",
 					"Bladelord",
@@ -18129,6 +18152,7 @@
 					}
 				],
 				"specialRules": [
+					"Leader (X)",
 					"Leader (Palace Guard)",
 					"Sharpshooter",
 					"Woodland Creature",
@@ -18269,6 +18293,7 @@
 				],
 				"specialRules": [
 					"Bodyguard",
+					"Leader (X)",
 					"Leader (Palace Guard)",
 					"Woodland Creature",
 					"The King's Guard"
@@ -18598,6 +18623,7 @@
 				"options": [],
 				"specialRules": [
 					"Fearless",
+					"Hatred (X)",
 					"Hatred (Rohan)",
 					"Bloodoath",
 					"We Will Die For Saruman"
@@ -19025,7 +19051,7 @@
 				"options": [],
 				"specialRules": [
 					"Cave Dweller",
-					"Hatred",
+					"Hatred (X)",
 					"Hatred (Dwarf)"
 				],
 				"wargear": [
@@ -20491,6 +20517,7 @@
 					}
 				],
 				"specialRules": [
+					"Hatred (X)",
 					"Hatred (Gundabad)",
 					"Durin's Heir"
 				],
@@ -21778,7 +21805,7 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Hatred",
+					"Hatred (X)",
 					"Hatred (Angmar)",
 					"The King in the North"
 				],
@@ -21869,8 +21896,8 @@
 				"options": [],
 				"specialRules": [
 					"Expert Shot",
+					"Hatred (X)",
 					"Hatred (Angmar)",
-					"Hatred",
 					"Chieftain of the Dunedain"
 				],
 				"wargear": [
@@ -21916,8 +21943,8 @@
 				"options": [],
 				"specialRules": [
 					"Master of Battle 5+",
+					"Hatred (X)",
 					"Hatred (Angmar)",
-					"Hatred",
 					"Expert Rider"
 				],
 				"wargear": [
@@ -21970,7 +21997,7 @@
 					}
 				],
 				"specialRules": [
-					"Hatred",
+					"Hatred (X)",
 					"Hatred (Angmar)"
 				],
 				"wargear": [
@@ -24156,7 +24183,7 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Hatred",
+					"Hatred (X)",
 					"Hatred (Hobbit)",
 					"Put 'em in Chains",
 					"Sharkey's Spy"
@@ -24828,6 +24855,7 @@
 					}
 				],
 				"specialRules": [
+					"Hatred (X)",
 					"Hatred (Rohan)"
 				],
 				"wargear": [
@@ -24890,6 +24918,7 @@
 					}
 				],
 				"specialRules": [
+					"Hatred (X)",
 					"Hatred (Rohan)",
 					"Spear Mastery"
 				],
@@ -28792,6 +28821,7 @@
 					}
 				],
 				"specialRules": [
+					"Hatred (X)",
 					"Hatred (Mordor)",
 					"Loyal to the Captain"
 				],
@@ -28847,6 +28877,7 @@
 					}
 				],
 				"specialRules": [
+					"Hatred (X)",
 					"Hatred (Dragon)"
 				],
 				"wargear": [
@@ -30220,7 +30251,7 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Hatred",
+					"Hatred (X)",
 					"Hatred (Goblin)(Orc)(Uruk-Hai)",
 					"Stalk Unseen",
 					"Woodland Creature"
@@ -30445,6 +30476,7 @@
 					}
 				],
 				"specialRules": [
+					"Hatred (X)",
 					"Hatred (Rohan)"
 				],
 				"wargear": [
@@ -31353,8 +31385,8 @@
 				],
 				"specialRules": [
 					"Cave Dweller",
-					"Hatred (Dwarf)",
-					"Hatred"
+					"Hatred (X)",
+					"Hatred (Dwarf)"
 				],
 				"wargear": [
 					"Heavy Armour",
@@ -31522,9 +31554,7 @@
 			},
 			{
 				"name": "Moria Blackshield Drummer",
-				"factions": [
-					"Moria"
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 0,
 				"movement": 5,
@@ -31535,17 +31565,11 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 3,
-				"keywords": [
-					"Moria",
-					"Goblin",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [],
 				"specialRules": [
 					"Cave Dweller",
+					"Hatred (X)",
 					"Hatred (Dwarf)",
-					"Hatred",
 					"Run and Drum",
 					"Doom! Doom!",
 					"Take up the Drum (Blackshield)"
@@ -32232,7 +32256,7 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
-					"Hatred",
+					"Hatred (X)",
 					"Hatred (Spirit)",
 					"Steely Nerve"
 				],
@@ -32413,7 +32437,7 @@
 					}
 				],
 				"specialRules": [
-					"Hatred",
+					"Hatred (X)",
 					"Hatred (Angmar)"
 				],
 				"wargear": [
@@ -32487,7 +32511,7 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Hatred",
+					"Hatred (X)",
 					"Hatred (Angmar)"
 				],
 				"wargear": [
@@ -35285,9 +35309,9 @@
 				"definition": "Friendly Mordor Orcs within 3\" of Gothmog gain the Hatred (Man) special rule."
 			},
 			{
-				"name": "Hatred",
+				"name": "Hatred (X)",
 				"tag": "Active",
-				"definition": "A model with this special rule adds 1 to their To Wound rolls when fighting in combat against the models with the keyword listed in the brackets in its profile."
+				"definition": "A model with this special rule gains a bonus of +1 To Wound when making Strikes against a model with the same keyword as the one shown in brackets. So, a model with the Hatred (Man) special rule would gain a bonus of +1 To Wound when making Strikes against Man models."
 			},
 			{
 				"name": "Ancient Enemies",
@@ -37881,6 +37905,16 @@
 				"name": "Daughter of Rohan",
 				"tag": "Passive",
 				"definition": "If Hera is involved in a Combat where there is only a single model on each side, and neither model is Supported, then Hera increases her Attacks characteristic to 3 and may re-roll To Wound rolls of a natural 1 when making Strikes."
+			},
+			{
+				"name": "Large Target",
+				"tag": "Passive",
+				"definition": "When a model makes a Shooting Attack that targets a model with this special rule, when they are determining models that are In The Way, they Ignore models (both friendly and enemy) that do not have any of the following keywords: Monster, Siege Engine, War Beast. If the target model is Engaged In Combat, then the In The Way Test for Shooting Into Combat Is still applied regardless of the model the target model is Engaged In Combat with."
+			},
+			{
+				"name": "Leader (X)",
+				"tag": "Passive",
+				"definition": "A model with this special rule can include Warrior models of the type listed in brackets in their Warband."
 			}
 		]
 	}
