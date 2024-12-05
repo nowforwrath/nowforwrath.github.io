@@ -5006,32 +5006,46 @@
 			},
 			{
 				"name": "Orc Commander",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"unlimited": true,
 				"unavailableSolo": true,
 				"points": 0,
 				"movement": 6,
-				"fight": 4,
+				"fight": 5,
 				"shoot": 5,
-				"strength": 4,
-				"defence": 5,
+				"strength": 5,
+				"defence": 6,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
-				"might": 2,
+				"courage": 6,
+				"intelligence": 7,
+				"might": 1,
 				"will": 1,
 				"fate": 1,
-				"heroicActions": [],
+				"race": [
+					"Orc"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"faction": [
+					"Gundabad"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic March"
+				],
 				"options": [],
-				"specialRules": [],
+				"specialRules": [
+					"Ancient Enemies (Dwarf)",
+					"Ancient Enemies (Elf)"
+				],
 				"wargear": [
-					"Armour",
-					"Spear"
+					"Heavy armour",
+					"Hand weapon"
 				]
 			},
 			{
@@ -12120,23 +12134,33 @@
 				],
 				"points": 55,
 				"movement": 6,
-				"fight": 4,
+				"fight": 5,
 				"shoot": 5,
 				"strength": 4,
 				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 3,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 3,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Gundabad"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Strike"
-				],
-				"keywords": [
-					"Orc",
-					"Infantry",
-					"Hero"
 				],
 				"options": [
 					{
@@ -12150,7 +12174,7 @@
 				],
 				"wargear": [
 					"Armour",
-					"Two-Handed Axe"
+					"Two-handed weapon"
 				]
 			},
 			{
@@ -12290,22 +12314,31 @@
 				"points": 45,
 				"movement": 6,
 				"fight": 4,
-				"shoot": 5,
+				"shoot": 4,
 				"strength": 4,
 				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 7,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Gundabad"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
-				],
-				"keywords": [
-					"Orc",
-					"Infantry",
-					"Hero"
 				],
 				"options": [
 					{
@@ -12322,12 +12355,11 @@
 					}
 				],
 				"specialRules": [
-					"Many Blades"
+					"Savage Hunters"
 				],
 				"wargear": [
 					"Armour",
-					"Sword",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -12765,32 +12797,42 @@
 				"defence": 5,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 3,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 3,
 				"will": 2,
 				"fate": 1,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength",
-					"Heroic Challenge"
+				"race": [
+					"Goblin"
 				],
-				"keywords": [
-					"Goblin",
-					"Monster",
+				"faction": [
+					"Goblin-town"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Monster",
+					"Unique"
+				],
+				"baseSize": [
+					"40mm"
+				],
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Strength",
+					"Heroic Strike"
 				],
 				"specialRules": [
 					"Burly",
 					"Cave Dweller",
 					"Resistant to Magic",
 					"Terror",
-					"Relentless Advance",
+					"Relentless Advance (Goblin King)",
 					"Blubbery Mass",
 					"Goblin Projectile"
 				],
 				"wargear": [
-					"Two-handed pick"
+					"Two-handed weapon"
 				],
 				"options": []
 			},
@@ -12859,19 +12901,29 @@
 				"defence": 2,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 7,
 				"might": 0,
 				"will": 1,
 				"fate": 1,
-				"heroicActions": [],
-				"keywords": [
-					"Goblin",
-					"Infantry",
-					"Hero"
+				"race": [
+					"Goblin"
 				],
+				"faction": [
+					"Goblin-town"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"60mm"
+				],
+				"heroicActions": [],
 				"specialRules": [
-					"Always more where they came from",
-					"Immobile"
+					"Immobile",
+					"The Goblin King's Command"
 				],
 				"wargear": [
 					"Unarmed"
@@ -14611,33 +14663,42 @@
 				"unlimited": true,
 				"points": 60,
 				"movement": 6,
-				"fight": 4,
+				"fight": 5,
 				"shoot": 5,
 				"strength": 5,
-				"defence": 6,
+				"defence": 7,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 7,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Gundabad"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
 				],
-				"keywords": [
-					"Orc",
-					"Gundabad",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
-					"Ancient Enemies (Dwarf)(Elf)",
-					"Ancient Enemies"
+					"Ancient Enemies (Dwarf)",
+					"Ancient Enemies (Elf)"
 				],
 				"wargear": [
 					"Heavy Armour",
-					"Sword"
+					"Shield",
+					"hand weapon"
 				]
 			},
 			{
@@ -15792,6 +15853,39 @@
 					"Two-handed weapon",
 					"Throwing weapons"
 				]
+			},
+			{
+				"name": "Troll Brute",
+				"factions": [
+					{
+						"name": "Army of Gundabad",
+						"heroicTier": "Independent Hero"
+					}
+				],
+				"points": 120,
+				"hideStats": true,
+				"unlimited": true,
+				"heroicActions": [],
+				"increaseMaximumChildren": {
+					"warriors": 1
+				},
+				"requiredChildren": [
+					{
+						"elementPropertyName": "warriors",
+						"name": "Troll Brute (Troll)",
+						"quantity": 1,
+						"points": 0,
+						"lockedChildren": true
+					}
+				],
+				"includes": [
+					{
+						"dataSource": "heroes",
+						"name": "Orc Commander"
+					}
+				],
+				"options": [],
+				"specialRules": []
 			},
 			{
 				"name": "Bofur the Dwarf",
@@ -18118,63 +18212,71 @@
 					}
 				],
 				"points": 700,
-				"movement": 6,
-				"fight": 8,
+				"movement": 12,
+				"fight": 9,
 				"shoot": 2,
 				"strength": 9,
 				"defence": 9,
 				"attack": 4,
 				"wounds": 20,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 4,
 				"might": 3,
 				"will": 6,
 				"fate": 0,
-				"heroicActions": [
-					"Heroic Channeling",
-					"Heroic Strike",
-					"Heroic Strength",
-					"Heroic Challenge"
+				"race": [
+					"Dragon"
 				],
-				"keywords": [
-					"Dragon",
-					"Monster",
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Monster",
+					"Unique"
+				],
+				"baseSize": [
+					"231x133mm Oval"
+				],
+				"heroicActions": [
+					"Heroic Challenge"
 				],
 				"options": [],
 				"specialRules": [
-					"Ancient Evil",
+					"Ancient Enemies (Dwarf)",
+					"Dominant (20)",
 					"Fearless",
 					"Fly",
+					"Harbinger of Evil (18\")",
+					"Large Targer",
+					"Monstrous Charge",
 					"Resistant to Magic",
 					"Terror",
 					"Breathe Fire",
-					"Desolator of the North",
 					"Immovable Object",
 					"Missing Scale",
-					"Unstoppable Momentum"
+					"Unstoppable Momentum",
+					"I am fire, I am death",
+					"Colossal Frame",
+					"Desolator of the North"
 				],
 				"wargear": [
-					"Razor-sharp teeth and massive talons"
+					"Razor-sharp teeth and massive talons (hand weapons)"
 				],
 				"magicalPowers": [
 					{
-						"name": "Transfix",
+						"name": "Compel",
 						"range": 12,
 						"casting": 3
 					},
 					{
-						"name": "Compel",
+						"name": "Transfix",
 						"range": 12,
 						"casting": 4
 					},
 					{
-						"name": "Instill Fear",
-						"range": 3,
-						"casting": 5
-					},
-					{
-						"name": "Sap Will",
+						"name": "Foil Magic",
 						"range": 12,
 						"casting": 5
 					}
@@ -22191,61 +22293,68 @@
 				"shoot": 6,
 				"strength": 6,
 				"defence": 8,
-				"attack": 1,
+				"attack": 2,
 				"wounds": 1,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 3,
 				"might": 3,
 				"will": 25,
 				"fate": 0,
-				"heroicActions": [
-					"Heroic Channeling",
-					"Heroic Strength",
-					"Heroic Challenge"
+				"race": [
+					"Spirit"
 				],
-				"keywords": [
-					"Spirit",
-					"Dol Guldur",
-					"Infantry",
-					"Hero"
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Channelling",
+					"Heroic Strength"
 				],
 				"options": [],
 				"specialRules": [
-					"Ancient Evil",
+					"Dominant (5)",
+					"Harbinger of Evil (18\")",
+					"Spectral Walk",
 					"Terror",
 					"Will of Evil",
-					"He cannot yet take Physical Form",
+					"He cannot yet take physical form",
 					"Drain Soul",
 					"Master of the Nazgul"
 				],
-				"wargear": [],
+				"wargear": [
+					"Spectral hands (hand weapons)"
+				],
 				"magicalPowers": [
+					{
+						"name": "Compel",
+						"range": 12,
+						"casting": 3
+					},
 					{
 						"name": "Drain Courage",
 						"range": 12,
-						"casting": 2
+						"casting": 3
 					},
 					{
 						"name": "Transfix",
 						"range": 12,
-						"casting": 2
+						"casting": 3
 					},
 					{
-						"name": "Compel",
+						"name": "Curse",
 						"range": 12,
+						"casting": 4
+					},
+					{
+						"name": "Fog of Disarray",
+						"range": null,
 						"casting": 4
 					},
 					{
 						"name": "Instill Fear",
-						"range": 3,
+						"range": null,
 						"casting": 4
 					},
 					{
-						"name": "Shroud of Shadows",
-						"range": 12,
-						"casting": 4
-					},
-					{
-						"name": "Your Staff is Broken",
+						"name": "Wither",
 						"range": 12,
 						"casting": 4
 					},
@@ -22255,19 +22364,166 @@
 						"casting": 5
 					},
 					{
-						"name": "Sap will",
+						"name": "Your Staff is Broken",
 						"range": 12,
 						"casting": 5
-					},
-					{
-						"name": "Curse",
-						"range": 12,
-						"casting": 4
 					}
 				]
 			},
 			{
 				"name": "Nazgul of Dol Guldur",
+				"factions": [],
+				"points": 80,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 1,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 1,
+				"will": 1,
+				"fate": 0,
+				"race": [
+					"Spirit",
+					"Ringwraith"
+				],
+				"faction": [
+					"Dol Guldur"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strike"
+				],
+				"options": [],
+				"specialRules": [
+					"Unholy Resurrection",
+					"One of Nine"
+				],
+				"wargear": [
+					"Armour",
+					"Sword"
+				]
+			},
+			{
+				"name": "Nazgul of Dol Guldur (Witch King)",
+				"factions": [
+					{
+						"name": "Dark Powers of Dol Guldur",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Rise of the Necromancer",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 80,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 1,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 3,
+				"will": 1,
+				"fate": 0,
+				"race": [
+					"Spirit",
+					"Ringwraith"
+				],
+				"faction": [
+					"Dol Guldur"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strike"
+				],
+				"options": [],
+				"specialRules": [
+					"Unholy Resurrection",
+					"One of Nine",
+					"Angmar Arise"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				]
+			},
+			{
+				"name": "Nazgul of Dol Guldur (Khamul)",
+				"factions": [
+					{
+						"name": "Dark Powers of Dol Guldur",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Rise of the Necromancer",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 80,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 3,
+				"wounds": 1,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 1,
+				"will": 1,
+				"fate": 0,
+				"race": [
+					"Spirit",
+					"Ringwraith"
+				],
+				"faction": [
+					"Dol Guldur"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strike"
+				],
+				"options": [],
+				"specialRules": [
+					"Unholy Resurrection",
+					"One of Nine",
+					"Rhunish Fury"
+				],
+				"wargear": [
+					"Armour",
+					"Two-handed weapon"
+				]
+			},
+			{
+				"name": "Nazgul of Dol Guldur (Dark Headsman)",
 				"factions": [
 					{
 						"name": "Dark Powers of Dol Guldur",
@@ -22286,36 +22542,42 @@
 				"defence": 6,
 				"attack": 2,
 				"wounds": 1,
-				"courage": 6,
-				"might": 3,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 1,
 				"will": 1,
 				"fate": 0,
+				"race": [
+					"Spirit",
+					"Ringwraith"
+				],
+				"faction": [
+					"Dol Guldur"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Strike"
 				],
-				"keywords": [
-					"Spirit",
-					"Ringwraith",
-					"Dol Guldur",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
-					"Harbinger of Evil",
-					"Terror",
-					"One of Nine",
-					"The Servants of Evil",
 					"Unholy Resurrection",
-					"Angmar Arisen"
+					"One of Nine",
+					"Bane of Kings"
 				],
 				"wargear": [
 					"Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
-				"name": "The Nazgul of Dol Guldur (Khamul the Easterling)",
+				"name": "Nazgul of Dol Guldur (The Forsaken)",
 				"factions": [
 					{
 						"name": "Dark Powers of Dol Guldur",
@@ -22326,55 +22588,7 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
-				"points": 75,
-				"movement": 6,
-				"fight": 5,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 6,
-				"attack": 3,
-				"wounds": 1,
-				"courage": 6,
-				"might": 2,
-				"will": 1,
-				"fate": 0,
-				"heroicActions": [
-					"Heroic Strike"
-				],
-				"keywords": [
-					"Spirit",
-					"Ringwraith",
-					"Dol Guldur",
-					"Infantry",
-					"Hero"
-				],
-				"options": [],
-				"specialRules": [
-					"Harbinger of Evil",
-					"Terror",
-					"One of Nine",
-					"The Servants of Evil",
-					"Unholy Resurrection",
-					"Rhunish Fury"
-				],
-				"wargear": [
-					"Armour",
-					"Two-handed Mace"
-				]
-			},
-			{
-				"name": "The Nazgul of Dol Guldur (The Dark Headsman)",
-				"factions": [
-					{
-						"name": "Dark Powers of Dol Guldur",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "Rise of the Necromancer",
-						"heroicTier": "Hero of Valour"
-					}
-				],
-				"points": 75,
+				"points": 80,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
@@ -22382,36 +22596,42 @@
 				"defence": 6,
 				"attack": 2,
 				"wounds": 1,
-				"courage": 6,
-				"might": 2,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 1,
 				"will": 1,
 				"fate": 0,
+				"race": [
+					"Spirit",
+					"Ringwraith"
+				],
+				"faction": [
+					"Dol Guldur"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Strike"
 				],
-				"keywords": [
-					"Spirit",
-					"Ringwraith",
-					"Dol Guldur",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
-					"Harbinger of Evil",
-					"Terror",
-					"One of Nine",
-					"The Servants of Evil",
 					"Unholy Resurrection",
-					"Executioner"
+					"One of Nine",
+					"Bane of Kings"
 				],
 				"wargear": [
 					"Armour",
-					"Axe"
+					"Spear"
 				]
 			},
 			{
-				"name": "The Nazgul of Dol Guldur (The Forsaken)",
+				"name": "Nazgul of Dol Guldur (The Lingering Shadow)",
 				"factions": [
 					{
 						"name": "Dark Powers of Dol Guldur",
@@ -22422,7 +22642,7 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
-				"points": 75,
+				"points": 80,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
@@ -22430,83 +22650,42 @@
 				"defence": 6,
 				"attack": 2,
 				"wounds": 1,
-				"courage": 6,
-				"might": 2,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 1,
 				"will": 1,
 				"fate": 0,
+				"race": [
+					"Spirit",
+					"Ringwraith"
+				],
+				"faction": [
+					"Dol Guldur"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Strike"
 				],
-				"keywords": [
-					"Spirit",
-					"Ringwraith",
-					"Dol Guldur",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
-					"Harbinger of Evil",
-					"Terror",
-					"One of Nine",
-					"The Servants of Evil",
-					"Unholy Resurrection"
-				],
-				"wargear": [
-					"Armour",
-					"Trident Spear"
-				]
-			},
-			{
-				"name": "The Nazgul of Dol Guldur (The Lingering Shadow)",
-				"factions": [
-					{
-						"name": "Dark Powers of Dol Guldur",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "Rise of the Necromancer",
-						"heroicTier": "Hero of Valour"
-					}
-				],
-				"points": 75,
-				"movement": 6,
-				"fight": 5,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 6,
-				"attack": 2,
-				"wounds": 1,
-				"courage": 6,
-				"might": 2,
-				"will": 1,
-				"fate": 0,
-				"heroicActions": [
-					"Heroic Strike"
-				],
-				"keywords": [
-					"Spirit",
-					"Ringwraith",
-					"Dol Guldur",
-					"Infantry",
-					"Hero"
-				],
-				"options": [],
-				"specialRules": [
-					"Harbinger of Evil",
-					"Terror",
-					"One of Nine",
-					"The Servants of Evil",
 					"Unholy Resurrection",
+					"One of Nine",
 					"Unnatural Speed"
 				],
 				"wargear": [
 					"Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
-				"name": "The Nazgul of Dol Guldur (The Abyssal Knight 1)",
+				"name": "Nazgul of Dol Guldur (The Abyssal Knight)",
 				"factions": [
 					{
 						"name": "Dark Powers of Dol Guldur",
@@ -22517,7 +22696,8 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
-				"points": 75,
+				"limit": 2,
+				"points": 80,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
@@ -22525,36 +22705,42 @@
 				"defence": 6,
 				"attack": 2,
 				"wounds": 1,
-				"courage": 6,
-				"might": 2,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 1,
 				"will": 1,
 				"fate": 0,
+				"race": [
+					"Spirit",
+					"Ringwraith"
+				],
+				"faction": [
+					"Dol Guldur"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Strike"
 				],
-				"keywords": [
-					"Spirit",
-					"Ringwraith",
-					"Dol Guldur",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
-					"Harbinger of Evil",
-					"Terror",
-					"One of Nine",
-					"The Servants of Evil",
 					"Unholy Resurrection",
+					"One of Nine",
 					"Spiritual Displacement"
 				],
 				"wargear": [
 					"Armour",
-					"Elven-made Sword"
+					"Elven hand-and-a-half weapon"
 				]
 			},
 			{
-				"name": "The Nazgul of Dol Guldur (The Abyssal Knight 2)",
+				"name": "Nazgul of Dol Guldur (The Slayer of Men)",
 				"factions": [
 					{
 						"name": "Dark Powers of Dol Guldur",
@@ -22565,7 +22751,8 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
-				"points": 75,
+				"limit": 2,
+				"points": 80,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
@@ -22573,128 +22760,38 @@
 				"defence": 6,
 				"attack": 2,
 				"wounds": 1,
-				"courage": 6,
-				"might": 2,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 1,
 				"will": 1,
 				"fate": 0,
+				"race": [
+					"Spirit",
+					"Ringwraith"
+				],
+				"faction": [
+					"Dol Guldur"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Strike"
 				],
-				"keywords": [
-					"Spirit",
-					"Ringwraith",
-					"Dol Guldur",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
-					"Harbinger of Evil",
-					"Terror",
-					"One of Nine",
-					"The Servants of Evil",
 					"Unholy Resurrection",
-					"Spiritual Displacement"
+					"One of Nine",
+					"Angmar Arise (Slayer of Men)"
 				],
 				"wargear": [
 					"Armour",
-					"Elven-made Sword"
-				]
-			},
-			{
-				"name": "The Nazgul of Dol Guldur (The Slayer of Men 1)",
-				"factions": [
-					{
-						"name": "Dark Powers of Dol Guldur",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "Rise of the Necromancer",
-						"heroicTier": "Hero of Valour"
-					}
-				],
-				"points": 75,
-				"movement": 6,
-				"fight": 5,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 6,
-				"attack": 2,
-				"wounds": 1,
-				"courage": 6,
-				"might": 2,
-				"will": 1,
-				"fate": 0,
-				"heroicActions": [
-					"Heroic Strike"
-				],
-				"keywords": [
-					"Spirit",
-					"Ringwraith",
-					"Dol Guldur",
-					"Infantry",
-					"Hero"
-				],
-				"options": [],
-				"specialRules": [
-					"Harbinger of Evil",
-					"Terror",
-					"One of Nine",
-					"The Servants of Evil",
-					"Unholy Resurrection",
-					"Deadly Strength"
-				],
-				"wargear": [
-					"Armour",
-					"Two-handed Mace"
-				]
-			},
-			{
-				"name": "The Nazgul of Dol Guldur (The Slayer of Men 2)",
-				"factions": [
-					{
-						"name": "Dark Powers of Dol Guldur",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "Rise of the Necromancer",
-						"heroicTier": "Hero of Valour"
-					}
-				],
-				"points": 75,
-				"movement": 6,
-				"fight": 5,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 6,
-				"attack": 2,
-				"wounds": 1,
-				"courage": 6,
-				"might": 2,
-				"will": 1,
-				"fate": 0,
-				"heroicActions": [
-					"Heroic Strike"
-				],
-				"keywords": [
-					"Spirit",
-					"Ringwraith",
-					"Dol Guldur",
-					"Infantry",
-					"Hero"
-				],
-				"options": [],
-				"specialRules": [
-					"Harbinger of Evil",
-					"Terror",
-					"One of Nine",
-					"The Servants of Evil",
-					"Unholy Resurrection",
-					"Deadly Strength"
-				],
-				"wargear": [
-					"Armour",
-					"Two-handed Mace"
+					"Two-handed weapon"
 				]
 			},
 			{
@@ -22719,33 +22816,41 @@
 				"shoot": 5,
 				"strength": 5,
 				"defence": 6,
-				"attack": 2,
+				"attack": 3,
 				"wounds": 2,
 				"courage": 5,
+				"intelligence": 6,
 				"might": 3,
 				"will": 3,
 				"fate": 0,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength",
-					"Heroic Challenge"
+				"race": [
+					"Orc"
 				],
-				"keywords": [
-					"Orc",
-					"Dol Guldur",
+				"faction": [
+					"Dol Guldur"
+				],
+				"unitType": [
+					"Hero",
 					"Infantry",
-					"Hero"
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Strength",
+					"Heroic Strike"
 				],
 				"options": [],
 				"specialRules": [
 					"Burly",
 					"Torturer",
-					"\"You have something my Master wants!\""
+					"\"You have something my master wants!\""
 				],
 				"wargear": [
-					"Armour",
-					"Sword",
-					"Two-handed pick"
+					"Heavy armour",
+					"Two-handed weapon"
 				]
 			},
 			{
@@ -24177,27 +24282,39 @@
 				],
 				"points": 120,
 				"movement": 6,
-				"fight": 6,
-				"shoot": 5,
+				"fight": 7,
+				"shoot": 4,
 				"strength": 6,
 				"defence": 6,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 8,
 				"might": 1,
 				"will": 3,
 				"fate": 1,
+				"race": [
+					"Troll"
+				],
+				"faction": [
+					"Trollshaws"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Monster",
+					"Unique"
+				],
+				"baseSize": [
+					"60mm"
+				],
 				"heroicActions": [
 					"Heroic Defence"
 				],
-				"keywords": [
-					"Troll",
-					"Monster",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
+					"Dominant (3)",
+					"large Target",
 					"Terror",
 					"Throw Stones (range 12\", Strength 8)",
 					"Keep 'em for Later",
@@ -24205,7 +24322,7 @@
 					"Squash 'em to Jelly"
 				],
 				"wargear": [
-					"Club or spoon (counts as dagger)"
+					"Hand weapon"
 				]
 			},
 			{
@@ -27647,17 +27764,25 @@
 				"points": 15,
 				"movement": 6,
 				"fight": 3,
-				"shoot": 5,
-				"strength": 3,
+				"shoot": 4,
+				"strength": 4,
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 2,
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Cavalry",
-					"Warrior"
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Gundabad"
+				],
+				"unitType": [
+					"Warrior",
+					"Cavalry"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"options": [
 					{
@@ -27671,10 +27796,12 @@
 						"chooseOneKey": "a"
 					}
 				],
-				"specialRules": [],
+				"specialRules": [
+					"Savage Hunters"
+				],
 				"wargear": [
 					"Armour",
-					"Sword",
+					"Hand weapons",
 					"Warg"
 				]
 			},
@@ -29483,17 +29610,13 @@
 				"points": 8,
 				"movement": 6,
 				"fight": 3,
-				"shoot": 5,
+				"shoot": 4,
 				"strength": 4,
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 2,
-				"keywords": [
-					"Orc",
-					"Infantry",
-					"Warrior"
-				],
+				"courage": 8,
+				"intelligence": 8,
 				"options": [
 					{
 						"name": "Orc Bow",
@@ -29507,12 +29630,37 @@
 					}
 				],
 				"specialRules": [
-					"Many Blades"
+					"Savage Hunters"
 				],
 				"wargear": [
 					"Armour",
-					"Sword",
-					"Sword"
+					"Hand weapons"
+				]
+			},
+			{
+				"name": "Troll Brute (Troll)",
+				"factions": [],
+				"unavailableSolo": true,
+				"points": 0,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 6,
+				"strength": 7,
+				"defence": 6,
+				"attack": 3,
+				"wounds": 4,
+				"courage": 6,
+				"intelligence": 9,
+				"options": [],
+				"specialRules": [
+					"Dominant (5)",
+					"Fearless",
+					"Large Target",
+					"Terror",
+					"Trample (Troll Brute)"
+				],
+				"wargear": [
+					"Hand weapons"
 				]
 			},
 			{
@@ -29521,30 +29669,21 @@
 					"Army of Gundabad"
 				],
 				"points": 120,
-				"movement": 6,
-				"fight": 5,
-				"shoot": 6,
-				"strength": 7,
-				"defence": 6,
-				"attack": 3,
-				"wounds": 4,
-				"courage": 3,
-				"keywords": [
-					"Troll",
-					"Gundabad",
-					"Monster",
-					"Infantry",
-					"Warrior"
+				"hideStats": true,
+				"unlimited": true,
+				"heroicActions": [],
+				"includes": [
+					{
+						"dataSource": "heroes",
+						"name": "Orc Commander"
+					},
+					{
+						"dataSource": "warriors",
+						"name": "Troll Brute (Troll)"
+					}
 				],
 				"options": [],
-				"specialRules": [
-					"Fearless",
-					"Terror",
-					"Crushing Blow"
-				],
-				"wargear": [
-					"Flails"
-				]
+				"specialRules": []
 			},
 			{
 				"name": "Gundabad Ogre",
@@ -29595,17 +29734,26 @@
 				"points": 25,
 				"movement": 12,
 				"fight": 3,
-				"shoot": 5,
+				"shoot": 6,
 				"strength": 4,
 				"defence": 4,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 3,
-				"keywords": [
-					"Bat",
-					"Gundabad",
+				"courage": 7,
+				"intelligence": 8,
+				"race": [
+					"Bat"
+				],
+				"faction": [
+					"Gundabad"
+				],
+				"unitType": [
+					"Warrior",
 					"Infantry",
-					"Warrior"
+					"Beast"
+				],
+				"baseSize": [
+					"40mm"
 				],
 				"options": [],
 				"specialRules": [
@@ -29614,8 +29762,7 @@
 					"Pluck"
 				],
 				"wargear": [
-					"Razor-sharp teeth",
-					"Talons"
+					"Razor-sharp teeth and talons (hand weapons)"
 				]
 			},
 			{
@@ -30368,18 +30515,26 @@
 				],
 				"points": 9,
 				"movement": 6,
-				"fight": 3,
+				"fight": 4,
 				"shoot": 5,
 				"strength": 4,
 				"defence": 5,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
-				"keywords": [
-					"Orc",
-					"Gundabad",
-					"Infantry",
-					"Warrior"
+				"courage": 7,
+				"intelligence": 8,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Gundabad"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"options": [
 					{
@@ -30404,12 +30559,12 @@
 					}
 				],
 				"specialRules": [
-					"Ancient Enemies (Dwarf)(Elf)",
-					"Ancient Enemies"
+					"Ancient Enemies (Dwarf)",
+					"Ancient Enemies (Elf)"
 				],
 				"wargear": [
 					"Heavy armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -30586,34 +30741,44 @@
 				"points": 120,
 				"movement": 6,
 				"fight": 7,
-				"shoot": 6,
+				"shoot": 4,
 				"strength": 7,
 				"defence": 8,
 				"attack": 3,
 				"wounds": 4,
-				"courage": 4,
-				"keywords": [
-					"Troll",
-					"Gundabad",
-					"Monster",
+				"courage": 6,
+				"intelligence": 7,
+				"race": [
+					"Troll"
+				],
+				"faction": [
+					"Gundabad"
+				],
+				"unitType": [
+					"Warrior",
 					"Infantry",
-					"Warrior"
+					"Monster"
+				],
+				"baseSize": [
+					"80mm"
 				],
 				"options": [
 					{
 						"name": "Crushing Club",
 						"points": 0,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Scythe Gauntlets",
 						"points": 10,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					}
 				],
 				"specialRules": [
-					"Ancient Enemies (Dwarf)(Elf)",
-					"Ancient Enemies",
+					"Ancient Enemies (Dwarf)",
+					"Ancient Enemies (Elf)",
+					"Dominant (4)",
+					"Large Target",
 					"Terror"
 				],
 				"wargear": [
@@ -31624,27 +31789,37 @@
 				],
 				"points": 20,
 				"movement": 10,
-				"fight": 4,
-				"shoot": 6,
+				"fight": 2,
+				"shoot": 5,
 				"strength": 5,
 				"defence": 3,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 3,
-				"keywords": [
-					"Spider",
-					"Mirkwood",
+				"courage": 7,
+				"intelligence": 8,
+				"race": [
+					"Spider"
+				],
+				"faction": [
+					"Dol Guldur"
+				],
+				"unitType": [
+					"Warrior",
 					"Infantry",
-					"Warrior"
+					"Beast"
+				],
+				"baseSize": [
+					"60mm"
 				],
 				"options": [],
 				"specialRules": [
-					"Poisoned Fangs",
+					"Poisoned Attacks (Fants)",
 					"Swift Movement",
-					"Terror"
+					"Terror",
+					"Spider Webs"
 				],
 				"wargear": [
-					"Venomous Fangs"
+					"Fangs (hand weapons)"
 				]
 			},
 			{
@@ -31655,27 +31830,38 @@
 				],
 				"points": 20,
 				"movement": 10,
-				"fight": 4,
+				"fight": 3,
 				"shoot": 6,
 				"strength": 5,
 				"defence": 3,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 3,
-				"keywords": [
-					"Spider",
-					"Mirkwood",
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Spider"
+				],
+				"faction": [
+					"Dol Guldur"
+				],
+				"unitType": [
+					"Warrior",
 					"Infantry",
-					"Warrior"
+					"Beast"
+				],
+				"baseSize": [
+					"40mm"
 				],
 				"options": [],
 				"specialRules": [
-					"Poisoned Fangs",
+					"Poisoned Attacks (Fangs)",
+					"Stalk Unseen",
 					"Swift Movement",
-					"Terror"
+					"Terror",
+					"Silent Hunters"
 				],
 				"wargear": [
-					"Venomous Fangs"
+					"Fangs (hand weapons)"
 				]
 			},
 			{
@@ -33636,12 +33822,18 @@
 			{
 				"name": "Scythe Gauntlets",
 				"tag": "Active",
-				"definition": "A Gundabad Troll armed with a pair of scythe gauntlets receives a +1 bonus to its Strikes when rolling To Wound."
+				"definition": "A Gundabad Troll armed with Scythe Gauntlets increases its Attacks to 4.",
+				"modifiesStats": [
+					{
+						"stat": "attack",
+						"modifier": 1
+					}
+				]
 			},
 			{
 				"name": "Crushing Club",
 				"tag": "Active",
-				"definition": "Wounds caused by Strikes from Gundabad Trolls armed with a crushing club cause not 1 Wound but D3 Wounds instead - determine the number of Wounds\n                caused before Fate points are used. Any model that is targeted with strikes from a Crushing Club, and survives, is also knocked Prone on a roll of a 3+."
+				"definition": "Any Strikes made by a Gundabad Troll armed with a Crushing Club count as having the Mighty Blow special rule. Additionally, any model struck by a Crushing Club and not slain must roll a D6 at the end of the Combat. On a 3+, the model is immediately knocked Prone."
 			},
 			{
 				"name": "Armoured horse",
@@ -34114,6 +34306,10 @@
 				]
 			},
 			{
+				"name": "Light Armour",
+				"definition": "A model wearing Light Armour will add 1 to their Defence characteristic against Shooting Attacks. If a model is wearing light armour then the Defence improvement will not have been added onto their profile."
+			},
+			{
 				"name": "Exchange armour and bow for heavy armour",
 				"type": "armour",
 				"modifiesStats": [
@@ -34271,7 +34467,7 @@
 			{
 				"name": "War Horn",
 				"type": "horn",
-				"definition": "If you have one or more war horns on the battlefield, all models in your force have +1 Courage."
+				"definition": "Models within 24\" of a friendly model with a war horn gain a bonus of +1 to any Courage Tests they take. Additioanlly, a model with a war horn gains the Dominant (2) special rule and can use it once per game to increase the range of a friendly Hero model's Stand Fast by 3\", so long as the model with the war horn is in range of the Hero model's Stand Fast before this increase. If a Hero model has a war horn themselves, they may use it to increase the range of their own Stand Fast by 3\" instead. A war horn is treated as an Active ability."
 			},
 			{
 				"name": "Banner",
@@ -34347,6 +34543,10 @@
 				"name": "Light shield and throwing weapons",
 				"type": "throwingWeapon",
 				"definition": "3\" Range, 5 Strength"
+			},
+			{
+				"name": "Light Shield",
+				"definition": "A model with a light shield does not gain a bonus to its Defence. However, it may use the Shielding special rule."
 			},
 			{
 				"name": "Troll Spear",
@@ -34669,7 +34869,7 @@
 				"name": "Mithril Coat",
 				"type": "armour",
 				"tag": "Passive",
-				"definition": "This is a Unique piece of Mithril armour. Additionally, the wearer may re-roll Fate rolls of a 1.",
+				"definition": "This is a Unique piece of Mithril armour. Models cannot use the Rend Brutal Power Attack against a model wearing Mithril Armour. Additionally, the wearer may re-roll Fate rolls of a 1.",
 				"modifiesStats": [
 					{
 						"stat": "defence",
@@ -35093,7 +35293,7 @@
 			{
 				"name": "Elven Cloak",
 				"tag": "Passive",
-				"definition": "A model wearing an Elven cloak has the Stalk Unseen special rule (If a model with this special rule is partially concealed from view\n                    by a piece of terrain, they cannot be seen at all at distances of\n                    more than 6\" – they appear to melt into the background. This\n                    means that enemies cannot Charge, Shoot or target them with\n                    Magical Powers or special rules at ranges of greater than 6\", unless\n                    they have a completely clear view of the target.\n                    If the model is riding a mount, Stalk Unseen has no effect.)"
+				"definition": "A model wearing an Elven cloak has the Stalk Unseen special rule. Additionally, models targeting an Infantry model wearing an Elven cloak with a Shooting Attack suffer a -1 penalty when rolling To Hit."
 			},
 			{
 				"name": "Helmingas",
@@ -35543,7 +35743,7 @@
 			{
 				"name": "Expert Rider",
 				"tag": "Active",
-				"definition": "Whilst mounted, an Expert Rider may re-roll the dice when making Jump, \n                    Swim and Thrown Rider tests. While mounted, a model carrying both a shield and a bow will still receive the +1 Defence bonus for being armed with a shield. If the\n                    model dismounts, they will lose this bonus.\n                    Additionally, an Expert Rider can pick up Light Objects without\n                    having to dismount"
+				"definition": "A Cavalry model with this special rule may re-roll the dice on any Jump, Swim, or Thrown Rider Tests, and can pick up Light Objects without having to dismount.\n                Additionally, a model with this special rule that is carrying both a bow and a shield will still get the +1 bonus to their Defence for having a shield whilst they remain mounted."
 			},
 			{
 				"name": "Heavy Armour",
@@ -35560,7 +35760,7 @@
 			{
 				"name": "Horse Lord",
 				"tag": "Passive",
-				"definition": "Whilst this model is mounted, they may choose to expend their own Fate points to prevent Wounds caused to their mount."
+				"definition": "Whenever the Mount of a model with this special rule suffers a Wound, roll a D6 - on a natural 6, the Wound is ignored. Additionally, a model with this special rule can use their own Fate Points to prevent Wounds inflicted upon their Mount."
 			},
 			{
 				"name": "The will of men is easily corrupted",
@@ -35640,7 +35840,7 @@
 			{
 				"name": "Bodyguard",
 				"tag": "Active",
-				"definition": "All Warrior and Hero models from the same army list with this\n                special rule will automatically Bodyguard the Hero from the\n                same army list with the highest Heroic Tier. If there is more than\n                one Hero with the highest Heroic Tier, the controlling player\n                may choose. As long as the bodyguarded model is alive on the\n                battlefield, this model passes all Courage tests."
+				"definition": "All models with this special rule in an Army must select a Hero to bodyguard; this will automatically be the General if they have the same Faction keyword as this model. If the General does not have the same Faction keyword as this model, then they will bodyguard the Hero with the highest Heroic Tier amongst those who have the same Faction keyword (if there are multiple of the same Heoric Tier, you may choose which will be bodyguarded). All models of this type must choose the same Hero to bodyguard.\n                So long as the bodyguarded Hero is alive and on the battlefield, all models who are bodygaurding that Hero will automatically pass all Courage Tests they are required to take."
 			},
 			{
 				"name": "Westfold Redshields",
@@ -35705,7 +35905,7 @@
 			{
 				"name": "Ancient Enemies",
 				"tag": "Active",
-				"definition": "A model with this special rule re-rolls 1s To Wound when fighting in combat against models with the keywords listed in the brackets in its profile."
+				"definition": "A model with this special rule must re-roll To Wound Rolls of a natural 1 when making Strikes against a model with the keywords listed in brackets in that model's profile. So, a model with the Ancient Enemies (Elf) special rule would re-roll To Wound Rolls of a natural 1 against Elf models."
 			},
 			{
 				"name": "The Time of the Orc has Come",
@@ -35741,6 +35941,11 @@
 			{
 				"name": "Trample",
 				"definition": "When a War Mumak of Harad tramples, it will inflict three Strength 9 hits"
+			},
+			{
+				"name": "Trample (Troll Brute)",
+				"tag": "Active",
+				"definition": "When a Troll Brute Tramples, it will inflict 2 Strength 10 Impact Hits."
 			},
 			{
 				"name": "Trample (Great Beast)",
@@ -36114,7 +36319,7 @@
 			{
 				"name": "Blades of the Dead",
 				"tag": "Active",
-				"definition": "When determining what number models with this special rule need To Wound their opponents, \n                use their opponent's Courage rather than its Defence on the Wound chart. Models with this special rule cannot use Special Strikes."
+				"definition": "Models with this special rule don't roll To Wound when making Strikes in the same way. Instead, when a model with this special rule makes a Strike, the target counts their Defence value as 10 minus the numerical avlue of their Courage. So, a model with a Courage of 8+ would treat their Defence as 2 (10-8) when a model with Blades of the Dead makes a Strike against them."
 			},
 			{
 				"name": "Spectral Walk",
@@ -36247,7 +36452,12 @@
 			{
 				"name": "Cave Dweller",
 				"tag": "Active",
-				"definition": "A model with this special rule adds 1 to all Jump, Leap and Climb tests. They also suffer no penalties for fighting in the dark."
+				"definition": "A model with this special rule applies a +1 modifier to any Jump, Leap and Climb teststhey take. Additionally, a model with this special rule suffers no penalties to how far they can see when fighting in the dark."
+			},
+			{
+				"name": "Dominant (X)",
+				"tag": "Passive",
+				"definition": "This model counts as the number of models as shown in brackers when working out how many models are in range of an objective, in a specific are of the board, or when working out how many models have escaped the battlefield. So, a model with Dominant (3) would count as three models in range of an objective, or in a specific are of the board, or three models when working out how many models have excaped the battlefield. If a model would gain this special rule whilst in range of another model or specific area of the board, and then moves off the board, they will not gain the benefit of this special rule once off the board.\n                If a model has two sources of the Dominant (X) special rule, then they use the highest value."
 			},
 			{
 				"name": "Serve the Master of the Precious",
@@ -36327,7 +36537,7 @@
 			{
 				"name": "Burly",
 				"tag": "Passive",
-				"definition": "When fighting with a two-handed weapon, a model with this special rule does not suffer the -1 penalty to their Duel roll.\n        \n                Additionally, Burly models may carry a Heavy Object and move their full distance."
+				"definition": "A model with this special rule does not suffer the -1 penalty to the Duel Roll for using a two-handed weapon. Additionally, a model with this special rule can still Move its full Move Value whilst carrying a Heavy Object."
 			},
 			{
 				"name": "Impressive Girth",
@@ -36337,7 +36547,7 @@
 			{
 				"name": "The Price of Failure",
 				"tag": "Passive",
-				"definition": "If your army contains both Azog and Yazneg, and the two are in base contact at the beginning of your Move phase, instead of rolling the dice to make a Courage\n                test when your force is Broken, you can remove Yazneg from play. If you do so, Azog is considered to have automatically passed his Courage test and his Stand\n                Fast! will affect the entire battlefield. Furthermore, if Yazneg is removed from play in this way then whilst Azog is still alive, all Hunter Orcs, Hunter Orc\n                Captains, Fimbul the Hunter and Narzug re-roll failed Courage tests."
+				"definition": "At the beginning of a Combat he is involved in, if he is within 3\" of Azog, Yazneg can declare he is using this special rule before the Duel Roll is made. If he does, then Yazneg may re-roll any number of dice during the Duel Roll. However, if Yazneg uses this special rule and fails to win the Duel Roll, then he immediately suffers a single Wound."
 			},
 			{
 				"name": "Lethal Aim",
@@ -36367,7 +36577,7 @@
 			{
 				"name": "Expert Shot",
 				"tag": "Active",
-				"definition": "A model with this special rule may fire twice in the Shoot phase. These shots are resolved one at a time, meaning that the shooter can target the same model twice or two different models, once each, if they wish."
+				"definition": "A model with this special rule can make two Shooting Attacks in the Shoot Phase rather than one. These Shooting Attacks are made one at a time and do not have to target the same enemy model, though both must be made with the same Missile Weapon."
 			},
 			{
 				"name": "Lucky Shot",
@@ -36395,14 +36605,19 @@
 				"definition": "This model may Move through friendly Orc, Goblin, or Bat models when they Charge into Combat, though not when forced to Move by the effects of an enemy Magical Power or special rule. Each friendly model Moved through in this way immediately suffers a Strength 3 hit. This model may finish its Move overlapping friendly models, though any friendly models it finish its Move overlapping will automatically be slain."
 			},
 			{
+				"name": "Relentless Advance (Goblin King)",
+				"tag": "Active",
+				"definition": "The Goblin King may Move through friendly Goblin models when he Charges into Combat, though not when forced to Move by the effects of an enemy Magical Power or special rule. Each friendly Goblin model Moved through in this way immediately suffers a Strength 3 hit. The Goblin King may finish his Move overlapping friendly models, through any friendly models he finishes his Move overlapping will automatically be slain."
+			},
+			{
 				"name": "Blubbery Mass",
 				"tag": "Passive",
-				"definition": "Every time the Goblin King is wounded, roll a D6. On a 3+, the Wound is ignored. Magical Powers and Elven-made weapons ignore this ability."
+				"definition": "Each time the Goblin King suffers a Wound, roll a D6. On a 3+ the Wound is prevented. Wounds caused by Magical Powers or Elven weapons in combat ignores this special rule. Wounds caused by Elven missile weapons will cause the Goblin King to suffer a -1 penalty to this roll."
 			},
 			{
 				"name": "Goblin Projectile",
 				"tag": "Active",
-				"definition": "In the Shoot phase, if there is a friendly Goblin model in base contact with the Goblin King, and neither are Engaged in combat, the Goblin King may make a shooting attack with a range of 12\" - this counts as a throwing weapon. Remove the Goblin, roll To Hit and take any In The Way tests for the shooting attack. The shot is resolved at Strength 8 and will automatically knock Prone any model it hits."
+				"definition": "During the Shoot Phase, if the Goblin King is in have contact with a friendly Goblin model and neither are Engaged in Combat, then the Goblin King can make a shooting attack - this has a range of 12\" and counts as a throwing weapon. remove the friendly Goblin model as a casualty, and then make the To Hit Roll and any In The Way Tests as normal. The shot is resolved at a Strength of 8, and any model that is hit will automatically be knocked Prone."
 			},
 			{
 				"name": "Swap with Me",
@@ -36422,7 +36637,7 @@
 			{
 				"name": "Immobile",
 				"tag": "Passive",
-				"definition": "The Goblin Scribe is automatically Trapped if he loses a Fight. Additionally, in the Move phase, friendly models may move him and his frame, in which case he is considered to be a Heavy Object."
+				"definition": "The Goblin Scribe cannot Move, and will always count as Trapped when it loses a Duel Roll. Additionally, friendly models may carry the Goblin Scribe in which case it will count as a Heavy Object, and must always be put down after a model carrying it has finished its Move. In Scenarios where models Move onto the board, the Goblin Scribe may be carried on by friendly models."
 			},
 			{
 				"name": "The Precious",
@@ -36497,7 +36712,7 @@
 			{
 				"name": "Bane of Kings",
 				"tag": "Active",
-				"definition": "This model must re-roll all failed To Wound rolls when making Strikes in close combat."
+				"definition": "This model must re-roll all failed To Wound rolls when making Shooting Attacks or when making Strikes."
 			},
 			{
 				"name": "Elfbane",
@@ -36841,7 +37056,7 @@
 			{
 				"name": "Breathe Fire",
 				"tag": "Active",
-				"definition": "Smaug must expend a point of Will to Breathe Fire. Treat Smaug's fiery breath as a bow with a range of 18\". If the shot hits, the target and all models (friendly or enemy) within 2\" of\n                the target suffer from the Set Ablaze special rule, though the immediate hit these models suffer is Strength 10 instead of Strength 9. Cavalry models suffer these hits on both the rider and\n                the mount. Fate rolls may be taken as normal to prevent wounds, but any model that suffers a wound from Smaug's fiery breath is automatically slain."
+				"definition": "Smaug can breathe fire as a shooting attack. This is treated as a bow with a range of 18\". If the shot hits a model, then the hit model and all models within 2\" of them immediately suffers a Strength 10 hit, and any model that suffers a Wound from this shot which is not prevented will immediately be slain and removed as a casualty. Any model hit by this shooting attack and not slain will be Set Ablaze. This is a fire-based attack and not slain will be Set Ablaze. This is a fire-based attack, so if a model is immune to fire-based attacks, they are immune to this shooting attack."
 			},
 			{
 				"name": "Desolator of the North",
@@ -36851,17 +37066,17 @@
 			{
 				"name": "Immovable Object",
 				"tag": "Passive",
-				"definition": "Smaug cannot be Knocked to the Ground or otherwise moved against his will, and never Backs Away if he loses a Fight - his opponents must Back Away, even if they win! As a result of this, Smaug can never be Trapped."
+				"definition": "Smaug can never be knocked Prone and can never be forced to Move by the effects of enemy Magical Powers or special rules. If Smaug loses a Duel Roll then he will never count as Trapped and does not Back Away - his opponent must Back Away instead."
 			},
 			{
 				"name": "Missing Scale",
 				"tag": "Passive",
-				"definition": "If a model rolls a natural 6 To Hit Smaug with a shooting attack, then makes a successful roll To Wound, Smaug suffers a number of wounds equal to the Strength value of the missile weapon used by the shooting model."
+				"definition": "If a model rolls a natural 6 when making a shooting attack that targets Smaug, and then successfully rolls To Wound with that shooting attack, then Smaug will suffer a number of Wounds equal to the Strength of the Missile Weapon that made the shooting attack."
 			},
 			{
 				"name": "Unstoppable Momentum",
-				"tag": "Active",
-				"definition": "If Smaug Charges into combat and wins the ensuing Fight, all of his opponents are Knocked to the Ground, regardless of their size (except a War Mumak of Harad, Iron Hills Chariot, or any model\n                that can never be knocked Prone). Furthermore, should Smaug choose to make a Barge Brutal Power Attack, any models forced to Back Away also suffer a Strength 9 hit."
+				"tag": "Brutal Power Attack",
+				"definition": "Instead of making Strikes, Smaug can instead make a single Strength 9 hit on every enemy model he is Engaged in Combat with."
 			},
 			{
 				"name": "Fly",
@@ -37287,19 +37502,19 @@
 				"definition": "If your army contains the Master of Lake-town then he must be your leader, regardless of the Heroic Tier of other Hero models in your army (unless your army includes another Hero with a similar rule). Additionally, if you are including an Army of Lake-town allied contingent as part of a Convenient Alliance or Impossible Alliance, then the Master counts as a Hero of Fortitude - both when building your army and during the course of the game."
 			},
 			{
-				"name": "He cannot yet take Physical Form",
+				"name": "He cannot yet take physical form",
 				"tag": "Passive",
 				"definition": "The Necromancer may use his Will points as Fate points if he wishes."
 			},
 			{
 				"name": "Drain Soul",
 				"tag": "Active",
-				"definition": "A model that suffers a Wound from the King of the Dead in Combat, which is not then prevented, will automatically have their Wounds reduced to 0, causing them to be slain and removed as a casualty."
+				"definition": "A model that suffers a Wound from this model in Combat, which is not then prevented, will automatically have their Wounds reduced to 0, causing them to be slain and removed as a casualty."
 			},
 			{
 				"name": "Master of the Nazgul",
 				"tag": "Passive",
-				"definition": "Any Nazgul of Dol Guldur in the same army as the Necromancer of Dol Guldur gains a bonus of +1 to their rolls for their Unholy Resurrection special rule whilst he is alive and on the board."
+				"definition": "Any friendly Nazgul of Dol Guldur in the same army as the Necromancer gain a bonus of +1 any rolls for their Unholy Resurrection special rule, depending on if they are in range of the Necromancer. If the Necromancer has 20+ Will Points remaining, then the range of this special rule is 18\". If the Necromancer has between 10 and 19 Will Points remaining, then the range of this special rule is 12\". If the Necromancer has 9 or fewer Will Points remaining, then the range of this special rule is 6\"."
 			},
 			{
 				"name": "The King in the North",
@@ -37324,32 +37539,37 @@
 			{
 				"name": "Unholy Resurrection",
 				"tag": "Passive",
-				"definition": "If a model with this special rule is slain, place a marker where it was removed from the board. In the next Priority phase,\n                after Priority has been rolled, roll a D6. On a 3+, the model regains 1 Wound and may be placed anywhere within 6\" of the\n                marker, so long as it is not placed in base contact with an enemy model. Any Might or Will points that were spent remain spent.\n                Whilst the marker is in play, the Nazgûl counts as on the board for the purpose of working out whether your force is Broken\n                or reduced to 25% - though they cannot hold objectives and will still count as slain for the purposes of any special rules that\n                would require a model to be slain (such as a Heroic Combat). If the roll is a 1 or a 2, then the Nazgûl has been banished -\n                remove the marker and the Nazgûl from play. Wounds caused by Magical Powers or Elven-made weapons inflict a -1 penalty to\n                the Unholy Resurrection roll. If, when the game ends, a marker is in play and the corresponding Nazgûl is not on the board,\n                that Nazgûl will count as having been slain for the purposes of victory conditions."
+				"definition": "If this model is slain, instead of removing them as a casualty place a 25mm Marker where they were slain - models may not overlap these Markers for any reason. During the Priority Phase of each turn, after Priority has been determined, roll a D6 for this model's Marker. On a 3+, immediately place this model anywhere within 3\" of the Marker, so long as it is not in base contact with the Marker. If this is not possible, place this model where their Marker was. In either case, remove the Marker after rolling. On a 1-2, the model is slain and removed as a casualty -remove the Marker from the board. Whilst the Nazgul of Dol Guldur are in range of the Necromancer's Master of the Nazgul special rule (depending on how many Will Points he has remaining), the Necromancer can spend his Will Points to improve this roll. For each Will Point the Necromancer spends in this way, improve the Unholy\nResurrection roll by 1.\nWhilst the Marker is in play, this model counts as on the board for the purpose of determining whether your Army is Broken or reduced to 25%. However, a Marker cannot hold Objectives and the model will still count as being slain for the purpose of any special rules that come into effect when model is slain, such as a Heroic Combat.\nIf this model is slain by a Magical Power or an Elven weapon then they suffer a -1 penalty to their rolls for this special rule When the game ends, any Markers on the board are removed and the models associated with them count as a casualty"
 			},
 			{
 				"name": "Angmar Arisen",
 				"tag": "Passive",
-				"definition": "The Witch-king has 3 Might instead of 2."
+				"definition": "The Witch-king has a Fight Value of 6 rather than 5, and 3 Might Points rather than 1."
+			},
+			{
+				"name": "Angmar Arisen (Slayer of Men)",
+				"tag": "Passive",
+				"definition": "An Army may include up to two Slayers of Men. A model with this special rule may re-roll failed To Wound Rolls when making Strikes against an enemy Hero model. Whilst this model is within 1\" of the other Slayer of Men, this model has the Burly special rule."
 			},
 			{
 				"name": "Rhunish Fury",
 				"tag": "Passive",
-				"definition": "Khamul the Easterling has 3 Attacks instead of 2."
+				"definition": "Khamul has 3 Attacks instead of 2."
 			},
 			{
 				"name": "Executioner",
 				"tag": "Active",
-				"definition": "If the Dark Headsman scores a natural 6 when rolling To Wound, then the Strike causes not 1 Wound but D3 Wounds instead (determine the number of Wounds after Fate points are used)."
+				"definition": "If this model rolls a natural 6 during a Duel Roll, then any Strikes it makes during that Combat have the Mighty Blow special rule."
 			},
 			{
 				"name": "Unnatural Speed",
 				"tag": "Active",
-				"definition": "After Priority has been rolled, the controlling player may remove the Lingering Shadow from the board and place him anywhere\n                within 3\" of where he originally was. Note, the Lingering Shadow may not be placed in base contact with an enemy model. This does not count as moving."
+				"definition": "At the start of the Move Phase, before the Declare Heroic Actions Step, the controlling player may remove the Lingering Shadow from the battlefield and place them anywhere within 3\" of where they were. The Lingering Shadow may not be placed in base contact with an enemy model as part of this special rule. This does not count as Moving."
 			},
 			{
 				"name": "Spiritual Displacement",
 				"tag": "Active",
-				"definition": "An army may include up to two Abyssal Knights. In the Priority phase, after Priority has been rolled for, the controlling player can choose to remove one of the Abyssal Knights from the board and\n                immediately place it into base contact with the other, so long as it is not also placed in base contact with an enemy model. This does not count as moving."
+				"definition": "An army may include up to two Abyssal Knights. At the start of the Move Phase, before the Declare Heroic Actions Step, the controlling player may remove one of the Abyssal Knights from the battlefield and place them anywhere within 3\" of the other Abyssal Knight (only one of the Abyssal Knights can use this special rule each turn). A model may not be placed in base contact with an enemy model as part of this special rule. This does not count as Moving."
 			},
 			{
 				"name": "Deadly Strength",
@@ -37359,12 +37579,12 @@
 			{
 				"name": "Torturer",
 				"tag": "Active",
-				"definition": "Every time the Keeper of the Dungeons slays a model, keep a note of it. Once he has killed one or more models, he may re-roll To Wound rolls of 1. Once he has\n                killed three or more models, he causes Terror. Once he has killed five or more models, he re-rolls all failed To Wound rolls."
+				"definition": "Keep track of how many enemy models the Keeper of the Dungeons kills in Combat. Once he has killed one or more enemies, the Keeper of the Dungeons may re-roll To Wound Rolls of a natural 1 when making Strikes. Once he has killed three or more models, the Keeper of the Dungeons gains the Terror special rule. Once he has killed five or more models, the Keeper of the Dungeons may re-roll all failed To Wound Rolls when making Strikes."
 			},
 			{
-				"name": "\"You have something my Master wants!\"",
+				"name": "\"You have something my master wants!\"",
 				"tag": "Active",
-				"definition": "The Keeper of the Dungeons gets a bonus of +1 To Wound against any model that bears one of the three Elven rings: Nenya, Narya or Vilya."
+				"definition": "The Keeper of the Dungeons gains a bonus of +1 To Wound when making Strikes against any model carrying a ring of power - either Narya, Nenya, Vilay, the Ring of Durin, or the One Ring."
 			},
 			{
 				"name": "Automatons",
@@ -37498,7 +37718,7 @@
 			{
 				"name": "Spider Webs",
 				"tag": "Active",
-				"definition": "A Mirkwood Spider can shoot webs at its enemies. They are treated as a throwing weapon with a range of 8\". If a Mirkwood Spider hits its target, do not roll To Wound. Instead, the model suffers the effects of the Paralyse Magical Power. A Hero model hit by a Spider Web can choose to expend a Fate point in the same manner as if it had just suffered a Wound in order to dodge the attack. If successful, the target model is not Paralysed."
+				"definition": "A Mirkwood Giant Spider can shoot spider webs; these are treated as throwing weapons with a range of 8\". If a model is hit by a webs shot by a Mirkwood Giant Spider, no To Wound Roll is made. Instead, the hit model is immediately counted as being under the effects of the Paralyse Magical Power; however, the effects will nto immediately end should this model have no Will Points or be slain. If a Cavalry model is hit by this shooting atttack, do not roll to see which part of the model (rider or Mount) is hit; both are automatically hit. A Hero model hit by a web may spend a Fate Point to avoid its effects. If they do, reduce their Fate Points by 1 and the webs have no effect. If the Hero is a Cavalry model, then a Fate Point spent in this manner will negate the webs on both rider and Mount."
 			},
 			{
 				"name": "Keep 'em for Later",
@@ -37517,11 +37737,12 @@
 			{
 				"name": "Lingering Cold",
 				"tag": "Active",
-				"definition": "During a Fight that involves him, and before making a Duel roll, Tom may expend a point of Will to halve the Fight value of a single foe in base contact as he sneezes on his victim."
+				"definition": "At the start of any Combat involving Tom, he may spend a Will Point to use this special rule. If he does, he may choose a single enemy model he is Engaged in Combat with. The chosen model immediately halves their Fight Value until the end of the turn."
 			},
 			{
 				"name": "Squash 'em to Jelly",
-				"definition": "When Tom wins a Fight, he may choose to perform a Squash ‘em to Jelly Brutal Power Attack, instead of making Strikes. Every enemy model involved in the same Fight (not counting Supporting models) suffers a Strength 6 hit. Any who survive are knocked Prone."
+				"tag": "Brutal Power Attack",
+				"definition": "Instead of making Strikes, Tom may use this Brutal Power Attack. Each enemy model that was Engaged in Combat with Tom immediately suffers a Strength 6 hit and, if they survive, will be knocked Prone."
 			},
 			{
 				"name": "With Me, Lads!",
@@ -37691,12 +37912,12 @@
 			{
 				"name": "Piercing Talons",
 				"tag": "Active",
-				"definition": "When a War Bat Charges, the Defence of the charged model, and any models that subsequently counter-charge, is reduced by 2 against the War Bat’s Strikes."
+				"definition": "This model gains a bonus of +1 To Wound when making Strikes in a turn in which it Charges."
 			},
 			{
 				"name": "Pluck",
 				"tag": "Active",
-				"definition": "At the end of a War Bat’s Move, pick an unengaged Man-sized (or smaller) enemy model that it has moved over and roll a D6. On a 4+, that model suffers a Strength 4 hit. If it survives, roll another dice. On a 4+, that model is Knocked to the Ground."
+				"definition": "If this model Charges into COmbat, choose a single enemy model on a 25mm base that this model Moved over and roll a D6. On a 4+, the chosen model is immediately knocked Prone."
 			},
 			{
 				"name": "Run and Drum",
@@ -37716,17 +37937,17 @@
 			{
 				"name": "Fell Sight",
 				"tag": "Passive",
-				"definition": "A model with this special rule does not need Line of Sight to be able to Charge. Additionally, they may target models with the Stalk Unseen special rule with no penalty."
+				"definition": "A model with this special rule does not need to have Line of Sight to be able to Charge an enemy model. Additionally, a model with this special rule can Charge or target an enemy model with the Stalk Unseen special rule with no penalty. If a Mount has this special rule, the rider may benefit from it whilst they remain mounted."
 			},
 			{
 				"name": "Fearless",
 				"tag": "Passive",
-				"definition": "This model automatically passes any Courage test it is required to make."
+				"definition": "A model with this special rule automatically passes any Courage Test it is required to make."
 			},
 			{
 				"name": "Backstabbers",
 				"tag": "Active",
-				"definition": "This model receives +1 to their To Wound rolls when making Strikes against a Trapped model. This bonus is cumulative with other bonuses, such as using a two-handed weapon."
+				"definition": "This model receives bonus of +1 To Wound  when making Strikes against a Trapped model."
 			},
 			{
 				"name": "Mighty Hero",
@@ -38233,6 +38454,46 @@
 				"name": "Fury of the Pack",
 				"tag": "Active",
 				"definition": "Whilst he has the Cavalry keyword, whenever Sharku charges he increases his Fight Value to 5 and his Attacks to 3 until the End Phase of the turn."
+			},
+			{
+				"name": "Savage Hunters",
+				"tag": "Active",
+				"definition": "This model gains a bonus of +1 Attacks on a turn in which it Charges."
+			},
+			{
+				"name": "Silent Hunters",
+				"tag": "Passive",
+				"defintition": "If a Mirkwood Hunting Spider is within a piece of woodland terrain (such as a forest), or is partially concealed by a piece of woodland terrain, then they cannot be seen by enemy models unless they are within 6\" of the Mirkwood Hunting Spider."
+			},
+			{
+				"name": "I am fire, I am death",
+				"tag": "Passive",
+				"definition": "Smaug is immune to any fire-based attacks."
+			},
+			{
+				"name": "Colossal Frame",
+				"tag": "Passive",
+				"definition": "Enemy models may still target Smaug with shooting attacks even if he is Engaged in Combat. If they do, they do not need to take In The Way Tests for friendly models Smaug is Engaged in Combat with."
+			},
+			{
+				"name": "Desolator of the North",
+				"tag": "Passive",
+				"definition": "Smaug gains a free Will Point at the start of each turn. If this free Will Point is not spent by the end fo the turn, it is lost."
+			},
+			{
+				"name": "The Goblin King's Command",
+				"tag": "Active",
+				"definition": "If the Goblin King declares a Heroic Move whilst within 6\" of that Goblin Scribe and chooses to call With Me, then it will affect all friendly models on the battlefield rather than just those within 6\", and affected models do not have to finish their Activation within 6\" of the Goblin King. Additionally, any friendly Goblin Hero that begins their Activation within 3\" of the Goblin Scribe can choose to spend a Might Point. If they do, the Goblin King regains a Might Point spent earlier in the battle. This special rule can only be used once per turn."
+			},
+			{
+				"name": "Fearful",
+				"tag": "Passive",
+				"definition": "If a model with this special rule wishes to Charge, then it must take a Courage Test at the start of its Move. If the test is failed, the model may not Move that turn but may otherwise act noramlly."
+			},
+			{
+				"name": "General Hunter",
+				"tag": "Active",
+				"definition": "If this model slays the enemy General in a Combat, they immediately regain a single point of Might spent earlier in the battle."
 			}
 		]
 	}
