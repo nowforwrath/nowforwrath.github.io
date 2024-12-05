@@ -1007,7 +1007,7 @@
 			{
 				"name": "Thorin's Company",
 				"alignment": "good",
-				"armyBonus": "\"March to the Lonely Mountain\" - If your Army contains only Thorin's Company models, then friendly Dwarf models may spend their Will Points to declare a Heroic March instead of using Might Points, even if htey do not normally have the ability to declare a Heroic March.\n                \"We're making a long-term deposit\" - At the beginning of the game, choose one Objective Marker on the board. Friendly Dwarf models within range of the chosen Objective Marker gain the Dominant (2) special rule.\n                \"Family Ties\" - The Dwarves of Thorin's Company are divided into Family Groups, which are as follows:\n                -Balin and Dwalin\n                -Kili and Fili\n                -Bifur, Bofur and Bombur\n                -Ori, Nori and Dori\n                -Oin and Gloin\n                Hero models from this Army that are within 3\" of another Hero from the same Family Group may spend that model's Might, Will and Fate points as if they were their own."
+				"armyBonus": "\"March to the Lonely Mountain\" - If your Army contains only Thorin's Company models, then friendly Dwarf models may spend their Will Points to declare a Heroic March instead of using Might Points, even if they do not normally have the ability to declare a Heroic March.\n                \"We're making a long-term deposit\" - At the beginning of the game, choose one Objective Marker on the board. Friendly Dwarf models within range of the chosen Objective Marker gain the Dominant (2) special rule.\n                \"Family Ties\" - The Dwarves of Thorin's Company are divided into Family Groups, which are as follows:\n                -Balin and Dwalin\n                -Kili and Fili\n                -Bifur, Bofur and Bombur\n                -Ori, Nori and Dori\n                -Oin and Gloin\n                Hero models from this Army that are within 3\" of another Hero from the same Family Group may spend that model's Might, Will and Fate points as if they were their own."
 			},
 			{
 				"name": "Azog's Hunters",
@@ -3338,20 +3338,7 @@
 			},
 			{
 				"name": "The Witch-King of Angmar A",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Legend"
-					},
-					{
-						"name": "Angmar",
-						"heroicTier": "Hero of Legend"
-					},
-					{
-						"name": "Host of the Witch-King",
-						"heroicTier": "Hero of Legend"
-					}
-				],
+				"factions": [],
 				"points": 80,
 				"movement": 6,
 				"fight": 6,
@@ -3414,14 +3401,11 @@
 					},
 					{
 						"name": "Two-handed weapon",
-						"points": 5,
-						"availableIn": [
-							"Mordor",
-							"Angmar"
-						]
+						"points": 5
 					}
 				],
 				"specialRules": [
+					"Harbinger of Evil (X)",
 					"Harbinger of Evil (12\")",
 					"Terror",
 					"Will of Evil"
@@ -3472,23 +3456,11 @@
 				"name": "The Witch-King of Angmar B",
 				"factions": [
 					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Legend"
-					},
-					{
-						"name": "Angmar",
-						"heroicTier": "Hero of Legend"
-					},
-					{
 						"name": "Barad-Dur",
 						"heroicTier": "Hero of Valour"
 					},
 					{
 						"name": "The Black Riders",
-						"heroicTier": "Hero of Legend"
-					},
-					{
-						"name": "Host of the Witch-King",
 						"heroicTier": "Hero of Legend"
 					},
 					{
@@ -3590,13 +3562,11 @@
 					{
 						"name": "Two-handed weapon",
 						"points": 5,
-						"availableIn": [
-							"Mordor",
-							"Angmar"
-						]
+						"availableIn": []
 					}
 				],
 				"specialRules": [
+					"Harbinger of Evil (X)",
 					"Harbinger of Evil (12\")",
 					"Terror",
 					"Will of Evil"
@@ -3749,6 +3719,7 @@
 					}
 				],
 				"specialRules": [
+					"Harbinger of Evil (X)",
 					"Harbinger of Evil (12\")",
 					"Terror",
 					"Will of Evil"
@@ -3797,16 +3768,7 @@
 			},
 			{
 				"name": "Khamul the Easterling",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "The Easterlings",
-						"heroicTier": "Hero of Valour"
-					}
-				],
+				"factions": [],
 				"points": 120,
 				"movement": 6,
 				"fight": 5,
@@ -3847,6 +3809,7 @@
 					}
 				],
 				"specialRules": [
+					"Harbinger of Evil (X)",
 					"Harbinger of Evil",
 					"Terror",
 					"Will of Evil",
@@ -3891,12 +3854,7 @@
 			},
 			{
 				"name": "The Dark Marshal",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Valour"
-					}
-				],
+				"factions": [],
 				"points": 120,
 				"movement": 6,
 				"fight": 6,
@@ -3935,7 +3893,7 @@
 					}
 				],
 				"specialRules": [
-					"Harbinger of Evil",
+					"Harbinger of Evil (X)",
 					"Terror",
 					"Will of Evil",
 					"Rule Through Fear"
@@ -3979,12 +3937,7 @@
 			},
 			{
 				"name": "The Shadow Lord",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Valour"
-					}
-				],
+				"factions": [],
 				"points": 120,
 				"movement": 6,
 				"fight": 5,
@@ -4018,7 +3971,7 @@
 					}
 				],
 				"specialRules": [
-					"Harbinger of Evil",
+					"Harbinger of Evil (X)",
 					"Terror",
 					"Will of Evil",
 					"Pall of Darkness"
@@ -4062,12 +4015,7 @@
 			},
 			{
 				"name": "The Undying",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Valour"
-					}
-				],
+				"factions": [],
 				"points": 120,
 				"movement": 6,
 				"fight": 5,
@@ -4101,7 +4049,7 @@
 					}
 				],
 				"specialRules": [
-					"Harbinger of Evil",
+					"Harbinger of Evil (X)",
 					"Terror",
 					"Will of Evil",
 					"Arcana Leech",
@@ -4146,16 +4094,7 @@
 			},
 			{
 				"name": "The Knight of Umbar",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "Corsairs of Umbar",
-						"heroicTier": "Hero of Valour"
-					}
-				],
+				"factions": [],
 				"points": 120,
 				"movement": 6,
 				"fight": 5,
@@ -4189,7 +4128,7 @@
 					}
 				],
 				"specialRules": [
-					"Harbinger of Evil",
+					"Harbinger of Evil (X)",
 					"Terror",
 					"Will of Evil",
 					"Combat Mimicry"
@@ -4233,16 +4172,7 @@
 			},
 			{
 				"name": "The Betrayer",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "The Serpent Horde",
-						"heroicTier": "Hero of Valour"
-					}
-				],
+				"factions": [],
 				"points": 120,
 				"movement": 6,
 				"fight": 5,
@@ -4277,7 +4207,7 @@
 				],
 				"specialRules": [
 					"Bane of Kings",
-					"Harbinger of Evil",
+					"Harbinger of Evil (X)",
 					"Terror",
 					"Will of Evil",
 					"Master of Poisons"
@@ -4428,6 +4358,7 @@
 					}
 				],
 				"specialRules": [
+					"Harbinger of Evil (X)",
 					"Harbinger of Evil (6\")",
 					"Terror",
 					"Sense of impending doom"
@@ -4457,10 +4388,6 @@
 			{
 				"name": "Shagrat, Captain of Cirith Ungol",
 				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Fortitude"
-					},
 					{
 						"name": "Cirith Ungol",
 						"heroicTier": "Hero of Fortitude"
@@ -4513,10 +4440,6 @@
 				"name": "Gorbag, Orc Captain",
 				"factions": [
 					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
 						"name": "Cirith Ungol",
 						"heroicTier": "Hero of Fortitude"
 					}
@@ -4565,10 +4488,6 @@
 			{
 				"name": "Grishnakh, Orc Captain",
 				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Fortitude"
-					},
 					{
 						"name": "Ugluk's Scouts",
 						"heroicTier": "Hero of Fortitude"
@@ -4667,12 +4586,7 @@
 			},
 			{
 				"name": "Kardush the Firecaller",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 60,
 				"movement": 6,
@@ -4782,12 +4696,7 @@
 			},
 			{
 				"name": "Captain of the Black Guard",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"unlimited": true,
 				"points": 65,
 				"movement": 6,
@@ -4816,12 +4725,7 @@
 			},
 			{
 				"name": "Black Guard Drummer",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Independent Hero"
-					}
-				],
+				"factions": [],
 				"unlimited": true,
 				"points": 35,
 				"movement": 6,
@@ -4852,10 +4756,6 @@
 			{
 				"name": "Mordor Uruk-hai Captain",
 				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Fortitude"
-					},
 					{
 						"name": "Cirith Ungol",
 						"heroicTier": "Hero of Fortitude"
@@ -4907,12 +4807,7 @@
 			},
 			{
 				"name": "Great Beast of Gorgoroth",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"hideStats": true,
 				"unlimited": true,
@@ -4974,12 +4869,7 @@
 			},
 			{
 				"name": "Great Beast",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"unlimited": true,
 				"unavailableSolo": true,
 				"points": 0,
@@ -5040,6 +4930,7 @@
 				],
 				"options": [],
 				"specialRules": [
+					"Ancient Enemies (X)",
 					"Ancient Enemies (Dwarf)",
 					"Ancient Enemies (Elf)"
 				],
@@ -5050,20 +4941,7 @@
 			},
 			{
 				"name": "The Tainted",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "Angmar",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "Host of the Witch-King",
-						"heroicTier": "Hero of Valour"
-					}
-				],
+				"factions": [],
 				"points": 120,
 				"movement": 6,
 				"fight": 5,
@@ -5083,20 +4961,12 @@
 					{
 						"name": "Armoured fell beast",
 						"points": 70,
-						"chooseOneKey": "a",
-						"availableIn": [
-							"Mordor",
-							"Angmar"
-						]
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Fell beast",
 						"points": 50,
-						"chooseOneKey": "a",
-						"availableIn": [
-							"Mordor",
-							"Angmar"
-						]
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Armoured horse",
@@ -5110,7 +4980,7 @@
 					}
 				],
 				"specialRules": [
-					"Harbinger of Evil",
+					"Harbinger of Evil (X)",
 					"Terror",
 					"Will of Evil",
 					"Miasmatic Presence",
@@ -5155,20 +5025,7 @@
 			},
 			{
 				"name": "The Dwimmerlaik",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "Angmar",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "Host of the Witch-King",
-						"heroicTier": "Hero of Valour"
-					}
-				],
+				"factions": [],
 				"points": 120,
 				"movement": 6,
 				"fight": 5,
@@ -5188,20 +5045,12 @@
 					{
 						"name": "Armoured fell beast",
 						"points": 70,
-						"chooseOneKey": "a",
-						"availableIn": [
-							"Mordor",
-							"Angmar"
-						]
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Fell beast",
 						"points": 50,
-						"chooseOneKey": "a",
-						"availableIn": [
-							"Mordor",
-							"Angmar"
-						]
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Armoured horse",
@@ -5215,7 +5064,7 @@
 					}
 				],
 				"specialRules": [
-					"Harbinger of Evil",
+					"Harbinger of Evil (X)",
 					"Terror",
 					"Will of Evil",
 					"Sap Fortitude"
@@ -5259,12 +5108,7 @@
 			},
 			{
 				"name": "Ringwraith A",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"unlimited": true,
 				"points": 60,
 				"movement": 6,
@@ -5322,14 +5166,11 @@
 					{
 						"name": "Horse",
 						"points": 20,
-						"availableIn": [
-							"Mordor",
-							"The Black Riders"
-						],
 						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
+					"Harbinger of Evil (X)",
 					"Harbinger of Evil (12\")",
 					"Terror",
 					"Will of Evil"
@@ -5473,6 +5314,7 @@
 					}
 				],
 				"specialRules": [
+					"Harbinger of Evil (X)",
 					"Harbinger of Evil (12\")",
 					"Terror",
 					"Will of Evil"
@@ -5512,10 +5354,6 @@
 			{
 				"name": "Ringwraith C",
 				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Fortitude"
-					},
 					{
 						"name": "Legions of Mordor",
 						"heroicTier": "Hero of Valour"
@@ -5616,7 +5454,6 @@
 						"name": "Horse",
 						"points": 20,
 						"availableIn": [
-							"Mordor",
 							"The Black Riders"
 						],
 						"chooseOneKey": "a"
@@ -5637,6 +5474,7 @@
 					}
 				],
 				"specialRules": [
+					"Harbinger of Evil (X)",
 					"Harbinger of Evil (12\")",
 					"Terror",
 					"Will of Evil"
@@ -5677,27 +5515,11 @@
 				"name": "Mordor Orc Captain",
 				"factions": [
 					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
 						"name": "Barad-Dur",
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
-						"name": "Isengard",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
 						"name": "Cirith Ungol",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Assault on Lothlorien",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Fell Beings of Mirkwood",
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
@@ -5920,16 +5742,7 @@
 			},
 			{
 				"name": "Black Numenorean Marshal",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Corsairs of Umbar",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"unlimited": true,
 				"points": 65,
 				"movement": 6,
@@ -5972,10 +5785,6 @@
 			{
 				"name": "Mordor Troll Chieftain",
 				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Fortitude"
-					},
 					{
 						"name": "The Black Gate Opens",
 						"heroicTier": "Hero of Fortitude"
@@ -6030,20 +5839,7 @@
 			},
 			{
 				"name": "Orc Shaman",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Minor Hero"
-					},
-					{
-						"name": "Assault on Lothlorien",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Fell Beings of Mirkwood",
-						"heroicTier": "Minor Hero"
-					}
-				],
+				"factions": [],
 				"unlimited": true,
 				"points": 50,
 				"movement": 6,
@@ -6151,10 +5947,6 @@
 			{
 				"name": "Shelob",
 				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Independent Hero"
-					},
 					{
 						"name": "Cirith Ungol",
 						"heroicTier": "Independent Hero"
@@ -6305,12 +6097,7 @@
 			},
 			{
 				"name": "Goroth, Captain of the Morannon",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 80,
 				"movement": 6,
@@ -6444,12 +6231,7 @@
 			},
 			{
 				"name": "Zagdush, Orc Captain",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 60,
 				"movement": 6,
@@ -9882,12 +9664,7 @@
 			},
 			{
 				"name": "Gulavhar, The Terror of Arnor",
-				"factions": [
-					{
-						"name": "Angmar",
-						"heroicTier": "Hero of Valour"
-					}
-				],
+				"factions": [],
 				"points": 200,
 				"movement": 6,
 				"fight": 7,
@@ -9904,18 +9681,11 @@
 					"Heroic Defence",
 					"Heroic Strength"
 				],
-				"keywords": [
-					"Spirit",
-					"Angmar",
-					"Monster",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Terror",
 					"Fly",
-					"Harbinger of Evil",
+					"Harbinger of Evil (X)",
 					"Monstrous Charge",
 					"Resistance to Magic",
 					"Immortal Hunger",
@@ -10163,6 +9933,7 @@
 				"options": [],
 				"specialRules": [
 					"Dominant (10)",
+					"Harbinger of Evil (X)",
 					"Harbinger of Evil (18\")",
 					"Resistant to Magic",
 					"Terror",
@@ -12067,6 +11838,7 @@
 					}
 				],
 				"specialRules": [
+					"Ancient Enemies (X)",
 					"Ancient Enemies (Dwarf)(Elf)",
 					"Burly",
 					"The Bringer of Death"
@@ -13840,12 +13612,7 @@
 			},
 			{
 				"name": "Orc Siege Veteran",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"autoAddOnly": true,
 				"points": 0,
 				"movement": 6,
@@ -13859,12 +13626,6 @@
 				"will": 1,
 				"might": 1,
 				"fate": 1,
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [
 					{
 						"name": "Orc Engineer Captain",
@@ -14692,6 +14453,7 @@
 				],
 				"options": [],
 				"specialRules": [
+					"Ancient Enemies (X)",
 					"Ancient Enemies (Dwarf)",
 					"Ancient Enemies (Elf)"
 				],
@@ -16736,16 +16498,7 @@
 			},
 			{
 				"name": "Razgush, War Leader of the North",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "Fell Beings of Mirkwood",
-						"heroicTier": "Hero of Valour"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 110,
 				"movement": 6,
@@ -16762,12 +16515,6 @@
 				"heroicActions": [
 					"Heroic Strike",
 					"Heroic Strength"
-				],
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
@@ -18244,10 +17991,12 @@
 				],
 				"options": [],
 				"specialRules": [
+					"Ancient Enemies (X)",
 					"Ancient Enemies (Dwarf)",
 					"Dominant (20)",
 					"Fearless",
 					"Fly",
+					"Harbinger of Evil (X)",
 					"Harbinger of Evil (18\")",
 					"Large Targer",
 					"Monstrous Charge",
@@ -18906,8 +18655,10 @@
 				],
 				"options": [],
 				"specialRules": [
+					"Dominant (X)",
 					"Dominant (10)",
 					"Fearless",
+					"Harbinger of Evil (X)",
 					"Harbinger of Evil (18\")",
 					"Large Target",
 					"Resistant to Magic",
@@ -19462,12 +19213,7 @@
 			},
 			{
 				"name": "Dragon",
-				"factions": [
-					{
-						"name": "Moria",
-						"heroicTier": "Hero of Valour"
-					}
-				],
+				"factions": [],
 				"unlimited": true,
 				"points": 250,
 				"movement": 6,
@@ -19512,7 +19258,7 @@
 					}
 				],
 				"specialRules": [
-					"Harbinger of Evil",
+					"Harbinger of Evil (X)",
 					"Monstrous Charge",
 					"Resistant to Magic",
 					"Survival Instinct",
@@ -19623,7 +19369,9 @@
 				],
 				"options": [],
 				"specialRules": [
+					"Dominant (X)",
 					"Dominant (6)",
+					"Harbinger of Evil (X)",
 					"Harbinger of Evil (12\")",
 					"Large Target",
 					"Resistant to Magic",
@@ -20151,12 +19899,7 @@
 			},
 			{
 				"name": "Mordor Siege Bow",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Minor Hero"
-					}
-				],
+				"factions": [],
 				"includes": [
 					{
 						"dataSource": "heroes",
@@ -20180,37 +19923,7 @@
 				"will": 0,
 				"fate": 0,
 				"heroicActions": [],
-				"keywords": [
-					"Siege Engine"
-				],
-				"options": [
-					{
-						"name": "Orc Engineer Captain",
-						"points": 40,
-						"usesDefinition": "Engineer Captain"
-					},
-					{
-						"name": "Orc bow",
-						"points": 5,
-						"unlockedBy": "Orc Engineer Captain"
-					},
-					{
-						"name": "Orc shield",
-						"points": 5,
-						"unlockedBy": "Orc Engineer Captain"
-					},
-					{
-						"name": "Flaming Ammunition",
-						"points": 15
-					},
-					{
-						"name": "Additional Crew",
-						"points": 5,
-						"increment": true,
-						"max": 3,
-						"addsModels": 1
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Piercing Shot",
 					"Accurate"
@@ -20580,8 +20293,10 @@
 				"heroicActions": [],
 				"options": [],
 				"specialRules": [
+					"Ancient Enemies (X)",
 					"Ancient Enemies (Dwarf)",
 					"Ancient Enemies (Elf)",
+					"Dominant (X)",
 					"Dominant (5)",
 					"Large Target",
 					"Terror"
@@ -20655,6 +20370,7 @@
 				],
 				"options": [],
 				"specialRules": [
+					"Dominant (X)",
 					"Dominant (4)",
 					"Fly",
 					"Large Target",
@@ -20711,6 +20427,7 @@
 				],
 				"options": [],
 				"specialRules": [
+					"Ancient Enemies (X)",
 					"Ancient Enemies (Orc)"
 				],
 				"wargear": [
@@ -21002,6 +20719,7 @@
 				],
 				"options": [],
 				"specialRules": [
+					"Ancient Enemies (X)",
 					"Ancient Enemies (Orc)"
 				],
 				"wargear": [
@@ -21276,6 +20994,7 @@
 				"options": [],
 				"specialRules": [
 					"Burly",
+					"Dominant (X)",
 					"Dominant (2)",
 					"Fearless",
 					"Resistant to Magic",
@@ -21335,6 +21054,7 @@
 				"options": [],
 				"specialRules": [
 					"Burly",
+					"Dominant (X)",
 					"Dominant (5)",
 					"Fearless",
 					"Monstrous Charge",
@@ -21758,17 +21478,7 @@
 			},
 			{
 				"name": "Muzgur, Orc Shaman",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Assault on Lothlorien",
-						"heroicTier": "Hero of Valour",
-						"leaderPriority": 1
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 70,
 				"movement": 6,
@@ -21785,12 +21495,6 @@
 				"heroicActions": [
 					"Heroic Defence",
 					"Heroic Channeling"
-				],
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
@@ -22310,7 +22014,9 @@
 				],
 				"options": [],
 				"specialRules": [
+					"Dominant (X)",
 					"Dominant (5)",
+					"Harbinger of Evil (X)",
 					"Harbinger of Evil (18\")",
 					"Spectral Walk",
 					"Terror",
@@ -24208,6 +23914,7 @@
 					}
 				],
 				"specialRules": [
+					"Dominant (X)",
 					"Dominant (5)",
 					"Large Target",
 					"Terror",
@@ -24261,6 +23968,7 @@
 				],
 				"options": [],
 				"specialRules": [
+					"Dominant (X)",
 					"Dominant (3)",
 					"Large Target",
 					"Terror",
@@ -24313,6 +24021,7 @@
 				],
 				"options": [],
 				"specialRules": [
+					"Dominant (X)",
 					"Dominant (3)",
 					"large Target",
 					"Terror",
@@ -24993,12 +24702,7 @@
 			},
 			{
 				"name": "Orc Siege Veteran",
-				"factions": [
-					{
-						"name": "Mordor",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"autoAddOnly": true,
 				"unavailableSolo": true,
 				"points": 0,
@@ -25019,23 +24723,7 @@
 					"Infantry",
 					"Warrior"
 				],
-				"options": [
-					{
-						"name": "Orc Engineer Captain",
-						"points": 40,
-						"usesDefinition": "Engineer Captain"
-					},
-					{
-						"name": "Orc bow",
-						"points": 5,
-						"unlockedBy": "Orc Engineer Captain"
-					},
-					{
-						"name": "Orc shield",
-						"points": 5,
-						"unlockedBy": "Orc Engineer Captain"
-					}
-				],
+				"options": [],
 				"specialRules": [],
 				"wargear": [
 					"Armour",
@@ -25239,8 +24927,8 @@
 				],
 				"options": [],
 				"specialRules": [
+					"Dominant (X)",
 					"Dominant (4)",
-					null,
 					"Chariot Charge",
 					"Dwarven Crew"
 				],
@@ -25558,7 +25246,9 @@
 				],
 				"options": [],
 				"specialRules": [
+					"Dominant (X)",
 					"Dominant (6)",
+					"Harbinger of Evil (X)",
 					"Harbinger of Evil (12\")",
 					"Large Target",
 					"Resistant to Magic",
@@ -26374,12 +26064,6 @@
 				"baseSize": [
 					"25mm"
 				],
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
@@ -26391,9 +26075,7 @@
 			},
 			{
 				"name": "Black Guard Drummer",
-				"factions": [
-					"Mordor"
-				],
+				"factions": [],
 				"points": 35,
 				"movement": 6,
 				"fight": 4,
@@ -26407,12 +26089,6 @@
 				"will": 0,
 				"fate": 1,
 				"heroicActions": [],
-				"keywords": [
-					"Uruk-Hai",
-					"Mordor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
@@ -27163,12 +26839,6 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 3,
-				"keywords": [
-					"Man",
-					"Rohan",
-					"Infantry",
-					"Warrior"
-				],
 				"requiredChildren": [
 					{
 						"elementPropertyName": "options",
@@ -27218,12 +26888,6 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 4,
-				"keywords": [
-					"Man",
-					"Rohan",
-					"Cavalry",
-					"Warrior"
-				],
 				"options": [],
 				"specialRules": [
 					"Expert Rider",
@@ -27253,12 +26917,6 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 3,
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
@@ -27270,7 +26928,6 @@
 				"name": "Mordor Orc Warrior",
 				"factions": [
 					"Minas Morgul",
-					"Mordor",
 					"Barad-Dur",
 					"The Army of Gothmog",
 					"Isengard",
@@ -27300,12 +26957,6 @@
 				],
 				"baseSize": [
 					"25mm"
-				],
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Warrior"
 				],
 				"options": [
 					{
@@ -27378,12 +27029,6 @@
 				"baseSize": [
 					"25mm"
 				],
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [
 					{
 						"name": "Banner",
@@ -27443,12 +27088,6 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 2,
-				"keywords": [
-					"Orc",
-					"Angmar",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [
 					{
 						"name": "Banner",
@@ -27492,12 +27131,6 @@
 				"attack": 2,
 				"wounds": 1,
 				"courage": 3,
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [],
 				"specialRules": [
 					"Stalk Unseen"
@@ -27543,12 +27176,6 @@
 				"baseSize": [
 					"25mm"
 				],
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [
 					{
 						"name": "Banner",
@@ -27592,12 +27219,6 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 3,
-				"keywords": [
-					"Uruk-Hai",
-					"Mordor",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [
 					{
 						"name": "Exchange shield for banner",
@@ -27671,12 +27292,6 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 2,
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [
 					{
 						"name": "Warg",
@@ -27880,12 +27495,6 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 2,
-				"keywords": [
-					"Orc",
-					"Angmar",
-					"Cavalry",
-					"Warrior"
-				],
 				"options": [
 					{
 						"name": "Banner",
@@ -27926,12 +27535,6 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 4,
-				"keywords": [
-					"Man",
-					"Mordor",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [
 					{
 						"name": "War horn",
@@ -27996,6 +27599,7 @@
 					}
 				],
 				"specialRules": [
+					"Dominant (X)",
 					"Dominant (3)",
 					"Terror",
 					"Throw Stones (range 12\", Strength 8)"
@@ -28034,15 +27638,9 @@
 				"baseSize": [
 					"50mm"
 				],
-				"keywords": [
-					"Troll",
-					"Mordor",
-					"Monster",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [],
 				"specialRules": [
+					"Dominant (X)",
 					"Dominant (3)",
 					"Mountain Dweller",
 					"Terror",
@@ -28067,12 +27665,6 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 2,
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
@@ -28110,12 +27702,6 @@
 				"baseSize": [
 					"25mm"
 				],
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
@@ -28139,12 +27725,6 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 3,
-				"keywords": [
-					"Uruk-hai",
-					"Isengard",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
@@ -28186,12 +27766,6 @@
 				],
 				"baseSize": [
 					"25mm"
-				],
-				"keywords": [
-					"Elf",
-					"Lorien",
-					"Infantry",
-					"Warrior"
 				],
 				"requiredChildren": [
 					{
@@ -28273,12 +27847,6 @@
 				"baseSize": [
 					"25mm"
 				],
-				"keywords": [
-					"Elf",
-					"Rivendell",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [
 					{
 						"name": "Banner",
@@ -28345,12 +27913,6 @@
 				"baseSize": [
 					"25mm"
 				],
-				"keywords": [
-					"Elf",
-					"Rivendell",
-					"Cavalry",
-					"Warrior"
-				],
 				"options": [
 					{
 						"name": "Exchange Elven lance for banner",
@@ -28398,12 +27960,6 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 4,
-				"keywords": [
-					"Man",
-					"Mordor",
-					"Cavalry",
-					"Warrior"
-				],
 				"options": [
 					{
 						"name": "War horn",
@@ -28464,12 +28020,6 @@
 				],
 				"baseSize": [
 					"25mm"
-				],
-				"keywords": [
-					"Man",
-					"Gondor",
-					"Infantry",
-					"Warrior"
 				],
 				"options": [
 					{
@@ -28542,12 +28092,6 @@
 				"baseSize": [
 					"25mm"
 				],
-				"keywords": [
-					"Man",
-					"Gondor",
-					"Cavalry",
-					"Warrior"
-				],
 				"options": [
 					{
 						"name": "Exchange lance and shield for banner",
@@ -28595,12 +28139,6 @@
 				"baseSize": [
 					"25mm"
 				],
-				"keywords": [
-					"Man",
-					"Gondor",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [],
 				"specialRules": [
 					"Bodyguard",
@@ -28643,12 +28181,6 @@
 				],
 				"basseSize": [
 					"25mm"
-				],
-				"keywords": [
-					"Man",
-					"Gondor",
-					"Infantry",
-					"Warrior"
 				],
 				"options": [
 					{
@@ -28700,12 +28232,6 @@
 				"baseSize": [
 					"25mm"
 				],
-				"keywords": [
-					"Spirit",
-					"Angmar",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [],
 				"specialRules": [
 					"Blades of the Dead",
@@ -28741,11 +28267,6 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 2,
-				"keywords": [
-					"Warg",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
@@ -28824,12 +28345,6 @@
 				"baseSize": [
 					"50mm"
 				],
-				"keywords": [
-					"Troll",
-					"Monster",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [
 					{
 						"name": "Troll Spear",
@@ -28841,6 +28356,7 @@
 					}
 				],
 				"specialRules": [
+					"Dominant (X)",
 					"Dominant (3)",
 					"Terror",
 					"Throw Stones (range 12\", Strength 8)"
@@ -28864,12 +28380,6 @@
 				"attack": 3,
 				"wounds": 3,
 				"courage": 7,
-				"keywords": [
-					"Spirit",
-					"Monster",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [],
 				"specialRules": [
 					"Terror",
@@ -28909,12 +28419,6 @@
 				],
 				"baseSize": [
 					"25mm"
-				],
-				"keywords": [
-					"Man",
-					"Gondor",
-					"Infantry",
-					"Warrior"
 				],
 				"options": [
 					{
@@ -28972,12 +28476,6 @@
 				],
 				"baseSize": [
 					"25mm"
-				],
-				"keywords": [
-					"Dwarf",
-					"Iron Hills",
-					"Infantry",
-					"Warrior"
 				],
 				"options": [
 					{
@@ -29045,12 +28543,6 @@
 				"baseSize": [
 					"25mm"
 				],
-				"keywords": [
-					"Dwarf",
-					"Iron Hills",
-					"Cavalry",
-					"Warrior"
-				],
 				"options": [
 					{
 						"name": "Exchange War Spear for Mattock",
@@ -29081,12 +28573,6 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 4,
-				"keywords": [
-					"Dwarf",
-					"Iron Hills",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
@@ -29109,12 +28595,6 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 4,
-				"keywords": [
-					"Dwarf",
-					"Iron Hills",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
@@ -29294,12 +28774,6 @@
 				"baseSize": [
 					"25mm"
 				],
-				"keywords": [
-					"Man",
-					"Gondor",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [
 					{
 						"name": "Shield",
@@ -29396,12 +28870,6 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 4,
-				"keywords": [
-					"Man",
-					"Dale",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [],
 				"specialRules": [
 					"Wall of Blades"
@@ -29429,12 +28897,6 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 3,
-				"keywords": [
-					"Man",
-					"Dale",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
@@ -29471,11 +28933,6 @@
 				],
 				"baseSize": [
 					"25mm"
-				],
-				"keywords": [
-					"Spirit",
-					"Infantry",
-					"Warrior"
 				],
 				"options": [
 					{
@@ -29539,11 +28996,6 @@
 				"baseSize": [
 					"25mm"
 				],
-				"keywords": [
-					"Spirit",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [],
 				"specialRules": [
 					"Blades of the Dead",
@@ -29572,13 +29024,6 @@
 				"attack": 3,
 				"wounds": 3,
 				"courage": 4,
-				"keywords": [
-					"Troll",
-					"Isengard",
-					"Monster",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [
 					{
 						"name": "Swap shield for War drum (Isengard)",
@@ -29653,6 +29098,7 @@
 				"intelligence": 9,
 				"options": [],
 				"specialRules": [
+					"Dominant (X)",
 					"Dominant (5)",
 					"Fearless",
 					"Large Target",
@@ -29716,8 +29162,10 @@
 				],
 				"options": [],
 				"specialRules": [
+					"Ancient Enemies (X)",
 					"Ancient Enemies (Dwarf)",
 					"Ancient Enemies (Elf)",
+					"Dominant (X)",
 					"Dominant (3)",
 					"Terror",
 					"Relentless Advance"
@@ -29846,12 +29294,6 @@
 				"attack": 2,
 				"wounds": 2,
 				"courage": 5,
-				"keywords": [
-					"Spirit",
-					"Angmar",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [],
 				"specialRules": [
 					"Fell Sight",
@@ -29878,13 +29320,6 @@
 				"attack": 3,
 				"wounds": 3,
 				"courage": 3,
-				"keywords": [
-					"Troll",
-					"Angmar",
-					"Monster",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [],
 				"specialRules": [
 					"Terror",
@@ -29924,12 +29359,6 @@
 				],
 				"baseSize": [
 					"25mm"
-				],
-				"keywords": [
-					"Elf",
-					"Lorien",
-					"Infantry",
-					"Warrior"
 				],
 				"options": [
 					{
@@ -30036,12 +29465,6 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 4,
-				"keywords": [
-					"Dwarf",
-					"Khazad-Dum",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [
 					{
 						"name": "Shield",
@@ -30085,12 +29508,6 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 4,
-				"keywords": [
-					"Dwarf",
-					"Khazad-Dum",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [
 					{
 						"name": "Hearthguard",
@@ -30124,12 +29541,6 @@
 				"attack": 2,
 				"wounds": 1,
 				"courage": 4,
-				"keywords": [
-					"Dwarf",
-					"Khazad-Dum",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
@@ -30153,12 +29564,6 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 4,
-				"keywords": [
-					"Dwarf",
-					"Khazad-Dum",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [
 					{
 						"name": "Dwarf Long Bow",
@@ -30199,12 +29604,6 @@
 					}
 				],
 				"hideStats": true,
-				"keywords": [
-					"Dwarf",
-					"Khazad-Dum",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [],
 				"wargear": []
@@ -30223,12 +29622,6 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 4,
-				"keywords": [
-					"Dwarf",
-					"Khazad-Dum",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [],
 				"specialRules": [
 					"Spear & Shield"
@@ -30254,12 +29647,6 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 4,
-				"keywords": [
-					"Dwarf",
-					"Khazad-Dum",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [],
 				"specialRules": [
 					"Foe Spear"
@@ -30345,12 +29732,6 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 3,
-				"keywords": [
-					"Man",
-					"Easterling",
-					"Cavalry",
-					"Warrior"
-				],
 				"options": [
 					{
 						"name": "Banner",
@@ -30451,12 +29832,6 @@
 				"attack": 2,
 				"wounds": 1,
 				"courage": 4,
-				"keywords": [
-					"Man",
-					"Easterling",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [],
 				"wargear": [
 					"Armour",
@@ -30483,11 +29858,6 @@
 				"attack": 2,
 				"wounds": 2,
 				"courage": 4,
-				"keywords": [
-					"Drake",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [],
 				"wargear": [
 					"Armour",
@@ -30559,6 +29929,7 @@
 					}
 				],
 				"specialRules": [
+					"Ancient Enemies (X)",
 					"Ancient Enemies (Dwarf)",
 					"Ancient Enemies (Elf)"
 				],
@@ -30725,6 +30096,7 @@
 					}
 				],
 				"specialRules": [
+					"Ancient Enemies (X)",
 					"Ancient Enemies (Dwarf)(Elf)",
 					"Oblivious to Pain"
 				],
@@ -30775,8 +30147,10 @@
 					}
 				],
 				"specialRules": [
+					"Ancient Enemies (X)",
 					"Ancient Enemies (Dwarf)",
 					"Ancient Enemies (Elf)",
+					"Dominant (X)",
 					"Dominant (4)",
 					"Large Target",
 					"Terror"
@@ -31300,6 +30674,7 @@
 					}
 				],
 				"specialRules": [
+					"Dominant (X)",
 					"Dominant (3)",
 					"Fearless",
 					"Large Target",
@@ -32420,6 +31795,7 @@
 					"Claws and beak (hand weapon)"
 				],
 				"specialRules": [
+					"Dominant (X)",
 					"Dominant (3)",
 					"Fly",
 					"Large Target",
@@ -32469,6 +31845,7 @@
 					"Claws and beak (hand weapon)"
 				],
 				"specialRules": [
+					"Dominant (X)",
 					"Dominant (2)",
 					"Fly",
 					"Large Target",
@@ -32522,6 +31899,7 @@
 					}
 				],
 				"specialRules": [
+					"Ancient Enemies (X)",
 					"Ancient Enemies (Orc)"
 				],
 				"wargear": [
@@ -34070,6 +33448,7 @@
 					"Cavalry"
 				],
 				"specialRules": [
+					"Dominant (X)",
 					"Dominant (3)",
 					"Fly",
 					"Large Target",
@@ -34111,6 +33490,7 @@
 					"Cavalry"
 				],
 				"specialRules": [
+					"Dominant (X)",
 					"Dominant (3)",
 					"Fly",
 					"Large Target",
@@ -34228,6 +33608,7 @@
 					"120mm oval"
 				],
 				"specialRules": [
+					"Dominant (X)",
 					"Dominant (3)",
 					"Woodland Creature",
 					"Chariot Charge"
@@ -34277,6 +33658,7 @@
 					"Claws and beak (hand weapon)"
 				],
 				"specialRules": [
+					"Dominant (X)",
 					"Dominant (3)",
 					"Fly",
 					"Large Target",
@@ -34571,7 +33953,7 @@
 			{
 				"name": "Mattock",
 				"type": "Two-handed weapon",
-				"definition": "This is a two-handed weapon. Additionally, if a model wielding a Mattock wins a Duel Roll they may choose to try to knock down an enemy model instead of making Strikes. If they do, choose a single enemy model involved in the Combat. This model and the chosen model both roll a single D6 and add their Strength characteristic. If this model rolls equal to or higher than the chosen model, then teh chosen model is immediately knocked Prone. This may be done before any other friendly models make their strikes."
+				"definition": "This is a two-handed weapon. Additionally, if a model wielding a Mattock wins a Duel Roll they may choose to try to knock down an enemy model instead of making Strikes. If they do, choose a single enemy model involved in the Combat. This model and the chosen model both roll a single D6 and add their Strength characteristic. If this model rolls equal to or higher than the chosen model, then the chosen model is immediately knocked Prone. This may be done before any other friendly models make their strikes."
 			},
 			{
 				"name": "Exchange Shield for Mattock",
@@ -34826,6 +34208,11 @@
 				"name": "Herugrim",
 				"tag": "Active",
 				"definition": "This is a Unique hand weapon. Additionally, if a model armed with Herugrim is involved in a Drawn Combat where the Combat is tied at this model's Fight Value (i.e. both sides have Fight Value 5 as their highest, or whatever Fight Value Theoden reaches should he declare a Heroic Strike), then instead of rolling off to see who wins, this model wins instead. If both sides have a similar special rule, roll off as normal."
+			},
+			{
+				"name": "Spyglass",
+				"tag": "Active",
+				"definition": "Hera may ignore the Stalk Unseen special rule of enemy models, and may therefore draw Line of Sight to them as normal."
 			},
 			{
 				"name": "Hearing Trumpet",
@@ -35233,7 +34620,7 @@
 			},
 			{
 				"name": "Sigils of Defiance",
-				"definition": "The Mumak and any models in the Howdah gain the Resistant to Magic special rule, and whenever they suffer a wound htey may roll a D6. On a natural 6, the Wound is prevented."
+				"definition": "The Mumak and any models in the Howdah gain the Resistant to Magic special rule, and whenever they suffer a wound they may roll a D6. On a natural 6, the Wound is prevented."
 			},
 			{
 				"name": "Tusk Weapons",
@@ -35962,9 +35349,9 @@
 				"definition": "When a Fell Beast becomes a Separated Mount, it will automatically fail the Courage Test and will flee."
 			},
 			{
-				"name": "Harbinger of Evil",
+				"name": "Harbinger of Evil (X)",
 				"tag": "Passive",
-				"definition": "An enemy model within 12\" of this model suffers a -1 penalty to its\n                Courage. Note, this is not cumulative with other similar penalties\n                such as those provided by Goblin Drums, the Ancient Evil special\n                rule, and so on."
+				"definition": "An enemy model within the range shown in brackets in this model's profile suffers a -1 penalty to any Courage Tests it is required to make. This is not cumulative with other special rules that also provide a similar effect. A model with this special rule is unaffected by the Harbinger of Evil special rule of enemy models."
 			},
 			{
 				"name": "Will of Evil",
@@ -36042,7 +35429,7 @@
 			},
 			{
 				"name": "Piercing Shot",
-				"definition": "A model that is hit by the shot of a Corsair Ballista will be flung back D6\" directly away from the Ballista if it has a Strength of 5 or lower. Any model that is passed over by the flung model suffers a Strength 5 hit and will be knocked Prone. If the flung model comes into contact with a piece of impassable terrain or a model with a Strenght of 6 or higher, then it will stop and both the flung model and the model or piece of terrain that was hit will suffer one Strength 6 hit. After being flung back, the flung model will be knocked Prone if they survive. If after teh model is flung back it would finish over other models and it has survived, then move the other models the minimum distance possible to allow the flung model to be placed where it has landed."
+				"definition": "A model that is hit by the shot of a Corsair Ballista will be flung back D6\" directly away from the Ballista if it has a Strength of 5 or lower. Any model that is passed over by the flung model suffers a Strength 5 hit and will be knocked Prone. If the flung model comes into contact with a piece of impassable terrain or a model with a Strenght of 6 or higher, then it will stop and both the flung model and the model or piece of terrain that was hit will suffer one Strength 6 hit. After being flung back, the flung model will be knocked Prone if they survive. If after the model is flung back it would finish over other models and it has survived, then move the other models the minimum distance possible to allow the flung model to be placed where it has landed."
 			},
 			{
 				"name": "Bladed Bolts",
@@ -36525,12 +35912,7 @@
 				"definition": "Any model that suffers a Wound from a model with this special rule's shooting attacks, and isn't slain, must roll a D6 at the start of each subsequent turn. On\n                the roll of a 1, that model suffers a Wound."
 			},
 			{
-				"name": "Ancient Enemies (Elf)",
-				"tag": "Active",
-				"definition": "A model with this special rule re-rolls 1s To Wound when fighting in combat against models with the keywords listed in the brackets in its profile. For example, a model that has the Ancient Enemies (Elf) special rule will get to re-roll 1s To Wound against all Elf models"
-			},
-			{
-				"name": "Ancient Enemies (Dwarf)",
+				"name": "Ancient Enemies (X)",
 				"tag": "Active",
 				"definition": "A model with this special rule re-rolls 1s To Wound when fighting in combat against models with the keywords listed in the brackets in its profile. For example, a model that has the Ancient Enemies (Elf) special rule will get to re-roll 1s To Wound against all Elf models"
 			},
@@ -38245,7 +37627,7 @@
 			{
 				"name": "Dwarven Crew",
 				"tag": "Active",
-				"definition": "Any Iron Hills Warrior that ends their activation in base contact with an Iron Hills Chariot may join its crew. If it does, remove the Iron Hills Warrior from the board as a Casualty. The Iron Hills Chariot then immediately regains a single Wound lost earlier in teh battle."
+				"definition": "Any Iron Hills Warrior that ends their activation in base contact with an Iron Hills Chariot may join its crew. If it does, remove the Iron Hills Warrior from the board as a Casualty. The Iron Hills Chariot then immediately regains a single Wound lost earlier in the battle."
 			},
 			{
 				"name": "Sense of impending doom",
@@ -38494,6 +37876,11 @@
 				"name": "General Hunter",
 				"tag": "Active",
 				"definition": "If this model slays the enemy General in a Combat, they immediately regain a single point of Might spent earlier in the battle."
+			},
+			{
+				"name": "Daughter of Rohan",
+				"tag": "Passive",
+				"definition": "If Hera is involved in a Combat where there is only a single model on each side, and neither model is Supported, then Hera increases her Attacks characteristic to 3 and may re-roll To Wound rolls of a natural 1 when making Strikes."
 			}
 		]
 	}
