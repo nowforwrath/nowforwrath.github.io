@@ -4007,6 +4007,96 @@
 				]
 			},
 			{
+				"name": "Uruk-hai Captain Leader",
+				"factions": [
+					{
+						"name": "Assault Upon Helm's Deep",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"increaseMaximumChildren": {
+					"warriors": 6
+				},
+				"points": 65,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 5,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic March"
+				],
+				"keywords": [
+					"Uruk-Hai",
+					"Isengard",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": [],
+				"wargear": [
+					"Heavy Armour",
+					"Sword"
+				]
+			},
+			{
+				"name": "Isengard Assault Ballista",
+				"factions": [
+					{
+						"name": "Isengard",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Assault Upon Helm's Deep",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"unlimited": true,
+				"points": 75,
+				"movement": 0,
+				"fight": 0,
+				"shoot": 0,
+				"strength": 9,
+				"defence": 10,
+				"attack": 0,
+				"wounds": 4,
+				"courage": 0,
+				"might": 0,
+				"will": 0,
+				"fate": 0,
+				"heroicActions": [],
+				"includes": [
+					{
+						"name": "Uruk-hai Siege Veteran",
+						"dataSource": "heroes"
+					}
+				],
+				"increaseMaximumChildren": {
+					"warriors": -4
+				},
+				"options": [],
+				"specialRules": [
+					"Piercing Shot (Isengard)",
+					"Raise the Ladders!",
+					"Accurate"
+				],
+				"wargear": [],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "warriors",
+						"name": "Uruk-hai Crew",
+						"quantity": 2,
+						"points": 0
+					}
+				]
+			},
+			{
 				"name": "Great Beast of Gorgoroth",
 				"factions": [],
 				"legacy": true,
@@ -20768,6 +20858,28 @@
 				"wargear": [
 					"Elven-made hand-and-a-half weapon",
 					"Elven cloak"
+				]
+			},
+			{
+				"name": "Uruk-hai Crew",
+				"factions": [
+					"Isengard",
+					"Assault on Helm's Deep"
+				],
+				"autoAddOnly": true,
+				"points": 0,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 3,
+				"options": [],
+				"specialRules": [],
+				"wargear": [
+					"Armour"
 				]
 			},
 			{
