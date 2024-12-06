@@ -27073,11 +27073,6 @@
 				"definition": "Every time this model is targeted by a Magical Power, they gain an additional free dice when making a Resist Test, even if they have no Will Points remaining or decide not to use any Will Points. This is cumulative with other rules that confer a similar effect."
 			},
 			{
-				"name": "Throw Stones (range 8\", Strength 1)",
-				"tag": "Active",
-				"definition": "If this model does not move at all during the Move phase, then in\n                the Shoot phase it may make a shooting attack with Strength 1\n                and range 8\"."
-			},
-			{
 				"name": "Legendary Hero",
 				"tag": "Passive",
 				"definition": "The first time each turn that Eorl the Young expends a point of Might,\n                roll a D6. On a 4+, the point of Might is free and does not reduce Earl's\n                store of Might."
