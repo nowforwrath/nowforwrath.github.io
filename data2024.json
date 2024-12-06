@@ -16359,6 +16359,10 @@
 					{
 						"name": "Legions of Mordor",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Harad",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 50,
@@ -17221,6 +17225,10 @@
 					{
 						"name": "Legions of Mordor",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Harad",
+						"heroicTier": "Hero of Legend"
 					}
 				],
 				"includes": [
@@ -17271,6 +17279,10 @@
 				"factions": [
 					{
 						"name": "Legions of Mordor",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Harad",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -24566,7 +24578,8 @@
 			{
 				"name": "Haradrim Warrior",
 				"factions": [
-					"Legions of Mordor"
+					"Legions of Mordor",
+					"Harad"
 				],
 				"points": 6,
 				"movement": 6,
