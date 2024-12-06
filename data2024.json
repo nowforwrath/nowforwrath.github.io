@@ -4026,9 +4026,6 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"increaseMaximumChildren": {
-					"warriors": 6
-				},
 				"points": 65,
 				"movement": 6,
 				"fight": 5,
@@ -14451,7 +14448,8 @@
 						"availableIn": [
 							"Halls of Thranduil",
 							"Rangers of Mirkwood",
-							"The Battle of Five Armies"
+							"The Battle of Five Armies",
+							"Army of Lake-town"
 						]
 					}
 				],
@@ -20887,8 +20885,7 @@
 			{
 				"name": "Uruk-hai Crew",
 				"factions": [
-					"Isengard",
-					"Assault on Helm's Deep"
+					"Assault Upon Helm's Deep"
 				],
 				"autoAddOnly": true,
 				"points": 0,
