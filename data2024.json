@@ -9299,10 +9299,6 @@
 				"name": "Bolg, Spawn of Azog",
 				"factions": [
 					{
-						"name": "Azog's Legion",
-						"heroicTier": "Hero of Valour"
-					},
-					{
 						"name": "Azog's Hunters",
 						"heroicTier": "Hero of Valour"
 					},
@@ -11156,15 +11152,7 @@
 				"name": "Gundabad Orc Captain",
 				"factions": [
 					{
-						"name": "Azog's Legion",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
 						"name": "Pits of Dol Guldur",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Dark Powers of Dol Guldur",
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
@@ -11217,10 +11205,6 @@
 			{
 				"name": "Goblin Mercenary Captain",
 				"factions": [
-					{
-						"name": "Azog's Legion",
-						"heroicTier": "Hero of Fortitude"
-					},
 					{
 						"name": "Army of Gundabad",
 						"heroicTier": "Hero of Fortitude"
@@ -12918,40 +12902,6 @@
 				"wargear": [
 					"Heavy Armour",
 					"Hand-and-a-half Sword"
-				]
-			},
-			{
-				"name": "Razgush, War Leader of the North",
-				"factions": [],
-				"legacy": true,
-				"points": 110,
-				"movement": 6,
-				"fight": 5,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 7,
-				"attack": 3,
-				"wounds": 3,
-				"courage": 5,
-				"might": 3,
-				"will": 3,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength"
-				],
-				"options": [],
-				"specialRules": [
-					"Elfbane",
-					"Hatred (X)",
-					"Hatred (Elf)",
-					"The Beasts of Mirkwood",
-					"War Leader of the North"
-				],
-				"wargear": [
-					"Heavy Armour",
-					"Shield",
-					"Bone-breaker"
 				]
 			},
 			{
@@ -20254,35 +20204,6 @@
 				]
 			},
 			{
-				"name": "Morgul Stalker",
-				"factions": [
-					"Mordor"
-				],
-				"legacy": true,
-				"points": 10,
-				"movement": 6,
-				"fight": 3,
-				"shoot": 5,
-				"strength": 4,
-				"defence": 4,
-				"attack": 2,
-				"wounds": 1,
-				"courage": 3,
-				"options": [],
-				"specialRules": [
-					"Stalk Unseen"
-				],
-				"wargear": [
-					"Armour",
-					"Sword"
-				],
-				"unavailableIn": [
-					[
-						"Razgush, War Leader of the North"
-					]
-				]
-			},
-			{
 				"name": "Morannon Orc Warrior",
 				"factions": [
 					"Legions of Mordor",
@@ -20409,36 +20330,6 @@
 				"wargear": [
 					"Armour",
 					"Hand weapon"
-				]
-			},
-			{
-				"name": "Orc Tracker",
-				"factions": [],
-				"legacy": true,
-				"points": 5,
-				"movement": 6,
-				"fight": 3,
-				"shoot": 4,
-				"strength": 3,
-				"defence": 3,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 2,
-				"options": [
-					{
-						"name": "Warg",
-						"points": 7
-					}
-				],
-				"specialRules": [],
-				"wargear": [
-					"Dagger",
-					"Orc bow"
-				],
-				"unavailableIn": [
-					[
-						"Razgush, War Leader of the North"
-					]
 				]
 			},
 			{
@@ -22199,35 +22090,8 @@
 				"name": "Fell Warg",
 				"factions": [
 					"Azog's Hunters",
-					"Fell Beings of Mirkwood",
 					"Pits of Dol Guldur",
-					"Dark Powers of Dol Guldur",
-					"Dark Denizens of Mirkwood",
-					"Wolf Pack of Angmar",
 					"Rise of the Necromancer"
-				],
-				"availableIn": [
-					{
-						"all": [
-							{
-								"in": "Druzhag the Beastcaller"
-							},
-							{
-								"in": "Moria"
-							}
-						]
-					},
-					"Razgush, War Leader of the North",
-					{
-						"all": [
-							{
-								"in": "Orc Captain"
-							},
-							{
-								"with": "Razgush, War Leader of the North"
-							}
-						]
-					}
 				],
 				"points": 8,
 				"movement": 10,
@@ -22676,9 +22540,7 @@
 			{
 				"name": "Gundabad Orc Warrior",
 				"factions": [
-					"Azog's Legion",
 					"Pits of Dol Guldur",
-					"Dark Powers of Dol Guldur",
 					"Army of Gundabad"
 				],
 				"points": 9,
@@ -22861,7 +22723,6 @@
 			{
 				"name": "Gundabad Berserker",
 				"factions": [
-					"Azog's Legion",
 					"Army of Gundabad"
 				],
 				"points": 15,
@@ -23905,53 +23766,6 @@
 				]
 			},
 			{
-				"name": "Bat Swarm",
-				"factions": [],
-				"additionalHeroes": [
-					"Razgush, War Leader of the North",
-					"Druzhag the Beastcaller",
-					{
-						"name": "Orc Captain",
-						"unlockedBy": "Razgush, War Leader of the North"
-					}
-				],
-				"availableIn": [
-					"Razgush, War Leader of the North",
-					{
-						"all": [
-							{
-								"in": "Orc Captain"
-							},
-							{
-								"with": "Razgush, War Leader of the North"
-							}
-						]
-					}
-				],
-				"points": 35,
-				"movement": 3,
-				"fight": 1,
-				"shoot": 5,
-				"strength": 3,
-				"defence": 3,
-				"attack": 2,
-				"wounds": 4,
-				"courage": 2,
-				"keywords": [
-					"Bat",
-					"Infantry",
-					"Warrior"
-				],
-				"options": [],
-				"specialRules": [
-					"Fly",
-					"Blinding Swarm"
-				],
-				"wargear": [
-					"Claws and teeth"
-				]
-			},
-			{
 				"name": "Mirkwood Giant Spider",
 				"factions": [
 					"Pits of Dol Guldur",
@@ -24034,33 +23848,6 @@
 				"wargear": [
 					"Fangs (hand weapons)"
 				]
-			},
-			{
-				"name": "Broodling",
-				"factions": [
-					"Fell Beings of Mirkwood",
-					"Dark Denizens of Mirkwood",
-					"Dark Powers of Dol Guldur"
-				],
-				"autoAddOnly": true,
-				"points": 0,
-				"movement": 10,
-				"fight": 2,
-				"shoot": 6,
-				"strength": 3,
-				"defence": 3,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 2,
-				"keywords": [
-					"Spider",
-					"Mirkwood",
-					"Infantry",
-					"Warrior"
-				],
-				"options": [],
-				"specialRules": [],
-				"wargear": []
 			},
 			{
 				"name": "Moria Goblin Warrior",
@@ -25025,52 +24812,6 @@
 				],
 				"wargear": [
 					"Hand-and-a-half club"
-				]
-			},
-			{
-				"name": "Mirkwood Spider",
-				"factions": [
-					"Fell Beings of Mirkwood",
-					"Dark Denizens of Mirkwood",
-					"Dark Powers of Dol Guldur"
-				],
-				"availableIn": [
-					"Razgush, War Leader of the North",
-					{
-						"all": [
-							{
-								"in": "Orc Captain"
-							},
-							{
-								"with": "Razgush, War Leader of the North"
-							}
-						]
-					}
-				],
-				"points": 20,
-				"movement": 10,
-				"fight": 2,
-				"shoot": 5,
-				"strength": 5,
-				"defence": 3,
-				"attack": 2,
-				"wounds": 2,
-				"courage": 2,
-				"keywords": [
-					"Spider",
-					"Mirkwood",
-					"Infantry",
-					"Warrior"
-				],
-				"options": [],
-				"specialRules": [
-					"Poisoned Fangs",
-					"Swift Movement",
-					"Terror",
-					"Spider Webs"
-				],
-				"wargear": [
-					"Venomous Fangs"
 				]
 			}
 		],
@@ -26376,12 +26117,6 @@
 				"type": "Weapon",
 				"tag": "Active",
 				"definition": "This is a Unique Master-forged two-handed weapon. Additionally, a model wielding Narsil may declare a Heroic Combat during each Fight Phase for free."
-			},
-			{
-				"name": "Bone-breaker",
-				"type": "Weapon",
-				"tag": "Active",
-				"definition": "This is a mace. Additionally, enemy models do not receive any bonus for an Elven-made weapon when fighting against Razgush."
 			},
 			{
 				"name": "Mirror of Galadriel",
@@ -28243,16 +27978,6 @@
 				"name": "Blood of Numenor",
 				"tag": "Passive",
 				"definition": "A model with this special rule gains the Resistant to Magic special rule whilst they are within 6\" of Elendil, Isildur, or Anarion."
-			},
-			{
-				"name": "The Beasts of Mirkwood",
-				"tag": "Passive",
-				"definition": "Orc Captains in the same army as Razgush may include Bat Swarms, Mirkwood Spiders, Giant Spiders and Fell Wargs in their warband as if they were from the Mordor army list."
-			},
-			{
-				"name": "War Leader of the North",
-				"tag": "Passive",
-				"definition": "Razgush may only include Orc Warriors, Warg Riders, Giant Spiders, Mirkwood Spiders, Fell Wargs and Bat Swarms in his warband. Additionally, Orc Captains, Orc Warriors and Warg Riders in the same army as Razgush gain the Hatred (Elf) special rule."
 			},
 			{
 				"name": "A Fell Light is in Them",
