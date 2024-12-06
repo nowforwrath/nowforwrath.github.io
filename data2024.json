@@ -1017,7 +1017,13 @@
 			{
 				"name": "Azog's Hunters",
 				"alignment": "evil",
-				"armyBonus": "\"Morgul Arrows\" - Any enemy model that suffers a Wound from a shooting attack made by a friendly model, and that Wound isn't prevented, must roll a D6 during the End Phase of every turn after suffering the Wound. On the roll of a 1, the model immediately suffers a Wound. A model that has suffered multiple Wounds in this manner still only rolls a single D6 during the End Phase.\n                \"They Strike in the wee small hours when everyone's asleep\" - An Azog's Hunter Army has a Bow Limit of 50% rather than the usual 33%\n                \"Relentless Hunters\" - All models in this army list gain the Woodland Creature and Mountain Dweller special rules.\n                \"The Pale Orc's Demands\" - Whilst within 6\" of a friendly Hero, friendly Orc Warrior models gain a bonus of +1 to any Courage Tests to Charge an enemy model with the Terror special rule."
+				"armyBonus": "\"Morgul Arrows\" - Any enemy model that suffers a Wound from a shooting attack made by a friendly model, and that Wound isn't prevented, must roll a D6 during the End Phase of every turn after suffering the Wound. On the roll of a 1, the model immediately suffers a Wound. A model that has suffered multiple Wounds in this manner still only rolls a single D6 during the End Phase.\n                \"They Strike in the wee small hours when everyone's asleep\" - An Azog's Hunter Army has a Bow Limit of 50% rather than the usual 33%\n                \"Relentless Hunters\" - All models in this army list gain the Woodland Creature and Mountain Dweller special rules.\n                \"The Pale Orc's Demands\" - Whilst within 6\" of a friendly Hero, friendly Orc Warrior models gain a bonus of +1 to any Courage Tests to Charge an enemy model with the Terror special rule.",
+				"adjustLimits": [
+					{
+						"type": "bow",
+						"percentage": 50
+					}
+				]
 			},
 			{
 				"name": "Army of Gundabad",
