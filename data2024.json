@@ -3,6 +3,7 @@
 		"trackHighestDivision": true
 	},
 	"appVersion": 2,
+	"disallowMultipleFactions": true,
 	"colors": {
 		"light": {
 			"primary": "#841912",
@@ -162,7 +163,11 @@
 		}
 	],
 	"counts": [
-		"bow"
+		"bow",
+		{
+			"property": "throwingWeapon",
+			"label": "throwing weapon"
+		}
 	],
 	"calculations": [
 		{
