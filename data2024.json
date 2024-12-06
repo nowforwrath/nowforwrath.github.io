@@ -5987,6 +5987,7 @@
 					{
 						"name": "Pippin",
 						"points": 25,
+						"addsModels": 1,
 						"unlockedBy": "Shadowfax",
 						"availableIn": [
 							"Atop the Wall",
@@ -25244,7 +25245,8 @@
 				"wargear": [
 					"Armour",
 					"Hand weapon"
-				]
+				],
+				"definition": "If Gandalf is upgraded to take Pippin, then Pippin will be treated as a Passenger on Shadowfax. Pippin uses the Peregrin Took, Guard of the Citadel profile (see page 54) and will always count as an Independent Hero in this instance. Pippin will still count as a model towards the Army's total number of models and Break Point, though will not take up a space in Gandalf's Warband. Whilst Pippin is mounted on Shadowfax, Gandalf gains a Resistant to Magic special rule, may re-roll To Wound rolls of a natural 1 when making Strikes, and can spend Pippin's Might, Will and Fate Points as if they were his own."
 			},
 			{
 				"name": "Felarof",
