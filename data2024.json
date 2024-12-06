@@ -9204,10 +9204,6 @@
 				"name": "Azog, the Defiler",
 				"factions": [
 					{
-						"name": "Azog's Legion",
-						"heroicTier": "Hero of Legend"
-					},
-					{
 						"name": "Azog's Hunters",
 						"heroicTier": "Hero of Legend"
 					},
@@ -9269,7 +9265,11 @@
 				"options": [
 					{
 						"name": "The White Warg",
-						"points": 50
+						"points": 50,
+						"availableIn": [
+							"Azog's Hunters",
+							"Pits of Dol Guldur"
+						]
 					},
 					{
 						"name": "Stone Flail",
