@@ -43,12 +43,6 @@
 		}
 	],
 	"game": "Middle-Earth Strategy Battle Game - 2024",
-	"usePrimarySecondaryAllianceLevels": true,
-	"allianceTerms": {
-		"primary": "Historical",
-		"secondary": "Convenient",
-		"none": "Impossible"
-	},
 	"toggles": [],
 	"scenarios": [
 		"Heirlooms of Ages Past",
