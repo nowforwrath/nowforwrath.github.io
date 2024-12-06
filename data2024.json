@@ -20504,7 +20504,8 @@
 				"name": "Hunter Orc Warg Rider",
 				"factions": [
 					"Azog's Hunters",
-					"Rise of the Necromancer"
+					"Rise of the Necromancer",
+					"Pits of Dol Guldur"
 				],
 				"points": 15,
 				"movement": 6,
