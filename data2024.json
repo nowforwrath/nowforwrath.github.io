@@ -10335,7 +10335,8 @@
 					"The Precious"
 				],
 				"wargear": [
-					"Strangling fingers"
+					"Strangling fingers",
+					"The One Ring"
 				],
 				"options": []
 			},
@@ -16975,7 +16976,7 @@
 				"specialRules": [
 					"Unholy Resurrection",
 					"One of Nine",
-					"Bane of Kings"
+					"Executioner"
 				],
 				"wargear": [
 					"Armour",
@@ -18787,7 +18788,8 @@
 					"The Precious"
 				],
 				"wargear": [
-					"Strangling fingers"
+					"Strangling fingers",
+					"The One Ring"
 				],
 				"options": [],
 				"countAsProperty": "heroes"
