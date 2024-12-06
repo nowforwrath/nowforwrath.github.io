@@ -3087,16 +3087,7 @@
 			},
 			{
 				"name": "Elladan & Elrohir",
-				"factions": [
-					{
-						"name": "The Grey Company",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "The Men of the West",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"points": 160,
 				"heroicActions": [],
 				"includes": [
@@ -3119,19 +3110,11 @@
 					},
 					{
 						"name": "Elf bows",
-						"points": 10,
-						"availableIn": [
-							"Rivendell",
-							"The Grey Company"
-						]
+						"points": 10
 					},
 					{
 						"name": "Elven Cloaks",
-						"points": 10,
-						"availableIn": [
-							"Rivendell",
-							"The Grey Company"
-						]
+						"points": 10
 					}
 				],
 				"specialRules": [
@@ -3145,12 +3128,7 @@
 			},
 			{
 				"name": "Elladan",
-				"factions": [
-					{
-						"name": "The Grey Company",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"unavailableSolo": true,
 				"points": 0,
 				"movement": 6,
@@ -3176,12 +3154,7 @@
 			},
 			{
 				"name": "Elrohir",
-				"factions": [
-					{
-						"name": "The Grey Company",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"unavailableSolo": true,
 				"points": 0,
 				"movement": 6,
@@ -5642,24 +5615,7 @@
 			},
 			{
 				"name": "Angmar Orc Captain",
-				"factions": [
-					{
-						"name": "Angmar",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Host of the Witch-King",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Army of Carn-Dum",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Buhrdur's Horde",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"unlimited": true,
 				"points": 40,
 				"movement": 6,
@@ -5873,12 +5829,7 @@
 				"options": [
 					{
 						"name": "Warg",
-						"points": 10,
-						"availableIn": [
-							"Mordor",
-							"Assault on Lothlorien",
-							"Fell Beings of Mirkwood"
-						]
+						"points": 10
 					}
 				],
 				"specialRules": [],
@@ -5903,20 +5854,7 @@
 			},
 			{
 				"name": "Angmar Orc Shaman",
-				"factions": [
-					{
-						"name": "Angmar",
-						"heroicTier": "Minor Hero"
-					},
-					{
-						"name": "Host of the Witch-King",
-						"heroicTier": "Minor Hero"
-					},
-					{
-						"name": "Buhrdur's Horde",
-						"heroicTier": "Minor Hero"
-					}
-				],
+				"factions": [],
 				"unlimited": true,
 				"points": 50,
 				"movement": 6,
@@ -6847,10 +6785,6 @@
 				"name": "Aragorn (Strider)",
 				"factions": [
 					{
-						"name": "The Rangers",
-						"heroicTier": "Hero of Valour"
-					},
-					{
 						"name": "Ride Out",
 						"heroicTier": "Hero of Valour"
 					},
@@ -6864,10 +6798,6 @@
 					},
 					{
 						"name": "The Fellowship",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "The Grey Company",
 						"heroicTier": "Hero of Valour"
 					},
 					{
@@ -6928,7 +6858,6 @@
 						"name": "Anduril, Flame of the West",
 						"points": 40,
 						"availableIn": [
-							"The Rangers",
 							"Defenders of the Pelennor"
 						]
 					},
@@ -6936,7 +6865,6 @@
 						"name": "Anduril, Flame of the West",
 						"points": 0,
 						"availableIn": [
-							"The Grey Company",
 							"Return of the King"
 						]
 					},
@@ -6944,7 +6872,6 @@
 						"name": "Brego",
 						"points": 20,
 						"availableIn": [
-							"The Rangers",
 							"Road to Helm's Deep",
 							"Ride Out"
 						]
@@ -6953,8 +6880,6 @@
 						"name": "Armour",
 						"points": 5,
 						"availableIn": [
-							"The Rangers",
-							"The Grey Company",
 							"Defenders of Helm's Deep",
 							"Ride Out"
 						]
@@ -6964,10 +6889,8 @@
 						"points": 5,
 						"availableIn": [
 							"Road to Helm's Deep",
-							"The Rangers",
 							"The Fellowship",
 							"Breaking of the Fellowship",
-							"The Grey Company",
 							"Road to Rivendell"
 						]
 					},
@@ -6976,8 +6899,6 @@
 						"points": 5,
 						"availableIn": [
 							"Road to Helm's Deep",
-							"The Rangers",
-							"The Grey Company",
 							"Return of the King",
 							"Defenders of the Pelennor"
 						]
@@ -7086,20 +7007,7 @@
 			},
 			{
 				"name": "Halbarad",
-				"factions": [
-					{
-						"name": "The Rangers",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "The Grey Company",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Arathorn's Stand",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"points": 70,
 				"movement": 6,
 				"fight": 5,
@@ -7120,19 +7028,11 @@
 				"options": [
 					{
 						"name": "Banner of Arwen Evenstar",
-						"points": 40,
-						"availableIn": [
-							"The Rangers",
-							"The Grey Company"
-						]
+						"points": 40
 					},
 					{
 						"name": "Horse",
-						"points": 10,
-						"availableIn": [
-							"The Rangers",
-							"Arathorn's Stand"
-						]
+						"points": 10
 					}
 				],
 				"wargear": [
@@ -7143,33 +7043,7 @@
 			},
 			{
 				"name": "Ranger of the North",
-				"factions": [
-					{
-						"name": "The Rangers",
-						"heroicTier": "Independent Hero"
-					},
-					{
-						"name": "The Grey Company",
-						"heroicTier": "Independent Hero"
-					},
-					{
-						"name": "Arnor",
-						"heroicTier": "Independent Hero",
-						"unlockedBy": "Aranarth, First Chieftain of the Dunedain"
-					},
-					{
-						"name": "Battle of Fornost",
-						"heroicTier": "Minor Hero"
-					},
-					{
-						"name": "Army of Arnor",
-						"heroicTier": "Independent Hero"
-					},
-					{
-						"name": "Arathorn's Stand",
-						"heroicTier": "Independent Hero"
-					}
-				],
+				"factions": [],
 				"unlimited": true,
 				"points": 30,
 				"movement": 6,
@@ -7190,24 +7064,11 @@
 				"options": [
 					{
 						"name": "Spear",
-						"points": 1,
-						"availableIn": [
-							"The Rangers",
-							"The Grey Company",
-							"Arathorn's Stand",
-							"Arnor",
-							"Battle of Fornost",
-							"Army of Arnor"
-						]
+						"points": 1
 					},
 					{
 						"name": "Horse",
-						"points": 10,
-						"availableIn": [
-							"The Rangers",
-							"Arathorn's Stand",
-							"Battle of Fornost"
-						]
+						"points": 10
 					}
 				],
 				"wargear": [
@@ -7218,29 +7079,7 @@
 			},
 			{
 				"name": "Dunedain",
-				"factions": [
-					{
-						"name": "The Rangers",
-						"heroicTier": "Independent Hero"
-					},
-					{
-						"name": "Arnor",
-						"heroicTier": "Independent Hero",
-						"unlockedBy": "Gandalf the Grey"
-					},
-					{
-						"name": "Battle of Fornost",
-						"heroicTier": "Minor Hero"
-					},
-					{
-						"name": "Army of Arnor",
-						"heroicTier": "Independent Hero"
-					},
-					{
-						"name": "Arathorn's Stand",
-						"heroicTier": "Independent Hero"
-					}
-				],
+				"factions": [],
 				"unlimited": true,
 				"points": 25,
 				"movement": 6,
@@ -7261,14 +7100,7 @@
 				"options": [
 					{
 						"name": "Spear",
-						"points": 1,
-						"availableIn": [
-							"The Rangers",
-							"Arathorn's Stand",
-							"Arnor",
-							"Battle of Fornost",
-							"Army of Arnor"
-						]
+						"points": 1
 					}
 				],
 				"wargear": [
@@ -7522,50 +7354,8 @@
 				]
 			},
 			{
-				"name": "Shade (old)",
-				"factions": [
-					{
-						"name": "Angmar",
-						"heroicTier": "Hero of Fortitude",
-						"unlockedBy": "nothing"
-					}
-				],
-				"unlimited": true,
-				"points": 100,
-				"movement": 6,
-				"fight": 1,
-				"shoot": 4,
-				"strength": 1,
-				"defence": 8,
-				"attack": 1,
-				"wounds": 3,
-				"courage": 1,
-				"might": 0,
-				"will": 8,
-				"fate": 0,
-				"heroicActions": [],
-				"options": [],
-				"specialRules": [
-					"Blades of the Dead",
-					"Terror",
-					"Chill Aura"
-				],
-				"wargear": [
-					"Whilst a Shade has no specific wargear, it never counts as unarmed."
-				]
-			},
-			{
 				"name": "Barrow-Wight",
-				"factions": [
-					{
-						"name": "Angmar",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Host of the Witch-King",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"unlimited": true,
 				"points": 50,
 				"movement": 6,
@@ -8665,12 +8455,7 @@
 			},
 			{
 				"name": "Beregond, Guard of the Citadel",
-				"factions": [
-					{
-						"name": "The Men of the West",
-						"heroicTier": "Minor Hero"
-					}
-				],
+				"factions": [],
 				"points": 30,
 				"movement": 6,
 				"fight": 4,
@@ -8851,16 +8636,7 @@
 			},
 			{
 				"name": "Aldrac, Warlord of Carn Dum",
-				"factions": [
-					{
-						"name": "Angmar",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "Army of Carn-Dum",
-						"heroicTier": "Hero of Valour"
-					}
-				],
+				"factions": [],
 				"points": 120,
 				"movement": 6,
 				"fight": 5,
@@ -8891,16 +8667,7 @@
 			},
 			{
 				"name": "Fraecht, Vassal of the Witch King",
-				"factions": [
-					{
-						"name": "Angmar",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Army of Carn-Dum",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"points": 65,
 				"movement": 6,
 				"fight": 3,
@@ -8931,16 +8698,7 @@
 			},
 			{
 				"name": "Captain of Carn Dum",
-				"factions": [
-					{
-						"name": "Angmar",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Army of Carn-Dum",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"unlimited": true,
 				"points": 55,
 				"movement": 6,
@@ -8969,16 +8727,7 @@
 			},
 			{
 				"name": "Nazthak, Orc Captain",
-				"factions": [
-					{
-						"name": "Angmar",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Host of the Witch-King",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"points": 50,
 				"movement": 6,
 				"fight": 4,
@@ -8994,12 +8743,6 @@
 				"heroicActions": [
 					"Heroic Defence"
 				],
-				"keywords": [
-					"Orc",
-					"Angmar",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Scavenge"
@@ -9011,16 +8754,7 @@
 			},
 			{
 				"name": "The Shadow of Rhudaur",
-				"factions": [
-					{
-						"name": "Angmar",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Host of the Witch-King",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"points": 80,
 				"movement": 6,
 				"fight": 5,
@@ -9035,12 +8769,6 @@
 				"fate": 2,
 				"heroicActions": [
 					"Heroic Challenge"
-				],
-				"keywords": [
-					"Spirit",
-					"Angmar",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
@@ -9078,16 +8806,7 @@
 			},
 			{
 				"name": "Shade",
-				"factions": [
-					{
-						"name": "Angmar",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Host of the Witch-King",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"unlimited": true,
 				"points": 75,
 				"movement": 6,
@@ -9102,12 +8821,6 @@
 				"will": 4,
 				"fate": 1,
 				"heroicActions": [],
-				"keywords": [
-					"Spirit",
-					"Angmar",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Blades of the Dead",
@@ -9571,10 +9284,6 @@
 						"heroicTier": "Hero of Valour"
 					},
 					{
-						"name": "The Grey Company",
-						"heroicTier": "Hero of Valour"
-					},
-					{
 						"name": "Return of the King",
 						"heroicTier": "Hero of Valour"
 					},
@@ -9585,10 +9294,6 @@
 					{
 						"name": "Defenders of Helm's Deep",
 						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "The Kingdom of Moria",
-						"heroicTier": "Hero of Fortitude"
 					},
 					{
 						"name": "Men of the West",
@@ -9656,11 +9361,8 @@
 							"Men of the West",
 							"Defenders of the Pelennor",
 							"Road to Helm's Deep",
-							"The Rangers",
-							"The Grey Company",
 							"Return of the King",
-							"Defenders of Helm's Deep",
-							"The Kingdom of Moria"
+							"Defenders of Helm's Deep"
 						]
 					},
 					{
@@ -9718,16 +9420,7 @@
 			},
 			{
 				"name": "Buhrdur, Troll Chieftain",
-				"factions": [
-					{
-						"name": "Angmar",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "Buhrdur's Horde",
-						"heroicTier": "Hero of Valour"
-					}
-				],
+				"factions": [],
 				"points": 110,
 				"movement": 6,
 				"fight": 6,
@@ -9745,13 +9438,6 @@
 					"Heroic Strength",
 					"Heroic Challenge"
 				],
-				"keywords": [
-					"Troll",
-					"Angmar",
-					"Monster",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Terror",
@@ -9765,24 +9451,7 @@
 			},
 			{
 				"name": "Wild Warg Chieftain",
-				"factions": [
-					{
-						"name": "Angmar",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Assault on Lothlorien",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Wolf Pack of Angmar",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Buhrdur's Horde",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"unlimited": true,
 				"points": 80,
 				"movement": 10,
@@ -9799,11 +9468,6 @@
 				"heroicActions": [
 					"Heroic March",
 					"Heroic Strength"
-				],
-				"keywords": [
-					"Warg",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
@@ -10016,10 +9680,6 @@
 						"heroicTier": "Hero of Valour"
 					},
 					{
-						"name": "The Grey Company",
-						"heroicTier": "Hero of Valour"
-					},
-					{
 						"name": "Return of the King",
 						"heroicTier": "Hero of Valour"
 					},
@@ -10120,8 +9780,6 @@
 							"Men of the West",
 							"Ride Out",
 							"Road to Helm's Deep",
-							"The Rangers",
-							"The Grey Company",
 							"Return of the King",
 							"Defenders of Helm's Deep",
 							"Defenders of the Pelennor"
@@ -10140,7 +9798,6 @@
 						"availableIn": [
 							"Ride Out",
 							"Men of the West",
-							"The Grey Company",
 							"Return of the King",
 							"Defenders of Helm's Deep",
 							"Defenders of the Pelennor"
@@ -11881,12 +11538,7 @@
 			},
 			{
 				"name": "Golfimbul, Orc Chieftain",
-				"factions": [
-					{
-						"name": "Angmar",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 40,
 				"movement": 6,
@@ -11904,19 +11556,10 @@
 					"Heroic Strike",
 					"Heroic Challenge"
 				],
-				"keywords": [
-					"Orc",
-					"Angmar",
-					"Infantry",
-					"Hero"
-				],
 				"options": [
 					{
 						"name": "Warg",
-						"points": 10,
-						"availableIn": [
-							"Angmar"
-						]
+						"points": 10
 					}
 				],
 				"specialRules": [
@@ -12474,10 +12117,6 @@
 				"name": "Aldor, Rohan Archer",
 				"factions": [
 					{
-						"name": "Rohan",
-						"heroicTier": "Independent Hero"
-					},
-					{
 						"name": "Defenders of Helm's Deep",
 						"heroicTier": "Independent Hero"
 					}
@@ -12528,10 +12167,6 @@
 			{
 				"name": "Haleth, Son of Hama",
 				"factions": [
-					{
-						"name": "Rohan",
-						"heroicTier": "Independent Hero"
-					},
 					{
 						"name": "Defenders of Helm's Deep",
 						"heroicTier": "Independent Hero"
@@ -12918,16 +12553,7 @@
 			},
 			{
 				"name": "Floi Stonehand",
-				"factions": [
-					{
-						"name": "The Kingdom of Moria",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "The Kingdom of Khazad-Dum",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 75,
 				"movement": 5,
@@ -12960,12 +12586,7 @@
 			},
 			{
 				"name": "Balin the Dwarf, King of Moria",
-				"factions": [
-					{
-						"name": "The Kingdom of Moria",
-						"heroicTier": "Hero of Legend"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 110,
 				"movement": 5,
@@ -13060,16 +12681,7 @@
 			},
 			{
 				"name": "Dwarf Captain",
-				"factions": [
-					{
-						"name": "The Kingdom of Moria",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "The Kingdom of Khazad-Dum",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"points": 60,
 				"movement": 5,
 				"fight": 5,
@@ -13095,27 +12707,15 @@
 				"options": [
 					{
 						"name": "Throwing Axes",
-						"points": 5,
-						"availableIn": [
-							"The Kingdom of Khazad-Dum",
-							"The Kingdom of Moria"
-						]
+						"points": 5
 					},
 					{
 						"name": "Shield",
-						"points": 5,
-						"availableIn": [
-							"The Kingdom of Khazad-Dum",
-							"The Kingdom of Moria"
-						]
+						"points": 5
 					},
 					{
 						"name": "Two-Handed Axe",
-						"points": 5,
-						"availableIn": [
-							"The Kingdom of Khazad-Dum",
-							"The Kingdom of Moria"
-						]
+						"points": 5
 					}
 				],
 				"specialRules": [],
@@ -13183,16 +12783,7 @@
 			},
 			{
 				"name": "Shieldbearer",
-				"factions": [
-					{
-						"name": "The Kingdom of Moria",
-						"heroicTier": "Minor Hero"
-					},
-					{
-						"name": "The Kingdom of Khazad-Dum",
-						"heroicTier": "Minor Hero"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 60,
 				"movement": 5,
@@ -13208,12 +12799,6 @@
 				"fate": 0,
 				"unlimited": true,
 				"heroicActions": [],
-				"keywords": [
-					"Dwarf",
-					"Khazad-Dum",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Lead by Example (Shieldbearer)",
@@ -13227,16 +12812,7 @@
 			},
 			{
 				"name": "King's Champion Group",
-				"factions": [
-					{
-						"name": "The Kingdom of Moria",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "The Kingdom of Khazad-Dum",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 140,
 				"hideStats": true,
@@ -13268,16 +12844,7 @@
 			},
 			{
 				"name": "King's Champion",
-				"factions": [
-					{
-						"name": "The Kingdom of Moria",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "The Kingdom of Khazad-Dum",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"points": 0,
 				"movement": 5,
 				"fight": 6,
@@ -13314,10 +12881,6 @@
 			{
 				"name": "Ori the Dwarf, Champion of Erebor",
 				"factions": [
-					{
-						"name": "The Kingdom of Moria",
-						"heroicTier": "Hero of Fortitude"
-					},
 					{
 						"name": "Erebor Reclaimed",
 						"heroicTier": "Hero of Fortitude"
@@ -13684,10 +13247,6 @@
 			{
 				"name": "Oin the Dwarf, Champion of Erebor",
 				"factions": [
-					{
-						"name": "The Kingdom of Moria",
-						"heroicTier": "Hero of Fortitude"
-					},
 					{
 						"name": "Erebor Reclaimed",
 						"heroicTier": "Hero of Fortitude"
@@ -18806,16 +18365,7 @@
 			},
 			{
 				"name": "Druzhag the Beastcaller",
-				"factions": [
-					{
-						"name": "Moria",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Assault on Lothlorien",
-						"heroicTier": "Hero of Valour"
-					}
-				],
+				"factions": [],
 				"points": 90,
 				"movement": 5,
 				"fight": 3,
@@ -18830,12 +18380,6 @@
 				"fate": 2,
 				"heroicActions": [
 					"Heroic Channeling"
-				],
-				"keywords": [
-					"Goblin",
-					"Moria",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
@@ -18862,16 +18406,7 @@
 			},
 			{
 				"name": "Ashrak",
-				"factions": [
-					{
-						"name": "Moria",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Assault on Lothlorien",
-						"heroicTier": "Hero of Valour"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 55,
 				"movement": 5,
@@ -18887,12 +18422,6 @@
 				"fate": 1,
 				"heroicActions": [
 					"Heroic Channeling"
-				],
-				"keywords": [
-					"Goblin",
-					"Moria",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
@@ -18923,15 +18452,7 @@
 				"name": "Moria Goblin Captain",
 				"factions": [
 					{
-						"name": "Moria",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
 						"name": "Depths of Moria",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Assault on Lothlorien",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -18965,12 +18486,6 @@
 				"heroicActions": [
 					"Heroic March"
 				],
-				"keywords": [
-					"Goblin",
-					"Moria",
-					"Infantry",
-					"Hero"
-				],
 				"options": [
 					{
 						"name": "Orc Bow",
@@ -18987,16 +18502,7 @@
 			},
 			{
 				"name": "Moria Goblin Shaman",
-				"factions": [
-					{
-						"name": "Moria",
-						"heroicTier": "Minor Hero"
-					},
-					{
-						"name": "Assault on Lothlorien",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"unlimited": true,
 				"points": 45,
 				"movement": 5,
@@ -19012,12 +18518,6 @@
 				"fate": 1,
 				"heroicActions": [
 					"Heroic Channeling"
-				],
-				"keywords": [
-					"Goblin",
-					"Moria",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
@@ -19231,10 +18731,7 @@
 			},
 			{
 				"name": "Dwarf Siege Veteran",
-				"factions": [
-					"The Kingdom of Moria",
-					"The Kingdom of Khazad-Dum"
-				],
+				"factions": [],
 				"autoAddOnly": true,
 				"points": 0,
 				"movement": 5,
@@ -19438,16 +18935,7 @@
 			},
 			{
 				"name": "Prince Imrahil of Dol Amroth",
-				"factions": [
-					{
-						"name": "The Fiefdoms",
-						"heroicTier": "Hero of Legend"
-					},
-					{
-						"name": "The Men of the West",
-						"heroicTier": "Hero of Legend"
-					}
-				],
+				"factions": [],
 				"points": 140,
 				"movement": 6,
 				"fight": 6,
@@ -19500,16 +18988,7 @@
 			},
 			{
 				"name": "Captain of Dol Amroth",
-				"factions": [
-					{
-						"name": "The Fiefdoms",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "The Men of the West",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"unlimited": true,
 				"points": 65,
 				"movement": 6,
@@ -20235,16 +19714,7 @@
 			},
 			{
 				"name": "Dwarf Ballista",
-				"factions": [
-					{
-						"name": "The Kingdom of Moria",
-						"heroicTier": "Minor Hero"
-					},
-					{
-						"name": "The Kingdom of Khazad-Dum",
-						"heroicTier": "Minor Hero"
-					}
-				],
+				"factions": [],
 				"includes": [
 					{
 						"name": "Dwarf Siege Veteran",
@@ -21277,20 +20747,7 @@
 			},
 			{
 				"name": "Hasharin",
-				"factions": [
-					{
-						"name": "The Serpent Horde",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Corsairs of Umbar",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "Grand Army of the South",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"unlimited": true,
 				"points": 80,
 				"movement": 6,
@@ -21489,12 +20946,7 @@
 			},
 			{
 				"name": "Dalamyr, Fleetmaster of Umbar",
-				"factions": [
-					{
-						"name": "Corsairs of Umbar",
-						"heroicTier": "Hero of Legend"
-					}
-				],
+				"factions": [],
 				"points": 90,
 				"movement": 6,
 				"fight": 5,
@@ -21756,12 +21208,7 @@
 			},
 			{
 				"name": "Delgamar, Gatemaster of Umbar",
-				"factions": [
-					{
-						"name": "Corsairs of Umbar",
-						"heroicTier": "Hero of Valour"
-					}
-				],
+				"factions": [],
 				"points": 75,
 				"movement": 6,
 				"fight": 5,
@@ -21796,16 +21243,7 @@
 			},
 			{
 				"name": "Arvedui, Last King of Arnor",
-				"factions": [
-					{
-						"name": "Arnor",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "Army of Arnor",
-						"heroicTier": "Hero of Valour"
-					}
-				],
+				"factions": [],
 				"points": 80,
 				"movement": 6,
 				"fight": 5,
@@ -21823,12 +21261,6 @@
 					"Heroic Strength",
 					"Heroic Defence"
 				],
-				"keywords": [
-					"Man",
-					"Arnor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Hatred (X)",
@@ -21842,16 +21274,7 @@
 			},
 			{
 				"name": "Malbeth The Seer",
-				"factions": [
-					{
-						"name": "Arnor",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Army of Arnor",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"points": 70,
 				"movement": 6,
 				"fight": 3,
@@ -21867,12 +21290,6 @@
 				"heroicActions": [
 					"Heroic Resolve"
 				],
-				"keywords": [
-					"Man",
-					"Arnor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Gift of Foresight"
@@ -21883,20 +21300,7 @@
 			},
 			{
 				"name": "Aranarth, First Chieftain of the Dunedain",
-				"factions": [
-					{
-						"name": "Arnor",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "Battle of Fornost",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "Army of Arnor",
-						"heroicTier": "Hero of Valour"
-					}
-				],
+				"factions": [],
 				"points": 80,
 				"movement": 6,
 				"fight": 5,
@@ -21913,12 +21317,6 @@
 					"Heroic Accuracy",
 					"Heroic Strike"
 				],
-				"keywords": [
-					"Man",
-					"Arnor",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Expert Shot",
@@ -21934,16 +21332,7 @@
 			},
 			{
 				"name": "Argadir, Captain of Arnor",
-				"factions": [
-					{
-						"name": "Arnor",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Army of Arnor",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"points": 85,
 				"movement": 6,
 				"fight": 5,
@@ -21959,12 +21348,6 @@
 				"heroicActions": [
 					"Heroic March",
 					"Heroic Defence"
-				],
-				"keywords": [
-					"Man",
-					"Arnor",
-					"Cavalry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
@@ -21984,16 +21367,7 @@
 			},
 			{
 				"name": "Captain of Arnor",
-				"factions": [
-					{
-						"name": "Arnor",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Army of Arnor",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"unlimited": true,
 				"points": 55,
 				"movement": 6,
@@ -22009,12 +21383,6 @@
 				"fate": 1,
 				"heroicActions": [
 					"Heroic March"
-				],
-				"keywords": [
-					"Man",
-					"Arnor",
-					"Infantry",
-					"Hero"
 				],
 				"options": [
 					{
@@ -25014,10 +24382,7 @@
 			},
 			{
 				"name": "Herald",
-				"factions": [
-					"The Kingdom of Moria",
-					"The Kingdom of Khazad-Dum"
-				],
+				"factions": [],
 				"points": 0,
 				"movement": 5,
 				"fight": 4,
@@ -25517,7 +24882,6 @@
 			{
 				"name": "Aldor, Rohan Archer",
 				"factions": [
-					"Rohan",
 					"Defenders of Helm's Deep"
 				],
 				"unavailableWith": [
@@ -25575,7 +24939,6 @@
 			{
 				"name": "Haleth, Son of Hama",
 				"factions": [
-					"Rohan",
 					"Defenders of Helm's Deep"
 				],
 				"unavailableWith": [
@@ -25809,7 +25172,6 @@
 			{
 				"name": "Meriadoc Brandybuck, Esquire of Rohan",
 				"factions": [
-					"Rohan",
 					"Men of the West"
 				],
 				"unique": true,
@@ -25854,7 +25216,6 @@
 						"name": "Elven Cloak",
 						"points": 5,
 						"availableIn": [
-							"Rohan",
 							"Men of the West"
 						]
 					},
@@ -25985,30 +25346,7 @@
 			},
 			{
 				"name": "Ranger of the North",
-				"factions": [
-					"The Rangers",
-					"The Grey Company",
-					"Battle of Fornost",
-					"Army of Arnor",
-					"Arathorn's Stand"
-				],
-				"availableIn": [
-					{
-						"all": [
-							{
-								"with": "Aranarth, First Chieftain of the Dunedain"
-							},
-							{
-								"in": "Arnor"
-							}
-						]
-					}
-				],
-				"ignoreLimits": [
-					{
-						"type": "bow"
-					}
-				],
+				"factions": [],
 				"points": 30,
 				"movement": 6,
 				"fight": 4,
@@ -26024,32 +25362,15 @@
 				"heroicActions": [
 					"Heroic Accuracy"
 				],
-				"keywords": [
-					"Man",
-					"Infantry",
-					"Hero"
-				],
 				"specialRules": [],
 				"options": [
 					{
 						"name": "Spear",
-						"points": 1,
-						"availableIn": [
-							"The Rangers",
-							"The Grey Company",
-							"Arathorn's Stand",
-							"Army of Arnor",
-							"Battle of Fornost"
-						]
+						"points": 1
 					},
 					{
 						"name": "Horse",
-						"points": 10,
-						"availableIn": [
-							"The Rangers",
-							"Arathorn's Stand",
-							"Battle of Fornost"
-						]
+						"points": 10
 					}
 				],
 				"wargear": [
@@ -26203,12 +25524,6 @@
 				"heroicActions": [
 					"Heroic Strike"
 				],
-				"keywords": [
-					"Hobbit",
-					"Rohan",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
@@ -26244,12 +25559,6 @@
 				"heroicActions": [
 					"Heroic Strike"
 				],
-				"keywords": [
-					"Hobbit",
-					"Rohan",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
@@ -26264,13 +25573,7 @@
 			},
 			{
 				"name": "Meriadoc Brandybuck, Knight of the Mark",
-				"factions": [
-					"Rohan",
-					"The Men of the West"
-				],
-				"unavailableWith": [
-					"Helm Hammerhand"
-				],
+				"factions": [],
 				"unique": true,
 				"points": 25,
 				"movement": 4,
@@ -26287,26 +25590,14 @@
 				"heroicActions": [
 					"Heroic Strike"
 				],
-				"keywords": [
-					"Hobbit",
-					"Rohan",
-					"Infantry",
-					"Hero"
-				],
 				"options": [
 					{
 						"name": "Elven Cloak",
-						"points": 5,
-						"availableIn": [
-							"Rohan"
-						]
+						"points": 5
 					},
 					{
 						"name": "Pony",
-						"points": 5,
-						"availableIn": [
-							"Rohan"
-						]
+						"points": 5
 					},
 					{
 						"name": "Shield",
@@ -26505,12 +25796,6 @@
 				],
 				"baseSize": [
 					"25mm"
-				],
-				"keywords": [
-					"Man",
-					"Rohan",
-					"Cavalry",
-					"Warrior"
 				],
 				"options": [
 					{
@@ -26905,7 +26190,6 @@
 			{
 				"name": "Rohan Outrider",
 				"factions": [
-					"Rohan",
 					"Theodred's Guard",
 					"Paths of the Druadan",
 					"Helm's Guard"
@@ -26936,7 +26220,6 @@
 					{
 						"name": "Horse",
 						"availableIn": [
-							"Rohan",
 							"Theodred's Guard",
 							"Paths of the Druadan",
 							"Helm's Guard"
@@ -26956,9 +26239,7 @@
 			},
 			{
 				"name": "Son of Eorl",
-				"factions": [
-					"Rohan"
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 20,
 				"movement": 6,
@@ -27011,10 +26292,7 @@
 					"Minas Morgul",
 					"Barad-Dur",
 					"The Army of Gothmog",
-					"Isengard",
-					"Cirith Ungol",
-					"Assault on Lothlorien",
-					"Fell Beings of Mirkwood"
+					"Cirith Ungol"
 				],
 				"points": 5,
 				"movement": 6,
@@ -27154,12 +26432,7 @@
 			},
 			{
 				"name": "Angmar Orc Warrior",
-				"factions": [
-					"Angmar",
-					"Host of the Witch-King",
-					"Army of Carn-Dum",
-					"Buhrdur's Horde"
-				],
+				"factions": [],
 				"points": 5,
 				"movement": 6,
 				"fight": 3,
@@ -27357,12 +26630,7 @@
 			},
 			{
 				"name": "Orc Tracker",
-				"factions": [
-					"Mordor",
-					"Assault on Lothlorien",
-					"Fell Beings of Mirkwood",
-					"Army of Carn-Dum"
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 5,
 				"movement": 6,
@@ -27393,11 +26661,7 @@
 			{
 				"name": "Mordor Warg Rider",
 				"factions": [
-					"Mordor",
-					"Barad-Dur",
-					"Isengard",
-					"Assault on Lothlorien",
-					"Fell Beings of Mirkwood"
+					"Barad-Dur"
 				],
 				"points": 11,
 				"movement": 6,
@@ -27561,12 +26825,7 @@
 			},
 			{
 				"name": "Angmar Warg Rider",
-				"factions": [
-					"Angmar",
-					"Host of the Witch-King",
-					"Army of Carn-Dum",
-					"Buhrdur's Horde"
-				],
+				"factions": [],
 				"points": 11,
 				"movement": 6,
 				"fight": 3,
@@ -27603,10 +26862,7 @@
 			},
 			{
 				"name": "Black Numenorean",
-				"factions": [
-					"Mordor",
-					"Corsairs of Umbar"
-				],
+				"factions": [],
 				"points": 9,
 				"movement": 6,
 				"fight": 4,
@@ -28287,8 +27543,6 @@
 			{
 				"name": "Spectre",
 				"factions": [
-					"Angmar",
-					"Host of the Witch-King",
 					"Minas Morgul"
 				],
 				"points": 15,
@@ -28328,12 +27582,7 @@
 			},
 			{
 				"name": "Wild Warg",
-				"factions": [
-					"Angmar",
-					"Assault on Lothlorien",
-					"Wolf Pack of Angmar",
-					"Buhrdur's Horde"
-				],
+				"factions": [],
 				"additionalHeroes": [
 					"Druzhag the Beastcaller"
 				],
@@ -28399,8 +27648,6 @@
 			{
 				"name": "Cave Troll",
 				"factions": [
-					"Angmar",
-					"Moria",
 					"Depths of Moria"
 				],
 				"points": 75,
@@ -29367,10 +28614,7 @@
 			},
 			{
 				"name": "Werewolf",
-				"factions": [
-					"Angmar",
-					"Wolf Pack of Angmar"
-				],
+				"factions": [],
 				"points": 25,
 				"movement": 10,
 				"fight": 5,
@@ -29393,10 +28637,7 @@
 			},
 			{
 				"name": "Hill Troll",
-				"factions": [
-					"Angmar",
-					"Buhrdur's Horde"
-				],
+				"factions": [],
 				"points": 75,
 				"movement": 6,
 				"fight": 6,
@@ -29539,10 +28780,7 @@
 			},
 			{
 				"name": "Dwarf Warrior",
-				"factions": [
-					"The Kingdom of Khazad-Dum",
-					"The Kingdom of Moria"
-				],
+				"factions": [],
 				"points": 8,
 				"movement": 5,
 				"fight": 4,
@@ -29582,10 +28820,7 @@
 			},
 			{
 				"name": "Khazad Guard",
-				"factions": [
-					"The Kingdom of Khazad-Dum",
-					"The Kingdom of Moria"
-				],
+				"factions": [],
 				"points": 11,
 				"movement": 5,
 				"fight": 4,
@@ -29615,10 +28850,7 @@
 			},
 			{
 				"name": "Iron Guard",
-				"factions": [
-					"The Kingdom of Khazad-Dum",
-					"The Kingdom of Moria"
-				],
+				"factions": [],
 				"points": 15,
 				"movement": 5,
 				"fight": 4,
@@ -29638,10 +28870,7 @@
 			},
 			{
 				"name": "Dwarf Ranger",
-				"factions": [
-					"The Kingdom of Khazad-Dum",
-					"The Kingdom of Moria"
-				],
+				"factions": [],
 				"points": 8,
 				"movement": 5,
 				"fight": 4,
@@ -29675,10 +28904,7 @@
 			},
 			{
 				"name": "Vault Warden Team",
-				"factions": [
-					"The Kingdom of Khazad-Dum",
-					"The Kingdom of Moria"
-				],
+				"factions": [],
 				"points": 25,
 				"includes": [
 					{
@@ -29697,9 +28923,7 @@
 			},
 			{
 				"name": "Iron Shield",
-				"factions": [
-					"The Kingdom of Khazad-Dum"
-				],
+				"factions": [],
 				"points": 0,
 				"movement": 5,
 				"fight": 4,
@@ -29722,9 +28946,7 @@
 			},
 			{
 				"name": "Foe Spear",
-				"factions": [
-					"The Kingdom of Khazad-Dum"
-				],
+				"factions": [],
 				"points": 0,
 				"movement": 5,
 				"fight": 4,
@@ -29747,8 +28969,6 @@
 			{
 				"name": "Easterling Warrior",
 				"factions": [
-					"The Easterlings",
-					"The Host of the Dragon Emperor",
 					"Legions of Mordor"
 				],
 				"points": 8,
@@ -31195,12 +30415,7 @@
 			},
 			{
 				"name": "Bat Swarm",
-				"factions": [
-					"Dark Denizens of Mirkwood",
-					"Moria",
-					"Assault on Lothlorien",
-					"Fell Beings of Mirkwood"
-				],
+				"factions": [],
 				"additionalHeroes": [
 					"Razgush, War Leader of the North",
 					"Druzhag the Beastcaller",
@@ -31359,9 +30574,7 @@
 			{
 				"name": "Moria Goblin Warrior",
 				"factions": [
-					"Moria",
-					"Depths of Moria",
-					"Assault on Lothlorien"
+					"Depths of Moria"
 				],
 				"points": 4,
 				"movement": 5,
@@ -31385,12 +30598,6 @@
 				],
 				"baseSize": [
 					"25mm"
-				],
-				"keywords": [
-					"Goblin",
-					"Moria",
-					"Infantry",
-					"Warrior"
 				],
 				"options": [
 					{
@@ -31454,10 +30661,7 @@
 			},
 			{
 				"name": "Moria Goblin Prowlers",
-				"factions": [
-					"Moria",
-					"Assault on Lothlorien"
-				],
+				"factions": [],
 				"points": 7,
 				"movement": 5,
 				"fight": 3,
@@ -31486,10 +30690,7 @@
 			},
 			{
 				"name": "Warg Marauder",
-				"factions": [
-					"Moria",
-					"Assault on Lothlorien"
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 30,
 				"movement": 5,
@@ -31640,10 +30841,7 @@
 			},
 			{
 				"name": "Knight of Dol Amroth",
-				"factions": [
-					"The Fiefdoms",
-					"The Men of the West"
-				],
+				"factions": [],
 				"points": 11,
 				"movement": 6,
 				"fight": 4,
@@ -31670,17 +30868,11 @@
 					},
 					{
 						"name": "Armoured Horse",
-						"points": 8,
-						"availableIn": [
-							"The Fiefdoms"
-						]
+						"points": 8
 					},
 					{
 						"name": "Lance",
-						"points": 1,
-						"availableIn": [
-							"The Fiefdoms"
-						]
+						"points": 1
 					}
 				],
 				"specialRules": [
@@ -31694,9 +30886,7 @@
 			},
 			{
 				"name": "Man-at-arms of Dol Amroth",
-				"factions": [
-					"The Fiefdoms"
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 9,
 				"movement": 6,
@@ -32412,9 +31602,7 @@
 			},
 			{
 				"name": "Corsair Reaver",
-				"factions": [
-					"Corsairs of Umbar"
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 9,
 				"movement": 6,
@@ -32441,9 +31629,7 @@
 			},
 			{
 				"name": "Corsair Arbalester",
-				"factions": [
-					"Corsairs of Umbar"
-				],
+				"factions": [],
 				"points": 10,
 				"movement": 6,
 				"fight": 4,
@@ -32469,10 +31655,7 @@
 			},
 			{
 				"name": "Warrior of Arnor",
-				"factions": [
-					"Arnor",
-					"Army of Arnor"
-				],
+				"factions": [],
 				"points": 8,
 				"movement": 6,
 				"fight": 4,
@@ -32482,12 +31665,6 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 2,
-				"keywords": [
-					"Man",
-					"Arnor",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [
 					{
 						"name": "Swap Spear and Shield for Banner",
@@ -32508,10 +31685,7 @@
 			},
 			{
 				"name": "Warrior of Carn Dum",
-				"factions": [
-					"Angmar",
-					"Army of Carn-Dum"
-				],
+				"factions": [],
 				"points": 9,
 				"movement": 6,
 				"fight": 3,
@@ -32521,13 +31695,6 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 3,
-				"keywords": [
-					"Man",
-					"Carn-Dum",
-					"Angmar",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [
 					{
 						"name": "Banner",
@@ -32549,10 +31716,7 @@
 			},
 			{
 				"name": "Knight of Arnor",
-				"factions": [
-					"Arnor",
-					"Army of Arnor"
-				],
+				"factions": [],
 				"points": 14,
 				"movement": 6,
 				"fight": 4,
@@ -32562,12 +31726,6 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 2,
-				"keywords": [
-					"Man",
-					"Arnor",
-					"Cavalry",
-					"Warrior"
-				],
 				"options": [],
 				"specialRules": [
 					"Hatred (X)",
@@ -32583,11 +31741,7 @@
 			},
 			{
 				"name": "Ranger of Arnor",
-				"factions": [
-					"Arnor",
-					"Battle of Fornost",
-					"Army of Arnor"
-				],
+				"factions": [],
 				"points": 8,
 				"movement": 6,
 				"fight": 4,
@@ -32597,12 +31751,6 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 3,
-				"keywords": [
-					"Man",
-					"Arnor",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [
 					{
 						"name": "Spear",
@@ -32618,9 +31766,7 @@
 			},
 			{
 				"name": "Hobbit Archer",
-				"factions": [
-					"Arnor"
-				],
+				"factions": [],
 				"availableIn": [
 					{
 						"all": [
