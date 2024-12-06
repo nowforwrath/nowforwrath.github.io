@@ -1656,6 +1656,7 @@
 				"specialRules": [
 					"Hatred (X)",
 					"Hatred (Rohan)",
+					"Master of Battle (X+)",
 					"Master of Battle (4+)",
 					"Dunlending Commander"
 				],
@@ -2544,6 +2545,7 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
@@ -4313,6 +4315,7 @@
 					}
 				],
 				"specialRules": [
+					"Master of Battle (X+)",
 					"Master of Battle (2+)",
 					"The Age of Men is Over",
 					"The time of the Orc has come"
@@ -5840,6 +5843,7 @@
 				"specialRules": [
 					"Dominant (4)",
 					"Terror",
+					"Throw Stones",
 					"Throw Stones (range 12\", Strength 8)"
 				],
 				"wargear": [
@@ -8762,6 +8766,7 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
@@ -9417,6 +9422,7 @@
 				"specialRules": [
 					"Dominant (4)",
 					"Terror",
+					"Throw Stones",
 					"Throw Stones (range 12\", Strength 8)",
 					"Fearless"
 				],
@@ -9749,6 +9755,7 @@
 				"options": [],
 				"specialRules": [
 					"Terror",
+					"Throw Stones",
 					"Throw Stones (range 12\", Strength 8)",
 					"Lead by Example"
 				],
@@ -10427,6 +10434,7 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
@@ -10538,6 +10546,7 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
@@ -10629,6 +10638,7 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"Let him go or I'll have you, Longshanks!"
 				],
@@ -10713,6 +10723,7 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"Let Him Go or I'll Have You, Longshanks!"
 				],
@@ -10801,6 +10812,7 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"For the Shire!"
 				],
@@ -10875,6 +10887,7 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"For the Shire!"
 				],
@@ -12013,6 +12026,7 @@
 				"options": [],
 				"specialRules": [
 					"Expert Shot",
+					"Poisoned Attacks (X)",
 					"Poisoned Attacks (Orc Bow)",
 					"Lethal Aim"
 				],
@@ -14230,6 +14244,7 @@
 				],
 				"options": [],
 				"specialRules": [
+					"Master of Battle (X+)",
 					"Master of Battle (3+)",
 					"Phalanx",
 					"Unyielding Combat Stance",
@@ -15512,6 +15527,7 @@
 				"options": [],
 				"specialRules": [
 					"Sworn Protector (Thorin)",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"Embedded Axe"
 				],
@@ -15564,6 +15580,7 @@
 				],
 				"options": [],
 				"specialRules": [
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 2)",
 					"Embedded Axe"
 				],
@@ -17038,6 +17055,7 @@
 					"Fearless",
 					"Large Target",
 					"Terror",
+					"Throw Stones",
 					"Throw Stones (18\" Range, Strength 10)",
 					"Woodland Creature",
 					"Bludgeon"
@@ -17098,6 +17116,7 @@
 					"Fearless",
 					"Large Target",
 					"Terror",
+					"Throw Stones",
 					"Throw Stones (18\" Range, Strength 10)",
 					"Woodland Creature",
 					"Bludgeon",
@@ -17155,6 +17174,7 @@
 					"Fearless",
 					"Large Target",
 					"Terror",
+					"Throw Stones",
 					"Throw Stones (18\" Range, Strength 10)",
 					"Woodland Creature",
 					"Bludgeon",
@@ -17566,6 +17586,7 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8, Strength 1)",
 					"It has not yet awoken"
 				],
@@ -17649,6 +17670,7 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8, Strength 1)",
 					"Slip Away"
 				],
@@ -17698,6 +17720,7 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8, Strength 1)",
 					"It has not yet Awoken"
 				],
@@ -17777,6 +17800,7 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8, Strength 1)",
 					"It has not yet awoken"
 				],
@@ -19913,6 +19937,7 @@
 					}
 				],
 				"specialRules": [
+					"Master of Battle (X+)",
 					"Master of Battle (5+)",
 					"Shieldwall"
 				],
@@ -21363,6 +21388,7 @@
 					}
 				],
 				"specialRules": [
+					"Poisoned Attacks (X)",
 					"Poisoned Attacks (bow)"
 				],
 				"wargear": [
@@ -21942,6 +21968,7 @@
 				],
 				"options": [],
 				"specialRules": [
+					"Master of Battle (X+)",
 					"Master of Battle 5+",
 					"Hatred (X)",
 					"Hatred (Angmar)",
@@ -23223,6 +23250,7 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"To me Shire-folk!"
 				],
@@ -23273,6 +23301,7 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"Get out of my fields!"
 				],
@@ -23337,6 +23366,7 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"Furious Tirade",
 					"The Umbrella is not Mightier than the Sword"
@@ -23374,6 +23404,7 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
@@ -23408,6 +23439,7 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
@@ -23442,6 +23474,7 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"This is our Country"
 				],
@@ -23489,6 +23522,7 @@
 				"specialRules": [
 					"Fearful",
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"If I were to marry anyone, it would've been her",
 					"Sweet Maiden of the Golden Ale"
@@ -23523,6 +23557,7 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"Mayor of Hobbiton"
 				],
@@ -23554,6 +23589,7 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"A Helpful Sort"
 				],
@@ -23587,6 +23623,7 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"Head Shirriff"
 				],
@@ -23620,6 +23657,7 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"A Nose for Shortcuts"
 				],
@@ -23666,6 +23704,7 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"Leave me flowers alone!"
 				],
@@ -23699,6 +23738,7 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"Champion Stone Skipper",
 					"Master of Traps"
@@ -23731,6 +23771,7 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"Family Rivalry",
 					"Considerable Wealth"
@@ -23945,6 +23986,7 @@
 					"Dominant (5)",
 					"Large Target",
 					"Terror",
+					"Throw Stones",
 					"Throw Stones (range 12\", Strength 8)",
 					"Mince 'em Fine",
 					"Keep 'em for Later"
@@ -23999,6 +24041,7 @@
 					"Dominant (3)",
 					"Large Target",
 					"Terror",
+					"Throw Stones",
 					"Throw Stones (range 12\", Strength 8)",
 					"Roast 'em Slowly",
 					"Keep 'em for Later"
@@ -24052,6 +24095,7 @@
 					"Dominant (3)",
 					"large Target",
 					"Terror",
+					"Throw Stones",
 					"Throw Stones (range 12\", Strength 8)",
 					"Keep 'em for Later",
 					"Lingering Cold",
@@ -24226,6 +24270,7 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"A Bad Influence"
 				],
@@ -25224,6 +25269,7 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"If I were to marry anyone, it would've been her"
 				],
@@ -25819,6 +25865,7 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
@@ -25884,6 +25931,7 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
@@ -26164,6 +26212,7 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
@@ -26204,6 +26253,7 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
@@ -26265,6 +26315,7 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
@@ -26342,6 +26393,7 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8, Strength 1)",
 					"It has not yet awoken"
 				],
@@ -27631,6 +27683,7 @@
 					"Dominant (X)",
 					"Dominant (3)",
 					"Terror",
+					"Throw Stones",
 					"Throw Stones (range 12\", Strength 8)"
 				],
 				"wargear": [
@@ -28388,6 +28441,7 @@
 					"Dominant (X)",
 					"Dominant (3)",
 					"Terror",
+					"Throw Stones",
 					"Throw Stones (range 12\", Strength 8)"
 				],
 				"wargear": [
@@ -29067,6 +29121,7 @@
 				],
 				"specialRules": [
 					"Terror",
+					"Throw Stones",
 					"Throw Stones (range 12\", Strength 8)"
 				],
 				"wargear": [
@@ -29354,6 +29409,7 @@
 				"options": [],
 				"specialRules": [
 					"Terror",
+					"Throw Stones",
 					"Throw Stones (Range 12\" Strength 8)",
 					"Pathfinders",
 					"Hill Troll Intelligence"
@@ -30711,6 +30767,7 @@
 					"Fearless",
 					"Large Target",
 					"Terror",
+					"Throw Stones",
 					"Throw Stones (18\" Range, Strength 10)",
 					"Woodland Creature",
 					"Bludgeon"
@@ -31220,7 +31277,8 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Poisoned Attacks (Fants)",
+					"Poisoned Attacks (X)",
+					"Poisoned Attacks (Fangs)",
 					"Swift Movement",
 					"Terror",
 					"Spider Webs"
@@ -32109,6 +32167,7 @@
 					}
 				],
 				"specialRules": [
+					"Poisoned Attacks (X)",
 					"Poisoned Attacks (bow)"
 				],
 				"wargear": [
@@ -32627,6 +32686,7 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
@@ -32861,6 +32921,7 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
@@ -33002,6 +33063,7 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
+					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
@@ -35145,7 +35207,7 @@
 		"keywords": [
 			{
 				"name": "Set Ablaze",
-				"definition": "The model immediately suffers one Strength 9 hit. If the model survives, it will suffer a further one Strength 5 Hit in the end phase until the blaze is extinguished.\n                To extinguish the blaze, the model must either lie down and then crawl 1\", or enter a water feature, at which point the blaze is immediately put out."
+				"definition": "A model can be Set Ablaze through a number of means. During the End Phase of a turn, any model that is Set Ablaze will immediately suffer one Strength 5 hit. A model that Is Set Ablaze can extinguish the flames either by Lying Down and Crawling 1\", or by entering a water feature. If either of these things happen, the model is no longer considered to be Set Ablaze. If a model Is Immune to fire-based attacks, they cannot be Set Ablaze under any circumstances."
 			},
 			{
 				"name": "Ride for Ruin and the World's Ending!",
@@ -35209,9 +35271,9 @@
 				"definition": "Whilst Thorin Oakenshield is alive and on the battlefield, this model passes all Courage tests."
 			},
 			{
-				"name": "Sworn Protector",
-				"tag": "Active",
-				"definition": "Whilst the listed model is alive and on the battlefield, this model passes all Courage tests."
+				"name": "Sworn Protector (X)",
+				"tag": "Passive",
+				"definition": "Models with this special rule will have a specific model listed in brackets as part of the special rule. Whilst the named model is alive and on the battleflelcl, this model automatically passes all Courage Tests It Is required to make."
 			},
 			{
 				"name": "I Shall Kill You if You Touch Him",
@@ -35221,7 +35283,7 @@
 			{
 				"name": "Resistant to Magic",
 				"tag": "Passive",
-				"definition": "If this model is targeted by a Magical Power, it may use an\n                additional ‘free’ dice when it makes a Resist test, even if it has no\n                Will remaining or decides not to use any Will points from its store."
+				"definition": "Every time this model is targeted by a Magical Power, they gain an additional free dice when making a Resist Test, even if they have no Will Points remaining or decide not to use any Will Points. This is cumulative with other rules that confer a similar effect."
 			},
 			{
 				"name": "Throw Stones (range 8\", Strength 1)",
@@ -35326,7 +35388,7 @@
 			{
 				"name": "Woodland Creature",
 				"tag": "Active",
-				"definition": "An Infantry model with this special rule may move through woods and forests that are classified as difficult terrain as if they are open ground. Note that this doesn't mean they can automatically climb terrain in those areas, nor move through tree trunks or jump fallen obstacles."
+				"definition": "A model with this special rule may Move through woods and forests that are classed as Difficult Terrain as if they are Open Ground. If a Cavalry model has this special rule, but their Mount does not, then this rule does not apply to the Mount. If a Mount has this special rule, then they will still gain their Cavalry Charge bonuses when they Charge, even if the rider does not have this special rule."
 			},
 			{
 				"name": "Orcish Brawler",
@@ -35380,12 +35442,12 @@
 			{
 				"name": "Will of Evil",
 				"tag": "Passive",
-				"definition": "This model must give up 1 point of Will at the end of the Fight\n                phase if it has been involved in one or more Fights that turn.\n                Note that if a model is in base contact with an enemy model then\n                it must fight – it cannot choose not to fight! Once the model is\n                reduced to 0 Will points, it is banished and therefore removed\n                as a casualty. If a model with this special rule uses their last Will\n                points to cast a Magical Power with the Instant duration, the\n                effects of the Magical Power will be resolved before the model is\n                removed as a casualty.\n                Additionally, a Hero wearing The One Ring is not invisible to\n                this model as they are to others. Furthermore, this model does not\n                need to give up a point of Will if they are fighting a model wearing\n                the Ring – not even if other enemy models are included as part of\n                a Multiple Combat."
+				"definition": "This model must give up 1 Will Point during the End Phase if it has been involved in one or more Combats that turn; if it is in base contact with an enemy model, it is involved in that Combat - it cannot choose not to fight! Should this model be reduced to O Will Points, it is immediately banished and removed as a casualty. A model with this special rule cannot use their last Will Point to Cast a Magical Power or use a special rule if by doing so they would be reduced to O Will Points. Additionally, this model ignores the Invisible special rule and, if it was involved in a Combat with an Invisible model that turn, does not give up a Will Point during the End Phase."
 			},
 			{
 				"name": "Terror",
 				"tag": "Passive",
-				"definition": "Should a model wish to Charge this model, it must first take a\n                Courage test before it moves. If the test is passed, the model may\n                Charge as normal. If the test is failed, the model does not Charge\n                and may not move at all this turn.\n                Sometimes, a model will only cause Terror in certain enemies.\n                In these instances, the creatures that are affected are clearly\n                listed, and only those models need to make a Courage test before\n                charging this model. For example, a model with the Terror (Orc)\n                will cause Terror in all Orc models."
+				"definition": "If a model wishes to Charge a model with this special rule, then it must take a Courage Test at the start of its Move. If the test is passed, the model may Charge as normal. If the test is failed, the model cannot Move that turn, but may otherwise act normally.\n                Sometimes a situation may open up the chance for a model to Charge a model with Terror part way through their Move, such as moving a different model with magic or killing something in the way with a throwing weapon. In such instances, the model only needs to take the Courage Test at the point in which the Terror causing model becomes possible to Charge. If a model making a Jump, Climb or Leap Test finishes within the Control Zone of an enemy with Terror and would normally be able to Charge, they will take their Courage Test after they have made their Jump, Climb or Leap Test.\n                Sometimes, a model may only cause Terror In certain enemies. In these Instances, a keyword will follow Terror in brackets, and only models with that keyword will need to take a Courage Test to Charge the model. So, a model with Terror (Orc) wlll only cause Terror In Ore models,"
 			},
 			{
 				"name": "Miasmatic Presence",
@@ -35415,22 +35477,22 @@
 			{
 				"name": "Monstrous Charge",
 				"tag": "Active",
-				"definition": "If a model with this special rule charges into combat, it will gain\n                the Knock to the Ground and Extra Attack bonuses (see page 62)\n                as if it were Cavalry, with a couple of exceptions:\n                This model will Knock to the Ground any model that it Charges,\n                including Cavalry or Monster models, with a lower Strength\n                value than it, even if the charged model has a Strength of 6 or\n                higher. The rider of a Cavalry model will automatically suffer the\n                Knocked Flying result for its Thrown Rider test.\n                Additionally, this model will still get the Extra Attack bonus if\n                it Charges, or is subsequently charged by, Cavalry or another\n                model with this special rule.\n                If a model with this special rule is a Cavalry model, the mount\n                will count as being In The Way of its rider, except that the rider\n                will only be hit on a 5-6; a roll of 1-4 will hit the mount."
+				"definition": "If a model with this special rule Charges into Combat, then it will increase its Attacks characteristic by 1 during the ensuing Fight Phase. Additionally, if this model Charges and subsequently wins the Duel Roll, then all enemy models involved in the Combat with a Strength characteristic lower than this model, will be immediately knocked Prone before this model makes Strikes. Cavalry models will automatically count as suffering the Knocked Flying result on the Thrown Rider Chart."
 			},
 			{
 				"name": "Survival Instinct",
 				"tag": "Active",
-				"definition": "Each time a model with this special rule suffers a Wound, it must\n                take a Courage test. If the test is failed then the model flees the\n                battlefield and counts as a casualty. This is an exception to the\n                usual rules for taking multiple Courage tests in a turn."
+				"definition": "Every time a model with this special rule suffers a Wound that is not prevented, it must take a Courage Test. If the Courage Test is failed, the model flees and is removed from the board as a casualty. This is an exception to taking multiple Courage Tests of the same type in the same turn."
 			},
 			{
 				"name": "Swift Movement",
 				"tag": "Active",
-				"definition": "A model with this special rule can climb on any surface, regardless\n                of angle. They can therefore move at full speed over any type of\n                difficult terrain and ignore all obstacles except for water features\n                and gaps such as chasms, ditches and other spaces, which they\n                have to jump as normal. The model must be able to balance safely\n                upon wherever it finishes its movement - no spiders finishing\n                upside down, for example!"
+				"definition": "A model with this special rule is never slowed by Difficult Terrain, with the exception of water features. It can also ignore Obstacles as it Moves, allowing it to Move at any angle without having to make a Climb or Jump Test, though it will still count any vertical distance it has Moved towards its Move Value.\n                A model with this special rule must finish its Move as flat to the playing surface as possible - no models finishing upside down, halfway up a wall, or at an angle, for example!"
 			},
 			{
 				"name": "Venom",
 				"tag": "Active",
-				"definition": "This model must re-roll all failed To Wound rolls when making\n                Strikes in close combat."
+				"definition": "Thls model must re-roll all failed To Wound Rolls when making Strikes. Additionally, at the end of a Combat involving this model, choose one enemy model that was wounded by this model but not slain and roll a D6. On a natural 6, the model suffers an additional Wound."
 			},
 			{
 				"name": "Caught in a Web",
@@ -35449,7 +35511,7 @@
 			{
 				"name": "Stalk Unseen",
 				"tag": "Passive",
-				"definition": "If a model with this special rule is partially concealed from view\n                by a piece of terrain, they cannot be seen at all at distances of\n                more than 6\" - they appear to melt into the background. This\n                means that enemies cannot Charge, Shoot or target them with\n                Magical Powers or special rules at ranges of greater than 6\", unless\n                they have a completely clear view of the target.\n                If the model is riding a mount, Stalk Unseen has no effect."
+				"definition": "An Infantry model with this special rule that is partially concealed from view by a piece of terrain cannot be seen at distances of more than 6\". This means that enemy models cannot target this model with Shooting Attacks, Magical Powers, special rules, or anything else that requires Line of Sight unless they have a completely clear view of this model."
 			},
 			{
 				"name": "Piercing Shot",
@@ -35485,9 +35547,9 @@
 				"definition": "If this model kills an enemy Hero model in a Fight,\n                they immediately regain a single point of Might spent\n                earlier in the battle."
 			},
 			{
-				"name": "Master of Battle",
+				"name": "Master of Battle (X+)",
 				"tag": "Active",
-				"definition": "Whenever an enemy Hero attempts a Heroic Action within 6\"\n                of a model with this special rule, this model may call the same\n                Heroic Action without spending Might, even if they would not\n                usually have access to it.\n                Sometimes a model with this special rule will have a number after\n                the rule in brackets, e.g., Master of Battle (5+). In this situation,\n                whenever an enemy Hero attempts a Heroic Action within 6\" of\n                a model with this special rule, roll a D6. If the dice score equals\n                or beats the number after the special rule, this model may call the\n                same Heroic Action without spending Might – even if they would\n                not normally be able to call the same Heroic Action."
+				"definition": "Whenever an enemy Hero declares a Heroic Action within 6\" of this model, this model may roll a D6. If the result on the dice equals or beats the number shown in brackets, then this model may Immediately declare a Heroic Action of the same type without spending a Might Point. This may still be done if this model has no Might Points remaining or would not normally be able to declare that Heroic Action. If the roll is failed, this model may still declare a Heroic Action if they wish (though not one they cannot usually declare) for the usual cost of a Might Point."
 			},
 			{
 				"name": "Merry",
@@ -35572,7 +35634,7 @@
 			{
 				"name": "Shieldwall",
 				"tag": "Active",
-				"definition": "If this model is armed with a shield, whilst in base contact with two or more non-Prone models with this special rule that are armed with a shield, this model gains a bonus of +1 to its Defence. This bonus is only available whilst on foot."
+				"definition": "If this model is carrying a shield, then whilst it is in base contact with two or more other friendly models who also have this special rule and are carrying a shield, then this model receives an additional +1 bonus to its Defence. In Combat, this bonus is calculated before the model Backs Away.\n                Models that are Prone or have the Cavalry keyword cannot benefit from, or provide an ally with the benefit from, this special rule."
 			},
 			{
 				"name": "In Defence of the King",
@@ -35686,7 +35748,7 @@
 			{
 				"name": "Mighty Blow",
 				"tag": "Active",
-				"definition": "For each Strike that successfully Wounds in close combat, this model inflicts 2 Wounds rather than 1."
+				"definition": "For each successful Strike caused by this model (i.e. one that causes a Wound that is not prevented), the target will suffer 2 Wounds rather than 1."
 			},
 			{
 				"name": "The Bladelord's Skill",
@@ -35735,7 +35797,7 @@
 			{
 				"name": "Spectral Walk",
 				"tag": "Passive",
-				"definition": "A model with this rule may move over water features as if they were open ground."
+				"definition": "A model with this special rule is never slowed by Difficult Terrain. Additionally, a model with this special rule always counts as rolling a 6 for any Climb, Jump, Leap or Swim Tests."
 			},
 			{
 				"name": "The Dead and the Living",
@@ -36148,7 +36210,7 @@
 			{
 				"name": "Unyielding Combat Stance",
 				"tag": "Active",
-				"definition": "If a model with this special rule is knocked Prone, roll a D6. On a 4+, this model keeps their footing and is not knocked Prone. If this model was mounted when knocked Prone, and passes the roll to keep their footing, they will stay on their feet but they will still be separated from their mount. This model may still make this roll even if it automatically suffers the Knocked Flying result and, if the roll is successful, will not suffer any of its effects."
+				"definition": "If this model would be knocked Prone for any reason, roll a D6. On a 4+, the model keeps their footing and isn't knocked Prone. If this model is mounted and passes this roll they will still be separated from their Mount but will count as rolling a 6 on the Thrown Rider Chart. If this model would nornmlly automatically suffer the Knocked Flying result, they may still make this roll and, if successful, will treat the result as a 6 on the Thrown Rider Chart,"
 			},
 			{
 				"name": "Shield of Blades",
@@ -37358,7 +37420,7 @@
 			{
 				"name": "Mighty Hero",
 				"tag": "Active",
-				"definition": "A model with this special rule may expend 1 point of Might each turn without reducing their own store of Might."
+				"definition": "A model with this special gains a free Might Point at the start of each turn (even if their store of Might is full). If this free Might Point has not been spent by teh end of the turn, it is lost."
 			},
 			{
 				"name": "The Young Sage",
@@ -37368,7 +37430,7 @@
 			{
 				"name": "Mountain Dweller",
 				"tag": "Active",
-				"definition": "Mountain Dwellers may re-roll any Jump, Leap and Climb tests. In addition, they may move through rocky areas that are classified as difficult terrain as if they were open ground."
+				"definition": "A model with this special rule may Move through areas of rocky terrain that are classed as Difficult Terrain as if they are Open Ground. If a Cavalry model has this special rule, but their Mount does not, then this rule does not apply to the Mount. If a Mount has this special rule, then they will still gain their Cavalry Charge bonuses when they Charge, even If the rider does not have this special rule. Additionally, a model with this special rule may re-roll any Jump, Leap or Climb Tests."
 			},
 			{
 				"name": "Arcana Leech",
@@ -37915,6 +37977,26 @@
 				"name": "Leader (X)",
 				"tag": "Passive",
 				"definition": "A model with this special rule can include Warrior models of the type listed in brackets in their Warband."
+			},
+			{
+				"name": "Poisoned Attacks",
+				"tag": "Active",
+				"definition": "A model with this special rule most re-roll any To Wound Rolls of a natural 1 when making Shooting Attacks or making Strikes.\n                Sometimes, a particular weapon will be described as benefiting from this special rule. When this is the case, only To Wound Roll made for that weapon will be able to re-roll To WOund Rolls of a natural 1."
+			},
+			{
+				"name": "Sharpshooter",
+				"tag": "Active",
+				"definition": "When a model with this special rule makes a Shooting Attack that targets a Cavalry model, it may choose either the rider or the Mount as its target. Additionally, if a model with this special rule hits a Cavalry model that it targeted with a Shooting Attack, it does not need to make the In The Way Test to see which part of the model it hits - it will automatically hit the part of the model it targeted, either rider or Mount."
+			},
+			{
+				"name": "Throw Stones",
+				"tag": "Active",
+				"definition": "If this model does not Move during the Move Phase, it may make a Shooting Attack during the following Shoot Phase. Tlhe Strength and range of this Shooting Attack will be shown in the model's profile."
+			},
+			{
+				"name": "Timid",
+				"tag": "Passive",
+				"definition": "If a Mount has this special rule, then every time it wishes to Charge an enemy model it must take a Courage Test. It may use its rider's Courage Value, but may never benefit from special rules or Magical Powers that would allow it to automatically pass a Courage Test. If the test is failed. the model cannot Move that turn but may otherwise act normally. A model with this special rule gains no Cavalry Charge bonuses."
 			}
 		]
 	}
