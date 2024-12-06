@@ -886,6 +886,12 @@
 						"points": 70,
 						"elementPropertyName": "heroes"
 					}
+				],
+				"adjustLimits": [
+					{
+						"type": "throwingWeapon",
+						"percentage": 50
+					}
 				]
 			},
 			{
@@ -937,7 +943,13 @@
 			{
 				"name": "Harad",
 				"alignment": "evil",
-				"armyBonus": "\"War Beasts from the South\" - Friendly Mumak models gain the Harbinger of Evil (12\") special rule.\n                \"The Scorpion's Sting\" - Friendly models with the Poisoned Attacks (bow) special rule exchange it for the Poisoned Attacks on all of their weapons.\n                \"Monstrous Rampgage\" - Each Hero that is commanding a Mumak can, once per game, declare a Heroic Combat for free whilst atop a Mumak. When they do, the Mumak will be affected as if they had been the one to declare the Heroic Combat, though they may not pivot before they Trample as part of a Heroic Combat."
+				"armyBonus": "\"War Beasts from the South\" - Friendly Mumak models gain the Harbinger of Evil (12\") special rule.\n                \"The Scorpion's Sting\" - Friendly models with the Poisoned Attacks (bow) special rule exchange it for the Poisoned Attacks on all of their weapons.\n                \"Monstrous Rampgage\" - Each Hero that is commanding a Mumak can, once per game, declare a Heroic Combat for free whilst atop a Mumak. When they do, the Mumak will be affected as if they had been the one to declare the Heroic Combat, though they may not pivot before they Trample as part of a Heroic Combat.",
+				"adjustLimits": [
+					{
+						"type": "bow",
+						"percentage": 50
+					}
+				]
 			},
 			{
 				"name": "Corsair Fleet",
@@ -7521,7 +7533,7 @@
 					"A Traitor Within"
 				],
 				"wargear": [
-					"Dagger"
+					"Hand weapon"
 				]
 			},
 			{
@@ -19049,24 +19061,33 @@
 				"defence": 3,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 2,
+				"courage": 8,
+				"intelligence": 6,
 				"might": 0,
 				"will": 0,
 				"fate": 0,
-				"heroicActions": [],
-				"keywords": [
-					"Man",
-					"Isengard",
-					"Infantry",
-					"Hero"
+				"race": [
+					"Man"
 				],
+				"faction": [
+					"Isengard"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
 				"options": [],
 				"specialRules": [
-					"A Traitor Within",
-					"Wormtongue"
+					"Wormtongue",
+					"A Traitor Within"
 				],
 				"wargear": [
-					"Dagger"
+					"Hand weapon"
 				],
 				"countAsProperty": "heroes"
 			},
