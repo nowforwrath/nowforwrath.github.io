@@ -49,13 +49,7 @@
 		"secondary": "Convenient",
 		"none": "Impossible"
 	},
-	"toggles": [
-		{
-			"property": "legacy",
-			"label": "Include Legacy",
-			"default": false
-		}
-	],
+	"toggles": [],
 	"scenarios": [
 		"Heirlooms of Ages Past",
 		"Hold Ground",
