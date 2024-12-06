@@ -26613,6 +26613,9 @@
 				"wounds": 1,
 				"courage": 6,
 				"intelligence": 6,
+				"might": 0,
+				"will": 1,
+				"fate": 1,
 				"race": [
 					"Horse"
 				],
