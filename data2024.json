@@ -8966,7 +8966,6 @@
 						"heroicTier": "Hero of Legend"
 					}
 				],
-				"unlimited": true,
 				"points": 75,
 				"movement": 6,
 				"fight": 6,
@@ -9011,6 +9010,7 @@
 					},
 					{
 						"name": "Exchange armour for heavy armour",
+						"usesDefinition": "Heavy armour",
 						"points": 5
 					},
 					{
@@ -9041,7 +9041,6 @@
 						"heroicTier": "Hero of Legend"
 					}
 				],
-				"unlimited": true,
 				"points": 75,
 				"movement": 6,
 				"fight": 6,
@@ -9086,7 +9085,8 @@
 					},
 					{
 						"name": "Exchange armour for heavy armour",
-						"points": 5
+						"points": 5,
+						"usesDefinition": "Heavy armour"
 					},
 					{
 						"name": "Lance",
@@ -9116,7 +9116,6 @@
 						"heroicTier": "Hero of Legend"
 					}
 				],
-				"unlimited": true,
 				"points": 75,
 				"movement": 6,
 				"fight": 6,
@@ -9155,7 +9154,8 @@
 					},
 					{
 						"name": "Exchange armour for heavy armour",
-						"points": 5
+						"points": 5,
+						"usesDefinition": "Heavy armour"
 					},
 					{
 						"name": "Lance",
@@ -9182,7 +9182,6 @@
 						"heroicTier": "Hero of Legend"
 					}
 				],
-				"unlimited": true,
 				"points": 75,
 				"movement": 6,
 				"fight": 6,
@@ -9227,7 +9226,8 @@
 					},
 					{
 						"name": "Exchange armour for heavy armour",
-						"points": 5
+						"points": 5,
+						"usesDefinition": "Heavy armour"
 					},
 					{
 						"name": "Lance",
@@ -9254,7 +9254,6 @@
 						"heroicTier": "Hero of Legend"
 					}
 				],
-				"unlimited": true,
 				"points": 75,
 				"movement": 6,
 				"fight": 6,
@@ -9299,7 +9298,8 @@
 					},
 					{
 						"name": "Exchange armour for heavy armour",
-						"points": 5
+						"points": 5,
+						"usesDefinition": "Heavy armour"
 					},
 					{
 						"name": "Lance",
@@ -19758,12 +19758,6 @@
 					{
 						"in": [
 							"Road to Helm's Deep"
-						],
-						"type": "bow"
-					},
-					{
-						"in": [
-							"Paths of the Druadan"
 						],
 						"type": "bow"
 					},
