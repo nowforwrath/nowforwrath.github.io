@@ -507,6 +507,14 @@
 							}
 						]
 					}
+				],
+				"childMatchesRequired": [
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "faction",
+						"value": "Lothlorien",
+						"childElementPropertyName": "warriors"
+					}
 				]
 			},
 			{
@@ -557,7 +565,7 @@
 			{
 				"name": "Ride Out",
 				"alignment": "good",
-				"armyBonus": "\"Now for wrath, now for ruin, and the red dawn\" - When a friendly Cavalry model Moves, it must Charge if able. Additionally, on a turn in which a friendly Cavalry model Charges, they gain a bonus of +1 to their strength and may re-roll any 1s during a Duel Roll tha turn.\n                \"The horn of Helm Hammerhand shall soundi n the deep; one last time\" - Once per game, at the start of any Move phase, you can declare you are using this special rule. Until the end of the turn, friendly Cavalry models gain the Terror special rule.\n                \"For Death and Glory\" - Friendly models gain the Fearless special rule",
+				"armyBonus": "\"Now for wrath, now for ruin, and the red dawn\" - When a friendly Cavalry model Moves, it must Charge if able. Additionally, on a turn in which a friendly Cavalry model Charges, they gain a bonus of +1 to their strength and may re-roll any 1s during a Duel Roll that turn.\n                \"The horn of Helm Hammerhand shall sound in the deep; one last time\" - Once per game, at the start of any Move phase, you can declare you are using this special rule. Until the end of the turn, friendly Cavalry models gain the Terror special rule.\n                \"For Death and Glory\" - Friendly models gain the Fearless special rule",
 				"requiredChildren": [
 					{
 						"name": "Theoden, King of Rohan",
@@ -692,12 +700,32 @@
 			{
 				"name": "Defenders of the Pelennor",
 				"alignment": "good",
-				"armyBonus": "\"Defend the White City\" - Each Hero in your Army can, once per game, declare a Heroic Combat for free."
+				"armyBonus": "\"Defend the White City\" - Each Hero in your Army can, once per game, declare a Heroic Combat for free.",
+				"childMatchesRequired": [
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "faction",
+						"value": "Rohan",
+						"childElementPropertyName": "warriors"
+					},
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "faction",
+						"value": "Gondor",
+						"childElementPropertyName": "warriors"
+					},
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "faction",
+						"value": "Dunharrow",
+						"childElementPropertyName": "warriors"
+					}
+				]
 			},
 			{
 				"name": "Men of the West",
 				"alignment": "good",
-				"armyBonus": "\"For Frodo!\" - Once per game, at the start of any Fight Phase, Aragorn can use this special rule so long as he is alive and on the battlefield. If he does, then friendly non-Eagle models within 6\" of Aragorn gain a bonus of +1 Fight Value and may re-roll To Wound rolls of a natural 1 when making Strikes until the end of the turn. This is treated as an Active ability belonging to Aragorn.\n                \"The White Wizard\" - Gandalf may re-roll a single D6 in any Casting roll he makes.\n                \"This day we fight!\" - So long as Aragorn is alive and on the battlefield, friendly models automatically pass any Courage Tests they are required to take.\n                \"The Final Stand\" - Friendly Infantry models within 3\" of a friendly Hero model gain the Dominant (2) special rule.",
+				"armyBonus": "\"For Frodo!\" - Once per game, at the start of any Fight Phase, Aragorn can use this special rule so long as he is alive and on the battlefield. If he does, then friendly non-Eagle models within 6\" of Aragorn gain a bonus of +1 Fight Value and may re-roll To Wound rolls of a natural 1 when making Strikes until the end of the turn. This is treated as an Active ability belonging to Aragorn.\n                \"The White Wizard\" - Gandalf may re-roll a single D6 in any Casting roll he makes.\n                \"This day we fight!\" - So long as Aragorn is alive and on the battlefield, friendly models automatically pass any Courage Tests they are required to take.\n                \"The Final Stand\" - Friendly Infantry models within 3\" of a friendly Hero model gain the Dominant (2) special rule.\n                \n                If your army includes any Cavalary models, then it cannot include any Eagle models, and vice versa.\n                Gandalf the White does not have his Staff of Power in this Army.",
 				"requiredChildren": [
 					{
 						"name": "Aragorn, King Elessar",
@@ -731,7 +759,21 @@
 			{
 				"name": "The Last Alliance",
 				"alignment": "good",
-				"armyBonus": "\"Whirl of Steel\" - Whenever a friendly Rivendell Infantry model that is not Engaged in Combat is Charged, they may roll a D6. On a natural 6, the model that Charged them immediately suffers a Wound. If this model was a Cavalry model, roll a further D6. On a 1-3 it will be the Mount that suffers the wound, on a 4+ it will be the rider that suffers the Wound. This is considered an Active ability.\n                \"There were some who resisted\" - Friendly models may re-roll any dice that roll a 1 when making Courage Tests.\n                \"Strength of Numenor\" - Whilst being supported by or supporting a friendly Rivendell model, friendly Numenor models may re-roll To Wound rolls of a natural 1 when making Strikes."
+				"armyBonus": "\"Whirl of Steel\" - Whenever a friendly Rivendell Infantry model that is not Engaged in Combat is Charged, they may roll a D6. On a natural 6, the model that Charged them immediately suffers a Wound. If this model was a Cavalry model, roll a further D6. On a 1-3 it will be the Mount that suffers the wound, on a 4+ it will be the rider that suffers the Wound. This is considered an Active ability.\n                \"There were some who resisted\" - Friendly models may re-roll any dice that roll a 1 when making Courage Tests.\n                \"Strength of Numenor\" - Whilst being supported by or supporting a friendly Rivendell model, friendly Numenor models may re-roll To Wound rolls of a natural 1 when making Strikes.",
+				"childMatchesRequired": [
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "faction",
+						"value": "Numenor",
+						"childElementPropertyName": "warriors"
+					},
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "faction",
+						"value": "Rivendell",
+						"childElementPropertyName": "warriors"
+					}
+				]
 			},
 			{
 				"name": "Lothlorien",
@@ -799,7 +841,27 @@
 			{
 				"name": "Legions of Mordor",
 				"alignment": "evil",
-				"armyBonus": "\"Bring the City to its Knees\" - Friendly Hero models may re-roll To Wound Rolls of a natural 1 when making Strikes against an enemy Hero model."
+				"armyBonus": "\"Bring the City to its Knees\" - Friendly Hero models may re-roll To Wound Rolls of a natural 1 when making Strikes against an enemy Hero model.",
+				"childMatchesRequired": [
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "faction",
+						"value": "Mordor",
+						"childElementPropertyName": "warriors"
+					},
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "faction",
+						"value": "Harad",
+						"childElementPropertyName": "warriors"
+					},
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "faction",
+						"value": "Easterling",
+						"childElementPropertyName": "warriors"
+					}
+				]
 			},
 			{
 				"name": "Minas Morgul",
@@ -873,6 +935,20 @@
 						"name": "Ugluk, Uruk-hai Scout Captain",
 						"points": 75,
 						"elementPropertyName": "heroes"
+					}
+				],
+				"childMatchesRequired": [
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "race",
+						"value": "Orc",
+						"childElementPropertyName": "warriors"
+					},
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "race",
+						"value": "Uruk-hai",
+						"childElementPropertyName": "warriors"
 					}
 				]
 			},
@@ -983,7 +1059,33 @@
 			{
 				"name": "The Battle of Five Armies",
 				"alignment": "good",
-				"armyBonus": "\"Something?\" - Friendly models may re-roll To Wound Rolls of a natural 1 when making Strikes if they are involved in a Combat with a friendly model that has a different racial Keyword to themselves."
+				"armyBonus": "\"Something?\" - Friendly models may re-roll To Wound Rolls of a natural 1 when making Strikes if they are involved in a Combat with a friendly model that has a different racial Keyword to themselves.",
+				"childMatchesRequired": [
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "race",
+						"value": "Elf",
+						"childElementPropertyName": "warriors"
+					},
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "race",
+						"value": "Dwarf",
+						"childElementPropertyName": "warriors"
+					},
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "faction",
+						"value": "Lake-town",
+						"childElementPropertyName": "warriors"
+					},
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "race",
+						"value": "Eagle",
+						"childElementPropertyName": "warriors"
+					}
+				]
 			},
 			{
 				"name": "Halls of Thranduil",
@@ -1012,7 +1114,21 @@
 			{
 				"name": "Thorin's Company",
 				"alignment": "good",
-				"armyBonus": "\"March to the Lonely Mountain\" - If your Army contains only Thorin's Company models, then friendly Dwarf models may spend their Will Points to declare a Heroic March instead of using Might Points, even if they do not normally have the ability to declare a Heroic March.\n                \"We're making a long-term deposit\" - At the beginning of the game, choose one Objective Marker on the board. Friendly Dwarf models within range of the chosen Objective Marker gain the Dominant (2) special rule.\n                \"Family Ties\" - The Dwarves of Thorin's Company are divided into Family Groups, which are as follows:\n                -Balin and Dwalin\n                -Kili and Fili\n                -Bifur, Bofur and Bombur\n                -Ori, Nori and Dori\n                -Oin and Gloin\n                Hero models from this Army that are within 3\" of another Hero from the same Family Group may spend that model's Might, Will and Fate points as if they were their own."
+				"armyBonus": "\"March to the Lonely Mountain\" - If your Army contains only Thorin's Company models, then friendly Dwarf models may spend their Will Points to declare a Heroic March instead of using Might Points, even if they do not normally have the ability to declare a Heroic March.\n                \"We're making a long-term deposit\" - At the beginning of the game, choose one Objective Marker on the board. Friendly Dwarf models within range of the chosen Objective Marker gain the Dominant (2) special rule.\n                \"Family Ties\" - The Dwarves of Thorin's Company are divided into Family Groups, which are as follows:\n                -Balin and Dwalin\n                -Kili and Fili\n                -Bifur, Bofur and Bombur\n                -Ori, Nori and Dori\n                -Oin and Gloin\n                Hero models from this Army that are within 3\" of another Hero from the same Family Group may spend that model's Might, Will and Fate points as if they were their own.",
+				"childMatchesRequired": [
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "faction",
+						"value": "Thorin's Company",
+						"childElementPropertyName": "warriors"
+					},
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "race",
+						"value": "Eagle",
+						"childElementPropertyName": "warriors"
+					}
+				]
 			},
 			{
 				"name": "Azog's Hunters",
@@ -1162,6 +1278,20 @@
 						"points": 80,
 						"elementPropertyName": "heroes"
 					}
+				],
+				"childMatchesRequired": [
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "faction",
+						"value": "Erebor",
+						"childElementPropertyName": "warriors"
+					},
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "faction",
+						"value": "Dale",
+						"childElementPropertyName": "warriors"
+					}
 				]
 			},
 			{
@@ -1186,12 +1316,28 @@
 			{
 				"name": "Rangers of Mirkwood",
 				"alignment": "good",
-				"armyBonus": "\"Knife Mastery\" - Friendly Elf models may re-roll To Wound Rolls of a natural 1 when making Strikes. Additionally, friendly Elf models may use the Shielding special rule, however, they cannot use their Knife Fighters or Blade Mistress special rules in a turn in which they elect to Shield.\n                \"The Prince of Mirkwood\" - Legolas gains the Knife Fighters special rule (see page 69)\n                \"Dwarven Resilience\" - Friendly Dwarf models may re-roll failed Fate Rolls.\n                \"Clear the Nests\" - Friendly models gain the Hatred (Spider) special rule.\n                \"If you think I'm giving you a weapon Dwarf, you are sorely mistaken\" - Friendly Dwarf models cannot benefit from the Heroic Actions or Stand Fast of friendly Elf models and friendly Elf models cannot benefit from the Heroic Actions or Stand Fast of friendly Dwarf models. Additionally, Tauriel's Vengeful Fury special rule does not apply in this Army List."
+				"armyBonus": "\"Knife Mastery\" - Friendly Elf models may re-roll To Wound Rolls of a natural 1 when making Strikes. Additionally, friendly Elf models may use the Shielding special rule, however, they cannot use their Knife Fighters or Blade Mistress special rules in a turn in which they elect to Shield.\n                \"The Prince of Mirkwood\" - Legolas gains the Knife Fighters special rule (see page 69)\n                \"Dwarven Resilience\" - Friendly Dwarf models may re-roll failed Fate Rolls.\n                \"Clear the Nests\" - Friendly models gain the Hatred (Spider) special rule.\n                \"If you think I'm giving you a weapon Dwarf, you are sorely mistaken\" - Friendly Dwarf models cannot benefit from the Heroic Actions or Stand Fast of friendly Elf models and friendly Elf models cannot benefit from the Heroic Actions or Stand Fast of friendly Dwarf models. Additionally, Tauriel's Vengeful Fury special rule does not apply in this Army List.",
+				"childMatchesRequired": [
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "faction",
+						"value": "Mirkwood",
+						"childElementPropertyName": "warriors"
+					}
+				]
 			},
 			{
 				"name": "Army of Lake-town",
 				"alignment": "good",
-				"armyBonus": "\"The Master's Coin\" - At the end of his Activation if he is within 3\" of Braga, the Master of Lake-town may spend a Will Point. If he does, Braga immediately gains a Will Point spent earlier in the battle.\n                \"Air of Self-importance\" - The Master of Lake-town, Alfrid and Braga may not take part in any Heroic Action declared by Bard of a member of Bard's Family.\n                \"I Shall Protect You\" - Tauriel may include Kili, Fili, Bofur, and Oin in her warband. Additionally, if Tauriel is within 3\" of a friendly Dwarf model who is Engaged in Combat, she gains a bonus of +1 To Wound when making Strikes.\n                \"Stubborn to a Fault\" - Friendly Dwarf models may re-roll failed To Wound Rolls either when making a shooting attack or when making Strikes."
+				"armyBonus": "\"The Master's Coin\" - At the end of his Activation if he is within 3\" of Braga, the Master of Lake-town may spend a Will Point. If he does, Braga immediately gains a Will Point spent earlier in the battle.\n                \"Air of Self-importance\" - The Master of Lake-town, Alfrid and Braga may not take part in any Heroic Action declared by Bard of a member of Bard's Family.\n                \"I Shall Protect You\" - Tauriel may include Kili, Fili, Bofur, and Oin in her warband. Additionally, if Tauriel is within 3\" of a friendly Dwarf model who is Engaged in Combat, she gains a bonus of +1 To Wound when making Strikes.\n                \"Stubborn to a Fault\" - Friendly Dwarf models may re-roll failed To Wound Rolls either when making a shooting attack or when making Strikes.",
+				"childMatchesRequired": [
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "faction",
+						"value": "Lake-town",
+						"childElementPropertyName": "warriors"
+					}
+				]
 			},
 			{
 				"name": "Erebor Reclaimed",
@@ -2566,20 +2712,8 @@
 			},
 			{
 				"name": "Erkenbrand, Captain of Rohan",
-				"factions": [
-					{
-						"name": "Rohan",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Riders of Eomer",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"legacy": true,
-				"unavailableWith": [
-					"Helm Hammerhand"
-				],
 				"points": 75,
 				"movement": 6,
 				"fight": 5,
@@ -2809,20 +2943,8 @@
 			},
 			{
 				"name": "Grimbold of Grimslade",
-				"factions": [
-					{
-						"name": "Rohan",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Theodred's Guard",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"legacy": true,
-				"unavailableWith": [
-					"Helm Hammerhand"
-				],
 				"points": 60,
 				"movement": 6,
 				"fight": 5,
@@ -2851,12 +2973,7 @@
 			},
 			{
 				"name": "Eorl the Young",
-				"factions": [
-					{
-						"name": "Rohan",
-						"heroicTier": "Hero of Valour"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 115,
 				"movement": 6,
@@ -2892,20 +3009,7 @@
 			},
 			{
 				"name": "King's Huntsman",
-				"factions": [
-					{
-						"name": "Rohan",
-						"heroicTier": "Minor Hero"
-					},
-					{
-						"name": "Defenders of Helm's Deep",
-						"heroicTier": "Minor Hero"
-					},
-					{
-						"name": "Helm's Guard",
-						"heroicTier": "Minor Hero"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"unlimited": true,
 				"points": 50,
@@ -6145,12 +6249,7 @@
 			},
 			{
 				"name": "Mablung, Ranger of Ithilien",
-				"factions": [
-					{
-						"name": "Rangers of Ithilien",
-						"heroicTier": "Minor Hero"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 35,
 				"movement": 6,
@@ -6617,12 +6716,7 @@
 			},
 			{
 				"name": "Vrasku",
-				"factions": [
-					{
-						"name": "Isengard",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 65,
 				"movement": 6,
@@ -6652,12 +6746,7 @@
 			},
 			{
 				"name": "Mauhur",
-				"factions": [
-					{
-						"name": "Isengard",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 60,
 				"movement": 8,
@@ -11490,12 +11579,7 @@
 			},
 			{
 				"name": "Anborn, Ranger of Ithilien",
-				"factions": [
-					{
-						"name": "Rangers of Ithilien",
-						"heroicTier": "Minor Hero"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 35,
 				"movement": 6,
@@ -12330,22 +12414,14 @@
 				"hideStats": true,
 				"unlimited": true,
 				"heroicActions": [],
-				"increaseMaximumChildren": {
-					"warriors": 1
-				},
-				"requiredChildren": [
-					{
-						"elementPropertyName": "warriors",
-						"name": "Troll Brute (Troll)",
-						"quantity": 1,
-						"points": 0,
-						"lockedChildren": true
-					}
-				],
 				"includes": [
 					{
 						"dataSource": "heroes",
 						"name": "Orc Commander"
+					},
+					{
+						"dataSource": "warriors",
+						"name": "Troll Brute (Troll)"
 					}
 				],
 				"options": [],
@@ -12511,16 +12587,7 @@
 			},
 			{
 				"name": "Thrydan Wolfsbane",
-				"factions": [
-					{
-						"name": "Isengard",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Army of Dunland",
-						"heroicTier": "Hero of Valour"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 85,
 				"movement": 6,
@@ -14711,16 +14778,7 @@
 			},
 			{
 				"name": "Frida Tallspear",
-				"factions": [
-					{
-						"name": "Isengard",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Army of Dunland",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 65,
 				"movement": 6,
@@ -14758,16 +14816,7 @@
 			},
 			{
 				"name": "Gorulf Ironskin",
-				"factions": [
-					{
-						"name": "Isengard",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Army of Dunland",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 70,
 				"movement": 6,
@@ -15022,12 +15071,7 @@
 			},
 			{
 				"name": "Moria Blackshield Captain",
-				"factions": [
-					{
-						"name": "Moria",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"unlimited": true,
 				"points": 45,
@@ -15064,12 +15108,7 @@
 			},
 			{
 				"name": "Moria Blackshield Shaman",
-				"factions": [
-					{
-						"name": "Moria",
-						"heroicTier": "Minor Hero"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"unlimited": true,
 				"points": 50,
@@ -16316,6 +16355,12 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Beorning"
+				],
 				"hideStats": true,
 				"heroicActions": [],
 				"options": [],
@@ -17267,16 +17312,7 @@
 			},
 			{
 				"name": "Castellan of Dol Guldur",
-				"factions": [
-					{
-						"name": "Dark Powers of Dol Guldur",
-						"heroicTier": "Minor Hero"
-					},
-					{
-						"name": "Rise of the Necromancer",
-						"heroicTier": "Minor Hero"
-					}
-				],
+				"factions": [],
 				"legacy": true,
 				"unlimited": true,
 				"points": 40,
@@ -18196,8 +18232,18 @@
 			},
 			{
 				"name": "Rohirrim Traitor",
-				"factions": [
-					"Usurpers of Edoras"
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Lord Thorne of the Wold"
+							},
+							{
+								"in": "Usurpers of Edoras"
+							}
+						]
+					}
 				],
 				"points": 6,
 				"movement": 6,
@@ -18669,10 +18715,25 @@
 					"Survivors of Lake-town",
 					"Army of Lake-town"
 				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Tauriel, Ranger of Mirkwood"
+							},
+							{
+								"in": "Army of Lake-town"
+							}
+						]
+					}
+				],
 				"unlockedBy": "Bard the Bowman",
 				"unique": true,
 				"points": 60,
 				"hideStats": true,
+				"faction": [
+					"Lake-town"
+				],
 				"heroicActions": [],
 				"includes": [
 					{
@@ -19103,6 +19164,11 @@
 				"factions": [
 					"Men of the West"
 				],
+				"unavailableIn": [
+					[
+						"Gwaihir"
+					]
+				],
 				"unique": true,
 				"points": 25,
 				"movement": 4,
@@ -19170,6 +19236,11 @@
 					"Men of the West",
 					"Atop the Wall",
 					"Defenders of the Pelennor"
+				],
+				"unavailableIn": [
+					[
+						"Gwaihir"
+					]
 				],
 				"unique": true,
 				"points": 25,
@@ -19553,6 +19624,11 @@
 					"Defenders of the Hornburg",
 					"Men of the West",
 					"Realms of Men"
+				],
+				"unavailableIn": [
+					[
+						"Gwaihir"
+					]
 				],
 				"points": 6,
 				"movement": 6,
@@ -20040,11 +20116,7 @@
 			},
 			{
 				"name": "Rohan Outrider",
-				"factions": [
-					"Theodred's Guard",
-					"Paths of the Druadan",
-					"Helm's Guard"
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 8,
 				"movement": 6,
@@ -21052,6 +21124,23 @@
 					"Defenders of the Pelennor",
 					"Realms of Men"
 				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Gandalf the White"
+							},
+							{
+								"in": "Defenders of the Pelennor"
+							}
+						]
+					}
+				],
+				"unavailableIn": [
+					[
+						"Gwaihir"
+					]
+				],
 				"points": 8,
 				"movement": 6,
 				"fight": 4,
@@ -21123,6 +21212,18 @@
 					"Defenders of the Pelennor",
 					"Realms of Men"
 				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Gandalf the White"
+							},
+							{
+								"in": "Defenders of the Pelennor"
+							}
+						]
+					}
+				],
 				"points": 15,
 				"movement": 6,
 				"fight": 4,
@@ -21165,9 +21266,28 @@
 			},
 			{
 				"name": "Guard of the Fountain Court",
-				"factions": [
-					"Minas Tirith",
-					"Realms of Men"
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Denethor, Steward of Gondor"
+							},
+							{
+								"in": "Minas Tirith"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "King of Men (Gondor)"
+							},
+							{
+								"in": "Realms of Men"
+							}
+						]
+					}
 				],
 				"points": 10,
 				"movement": 6,
@@ -21206,11 +21326,78 @@
 			},
 			{
 				"name": "Citadel Guard",
-				"factions": [
-					"Minas Tirith",
-					"Atop the Wall",
-					"Defenders of the Pelennor",
-					"Realms of Men"
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Denethor, Steward of Gondor"
+							},
+							{
+								"in": "Minas Tirith"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Faramir, Captain of Gondor"
+							},
+							{
+								"in": "Minas Tirith"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Boromir, Captain of the White Tower"
+							},
+							{
+								"in": "Minas Tirith"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Irolas, Captain of the Guard"
+							},
+							{
+								"in": "Minas Tirith"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Irolas, Captain of the Guard"
+							},
+							{
+								"in": "Atop the Wall"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Irolas, Captain of the Guard"
+							},
+							{
+								"in": "Defenders of the Pelennor"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "King of Men (Gondor)"
+							},
+							{
+								"in": "Realms of Men"
+							}
+						]
+					}
 				],
 				"points": 8,
 				"movement": 6,
@@ -21413,9 +21600,7 @@
 			},
 			{
 				"name": "Dweller in the Dark",
-				"factions": [
-					"Moria"
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 75,
 				"movement": 8,
@@ -21866,6 +22051,19 @@
 				"wounds": 1,
 				"courage": 7,
 				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Dale"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"options": [
 					{
 						"name": "Banner",
@@ -21959,6 +22157,38 @@
 					"Return of the King",
 					"Defenders of the Pelennor"
 				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Aragorn (Strider)"
+							},
+							{
+								"in": "Defenders of the Pelennor"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Legolas Greenleaf"
+							},
+							{
+								"in": "Defenders of the Pelennor"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Gimli, Son of Gloin"
+							},
+							{
+								"in": "Defenders of the Pelennor"
+							}
+						]
+					}
+				],
 				"points": 14,
 				"movement": 8,
 				"fight": 3,
@@ -22020,6 +22250,38 @@
 					"The Dead of Dunharrow",
 					"Return of the King",
 					"Defenders of the Pelennor"
+				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Aragorn (Strider)"
+							},
+							{
+								"in": "Defenders of the Pelennor"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Legolas Greenleaf"
+							},
+							{
+								"in": "Defenders of the Pelennor"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Gimli, Son of Gloin"
+							},
+							{
+								"in": "Defenders of the Pelennor"
+							}
+						]
+					}
 				],
 				"points": 25,
 				"movement": 8,
@@ -22109,6 +22371,18 @@
 				"wounds": 4,
 				"courage": 6,
 				"intelligence": 9,
+				"race": [
+					"Troll"
+				],
+				"unitType": [
+					"War Beast"
+				],
+				"faction": [
+					"Gundabad"
+				],
+				"baseSize": [
+					"80mm"
+				],
 				"options": [],
 				"specialRules": [
 					"Dominant (X)",
@@ -22740,9 +23014,7 @@
 			},
 			{
 				"name": "Khandish Warrior",
-				"factions": [
-					"Variags of Khand"
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 8,
 				"movement": 6,
@@ -22775,9 +23047,7 @@
 			},
 			{
 				"name": "Khandish Horseman",
-				"factions": [
-					"Variags of Khand"
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 13,
 				"movement": 6,
@@ -22816,9 +23086,7 @@
 			},
 			{
 				"name": "Khandish Charioteer",
-				"factions": [
-					"Variags of Khand"
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 30,
 				"movement": 6,
@@ -23108,9 +23376,7 @@
 			},
 			{
 				"name": "Feral Uruk-hai",
-				"factions": [
-					"Isengard"
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 13,
 				"movement": 6,
@@ -23137,10 +23403,7 @@
 			},
 			{
 				"name": "Dunlending Warrior",
-				"factions": [
-					"Isengard",
-					"Army of Dunland"
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 7,
 				"movement": 6,
@@ -23494,6 +23757,28 @@
 					"Survivors of Lake-town",
 					"The Battle of Five Armies"
 				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Gandalf the Grey"
+							},
+							{
+								"in": "The Battle of Five Armies"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Bilbo Baggins, Master Burglar"
+							},
+							{
+								"in": "The Battle of Five Armies"
+							}
+						]
+					}
+				],
 				"points": 5,
 				"movement": 6,
 				"fight": 2,
@@ -23594,6 +23879,38 @@
 				"name": "Palace Guard",
 				"factions": [
 					"Halls of Thranduil"
+				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Legolas Greenleaf, Prince of Mirkwood"
+							},
+							{
+								"in": "Halls of Thranduil"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Palace Guard Captain"
+							},
+							{
+								"in": "Halls of Thranduil"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Thranduil, King of the Woodland Realm"
+							},
+							{
+								"in": "Halls of Thranduil"
+							}
+						]
+					}
 				],
 				"points": 12,
 				"movement": 6,
@@ -23798,10 +24115,7 @@
 			},
 			{
 				"name": "Dunlending Horseman",
-				"factions": [
-					"Isengard",
-					"Army of Dunland"
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 12,
 				"movement": 6,
@@ -23832,10 +24146,7 @@
 			},
 			{
 				"name": "Dunlending Huscarl",
-				"factions": [
-					"Isengard",
-					"Army of Dunland"
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 11,
 				"movement": 6,
@@ -24041,9 +24352,7 @@
 			},
 			{
 				"name": "Moria Blackshield",
-				"factions": [
-					"Moria"
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 8,
 				"movement": 5,
@@ -24173,9 +24482,7 @@
 			},
 			{
 				"name": "Moria Blackshield Drummers",
-				"factions": [
-					"Moria"
-				],
+				"factions": [],
 				"legacy": true,
 				"points": 75,
 				"hideStats": true,
@@ -24447,9 +24754,40 @@
 				"factions": [
 					"The Eagles",
 					"Radagast's Alliance",
-					"Men of the West",
 					"The Battle of Five Armies",
 					"Thorin's Company"
+				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Radagast the Brown"
+							},
+							{
+								"in": "The Battle of Five Armies"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Beorn"
+							},
+							{
+								"in": "The Battle of Five Armies"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Gwaihir"
+							},
+							{
+								"in": "Men of the West"
+							}
+						]
+					}
 				],
 				"points": 100,
 				"movement": 12,
@@ -24500,6 +24838,28 @@
 					"The Eagles",
 					"Radagast's Alliance",
 					"The Battle of Five Armies"
+				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Radagast the Brown"
+							},
+							{
+								"in": "The Battle of Five Armies"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Beorn"
+							},
+							{
+								"in": "The Battle of Five Armies"
+							}
+						]
+					}
 				],
 				"points": 75,
 				"movement": 12,
@@ -24969,7 +25329,7 @@
 			{
 				"name": "The One Ring",
 				"tag": "Active",
-				"definition": "Dunno yet"
+				"definition": "See book"
 			},
 			{
 				"name": "Shield and Spear",
@@ -26679,6 +27039,42 @@
 				]
 			},
 			{
+				"name": "Troll Brute",
+				"movement": 6,
+				"fight": 5,
+				"shoot": 6,
+				"strength": 7,
+				"defence": 6,
+				"attack": 3,
+				"wounds": 4,
+				"courage": 6,
+				"intelligence": 9,
+				"race": [
+					"Troll"
+				],
+				"unitType": [
+					"War Beast"
+				],
+				"faction": [
+					"Gundabad"
+				],
+				"baseSize": [
+					"80mm"
+				],
+				"options": [],
+				"specialRules": [
+					"Dominant (X)",
+					"Dominant (5)",
+					"Fearless",
+					"Large Target",
+					"Terror",
+					"Trample (Troll Brute)"
+				],
+				"wargear": [
+					"Hand weapons"
+				]
+			},
+			{
 				"name": "Firefoot with armour",
 				"type": "mount",
 				"movement": 12,
@@ -28318,7 +28714,7 @@
 			{
 				"name": "King's Knights",
 				"tag": "Passive",
-				"definition": "Whilst mounted, Mirkwood Cavalry models count as being in range of a banner if they are within 6\" of Thranduil, King of the Woodland Realm."
+				"definition": "Whilst they have the Cavalry keyword, this model gains a bonus of +1 to their Fight Value and +1 to their Defence whilst within 6\" of Thranduil."
 			},
 			{
 				"name": "Glaive",
