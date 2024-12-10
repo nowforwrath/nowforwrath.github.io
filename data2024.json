@@ -13580,6 +13580,10 @@
 					}
 				],
 				"specialRules": [
+					"Sharpshooter",
+					"Sworn Protector (Bain)",
+					"Sworn Protector (Sigrid)",
+					"Sworn Protector (Tilda)",
 					"Rapid Fire",
 					"Swift Shot",
 					"Windlance Trained",
@@ -18716,17 +18720,25 @@
 				"might": 0,
 				"will": 3,
 				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Lake-town"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Strike",
 					"Heroic Strength",
 					"Heroic Resolve",
 					"Heroic Accuracy"
-				],
-				"keywords": [
-					"Man",
-					"Lake-town",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
