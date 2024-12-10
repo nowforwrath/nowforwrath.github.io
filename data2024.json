@@ -25507,6 +25507,19 @@
 				]
 			},
 			{
+				"name": "Shield and Elven spear",
+				"includes": [
+					{
+						"name": "Shield",
+						"dataSource": "gear"
+					},
+					{
+						"name": "Elven spear",
+						"dataSource": "gear"
+					}
+				]
+			},
+			{
 				"name": "War horn and Shield",
 				"includes": [
 					{
