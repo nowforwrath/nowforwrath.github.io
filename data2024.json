@@ -2210,9 +2210,6 @@
 						"heroicTier": "Hero of Legend"
 					}
 				],
-				"unavailableWith": [
-					"Helm Hammerhand"
-				],
 				"points": 75,
 				"movement": 6,
 				"fight": 5,
@@ -2346,9 +2343,6 @@
 						"heroicTier": "Hero of Valour"
 					}
 				],
-				"unavailableWith": [
-					"Helm Hammerhand"
-				],
 				"points": 85,
 				"movement": 6,
 				"fight": 6,
@@ -2429,9 +2423,6 @@
 						"name": "Defenders of the Pelennor",
 						"heroicTier": "Hero of Valour"
 					}
-				],
-				"unavailableWith": [
-					"Helm Hammerhand"
 				],
 				"points": 110,
 				"movement": 6,
@@ -2796,9 +2787,6 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
-				"unavailableWith": [
-					"Helm Hammerhand"
-				],
 				"points": 55,
 				"movement": 6,
 				"fight": 5,
@@ -2900,9 +2888,6 @@
 						"name": "Road to Helm's Deep",
 						"heroicTier": "Hero of Fortitude"
 					}
-				],
-				"unavailableWith": [
-					"Helm Hammerhand"
 				],
 				"points": 60,
 				"movement": 6,
@@ -6105,6 +6090,9 @@
 						"points": 25,
 						"addsModels": 1,
 						"unlockedBy": "Shadowfax",
+						"unavailableWith": [
+							"Peregrin Took, Guard of the Citadel"
+						],
 						"availableIn": [
 							"Atop the Wall",
 							"Defenders of the Pelennor",
@@ -19033,9 +19021,6 @@
 				"factions": [
 					"Defenders of Helm's Deep"
 				],
-				"unavailableWith": [
-					"Helm Hammerhand"
-				],
 				"ignoreLimits": [
 					{
 						"type": "bow"
@@ -19089,9 +19074,6 @@
 				"name": "Haleth, Son of Hama",
 				"factions": [
 					"Defenders of Helm's Deep"
-				],
-				"unavailableWith": [
-					"Helm Hammerhand"
 				],
 				"ignoreLimits": [
 					{
@@ -29904,7 +29886,7 @@
 			{
 				"name": "Lord of Harrowdale",
 				"tag": "Passive",
-				"definition": "Any Warriors of Roban included in Frealaf's Warband are automatically upgraded to Warriors of Harrowdale. Warriors 0f Harrowdale that can draw Line of Sight to Frealaf may re-roll any failed Intelligence Tests and gain the Shieldwall special rule."
+				"definition": "Any Warriors of Rohan included in Frealaf's Warband are automatically upgraded to Warriors of Harrowdale. Warriors of Harrowdale that can draw Line of Sight to Frealaf may re-roll any failed Intelligence Tests and gain the Shieldwall special rule."
 			},
 			{
 				"name": "Doorward of Meduseld",
