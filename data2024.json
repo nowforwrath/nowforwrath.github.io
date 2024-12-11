@@ -24481,15 +24481,18 @@
 				"options": [
 					{
 						"name": "Orc Bow",
-						"points": 1
+						"points": 1,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
-						"points": 1
+						"points": 1,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Spear",
-						"points": 1
+						"points": 1,
+						"requireChooseOneKey": "a"
 					}
 				],
 				"specialRules": [
