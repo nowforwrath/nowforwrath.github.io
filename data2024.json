@@ -26540,11 +26540,6 @@
 				"definition": "This is a Unique Elven hand-and-a-half weapon. Additionally, a model wielding Hadhafang gains a bonus of +1 To Wound when making Strikes against a Spirit model."
 			},
 			{
-				"name": "Elven Cloak",
-				"tag": "Passive",
-				"definition": "A model wearing an Elven cloak has the Stalk Unseen special rule."
-			},
-			{
 				"name": "Vilya",
 				"tag": "Passive",
 				"definition": "Elrond, Master of Rivendell may re-roll his dice when using Fate points."
