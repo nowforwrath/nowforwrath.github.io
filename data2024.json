@@ -561,6 +561,7 @@
 							{
 								"name": "Exchange armour for Heavy armour",
 								"elementPropertyName": "options",
+								"usesDefinition": "Heavy armour",
 								"points": 5
 							}
 						]
@@ -580,6 +581,7 @@
 						"requiredChildren": [
 							{
 								"name": "Exchange armour for Heavy armour",
+								"usesDefinition": "Heavy armour",
 								"elementPropertyName": "options",
 								"points": 5
 							},
@@ -1194,7 +1196,8 @@
 							{
 								"name": "Exchange armour for heavy armour",
 								"points": 5,
-								"elementPropertyName": "options"
+								"elementPropertyName": "options",
+								"usesDefinition": "Heavy armour"
 							},
 							{
 								"name": "Shield",
@@ -2247,6 +2250,7 @@
 						"name": "Exchange armour for heavy armour",
 						"points": 5,
 						"elementPropertyName": "options",
+						"usesDefinition": "Heavy armour",
 						"in": [
 							[
 								"Defenders of the Pelennor"
@@ -6202,6 +6206,7 @@
 						"name": "Exchange armour and bow for heavy armour",
 						"points": 0,
 						"elementPropertyName": "options",
+						"usesDefinition": "Heavy armour",
 						"in": [
 							[
 								"Minas Tirith"
@@ -6226,6 +6231,7 @@
 					},
 					{
 						"name": "Exchange armour and bow for heavy armour",
+						"usesDefinition": "Heavy armour",
 						"points": 0,
 						"availableIn": [
 							"Minas Tirith"
@@ -12869,7 +12875,7 @@
 					"Fearless",
 					"Hatred (X)",
 					"Hatred (Dunland)",
-					"Might Blow",
+					"Mighty Blow",
 					"The Hammerhand",
 					"No Longer a Leader",
 					"Berserk Rage"
