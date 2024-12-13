@@ -210,6 +210,12 @@
 			"dataSource": "keywords"
 		}
 	],
+	"additionalDb": [
+		{
+			"propertyName": "magicalPowers",
+			"label": "Magical Powers"
+		}
+	],
 	"elements": [
 		{
 			"propertyName": "factions",
