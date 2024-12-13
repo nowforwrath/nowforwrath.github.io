@@ -16898,7 +16898,7 @@
 				"requiredChildren": [
 					{
 						"name": "Great Eagle",
-						"points": 50,
+						"points": 55,
 						"elementPropertyName": "options",
 						"in": [
 							[
