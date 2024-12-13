@@ -2293,7 +2293,8 @@
 				"options": [
 					{
 						"name": "Banner of Arwen Evenstar",
-						"points": 40
+						"points": 40,
+						"availableIn": []
 					}
 				]
 			},
