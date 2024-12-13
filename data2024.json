@@ -897,6 +897,20 @@
 						"points": 60,
 						"elementPropertyName": "heroes"
 					}
+				],
+				"childMatchesRequired": [
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "race",
+						"value": "Orc",
+						"childElementPropertyName": "warriors"
+					},
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "race",
+						"value": "Uruk-hai",
+						"childElementPropertyName": "warriors"
+					}
 				]
 			},
 			{
@@ -2765,6 +2779,10 @@
 					{
 						"name": "Armoured horse",
 						"points": 25
+					},
+					{
+						"name": "Throwing spears",
+						"points": 5
 					}
 				]
 			},
@@ -11903,7 +11921,7 @@
 					"Goblin-town"
 				],
 				"unitType": [
-					"Warrior",
+					"Hero",
 					"Infantry"
 				],
 				"baseSize": [
@@ -24461,7 +24479,7 @@
 					"Beast"
 				],
 				"baseSize": [
-					"25mm"
+					"40mm"
 				],
 				"options": [],
 				"specialRules": [
@@ -25942,7 +25960,7 @@
 				"movement": 6,
 				"fight": 5,
 				"shoot": 3,
-				"strength": 4,
+				"strength": 3,
 				"defence": 5,
 				"attack": 1,
 				"wounds": 1,
