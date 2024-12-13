@@ -1323,12 +1323,12 @@
 				"requiredChildren": [
 					{
 						"name": "Radagast the Brown",
-						"points": 150,
+						"points": 145,
 						"elementPropertyName": "heroes",
 						"requiredChildren": [
 							{
 								"name": "Great Eagle",
-								"points": 50,
+								"points": 55,
 								"elementPropertyName": "options"
 							}
 						]
@@ -16892,7 +16892,7 @@
 				"options": [
 					{
 						"name": "Great Eagle",
-						"points": 50,
+						"points": 55,
 						"usesDefinition": "Great Eagle",
 						"availableIn": [
 							"The Battle of Five Armies",
@@ -16902,7 +16902,7 @@
 					},
 					{
 						"name": "Sleigh",
-						"points": 45,
+						"points": 35,
 						"chooseOneKey": "a",
 						"availableIn": [
 							"Thorin's Company",
