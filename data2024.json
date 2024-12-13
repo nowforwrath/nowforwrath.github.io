@@ -6579,7 +6579,8 @@
 				"wargear": [
 					"Armour",
 					"Hand weapon",
-					"War drum (Mordor Orc)"
+					"War drum (Mordor Orc)",
+					"War Drum (X)"
 				]
 			},
 			{
@@ -8373,7 +8374,8 @@
 				"wargear": [
 					"Armour",
 					"Hand weapon",
-					"War drum (Uruk-hai)"
+					"War drum (Uruk-hai)",
+					"War Drum (X)"
 				],
 				"countAsProperty": "heroes"
 			},
@@ -21258,7 +21260,8 @@
 				"wargear": [
 					"Armour",
 					"Hand weapon",
-					"War drum (Uruk-hai)"
+					"War drum (Uruk-hai)",
+					"War Drum (X)"
 				],
 				"countAsProperty": "heroes"
 			},
@@ -21368,7 +21371,8 @@
 				"wargear": [
 					"Armour",
 					"Hand weapon",
-					"War drum (Mordor Orc)"
+					"War drum (Mordor Orc)",
+					"War Drum (X)"
 				],
 				"countAsProperty": "heroes"
 			},
@@ -22751,6 +22755,7 @@
 				"options": [
 					{
 						"name": "War drum (Mordor)",
+						"usesDefinition": "War Drum (X)",
 						"points": 25
 					}
 				],
@@ -28609,7 +28614,7 @@
 			},
 			{
 				"name": "Staff of Power",
-				"definition": "A Staff of Power is a hand-and-a-half Staff, and may use the Stun Special Strike like all other Staves. \n                In addition, the bearer can expend 1 point of Will each turn without reducing their own Will store. \n                \"STUN\" - If the model's side wins the Fight, rather than striking normally, choose one opponent and roll a D6. \n                On a 5+ (or a 6 if the target is a Monster), the victim is reduced to a Fight value and Attacks value of 1, and Shoot value of 6+, \n                until the end of the following turn. You may wish to place a marker next to the stunned model as a reminder."
+				"definition": "A Staff of Power is a hand-and-a-half weapon. Additionally, the wielder of a Staff of Power gains a free Will Point at the start of each turn. If this free Will Point is not spent by the end of the turn, it is lost."
 			},
 			{
 				"name": "The Warden's Sword",
@@ -29806,8 +29811,8 @@
 				"definition": "Shelob may never be included in another model's warband. Additionally, Shelob can never benefit from the Heroic Actions of other models."
 			},
 			{
-				"name": "War Drum (Mordor)",
-				"definition": "At the start of the Move phase, a model with a war drum may declare they are\n                sounding the advance. When this occurs, all models with the same keyword\n                as the one shown in brackets, within 12\" of the drummer, add 3\" to their\n                Movement value if they have the Infantry keyword, and 5\" to their movement\n                they have the Cavalry keyword or the Fly special rule for the remainder of the\n                turn. Models that are affected by a war drum may not Charge in that turn."
+				"name": "War Drum (X)",
+				"definition": ""
 			},
 			{
 				"name": "Stalk Unseen",
@@ -32278,6 +32283,14 @@
 				"name": "Brutish Cunning",
 				"tag": "Active",
 				"definition": "This model may re-roll a single D6 in a Duel Roll when fighting solely against Infantry models (but not Monster models)."
+			},
+			{
+				"name": "Arcing Shot",
+				"definition": "A Siege Engine that Shoots by Arcing Shot does not need Line of Sight to its target, or to a model its shot would scatter on to, so long as another friendly model has Line of Sight to the initial target. After determining the actual target, a Siege Engine with Arcing Shot does not make In The Way Tests for intervening models and terrain (the shot goes over them). However, anything that is clearly taller than the actual target and would be above the actual target when the shot comes down will incur an In The Way Test. This could include the likes of trees, ledges, or rocks that jut out from cliff faces; a degree of common sense will be needed here - a whole tree would provide this In The Way, but a single branch would not!\n                This is also the case for when a Siege Engine with Arcing Shot hits a War Beast with a Howdah, as the Howdah is above the War Beast and so will provide an In The Way Test"
+			},
+			{
+				"name": "Direct Shot",
+				"definition": "A Siege Engine that Shoots by Direct Shot will need Line of Sight to the initial target. Additionally, if the shot scatters onto another target, the Siege Engine will need to have Line of Sight to this target in order for them to be selected as the actual target. In both of these instances, this Line of Sight is drawn from the firing point of the Siege Engine, so the tip of a ballista or siege bow for example.\n                After determining the actual target, a Siege Engine with Direct Shot will make In The Way Tests in the same way as any other Shooting Attack."
 			}
 		]
 	}
