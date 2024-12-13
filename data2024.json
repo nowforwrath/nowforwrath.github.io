@@ -5251,7 +5251,7 @@
 				"factions": [
 					{
 						"name": "Cirith Ungol",
-						"heroicTier": "Hero of Fortitude"
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 110,
@@ -5302,7 +5302,7 @@
 				"factions": [
 					{
 						"name": "Cirith Ungol",
-						"heroicTier": "Hero of Fortitude"
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 60,
@@ -27466,14 +27466,24 @@
 			{
 				"name": "Horse",
 				"type": "mount",
+				"race": [
+					"Horse"
+				],
+				"unitType": [
+					"Mount"
+				],
+				"baseSize": [
+					"40mm"
+				],
 				"movement": 10,
-				"fight": 3,
+				"fight": 2,
 				"shoot": 6,
 				"strength": 3,
 				"defence": 4,
 				"attack": 0,
 				"wounds": 1,
-				"courage": 3
+				"courage": 7,
+				"intelligence": 7
 			},
 			{
 				"name": "Brego",
@@ -27535,14 +27545,24 @@
 			{
 				"name": "Armoured horse",
 				"type": "mount",
+				"race": [
+					"Horse"
+				],
+				"unitType": [
+					"Mount"
+				],
+				"baseSize": [
+					"40mm"
+				],
 				"movement": 10,
-				"fight": 3,
+				"fight": 2,
 				"shoot": 6,
 				"strength": 3,
 				"defence": 5,
 				"attack": 0,
 				"wounds": 1,
-				"courage": 3
+				"courage": 7,
+				"intelligence": 7
 			},
 			{
 				"name": "Spectral Steed",
@@ -27580,27 +27600,38 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 2
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Warg"
+				],
+				"unitType": [
+					"Mount"
+				],
+				"baseSize": [
+					"40mm"
+				]
 			},
 			{
 				"name": "Fell Warg",
 				"type": "mount",
 				"movement": 10,
 				"fight": 3,
-				"shoot": 0,
+				"shoot": 6,
 				"strength": 4,
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 2,
-				"keywords": [
-					"Warg",
-					"Infantry",
-					"Warrior"
+				"courage": 8,
+				"intelligence": 7,
+				"race": [
+					"Warg"
 				],
-				"wargear": [
-					"Claws",
-					"Teeth"
+				"unitType": [
+					"Mount"
+				],
+				"baseSize": [
+					"40mm"
 				],
 				"specialRules": [
 					"Fell Sight"
@@ -27864,14 +27895,26 @@
 				"name": "Pony",
 				"type": "mount",
 				"movement": 8,
-				"fight": 2,
+				"fight": 1,
 				"shoot": 6,
-				"strength": 2,
+				"strength": 3,
 				"defence": 3,
 				"attack": 0,
 				"wounds": 1,
-				"courage": 2,
-				"definition": "If a model riding a Pony wishes to charge, the model must make a Courage test. If the test is failed, the model may not Charge but may move as normal. Note that a model must always take this Courage test, even if it would usually automatically pass. A model riding a pony does not get the Extra Attack or Knock to the Ground bonuses when charging."
+				"courage": 8,
+				"intelligence": 7,
+				"race": [
+					"Horse"
+				],
+				"unitType": [
+					"Mount"
+				],
+				"baseSize": [
+					"40mm"
+				],
+				"specialRules": [
+					"Timid"
+				]
 			},
 			{
 				"name": "War boar",
