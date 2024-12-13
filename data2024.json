@@ -2687,6 +2687,10 @@
 					{
 						"name": "Arnor",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Realms of Men",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -19886,7 +19890,8 @@
 			{
 				"name": "Warrior of Arnor",
 				"factions": [
-					"Arnor"
+					"Arnor",
+					"Realms of Men"
 				],
 				"points": 8,
 				"movement": 6,
@@ -19931,7 +19936,8 @@
 			{
 				"name": "Knight of Arnor",
 				"factions": [
-					"Arnor"
+					"Arnor",
+					"Realms of Men"
 				],
 				"points": 15,
 				"movement": 6,
@@ -19972,7 +19978,8 @@
 			{
 				"name": "Ranger of Arnor",
 				"factions": [
-					"Arnor"
+					"Arnor",
+					"Realms of Men"
 				],
 				"points": 8,
 				"movement": 6,
@@ -29340,7 +29347,7 @@
 			},
 			{
 				"name": "Paralyse",
-				"duration": "Instant",
+				"duration": "Exhaustion",
 				"definition": "This Magical Power targets one enemy model in range. The target immediately becomes paralysed. A Paralysed model immediately becomes Prone and may do nothing until it recovers. This includes Activating, making Shooting Attacks, declaring Heroic Actions or using Active abilities. If a Paralysed model is Engaged in Combat, it may contribute no dice to the Duel Roll, and does not provide its Fight Value - it may also not make Strikes or stand up if its side wins. If a Paralysed model is the only model from its side involved in a Combat, then it automatically loses the Duel Roll - no dice are rolled.\n                \n                At the end of the End Phase of each turn, a Paralysed model may roll a D6. On a 6, the model immediately recovers (they may use Might to improve this roll). Additionally, after making this roll, any friendly model in base contact with a Paralysed model may roll a D6 one at a time. If any model rolls a 6, the Paralysed model immediately recovers (a Hero model may use their own Might to improve this roll.)\n                \n                If a Paralysed model is in a water feature at the end of the Move Phase, then it must take a Swim Test to see if it sinks."
 			},
 			{
