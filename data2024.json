@@ -1390,7 +1390,7 @@
 				"requiredChildren": [
 					{
 						"name": "Earnur, Last King of Gondor",
-						"points": 80,
+						"points": 110,
 						"elementPropertyName": "heroes"
 					},
 					{
