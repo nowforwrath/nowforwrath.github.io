@@ -1360,7 +1360,7 @@
 			{
 				"name": "Arnor",
 				"alignment": "good",
-				"armyBonus": "",
+				"armyBonus": "\"Defend the King\" – Whilst within 6\" of Arvedui, friendly Arnor models automatically pass any Courage Tests they are required to take.\n                \"Power of the Seer\" – Friendly Arnor Hero models receive a bonus of +1 when rolling for Malbeth’s Gift of Foresight special rule. \n                \"Seeing Stones\" – Once per game, during the Priority Phase but before the roll for Priority, Arvedui can use this special rule so long as he is alive and on the battlefield. If he does, Arvedui’s controlling player automatically wins the roll to choose who has Priority for that turn. If both sides have a special rule allowing them to do this and both wish to use it in the same turn, players roll off as normal and both special rules count as being used.",
 				"requiredChildren": [
 					{
 						"name": "Arvedui, Last King of Arnor",
@@ -1372,7 +1372,7 @@
 			{
 				"name": "Battle of Fornost",
 				"alignment": "good",
-				"armyBonus": "",
+				"armyBonus": "\"The Charge of Gondor\" – Friendly Gondor Cavalry models gain a bonus of +1 to their Fight Value on a turn in which they Charge.\n                \"Power of the Elves\" – Friendly models gain the Resistant to Magic special rule.\n                \"Eärnur’s Defiance\" – Eärnur cannot have his Courage reduced by enemy special rules or Magical Powers.",
 				"requiredChildren": [
 					{
 						"name": "Earnur, Last King of Gondor",
@@ -1403,7 +1403,7 @@
 			{
 				"name": "Arathorn's Stand",
 				"alignment": "good",
-				"armyBonus": "",
+				"armyBonus": "“They’re dangerous folk, wandering the wilds” – Rangers of the North increase their Attacks value to 2.\n                \"Heir of Isildur\" – Whenever Arathorn spends a Might Point, roll a D6. On a 4+ the point of Might is free and does not reduce Arathorn’s store of Might.\n                \"Silent Ambush\" – In Scenarios where you roll for Warbands to arrive, or ones where you roll to see which part of the board you deploy a Warband in (though not when rolling to choose deployment zones), you may modify the roll for Warbands from this Army by +1 or -1.",
 				"requiredChildren": [
 					{
 						"name": "Arathorn, Chieftain of the Dunedain",
@@ -1415,7 +1415,7 @@
 			{
 				"name": "Host of the Witch-King",
 				"alignment": "evil",
-				"armyBonus": "",
+				"armyBonus": "“If that fell Kingdom should rise again, Rivendell, Lórien, the Shire, even Gondor itself shall fall.” – Friendly Angmar Orc models within 3\" of a friendly Spirit Hero model gain the Terror special rule. \n                \"Lord of the Nazgûl\" – The Witch-king only loses a Will Point for having been in a Combat if he loses a Combat during the Fight phase (for example, if he doesn’t win the Duel Roll to see which side may make Strikes).\n                “No Man can kill me!” – Whilst Engaged in Combat with an enemy Man model, the Witch-king gains a bonus of +1 to his Fight Value.",
 				"requiredChildren": [
 					{
 						"name": "The Witch-King of Angmar C",
@@ -1427,13 +1427,13 @@
 			{
 				"name": "Shadows of Angmar",
 				"alignment": "evil",
-				"armyBonus": "",
+				"armyBonus": "“If that fell Kingdom should rise again, Rivendell, Lórien, the Shire, even Gondor itself shall fall.” – Friendly Angmar Orc models within 3\" of a friendly Spirit Hero model gain the Terror special rule.\n                \"Sense of Hopelessness\" – If an enemy Hero model is slain in Combat, then for the duration of the following turn, all enemy models suffer a -1 penalty to any Courage Tests they are required to take.\n                \"The Shadows of Angmar\" – Friendly Spirit models gain the Stalk Unseen special rule.",
 				"requiredChildren": []
 			},
 			{
 				"name": "Buhrdur's Horde",
 				"alignment": "evil",
-				"armyBonus": "",
+				"armyBonus": "\"Ambush!\" – At the start of the game, before either side has deployed, you may choose to have Buhrdûr’s Warband ambushing and not arrive as normal (if your General must deploy at the start of the game, you cannot use this ability). Instead, at the end of the Move Phase on the third turn (after both sides have moved all their models), the ambushing Warband must choose one of the following:\n                • Move onto the board from any board edge via the rules for Reinforcements.\n                • Deploy in, or within 1\" of, a wood, building, rocky outcrop or other similar piece of terrain that the models could hide in. A degree of common sense is required when deciding which pieces of terrain the Warband can hide in – they shouldn’t be leaping out of a river or from behind a single rock! You should always agree with your opponent at the beginning of the game which terrain pieces are eligible to ambush from. Models deployed in this way cannot be placed in base contact with, or within the Control Zones of, enemy models. Models that enter the board this way do not Activate as part of the Move Phase, and will count as having Moved half their Move Value for the purposes of shooting.\n                \"Masters of Terrain\" – Friendly models gain the Woodland Creature and Mountain Dweller special rules.\n                \"A Fearsome Foe\" – If Buhrdûr kills an enemy Hero in Combat, he gains the Fearless special rule for the remainder of the game",
 				"requiredChildren": [
 					{
 						"name": "Buhrdur, Hill Troll Chieftain",
@@ -1445,7 +1445,7 @@
 			{
 				"name": "Wolf Pack of Angmar",
 				"alignment": "evil",
-				"armyBonus": "",
+				"armyBonus": "\"Leader of the Pack\" – The Wild Warg Chieftain that is your General gains an additional point each of Might, Will and Fate.\n                \"Feral Charge\" – When a friendly Warg model Charges an enemy Infantry model, they gain the Knock to the Ground bonus as if they were Cavalry. This bonus is lost if they are subsequently Charged by an enemy Cavalry model.\n                \"Protect the Alpha\" – If your General has suffered at least one Wound, then friendly models treat them as a banner with a range of 6\". \n                \"Howl of the Wolf Pack\" – Once per game, at the start of any Fight Phase, your General can declare they are using this ability. Until the End Phase of the turn, friendly models gain a bonus of +1 to their Fight Value and may re-roll To Wound Rolls of a natural 1 when making Strikes.",
 				"requiredChildren": [
 					{
 						"name": "Wild Warg Chieftain Leader",
@@ -1457,7 +1457,7 @@
 			{
 				"name": "Army of Carn Dum",
 				"alignment": "evil",
-				"armyBonus": "",
+				"armyBonus": "\"Show of Strength\" – If a Carn Dûm Hero slays one or more enemy models in Combat, then for the duration of the following turn they gain a bonus of +1 to their Fight Value.\n                \"Banners of Carn Dûm\" – Friendly banners have a range of 6\" rather than 3\".\n                \"Fierce Charge\" – Friendly Warrior models gain a bonus of +1 to their Fight Value in a turn in which they Charge.",
 				"requiredChildren": [
 					{
 						"name": "Aldrac, Warlord of Carn Dum",
@@ -28415,7 +28415,7 @@
 				"name": "Banner of Arwen Evenstar",
 				"type": "Banner",
 				"tag": "Passive",
-				"definition": "This is a banner that affects all friendly models within 6\" rather than 3\".\n                Friendly models within 6\" gain the Fearless special rule. Additionally, Halbarad suffers no penalties for carrying the banner."
+				"definition": "This is a Unique banner with a range of 6\" rather than 3\", and Halbarad never suffers the -1 penalty to his Duel Rolls for carrying a banner. Additionally, friendly models within 6\" and Line of Sight of the Banner of Arwen Evenstar automatically pass any Courage Tests they are required to take."
 			},
 			{
 				"name": "Horn of Gondor",
@@ -29795,7 +29795,7 @@
 			{
 				"name": "Foresight of the Eldar",
 				"tag": "Passive",
-				"definition": "Before the game begins, roll a D6 and make a note of the result - these are Elrond's Foresight points for the battle. During the priority phase, after the dice has been rolled, so long as he is alive and on the battlefield, Elrond may choose to expend these Foresight points to alter the controlling player's dice roll. For each point expended, Elrond may alter the dice by either +1 or -1, to a minimum of 1 and a maximum of 6."
+				"definition": "Before the game begins, roll a D6 and make a note of the result - these are this model's Foresight points for the battle. During the priority phase, after the dice has been rolled, so long as he is alive and on the battlefield, this model may choose to expend these Foresight points to alter the controlling player's dice roll. For each point expended, this model may alter the dice by either +1 or -1, to a minimum of 1 and a maximum of 6."
 			},
 			{
 				"name": "Shieldwall",
@@ -29996,12 +29996,12 @@
 			{
 				"name": "Strength of Body, Strength of Will",
 				"tag": "Passive",
-				"definition": "Gulavhar's Attacks and Courage are always equal to his remaining Wounds."
+				"definition": "Gûlavhar’s Attacks are always equal to its remaining Wounds. Additionally, for each Wound Gûlavhar has lost, worsen Gûlavhar’s Courage value by 1 (this will improve again should Gûlavhar regain a lost Wound via the Immortal Hunger special rule below)."
 			},
 			{
 				"name": "Immortal Hunger",
 				"tag": "Active",
-				"definition": "Gulavhar regains a single Wound for each model he slays in combat. \n                Rend is the only Brutal Power Attack that allows Gûlavhar to regain Wounds in this manner. This can never take his Wounds beyond 4."
+				"definition": "Each time Gûlavhar slays a model in Combat, it regains a single Wound lost earlier in the battle. These Wounds are regained at the end of the Combat. Gûlavhar can only regain Wounds in this way by making Strikes, never by using a Brutal Power Attack."
 			},
 			{
 				"name": "Dwarven Fury",
@@ -30011,12 +30011,12 @@
 			{
 				"name": "Lead by Example",
 				"tag": "Active",
-				"definition": "In a turn in which Buhrdur slays an enemy Hero or Monster model in combat, \n                all friendly Angmar Orc models and Troll models within 6\" of him count as being in range of a banner."
+				"definition": "If Buhrdûr slays an enemy Hero or Monster in Combat, then for the rest of the game other friendly Orc or Troll models treat Buhrdûr as a banner. If Buhrdûr has slain 3 or more enemy Hero or Monster models, then for the rest of the game other friendly Orc or Troll models treat Buhrdûr as a banner with a range of 6\" instead."
 			},
 			{
 				"name": "Packlord",
 				"tag": "Active",
-				"definition": "Only friendly Warg models may benefit from a Wild Warg Chieftain's Stand Fast! and Heroic Actions."
+				"definition": "Friendly models may not benefit from the Heroic Actions or Stand Fast of this model unless they have the Warg keyword."
 			},
 			{
 				"name": "A Traitor Within",
@@ -31108,12 +31108,12 @@
 			{
 				"name": "The King in the North",
 				"tag": "Active",
-				"definition": "Arvedui's Stand Fast! is 12\" rather than 6\""
+				"definition": "The range of Arvedui's Stand Fast is 12\" rather than 6\""
 			},
 			{
 				"name": "Gift of Foresight",
 				"tag": "Active",
-				"definition": "Every time a friendly Arnor model within 6\" of Malbeth suffers a wound, roll a D6. On a 5+, the wound has been prevented, exactly as if a point of fate had been expended. Note that if this roll is failed, hero models may still use fate points as normal."
+				"definition": "Whenever a friendly Arnor model within 6\" and Line of Sight of Malbeth suffers a Wound, roll a D6. On a 5+, the Wound has been prevented and is ignored. Note that if this roll is failed, a Hero model may still use Fate Points as normal."
 			},
 			{
 				"name": "One of Nine",
@@ -31565,52 +31565,52 @@
 			{
 				"name": "Chieftain of the Dunedain",
 				"tag": "Passive",
-				"definition": "If your force includes Aranarth, you may include Rangers of the North and Dunedain as if they were from the Arnor army list. Additionally, friendly Rangers of the North and Dundedain within 6\" of Aranarth count as being in range of a banner. Any Rangers of the North and Dunedain in your force gain the Arnor keyword."
+				"definition": "Friendly Dúnedain Hero models may benefit from Arathorn’s Stand Fast."
 			},
 			{
 				"name": "A Fool's Challenge",
 				"tag": "Active",
-				"definition": "If Earnur is the target of a heroic challenge, he may never choose to decline under any circumstances. Additionally, Earnur must always charge an enemy hero model if he is able to do so."
+				"definition": "If Eärnur is ever the target of a Heroic Challenge, he may never choose to decline under any circumstances. Additionally, when Eärnur Activates, if he is able to Charge an enemy Hero model then he must do so."
 			},
 			{
-				"name": "Master Duelist",
+				"name": "Master Duellist",
 				"tag": "Active",
-				"definition": "At the start of a fight including Earnur, after resolving any special rules that affect an enemy model's Fight value, but before any Heroic Strikes are resolved, Earnur may increase his fight value to match that of a single non monster model he is engaged with."
+				"definition": "At the start of a Combat involving Eärnur, before any Heroic Strikes are resolved, Eärnur may increase his Fight Value to match that of a single enemy model he is Engaged in Combat with. Additionally, Eärnur can never have his Fight Value modified by enemy special rules or Magical Powers."
 			},
 			{
 				"name": "Scavenge",
 				"tag": "Active",
-				"definition": "Whenever Nazthak kills an enemy model in combat (with the exception of monster models), he may choose to scavenge a single piece of wargear carried by that model, with the exception of a mount, the One Ring or items of wargear that are integral to the model (such as claws and teeth). This will happen before any effects that allow the slain model to pass on that piece of warger.\n                Add the scavenged item to Nazthak's list of wargear. Nazthak will benefit from the scavenged wargear as if he was the original model. Nazthak may choose to discard any piece of scavenged wargear at any time, though if he does so he cannot reclaim it - it is lost."
+				"definition": "Whenever Nazthák slays an enemy model in Combat (with the exception of Monster models), he may choose to scavenge a single piece of wargear carried by that model, with the exception of a Mount, another type of armour, living creatures, the One Ring, or items of wargear that are integral to the model (such as claws and teeth). This will happen before any effects that allow the slain model to pass on that piece of wargear. Add the scavenged item to Nazthák’s list of wargear. Nazthák will benefit from the scavenged wargear as if he was the original model. Nazthák may choose to discard any piece of scavenged wargear at any time, though if he does so then he cannot reclaim it – it is lost."
 			},
 			{
 				"name": "Herald of Doom",
 				"tag": "Passive",
-				"definition": "At the start of the game, select one hero model in your opponent's list. While the Shadow of Rhudaur is within 6\" of them, they suffer -1 to fate rolls and -1 courage."
+				"definition": "At the beginning of the game, after both sides have been deployed, choose one Hero model in your opponent’s Army. Whilst the Shadow of Rhudaur is within 6\" of the chosen Hero, that Hero suffers a -1 penalty to their Fate Rolls and a -1 penalty to any Courage Tests they are required to take."
 			},
 			{
 				"name": "Powers of Angmar",
 				"tag": "Active",
-				"definition": "If the Shadow of Rhudaur rolls a natural 6 when making a casting roll then the channelled version of the magical power will be used if it is not resisted."
+				"definition": "If the Shadow of Rhudaur rolls a natural 6 when making a Casting Roll, then the target model cannot spend Will Points to attempt to Resist the Magical Power."
 			},
 			{
 				"name": "Conduit of Angmar",
 				"tag": "Passive",
-				"definition": "If an Angmar Ringwraith model is within 6\" of a Shade, they may use the Shade to determine line of sight and range when casting magical powers. Additionally, after making a casting roll within 6\" of a friendly Shade, an Angmar Ringwraith model can choose to deal a single wound to the Shade to add one to the casting value."
+				"definition": "If a Ringwraith model is within 6\" of a friendly Shade, they may use the Shade to determine range and Line of Sight for a Magical Power. Additionally, after making a Casting Roll within 6\" of a friendly Shade, a Ringwraith can choose to deal a single Wound to the Shade to add 1 to the Casting Roll."
 			},
 			{
 				"name": "Swirling Mists",
 				"tag": "Active",
-				"definition": "At the start of the shoot phase before heroics are declared, a Shade may expend a point of Will to activate this ability. For the remainder of the turn, enemy models will suffer a -1 to hit pentalty when making a shooting attack that targets a friendly model within 6\" of the shade. If the enemy model is within 12\" of the Shade, they will suffer -2 instead."
+				"definition": "At the start of the Shoot Phase, before the Declare Heroic Actions step, a Shade may spend a Will Point to use this ability. If it does, then for the remainder of the turn, enemy models will suffer a -1 penalty To Hit when making a shooting attack that targets a friendly model within 6\" of the Shade. If the enemy model making the shooting attack is also within 12\" of the Shade, they will suffer a -2 penalty To Hit instead."
 			},
 			{
 				"name": "Ghostly Resolve",
 				"tag": "Passive",
-				"definition": "Friendly Angmar Orc models within 12\" of one or more friendly Shades add 1 to their courage value."
+				"definition": "Friendly Angmar Orc models within 12\" of one or more models with this special rule gain a bonus of +1 to any Courage Tests they are required to take."
 			},
 			{
 				"name": "Feral Charge",
 				"tag": "Active",
-				"definition": "When a werewolf charges an enemy infantry model, they gain knock to the ground as if they were cavalry."
+				"definition": "When a Werewolf Charges an enemy Infantry model, they gain the Knock to the Ground bonus as if they were Cavalry. This bonus is lost if they are subsequently charged by an enemy Cavalry model."
 			},
 			{
 				"name": "Pathfinders",
@@ -31625,22 +31625,22 @@
 			{
 				"name": "Warlord of Carn Dum",
 				"tag": "Passive",
-				"definition": "Friendly Carn-Dum models within 6\" of Aldrac, Warlord of Carn Dum, must re-roll failed courage tests."
+				"definition": "Friendly Carn Dûm models within 6\" of Aldrac must re-roll failed Courage Tests."
 			},
 			{
 				"name": "Battle Frenzy",
 				"tag": "Active",
-				"definition": "If Aldrac slays an enemy model in combat, then he may declare a Heroic Combat during the following turn wtihout spending might."
+				"definition": "If Aldrac slays an enemy model that he was Engaged in Combat with, then in the following turn Aldrac may declare a Heroic Combat for free."
 			},
 			{
 				"name": "Incantations of Power",
 				"tag": "Active",
-				"definition": "During the priority phase, after priority has been rolled, Fraecht can spend a will point to use an incantation. If he does so, choose one of the incantations below - the effects last until the end of the turn.\n                Incantation of Strength - Friendly Carn Dum models within 3\" of Fraecht must 1s to wound when making strikes.\n                Incantation of Endurance - Whenever a friendly Carn Dum model within 3\" of Fraecht suffers a wound, roll a D6. On a 5+, the wound is ignored.\n                Incantation of Swiftness - Friendly Carn Dum models that start their Move wtihin 3\" of Fraecht are not slowed by difficult terrain (with the exception of water features)"
+				"definition": "During each Priority Phase, after Priority has been determined, Fráecht can spend a Will Point to use an incantation. If he does so, choose one of the incantations below – the effects last until the End Phase of the turn. \n                • Incantation of Strength – Friendly Carn Dûm models within 6\" of Fráecht must re-roll To Wound Rolls of a natural 1 when making Strikes. \n                • Incantation of Endurance – Whenever a friendly Carn Dûm model within 6\" of Fráecht suffers a Wound, roll a D6. On a 5+ the Wound is ignored. \n                • Incantation of Swiftness – Friendly Carn Dûm models that start their Move within 6\" of Fráecht will not be slowed by Difficult Terrain (with the exception of water features)."
 			},
 			{
 				"name": "Glory Seekers",
 				"tag": "Active",
-				"definition": "If this model is in combat with an enemy Hero model (though not if they are Supporting), then this model gains a bonus of +1 to Wound that Hero when making strikes."
+				"definition": "If this model is Engaged in Combat with an enemy Hero, then this model gains a bonus of +1 To Wound that Hero when making Strikes."
 			},
 			{
 				"name": "Defender of Edoras",
@@ -32133,6 +32133,21 @@
 				"name": "Trample (Royal War Mumak)",
 				"tag": "Active",
 				"definition": "When the Royal War Mumak Tramples, it will inflict 4 Strength 9 Impact Hits."
+			},
+			{
+				"name": "Remnants of Arnor",
+				"tag": "Passive",
+				"definition": "Friendly Dunedain models treat Aranarth as a banner. Additionally, all Dunedain models in the same Army List as Aranarth gain the Arnor Keyword."
+			},
+			{
+				"name": "Hero of the Elves",
+				"tag": "Active",
+				"definition": "Glorfindel gains a bonus of +1 To Wound when making Strikes against Monster models."
+			},
+			{
+				"name": "Brutish Cunning",
+				"tag": "Active",
+				"definition": "This model may re-roll a single D6 in a Duel Roll when fighting solely against Infantry models (but not Monster models)."
 			}
 		]
 	}
