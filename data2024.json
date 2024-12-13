@@ -1356,6 +1356,115 @@
 				"name": "Realms of Men",
 				"alignment": "good",
 				"armyBonus": "\"Kings of Men are always a Hero of Legend. A King of Men may include Warrior models in their Warband from any Army List, so long as they share the same Faction Keyword.\n                When working out which King of Men is your Army's General, it must be the one which shares the most common Faction Keyword throughout your Army. For example, if the most common Faction Keyword in your Army is Rohan, then the King of Men with the Rohan Keyword must be your General.\n                A Realms of Men Army may not have two Kings of Men with the same Faction Keyword; however, they may have multiple Kings of Men with different Faction Keywords.\n                A Realms of Men Army can never include any models with the Unique Keyword under any circumstances. However, it can include Hero models without the Unique Keyword so long as they share a Faction Keyword with a King of Men already in the Army. For example, a Realms of Men Army with a King of Men with the Gondor Keyword could include a Captain of Minas Tirith as they would both have the Gondor Keyword. Hero models included in this manner may also include Warrior models in their Warband with the same Faction Keyword.\n                The Realms of Men Army List allows you to create your own forces and combine multiple factions of Men in a way that suits you.\n                \""
+			},
+			{
+				"name": "Arnor",
+				"alignment": "good",
+				"armyBonus": "",
+				"requiredChildren": [
+					{
+						"name": "Arvedui, Last King of Arnor",
+						"points": 80,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Battle of Fornost",
+				"alignment": "good",
+				"armyBonus": "",
+				"requiredChildren": [
+					{
+						"name": "Earnur, Last King of Gondor",
+						"points": 80,
+						"elementPropertyName": "heroes"
+					},
+					{
+						"name": "Glorfindel, Lord of the West",
+						"points": 160,
+						"elementPropertyName": "heroes"
+					}
+				],
+				"childMatchesRequired": [
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "faction",
+						"value": "Gondor",
+						"childElementPropertyName": "warriors"
+					},
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "faction",
+						"value": "Rivendell",
+						"childElementPropertyName": "warriors"
+					}
+				]
+			},
+			{
+				"name": "Arathorn's Stand",
+				"alignment": "good",
+				"armyBonus": "",
+				"requiredChildren": [
+					{
+						"name": "Arathorn, Chieftain of the Dunedain",
+						"points": 80,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Host of the Witch-King",
+				"alignment": "evil",
+				"armyBonus": "",
+				"requiredChildren": [
+					{
+						"name": "The Witch-King of Angmar C",
+						"points": 150,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Shadows of Angmar",
+				"alignment": "evil",
+				"armyBonus": "",
+				"requiredChildren": []
+			},
+			{
+				"name": "Buhrdur's Horde",
+				"alignment": "evil",
+				"armyBonus": "",
+				"requiredChildren": [
+					{
+						"name": "Buhrdur, Hill Troll Chieftain",
+						"points": 130,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Wolf Pack of Angmar",
+				"alignment": "evil",
+				"armyBonus": "",
+				"requiredChildren": [
+					{
+						"name": "Wild Warg Chieftain Leader",
+						"points": 80,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Army of Carn Dum",
+				"alignment": "evil",
+				"armyBonus": "",
+				"requiredChildren": [
+					{
+						"name": "Aldrac, Warlord of Carn Dum",
+						"points": 120,
+						"elementPropertyName": "heroes"
+					}
+				]
 			}
 		],
 		"heroicTiers": [
@@ -1385,6 +1494,1227 @@
 			}
 		],
 		"heroes": [
+			{
+				"name": "Wild Warg Chieftain Leader",
+				"factions": [
+					{
+						"name": "Wolf Pack of Angmar",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 80,
+				"movement": 10,
+				"fight": 5,
+				"shoot": 5,
+				"strength": 6,
+				"defence": 5,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 6,
+				"intelligence": 7,
+				"might": 3,
+				"will": 3,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic March",
+					"Heroic Strength"
+				],
+				"race": [
+					"Warg"
+				],
+				"faction": [
+					"Angmar"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Beast"
+				],
+				"baseSize": [
+					"40mm"
+				],
+				"specialRules": [
+					"Terror",
+					"Packlord"
+				],
+				"wargear": [
+					"Claws and teeth (hand weapons)"
+				],
+				"options": []
+			},
+			{
+				"name": "Wild Warg Chieftain",
+				"factions": [
+					{
+						"name": "Shadows of Angmar",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Buhrdur's Horde",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Wolf Pack of Angmar",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"unlimited": true,
+				"points": 80,
+				"movement": 10,
+				"fight": 5,
+				"shoot": 5,
+				"strength": 6,
+				"defence": 5,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 6,
+				"intelligence": 7,
+				"might": 2,
+				"will": 2,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic March",
+					"Heroic Strength"
+				],
+				"race": [
+					"Warg"
+				],
+				"faction": [
+					"Angmar"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Beast"
+				],
+				"baseSize": [
+					"40mm"
+				],
+				"specialRules": [
+					"Terror",
+					"Packlord"
+				],
+				"wargear": [
+					"Claws and teeth (hand weapons)"
+				],
+				"options": []
+			},
+			{
+				"name": "Captain of Carn Dum",
+				"factions": [
+					{
+						"name": "Host of the Witch-King",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of Carn Dum",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"unlimited": true,
+				"points": 55,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic March"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Angmar",
+					"Carn Dum"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Glory Seekers"
+				],
+				"wargear": [
+					"Armour",
+					"Shield",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Fraecht, Vassal of the Witch-King",
+				"factions": [
+					{
+						"name": "Host of the Witch-King",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of Carn Dum",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 65,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 5,
+				"might": 1,
+				"will": 4,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Resolve"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Angmar",
+					"Carn Dum"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Incantations of Power"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Hand-and-a-half weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Aldrac, Warlord of Carn Dum",
+				"factions": [
+					{
+						"name": "Host of the Witch-King",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Army of Carn Dum",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 120,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 5,
+				"defence": 6,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 5,
+				"intelligence": 6,
+				"might": 3,
+				"will": 3,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Angmar",
+					"Carn Dum"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Mighty Blow",
+					"Warlord of Carn Dum",
+					"Battle Frenzy"
+				],
+				"wargear": [
+					"Armour",
+					"Shield",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Angmar Orc Shaman",
+				"factions": [
+					{
+						"name": "Host of the Witch-King",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Shadows of Angmar",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Buhrdur's Horde",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"unlimited": true,
+				"points": 50,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 5,
+				"strength": 3,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 7,
+				"intelligence": 7,
+				"might": 1,
+				"will": 3,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Channelling"
+				],
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Angmar"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [],
+				"wargear": [
+					"Heavy armour",
+					"Spear",
+					"Hand weapon"
+				],
+				"options": [],
+				"magicalPowers": [
+					{
+						"name": "Instill Fear",
+						"range": 0,
+						"casting": 3
+					},
+					{
+						"name": "Drain Courage",
+						"range": 12,
+						"casting": 4
+					},
+					{
+						"name": "Wither",
+						"range": 12,
+						"casting": 4
+					}
+				]
+			},
+			{
+				"name": "Angmar Orc Captain",
+				"factions": [
+					{
+						"name": "Host of the Witch-King",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Shadows of Angmar",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Buhrdur's Horde",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of Carn Dum",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"unlimited": true,
+				"points": 45,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 5,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 7,
+				"intelligence": 7,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic March"
+				],
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Angmar"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [],
+				"wargear": [
+					"Armour",
+					"Shield",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Barrow-wight",
+				"factions": [
+					{
+						"name": "Host of the Witch-King",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Shadows of Angmar",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"unlimited": true,
+				"points": 50,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 5,
+				"strength": 3,
+				"defence": 7,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 6,
+				"might": 0,
+				"will": 5,
+				"fate": 0,
+				"heroicActions": [],
+				"race": [
+					"Spirit"
+				],
+				"faction": [
+					"Angmar"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Blades of the Dead",
+					"Spectral Walk",
+					"Terror"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon"
+				],
+				"options": [],
+				"magicalPowers": [
+					{
+						"name": "Paralyse",
+						"range": 6,
+						"casting": 3
+					}
+				]
+			},
+			{
+				"name": "Shade",
+				"factions": [
+					{
+						"name": "Host of the Witch-King",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Shadows of Angmar",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"unlimited": true,
+				"points": 75,
+				"movement": 6,
+				"fight": 1,
+				"shoot": 6,
+				"strength": 1,
+				"defence": 8,
+				"attack": 2,
+				"wounds": 3,
+				"courage": 5,
+				"intelligence": 8,
+				"might": 0,
+				"will": 4,
+				"fate": 1,
+				"heroicActions": [],
+				"race": [
+					"Spirit"
+				],
+				"faction": [
+					"Angmar"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Blades of the Dead",
+					"Dominant (3)",
+					"Spectral Walk",
+					"Terror",
+					"Conduit of Angmar",
+					"Swirling Mists",
+					"Ghostly Resolve"
+				],
+				"wargear": [
+					"An amalgamation of grasping spectral hands (hand weapons)"
+				],
+				"options": []
+			},
+			{
+				"name": "Nazthak, Orc Captain",
+				"factions": [
+					{
+						"name": "Host of the Witch-King",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Shadows of Angmar",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 50,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 5,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 7,
+				"intelligence": 6,
+				"might": 2,
+				"will": 1,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Defence"
+				],
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Angmar"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Scavenge"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Buhrdur, Hill Troll Chieftain",
+				"factions": [
+					{
+						"name": "Buhrdur's Horde",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 130,
+				"movement": 6,
+				"fight": 7,
+				"shoot": 4,
+				"strength": 7,
+				"defence": 7,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 6,
+				"intelligence": 5,
+				"might": 3,
+				"will": 3,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"race": [
+					"Troll"
+				],
+				"faction": [
+					"Angmar"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Monster",
+					"Unique"
+				],
+				"baseSize": [
+					"50mm"
+				],
+				"specialRules": [
+					"Dominant (4)",
+					"General Hunter",
+					"Terror",
+					"Throw Stones (range 12\", Strength 8)",
+					"Throw Stones (X)",
+					"Lead by Example",
+					"Brutish Cunning"
+				],
+				"wargear": [
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Gulavhar, The Terror of Arnor",
+				"factions": [
+					{
+						"name": "Shadows of Angmar",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 200,
+				"movement": 6,
+				"fight": 7,
+				"shoot": 5,
+				"strength": 8,
+				"defence": 5,
+				"attack": 0,
+				"wounds": 4,
+				"courage": 6,
+				"intelligence": 4,
+				"might": 3,
+				"will": 3,
+				"fate": 0,
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic Strength"
+				],
+				"race": [
+					"Spirit"
+				],
+				"faction": [
+					"Angmar"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Monster",
+					"Unique"
+				],
+				"baseSize": [
+					"60mm"
+				],
+				"specialRules": [
+					"Dominant (5)",
+					"Fly",
+					"Harbinger of Evil (12\")",
+					"Large Target",
+					"Monstrous Charge",
+					"Resistant to Magic",
+					"Terror",
+					"Strength of Body, Strength of Will",
+					"Immortal Hunger"
+				],
+				"wargear": [
+					"Claws and teeth (hand weapons)"
+				],
+				"options": []
+			},
+			{
+				"name": "Ranger of the North",
+				"factions": [
+					{
+						"name": "Arnor",
+						"heroicTier": "Independent Hero"
+					},
+					{
+						"name": "Battle of Fornost",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Arathorn's Stand",
+						"heroicTier": "Independent Hero"
+					}
+				],
+				"unlimited": true,
+				"points": 25,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 1,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Accuracy"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Dunedain"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Woodland Creature"
+				],
+				"wargear": [
+					"Hand weapon",
+					"Bow"
+				],
+				"options": [
+					{
+						"name": "Armour",
+						"points": 5
+					},
+					{
+						"name": "Spear",
+						"points": 1
+					}
+				]
+			},
+			{
+				"name": "Halbarad",
+				"factions": [
+					{
+						"name": "Arathorn's Stand",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 70,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 3,
+				"will": 2,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Accuracy",
+					"Heroic Strike"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Dunedain"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Woodland Creature"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Bow"
+				],
+				"options": [
+					{
+						"name": "Banner of Arwen Evenstar",
+						"points": 40
+					}
+				]
+			},
+			{
+				"name": "Arathorn, Chieftain of the Dunedain",
+				"factions": [
+					{
+						"name": "Arathorn's Stand",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 80,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 5,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 3,
+				"will": 2,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Accuracy",
+					"Heroic Strike"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Dunedain"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Woodland Creature",
+					"Chieftain of the Dunedain"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Bow"
+				],
+				"options": []
+			},
+			{
+				"name": "Earnur, Last King of Gondor",
+				"factions": [
+					{
+						"name": "Battle of Fornost",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 110,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 4,
+				"intelligence": 6,
+				"might": 3,
+				"will": 3,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Resolve",
+					"Heroic Strike"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"A Fool's Challenge",
+					"Master Duellist"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Shield",
+					"Hand weapon"
+				],
+				"options": [
+					{
+						"name": "Armoured horse and lance",
+						"points": 30
+					}
+				]
+			},
+			{
+				"name": "Glorfindel, Lord of the West",
+				"factions": [
+					{
+						"name": "Battle of Fornost",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 160,
+				"movement": 6,
+				"fight": 8,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 7,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 3,
+				"intelligence": 3,
+				"might": 3,
+				"will": 3,
+				"fate": 3,
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Resolve",
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rivendell"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Expert Rider",
+					"Horse Lord",
+					"Resistant to Magic",
+					"Terror",
+					"Woodland Creature",
+					"Hero of the Elves",
+					"Lord of the West"
+				],
+				"wargear": [
+					"Armour of Gondolin",
+					"Elven hand-and-a-half weapon"
+				],
+				"options": [
+					{
+						"name": "Asfaloth",
+						"points": 20,
+						"unavailableWith": [
+							"Arwen Undomiel"
+						],
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Horse",
+						"points": 20,
+						"chooseOneKey": "a"
+					}
+				]
+			},
+			{
+				"name": "Arvedui, Last King of Arnor",
+				"factions": [
+					{
+						"name": "Arnor",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 80,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 3,
+				"will": 2,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Arnor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Hatred (Angmar)",
+					"The King in the North"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Aranarth, First Chieftain of the Dunedain",
+				"factions": [
+					{
+						"name": "Arnor",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Battle of Fornost",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 80,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 3,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Accuracy",
+					"Heroic Strike"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Arnor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Expert Shot",
+					"Hatred (Angmar)",
+					"Sharpshooter",
+					"Remnants of Arnor"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Bow"
+				],
+				"options": []
+			},
+			{
+				"name": "Malbeth the Seer",
+				"factions": [
+					{
+						"name": "Arnor",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 80,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 4,
+				"might": 1,
+				"will": 2,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Resolve"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Arnor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Gift of Foresight",
+					"Foresight of the Eldar"
+				],
+				"wargear": [
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Argadir, Captain of Arnor",
+				"factions": [
+					{
+						"name": "Arnor",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 85,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 2,
+				"will": 2,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic March"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Arnor"
+				],
+				"unitType": [
+					"Hero",
+					"Cavalry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Expert Rider",
+					"Hatred (Angmar)",
+					"Hatred (X)",
+					"Master of Battle (5+)",
+					"Master of Battle (X)"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon",
+					"War spear",
+					"Horse"
+				],
+				"options": []
+			},
+			{
+				"name": "Captain of Arnor",
+				"factions": [
+					{
+						"name": "Arnor",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"unlimited": true,
+				"points": 60,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 7,
+				"intelligence": 6,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic March"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Arnor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Hatred (Angmar)",
+					"Hatred (X)"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Shield",
+					"Hand weapon"
+				],
+				"options": []
+			},
 			{
 				"name": "Haleth, Prince of Rohan",
 				"factions": [
@@ -3481,6 +4811,10 @@
 					{
 						"name": "Minas Morgul",
 						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Host of the Witch-King",
+						"heroicTier": "Hero of Legend"
 					}
 				],
 				"points": 150,
@@ -3545,7 +4879,11 @@
 					{
 						"name": "Armoured Fell Beast",
 						"points": 70,
-						"chooseOneKey": "a"
+						"chooseOneKey": "a",
+						"availableIn": [
+							"Legions of Mordor",
+							"Minas Morgul"
+						]
 					},
 					{
 						"name": "Fell Beast",
@@ -3557,14 +4895,19 @@
 					},
 					{
 						"name": "Crown of Morgul",
-						"points": 25
+						"points": 25,
+						"availableIn": [
+							"Legions of Mordor",
+							"Minas Morgul"
+						]
 					},
 					{
 						"name": "Horse",
 						"points": 20,
 						"chooseOneKey": "a",
 						"availableIn": [
-							"Minas Morgul"
+							"Minas Morgul",
+							"Host of the Witch-King"
 						]
 					},
 					{
@@ -3573,7 +4916,11 @@
 					},
 					{
 						"name": "Two-handed weapon",
-						"points": 5
+						"points": 5,
+						"availableIn": [
+							"Legions of Mordor",
+							"Minas Morgul"
+						]
 					}
 				],
 				"specialRules": [
@@ -3686,6 +5033,83 @@
 				"wargear": [
 					"Heavy armour",
 					"Hand weapon"
+				]
+			},
+			{
+				"name": "The Shadow of Rhudaur",
+				"factions": [
+					{
+						"name": "Host of the Witch-King",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Shadows of Angmar",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 80,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 7,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 2,
+				"will": 5,
+				"fate": 2,
+				"race": [
+					"Spirit"
+				],
+				"faction": [
+					"Angmar"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Challenge"
+				],
+				"options": [],
+				"specialRules": [
+					"Blades of the Dead",
+					"Spectral Walk",
+					"Terror",
+					"Herald of Doom",
+					"Power of Angmar"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				],
+				"magicalPowers": [
+					{
+						"name": "Drain Courage",
+						"range": 6,
+						"casting": 3
+					},
+					{
+						"name": "Fog of Disarray",
+						"range": 0,
+						"casting": 3
+					},
+					{
+						"name": "Curse",
+						"range": 6,
+						"casting": 4
+					},
+					{
+						"name": "Wither",
+						"range": 6,
+						"casting": 5
+					}
 				]
 			},
 			{
@@ -5607,11 +7031,11 @@
 				"name": "Cirdan of the Grey Havens",
 				"factions": [
 					{
-						"name": "Battle of Fornost",
-						"heroicTier": "Minor Hero"
+						"name": "Lindon",
+						"heroicTier": "Hero of Fortitude"
 					},
 					{
-						"name": "Lindon",
+						"name": "Battle of Fornost",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -5745,7 +7169,12 @@
 				"options": [
 					{
 						"name": "Horse, Elf bow and Elven lance",
-						"points": 30
+						"points": 30,
+						"availableIn": [
+							"Rivendell",
+							"Linon",
+							"The Last Alliance"
+						]
 					},
 					{
 						"name": "Shield",
@@ -18321,6 +19750,262 @@
 		],
 		"warriors": [
 			{
+				"name": "Hobbit Archer",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Aranarth, First Chieftain of the Dunedain"
+							},
+							{
+								"in": "Battle of Fornost"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Ranger of the North"
+							},
+							{
+								"in": "Battle of Fornost"
+							}
+						]
+					}
+				],
+				"points": 5,
+				"movement": 4,
+				"fight": 2,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"options": [
+					{
+						"name": "War horn",
+						"points": 25
+					}
+				],
+				"specialRules": [
+					"Resistant to Magic",
+					"Throw Stones (range 8\", Strength 1)",
+					"Throw Stones (X)"
+				],
+				"wargear": [
+					"Hand weapon",
+					"Short bow"
+				]
+			},
+			{
+				"name": "Warrior of Carn Dum",
+				"factions": [
+					"Host of the Witch-King",
+					"Army of Carn Dum"
+				],
+				"points": 9,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Angmar",
+					"Carn Dum"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"options": [
+					{
+						"name": "Banner",
+						"points": 25,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Spear",
+						"points": 1,
+						"chooseOneKey": "a"
+					}
+				],
+				"specialRules": [
+					"Glory Seekers"
+				],
+				"wargear": [
+					"Armour",
+					"Shield",
+					"Hand weapon"
+				]
+			},
+			{
+				"name": "Warrior of Arnor",
+				"factions": [
+					"Arnor"
+				],
+				"points": 8,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 6,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 8,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Arnor"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"options": [
+					{
+						"name": "Swap shield and spear for banner",
+						"points": 25
+					}
+				],
+				"specialRules": [
+					"Hatred (X)",
+					"Hatred (Angmar)"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Shield",
+					"Spear",
+					"Hand weapon"
+				]
+			},
+			{
+				"name": "Knight of Arnor",
+				"factions": [
+					"Arnor"
+				],
+				"points": 15,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 6,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 8,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Arnor"
+				],
+				"unitType": [
+					"Warrior",
+					"Cavalry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"options": [],
+				"specialRules": [
+					"Hatred (X)",
+					"Hatred (Angmar)"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Shield",
+					"War spear",
+					"Hand weapon",
+					"Horse"
+				]
+			},
+			{
+				"name": "Ranger of Arnor",
+				"factions": [
+					"Arnor"
+				],
+				"points": 8,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Arnor"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"options": [
+					{
+						"name": "Banner",
+						"points": 25,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "War horn",
+						"points": 25,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Spear",
+						"points": 1,
+						"chooseOneKey": "a"
+					}
+				],
+				"specialRules": [
+					"Hatred (X)",
+					"Hatred (Angmar)"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Bow"
+				]
+			},
+			{
 				"name": "Hill Tribesman",
 				"factions": [
 					"Usurpers of Edoras",
@@ -19505,37 +21190,68 @@
 			},
 			{
 				"name": "Ranger of the North",
-				"factions": [],
-				"points": 30,
+				"factions": [
+					"Arnor",
+					"Arathorn's Stand"
+				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Aranarth, First Chieftain of the Dunedain"
+							},
+							{
+								"in": "Battle of Fornost"
+							}
+						]
+					}
+				],
+				"unlimited": true,
+				"points": 25,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 3,
 				"strength": 4,
-				"defence": 5,
+				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 1,
 				"will": 1,
 				"fate": 1,
 				"heroicActions": [
 					"Heroic Accuracy"
 				],
-				"specialRules": [],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Dunedain"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Woodland Creature"
+				],
+				"wargear": [
+					"Hand weapon",
+					"Bow"
+				],
 				"options": [
+					{
+						"name": "Armour",
+						"points": 5
+					},
 					{
 						"name": "Spear",
 						"points": 1
-					},
-					{
-						"name": "Horse",
-						"points": 10
 					}
-				],
-				"wargear": [
-					"Sword",
-					"Armour",
-					"Bow"
 				],
 				"countAsProperty": "heroes"
 			},
@@ -20508,7 +22224,12 @@
 			},
 			{
 				"name": "Angmar Orc Warrior",
-				"factions": [],
+				"factions": [
+					"Host of the Witch-King",
+					"Shadows of Angmar",
+					"Buhurdar's Horde",
+					"Army of Carn Dum"
+				],
 				"points": 5,
 				"movement": 6,
 				"fight": 3,
@@ -20517,33 +22238,52 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 2,
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Angmar"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"options": [
 					{
 						"name": "Banner",
-						"points": 25
+						"points": 25,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Orc bow",
-						"points": 1
+						"points": 1,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
-						"points": 1
+						"points": 1,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Spear",
-						"points": 1
+						"points": 1,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Two-handed weapon",
-						"points": 1
+						"points": 1,
+						"requireChooseOneKey": "a"
 					}
 				],
 				"specialRules": [],
 				"wargear": [
 					"Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -20843,7 +22583,12 @@
 			},
 			{
 				"name": "Angmar Warg Rider",
-				"factions": [],
+				"factions": [
+					"Host of the Witch-King",
+					"Shadows of Angmar",
+					"Buhurdar's Horde",
+					"Army of Carn Dum"
+				],
 				"points": 11,
 				"movement": 6,
 				"fight": 3,
@@ -20852,29 +22597,47 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 2,
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Angmar"
+				],
+				"unitType": [
+					"Warrior",
+					"Cavalry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"options": [
 					{
-						"name": "Banner",
-						"points": 25
+						"name": "Shield and throwing spears",
+						"points": 2,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Orc bow",
-						"points": 1
+						"points": 1,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
-						"points": 1
+						"points": 1,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Throwing spears",
-						"points": 1
+						"points": 1,
+						"requireChooseOneKey": "a"
 					}
 				],
 				"specialRules": [],
 				"wargear": [
 					"Armour",
-					"Sword",
+					"Hand weapon",
 					"Warg"
 				]
 			},
@@ -21599,7 +23362,9 @@
 			{
 				"name": "Spectre",
 				"factions": [
-					"Minas Morgul"
+					"Minas Morgul",
+					"Host of the Witch-King",
+					"Shadows of Angmar"
 				],
 				"points": 15,
 				"movement": 6,
@@ -21638,26 +23403,39 @@
 			},
 			{
 				"name": "Wild Warg",
-				"factions": [],
-				"additionalHeroes": [
-					"Druzhag the Beastcaller"
-				],
-				"availableIn": [
-					"Druzhag the Beastcaller"
+				"factions": [
+					"Shadows of Angmar",
+					"Buhrdur's Horde",
+					"Wolf Pack of Angmar"
 				],
 				"points": 7,
 				"movement": 10,
 				"fight": 3,
-				"shoot": 5,
+				"shoot": 6,
 				"strength": 4,
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 2,
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Warg"
+				],
+				"faction": [
+					"Angmar"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry",
+					"Beast"
+				],
+				"baseSize": [
+					"40mm"
+				],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
-					"Claws and Teeth"
+					"Claws and teeth (hand weapons"
 				]
 			},
 			{
@@ -22658,7 +24436,8 @@
 				"factions": [
 					"Azog's Hunters",
 					"Pits of Dol Guldur",
-					"Rise of the Necromancer"
+					"Rise of the Necromancer",
+					"Wolf Pack of Angmar"
 				],
 				"points": 8,
 				"movement": 10,
@@ -22694,16 +24473,35 @@
 			},
 			{
 				"name": "Werewolf",
-				"factions": [],
+				"factions": [
+					"Host of the Witch-King",
+					"Shadows of Angmar",
+					"Wolf Pack of Angmar"
+				],
 				"points": 25,
 				"movement": 10,
 				"fight": 5,
-				"shoot": 5,
+				"shoot": 6,
 				"strength": 5,
-				"defence": 4,
+				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
 				"courage": 5,
+				"intelligence": 8,
+				"race": [
+					"Spirit"
+				],
+				"faction": [
+					"Angmar"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry",
+					"Beast"
+				],
+				"baseSize": [
+					"50mm"
+				],
 				"options": [],
 				"specialRules": [
 					"Fell Sight",
@@ -22711,13 +24509,15 @@
 					"Feral Charge"
 				],
 				"wargear": [
-					"Claws",
-					"Teeth"
+					"Claws and teeth (hand weapon)"
 				]
 			},
 			{
 				"name": "Hill Troll",
-				"factions": [],
+				"factions": [
+					"Buhrdur's Horde",
+					"Army of Carn Dum"
+				],
 				"points": 75,
 				"movement": 6,
 				"fight": 6,
@@ -22726,17 +24526,33 @@
 				"defence": 6,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Troll"
+				],
+				"faction": [
+					"Angmar"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry",
+					"Monster"
+				],
+				"baseSize": [
+					"50mm"
+				],
 				"options": [],
 				"specialRules": [
+					"Dominant (3)",
+					"Dominant (X)",
 					"Terror",
-					"Throw Stones",
+					"Throw Stones (X)",
 					"Throw Stones (Range 12\" Strength 8)",
-					"Pathfinders",
-					"Hill Troll Intelligence"
+					"Brutish Cunning"
 				],
 				"wargear": [
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
