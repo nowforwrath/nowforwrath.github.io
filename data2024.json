@@ -550,7 +550,7 @@
 			{
 				"name": "Defenders of Helm's Deep",
 				"alignment": "good",
-				"armyBonus": "\"Allies 'til the End\" - Haldir treats both Aragorn and Theoden as a banner with a range of 6\". Additionally, whilst within 6\" of either Aragorn or Theoden, Haldir automatically passes all Courage Tests and may re-roll failed To Wound rolls when making Strikes.\n                \"Fall Back to the Keep!\" - If this Army is Broken, friendly Warrior models gain a bonus of +1 to any Courage Tests they are required to take. Additionally, if this Army is Broken, friendly Warrior models within 6\" of Theoden may re-roll failed Courage Tests\n                \"Give them a Volley\" - Friendly models increase the range of their shooting attacks by 6\", provided they ahve not moved that turn. This special rule does not apply to throwing weapons.",
+				"armyBonus": "\"Allies 'til the End\" - Haldir treats both Aragorn and Theoden as a banner with a range of 6\". Additionally, whilst within 6\" of either Aragorn or Theoden, Haldir automatically passes all Courage Tests and may re-roll failed To Wound rolls when making Strikes.\n                \"Fall Back to the Keep!\" - If this Army is Broken, friendly Warrior models gain a bonus of +1 to any Courage Tests they are required to take. Additionally, if this Army is Broken, friendly Warrior models within 6\" of Theoden may re-roll failed Courage Tests\n                \"Give them a Volley\" - Friendly models increase the range of their shooting attacks by 6\", provided they have not moved that turn. This special rule does not apply to throwing weapons.",
 				"requiredChildren": [
 					{
 						"name": "Theoden, King of Rohan",
@@ -671,7 +671,7 @@
 			{
 				"name": "Atop the Wall",
 				"alignment": "good",
-				"armyBonus": "\"Fight to the last Man\" - Friendly Gondor models within 12\" of Gandalf the White automatically pass any Courage Tests they ahve to take.\n                \"Return to your posts\" - Friendly Gondor models within range of an Objective Marker may re-roll To Wound rolls of a natural 1 when making shooting attacks or making Strikes.\n                \"Send these foul creatures into the abyss\" - Friendly Gondor models within 12\" of Gandalf the White gain the Hatred (Mordor) special rule.",
+				"armyBonus": "\"Fight to the last Man\" - Friendly Gondor models within 12\" of Gandalf the White automatically pass any Courage Tests they have to take.\n                \"Return to your posts\" - Friendly Gondor models within range of an Objective Marker may re-roll To Wound rolls of a natural 1 when making shooting attacks or making Strikes.\n                \"Send these foul creatures into the abyss\" - Friendly Gondor models within 12\" of Gandalf the White gain the Hatred (Mordor) special rule.",
 				"requiredChildren": [
 					{
 						"name": "Gandalf the White",
@@ -8477,7 +8477,8 @@
 				],
 				"wargear": [
 					"Anduril, Flame of the West",
-					"Heavy Armour"
+					"Heavy Armour",
+					"Ring of Barahir"
 				]
 			},
 			{
@@ -15339,24 +15340,33 @@
 				],
 				"points": 35,
 				"movement": 6,
-				"fight": 2,
+				"fight": 3,
 				"shoot": 4,
 				"strength": 3,
 				"defence": 3,
 				"attack": 1,
 				"wounds": 2,
 				"courage": 5,
+				"intelligence": 6,
 				"might": 1,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Lake-town"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Strength"
-				],
-				"keywords": [
-					"Woman",
-					"Lake-town",
-					"Infantry",
-					"Hero"
 				],
 				"options": [],
 				"specialRules": [
@@ -30702,7 +30712,7 @@
 			{
 				"name": "Stand by our Men!",
 				"tag": "Passive",
-				"definition": "If Hilda-Bianca Charges, then during the ensuing Fight phase, Hilda-Bianca and Lake-town Militia within 3\" of her gain a bonus of +1 To Wound if they charged that turn."
+				"definition": "If Hilda-Bianca charges into Combat, then during the ensuing Fight Phase, Hilda-Bianca and friendly Lake-town Warrior models wtihin 3\" of her gain a bonus of +1 To Wound when making Strikes."
 			},
 			{
 				"name": "It has not yet Awoken",
