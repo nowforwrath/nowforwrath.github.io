@@ -7234,7 +7234,7 @@
 						"points": 30,
 						"availableIn": [
 							"Rivendell",
-							"Linon",
+							"Lindon",
 							"The Last Alliance"
 						]
 					},
@@ -22664,7 +22664,7 @@
 				"factions": [
 					"Host of the Witch-King",
 					"Shadows of Angmar",
-					"Buhurdar's Horde",
+					"Buhrdur's Horde",
 					"Army of Carn Dum"
 				],
 				"points": 11,
@@ -30029,7 +30029,7 @@
 			{
 				"name": "Find the Halflings",
 				"tag": "Passive",
-				"definition": "In Scenarios that use the Maelstrom of Battle special rule, Lurtz's Warband does not roll to determine where they isArrayBufferView. Instead, Lurtz may choose the result."
+				"definition": "In Scenarios that use the Maelstrom of Battle special rule, Lurtz's Warband does not roll to determine where they arrive. Instead, Lurtz may choose the result."
 			},
 			{
 				"name": "Riding Dagger",
@@ -31266,12 +31266,12 @@
 				"definition": "If this model is slain, instead of removing them as a casualty place a 25mm Marker where they were slain - models may not overlap these Markers for any reason. During the Priority Phase of each turn, after Priority has been determined, roll a D6 for this model's Marker. On a 3+, immediately place this model anywhere within 3\" of the Marker, so long as it is not in base contact with the Marker. If this is not possible, place this model where their Marker was. In either case, remove the Marker after rolling. On a 1-2, the model is slain and removed as a casualty -remove the Marker from the board. Whilst the Nazgul of Dol Guldur are in range of the Necromancer's Master of the Nazgul special rule (depending on how many Will Points he has remaining), the Necromancer can spend his Will Points to improve this roll. For each Will Point the Necromancer spends in this way, improve the Unholy\nResurrection roll by 1.\nWhilst the Marker is in play, this model counts as on the board for the purpose of determining whether your Army is Broken or reduced to 25%. However, a Marker cannot hold Objectives and the model will still count as being slain for the purpose of any special rules that come into effect when model is slain, such as a Heroic Combat.\nIf this model is slain by a Magical Power or an Elven weapon then they suffer a -1 penalty to their rolls for this special rule When the game ends, any Markers on the board are removed and the models associated with them count as a casualty"
 			},
 			{
-				"name": "Angmar Arisen",
+				"name": "Angmar Arise",
 				"tag": "Passive",
 				"definition": "The Witch-king has a Fight Value of 6 rather than 5, and 3 Might Points rather than 1."
 			},
 			{
-				"name": "Angmar Arisen (Slayer of Men)",
+				"name": "Angmar Arise (Slayer of Men)",
 				"tag": "Passive",
 				"definition": "An Army may include up to two Slayers of Men. A model with this special rule may re-roll failed To Wound Rolls when making Strikes against an enemy Hero model. Whilst this model is within 1\" of the other Slayer of Men, this model has the Burly special rule."
 			},
