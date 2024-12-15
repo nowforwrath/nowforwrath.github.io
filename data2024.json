@@ -22253,27 +22253,27 @@
 					{
 						"name": "Banner",
 						"points": 25,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Orc bow",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Spear",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Two-handed weapon",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					}
 				],
 				"specialRules": [],
