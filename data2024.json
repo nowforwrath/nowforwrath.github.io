@@ -25,21 +25,12 @@
 	"credit": [
 		{
 			"type": "text",
-			"text": "Data provided by Now For Wrath. Check out their YouTube channel with battle reports "
+			"text": "Data provided by Now For Wrath. Check out their first live stream on December 15th at 11:30am EDT "
 		},
 		{
 			"type": "url",
-			"text": "Here",
+			"text": "Here!",
 			"url": "https://www.youtube.com/@NowForWrathGaming"
-		},
-		{
-			"type": "text",
-			"text": " or written battle reports "
-		},
-		{
-			"type": "url",
-			"text": "Here",
-			"url": "https://nowforwrath.com"
 		}
 	],
 	"game": "Middle-Earth Strategy Battle Game - 2024",
@@ -891,7 +882,7 @@
 			{
 				"name": "Cirith Ungol",
 				"alignment": "evil",
-				"armyBonus": "\"Animosity\" - Friendly Orc models gain a bonus of +1 To Wound when making Strikes if there is a friendly Uruk-hai model Engaged in the same Combat. Friendly uruk-hai models gain a bonus of +1 To Wound when making strikes if there is a friendly Orc model engaged in the same Combat.\n                \"Rivals for Power\" - Keep track of how many models Gorbag and Shagrat have each killed. If at any point either of them has fewer kills than the other, that model may re-roll a single D6 during the Duel Roll.\n                \"Swift Hunter\" - During the declare Heroic Actions step of the Move Phase, Shelob can choose to kill a friendly model within 1\" of her - remove the chosen model as a casualty. If she does, Shelog may declare a Heroic Move for free, though she may not shoud \"With Me as part of this Heroic Move.",
+				"armyBonus": "\"Animosity\" - Friendly Orc models gain a bonus of +1 To Wound when making Strikes if there is a friendly Uruk-hai model Engaged in the same Combat. Friendly uruk-hai models gain a bonus of +1 To Wound when making strikes if there is a friendly Orc model engaged in the same Combat.\n                \"Rivals for Power\" - Keep track of how many models Gorbag and Shagrat have each killed. If at any point either of them has fewer kills than the other, that model may re-roll a single D6 during the Duel Roll.\n                \"Swift Hunter\" - During the declare Heroic Actions step of the Move Phase, Shelob can choose to kill a friendly model within 1\" of her - remove the chosen model as a casualty. If she does, Shelob may declare a Heroic Move for free, though she may not shoud \"With Me as part of this Heroic Move.",
 				"requiredChildren": [
 					{
 						"name": "Shagrat, Captain of Cirith Ungol",
@@ -29803,7 +29794,7 @@
 			{
 				"name": "Caught in a Web",
 				"tag": "Brutal Power Attack",
-				"definition": "Instead of making Strikes, Shelob may instead choose a single enemy model that was involved in the Combat. The chosen model immediately suffers a single Strength 8 hit, and, if it survives, will be subject to the Paralyse Magical Power - however, this model witll not automatically revover should Shelog be removed as a casualty, leave the board or be reduced to 0 Will Points."
+				"definition": "Instead of making Strikes, Shelob may instead choose a single enemy model that was involved in the Combat. The chosen model immediately suffers a single Strength 8 hit, and, if it survives, will be subject to the Paralyse Magical Power - however, this model witll not automatically revover should Shelob be removed as a casualty, leave the board or be reduced to 0 Will Points."
 			},
 			{
 				"name": "Lone Hunter",
@@ -31974,12 +31965,12 @@
 			{
 				"name": "She is always hungry",
 				"tag": "Passive",
-				"definition": "At the start of her Activation, so long as she isnot Engaged in Combat, Shelob can choose to kill a friendly model within 1\" of her - remove the chosen model as a casualty. If she does, until the end of the turn Shelog may re-roll a single dice during any Duel Roll she participates in."
+				"definition": "At the start of her Activation, so long as she isnot Engaged in Combat, Shelob can choose to kill a friendly model within 1\" of her - remove the chosen model as a casualty. If she does, until the end of the turn Shelob may re-roll a single dice during any Duel Roll she participates in."
 			},
 			{
 				"name": "She hungers for sweeter meats",
 				"tag": "Passive",
-				"definition": "Shelog adds 1 to her Attacks characteristic while she is Engaged in Combat with an enemy Man, Elf, Dwarf, or Hobbit model."
+				"definition": "Shelob adds 1 to her Attacks characteristic while she is Engaged in Combat with an enemy Man, Elf, Dwarf, or Hobbit model."
 			},
 			{
 				"name": "Grasping Tentacles",
