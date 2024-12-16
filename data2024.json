@@ -494,7 +494,7 @@
 			{
 				"name": "Breaking of the Fellowship",
 				"alignment": "good",
-				"armyBonus": "All Fellowship models must be included in Aragorn's Warband.\n                \"Gifts of Galadriel\" - EAch Fellowship model will gain the Wargear listed next to their name below, which will have the effects details:\n                \"Frodo - Light of Earendil\" - At the start of each of his activations, Frodo may roll a D6. On a 3+, Frodo counts as having Cast the Blinding Light Magical Power.\n                \"Sam - Elven Rope\" - Sam always counts as rolling a 6 for any Climb, Leap or Jump Tests he is required to make.\n                \"Merry & Pippin - Daggers of the Noldorin\" - These are Elven hand weapons. Whilst wielding these weapons, Merry and Pipppin may re-roll failed To Wound rolls when making strikes.\n                \"Aragorn - Elven Dagger\" - This is an Elven hand weapon with the Uruk-haibane special rule\n                \"Legolas - Bow of the Galadhrim\" - Whilst within 3\" of a friendly Lothlorien model, Legolas may re-roll failed To Hit rolls when making shooting attacks.\n                \"Gimli - Galadriel's Locks\" - Gimli may use this Wargear to re-roll a single D6 in a Duel Roll. Gimli may only use this Wargear three times during the course fo the game.\n                \"Boromir - Golden Belt\" - Boromir gains the Woodland Creature special rule.\n                \n                \"You have my sword\" - So long as Frodo is alive and on the battlefield, friendly Fellowship models gain the Fearless special rule. Additionally, a Breaking of the Fellowship Army can never ben considered Broken whilst Frodo is alive, even if he escapes the battlefield in Scenarios where this applies.\n                \"Blessing of Galadriel\" - Friendly models count as being under the effects of the Fortify Spirit Magical Power, even if they have no Will Points remaining.\n                \"Shielded from Unfriendly Eyes\" - Friendly Hero models gain an Elven Cloak for free.",
+				"armyBonus": "All Fellowship models must be included in Aragorn's Warband.\n                \"Gifts of Galadriel\" - Each Fellowship model will gain the Wargear listed next to their name below, which will have the effects details:\n                \"Frodo - Light of Earendil\" - At the start of each of his activations, Frodo may roll a D6. On a 3+, Frodo counts as having Cast the Blinding Light Magical Power.\n                \"Sam - Elven Rope\" - Sam always counts as rolling a 6 for any Climb, Leap or Jump Tests he is required to make.\n                \"Merry & Pippin - Daggers of the Noldorin\" - These are Elven hand weapons. Whilst wielding these weapons, Merry and Pipppin may re-roll failed To Wound rolls when making strikes.\n                \"Aragorn - Elven Dagger\" - This is an Elven hand weapon with the Uruk-haibane special rule\n                \"Legolas - Bow of the Galadhrim\" - Whilst within 3\" of a friendly Lothlorien model, Legolas may re-roll failed To Hit rolls when making shooting attacks.\n                \"Gimli - Galadriel's Locks\" - Gimli may use this Wargear to re-roll a single D6 in a Duel Roll. Gimli may only use this Wargear three times during the course fo the game.\n                \"Boromir - Golden Belt\" - Boromir gains the Woodland Creature special rule.\n                \n                \"You have my sword\" - So long as Frodo is alive and on the battlefield, friendly Fellowship models gain the Fearless special rule. Additionally, a Breaking of the Fellowship Army can never ben considered Broken whilst Frodo is alive, even if he escapes the battlefield in Scenarios where this applies.\n                \"Blessing of Galadriel\" - Friendly models count as being under the effects of the Fortify Spirit Magical Power, even if they have no Will Points remaining.\n                \"Shielded from Unfriendly Eyes\" - Friendly Hero models gain an Elven Cloak for free.",
 				"requiredChildren": [
 					{
 						"name": "Aragorn (Strider)",
@@ -623,7 +623,7 @@
 			{
 				"name": "Army of Edoras",
 				"alignment": "good",
-				"armyBonus": "\"Forth Eorlingas!\" - Once per game, at the start of any Fight Phase, your General can use this special rule if they Charged in the preceding Move Phase. If they do, then until the end of the turn friendly Rohan models within 12\" of your General must re-roll all failed To Wound Rollws when making strikes.\n                \"Protect the King\" - When a friendly Rohan Hero Charges, until the end of the turn friendly Rohan Warrior models within 6\" of them will automatically pass all Courage Tests they are required to take for Charging an enemy with the Terror special rule."
+				"armyBonus": "\"Forth Eorlingas!\" - Once per game, at the start of any Fight Phase, your General can use this special rule if they Charged in the preceding Move Phase. If they do, then until the end of the turn friendly Rohan models within 12\" of your General must re-roll all failed To Wound Rolls when making strikes.\n                \"Protect the King\" - When a friendly Rohan Hero Charges, until the end of the turn friendly Rohan Warrior models within 6\" of them will automatically pass all Courage Tests they are required to take for Charging an enemy with the Terror special rule."
 			},
 			{
 				"name": "Defenders of the Hornburg",
@@ -3795,7 +3795,7 @@
 					},
 					{
 						"name": "Riders of Eomer",
-						"heroicTier": "Hero of Valour"
+						"heroicTier": "Hero of Legend"
 					},
 					{
 						"name": "Paths of the Druadan",
@@ -5569,7 +5569,7 @@
 				"will": 1,
 				"fate": 1,
 				"race": [
-					"Uurk-hai"
+					"Uruk-hai"
 				],
 				"faction": [
 					"Mordor"
@@ -12031,7 +12031,7 @@
 				],
 				"wargear": [
 					"Heavy Dwarf Armour",
-					"Axe"
+					"Hand-and-a-half weapon"
 				]
 			},
 			{
@@ -15812,7 +15812,7 @@
 					"Woodland Creature",
 					"Bladelord",
 					"Fury of the Elvenking",
-					"Do not talk to me of Dragon fire\""
+					"Do not talk to me of Dragon fire"
 				],
 				"wargear": [
 					"Elven hand-and-a-half weapons"
@@ -22867,13 +22867,17 @@
 				"factions": [
 					"Lothlorien"
 				],
-				"additionalHeroes": [
-					"Gildor Inglorion",
-					"Haldir, Galadhrim Captain"
-				],
 				"availableIn": [
-					"Gildor Inglorion",
-					"Haldir, Galadhrim Captain"
+					{
+						"all": [
+							{
+								"in": "Haldir, Galadhrim Captain"
+							},
+							{
+								"in": "Breaking of the Fellowship"
+							}
+						]
+					}
 				],
 				"points": 8,
 				"movement": 6,
@@ -31946,7 +31950,7 @@
 			{
 				"name": "Dwarven Lords",
 				"tag": "Passive",
-				"definitioin": "A Dwarf King will always have the Faction Keyword of the most common type of Dwarf model in the same Army. So, if the majority of friendly Dwarf models have the Erebor Keyword, then the Dwarf King will also have the Erebor Keyword. A Dwarf King will gain a special rule depending on the Keyword they have, as listed below:\n                Erebor - This model gains the Ancient Enemies (Orc) special rule.\n                Iron Hills - This model gains the Fearless special rule.\n                Khazad-dum - This model gains throwing weapons."
+				"definition": "A Dwarf King will always have the Faction Keyword of the most common type of Dwarf model in the same Army. So, if the majority of friendly Dwarf models have the Erebor Keyword, then the Dwarf King will also have the Erebor Keyword. A Dwarf King will gain a special rule depending on the Keyword they have, as listed below:\n                Erebor - This model gains the Ancient Enemies (Orc) special rule.\n                Iron Hills - This model gains the Fearless special rule.\n                Khazad-dum - This model gains throwing weapons."
 			},
 			{
 				"name": "Dwarven Crew",
