@@ -16434,10 +16434,6 @@
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
-						"name": "Army of Dunland",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
 						"name": "Army of the White Hand",
 						"heroicTier": "Hero of Fortitude"
 					}
@@ -19463,6 +19459,10 @@
 					},
 					{
 						"name": "Kitchen Utensils",
+						"points": 50
+					},
+					{
+						"name": "That's Mine That Is!",
 						"points": 50
 					}
 				],
@@ -25499,8 +25499,7 @@
 			{
 				"name": "Wild Man of Dunland",
 				"factions": [
-					"Army of the White Hand",
-					"Army of Dunland"
+					"Army of the White Hand"
 				],
 				"points": 5,
 				"movement": 6,
