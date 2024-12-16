@@ -28443,7 +28443,7 @@
 			{
 				"name": "Armour of Gondolin",
 				"tag": "Passive",
-				"definition": "This is heavy armour. Additionally, whilst wearing the armour of Gondolin, Monster models may not target Glorfindel with Brutal Power Attacks.",
+				"definition": "This is Unique heavy armour. Additionally, whilst Glorfindel is wearing the armour of Gondolin, enemy Monster models Engaged in Combat with him cannot use Brutal Power Attacks.",
 				"type": "armour",
 				"modifiesStats": [
 					{
