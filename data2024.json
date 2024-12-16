@@ -36,24 +36,12 @@
 	"game": "Middle-Earth Strategy Battle Game - 2024",
 	"toggles": [],
 	"scenarios": [
-		"Heirlooms of Ages Past",
 		"Hold Ground",
-		"Command the Battlefield",
-		"Seize the Prize",
 		"Destroy the Supplies",
-		"Retrieval",
-		"Storm the Camp",
 		"Reconnoitre",
-		"Divide & Conquer",
 		"Domination",
-		"Capture & Control",
-		"Breakthrough",
-		"Lords of Battle",
-		"Contest of Champions",
 		"To the Death!",
-		"Fog of War",
-		"Clash by Moonlight",
-		"Assassination"
+		"Fog of War"
 	],
 	"stats": [
 		{
