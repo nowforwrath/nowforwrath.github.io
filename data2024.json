@@ -8800,6 +8800,9 @@
 					"50mm"
 				],
 				"heroicActions": [],
+				"increaseMaximumChildren": {
+					"warriors": -5
+				},
 				"options": [],
 				"specialRules": [
 					"Direct Shot",
