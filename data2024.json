@@ -3575,10 +3575,6 @@
 						"heroicTier": "Hero of Legend"
 					},
 					{
-						"name": "Paths of the Druadan",
-						"heroicTier": "Hero of Legend"
-					},
-					{
 						"name": "Defenders of the Pelennor",
 						"heroicTier": "Hero of Legend"
 					}
@@ -3784,10 +3780,6 @@
 					{
 						"name": "Riders of Eomer",
 						"heroicTier": "Hero of Legend"
-					},
-					{
-						"name": "Paths of the Druadan",
-						"heroicTier": "Hero of Valour"
 					},
 					{
 						"name": "Men of the West",
@@ -4145,10 +4137,6 @@
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
-						"name": "Paths of the Druadan",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
 						"name": "Riders of Theoden",
 						"heroicTier": "Hero of Fortitude"
 					},
@@ -4234,7 +4222,6 @@
 							"Road to Helm's Deep",
 							"Rohan",
 							"Riders of Theoden",
-							"Paths of the Druadan",
 							"Defenders of the Pelennor"
 						]
 					}
@@ -4421,10 +4408,6 @@
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
-						"name": "Paths of the Druadan",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
 						"name": "Riders of Theoden",
 						"heroicTier": "Hero of Fortitude"
 					},
@@ -4528,7 +4511,6 @@
 							"Riders of Theoden",
 							"Riders of Eomer",
 							"Theodred's Guard",
-							"Paths of the Druadan",
 							"Helm's Guard",
 							"Defenders of the Pelennor",
 							"Realms of Men"
@@ -5606,20 +5588,30 @@
 				"might": 2,
 				"will": 1,
 				"fate": 1,
+				"race": [
+					"Uruk-hai"
+				],
+				"faction": [
+					"Isengard"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic March"
 				],
-				"keywords": [
-					"Uruk-Hai",
-					"Isengard",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
-				"specialRules": [],
+				"specialRules": [
+					"Shieldwall"
+				],
 				"wargear": [
 					"Heavy Armour",
-					"Sword"
+					"Shield",
+					"Hand weapon"
 				]
 			},
 			{
@@ -8604,7 +8596,7 @@
 				"factions": [
 					{
 						"name": "Garrison of Dale",
-						"heroicTier": "Hero of Valour"
+						"heroicTier": "Hero of Legend"
 					},
 					{
 						"name": "Erebor & Dale",
@@ -21627,7 +21619,6 @@
 					"Riders of Theoden",
 					"Riders of Eomer",
 					"Theodred's Guard",
-					"Paths of the Druadan",
 					"Helm's Guard",
 					"Defenders of the Hornburg",
 					"Defenders of the Pelennor",
@@ -21967,9 +21958,6 @@
 								"Riders of Theoden"
 							],
 							[
-								"Paths of the Druadan"
-							],
-							[
 								"Road to Helm's Deep"
 							],
 							[
@@ -22053,24 +22041,11 @@
 				"attack": 1,
 				"wounds": 1,
 				"courage": 3,
-				"requiredChildren": [
-					{
-						"elementPropertyName": "options",
-						"name": "Horse",
-						"in": [
-							[
-								"Paths of the Druadan"
-							]
-						],
-						"points": 5
-					}
-				],
 				"options": [
 					{
 						"name": "Horse",
 						"availableIn": [
 							"Theodred's Guard",
-							"Paths of the Druadan",
 							"Helm's Guard"
 						],
 						"points": 5
@@ -25307,10 +25282,7 @@
 			},
 			{
 				"name": "Woses Warriors",
-				"factions": [
-					"Wildmen of Druadan",
-					"Paths of the Druadan"
-				],
+				"factions": [],
 				"points": 9,
 				"movement": 6,
 				"fight": 3,
