@@ -656,7 +656,7 @@
 			{
 				"name": "Defenders of the Hornburg",
 				"alignment": "good",
-				"armyBonus": "\"Defend the Hornburg\" - Friendly Rohan Infantry gain the Dominant (2) special rule.\n\"A Desperate Defence\" - Friendly Rohan Infantry Warrior models must re-roll To Wound Rollw of a Natural 1 when making Strikes.\n\"Frenzy of the King\" - At the start of the End Phase of a turn in which Helm Hammerhand kills an enemy Hero or Monster, enemy models within 3\" of Helm must take a Courage Test in an order chosen by Helm's controlling player. If the test if failed, the model must Move up to its Move Value directly away from Helm."
+				"armyBonus": "\"Defend the Hornburg\" - Friendly Rohan Infantry gain the Dominant (2) special rule.\n\"A Desperate Defence\" - Friendly Rohan Infantry Warrior models must re-roll To Wound Roll of a Natural 1 when making Strikes.\n\"Frenzy of the King\" - At the start of the End Phase of a turn in which Helm Hammerhand kills an enemy Hero or Monster, enemy models within 3\" of Helm must take a Courage Test in an order chosen by Helm's controlling player. If the test if failed, the model must Move up to its Move Value directly away from Helm."
 			},
 			{
 				"name": "Minas Tirith",
@@ -1885,7 +1885,13 @@
 					"Spear",
 					"Hand weapon"
 				],
-				"options": [],
+				"options": [
+					{
+						"name": "Warg",
+						"points": 20,
+						"availableIn": []
+					}
+				],
 				"magicalPowers": [
 					{
 						"name": "Instill Fear",
@@ -18315,8 +18321,10 @@
 					"Commanding Bellow"
 				],
 				"wargear": [
-					"Sword",
-					"Throwing Daggers"
+					"Light weapon",
+					"Hand weapon",
+					"Spear",
+					"Throwing weapons"
 				]
 			},
 			{
