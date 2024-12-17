@@ -14004,8 +14004,9 @@
 					"Steadfast"
 				],
 				"wargear": [
-					"Armour",
-					"Mattock"
+					"Light armour",
+					"Hand weapon",
+					"Boar spear"
 				]
 			},
 			{
@@ -29887,7 +29888,7 @@
 			{
 				"name": "Master of Reserves",
 				"tag": "Passive",
-				"definition": "In Scenarios where you roll for Warbands to arrive, or ones where you roll to see which part of the board you deploy a Warband in (though not when rolling to choose deployment zones), you may modify the roll this model's Warband by +1 or -1, even if he is not on the battlefield. If this model is on the battlefield, you may also modify the roll for other Warbands in your Army by +1 or -2"
+				"definition": "In Scenarios where you roll for Warbands to arrive, or ones where you roll to see which part of the board you deploy a Warband in (though not when rolling to choose deployment zones), you may modify the roll this model's Warband by +1 or -1, even if he is not on the battlefield. If this model is on the battlefield, you may also modify the roll for other Warbands in your Army by +1 or -1"
 			},
 			{
 				"name": "Reckless Fighter",
