@@ -4570,6 +4570,7 @@
 						"name": "Shield",
 						"points": 5,
 						"availableIn": [
+							"Defenders of Helm's Deep",
 							"Riders of Eomer",
 							"Realms of Men",
 							"Men of the West",
@@ -30810,7 +30811,7 @@
 			{
 				"name": "Fly",
 				"tag": "Active",
-				"definition": "This model may ignore all intervening models and terrain as it moves - flying over buildings, woods and so on. The model may not end its movement within woods or upon any terrain that its\n                base will not safely balance upon (flat rocks, hills and the like are fine, but don't try to perch your model precariously upon trees, sloped roofs, and so on). When flying, a model may move up to\n                12\". A model with this special rule may still choose to use their normal Move value if they wish, however, they will gain none of the benefits of the Fly special rule if they move in this way. If a\n                model with the Fly special rule walks into a wood, they cannot use the Fly special rule again until they have fully left the wood. Furthermore, a model with this special rule may pass 'over' enemy\n                Control Zones without charging the model - as long as they end their move outside of the Control Zone."
+				"definition": "A model with this special rule ignores intervening models and terrain when it Moves - flying over buildings, woods and so on, and ignoring the vertical distance as they Move. A model that Moves in this way cannot end its Move overlapping another model, within a piece of woodland terrain, or upon any surface in which it cannot balance safely (flat rock and hills are fine, but don't try perching a model upon a sloped roof for example). Additionally, a model that Moves in this way cannot finish its Move atop a piece of terrain which it is impossible for the enemy to reach, such as at the top of a sheer rock face with no way up, or straddling one or more pieces of terrain that would allow other models to Move underneath.\n                If a model wishes to do something part way through its Move whilst it is Flying (such as Cast a Magical Power), then it must land in order to do so. When a model lands, there cannot be any models underneath it, and if it lands in an enemy model's Control Zone then it must Charge that enemy model.\n                A model with this special rule can choose not to Fly, and in which case will treat its Move Value as 4\" rather than that listed in its profile (usually 12\"). lf it does, then it gains none of the benefits of the Fly special rule, though it may enter a piece of woodland terrain; however, if it enters a piece of woodland terrain, it cannot elect to Fly again until it has completely left the woods.\n                A model that chooses to Fly will ignore enemy Control Zones as it Moves. A model that wishes to Charge when it is flying can Charge any model whose Control Zone it finishes its Move in. If a Flying model wishes to Charge a model that is already Engaged in Combat (or has otherwise lost their Control Zone) then it can only do so if it can land in a position where is is not within the Control Zones of other enemy models."
 			},
 			{
 				"name": "Fleetfoot",
