@@ -1088,7 +1088,7 @@
 			{
 				"name": "The Iron Hills",
 				"alignment": "good",
-				"armyBonus": "\"Ironfoot has come!\" - In Scenarios where you roll for Warbands to arrive, or ones where you roll to see which part of the board you deploy a Warband in (though not when rolling to choose deployment zones), you may modify the roll for Warabnds from this army by +1 or -2.\n\"Yanad Durinul - Friendly Infantry models may re-roll To Wound Rolls of a natural 1 when making Strikes, so long as they are in base contact with 2 or more friendly Infantry models.\n\"Long March from the Iron Hills\" - Friendly models gain the Mountain Dweller special rule.\n\"I've always found Thorin the more reasonable of the two...\" - Dain gains the Master of Battle (5+) special rule.",
+				"armyBonus": "\"Ironfoot has come!\" - In Scenarios where you roll for Warbands to arrive, or ones where you roll to see which part of the board you deploy a Warband in (though not when rolling to choose deployment zones), you may modify the roll for Warabnds from this army by +1 or -1.\n\"Yanad Durinul - Friendly Infantry models may re-roll To Wound Rolls of a natural 1 when making Strikes, so long as they are in base contact with 2 or more friendly Infantry models.\n\"Long March from the Iron Hills\" - Friendly models gain the Mountain Dweller special rule.\n\"I've always found Thorin the more reasonable of the two...\" - Dain gains the Master of Battle (5+) special rule.",
 				"requiredChildren": [
 					{
 						"name": "Dain Ironfoot, Lord of the Iron Hills",
@@ -9517,40 +9517,6 @@
 				]
 			},
 			{
-				"name": "Frodo, Samwise, and Smeagol",
-				"factions": [
-					{
-						"name": "Rangers of Ithilien",
-						"heroicTier": "Independent Hero"
-					}
-				],
-				"availableIn": [
-					"Faramir, Captain of Gondor"
-				],
-				"warnInOptions": true,
-				"points": 160,
-				"hideStats": true,
-				"heroicActions": [],
-				"includes": [
-					{
-						"dataSource": "heroes",
-						"name": "Frodo Baggins (Rangers of Ithilien)"
-					},
-					{
-						"dataSource": "heroes",
-						"name": "Samwise Gamgee (Rangers of Ithilien)"
-					},
-					{
-						"dataSource": "heroes",
-						"name": "Smeagol (Rangers of Ithilien)"
-					}
-				],
-				"keywords": [],
-				"wargear": [],
-				"options": [],
-				"specialRules": []
-			},
-			{
 				"name": "Frodo Baggins",
 				"factions": [
 					{
@@ -13804,7 +13770,7 @@
 				"specialRules": [
 					"Sworn Protector (Thorin)",
 					"Throw Stones",
-					"Throw Stones (range 8\", Strength 1)",
+					"Throw Stones (range 8\", Strength 2)",
 					"Embedded Axe"
 				],
 				"wargear": [
@@ -13978,7 +13944,7 @@
 				"attack": 2,
 				"wounds": 2,
 				"courage": 5,
-				"intelligence": 5,
+				"intelligence": 6,
 				"might": 2,
 				"will": 1,
 				"fate": 2,
@@ -14005,8 +13971,7 @@
 				],
 				"wargear": [
 					"Light armour",
-					"Hand weapon",
-					"Boar spear"
+					"Mattock"
 				]
 			},
 			{
@@ -21029,36 +20994,6 @@
 				"countAsProperty": "heroes"
 			},
 			{
-				"name": "Frodo, Samwise, and Smeagol",
-				"factions": [
-					"Rangers of Ithilien"
-				],
-				"unique": true,
-				"warnInOptions": true,
-				"points": 160,
-				"hideStats": true,
-				"heroicActions": [],
-				"includes": [
-					{
-						"dataSource": "heroes",
-						"name": "Frodo Baggins (Rangers of Ithilien)"
-					},
-					{
-						"dataSource": "heroes",
-						"name": "Samwise Gamgee (Rangers of Ithilien)"
-					},
-					{
-						"dataSource": "heroes",
-						"name": "Smeagol (Rangers of Ithilien)"
-					}
-				],
-				"keywords": [],
-				"wargear": [],
-				"options": [],
-				"specialRules": [],
-				"countAsProperty": "heroes"
-			},
-			{
 				"name": "Grima Wormtongue",
 				"factions": [
 					"Army of the White Hand",
@@ -23768,7 +23703,6 @@
 				"name": "Iron Hills Goat Rider",
 				"factions": [
 					"The Iron Hills",
-					"Erebor Reclaimed",
 					"Defenders of Erebor",
 					"The Battle of Five Armies"
 				],
@@ -28270,12 +28204,32 @@
 			{
 				"name": "Shield and throwing spears",
 				"type": "throwingWeapon",
-				"definition": "8\" Range, 3 Strength"
+				"definition": "8\" Range, 3 Strength",
+				"includes": [
+					{
+						"name": "Shield",
+						"dataSource": "gear"
+					},
+					{
+						"name": "Throwing spears",
+						"dataSource": "gear"
+					}
+				]
 			},
 			{
 				"name": "Shield & throwing spears",
 				"type": "throwingWeapon",
-				"definition": "8\" Range, 3 Strength"
+				"definition": "8\" Range, 3 Strength",
+				"includes": [
+					{
+						"name": "Shield",
+						"dataSource": "gear"
+					},
+					{
+						"name": "Throwing spears",
+						"dataSource": "gear"
+					}
+				]
 			},
 			{
 				"name": "Horse and throwing spears",
