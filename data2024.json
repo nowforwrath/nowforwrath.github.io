@@ -10930,13 +10930,6 @@
 					"Infantry",
 					"Hero"
 				],
-				"requiredChildren": [
-					{
-						"name": "Heavy Armour",
-						"points": 10,
-						"elementPropertyName": "options"
-					}
-				],
 				"options": [
 					{
 						"name": "The White Warg",
