@@ -29977,9 +29977,9 @@
 				"definition": "The range of Saruman's Stand Fast is 12\" rather than 6\". Additionally, friendly Hero models can benefit from Saruman's Stand Fast."
 			},
 			{
-				"name": "The Palantir",
+				"name": "Palantir",
 				"tag": "Active",
-				"definition": "Once per game the controlling player can use the Palantír to automatically win a Priority roll - the use of this special rule must be declared before any dice are rolled for Priority."
+				"definition": "Once per game, during the Priority Phase but before the roll for Priority, Saruman can use the Palantir to automatically win the roll to choose who has Priority for that turn. If both sides have a special rule allowing them to do this and both with to use it in the same turn, players roll of as normal and both special rules count as being used."
 			},
 			{
 				"name": "Head Taker",
