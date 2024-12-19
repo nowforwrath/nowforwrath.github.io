@@ -482,7 +482,7 @@
 			{
 				"name": "The Fellowship",
 				"alignment": "good",
-				"armyBonus": "\"You have my sword\" - So long as Frodo is alive and on the battlefield, friendly Fellowship models gain the Fearless special rule. Additionally, a Fellowship Army can never ben considered Broken whilst Frodo is alive, even if he escapes the battlefield in Scenarios where this applies.\n\"The Bond of Fellowship\" - Friendly models within 3\" of another friendly Fellowship model may re-roll a single failed To Wound roll when making Strikes.\n\"Traverse the Wilderness\" - Friendly Fellowship models gain the Woodland Creature and Mountain Dweller special rules.",
+				"armyBonus": "Additional Rules - The Fellowship is always deployed as a single Warband.\n\n\"You have my sword\" - So long as Frodo is alive and on the battlefield, friendly Fellowship models gain the Fearless special rule. Additionally, a Fellowship Army can never ben considered Broken whilst Frodo is alive, even if he escapes the battlefield in Scenarios where this applies.\n\"The Bond of Fellowship\" - Friendly models within 3\" of another friendly Fellowship model may re-roll a single failed To Wound roll when making Strikes.\n\"Traverse the Wilderness\" - Friendly Fellowship models gain the Woodland Creature and Mountain Dweller special rules.",
 				"additionalDefinitions": [
 					{
 						"dataSource": "keywords",
@@ -504,12 +504,12 @@
 			{
 				"name": "The Shire",
 				"alignment": "good",
-				"armyBonus": "When writing an Army List for The Shire, if the Army contains only Hero models a player can either have models in a single Warband or as multiple smaller warbands as normal.\n\"Bilbo's Magic Ring\" - In this Army List, Bilbo carries the One Ring instead of Frodo.\n\"This'll be a night to remember\" - Friendly models may re-roll failed Courage Tests. Additionally, friendly models cannot have their Courage Tests reduced by the special rules or Magical Powers of enemy models.\n\"The Grey Wizard\" - Friendly models may benefit from Gandalf's Stand Fast. Additionally, Gandalf may use two fireworks for each Shoot Phase rather than one, though they must be different fireworks and must target different models.\n\"A Long-expected party\" - Friendly models will pass a Fate Roll on a 3+ rather than a 4+. Additionally, friendly models may re-roll failed Fate Rolls."
+				"armyBonus": "Additional Rules: When writing an Army List for The Shire, if the Army contains only Hero models a player can either have models in a single Warband or as multiple smaller warbands as normal.\n\"Bilbo's Magic Ring\" - In this Army List, Bilbo carries the One Ring instead of Frodo.\n\"This'll be a night to remember\" - Friendly models may re-roll failed Courage Tests. Additionally, friendly models cannot have their Courage Tests reduced by the special rules or Magical Powers of enemy models.\n\"The Grey Wizard\" - Friendly models may benefit from Gandalf's Stand Fast. Additionally, Gandalf may use two fireworks for each Shoot Phase rather than one, though they must be different fireworks and must target different models.\n\"A Long-expected party\" - Friendly models will pass a Fate Roll on a 3+ rather than a 4+. Additionally, friendly models may re-roll failed Fate Rolls."
 			},
 			{
 				"name": "Road to Rivendell",
 				"alignment": "good",
-				"armyBonus": "A Road to Rivdendell Army must include Frodo.\n                When writing a Road to Rivendell Army List, a player can either have all models in a single Warband or as multiple smaller Warbands as normal.\n\"We do not stop 'til nightfall\" - Aragorn may declare a Heroic March each turn for free. Additionally, friendly models that begin their Activation within 6\" of Aragorn gain the Woodland Creature special rule until the end of the turn.\n\"I'm the faster rider. I'll take him\" - If your army includes both Frodo and Arwen, then Frodo may begin the game as a passenger upon Asfaloth. Whilst Frodo is mounted on Asfaloth, Arwen gains the Resistant to Magic special rule, increases her Attacks characteristic to 3, and can spend Frodo's Might, Will, and Fate points as if they were her own. Frodo cannot put on the One Ring whilst he is a Passenger.\n\"If you want him, come and claim him\" - Whilst she is within 6\" of Frodo (including if he is a Passenger on Asfaloth), Arwen gains the Fearless special rule and may re-roll any dice when making a Casting Roll.\n\"The Cover of Night\" - At the start of each game using this Army List, you may choose for the Scenario to take place at night if you wish. If you do, then at the start of each Move Phase you may choose whether or not the Gatekeeper of Bree's A Light in the Dark special rule is in effect or not",
+				"armyBonus": "Additional Rules:\n                A Road to Rivdendell Army must include Frodo.\n                When writing a Road to Rivendell Army List, a player can either have all models in a single Warband or as multiple smaller Warbands as normal.\n\"We do not stop 'til nightfall\" - Aragorn may declare a Heroic March each turn for free. Additionally, friendly models that begin their Activation within 6\" of Aragorn gain the Woodland Creature special rule until the end of the turn.\n\"I'm the faster rider. I'll take him\" - If your army includes both Frodo and Arwen, then Frodo may begin the game as a passenger upon Asfaloth. Whilst Frodo is mounted on Asfaloth, Arwen gains the Resistant to Magic special rule, increases her Attacks characteristic to 3, and can spend Frodo's Might, Will, and Fate points as if they were her own. Frodo cannot put on the One Ring whilst he is a Passenger.\n\"If you want him, come and claim him\" - Whilst she is within 6\" of Frodo (including if he is a Passenger on Asfaloth), Arwen gains the Fearless special rule and may re-roll any dice when making a Casting Roll.\n\"The Cover of Night\" - At the start of each game using this Army List, you may choose for the Scenario to take place at night if you wish. If you do, then at the start of each Move Phase you may choose whether or not the Gatekeeper of Bree's A Light in the Dark special rule is in effect or not",
 				"requiredChildren": [
 					{
 						"name": "Frodo Baggins",
@@ -522,7 +522,7 @@
 			{
 				"name": "Breaking of the Fellowship",
 				"alignment": "good",
-				"armyBonus": "All Fellowship models must be included in Aragorn's Warband.\n\"Gifts of Galadriel\" - Each Fellowship model will gain the Wargear listed next to their name below, which will have the effects details:\n  \"Frodo - Light of Earendil\" - At the start of each of his activations, Frodo may roll a D6. On a 3+, Frodo counts as having Cast the Blinding Light Magical Power.\n  \"Sam - Elven Rope\" - Sam always counts as rolling a 6 for any Climb, Leap or Jump Tests he is required to make.\n  \"Merry & Pippin - Daggers of the Noldorin\" - These are Elven hand weapons. Whilst wielding these weapons, Merry and Pipppin may re-roll failed To Wound rolls when making strikes.\n  \"Aragorn - Elven Dagger\" - This is an Elven hand weapon with the Uruk-haibane special rule\n  \"Legolas - Bow of the Galadhrim\" - Whilst within 3\" of a friendly Lothlorien model, Legolas may re-roll failed To Hit rolls when making shooting attacks.\n  \"Gimli - Galadriel's Locks\" - Gimli may use this Wargear to re-roll a single D6 in a Duel Roll. Gimli may only use this Wargear three times during the course fo the game.\n  \"Boromir - Golden Belt\" - Boromir gains the Woodland Creature special rule.\n                \n\"You have my sword\" - So long as Frodo is alive and on the battlefield, friendly Fellowship models gain the Fearless special rule. Additionally, a Breaking of the Fellowship Army can never ben considered Broken whilst Frodo is alive, even if he escapes the battlefield in Scenarios where this applies.\n\"Blessing of Galadriel\" - Friendly models count as being under the effects of the Fortify Spirit Magical Power, even if they have no Will Points remaining.\n\"Shielded from Unfriendly Eyes\" - Friendly Hero models gain an Elven Cloak for free.",
+				"armyBonus": "Additional Rules:\n                A Breaking of the Fellowship Army must include Aragorn (Strider), who is always the Army's General.\n                All Fellowship models must be included in Aragorn's Warband.\n                Lothlorien Warriors can only be included in a Warabnd led by Haldir.\n\"Gifts of Galadriel\" - Each Fellowship model will gain the Wargear listed next to their name below, which will have the effects details:\n  \"Frodo - Light of Earendil\" - At the start of each of his activations, Frodo may roll a D6. On a 3+, Frodo counts as having Cast the Blinding Light Magical Power.\n  \"Sam - Elven Rope\" - Sam always counts as rolling a 6 for any Climb, Leap or Jump Tests he is required to make.\n  \"Merry & Pippin - Daggers of the Noldorin\" - These are Elven hand weapons. Whilst wielding these weapons, Merry and Pipppin may re-roll failed To Wound rolls when making strikes.\n  \"Aragorn - Elven Dagger\" - This is an Elven hand weapon with the Uruk-haibane special rule\n  \"Legolas - Bow of the Galadhrim\" - Whilst within 3\" of a friendly Lothlorien model, Legolas may re-roll failed To Hit rolls when making shooting attacks.\n  \"Gimli - Galadriel's Locks\" - Gimli may use this Wargear to re-roll a single D6 in a Duel Roll. Gimli may only use this Wargear three times during the course fo the game.\n  \"Boromir - Golden Belt\" - Boromir gains the Woodland Creature special rule.\n                \n\"You have my sword\" - So long as Frodo is alive and on the battlefield, friendly Fellowship models gain the Fearless special rule. Additionally, a Breaking of the Fellowship Army can never ben considered Broken whilst Frodo is alive, even if he escapes the battlefield in Scenarios where this applies.\n\"Blessing of Galadriel\" - Friendly models count as being under the effects of the Fortify Spirit Magical Power, even if they have no Will Points remaining.\n\"Shielded from Unfriendly Eyes\" - Friendly Hero models gain an Elven Cloak for free.",
 				"requiredChildren": [
 					{
 						"name": "Aragorn (Strider)",
@@ -550,12 +550,12 @@
 			{
 				"name": "Kingdom of Rohan",
 				"alignment": "good",
-				"armyBonus": "Riders of Rohan do not count towards this Army's Bow Limit.\n\"Ride for ruin and the world's ending\" - Friendly Rohan Cavalry models gain a bonus of +1 to their Strength on a turn in which they Charge.\n\"Home of the Horse Lords\" - When rolling for their Horse Lord special rule, friendly models will pass the roll on a natural 5+ rather than a natural 6."
+				"armyBonus": "Additional Rules: Riders of Rohan do not count towards this Army's Bow Limit.\n\"Ride for ruin and the world's ending\" - Friendly Rohan Cavalry models gain a bonus of +1 to their Strength on a turn in which they Charge.\n\"Home of the Horse Lords\" - When rolling for their Horse Lord special rule, friendly models will pass the roll on a natural 5+ rather than a natural 6."
 			},
 			{
 				"name": "Road to Helm's Deep",
 				"alignment": "good",
-				"armyBonus": "\"Ride for ruin and the world's ending\" - Friendly Rohan Cavalry models gain a bonus of +1 to their Strength on a turn in which they Charge.\n\"Legolas & Gimli\" - If your Army contains both Legolas and Gimili, then Gimli will start the game as a Passenger on Legolas' horse and will use the rules for Passengers. Whilst Gimili is mounted on Legolas' horse, Legolas increases his attacks to 3 and may use Gimli's Might, Will, and Fate as if it was his own, though he cannot use Gimli's Might to improve To Hit, To Wound, or In The Way Tests when making a shooting attack. Additionally, if Gimli dismounts from Legolas' horse during Legolas' Move, then after Legolas' Activation has finished, Gimli may Activate as normal even though the rules for Passengers would not normally allow him to.\n\"Back on your horses\" - At the end of a friendly Infantry Hero model's Move (with the exception of Gimli), if they are in base contact with a friendly Cavalry Warrior model who is not Enagged in Combat, then the Warrior may give the Hero their horse. Replace the Warrior model with a suitable dismount, and replace the Hero with the mounted version of them. The Warrior will be placed in the same place the Hero was, and vice versa. If the Hero would normally have a named horse (such as Snowmange or Brego) then they will only count as riding a standard horse after using this rule.",
+				"armyBonus": "Additional Rules:\n                A Road to Helm's Deep Army must always contain Theoden, who is always the Army's General.\n                Riders of Rohan do not count towards this Army's Bow Limit.\n\"Ride for ruin and the world's ending\" - Friendly Rohan Cavalry models gain a bonus of +1 to their Strength on a turn in which they Charge.\n\"Legolas & Gimli\" - If your Army contains both Legolas and Gimili, then Gimli will start the game as a Passenger on Legolas' horse and will use the rules for Passengers. Whilst Gimili is mounted on Legolas' horse, Legolas increases his attacks to 3 and may use Gimli's Might, Will, and Fate as if it was his own, though he cannot use Gimli's Might to improve To Hit, To Wound, or In The Way Tests when making a shooting attack. Additionally, if Gimli dismounts from Legolas' horse during Legolas' Move, then after Legolas' Activation has finished, Gimli may Activate as normal even though the rules for Passengers would not normally allow him to.\n\"Back on your horses\" - At the end of a friendly Infantry Hero model's Move (with the exception of Gimli), if they are in base contact with a friendly Cavalry Warrior model who is not Enagged in Combat, then the Warrior may give the Hero their horse. Replace the Warrior model with a suitable dismount, and replace the Hero with the mounted version of them. The Warrior will be placed in the same place the Hero was, and vice versa. If the Hero would normally have a named horse (such as Snowmange or Brego) then they will only count as riding a standard horse after using this rule.",
 				"requiredChildren": [
 					{
 						"name": "Theoden, King of Rohan",
@@ -575,7 +575,7 @@
 			{
 				"name": "Defenders of Helm's Deep",
 				"alignment": "good",
-				"armyBonus": "\"Allies 'til the End\" - Haldir treats both Aragorn and Theoden as a banner with a range of 6\". Additionally, whilst within 6\" of either Aragorn or Theoden, Haldir automatically passes all Courage Tests and may re-roll failed To Wound rolls when making Strikes.\n\"Fall Back to the Keep!\" - If this Army is Broken, friendly Warrior models gain a bonus of +1 to any Courage Tests they are required to take. Additionally, if this Army is Broken, friendly Warrior models within 6\" of Theoden may re-roll failed Courage Tests\n\"Give them a Volley\" - Friendly models increase the range of their shooting attacks by 6\", provided they have not moved that turn. This special rule does not apply to throwing weapons.",
+				"armyBonus": "Additional Rules:\n                A Defenders of Helm's Deep Army must include Theoden, King of Rohan, who is always the Army's General.\n                Only a maximum of 33% of the models in this Army may have the Lothlorien keyword.\n\"Allies 'til the End\" - Haldir treats both Aragorn and Theoden as a banner with a range of 6\". Additionally, whilst within 6\" of either Aragorn or Theoden, Haldir automatically passes all Courage Tests and may re-roll failed To Wound rolls when making Strikes.\n\"Fall Back to the Keep!\" - If this Army is Broken, friendly Warrior models gain a bonus of +1 to any Courage Tests they are required to take. Additionally, if this Army is Broken, friendly Warrior models within 6\" of Theoden may re-roll failed Courage Tests\n\"Give them a Volley\" - Friendly models increase the range of their shooting attacks by 6\", provided they have not moved that turn. This special rule does not apply to throwing weapons.",
 				"requiredChildren": [
 					{
 						"name": "Theoden, King of Rohan",
@@ -596,7 +596,7 @@
 			{
 				"name": "Ride Out",
 				"alignment": "good",
-				"armyBonus": "\"Now for wrath, now for ruin, and the red dawn\" - When a friendly Cavalry model Moves, it must Charge if able. Additionally, on a turn in which a friendly Cavalry model Charges, they gain a bonus of +1 to their strength and may re-roll any 1s during a Duel Roll that turn.\n\"The horn of Helm Hammerhand shall sound in the deep; one last time\" - Once per game, at the start of any Move phase, you can declare you are using this special rule. Until the end of the turn, friendly Cavalry models gain the Terror special rule.\n\"For Death and Glory\" - Friendly models gain the Fearless special rule",
+				"armyBonus": "Additional Rules:\n                A Ride Out Army must always contain Theoden, who is always the Army's General.\n                Riders of Rohan do not count towards this Army's Bow Limit.\n\"Now for wrath, now for ruin, and the red dawn\" - When a friendly Cavalry model Moves, it must Charge if able. Additionally, on a turn in which a friendly Cavalry model Charges, they gain a bonus of +1 to their strength and may re-roll any 1s during a Duel Roll that turn.\n\"The horn of Helm Hammerhand shall sound in the deep; one last time\" - Once per game, at the start of any Move phase, you can declare you are using this special rule. Until the end of the turn, friendly Cavalry models gain the Terror special rule.\n\"For Death and Glory\" - Friendly models gain the Fearless special rule",
 				"requiredChildren": [
 					{
 						"name": "Theoden, King of Rohan",
@@ -627,7 +627,7 @@
 			{
 				"name": "Riders of Eomer",
 				"alignment": "good",
-				"armyBonus": "\"Look to the Sun\" - Once per agme, at the start of any friendly Activation Phase, Gandalf can use this special rule so long as he is alive and on the battlefield. If he does, then until the end of the turn, enemy models Engaged in Combat with a friendly Cavalry model that made a Charge that turn, or Supporting a Combat against a friendly Cavalry model that made a Charge that turn, suffer a -1 penalty to their Duel Roll.\n\"Ride for ruin and the world's ending\" - Friendly Rohan Cavalry models gain a bonus of +1 to their Strength on a turn in which they Charge.\n\"To the King!\" - Eomer may declare a Heroic Combat each turn for free.",
+				"armyBonus": "Additional Rules:\n                A Riders of Eomer Army must include Eomer, who is always the Army's General.\n                Riders of Rohan do not count towards this Army's Bow Limit.\n\"Look to the Sun\" - Once per agme, at the start of any friendly Activation Phase, Gandalf can use this special rule so long as he is alive and on the battlefield. If he does, then until the end of the turn, enemy models Engaged in Combat with a friendly Cavalry model that made a Charge that turn, or Supporting a Combat against a friendly Cavalry model that made a Charge that turn, suffer a -1 penalty to their Duel Roll.\n\"Ride for ruin and the world's ending\" - Friendly Rohan Cavalry models gain a bonus of +1 to their Strength on a turn in which they Charge.\n\"To the King!\" - Eomer may declare a Heroic Combat each turn for free.",
 				"requiredChildren": [
 					{
 						"name": "Eomer, Marshal of the Riddermark",
@@ -651,22 +651,22 @@
 			{
 				"name": "Army of Edoras",
 				"alignment": "good",
-				"armyBonus": "\"Forth Eorlingas!\" - Once per game, at the start of any Fight Phase, your General can use this special rule if they Charged in the preceding Move Phase. If they do, then until the end of the turn friendly Rohan models within 12\" of your General must re-roll all failed To Wound Rolls when making strikes.\n\"Protect the King\" - When a friendly Rohan Hero Charges, until the end of the turn friendly Rohan Warrior models within 6\" of them will automatically pass all Courage Tests they are required to take for Charging an enemy with the Terror special rule."
+				"armyBonus": "Additional Rules - Riders of Rohan do not count towards this Army's Bow Limit.\n\"Forth Eorlingas!\" - Once per game, at the start of any Fight Phase, your General can use this special rule if they Charged in the preceding Move Phase. If they do, then until the end of the turn friendly Rohan models within 12\" of your General must re-roll all failed To Wound Rolls when making strikes.\n\"Protect the King\" - When a friendly Rohan Hero Charges, until the end of the turn friendly Rohan Warrior models within 6\" of them will automatically pass all Courage Tests they are required to take for Charging an enemy with the Terror special rule."
 			},
 			{
 				"name": "Defenders of the Hornburg",
 				"alignment": "good",
-				"armyBonus": "\"Defend the Hornburg\" - Friendly Rohan Infantry gain the Dominant (2) special rule.\n\"A Desperate Defence\" - Friendly Rohan Infantry Warrior models must re-roll To Wound Roll of a Natural 1 when making Strikes.\n\"Frenzy of the King\" - At the start of the End Phase of a turn in which Helm Hammerhand kills an enemy Hero or Monster, enemy models within 3\" of Helm must take a Courage Test in an order chosen by Helm's controlling player. If the test if failed, the model must Move up to its Move Value directly away from Helm."
+				"armyBonus": "Additional Rules: Helm Hammerhand may not include any Warrior moels in his Warband.\n\"Defend the Hornburg\" - Friendly Rohan Infantry gain the Dominant (2) special rule.\n\"A Desperate Defence\" - Friendly Rohan Infantry Warrior models must re-roll To Wound Roll of a Natural 1 when making Strikes.\n\"Frenzy of the King\" - At the start of the End Phase of a turn in which Helm Hammerhand kills an enemy Hero or Monster, enemy models within 3\" of Helm must take a Courage Test in an order chosen by Helm's controlling player. If the test if failed, the model must Move up to its Move Value directly away from Helm."
 			},
 			{
 				"name": "Minas Tirith",
 				"alignment": "good",
-				"armyBonus": "\"Do you think the eyes of the white tower are blind?\" - Once per game, during the Priority Phase but before the roll for Priority, Denethor can use this special rule so long as he is alive and on the battlefield. If he does, Denethor's controlling player automatically wins the roll to choose hwo has Priority for that turn. If both sides have a specia rule allowing them to do this and both with to use it in the same turn, players roll off as normal and both special rules count as being used.\n\"Is there a captain here who still has the courage to do his lord's will?\" - If your army includes both Faramir and Denethor, then whilst Denethor is alive and on the battlefield, Faramir will automatically pass all Courage Tests he is required to make. Additionally, whilst Denethor is alive and on the battlefield, when Faramir Moves he must Charge if able to do so.\n\"Faramir's Charge\" - Whilst he has the Cavalry keyword, before Faramir Charges make a note of where he begins his Activation. Until the end of the turn, friendly Gondor Cavalry Warrior models within 6\" of where Faramir begins his Activation gain the Fearless special rule and, if they Charge, gain a bonus of +1 to their Fight Value."
+				"armyBonus": "Additional Rules: If your Army includes Denethor, then he must be your General.\n\"Do you think the eyes of the white tower are blind?\" - Once per game, during the Priority Phase but before the roll for Priority, Denethor can use this special rule so long as he is alive and on the battlefield. If he does, Denethor's controlling player automatically wins the roll to choose hwo has Priority for that turn. If both sides have a specia rule allowing them to do this and both with to use it in the same turn, players roll off as normal and both special rules count as being used.\n\"Is there a captain here who still has the courage to do his lord's will?\" - If your army includes both Faramir and Denethor, then whilst Denethor is alive and on the battlefield, Faramir will automatically pass all Courage Tests he is required to make. Additionally, whilst Denethor is alive and on the battlefield, when Faramir Moves he must Charge if able to do so.\n\"Faramir's Charge\" - Whilst he has the Cavalry keyword, before Faramir Charges make a note of where he begins his Activation. Until the end of the turn, friendly Gondor Cavalry Warrior models within 6\" of where Faramir begins his Activation gain the Fearless special rule and, if they Charge, gain a bonus of +1 to their Fight Value."
 			},
 			{
 				"name": "Garrison of Ithilien",
 				"alignment": "good",
-				"armyBonus": "\"Captured by Gondor\" - Frodo, Sam and Smeagol may either be deployed as a single Warband with Frodo as the Warband's Captin, or as part of Faramir's Warband\n\"Faramir's Rangers\" - A Garrison of Ithilien Army has a Bow Limit of 50% rather than the usual 33%\n\"Experienced Trackers\" - At the start of each game, you may choose either Woodland Creature or Mountain Dwellers. Friendly Gondor models gain the chosen special rule for the duration of the game.\n\"I think at last we understand one another, Frodo Baggins\" - At the end of the game, you will score an additional Victory Point for each of Frodo, Sam and Smeagol that are still alive, or have excaped the battlefield in Scenarios where this applies. This can never take your total number of Victory Points for a Scenario above 20.",
+				"armyBonus": "Additional Rules:\n                A Garrison of Ithilien Army must include Faramir, Captain of Gondor, who is always the Army's General.\n                You may only include Same if your Army also includes Frodo. You may only include Smeagol if your ARmy includes Frodo and Sam.\n                Frodo, Sam and Smeagol may not lead Warrior models in this Army.\n\"Captured by Gondor\" - Frodo, Sam and Smeagol may either be deployed as a single Warband with Frodo as the Warband's Captin, or as part of Faramir's Warband\n\"Faramir's Rangers\" - A Garrison of Ithilien Army has a Bow Limit of 50% rather than the usual 33%\n\"Experienced Trackers\" - At the start of each game, you may choose either Woodland Creature or Mountain Dwellers. Friendly Gondor models gain the chosen special rule for the duration of the game.\n\"I think at last we understand one another, Frodo Baggins\" - At the end of the game, you will score an additional Victory Point for each of Frodo, Sam and Smeagol that are still alive, or have excaped the battlefield in Scenarios where this applies. This can never take your total number of Victory Points for a Scenario above 20.",
 				"adjustLimits": [
 					{
 						"type": "bow",
@@ -684,7 +684,7 @@
 			{
 				"name": "Reclamation of Osgiliath",
 				"alignment": "good",
-				"armyBonus": "\"Remember today, little brother\" - While Boromir and Faramir are within 3\" of each other, they may spend each other's Might, Will and Fate points as if they were their own.\n\"This city was once the jewel of our kingdom\" - Friendly models gain the Mountain Dweller special rule.\n\"For Gondor!\" - Once per game, at the start of any Fight Phase, Boromir can use this special rule so long as he is alive and on the battlefield. If he does, then friendly Gondor Warrior models within 6\" of Boromir gain a bonus of +1 To Wound when making Strikes untilt he end of the turn. This is treated as an Active ability belonging to Boromir.",
+				"armyBonus": "Additional Rules: A Reclamation of Osgiliath Army must include Boromir, Captain of the White Tower, who is always the Army's General.\n\"Remember today, little brother\" - While Boromir and Faramir are within 3\" of each other, they may spend each other's Might, Will and Fate points as if they were their own.\n\"This city was once the jewel of our kingdom\" - Friendly models gain the Mountain Dweller special rule.\n\"For Gondor!\" - Once per game, at the start of any Fight Phase, Boromir can use this special rule so long as he is alive and on the battlefield. If he does, then friendly Gondor Warrior models within 6\" of Boromir gain a bonus of +1 To Wound when making Strikes untilt he end of the turn. This is treated as an Active ability belonging to Boromir.",
 				"requiredChildren": [
 					{
 						"name": "Boromir, Captain of the White Tower",
@@ -696,7 +696,7 @@
 			{
 				"name": "Atop the Wall",
 				"alignment": "good",
-				"armyBonus": "\"Fight to the last Man\" - Friendly Gondor models within 12\" of Gandalf the White automatically pass any Courage Tests they have to take.\n\"Return to your posts\" - Friendly Gondor models within range of an Objective Marker may re-roll To Wound rolls of a natural 1 when making shooting attacks or making Strikes.\n\"Send these foul creatures into the abyss\" - Friendly Gondor models within 12\" of Gandalf the White gain the Hatred (Mordor) special rule.",
+				"armyBonus": "Additional Rules: An Atop the Walls Army must include Gandalf the White, who is always the Army's General.\n\"Fight to the last Man\" - Friendly Gondor models within 12\" of Gandalf the White automatically pass any Courage Tests they have to take.\n\"Return to your posts\" - Friendly Gondor models within range of an Objective Marker may re-roll To Wound rolls of a natural 1 when making shooting attacks or making Strikes.\n\"Send these foul creatures into the abyss\" - Friendly Gondor models within 12\" of Gandalf the White gain the Hatred (Mordor) special rule.",
 				"requiredChildren": [
 					{
 						"name": "Gandalf the White",
@@ -708,7 +708,7 @@
 			{
 				"name": "Return of the King",
 				"alignment": "good",
-				"armyBonus": "\"The Heir of Isildur\" - Aragorn does not have to pay any points for Anduril, Flame of the West; he automatically has this upgrade - it is free.\n\"Fight for us and regain your honour\" - Friendly Dunharrow Warrior models within 3\" of Aragorn gain a bonus of +1 to their Fight Value.\n\"Visions of Terror\" - Whenever the King of the Dead Charges into Combat, after the Charge has been completed, he may spend a Will Point to use this special rule. If he does, enemy models within 3\" of the King of the Dead must take a Courage Test in an order chosen by the King of the Dead's controlling player. If the test is failed, the model must Move up to its Move Value directly away from the King of the Dead.",
+				"armyBonus": "Additional Rules: A Return of the King Army must include Aragorn (Strider) and the King of the Dead. Aragorn is always the Army's General.\n\"The Heir of Isildur\" - Aragorn does not have to pay any points for Anduril, Flame of the West; he automatically has this upgrade - it is free.\n\"Fight for us and regain your honour\" - Friendly Dunharrow Warrior models within 3\" of Aragorn gain a bonus of +1 to their Fight Value.\n\"Visions of Terror\" - Whenever the King of the Dead Charges into Combat, after the Charge has been completed, he may spend a Will Point to use this special rule. If he does, enemy models within 3\" of the King of the Dead must take a Courage Test in an order chosen by the King of the Dead's controlling player. If the test is failed, the model must Move up to its Move Value directly away from the King of the Dead.",
 				"requiredChildren": [
 					{
 						"name": "Aragorn (Strider)",
@@ -732,7 +732,7 @@
 			{
 				"name": "Defenders of the Pelennor",
 				"alignment": "good",
-				"armyBonus": "\"Defend the White City\" - Each Hero in your Army can, once per game, declare a Heroic Combat for free.",
+				"armyBonus": "Additional Rules:\n                Rohan Warrior models can only be included in the Warband of a Rohan Hero.\n                Gondor Warrior models can only be included in the Warband of a Gondor Hero or Gandalf the White.\n                Dunharrow Warrior models can only be included in the Warabnd of a Dunharrow Hero, or in the Warband of Aragorn, Leolas, or Gimli.\n\"Defend the White City\" - Each Hero in your Army can, once per game, declare a Heroic Combat for free.",
 				"childMatchesRequired": [
 					{
 						"elementPropertyName": "heroes",
@@ -757,7 +757,7 @@
 			{
 				"name": "Men of the West",
 				"alignment": "good",
-				"armyBonus": "\"For Frodo!\" - Once per game, at the start of any Fight Phase, Aragorn can use this special rule so long as he is alive and on the battlefield. If he does, then friendly non-Eagle models within 6\" of Aragorn gain a bonus of +1 Fight Value and may re-roll To Wound rolls of a natural 1 when making Strikes until the end of the turn. This is treated as an Active ability belonging to Aragorn.\n\"The White Wizard\" - Gandalf may re-roll a single D6 in any Casting roll he makes.\n\"This day we fight!\" - So long as Aragorn is alive and on the battlefield, friendly models automatically pass any Courage Tests they are required to take.\n\"The Final Stand\" - Friendly Infantry models within 3\" of a friendly Hero model gain the Dominant (2) special rule.\n                \nIf your army includes any Cavalary models, then it cannot include any Eagle models, and vice versa.\nGandalf the White does not have his Staff of Power in this Army.",
+				"armyBonus": "Additional Rules:                \n                A Men of the West Army must include Aragorn, King Elessar, who is always the Army's General.\n                If your army includes any Cavalary models, then it cannot include any Eagle models, and vice versa.\n                Only Gwaihir can inlcude GreaT Eatgles in his Warband, and Gwaihir can only include Great Eagles in his Warband.\n                Gandalf the White does not have his Staff of Power in this Army.\n\"For Frodo!\" - Once per game, at the start of any Fight Phase, Aragorn can use this special rule so long as he is alive and on the battlefield. If he does, then friendly non-Eagle models within 6\" of Aragorn gain a bonus of +1 Fight Value and may re-roll To Wound rolls of a natural 1 when making Strikes until the end of the turn. This is treated as an Active ability belonging to Aragorn.\n\"The White Wizard\" - Gandalf may re-roll a single D6 in any Casting roll he makes.\n\"This day we fight!\" - So long as Aragorn is alive and on the battlefield, friendly models automatically pass any Courage Tests they are required to take.\n\"The Final Stand\" - Friendly Infantry models within 3\" of a friendly Hero model gain the Dominant (2) special rule.",
 				"requiredChildren": [
 					{
 						"name": "Aragorn, King Elessar",
@@ -774,7 +774,7 @@
 			{
 				"name": "Lindon",
 				"alignment": "good",
-				"armyBonus": "\"...haid, leithio i philinn!\" - Whilst within 3\" of a friendly Hero, friendly Warrior models may re-roll failed to Hit rolls when making a shooting attack, providing they didn't move in the preceding Move Phase.\n\"The Power of the Noldor\" - Friendly models within 6\" of Gil-galad gain the Resistant to Magic special rule.",
+				"armyBonus": "Additional Rules: A Lindon Army must include Gil-Galad, High King of the Noldor, who is always the Army's General.\n\"...haid, leithio i philinn!\" - Whilst within 3\" of a friendly Hero, friendly Warrior models may re-roll failed to Hit rolls when making a shooting attack, providing they didn't move in the preceding Move Phase.\n\"The Power of the Noldor\" - Friendly models within 6\" of Gil-galad gain the Resistant to Magic special rule.",
 				"requiredChildren": [
 					{
 						"name": "Gil-Galad, High King of the Noldor",
@@ -786,12 +786,12 @@
 			{
 				"name": "Rivendell",
 				"alignment": "good",
-				"armyBonus": "\"Protection of Imladris\" - Friendly models gain a bonus of +1 to any Courage Tests they are required to take.\n\"Defensive Stance\" - Friendly Elf Warrior models may re-roll To Wound rolls of a natural 1 when making Strikes so long as they have not Moved during the preceding Move Phase.\n\"Invoke the Bruinen\" - Once per game, so long as either Elrond or Arwen are alive and on the battlefield, you may use this special rule at the start of any Move Phase in which your Army is Broken. Place a 25mm Marker anywhere within 12\" and Line of Sight of Elrond or Arwen, and then roll a D6 for each enemy model within 3\" of that Marker. If the roll is equal to or over the Strength of the model, or is a natural 6, then the model immediately suffers a Strength 4 hit and, if it survives, will be knocked Prone. Remove the Marker after every affected enemy model has been rolled for."
+				"armyBonus": "Additional Rules: If your Army includes Elrond, then Rivendell Knights do not count towards this Army's Bow Limit.\n\"Protection of Imladris\" - Friendly models gain a bonus of +1 to any Courage Tests they are required to take.\n\"Defensive Stance\" - Friendly Elf Warrior models may re-roll To Wound rolls of a natural 1 when making Strikes so long as they have not Moved during the preceding Move Phase.\n\"Invoke the Bruinen\" - Once per game, so long as either Elrond or Arwen are alive and on the battlefield, you may use this special rule at the start of any Move Phase in which your Army is Broken. Place a 25mm Marker anywhere within 12\" and Line of Sight of Elrond or Arwen, and then roll a D6 for each enemy model within 3\" of that Marker. If the roll is equal to or over the Strength of the model, or is a natural 6, then the model immediately suffers a Strength 4 hit and, if it survives, will be knocked Prone. Remove the Marker after every affected enemy model has been rolled for."
 			},
 			{
 				"name": "The Last Alliance",
 				"alignment": "good",
-				"armyBonus": "\"Whirl of Steel\" - Whenever a friendly Rivendell Infantry model that is not Engaged in Combat is Charged, they may roll a D6. On a natural 6, the model that Charged them immediately suffers a Wound. If this model was a Cavalry model, roll a further D6. On a 1-3 it will be the Mount that suffers the wound, on a 4+ it will be the rider that suffers the Wound. This is considered an Active ability.\n\"There were some who resisted\" - Friendly models may re-roll any dice that roll a 1 when making Courage Tests.\n\"Strength of Numenor\" - Whilst being supported by or supporting a friendly Rivendell model, friendly Numenor models may re-roll To Wound rolls of a natural 1 when making Strikes.",
+				"armyBonus": "Additional Rules:\n                A Last Alliance Army must include at least one Unique Numenor Hero and at least one Unique Rivendell Hero.\n                Numenor Warrior models can only be included in the Warband of a Numenor Hero.\n                Rivendell Warrior models can only be included in the Warband of a Rivendell Hero.\n\"Whirl of Steel\" - Whenever a friendly Rivendell Infantry model that is not Engaged in Combat is Charged, they may roll a D6. On a natural 6, the model that Charged them immediately suffers a Wound. If this model was a Cavalry model, roll a further D6. On a 1-3 it will be the Mount that suffers the wound, on a 4+ it will be the rider that suffers the Wound. This is considered an Active ability.\n\"There were some who resisted\" - Friendly models may re-roll any dice that roll a 1 when making Courage Tests.\n\"Strength of Numenor\" - Whilst being supported by or supporting a friendly Rivendell model, friendly Numenor models may re-roll To Wound rolls of a natural 1 when making Strikes.",
 				"childMatchesRequired": [
 					{
 						"elementPropertyName": "heroes",
@@ -815,17 +815,17 @@
 			{
 				"name": "Fangorn",
 				"alignment": "good",
-				"armyBonus": "\"Don't be Hasty\" - Friendly Ent models are completely unaffected by any Magical Powers that would attempt to Move them, or prevent them from Activating or Moving.\n\"One with the Forest\" - Friendly Ent models are completely unaffected by the Call Winds, Nature's Wrath, Wrath of Bruinen, and Writhing Vines Magical Powers.\n\"Beech. Oak. Chestnut. Ash. Many have come\" - Whenever you include an Ent Warrior in your Army, you may assign one of four types of Ent to it, as listed below. You must split the types of Ent as evenly as possible. So, if you want to have a second of one type of Ent, you must first have one of each of the types. If you want to have a third of one type of Ent, you must first have two of each of the types, and so on.\n  Beech - The Ent may re-roll To Wound rolls of a natural 1 when making Strikes.\n  Oak - The Ent improves its Wounds characteristic to 4.\n  Chestnut - The Ent gains the Mighty Blow special rule.\n  Ash - The Ent improves their Shoot Value to 3+ and can still use its Throw Stones special rule even if it has Moved that turn (though not if it has Moved over half its Move Value)."
+				"armyBonus": "Additional Rules: A Fangorn Army must always contain Treebeard, who is always the Army's General.\n\"Don't be Hasty\" - Friendly Ent models are completely unaffected by any Magical Powers that would attempt to Move them, or prevent them from Activating or Moving.\n\"One with the Forest\" - Friendly Ent models are completely unaffected by the Call Winds, Nature's Wrath, Wrath of Bruinen, and Writhing Vines Magical Powers.\n\"Beech. Oak. Chestnut. Ash. Many have come\" - Whenever you include an Ent Warrior in your Army, you may assign one of four types of Ent to it, as listed below. You must split the types of Ent as evenly as possible. So, if you want to have a second of one type of Ent, you must first have one of each of the types. If you want to have a third of one type of Ent, you must first have two of each of the types, and so on.\n  Beech - The Ent may re-roll To Wound rolls of a natural 1 when making Strikes.\n  Oak - The Ent improves its Wounds characteristic to 4.\n  Chestnut - The Ent gains the Mighty Blow special rule.\n  Ash - The Ent improves their Shoot Value to 3+ and can still use its Throw Stones special rule even if it has Moved that turn (though not if it has Moved over half its Move Value)."
 			},
 			{
 				"name": "The Eagles",
 				"alignment": "good",
-				"armyBonus": "\"The Eagles are Coming!\" - Friendly Eagle models gain a bonus of +1 to their Strength on a turn in which they Charge.\n\"Piercing Cry\" - Once per game, at the start of any Move Phase, Gwaihir can use this special rule so long as he is alive and on the battlefield. If he does, then enemy models within 6\" of Gwaihir cannot Move during that turn, but may otherwise act normally."
+				"armyBonus": "Additional Rules: The Eagles may not include more Fledgeling Great Eagles than Great Eagles.\n\"The Eagles are Coming!\" - Friendly Eagle models gain a bonus of +1 to their Strength on a turn in which they Charge.\n\"Piercing Cry\" - Once per game, at the start of any Move Phase, Gwaihir can use this special rule so long as he is alive and on the battlefield. If he does, then enemy models within 6\" of Gwaihir cannot Move during that turn, but may otherwise act normally."
 			},
 			{
 				"name": "Barad-Dur",
 				"alignment": "evil",
-				"armyBonus": "\"The power of the Ring could not be undone\" - So long as Sauron has at least 3 Wounds remaining, a Barad-Dur army can never count as being Broken. Should Sauron have 2 or fewer Wounds remaining, a Barad-Dur Army will Break as normal. However, should Sauron ever be removed as a casualty, a Barad-Dur Army will immediately count as being broken.\n\"Teeming with Orcs\" - Sauron's Warband may include 24 models rather than the usual 18 for a Hero of Legend.\n\"Vistory is at hand\" - So long as Sauron is alive and on the battlefield, friendly Orc models gain a +1 bonus to any Courage Tests they are required to take.",
+				"armyBonus": "Additional Rules: A Barad-dur Army must always contain Sauron, who is always the Army's General.\n\"The power of the Ring could not be undone\" - So long as Sauron has at least 3 Wounds remaining, a Barad-Dur army can never count as being Broken. Should Sauron have 2 or fewer Wounds remaining, a Barad-Dur Army will Break as normal. However, should Sauron ever be removed as a casualty, a Barad-Dur Army will immediately count as being broken.\n\"Teeming with Orcs\" - Sauron's Warband may include 24 models rather than the usual 18 for a Hero of Legend.\n\"Vistory is at hand\" - So long as Sauron is alive and on the battlefield, friendly Orc models gain a +1 bonus to any Courage Tests they are required to take.",
 				"requiredChildren": [
 					{
 						"name": "The Dark Lord Sauron",
@@ -837,7 +837,7 @@
 			{
 				"name": "The Black Riders",
 				"alignment": "evil",
-				"armyBonus": "\"Terror in the night\" - An enemy model within the range of multiple friendly Ringwraith models' Harbinger of Evil special rule, will suffer a -2 penalty to their Courage Test rather than -1.\n\"Screech of the Nazgul\" - A friendly Ringwraight model can use this special rule at the start of their Activation. If they do, choose an enemy model within 12\" and Line of Sight of the Ringwraith. The chosen model is immediately subject to the Transfix Magical Power, which will count as being Cast on a 6 - they may take a Resist test as normal. A Ringwraith model that uses this special rule cannot also Cast a Magical Power during their Activation. Only a single Ringwraight can use this special rule each turn, and each Ringwraith can only use this special rule once per game.\n\"The Will of Sauron\" - Friendly Ringwraight models do not lose a Will Point for being Engaged in Combat as per the Will of Evil special rule.\n\"Hunt the Ringbearer\" - At the start of the Fight Phase, before any other Heroic Actions are declared, a single friendly Ringwraith may declare a Heroic Combat for free. This can only be done if, should the Heroic Combat be successful, the Ringwraith could charge the Ringbearer, though any other models in the Heroic Combat may act as normal.\n  If both players declare a Heroic Combat in the Fight Phase in which this special rule is used, this player will automatically win the roll-off to see which Heroic Combat goes first; howver, this Heroic Combat declared by this special rule must be the one chosen to go first.\n                ",
+				"armyBonus": "Additional Rules:\n                This Army may only ever include a maximum of 9 models: 8 Ringwraiths and the Witch-king.\n                A Black Riders Army must always contain the Witch-king of Angmar, who is always the Army's General.\n\"Terror in the night\" - An enemy model within the range of multiple friendly Ringwraith models' Harbinger of Evil special rule, will suffer a -2 penalty to their Courage Test rather than -1.\n\"Screech of the Nazgul\" - A friendly Ringwraight model can use this special rule at the start of their Activation. If they do, choose an enemy model within 12\" and Line of Sight of the Ringwraith. The chosen model is immediately subject to the Transfix Magical Power, which will count as being Cast on a 6 - they may take a Resist test as normal. A Ringwraith model that uses this special rule cannot also Cast a Magical Power during their Activation. Only a single Ringwraight can use this special rule each turn, and each Ringwraith can only use this special rule once per game.\n\"The Will of Sauron\" - Friendly Ringwraight models do not lose a Will Point for being Engaged in Combat as per the Will of Evil special rule.\n\"Hunt the Ringbearer\" - At the start of the Fight Phase, before any other Heroic Actions are declared, a single friendly Ringwraith may declare a Heroic Combat for free. This can only be done if, should the Heroic Combat be successful, the Ringwraith could charge the Ringbearer, though any other models in the Heroic Combat may act as normal.\n  If both players declare a Heroic Combat in the Fight Phase in which this special rule is used, this player will automatically win the roll-off to see which Heroic Combat goes first; howver, this Heroic Combat declared by this special rule must be the one chosen to go first.\n                ",
 				"requiredChildren": [
 					{
 						"name": "The Witch-King of Angmar B",
@@ -856,12 +856,12 @@
 			{
 				"name": "Wraiths on Wings",
 				"alignment": "evil",
-				"armyBonus": "\"Full Force Charge\" - The first time a friendly Monster model Charges during its Activation, it may choose to use this special rule. If it does, each model it has Charged suffers a single Strength 5 hit. Cavalry models suffer these hits on both the Mount and the rider. If after these hits have been resolved the Monster is no longer Engaged in Combat, it may continue its Activation and may even Charge again if it wishes; though if it does, any subsequent Charges will not confer this effect.\n\"Strafing Attack\" - At the end of a friendly Monster model's Move, if it is not Engaged in Combat, you may choose a single enemy model, that is not Engaged in Combat, that lies int he direct path between where the Monster began its move, and where it finished its Move - the path is the same width as the Monster model's base. The chosen model suffers a Strength 5 hit and, if it survives, will be knocked Prone. Cavalry models suffer these hits on both the Mount and the rider."
+				"armyBonus": "Additional Rules: This Army may only ever include a maximum of 9 models: 8 Ringwraiths and the Witch-king.\n\"Full Force Charge\" - The first time a friendly Monster model Charges during its Activation, it may choose to use this special rule. If it does, each model it has Charged suffers a single Strength 5 hit. Cavalry models suffer these hits on both the Mount and the rider. If after these hits have been resolved the Monster is no longer Engaged in Combat, it may continue its Activation and may even Charge again if it wishes; though if it does, any subsequent Charges will not confer this effect.\n\"Strafing Attack\" - At the end of a friendly Monster model's Move, if it is not Engaged in Combat, you may choose a single enemy model, that is not Engaged in Combat, that lies int he direct path between where the Monster began its move, and where it finished its Move - the path is the same width as the Monster model's base. The chosen model suffers a Strength 5 hit and, if it survives, will be knocked Prone. Cavalry models suffer these hits on both the Mount and the rider."
 			},
 			{
 				"name": "Army of Gothmog",
 				"alignment": "evil",
-				"armyBonus": "\"The Destruction of Men\" - The range of Gothmog's \"The Age of Men is Over\" special rule is increased to 12\". Additionally, the range of Gothmog's \"The Time of the Orc has Come\" special rule is increased to battlefield wide.\n\"Tyrannical Rule\" - Friendly Orc Hero models may benefit from Gothmog's Stand Fast\n\"Ruthless Assault\" - Friendly Orc models may re-roll To Wound rolls of a natural 1 when amking Strikes against a Trapped model.",
+				"armyBonus": "Additional Rules: The Army of Gothmog must always contain Gothmog, who is always the Army's General.\n\"The Destruction of Men\" - The range of Gothmog's \"The Age of Men is Over\" special rule is increased to 12\". Additionally, the range of Gothmog's \"The Time of the Orc has Come\" special rule is increased to battlefield wide.\n\"Tyrannical Rule\" - Friendly Orc Hero models may benefit from Gothmog's Stand Fast\n\"Ruthless Assault\" - Friendly Orc models may re-roll To Wound rolls of a natural 1 when amking Strikes against a Trapped model.",
 				"requiredChildren": [
 					{
 						"name": "Gothmog, Lieutenant of Sauron",
@@ -873,7 +873,7 @@
 			{
 				"name": "Legions of Mordor",
 				"alignment": "evil",
-				"armyBonus": "\"Bring the City to its Knees\" - Friendly Hero models may re-roll To Wound Rolls of a natural 1 when making Strikes against an enemy Hero model.",
+				"armyBonus": "Additional Rules:\n                Mordor Warrior models can only be included in the Warband of a Mordor Hero.\n                Harad Warrior models can only be included in the Warband of a Harad Hero.\n                Easterling Warrior models can only be included in the Warband of a Easterling Hero.\n\"Bring the City to its Knees\" - Friendly Hero models may re-roll To Wound Rolls of a natural 1 when making Strikes against an enemy Hero model.",
 				"childMatchesRequired": [
 					{
 						"elementPropertyName": "heroes",
@@ -898,7 +898,7 @@
 			{
 				"name": "Minas Morgul",
 				"alignment": "evil",
-				"armyBonus": "\"The Dead City\" - Mordor Orc Captains and Mordor Orc Warriors gain the Blades of the Dead special rule.\n\"Call of Morgul\" - If the enemy Army contains a Ringbearer, they will suffer a -1 penalty when rolling for Sauron's Will.\n\"Lead through fear\" - Friendly Orc models within 3\" of a friendly Spirit model automatically pass Courage Tests when attempting to Charge a model with the Terror special rule.",
+				"armyBonus": "Additional Rules: A Minas Morgul Army must always contain the Witch-king of Angmar, who is always the Army's General.\n\"The Dead City\" - Mordor Orc Captains and Mordor Orc Warriors gain the Blades of the Dead special rule.\n\"Call of Morgul\" - If the enemy Army contains a Ringbearer, they will suffer a -1 penalty when rolling for Sauron's Will.\n\"Lead through fear\" - Friendly Orc models within 3\" of a friendly Spirit model automatically pass Courage Tests when attempting to Charge a model with the Terror special rule.",
 				"requiredChildren": [
 					{
 						"name": "The Witch-King of Angmar C",
@@ -910,7 +910,7 @@
 			{
 				"name": "Cirith Ungol",
 				"alignment": "evil",
-				"armyBonus": "\"Animosity\" - Friendly Orc models gain a bonus of +1 To Wound when making Strikes if there is a friendly Uruk-hai model Engaged in the same Combat. Friendly uruk-hai models gain a bonus of +1 To Wound when making strikes if there is a friendly Orc model engaged in the same Combat.\n\"Rivals for Power\" - Keep track of how many models Gorbag and Shagrat have each killed. If at any point either of them has fewer kills than the other, that model may re-roll a single D6 during the Duel Roll.\n\"Swift Hunter\" - During the declare Heroic Actions step of the Move Phase, Shelob can choose to kill a friendly model within 1\" of her - remove the chosen model as a casualty. If she does, Shelob may declare a Heroic Move for free, though she may not shoud \"With Me as part of this Heroic Move.",
+				"armyBonus": "Additional Rules:\n                A Cirith Ungol Army must always contain Shagrat and Gorbad; Shagrat must always be your General.\n                Orc Warriors may only be in the warband of Orc Heroes\n                Uruk-hai Warriors may only be in the warband of Uruk-hai heroes.\n\"Animosity\" - Friendly Orc models gain a bonus of +1 To Wound when making Strikes if there is a friendly Uruk-hai model Engaged in the same Combat. Friendly uruk-hai models gain a bonus of +1 To Wound when making strikes if there is a friendly Orc model engaged in the same Combat.\n\"Rivals for Power\" - Keep track of how many models Gorbag and Shagrat have each killed. If at any point either of them has fewer kills than the other, that model may re-roll a single D6 during the Duel Roll.\n\"Swift Hunter\" - During the declare Heroic Actions step of the Move Phase, Shelob can choose to kill a friendly model within 1\" of her - remove the chosen model as a casualty. If she does, Shelob may declare a Heroic Move for free, though she may not shoud \"With Me as part of this Heroic Move.",
 				"requiredChildren": [
 					{
 						"name": "Shagrat, Captain of Cirith Ungol",
@@ -939,9 +939,9 @@
 				]
 			},
 			{
-				"name": "The Black Gate Opens",
+				"name": "The Black Gate",
 				"alignment": "evil",
-				"armyBonus": "\"Greatest of the Trolls\" - The Mordor Troll Chieftain that is your General gains the Fearless special rule, and an additional point each of Might, Will and Fate.\n\"The Hordes of Mordor\" - Friendly Mordor Orc models engaged in a Combat gain a bonus of +1 To Wound when making strikes against an outnumbered opponent.\n\"Temptation of Sauron\" - At the start of each Move Phase, before the Declare Heroic Actions Step, you may choose a single enemy model on the battlefield. The chosen model must immediately take an Intelligence Test. If the test if failed, you may immediately Move the chosen model up to its Move Value following all the usual rules for moving, including making them Charge if you wish. The chosen model may not Move later in the Move Phase, but may otherwise act normally.",
+				"armyBonus": "Additional Rules: A Black Gate Army must always contain a Mordor Troll Chieftain, who is always the Army's General, and the Mouth of Sauron. The Mordor Troll Chieftain that is your General is treated as a Hero of Valour.\n\"Greatest of the Trolls\" - The Mordor Troll Chieftain that is your General gains the Fearless special rule, and an additional point each of Might, Will and Fate.\n\"The Hordes of Mordor\" - Friendly Mordor Orc models engaged in a Combat gain a bonus of +1 To Wound when making strikes against an outnumbered opponent.\n\"Temptation of Sauron\" - At the start of each Move Phase, before the Declare Heroic Actions Step, you may choose a single enemy model on the battlefield. The chosen model must immediately take an Intelligence Test. If the test if failed, you may immediately Move the chosen model up to its Move Value following all the usual rules for moving, including making them Charge if you wish. The chosen model may not Move later in the Move Phase, but may otherwise act normally.",
 				"requiredChildren": [
 					{
 						"name": "Mordor Troll Chieftain Leader",
@@ -963,7 +963,7 @@
 			{
 				"name": "Lurtz's Scouts",
 				"alignment": "evil",
-				"armyBonus": "\"Relentless March\" - Friendly models increase their Move Value to 8\". Additionally, friendly models gain the Woodland Creature special rule.\n\"You do not know pain, you do not know fear\" - The Break Point for Lurtz's Scouts is 66% rather than 50%\n\"Kill the others\" - Lurtz gains the General Hunter special rule and may declare a Heroic Combat each turn for free.",
+				"armyBonus": "Additional Rules: A Lurtz's Scouts Army must always contain Lurtz, who is always the Army's General.\n\"Relentless March\" - Friendly models increase their Move Value to 8\". Additionally, friendly models gain the Woodland Creature special rule.\n\"You do not know pain, you do not know fear\" - The Break Point for Lurtz's Scouts is 66% rather than 50%\n\"Kill the others\" - Lurtz gains the General Hunter special rule and may declare a Heroic Combat each turn for free.",
 				"requiredChildren": [
 					{
 						"name": "Lurtz, Uruk-hai Scout Captain",
@@ -975,7 +975,7 @@
 			{
 				"name": "Ugluk's Scouts",
 				"alignment": "evil",
-				"armyBonus": "\"Their pace has quickened\" - Friendly Uruk-hai models increase their Move Value to 8\". Additionally, friendly Uruk-hai models gain the Woodland Creature special rule.\n\"Get a fire going\" - Once per game, in Scenarios that use Objective Markers, Ugluk can use this special rule during his Move to choose an Objective Marker in base contact. So long as Ugluk is alive and on the battlefield, friendly models wtihin range of the chosen Objective Marker gain the Dominant (2) special rule.\n\"Animosity\" - Friendly Orc models gain a bonus of +1 To Wound when making Strikes if there is a friendly Uruk-hai model Engaged in the same Combat. Friendly Uruk-hai models gain a bonus of +1 To Wound when making Strikes if there is a friendly Orc model engaged in the same Combat.",
+				"armyBonus": "Additional Rules:\n                An Ugluk's Scouts Army must always contain Ugluk, who is always the Army's General.\n                Orc Warrior models can only be included in the Warband of an Orc Hero.\n                Uruk-hai Warrior models can only be included in the Warband of an Uruk-hai Hero.\n\"Their pace has quickened\" - Friendly Uruk-hai models increase their Move Value to 8\". Additionally, friendly Uruk-hai models gain the Woodland Creature special rule.\n\"Get a fire going\" - Once per game, in Scenarios that use Objective Markers, Ugluk can use this special rule during his Move to choose an Objective Marker in base contact. So long as Ugluk is alive and on the battlefield, friendly models wtihin range of the chosen Objective Marker gain the Dominant (2) special rule.\n\"Animosity\" - Friendly Orc models gain a bonus of +1 To Wound when making Strikes if there is a friendly Uruk-hai model Engaged in the same Combat. Friendly Uruk-hai models gain a bonus of +1 To Wound when making Strikes if there is a friendly Orc model engaged in the same Combat.",
 				"requiredChildren": [
 					{
 						"name": "Ugluk, Uruk-hai Scout Captain",
@@ -1001,7 +1001,7 @@
 			{
 				"name": "Wolves of Isengard",
 				"alignment": "evil",
-				"armyBonus": "\"Leader of the Pack\" - Sharku may declare a Heroic Combat each turn for free.\n\"Savage Charge\" - Friendly Cavalry models still gain the Extra Attack bonus even when they Charge a Cavalry model, and will retain it even if they are subsequently Charged by a Cavalry model.\n\"Warg Scouts\" - At the start of the game, after both sides have deployed but before the first Priority has been rolled, you may select up to D6 friendly Warrior models. The selected models may immediately Move as if it were the Move Phase, and then make a shooting attack as if it were the Shoot Phase. During this Move, friendly models may not move within 1\" of an enemy model and therefore may not Charge. In Scenarios where models enter the board, the selected models wtill Move onto the board before the first turn of the game, treating any roll to enter the board as a 6. Each model is treated as a separate Warband in this instance.\n\"Ambush\" - In Scenarios that use the Maelstrom of Battle special rule, a Wolves of Isengard Army will automatically win the roll to choose who has Priority on the first turn. If both Armies have rules that allow them to do this, roll for Priority a normal. Additionally, models from this Army may Charge on the turn they enter the board, even though they may not normally be allowed to do so. Models Charging in this manner do not need to take a Courage Test to Charge an enemy with the Terror special rule.",
+				"armyBonus": "Additional Rules:\n                A Wolves of Isengard Army must always contain Sharku, who is always the Army's General.\n                A Wolves of Isengard Army may have up to 50% of its Warrior models armed with throwing weapons rather than the usual 33%.\n\"Leader of the Pack\" - Sharku may declare a Heroic Combat each turn for free.\n\"Savage Charge\" - Friendly Cavalry models still gain the Extra Attack bonus even when they Charge a Cavalry model, and will retain it even if they are subsequently Charged by a Cavalry model.\n\"Warg Scouts\" - At the start of the game, after both sides have deployed but before the first Priority has been rolled, you may select up to D6 friendly Warrior models. The selected models may immediately Move as if it were the Move Phase, and then make a shooting attack as if it were the Shoot Phase. During this Move, friendly models may not move within 1\" of an enemy model and therefore may not Charge. In Scenarios where models enter the board, the selected models wtill Move onto the board before the first turn of the game, treating any roll to enter the board as a 6. Each model is treated as a separate Warband in this instance.\n\"Ambush\" - In Scenarios that use the Maelstrom of Battle special rule, a Wolves of Isengard Army will automatically win the roll to choose who has Priority on the first turn. If both Armies have rules that allow them to do this, roll for Priority a normal. Additionally, models from this Army may Charge on the turn they enter the board, even though they may not normally be allowed to do so. Models Charging in this manner do not need to take a Courage Test to Charge an enemy with the Terror special rule.",
 				"requiredChildren": [
 					{
 						"name": "Sharku, Warg Rider Captain",
@@ -1019,7 +1019,7 @@
 			{
 				"name": "Muster of Isengard",
 				"alignment": "evil",
-				"armyBonus": "\"You do not know pain, you do not know fear\" - The Break Point for a Muster of Isengard army is 66% rather than 50%\n\"Isengard Unleashed\" - During the first turn of the game, each friendly Uruk-hai Hero may declare a Heroic March for free. Additionally, Uruk-hai Captains gain Heroic Strike.\n\"There will be no dawn for men\" - Friendly Uruk-hai models gain the Hatred (Man) special rule.",
+				"armyBonus": "Additional Rules: A Muster of Isengard Army must always contain Saruman, who is always the Army's General.\n\"You do not know pain, you do not know fear\" - The Break Point for a Muster of Isengard army is 66% rather than 50%\n\"Isengard Unleashed\" - During the first turn of the game, each friendly Uruk-hai Hero may declare a Heroic March for free. Additionally, Uruk-hai Captains gain Heroic Strike.\n\"There will be no dawn for men\" - Friendly Uruk-hai models gain the Hatred (Man) special rule.",
 				"requiredChildren": [
 					{
 						"name": "Saruman",
@@ -1031,7 +1031,7 @@
 			{
 				"name": "Assault Upon Helm's Deep",
 				"alignment": "evil",
-				"armyBonus": "\"You do not know pain, you do not know fear\" - The Break Point for an Assault Upon Helm's Deep army is 66% rather than 50%\n\"Commander of the Uruk-hai\" - The Uruk-hai Captain that is your General increases its Attacks and Wounds to 3 each.\n\"Break the Walls\" - Friendly Isengard Assault Ballistae may re-roll To Hit and Scatter rolls of a 1. Additinoally, when a friendly Demolition Charge is detonated, you may roll two dice on the Detonation Table rather than one and pick either result.",
+				"armyBonus": "Additional Rules: An Assault Upon Helm's Deep Army must always contain an Uruk-hai Captain, who is always the Army's General.\n\"You do not know pain, you do not know fear\" - The Break Point for an Assault Upon Helm's Deep army is 66% rather than 50%\n\"Commander of the Uruk-hai\" - The Uruk-hai Captain that is your General increases its Attacks and Wounds to 3 each.\n\"Break the Walls\" - Friendly Isengard Assault Ballistae may re-roll To Hit and Scatter rolls of a 1. Additinoally, when a friendly Demolition Charge is detonated, you may roll two dice on the Detonation Table rather than one and pick either result.",
 				"requiredChildren": [
 					{
 						"name": "Uruk-hai Captain Leader",
@@ -1043,12 +1043,12 @@
 			{
 				"name": "Usurpers of Edoras",
 				"alignment": "evil",
-				"armyBonus": "\"Whipped into a frenzy\" - Whenever a Hill Tribesman or Hill Tribes Chieftain suffers a wound, roll a D6. On a natural 6, the Wound is ignored.\n                \"Barbarous Killers\" - Friendly Dunland models gain a bonus of +1 To Wound when making Strikes against enemy Hero models."
+				"armyBonus": "Additional Rules:\n                If your Army includes Freca, then he must be your General.\n                Rohirrim Traitors can only be included in Lord Thorne's Warabnd.\n\"Whipped into a frenzy\" - Whenever a Hill Tribesman or Hill Tribes Chieftain suffers a wound, roll a D6. On a natural 6, the Wound is ignored.\n\"Barbarous Killers\" - Friendly Dunland models gain a bonus of +1 To Wound when making Strikes against enemy Hero models."
 			},
 			{
 				"name": "Besiegers of the Hornburg",
 				"alignment": "evil",
-				"armyBonus": "\"Wulf's Revenge\" - Whenever Wulf Moves, he must always Charge an enemy model if possible. Additionally, once per game Wulf may declare a Heroic Challenge for free, though this Heroic Challenge must target the enemy General. Wulf may still do this even if the enemy General has a lower Heroic Tier.\n\"The Promise of Wealth\" - Friendly Dunland Warrior models within range of an Objective Marker gain a bonus of +1 To Wound when making Strikes.\n\"Shank & Wrot\" - Friendly Mordor models cannot benefit from the Heroic Actions or Stand Fast of friendly Dunland models and friendly Dunland models cannot benefit from the Heroic Actions or Stand Fast of friendly Mordor models.",
+				"armyBonus": "Additional Rules: A Besiegers of the Hornburg Army must include Wulf, who is always the Army's General.\n\"Wulf's Revenge\" - Whenever Wulf Moves, he must always Charge an enemy model if possible. Additionally, once per game Wulf may declare a Heroic Challenge for free, though this Heroic Challenge must target the enemy General. Wulf may still do this even if the enemy General has a lower Heroic Tier.\n\"The Promise of Wealth\" - Friendly Dunland Warrior models within range of an Objective Marker gain a bonus of +1 To Wound when making Strikes.\n\"Shank & Wrot\" - Friendly Mordor models cannot benefit from the Heroic Actions or Stand Fast of friendly Dunland models and friendly Dunland models cannot benefit from the Heroic Actions or Stand Fast of friendly Mordor models.",
 				"requiredChildren": [
 					{
 						"name": "Wulf, High Lord of the Hill Tribes",
@@ -1065,7 +1065,7 @@
 			{
 				"name": "Harad",
 				"alignment": "evil",
-				"armyBonus": "\"War Beasts from the South\" - Friendly Mumak models gain the Harbinger of Evil (12\") special rule.\n\"The Scorpion's Sting\" - Friendly models with the Poisoned Attacks (bow) special rule exchange it for the Poisoned Attacks on all of their weapons.\n\"Monstrous Rampgage\" - Each Hero that is commanding a Mumak can, once per game, declare a Heroic Combat for free whilst atop a Mumak. When they do, the Mumak will be affected as if they had been the one to declare the Heroic Combat, though they may not pivot before they Trample as part of a Heroic Combat.",
+				"armyBonus": "Additional Rules: A Harad Army may have up to 50% of its Warrior models armed with bows rather than the usual 33%.\n\"War Beasts from the South\" - Friendly Mumak models gain the Harbinger of Evil (12\") special rule.\n\"The Scorpion's Sting\" - Friendly models with the Poisoned Attacks (bow) special rule exchange it for the Poisoned Attacks on all of their weapons.\n\"Monstrous Rampgage\" - Each Hero that is commanding a Mumak can, once per game, declare a Heroic Combat for free whilst atop a Mumak. When they do, the Mumak will be affected as if they had been the one to declare the Heroic Combat, though they may not pivot before they Trample as part of a Heroic Combat.",
 				"adjustLimits": [
 					{
 						"type": "bow",
@@ -1074,9 +1074,9 @@
 				]
 			},
 			{
-				"name": "Corsair Fleet",
+				"name": "Corsair Fleets",
 				"alignment": "evil",
-				"armyBonus": "\"The Fleetmaster\" - The Corsair Captain that is your General increases their Attacks and Wounds to 3 each, and gains the Fearless and Sharpshooter special rules.\n\"The Last Stroke of Doom\" - Friendly Corsaid models gain the Backstabbers special rule.\n\"Ballistae Assault\" - After both sides have been deployed, but before the first turn of the game, a single Corsair Ballista may make a shooting attack following all the normal rules for doing so.",
+				"armyBonus": "Additional Rules: A Corsair Fleets Army must always contain a Corsair Captain, who is always the Army's General.\n\"The Fleetmaster\" - The Corsair Captain that is your General increases their Attacks and Wounds to 3 each, and gains the Fearless and Sharpshooter special rules.\n\"The Last Stroke of Doom\" - Friendly Corsaid models gain the Backstabbers special rule.\n\"Ballistae Assault\" - After both sides have been deployed, but before the first turn of the game, a single Corsair Ballista may make a shooting attack following all the normal rules for doing so.",
 				"requiredChildren": [
 					{
 						"name": "Corsair Captain Leader",
@@ -1088,7 +1088,7 @@
 			{
 				"name": "The Iron Hills",
 				"alignment": "good",
-				"armyBonus": "\"Ironfoot has come!\" - In Scenarios where you roll for Warbands to arrive, or ones where you roll to see which part of the board you deploy a Warband in (though not when rolling to choose deployment zones), you may modify the roll for Warabnds from this army by +1 or -1.\n\"Yanad Durinul - Friendly Infantry models may re-roll To Wound Rolls of a natural 1 when making Strikes, so long as they are in base contact with 2 or more friendly Infantry models.\n\"Long March from the Iron Hills\" - Friendly models gain the Mountain Dweller special rule.\n\"I've always found Thorin the more reasonable of the two...\" - Dain gains the Master of Battle (5+) special rule.",
+				"armyBonus": "Additional Rules: An Iron Hills Army must include Dain Ironfoot, who is always the Army's General.\n\"Ironfoot has come!\" - In Scenarios where you roll for Warbands to arrive, or ones where you roll to see which part of the board you deploy a Warband in (though not when rolling to choose deployment zones), you may modify the roll for Warabnds from this army by +1 or -1.\n\"Yanad Durinul - Friendly Infantry models may re-roll To Wound Rolls of a natural 1 when making Strikes, so long as they are in base contact with 2 or more friendly Infantry models.\n\"Long March from the Iron Hills\" - Friendly models gain the Mountain Dweller special rule.\n\"I've always found Thorin the more reasonable of the two...\" - Dain gains the Master of Battle (5+) special rule.",
 				"requiredChildren": [
 					{
 						"name": "Dain Ironfoot, Lord of the Iron Hills",
@@ -1105,7 +1105,7 @@
 			{
 				"name": "The Battle of Five Armies",
 				"alignment": "good",
-				"armyBonus": "\"Something?\" - Friendly models may re-roll To Wound Rolls of a natural 1 when making Strikes if they are involved in a Combat with a friendly model that has a different racial Keyword to themselves.",
+				"armyBonus": "Additional Rules:\n                Elf Warrior models can only be included in the Warband of an Elf Hero.\n                Dwarf Warrior models can only be included in the Warband of an Dwarf Hero.\n                Lake-town Warrior models can only be included in the Warband of an Lake-town Hero, or in the Warabnd of Gandalf the Grey or Bilbo Baggins.\n                Eagle Warrior models can only be included in the Warband of an Eagle Hero, or in the Warband of Radagast the Brown or Beorn.\n                The Battle of Five Armies may not include more Fledgeling Great Eagles than Great Eagles.\n\"We stand together\" - Friendly models may re-roll To Wound Rolls of a natural 1 when making Strikes if they are involved in a Combat with a friendly model that has a different racial Keyword to themselves.",
 				"childMatchesRequired": [
 					{
 						"elementPropertyName": "heroes",
@@ -1141,7 +1141,7 @@
 			{
 				"name": "Survivors of Lake-town",
 				"alignment": "good",
-				"armyBonus": "\"Saviour of Lake-town\" - Other friendly Lake-town models within 6\" of Bard gain a bonus of +1 to their Fight Value. Additionally, other friendly Lake-town models treat Bard as a banner with a range of 6\". Alfrid does not benefit from this special rule.\n\"Heir of Dale\" - Bard the Bowman gains the Might Hero and Fearless special rules.\n\"Hold the Streets\" - Friendly Warrior models within range of an Objective Marker may re-roll To Wound Rolls of a natural 1 when making Strikes.\n\"Master Burglar\" - Whilst Bilbo is holding an Objective Marker in Scenarios where this is relevant, he increases his Attacks to 2. Additionally, whilst Bilto is wearing the One Ring and is Insvisible, if he Moves through an enemy model that is holding an Objective Marker in Scenarios where this is relevant, Bilbo may roll a D6; on a 2+, Bilbo immediately gains control of the Objective Marker. Bilbo cannot use this ability if he cannot carry the Objective Marker in question for whatever reason.",
+				"armyBonus": "Additional Rules: A Survivors of Lake-town Army must include Bard the Bowman, who is always the Army's General.\n\"Saviour of Lake-town\" - Other friendly Lake-town models within 6\" of Bard gain a bonus of +1 to their Fight Value. Additionally, other friendly Lake-town models treat Bard as a banner with a range of 6\". Alfrid does not benefit from this special rule.\n\"Heir of Dale\" - Bard the Bowman gains the Might Hero and Fearless special rules.\n\"Hold the Streets\" - Friendly Warrior models within range of an Objective Marker may re-roll To Wound Rolls of a natural 1 when making Strikes.\n\"Master Burglar\" - Whilst Bilbo is holding an Objective Marker in Scenarios where this is relevant, he increases his Attacks to 2. Additionally, whilst Bilto is wearing the One Ring and is Insvisible, if he Moves through an enemy model that is holding an Objective Marker in Scenarios where this is relevant, Bilbo may roll a D6; on a 2+, Bilbo immediately gains control of the Objective Marker. Bilbo cannot use this ability if he cannot carry the Objective Marker in question for whatever reason.",
 				"requiredChildren": [
 					{
 						"name": "Bard the Bowman",
@@ -1160,7 +1160,7 @@
 			{
 				"name": "Thorin's Company",
 				"alignment": "good",
-				"armyBonus": "\"March to the Lonely Mountain\" - If your Army contains only Thorin's Company models, then friendly Dwarf models may spend their Will Points to declare a Heroic March instead of using Might Points, even if they do not normally have the ability to declare a Heroic March.\n\"We're making a long-term deposit\" - At the beginning of the game, choose one Objective Marker on the board. Friendly Dwarf models within range of the chosen Objective Marker gain the Dominant (2) special rule.\n\"Family Ties\" - The Dwarves of Thorin's Company are divided into Family Groups, which are as follows:\n  -Balin and Dwalin\n  -Kili and Fili\n  -Bifur, Bofur and Bombur\n  -Ori, Nori and Dori\n  -Oin and Gloin\nHero models from this Army that are within 3\" of another Hero from the same Family Group may spend that model's Might, Will and Fate points as if they were their own.\nGandalf gains the \"Thorin's Company\" keyword",
+				"armyBonus": "Additional Rules:\n                A Thorin's Company Army must include Thorin Oakenshield, who is always the Army's General.\n                All Thorin's Company models must be included in Thorin's Warband.\n                You may only include Eagle models in your Army if it also includes Gandalf.\n                Great Eagles may only be included in Gwaihir's Warband.\n\"March to the Lonely Mountain\" - If your Army contains only Thorin's Company models, then friendly Dwarf models may spend their Will Points to declare a Heroic March instead of using Might Points, even if they do not normally have the ability to declare a Heroic March.\n\"We're making a long-term deposit\" - At the beginning of the game, choose one Objective Marker on the board. Friendly Dwarf models within range of the chosen Objective Marker gain the Dominant (2) special rule.\n\"Family Ties\" - The Dwarves of Thorin's Company are divided into Family Groups, which are as follows:\n  -Balin and Dwalin\n  -Kili and Fili\n  -Bifur, Bofur and Bombur\n  -Ori, Nori and Dori\n  -Oin and Gloin\nHero models from this Army that are within 3\" of another Hero from the same Family Group may spend that model's Might, Will and Fate points as if they were their own.",
 				"childMatchesRequired": [
 					{
 						"elementPropertyName": "heroes",
@@ -1195,7 +1195,7 @@
 			{
 				"name": "Goblin-Town",
 				"alignment": "evil",
-				"armyBonus": "\"I Feel a Song Coming On\" - During the Priority Phase, after Priority has been determined, the Goblin King may choose to sing one of his songs. If he does, choose one of the songs below and apply its effects until the end of the turn. The Goblin King may not sing the same song as he sung the previous turn.\n  -\"Batter and beat, make them stammer and squeak!\" - Other friendly Goblin models treat the Goblin King as a banner with a range of 6\".\n  -\"You can yammer and yelp but there ain't no help!\" - Other friendly Goblin models within 6\" of the Goblin King cause Terror\n  -\"Abonimations, mutations, deviations\" - Whenever another friendly Goblin model within 6\" of the Goblin King suffers a Wound, roll a D6. On the roll of a natural 6, the Wound is ignored.\n  -\"Bones will be shattered, necks will be wrung\" - Other friendly Goblin models within 6\" of the Goblin King may re-roll To Wound Rolls of a natural 1 when making Strikes.\n\"Strength in Numbers\" - Whilst your Army is not Broken, friendly Goblin models receive a bonus of +1 to any Courage Tests they take for Chargin an enemy with the Terror special rule.\n\"If they won't talk, we'll make them squawk!\" - If the Goblin King or Grinnah would kill an enemy non-Monster Hero model in Combat, they can choose to take them prisoner instead. The Hero model will be removed as a casualty, including for the purpose of any objectives or special rules. The Goblin King and Grinnah may only ever have a single prisoner each at any one time; if they would subsequently be able to take another prisoner while they already have one, they must choose which one counts as their prisoner. if the Goblin King or Grinnah are still alive at the end of the game, their controlling player will gain an additional 1 Victory Point for each enemy Hero that is a prisoner, so long as the model that took th prisoner is still alive. This can never take this Army's total number of Victory Points above 20.\n                \"Down down down in Goblin-town\" - Each Goblin Hero model may increase their maximum Warband size by six models.",
+				"armyBonus": "Additional Rules: A Goblin-town Army must always contain the Goblin King, who is always the Army's General.\n\"I Feel a Song Coming On\" - During the Priority Phase, after Priority has been determined, the Goblin King may choose to sing one of his songs. If he does, choose one of the songs below and apply its effects until the end of the turn. The Goblin King may not sing the same song as he sung the previous turn.\n  -\"Batter and beat, make them stammer and squeak!\" - Other friendly Goblin models treat the Goblin King as a banner with a range of 6\".\n  -\"You can yammer and yelp but there ain't no help!\" - Other friendly Goblin models within 6\" of the Goblin King cause Terror\n  -\"Abonimations, mutations, deviations\" - Whenever another friendly Goblin model within 6\" of the Goblin King suffers a Wound, roll a D6. On the roll of a natural 6, the Wound is ignored.\n  -\"Bones will be shattered, necks will be wrung\" - Other friendly Goblin models within 6\" of the Goblin King may re-roll To Wound Rolls of a natural 1 when making Strikes.\n\"Strength in Numbers\" - Whilst your Army is not Broken, friendly Goblin models receive a bonus of +1 to any Courage Tests they take for Chargin an enemy with the Terror special rule.\n\"If they won't talk, we'll make them squawk!\" - If the Goblin King or Grinnah would kill an enemy non-Monster Hero model in Combat, they can choose to take them prisoner instead. The Hero model will be removed as a casualty, including for the purpose of any objectives or special rules. The Goblin King and Grinnah may only ever have a single prisoner each at any one time; if they would subsequently be able to take another prisoner while they already have one, they must choose which one counts as their prisoner. if the Goblin King or Grinnah are still alive at the end of the game, their controlling player will gain an additional 1 Victory Point for each enemy Hero that is a prisoner, so long as the model that took th prisoner is still alive. This can never take this Army's total number of Victory Points above 20.\n                \"Down down down in Goblin-town\" - Each Goblin Hero model may increase their maximum Warband size by six models.",
 				"increaseMaximumChildren": 6,
 				"requiredChildren": [
 					{
@@ -1208,7 +1208,7 @@
 			{
 				"name": "Pits of Dol Guldur",
 				"alignment": "evil",
-				"armyBonus": "\"Surprise Attack\" - Once per game, at the beginning of the Priority Phase, Azog can use this special rule if he is alive and on the battlefield. If he does, Azog's controlling player will automatically count as having won the roll to choose who has Priority for that turn, though must choose to have Priority. If both sides have a special rulea llowing them to do this and both wish to use it in the same turn, players roll off as normal and both special rules count as being used. Enemy models cannot declare Heroic Moves in the turn in which this special rule is used.\n\"Magical Void\" - Friendly models gain the Resistant to Magic special rule.\n\"Thrain's Imprisonment\" - Thrain the Broken is an Evil model in this Army. Additionally, if Thrain fails his Intelligence Test for his Shattered Spirit special rule whilst within 6\" of the Keeper of the Dungeons, then he will count as passing the test instead, though will not count as rolling a double.\n\"Wizard Hunters\" - Friendly Orc Warrior models gain a bonus of +1 To Wound when making Strikes against enemy models that can cast Magical Powers",
+				"armyBonus": "Additional Rules: A Pits of Dol Guldur Army must always contain Azog, who is always the Army's General.\n\"Surprise Attack\" - Once per game, at the beginning of the Priority Phase, Azog can use this special rule if he is alive and on the battlefield. If he does, Azog's controlling player will automatically count as having won the roll to choose who has Priority for that turn, though must choose to have Priority. If both sides have a special rulea llowing them to do this and both wish to use it in the same turn, players roll off as normal and both special rules count as being used. Enemy models cannot declare Heroic Moves in the turn in which this special rule is used.\n\"Magical Void\" - Friendly models gain the Resistant to Magic special rule.\n\"Thrain's Imprisonment\" - Thrain the Broken is an Evil model in this Army. Additionally, if Thrain fails his Intelligence Test for his Shattered Spirit special rule whilst within 6\" of the Keeper of the Dungeons, then he will count as passing the test instead, though will not count as rolling a double.\n\"Wizard Hunters\" - Friendly Orc Warrior models gain a bonus of +1 To Wound when making Strikes against enemy models that can cast Magical Powers",
 				"requiredChildren": [
 					{
 						"name": "Azog, the Defiler",
@@ -1220,12 +1220,12 @@
 			{
 				"name": "Rise of the Necromancer",
 				"alignment": "evil",
-				"armyBonus": "\"Power of the Necromancer\" - Friendly models gain the Resistant to Magic special rule. Additionally, the Necromancer can attempt to Cast two Magical Powers when he Activates rather than one; however, he may not attempt to Cast the same Magical Power twice, or target the same enemy model twice.\n\"His spirit has lost none of its potency\" - Each time the Necromancer attempts to Cast a Magical Power by expending one or more Will Points, he automatically adds an additional free Will Points to the Casting Test."
+				"armyBonus": "Additional Rules: When writing a Rise of the Necromancer Army List that contains only Hero models (with the exception of Hunter Orc Captains), a player can either have all models in a single Warband or as multiple smaller warbands as normal.\n\"Power of the Necromancer\" - Friendly models gain the Resistant to Magic special rule. Additionally, the Necromancer can attempt to Cast two Magical Powers when he Activates rather than one; however, he may not attempt to Cast the same Magical Power twice, or target the same enemy model twice.\n\"His spirit has lost none of its potency\" - Each time the Necromancer attempts to Cast a Magical Power by expending one or more Will Points, he automatically adds an additional free Will Points to the Casting Test."
 			},
 			{
 				"name": "Riders of Theoden",
 				"alignment": "good",
-				"armyBonus": "\"Ride for ruin and the world's ending\" - Friendly Rohan Cavalry models gain a bonus of +1 to their Strength on a turn in which they charge.\n\"Death!\" - Once per game, at the start of any Fight Phase, Theoden can use this special rule so long as he is alive and on the battlefield. If he does, then each friendly Rohan Hero within 12\" of Theoden can declare a free Heroic Combat or a free Heroic Strike (if able) during the declare Heroic Actions Step. This is treated as an Active ability belonging to Theoden.\n                \"Forth Eorlingas!\" - Friendly Cavalry Warrior models within 3\" of either Theoden or Eomer gain the Dominant (2) special rule.",
+				"armyBonus": "Additional Rules:\n                A Riders of Theoden Army must always contain Theoden, who is always the Army's General.\n                Riders of Rohan do not count towards this Army's Bow Limit.\n\"Ride for ruin and the world's ending\" - Friendly Rohan Cavalry models gain a bonus of +1 to their Strength on a turn in which they charge.\n\"Death!\" - Once per game, at the start of any Fight Phase, Theoden can use this special rule so long as he is alive and on the battlefield. If he does, then each friendly Rohan Hero within 12\" of Theoden can declare a free Heroic Combat or a free Heroic Strike (if able) during the declare Heroic Actions Step. This is treated as an Active ability belonging to Theoden.\n                \"Forth Eorlingas!\" - Friendly Cavalry Warrior models within 3\" of either Theoden or Eomer gain the Dominant (2) special rule.",
 				"requiredChildren": [
 					{
 						"name": "Theoden, King of Rohan",
@@ -1255,7 +1255,7 @@
 			{
 				"name": "The Three Trolls",
 				"alignment": "evil",
-				"armyBonus": "\"The Campfire\" - After both Armies have been deployed, you may place the Campfire anywhere on the battlefield outside of your opponent's deployment zone. The Campfire is on an 80mm base, and must be placed flat on the battlefield. Friendly Troll models treat the Campfire as a banner with a range of 6\", and gain the Resistant to Magic special rule and a bonus of +1 to any Courage Tests within 6\" of it.\n\"A Troll's Hoard\" - The Three Trolls Army works in an unusual way in that they are allowed to purchase additional special rules. Each of the special rules listed on Bill can be purchased for 50 points, allowing The Three Trolls to be taken at many different point values and not just at 400 points.\"",
+				"armyBonus": "Additional Rules:\n                The Three Trolls must always include Bill, Bert, and Tom. Bill is always the Army's General.\n                A Three Trolls Army may have Bill, Bert, and Tom in the same Warband, with Bill as the Warband's Captain.\n\"The Campfire\" - After both Armies have been deployed, you may place the Campfire anywhere on the battlefield outside of your opponent's deployment zone. The Campfire is on an 80mm base, and must be placed flat on the battlefield. Friendly Troll models treat the Campfire as a banner with a range of 6\", and gain the Resistant to Magic special rule and a bonus of +1 to any Courage Tests within 6\" of it.\n\"A Troll's Hoard\" - The Three Trolls Army works in an unusual way in that they are allowed to purchase additional special rules. Each of the special rules listed on Bill can be purchased for 50 points, allowing The Three Trolls to be taken at many different point values and not just at 400 points.\"",
 				"requiredChildren": [
 					{
 						"name": "Bill the Troll",
@@ -1289,12 +1289,12 @@
 			{
 				"name": "The White Council",
 				"alignment": "good",
-				"armyBonus": "\"Council of the Wise\" - Each friendly White Council model gains the special rule associated with them as listed below:\n  -Saruman - Friendly White Council models within 3\" of Saruman may re-roll any 1 in their rolls to Cast a Magical Power.\n  -Gandalf - Friendly White Council models wtihin 3\" of Gandalf may re-roll To Wound Rolls of a natural 1 when making Strikes.\n  -Radagast - Friendly White Council models that begin their Activation within 3\" of Radagast may Move through difficult terrain without penalty.\n  -Elrond - Friendly White Council models treat Elrond as a banner.\n  -Galadriel - Friendly White Council models within 3\" of Galadriel gain the Resistant to Magic special rule.\n\"Masters of Magic\" - Friendly White Council models may still be Activated whilst Engaged in Combat (though they still may not Move), and therefore may attempt to Cast Magical Powers whilst Engaged in Combat, with the exception of the following Magical Powers: Nature's Wrath, Sorcerous Blast, Wrath of Bruinen.\n\"Are you in need of assistance?\" - Friendly White Council models gain a bonus of +1 to any Resist Tests whilst within 6\" of another friendly White Council model.\n\"Last Stand of the Council\" - Friendly White Council models gain the Dominant (3) special rule.\nGandalf, Radagast, and Elrong gain the \"White Council\" keyword\n                "
+				"armyBonus": "Additional Rules:\n                A White Council Army is always deployed as a single Warband, with your General as the Warband's Captain.\n                Gandalf, Radagast, and Elrond gain the White Council keyword.\n\"Council of the Wise\" - Each friendly White Council model gains the special rule associated with them as listed below:\n  -Saruman - Friendly White Council models within 3\" of Saruman may re-roll any 1 in their rolls to Cast a Magical Power.\n  -Gandalf - Friendly White Council models wtihin 3\" of Gandalf may re-roll To Wound Rolls of a natural 1 when making Strikes.\n  -Radagast - Friendly White Council models that begin their Activation within 3\" of Radagast may Move through difficult terrain without penalty.\n  -Elrond - Friendly White Council models treat Elrond as a banner.\n  -Galadriel - Friendly White Council models within 3\" of Galadriel gain the Resistant to Magic special rule.\n\"Masters of Magic\" - Friendly White Council models may still be Activated whilst Engaged in Combat (though they still may not Move), and therefore may attempt to Cast Magical Powers whilst Engaged in Combat, with the exception of the following Magical Powers: Nature's Wrath, Sorcerous Blast, Wrath of Bruinen.\n\"Are you in need of assistance?\" - Friendly White Council models gain a bonus of +1 to any Resist Tests whilst within 6\" of another friendly White Council model.\n\"Last Stand of the Council\" - Friendly White Council models gain the Dominant (3) special rule.\n                "
 			},
 			{
 				"name": "Assault on Ravenhill",
 				"alignment": "good",
-				"armyBonus": "\"Orcrist\" - Legolas beings the game with Orcrist - no points are paid for Orcrist, it is free. Additionally, at the start of any Fight Phase, if Legolas is within 6\" of Thorin and Thorin is Engaged in Combat, then Legolas can throw Orcrist to Thorin. From that point on, Thorin carries Orcrist instead of Legolas.\n\"The Line of Durin\" - Friendly models treat Thorin as a banner with a range of 6\". So long as he is still alive, Thorin will count as a banner for the purpose of Victory Points in Scenarios that award Victory Points for having a banner left alive.\nAdditionally, Kili and Fili increase their Attacks to 3 in this Army List.\n\"The King's Protector\" - If Thorin is Engaged in Combat within 6\" of Dwalin, then Dwalin may declare a Heroic Combat for free. If the Heroic Combat is successful then Dwalin must use the following Move to join Thorin's combat. If this is not possible, then Dwalin must Move as close as possible to Thorin.\n\"Heroes of Mirkwood\" - Legolas increases his Fight Value to 7 and his Attacks to 3. Additionally, Tauriel must re-roll all failed To Wound rolls when making Strikes.\n\"Throwing Stones\" - Instead of using his Throw Stones special rule as normal, Bilbo may use stones in the same way as a Throwing Weapon. These have a Strength of 1 and a range of 8\", and Bilbo may re-roll any failed To Wound Rolls when using stones as a Throwing Weapon.",
+				"armyBonus": "Additional Rules:\n                An Assualt on Ravenhill army must include Thorin, who is always the Army's General.\n                An Assault on Ravenhill Army is always deployed as a single Warband with Thorin as the Warband's Captain.\n\"Orcrist\" - Legolas beings the game with Orcrist - no points are paid for Orcrist, it is free. Additionally, at the start of any Fight Phase, if Legolas is within 6\" of Thorin and Thorin is Engaged in Combat, then Legolas can throw Orcrist to Thorin. From that point on, Thorin carries Orcrist instead of Legolas.\n\"The Line of Durin\" - Friendly models treat Thorin as a banner with a range of 6\". So long as he is still alive, Thorin will count as a banner for the purpose of Victory Points in Scenarios that award Victory Points for having a banner left alive.\nAdditionally, Kili and Fili increase their Attacks to 3 in this Army List.\n\"The King's Protector\" - If Thorin is Engaged in Combat within 6\" of Dwalin, then Dwalin may declare a Heroic Combat for free. If the Heroic Combat is successful then Dwalin must use the following Move to join Thorin's combat. If this is not possible, then Dwalin must Move as close as possible to Thorin.\n\"Heroes of Mirkwood\" - Legolas increases his Fight Value to 7 and his Attacks to 3. Additionally, Tauriel must re-roll all failed To Wound rolls when making Strikes.\n\"Throwing Stones\" - Instead of using his Throw Stones special rule as normal, Bilbo may use stones in the same way as a Throwing Weapon. These have a Strength of 1 and a range of 8\", and Bilbo may re-roll any failed To Wound Rolls when using stones as a Throwing Weapon.",
 				"requiredChildren": [
 					{
 						"name": "Thorin Oakenshield, King Under the Mountain",
@@ -1306,7 +1306,7 @@
 			{
 				"name": "Garrison of Dale",
 				"alignment": "good",
-				"armyBonus": "\"Girion, lord of the city, rallied his bowmen to fire upon the beast\" - Friendly Dale models improve their Shoot Value to 3+\n\"Bring down the Dragon\" - FriendlY Dale models may apply their Hatred (Dragon) special rule to their shooting attacks. Additionally, friendly Dale models may re-roll failed To Hit Rolls when making a shooting attack targeting a Monster model.\n\"Girion's Last Stand\" - Girion gains the Fearless special rule. Additionally, friendly Dale models that can draw Line of Sight to Girion gain a bonus of +1 to any Courage Tests they are required to take.\n\"Defenders of Dale\" - Friendly Dale models that are within their deployment zone, and/or within 6\" of a friendly Windlance, gain a bonus of +1 To Wound when making strikes.",
+				"armyBonus": "Additional Rules: A Garrison of Dale Army must include Girion, who is always the Army's General\n\"Girion, lord of the city, rallied his bowmen to fire upon the beast\" - Friendly Dale models improve their Shoot Value to 3+\n\"Bring down the Dragon\" - FriendlY Dale models may apply their Hatred (Dragon) special rule to their shooting attacks. Additionally, friendly Dale models may re-roll failed To Hit Rolls when making a shooting attack targeting a Monster model.\n\"Girion's Last Stand\" - Girion gains the Fearless special rule. Additionally, friendly Dale models that can draw Line of Sight to Girion gain a bonus of +1 to any Courage Tests they are required to take.\n\"Defenders of Dale\" - Friendly Dale models that are within their deployment zone, and/or within 6\" of a friendly Windlance, gain a bonus of +1 To Wound when making strikes.",
 				"requiredChildren": [
 					{
 						"name": "Girion, Lord of Dale",
@@ -1318,7 +1318,7 @@
 			{
 				"name": "Erebor & Dale",
 				"alignment": "good",
-				"armyBonus": "\"Alliance of Men and Dwarves\" - Friendly Dale models may re-roll To Wound Rolls of a natural 1 when making Strikes if there is a friendly Erebor model Engaged in the same Combat. Friendly Erebor models may re-roll To Wound Rolls of a natural 1 when making Strikes if there is a friendly Dale model Engaged in the same Combat.\n\"Lords of the Kingdoms\" - Friendly Dale models treat Girion as a banner. Friendly Erebor models treat Thror as a banner.\n\"Great Prosperity\" - Whenever a friendly Hero model spends a Might Point, roll a D6. On a natural 6, the Might Ponit was free and does not reduce the Hero model's store of Might.",
+				"armyBonus": "Additional Rules:\n                An Erebor & Dale Army must include Girion and at least one Unique Erebor Hero.\n                Erebor Warrior models can only be included in the Warabnd of an Erebor Hero.\n                Dale Warrior models can only be included in the Warabnd of an Dale Hero.\n                Ignore the usual rules for Bow Limit and Throwing Weapon Limit in this Army List. Instead, a maximum of 50% of your Dale Warrior models can have a bow, and a maximum of 50% of your Erebor Warrior models can have throwing weapons.\n\"Alliance of Men and Dwarves\" - Friendly Dale models may re-roll To Wound Rolls of a natural 1 when making Strikes if there is a friendly Erebor model Engaged in the same Combat. Friendly Erebor models may re-roll To Wound Rolls of a natural 1 when making Strikes if there is a friendly Dale model Engaged in the same Combat.\n\"Lords of the Kingdoms\" - Friendly Dale models treat Girion as a banner. Friendly Erebor models treat Thror as a banner.\n\"Great Prosperity\" - Whenever a friendly Hero model spends a Might Point, roll a D6. On a natural 6, the Might Ponit was free and does not reduce the Hero model's store of Might.",
 				"requiredChildren": [
 					{
 						"name": "Girion, Lord of Dale",
@@ -1344,7 +1344,7 @@
 			{
 				"name": "Radagast's Alliance",
 				"alignment": "good",
-				"armyBonus": "\"The Eagles are Coming!\" - FriendlY Eagle models gain a bonus of +1 to their Strength on a turn in which they Charge.\n\"Beorn's Fury\" - If Beorn is involved in a Combat and kills every model he was Engaged in Combat with, then in the following turn he may declare a Heroic Move for free.",
+				"armyBonus": "Additional Rules:\n                A Radagast's Alliance Army must include Radagast, who is always the Army's General.\n                Radagast's Alliance may not include more Fledgeling Great Eagles than Great Eagles.\n\"The Eagles are Coming!\" - FriendlY Eagle models gain a bonus of +1 to their Strength on a turn in which they Charge.\n\"Beorn's Fury\" - If Beorn is involved in a Combat and kills every model he was Engaged in Combat with, then in the following turn he may declare a Heroic Move for free.",
 				"requiredChildren": [
 					{
 						"name": "Radagast the Brown",
@@ -1363,7 +1363,7 @@
 			{
 				"name": "Rangers of Mirkwood",
 				"alignment": "good",
-				"armyBonus": "\"Knife Mastery\" - Friendly Elf models may re-roll To Wound Rolls of a natural 1 when making Strikes. Additionally, friendly Elf models may use the Shielding special rule, however, they cannot use their Knife Fighters or Blade Mistress special rules in a turn in which they elect to Shield.\n\"The Prince of Mirkwood\" - Legolas gains the Knife Fighters special rule (see page 69)\n\"Dwarven Resilience\" - Friendly Dwarf models may re-roll failed Fate Rolls.\n\"Clear the Nests\" - Friendly models gain the Hatred (Spider) special rule.\n\"If you think I'm giving you a weapon Dwarf, you are sorely mistaken\" - Friendly Dwarf models cannot benefit from the Heroic Actions or Stand Fast of friendly Elf models and friendly Elf models cannot benefit from the Heroic Actions or Stand Fast of friendly Dwarf models. Additionally, Tauriel's Vengeful Fury special rule does not apply in this Army List.",
+				"armyBonus": "Additional Rules:\n                A Rangers of Mirkwood list must include at least one Unique Elf Hero.\n                If your Army includes Legolas, then he must be your General. If your Army includes Tauriel, but does not include Legolas, then she must byour General.\n                Mirkwood Rangers may only be included in the Warbands of Mirkwood Hero models.\n                Mirkwood Rangers do not count towards this Army's Bow Limit.\n\"Knife Mastery\" - Friendly Elf models may re-roll To Wound Rolls of a natural 1 when making Strikes. Additionally, friendly Elf models may use the Shielding special rule, however, they cannot use their Knife Fighters or Blade Mistress special rules in a turn in which they elect to Shield.\n\"The Prince of Mirkwood\" - Legolas gains the Knife Fighters special rule (see page 69)\n\"Dwarven Resilience\" - Friendly Dwarf models may re-roll failed Fate Rolls.\n\"Clear the Nests\" - Friendly models gain the Hatred (Spider) special rule.\n\"If you think I'm giving you a weapon Dwarf, you are sorely mistaken\" - Friendly Dwarf models cannot benefit from the Heroic Actions or Stand Fast of friendly Elf models and friendly Elf models cannot benefit from the Heroic Actions or Stand Fast of friendly Dwarf models. Additionally, Tauriel's Vengeful Fury special rule does not apply in this Army List.",
 				"childMatchesRequired": [
 					{
 						"elementPropertyName": "heroes",
@@ -1376,7 +1376,7 @@
 			{
 				"name": "Army of Lake-town",
 				"alignment": "good",
-				"armyBonus": "\"The Master's Coin\" - At the end of his Activation if he is within 3\" of Braga, the Master of Lake-town may spend a Will Point. If he does, Braga immediately gains a Will Point spent earlier in the battle.\n\"Air of Self-importance\" - The Master of Lake-town, Alfrid and Braga may not take part in any Heroic Action declared by Bard of a member of Bard's Family.\n\"I Shall Protect You\" - Tauriel may include Kili, Fili, Bofur, and Oin in her warband. Additionally, if Tauriel is within 3\" of a friendly Dwarf model who is Engaged in Combat, she gains a bonus of +1 To Wound when making Strikes.\n\"Stubborn to a Fault\" - Friendly Dwarf models may re-roll failed To Wound Rolls either when making a shooting attack or when making Strikes.",
+				"armyBonus": "Additional Rules:\n  Bard's Family may be included in Tauriel's Warband rather than Bard's if you wish.\n  Lake-town Guard may only be included in the Warbands of Lake-town Hero models.\n\"The Master's Coin\" - At the end of his Activation if he is within 3\" of Braga, the Master of Lake-town may spend a Will Point. If he does, Braga immediately gains a Will Point spent earlier in the battle.\n\"Air of Self-importance\" - The Master of Lake-town, Alfrid and Braga may not take part in any Heroic Action declared by Bard of a member of Bard's Family.\n\"I Shall Protect You\" - Tauriel may include Kili, Fili, Bofur, and Oin in her warband. Additionally, if Tauriel is within 3\" of a friendly Dwarf model who is Engaged in Combat, she gains a bonus of +1 To Wound when making Strikes.\n\"Stubborn to a Fault\" - Friendly Dwarf models may re-roll failed To Wound Rolls either when making a shooting attack or when making Strikes.",
 				"childMatchesRequired": [
 					{
 						"elementPropertyName": "heroes",
@@ -1431,7 +1431,7 @@
 			{
 				"name": "Arnor",
 				"alignment": "good",
-				"armyBonus": "\"Defend the King\" – Whilst within 6\" of Arvedui, friendly Arnor models automatically pass any Courage Tests they are required to take.\n\"Power of the Seer\" – Friendly Arnor Hero models receive a bonus of +1 when rolling for Malbeth’s Gift of Foresight special rule. \n\"Seeing Stones\" – Once per game, during the Priority Phase but before the roll for Priority, Arvedui can use this special rule so long as he is alive and on the battlefield. If he does, Arvedui’s controlling player automatically wins the roll to choose who has Priority for that turn. If both sides have a special rule allowing them to do this and both wish to use it in the same turn, players roll off as normal and both special rules count as being used.",
+				"armyBonus": "Additional Rules:\n                An Arnor Army must always contain Arvedui, who is always the Army's General.\n                Friendly Rangers of the North gain the Arnor keyword.\n\"Defend the King\" – Whilst within 6\" of Arvedui, friendly Arnor models automatically pass any Courage Tests they are required to take.\n\"Power of the Seer\" – Friendly Arnor Hero models receive a bonus of +1 when rolling for Malbeth’s Gift of Foresight special rule. \n\"Seeing Stones\" – Once per game, during the Priority Phase but before the roll for Priority, Arvedui can use this special rule so long as he is alive and on the battlefield. If he does, Arvedui’s controlling player automatically wins the roll to choose who has Priority for that turn. If both sides have a special rule allowing them to do this and both wish to use it in the same turn, players roll off as normal and both special rules count as being used.",
 				"requiredChildren": [
 					{
 						"name": "Arvedui, Last King of Arnor",
@@ -1443,7 +1443,7 @@
 			{
 				"name": "Battle of Fornost",
 				"alignment": "good",
-				"armyBonus": "\"The Charge of Gondor\" – Friendly Gondor Cavalry models gain a bonus of +1 to their Fight Value on a turn in which they Charge.\n\"Power of the Elves\" – Friendly models gain the Resistant to Magic special rule.\n\"Eärnur’s Defiance\" – Eärnur cannot have his Courage reduced by enemy special rules or Magical Powers.",
+				"armyBonus": "Additional Rules:\n                A Battle of Fornost Army must always contain Earnur and Glorfinidel. Earnur must always be the Army's General.\n                Gondor Warrior models can only be included in the Warband of a Gondor Hero.\n                Rivendell Warrior models can only be included in the Warband of a Rivendell Hero.\n                Hobbit Warrior models can only be included in the Warband of a Dunedain Hero.\n                Rangers of the North can instead be taken as Independent Heroes; however, if they are then the only Hero whose Warband they can be included in is Aranarth.\n\"The Charge of Gondor\" – Friendly Gondor Cavalry models gain a bonus of +1 to their Fight Value on a turn in which they Charge.\n\"Power of the Elves\" – Friendly models gain the Resistant to Magic special rule.\n\"Eärnur’s Defiance\" – Eärnur cannot have his Courage reduced by enemy special rules or Magical Powers.",
 				"requiredChildren": [
 					{
 						"name": "Earnur, Last King of Gondor",
@@ -1474,7 +1474,7 @@
 			{
 				"name": "Arathorn's Stand",
 				"alignment": "good",
-				"armyBonus": "“They’re dangerous folk, wandering the wilds” – Rangers of the North increase their Attacks value to 2.\n\"Heir of Isildur\" – Whenever Arathorn spends a Might Point, roll a D6. On a 4+ the point of Might is free and does not reduce Arathorn’s store of Might.\n\"Silent Ambush\" – In Scenarios where you roll for Warbands to arrive, or ones where you roll to see which part of the board you deploy a Warband in (though not when rolling to choose deployment zones), you may modify the roll for Warbands from this Army by +1 or -1.",
+				"armyBonus": "Additional Rules: An Arathron's Stand Army must always contain Arathorn, who is always the Army's General.\n“They’re dangerous folk, wandering the wilds” – Rangers of the North increase their Attacks value to 2.\n\"Heir of Isildur\" – Whenever Arathorn spends a Might Point, roll a D6. On a 4+ the point of Might is free and does not reduce Arathorn’s store of Might.\n\"Silent Ambush\" – In Scenarios where you roll for Warbands to arrive, or ones where you roll to see which part of the board you deploy a Warband in (though not when rolling to choose deployment zones), you may modify the roll for Warbands from this Army by +1 or -1.",
 				"requiredChildren": [
 					{
 						"name": "Arathorn, Chieftain of the Dunedain",
@@ -1486,7 +1486,7 @@
 			{
 				"name": "Host of the Witch-King",
 				"alignment": "evil",
-				"armyBonus": "“If that fell Kingdom should rise again, Rivendell, Lórien, the Shire, even Gondor itself shall fall.” – Friendly Angmar Orc models within 3\" of a friendly Spirit Hero model gain the Terror special rule. \n\"Lord of the Nazgûl\" – The Witch-king only loses a Will Point for having been in a Combat if he loses a Combat during the Fight phase (for example, if he doesn’t win the Duel Roll to see which side may make Strikes).\n“No Man can kill me!” – Whilst Engaged in Combat with an enemy Man model, the Witch-king gains a bonus of +1 to his Fight Value.",
+				"armyBonus": "Additional Rules:\n                A Host of the Witch-king Army must always contain the Witch-king of Angmar, who is always the Army's General.\n                No more than 50% of your models may have the Carn Dum keyword.\n“If that fell Kingdom should rise again, Rivendell, Lórien, the Shire, even Gondor itself shall fall.” – Friendly Angmar Orc models within 3\" of a friendly Spirit Hero model gain the Terror special rule. \n\"Lord of the Nazgûl\" – The Witch-king only loses a Will Point for having been in a Combat if he loses a Combat during the Fight phase (for example, if he doesn’t win the Duel Roll to see which side may make Strikes).\n“No Man can kill me!” – Whilst Engaged in Combat with an enemy Man model, the Witch-king gains a bonus of +1 to his Fight Value.",
 				"requiredChildren": [
 					{
 						"name": "The Witch-King of Angmar C",
@@ -1504,7 +1504,7 @@
 			{
 				"name": "Buhrdur's Horde",
 				"alignment": "evil",
-				"armyBonus": "\"Ambush!\" – At the start of the game, before either side has deployed, you may choose to have Buhrdûr’s Warband ambushing and not arrive as normal (if your General must deploy at the start of the game, you cannot use this ability). Instead, at the end of the Move Phase on the third turn (after both sides have moved all their models), the ambushing Warband must choose one of the following:\n• Move onto the board from any board edge via the rules for Reinforcements.\n• Deploy in, or within 1\" of, a wood, building, rocky outcrop or other similar piece of terrain that the models could hide in. A degree of common sense is required when deciding which pieces of terrain the Warband can hide in – they shouldn’t be leaping out of a river or from behind a single rock! You should always agree with your opponent at the beginning of the game which terrain pieces are eligible to ambush from. Models deployed in this way cannot be placed in base contact with, or within the Control Zones of, enemy models. Models that enter the board this way do not Activate as part of the Move Phase, and will count as having Moved half their Move Value for the purposes of shooting.\n\"Masters of Terrain\" – Friendly models gain the Woodland Creature and Mountain Dweller special rules.\n\"A Fearsome Foe\" – If Buhrdûr kills an enemy Hero in Combat, he gains the Fearless special rule for the remainder of the game",
+				"armyBonus": "Additional Rules: A Buhrdur's Horde Army must always include Buhrdur, who is always the Army's General.\n\"Ambush!\" – At the start of the game, before either side has deployed, you may choose to have Buhrdûr’s Warband ambushing and not arrive as normal (if your General must deploy at the start of the game, you cannot use this ability). Instead, at the end of the Move Phase on the third turn (after both sides have moved all their models), the ambushing Warband must choose one of the following:\n• Move onto the board from any board edge via the rules for Reinforcements.\n• Deploy in, or within 1\" of, a wood, building, rocky outcrop or other similar piece of terrain that the models could hide in. A degree of common sense is required when deciding which pieces of terrain the Warband can hide in – they shouldn’t be leaping out of a river or from behind a single rock! You should always agree with your opponent at the beginning of the game which terrain pieces are eligible to ambush from. Models deployed in this way cannot be placed in base contact with, or within the Control Zones of, enemy models. Models that enter the board this way do not Activate as part of the Move Phase, and will count as having Moved half their Move Value for the purposes of shooting.\n\"Masters of Terrain\" – Friendly models gain the Woodland Creature and Mountain Dweller special rules.\n\"A Fearsome Foe\" – If Buhrdûr kills an enemy Hero in Combat, he gains the Fearless special rule for the remainder of the game",
 				"requiredChildren": [
 					{
 						"name": "Buhrdur, Hill Troll Chieftain",
@@ -1516,7 +1516,7 @@
 			{
 				"name": "Wolf Pack of Angmar",
 				"alignment": "evil",
-				"armyBonus": "\"Leader of the Pack\" – The Wild Warg Chieftain that is your General gains an additional point each of Might, Will and Fate.\n\"Feral Charge\" – When a friendly Warg model Charges an enemy Infantry model, they gain the Knock to the Ground bonus as if they were Cavalry. This bonus is lost if they are subsequently Charged by an enemy Cavalry model.\n\"Protect the Alpha\" – If your General has suffered at least one Wound, then friendly models treat them as a banner with a range of 6\". \n\"Howl of the Wolf Pack\" – Once per game, at the start of any Fight Phase, your General can declare they are using this ability. Until the End Phase of the turn, friendly models gain a bonus of +1 to their Fight Value and may re-roll To Wound Rolls of a natural 1 when making Strikes.",
+				"armyBonus": "Additional Rules:\n                Werewolves may benefit from the Heroic Actions and Stand Fast of friendly Wild Warg Chieftains even though they do not have the Warg keyword.\n                Friendly models can still pick up Objective Markers even though they have the Beast keyword.\n\"Leader of the Pack\" – The Wild Warg Chieftain that is your General gains an additional point each of Might, Will and Fate.\n\"Feral Charge\" – When a friendly Warg model Charges an enemy Infantry model, they gain the Knock to the Ground bonus as if they were Cavalry. This bonus is lost if they are subsequently Charged by an enemy Cavalry model.\n\"Protect the Alpha\" – If your General has suffered at least one Wound, then friendly models treat them as a banner with a range of 6\". \n\"Howl of the Wolf Pack\" – Once per game, at the start of any Fight Phase, your General can declare they are using this ability. Until the End Phase of the turn, friendly models gain a bonus of +1 to their Fight Value and may re-roll To Wound Rolls of a natural 1 when making Strikes.",
 				"requiredChildren": [
 					{
 						"name": "Wild Warg Chieftain Leader",
@@ -1528,7 +1528,7 @@
 			{
 				"name": "Army of Carn Dum",
 				"alignment": "evil",
-				"armyBonus": "\"Show of Strength\" – If a Carn Dûm Hero slays one or more enemy models in Combat, then for the duration of the following turn they gain a bonus of +1 to their Fight Value.\n\"Banners of Carn Dûm\" – Friendly banners have a range of 6\" rather than 3\".\n\"Fierce Charge\" – Friendly Warrior models gain a bonus of +1 to their Fight Value in a turn in which they Charge.",
+				"armyBonus": "Additional Rules: An Army of Carn Dum must always contain Aldrac, who is always the Army's General.\n\"Show of Strength\" – If a Carn Dûm Hero slays one or more enemy models in Combat, then for the duration of the following turn they gain a bonus of +1 to their Fight Value.\n\"Banners of Carn Dûm\" – Friendly banners have a range of 6\" rather than 3\".\n\"Fierce Charge\" – Friendly Warrior models gain a bonus of +1 to their Fight Value in a turn in which they Charge.",
 				"requiredChildren": [
 					{
 						"name": "Aldrac, Warlord of Carn Dum",
@@ -5185,7 +5185,7 @@
 				"name": "The Mouth of Sauron",
 				"factions": [
 					{
-						"name": "The Black Gate Opens",
+						"name": "The Black Gate",
 						"heroicTier": "Hero of Valour"
 					}
 				],
@@ -5507,7 +5507,7 @@
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
-						"name": "The Black Gate Opens",
+						"name": "The Black Gate",
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
@@ -5887,18 +5887,6 @@
 				"heroicActions": [
 					"Heroic Channeling"
 				],
-				"requiredChildren": [
-					{
-						"name": "Horse",
-						"elementPropertyName": "options",
-						"in": [
-							[
-								"The Black Riders"
-							]
-						],
-						"points": 10
-					}
-				],
 				"options": [
 					{
 						"name": "Armoured fell beast",
@@ -6106,7 +6094,7 @@
 						"heroicTier": "Hero of Valour"
 					},
 					{
-						"name": "The Black Gate Opens",
+						"name": "The Black Gate",
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
@@ -6161,7 +6149,7 @@
 						"elementPropertyName": "options",
 						"in": [
 							[
-								"The Black Gate Opens"
+								"The Black Gate"
 							],
 							[
 								"Wraiths on Wings"
@@ -6186,7 +6174,7 @@
 						"chooseOneKey": "a",
 						"availableIn": [
 							"Legions of Mordor",
-							"The Black Gate Opens",
+							"The Black Gate",
 							"Wraiths on Wings"
 						]
 					},
@@ -6210,7 +6198,7 @@
 						"points": 10,
 						"availableIn": [
 							"Legions of Mordor",
-							"The Black Gate Opens",
+							"The Black Gate",
 							"Wraiths on Wings"
 						]
 					},
@@ -6390,7 +6378,7 @@
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
-						"name": "The Black Gate Opens",
+						"name": "The Black Gate",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -6436,7 +6424,7 @@
 				"name": "Mordor Troll Chieftain",
 				"factions": [
 					{
-						"name": "The Black Gate Opens",
+						"name": "The Black Gate",
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
@@ -8832,7 +8820,7 @@
 				"name": "Mordor Troll Chieftain Leader",
 				"factions": [
 					{
-						"name": "The Black Gate Opens",
+						"name": "The Black Gate",
 						"heroicTier": "Hero of Valour"
 					}
 				],
@@ -17162,7 +17150,7 @@
 				"name": "Corsair Ballista",
 				"factions": [
 					{
-						"name": "Corsair Fleet",
+						"name": "Corsair Fleets",
 						"heroicTier": "Minor Hero"
 					}
 				],
@@ -18111,7 +18099,7 @@
 				"name": "Corsair Captain Leader",
 				"factions": [
 					{
-						"name": "Corsair Fleet",
+						"name": "Corsair Fleets",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -18171,7 +18159,7 @@
 				"name": "Corsair Captain",
 				"factions": [
 					{
-						"name": "Corsair Fleet",
+						"name": "Corsair Fleets",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -18230,7 +18218,7 @@
 				"name": "Corsair Bo'sun",
 				"factions": [
 					{
-						"name": "Corsair Fleet",
+						"name": "Corsair Fleets",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -22313,7 +22301,7 @@
 				"name": "Morannon Orc Warrior",
 				"factions": [
 					"Legions of Mordor",
-					"The Black Gate Opens",
+					"The Black Gate",
 					"Army of Gothmog",
 					"Minas Morgul"
 				],
@@ -22668,7 +22656,7 @@
 				"name": "Mordor Troll",
 				"factions": [
 					"Legions of Mordor",
-					"The Black Gate Opens",
+					"The Black Gate",
 					"Army of Gothmog",
 					"Barad-Dur",
 					"Minas Morgul"
@@ -22782,7 +22770,7 @@
 			{
 				"name": "Corsair Siege Crew",
 				"factions": [
-					"Corsair Fleet"
+					"Corsair Fleets"
 				],
 				"autoAddOnly": true,
 				"points": 0,
@@ -27123,7 +27111,7 @@
 			{
 				"name": "Corsair of Umbar",
 				"factions": [
-					"Corsair Fleet"
+					"Corsair Fleets"
 				],
 				"points": 8,
 				"movement": 6,
