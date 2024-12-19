@@ -1160,7 +1160,7 @@
 			{
 				"name": "Thorin's Company",
 				"alignment": "good",
-				"armyBonus": "\"March to the Lonely Mountain\" - If your Army contains only Thorin's Company models, then friendly Dwarf models may spend their Will Points to declare a Heroic March instead of using Might Points, even if they do not normally have the ability to declare a Heroic March.\n\"We're making a long-term deposit\" - At the beginning of the game, choose one Objective Marker on the board. Friendly Dwarf models within range of the chosen Objective Marker gain the Dominant (2) special rule.\n\"Family Ties\" - The Dwarves of Thorin's Company are divided into Family Groups, which are as follows:\n  -Balin and Dwalin\n  -Kili and Fili\n  -Bifur, Bofur and Bombur\n  -Ori, Nori and Dori\n  -Oin and Gloin\nHero models from this Army that are within 3\" of another Hero from the same Family Group may spend that model's Might, Will and Fate points as if they were their own.",
+				"armyBonus": "\"March to the Lonely Mountain\" - If your Army contains only Thorin's Company models, then friendly Dwarf models may spend their Will Points to declare a Heroic March instead of using Might Points, even if they do not normally have the ability to declare a Heroic March.\n\"We're making a long-term deposit\" - At the beginning of the game, choose one Objective Marker on the board. Friendly Dwarf models within range of the chosen Objective Marker gain the Dominant (2) special rule.\n\"Family Ties\" - The Dwarves of Thorin's Company are divided into Family Groups, which are as follows:\n  -Balin and Dwalin\n  -Kili and Fili\n  -Bifur, Bofur and Bombur\n  -Ori, Nori and Dori\n  -Oin and Gloin\nHero models from this Army that are within 3\" of another Hero from the same Family Group may spend that model's Might, Will and Fate points as if they were their own.\nGandalf gains the \"Thorin's Company\" keyword",
 				"childMatchesRequired": [
 					{
 						"elementPropertyName": "heroes",
@@ -1289,7 +1289,7 @@
 			{
 				"name": "The White Council",
 				"alignment": "good",
-				"armyBonus": "\"Council of the Wise\" - Each friendly White Council model gains the special rule associated with them as listed below:\n  -Saruman - Friendly White Council models within 3\" of Saruman may re-roll any 1 in their rolls to Cast a Magical Power.\n  -Gandalf - Friendly White Council models wtihin 3\" of Gandalf may re-roll To Wound Rolls of a natural 1 when making Strikes.\n  -Radagast - Friendly White Council models that begin their Activation within 3\" of Radagast may Move through difficult terrain without penalty.\n  -Elrond - Friendly White Council models treat Elrond as a banner.\n  -Galadriel - Friendly White Council models within 3\" of Galadriel gain the Resistant to Magic special rule.\n\"Masters of Magic\" - Friendly White Council models may still be Activated whilst Engaged in Combat (though they still may not Move), and therefore may attempt to Cast Magical Powers whilst Engaged in Combat, with the exception of the following Magical Powers: Nature's Wrath, Sorcerous Blast, Wrath of Bruinen.\n\"Are you in need of assistance?\" - Friendly White Council models gain a bonus of +1 to any Resist Tests whilst within 6\" of another friendly White Council model.\n\"Last Stand of the Council\" - Friendly White Council models gain the Dominant (3) special rule.\n                "
+				"armyBonus": "\"Council of the Wise\" - Each friendly White Council model gains the special rule associated with them as listed below:\n  -Saruman - Friendly White Council models within 3\" of Saruman may re-roll any 1 in their rolls to Cast a Magical Power.\n  -Gandalf - Friendly White Council models wtihin 3\" of Gandalf may re-roll To Wound Rolls of a natural 1 when making Strikes.\n  -Radagast - Friendly White Council models that begin their Activation within 3\" of Radagast may Move through difficult terrain without penalty.\n  -Elrond - Friendly White Council models treat Elrond as a banner.\n  -Galadriel - Friendly White Council models within 3\" of Galadriel gain the Resistant to Magic special rule.\n\"Masters of Magic\" - Friendly White Council models may still be Activated whilst Engaged in Combat (though they still may not Move), and therefore may attempt to Cast Magical Powers whilst Engaged in Combat, with the exception of the following Magical Powers: Nature's Wrath, Sorcerous Blast, Wrath of Bruinen.\n\"Are you in need of assistance?\" - Friendly White Council models gain a bonus of +1 to any Resist Tests whilst within 6\" of another friendly White Council model.\n\"Last Stand of the Council\" - Friendly White Council models gain the Dominant (3) special rule.\nGandalf, Radagast, and Elrong gain the \"White Council\" keyword\n                "
 			},
 			{
 				"name": "Assault on Ravenhill",
@@ -10197,12 +10197,11 @@
 					"25mm"
 				],
 				"heroicActions": [],
-				"keywords": [
+				"options": [],
+				"specialRules": [
 					"Gatekeeper",
 					"A Light in the Dark"
 				],
-				"options": [],
-				"specialRules": [],
 				"wargear": [
 					"Hand weapon"
 				]
@@ -12277,7 +12276,7 @@
 				"specialRules": [
 					"Sharpshooter",
 					"Deadeye",
-					"Chronicler"
+					"Chronicler (Thorin's Company)"
 				],
 				"wargear": [
 					"Hand weapon",
@@ -20926,30 +20925,41 @@
 				],
 				"unique": true,
 				"points": 40,
-				"movement": 8,
-				"fight": 1,
-				"shoot": 4,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 5,
 				"strength": 3,
-				"defence": 4,
+				"defence": 3,
 				"attack": 1,
 				"wounds": 2,
-				"courage": 3,
-				"might": 0,
-				"will": 1,
+				"courage": 7,
+				"intelligence": 8,
+				"might": 1,
+				"will": 3,
 				"fate": 1,
-				"heroicActions": [],
-				"keywords": [
-					"Pony",
-					"Infantry",
-					"Hero"
+				"race": [
+					"Man"
 				],
+				"faction": [
+					"Bree"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
 				"options": [],
 				"specialRules": [
-					"Official Meals",
-					"Only a Pony",
-					"Second Breakfast"
+					"Gatekeeper",
+					"A Light in the Dark"
 				],
-				"wargear": [],
+				"wargear": [
+					"Hand weapon"
+				],
 				"countAsProperty": "heroes"
 			},
 			{
