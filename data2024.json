@@ -32085,11 +32085,6 @@
 				"definition": "If Thranduil is Outnumbered in a Combat, and successfully kills all enemy models that he was Engaged in Combat with, then in the following turn Thranduil may declare a Heroic Combat for free."
 			},
 			{
-				"name": "Do no talk to me of Dragon fire",
-				"tag": "Active",
-				"definition": "At the beginnign of his Activation, Thranduil can spend a Will Point to use this special rule. If he does, then until the end of the turn Thranduil has the Terror special rule. Additionally, if Thranduil has the Infantry Keyword when he uses this special rule, then each enemy model within 3\" of him, that is not Engaged in Combat, must take a Courage Test in an order chosen by Thranduil's controlling player. If the test is failed, they must immediately Move Directly Away from Thranduil as far as they can, up to the limit of their Move Value. Models Moved by this special rule cannot Move again during the turn, but may otherwise act normally."
-			},
-			{
 				"name": "Majestic Steed",
 				"tag": "Active",
 				"definition": "In a turn in which Thranduil Charges into Combat, he resolves his Strikes at Stength 5. Additionally, each time this model Charges into Combat, it will inflict a single Strength 4 hit upon the model it has Charged (Cavalry models suffer this hit on both the rider and the Mount). If after this hit Thranduil is no longer Engaged in Combat, he may continue his Move in any way his controlling player wishes; stopping straight away. Charging anohter enemy model, or anything in between."
@@ -32251,6 +32246,11 @@
 			{
 				"name": "Direct Shot",
 				"definition": "A Siege Engine that Shoots by Direct Shot will need Line of Sight to the initial target. Additionally, if the shot scatters onto another target, the Siege Engine will need to have Line of Sight to this target in order for them to be selected as the actual target. In both of these instances, this Line of Sight is drawn from the firing point of the Siege Engine, so the tip of a ballista or siege bow for example.\n                After determining the actual target, a Siege Engine with Direct Shot will make In The Way Tests in the same way as any other Shooting Attack."
+			},
+			{
+				"name": "Do not talk to me of Dragon fire",
+				"tag": "Active",
+				"definition": "At the beginning of his Activation, Thranduil can spend a Will Point to use this special rule. If he does, then until the end of the turn Thranduil has the Terror special rule. Additionally, if Thranduil has the Infantry Keyword when he uses this special rule, then each enemy model within 3\" of him, that is not Engaged in Combat, must take a Courage Test in an order chosen by Thranduil's controlling player. If the test is failed, they must immediately Move Directly Away from Thranduil as far as they can, up to the limit of their Move Value. Models Moved by this special rule cannot Move again during the turn, but may otherwise act normally."
 			}
 		]
 	}
