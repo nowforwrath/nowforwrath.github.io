@@ -1352,7 +1352,7 @@
 						"elementPropertyName": "heroes",
 						"requiredChildren": [
 							{
-								"name": "Great Eagle",
+								"name": "Exchange Staff of Power for Great Eagle",
 								"points": 55,
 								"elementPropertyName": "options"
 							}
@@ -16860,7 +16860,7 @@
 				],
 				"requiredChildren": [
 					{
-						"name": "Great Eagle",
+						"name": "Exchange Staff of Power for Great Eagle",
 						"points": 55,
 						"elementPropertyName": "options",
 						"in": [
@@ -16872,7 +16872,7 @@
 				],
 				"options": [
 					{
-						"name": "Great Eagle",
+						"name": "Exchange Staff of Power for Great Eagle",
 						"points": 55,
 						"usesDefinition": "Great Eagle",
 						"availableIn": [
