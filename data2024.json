@@ -27373,6 +27373,15 @@
 		],
 		"gear": [
 			{
+				"name": "Palantir",
+				"tag": "Active",
+				"definition": "Once per game, during the Priority Phase but before the roll for Priority, Saruman can use the Palantir to automatically win the roll to choose who has Priority for that turn. If both sides have a special rule allowing them to do this and both with to use it in the same turn, players roll of as normal and both special rules count as being used."
+			},
+			{
+				"name": "Pike",
+				"definition": "Pikes function in much the same way as spears, and allow models to Support in exactly the same way as those armed with a spear.\n                Additionally, a model armed with a pike can Support another friendly model armed with a pike that is Supporting a friendly model Engaged in Combat - essentially giving two Supports to the same model.\n                A pike requires two hands to use, and so a model armed with a pike will suffer a -1 penalty to their Duel Rolls if they are armed with a shield or a Missile Weapon.\n                As models armed with pikes can effectively Support at three models deep (one Engaged in Combat and two Supporting), it can be very easy to cause your own models to be Trapped, as only one model may Back Away not two. This is the risk of Supporting in such depth.\n                Additionally, if a Cavalry model Charges a model armed with a pike, then the model with a pike will gain a bonus of +l To Wound when making Strikes against the Mount in the ensuing Combat."
+			},
+			{
 				"name": "Guardian of the King",
 				"modifiesStats": [
 					{
@@ -30026,11 +30035,6 @@
 				"name": "Voice of Curunir",
 				"tag": "Active",
 				"definition": "The range of Saruman's Stand Fast is 12\" rather than 6\". Additionally, friendly Hero models can benefit from Saruman's Stand Fast."
-			},
-			{
-				"name": "Palantir",
-				"tag": "Active",
-				"definition": "Once per game, during the Priority Phase but before the roll for Priority, Saruman can use the Palantir to automatically win the roll to choose who has Priority for that turn. If both sides have a special rule allowing them to do this and both with to use it in the same turn, players roll of as normal and both special rules count as being used."
 			},
 			{
 				"name": "Head Taker",
