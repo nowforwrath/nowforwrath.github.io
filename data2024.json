@@ -534,6 +534,7 @@
 						"points": 160,
 						"elementPropertyName": "heroes",
 						"quantity": 1,
+						"mustBeLeader": true,
 						"requiredChildren": [
 							{
 								"name": "Elven Cloak",
@@ -567,6 +568,7 @@
 						"points": 75,
 						"elementPropertyName": "heroes",
 						"quantity": 1,
+						"mustBeLeader": true,
 						"requiredChildren": [
 							{
 								"name": "Snowmane",
@@ -587,6 +589,7 @@
 						"points": 75,
 						"elementPropertyName": "heroes",
 						"quantity": 1,
+						"mustBeLeader": true,
 						"requiredChildren": [
 							{
 								"name": "Exchange armour for Heavy armour",
@@ -606,6 +609,7 @@
 					{
 						"name": "Theoden, King of Rohan",
 						"points": 75,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes",
 						"quantity": 1,
 						"requiredChildren": [
@@ -637,6 +641,7 @@
 					{
 						"name": "Eomer, Marshal of the Riddermark",
 						"points": 110,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes",
 						"requiredChildren": [
 							{
@@ -682,6 +687,7 @@
 					{
 						"name": "Faramir, Captain of Gondor",
 						"points": 100,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
 				]
@@ -694,6 +700,7 @@
 					{
 						"name": "Boromir, Captain of the White Tower",
 						"points": 160,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
 				]
@@ -706,6 +713,7 @@
 					{
 						"name": "Gandalf the White",
 						"points": 200,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
 				]
@@ -718,6 +726,7 @@
 					{
 						"name": "Aragorn (Strider)",
 						"points": 160,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes",
 						"requiredChildren": [
 							{
@@ -767,6 +776,7 @@
 					{
 						"name": "Aragorn, King Elessar",
 						"points": 225,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
 				]
@@ -784,6 +794,7 @@
 					{
 						"name": "Gil-Galad, High King of the Noldor",
 						"points": 175,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
 				]
@@ -820,7 +831,15 @@
 			{
 				"name": "Fangorn",
 				"alignment": "good",
-				"armyBonus": "Additional Rules: A Fangorn Army must always contain Treebeard, who is always the Army's General.\n\"Don't be Hasty\" - Friendly Ent models are completely unaffected by any Magical Powers that would attempt to Move them, or prevent them from Activating or Moving.\n\"One with the Forest\" - Friendly Ent models are completely unaffected by the Call Winds, Nature's Wrath, Wrath of Bruinen, and Writhing Vines Magical Powers.\n\"Beech. Oak. Chestnut. Ash. Many have come\" - Whenever you include an Ent Warrior in your Army, you may assign one of four types of Ent to it, as listed below. You must split the types of Ent as evenly as possible. So, if you want to have a second of one type of Ent, you must first have one of each of the types. If you want to have a third of one type of Ent, you must first have two of each of the types, and so on.\n  Beech - The Ent may re-roll To Wound rolls of a natural 1 when making Strikes.\n  Oak - The Ent improves its Wounds characteristic to 4.\n  Chestnut - The Ent gains the Mighty Blow special rule.\n  Ash - The Ent improves their Shoot Value to 3+ and can still use its Throw Stones special rule even if it has Moved that turn (though not if it has Moved over half its Move Value)."
+				"armyBonus": "Additional Rules: A Fangorn Army must always contain Treebeard, who is always the Army's General.\n\"Don't be Hasty\" - Friendly Ent models are completely unaffected by any Magical Powers that would attempt to Move them, or prevent them from Activating or Moving.\n\"One with the Forest\" - Friendly Ent models are completely unaffected by the Call Winds, Nature's Wrath, Wrath of Bruinen, and Writhing Vines Magical Powers.\n\"Beech. Oak. Chestnut. Ash. Many have come\" - Whenever you include an Ent Warrior in your Army, you may assign one of four types of Ent to it, as listed below. You must split the types of Ent as evenly as possible. So, if you want to have a second of one type of Ent, you must first have one of each of the types. If you want to have a third of one type of Ent, you must first have two of each of the types, and so on.\n  Beech - The Ent may re-roll To Wound rolls of a natural 1 when making Strikes.\n  Oak - The Ent improves its Wounds characteristic to 4.\n  Chestnut - The Ent gains the Mighty Blow special rule.\n  Ash - The Ent improves their Shoot Value to 3+ and can still use its Throw Stones special rule even if it has Moved that turn (though not if it has Moved over half its Move Value).",
+				"requiredChildren": [
+					{
+						"name": "Treebeard",
+						"points": 190,
+						"mustBeLeader": true,
+						"elementPropertyName": "heroes"
+					}
+				]
 			},
 			{
 				"name": "The Eagles",
@@ -835,6 +854,7 @@
 					{
 						"name": "The Dark Lord Sauron",
 						"points": 400,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
 				]
@@ -847,6 +867,7 @@
 					{
 						"name": "The Witch-King of Angmar B",
 						"points": 120,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes",
 						"requiredChildren": [
 							{
@@ -871,6 +892,7 @@
 					{
 						"name": "Gothmog, Lieutenant of Sauron",
 						"points": 120,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
 				]
@@ -908,6 +930,7 @@
 					{
 						"name": "The Witch-King of Angmar C",
 						"points": 150,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
 				]
@@ -920,6 +943,7 @@
 					{
 						"name": "Shagrat, Captain of Cirith Ungol",
 						"points": 110,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					},
 					{
@@ -951,6 +975,7 @@
 					{
 						"name": "Mordor Troll Chieftain Leader",
 						"points": 150,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					},
 					{
@@ -973,6 +998,7 @@
 					{
 						"name": "Lurtz, Uruk-hai Scout Captain",
 						"points": 100,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
 				]
@@ -985,6 +1011,7 @@
 					{
 						"name": "Ugluk, Uruk-hai Scout Captain",
 						"points": 75,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
 				],
@@ -1011,6 +1038,7 @@
 					{
 						"name": "Sharku, Warg Rider Captain",
 						"points": 70,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
 				],
@@ -1029,6 +1057,7 @@
 					{
 						"name": "Saruman",
 						"points": 170,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
 				]
@@ -1041,6 +1070,7 @@
 					{
 						"name": "Uruk-hai Captain Leader",
 						"points": 65,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
 				]
@@ -1058,6 +1088,7 @@
 					{
 						"name": "Wulf, High Lord of the Hill Tribes",
 						"points": 110,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
 				]
@@ -1086,6 +1117,7 @@
 					{
 						"name": "Corsair Captain Leader",
 						"points": 55,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
 				]
@@ -1098,6 +1130,7 @@
 					{
 						"name": "Dain Ironfoot, Lord of the Iron Hills",
 						"points": 160,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
 				]
@@ -1151,6 +1184,7 @@
 					{
 						"name": "Bard the Bowman",
 						"points": 130,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes",
 						"requiredChildren": [
 							{
@@ -1179,6 +1213,14 @@
 						"value": "Eagle",
 						"childElementPropertyName": "warriors"
 					}
+				],
+				"requiredChildren": [
+					{
+						"name": "Thorin Oakenshield",
+						"points": 100,
+						"mustBeLeader": true,
+						"elementPropertyName": "heroes"
+					}
 				]
 			},
 			{
@@ -1206,6 +1248,7 @@
 					{
 						"name": "The Goblin King",
 						"elementPropertyName": "heroes",
+						"mustBeLeader": true,
 						"points": 150
 					}
 				]
@@ -1218,6 +1261,7 @@
 					{
 						"name": "Azog, the Defiler",
 						"points": 175,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
 				]
@@ -1235,6 +1279,7 @@
 					{
 						"name": "Theoden, King of Rohan",
 						"points": 75,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes",
 						"requiredChildren": [
 							{
@@ -1265,6 +1310,7 @@
 					{
 						"name": "Bill the Troll",
 						"points": 150,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					},
 					{
@@ -1286,6 +1332,7 @@
 				"requiredChildren": [
 					{
 						"name": "Smaug",
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes",
 						"points": 700
 					}
@@ -1304,6 +1351,7 @@
 					{
 						"name": "Thorin Oakenshield, King Under the Mountain",
 						"points": 130,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
 				]
@@ -1316,6 +1364,7 @@
 					{
 						"name": "Girion, Lord of Dale",
 						"points": 80,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
 				]
@@ -1354,6 +1403,7 @@
 					{
 						"name": "Radagast the Brown",
 						"points": 145,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes",
 						"requiredChildren": [
 							{
@@ -1441,6 +1491,7 @@
 					{
 						"name": "Arvedui, Last King of Arnor",
 						"points": 80,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
 				]
@@ -1453,6 +1504,7 @@
 					{
 						"name": "Earnur, Last King of Gondor",
 						"points": 110,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					},
 					{
@@ -1484,6 +1536,7 @@
 					{
 						"name": "Arathorn, Chieftain of the Dunedain",
 						"points": 80,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
 				]
@@ -1496,6 +1549,7 @@
 					{
 						"name": "The Witch-King of Angmar C",
 						"points": 150,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
 				]
@@ -1514,6 +1568,7 @@
 					{
 						"name": "Buhrdur, Hill Troll Chieftain",
 						"points": 130,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
 				]
@@ -1526,6 +1581,7 @@
 					{
 						"name": "Wild Warg Chieftain Leader",
 						"points": 80,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
 				]
@@ -1538,6 +1594,7 @@
 					{
 						"name": "Aldrac, Warlord of Carn Dum",
 						"points": 120,
+						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
 				]
