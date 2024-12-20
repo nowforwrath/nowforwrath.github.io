@@ -390,6 +390,11 @@
 									"propertyName": "baseSize",
 									"label": "Base Size",
 									"type": "static"
+								},
+								{
+									"propertyName": "heroicActions",
+									"label": "Heroic Actions",
+									"type": "static"
 								}
 							]
 						},
@@ -29069,6 +29074,45 @@
 				"definition": "This. is a Unique hand weapon. Additionally, each time a model armed with Guthwine rolls a natural 6 To Wound when making a Strike, they may immediately make a  single additional To Wound roll against the same target. If this additional To Wound roll is a natural 6, this will not benefit from this special rule."
 			},
 			{
+				"name": "Mahud Beastmaster Chieftain",
+				"movement": 6,
+				"fight": 5,
+				"shoot": 3,
+				"strength": 5,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 6,
+				"might": 2,
+				"will": 2,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic March"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"War horn"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Harad"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Mahud Beastmaster Chieftain"
+				]
+			},
+			{
 				"name": "Ashere",
 				"type": "mount",
 				"movement": 10,
@@ -32316,6 +32360,11 @@
 				"name": "Power of Angmar",
 				"tag": "Active",
 				"definition": "If the Shadow of Rhudaur rolls a natural 6 when making a Casting Roll, then the target model cannot spend Will Points to attempt to Resist the Magical Power."
+			},
+			{
+				"name": "Mahud Beastmaster Chieftain",
+				"tag": "Passive",
+				"definition": "The Haradrim Commander is replaced by a Mahud Beastmaster Chieftain, which is placed on the forked wooden platform at the front of the Howdah."
 			}
 		]
 	}
