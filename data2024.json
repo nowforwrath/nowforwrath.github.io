@@ -19816,6 +19816,7 @@
 				"factions": [
 					"The Shire"
 				],
+				"unique": true,
 				"points": 20,
 				"movement": 4,
 				"fight": 2,
