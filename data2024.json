@@ -25,7 +25,7 @@
 	"credit": [
 		{
 			"type": "text",
-			"text": "Data provided by Now For Wrath. Check out their first live stream on December 15th at 11:30am EDT "
+			"text": "Data provided by Now For Wrath. Check out their YouTube channel with Battle Reports and talks about the game "
 		},
 		{
 			"type": "url",
@@ -1060,7 +1060,7 @@
 			{
 				"name": "Depths of Moria",
 				"alignment": "evil",
-				"armyBonus": "\"Drums in the Deep\" - Enemy models suffer a -1 penalty to any Courage Tests they are required to take, whilst friendly Moria Goblin models gain a bonus of +1 to any Courage Tests they are required to take. Additionally, friendly Moria Goblin models always count as being in range of a banner.\n\"Dominion of the Balrog\" - Friendly Moria Goblin models within 6\" of the Balrog gain a bonus of +1 to their Fight Value. Additionally, so long as the Balrog has at least 6 Wounds remaining, a Depths of Moria Army can never count as being Broken. Should the Balrog have 5 or fewer Wounds remaining, a Depths of Moria Army will Break as normal. However, should the Balrog ever be removed as a casualty, a Depths of Moria Army will immediately count as being Broken.\n\"Shadow...\" - Shooting attacks that target the Balrog will only ever hit on the roll of a 5+.\n\"...and Flame\" - Once per game, at the start of any Shoot Phase, the Balrog may select a single model within 3\" of it and roll a D6. On a 2+, the model is immediately Set Ablaze. This is an active ability belonging to the Balrog, and after it has used this ability, the Balrog no longer benefits from the 'Shawod...' special rule."
+				"armyBonus": "\"Drums in the Deep\" - Enemy models suffer a -1 penalty to any Courage Tests they are required to take, whilst friendly Moria Goblin models gain a bonus of +1 to any Courage Tests they are required to take. Additionally, friendly Moria Goblin models always count as being in range of a banner.\n\"Dominion of the Balrog\" - Friendly Moria Goblin models within 6\" of the Balrog gain a bonus of +1 to their Fight Value. Additionally, so long as the Balrog has at least 6 Wounds remaining, a Depths of Moria Army can never count as being Broken. Should the Balrog have 5 or fewer Wounds remaining, a Depths of Moria Army will Break as normal. However, should the Balrog ever be removed as a casualty, a Depths of Moria Army will immediately count as being Broken.\n\"Shadow...\" - Shooting attacks that target the Balrog will only ever hit on the roll of a 5+.\n\"...and Flame\" - Once per game, at the start of any Shoot Phase, the Balrog may select a single model within 3\" of it and roll a D6. On a 2+, the model is immediately Set Ablaze. This is an active ability belonging to the Balrog, and after it has used this ability, the Balrog no longer benefits from the 'Shadow...' special rule."
 			},
 			{
 				"name": "Harad",
@@ -1294,7 +1294,7 @@
 			{
 				"name": "Assault on Ravenhill",
 				"alignment": "good",
-				"armyBonus": "Additional Rules:\n                An Assualt on Ravenhill army must include Thorin, who is always the Army's General.\n                An Assault on Ravenhill Army is always deployed as a single Warband with Thorin as the Warband's Captain.\n\"Orcrist\" - Legolas beings the game with Orcrist - no points are paid for Orcrist, it is free. Additionally, at the start of any Fight Phase, if Legolas is within 6\" of Thorin and Thorin is Engaged in Combat, then Legolas can throw Orcrist to Thorin. From that point on, Thorin carries Orcrist instead of Legolas.\n\"The Line of Durin\" - Friendly models treat Thorin as a banner with a range of 6\". So long as he is still alive, Thorin will count as a banner for the purpose of Victory Points in Scenarios that award Victory Points for having a banner left alive.\nAdditionally, Kili and Fili increase their Attacks to 3 in this Army List.\n\"The King's Protector\" - If Thorin is Engaged in Combat within 6\" of Dwalin, then Dwalin may declare a Heroic Combat for free. If the Heroic Combat is successful then Dwalin must use the following Move to join Thorin's combat. If this is not possible, then Dwalin must Move as close as possible to Thorin.\n\"Heroes of Mirkwood\" - Legolas increases his Fight Value to 7 and his Attacks to 3. Additionally, Tauriel must re-roll all failed To Wound rolls when making Strikes.\n\"Throwing Stones\" - Instead of using his Throw Stones special rule as normal, Bilbo may use stones in the same way as a Throwing Weapon. These have a Strength of 1 and a range of 8\", and Bilbo may re-roll any failed To Wound Rolls when using stones as a Throwing Weapon.",
+				"armyBonus": "Additional Rules:\n                An Assault on Ravenhill army must include Thorin, who is always the Army's General.\n                An Assault on Ravenhill Army is always deployed as a single Warband with Thorin as the Warband's Captain.\n\"Orcrist\" - Legolas beings the game with Orcrist - no points are paid for Orcrist, it is free. Additionally, at the start of any Fight Phase, if Legolas is within 6\" of Thorin and Thorin is Engaged in Combat, then Legolas can throw Orcrist to Thorin. From that point on, Thorin carries Orcrist instead of Legolas.\n\"The Line of Durin\" - Friendly models treat Thorin as a banner with a range of 6\". So long as he is still alive, Thorin will count as a banner for the purpose of Victory Points in Scenarios that award Victory Points for having a banner left alive.\nAdditionally, Kili and Fili increase their Attacks to 3 in this Army List.\n\"The King's Protector\" - If Thorin is Engaged in Combat within 6\" of Dwalin, then Dwalin may declare a Heroic Combat for free. If the Heroic Combat is successful then Dwalin must use the following Move to join Thorin's combat. If this is not possible, then Dwalin must Move as close as possible to Thorin.\n\"Heroes of Mirkwood\" - Legolas increases his Fight Value to 7 and his Attacks to 3. Additionally, Tauriel must re-roll all failed To Wound rolls when making Strikes.\n\"Throwing Stones\" - Instead of using his Throw Stones special rule as normal, Bilbo may use stones in the same way as a Throwing Weapon. These have a Strength of 1 and a range of 8\", and Bilbo may re-roll any failed To Wound Rolls when using stones as a Throwing Weapon.",
 				"requiredChildren": [
 					{
 						"name": "Thorin Oakenshield, King Under the Mountain",
@@ -19218,14 +19218,29 @@
 				"movement": 4,
 				"fight": 2,
 				"shoot": 3,
-				"strength": 1,
+				"strength": 2,
 				"defence": 2,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 6,
 				"might": 0,
-				"will": 3,
+				"will": 4,
 				"fate": 1,
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [],
 				"options": [],
 				"specialRules": [
@@ -19233,7 +19248,7 @@
 					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"Furious Tirade",
-					"The Umbrella is not Mightier than the Sword"
+					"A Stern Scolding"
 				],
 				"wargear": [
 					"Umbrella"
@@ -19791,6 +19806,51 @@
 			}
 		],
 		"warriors": [
+			{
+				"name": "Lobelia Sackville-Baggins",
+				"factions": [
+					"The Shire"
+				],
+				"points": 20,
+				"movement": 4,
+				"fight": 2,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 2,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 4,
+				"intelligence": 6,
+				"might": 0,
+				"will": 4,
+				"fate": 1,
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
+				"options": [],
+				"specialRules": [
+					"Resistant to Magic",
+					"Throw Stones",
+					"Throw Stones (range 8\", Strength 1)",
+					"Furious Tirade",
+					"A Stern Scolding"
+				],
+				"wargear": [
+					"Umbrella"
+				]
+			},
 			{
 				"name": "Hobbit Archer",
 				"factions": [],
@@ -21110,6 +21170,9 @@
 				"unavailableIn": [
 					[
 						"Gwaihir"
+					],
+					[
+						"Pippin"
 					]
 				],
 				"unique": true,
@@ -31315,7 +31378,7 @@
 			{
 				"name": "Furious Tirade",
 				"tag": "Active",
-				"definition": "No Warrior model, from either player’s force, may benefit from a Hero model’s Stand Fast! whilst within 6\" of Lobelia."
+				"definition": "Enemy Warrior models cannot benefit from a Hero model's Stand Fast whilst within 6\" of Lobelia."
 			},
 			{
 				"name": "The Umbrella is not Mightier than the Sword",
@@ -32239,6 +32302,16 @@
 				"name": "Do not talk to me of Dragon fire",
 				"tag": "Active",
 				"definition": "At the beginning of his Activation, Thranduil can spend a Will Point to use this special rule. If he does, then until the end of the turn Thranduil has the Terror special rule. Additionally, if Thranduil has the Infantry Keyword when he uses this special rule, then each enemy model within 3\" of him, that is not Engaged in Combat, must take a Courage Test in an order chosen by Thranduil's controlling player. If the test is failed, they must immediately Move Directly Away from Thranduil as far as they can, up to the limit of their Move Value. Models Moved by this special rule cannot Move again during the turn, but may otherwise act normally."
+			},
+			{
+				"name": "A Stern Scolding",
+				"tag": "Active",
+				"definition": "Once per turn, at any point during her Activation, Lobelia can spend a Will Point to use this special rule. If she does, choose an enemy model within 6\" and Line of Sight and roll a D6. On a 2+, the chosen model cannot Activate this turn and if the model takes part in a Combat during the Fight Phase, they treat their Attacks characteristic as 1 instead of its usual value. This special rule has no effect on Monster, Chariot or War Beast models."
+			},
+			{
+				"name": "Power of Angmar",
+				"tag": "Active",
+				"definition": "If the Shadow of Rhudaur rolls a natural 6 when making a Casting Roll, then the target model cannot spend Will Points to attempt to Resist the Magical Power."
 			}
 		]
 	}
