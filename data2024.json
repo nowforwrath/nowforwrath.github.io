@@ -25424,11 +25424,10 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Demolition Charge",
 					"Moving the Charge",
 					"Detonating the Charge",
-					"Desperate Detonations",
-					"Detonation Table"
+					"Detonation Table",
+					"Attacking the Charge"
 				],
 				"wargear": []
 			},
@@ -31152,11 +31151,11 @@
 			},
 			{
 				"name": "Moving the Charge",
-				"definition": "A demolition charge is a Heavy Object, as on page 110 of the Middle-earth Strategy Battle Game Rules Manual. It may never be carried by mounted models."
+				"definition": "The demolition charge is a Heavy Object on a 25mm base, and is Moved in the same manner as any other Heavy Object."
 			},
 			{
 				"name": "Detonating the Charge",
-				"definition": "To use the demolition charge it must be dropped. A model with a flaming brand in base contact with the charge, which is not also Engaged in combat, may attempt to set it off at the start of the Fight phase. A model may only attempt to detonate the charge if the resulting explosion would affect at least two enemy models, or an enemy Siege target; meaning there must be at least two enemy models within 2\" of the charge to detonate it. The model attempting to set off the charge must pass a Courage test. If it fails, it cannot detonate the charge. If it succeeds, the Evil player rolls on the Detonation table to determine the effects.\n                When it explodes, a demolition charge automatically strikes everything within 2\" of the model - gates, doors, and of course, any models ( friend or foe) that are in range of it. Each target struck automatically takes D6 Wounds, regardless of its Defence value. Cavalry models take D6 hits on both the mount and the rider.\n                "
+				"definition": "During the Fight Phase, after any Heroic Combats have been resolved, a model with a torch can attempt to detonate the Demolition Charge if they are in base contact with it and are not Engaged in Combat. A model may only attempt to detonate a Demolition Charge if the resulting explosion would hit a Siege Target or at least two enemy models. A model that wishes to detonate the Demolition Charge must first take a Courage Test. If the test is failed,t eh Demolition Charge cannot be detonated. If the test is passed, the Demolition Charge will go off - roll on the Detonation Table:                "
 			},
 			{
 				"name": "Desperate Detonations",
@@ -31168,11 +31167,11 @@
 			},
 			{
 				"name": "Attacking the Charge",
-				"definition": "The demolition charge can be shot at normally, and has a Defence of 7 and 3 Wounds. If the charge is wounded, roll a D6 per Wound inflicted. On a 6, the charge immediately detonates - roll on the Detonation table as normal.\n                A demolition charge that is wounded by another demolition charge will be detonated on the roll of a 4+ (per Wound suffered) rather than a 6.\n                If brought to O Wounds without exploding, the demolition charge is shattered and the powder scatters harmlessly on the ground - remove the charge from play.\n                An enemy model that spends a Fight phase in base contact with a demolition charge, and is not Engaged in combat, may automatically disable it. Remove it from play."
+				"definition": "A Demolition Charge can be shot at and attacked as normal, and has a Defence of 7 and 3 Wounds. Each time a Demolition Charge suffers a Wound, roll a D6. On a 6, the Demolition Charge goes off; roll on the Demolition Table. If a Demolition Charge is Wounded by the explosion of another Demolition Charge, it will go off on the roll of a 4+ rather than a 6.\n                If a Demolition Charge loses its last Wound and does not go off, it simply breaks and is removed from play.\n                If, during the End PHase of a turn, an enemy model is in base contact with a Demolition Charge, that model hasn't done anything during that turn except Move (i.e. has not made a shooting attack, Cast a Magical Power, been Engaged in Combat), and that model was not affected by a Magical Power that turn, then it can disable the Demolition Charge - remove it from play."
 			},
 			{
 				"name": "Detonation Table",
-				"definition": "1: Dud. The charge has been damaged in some way and will not detonate yet - roll again next turn and add +1 to the roll..\n                2-5: Instant Reaction. The charge has been damaged in some way and will not detonate; remove it from play. \n                6: Titanic Explosion. The charge catches instantly, exploding in a roar of smoke and flame, as described previously.\n                "
+				"definition": "1: Dud. The Demolition Charge is faulty and does not explode. Remove it from play.\n                2-5: Instant Reaction. The Demolition Charge explodes. All models (friend and foe) within 2\" of the Demolition charge suffer D6 Wounds. Cavalry models suffer those Wounds on both the rider and the Mount. Models with Fate Points or special rules that can prevent Wounds must make a roll for each Wound suffered; a successful roll to prevent a Wound will only stop one, not all Wounds. \n                6: Titanic Explosion. The Demolition Charge explodes as described above, with the exception that models take 2D6 Wounds rather than D6..\n                "
 			},
 			{
 				"name": "Murderous Power",
