@@ -14898,7 +14898,7 @@
 					{
 						"name": "Merry & Pippin",
 						"points": 10,
-						"addsModels": 2
+						"addsModels": 1
 					}
 				],
 				"specialRules": [
@@ -29401,6 +29401,51 @@
 				"name": "Frying Pan",
 				"tag": "Active",
 				"definition": "Instead of making Strikes if he wins a Duel Roll, Sam may choose to use his Frying Pan as a weapon. Choose one enemy Infantry model involved in the Combat (with the exception of a Monster) and roll a D6. On a 4+, the chosen model is stunned by the hit and cannot Move during the following turn, but may otherwise act normally."
+			},
+			{
+				"name": "Merry & Pippin",
+				"definition": "If this option is taken, then both Merry and Pippin will ride into battle on Treebeard, and will use their profiles. They are still treated as individual models and will count towards the Army's total number of models and Break Point. Merry and Pippin are treated as Passengers (though this will not give Treebeard either the Cavalry or Mount keywords), with the exception that they cannot be targeted individually by shooting attacks, Magical Powers or special rules. Any shooting attacks that hit Treebeard do not need to make In The Way Tests - they will automatically hit Treebeard. Whilst riding Treebeard, Merry and Pippin may still use their Throw Stones special rule and will never count as having Moved. THey can still do this even whilst Treebeard is Engaged in Combat. Unlike other Passengers, should Merry or Pippin dismount, they may remount Treebeard again by ending their Move in base contact with him.\n                So long as at least one of Merry and Pippin remaing on Treebeard, Treebeard has the Resistant to Magic special rule.",
+				"includes": [
+					{
+						"name": "Meriadoc Brandybuck",
+						"dataSource": "heroes"
+					},
+					{
+						"name": "Peregrin Took",
+						"dataSource": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Beech",
+				"definition": "The Ent may re-roll To Wound rolls of a natural 1 when making Strikes."
+			},
+			{
+				"name": "Oak",
+				"definition": "The Ent improves its Wounds characteristic to 4.",
+				"modifiesStats": [
+					{
+						"stat": "wounds",
+						"modifier": 1
+					}
+				]
+			},
+			{
+				"name": "Chestnut",
+				"definition": "The Ent gains the Mighty Blow special rule.",
+				"specialRules": [
+					"Mighty Blow"
+				]
+			},
+			{
+				"name": "Ash",
+				"definition": "The Ent improves their Shoot Value to 3+ and can still use its Throw Stones special rule even if it has moved that turn (though not if it has Moved over half its Move Value)",
+				"modifiesStats": [
+					{
+						"stat": "shoot",
+						"modifier": -1
+					}
+				]
 			},
 			{
 				"name": "Rapid-fire Bolt Thrower",
