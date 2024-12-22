@@ -29607,7 +29607,7 @@
 			},
 			{
 				"name": "Instill Fear",
-				"duration": "Instant",
+				"duration": "Temporary",
 				"definition": "This Magical Power targets the caster. Enemy models wtihin 6\" of the caster are considered to have the Fearful special rule."
 			},
 			{
