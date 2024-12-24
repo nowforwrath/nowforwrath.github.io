@@ -30096,7 +30096,7 @@
 			{
 				"name": "Foresight of the Eldar",
 				"tag": "Passive",
-				"definition": "Before the game begins, roll a D6 and make a note of the result - these are this model's Foresight points for the battle. During the priority phase, after the dice has been rolled, so long as he is alive and on the battlefield, this model may choose to expend these Foresight points to alter the controlling player's dice roll. For each point expended, this model may alter the dice by either +1 or -1, to a minimum of 1 and a maximum of 6."
+				"definition": "At the start of the game, before either side deploys, roll a D6 and make a note of the result - this is the number of Foresight Points that Elrond has for the battle. During the roll for Priority, so long as he is alive and on the battlefield, Elrond can spend these Foresight Points to increase the roll on his controlling player's roll for Priority. For each Foresight Point spent, increase the dice roll by 1, to a maximum of 6."
 			},
 			{
 				"name": "Shieldwall",
