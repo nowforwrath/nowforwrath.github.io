@@ -4071,6 +4071,7 @@
 					{
 						"name": "Merry",
 						"points": 25,
+						"addsModels": 1,
 						"elementPropertyName": "options",
 						"in": [
 							[
@@ -4090,6 +4091,7 @@
 					{
 						"name": "Merry",
 						"points": 25,
+						"addsModels": 1,
 						"unlockedBy": "Horse"
 					},
 					{
@@ -5691,8 +5693,8 @@
 				"shoot": 4,
 				"strength": 5,
 				"defence": 6,
-				"attack": 2,
-				"wounds": 2,
+				"attack": 3,
+				"wounds": 3,
 				"courage": 4,
 				"might": 2,
 				"will": 1,
@@ -12695,8 +12697,8 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Healing Herbs",
-					"Reading the Portents"
+					"Healing Herbs (Thorin'S Company)",
+					"Reading the Portents (Thorin's Company)"
 				],
 				"wargear": [
 					"Hand-and-a-half weapon",
@@ -30685,6 +30687,11 @@
 				"definition": "At any point during his Activation, Oin can choose a friendly Erebor Hero in base contact and roll a D6. On a 4+, the chosen model immediately regains a Wound lost earlier in the battle. Oin can only use this special rule once per turn."
 			},
 			{
+				"name": "Healing Herbs (Thorin'S Company)",
+				"tag": "Active",
+				"definition": "At any point during his Activation, Oin can choose a friendly Thorin's Company) Hero in base contact and roll a D6. On a 4+, the chosen model immediately regains a Wound lost earlier in the battle. Oin can only use this special rule once per turn."
+			},
+			{
 				"name": "Prognostication",
 				"tag": "Active",
 				"definition": "Once per Fight phase, Óin the Dwarf can expend a Will point to enable a friendly model within 3\" to re-roll a single dice when making a Duel roll."
@@ -32299,6 +32306,11 @@
 				"name": "Just a couple of keepsakes",
 				"tag": "Active",
 				"definition": "Whilst Nori is carrying an Objective in Scenarios where this applies, he may re-roll all failed To Wound Rolls when making Strikes. However, Nori may never pass an Objective Marker to a friendly model."
+			},
+			{
+				"name": "Reading the Portents (Thorin's Company)",
+				"tag": "Active",
+				"definition": "During the Fight Phase, Oin can spend a Will Point to allow a friendly Thorin's Company Hero within 6\" to re-roll a single dice during their Duel Roll. Oin can use this special rule multiple times during the same Fight Phase, so long as he has Will Points remaining."
 			},
 			{
 				"name": "Reading the Portents",
