@@ -1783,6 +1783,7 @@
 				],
 				"armyBonuses": [
 					"Orcrist",
+					"The Line of Durin",
 					"The King's Protector",
 					"Heroes of Mirkwood",
 					"Throwing Stones"
@@ -1894,7 +1895,7 @@
 					"The Prince of Mirkwood",
 					"Dwarven Resilience",
 					"Clear the Nests",
-					"If you think I'm giving you a weapon Dwarf, you are sorely mistaken"
+					"\"If you think I'm giving you a weapon Dwarf, you are sorely mistaken\""
 				],
 				"childMatchesRequired": [
 					{
@@ -33189,7 +33190,7 @@
 				"definition": "Once per game, at the start of any friendly Activation Phase, Gandalf can use this special rule so long as he is alive and on the battlefield. If he does, then until the end of the turn, enemy models Engaged in Combat with a friendly Cavalry model that made a Charge that turn, or Supporting a Combat against a friendly Cavalry model that made a Charge that turn, suffer a -1 penalty to their Duel Roll."
 			},
 			{
-				"name": "\"To the King!",
+				"name": "\"To the King!\"",
 				"definition": "Eomer may declare a Heroic Combat each turn for free."
 			},
 			{
@@ -33345,7 +33346,7 @@
 				"definition": "Friendly Lothlorien models gain the Resistant to Magic special rule."
 			},
 			{
-				"name": "\"The Dwarf breathes so loud, we could have shot him in the dark",
+				"name": "\"The Dwarf breathes so loud, we could have shot him in the dark\"",
 				"definition": "Friendly Lothlorien models may re-roll To Hit rolls of a 1 when making a shooting attack if the target of the shooting attack is unable to see them due to the effects of an Elven cloak."
 			},
 			{
@@ -33605,7 +33606,7 @@
 				"definition": "Friendly models gain the Mountain Dweller special rule."
 			},
 			{
-				"name": "\"I've always found Thorin the more reasonable of the two...",
+				"name": "\"I've always found Thorin the more reasonable of the two...\"",
 				"definition": "Dain gains the Master of Battle (5+) special rule."
 			},
 			{
@@ -33729,7 +33730,7 @@
 				"definition": "Each time the Necromancer attempts to Cast a Magical Power by expending one or more Will Points, he automatically adds an additional free Will Points to the Casting Test."
 			},
 			{
-				"name": "\"Death!",
+				"name": "\"Death!\"",
 				"definition": "Once per game, at the start of any Fight Phase, Theoden can use this special rule so long as he is alive and on the battlefield. If he does, then each friendly Rohan Hero within 12\" of Theoden can declare a free Heroic Combat or a free Heroic Strike (if able) during the declare Heroic Actions Step. This is treated as an Active ability belonging to Theoden."
 			},
 			{
