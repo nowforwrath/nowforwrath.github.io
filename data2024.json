@@ -1939,7 +1939,7 @@
 			{
 				"name": "Realms of Men",
 				"alignment": "good",
-				"armyBonus": "\"Kings of Men are always a Hero of Legend. A King of Men may include Warrior models in their Warband from any Army List, so long as they share the same Faction Keyword.\nWhen working out which King of Men is your Army's General, it must be the one which shares the most common Faction Keyword throughout your Army. For example, if the most common Faction Keyword in your Army is Rohan, then the King of Men with the Rohan Keyword must be your General.\nA Realms of Men Army may not have two Kings of Men with the same Faction Keyword; however, they may have multiple Kings of Men with different Faction Keywords.\nA Realms of Men Army can never include any models with the Unique Keyword under any circumstances. However, it can include Hero models without the Unique Keyword so long as they share a Faction Keyword with a King of Men already in the Army. For example, a Realms of Men Army with a King of Men with the Gondor Keyword could include a Captain of Minas Tirith as they would both have the Gondor Keyword. Hero models included in this manner may also include Warrior models in their Warband with the same Faction Keyword.\nThe Realms of Men Army List allows you to create your own forces and combine multiple factions of Men in a way that suits you.\n                \"",
+				"armyBonus": "Kings of Men are always a Hero of Legend. A King of Men may include Warrior models in their Warband from any Army List, so long as they share the same Faction Keyword.\nWhen working out which King of Men is your Army's General, it must be the one which shares the most common Faction Keyword throughout your Army. For example, if the most common Faction Keyword in your Army is Rohan, then the King of Men with the Rohan Keyword must be your General.\nA Realms of Men Army may not have two Kings of Men with the same Faction Keyword; however, they may have multiple Kings of Men with different Faction Keywords.\nA Realms of Men Army can never include any models with the Unique Keyword under any circumstances. However, it can include Hero models without the Unique Keyword so long as they share a Faction Keyword with a King of Men already in the Army. For example, a Realms of Men Army with a King of Men with the Gondor Keyword could include a Captain of Minas Tirith as they would both have the Gondor Keyword. Hero models included in this manner may also include Warrior models in their Warband with the same Faction Keyword.\nThe Realms of Men Army List allows you to create your own forces and combine multiple factions of Men in a way that suits you.",
 				"childMatchesRequired": [
 					{
 						"elementPropertyName": "heroes",
@@ -33097,15 +33097,15 @@
 				"definition": "Friendly Fellowship models gain the Woodland Creature and Mountain Dweller special rules."
 			},
 			{
-				"name": "\"We do not stop 'til nightfall",
+				"name": "\"We do not stop 'til nightfall\"",
 				"definition": "Aragorn may declare a Heroic March each turn for free. Additionally, friendly models that begin their Activation within 6\" of Aragorn gain the Woodland Creature special rule until the end of the turn."
 			},
 			{
-				"name": "\"I'm the faster rider. I'll take him",
+				"name": "\"I'm the faster rider. I'll take him\"",
 				"definition": "If your army includes both Frodo and Arwen, then Frodo may begin the game as a passenger upon Asfaloth. Whilst Frodo is mounted on Asfaloth, Arwen gains the Resistant to Magic special rule, increases her Attacks characteristic to 3, and can spend Frodo's Might, Will, and Fate points as if they were her own. Frodo cannot put on the One Ring whilst he is a Passenger."
 			},
 			{
-				"name": "\"If you want him, come and claim him",
+				"name": "\"If you want him, come and claim him\"",
 				"definition": "Whilst she is within 6\" of Frodo (including if he is a Passenger on Asfaloth), Arwen gains the Fearless special rule and may re-roll any dice when making a Casting Roll."
 			},
 			{
