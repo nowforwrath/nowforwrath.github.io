@@ -10938,7 +10938,6 @@
 						"points": 20,
 						"availableIn": [
 							"Survivors of Lake-town",
-							"The Shire",
 							"The Battle of Five Armies"
 						]
 					},
@@ -21142,7 +21141,7 @@
 					"Defenders of the Shire"
 				],
 				"unique": true,
-				"points": 15,
+				"points": 20,
 				"movement": 4,
 				"fight": 1,
 				"shoot": 3,
