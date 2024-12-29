@@ -2115,7 +2115,7 @@
 					"Friendly models can still pick up Objective Markers even though they have the Beast keyword."
 				],
 				"armyBonuses": [
-					"Leader of the Pack",
+					"Leader of the Pack (Wolf Pack)",
 					"Feral Charge",
 					"Protect the Alpha",
 					"Howl of the Wolf Pack"
@@ -28959,7 +28959,7 @@
 			{
 				"name": "Light shield and throwing weapons",
 				"type": "throwingWeapon",
-				"definition": "3\" Range, 5 Strength"
+				"definition": "8\" Range, 3 Strength"
 			},
 			{
 				"name": "Light Shield",
@@ -33944,7 +33944,7 @@
 				"definition": "If Buhrdûr kills an enemy Hero in Combat, he gains the Fearless special rule for the remainder of the game."
 			},
 			{
-				"name": "Leader of the Pack",
+				"name": "Leader of the Pack (Wolf Pack)",
 				"definition": "The Wild Warg Chieftain that is your General gains an additional point each of Might, Will and Fate."
 			},
 			{
