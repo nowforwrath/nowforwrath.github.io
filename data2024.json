@@ -22749,7 +22749,6 @@
 				"name": "Orc",
 				"factions": [
 					"Mordor",
-					"The Army of Gothmog",
 					"Isengard"
 				],
 				"autoAddOnly": true,
@@ -22774,7 +22773,6 @@
 				"factions": [
 					"Minas Morgul",
 					"Barad-Dur",
-					"The Army of Gothmog",
 					"Cirith Ungol"
 				],
 				"points": 5,
