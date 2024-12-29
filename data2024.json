@@ -21505,10 +21505,25 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 2,
-				"courage": 5,
+				"courage": 6,
+				"intelligence": 7,
 				"might": 1,
 				"will": 1,
 				"fate": 2,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"heroicActions": [
 					"Heroic Defence"
 				],
@@ -21519,7 +21534,8 @@
 					"Hero"
 				],
 				"specialRules": [
-					"There is Always Hope",
+					"Fearful",
+					"There is always hope",
 					"Fight to the Last"
 				],
 				"wargear": [
