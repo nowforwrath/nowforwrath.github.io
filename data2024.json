@@ -1934,7 +1934,7 @@
 				"armyBonuses": [
 					"\"The Dwarves, they're rallying\"",
 					"Family Ties",
-					"\"To the King!\""
+					"\"To the King!\" (Erebor)"
 				]
 			},
 			{
@@ -33872,7 +33872,7 @@
 				"definition": "The Dwarves of Thorin's Company are divided into Family Groups, which are as follows:\n              -Balin and Dwalin\n              -Kili and Fili\n              -Bifur, Bofur and Bombur\n              -Ori, Nori and Dori\n              -Oin and Gloin\n            Hero models from this Army that are within 3\" of another Hero from the same Family Group may spend that model's Might, Will and Fate points as if they were their own."
 			},
 			{
-				"name": "\"To the King!\"",
+				"name": "\"To the King!\" (Erebor)",
 				"definition": "If your Army contains only Hero models with the Infantry keyword at the beginning of the game, then friendly models may re-roll any To Wound Rolls of a natural 1 when making Strikes."
 			},
 			{
