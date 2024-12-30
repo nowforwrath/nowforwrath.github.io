@@ -28895,7 +28895,7 @@
 			{
 				"name": "Two-handed weapon and throwing weapons",
 				"type": "throwingWeapon",
-				"definition": "8\" Range, 3 Strength"
+				"definition": "6\" Range, 3 Strength"
 			},
 			{
 				"name": "Light shield and throwing spears",
@@ -28945,22 +28945,22 @@
 			{
 				"name": "Throwing weapon",
 				"type": "throwingWeapon",
-				"definition": "8\" Range, 3 Strength"
+				"definition": "6\" Range, 3 Strength"
 			},
 			{
 				"name": "Elven throwing weapon",
 				"type": "throwingWeapon",
-				"definition": "8\" Range, 3 Strength"
+				"definition": "6\" Range, 3 Strength"
 			},
 			{
 				"name": "Elven throwing weapons",
 				"type": "throwingWeapon",
-				"definition": "8\" Range, 3 Strength"
+				"definition": "6\" Range, 3 Strength"
 			},
 			{
 				"name": "Throwing weapons",
 				"type": "throwingWeapon",
-				"definition": "8\" Range, 3 Strength"
+				"definition": "6\" Range, 3 Strength"
 			},
 			{
 				"name": "Throwing Axes",
@@ -28975,7 +28975,7 @@
 			{
 				"name": "Light shield and throwing weapons",
 				"type": "throwingWeapon",
-				"definition": "8\" Range, 3 Strength"
+				"definition": "6\" Range, 3 Strength"
 			},
 			{
 				"name": "Light Shield",
