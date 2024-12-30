@@ -24221,11 +24221,13 @@
 				"options": [
 					{
 						"name": "Troll Spear",
-						"points": 5
+						"points": 5,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Hand-and-a-half hammer",
-						"points": 5
+						"points": 5,
+						"requireChooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -29691,7 +29693,7 @@
 			{
 				"name": "Royal Standard of Rohan",
 				"tag": "Passive",
-				"definition": "This is a Unique banner with a range of 6\". Garnling does not suffer the -1 penalty to his Duel Roll for carrying a banner. Additionally, whenever a friendly Rohan Hero model within 6\" of the Royal Standard of Rohan spends a Might Point, they may roll a D6. On a natural 6, the Might Point is free and is not spent."
+				"definition": "This is a Unique banner with a range of 6\". Gamling does not suffer the -1 penalty to his Duel Roll for carrying a banner. Additionally, whenever a friendly Rohan Hero model within 6\" of the Royal Standard of Rohan spends a Might Point, they may roll a D6. On a natural 6, the Might Point is free and is not spent."
 			},
 			{
 				"name": "Elven Cloak",
