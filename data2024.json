@@ -13199,7 +13199,7 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Healing Herbs (Thorin'S Company)",
+					"Healing Herbs (Thorin's Company)",
 					"Reading the Portents (Thorin's Company)"
 				],
 				"wargear": [
@@ -14002,7 +14002,7 @@
 				"attack": 2,
 				"wounds": 2,
 				"courage": 5,
-				"intelligence": 5,
+				"intelligence": 6,
 				"might": 2,
 				"will": 1,
 				"fate": 2,
@@ -14510,7 +14510,7 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Steadfast"
+					"Steadfast (Thorin's Company)"
 				],
 				"wargear": [
 					"Light armour",
@@ -14614,7 +14614,7 @@
 				"specialRules": [
 					"Dominant (2)",
 					"Lumbering",
-					"Raising Spirits"
+					"Raising Spirits (Thorin's Company)"
 				],
 				"wargear": [
 					"Cleaver (counts as a sword)"
@@ -17389,7 +17389,7 @@
 					"Wizard"
 				],
 				"faction": [
-					"Thorn's Company"
+					"Thorin's Company"
 				],
 				"unitType": [
 					"Hero",
@@ -31233,7 +31233,7 @@
 			{
 				"name": "Chronicler (Thorin's Company)",
 				"tag": "Active",
-				"definition": "Any time that a member of Thorin's Company slays an enemy Hero or Monster model within 3\" of Ori the Dwarf,\n                 that model immediately regains a point of Might, Will or Fate (your choice) that has previously been spent in that game (or campaign)."
+				"definition": "Whenever a friendly Thorin's Company model within 6\" and Line of Sight of Ori slays an enemy Hero or Monster, then that Thorin's Company model may immediately regain a single point of either Might, Will or Fate spent earlier in the battle. If they are unable to regain a point of Might, Will or Fate, because their stores of each are full, then you may choose a different friendly Thorin's Company Hero within 6\" and Line of Sight of Ori to regain it instead."
 			},
 			{
 				"name": "Healing Herbs",
@@ -31241,7 +31241,7 @@
 				"definition": "At any point during his Activation, Oin can choose a friendly Erebor Hero in base contact and roll a D6. On a 4+, the chosen model immediately regains a Wound lost earlier in the battle. Oin can only use this special rule once per turn."
 			},
 			{
-				"name": "Healing Herbs (Thorin'S Company)",
+				"name": "Healing Herbs (Thorin's Company)",
 				"tag": "Active",
 				"definition": "At any point during his Activation, Oin can choose a friendly Thorin's Company) Hero in base contact and roll a D6. On a 4+, the chosen model immediately regains a Wound lost earlier in the battle. Oin can only use this special rule once per turn."
 			},
@@ -32341,6 +32341,11 @@
 				"definition": "Whenever a friendly Erebor Hero within 3\" of Bofur is affected by an enemy special rule or Magical Power, they may roll a D6. On a 3+, the model will ignore its effects. In the case of a Magical Power, any Resist Tests must be made before using this special rule."
 			},
 			{
+				"name": "Steadfast (Thorin's Company)",
+				"tag": "Active",
+				"definition": "Whenever a friendly Thorin's Company Hero within 3\" of Bofur is affected by an enemy special rule or Magical Power, they may roll a D6. On a 3+, the model will ignore its effects. In the case of a Magical Power, any Resist Tests must be made before using this special rule."
+			},
+			{
 				"name": "Beefy",
 				"tag": "Active",
 				"definition": "When Bombur the Dwarf makes Strikes, he may choose to use the Bash Special Strike just as if he were using a mace."
@@ -32354,6 +32359,11 @@
 				"name": "Raising Spirits",
 				"tag": "Active",
 				"definition": "Once per turn, during his Activation, Bombur can choose a friendly Erebor Hero model within 3\" and roll a D6. On a 4+, the chosen model regains a single Will Point spent earlier in the battle."
+			},
+			{
+				"name": "Raising Spirits (Thorin's Company)",
+				"tag": "Active",
+				"definition": "Once per turn, during his Activation, Bombur can choose a friendly Thorin's Company Hero model within 3\" and roll a D6. On a 4+, the chosen model regains a single Will Point spent earlier in the battle."
 			},
 			{
 				"name": "Weapon Synergy",
