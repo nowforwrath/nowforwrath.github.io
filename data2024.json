@@ -34247,6 +34247,10 @@
 			{
 				"name": "Fierce Charge",
 				"definition": "Friendly Warrior models gain a bonus of +1 to their Fight Value in a turn in which they Charge."
+			},
+			{
+				"name": "Frenzy of the King",
+				"definition": "At the start of the End Phase of a turn in which Helm Hammerhand kills an enemy Hero or Monster, enemy models within 3\" of Helm must take a Courage Test in an order chosen by Helm's controlling player. If the test is failed, the model must Move up to its Move Value directly away from Helm."
 			}
 		]
 	}
