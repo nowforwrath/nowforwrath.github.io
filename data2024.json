@@ -10817,6 +10817,118 @@
 				]
 			},
 			{
+				"name": "Gandalf the Grey (Thorin's Company)",
+				"factions": [
+					{
+						"name": "Thorin's Company",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 170,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 3,
+				"courage": 3,
+				"intelligence": 3,
+				"might": 3,
+				"will": 6,
+				"fate": 3,
+				"race": [
+					"Wizard"
+				],
+				"faction": [
+					"Fellowship"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Channeling",
+					"Heroic Defence",
+					"Heroic Resolve",
+					"Heroic Strike"
+				],
+				"keywords": [
+					"Wizard",
+					"Infantry",
+					"Hero"
+				],
+				"specialRules": [],
+				"wargear": [
+					"Glamdring",
+					"Narya",
+					"Staff of Power"
+				],
+				"options": [
+					{
+						"name": "Horse",
+						"points": 20,
+						"availableIn": [
+							"Survivors of Lake-town",
+							"The Battle of Five Armies"
+						]
+					},
+					{
+						"name": "Gandalf's Cart",
+						"points": 25,
+						"availableIn": [
+							"The Shire"
+						]
+					}
+				],
+				"magicalPowers": [
+					{
+						"name": "Protection of the Valar",
+						"range": 6,
+						"casting": 3
+					},
+					{
+						"name": "Terrifying Aura",
+						"range": 0,
+						"casting": 3
+					},
+					{
+						"name": "Blinding Light",
+						"range": 0,
+						"casting": 4
+					},
+					{
+						"name": "Strengthen Will",
+						"range": 12,
+						"casting": 4
+					},
+					{
+						"name": "Transfix",
+						"range": 12,
+						"casting": 4
+					},
+					{
+						"name": "Collapse Rocks",
+						"range": 12,
+						"casting": 5
+					},
+					{
+						"name": "Foil Magic",
+						"range": 12,
+						"casting": 5
+					},
+					{
+						"name": "Sorcerous Blast",
+						"range": 12,
+						"casting": 5
+					}
+				]
+			},
+			{
 				"name": "Gandalf the Grey",
 				"factions": [
 					{
@@ -10833,10 +10945,6 @@
 					},
 					{
 						"name": "Vanquishers of the Necromancer",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "Thorin's Company",
 						"heroicTier": "Hero of Valour"
 					},
 					{
@@ -30220,37 +30328,37 @@
 			{
 				"name": "Sworn Protector (Hera)",
 				"tag": "Passive",
-				"definition": "Models with this special rule will have a specific model listed in brackets as part of the special rule. Whilst the named model is alive and on the battleflelcl, this model automatically passes all Courage Tests It Is required to make."
+				"definition": "Models with this special rule will have a specific model listed in brackets as part of the special rule. Whilst the named model is alive and on the battlefield, this model automatically passes all Courage Tests it is required to make."
 			},
 			{
 				"name": "Sworn Protector (Theoden)",
 				"tag": "Passive",
-				"definition": "Models with this special rule will have a specific model listed in brackets as part of the special rule. Whilst the named model is alive and on the battleflelcl, this model automatically passes all Courage Tests It Is required to make."
+				"definition": "Models with this special rule will have a specific model listed in brackets as part of the special rule. Whilst the named model is alive and on the battlefield, this model automatically passes all Courage Tests it is required to make."
 			},
 			{
 				"name": "Sworn Protector (Denethor)",
 				"tag": "Passive",
-				"definition": "Models with this special rule will have a specific model listed in brackets as part of the special rule. Whilst the named model is alive and on the battleflelcl, this model automatically passes all Courage Tests It Is required to make."
+				"definition": "Models with this special rule will have a specific model listed in brackets as part of the special rule. Whilst the named model is alive and on the battlefield, this model automatically passes all Courage Tests it is required to make."
 			},
 			{
 				"name": "Sworn Protector (Thorin)",
 				"tag": "Passive",
-				"definition": "Models with this special rule will have a specific model listed in brackets as part of the special rule. Whilst the named model is alive and on the battleflelcl, this model automatically passes all Courage Tests It Is required to make."
+				"definition": "Models with this special rule will have a specific model listed in brackets as part of the special rule. Whilst the named model is alive and on the battlefield, this model automatically passes all Courage Tests it is required to make."
 			},
 			{
 				"name": "Sworn Protector (Bain)",
 				"tag": "Passive",
-				"definition": "Models with this special rule will have a specific model listed in brackets as part of the special rule. Whilst the named model is alive and on the battleflelcl, this model automatically passes all Courage Tests It Is required to make."
+				"definition": "Models with this special rule will have a specific model listed in brackets as part of the special rule. Whilst the named model is alive and on the battlefield, this model automatically passes all Courage Tests it is required to make."
 			},
 			{
 				"name": "Sworn Protector (Sigrid)",
 				"tag": "Passive",
-				"definition": "Models with this special rule will have a specific model listed in brackets as part of the special rule. Whilst the named model is alive and on the battleflelcl, this model automatically passes all Courage Tests It Is required to make."
+				"definition": "Models with this special rule will have a specific model listed in brackets as part of the special rule. Whilst the named model is alive and on the battlefield, this model automatically passes all Courage Tests it is required to make."
 			},
 			{
 				"name": "Sworn Protector (Tilda)",
 				"tag": "Passive",
-				"definition": "Models with this special rule will have a specific model listed in brackets as part of the special rule. Whilst the named model is alive and on the battleflelcl, this model automatically passes all Courage Tests It Is required to make."
+				"definition": "Models with this special rule will have a specific model listed in brackets as part of the special rule. Whilst the named model is alive and on the battlefield, this model automatically passes all Courage Tests it is required to make."
 			},
 			{
 				"name": "I Shall Kill You if You Touch Him",
