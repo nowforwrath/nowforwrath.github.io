@@ -223,6 +223,13 @@
 					"dataSource": "armyBonuses"
 				},
 				{
+					"propertyName": "specialRules",
+					"type": "static",
+					"label": "Related Special Rules: ",
+					"bullet": true,
+					"dataSource": "keywords"
+				},
+				{
 					"propertyName": "heroes",
 					"dataSource": "heroes",
 					"label": "Hero",
@@ -507,22 +514,8 @@
 					"The Bond of Fellowship",
 					"Traverse the Wilderness"
 				],
-				"additionalDefinitions": [
-					{
-						"dataSource": "keywords",
-						"name": "Woodland Creature",
-						"elementPropertyName": "keywords"
-					},
-					{
-						"dataSource": "keywords",
-						"name": "Mountain Dweller",
-						"elementPropertyName": "keywords"
-					},
-					{
-						"dataSource": "keywords",
-						"name": "Fearless",
-						"elementPropertyName": "keywords"
-					}
+				"specialRules": [
+					"Fearless"
 				]
 			},
 			{
@@ -551,6 +544,11 @@
 					"\"If you want him, come and claim him\"",
 					"The Cover of Night"
 				],
+				"specialRules": [
+					"Woodland Creature",
+					"Resistant to Magic",
+					"Fearless"
+				],
 				"requiredChildren": [
 					{
 						"name": "Frodo Baggins",
@@ -573,6 +571,11 @@
 					"\"You have my sword\"",
 					"Blessing of Galadriel",
 					"Shielded from Unfriendly Eyes"
+				],
+				"specialRules": [
+					"Uruk-haibane",
+					"Woodland Creature",
+					"Fearless"
 				],
 				"requiredChildren": [
 					{
@@ -681,6 +684,9 @@
 					"\"The horn of Helm Hammerhand shall sound in the deep; one last time\"",
 					"\"For Death and Glory\""
 				],
+				"specialRules": [
+					"Fearless"
+				],
 				"requiredChildren": [
 					{
 						"name": "Theoden, King of Rohan",
@@ -763,6 +769,9 @@
 					"Defend the Hornburg",
 					"A Desperate Defence",
 					"Frenzy of the King"
+				],
+				"specialRules": [
+					"Dominant (2)"
 				]
 			},
 			{
@@ -775,6 +784,9 @@
 					"\"Do you think the eyes of the white tower are blind?\"",
 					"\"Is there a captain here who still has the courage to do his lord's will?\"",
 					"Faramir's Charge"
+				],
+				"specialRules": [
+					"Fearless"
 				]
 			},
 			{
@@ -817,6 +829,9 @@
 					"\"This city was once the jewel of our kingdom\"",
 					"\"For Gondor!\""
 				],
+				"specialRules": [
+					"Mountain Dweller"
+				],
 				"requiredChildren": [
 					{
 						"name": "Boromir, Captain of the White Tower",
@@ -836,6 +851,9 @@
 					"\"Fight to the last Man\"",
 					"\"Return to your posts\"",
 					"\"Send these foul creatures into the abyss\""
+				],
+				"specialRules": [
+					"Hatred (Mordor)"
 				],
 				"requiredChildren": [
 					{
@@ -925,6 +943,9 @@
 					"\"This day we fight!\"",
 					"The Final Stand"
 				],
+				"specialRules": [
+					"Dominant (2)"
+				],
 				"requiredChildren": [
 					{
 						"name": "Aragorn, King Elessar",
@@ -937,6 +958,10 @@
 			{
 				"name": "Numenor",
 				"alignment": "good",
+				"specialRules": [
+					"Resistant to Magic",
+					"General Hunter"
+				],
 				"armyBonuses": [
 					"Blood of Numenor",
 					"The Resolve of Men",
@@ -948,6 +973,9 @@
 				"alignment": "good",
 				"additionalRules": [
 					"A Lindon Army must include Gil-Galad, High King of the Noldor, who is always the Army's General."
+				],
+				"specialRules": [
+					"Resistant to Magic"
 				],
 				"armyBonuses": [
 					"\"Tangado haid, leithio i philinn!\"",
@@ -1005,6 +1033,9 @@
 			{
 				"name": "Lothlorien",
 				"alignment": "good",
+				"specialRules": [
+					"Resistant to Magic"
+				],
 				"armyBonuses": [
 					"\"They say a great sorceress lives in these woods...\"",
 					"\"The Dwarf breathes so loud, we could have shot him in the dark\""
@@ -1015,6 +1046,9 @@
 				"alignment": "good",
 				"additionalRules": [
 					"A Fangorn Army must always contain Treebeard, who is always the Army's General."
+				],
+				"specialRules": [
+					"Mighty Blow"
 				],
 				"armyBonuses": [
 					"\"Don't be Hasty\"",
@@ -1164,6 +1198,9 @@
 					"Call of Morgul",
 					"Lead through fear"
 				],
+				"specialRules": [
+					"Blades of the Dead"
+				],
 				"requiredChildren": [
 					{
 						"name": "The Witch-King of Angmar C",
@@ -1225,6 +1262,9 @@
 					"The Hordes of Mordor",
 					"Temptation of Sauron"
 				],
+				"specialRules": [
+					"Fearless"
+				],
 				"requiredChildren": [
 					{
 						"name": "Mordor Troll Chieftain Leader",
@@ -1246,6 +1286,9 @@
 					"Serve the White Wizard",
 					"The Voice of Saruman",
 					"Spies of Saruman"
+				],
+				"specialRules": [
+					"Fearful"
 				]
 			},
 			{
@@ -1258,6 +1301,9 @@
 					"Relentless March",
 					"\"You do not know pain, you do not know fear\"",
 					"\"Kill the others\""
+				],
+				"specialRules": [
+					"General Hunter"
 				],
 				"requiredChildren": [
 					{
@@ -1280,6 +1326,10 @@
 					"\"Their pace has quickened\"",
 					"\"Get a fire going\"",
 					"Animosity"
+				],
+				"specialRules": [
+					"Woodland Creature",
+					"Dominant (2)"
 				],
 				"requiredChildren": [
 					{
@@ -1342,6 +1392,9 @@
 					"\"You do not know pain, you do not know fear\"",
 					"Isengard Unleashed",
 					"\"There will be no dawn for Men\""
+				],
+				"specialRules": [
+					"Hatred (Man)"
 				],
 				"requiredChildren": [
 					{
@@ -1425,6 +1478,9 @@
 					"The Scorpion's Sting",
 					"Monstrous Rampage"
 				],
+				"specialRules": [
+					"Harbinger of Evil (12\")"
+				],
 				"adjustLimits": [
 					{
 						"type": "bow",
@@ -1442,6 +1498,11 @@
 					"The Fleetmaster",
 					"The Last Stroke of Doom",
 					"Ballistae Assault"
+				],
+				"specialRules": [
+					"Sharpshooter",
+					"Fearless",
+					"Backstabbers"
 				],
 				"requiredChildren": [
 					{
@@ -1463,6 +1524,10 @@
 					"Yanad Durinul",
 					"Long March from the Iron Hills",
 					"\"I've always found Thorin the more reasonable of the two...\""
+				],
+				"specialRules": [
+					"Mountain Dweller",
+					"Master of Battle (5+)"
 				],
 				"requiredChildren": [
 					{
@@ -1542,7 +1607,8 @@
 					"Master Burglar"
 				],
 				"specialRules": [
-					"Mighty Hero"
+					"Mighty Hero",
+					"Fearless"
 				],
 				"requiredChildren": [
 					{
@@ -1573,6 +1639,9 @@
 					"March to the Lonely Mountain",
 					"\"We're making a long-term deposit\"",
 					"Family Ties"
+				],
+				"specialRules": [
+					"Dominant (2)"
 				],
 				"childMatchesRequired": [
 					{
@@ -1606,6 +1675,10 @@
 					"Relentless Hunters",
 					"The Pale Orc's Demands"
 				],
+				"specialRules": [
+					"Woodland Creature",
+					"Mountain Dweller"
+				],
 				"adjustLimits": [
 					{
 						"type": "bow",
@@ -1616,6 +1689,9 @@
 			{
 				"name": "Army of Gundabad",
 				"alignment": "evil",
+				"specialRules": [
+					"Master of Battle (5+)"
+				],
 				"armyBonuses": [
 					"Commander of Legions",
 					"\"Here ends your filthy bloodline\"",
@@ -1657,6 +1733,9 @@
 					"Thrain's Imprisonment",
 					"Wizard Hunters"
 				],
+				"specialRules": [
+					"Resistant to Magic"
+				],
 				"requiredChildren": [
 					{
 						"name": "Azog, the Defiler",
@@ -1675,6 +1754,9 @@
 				"armyBonuses": [
 					"Power of the Necromancer",
 					"\"His spirit has lost none of its potency\""
+				],
+				"specialRules": [
+					"Resistant to Magic"
 				]
 			},
 			{
@@ -1688,6 +1770,9 @@
 					"\"Ride for ruin and the world's ending\"",
 					"\"Death!\"",
 					"\"Forth Eorlingas!\""
+				],
+				"specialRules": [
+					"Dominant (2)"
 				],
 				"requiredChildren": [
 					{
@@ -1726,6 +1811,9 @@
 				"armyBonuses": [
 					"The Campfire",
 					"A Troll's Hoard"
+				],
+				"specialRules": [
+					"Resistant to Magic"
 				],
 				"requiredChildren": [
 					{
@@ -1775,6 +1863,9 @@
 					"Masters of Magic",
 					"\"Are you in need of assistance?\"",
 					"Last Stand of the Council"
+				],
+				"specialRules": [
+					"Dominant (3)"
 				]
 			},
 			{
@@ -1811,6 +1902,9 @@
 					"Bring down the Dragon",
 					"Girion's Last Stand",
 					"Defenders of Dale"
+				],
+				"specialRules": [
+					"Fearless"
 				],
 				"requiredChildren": [
 					{
@@ -1899,6 +1993,9 @@
 					"Dwarven Resilience",
 					"Clear the Nests",
 					"\"If you think I'm giving you a weapon Dwarf, you are sorely mistaken\""
+				],
+				"specialRules": [
+					"Knife Fighters"
 				],
 				"childMatchesRequired": [
 					{
@@ -2013,6 +2110,9 @@
 					"Power of the Elves",
 					"Earnur's Defiance"
 				],
+				"specialRules": [
+					"Resistant to Magic"
+				],
 				"requiredChildren": [
 					{
 						"name": "Earnur, Last King of Gondor",
@@ -2088,6 +2188,9 @@
 					"\"If that fell Kingdom should rise again, Rivendell, Lórien, the Shire, even Gondor itself shall fall.\"",
 					"Sense of Hopelessness",
 					"The Shadows of Angmar"
+				],
+				"specialRules": [
+					"Stalk Unseen"
 				]
 			},
 			{
@@ -2100,6 +2203,11 @@
 					"Ambush!",
 					"Masters of Terrain",
 					"A Fearsome Foe"
+				],
+				"specialRules": [
+					"Mountain Dweller",
+					"Woodland Creature",
+					"Fearless"
 				],
 				"requiredChildren": [
 					{
@@ -32564,7 +32672,7 @@
 			{
 				"name": "Mighty Hero",
 				"tag": "Active",
-				"definition": "A model with this special gains a free Might Point at the start of each turn (even if their store of Might is full). If this free Might Point has not been spent by teh end of the turn, it is lost."
+				"definition": "A model with this special gains a free Might Point at the start of each turn (even if their store of Might is full). If this free Might Point has not been spent by the end of the turn, it is lost."
 			},
 			{
 				"name": "The Young Sage",
@@ -33897,7 +34005,7 @@
 			},
 			{
 				"name": "\"Forth Eorlingas!\"",
-				"definition": "Friendly Cavalry Warrior models within 3\" of either Theoden or Eomer gain the Dominate (2) special rule."
+				"definition": "Friendly Cavalry Warrior models within 3\" of either Theoden or Eomer gain the Dominant (2) special rule."
 			},
 			{
 				"name": "The Campfire",
