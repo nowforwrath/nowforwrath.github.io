@@ -31480,6 +31480,11 @@
 				"definition": "Bane weapons cause D3 Wounds rather than 1, per successful Strike, on specific races – the race in question will be presented as Xbane, where X is the race in question. For example, a model with the Orcbane special rule will cause D3 Wounds per successful Strike against models with the Orc keyword."
 			},
 			{
+				"name": "Uruk-haibane",
+				"tag": "Active",
+				"definition": "Bane weapons cause D3 Wounds rather than 1, per successful Strike, on specific races – the race in question will be presented as Xbane, where X is the race in question. For example, a model with the Orcbane special rule will cause D3 Wounds per successful Strike against models with the Orc keyword."
+			},
+			{
 				"name": "Herald of Victory",
 				"tag": "Passive",
 				"definition": "All Easterling models treat Amdur as a banner. Should Amdûr kill the enemy Leader in combat, the range of this banner is increased to 6\"."
