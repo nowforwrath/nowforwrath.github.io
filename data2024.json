@@ -2789,7 +2789,6 @@
 					"General Hunter",
 					"Terror",
 					"Throw Stones (range 12\", Strength 8)",
-					"Throw Stones (X)",
 					"Lead by Example",
 					"Brutish Cunning"
 				],
@@ -3344,9 +3343,7 @@
 				"specialRules": [
 					"Expert Rider",
 					"Hatred (Angmar)",
-					"Hatred (X)",
-					"Master of Battle (5+)",
-					"Master of Battle (X)"
+					"Master of Battle (5+)"
 				],
 				"wargear": [
 					"Heavy armour",
@@ -3399,8 +3396,7 @@
 					"25mm"
 				],
 				"specialRules": [
-					"Hatred (Angmar)",
-					"Hatred (X)"
+					"Hatred (Angmar)"
 				],
 				"wargear": [
 					"Heavy armour",
@@ -3847,9 +3843,7 @@
 					"Unique"
 				],
 				"specialRules": [
-					"Hatred (X)",
 					"Hatred (Rohan)",
-					"Master of Battle (X+)",
 					"Master of Battle (4+)",
 					"Dunlending Commander"
 				],
@@ -3900,7 +3894,6 @@
 					"Unique"
 				],
 				"specialRules": [
-					"Hatred (X)",
 					"Hatred (Rohan)",
 					"Traitor of Rohan",
 					"Edoras Shall Fall"
@@ -3954,7 +3947,6 @@
 					"Heroic March"
 				],
 				"specialRules": [
-					"Hatred (X)",
 					"Hatred (Rohan)"
 				],
 				"wargear": [
@@ -4139,7 +4131,6 @@
 					"Heroic Strength"
 				],
 				"specialRules": [
-					"Hatred (X)",
 					"Hatred (Rohan)",
 					"Dunlending Heritage",
 					"Claim the Throne"
@@ -4193,7 +4184,6 @@
 				],
 				"specialRules": [
 					"General Hunter",
-					"Hatred (X)",
 					"Hatred (Rohan)",
 					"The Usurper King"
 				],
@@ -4349,7 +4339,6 @@
 				"specialRules": [
 					"Expert Rider",
 					"Horse Lord",
-					"Leader (X)",
 					"Leader (Rohan Royal Guard)",
 					"Forth, and Fear no Darkness",
 					"The will of men is easily corrupted"
@@ -4415,7 +4404,6 @@
 				"specialRules": [
 					"Expert Rider",
 					"Horse Lord",
-					"Leader (X)",
 					"Leader (Rohan Royal Guard)",
 					"Reckless Charge"
 				],
@@ -4534,7 +4522,6 @@
 				"specialRules": [
 					"Expert Rider",
 					"Horse Lord",
-					"Leader (X)",
 					"Leader (Rohan Royal Guard)",
 					"The Price of Grief"
 				],
@@ -4724,7 +4711,6 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
@@ -4889,7 +4875,6 @@
 				"specialRules": [
 					"Expert Rider",
 					"Horse Lord",
-					"Leader (X)",
 					"Leader (Rohan Royal Guard)",
 					"Sworn Protector (Theoden)"
 				],
@@ -4942,7 +4927,6 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Leader (X)",
 					"Leader (Rohan Royal Guard)",
 					"Sworn Protector (Theoden)",
 					"Doorward of Meduseld"
@@ -5276,7 +5260,6 @@
 					}
 				],
 				"specialRules": [
-					"Harbinger of Evil (X)",
 					"Harbinger of Evil (12\")",
 					"Terror",
 					"Will of Evil"
@@ -5437,7 +5420,6 @@
 					}
 				],
 				"specialRules": [
-					"Harbinger of Evil (X)",
 					"Harbinger of Evil (12\")",
 					"Terror",
 					"Will of Evil"
@@ -5607,7 +5589,6 @@
 					}
 				],
 				"specialRules": [
-					"Harbinger of Evil (X)",
 					"Harbinger of Evil (12\")",
 					"Terror",
 					"Will of Evil"
@@ -5708,7 +5689,6 @@
 					}
 				],
 				"specialRules": [
-					"Master of Battle (X+)",
 					"Master of Battle (2+)",
 					"The Age of Men is Over",
 					"The time of the Orc has come"
@@ -5841,7 +5821,6 @@
 					}
 				],
 				"specialRules": [
-					"Harbinger of Evil (X)",
 					"Harbinger of Evil (6\")",
 					"Terror",
 					"Sense of impending doom"
@@ -6458,7 +6437,6 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Ancient Enemies (X)",
 					"Ancient Enemies (Dwarf)",
 					"Ancient Enemies (Elf)"
 				],
@@ -6519,7 +6497,6 @@
 					}
 				],
 				"specialRules": [
-					"Harbinger of Evil (X)",
 					"Harbinger of Evil (12\")",
 					"Terror",
 					"Will of Evil"
@@ -6663,7 +6640,6 @@
 					}
 				],
 				"specialRules": [
-					"Harbinger of Evil (X)",
 					"Harbinger of Evil (12\")",
 					"Terror",
 					"Will of Evil"
@@ -6823,7 +6799,6 @@
 					}
 				],
 				"specialRules": [
-					"Harbinger of Evil (X)",
 					"Harbinger of Evil (12\")",
 					"Terror",
 					"Will of Evil"
@@ -7082,7 +7057,6 @@
 				"specialRules": [
 					"Dominant (4)",
 					"Terror",
-					"Throw Stones",
 					"Throw Stones (range 12\", Strength 8)"
 				],
 				"wargear": [
@@ -7199,8 +7173,7 @@
 				"wargear": [
 					"Armour",
 					"Hand weapon",
-					"War drum (Mordor Orc)",
-					"War Drum (X)"
+					"War drum (Mordor Orc)"
 				]
 			},
 			{
@@ -8114,7 +8087,6 @@
 					}
 				],
 				"specialRules": [
-					"Leader (X)",
 					"Leader (Citadel Guard)",
 					"Son of Gondor"
 				],
@@ -8350,7 +8322,6 @@
 					}
 				],
 				"specialRules": [
-					"Leader (X)",
 					"Leader (Citadel Guard",
 					"Resistant to Magic",
 					"Sharpshooter",
@@ -8994,8 +8965,7 @@
 				"wargear": [
 					"Armour",
 					"Hand weapon",
-					"War drum (Uruk-hai)",
-					"War Drum (X)"
+					"War drum (Uruk-hai)"
 				],
 				"countAsProperty": "heroes"
 			},
@@ -9202,7 +9172,6 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
@@ -9293,7 +9262,6 @@
 					}
 				],
 				"specialRules": [
-					"Hatred (X)",
 					"Hatred (Dragon)",
 					"Windlance Trained",
 					"Lord of Dale"
@@ -9359,7 +9327,6 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Hatred (X)",
 					"Hatred (Dragon)"
 				],
 				"wargear": [
@@ -9459,7 +9426,6 @@
 				"specialRules": [
 					"Dominant (4)",
 					"Terror",
-					"Throw Stones",
 					"Throw Stones (range 12\", Strength 8)",
 					"Fearless"
 				],
@@ -9810,7 +9776,6 @@
 				"options": [],
 				"specialRules": [
 					"Dominant (10)",
-					"Harbinger of Evil (X)",
 					"Harbinger of Evil (18\")",
 					"Resistant to Magic",
 					"Terror",
@@ -10249,7 +10214,6 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
@@ -10346,7 +10310,6 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
@@ -10438,7 +10401,6 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"Let him go or I'll have you, Longshanks!"
 				],
@@ -10533,7 +10495,6 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"Let him go or I'll have you, Longshanks!"
 				],
@@ -10623,7 +10584,6 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"For the Shire!"
 				],
@@ -10698,7 +10658,6 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"For the Shire!"
 				],
@@ -11040,7 +10999,6 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Leader (X)",
 					"Leader (Citadel Guard)",
 					"Leader (Guard of the Fountain Court)",
 					"Broken Mind"
@@ -11115,7 +11073,6 @@
 					}
 				],
 				"specialRules": [
-					"Leader (X)",
 					"Leader (Citadel Guard)",
 					"Leader (Guard of the Fountain Court",
 					"Shieldwall"
@@ -11192,7 +11149,6 @@
 				"specialRules": [
 					"Expert Rider",
 					"Horse Lord",
-					"Leader (X)",
 					"Leader (Rohan Royal Guard)"
 				],
 				"wargear": [
@@ -11464,7 +11420,6 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Leader (X)",
 					"Leader (Citadel Guard)",
 					"Sworn Protector (Denethor)",
 					"Defend the White City!",
@@ -11625,7 +11580,6 @@
 					}
 				],
 				"specialRules": [
-					"Ancient Enemies (X)",
 					"Ancient Enemies (Dwarf)(Elf)",
 					"Burly",
 					"The Bringer of Death"
@@ -11768,7 +11722,6 @@
 				"options": [],
 				"specialRules": [
 					"Expert Shot",
-					"Poisoned Attacks (X)",
 					"Poisoned Attacks (Orc Bow)",
 					"Lethal Aim"
 				],
@@ -13461,7 +13414,6 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Ancient Enemies (X)",
 					"Ancient Enemies (Dwarf)",
 					"Ancient Enemies (Elf)"
 				],
@@ -13759,7 +13711,6 @@
 				],
 				"specialRules": [
 					"Fearless",
-					"Hatred (X)",
 					"Hatred (Gundabad)",
 					"Du Bekar",
 					"Ancestral Fury"
@@ -14362,7 +14313,6 @@
 				"options": [],
 				"specialRules": [
 					"Sworn Protector (Thorin)",
-					"Throw Stones",
 					"Throw Stones (range 8\", Strength 2)",
 					"Embedded Axe"
 				],
@@ -14415,7 +14365,6 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Throw Stones",
 					"Throw Stones (range 8\", Strength 2)",
 					"Embedded Axe"
 				],
@@ -14814,7 +14763,6 @@
 					}
 				],
 				"specialRules": [
-					"Hatred (X)",
 					"Hatred (Rohan)"
 				],
 				"wargear": [
@@ -14881,7 +14829,6 @@
 					"Burly",
 					"Expert Rider",
 					"Horse Lord",
-					"Leader (X)",
 					"Leader (Rohan Royal Guard)",
 					"The Hammerhand",
 					"Into the Fray"
@@ -14947,7 +14894,6 @@
 					"Burly",
 					"Dominant (4)",
 					"Fearless",
-					"Hatred (X)",
 					"Hatred (Dunland)",
 					"Mighty Blow",
 					"The Hammerhand",
@@ -15458,8 +15404,7 @@
 					"Fearless",
 					"Large Target",
 					"Terror",
-					"Throw Stones",
-					"Throw Stones (18\" Range, Strength 10)",
+					"Throw Stones (18\" range, Strength 10)",
 					"Woodland Creature",
 					"Bludgeon"
 				],
@@ -15519,8 +15464,7 @@
 					"Fearless",
 					"Large Target",
 					"Terror",
-					"Throw Stones",
-					"Throw Stones (18\" Range, Strength 10)",
+					"Throw Stones (18\" range, Strength 10)",
 					"Woodland Creature",
 					"Bludgeon",
 					"Deep-rooted Hatred"
@@ -15577,8 +15521,7 @@
 					"Fearless",
 					"Large Target",
 					"Terror",
-					"Throw Stones",
-					"Throw Stones (18\" Range, Strength 10)",
+					"Throw Stones (18\" range, Strength 10)",
 					"Woodland Creature",
 					"Bludgeon",
 					"Naturally Unhasty"
@@ -16018,8 +15961,7 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones",
-					"Throw Stones (range 8, Strength 1)",
+					"Throw Stones (range 8\", Strength 1)",
 					"It has not yet awoken"
 				],
 				"wargear": [
@@ -16102,8 +16044,7 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones",
-					"Throw Stones (range 8, Strength 1)",
+					"Throw Stones (range 8\", Strength 1)",
 					"Slip Away"
 				],
 				"wargear": [
@@ -16186,8 +16127,7 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones",
-					"Throw Stones (range 8, Strength 1)",
+					"Throw Stones (range 8\", Strength 1)",
 					"It has not yet awoken"
 				],
 				"wargear": [
@@ -16399,7 +16339,6 @@
 				],
 				"specialRules": [
 					"Expert Rider",
-					"Leader (X)",
 					"Leader (Palace Guard)",
 					"Woodland Creature",
 					"Bladelord",
@@ -16451,12 +16390,10 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Ancient Enemies (X)",
 					"Ancient Enemies (Dwarf)",
 					"Dominant (20)",
 					"Fearless",
 					"Fly",
-					"Harbinger of Evil (X)",
 					"Harbinger of Evil (18\")",
 					"Large Targer",
 					"Monstrous Charge",
@@ -16589,7 +16526,6 @@
 					}
 				],
 				"specialRules": [
-					"Leader (X)",
 					"Leader (Palace Guard)",
 					"Sharpshooter",
 					"Woodland Creature",
@@ -16731,7 +16667,6 @@
 				],
 				"specialRules": [
 					"Bodyguard",
-					"Leader (X)",
 					"Leader (Palace Guard)",
 					"Woodland Creature",
 					"The King's Guard"
@@ -17045,7 +16980,6 @@
 				"options": [],
 				"specialRules": [
 					"Fearless",
-					"Hatred (X)",
 					"Hatred (Rohan)",
 					"Bloodoath",
 					"We Will Die For Saruman"
@@ -17103,10 +17037,8 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Dominant (X)",
 					"Dominant (10)",
 					"Fearless",
-					"Harbinger of Evil (X)",
 					"Harbinger of Evil (18\")",
 					"Large Target",
 					"Resistant to Magic",
@@ -17242,7 +17174,6 @@
 				"options": [],
 				"specialRules": [
 					"Cave Dweller",
-					"Hatred (X)",
 					"Hatred (Dwarf)"
 				],
 				"wargear": [
@@ -17402,9 +17333,7 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Dominant (X)",
 					"Dominant (6)",
-					"Harbinger of Evil (X)",
 					"Harbinger of Evil (12\")",
 					"Large Target",
 					"Resistant to Magic",
@@ -17669,7 +17598,6 @@
 					}
 				],
 				"specialRules": [
-					"Master of Battle (X+)",
 					"Master of Battle (5+)",
 					"Shieldwall"
 				],
@@ -17907,10 +17835,8 @@
 				"heroicActions": [],
 				"options": [],
 				"specialRules": [
-					"Ancient Enemies (X)",
 					"Ancient Enemies (Dwarf)",
 					"Ancient Enemies (Elf)",
-					"Dominant (X)",
 					"Dominant (5)",
 					"Large Target",
 					"Terror"
@@ -17984,7 +17910,6 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Dominant (X)",
 					"Dominant (4)",
 					"Fly",
 					"Large Target",
@@ -18041,7 +17966,6 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Ancient Enemies (X)",
 					"Ancient Enemies (Orc)"
 				],
 				"wargear": [
@@ -18105,7 +18029,6 @@
 					}
 				],
 				"specialRules": [
-					"Hatred (X)",
 					"Hatred (Gundabad)",
 					"Durin's Heir"
 				],
@@ -18334,7 +18257,6 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Ancient Enemies (X)",
 					"Ancient Enemies (Orc)"
 				],
 				"wargear": [
@@ -18578,7 +18500,6 @@
 				"options": [],
 				"specialRules": [
 					"Burly",
-					"Dominant (X)",
 					"Dominant (2)",
 					"Fearless",
 					"Resistant to Magic",
@@ -18638,7 +18559,6 @@
 				"options": [],
 				"specialRules": [
 					"Burly",
-					"Dominant (X)",
 					"Dominant (5)",
 					"Fearless",
 					"Monstrous Charge",
@@ -18701,8 +18621,7 @@
 					}
 				],
 				"specialRules": [
-					"Poisoned Attacks (X)",
-					"Poisoned Attacks (bow)"
+					"Poisoned Attacks (Bow)"
 				],
 				"wargear": [
 					"Armour",
@@ -18926,9 +18845,7 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Dominant (X)",
 					"Dominant (5)",
-					"Harbinger of Evil (X)",
 					"Harbinger of Evil (18\")",
 					"Spectral Walk",
 					"Terror",
@@ -19608,7 +19525,6 @@
 				"options": [],
 				"specialRules": [
 					"Dominant (10)",
-					"Dominant (X)",
 					"Large Target",
 					"Terror",
 					"Trample (Royal War Mumak)",
@@ -19696,7 +19612,6 @@
 				],
 				"specialRules": [
 					"Dominant (10)",
-					"Dominant (X)",
 					"Large Target",
 					"Terror",
 					"Trample (Mumak)",
@@ -19790,7 +19705,6 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"Get out of my fields!"
 				],
@@ -19861,7 +19775,6 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"Furious Tirade",
 					"A Stern Scolding"
@@ -19910,7 +19823,6 @@
 				"specialRules": [
 					"Fearful",
 					"Resistant to Magic",
-					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"If I were to marry anyone, it would've been her",
 					"Sweet Maiden of the Golden Ale"
@@ -19958,7 +19870,6 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"Leave me flowers alone!"
 				],
@@ -20057,11 +19968,9 @@
 					}
 				],
 				"specialRules": [
-					"Dominant (X)",
 					"Dominant (5)",
 					"Large Target",
 					"Terror",
-					"Throw Stones",
 					"Throw Stones (range 12\", Strength 8)",
 					"Mince 'em Fine",
 					"Keep 'em for Later"
@@ -20112,11 +20021,9 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Dominant (X)",
 					"Dominant (3)",
 					"Large Target",
 					"Terror",
-					"Throw Stones",
 					"Throw Stones (range 12\", Strength 8)",
 					"Roast 'em Slowly",
 					"Keep 'em for Later"
@@ -20166,11 +20073,9 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Dominant (X)",
 					"Dominant (3)",
-					"large Target",
+					"Large Target",
 					"Terror",
-					"Throw Stones",
 					"Throw Stones (range 12\", Strength 8)",
 					"Keep 'em for Later",
 					"Lingering Cold",
@@ -20459,7 +20364,6 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"Furious Tirade",
 					"A Stern Scolding"
@@ -20524,8 +20428,7 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones (range 8\", Strength 1)",
-					"Throw Stones (X)"
+					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
 					"Hand weapon",
@@ -20619,7 +20522,6 @@
 					}
 				],
 				"specialRules": [
-					"Hatred (X)",
 					"Hatred (Angmar)"
 				],
 				"wargear": [
@@ -20660,7 +20562,6 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Hatred (X)",
 					"Hatred (Angmar)"
 				],
 				"wargear": [
@@ -20718,7 +20619,6 @@
 					}
 				],
 				"specialRules": [
-					"Hatred (X)",
 					"Hatred (Angmar)"
 				],
 				"wargear": [
@@ -20787,7 +20687,6 @@
 					}
 				],
 				"specialRules": [
-					"Hatred (X)",
 					"Hatred (Rohan)"
 				],
 				"wargear": [
@@ -20860,7 +20759,6 @@
 					}
 				],
 				"specialRules": [
-					"Hatred (X)",
 					"Hatred (Rohan)",
 					"Spear Mastery"
 				],
@@ -20898,7 +20796,6 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Dominant (X)",
 					"Dominant (4)",
 					"Chariot Charge",
 					"Dwarven Crew"
@@ -21163,7 +21060,6 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)",
 					"If I were to marry anyone, it would've been her"
 				],
@@ -21215,9 +21111,7 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Dominant (X)",
 					"Dominant (6)",
-					"Harbinger of Evil (X)",
 					"Harbinger of Evil (12\")",
 					"Large Target",
 					"Resistant to Magic",
@@ -21784,7 +21678,6 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
@@ -21858,7 +21751,6 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
@@ -21906,8 +21798,7 @@
 				"wargear": [
 					"Armour",
 					"Hand weapon",
-					"War drum (Uruk-hai)",
-					"War Drum (X)"
+					"War drum (Uruk-hai)"
 				],
 				"countAsProperty": "heroes"
 			},
@@ -22017,8 +21908,7 @@
 				"wargear": [
 					"Armour",
 					"Hand weapon",
-					"War drum (Mordor Orc)",
-					"War Drum (X)"
+					"War drum (Mordor Orc)"
 				],
 				"countAsProperty": "heroes"
 			},
@@ -22048,7 +21938,6 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
@@ -22083,7 +21972,6 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
@@ -22127,7 +22015,6 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
@@ -22205,7 +22092,6 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones",
 					"Throw Stones (range 8, Strength 1)",
 					"It has not yet awoken"
 				],
@@ -23382,15 +23268,12 @@
 				"options": [
 					{
 						"name": "War drum (Mordor)",
-						"usesDefinition": "War Drum (X)",
 						"points": 25
 					}
 				],
 				"specialRules": [
-					"Dominant (X)",
 					"Dominant (3)",
 					"Terror",
-					"Throw Stones",
 					"Throw Stones (range 12\", Strength 8)"
 				],
 				"wargear": [
@@ -23429,7 +23312,6 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Dominant (X)",
 					"Dominant (3)",
 					"Mountain Dweller",
 					"Terror",
@@ -24231,10 +24113,8 @@
 					}
 				],
 				"specialRules": [
-					"Dominant (X)",
 					"Dominant (3)",
 					"Terror",
-					"Throw Stones",
 					"Throw Stones (range 12\", Strength 8)"
 				],
 				"wargear": [
@@ -24665,7 +24545,6 @@
 					}
 				],
 				"specialRules": [
-					"Hatred (X)",
 					"Hatred (Mordor)",
 					"Loyal to the Captain"
 				],
@@ -24734,7 +24613,6 @@
 					}
 				],
 				"specialRules": [
-					"Hatred (X)",
 					"Hatred (Dragon)"
 				],
 				"wargear": [
@@ -25036,7 +24914,6 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Dominant (X)",
 					"Dominant (5)",
 					"Fearless",
 					"Large Target",
@@ -25100,10 +24977,8 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Ancient Enemies (X)",
 					"Ancient Enemies (Dwarf)",
 					"Ancient Enemies (Elf)",
-					"Dominant (X)",
 					"Dominant (3)",
 					"Terror",
 					"Relentless Advance"
@@ -25265,10 +25140,8 @@
 				"options": [],
 				"specialRules": [
 					"Dominant (3)",
-					"Dominant (X)",
 					"Terror",
-					"Throw Stones (X)",
-					"Throw Stones (Range 12\" Strength 8)",
+					"Throw Stones (range 12\" Strength 8)",
 					"Brutish Cunning"
 				],
 				"wargear": [
@@ -25692,7 +25565,6 @@
 					}
 				],
 				"specialRules": [
-					"Ancient Enemies (X)",
 					"Ancient Enemies (Dwarf)",
 					"Ancient Enemies (Elf)"
 				],
@@ -25852,7 +25724,6 @@
 					}
 				],
 				"specialRules": [
-					"Ancient Enemies (X)",
 					"Ancient Enemies (Dwarf)(Elf)",
 					"Oblivious to Pain"
 				],
@@ -25903,10 +25774,8 @@
 					}
 				],
 				"specialRules": [
-					"Ancient Enemies (X)",
 					"Ancient Enemies (Dwarf)",
 					"Ancient Enemies (Elf)",
-					"Dominant (X)",
 					"Dominant (4)",
 					"Large Target",
 					"Terror"
@@ -25973,7 +25842,6 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Hatred (X)",
 					"Hatred (Goblin)(Orc)(Uruk-Hai)",
 					"Stalk Unseen",
 					"Woodland Creature"
@@ -26191,7 +26059,6 @@
 					}
 				],
 				"specialRules": [
-					"Hatred (X)",
 					"Hatred (Rohan)"
 				],
 				"wargear": [
@@ -26421,13 +26288,11 @@
 					}
 				],
 				"specialRules": [
-					"Dominant (X)",
 					"Dominant (3)",
 					"Fearless",
 					"Large Target",
 					"Terror",
-					"Throw Stones",
-					"Throw Stones (18\" Range, Strength 10)",
+					"Throw Stones (18\" range, Strength 10)",
 					"Woodland Creature",
 					"Bludgeon"
 				],
@@ -26932,7 +26797,6 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Poisoned Attacks (X)",
 					"Poisoned Attacks (Fangs)",
 					"Swift Movement",
 					"Terror",
@@ -27064,7 +26928,6 @@
 				],
 				"specialRules": [
 					"Cave Dweller",
-					"Hatred (X)",
 					"Hatred (Dwarf)"
 				],
 				"wargear": [
@@ -27239,7 +27102,6 @@
 				"options": [],
 				"specialRules": [
 					"Cave Dweller",
-					"Hatred (X)",
 					"Hatred (Dwarf)",
 					"Run and Drum",
 					"Doom! Doom!",
@@ -27510,7 +27372,6 @@
 					"Claws and beak (hand weapon)"
 				],
 				"specialRules": [
-					"Dominant (X)",
 					"Dominant (3)",
 					"Fly",
 					"Large Target",
@@ -27582,7 +27443,6 @@
 					"Claws and beak (hand weapon)"
 				],
 				"specialRules": [
-					"Dominant (X)",
 					"Dominant (2)",
 					"Fly",
 					"Large Target",
@@ -27636,7 +27496,6 @@
 					}
 				],
 				"specialRules": [
-					"Ancient Enemies (X)",
 					"Ancient Enemies (Orc)"
 				],
 				"wargear": [
@@ -27799,8 +27658,7 @@
 					}
 				],
 				"specialRules": [
-					"Poisoned Attacks (X)",
-					"Poisoned Attacks (bow)"
+					"Poisoned Attacks (Bow)"
 				],
 				"wargear": [
 					"Armour",
@@ -27999,7 +27857,6 @@
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
@@ -28009,7 +27866,11 @@
 		],
 		"gear": [
 			{
-				"name": "War Drum (X)",
+				"name": "War Drum (Mordor Orc)",
+				"definition": "A model with a war drum may use it during the Declare Heroic Actions step of each Move Phase to declare a Heroic March for free, without spending a Might Point, even if they are not a Hero. This free Heroic March has the following exceptions:\n                • A model with a war drum that declares a Heroic March must always shout At the Double.\n                • The range of this At the Double is 12\" rather than 6\". Additionally, friendly models must finish their Activation within 12\" rather than 6\".\n                • The Heroic March declared when a model uses a war drum will only affect friendly models with the same keywords as the ones shown in brackets after the war drum. So if a model has a war drum (Mordor) then it will only affect models with the Mordor keyword.\n                As a war drum allows a model to declare a free Heroic March, models cannot be affected by both a war drum and a normal Heroic March in the same turn."
+			},
+			{
+				"name": "War Drum (Uruk-hai)",
 				"definition": "A model with a war drum may use it during the Declare Heroic Actions step of each Move Phase to declare a Heroic March for free, without spending a Might Point, even if they are not a Hero. This free Heroic March has the following exceptions:\n                • A model with a war drum that declares a Heroic March must always shout At the Double.\n                • The range of this At the Double is 12\" rather than 6\". Additionally, friendly models must finish their Activation within 12\" rather than 6\".\n                • The Heroic March declared when a model uses a war drum will only affect friendly models with the same keywords as the ones shown in brackets after the war drum. So if a model has a war drum (Mordor) then it will only affect models with the Mordor keyword.\n                As a war drum allows a model to declare a free Heroic March, models cannot be affected by both a war drum and a normal Heroic March in the same turn."
 			},
 			{
@@ -28347,7 +28208,6 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
@@ -28485,7 +28345,6 @@
 					"Cavalry"
 				],
 				"specialRules": [
-					"Dominant (X)",
 					"Dominant (3)",
 					"Fly",
 					"Large Target",
@@ -28527,7 +28386,6 @@
 					"Cavalry"
 				],
 				"specialRules": [
-					"Dominant (X)",
 					"Dominant (3)",
 					"Fly",
 					"Large Target",
@@ -28641,7 +28499,6 @@
 					"120mm oval"
 				],
 				"specialRules": [
-					"Dominant (X)",
 					"Dominant (3)",
 					"Woodland Creature",
 					"Chariot Charge"
@@ -28691,7 +28548,6 @@
 					"Claws and beak (hand weapon)"
 				],
 				"specialRules": [
-					"Dominant (X)",
 					"Dominant (3)",
 					"Fly",
 					"Large Target",
@@ -29743,7 +29599,6 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones",
 					"Throw Stones (range 8\", Strength 1)"
 				],
 				"wargear": [
@@ -29926,7 +29781,6 @@
 				],
 				"options": [],
 				"specialRules": [
-					"Dominant (X)",
 					"Dominant (5)",
 					"Fearless",
 					"Large Target",
@@ -30349,11 +30203,6 @@
 				"definition": "If Theoden or Eowyn are in the same Army as Eomer, and either (or both) are removed as a casualty, then for the remainder of-the game Eomer must re-roll all failed To Wound rolls when making Strikes. Additionally, for the remainder of the game, when Eomer Moves he must Charge an enemy model if possible."
 			},
 			{
-				"name": "Sworn Protector (Theoden)",
-				"tag": "Active",
-				"definition": "Whilst Theoden is alive and on the battlefield, this model passes all Courage tests."
-			},
-			{
 				"name": "Sworn Protector (Durin)",
 				"tag": "Active",
 				"definition": "Whilst Durin is alive and on the battlefield, this model passes all Courage tests."
@@ -30369,7 +30218,37 @@
 				"definition": "Whilst Thorin Oakenshield is alive and on the battlefield, this model passes all Courage tests."
 			},
 			{
-				"name": "Sworn Protector (X)",
+				"name": "Sworn Protector (Hera)",
+				"tag": "Passive",
+				"definition": "Models with this special rule will have a specific model listed in brackets as part of the special rule. Whilst the named model is alive and on the battleflelcl, this model automatically passes all Courage Tests It Is required to make."
+			},
+			{
+				"name": "Sworn Protector (Theoden)",
+				"tag": "Passive",
+				"definition": "Models with this special rule will have a specific model listed in brackets as part of the special rule. Whilst the named model is alive and on the battleflelcl, this model automatically passes all Courage Tests It Is required to make."
+			},
+			{
+				"name": "Sworn Protector (Denethor)",
+				"tag": "Passive",
+				"definition": "Models with this special rule will have a specific model listed in brackets as part of the special rule. Whilst the named model is alive and on the battleflelcl, this model automatically passes all Courage Tests It Is required to make."
+			},
+			{
+				"name": "Sworn Protector (Thorin)",
+				"tag": "Passive",
+				"definition": "Models with this special rule will have a specific model listed in brackets as part of the special rule. Whilst the named model is alive and on the battleflelcl, this model automatically passes all Courage Tests It Is required to make."
+			},
+			{
+				"name": "Sworn Protector (Bain)",
+				"tag": "Passive",
+				"definition": "Models with this special rule will have a specific model listed in brackets as part of the special rule. Whilst the named model is alive and on the battleflelcl, this model automatically passes all Courage Tests It Is required to make."
+			},
+			{
+				"name": "Sworn Protector (Sigrid)",
+				"tag": "Passive",
+				"definition": "Models with this special rule will have a specific model listed in brackets as part of the special rule. Whilst the named model is alive and on the battleflelcl, this model automatically passes all Courage Tests It Is required to make."
+			},
+			{
+				"name": "Sworn Protector (Tilda)",
 				"tag": "Passive",
 				"definition": "Models with this special rule will have a specific model listed in brackets as part of the special rule. Whilst the named model is alive and on the battleflelcl, this model automatically passes all Courage Tests It Is required to make."
 			},
@@ -30464,7 +30343,57 @@
 				"definition": "Friendly Mordor Orcs within 3\" of Gothmog gain the Hatred (Man) special rule."
 			},
 			{
-				"name": "Hatred (X)",
+				"name": "Hatred (Rohan)",
+				"tag": "Active",
+				"definition": "A model with this special rule gains a bonus of +1 To Wound when making Strikes against a model with the same keyword as the one shown in brackets. So, a model with the Hatred (Man) special rule would gain a bonus of +1 To Wound when making Strikes against Man models."
+			},
+			{
+				"name": "Hatred (Gundabad)",
+				"tag": "Active",
+				"definition": "A model with this special rule gains a bonus of +1 To Wound when making Strikes against a model with the same keyword as the one shown in brackets. So, a model with the Hatred (Man) special rule would gain a bonus of +1 To Wound when making Strikes against Man models."
+			},
+			{
+				"name": "Hatred (Mordor)",
+				"tag": "Active",
+				"definition": "A model with this special rule gains a bonus of +1 To Wound when making Strikes against a model with the same keyword as the one shown in brackets. So, a model with the Hatred (Man) special rule would gain a bonus of +1 To Wound when making Strikes against Man models."
+			},
+			{
+				"name": "Hatred (Gundabad)",
+				"tag": "Active",
+				"definition": "A model with this special rule gains a bonus of +1 To Wound when making Strikes against a model with the same keyword as the one shown in brackets. So, a model with the Hatred (Man) special rule would gain a bonus of +1 To Wound when making Strikes against Man models."
+			},
+			{
+				"name": "Hatred (Angmar)",
+				"tag": "Active",
+				"definition": "A model with this special rule gains a bonus of +1 To Wound when making Strikes against a model with the same keyword as the one shown in brackets. So, a model with the Hatred (Man) special rule would gain a bonus of +1 To Wound when making Strikes against Man models."
+			},
+			{
+				"name": "Hatred (Arnor)",
+				"tag": "Active",
+				"definition": "A model with this special rule gains a bonus of +1 To Wound when making Strikes against a model with the same keyword as the one shown in brackets. So, a model with the Hatred (Man) special rule would gain a bonus of +1 To Wound when making Strikes against Man models."
+			},
+			{
+				"name": "Hatred (Dragon)",
+				"tag": "Active",
+				"definition": "A model with this special rule gains a bonus of +1 To Wound when making Strikes against a model with the same keyword as the one shown in brackets. So, a model with the Hatred (Man) special rule would gain a bonus of +1 To Wound when making Strikes against Man models."
+			},
+			{
+				"name": "Hatred (Gundabad)",
+				"tag": "Active",
+				"definition": "A model with this special rule gains a bonus of +1 To Wound when making Strikes against a model with the same keyword as the one shown in brackets. So, a model with the Hatred (Man) special rule would gain a bonus of +1 To Wound when making Strikes against Man models."
+			},
+			{
+				"name": "Hatred (Dunland)",
+				"tag": "Active",
+				"definition": "A model with this special rule gains a bonus of +1 To Wound when making Strikes against a model with the same keyword as the one shown in brackets. So, a model with the Hatred (Man) special rule would gain a bonus of +1 To Wound when making Strikes against Man models."
+			},
+			{
+				"name": "Hatred (Dwarf)",
+				"tag": "Active",
+				"definition": "A model with this special rule gains a bonus of +1 To Wound when making Strikes against a model with the same keyword as the one shown in brackets. So, a model with the Hatred (Man) special rule would gain a bonus of +1 To Wound when making Strikes against Man models."
+			},
+			{
+				"name": "Hatred (Goblin)(Orc)(Uruk-Hai)",
 				"tag": "Active",
 				"definition": "A model with this special rule gains a bonus of +1 To Wound when making Strikes against a model with the same keyword as the one shown in brackets. So, a model with the Hatred (Man) special rule would gain a bonus of +1 To Wound when making Strikes against Man models."
 			},
@@ -30528,7 +30457,17 @@
 				"definition": "When a Fell Beast becomes a Separated Mount, it will automatically fail the Courage Test and will flee."
 			},
 			{
-				"name": "Harbinger of Evil (X)",
+				"name": "Harbinger of Evil (6\")",
+				"tag": "Passive",
+				"definition": "An enemy model within the range shown in brackets in this model's profile suffers a -1 penalty to any Courage Tests it is required to make. This is not cumulative with other special rules that also provide a similar effect. A model with this special rule is unaffected by the Harbinger of Evil special rule of enemy models."
+			},
+			{
+				"name": "Harbinger of Evil (12\")",
+				"tag": "Passive",
+				"definition": "An enemy model within the range shown in brackets in this model's profile suffers a -1 penalty to any Courage Tests it is required to make. This is not cumulative with other special rules that also provide a similar effect. A model with this special rule is unaffected by the Harbinger of Evil special rule of enemy models."
+			},
+			{
+				"name": "Harbinger of Evil (18\")",
 				"tag": "Passive",
 				"definition": "An enemy model within the range shown in brackets in this model's profile suffers a -1 penalty to any Courage Tests it is required to make. This is not cumulative with other special rules that also provide a similar effect. A model with this special rule is unaffected by the Harbinger of Evil special rule of enemy models."
 			},
@@ -30598,10 +30537,6 @@
 				"definition": "Shelob may never be included in another model's warband. Additionally, Shelob can never benefit from the Heroic Actions of other models."
 			},
 			{
-				"name": "War Drum (X)",
-				"definition": "A model with a war drum may use it during the Declare Heroic Actions step of each Move Phase to declare a Heroic March for free, without spending a Might Point, even if they are not a Hero. This free Heroic March has the following exceptions:\n                • A model with a war drum that declares a Heroic March must always shout At the Double.\n                • The range of this At the Double is 12\" rather than 6\". Additionally, friendly models must finish their Activation within 12\" rather than 6\".\n                • The Heroic March declared when a model uses a war drum will only affect friendly models with the same keywords as the ones shown in brackets after the war drum. So if a model has a war drum (Mordor) then it will only affect models with the Mordor keyword.\n                As a war drum allows a model to declare a free Heroic March, models cannot be affected by both a war drum and a normal Heroic March in the same turn."
-			},
-			{
 				"name": "Stalk Unseen",
 				"tag": "Passive",
 				"definition": "An Infantry model with this special rule that is partially concealed from view by a piece of terrain cannot be seen at distances of more than 6\". This means that enemy models cannot target this model with Shooting Attacks, Magical Powers, special rules, or anything else that requires Line of Sight unless they have a completely clear view of this model."
@@ -30640,7 +30575,17 @@
 				"definition": "If this model kills an enemy Hero model in a Fight,\n                they immediately regain a single point of Might spent\n                earlier in the battle."
 			},
 			{
-				"name": "Master of Battle (X+)",
+				"name": "Master of Battle (2+)",
+				"tag": "Active",
+				"definition": "Whenever an enemy Hero declares a Heroic Action within 6\" of this model, this model may roll a D6. If the result on the dice equals or beats the number shown in brackets, then this model may Immediately declare a Heroic Action of the same type without spending a Might Point. This may still be done if this model has no Might Points remaining or would not normally be able to declare that Heroic Action. If the roll is failed, this model may still declare a Heroic Action if they wish (though not one they cannot usually declare) for the usual cost of a Might Point."
+			},
+			{
+				"name": "Master of Battle (4+)",
+				"tag": "Active",
+				"definition": "Whenever an enemy Hero declares a Heroic Action within 6\" of this model, this model may roll a D6. If the result on the dice equals or beats the number shown in brackets, then this model may Immediately declare a Heroic Action of the same type without spending a Might Point. This may still be done if this model has no Might Points remaining or would not normally be able to declare that Heroic Action. If the roll is failed, this model may still declare a Heroic Action if they wish (though not one they cannot usually declare) for the usual cost of a Might Point."
+			},
+			{
+				"name": "Master of Battle (5+)",
 				"tag": "Active",
 				"definition": "Whenever an enemy Hero declares a Heroic Action within 6\" of this model, this model may roll a D6. If the result on the dice equals or beats the number shown in brackets, then this model may Immediately declare a Heroic Action of the same type without spending a Might Point. This may still be done if this model has no Might Points remaining or would not normally be able to declare that Heroic Action. If the roll is failed, this model may still declare a Heroic Action if they wish (though not one they cannot usually declare) for the usual cost of a Might Point."
 			},
@@ -31011,7 +30956,32 @@
 				"definition": "A model with this special rule applies a +1 modifier to any Jump, Leap and Climb teststhey take. Additionally, a model with this special rule suffers no penalties to how far they can see when fighting in the dark."
 			},
 			{
-				"name": "Dominant (X)",
+				"name": "Dominant (2)",
+				"tag": "Passive",
+				"definition": "This model counts as the number of models as shown in brackers when working out how many models are in range of an objective, in a specific are of the board, or when working out how many models have escaped the battlefield. So, a model with Dominant (3) would count as three models in range of an objective, or in a specific are of the board, or three models when working out how many models have excaped the battlefield. If a model would gain this special rule whilst in range of another model or specific area of the board, and then moves off the board, they will not gain the benefit of this special rule once off the board.\n                If a model has two sources of the Dominant (X) special rule, then they use the highest value."
+			},
+			{
+				"name": "Dominant (3)",
+				"tag": "Passive",
+				"definition": "This model counts as the number of models as shown in brackers when working out how many models are in range of an objective, in a specific are of the board, or when working out how many models have escaped the battlefield. So, a model with Dominant (3) would count as three models in range of an objective, or in a specific are of the board, or three models when working out how many models have excaped the battlefield. If a model would gain this special rule whilst in range of another model or specific area of the board, and then moves off the board, they will not gain the benefit of this special rule once off the board.\n                If a model has two sources of the Dominant (X) special rule, then they use the highest value."
+			},
+			{
+				"name": "Dominant (4)",
+				"tag": "Passive",
+				"definition": "This model counts as the number of models as shown in brackers when working out how many models are in range of an objective, in a specific are of the board, or when working out how many models have escaped the battlefield. So, a model with Dominant (3) would count as three models in range of an objective, or in a specific are of the board, or three models when working out how many models have excaped the battlefield. If a model would gain this special rule whilst in range of another model or specific area of the board, and then moves off the board, they will not gain the benefit of this special rule once off the board.\n                If a model has two sources of the Dominant (X) special rule, then they use the highest value."
+			},
+			{
+				"name": "Dominant (5)",
+				"tag": "Passive",
+				"definition": "This model counts as the number of models as shown in brackers when working out how many models are in range of an objective, in a specific are of the board, or when working out how many models have escaped the battlefield. So, a model with Dominant (3) would count as three models in range of an objective, or in a specific are of the board, or three models when working out how many models have excaped the battlefield. If a model would gain this special rule whilst in range of another model or specific area of the board, and then moves off the board, they will not gain the benefit of this special rule once off the board.\n                If a model has two sources of the Dominant (X) special rule, then they use the highest value."
+			},
+			{
+				"name": "Dominant (6)",
+				"tag": "Passive",
+				"definition": "This model counts as the number of models as shown in brackers when working out how many models are in range of an objective, in a specific are of the board, or when working out how many models have escaped the battlefield. So, a model with Dominant (3) would count as three models in range of an objective, or in a specific are of the board, or three models when working out how many models have excaped the battlefield. If a model would gain this special rule whilst in range of another model or specific area of the board, and then moves off the board, they will not gain the benefit of this special rule once off the board.\n                If a model has two sources of the Dominant (X) special rule, then they use the highest value."
+			},
+			{
+				"name": "Dominant (10)",
 				"tag": "Passive",
 				"definition": "This model counts as the number of models as shown in brackers when working out how many models are in range of an objective, in a specific are of the board, or when working out how many models have escaped the battlefield. So, a model with Dominant (3) would count as three models in range of an objective, or in a specific are of the board, or three models when working out how many models have excaped the battlefield. If a model would gain this special rule whilst in range of another model or specific area of the board, and then moves off the board, they will not gain the benefit of this special rule once off the board.\n                If a model has two sources of the Dominant (X) special rule, then they use the highest value."
 			},
@@ -31081,7 +31051,22 @@
 				"definition": "Any model that suffers a Wound from a model with this special rule's shooting attacks, and isn't slain, must roll a D6 at the start of each subsequent turn. On\n                the roll of a 1, that model suffers a Wound."
 			},
 			{
-				"name": "Ancient Enemies (X)",
+				"name": "Ancient Enemies (Dwarf)",
+				"tag": "Active",
+				"definition": "A model with this special rule re-rolls 1s To Wound when fighting in combat against models with the keywords listed in the brackets in its profile. For example, a model that has the Ancient Enemies (Elf) special rule will get to re-roll 1s To Wound against all Elf models"
+			},
+			{
+				"name": "Ancient Enemies (Elf)",
+				"tag": "Active",
+				"definition": "A model with this special rule re-rolls 1s To Wound when fighting in combat against models with the keywords listed in the brackets in its profile. For example, a model that has the Ancient Enemies (Elf) special rule will get to re-roll 1s To Wound against all Elf models"
+			},
+			{
+				"name": "Ancient Enemies (Dwarf)(Elf)",
+				"tag": "Active",
+				"definition": "A model with this special rule re-rolls 1s To Wound when fighting in combat against models with the keywords listed in the brackets in its profile. For example, a model that has the Ancient Enemies (Elf) special rule will get to re-roll 1s To Wound against all Elf models"
+			},
+			{
+				"name": "Ancient Enemies (Orc)",
 				"tag": "Active",
 				"definition": "A model with this special rule re-rolls 1s To Wound when fighting in combat against models with the keywords listed in the brackets in its profile. For example, a model that has the Ancient Enemies (Elf) special rule will get to re-roll 1s To Wound against all Elf models"
 			},
@@ -33012,12 +32997,37 @@
 				"definition": "When a model makes a Shooting Attack that targets a model with this special rule, when they are determining models that are In The Way, they Ignore models (both friendly and enemy) that do not have any of the following keywords: Monster, Siege Engine, War Beast. If the target model is Engaged In Combat, then the In The Way Test for Shooting Into Combat Is still applied regardless of the model the target model is Engaged In Combat with."
 			},
 			{
-				"name": "Leader (X)",
+				"name": "Leader (Rohan Royal Guard)",
 				"tag": "Passive",
 				"definition": "A model with this special rule can include Warrior models of the type listed in brackets in their Warband."
 			},
 			{
-				"name": "Poisoned Attacks",
+				"name": "Leader (Citadel Guard)",
+				"tag": "Passive",
+				"definition": "A model with this special rule can include Warrior models of the type listed in brackets in their Warband."
+			},
+			{
+				"name": "Leader (Guard of the Fountain Court)",
+				"tag": "Passive",
+				"definition": "A model with this special rule can include Warrior models of the type listed in brackets in their Warband."
+			},
+			{
+				"name": "Leader (Palace Guard)",
+				"tag": "Passive",
+				"definition": "A model with this special rule can include Warrior models of the type listed in brackets in their Warband."
+			},
+			{
+				"name": "Poisoned Attacks (Orc Bow)",
+				"tag": "Active",
+				"definition": "A model with this special rule most re-roll any To Wound Rolls of a natural 1 when making Shooting Attacks or making Strikes.\n                Sometimes, a particular weapon will be described as benefiting from this special rule. When this is the case, only To Wound Roll made for that weapon will be able to re-roll To WOund Rolls of a natural 1."
+			},
+			{
+				"name": "Poisoned Attacks (Bow)",
+				"tag": "Active",
+				"definition": "A model with this special rule most re-roll any To Wound Rolls of a natural 1 when making Shooting Attacks or making Strikes.\n                Sometimes, a particular weapon will be described as benefiting from this special rule. When this is the case, only To Wound Roll made for that weapon will be able to re-roll To WOund Rolls of a natural 1."
+			},
+			{
+				"name": "Poisoned Attacks (Fangs)",
 				"tag": "Active",
 				"definition": "A model with this special rule most re-roll any To Wound Rolls of a natural 1 when making Shooting Attacks or making Strikes.\n                Sometimes, a particular weapon will be described as benefiting from this special rule. When this is the case, only To Wound Roll made for that weapon will be able to re-roll To WOund Rolls of a natural 1."
 			},
@@ -33027,9 +33037,24 @@
 				"definition": "When a model with this special rule makes a Shooting Attack that targets a Cavalry model, it may choose either the rider or the Mount as its target. Additionally, if a model with this special rule hits a Cavalry model that it targeted with a Shooting Attack, it does not need to make the In The Way Test to see which part of the model it hits - it will automatically hit the part of the model it targeted, either rider or Mount."
 			},
 			{
-				"name": "Throw Stones",
+				"name": "Throw Stones (range 12\", Strength 8)",
 				"tag": "Active",
-				"definition": "If this model does not Move during the Move Phase, it may make a Shooting Attack during the following Shoot Phase. Tlhe Strength and range of this Shooting Attack will be shown in the model's profile."
+				"definition": "If this model does not Move during the Move Phase, it may make a Shooting Attack during the following Shoot Phase. The Strength and range of this Shooting Attack will be shown in the model's profile."
+			},
+			{
+				"name": "Throw Stones (range 8\", Strength 1)",
+				"tag": "Active",
+				"definition": "If this model does not Move during the Move Phase, it may make a Shooting Attack during the following Shoot Phase. The Strength and range of this Shooting Attack will be shown in the model's profile."
+			},
+			{
+				"name": "Throw Stones (range 8\", Strength 2)",
+				"tag": "Active",
+				"definition": "If this model does not Move during the Move Phase, it may make a Shooting Attack during the following Shoot Phase. The Strength and range of this Shooting Attack will be shown in the model's profile."
+			},
+			{
+				"name": "Throw Stones (range 18\", Strength 10)",
+				"tag": "Active",
+				"definition": "If this model does not Move during the Move Phase, it may make a Shooting Attack during the following Shoot Phase. The Strength and range of this Shooting Attack will be shown in the model's profile."
 			},
 			{
 				"name": "Timid",
