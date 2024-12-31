@@ -1541,6 +1541,9 @@
 					"Hold the Streets",
 					"Master Burglar"
 				],
+				"specialRules": [
+					"Mighty Hero"
+				],
 				"requiredChildren": [
 					{
 						"name": "Bard the Bowman",
@@ -33794,7 +33797,7 @@
 			},
 			{
 				"name": "Heir of Dale",
-				"definition": "Bard the Bowman gains the Might Hero and Fearless special rules."
+				"definition": "Bard the Bowman gains the Mighty Hero and Fearless special rules."
 			},
 			{
 				"name": "Hold the Streets",
