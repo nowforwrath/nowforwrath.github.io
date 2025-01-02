@@ -13304,42 +13304,41 @@
 				]
 			},
 			{
-				"name": "Orc Siege Veteran",
+				"name": "Mordor Orc Siege Veteran",
 				"factions": [],
 				"autoAddOnly": true,
+				"unavailableSolo": true,
 				"points": 0,
 				"movement": 6,
 				"fight": 3,
-				"shoot": 5,
+				"shoot": 4,
 				"strength": 3,
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 2,
+				"courage": 8,
+				"intelligence": 8,
 				"will": 1,
 				"might": 1,
 				"fate": 1,
-				"options": [
-					{
-						"name": "Orc Engineer Captain",
-						"points": 40,
-						"usesDefinition": "Engineer Captain"
-					},
-					{
-						"name": "Orc bow",
-						"points": 5,
-						"unlockedBy": "Orc Engineer Captain"
-					},
-					{
-						"name": "Orc shield",
-						"points": 5,
-						"unlockedBy": "Orc Engineer Captain"
-					}
+				"race": [
+					"Orc"
 				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Warrior",
+					"Hero"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"options": [],
 				"specialRules": [],
 				"wargear": [
 					"Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -17873,7 +17872,7 @@
 				"includes": [
 					{
 						"dataSource": "heroes",
-						"name": "Orc Siege Veteran"
+						"name": "Mordor Orc Siege Veteran"
 					}
 				],
 				"increaseMaximumChildren": {
@@ -20506,33 +20505,41 @@
 				]
 			},
 			{
-				"name": "Orc Siege Veteran",
+				"name": "Mordor Orc Siege Veteran",
 				"factions": [],
 				"autoAddOnly": true,
 				"unavailableSolo": true,
 				"points": 0,
 				"movement": 6,
 				"fight": 3,
-				"shoot": 5,
+				"shoot": 4,
 				"strength": 3,
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 2,
+				"courage": 8,
+				"intelligence": 8,
 				"will": 1,
 				"might": 1,
 				"fate": 1,
-				"keywords": [
-					"Orc",
-					"Mordor",
-					"Infantry",
-					"Warrior"
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Warrior",
+					"Hero"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
 					"Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
