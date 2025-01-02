@@ -9522,7 +9522,7 @@
 				"specialRules": [
 					"Direct Shot",
 					"Accurage",
-					"Piercing Shot"
+					"Piercing Shot (Windlance)"
 				],
 				"wargear": [],
 				"requiredChildren": [
@@ -24709,34 +24709,6 @@
 						"name": "Uruk-Hai Bow",
 						"points": 1,
 						"chooseOneKey": "a"
-					},
-					{
-						"name": "Marauder",
-						"points": 1,
-						"availableIn": [
-							[
-								"Isengard",
-								"Mauhur"
-							]
-						],
-						"unavailableIn": [
-							[
-								"Ugluk's Scouts"
-							]
-						]
-					},
-					{
-						"name": "Marauder",
-						"points": 0,
-						"unlockedBy": "Mauhur",
-						"availableIn": [
-							[
-								"Lurtz's Scouts"
-							],
-							[
-								"Ugluk's Scouts"
-							]
-						]
 					}
 				],
 				"specialRules": [],
@@ -29675,7 +29647,7 @@
 				"specialRules": [
 					"Direct Shot",
 					"Accurate",
-					"Piercing Shot"
+					"Piercing Shot (Windlance)"
 				]
 			},
 			{
@@ -30857,6 +30829,10 @@
 			{
 				"name": "Piercing Shot",
 				"definition": "A model that is hit by the shot of a Corsair Ballista will be flung back D6\" directly away from the Ballista if it has a Strength of 5 or lower. Any model that is passed over by the flung model suffers a Strength 5 hit and will be knocked Prone. If the flung model comes into contact with a piece of impassable terrain or a model with a Strenght of 6 or higher, then it will stop and both the flung model and the model or piece of terrain that was hit will suffer one Strength 6 hit. After being flung back, the flung model will be knocked Prone if they survive. If after the model is flung back it would finish over other models and it has survived, then move the other models the minimum distance possible to allow the flung model to be placed where it has landed."
+			},
+			{
+				"name": "Piercing Shot (Windlance)",
+				"definition": "A model that is hit by the shot of a Windlance will be flung back D3\" directly away from the Ballista if it has a Strength of 5 or lower. Any model that is passed over by the flung model suffers a Strength 5 hit and will be knocked Prone. If the flung model comes into contact with a piece of impassable terrain or a model with a Strenght of 6 or higher, then it will stop and both the flung model and the model or piece of terrain that was hit will suffer one Strength 6 hit. After being flung back, the flung model will be knocked Prone if they survive. If after the model is flung back it would finish over other models and it has survived, then move the other models the minimum distance possible to allow the flung model to be placed where it has landed."
 			},
 			{
 				"name": "Bladed Bolts",
