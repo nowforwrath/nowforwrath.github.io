@@ -1331,7 +1331,7 @@
 					"Orc Warrior models can only be included in the Warband of an Orc Hero.",
 					"Uruk-hai Warrior models can only be included in the Warband of an Uruk-hai Hero."
 				],
-				"armyBonuse": [
+				"armyBonuses": [
 					"\"Their pace has quickened\"",
 					"\"Get a fire going\"",
 					"Animosity"
