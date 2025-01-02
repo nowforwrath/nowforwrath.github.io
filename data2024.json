@@ -33781,10 +33781,6 @@
 				"definition": "Friendly models increase their Move Value to 8\". Additionally, friendly models gain the Woodland Creature special rule."
 			},
 			{
-				"name": "\"You do not know pain, you do not know fear\"",
-				"definition": "The Break Point for Lurtz's Scouts is 66% rather than 50%"
-			},
-			{
 				"name": "\"Kill the others\"",
 				"definition": "Lurtz gains the General Hunter special rule and may declare a Heroic Combat each turn for free."
 			},
@@ -33827,10 +33823,6 @@
 			{
 				"name": "\"There will be no dawn for Men\"",
 				"definition": "Friendly Uruk-hai models gain the Hatred (Man) special rule."
-			},
-			{
-				"name": "\"You do not know pain, you do not know fear\"",
-				"definition": "The Break Point for this army is 66% rather than 50%"
 			},
 			{
 				"name": "Commander of the Uruk-hai",
