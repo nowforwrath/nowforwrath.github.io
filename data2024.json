@@ -6667,7 +6667,7 @@
 					{
 						"name": "Instill Fear",
 						"range": 0,
-						"casting": 5
+						"casting": 6
 					}
 				]
 			},
@@ -6810,7 +6810,7 @@
 					{
 						"name": "Instill Fear",
 						"range": 0,
-						"casting": 5
+						"casting": 6
 					}
 				]
 			},
@@ -6969,7 +6969,7 @@
 					{
 						"name": "Instill Fear",
 						"range": 0,
-						"casting": 5
+						"casting": 6
 					}
 				]
 			},
@@ -17922,14 +17922,14 @@
 				"requiredChildren": [
 					{
 						"elementPropertyName": "warriors",
-						"name": "Orc",
+						"name": "Mordor Orc Siege Crew",
 						"quantity": 2,
 						"points": 0,
 						"lockedChildren": true
 					},
 					{
 						"elementPropertyName": "warriors",
-						"name": "Mordor Troll",
+						"name": "Mordor Troll (Catapult)",
 						"quantity": 1,
 						"points": 0,
 						"lockedChildren": true
@@ -22894,11 +22894,8 @@
 				]
 			},
 			{
-				"name": "Orc",
-				"factions": [
-					"Mordor",
-					"Isengard"
-				],
+				"name": "Mordor Orc Siege Crew",
+				"factions": [],
 				"autoAddOnly": true,
 				"points": 0,
 				"movement": 6,
@@ -22908,12 +22905,26 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
 					"Armour",
-					"Sword"
+					"Hand weapon"
 				]
 			},
 			{
@@ -23525,6 +23536,50 @@
 				"wargear": [
 					"Armour",
 					"Hand-and-a-half weapon"
+				]
+			},
+			{
+				"name": "Mordor Troll (Catapult)",
+				"factions": [],
+				"autoAddOnly": true,
+				"unavailableSolo": true,
+				"points": 0,
+				"movement": 6,
+				"fight": 7,
+				"shoot": 4,
+				"strength": 7,
+				"defence": 6,
+				"attack": 3,
+				"wounds": 4,
+				"courage": 6,
+				"intelligence": 7,
+				"race": [
+					"Troll"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry",
+					"Monster"
+				],
+				"baseSize": [
+					"60mm"
+				],
+				"options": [
+					{
+						"name": "War drum (Mordor)",
+						"points": 25
+					}
+				],
+				"specialRules": [
+					"Dominant (3)",
+					"Terror",
+					"Throw Stones (range 12\", Strength 8)"
+				],
+				"wargear": [
+					"Hand weapon"
 				]
 			},
 			{
@@ -34113,7 +34168,7 @@
 				"definition": "Friendly Dale models may re-roll To Wound Rolls of a natural 1 when making Strikes if there is a friendly Erebor model Engaged in the same Combat. Friendly Erebor models may re-roll To Wound Rolls of a natural 1 when making Strikes if there is a friendly Dale model Engaged in the same Combat."
 			},
 			{
-				"name": "Lords of the Kingdomgs",
+				"name": "Lords of the Kingdoms",
 				"definition": "Friendly Dale models treat Girion as a banner. Friendly Erebor models treat Thror as a banner."
 			},
 			{
