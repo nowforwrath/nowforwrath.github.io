@@ -11251,7 +11251,7 @@
 				"heroicActions": [
 					"Heroic March",
 					"Heroic Resolve",
-					"Heroic STrike"
+					"Heroic Strike"
 				],
 				"keywords": [
 					"Man",
@@ -11325,7 +11325,7 @@
 				"heroicActions": [
 					"Heroic March",
 					"Heroic Resolve",
-					"Heroic STrike"
+					"Heroic Strike"
 				],
 				"keywords": [
 					"Man",
@@ -11465,7 +11465,7 @@
 				"heroicActions": [
 					"Heroic March",
 					"Heroic Resolve",
-					"Heroic STrike"
+					"Heroic Strike"
 				],
 				"keywords": [
 					"Man",
@@ -11537,7 +11537,7 @@
 				"heroicActions": [
 					"Heroic March",
 					"Heroic Resolve",
-					"Heroic STrike"
+					"Heroic Strike"
 				],
 				"keywords": [
 					"Man",
@@ -29055,6 +29055,11 @@
 				"definition": "6\" Range, 3 Strength"
 			},
 			{
+				"name": "Elf bow and elven lance",
+				"type": "bow",
+				"definition": "24\" Range, 3 Strength"
+			},
+			{
 				"name": "Light Shield",
 				"definition": "A model with a light shield does not gain a bonus to its Defence. However, it may use the Shielding special rule."
 			},
@@ -33834,7 +33839,7 @@
 			},
 			{
 				"name": "Dominion of the Balrog",
-				"definition": "Friendly Moria Goblin models within 6\" of the Balrog gain a bonus of +1 to their Fight Value. Additionally, so long as the Balrog has at least 6 Woounds remaining, a Depths of Moria Army can never count as being Broken. Should the Balrog have 5 or fewer Woounds remaining, a Depths of Moria Army will Break as normal. However, should the Balrog ever be removed as a casualty, a Depths of Moria Army will immediately count as being Broken."
+				"definition": "Friendly Moria Goblin models within 6\" of the Balrog gain a bonus of +1 to their Fight Value. Additionally, so long as the Balrog has at least 6 Wounds remaining, a Depths of Moria Army can never count as being Broken. Should the Balrog have 5 or fewer Wounds remaining, a Depths of Moria Army will Break as normal. However, should the Balrog ever be removed as a casualty, a Depths of Moria Army will immediately count as being Broken."
 			},
 			{
 				"name": "Shadow...",
