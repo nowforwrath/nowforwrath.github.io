@@ -1302,6 +1302,15 @@
 					"\"You do not know pain, you do not know fear\"",
 					"\"Kill the others\""
 				],
+				"overrideCalculations": [
+					{
+						"label": "Broken",
+						"property": "models",
+						"percentage": 66,
+						"roundup": true,
+						"suffix": " killed"
+					}
+				],
 				"specialRules": [
 					"General Hunter"
 				],
@@ -1396,6 +1405,15 @@
 				"specialRules": [
 					"Hatred (Man)"
 				],
+				"overrideCalculations": [
+					{
+						"label": "Broken",
+						"property": "models",
+						"percentage": 66,
+						"roundup": true,
+						"suffix": " killed"
+					}
+				],
 				"requiredChildren": [
 					{
 						"name": "Saruman",
@@ -1415,6 +1433,15 @@
 					"\"You do not know pain, you do not know fear\"",
 					"Commander of the Uruk-hai",
 					"Break the Walls"
+				],
+				"overrideCalculations": [
+					{
+						"label": "Broken",
+						"property": "models",
+						"percentage": 66,
+						"roundup": true,
+						"suffix": " killed"
+					}
 				],
 				"requiredChildren": [
 					{
@@ -33791,7 +33818,7 @@
 			},
 			{
 				"name": "\"You do not know pain, you do not know fear\"",
-				"definitino": "The Break Point for a Muster of Isengard army is 66% rather than 50%"
+				"definitino": "The Break Point for this army is 66% rather than 50%"
 			},
 			{
 				"name": "Isengard Unleashed",
@@ -33803,7 +33830,7 @@
 			},
 			{
 				"name": "\"You do not know pain, you do not know fear\"",
-				"definition": "The Break Point for an Assault Upon Helm's Deep army is 66% rather than 50%"
+				"definition": "The Break Point for this army is 66% rather than 50%"
 			},
 			{
 				"name": "Commander of the Uruk-hai",
