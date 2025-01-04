@@ -4857,55 +4857,6 @@
 				]
 			},
 			{
-				"name": "Erkenbrand, Captain of Rohan",
-				"factions": [],
-				"legacy": true,
-				"points": 75,
-				"movement": 6,
-				"fight": 5,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 7,
-				"attack": 2,
-				"wounds": 2,
-				"courage": 4,
-				"might": 3,
-				"will": 1,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic March",
-					"Heroic Strength"
-				],
-				"requiredChildren": [
-					{
-						"elementPropertyName": "options",
-						"name": "Horse",
-						"in": [
-							[
-								"Riders of Eomer"
-							]
-						],
-						"points": 10
-					}
-				],
-				"options": [
-					{
-						"name": "Horse",
-						"points": 10
-					}
-				],
-				"specialRules": [
-					"Expert Rider",
-					"Horse Lord"
-				],
-				"wargear": [
-					"Heavy armour",
-					"Sword",
-					"Shield",
-					"The Horn of the Hammerhand"
-				]
-			},
-			{
 				"name": "Gamling, Captain of Rohan",
 				"factions": [
 					{
@@ -5072,102 +5023,6 @@
 				"wargear": [
 					"Heavy armour",
 					"Hand weapon"
-				]
-			},
-			{
-				"name": "Grimbold of Grimslade",
-				"factions": [],
-				"legacy": true,
-				"points": 60,
-				"movement": 6,
-				"fight": 5,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 5,
-				"attack": 2,
-				"wounds": 2,
-				"courage": 4,
-				"might": 3,
-				"will": 1,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Strength"
-				],
-				"options": [],
-				"specialRules": [
-					"Mighty Blow",
-					"Helmingas",
-					"Two-Handed"
-				],
-				"wargear": [
-					"Armour",
-					"Two-handed axe"
-				]
-			},
-			{
-				"name": "Eorl the Young",
-				"factions": [],
-				"legacy": true,
-				"points": 115,
-				"movement": 6,
-				"fight": 5,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 7,
-				"attack": 3,
-				"wounds": 3,
-				"courage": 5,
-				"might": 3,
-				"will": 2,
-				"fate": 2,
-				"heroicActions": [
-					"Heroic Resolve",
-					"Heroic Strike",
-					"Heroic Strength",
-					"Heroic Defence"
-				],
-				"options": [],
-				"specialRules": [
-					"Expert Rider",
-					"Horse Lord",
-					"Legendary Hero"
-				],
-				"wargear": [
-					"Heavy armour",
-					"Sword",
-					"Shield",
-					"Throwing spears",
-					"Felarof"
-				]
-			},
-			{
-				"name": "King's Huntsman",
-				"factions": [],
-				"legacy": true,
-				"unlimited": true,
-				"points": 50,
-				"movement": 6,
-				"fight": 3,
-				"shoot": 3,
-				"strength": 4,
-				"defence": 5,
-				"attack": 1,
-				"wounds": 2,
-				"courage": 4,
-				"might": 2,
-				"will": 1,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Accuracy"
-				],
-				"options": [],
-				"specialRules": [
-					"Master Archer"
-				],
-				"wargear": [
-					"Armour",
-					"Sword",
-					"Longbow"
 				]
 			},
 			{
@@ -6185,48 +6040,6 @@
 				]
 			},
 			{
-				"name": "Kardush the Firecaller",
-				"factions": [],
-				"legacy": true,
-				"points": 60,
-				"movement": 6,
-				"fight": 3,
-				"shoot": 5,
-				"strength": 3,
-				"defence": 4,
-				"attack": 1,
-				"wounds": 2,
-				"courage": 3,
-				"might": 1,
-				"will": 3,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Channeling"
-				],
-				"options": [],
-				"specialRules": [
-					"Heart of Darkness",
-					"Shadow Pawn"
-				],
-				"wargear": [
-					"Armour",
-					"Spear"
-				],
-				"magicalPowers": [
-					{
-						"name": "Flameburst",
-						"range": 6,
-						"casting": 3
-					},
-					{
-						"name": "Fury (Mordor Orc)",
-						"usesDefinition": "Fury",
-						"range": 6,
-						"casting": 3
-					}
-				]
-			},
-			{
 				"name": "Morannon Orc Captain",
 				"factions": [
 					{
@@ -6448,95 +6261,6 @@
 						"quantity": 2,
 						"points": 0
 					}
-				]
-			},
-			{
-				"name": "Great Beast of Gorgoroth",
-				"factions": [],
-				"legacy": true,
-				"hideStats": true,
-				"unlimited": true,
-				"points": 150,
-				"movement": 6,
-				"fight": 4,
-				"shoot": 5,
-				"strength": 4,
-				"defence": 5,
-				"attack": 2,
-				"wounds": 2,
-				"courage": 4,
-				"heroicActions": [],
-				"options": [],
-				"specialRules": [],
-				"wargear": [
-					"Orc Comander",
-					"Great Beast",
-					"Howdah"
-				],
-				"requiredChildren": [
-					{
-						"elementPropertyName": "warriors",
-						"name": "Orc Warrior",
-						"quantity": 9,
-						"points": 0,
-						"hideFromPrint": true,
-						"lockedChildren": true,
-						"ignoreLimits": [
-							{
-								"in": [
-									"Mordor"
-								],
-								"type": "bow"
-							}
-						],
-						"requiredChildren": [
-							{
-								"name": "Orc bow",
-								"elementPropertyName": "options",
-								"points": 0
-							}
-						]
-					}
-				],
-				"includes": [
-					{
-						"dataSource": "heroes",
-						"name": "Orc Commander"
-					},
-					{
-						"dataSource": "heroes",
-						"name": "Great Beast"
-					}
-				],
-				"increaseMaximumChildren": {
-					"warriors": -3
-				}
-			},
-			{
-				"name": "Great Beast",
-				"factions": [],
-				"unlimited": true,
-				"unavailableSolo": true,
-				"points": 0,
-				"movement": 8,
-				"fight": 4,
-				"shoot": 4,
-				"strength": 6,
-				"defence": 7,
-				"attack": 3,
-				"wounds": 5,
-				"courage": 2,
-				"heroicActions": [],
-				"options": [],
-				"specialRules": [
-					"Terror",
-					"Trample (Great Beast)",
-					"Battle Platform"
-				],
-				"wargear": [
-					"Orc Commander",
-					"Great Beast",
-					"Howdah"
 				]
 			},
 			{
@@ -7315,75 +7039,6 @@
 				]
 			},
 			{
-				"name": "Gildor Inglorion",
-				"factions": [],
-				"legacy": true,
-				"points": 70,
-				"movement": 8,
-				"fight": 6,
-				"shoot": 3,
-				"strength": 4,
-				"defence": 4,
-				"attack": 2,
-				"wounds": 2,
-				"courage": 6,
-				"might": 1,
-				"will": 4,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Channeling",
-					"Heroic Resolve",
-					"Heroic March",
-					"Heroic Defence"
-				],
-				"options": [],
-				"specialRules": [
-					"Terror",
-					"Woodland Creature"
-				],
-				"wargear": [
-					"Elven-made sword",
-					"Elven cloak"
-				],
-				"magicalPowers": [
-					{
-						"name": "Immobilise",
-						"range": 12,
-						"casting": 3
-					}
-				]
-			},
-			{
-				"name": "Goroth, Captain of the Morannon",
-				"factions": [],
-				"legacy": true,
-				"points": 80,
-				"movement": 6,
-				"fight": 5,
-				"shoot": 5,
-				"strength": 5,
-				"defence": 6,
-				"attack": 2,
-				"wounds": 2,
-				"courage": 4,
-				"might": 3,
-				"will": 1,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Strike"
-				],
-				"options": [],
-				"specialRules": [
-					"Come Here Maggot!",
-					"Two Handed",
-					"Burly"
-				],
-				"wargear": [
-					"Heavy Armour",
-					"Mace"
-				]
-			},
-			{
 				"name": "Gothmog's Enforcer",
 				"factions": [
 					{
@@ -7485,35 +7140,6 @@
 					"Heavy Armour",
 					"Two-handed weapon",
 					"Hand weapon"
-				]
-			},
-			{
-				"name": "Zagdush, Orc Captain",
-				"factions": [],
-				"legacy": true,
-				"points": 60,
-				"movement": 6,
-				"fight": 4,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 5,
-				"attack": 3,
-				"wounds": 2,
-				"courage": 4,
-				"might": 3,
-				"will": 1,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength"
-				],
-				"options": [],
-				"specialRules": [
-					"Reckless Fighter"
-				],
-				"wargear": [
-					"Armour",
-					"Sword"
 				]
 			},
 			{
@@ -8474,36 +8100,6 @@
 				]
 			},
 			{
-				"name": "Mablung, Ranger of Ithilien",
-				"factions": [],
-				"legacy": true,
-				"points": 35,
-				"movement": 6,
-				"fight": 4,
-				"shoot": 3,
-				"strength": 4,
-				"defence": 5,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 4,
-				"might": 1,
-				"will": 1,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Accuracy"
-				],
-				"options": [],
-				"specialRules": [
-					"Birdcalls",
-					"Woodland Creature"
-				],
-				"wargear": [
-					"Armour",
-					"Bow",
-					"Sword"
-				]
-			},
-			{
 				"name": "Dain Ironfoot, Lord of the Iron Hills",
 				"factions": [
 					{
@@ -8941,63 +8537,6 @@
 				]
 			},
 			{
-				"name": "Vrasku",
-				"factions": [],
-				"legacy": true,
-				"points": 65,
-				"movement": 6,
-				"fight": 5,
-				"shoot": 3,
-				"strength": 5,
-				"defence": 5,
-				"attack": 2,
-				"wounds": 2,
-				"courage": 4,
-				"might": 3,
-				"will": 1,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Accuracy",
-					"Heroic March"
-				],
-				"options": [],
-				"specialRules": [
-					"Expert Shot"
-				],
-				"wargear": [
-					"Sword",
-					"Armour",
-					"Crossbow"
-				]
-			},
-			{
-				"name": "Mauhur",
-				"factions": [],
-				"legacy": true,
-				"points": 60,
-				"movement": 8,
-				"fight": 5,
-				"shoot": 3,
-				"strength": 5,
-				"defence": 5,
-				"attack": 3,
-				"wounds": 2,
-				"courage": 4,
-				"might": 2,
-				"will": 1,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Strength",
-					"Heroic March"
-				],
-				"options": [],
-				"specialRules": [],
-				"wargear": [
-					"Two Swords",
-					"Armour"
-				]
-			},
-			{
 				"name": "Uruk-Hai Scout Captain",
 				"factions": [
 					{
@@ -9218,37 +8757,6 @@
 				]
 			},
 			{
-				"name": "Knight of the White Tower",
-				"factions": [],
-				"legacy": true,
-				"unlimited": true,
-				"points": 60,
-				"movement": 6,
-				"fight": 5,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 6,
-				"attack": 2,
-				"wounds": 2,
-				"courage": 4,
-				"might": 2,
-				"will": 1,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Strike"
-				],
-				"options": [],
-				"specialRules": [
-					"Mighty Blow",
-					"The Bladelord's Skill"
-				],
-				"wargear": [
-					"Heavy Armour",
-					"Dagger",
-					"White Sword of Gondor"
-				]
-			},
-			{
 				"name": "Peregrin Took, Guard of the Citadel",
 				"factions": [
 					{
@@ -9315,36 +8823,6 @@
 				"wargear": [
 					"Armour",
 					"Hand weapon"
-				]
-			},
-			{
-				"name": "Cirion, Lieutenant of Amon Barad",
-				"factions": [],
-				"legacy": true,
-				"points": 55,
-				"movement": 6,
-				"fight": 4,
-				"shoot": 3,
-				"strength": 4,
-				"defence": 6,
-				"attack": 2,
-				"wounds": 2,
-				"courage": 4,
-				"might": 3,
-				"will": 1,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Resolve"
-				],
-				"options": [],
-				"specialRules": [
-					"Boldest of the Bold"
-				],
-				"wargear": [
-					"Shield",
-					"Sword",
-					"Armour"
 				]
 			},
 			{
@@ -11836,40 +11314,6 @@
 				]
 			},
 			{
-				"name": "Golfimbul, Orc Chieftain",
-				"factions": [],
-				"legacy": true,
-				"points": 40,
-				"movement": 6,
-				"fight": 3,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 5,
-				"attack": 2,
-				"wounds": 2,
-				"courage": 4,
-				"might": 2,
-				"will": 2,
-				"fate": 0,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Challenge"
-				],
-				"options": [
-					{
-						"name": "Warg",
-						"points": 10
-					}
-				],
-				"specialRules": [
-					"Impressive Girth"
-				],
-				"wargear": [
-					"Armour",
-					"Hand-and-a-Half Mace"
-				]
-			},
-			{
 				"name": "Yazneg, Hunter Orc Captain",
 				"factions": [
 					{
@@ -12880,67 +12324,6 @@
 				]
 			},
 			{
-				"name": "Shieldbearer",
-				"factions": [],
-				"legacy": true,
-				"points": 60,
-				"movement": 5,
-				"fight": 5,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 8,
-				"attack": 2,
-				"wounds": 2,
-				"courage": 4,
-				"might": 1,
-				"will": 0,
-				"fate": 0,
-				"unlimited": true,
-				"heroicActions": [],
-				"options": [],
-				"specialRules": [
-					"Lead by Example (Shieldbearer)",
-					"In Defence of the King (Shieldbearer)"
-				],
-				"wargear": [
-					"Heavy Dwarf Armour",
-					"Axe",
-					"Shield"
-				]
-			},
-			{
-				"name": "King's Champion Group",
-				"factions": [],
-				"legacy": true,
-				"points": 140,
-				"hideStats": true,
-				"unlimited": true,
-				"heroicActions": [],
-				"requiredChildren": [
-					{
-						"elementPropertyName": "warriors",
-						"name": "Herald",
-						"quantity": 2,
-						"points": 0,
-						"lockedChildren": true
-					}
-				],
-				"includes": [
-					{
-						"dataSource": "heroes",
-						"name": "King's Champion"
-					}
-				],
-				"keywords": [
-					"Dwarf",
-					"Khazad-Dum",
-					"Infantry",
-					"Hero"
-				],
-				"options": [],
-				"specialRules": []
-			},
-			{
 				"name": "King's Champion",
 				"factions": [],
 				"points": 0,
@@ -13857,42 +13240,6 @@
 					"Armour",
 					"Bow",
 					"Hand weapon"
-				]
-			},
-			{
-				"name": "Anborn, Ranger of Ithilien",
-				"factions": [],
-				"legacy": true,
-				"points": 35,
-				"movement": 6,
-				"fight": 4,
-				"shoot": 3,
-				"strength": 4,
-				"defence": 5,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 4,
-				"might": 1,
-				"will": 1,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Accuracy"
-				],
-				"keywords": [
-					"Man",
-					"Gondor",
-					"Infantry",
-					"Hero"
-				],
-				"options": [],
-				"specialRules": [
-					"Lethal Aim",
-					"Woodland Creature"
-				],
-				"wargear": [
-					"Armour",
-					"Bow",
-					"Sword"
 				]
 			},
 			{
@@ -14863,48 +14210,6 @@
 				],
 				"wargear": [
 					"Cleaver (counts as a sword)"
-				]
-			},
-			{
-				"name": "Thrydan Wolfsbane",
-				"factions": [],
-				"legacy": true,
-				"points": 85,
-				"movement": 6,
-				"fight": 5,
-				"shoot": 4,
-				"strength": 5,
-				"defence": 5,
-				"attack": 2,
-				"wounds": 2,
-				"courage": 4,
-				"might": 3,
-				"will": 2,
-				"fate": 2,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength"
-				],
-				"keywords": [
-					"Man",
-					"Dunlending",
-					"Infantry",
-					"Hero"
-				],
-				"options": [
-					{
-						"name": "Horse",
-						"points": 10
-					}
-				],
-				"specialRules": [
-					"Mighty Blow",
-					"Lord of Dunland"
-				],
-				"wargear": [
-					"Armour",
-					"Sword",
-					"Two-Handed Axe"
 				]
 			},
 			{
@@ -17105,81 +16410,6 @@
 				]
 			},
 			{
-				"name": "Frida Tallspear",
-				"factions": [],
-				"legacy": true,
-				"points": 65,
-				"movement": 6,
-				"fight": 5,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 6,
-				"attack": 2,
-				"wounds": 2,
-				"courage": 4,
-				"might": 3,
-				"will": 1,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Defence",
-					"Heroic Strength"
-				],
-				"keywords": [
-					"Woman",
-					"Dunlending",
-					"Infantry",
-					"Hero"
-				],
-				"options": [],
-				"specialRules": [
-					"Go for the Horse!",
-					"Readied Stance"
-				],
-				"wargear": [
-					"Armour",
-					"Dagger",
-					"Spear",
-					"Shield"
-				]
-			},
-			{
-				"name": "Gorulf Ironskin",
-				"factions": [],
-				"legacy": true,
-				"points": 70,
-				"movement": 6,
-				"fight": 5,
-				"shoot": 4,
-				"strength": 5,
-				"defence": 5,
-				"attack": 3,
-				"wounds": 2,
-				"courage": 4,
-				"might": 3,
-				"will": 1,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength",
-					"Heroic Defence"
-				],
-				"keywords": [
-					"Man",
-					"Dunlending",
-					"Infantry",
-					"Hero"
-				],
-				"options": [],
-				"specialRules": [
-					"Ironskin"
-				],
-				"wargear": [
-					"Armour",
-					"Dagger",
-					"Two Axes"
-				]
-			},
-			{
 				"name": "The Wild Man Oathmaker",
 				"factions": [
 					{
@@ -17387,89 +16617,6 @@
 						"usesDefinition": "Fury",
 						"range": 0,
 						"casting": 3
-					}
-				]
-			},
-			{
-				"name": "Moria Blackshield Captain",
-				"factions": [],
-				"legacy": true,
-				"unlimited": true,
-				"points": 45,
-				"movement": 5,
-				"fight": 3,
-				"shoot": 5,
-				"strength": 4,
-				"defence": 6,
-				"attack": 2,
-				"wounds": 2,
-				"courage": 4,
-				"might": 2,
-				"will": 1,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic March"
-				],
-				"keywords": [
-					"Goblin",
-					"Moria",
-					"Infantry",
-					"Hero"
-				],
-				"options": [],
-				"specialRules": [
-					"Cave Dweller",
-					"Hatred (Dwarf)"
-				],
-				"wargear": [
-					"Heavy Armour",
-					"Two-handed Sword"
-				]
-			},
-			{
-				"name": "Moria Blackshield Shaman",
-				"factions": [],
-				"legacy": true,
-				"unlimited": true,
-				"points": 50,
-				"movement": 5,
-				"fight": 2,
-				"shoot": 5,
-				"strength": 3,
-				"defence": 4,
-				"attack": 1,
-				"wounds": 2,
-				"courage": 3,
-				"might": 1,
-				"will": 3,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Channeling"
-				],
-				"keywords": [
-					"Goblin",
-					"Moria",
-					"Infantry",
-					"Hero"
-				],
-				"options": [],
-				"specialRules": [
-					"Cave Dweller"
-				],
-				"wargear": [
-					"Armour",
-					"Staff"
-				],
-				"magicalPowers": [
-					{
-						"name": "Shatter",
-						"range": 12,
-						"casting": 3
-					},
-					{
-						"name": "Tremor",
-						"range": 6,
-						"casting": 5
 					}
 				]
 			},
@@ -19631,47 +18778,6 @@
 				"wargear": [
 					"Heavy armour",
 					"Two-handed weapon"
-				]
-			},
-			{
-				"name": "Castellan of Dol Guldur",
-				"factions": [],
-				"legacy": true,
-				"unlimited": true,
-				"points": 40,
-				"movement": 6,
-				"fight": 5,
-				"shoot": 4,
-				"strength": 5,
-				"defence": 6,
-				"attack": 2,
-				"wounds": 1,
-				"courage": 6,
-				"might": 0,
-				"will": 12,
-				"fate": 0,
-				"heroicActions": [],
-				"keywords": [
-					"Spirit",
-					"Dol Guldur",
-					"Infantry",
-					"Hero"
-				],
-				"options": [
-					{
-						"name": "Morgul Blade",
-						"points": 5
-					}
-				],
-				"specialRules": [
-					"Terror",
-					"Will of Evil",
-					"Automatons",
-					"Will of the Necromancer"
-				],
-				"wargear": [
-					"Armour",
-					"Sword"
 				]
 			},
 			{
@@ -22843,64 +21949,6 @@
 				]
 			},
 			{
-				"name": "Rohan Outrider",
-				"factions": [],
-				"legacy": true,
-				"points": 8,
-				"movement": 6,
-				"fight": 3,
-				"shoot": 3,
-				"strength": 3,
-				"defence": 4,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 3,
-				"options": [
-					{
-						"name": "Horse",
-						"availableIn": [
-							"Theodred's Guard",
-							"Helm's Guard"
-						],
-						"points": 5
-					}
-				],
-				"specialRules": [
-					"Expert Rider",
-					"Vanguard"
-				],
-				"wargear": [
-					"Armour",
-					"Sword",
-					"Bow"
-				]
-			},
-			{
-				"name": "Son of Eorl",
-				"factions": [],
-				"legacy": true,
-				"points": 20,
-				"movement": 6,
-				"fight": 4,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 6,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 4,
-				"options": [],
-				"specialRules": [
-					"Expert Rider",
-					"Riders of Eorl"
-				],
-				"wargear": [
-					"Heavy armour",
-					"Axe",
-					"Shield",
-					"Armoured horse"
-				]
-			},
-			{
 				"name": "Mordor Orc Siege Crew",
 				"factions": [],
 				"autoAddOnly": true,
@@ -23200,32 +22248,6 @@
 				"wargear": [
 					"Heavy armour",
 					"Hand weapon"
-				]
-			},
-			{
-				"name": "Black Guard of Barad-Dur",
-				"factions": [],
-				"legacy": true,
-				"points": 12,
-				"movement": 6,
-				"fight": 4,
-				"shoot": 4,
-				"strength": 5,
-				"defence": 6,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 3,
-				"options": [
-					{
-						"name": "Exchange shield for banner",
-						"points": 25
-					}
-				],
-				"specialRules": [],
-				"wargear": [
-					"Heavy armour",
-					"Sword",
-					"Shield"
 				]
 			},
 			{
@@ -24427,29 +23449,6 @@
 				],
 				"wargear": [
 					"Troll Chain"
-				]
-			},
-			{
-				"name": "Dweller in the Dark",
-				"factions": [],
-				"legacy": true,
-				"points": 75,
-				"movement": 8,
-				"fight": 7,
-				"shoot": 3,
-				"strength": 5,
-				"defence": 5,
-				"attack": 3,
-				"wounds": 3,
-				"courage": 7,
-				"options": [],
-				"specialRules": [
-					"Terror",
-					"Resistant to Magic",
-					"Murderous Power"
-				],
-				"wargear": [
-					"Claws and Teeth"
 				]
 			},
 			{
@@ -25854,122 +24853,6 @@
 				]
 			},
 			{
-				"name": "Khandish Warrior",
-				"factions": [],
-				"legacy": true,
-				"points": 8,
-				"movement": 6,
-				"fight": 4,
-				"shoot": 4,
-				"strength": 3,
-				"defence": 4,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 3,
-				"keywords": [
-					"Man",
-					"Khandish",
-					"Infantry",
-					"Warrior"
-				],
-				"options": [
-					{
-						"name": "Swap Hand-and-a-Half-Axe for Bow",
-						"usesDefinition": "Bow",
-						"points": 0
-					}
-				],
-				"wargear": [
-					"Armour",
-					"Dagger",
-					"Hand-and-a-Half-Axe"
-				],
-				"specialRules": []
-			},
-			{
-				"name": "Khandish Horseman",
-				"factions": [],
-				"legacy": true,
-				"points": 13,
-				"movement": 6,
-				"fight": 4,
-				"shoot": 4,
-				"strength": 3,
-				"defence": 4,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 3,
-				"keywords": [
-					"Man",
-					"Khandish",
-					"Cavalry",
-					"Warrior"
-				],
-				"options": [],
-				"wargear": [
-					"Armour",
-					"Dagger",
-					"Hand-and-a-Half-Axe",
-					"Bow",
-					"Horse"
-				],
-				"specialRules": [
-					"Khandish Horseman Dismount"
-				],
-				"ignoreLimits": [
-					{
-						"in": [
-							"Variags of Khand"
-						],
-						"type": "bow"
-					}
-				]
-			},
-			{
-				"name": "Khandish Charioteer",
-				"factions": [],
-				"legacy": true,
-				"points": 30,
-				"movement": 6,
-				"fight": 4,
-				"shoot": 4,
-				"strength": 3,
-				"defence": 4,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 3,
-				"keywords": [
-					"Man",
-					"Khandish",
-					"Cavalry",
-					"Warrior"
-				],
-				"options": [
-					{
-						"name": "Swap Hand-and-a-Half-Axe for Bow",
-						"usesDefinition": "Bow",
-						"points": 0
-					}
-				],
-				"wargear": [
-					"Armour",
-					"Dagger",
-					"Hand-and-a-Half-Axe",
-					"Khandish Chariot"
-				],
-				"specialRules": [
-					"Khandish Horseman Dismount"
-				],
-				"ignoreLimits": [
-					{
-						"in": [
-							"Variags of Khand"
-						],
-						"type": "bow"
-					}
-				]
-			},
-			{
 				"name": "Gundabad Berserker",
 				"factions": [
 					"Army of Gundabad"
@@ -26206,77 +25089,6 @@
 					"Attacking the Charge"
 				],
 				"wargear": []
-			},
-			{
-				"name": "Feral Uruk-hai",
-				"factions": [],
-				"legacy": true,
-				"points": 13,
-				"movement": 6,
-				"fight": 4,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 4,
-				"attack": 2,
-				"wounds": 1,
-				"courage": 5,
-				"keywords": [
-					"Uruk-Hai",
-					"Isengard",
-					"Infantry",
-					"Warrior"
-				],
-				"options": [],
-				"specialRules": [
-					"Oblivious to Pain (Uruk-hai)"
-				],
-				"wargear": [
-					"Two swords"
-				]
-			},
-			{
-				"name": "Dunlending Warrior",
-				"factions": [],
-				"legacy": true,
-				"points": 7,
-				"movement": 6,
-				"fight": 3,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 4,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 3,
-				"keywords": [
-					"Man",
-					"Dunlending",
-					"Infantry",
-					"Warrior"
-				],
-				"options": [
-					{
-						"name": "Banner",
-						"points": 25
-					},
-					{
-						"name": "Shield",
-						"points": 1
-					},
-					{
-						"name": "Swap axe for dagger and bow",
-						"usesDefinition": "Bow",
-						"points": 1
-					},
-					{
-						"name": "Two-handed axe",
-						"points": 1
-					}
-				],
-				"specialRules": [],
-				"wargear": [
-					"Armour",
-					"Axe"
-				]
 			},
 			{
 				"name": "Wild Man of Dunland",
@@ -26943,67 +25755,6 @@
 				]
 			},
 			{
-				"name": "Dunlending Horseman",
-				"factions": [],
-				"legacy": true,
-				"points": 12,
-				"movement": 6,
-				"fight": 3,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 5,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 3,
-				"keywords": [
-					"Man",
-					"Dunlending",
-					"Cavalry",
-					"Warrior"
-				],
-				"options": [],
-				"specialRules": [
-					"Slay Their Horses!"
-				],
-				"wargear": [
-					"Armour",
-					"Axe",
-					"Shield",
-					"Horse",
-					"Dagger"
-				]
-			},
-			{
-				"name": "Dunlending Huscarl",
-				"factions": [],
-				"legacy": true,
-				"points": 11,
-				"movement": 6,
-				"fight": 3,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 5,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 3,
-				"keywords": [
-					"Man",
-					"Dunlending",
-					"Infantry",
-					"Warrior"
-				],
-				"options": [],
-				"specialRules": [
-					"Bodyguard",
-					"Favour of the War Chief"
-				],
-				"wargear": [
-					"Heavy Armour",
-					"Dunlending War Axe",
-					"Dagger"
-				]
-			},
-			{
 				"name": "Crebain",
 				"factions": [
 					"Army of the White Hand",
@@ -27182,41 +25933,6 @@
 				]
 			},
 			{
-				"name": "Moria Blackshield",
-				"factions": [],
-				"legacy": true,
-				"points": 8,
-				"movement": 5,
-				"fight": 2,
-				"shoot": 5,
-				"strength": 3,
-				"defence": 6,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 3,
-				"keywords": [
-					"Goblin",
-					"Moria",
-					"Infantry",
-					"Warrior"
-				],
-				"options": [
-					{
-						"name": "Spear",
-						"points": 1
-					}
-				],
-				"specialRules": [
-					"Cave Dweller",
-					"Hatred (Dwarf)"
-				],
-				"wargear": [
-					"Heavy Armour",
-					"Sword",
-					"Shield"
-				]
-			},
-			{
 				"name": "Moria Goblin Prowlers",
 				"factions": [],
 				"points": 7,
@@ -27243,41 +25959,6 @@
 					"Armour",
 					"Two-handed axe",
 					"Throwing Daggers"
-				]
-			},
-			{
-				"name": "Warg Marauder",
-				"factions": [],
-				"legacy": true,
-				"points": 30,
-				"movement": 5,
-				"fight": 2,
-				"shoot": 5,
-				"strength": 3,
-				"defence": 4,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 2,
-				"keywords": [
-					"Goblin",
-					"Warg",
-					"Moria",
-					"Cavalry",
-					"Warrior"
-				],
-				"options": [],
-				"specialRules": [
-					"On the Hunt",
-					"Lethal Union",
-					"Warg Marauder",
-					"Cave Dweller"
-				],
-				"wargear": [
-					"Warg",
-					"Orc Bow",
-					"Armour",
-					"Sword",
-					"Shield"
 				]
 			},
 			{
@@ -27311,32 +25992,6 @@
 				"wargear": []
 			},
 			{
-				"name": "Moria Blackshield Drummers",
-				"factions": [],
-				"legacy": true,
-				"points": 75,
-				"hideStats": true,
-				"includes": [
-					{
-						"dataSource": "warriors",
-						"name": "Moria Blackshield Drummer"
-					},
-					{
-						"dataSource": "warriors",
-						"name": "Moria Blackshield Drummer"
-					}
-				],
-				"keywords": [
-					"Goblin",
-					"Moria",
-					"Infantry",
-					"Warrior"
-				],
-				"options": [],
-				"specialRules": [],
-				"wargear": []
-			},
-			{
 				"name": "Moria Goblin Drummer",
 				"factions": [
 					"Moria"
@@ -27362,33 +26017,6 @@
 				],
 				"wargear": [
 					"Armour",
-					"Club"
-				],
-				"autoAddOnly": true
-			},
-			{
-				"name": "Moria Blackshield Drummer",
-				"factions": [],
-				"legacy": true,
-				"points": 0,
-				"movement": 5,
-				"fight": 2,
-				"shoot": 5,
-				"strength": 3,
-				"defence": 5,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 3,
-				"options": [],
-				"specialRules": [
-					"Cave Dweller",
-					"Hatred (Dwarf)",
-					"Run and Drum",
-					"Doom! Doom!",
-					"Take up the Drum (Blackshield)"
-				],
-				"wargear": [
-					"Heavy Armour",
 					"Club"
 				],
 				"autoAddOnly": true
@@ -27436,40 +26064,6 @@
 					"Heavy Armour",
 					"Sword",
 					"Shield"
-				]
-			},
-			{
-				"name": "Man-at-arms of Dol Amroth",
-				"factions": [],
-				"legacy": true,
-				"points": 9,
-				"movement": 6,
-				"fight": 4,
-				"shoot": 4,
-				"strength": 3,
-				"defence": 5,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 3,
-				"keywords": [
-					"Man",
-					"Gondor",
-					"Infantry",
-					"Warrior"
-				],
-				"options": [
-					{
-						"name": "Replace Pike with Banner",
-						"points": 25
-					}
-				],
-				"specialRules": [
-					"Pride of Dol Amroth"
-				],
-				"wargear": [
-					"Heavy Armour",
-					"Sword",
-					"Pike"
 				]
 			},
 			{
