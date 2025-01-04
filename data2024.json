@@ -27375,7 +27375,7 @@
 				"specialRules": [
 					"Dominant (3)",
 					"Woodland Creature",
-					"Chariot Charge"
+					"Chariot Charge (Sleigh)"
 				]
 			},
 			{
@@ -30226,6 +30226,11 @@
 				"name": "Chariot Charge",
 				"tag": "Active",
 				"definition": "When an Iron Hills Chariot Moves via Chariot Charge, it will inflict 3 Strength 6 Impact Hits."
+			},
+			{
+				"name": "Chariot Charge (Sleigh)",
+				"tag": "Active",
+				"definition": "When Radagast's Sleigh Moves via Chariot Charge, it will inflict 2 Strength 4 Impact Hits."
 			},
 			{
 				"name": "Mercenary Ambush",
