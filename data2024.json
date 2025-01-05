@@ -28227,7 +28227,7 @@
 				"definition": "At the start of each Fight phase, before Heroic Actions are declared, roll a D6. On a 4+, all friendly Moria Goblin models within 3\" of Groblog gain +1 Fight until the End phase of the turn."
 			},
 			{
-				"name": "The Windlance",
+				"name": "Windlance",
 				"type": "siegeEngine",
 				"strength": 10,
 				"defence": 10,
@@ -29545,7 +29545,7 @@
 			{
 				"name": "Foresight of the Eldar",
 				"tag": "Passive",
-				"definition": "At the start of the game, before either side deploys, roll a D6 and make a note of the result - this is the number of Foresight Points that Elrond has for the battle. During the roll for Priority, so long as he is alive and on the battlefield, Elrond can spend these Foresight Points to increase the roll on his controlling player's roll for Priority. For each Foresight Point spent, increase the dice roll by 1, to a maximum of 6."
+				"definition": "At the start of the game, before either side deploys, roll a D6 and make a note of the result - this is the number of Foresight Points that this model has for the battle. During the roll for Priority, so long as he is alive and on the battlefield, this model can spend these Foresight Points to increase the roll on his controlling player's roll for Priority. For each Foresight Point spent, increase the dice roll by 1, to a maximum of 6."
 			},
 			{
 				"name": "Shieldwall",
@@ -31281,7 +31281,7 @@
 			{
 				"name": "Deadeye",
 				"tag": "Active",
-				"definition": "If Ori scores a 6 when rolling To Hit, do not take any In The Way tests, and do not roll To Wound. His target automatically suffers a single Wound."
+				"definition": "If Ori scores a natural 6 when rolling To Hit, do not take any In The Way tests, and do not roll To Wound. His target automatically suffers a single Wound."
 			},
 			{
 				"name": "Goblin Crew",
