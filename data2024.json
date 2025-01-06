@@ -1647,6 +1647,7 @@
 							{
 								"name": "Exchange great bow for armour and horse",
 								"points": 20,
+								"usesDefinition": "Armour",
 								"elementPropertyName": "options"
 							}
 						]
@@ -15133,7 +15134,7 @@
 					{
 						"name": "Exchange great bow for armour and horse",
 						"points": 20,
-						"useDefinition": "Armour",
+						"usesDefinition": "Armour",
 						"elementPropertyName": "options",
 						"in": [
 							[
@@ -15153,7 +15154,7 @@
 					{
 						"name": "Exchange great bow for armour and horse",
 						"points": 20,
-						"useDefinition": "Armour",
+						"usesDefinition": "Armour",
 						"availableIn": [
 							"The Battle of Five Armies",
 							"Survivors of Lake-town"
@@ -31737,7 +31738,7 @@
 			},
 			{
 				"name": "Bard's Family",
-				"definition": "If any member of Bard's Family is slain, then make a note of the model that killed them. For the remainder of the game, whenever Bard Activates if he can Charge an enemy model that killed a member of his family, then he must prioritize that model to Charge. If when Bard Activates he can Charge multiple enemy models that have killed members of his family (if applicable), then he may choose which of them he must Charge."
+				"definition": "Bard's Family is made up of Bain, son of Bard, and Sigrid & Tilda, and will count as three models. You may only include Bard's Family in your Army if it also includes Bard the Bowman, in swhich case they must always be included as part of Bard's Warband.\n                If any member of Bard's Family is slain, then make a note of the model that killed them. For the remainder of the game, whenever Bard Activates if he can Charge an enemy model then he must do so; if he is able to Charge an enemy model that killed a member of his family, then he must prioritise that model to Charge. If when Bard Activates he can Charge multiple enemy models that have killed members of his family (if applicable), then he may choose which of them he must Charge."
 			},
 			{
 				"name": "Slip Away",
