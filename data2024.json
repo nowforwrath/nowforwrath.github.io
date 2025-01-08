@@ -1964,6 +1964,18 @@
 						"elementPropertyName": "heroes"
 					}
 				],
+				"overrideLimits": [
+					{
+						"by": "faction",
+						"type": "bow",
+						"percentage": 50
+					},
+					{
+						"by": "faction",
+						"type": "throwingWeapon",
+						"percentage": 50
+					}
+				],
 				"childMatchesRequired": [
 					{
 						"elementPropertyName": "heroes",
