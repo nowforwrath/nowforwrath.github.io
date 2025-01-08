@@ -18911,9 +18911,7 @@
 					"Sigils of Defiance",
 					"Awesome Presence"
 				],
-				"wargear": [
-					"Howdah"
-				],
+				"wargear": [],
 				"includes": [
 					{
 						"dataSource": "heroes",
@@ -19026,9 +19024,7 @@
 					"Trample (Mumak)",
 					"Awesome Presence"
 				],
-				"wargear": [
-					"Howdah"
-				],
+				"wargear": [],
 				"includes": [
 					{
 						"dataSource": "heroes",
@@ -19037,8 +19033,13 @@
 					{
 						"dataSource": "heroes",
 						"name": "Mumak"
+					},
+					{
+						"dataSource": "heroes",
+						"name": "Howdah"
 					}
-				]
+				],
+				"decreaseModelCount": 1
 			},
 			{
 				"name": "Mumak",
@@ -19073,6 +19074,19 @@
 				],
 				"options": [],
 				"specialRules": [],
+				"wargear": []
+			},
+			{
+				"name": "Howdah",
+				"factions": [],
+				"unavailableSolo": true,
+				"points": 0,
+				"defence": 9,
+				"wounds": 5,
+				"options": [],
+				"specialRules": [
+					"Howdah"
+				],
 				"wargear": []
 			},
 			{
@@ -32011,6 +32025,10 @@
 				"name": "Mahud Beastmaster Chieftain",
 				"tag": "Passive",
 				"definition": "The Haradrim Commander is replaced by a Mahud Beastmaster Chieftain, which is placed on the forked wooden platform at the front of the Howdah."
+			},
+			{
+				"name": "Howdah",
+				"definition": "The Howdah has a capacity of 12 models in addition to the Haradrim Commander, which is placed on the highest part of the Howdah. The only other models the Howdah may include are Haradrim Warriors."
 			}
 		],
 		"armyBonuses": [
