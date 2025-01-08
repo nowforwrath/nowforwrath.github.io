@@ -1306,7 +1306,8 @@
 					{
 						"label": "Broken",
 						"property": "models",
-						"percentage": 66,
+						"percentage": 66.66666,
+						"add": 1,
 						"roundup": true,
 						"suffix": " killed"
 					}
@@ -1409,7 +1410,8 @@
 					{
 						"label": "Broken",
 						"property": "models",
-						"percentage": 66,
+						"percentage": 66.66666,
+						"add": 1,
 						"roundup": true,
 						"suffix": " killed"
 					}
@@ -1438,7 +1440,8 @@
 					{
 						"label": "Broken",
 						"property": "models",
-						"percentage": 66,
+						"percentage": 66.66666,
+						"add": 1,
 						"roundup": true,
 						"suffix": " killed"
 					}
@@ -4780,7 +4783,11 @@
 						"name": "Merry",
 						"points": 25,
 						"addsModels": 1,
-						"unlockedBy": "Horse"
+						"unlockedBy": "Horse",
+						"availableIn": [
+							"Riders of Theoden",
+							"Defenders of the Pelennor"
+						]
 					},
 					{
 						"name": "Armour",
@@ -25228,7 +25235,11 @@
 				"options": [
 					{
 						"name": "Replace Pike with Banner",
-						"points": 25
+						"points": 25,
+						"remove": {
+							"name": "Pike",
+							"property": "wargear"
+						}
 					}
 				],
 				"specialRules": [
