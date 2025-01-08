@@ -1306,9 +1306,8 @@
 					{
 						"label": "Broken",
 						"property": "models",
-						"percentage": 66.66666,
+						"percentage": 66,
 						"add": 1,
-						"roundup": true,
 						"suffix": " killed"
 					}
 				],
@@ -1410,9 +1409,8 @@
 					{
 						"label": "Broken",
 						"property": "models",
-						"percentage": 66.66666,
+						"percentage": 66,
 						"add": 1,
-						"roundup": true,
 						"suffix": " killed"
 					}
 				],
@@ -1440,9 +1438,8 @@
 					{
 						"label": "Broken",
 						"property": "models",
-						"percentage": 66.66666,
+						"percentage": 66,
 						"add": 1,
-						"roundup": true,
 						"suffix": " killed"
 					}
 				],
