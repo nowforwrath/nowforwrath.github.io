@@ -31584,7 +31584,7 @@
 			{
 				"name": "\"Looks like meat's back on the menu, boys!",
 				"tag": "Active",
-				"definition": "At the start of his Activation, Ugluk can kill a friendly Orc Warrior within 2\" of him; remove the killed model as a casualty. If Ugluk does this, then all friendly Uruk-hai models within 6\" of him gain the Fearless special rule and gain a bonus of +1 To Wound when making STrikes until the end of the turn. If Ugluk does this in a turn in which his Army is Borken, then it will also count as triggering the Head Taker rule above."
+				"definition": "At the start of his Activation, Ugluk can kill a friendly Orc Warrior within 2\" of him; remove the killed model as a casualty. If Ugluk does this, then all friendly Uruk-hai models within 6\" of him gain the Fearless special rule and gain a bonus of +1 To Wound when making Strikes until the end of the turn. If Ugluk does this in a turn in which his Army is Broken, then it will also count as triggering the Head Taker rule above."
 			},
 			{
 				"name": "One Final Blow",
