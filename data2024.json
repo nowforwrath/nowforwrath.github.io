@@ -18929,6 +18929,46 @@
 				]
 			},
 			{
+				"name": "Haradrim Commander",
+				"factions": [],
+				"autoAddOnly": true,
+				"points": 0,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"faction": [
+					"Harad"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic March"
+				],
+				"options": [],
+				"specialRules": [],
+				"wargear": [
+					"Armour",
+					"Spear"
+				]
+			},
+			{
 				"name": "War Mumak of Harad",
 				"factions": [
 					{
@@ -18941,19 +18981,8 @@
 					}
 				],
 				"unlimited": true,
+				"hideStats": true,
 				"points": 250,
-				"movement": 8,
-				"fight": 4,
-				"shoot": 6,
-				"strength": 10,
-				"defence": 7,
-				"attack": 3,
-				"wounds": 10,
-				"courage": 8,
-				"intelligence": 9,
-				"might": 0,
-				"will": 0,
-				"fate": 0,
 				"race": [
 					"Mumak"
 				],
