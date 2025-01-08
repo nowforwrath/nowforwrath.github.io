@@ -17260,7 +17260,10 @@
 					"Ancient Enemies (Elf)",
 					"Dominant (5)",
 					"Large Target",
-					"Terror"
+					"Terror",
+					"Goblin Crew",
+					"Catapult",
+					"Area Effect"
 				],
 				"wargear": [
 					"Catapult",
@@ -28417,12 +28420,12 @@
 			},
 			{
 				"name": "Catapult",
-				"definition": "A Catapult Troll always follows the rules for Volley Fire, giving it a range of 12\"-96\". Shots fired from the Catapult are resolved at Strength 10. When firing the Catapult, follow the rules for Siege Engines in the main rules manual with the following exceptions:\n        \n                The Catapult Troll may still fire in the same turn that it has moved in, even if this is up to its full Move value. However, if the Catapult Troll has moved, it will only hit on the roll of a 6. The Catapult may still be fired whilst the Troll is in combat. If you wish to do this, and a 1 is rolled when rolling To Hit, the Catapult will malfunction and the Catapult Troll will suffer a wound. A Catapult Troll does not have a crew in the same way as a conventional Siege Engine – however, it is classed as a large Siege Engine and the Troll itself is considered to be the Siege Veteran. However, unlike other Siege Veterans, the Troll has no points of Might, Will or Fate. Unlike other Siege Engines, the Catapult Troll cannot be destroyed if a model spends its entire turn in base contact with it."
+				"definition": "The Catapult on the back of the Catapult Troll can be fired in the same way as a normal Siege Engine; it has a range of 12\"-96\" and has a Strength of 10. The Catapult may still be fired even if the Troll has Moved, even up to its full Move Value; however, in either instance it will only ever hit on the roll of a natural 6. The Catapult may still be fired if the Troll is Engaged in Combat; however, if a natural 1 is rolled when rolling To Hit in this instance, the Catapult will malfunction and the Troll will suffer a Wound.\n                The Catapult does not have a conventional crew, and therefore can always be fired so long as the Troll is still alive. Additionally, other models can never fire this Catapult as Untrained Crew. Additionally, unlike other Siege Engine models, the Catapult cannot be destroyed by an enemy model spending an entire turn in base contact with it.\n                \n                The Catapult has the Arcing Shot special rule."
 			},
 			{
 				"name": "Metal Gauntlets",
 				"tag": "Active",
-				"definition": "Catapult Trolls never count as being unarmed. Furthermore, count their Strength as 10 when rolling for distance with a Hurl Brutal Power Attack."
+				"definition": "Any Strikes made by this model are resolved at Strength 10. Additionally, this model may re-roll the dice when determining the Hurl Distance when usign the Hurl Brutal Power Attack."
 			},
 			{
 				"name": "Royal Standard of Rohan",
@@ -31285,7 +31288,7 @@
 			{
 				"name": "Goblin Crew",
 				"tag": "Active",
-				"definition": "If the Catapult Troll wins the Fight, in addition to any Strikes that the Troll makes, the Goblin crew may also make Strikes against those in combat with the Troll. The Goblins inflict D6 Strength 3 Strikes if the Catapult Troll wins the Fight. Note that if the Catapult Troll uses a Brutal Power Attack, then the Goblins do not get these additional Strikes."
+				"definition": "If the Catapult Troll wins a Combat, then after making any Strikes, the Goblins may make D6 additional Strikes following all the usual rules. These Strikes are resolved at Strength 3. Note that if the Catapult Troll uses a Brutal Power Attack that immediately ends the Combat, then the Goblins will not get these additional Strikes."
 			},
 			{
 				"name": "Crushing Blow",
