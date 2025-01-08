@@ -5837,7 +5837,7 @@
 					{
 						"name": "Transfix",
 						"range": 12,
-						"casting": 3
+						"casting": 4
 					}
 				]
 			},
@@ -6797,6 +6797,18 @@
 				],
 				"heroicActions": [
 					"Heroic March"
+				],
+				"requiredChildren": [
+					{
+						"name": "Warg",
+						"points": 20,
+						"in": [
+							[
+								"Wolves of Isengard"
+							]
+						],
+						"elementPropertyName": "options"
+					}
 				],
 				"options": [
 					{
@@ -14284,7 +14296,7 @@
 				"courage": 6,
 				"intelligence": 7,
 				"might": 2,
-				"will": 2,
+				"will": 1,
 				"fate": 1,
 				"race": [
 					"Man"
