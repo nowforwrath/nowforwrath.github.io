@@ -1015,6 +1015,16 @@
 					"\"There were some who resisted\"",
 					"Strength of Numenor"
 				],
+				"requireOne": [
+					[
+						"Elendil, High King of Gondor and Arnor",
+						"Isildur, Prince of Numenor"
+					],
+					[
+						"Gil-Galad, High King of the Noldor",
+						"Elrond, Master of Rivendell"
+					]
+				],
 				"childMatchesRequired": [
 					{
 						"elementPropertyName": "heroes",
