@@ -1967,6 +1967,15 @@
 					"Lords of the Kingdoms",
 					"Great Prosperity"
 				],
+				"requireOne": [
+					[
+						"Thror, King Under the Mountain",
+						"Thrain, Son of Thror",
+						"Young Balin the Dwarf",
+						"Young Dwalin the Dwarf",
+						"Young Thorin Oakenshield"
+					]
+				],
 				"requiredChildren": [
 					{
 						"name": "Girion, Lord of Dale",
@@ -2045,7 +2054,14 @@
 					"\"If you think I'm giving you a weapon Dwarf, you are sorely mistaken\""
 				],
 				"specialRules": [
+					"Hatred (Spider)",
 					"Knife Fighters"
+				],
+				"requireOne": [
+					[
+						"Legolas Greenleaf, Prince of Mirkwood",
+						"Tauriel, Ranger of Mirkwood"
+					]
 				],
 				"childMatchesRequired": [
 					{
