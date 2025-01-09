@@ -794,7 +794,7 @@
 				"alignment": "good",
 				"additionalRules": [
 					"A Garrison of Ithilien Army must include Faramir, Captain of Gondor, who is always the Army's General.",
-					"You may only include Same if your Army also includes Frodo. You may only include Smeagol if your ARmy includes Frodo and Sam.",
+					"You may only include Sam if your Army also includes Frodo. You may only include Smeagol if your Army includes Frodo and Sam.",
 					"Frodo, Sam and Smeagol may not lead Warrior models in this Army."
 				],
 				"armyBonuses": [
