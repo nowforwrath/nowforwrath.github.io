@@ -290,6 +290,41 @@
 							"type": "list",
 							"children": [
 								{
+									"propertyName": "magicalPowers",
+									"label": "Magical Powers",
+									"type": "static",
+									"dataSource": "magicalPowers",
+									"stats": [
+										{
+											"name": "Magical Power",
+											"propertyName": "name"
+										},
+										{
+											"name": "Range",
+											"propertyName": "range",
+											"trail": "\"",
+											"definedOnUnit": true
+										},
+										{
+											"name": "Casting",
+											"propertyName": "casting",
+											"trail": "+",
+											"definedOnUnit": true
+										},
+										{
+											"name": "Duration",
+											"propertyName": "duration",
+											"inTooltip": true,
+											"printDisplay": "parentheses"
+										},
+										{
+											"name": "Definition",
+											"propertyName": "definition",
+											"inTooltip": true
+										}
+									]
+								},
+								{
 									"propertyName": "options",
 									"type": "checkbox",
 									"dataSource": "gear",
@@ -575,13 +610,10 @@
 					"Resistant to Magic",
 					"Fearless"
 				],
-				"requiredChildren": [
-					{
-						"name": "Frodo Baggins",
-						"points": 55,
-						"elementPropertyName": "heroes",
-						"quantity": 1
-					}
+				"requireOne": [
+					[
+						"Frodo Baggins"
+					]
 				]
 			},
 			{
@@ -928,7 +960,7 @@
 				"additionalRules": [
 					"Rohan Warrior models can only be included in the Warband of a Rohan Hero.",
 					"Gondor Warrior models can only be included in the Warband of a Gondor Hero or Gandalf the White.",
-					"Dunharrow Warrior models can only be included in the Warabnd of a Dunharrow Hero, or in the Warband of Aragorn, Leolas, or Gimli."
+					"Dunharrow Warrior models can only be included in the Warband of a Dunharrow Hero, or in the Warband of Aragorn, Leolas, or Gimli."
 				],
 				"armyBonuses": [
 					"Defend the White City"
@@ -1493,7 +1525,7 @@
 				"alignment": "evil",
 				"additionalRules": [
 					"If your Army includes Freca, then he must be your General.",
-					"Rohirrim Traitors can only be included in Lord Thorne's Warabnd."
+					"Rohirrim Traitors can only be included in Lord Thorne's Warband."
 				],
 				"armyBonuses": [
 					"Whipped into a frenzy",
@@ -1615,7 +1647,7 @@
 				"additionalRules": [
 					"Elf Warrior models can only be included in the Warband of an Elf Hero.",
 					"Dwarf Warrior models can only be included in the Warband of an Dwarf Hero.",
-					"Lake-town Warrior models can only be included in the Warband of an Lake-town Hero, or in the Warabnd of Gandalf the Grey or Bilbo Baggins.",
+					"Lake-town Warrior models can only be included in the Warband of an Lake-town Hero, or in the Warband of Gandalf the Grey or Bilbo Baggins.",
 					"Eagle Warrior models can only be included in the Warband of an Eagle Hero, or in the Warband of Radagast the Brown or Beorn.",
 					"The Battle of Five Armies may not include more Fledgeling Great Eagles than Great Eagles."
 				],
@@ -9275,10 +9307,6 @@
 						"heroicTier": "Hero of Valour"
 					},
 					{
-						"name": "Breaking of the Fellowship",
-						"heroicTier": "Hero of Valour"
-					},
-					{
 						"name": "Defenders of Helm's Deep",
 						"heroicTier": "Hero of Valour"
 					},
@@ -9328,18 +9356,6 @@
 					"Infantry",
 					"Hero"
 				],
-				"requiredChildren": [
-					{
-						"elementPropertyName": "options",
-						"name": "Elven Cloak",
-						"in": [
-							[
-								"Breaking of the Fellowship"
-							]
-						],
-						"points": 0
-					}
-				],
 				"options": [
 					{
 						"name": "Elven Cloak",
@@ -9350,13 +9366,6 @@
 							"Road to Helm's Deep",
 							"Return of the King",
 							"Defenders of Helm's Deep"
-						]
-					},
-					{
-						"name": "Elven Cloak",
-						"points": 0,
-						"availableIn": [
-							"Breaking of the Fellowship"
 						]
 					}
 				],
@@ -9538,10 +9547,6 @@
 						"heroicTier": "Hero of Valour"
 					},
 					{
-						"name": "Breaking of the Fellowship",
-						"heroicTier": "Hero of Valour"
-					},
-					{
 						"name": "Defenders of Helm's Deep",
 						"heroicTier": "Hero of Valour"
 					},
@@ -9594,16 +9599,6 @@
 				"requiredChildren": [
 					{
 						"elementPropertyName": "options",
-						"name": "Elven Cloak",
-						"in": [
-							[
-								"Breaking of the Fellowship"
-							]
-						],
-						"points": 0
-					},
-					{
-						"elementPropertyName": "options",
 						"name": "Horse",
 						"in": [
 							[
@@ -9637,13 +9632,6 @@
 							"Return of the King",
 							"Defenders of Helm's Deep",
 							"Defenders of the Pelennor"
-						]
-					},
-					{
-						"name": "Elven Cloak",
-						"points": 0,
-						"availableIn": [
-							"Breaking of the Fellowship"
 						]
 					},
 					{
@@ -9684,10 +9672,6 @@
 				"factions": [
 					{
 						"name": "The Fellowship",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "Breaking of the Fellowship",
 						"heroicTier": "Hero of Valour"
 					}
 				],
@@ -9730,18 +9714,6 @@
 					"Infantry",
 					"Hero"
 				],
-				"requiredChildren": [
-					{
-						"elementPropertyName": "options",
-						"name": "Elven Cloak",
-						"in": [
-							[
-								"Breaking of the Fellowship"
-							]
-						],
-						"points": 0
-					}
-				],
 				"options": [
 					{
 						"name": "Horse",
@@ -9756,18 +9728,10 @@
 						"availableIn": []
 					},
 					{
-						"name": "Elven Cloak",
-						"points": 0,
-						"availableIn": [
-							"Breaking of the Fellowship"
-						]
-					},
-					{
 						"name": "Shield",
 						"points": 5,
 						"availableIn": [
-							"The Fellowship",
-							"Breaking of the Fellowship"
+							"The Fellowship"
 						]
 					}
 				],
@@ -9793,10 +9757,6 @@
 					},
 					{
 						"name": "The Shire",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Breaking of the Fellowship",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -9841,16 +9801,6 @@
 						"name": "Elven Cloak",
 						"in": [
 							[
-								"Breaking of the Fellowship"
-							]
-						],
-						"points": 0
-					},
-					{
-						"elementPropertyName": "options",
-						"name": "Elven Cloak",
-						"in": [
-							[
 								"Rangers of Ithilien"
 							]
 						],
@@ -9883,7 +9833,6 @@
 						"points": 5,
 						"availableIn": [
 							"The Fellowship",
-							"Breaking of the Fellowship",
 							"Road to Rivendell"
 						]
 					},
@@ -9892,20 +9841,7 @@
 						"points": 15,
 						"availableIn": [
 							"The Fellowship",
-							"Breaking of the Fellowship",
 							"Road to Rivendell"
-						]
-					},
-					{
-						"name": "Elven Cloak",
-						"points": 5,
-						"availableIn": []
-					},
-					{
-						"name": "Elven Cloak",
-						"points": 0,
-						"availableIn": [
-							"Breaking of the Fellowship"
 						]
 					}
 				],
@@ -10028,10 +9964,6 @@
 					{
 						"name": "Road to Rivendell",
 						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Breaking of the Fellowship",
-						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 40,
@@ -10070,32 +10002,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"requiredChildren": [
-					{
-						"elementPropertyName": "options",
-						"name": "Elven Cloak",
-						"in": [
-							[
-								"Breaking of the Fellowship"
-							]
-						],
-						"points": 0
-					}
-				],
-				"options": [
-					{
-						"name": "Elven Cloak",
-						"points": 0,
-						"availableIn": [
-							"Breaking of the Fellowship"
-						]
-					},
-					{
-						"name": "Elven Cloak",
-						"points": 5,
-						"availableIn": []
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
 					"Throw Stones (range 8\", Strength 1)",
@@ -10214,10 +10121,6 @@
 					{
 						"name": "Road to Rivendell",
 						"heroicTier": "Independent Hero"
-					},
-					{
-						"name": "Breaking of the Fellowship",
-						"heroicTier": "Minor Hero"
 					}
 				],
 				"points": 10,
@@ -10253,32 +10156,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"requiredChildren": [
-					{
-						"elementPropertyName": "options",
-						"name": "Elven Cloak",
-						"in": [
-							[
-								"Breaking of the Fellowship"
-							]
-						],
-						"points": 0
-					}
-				],
-				"options": [
-					{
-						"name": "Elven Cloak",
-						"points": 0,
-						"availableIn": [
-							"Breaking of the Fellowship"
-						]
-					},
-					{
-						"name": "Elven Cloak",
-						"points": 5,
-						"availableIn": []
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
 					"Throw Stones (range 8\", Strength 1)",
@@ -10302,10 +10180,6 @@
 					{
 						"name": "Road to Rivendell",
 						"heroicTier": "Independent Hero"
-					},
-					{
-						"name": "Breaking of the Fellowship",
-						"heroicTier": "Minor Hero"
 					}
 				],
 				"points": 10,
@@ -10327,32 +10201,7 @@
 					"Infantry",
 					"Hero"
 				],
-				"requiredChildren": [
-					{
-						"elementPropertyName": "options",
-						"name": "Elven Cloak",
-						"in": [
-							[
-								"Breaking of the Fellowship"
-							]
-						],
-						"points": 0
-					}
-				],
-				"options": [
-					{
-						"name": "Elven Cloak",
-						"points": 0,
-						"availableIn": [
-							"Breaking of the Fellowship"
-						]
-					},
-					{
-						"name": "Elven Cloak",
-						"points": 5,
-						"availableIn": []
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
 					"Throw Stones (range 8\", Strength 1)",
@@ -10511,118 +10360,6 @@
 				],
 				"wargear": [
 					"Strangling Fingers"
-				]
-			},
-			{
-				"name": "Gandalf the Grey (Thorin's Company)",
-				"factions": [
-					{
-						"name": "Thorin's Company",
-						"heroicTier": "Hero of Valour"
-					}
-				],
-				"points": 170,
-				"movement": 6,
-				"fight": 5,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 5,
-				"attack": 2,
-				"wounds": 3,
-				"courage": 3,
-				"intelligence": 3,
-				"might": 3,
-				"will": 6,
-				"fate": 3,
-				"race": [
-					"Wizard"
-				],
-				"faction": [
-					"Thorin's Company"
-				],
-				"unitType": [
-					"Hero",
-					"Infantry",
-					"Unique"
-				],
-				"baseSize": [
-					"25mm"
-				],
-				"heroicActions": [
-					"Heroic Channeling",
-					"Heroic Defence",
-					"Heroic Resolve",
-					"Heroic Strike"
-				],
-				"keywords": [
-					"Wizard",
-					"Infantry",
-					"Hero"
-				],
-				"specialRules": [],
-				"wargear": [
-					"Glamdring",
-					"Narya",
-					"Staff of Power"
-				],
-				"options": [
-					{
-						"name": "Horse",
-						"points": 20,
-						"availableIn": [
-							"Survivors of Lake-town",
-							"The Battle of Five Armies"
-						]
-					},
-					{
-						"name": "Gandalf's Cart",
-						"points": 25,
-						"availableIn": [
-							"The Shire"
-						]
-					}
-				],
-				"magicalPowers": [
-					{
-						"name": "Protection of the Valar",
-						"range": 6,
-						"casting": 3
-					},
-					{
-						"name": "Terrifying Aura",
-						"range": 0,
-						"casting": 3
-					},
-					{
-						"name": "Blinding Light",
-						"range": 0,
-						"casting": 4
-					},
-					{
-						"name": "Strengthen Will",
-						"range": 12,
-						"casting": 4
-					},
-					{
-						"name": "Transfix",
-						"range": 12,
-						"casting": 4
-					},
-					{
-						"name": "Collapse Rocks",
-						"range": 12,
-						"casting": 5
-					},
-					{
-						"name": "Foil Magic",
-						"range": 12,
-						"casting": 5
-					},
-					{
-						"name": "Sorcerous Blast",
-						"range": 12,
-						"casting": 5
-					}
 				]
 			},
 			{
@@ -12498,10 +12235,6 @@
 				"name": "Ori the Dwarf",
 				"factions": [
 					{
-						"name": "Thorin's Company",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
 						"name": "Rangers of Mirkwood",
 						"heroicTier": "Hero of Fortitude"
 					}
@@ -12610,10 +12343,6 @@
 				"name": "Nori the Dwarf",
 				"factions": [
 					{
-						"name": "Thorin's Company",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
 						"name": "Rangers of Mirkwood",
 						"heroicTier": "Hero of Fortitude"
 					}
@@ -12719,10 +12448,6 @@
 			{
 				"name": "Dori the Dwarf",
 				"factions": [
-					{
-						"name": "Thorin's Company",
-						"heroicTier": "Hero of Fortitude"
-					},
 					{
 						"name": "Rangers of Mirkwood",
 						"heroicTier": "Hero of Fortitude"
@@ -12864,10 +12589,6 @@
 				"name": "Oin the Dwarf",
 				"factions": [
 					{
-						"name": "Thorin's Company",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
 						"name": "Rangers of Mirkwood",
 						"heroicTier": "Hero of Fortitude"
 					},
@@ -12982,10 +12703,6 @@
 			{
 				"name": "Gloin the Dwarf",
 				"factions": [
-					{
-						"name": "Thorin's Company",
-						"heroicTier": "Hero of Fortitude"
-					},
 					{
 						"name": "Rangers of Mirkwood",
 						"heroicTier": "Hero of Fortitude"
@@ -13545,10 +13262,6 @@
 				"name": "Dwalin the Dwarf",
 				"factions": [
 					{
-						"name": "Thorin's Company",
-						"heroicTier": "Hero of Valour"
-					},
-					{
 						"name": "Rangers of Mirkwood",
 						"heroicTier": "Hero of Valour"
 					}
@@ -13600,10 +13313,6 @@
 				"name": "Kili the Dwarf",
 				"factions": [
 					{
-						"name": "Thorin's Company",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
 						"name": "Rangers of Mirkwood",
 						"heroicTier": "Hero of Valour"
 					},
@@ -13653,10 +13362,6 @@
 			{
 				"name": "Fili the Dwarf",
 				"factions": [
-					{
-						"name": "Thorin's Company",
-						"heroicTier": "Hero of Fortitude"
-					},
 					{
 						"name": "Rangers of Mirkwood",
 						"heroicTier": "Hero of Valour"
@@ -13710,10 +13415,6 @@
 			{
 				"name": "Balin the Dwarf",
 				"factions": [
-					{
-						"name": "Thorin's Company",
-						"heroicTier": "Hero of Valour"
-					},
 					{
 						"name": "Rangers of Mirkwood",
 						"heroicTier": "Hero of Valour"
@@ -13998,10 +13699,6 @@
 				"name": "Bifur the Dwarf",
 				"factions": [
 					{
-						"name": "Thorin's Company",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
 						"name": "Rangers of Mirkwood",
 						"heroicTier": "Hero of Fortitude"
 					}
@@ -14139,10 +13836,6 @@
 				"name": "Bofur the Dwarf",
 				"factions": [
 					{
-						"name": "Thorin's Company",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
 						"name": "Rangers of Mirkwood",
 						"heroicTier": "Hero of Fortitude"
 					},
@@ -14244,14 +13937,7 @@
 			{
 				"name": "Bombur the Dwarf",
 				"factions": [
-					{
-						"name": "Thorin's Company",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Rangers of Mirkwood",
-						"heroicTier": "Hero of Fortitude"
-					}
+					"Thorin's Company"
 				],
 				"points": 45,
 				"movement": 5,
@@ -15688,10 +15374,6 @@
 					{
 						"name": "Rangers of Mirkwood",
 						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Thorin's Company",
-						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unique": true,
@@ -15763,8 +15445,7 @@
 				],
 				"wargear": [
 					"Hand weapon"
-				],
-				"countAsProperty": "heroes"
+				]
 			},
 			{
 				"name": "Lake-town Militia Captain",
@@ -16839,10 +16520,6 @@
 					{
 						"name": "The Battle of Five Armies",
 						"heroicTier": "Hero of Legend"
-					},
-					{
-						"name": "Thorin's Company",
-						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 145,
@@ -16904,7 +16581,6 @@
 						"points": 35,
 						"chooseOneKey": "a",
 						"availableIn": [
-							"Thorin's Company",
 							"The White Council"
 						]
 					}
@@ -17343,7 +17019,8 @@
 					},
 					{
 						"name": "Thorin's Company",
-						"heroicTier": "Hero of Valour"
+						"heroicTier": "Hero of Valour",
+						"unlockedBy": "Gandalf the Grey (Thorin's Company)"
 					}
 				],
 				"points": 150,
@@ -18379,50 +18056,6 @@
 						"range": 12,
 						"casting": 5
 					}
-				]
-			},
-			{
-				"name": "Nazgul of Dol Guldur",
-				"factions": [],
-				"points": 80,
-				"movement": 6,
-				"fight": 5,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 6,
-				"attack": 2,
-				"wounds": 1,
-				"courage": 4,
-				"intelligence": 5,
-				"might": 1,
-				"will": 1,
-				"fate": 0,
-				"race": [
-					"Spirit",
-					"Ringwraith"
-				],
-				"faction": [
-					"Dol Guldur"
-				],
-				"unitType": [
-					"Hero",
-					"Infantry",
-					"Unique"
-				],
-				"baseSize": [
-					"25mm"
-				],
-				"heroicActions": [
-					"Heroic Strike"
-				],
-				"options": [],
-				"specialRules": [
-					"Unholy Resurrection",
-					"One of Nine"
-				],
-				"wargear": [
-					"Armour",
-					"Sword"
 				]
 			},
 			{
@@ -19814,6 +19447,1978 @@
 		],
 		"warriors": [
 			{
+				"name": "Sauron, the Necromancer",
+				"unavailableWith": [
+					"Hunter Orc Captain",
+					"Hunter Orc Warg Rider",
+					"Fell Warg",
+					"Hunter Orc Warrior",
+					"Mirkwood Giant Spider",
+					"Mirkwood Hunting Spider"
+				],
+				"factions": [
+					"Rise of the Necromancer"
+				],
+				"countAsProperty": "heroes",
+				"unique": true,
+				"points": 200,
+				"movement": 6,
+				"fight": 7,
+				"shoot": 6,
+				"strength": 6,
+				"defence": 8,
+				"attack": 2,
+				"wounds": 1,
+				"courage": 4,
+				"intelligence": 3,
+				"might": 3,
+				"will": 25,
+				"fate": 0,
+				"race": [
+					"Spirit"
+				],
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Channelling",
+					"Heroic Strength"
+				],
+				"options": [],
+				"specialRules": [
+					"Dominant (5)",
+					"Harbinger of Evil (18\")",
+					"Spectral Walk",
+					"Terror",
+					"Will of Evil",
+					"He cannot yet take physical form",
+					"Drain Soul",
+					"Master of the Nazgul"
+				],
+				"wargear": [
+					"Spectral hands (hand weapons)"
+				],
+				"magicalPowers": [
+					{
+						"name": "Compel",
+						"range": 12,
+						"casting": 3
+					},
+					{
+						"name": "Drain Courage",
+						"range": 12,
+						"casting": 3
+					},
+					{
+						"name": "Transfix",
+						"range": 12,
+						"casting": 3
+					},
+					{
+						"name": "Curse",
+						"range": 12,
+						"casting": 4
+					},
+					{
+						"name": "Fog of Disarray",
+						"range": null,
+						"casting": 4
+					},
+					{
+						"name": "Instill Fear",
+						"range": null,
+						"casting": 4
+					},
+					{
+						"name": "Wither",
+						"range": 12,
+						"casting": 4
+					},
+					{
+						"name": "Chill Soul",
+						"range": 12,
+						"casting": 5
+					},
+					{
+						"name": "Your Staff is Broken",
+						"range": 12,
+						"casting": 5
+					}
+				]
+			},
+			{
+				"name": "Nazgul of Dol Guldur (Witch King)",
+				"factions": [
+					"Rise of the Necromancer"
+				],
+				"unavailableWith": [
+					"Hunter Orc Captain",
+					"Hunter Orc Warg Rider",
+					"Fell Warg",
+					"Hunter Orc Warrior",
+					"Mirkwood Giant Spider",
+					"Mirkwood Hunting Spider"
+				],
+				"countAsProperty": "heroes",
+				"unique": true,
+				"points": 80,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 1,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 3,
+				"will": 1,
+				"fate": 0,
+				"race": [
+					"Spirit",
+					"Ringwraith"
+				],
+				"faction": [
+					"Dol Guldur"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strike"
+				],
+				"options": [],
+				"specialRules": [
+					"Unholy Resurrection",
+					"One of Nine",
+					"Angmar Arise"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				]
+			},
+			{
+				"name": "Nazgul of Dol Guldur (Khamul)",
+				"factions": [
+					"Rise of the Necromancer"
+				],
+				"unavailableWith": [
+					"Hunter Orc Captain",
+					"Hunter Orc Warg Rider",
+					"Fell Warg",
+					"Hunter Orc Warrior",
+					"Mirkwood Giant Spider",
+					"Mirkwood Hunting Spider"
+				],
+				"countAsProperty": "heroes",
+				"unique": true,
+				"points": 80,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 3,
+				"wounds": 1,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 1,
+				"will": 1,
+				"fate": 0,
+				"race": [
+					"Spirit",
+					"Ringwraith"
+				],
+				"faction": [
+					"Dol Guldur"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strike"
+				],
+				"options": [],
+				"specialRules": [
+					"Unholy Resurrection",
+					"One of Nine",
+					"Rhunish Fury"
+				],
+				"wargear": [
+					"Armour",
+					"Two-handed weapon"
+				]
+			},
+			{
+				"name": "Nazgul of Dol Guldur (Dark Headsman)",
+				"factions": [
+					"Rise of the Necromancer"
+				],
+				"unavailableWith": [
+					"Hunter Orc Captain",
+					"Hunter Orc Warg Rider",
+					"Fell Warg",
+					"Hunter Orc Warrior",
+					"Mirkwood Giant Spider",
+					"Mirkwood Hunting Spider"
+				],
+				"countAsProperty": "heroes",
+				"unique": true,
+				"points": 80,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 1,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 1,
+				"will": 1,
+				"fate": 0,
+				"race": [
+					"Spirit",
+					"Ringwraith"
+				],
+				"faction": [
+					"Dol Guldur"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strike"
+				],
+				"options": [],
+				"specialRules": [
+					"Unholy Resurrection",
+					"One of Nine",
+					"Executioner"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				]
+			},
+			{
+				"name": "Nazgul of Dol Guldur (The Forsaken)",
+				"factions": [
+					"Rise of the Necromancer"
+				],
+				"unavailableWith": [
+					"Hunter Orc Captain",
+					"Hunter Orc Warg Rider",
+					"Fell Warg",
+					"Hunter Orc Warrior",
+					"Mirkwood Giant Spider",
+					"Mirkwood Hunting Spider"
+				],
+				"countAsProperty": "heroes",
+				"unique": true,
+				"points": 80,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 1,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 1,
+				"will": 1,
+				"fate": 0,
+				"race": [
+					"Spirit",
+					"Ringwraith"
+				],
+				"faction": [
+					"Dol Guldur"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strike"
+				],
+				"options": [],
+				"specialRules": [
+					"Unholy Resurrection",
+					"One of Nine",
+					"Bane of Kings"
+				],
+				"wargear": [
+					"Armour",
+					"Spear"
+				]
+			},
+			{
+				"name": "Nazgul of Dol Guldur (The Lingering Shadow)",
+				"factions": [
+					"Rise of the Necromancer"
+				],
+				"unavailableWith": [
+					"Hunter Orc Captain",
+					"Hunter Orc Warg Rider",
+					"Fell Warg",
+					"Hunter Orc Warrior",
+					"Mirkwood Giant Spider",
+					"Mirkwood Hunting Spider"
+				],
+				"countAsProperty": "heroes",
+				"unique": true,
+				"points": 80,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 1,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 1,
+				"will": 1,
+				"fate": 0,
+				"race": [
+					"Spirit",
+					"Ringwraith"
+				],
+				"faction": [
+					"Dol Guldur"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strike"
+				],
+				"options": [],
+				"specialRules": [
+					"Unholy Resurrection",
+					"One of Nine",
+					"Unnatural Speed"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				]
+			},
+			{
+				"name": "Nazgul of Dol Guldur (The Abyssal Knight)",
+				"factions": [
+					"Rise of the Necromancer"
+				],
+				"unavailableWith": [
+					"Hunter Orc Captain",
+					"Hunter Orc Warg Rider",
+					"Fell Warg",
+					"Hunter Orc Warrior",
+					"Mirkwood Giant Spider",
+					"Mirkwood Hunting Spider"
+				],
+				"countAsProperty": "heroes",
+				"limit": 2,
+				"points": 80,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 1,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 1,
+				"will": 1,
+				"fate": 0,
+				"race": [
+					"Spirit",
+					"Ringwraith"
+				],
+				"faction": [
+					"Dol Guldur"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strike"
+				],
+				"options": [],
+				"specialRules": [
+					"Unholy Resurrection",
+					"One of Nine",
+					"Spiritual Displacement"
+				],
+				"wargear": [
+					"Armour",
+					"Elven hand-and-a-half weapon"
+				]
+			},
+			{
+				"name": "Nazgul of Dol Guldur (The Slayer of Men)",
+				"factions": [
+					"Rise of the Necromancer"
+				],
+				"unavailableWith": [
+					"Hunter Orc Captain",
+					"Hunter Orc Warg Rider",
+					"Fell Warg",
+					"Hunter Orc Warrior",
+					"Mirkwood Giant Spider",
+					"Mirkwood Hunting Spider"
+				],
+				"countAsProperty": "heroes",
+				"limit": 2,
+				"points": 80,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 1,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 1,
+				"will": 1,
+				"fate": 0,
+				"race": [
+					"Spirit",
+					"Ringwraith"
+				],
+				"faction": [
+					"Dol Guldur"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strike"
+				],
+				"options": [],
+				"specialRules": [
+					"Unholy Resurrection",
+					"One of Nine",
+					"Angmar Arise (Slayer of Men)"
+				],
+				"wargear": [
+					"Armour",
+					"Two-handed weapon"
+				]
+			},
+			{
+				"name": "The Keeper of the Dungeons",
+				"factions": [
+					"Rise of the Necromancer"
+				],
+				"unavailableWith": [
+					"Hunter Orc Captain",
+					"Hunter Orc Warg Rider",
+					"Fell Warg",
+					"Hunter Orc Warrior",
+					"Mirkwood Giant Spider",
+					"Mirkwood Hunting Spider"
+				],
+				"unique": true,
+				"countAsProperty": "heroes",
+				"points": 80,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 5,
+				"strength": 5,
+				"defence": 6,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 6,
+				"might": 3,
+				"will": 3,
+				"fate": 0,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Dol Guldur"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"options": [],
+				"specialRules": [
+					"Burly",
+					"Torturer",
+					"\"You have something my master wants!\""
+				],
+				"wargear": [
+					"Heavy armour",
+					"Two-handed weapon"
+				]
+			},
+			{
+				"name": "Radagast the Brown",
+				"factions": [
+					"Thorin's Company"
+				],
+				"unique": true,
+				"countAsProperty": "heroes",
+				"points": 145,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 3,
+				"courage": 3,
+				"intelligence": 4,
+				"might": 3,
+				"will": 6,
+				"fate": 3,
+				"race": [
+					"Wizard"
+				],
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Channelling",
+					"Heroic Defence"
+				],
+				"options": [
+					{
+						"name": "Sleigh",
+						"points": 35,
+						"chooseOneKey": "a"
+					}
+				],
+				"specialRules": [
+					"Mountain Dweller",
+					"Stalk Unseen",
+					"Woodland Creature",
+					"Master of Birds"
+				],
+				"wargear": [
+					"Staff of Power",
+					"Hand weapon",
+					"Sebastian"
+				],
+				"magicalPowers": [
+					{
+						"name": "Panic Steed",
+						"range": 12,
+						"casting": 3
+					},
+					{
+						"name": "Terrifying Aura",
+						"casting": 3
+					},
+					{
+						"name": "Renew",
+						"range": 12,
+						"casting": 4
+					},
+					{
+						"name": "Transfix",
+						"range": 12,
+						"casting": 4
+					},
+					{
+						"name": "Aura of Dismay",
+						"casting": 5
+					},
+					{
+						"name": "Nature's Wrath",
+						"casting": 4
+					},
+					{
+						"name": "Writhing Vines",
+						"casting": 5
+					}
+				]
+			},
+			{
+				"name": "Ori the Dwarf",
+				"factions": [
+					"Thorin's Company"
+				],
+				"unique": true,
+				"countAsProperty": "heroes",
+				"points": 40,
+				"movement": 5,
+				"fight": 3,
+				"shoot": 3,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 1,
+				"will": 2,
+				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Accuracy"
+				],
+				"options": [],
+				"specialRules": [
+					"Sharpshooter",
+					"Deadeye",
+					"Chronicler (Thorin's Company)"
+				],
+				"wargear": [
+					"Hand weapon",
+					"Sling"
+				]
+			},
+			{
+				"name": "Oin the Dwarf",
+				"factions": [
+					"Thorin's Company"
+				],
+				"unique": true,
+				"countAsProperty": "heroes",
+				"points": 50,
+				"movement": 5,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 6,
+				"might": 1,
+				"will": 5,
+				"fate": 1,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Defence"
+				],
+				"options": [],
+				"specialRules": [
+					"Healing Herbs (Thorin's Company)",
+					"Reading the Portents (Thorin's Company)"
+				],
+				"wargear": [
+					"Hand-and-a-half weapon",
+					"Hearing Trumpet"
+				]
+			},
+			{
+				"name": "Nori the Dwarf",
+				"factions": [
+					"Thorin's Company"
+				],
+				"unique": true,
+				"countAsProperty": "heroes",
+				"points": 55,
+				"movement": 5,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 2,
+				"will": 1,
+				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strike"
+				],
+				"options": [],
+				"specialRules": [
+					"Weapon Master",
+					"Just a couple of keepsakes"
+				],
+				"wargear": [
+					"Light armour",
+					"Hand weapon",
+					"Two-handed weapon"
+				]
+			},
+			{
+				"name": "Kili the Dwarf",
+				"factions": [
+					"Thorin's Company"
+				],
+				"unique": true,
+				"countAsProperty": "heroes",
+				"points": 50,
+				"movement": 5,
+				"fight": 5,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 6,
+				"might": 2,
+				"will": 1,
+				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"heroicActions": [
+					"Heroic Accuracy",
+					"Heroic Strike"
+				],
+				"options": [],
+				"specialRules": [
+					"Combat Synergy"
+				],
+				"wargear": [
+					"Light armour",
+					"Hand weapon",
+					"Dwarf bow"
+				]
+			},
+			{
+				"name": "Gloin the Dwarf",
+				"factions": [
+					"Thorin's Company"
+				],
+				"unique": true,
+				"countAsProperty": "heroes",
+				"points": 85,
+				"movement": 5,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"options": [],
+				"specialRules": [
+					"Axe Mastery"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapons",
+					"Throwing weapons"
+				]
+			},
+			{
+				"name": "Fili the Dwarf",
+				"factions": [
+					"Thorin's Company"
+				],
+				"unique": true,
+				"countAsProperty": "heroes",
+				"points": 50,
+				"movement": 5,
+				"fight": 5,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 6,
+				"might": 2,
+				"will": 1,
+				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strike",
+					"Heroic Strength"
+				],
+				"options": [],
+				"specialRules": [
+					"Combat Synergy"
+				],
+				"wargear": [
+					"Light armour",
+					"Hand weapons",
+					"Throwing weapons"
+				]
+			},
+			{
+				"name": "Dori the Dwarf",
+				"factions": [
+					"Thorin's Company"
+				],
+				"unique": true,
+				"countAsProperty": "heroes",
+				"points": 55,
+				"movement": 5,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Resolve"
+				],
+				"options": [],
+				"specialRules": [
+					"A Good Sort"
+				],
+				"wargear": [
+					"Light armour",
+					"Hand weapons"
+				]
+			},
+			{
+				"name": "Bombur the Dwarf",
+				"factions": [
+					"Thorin's Company"
+				],
+				"unique": true,
+				"countAsProperty": "heroes",
+				"points": 45,
+				"movement": 5,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 4,
+				"attack": 2,
+				"wounds": 3,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 1,
+				"will": 3,
+				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Defence"
+				],
+				"options": [],
+				"specialRules": [
+					"Dominant (2)",
+					"Lumbering",
+					"Raising Spirits (Thorin's Company)"
+				],
+				"wargear": [
+					"Cleaver (counts as a sword)"
+				]
+			},
+			{
+				"name": "Bofur the Dwarf",
+				"factions": [
+					"Thorin's Company"
+				],
+				"unique": true,
+				"countAsProperty": "heroes",
+				"points": 45,
+				"movement": 5,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 6,
+				"might": 2,
+				"will": 1,
+				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Resolve"
+				],
+				"options": [],
+				"specialRules": [
+					"Steadfast (Thorin's Company)"
+				],
+				"wargear": [
+					"Light armour",
+					"Mattock"
+				]
+			},
+			{
+				"name": "Bilbo Baggins",
+				"factions": [
+					"Thorin's Company"
+				],
+				"unique": true,
+				"points": 55,
+				"movement": 4,
+				"fight": 3,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 2,
+				"will": 3,
+				"fate": 3,
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic Resolve",
+					"Heroic Strike"
+				],
+				"options": [
+					{
+						"name": "Sting",
+						"points": 5
+					},
+					{
+						"name": "The One Ring",
+						"points": 0
+					}
+				],
+				"specialRules": [
+					"Resistant to Magic",
+					"Throw Stones (range 8\", Strength 1)",
+					"It has not yet awoken"
+				],
+				"wargear": [
+					"Hand weapon"
+				],
+				"countAsProperty": "heroes"
+			},
+			{
+				"name": "Bifur the Dwarf",
+				"factions": [
+					"Thorin's Company"
+				],
+				"unique": true,
+				"countAsProperty": "heroes",
+				"points": 45,
+				"movement": 5,
+				"fight": 4,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 7,
+				"might": 1,
+				"will": 1,
+				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strength"
+				],
+				"options": [],
+				"specialRules": [
+					"Throw Stones (range 8\", Strength 2)",
+					"Embedded Axe"
+				],
+				"wargear": [
+					"Light armour",
+					"Hand weapon",
+					"Boar Spear"
+				]
+			},
+			{
+				"name": "Gandalf the Grey (Thorin's Company)",
+				"factions": [
+					"Thorin's Company"
+				],
+				"unique": true,
+				"countAsProperty": "heroes",
+				"points": 170,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 3,
+				"courage": 3,
+				"intelligence": 3,
+				"might": 3,
+				"will": 6,
+				"fate": 3,
+				"race": [
+					"Wizard"
+				],
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Channeling",
+					"Heroic Defence",
+					"Heroic Resolve",
+					"Heroic Strike"
+				],
+				"keywords": [
+					"Wizard",
+					"Infantry",
+					"Hero"
+				],
+				"specialRules": [],
+				"wargear": [
+					"Glamdring",
+					"Narya",
+					"Staff of Power"
+				],
+				"options": [
+					{
+						"name": "Horse",
+						"points": 20,
+						"availableIn": [
+							"Survivors of Lake-town",
+							"The Battle of Five Armies"
+						]
+					},
+					{
+						"name": "Gandalf's Cart",
+						"points": 25,
+						"availableIn": [
+							"The Shire"
+						]
+					}
+				],
+				"magicalPowers": [
+					{
+						"name": "Protection of the Valar",
+						"range": 6,
+						"casting": 3
+					},
+					{
+						"name": "Terrifying Aura",
+						"range": 0,
+						"casting": 3
+					},
+					{
+						"name": "Blinding Light",
+						"range": 0,
+						"casting": 4
+					},
+					{
+						"name": "Strengthen Will",
+						"range": 12,
+						"casting": 4
+					},
+					{
+						"name": "Transfix",
+						"range": 12,
+						"casting": 4
+					},
+					{
+						"name": "Collapse Rocks",
+						"range": 12,
+						"casting": 5
+					},
+					{
+						"name": "Foil Magic",
+						"range": 12,
+						"casting": 5
+					},
+					{
+						"name": "Sorcerous Blast",
+						"range": 12,
+						"casting": 5
+					}
+				]
+			},
+			{
+				"name": "Dwalin the Dwarf",
+				"factions": [
+					"Thorin's Company"
+				],
+				"unique": true,
+				"countAsProperty": "heroes",
+				"points": 95,
+				"movement": 5,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 5,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strike",
+					"Heroic Strength"
+				],
+				"options": [],
+				"specialRules": [
+					"Burly",
+					"Fearless",
+					"Weapon Master"
+				],
+				"wargear": [
+					"Armour",
+					"Grasper & Keeper",
+					"Two-handed weapon"
+				]
+			},
+			{
+				"name": "Balin the Dwarf",
+				"factions": [
+					"Thorin's Company"
+				],
+				"unique": true,
+				"countAsProperty": "heroes",
+				"points": 40,
+				"movement": 5,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 1,
+				"will": 3,
+				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic Resolve"
+				],
+				"keywords": [
+					"Dwarf",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": [
+					"Longbeard"
+				],
+				"wargear": [
+					"Armour",
+					"Hand-and-a-half weapon"
+				]
+			},
+			{
+				"name": "Gimli, Son of Gloin",
+				"factions": [
+					"Breaking of the Fellowship"
+				],
+				"unique": true,
+				"points": 100,
+				"movement": 5,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 8,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 6,
+				"might": 3,
+				"will": 2,
+				"fate": 3,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Fellowship"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strike",
+					"Heroic Strength"
+				],
+				"keywords": [
+					"Dwarf",
+					"Erebor",
+					"Infantry",
+					"Hero"
+				],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "options",
+						"name": "Elven Cloak",
+						"in": [
+							[
+								"Breaking of the Fellowship"
+							]
+						],
+						"points": 0
+					}
+				],
+				"options": [
+					{
+						"name": "Elven Cloak",
+						"points": 0,
+						"availableIn": [
+							"Breaking of the Fellowship"
+						]
+					}
+				],
+				"specialRules": [
+					"Axes of the Dwarves!",
+					"I Myself am sitting pretty on 43"
+				],
+				"wargear": [
+					"Heavy Dwarf Armour",
+					"Master-forged two-handed weapon",
+					"Two hand weapons",
+					"Throwing weapons"
+				],
+				"countAsProperty": "heroes"
+			},
+			{
+				"name": "Legolas Greenleaf",
+				"factions": [
+					"Breaking of the Fellowship"
+				],
+				"unique": true,
+				"points": 100,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 2,
+				"strength": 4,
+				"defence": 4,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 3,
+				"will": 2,
+				"fate": 3,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Fellowship"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Accuracy",
+					"Heroic Strike"
+				],
+				"keywords": [
+					"Elf",
+					"Mirkwood",
+					"Infantry",
+					"Hero"
+				],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "options",
+						"name": "Elven Cloak",
+						"in": [
+							[
+								"Breaking of the Fellowship"
+							]
+						],
+						"points": 0
+					}
+				],
+				"options": [
+					{
+						"name": "Elven Cloak",
+						"points": 0,
+						"availableIn": [
+							"Breaking of the Fellowship"
+						]
+					}
+				],
+				"specialRules": [
+					"Sharpshooter",
+					"Woodland Creature",
+					"Final Count, 42",
+					"Deadly Shot",
+					"Pinpoint Shot"
+				],
+				"wargear": [
+					"Elf Bow",
+					"Elven hand weapon"
+				],
+				"countAsProperty": "heroes"
+			},
+			{
+				"name": "Boromir of Gondor",
+				"factions": [
+					"Breaking of the Fellowship"
+				],
+				"unique": true,
+				"points": 95,
+				"movement": 6,
+				"fight": 7,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 6,
+				"will": 1,
+				"fate": 0,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Fellowship"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic March",
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"keywords": [
+					"Man",
+					"Gondor",
+					"Infantry",
+					"Hero"
+				],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "options",
+						"name": "Elven Cloak",
+						"in": [
+							[
+								"Breaking of the Fellowship"
+							]
+						],
+						"points": 0
+					}
+				],
+				"options": [
+					{
+						"name": "Elven Cloak",
+						"points": 0
+					},
+					{
+						"name": "Shield",
+						"points": 5
+					}
+				],
+				"specialRules": [
+					"Protect the little ones!"
+				],
+				"wargear": [
+					"Hand weapon",
+					"Armour",
+					"Horn of Gondor"
+				],
+				"countAsProperty": "heroes"
+			},
+			{
+				"name": "Aragorn (Strider)",
+				"factions": [
+					"Road to Rivendell"
+				],
+				"unique": true,
+				"points": 160,
+				"movement": 6,
+				"fight": 7,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 5,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 4,
+				"intelligence": 3,
+				"might": 3,
+				"will": 3,
+				"fate": 3,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Fellowship, Dunedain"
+				],
+				"heroicActions": [
+					"Heroic Accuracy",
+					"Heroic Challenge",
+					"Heroic Defence",
+					"Heroic March",
+					"Heroic Resolve",
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"options": [
+					{
+						"name": "Bow",
+						"points": 5
+					}
+				],
+				"specialRules": [
+					"Horse Lord",
+					"Mighty Hero",
+					"Resistant to Magic"
+				],
+				"wargear": [
+					"Ring of Barahir",
+					"Hand-and-a-half weapon"
+				],
+				"countAsProperty": "heroes"
+			},
+			{
+				"name": "Barliman Butterbur",
+				"factions": [
+					"Road to Rivendell"
+				],
+				"unique": true,
+				"points": 45,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 7,
+				"might": 2,
+				"will": 3,
+				"fate": 2,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Fellowship"
+				],
+				"uniType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Resolve",
+					"Heroic Defence"
+				],
+				"specialRules": [
+					"Barliman Butterbur, at your service",
+					"Well fed, and ready to fighty"
+				],
+				"wargear": [
+					"Hand weapon"
+				],
+				"options": [],
+				"countAsProperty": "heroes"
+			},
+			{
+				"name": "Arwen Undomiel",
+				"factions": [
+					"Road to Rivendell"
+				],
+				"unique": true,
+				"points": 70,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 4,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 2,
+				"will": 4,
+				"fate": 2,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Rivendell"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Channelling",
+					"Heroic Defence",
+					"Heroic Resolve"
+				],
+				"requiredChildren": [
+					{
+						"name": "Asfaloth",
+						"points": 20,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Road to Rivendell"
+							]
+						]
+					},
+					{
+						"name": "Hadhafang",
+						"points": 0,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Road to Rivendell"
+							]
+						]
+					}
+				],
+				"options": [
+					{
+						"name": "Asfaloth",
+						"points": 20
+					},
+					{
+						"name": "Hadhafang",
+						"points": 0,
+						"availableIn": [
+							"Road to Rivendell"
+						]
+					}
+				],
+				"specialRules": [
+					"Expert Rider",
+					"Woodland Creature"
+				],
+				"wargear": [
+					"Elven hand weapon"
+				],
+				"magicalPowers": [
+					{
+						"name": "Renew",
+						"range": 12,
+						"casting": 3
+					},
+					{
+						"name": "Wrath of Bruinen",
+						"range": 3,
+						"casting": 4
+					}
+				],
+				"countAsProperty": "heroes"
+			},
+			{
+				"name": "Samwise Gamgee",
+				"factions": [
+					"Road to Rivendell",
+					"Breaking of the Fellowship"
+				],
+				"unique": true,
+				"points": 40,
+				"movement": 4,
+				"fight": 3,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 3,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Fellowship"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"keywords": [
+					"Hobbit",
+					"Infantry",
+					"Hero"
+				],
+				"requiredChildren": [
+					{
+						"name": "Elven Cloak",
+						"points": 0,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Breaking of the Fellowship"
+							]
+						]
+					}
+				],
+				"options": [
+					{
+						"name": "Elven Cloak",
+						"points": 0,
+						"availableIn": [
+							"Breaking of the Fellowship"
+						]
+					}
+				],
+				"specialRules": [
+					"Resistant to Magic",
+					"Throw Stones (range 8\", Strength 1)",
+					"Let him go or I'll have you, Longshanks!"
+				],
+				"wargear": [
+					"Hand weapon",
+					"Frying Pan"
+				],
+				"countAsProperty": "heroes"
+			},
+			{
+				"name": "Frodo Baggins",
+				"factions": [
+					"Road to Rivendell",
+					"Breaking of the Fellowship"
+				],
+				"unique": true,
+				"points": 55,
+				"movement": 4,
+				"fight": 3,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 2,
+				"will": 3,
+				"fate": 3,
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Fellowship"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Defence"
+				],
+				"keywords": [
+					"Hobbit",
+					"Infantry",
+					"Hero"
+				],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "options",
+						"name": "Elven Cloak",
+						"in": [
+							[
+								"Breaking of the Fellowship"
+							]
+						],
+						"points": 0
+					}
+				],
+				"options": [
+					{
+						"name": "Sting",
+						"points": 5
+					},
+					{
+						"name": "Mithril Coat",
+						"points": 15
+					},
+					{
+						"name": "Elven Cloak",
+						"points": 0,
+						"in": [
+							[
+								"Breaking of the Fellowship"
+							]
+						]
+					}
+				],
+				"specialRules": [
+					"Resistant to Magic",
+					"Throw Stones (range 8\", Strength 1)"
+				],
+				"wargear": [
+					"Hand weapon",
+					"The One Ring"
+				],
+				"countAsProperty": "heroes"
+			},
+			{
 				"name": "Lobelia Sackville-Baggins",
 				"factions": [
 					"The Shire"
@@ -19856,7 +21461,8 @@
 				],
 				"wargear": [
 					"Umbrella"
-				]
+				],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Hobbit Archer",
@@ -21403,7 +23009,8 @@
 				"factions": [
 					"The Fellowship",
 					"The Shire",
-					"Road to Rivendell"
+					"Road to Rivendell",
+					"Breaking of the Fellowship"
 				],
 				"unique": true,
 				"points": 10,
@@ -21421,7 +23028,27 @@
 				"heroicActions": [
 					"Heroic Strike"
 				],
-				"options": [],
+				"requiredChildren": [
+					{
+						"name": "Elven Cloak",
+						"points": 0,
+						"in": [
+							[
+								"Breaking of the Fellowship"
+							]
+						],
+						"elementPropertyName": "options"
+					}
+				],
+				"options": [
+					{
+						"name": "Elven Cloak",
+						"points": 0,
+						"availableIn": [
+							"Breaking of the Fellowship"
+						]
+					}
+				],
 				"specialRules": [
 					"Resistant to Magic",
 					"Throw Stones (range 8\", Strength 1)"
@@ -21437,7 +23064,8 @@
 				"factions": [
 					"The Fellowship",
 					"The Shire",
-					"Road to Rivendell"
+					"Road to Rivendell",
+					"Breaking of the Fellowship"
 				],
 				"unique": true,
 				"points": 10,
@@ -21455,7 +23083,27 @@
 				"heroicActions": [
 					"Heroic Strike"
 				],
-				"options": [],
+				"requiredOptions": [
+					{
+						"name": "Elven Cloak",
+						"points": 0,
+						"in": [
+							[
+								"Breaking of the Fellowship"
+							]
+						],
+						"elementPropertyName": "options"
+					}
+				],
+				"options": [
+					{
+						"name": "Elven Cloak",
+						"points": 0,
+						"availableIn": [
+							"Breaking of the Fellowship"
+						]
+					}
+				],
 				"specialRules": [
 					"Resistant to Magic",
 					"Throw Stones (range 8\", Strength 1)"
