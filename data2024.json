@@ -28112,6 +28112,16 @@
 				"definition": "This is a Unique piece of wargear. The bearer of the Arkenstone passes Fate Rolls on a 3+. Additionally, when making a Fate Roll, if the result is a 4 or better, then the Fate Point is free and is not spent."
 			},
 			{
+				"name": "Easterling Halberd and shield",
+				"type": "shield",
+				"modifiesStats": [
+					{
+						"stat": "defence",
+						"modifier": 1
+					}
+				]
+			},
+			{
 				"name": "The Crown of Kings",
 				"tag": "Passive",
 				"definition": "If Durin suffers a wound, roll a D6. On a 6, the Wound is ignored, exactly as if a point of Fate had been spent."
