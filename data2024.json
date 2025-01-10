@@ -286,7 +286,7 @@
 							"singleKey": "warrior",
 							"dataSource": "warriors",
 							"propertyName": "warriors",
-							"label": "Warrior",
+							"label": "Model",
 							"type": "list",
 							"children": [
 								{
