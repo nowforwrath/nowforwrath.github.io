@@ -28894,6 +28894,11 @@
 			{
 				"name": "That's Mine That Is!",
 				"definition": "At the start of their Activation, Bill, Bert, or Tom may place a single 25mm Stash Marker in base contact with themself. Each Troll may only have a single Stash Marker on the board at a time. If a Stash Marker is within range of an Objective Marker, then it will count as a single friendly Warrior model for the purpose of working out how many models control that Objective Marker. An enemy model may remove a Stash Marker if they are in base contact with it during the End Phase of any turn, provided they have not Cast any Magical Power, used a Missile Weapon, been Engaged in Combat, Supported a Combat, been rendered unable to Move that turn due to a special rule or result of a test (such as a Thrown Rider test) or been under the effects of an enemy Magical Power that turn."
+			},
+			{
+				"name": "Riding Dagger",
+				"tag": "Active",
+				"definition": "This is a hand weapon. Additionally, whenever an enemy model makes a Strike against Sharku (but not his Warg) and fails the To Wound roll, Sharku may immediately make a single Strength 4 hit against that model."
 			}
 		],
 		"magicalPowers": [
@@ -29678,11 +29683,6 @@
 				"name": "Find the Halflings",
 				"tag": "Passive",
 				"definition": "In Scenarios that use the Maelstrom of Battle special rule, Lurtz's Warband does not roll to determine where they arrive. Instead, Lurtz may choose the result."
-			},
-			{
-				"name": "Riding Dagger",
-				"tag": "Active",
-				"definition": "This is a hand weapon. Additionally, whenever an enemy model makes a Strike against Sharku (but not his Warg) and fails the To Wound roll, Sharku may immediately make a single Strength 4 hit against that model."
 			},
 			{
 				"name": "Stand, Men of the West!",
@@ -32489,7 +32489,7 @@
 			},
 			{
 				"name": "Ambush",
-				"definitino": "In Scenarios that use the Maelstrom of Battle special rule, a Wolves of Isengard Army will automatically win the roll to choose who has Priority on the first turn. If both Armies have rules that allow them to do this, roll for Priority a normal. Additionally, models from this Army may Charge on the turn they enter the board, even though they may not normally be allowed to do so. Models Charging in this manner do not need to take a Courage Test to Charge an enemy with the Terror special rule."
+				"definition": "In Scenarios that use the Maelstrom of Battle special rule, a Wolves of Isengard Army will automatically win the roll to choose who has Priority on the first turn. If both Armies have rules that allow them to do this, roll for Priority a normal. Additionally, models from this Army may Charge on the turn they enter the board, even though they may not normally be allowed to do so. Models Charging in this manner do not need to take a Courage Test to Charge an enemy with the Terror special rule."
 			},
 			{
 				"name": "\"You do not know pain, you do not know fear\"",
