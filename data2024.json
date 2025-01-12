@@ -23017,15 +23017,28 @@
 				"fight": 3,
 				"shoot": 3,
 				"strength": 2,
-				"defence": 4,
+				"defence": 3,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 4,
-				"might": 1,
-				"will": 1,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 0,
+				"will": 0,
 				"fate": 2,
-				"heroicActions": [
-					"Heroic Strike"
+				"heroicActions": [],
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Fellowship"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"requiredChildren": [
 					{
@@ -23050,11 +23063,11 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones (range 8\", Strength 1)"
+					"Throw Stones (range 8\", Strength 1)",
+					"\"For the Shire!\""
 				],
 				"wargear": [
-					"Armour",
-					"Dagger"
+					"Hand weapon"
 				],
 				"countAsProperty": "heroes"
 			},
@@ -23072,15 +23085,28 @@
 				"fight": 3,
 				"shoot": 3,
 				"strength": 2,
-				"defence": 4,
+				"defence": 3,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 4,
-				"might": 1,
-				"will": 1,
+				"courage": 6,
+				"intelligence": 7,
+				"might": 0,
+				"will": 0,
 				"fate": 2,
-				"heroicActions": [
-					"Heroic Strike"
+				"heroicActions": [],
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Fellowship"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"requiredOptions": [
 					{
@@ -23105,11 +23131,11 @@
 				],
 				"specialRules": [
 					"Resistant to Magic",
-					"Throw Stones (range 8\", Strength 1)"
+					"Throw Stones (range 8\", Strength 1)",
+					"\"For the Shire!\""
 				],
 				"wargear": [
-					"Armour",
-					"Dagger"
+					"Hand weapon"
 				],
 				"countAsProperty": "heroes"
 			},
@@ -29654,11 +29680,6 @@
 				"definition": "Andúril is an Elven-made hand-and-a-half sword. Additionally, when making Strikes with Andúril, \n                Aragorn never requires more than a 4 for his To Wound rolls. Note that if Aragorn elects to use Andúril as a two-handed weapon, he will still get the +1 bonus To Wound meaning he will Wound on a 3+."
 			},
 			{
-				"name": "Orcish Halberd",
-				"tag": "Active",
-				"definition": "An Orcish Halberd can be used either as a spear of a two-handed weapon. Additionally, Shank may re-roll failed To Wound Rolls when making Strikes against a Trapped model."
-			},
-			{
 				"name": "Banner of Arwen Evenstar",
 				"type": "Banner",
 				"tag": "Passive",
@@ -33072,7 +33093,7 @@
 			},
 			{
 				"name": "Mighty Hero",
-				"tag": "Active",
+				"tag": "Passive",
 				"definition": "A model with this special gains a free Might Point at the start of each turn (even if their store of Might is full). If this free Might Point has not been spent by the end of the turn, it is lost."
 			},
 			{
