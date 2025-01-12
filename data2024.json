@@ -9112,7 +9112,7 @@
 				"options": [],
 				"specialRules": [
 					"Direct Shot",
-					"Accurage",
+					"Accurate",
 					"Piercing Shot (Windlance)"
 				],
 				"wargear": [],
@@ -16742,8 +16742,7 @@
 					},
 					{
 						"name": "Exchange Shield and Spear for Mattock",
-						"points": 0,
-						"usesDefinition": "Mattock"
+						"points": 0
 					}
 				],
 				"specialRules": [
@@ -29457,6 +29456,17 @@
 				]
 			},
 			{
+				"name": "Exchange Shield and Spear for Mattock",
+				"type": "Two-handed weapon",
+				"definition": "A mattock is a two-handed weapon that can either use the\n                Bash or Piercing Strike Special Strikes.",
+				"modifiesStats": [
+					{
+						"stat": "defence",
+						"modifier": -1
+					}
+				]
+			},
+			{
 				"name": "Helmingas",
 				"type": "upgrade",
 				"modifiesStats": [
@@ -29642,6 +29652,11 @@
 				"name": "Anduril, Flame of the West",
 				"tag": "Active",
 				"definition": "Andúril is an Elven-made hand-and-a-half sword. Additionally, when making Strikes with Andúril, \n                Aragorn never requires more than a 4 for his To Wound rolls. Note that if Aragorn elects to use Andúril as a two-handed weapon, he will still get the +1 bonus To Wound meaning he will Wound on a 3+."
+			},
+			{
+				"name": "Orcish Halberd",
+				"tag": "Active",
+				"definition": "An Orcish Halberd can be used either as a spear of a two-handed weapon. Additionally, Shank may re-roll failed To Wound Rolls when making Strikes against a Trapped model."
 			},
 			{
 				"name": "Banner of Arwen Evenstar",
@@ -33246,7 +33261,7 @@
 			{
 				"name": "Into the Fray",
 				"tag": "Active",
-				"definition": "Helm Hamrnerhand may declare a Heroic Combat each Fight Phase for free. However, after he has slain an enemy model, for the rest of the battle whenever Helm Moves he must Charge an enemy model if possible."
+				"definition": "Helm Hammerhand may declare a Heroic Combat each Fight Phase for free. However, after he has slain an enemy model, for the rest of the battle whenever Helm Moves he must Charge an enemy model if possible."
 			},
 			{
 				"name": "No Longer a Leader",
