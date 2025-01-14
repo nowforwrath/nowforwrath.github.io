@@ -5288,6 +5288,7 @@
 			},
 			{
 				"name": "The Witch-King of Angmar A",
+				"nameForImages": "The Witch-King of Angmar",
 				"factions": [],
 				"points": 80,
 				"movement": 6,
@@ -5403,6 +5404,7 @@
 			},
 			{
 				"name": "The Witch-King of Angmar B",
+				"nameForImages": "The Witch-King of Angmar",
 				"factions": [
 					{
 						"name": "Barad-Dur",
@@ -5563,6 +5565,7 @@
 			},
 			{
 				"name": "The Witch-King of Angmar C",
+				"nameForImages": "The Witch-King of Angmar",
 				"factions": [
 					{
 						"name": "Legions of Mordor",
@@ -6411,6 +6414,7 @@
 			},
 			{
 				"name": "Ringwraith A",
+				"nameForImages": "Ringwraith",
 				"factions": [],
 				"unlimited": true,
 				"points": 60,
@@ -6499,6 +6503,7 @@
 			},
 			{
 				"name": "Ringwraith B",
+				"nameForImages": "Ringwraith",
 				"factions": [
 					{
 						"name": "Barad-Dur",
@@ -6642,6 +6647,7 @@
 			},
 			{
 				"name": "Ringwraith C",
+				"nameForImages": "Ringwraith",
 				"factions": [
 					{
 						"name": "Legions of Mordor",
@@ -20619,6 +20625,7 @@
 			},
 			{
 				"name": "Gandalf the Grey (Thorin's Company)",
+				"nameForImages": "Gandalf the Grey",
 				"factions": [
 					"Thorin's Company"
 				],
