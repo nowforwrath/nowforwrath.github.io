@@ -16874,7 +16874,7 @@
 					"40mm"
 				],
 				"increaseMaximumChildren": {
-					"warriors": -3
+					"warriors": -2
 				},
 				"keywords": [
 					"Siege Weapon",
@@ -16887,11 +16887,17 @@
 					"Bladed Bolts"
 				],
 				"wargear": [],
+				"includes": [
+					{
+						"name": "Corsair Siege Veteran",
+						"dataSource": "heroes"
+					}
+				],
 				"requiredChildren": [
 					{
 						"elementPropertyName": "warriors",
 						"name": "Corsair Siege Crew",
-						"quantity": 3,
+						"quantity": 2,
 						"points": 0
 					}
 				]
@@ -19301,12 +19307,7 @@
 			},
 			{
 				"name": "Uruk-hai Siege Veteran",
-				"factions": [
-					{
-						"name": "Isengard",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
+				"factions": [],
 				"autoAddOnly": true,
 				"unavailableSolo": true,
 				"points": 0,
@@ -19321,12 +19322,6 @@
 				"will": 1,
 				"might": 1,
 				"fate": 1,
-				"keywords": [
-					"Uruk-hai",
-					"Isengard",
-					"Infantry",
-					"Warrior"
-				],
 				"options": [
 					{
 						"name": "Uruk-hai Engineer Captain",
@@ -19338,6 +19333,45 @@
 				"wargear": [
 					"Heavy armour",
 					"Sword"
+				]
+			},
+			{
+				"name": "Corsair Siege Veteran",
+				"factions": [],
+				"autoAddOnly": true,
+				"unavailableSolo": true,
+				"points": 0,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Corsair",
+					"Umbar"
+				],
+				"unitType": [
+					"Warrior",
+					"Hero"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"will": 1,
+				"might": 1,
+				"fate": 1,
+				"options": [],
+				"specialRules": [],
+				"wargear": [
+					"Light armour",
+					"Hand weapon"
 				]
 			},
 			{
@@ -19363,13 +19397,7 @@
 					"Infantry",
 					"Warrior"
 				],
-				"options": [
-					{
-						"name": "Iron Hills Dwarf Engineer Captain",
-						"points": 75,
-						"usesDefinition": "Engineer Captain"
-					}
-				],
+				"options": [],
 				"specialRules": [],
 				"wargear": [
 					"Armour",
