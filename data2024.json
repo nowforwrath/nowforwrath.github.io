@@ -30793,7 +30793,7 @@
 			{
 				"name": "Your Staff is Broken",
 				"duration": "Instant",
-				"definition": "This Magical Power targets one enemy model that has a Staff of Power within range. TThe target's Staff of Power is immediatley destroyed - remove it from their wargear."
+				"definition": "This Magical Power targets one enemy model that has a Staff of Power within range. The target's Staff of Power is immediately destroyed - remove it from their wargear."
 			}
 		],
 		"keywords": [
@@ -33593,7 +33593,7 @@
 			{
 				"name": "A Light in the Dark",
 				"tag": "Passive",
-				"definition": "The area within 6\" of the Gatekeeper is always considered to be daylight. Additionally, enemy models cannot Charge friendly models if they could Charge the Gatekeeper instead. If an enemy model cannot Charge the Gatekeeper ...?"
+				"definition": "The area within 6\" of the Gatekeeper is always considered to be daylight. Additionally, enemy models cannot Charge friendly models if they could Charge the Gatekeeper instead. If an enemy model cannot Charge the Gatekeeper, they may Charge other friendly odels as normal."
 			},
 			{
 				"name": "Let's put a maggot hole in your belly",
@@ -33638,7 +33638,7 @@
 			{
 				"name": "Fearful",
 				"tag": "Passive",
-				"definition": "If a model with this special rule wishes to Charge, then it must take a Courage Test at the start of its Move. If the test is failed, the model may not Move that turn but may otherwise act noramlly."
+				"definition": "If a model with this special rule wishes to Charge, then it must take a Courage Test at the start of its Move. If the test is failed, the model may not Move that turn but may otherwise act normally."
 			},
 			{
 				"name": "General Hunter",
