@@ -15472,10 +15472,11 @@
 				"fight": 3,
 				"shoot": 4,
 				"strength": 4,
-				"defence": 5,
+				"defence": 6,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 7,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
@@ -15495,18 +15496,13 @@
 				"heroicActions": [
 					"Heroic March"
 				],
-				"keywords": [
-					"Man",
-					"Lake-town",
-					"Infantry",
-					"Hero"
-				],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
-					"Spear",
 					"Armour",
-					"Pick"
+					"Shield",
+					"Hand weapon",
+					"Spear"
 				]
 			},
 			{
@@ -28542,6 +28538,19 @@
 					},
 					{
 						"name": "Spear",
+						"dataSource": "gear"
+					}
+				]
+			},
+			{
+				"name": "Shield and Banner",
+				"includes": [
+					{
+						"name": "Shield",
+						"dataSource": "gear"
+					},
+					{
+						"name": "Banner",
 						"dataSource": "gear"
 					}
 				]
