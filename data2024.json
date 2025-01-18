@@ -20174,6 +20174,18 @@
 				"factions": [
 					"Thorin's Company"
 				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Tauriel, Ranger of Mirkwood"
+							},
+							{
+								"in": "Army of Lake-town"
+							}
+						]
+					}
+				],
 				"unique": true,
 				"countAsProperty": "heroes",
 				"points": 50,
@@ -20269,6 +20281,18 @@
 				"factions": [
 					"Thorin's Company"
 				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Tauriel, Ranger of Mirkwood"
+							},
+							{
+								"in": "Army of Lake-town"
+							}
+						]
+					}
+				],
 				"unique": true,
 				"countAsProperty": "heroes",
 				"points": 50,
@@ -20361,6 +20385,18 @@
 				"name": "Fili the Dwarf",
 				"factions": [
 					"Thorin's Company"
+				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Tauriel, Ranger of Mirkwood"
+							},
+							{
+								"in": "Army of Lake-town"
+							}
+						]
+					}
 				],
 				"unique": true,
 				"countAsProperty": "heroes",
@@ -20502,6 +20538,18 @@
 				"name": "Bofur the Dwarf",
 				"factions": [
 					"Thorin's Company"
+				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Tauriel, Ranger of Mirkwood"
+							},
+							{
+								"in": "Army of Lake-town"
+							}
+						]
+					}
 				],
 				"unique": true,
 				"countAsProperty": "heroes",
