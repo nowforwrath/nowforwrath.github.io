@@ -22300,11 +22300,28 @@
 			},
 			{
 				"name": "Bard's Family",
-				"factions": [
-					"Survivors of Lake-town",
-					"Army of Lake-town"
-				],
+				"factions": [],
 				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Bard the Bowman"
+							},
+							{
+								"in": "Army of Lake-town"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Bard the Bowman"
+							},
+							{
+								"in": "Survivors of Lake-town"
+							}
+						]
+					},
 					{
 						"all": [
 							{
@@ -22316,7 +22333,6 @@
 						]
 					}
 				],
-				"unlockedBy": "Bard the Bowman",
 				"unique": true,
 				"points": 60,
 				"hideStats": true,
