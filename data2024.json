@@ -31848,7 +31848,7 @@
 			{
 				"name": "One Final Blow",
 				"tag": "Active",
-				"definition": "If Haldir is slain in close combat, he may immediately make one Strength 4 Strike on each enemy model that was Engaged with him in the fatal fight."
+				"definition": "If Haldir is slain in close combat, he may immediately make one Strength 4 Strike on each enemy model that was involved in the Combat in which Haldir was slain. Haldir may use Might to increase these To Wound rolls as normal."
 			},
 			{
 				"name": "Expert Shot",
