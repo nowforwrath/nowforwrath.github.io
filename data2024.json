@@ -32426,7 +32426,7 @@
 			{
 				"name": "Flame of Udun",
 				"tag": "Passive",
-				"definition": "The Balrog is never considered to be unarmed. Additinoally at the end of a Combat involving the Balrog, any model that suffered a Wound from the Balrog (even if the Wound is prevented) and was not slain must roll a D6. On a natural 6, the model is immediately Set Ablaze. If a model is immune to fire-based attacks, they will still suffer Wounds from the Balrog's Strikes as normal, but can not be Set Ablaze. The Balris itself is immune to fire-based attacks."
+				"definition": "The Balrog is never considered to be unarmed. Additinoally at the end of a Combat involving the Balrog, any model that suffered a Wound from the Balrog (even if the Wound is prevented) and was not slain must roll a D6. On a natural 6, the model is immediately Set Ablaze. If a model is immune to fire-based attacks, they will still suffer Wounds from the Balrog's Strikes as normal, but can not be Set Ablaze. The Balrog itself is immune to fire-based attacks."
 			},
 			{
 				"name": "Demon of the Ancient World",
@@ -33421,7 +33421,7 @@
 			{
 				"name": "The Shards of Narsil",
 				"tag": "Active",
-				"definition": "If your Army also contains Elendi!, then if Elendil is slain, place a 25mm Marker where he was killed. If lsildur ends his Activation within 1\" of this Marker, he may gain the Shards of Narsil - remove the Marker. The Sharas of Narsil are a Unique hand weapon, and a model fighting with it in Combat gains a bonus of+ 1 To Wound when making strikes."
+				"definition": "If your Army also contains Elendil, then if Elendil is slain, place a 25mm Marker where he was killed. If Isildur ends his Activation within 1\" of this Marker, he may gain the Shards of Narsil - remove the Marker. The Shards of Narsil are a Unique hand weapon, and a model fighting with it in Combat gains a bonus of+ 1 To Wound when making strikes."
 			},
 			{
 				"name": "Orders from Edoras",
@@ -33476,7 +33476,7 @@
 			{
 				"name": "Pinpoint Shot",
 				"tag": "Active",
-				"definition": "Instead of shooting normally, Legolas may make a single shooting attack against an enemy model Engaged in Combat with a friendly model (including himself). If he does, then if the To Hit roll is successful, Legolas doesn't need to make any In The Way Rolls - the shot will automatically hit its garget."
+				"definition": "Instead of shooting normally, Legolas may make a single shooting attack against an enemy model Engaged in Combat with a friendly model (including himself). If he does, then if the To Hit roll is successful, Legolas doesn't need to make any In The Way Rolls - the shot will automatically hit its target."
 			},
 			{
 				"name": "Gandalf's Rockets",
@@ -33664,7 +33664,7 @@
 			{
 				"name": "Majestic Steed",
 				"tag": "Active",
-				"definition": "In a turn in which Thranduil Charges into Combat, he resolves his Strikes at Stength 5. Additionally, each time this model Charges into Combat, it will inflict a single Strength 4 hit upon the model it has Charged (Cavalry models suffer this hit on both the rider and the Mount). If after this hit Thranduil is no longer Engaged in Combat, he may continue his Move in any way his controlling player wishes; stopping straight away. Charging anohter enemy model, or anything in between."
+				"definition": "In a turn in which Thranduil Charges into Combat, he resolves his Strikes at Stength 5. Additionally, each time this model Charges into Combat, it will inflict a single Strength 4 hit upon the model it has Charged (Cavalry models suffer this hit on both the rider and the Mount). If after this hit Thranduil is no longer Engaged in Combat, he may continue his Move in any way his controlling player wishes; stopping straight away. Charging another enemy model, or anything in between."
 			},
 			{
 				"name": "Well fed, and ready to fight",
