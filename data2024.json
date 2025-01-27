@@ -28620,6 +28620,19 @@
 				]
 			},
 			{
+				"name": "Banner and Shield",
+				"includes": [
+					{
+						"name": "Shield",
+						"dataSource": "gear"
+					},
+					{
+						"name": "Banner",
+						"dataSource": "gear"
+					}
+				]
+			},
+			{
 				"name": "Shield and Elven spear",
 				"includes": [
 					{
@@ -34248,7 +34261,7 @@
 			},
 			{
 				"name": "Swift Hunter",
-				"definition": "During the declare Heroic Actions step of the Move Phase, Shelob can choose to kill a friendly model within 1\" of her - remove the chosen model as a casualty. If she does, Shelob may declare a Heroic Move for free, though she may not shoud \"With Me as part of this Heroic Move."
+				"definition": "During the declare Heroic Actions step of the Move Phase, Shelob can choose to kill a friendly model within 1\" of her - remove the chosen model as a casualty. If she does, Shelob may declare a Heroic Move for free, though she may not shout \"With Me\" as part of this Heroic Move."
 			},
 			{
 				"name": "Greatest of the Trolls",
