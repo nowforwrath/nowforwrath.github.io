@@ -1435,7 +1435,7 @@
 				"name": "Wolves of Isengard",
 				"alignment": "evil",
 				"additionalRules": [
-					"A Wolves of Isegnard Army must always contain Sharku, who is always the Army's General.",
+					"A Wolves of Isengard Army must always contain Sharku, who is always the Army's General.",
 					"A Wolves of Isengard Army may have up to 50% of its Warrior models armed with throwing weapons rather than the usual 33%."
 				],
 				"armyBonuses": [
@@ -32981,7 +32981,7 @@
 			},
 			{
 				"name": "Mince 'em Fine",
-				"definition": "Instead of making Strikes, Bill may choose a single enemy model involved in the Combat. Bill and the chosen model both roll a D6 and add their respective Strength characteristics, then the chosen model suffers a number of Wounds equal to the difference between the two scores."
+				"definition": "Instead of making Strikes, Bill may choose a single enemy model involved in the Combat. Bill and the chosen model both roll a D6 and add their respective Strength characteristics. If Bill scores higher after adding Strength characteristics, then the chosen model suffers a number of Wounds equal to the difference between the two scores."
 			},
 			{
 				"name": "Roast 'em Slowly",
@@ -34317,7 +34317,7 @@
 			},
 			{
 				"name": "Warg Scouts",
-				"definition": "At the start of the game, after both sides have deployed but before the first Priority has been rolled, you may select up to D6 friendly Warrior models. The selected models may immediately Move as if it were the Move Phase, and then make a shooting attack as if it were the Shoot Phase. During this Move, friendly models may not move within 1\" of an enemy model and therefore may not Charge. In Scenarios where models enter the board, the selected models wtill Move onto the board before the first turn of the game, treating any roll to enter the board as a 6. Each model is treated as a separate Warband in this instance."
+				"definition": "At the start of the game, after both sides have deployed but before the first Priority has been rolled, you may select up to D6 friendly Warrior models. The selected models may immediately Move as if it were the Move Phase, and then make a shooting attack as if it were the Shoot Phase. During this Move, friendly models may not move within 1\" of an enemy model and therefore may not Charge. In Scenarios where models enter the board, the selected models will Move onto the board before the first turn of the game, treating any roll to enter the board as a 6. Each model is treated as a separate Warband in this instance."
 			},
 			{
 				"name": "Ambush",
