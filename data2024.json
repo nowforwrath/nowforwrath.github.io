@@ -22387,6 +22387,16 @@
 								"in": "Bard the Bowman"
 							},
 							{
+								"in": "The Battle of Five Armies"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Bard the Bowman"
+							},
+							{
 								"in": "Survivors of Lake-town"
 							}
 						]
@@ -27861,7 +27871,8 @@
 					"Armour",
 					"Club"
 				],
-				"autoAddOnly": true
+				"autoAddOnly": true,
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Knight of Dol Amroth",
