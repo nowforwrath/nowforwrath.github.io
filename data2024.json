@@ -33121,11 +33121,6 @@
 				"definition": "You may include Bill the Pony in the same force as Barliman Butterbur as if he was part of Barliman’s warband, even if your force doesn’t include Sam. If Bill the Pony is taken as part of Barliman’s warband then he will only cost 10 points rather than 25 points. Additionally, Barliman may benefit from Bill the Pony’s Official Meals and Second Breakfast special rule."
 			},
 			{
-				"name": "Gatekeeper",
-				"tag": "Active",
-				"definition": "During the Priority phase, after Priority has been rolled, Harry Goatleaf may spend a point of Will to use this special rule. If he does so, select one enemy Infantry model within 6\" and Line of Sight of Harry Goatleaf and roll a D6. On a 3+, the chosen model cannot move that turn, though they can still do anything else they would normally be able to do. Harry may use Might to influence this roll. Monster models are unaffected by this special rule."
-			},
-			{
 				"name": "Embedded Axe",
 				"tag": "Active",
 				"definition": "If Bifur wins a Duel Roll, then he may choose to headbutt an enemy model instead of making Strikes. If he does, choose a single enemy model involved in the Combat. The chosen model suffers a Strength 4 Strike from Bifur, though this will not be doubled if the chosen model is Trapped. If Bifur Wounds the chosen model with this Strike, then the axe-blade will have been freed from his skull. From this point on, at the start of each Move Phase, before the Declare Heroic Actions step, Bifur may take an Intelligence Test. If the test is passed, Bifur may declare a Heroic Move that turn for free."
