@@ -8729,6 +8729,10 @@
 					{
 						"name": "Ugluk's Scouts",
 						"heroicTier": "Independent Hero"
+					},
+					{
+						"name": "Muster of Isengard",
+						"heroicTier": "Independent Hero"
 					}
 				],
 				"unlimited": true,
@@ -16627,6 +16631,7 @@
 					},
 					{
 						"name": "Nature's Wrath",
+						"range": 3,
 						"casting": 4
 					},
 					{
@@ -22984,7 +22989,8 @@
 				"factions": [
 					"Isengard",
 					"Lurtz's Scouts",
-					"Ugluk's Scouts"
+					"Ugluk's Scouts",
+					"Muster of Isengard"
 				],
 				"points": 35,
 				"movement": 6,
@@ -23772,6 +23778,7 @@
 						"name": "Horse and throwing spears",
 						"points": 7,
 						"availableIn": [
+							"Army of Edoras",
 							"Kingdom of Rohan",
 							"Realms of Men"
 						],
@@ -34480,7 +34487,7 @@
 			},
 			{
 				"name": "Master Burglar",
-				"definition": "Whilst Bilbo is holding an Objective Marker in Scenarios where this is relevant, he increases his Attacks to 2. Additionally, whilst Bilto is wearing the One Ring and is Insvisible, if he Moves through an enemy model that is holding an Objective Marker in Scenarios where this is relevant, Bilbo may roll a D6; on a 2+, Bilbo immediately gains control of the Objective Marker. Bilbo cannot use this ability if he cannot carry the Objective Marker in question for whatever reason."
+				"definition": "Whilst Bilto is wearing the One Ring and is Insvisible, if he Moves through an enemy model that is holding an Objective Marker in Scenarios where this is relevant, Bilbo may roll a D6; on a 2+, Bilbo immediately gains control of the Objective Marker. Bilbo cannot use this ability if he cannot carry the Objective Marker in question for whatever reason."
 			},
 			{
 				"name": "March to the Lonely Mountain",
