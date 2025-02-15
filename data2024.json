@@ -22246,24 +22246,35 @@
 				"defence": 3,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 7,
 				"might": 0,
 				"will": 1,
 				"fate": 2,
-				"heroicActions": [],
-				"keywords": [
-					"Hobbit",
-					"Infantry",
-					"Hero"
+				"race": [
+					"Hobbit"
 				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
 				"options": [],
 				"specialRules": [
 					"Resistant to Magic",
 					"Throw Stones (range 8\", Strength 1)",
-					"If I were to marry anyone, it would've been her"
+					"If I were to marry anyone, it would've been her",
+					"Sweet Maiden of the Golden Ale"
 				],
 				"wargear": [
-					"Pitchfork"
+					"Unarmed"
 				],
 				"countAsProperty": "heroes"
 			},
