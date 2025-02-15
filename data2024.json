@@ -24267,7 +24267,7 @@
 				"wargear": [
 					"Armour",
 					"Hand weapons",
-					"Warg"
+					"Fell Warg"
 				]
 			},
 			{
@@ -26943,6 +26943,15 @@
 					{
 						"dataSource": "warriors",
 						"name": "Uruk-hai Berserker"
+					}
+				],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "warriors",
+						"name": "Ururk-hai Berserker",
+						"quantity": 1,
+						"points": 0,
+						"lockedChildren": true
 					}
 				],
 				"keywords": [
