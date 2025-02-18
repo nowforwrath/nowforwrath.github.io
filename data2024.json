@@ -23254,7 +23254,7 @@
 				"baseSize": [
 					"25mm"
 				],
-				"requiredOptions": [
+				"requiredChildren": [
 					{
 						"name": "Elven Cloak",
 						"points": 0,
