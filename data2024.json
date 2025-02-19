@@ -24267,7 +24267,7 @@
 				"wargear": [
 					"Armour",
 					"Hand weapons",
-					"Fell Warg"
+					"Warg"
 				]
 			},
 			{
@@ -26945,15 +26945,6 @@
 						"name": "Uruk-hai Berserker"
 					}
 				],
-				"requiredChildren": [
-					{
-						"elementPropertyName": "warriors",
-						"name": "Ururk-hai Berserker",
-						"quantity": 1,
-						"points": 0,
-						"lockedChildren": true
-					}
-				],
 				"keywords": [
 					"Uruk-hai",
 					"Isengard",
@@ -28623,10 +28614,6 @@
 		"gear": [
 			{
 				"name": "War Drum (Mordor Orc)",
-				"definition": "A model with a war drum may use it during the Declare Heroic Actions step of each Move Phase to declare a Heroic March for free, without spending a Might Point, even if they are not a Hero. This free Heroic March has the following exceptions:\n                • A model with a war drum that declares a Heroic March must always shout At the Double.\n                • The range of this At the Double is 12\" rather than 6\". Additionally, friendly models must finish their Activation within 12\" rather than 6\".\n                • The Heroic March declared when a model uses a war drum will only affect friendly models with the same keywords as the ones shown in brackets after the war drum. So if a model has a war drum (Mordor) then it will only affect models with the Mordor keyword.\n                As a war drum allows a model to declare a free Heroic March, models cannot be affected by both a war drum and a normal Heroic March in the same turn."
-			},
-			{
-				"name": "War Drum (Mordor)",
 				"definition": "A model with a war drum may use it during the Declare Heroic Actions step of each Move Phase to declare a Heroic March for free, without spending a Might Point, even if they are not a Hero. This free Heroic March has the following exceptions:\n                • A model with a war drum that declares a Heroic March must always shout At the Double.\n                • The range of this At the Double is 12\" rather than 6\". Additionally, friendly models must finish their Activation within 12\" rather than 6\".\n                • The Heroic March declared when a model uses a war drum will only affect friendly models with the same keywords as the ones shown in brackets after the war drum. So if a model has a war drum (Mordor) then it will only affect models with the Mordor keyword.\n                As a war drum allows a model to declare a free Heroic March, models cannot be affected by both a war drum and a normal Heroic March in the same turn."
 			},
 			{
@@ -33785,7 +33772,7 @@
 			{
 				"name": "Silent Hunters",
 				"tag": "Passive",
-				"definition": "If a Mirkwood Hunting Spider is within a piece of woodland terrain (such as a forest), or is partially concealed by a piece of woodland terrain, then they cannot be seen by enemy models unless they are within 6\" of the Mirkwood Hunting Spider."
+				"defintition": "If a Mirkwood Hunting Spider is within a piece of woodland terrain (such as a forest), or is partially concealed by a piece of woodland terrain, then they cannot be seen by enemy models unless they are within 6\" of the Mirkwood Hunting Spider."
 			},
 			{
 				"name": "I am fire, I am death",
