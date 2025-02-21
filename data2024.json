@@ -13951,7 +13951,14 @@
 			{
 				"name": "Bombur the Dwarf",
 				"factions": [
-					"Thorin's Company"
+					{
+						"name": "Thorin's Company",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Rangers of Mirkwood",
+						"heroicTier": "Hero of Fortitude"
+					}
 				],
 				"points": 45,
 				"movement": 5,
