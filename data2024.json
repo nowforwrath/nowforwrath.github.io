@@ -31291,7 +31291,7 @@
 			{
 				"name": "Terror",
 				"tag": "Passive",
-				"definition": "If a model wishes to Charge a model with this special rule, then it must take a Courage Test at the start of its Move. If the test is passed, the model may Charge as normal. If the test is failed, the model cannot Move that turn, but may otherwise act normally.\n                Sometimes a situation may open up the chance for a model to Charge a model with Terror part way through their Move, such as moving a different model with magic or killing something in the way with a throwing weapon. In such instances, the model only needs to take the Courage Test at the point in which the Terror causing model becomes possible to Charge. If a model making a Jump, Climb or Leap Test finishes within the Control Zone of an enemy with Terror and would normally be able to Charge, they will take their Courage Test after they have made their Jump, Climb or Leap Test.\n                Sometimes, a model may only cause Terror In certain enemies. In these Instances, a keyword will follow Terror in brackets, and only models with that keyword will need to take a Courage Test to Charge the model. So, a model with Terror (Orc) wlll only cause Terror In Orc models,"
+				"definition": "If a model wishes to Charge a model with this special rule, then it must take a Courage Test at the start of its Move. If the test is passed, the model may Charge as normal. If the test is failed, the model cannot Move that turn, but may otherwise act normally.\n                Sometimes a situation may open up the chance for a model to Charge a model with Terror part way through their Move, such as moving a different model with magic or killing something in the way with a throwing weapon. In such instances, the model only needs to take the Courage Test at the point in which the Terror causing model becomes possible to Charge. If a model making a Jump, Climb or Leap Test finishes within the Control Zone of an enemy with Terror and would normally be able to Charge, they will take their Courage Test after they have made their Jump, Climb or Leap Test.\n                Sometimes, a model may only cause Terror In certain enemies. In these Instances, a keyword will follow Terror in brackets, and only models with that keyword will need to take a Courage Test to Charge the model. So, a model with Terror (Orc) will only cause Terror In Orc models,"
 			},
 			{
 				"name": "Miasmatic Presence",
@@ -31336,12 +31336,12 @@
 			{
 				"name": "Venom",
 				"tag": "Active",
-				"definition": "Thls model must re-roll all failed To Wound Rolls when making Strikes. Additionally, at the end of a Combat involving this model, choose one enemy model that was wounded by this model but not slain and roll a D6. On a natural 6, the model suffers an additional Wound."
+				"definition": "This model must re-roll all failed To Wound Rolls when making Strikes. Additionally, at the end of a Combat involving this model, choose one enemy model that was wounded by this model but not slain and roll a D6. On a natural 6, the model suffers an additional Wound."
 			},
 			{
 				"name": "Caught in a Web",
 				"tag": "Brutal Power Attack",
-				"definition": "Instead of making Strikes, Shelob may instead choose a single enemy model that was involved in the Combat. The chosen model immediately suffers a single Strength 8 hit, and, if it survives, will be subject to the Paralyse Magical Power - however, this model witll not automatically revover should Shelob be removed as a casualty, leave the board or be reduced to 0 Will Points."
+				"definition": "Instead of making Strikes, Shelob may instead choose a single enemy model that was involved in the Combat. The chosen model immediately suffers a single Strength 8 hit, and, if it survives, will be subject to the Paralyse Magical Power - however, this model will not automatically recover should Shelob be removed as a casualty, leave the board or be reduced to 0 Will Points."
 			},
 			{
 				"name": "Lone Hunter",
@@ -33437,7 +33437,7 @@
 			{
 				"name": "Wizard's Pupil",
 				"tag": "Passive",
-				"definition": "Whilst Faramir is alive and on the battlefield, if you win the roll to choose who has Priority, and cboose to give Priority to your opponent, then until the end of the turn Faramir and friendly Warrior models within 3\" of him gain the Dominant (2) special rule."
+				"definition": "Whilst Faramir is alive and on the battlefield, if you win the roll to choose who has Priority, and choose to give Priority to your opponent, then until the end of the turn Faramir and friendly Warrior models within 3\" of him gain the Dominant (2) special rule."
 			},
 			{
 				"name": "Mutual Respect",
@@ -33572,7 +33572,7 @@
 			{
 				"name": "She is always hungry",
 				"tag": "Passive",
-				"definition": "At the start of her Activation, so long as she isnot Engaged in Combat, Shelob can choose to kill a friendly model within 1\" of her - remove the chosen model as a casualty. If she does, until the end of the turn Shelob may re-roll a single dice during any Duel Roll she participates in."
+				"definition": "At the start of her Activation, so long as she is not Engaged in Combat, Shelob can choose to kill a friendly model within 1\" of her - remove the chosen model as a casualty. If she does, until the end of the turn Shelob may re-roll a single dice during any Duel Roll she participates in."
 			},
 			{
 				"name": "She hungers for sweeter meats",
