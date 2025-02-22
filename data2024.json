@@ -33705,12 +33705,12 @@
 			{
 				"name": "Price of Greed",
 				"tag": "Passive",
-				"definition": "At the beginning of the game, your opponent must choose one of their Hero models to be the bearer of a large sum of gold. If the chosen Hero model Moves into base contact with the Master of Lake-town, then the Master of Lake-town must immediately take a Courage Test. If ehte test is failed, then the Master of Lake-town immediately flees and is removed as a casualty."
+				"definition": "At the beginning of the game, your opponent must choose one of their Hero models to be the bearer of a large sum of gold. If the chosen Hero model Moves into base contact with the Master of Lake-town, then the Master of Lake-town must immediately take a Courage Test. If the test is failed, then the Master of Lake-town immediately flees and is removed as a casualty."
 			},
 			{
 				"name": "Save the Gold!",
 				"tag": "Passive",
-				"definition": "Whenever an enemy Hero model within 3\" of the Master of Lake-town is removed as a casualty, the Master of Lake-town immediately regains a single Will Point spent earlier in the battle. Additionally, if the Master of Lake-town is in base contact with an Objective M arker during the End Phase of a turn, he may regain a single Will Point spent earlier in the battle."
+				"definition": "Whenever an enemy Hero model within 3\" of the Master of Lake-town is removed as a casualty, the Master of Lake-town immediately regains a single Will Point spent earlier in the battle. Additionally, if the Master of Lake-town is in base contact with an Objective Marker during the End Phase of a turn, he may regain a single Will Point spent earlier in the battle."
 			},
 			{
 				"name": "Loyalty, honour, a willing heart. I can ask no more than that",
