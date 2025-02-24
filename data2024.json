@@ -22178,29 +22178,39 @@
 				],
 				"unlockedBy": "The Necromancer of Dol Guldur",
 				"unique": true,
-				"points": 10,
-				"movement": 5,
+				"movement": 6,
 				"fight": 4,
 				"shoot": 4,
 				"strength": 2,
 				"defence": 4,
 				"attack": 1,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 0,
 				"will": 0,
-				"fate": 0,
-				"heroicActions": [],
-				"keywords": [
-					"Dwarf",
-					"Infantry",
-					"Hero"
+				"fate": 1,
+				"race": [
+					"Dwarf"
 				],
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
 				"specialRules": [
-					"Shattered Spirit"
+					"Shattered Spirit",
+					"Gandalf's Intervention"
 				],
 				"wargear": [
-					"Dagger"
+					"Hand weapon"
 				],
 				"options": [],
 				"countAsProperty": "heroes"
@@ -22212,29 +22222,39 @@
 					"Pits of Dol Guldur"
 				],
 				"unique": true,
-				"points": 10,
-				"movement": 5,
+				"movement": 6,
 				"fight": 4,
 				"shoot": 4,
 				"strength": 2,
 				"defence": 4,
 				"attack": 1,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 0,
 				"will": 0,
-				"fate": 0,
-				"heroicActions": [],
-				"keywords": [
-					"Dwarf",
-					"Infantry",
-					"Hero"
+				"fate": 1,
+				"race": [
+					"Dwarf"
 				],
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
 				"specialRules": [
-					"Shattered Spirit"
+					"Shattered Spirit",
+					"Gandalf's Intervention"
 				],
 				"wargear": [
-					"Dagger"
+					"Hand weapon"
 				],
 				"options": [],
 				"countAsProperty": "heroes"
@@ -29740,7 +29760,7 @@
 						"modifier": 1
 					}
 				],
-				"definition": "This is a Unique shield. Additionally, if Thorin elects to shield with the Oakenshield wins the Combat, then he may inflict a single Strength 4 hit on one enemy model involved in the Combat."
+				"definition": "This is a Unique shield. Additionally, if Thorin elects to shield with the Oakenshield and wins the Combat, then he may inflict a single Strength 4 hit on one enemy model involved in the Combat."
 			},
 			{
 				"name": "Crown of Morgul",
@@ -32579,7 +32599,7 @@
 			{
 				"name": "From the Deep",
 				"tag": "Active",
-				"definition": "The Watcher in the Water can never be part of another Hero model's warband. When you deploy your army, do not deploy the Watcher in the Water - keep it aside for later. During the Priority phase, after Priority has been determined, the Watcher's controlling player must decide if they wish for the Watcher to enter play. If they do, they must roll a D6 and on a 3+ the Watcher is ready to enter play. If this roll is failed, you must roll in each subsequent Priority Phase until the Watcher is ready to enter play.\n                When the Watcher is ready to enter play, immediately place it anywhere on the battlefield; however, the Watcher cannot displace other models when it enters play in this manner.\n                The Watcher in the Water cannot Change on the turn in which it arrives, but may otherwise act normally."
+				"definition": "The Watcher in the Water can never be part of another Hero model's warband. When you deploy your army, do not deploy the Watcher in the Water - keep it aside for later. During the Priority phase, after Priority has been determined, the Watcher's controlling player must decide if they wish for the Watcher to enter play. If they do, they must roll a D6 and on a 3+ the Watcher is ready to enter play. If this roll is failed, you must roll in each subsequent Priority Phase until the Watcher is ready to enter play.\n                When the Watcher is ready to enter play, immediately place it anywhere on the battlefield; however, the Watcher cannot displace other models when it enters play in this manner.\n                The Watcher in the Water cannot Charge on the turn in which it arrives, but may otherwise act normally."
 			},
 			{
 				"name": "Many Tentacles",
