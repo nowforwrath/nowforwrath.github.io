@@ -11384,59 +11384,6 @@
 				]
 			},
 			{
-				"name": "Iron Hills Chariot",
-				"factions": [
-					{
-						"name": "The Iron Hills",
-						"heroicTier": "Minor Hero"
-					}
-				],
-				"unlimited": true,
-				"points": 170,
-				"movement": 8,
-				"fight": 4,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 8,
-				"attack": 2,
-				"wounds": 4,
-				"courage": 6,
-				"intelligence": 6,
-				"might": 0,
-				"will": 0,
-				"fate": 0,
-				"race": [
-					"Dwarf"
-				],
-				"faction": [
-					"Iron Hills"
-				],
-				"unitType": [
-					"Warrior",
-					"Chariot"
-				],
-				"baseSize": [
-					"170mm oval"
-				],
-				"heroicActions": [],
-				"keywords": [
-					"Dwarf",
-					"Iron Hills",
-					"Warrior"
-				],
-				"options": [],
-				"specialRules": [
-					"Dominant (4)",
-					"Chariot Charge",
-					"Dwarven Crew"
-				],
-				"wargear": [
-					"Rapid-fire Bolt Thrower",
-					"Heavy armour",
-					"Sword"
-				]
-			},
-			{
 				"name": "Haldir, Galadhrim Captain",
 				"factions": [
 					{
