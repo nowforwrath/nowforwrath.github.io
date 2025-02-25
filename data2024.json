@@ -22125,6 +22125,7 @@
 				],
 				"unlockedBy": "The Necromancer of Dol Guldur",
 				"unique": true,
+				"points": 10,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 4,
@@ -22169,6 +22170,7 @@
 					"Pits of Dol Guldur"
 				],
 				"unique": true,
+				"points": 10,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 4,
