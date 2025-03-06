@@ -33927,7 +33927,7 @@
 		"armyBonuses": [
 			{
 				"name": "\"You have my sword\"",
-				"definition": "So long as Frodo is alive and on the battlefield, friendly Fellowship models gain the Fearless special rule. Additionally, a Fellowship Army can never ben considered Broken whilst Frodo is alive, even if he escapes the battlefield in Scenarios where this applies."
+				"definition": "So long as Frodo is alive and on the battlefield, friendly Fellowship models gain the Fearless special rule. Additionally, this Army can never ben considered Broken whilst Frodo is alive, even if he escapes the battlefield in Scenarios where this applies."
 			},
 			{
 				"name": "The Bond of Fellowship",
@@ -33972,10 +33972,6 @@
 			{
 				"name": "Gifts of Galadriel",
 				"definition": "Each Fellowship model will gain the Wargear listed next to their name below, which will have the effects detailed:\n                \"Frodo - Light of Earendil\" - At the start of each of his activations, Frodo may roll a D6. On a 3+, Frodo counts as having Cast the Blinding Light Magical Power.\n                \"Sam - Elven Rope\" - Sam always counts as rolling a 6 for any Climb, Leap or Jump Tests he is required to make.\n                \"Merry & Pippin - Daggers of the Noldorin\" - These are Elven hand weapons. Whilst wielding these weapons, Merry and Pipppin may re-roll failed To Wound rolls when making strikes.\n                \"Aragorn - Elven Dagger\" - This is an Elven hand weapon with the Uruk-haibane special rule\n                \"Legolas - Bow of the Galadhrim\" - Whilst within 3\" of a friendly Lothlorien model, Legolas may re-roll failed To Hit rolls when making shooting attacks.\n                \"Gimli - Galadriel's Locks\" - Gimli may use this Wargear to re-roll a single D6 in a Duel Roll. Gimli may only use this Wargear three times during the course fo the game.\n                \"Boromir - Golden Belt\" - Boromir gains the Woodland Creature special rule."
-			},
-			{
-				"name": "\"You have my sword\"",
-				"definition": "So long as Frodo is alive and on the battlefield, friendly Fellowship models gain the Fearless special rule. Additionally, a Breaking of the Fellowship Army can never ben considered Broken whilst Frodo is alive, even if he escapes the battlefield in Scenarios where this applies."
 			},
 			{
 				"name": "Blessing of Galadriel",
