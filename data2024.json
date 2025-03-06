@@ -29498,7 +29498,17 @@
 			{
 				"name": "War horn, shield, and throwing spears",
 				"type": "throwingWeapon",
-				"definition": "8\" Range, 3 Strength"
+				"definition": "8\" Range, 3 Strength",
+				"includes": [
+					{
+						"name": "Shield",
+						"dataSource": "gear"
+					},
+					{
+						"name": "Throwing spears",
+						"dataSource": "gear"
+					}
+				]
 			},
 			{
 				"name": "Two-handed weapon and throwing weapons",
