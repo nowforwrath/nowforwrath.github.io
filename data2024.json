@@ -167,6 +167,17 @@
 			],
 			"minimum": 2,
 			"message": "You must have at least one hero of at least Hero of Valour per faction for a Convenient or Impossible alliance."
+		},
+		{
+			"type": "propertyPerTier",
+			"property": "keywords",
+			"value": [
+				"Siege Engine",
+				"Siege Weapon"
+			],
+			"maxPer": 1,
+			"tier": 3,
+			"message": "You must have one hero of at least Hero of Fortitude for each Siege keyword."
 		}
 	],
 	"leaderConfig": {
@@ -6338,6 +6349,9 @@
 				"might": 0,
 				"will": 0,
 				"fate": 0,
+				"keywords": [
+					"Siege Engine"
+				],
 				"range": [
 					"12\"-60\""
 				],
@@ -9115,6 +9129,9 @@
 				"fate": 0,
 				"range": [
 					"6\"-60\""
+				],
+				"keywords": [
+					"Siege Engine"
 				],
 				"baseSize": [
 					"50mm"
@@ -16885,6 +16902,9 @@
 				"range": [
 					"12\"-60\""
 				],
+				"keywords": [
+					"Siege Engine"
+				],
 				"baseSize": [
 					"100mm"
 				],
@@ -16938,6 +16958,9 @@
 				"fate": 0,
 				"race": [
 					"Troll"
+				],
+				"keywords": [
+					"Siege Engine"
 				],
 				"faction": [
 					"Gundabad"
