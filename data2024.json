@@ -160,15 +160,6 @@
 	],
 	"validations": [
 		{
-			"type": "minimumTier",
-			"allianceLevels": [
-				"secondary",
-				"none"
-			],
-			"minimum": 2,
-			"message": "You must have at least one hero of at least Hero of Valour per faction for a Convenient or Impossible alliance."
-		},
-		{
 			"type": "propertyPerTier",
 			"property": "keywords",
 			"value": [
@@ -13915,10 +13906,6 @@
 			{
 				"name": "Bombur the Dwarf",
 				"factions": [
-					{
-						"name": "Thorin's Company",
-						"heroicTier": "Hero of Fortitude"
-					},
 					{
 						"name": "Rangers of Mirkwood",
 						"heroicTier": "Hero of Fortitude"
