@@ -9169,6 +9169,20 @@
 				"might": 3,
 				"will": 2,
 				"fate": 2,
+				"race": [
+					"Troll"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Monster"
+				],
+				"baseSize": [
+					"60mm"
+				],
 				"heroicActions": [
 					"Heroic Strength",
 					"Heroic Strike"
