@@ -11960,7 +11960,10 @@
 					"Strangling fingers",
 					"The One Ring"
 				],
-				"options": []
+				"options": [],
+				"increaseMaximumChildren": {
+					"warriors": -6
+				}
 			},
 			{
 				"name": "Goblin Captain",
