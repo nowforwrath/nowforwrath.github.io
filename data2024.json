@@ -1792,7 +1792,7 @@
 				],
 				"armyBonuses": [
 					"Commander of Legions",
-					"\"Here ends your filthy bloodline\"",
+					"\"Here ends your filthy bloodline!\"",
 					"The Horn of Gorgoroth",
 					"Raise the Banners"
 				]
@@ -19486,6 +19486,61 @@
 			}
 		],
 		"warriors": [
+			{
+				"name": "Bilbo Baggins, Ageing Hobbit",
+				"factions": [
+					"Rivendell"
+				],
+				"unique": true,
+				"points": 45,
+				"movement": 4,
+				"fight": 3,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 2,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 1,
+				"will": 3,
+				"fate": 3,
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Resolve"
+				],
+				"options": [
+					{
+						"name": "Sting",
+						"points": 5
+					},
+					{
+						"name": "Mithril Coat",
+						"points": 15
+					}
+				],
+				"specialRules": [
+					"Resistant to Magic",
+					"Throw Stones (range 8\", Strength 1)",
+					"Slip Away"
+				],
+				"wargear": [
+					"Hand weapon"
+				]
+			},
 			{
 				"name": "Sauron, the Necromancer",
 				"unavailableWith": [
