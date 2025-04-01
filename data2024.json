@@ -4221,14 +4221,18 @@
 					{
 						"dataSource": "heroes",
 						"name": "Wrot"
-					},
-					{
-						"dataSource": "warriors",
-						"name": "Snow Troll"
 					}
 				],
 				"options": [],
 				"specialRules": [],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "warriors",
+						"name": "Snow Troll",
+						"quantity": 1,
+						"points": 0
+					}
+				],
 				"increaseMaximumChildren": {
 					"warriors": -6
 				}
@@ -19530,6 +19534,10 @@
 					{
 						"name": "Mithril Coat",
 						"points": 15
+					},
+					{
+						"name": "The One Ring",
+						"points": 0
 					}
 				],
 				"specialRules": [
