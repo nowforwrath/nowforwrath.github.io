@@ -23277,7 +23277,7 @@
 				"specialRules": [
 					"Resistant to Magic",
 					"Throw Stones (range 8\", Strength 1)",
-					"\"For the Shire!\""
+					"For the Shire!"
 				],
 				"wargear": [
 					"Hand weapon"
@@ -23345,7 +23345,7 @@
 				"specialRules": [
 					"Resistant to Magic",
 					"Throw Stones (range 8\", Strength 1)",
-					"\"For the Shire!\""
+					"For the Shire!"
 				],
 				"wargear": [
 					"Hand weapon"
@@ -30858,10 +30858,6 @@
 				"name": "Riding Dagger",
 				"tag": "Active",
 				"definition": "This is a hand weapon. Additionally, whenever an enemy model makes a Strike against Sharku (but not his Warg) and fails the To Wound roll, Sharku may immediately make a single Strength 4 hit against that model."
-			},
-			{
-				"name": "Whip",
-				"definition": "A whip counts as a throwing weapon with a Strength of 1 and a range of 2\". It can also be used as a hand weapon in a Combat."
 			}
 		],
 		"magicalPowers": [
@@ -31817,7 +31813,7 @@
 			{
 				"name": "Let him go or I'll have you, Longshanks!",
 				"tag": "Active",
-				"definition": "During the Declare Heroic Actions step of the Fight Phase, if Frodo is Engaged in Combat and is within 6\" of Sam, then Sam may declare a free Heroic Combat. If this Heroic Combat is successful, then Sam must use the following Move to join Frodo's Combat. If this is not possible, then Sam must move as close as possible to Frodo. Sam cannot use this special rule if he is in the same Combat as Frodo."
+				"definition": "During the Declar Heroic Actions step of the Fight Phase, if Frodo is Engaged in Combat and is within 6\" of Sam, then Sam may declare a free Heroic Combat. If this Heroic Combat is successful, then Sam must use the following Move to join Frodo's Combat. If this is not possible, then Sam must move as close as possible to Frodo. Sam cannot use this special rule if he is in the same Combat as Frodo."
 			},
 			{
 				"name": "Official Meals",
