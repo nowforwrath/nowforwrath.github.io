@@ -16152,7 +16152,7 @@
 				"requiredChildren": [
 					{
 						"elementPropertyName": "warriors",
-						"name": "Warrior of Minas Tirith",
+						"name": "Minas Tirith Siege Crew",
 						"quantity": 2,
 						"points": 0,
 						"hideFromPrint": true,
@@ -21877,6 +21877,11 @@
 					"Usurpers of Edoras",
 					"Besiegers of the Hornburg"
 				],
+				"unavailableIn": [
+					[
+						"Lord Thorne of the Wold"
+					]
+				],
 				"points": 5,
 				"movement": 6,
 				"fight": 3,
@@ -24975,6 +24980,68 @@
 				]
 			},
 			{
+				"name": "Minas Tirith Siege Crew",
+				"factions": [],
+				"autoAddOnly": true,
+				"points": 0,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"options": [
+					{
+						"name": "War horn and Shield",
+						"points": 26,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Banner",
+						"points": 25,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Shield and spear",
+						"points": 2,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Bow",
+						"points": 1,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Shield",
+						"points": 1,
+						"requireChooseOneKey": "a"
+					}
+				],
+				"specialRules": [
+					"Shieldwall"
+				],
+				"wargear": [
+					"Heavy Armour",
+					"Hand weapon"
+				]
+			},
+			{
 				"name": "Knight of Minas Tirith",
 				"factions": [
 					"Garrison of Ithilien",
@@ -27699,6 +27766,11 @@
 					"Army of the White Hand",
 					"Usurpers of Edoras",
 					"Besiegers of the Hornburg"
+				],
+				"unavailableIn": [
+					[
+						"Lord Thorne of the Wold"
+					]
 				],
 				"points": 20,
 				"movement": 12,
