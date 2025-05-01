@@ -16385,7 +16385,8 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 7,
 				"will": 1,
 				"might": 1,
 				"fate": 1,
@@ -19547,7 +19548,8 @@
 				],
 				"wargear": [
 					"Hand weapon"
-				]
+				],
+				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Sauron, the Necromancer",
@@ -25954,7 +25956,8 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 7,
 				"options": [],
 				"specialRules": [],
 				"wargear": [
