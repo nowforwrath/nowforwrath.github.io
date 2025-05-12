@@ -15696,7 +15696,7 @@
 					"Fearless",
 					"Fly",
 					"Harbinger of Evil (18\")",
-					"Large Targer",
+					"Large Target",
 					"Monstrous Charge",
 					"Resistant to Magic",
 					"Terror",
@@ -32522,7 +32522,7 @@
 			{
 				"name": "Breathe Fire",
 				"tag": "Active",
-				"definition": "Smaug can breathe fire as a shooting attack. This is treated as a bow with a range of 18\". If the shot hits a model, then the hit model and all models within 2\" of them immediately suffers a Strength 10 hit, and any model that suffers a Wound from this shot which is not prevented will immediately be slain and removed as a casualty. Any model hit by this shooting attack and not slain will be Set Ablaze. This is a fire-based attack and not slain will be Set Ablaze. This is a fire-based attack, so if a model is immune to fire-based attacks, they are immune to this shooting attack."
+				"definition": "Smaug can breathe fire as a shooting attack. This is treated as a bow with a range of 18\". If the shot hits a model, then the hit model and all models within 2\" of them immediately suffers a Strength 10 hit, and any model that suffers a Wound from this shot which is not prevented will immediately be slain and removed as a casualty. Any model hit by this shooting attack and not slain will be Set Ablaze. This is a fire-based attack, so if a model is immune to fire-based attacks, they are immune to this shooting attack."
 			},
 			{
 				"name": "Desolator of the North",
