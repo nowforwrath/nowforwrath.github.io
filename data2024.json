@@ -30181,7 +30181,7 @@
 				"name": "Fiery Lash",
 				"type": "Weapon",
 				"tag": "Active",
-				"definition": "This is a throwing weapon with a range of 8\" and a Strength of 7. Additionally, a model that is hit by this weapon and not slain will be removed from the board and then placed anywhere in base contact with the Balrog, as chosen by the Balrog's controlling player. A Cavalry model that is hit will have the whole model dragged in this way. If for whatever reason, the model cannot be placed in base contact, then it is not moved at all. If a model polaced in this way would end up in base contact with other enemy models in addition to the Balrog, then those models do not count as being Engaged in Combat with the placed model unless they subsequently charge the placed model. This is a fire-based attack so if a model is immune to fire-based attacks, they are immune to this attack."
+				"definition": "This is a throwing weapon with a range of 8\" and a Strength of 7. Additionally, a model that is hit by this weapon and not slain will be removed from the board and then placed anywhere in base contact with the Balrog, as chosen by the Balrog's controlling player. A Cavalry model that is hit will have the whole model dragged in this way. If for whatever reason, the model cannot be placed in base contact, then it is not moved at all. If a model placed in this way would end up in base contact with other enemy models in addition to the Balrog, then those models do not count as being Engaged in Combat with the placed model unless they subsequently charge the placed model. This is a fire-based attack so if a model is immune to fire-based attacks, they are immune to this attack."
 			},
 			{
 				"name": "Elven Glaive",
@@ -31039,7 +31039,7 @@
 			{
 				"name": "Instill Fear",
 				"duration": "Temporary",
-				"definition": "This Magical Power targets the caster. Enemy models wtihin 6\" of the caster are considered to have the Fearful special rule."
+				"definition": "This Magical Power targets the caster. Enemy models within 6\" of the caster are considered to have the Fearful special rule."
 			},
 			{
 				"name": "Nature's Wrath",
@@ -31104,7 +31104,7 @@
 			{
 				"name": "Writhing Vines",
 				"duration": "Temporary",
-				"definition": "This Magical Power targets the caster. Place a 25mm Vine Marker wholly wtihin 3\" of the caster. Enemy models treat the area within 3\" of the Vine Marker as Difficult Terrain. Remove the Vine Marker during the End Phase."
+				"definition": "This Magical Power targets the caster. Place a 25mm Vine Marker wholly within 3\" of the caster. Enemy models treat the area within 3\" of the Vine Marker as Difficult Terrain. Remove the Vine Marker during the End Phase."
 			},
 			{
 				"name": "Your Staff is Broken",
@@ -32503,7 +32503,7 @@
 			{
 				"name": "Stand by our Men!",
 				"tag": "Passive",
-				"definition": "If Hilda-Bianca charges into Combat, then during the ensuing Fight Phase, Hilda-Bianca and friendly Lake-town Warrior models wtihin 3\" of her gain a bonus of +1 To Wound when making Strikes."
+				"definition": "If Hilda-Bianca charges into Combat, then during the ensuing Fight Phase, Hilda-Bianca and friendly Lake-town Warrior models within 3\" of her gain a bonus of +1 To Wound when making Strikes."
 			},
 			{
 				"name": "It has not yet Awoken",
@@ -33711,7 +33711,7 @@
 			{
 				"name": "Sense of impending doom",
 				"tag": "Passive",
-				"definition": "Enemy models wtihin 6\" of the Mouth of Sauron cannot re-roll 1s as part of a Duel Roll, regardless of special rules that would normally allow them to."
+				"definition": "Enemy models within 6\" of the Mouth of Sauron cannot re-roll 1s as part of a Duel Roll, regardless of special rules that would normally allow them to."
 			},
 			{
 				"name": "She is always hungry",
@@ -34494,7 +34494,7 @@
 			},
 			{
 				"name": "\"Get a fire going\"",
-				"definition": "Once per game, in Scenarios that use Objective Markers, Ugluk can use this special rule during his Move to choose an Objective Marker in base contact. So long as Ugluk is alive and on the battlefield, friendly models wtihin range of the chosen Objective Marker gain the Dominant (2) special rule."
+				"definition": "Once per game, in Scenarios that use Objective Markers, Ugluk can use this special rule during his Move to choose an Objective Marker in base contact. So long as Ugluk is alive and on the battlefield, friendly models within range of the chosen Objective Marker gain the Dominant (2) special rule."
 			},
 			{
 				"name": "Animosity",
@@ -34762,7 +34762,7 @@
 			},
 			{
 				"name": "Council of the Wise",
-				"definition": "Each friendly White Council model gains the special rule associated with them as listed below:\n              -Saruman - Friendly White Council models within 3\" of Saruman may re-roll any 1 in their rolls to Cast a Magical Power.\n              -Gandalf - Friendly White Council models wtihin 3\" of Gandalf may re-roll To Wound Rolls of a natural 1 when making Strikes.\n              -Radagast - Friendly White Council models that begin their Activation within 3\" of Radagast may Move through difficult terrain without penalty.\n              -Elrond - Friendly White Council models treat Elrond as a banner.\n              -Galadriel - Friendly White Council models within 3\" of Galadriel gain the Resistant to Magic special rule."
+				"definition": "Each friendly White Council model gains the special rule associated with them as listed below:\n              -Saruman - Friendly White Council models within 3\" of Saruman may re-roll any 1 in their rolls to Cast a Magical Power.\n              -Gandalf - Friendly White Council models within 3\" of Gandalf may re-roll To Wound Rolls of a natural 1 when making Strikes.\n              -Radagast - Friendly White Council models that begin their Activation within 3\" of Radagast may Move through difficult terrain without penalty.\n              -Elrond - Friendly White Council models treat Elrond as a banner.\n              -Galadriel - Friendly White Council models within 3\" of Galadriel gain the Resistant to Magic special rule."
 			},
 			{
 				"name": "Masters of Magic",
