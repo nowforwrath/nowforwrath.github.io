@@ -30012,7 +30012,7 @@
 			{
 				"name": "Horn of Gondor",
 				"tag": "Active",
-				"definition": "This is a Unique war horn. At the start of a Combat involving Boromir, if he is outnumbered in the combat then he may blow the Horn of Gondor. If he does, then one emey model involved in the Combat (chosen by their controlling player) must take a Courage Test. If the Courage Test is passed then the combat is fought as normal. If the Courage Test is failed then no Duel Roll is made and Boromir automatically wins the Combat."
+				"definition": "This is a Unique war horn. At the start of a Combat involving Boromir, if he is outnumbered in the combat then he may blow the Horn of Gondor. If he does, then one enemy model involved in the Combat (chosen by their controlling player) must take a Courage Test. If the Courage Test is passed then the combat is fought as normal. If the Courage Test is failed then no Duel Roll is made and Boromir automatically wins the Combat."
 			},
 			{
 				"name": "Horn of the Hammerhand",
@@ -33566,7 +33566,7 @@
 			{
 				"name": "Battle Wisdom",
 				"tag": "Passive",
-				"definition": "Friendly Lothlorien Warrior models w1thin 3\" of Celeborn gain a bonus of +1 To Wound when making Strikes."
+				"definition": "Friendly Lothlorien Warrior models within 3\" of Celeborn gain a bonus of +1 To Wound when making Strikes."
 			},
 			{
 				"name": "Protectors of the White Tree",
