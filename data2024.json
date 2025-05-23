@@ -19492,6 +19492,57 @@
 		],
 		"warriors": [
 			{
+				"name": "Bilbo Baggins, Master Burglar",
+				"factions": [
+					"Survivors of Lake-town"
+				],
+				"unique": true,
+				"points": 75,
+				"movement": 4,
+				"fight": 3,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 3,
+				"will": 3,
+				"fate": 3,
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Thorin's Company"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic Resolve",
+					"Heroic Strike"
+				],
+				"options": [],
+				"specialRules": [
+					"Resistant to Magic",
+					"Throw Stones (range 8\", Strength 1)",
+					"It has not yet awoken"
+				],
+				"wargear": [
+					"The One Ring",
+					"Mithril Coat",
+					"Sting"
+				],
+				"countAsProperty": "heroes"
+			},
+			{
 				"name": "Bilbo Baggins, Ageing Hobbit",
 				"factions": [
 					"Rivendell"
