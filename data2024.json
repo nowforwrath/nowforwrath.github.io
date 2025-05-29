@@ -2571,10 +2571,15 @@
 				],
 				"specialRules": [
 					"Phalanx",
-					"Emperor of the Easterlings"
+					"Emperor of the Easterlings",
+					"The Palanquin",
+					"Fighting from the Palanquin",
+					"Standards of the Emperor",
+					"In the name of the Dragon Emperor"
 				],
 				"wargear": [
-					"Helm of the Dragon Emperor"
+					"Helm of the Dragon Emperor",
+					"Royal Palanquin"
 				],
 				"options": []
 			},
@@ -29050,6 +29055,37 @@
 		],
 		"gear": [
 			{
+				"name": "Royal Palanquin",
+				"type": "mount",
+				"move": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 6,
+				"attacks": 0,
+				"wounds": 6,
+				"courage": 6,
+				"inttelligence": 6,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Easterling"
+				],
+				"unitType": [
+					"Mount"
+				],
+				"baseSize": [
+					"80mm"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Shields",
+					"Hand weapons"
+				],
+				"specialRules": []
+			},
+			{
 				"name": "Easterling Halberd",
 				"definition": "This can be used as either a pike or a two-handed weapon.",
 				"tag": "Active"
@@ -31031,6 +31067,26 @@
 			}
 		],
 		"keywords": [
+			{
+				"name": "The Palanquin",
+				"definition": "The Royal Palanquin is a Mount, however, it does not act like a Cavalry model and does not provide the Cavalry keyword to the Dragon Emperor. Instead, the whole model is treated as an Infantry model.\n\nIf a special rule or Magical Power would affect a Cavalry model, and will affect both the rider and the Mount of a model, then this will still affect both the Dragon Emperor and the Palanquin as normal. If a special rule or Magical Power would affect a Cavalry model, and will affect either the rider or the Mount of a model, then the player using the special rule or Magical Power may still choose either the Dragon Emperor or the Palanquin to be affected.\n\nWhilst the Palanquin has 3 or more Wounds remaining it will Move as normal. If it is reduced to 2 Wounds, then its Move Value is reduced to 3\". If it only has a single Wound remaining then it cannot Move at all.\nWhen the Palanquin is hit by a shooting attack, the shooter must take an In The Way Test to see if the Dragon Emperor or the Palanquin itself are hit. However, for this In The Way Test a roll of a 1-4 will hit the Royal Palanquin and a 5+ will hit the Dragon Emperor. A model with the Sharpshooter special rule may still target either rider or Mount as normal.\n\nThe Palanquin is always treated as a single Mount, rather than multiple single models. If the Dragon Emperor dismounts from the Palanquin, or is slain whilst riding the Palanquin, then replace the Palanquin with a number of Black Dragon Warriors with shield equal to the number of Wounds the Palanquin currently has remaining – they do not need to take Courage Tests as a result of being a Separated Mount. These models should be placed within the footprint of the Palanquin.\n\nThe Royal Palanquin cannot be knocked Prone for any reason, with the exception of if it is hit by the Direct Hit of a Siege Engine.\n\nThe Royal Palanquin, and any model riding it, cannot be affected by the Hurl or Barge Brutal Power Attacks, and cannot be forced back by Magical Powers (such as Call Winds) or by being flung back by the effects of a Siege Engine.\n\nThe Royal Palanquin has the Dominant (X) special rule, where X is the number of Wounds it has remaining.",
+				"tag": "Passive"
+			},
+			{
+				"name": "Fighting from the Palanquin",
+				"definition": "Unlike a normal Mount, the Dragon Emperor does not use any of the characteristics of the Palanquin; instead, he always uses his own, even if the Palanquin's are better. If the Dragon Emperor wins a Duel roll, except when Shielding, then after all of his own Strikes have been fully resolved, the Palanquin may make a number of Strikes equal to its remaining Wounds. These Strikes cannot benefit from the target being Trapped (i.e., they will not roll two dice against a Trapped model) and the Dragon Emperor cannot use Might to improve the result of these Strikes.",
+				"tag": "Active"
+			},
+			{
+				"name": "Standards of the Emperor",
+				"definition": "The Royal Palanquin is adorned with the banners of the Dragon Emperor, inspiring the Easterlings to fight all the harder when his colours are flying.\n\nThe Royal Palanquin is a banner with a range of 6\". As these banners are attached to the Royal Palanquin, the Dragon Emperor never suffers the -1 penalty to his Duel Rolls for carrying a banner.",
+				"tag": "Passive"
+			},
+			{
+				"name": "In the name of the Dragon Emperor",
+				"definition": "The very presence of the Dragon Emperor fuels the Easterlings to fight with renewed vigour in his glorious name.\n\nFriendly Easterling models within 6\" of the Royal Palanquin who can draw Line of Sight to it, may re-roll To Wound Rolls of a natural 1 when making Strikes.",
+				"tag": "Passive"
+			},
 			{
 				"name": "Supreme Agility",
 				"definition": "This model gains a +2 bonus to any Climb, Jump or Leap Tests they take. Additionally, this model automatically passes all In the Way Tests when making Strikes against a model that is defending a barrier or a doorway.",
