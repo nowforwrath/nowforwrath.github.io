@@ -567,6 +567,34 @@
 	"data": {
 		"factions": [
 			{
+				"name": "Host of the Dragon Emperor",
+				"alignment": "evil",
+				"additionalRules": [
+					"A Host of the Dragon Emperor Army must always contain the Dragon Emperor, who is always the Army's General."
+				],
+				"armyBonuses": [
+					"Heroes of the Easterlings",
+					"Easterling Phalanxes"
+				],
+				"specialRules": []
+			},
+			{
+				"name": "The Easterlings",
+				"alignment": "evil",
+				"additionalRules": [
+					"An Easterlings Army must always contain Amdur, who is always the Army's General"
+				],
+				"armyBonuses": [
+					"No quarter was asked...",
+					"Press the advantage",
+					"Raze the White City"
+				],
+				"specialRules": [
+					"Fearless",
+					"Ancient Enemies (Gondor)"
+				]
+			},
+			{
 				"name": "Dragons of the North",
 				"alignment": "evil",
 				"additionalRules": [
@@ -2428,6 +2456,423 @@
 			}
 		],
 		"heroes": [
+			{
+				"name": "Easterling War Priest",
+				"factions": [
+					{
+						"name": "Host of the Dragon Emperor",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Easterlings",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"unlimited": true,
+				"points": 60,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 1,
+				"will": 3,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Channeling"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Easterling"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [],
+				"wargear": [
+					"Heavy armour",
+					"Easterling Halberd"
+				],
+				"options": [
+					{
+						"name": "Armoured Horse",
+						"points": 25
+					}
+				],
+				"magicalPower": [
+					{
+						"name": "Bladewrath",
+						"range": 6,
+						"casting": 3
+					},
+					{
+						"name": "Fury (Easterling)",
+						"range": 0,
+						"casting": 3
+					},
+					{
+						"name": "Enchant Blades",
+						"range": 6,
+						"casting": 4
+					}
+				]
+			},
+			{
+				"name": "The Dragon Emperor of Rhun",
+				"factions": [
+					{
+						"name": "Host of the Dragon Emperor",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 200,
+				"movement": 6,
+				"fight": 7,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 3,
+				"will": 3,
+				"fate": 3,
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic Resolve",
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Easterling",
+					"Black Dragon"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Phalanx",
+					"Emperor of the Easterlings"
+				],
+				"wargear": [
+					"Helm of the Dragon Emperor"
+				],
+				"options": []
+			},
+			{
+				"name": "Amdur, Lord of Blades",
+				"factions": [
+					{
+						"name": "The Easterlings",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 135,
+				"movement": 6,
+				"fight": 7,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 3,
+				"will": 3,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Strike"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Easterling",
+					"Black Dragon"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"General Hunter",
+					"Unyielding Combat Stance",
+					"Phalanx",
+					"The Gleaming Horde",
+					"Herald of Victory",
+					"The Lord of Blades"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Durtuz, the Silver Falchion"
+				],
+				"options": [
+					{
+						"name": "Armoured Horse",
+						"points": 25
+					}
+				]
+			},
+			{
+				"name": "Brorgir the Conjurer",
+				"factions": [
+					{
+						"name": "Host of the Dragon Emperor",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 80,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 5,
+				"might": 2,
+				"will": 5,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Channeling"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Easterling"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Sorcerous Adept"
+				],
+				"magicalPowers": [
+					{
+						"name": "Bladewrath",
+						"range": 12,
+						"casting": 3
+					},
+					{
+						"name": "Fury (Easterling)",
+						"range": 0,
+						"casting": 3
+					},
+					{
+						"name": "Enchant Blades",
+						"range": 12,
+						"casting": 4
+					},
+					{
+						"name": "Tremor",
+						"range": 0,
+						"casting": 5
+					}
+				],
+				"wargear": [
+					"Heavy armour",
+					"Easterling Halberd"
+				],
+				"options": []
+			},
+			{
+				"name": "Rutabi, General of the Dragon Legion",
+				"factions": [
+					{
+						"name": "Host of the Dragon Emperor",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 120,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 5,
+				"intelligence": 4,
+				"might": 3,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Strike"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Easterling"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Master of Battle (3+)",
+					"Unyielding Combat Stance",
+					"Phalanx",
+					"Show no mercy"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Shield",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Easterling Dragon Knight",
+				"factions": [
+					{
+						"name": "The Easterlings",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Host of the Dragon Emperor",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"unlimited": true,
+				"points": 70,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 2,
+				"will": 0,
+				"fate": 0,
+				"heroicActions": [
+					"Heroic Challenge"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Easterling",
+					"Black Dragon"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"General Hunter",
+					"Phalanx",
+					"The Gleaming Horde",
+					"Shield of Blades",
+					"Leader of the Dragon Cult"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapons"
+				],
+				"options": [
+					{
+						"name": "Armoured Horse",
+						"points": 25
+					}
+				]
+			},
+			{
+				"name": "Easterling Kataphrakt Captain",
+				"factions": [
+					{
+						"name": "The Easterlings",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Host of the Dragon Emperor",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"unlimited": true,
+				"points": 90,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 5,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic March"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Easterling"
+				],
+				"unitType": [
+					"Hero",
+					"Cavalry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Phalanx",
+					"The Gleaming Horde"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Shield",
+					"Hand weapon",
+					"Armoured horse"
+				],
+				"options": []
+			},
 			{
 				"name": "Dragon",
 				"factions": [
@@ -12738,6 +13183,10 @@
 					{
 						"name": "Legions of Mordor",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Easterlings",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 60,
@@ -19306,8 +19755,148 @@
 		],
 		"warriors": [
 			{
+				"name": "Dragon Cult Acolyte",
+				"factions": [
+					"The Easterlings",
+					"Host of the Dragon Emperor"
+				],
+				"points": 11,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 4,
+				"attack": 2,
+				"wounds": 1,
+				"courage": 6,
+				"intelligence": 6,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Easterling",
+					"Black Dragon"
+				],
+				"unitType": [
+					"Warrior",
+					"Ingantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"options": [],
+				"specialRules": [
+					"Unyielding Combat Stance",
+					"Supreme Agility",
+					"Warrior of the Dragon Cult"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapons",
+					"Throwing weapons"
+				]
+			},
+			{
+				"name": "Easterling Kataphrakt",
+				"factions": [
+					"The Easterlings",
+					"Host of the Dragon Emperor"
+				],
+				"points": 15,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 6,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 6,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Easterling"
+				],
+				"unitType": [
+					"Warrior",
+					"Cavalry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"options": [
+					{
+						"name": "Banner",
+						"points": 25,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Exchange shield for war drum",
+						"points": 25,
+						"chooseOneKey": "a",
+						"usesDefinition": "War Drum"
+					}
+				],
+				"specialRules": [
+					"Phalanx",
+					"The Gleaming Horde"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Shield",
+					"Hand weapon",
+					"Armoured horse"
+				]
+			},
+			{
+				"name": "War Drake of Rhun",
+				"factions": [
+					"The Easterlings",
+					"Host of the Dragon Emperor"
+				],
+				"points": 20,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 6,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 9,
+				"race": [
+					"Drake"
+				],
+				"faction": [
+					"Easterling"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry",
+					"Beast"
+				],
+				"baseSize": [
+					"40mm"
+				],
+				"options": [],
+				"specialRules": [
+					"Dominant (2)",
+					"Terror",
+					"Venom",
+					"Slow-acting Venom"
+				],
+				"wargear": [
+					"Armour",
+					"Claws and teeth (hand weapons)"
+				]
+			},
+			{
 				"name": "Black Dragon Warrior",
-				"factions": [],
+				"factions": [
+					"The Easterlings",
+					"Host of the Dragon Emperor"
+				],
 				"points": 10,
 				"movement": 6,
 				"fight": 4,
@@ -26579,7 +27168,9 @@
 			{
 				"name": "Easterling Warrior",
 				"factions": [
-					"Legions of Mordor"
+					"Legions of Mordor",
+					"The Easterlings",
+					"Host of the Dragon Emperor"
 				],
 				"points": 8,
 				"movement": 6,
@@ -28458,6 +29049,26 @@
 			}
 		],
 		"gear": [
+			{
+				"name": "Easterling Halberd",
+				"definition": "This can be used as either a pike or a two-handed weapon.",
+				"tag": "Active"
+			},
+			{
+				"name": "Helm of the Dragon Emperor",
+				"definition": "This is a Unique piece of warger which grants the Dragon Emperor the Resistant to Magic special rule.",
+				"tag": "Passive"
+			},
+			{
+				"name": "The Dragon Emperor's Glaive",
+				"definition": "This is a Unique Elven spear. Additionally, the Dragon Emperor may use it to use the Shielding rule even though he does not have a shield. The Dragon Emperor cannot Support whilst mounted upon his Royal Palanquin.",
+				"tag": "Active"
+			},
+			{
+				"name": "Durtuz, the Silver Falchion",
+				"definition": "This is a Unique Elven hand-and-a-half weapon. Additionally, when making Strikes against an enemy Hero model, a roll of a natural 5+ will always Wound the target, regardless of the Hero model's Defence",
+				"tag": "Active"
+			},
 			{
 				"name": "War Drum (Mordor Orc)",
 				"definition": "A model with a war drum may use it during the Declare Heroic Actions step of each Move Phase to declare a Heroic March for free, without spending a Might Point, even if they are not a Hero. This free Heroic March has the following exceptions:\n                • A model with a war drum that declares a Heroic March must always shout At the Double.\n                • The range of this At the Double is 12\" rather than 6\". Additionally, friendly models must finish their Activation within 12\" rather than 6\".\n                • The Heroic March declared when a model uses a war drum will only affect friendly models with the same keywords as the ones shown in brackets after the war drum. So if a model has a war drum (Mordor) then it will only affect models with the Mordor keyword.\n                As a war drum allows a model to declare a free Heroic March, models cannot be affected by both a war drum and a normal Heroic March in the same turn."
@@ -30420,6 +31031,60 @@
 			}
 		],
 		"keywords": [
+			{
+				"name": "Supreme Agility",
+				"definition": "This model gains a +2 bonus to any Climb, Jump or Leap Tests they take. Additionally, this model automatically passes all In the Way Tests when making Strikes against a model that is defending a barrier or a doorway.",
+				"tag": "Active"
+			},
+			{
+				"name": "Warrior of the Dragon Cult",
+				"definition": "This model may only be included in the Warband of a Black Dragon Hero. Additionally, whilst within 3\" of a Black Dragon Hero, this model gains a bonus of +1 to thier Fight Value."
+			},
+			{
+				"name": "Emperor of the Easterlings",
+				"definition": "The Dragon Emperor's Stand Fast wil cover the entire battlefield, regardless of range. Additionally, friendly Easterling Hero models may benefit from the Dragon Emperor's Stand Fast.",
+				"tag": "Active"
+			},
+			{
+				"name": "Herald of Victory",
+				"definition": "Friendly Easterling models treat Amdur as a banner. If Amdur slays the enemy General, then friendly Easterling models treat Amdur as a banner with a range of 6\".",
+				"tag": "Passive"
+			},
+			{
+				"name": "The Lord of Blades",
+				"definition": "Whenever an enemy Hero model Engaged in Combat with Amdur declares a Heroic Strike, Amdur may declare a Heroic Strike for free. If Amdur has already declared a Heroic Action during the Fight Phase, then he may change his declared Heroic Action to a Heroic Strike, though any Might Points spent will be lost.",
+				"tag": "Active"
+			},
+			{
+				"name": "Sorcerous Adept",
+				"definition": "Each time Brorgir rols one or more natural 6s when making a Casting Test, he will regain a single Will Point after resolving the effects of the Magical Power.",
+				"tag": "Active"
+			},
+			{
+				"name": "Show no mercy",
+				"definition": "Rutabi may re-roll failed To Wound Rolls when making Strikes against a Trapped model.",
+				"tag": "Active"
+			},
+			{
+				"name": "Shield of Blades",
+				"definition": "A Dragon Knight may use the Shielding rule even though they do not have a shield.",
+				"tag": "Active"
+			},
+			{
+				"name": "Leader of the Dragon Cult",
+				"definition": "This model may only include Black Dragon Warrior models in their Warband.",
+				"tag": "Passive"
+			},
+			{
+				"name": "The Gleaming Horde",
+				"definition": "This model gains the Shieldwall special rule whilst they have the Cavalry keyword, and may still benefit from the special rulew hilst mounted. The bonus of +1 Defence is applied to both rider and Mount. Hero models with this special rule that do not have a shield will still benefit from this special rule.",
+				"tag": "Active"
+			},
+			{
+				"name": "Slow-acting Venom",
+				"definition": "Any model that suffers a Wound from a War Drake of Rhun which isn't prvented, and is not slain, will reduce their Fight Value and Attacks by 1 (to a minimum of 1) for the remainder of the game. A model can only be affected by this special rule once per game, even if Wounded multiple times or by different models with this special rule.",
+				"tag": "Passive"
+			},
 			{
 				"name": "Set Ablaze",
 				"definition": "A model can be Set Ablaze through a number of means. During the End Phase of a turn, any model that is Set Ablaze will immediately suffer one Strength 5 hit. A model that Is Set Ablaze can extinguish the flames either by Lying Down and Crawling 1\", or by entering a water feature. If either of these things happen, the model is no longer considered to be Set Ablaze. If a model Is Immune to fire-based attacks, they cannot be Set Ablaze under any circumstances."
@@ -32580,6 +33245,26 @@
 			}
 		],
 		"armyBonuses": [
+			{
+				"name": "Heroes of the Easterlings",
+				"definition": "Friendly Easterling Hero models may re-roll a single D6 in a Duel Roll."
+			},
+			{
+				"name": "Easterling Phalanxes",
+				"definition": "Friendly models Supported by two other friendly models gain a bonus of +1 To Wound when making Strikes."
+			},
+			{
+				"name": "No quarter was asked...",
+				"definition": "Friendly Easterling models gain a bonus of +1 to any Courage Tests they are required to take once their Army is Broken. Additionally, once per game in Scenarios in which a dice is rolled to see when the game ends, you may choose to have the dice re-rolled if the Scenario ends before you wish it to."
+			},
+			{
+				"name": "Press the advantage",
+				"definition": "Whilst the enemy Army is Broken, friendly Easterling Hero models gain the Fearless special rule."
+			},
+			{
+				"name": "Raze the White City",
+				"definition": "Friendly models gain the Ancient Enemies (Gondor) special rule."
+			},
 			{
 				"name": "The Dragon's Hoard",
 				"definition": "Each time a friendly model slays an enemy model in Combat they may roll a D6. On a natural 6, they ahve located some gold upon the body of the fallen and claimed it or themselves - keep a note of how much gold each model claims in this way. Friendly models gain the following benefits depending on how much gold they have collected. These benefits are cumulative:\n                1 gold - The model may re-roll a single To Wound Roll when making Strikes.\n                2-3 gold - The model may re-roll a single D6 during a Duel Roll.\n                4-5 gold - The model gains the Fearless special rule.\n                6+ gold - At the end of the game, their controlling player will gain an additional 1 Victory Point. This can never tkae this Army's total number of Victory Points above 20."
