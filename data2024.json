@@ -608,6 +608,19 @@
 				"specialRules": []
 			},
 			{
+				"name": "Kingdom of Khazad-dum",
+				"alignment": "good",
+				"additionalRules": [
+					"If a Dwarf King is your General, they gain the Leader (Khazad Guard) special rule."
+				],
+				"armyBonuses": [
+					"\"The wealth of Moria lay not in gold or jewels, but in Mithril\"",
+					"The Stubbornness of Dwarves",
+					"Dwarven Mirrors"
+				],
+				"specialRules": []
+			},
+			{
 				"name": "The Fellowship",
 				"alignment": "good",
 				"additionalRules": [
@@ -2456,6 +2469,59 @@
 			}
 		],
 		"heroes": [
+			{
+				"name": "Durin, King of Khazad-dum",
+				"factions": [
+					{
+						"name": "Kingdom of Khazad-dum",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 170,
+				"movement": 5,
+				"fight": 7,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 9,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 3,
+				"will": 3,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Defence",
+					"Heroic Strike"
+				],
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Khazad-dum"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Fearless",
+					"Leader (Khazad Guard)"
+				],
+				"wargear": [
+					"Exquisite Mithril Armour",
+					"Durin's Axe",
+					"The Ring of Durin",
+					"The Crown of Kings",
+					"The Horn of Zirakzigil"
+				],
+				"options": []
+			},
 			{
 				"name": "Easterling War Priest",
 				"factions": [
@@ -27005,6 +27071,18 @@
 			{
 				"name": "Khazad Guard",
 				"factions": [],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Durin, King of Khazad-dum"
+							},
+							{
+								"in": "Kingdom of Khazad-dum"
+							}
+						]
+					}
+				],
 				"points": 12,
 				"movement": 5,
 				"fight": 5,
@@ -27029,7 +27107,15 @@
 				"baseSize": [
 					"25mm"
 				],
-				"options": [],
+				"options": [
+					{
+						"name": "Hearthguard",
+						"points": 2,
+						"availableIn": [
+							"Durin, King of Khazad-dum"
+						]
+					}
+				],
 				"specialRules": [
 					"Bodyguard"
 				],
@@ -29054,6 +29140,37 @@
 			}
 		],
 		"gear": [
+			{
+				"name": "Exquisite Mithril Armour",
+				"definition": "This is a set of Unique Mithril Armour that will add 4 to Durin's Defence rather than the usual 3 (already included in his profile).",
+				"tag": "Passive"
+			},
+			{
+				"name": "Durin's Axe",
+				"definition": "This is a Unique Master-forged two-handed weapon. Additionally, Durin may re-roll a single D6 when making a Duel Roll.",
+				"tag": "Active"
+			},
+			{
+				"name": "The Ring of Durin",
+				"definition": "This is a Unique piece of wargear. Once per game during the Priority Phase, after the roll for Priority has taken place, the bearer of the Ring of Durin can re-roll their side's Priority Roll.",
+				"tag": "Passive"
+			},
+			{
+				"name": "The Crown of Kings",
+				"definition": "This is a Unique piece of wargear. Whenever Durin suffers a Wound, roll a D6. On a natural 6, the Wound is prevented and is ignored.",
+				"tag": "Passive"
+			},
+			{
+				"name": "The Horn of Zirakzigil",
+				"definition": "This is a Unique war horn, which also gives Durin the Terror special rule.",
+				"tag": "Active"
+			},
+			{
+				"name": "Hearthguard",
+				"type": "upgrade",
+				"modifiesStats": [],
+				"definition": "Hearthguard have the Burly special rule."
+			},
 			{
 				"name": "Royal Palanquin",
 				"type": "mount",
@@ -33301,6 +33418,22 @@
 			}
 		],
 		"armyBonuses": [
+			{
+				"name": "Dwarven Mirrors",
+				"definition": "At the start of the game, after both sides have deployed, you may deploy two 40mm Dwarven Mirror Markers anywhere on the battlefield that is not within the opposition deployment zone. The area within 6\" of a Dwarven Mirror Marker is always considered to be daylight. Enemy models targeting a friendly model within 6\" of a Dwarven Mirror Marker with a shooting attack suffers a -1 penalty to the To Hit Roll.\nAdditionally, Orc models, Goblin models, or models with the Cave Dweller special rule, suffer a -1 penalty to any Courage Tests they are required to take whilst they are within 6\" of a Dwarven Mirror Marker. If during the End Phase of a turn, an enemy model is in base contact with a Dwarven Mirror Marker, that model hasn&apos;t done anything during that turn except Move (i.e., has not made a shooting attack, cast a Magical Power, been Engaged in Combat), and that model was not affected by a Magical Power that turn, then it can remove the Dwarven Mirror Marker from play. Models cannot overlap a Dwarven Mirror Marker for any reason, though a War Beast or Chariot that Moves into base contact with one (via Trample or Chariot Charge respectively) will immediately remove it from play and may carry on as normal."
+			},
+			{
+				"name": "The Stubbornness of Dwarves",
+				"definition": "During a Duel Roll, before any re-rolls have been used, if the opposition player has rolled more dice (including for Supporting models), then a single friendly Khazad-dum model may re-roll a single D6 as part of the Duel Roll."
+			},
+			{
+				"name": "Steadfast Warriors",
+				"definition": "Friendly Dwarf Captains, Dwarf Warriors and Dwarf Rangers gain the Dominant (2) special rule."
+			},
+			{
+				"name": "\"The wealth of Moria lay not in gold or jewels, but in Mithril\"",
+				"definition": "Friendly models may re-roll To Wound Rolls of a natural 1 when making Strikes."
+			},
 			{
 				"name": "Heroes of the Easterlings",
 				"definition": "Friendly Easterling Hero models may re-roll a single D6 in a Duel Roll."
