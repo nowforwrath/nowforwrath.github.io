@@ -17261,6 +17261,40 @@
 				]
 			},
 			{
+				"name": "Dwarven Ballista",
+				"factions": [
+					{
+						"name": "Kingdom of Khazad-dum",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"unlimited": true,
+				"points": 70,
+				"movement": 0,
+				"fight": 0,
+				"shoot": 0,
+				"strength": 0,
+				"defence": 0,
+				"attack": 0,
+				"wounds": 0,
+				"courage": 0,
+				"might": 0,
+				"will": 0,
+				"fate": 0,
+				"heroicActions": [],
+				"range": [],
+				"baseSize": [],
+				"increaseMaximumChildren": {
+					"warriors": -4
+				},
+				"keywords": [
+					"Siege Weapon"
+				],
+				"options": [],
+				"specialRules": [],
+				"wargear": []
+			},
+			{
 				"name": "Iron Hills Ballista",
 				"factions": [
 					{
@@ -27034,16 +27068,32 @@
 			},
 			{
 				"name": "Dwarf Warrior",
-				"factions": [],
+				"factions": [
+					"Kingdom of Khazad-dum"
+				],
 				"points": 8,
 				"movement": 5,
-				"fight": 4,
-				"shoot": 4,
-				"strength": 3,
-				"defence": 6,
-				"attack": 1,
+				"fight": 0,
+				"shoot": 0,
+				"strength": 0,
+				"defence": 0,
+				"attack": 0,
 				"wounds": 1,
-				"courage": 4,
+				"courage": 0,
+				"intelligence": 0,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Khazad-dum"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"options": [
 					{
 						"name": "Banner",
@@ -27141,16 +27191,18 @@
 			},
 			{
 				"name": "Iron Guard",
-				"factions": [],
+				"factions": [
+					"Kingdom of Khazad-dum"
+				],
 				"points": 15,
 				"movement": 5,
-				"fight": 4,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 6,
-				"attack": 2,
-				"wounds": 1,
-				"courage": 4,
+				"fight": 0,
+				"shoot": 0,
+				"strength": 0,
+				"defence": 0,
+				"attack": 0,
+				"wounds": 0,
+				"courage": 0,
 				"options": [],
 				"specialRules": [],
 				"race": [
@@ -27166,24 +27218,36 @@
 				"baseSize": [
 					"25mm"
 				],
-				"wargear": [
-					"Dwarf Armour",
-					"Sword",
-					"Throwing Axes"
-				]
+				"wargear": []
 			},
 			{
 				"name": "Dwarf Ranger",
-				"factions": [],
+				"factions": [
+					"Kingdom of Khazad-dum"
+				],
 				"points": 8,
 				"movement": 5,
-				"fight": 4,
-				"shoot": 3,
-				"strength": 3,
-				"defence": 5,
-				"attack": 1,
+				"fight": 0,
+				"shoot": 0,
+				"strength": 0,
+				"defence": 0,
+				"attack": 0,
 				"wounds": 1,
-				"courage": 4,
+				"courage": 0,
+				"intelligence": 0,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Khazad-dum"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"options": [
 					{
 						"name": "Dwarf longbow",
@@ -27199,14 +27263,13 @@
 					}
 				],
 				"specialRules": [],
-				"wargear": [
-					"Armour",
-					"Axe"
-				]
+				"wargear": []
 			},
 			{
 				"name": "Vault Warden Team",
-				"factions": [],
+				"factions": [
+					"Kingdom of Khazad-dum"
+				],
 				"points": 25,
 				"includes": [
 					{
@@ -27228,22 +27291,17 @@
 				"factions": [],
 				"points": 0,
 				"movement": 5,
-				"fight": 4,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 9,
-				"attack": 1,
+				"fight": 0,
+				"shoot": 0,
+				"strength": 0,
+				"defence": 0,
+				"attack": 0,
 				"wounds": 1,
-				"courage": 4,
+				"courage": 0,
+				"intelligence": 0,
 				"options": [],
-				"specialRules": [
-					"Spear & Shield"
-				],
-				"wargear": [
-					"Heavy Dwarf Armour",
-					"Axe",
-					"Iron Shield"
-				],
+				"specialRules": [],
+				"wargear": [],
 				"autoAddOnly": true
 			},
 			{
@@ -27251,21 +27309,17 @@
 				"factions": [],
 				"points": 0,
 				"movement": 5,
-				"fight": 4,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 6,
-				"attack": 1,
+				"fight": 0,
+				"shoot": 0,
+				"strength": 0,
+				"defence": 0,
+				"attack": 0,
 				"wounds": 1,
-				"courage": 4,
+				"courage": 0,
+				"intelligence": 0,
 				"options": [],
-				"specialRules": [
-					"Foe Spear"
-				],
-				"wargear": [
-					"Dwarf Armour",
-					"Foe Spear"
-				],
+				"specialRules": [],
+				"wargear": [],
 				"autoAddOnly": true
 			},
 			{
