@@ -12553,6 +12553,10 @@
 				"name": "Dwarf King",
 				"factions": [
 					{
+						"name": "Kingdom of Khazad-dum",
+						"heroicTier": "Hero of Valour"
+					},
+					{
 						"name": "The Iron Hills",
 						"heroicTier": "Hero of Valour"
 					},
@@ -27042,15 +27046,11 @@
 				"courage": 4,
 				"options": [
 					{
-						"name": "Shield",
-						"points": 1
+						"name": "Banner",
+						"points": 25
 					},
 					{
 						"name": "War Horn",
-						"points": 30
-					},
-					{
-						"name": "Banner",
 						"points": 25
 					},
 					{
@@ -27058,7 +27058,11 @@
 						"points": 1
 					},
 					{
-						"name": "Exchange axe for two-handed axe and dagger",
+						"name": "Shield",
+						"points": 1
+					},
+					{
+						"name": "Two-handed weapon",
 						"points": 1
 					}
 				],
@@ -27076,6 +27080,16 @@
 						"all": [
 							{
 								"in": "Durin, King of Khazad-dum"
+							},
+							{
+								"in": "Kingdom of Khazad-dum"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Dwarf King"
 							},
 							{
 								"in": "Kingdom of Khazad-dum"
@@ -27172,21 +27186,19 @@
 				"courage": 4,
 				"options": [
 					{
-						"name": "Dwarf Long Bow",
+						"name": "Dwarf longbow",
 						"points": 1
 					},
 					{
-						"name": "Throwing Axes",
+						"name": "Throwing weapons",
 						"points": 1
 					},
 					{
-						"name": "Two-Handed Axe",
+						"name": "Two-handed weapon",
 						"points": 1
 					}
 				],
-				"specialRules": [
-					"Mountain Dweller"
-				],
+				"specialRules": [],
 				"wargear": [
 					"Armour",
 					"Axe"
