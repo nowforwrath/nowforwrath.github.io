@@ -580,6 +580,46 @@
 				"specialRules": []
 			},
 			{
+				"name": "Umbar",
+				"alignment": "evil",
+				"additionalRules": [
+					"An Umbar Army must always contain at least one Hasharin."
+				],
+				"armyBonuses": [
+					"Sieze Command",
+					"Shadows of Umbar",
+					"Death to Gondor"
+				],
+				"specialRules": [
+					"Hatred (Gondor)",
+					"Stalk Unseen"
+				]
+			},
+			{
+				"name": "The Serpent Horde",
+				"alignment": "evil",
+				"additionalRules": [
+					"A Serpent Horde Army must always contain Suladan, who is always the Army's General",
+					"A Serpent Horde Army may have up to 50% of its Warrior models aremed with bows rather than the usual 33%"
+				],
+				"armyBonuses": [],
+				"specialRules": [],
+				"requiredChildren": [
+					{
+						"name": "Suladan, the Serpent Lord",
+						"points": 120,
+						"mustBeLeader": true,
+						"elementPropertyName": "heroes"
+					}
+				],
+				"adjustLimits": [
+					{
+						"type": "bow",
+						"percentage": 50
+					}
+				]
+			},
+			{
 				"name": "Host of the Dragon Emperor",
 				"alignment": "evil",
 				"additionalRules": [
@@ -617,6 +657,19 @@
 					"The Dragon's Hoard",
 					"Beast of Legend",
 					"Supreme Jealousy"
+				],
+				"specialRules": []
+			},
+			{
+				"name": "Moria",
+				"alignment": "evil",
+				"additionalRules": [
+					"Beast models may only be included in Druzhag's Warband"
+				],
+				"armyBonuses": [
+					"\"We cannot get out, they are coming.\"",
+					"Skittering Warriors",
+					"Durburz's Will"
 				],
 				"specialRules": []
 			},
@@ -703,6 +756,37 @@
 				"specialRules": []
 			},
 			{
+				"name": "Paths of the Druadan",
+				"alignment": "good",
+				"additionalRules": [],
+				"armyBonuses": [],
+				"specialRules": []
+			},
+			{
+				"name": "Fords of Isen",
+				"alignment": "good",
+				"additionalRules": [
+					"A Fords of Isen Army must always contain Theodred, who is always the Army's General."
+				],
+				"armyBonuses": [
+					"Protect the Prince",
+					"Resolute Rohirrim",
+					"The Courage of Elfhelm"
+				],
+				"specialRules": [
+					"Dominant (2)",
+					"Sworn Protector (Theodred)"
+				],
+				"requiredChildren": [
+					{
+						"name": "Theodred, Prince of Rohan",
+						"points": 90,
+						"mustBeLeader": true,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
 				"name": "The Beornings",
 				"alignment": "good",
 				"additionalRules": [],
@@ -744,6 +828,13 @@
 						]
 					}
 				]
+			},
+			{
+				"name": "Battle of Bywater",
+				"alignment": "good",
+				"additionalRules": [],
+				"armyBonuses": [],
+				"specialRules": []
 			},
 			{
 				"name": "The Fellowship",
@@ -2594,6 +2685,1278 @@
 		],
 		"heroes": [
 			{
+				"name": "Déorwine, Chief of the King's Knights",
+				"factions": [
+					{
+						"name": "Kingdom of Rohan",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Riders of Theoden",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 70,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic March",
+					"Heroic Strike"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Expert Rider",
+					"Horse Lord",
+					"Leader (Rohan Royal Guard)",
+					"Sworn Protector (Théoden)",
+					"For Théoden!"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Shield",
+					"Hand weapon"
+				],
+				"options": [
+					{
+						"name": "Horse",
+						"points": 20
+					}
+				]
+			},
+			{
+				"name": "Elfhelm, Captain of Rohan",
+				"factions": [
+					{
+						"name": "Kingdom of Rohan",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Riders of Theoden",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 60,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 6,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 2,
+				"will": 1,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Accuracy",
+					"Heroic Defence",
+					"Heroic March"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Expert Rider",
+					"Horse Lord",
+					"Pinpoint Accuracy"
+				],
+				"wargear": [
+					"Armour",
+					"Shield",
+					"Hand weapon",
+					"Throwing spears"
+				],
+				"options": [
+					{
+						"name": "Horse",
+						"points": 20
+					}
+				]
+			},
+			{
+				"name": "Moria Goblin Shaman",
+				"factions": [
+					{
+						"name": "Moria",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Depths of Moria",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 45,
+				"movement": 5,
+				"fight": 3,
+				"shoot": 5,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 7,
+				"intelligence": 7,
+				"might": 1,
+				"will": 3,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Channelling"
+				],
+				"race": [
+					"Goblin"
+				],
+				"faction": [
+					"Moria"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Cave Dweller"
+				],
+				"wargear": [
+					"Armour",
+					"Spear",
+					"Hand weapon"
+				],
+				"magicalPowers": [
+					{
+						"name": "Fury (Moria Goblin)",
+						"range": 0,
+						"casting": 3
+					},
+					{
+						"name": "Instil Fear",
+						"range": 0,
+						"casting": 4
+					},
+					{
+						"name": "Transfix",
+						"range": 12,
+						"casting": 5
+					}
+				],
+				"options": []
+			},
+			{
+				"name": "Durbûrz, Goblin-King of Moria",
+				"factions": [
+					{
+						"name": "Moria",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 75,
+				"movement": 5,
+				"fight": 4,
+				"shoot": 5,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 3,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic Resolve",
+					"Heroic Strike"
+				],
+				"race": [
+					"Goblin"
+				],
+				"faction": [
+					"Moria"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Cave Dweller",
+					"Iron Fist",
+					"Callous Leadership"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Drúzhag the Beastcaller",
+				"factions": [
+					{
+						"name": "Moria",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 80,
+				"movement": 5,
+				"fight": 3,
+				"shoot": 5,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 2,
+				"will": 5,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Channelling",
+					"Heroic Defence"
+				],
+				"race": [
+					"Goblin"
+				],
+				"faction": [
+					"Moria"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Cave Dweller",
+					"Master of the Dark Wild"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				],
+				"magicalPowers": [
+					{
+						"name": "Enrage Beast",
+						"range": 0,
+						"casting": 3
+					},
+					{
+						"name": "Fury (Beast)",
+						"range": 12,
+						"casting": 3
+					},
+					{
+						"name": "Writhing Vines",
+						"range": 0,
+						"casting": 4
+					}
+				],
+				"options": []
+			},
+			{
+				"name": "Húrin the Tall, Warden of the Keys",
+				"factions": [
+					{
+						"name": "Minas Tirith",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Atop the Wall",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 80,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Resolve",
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"In Defence of the King",
+					"Line of Command",
+					"The Warden's Sword"
+				],
+				"wargear": [
+					"Heavy armour",
+					"The Warden's Sword"
+				],
+				"options": [
+					{
+						"name": "Horse",
+						"points": 30
+					}
+				]
+			},
+			{
+				"name": "Delgamar, Gatemaster of Umbar",
+				"factions": [
+					{
+						"name": "Umbar",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Corsair Fleets",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 75,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 5,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 3,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Strength"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Corsair",
+					"Umbar"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Ruthless Commander"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Throwing weapons",
+					"Whip"
+				],
+				"options": []
+			},
+			{
+				"name": "Lotho Sackville-Baggins",
+				"factions": [
+					{
+						"name": "Battle of Bywater",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 30,
+				"movement": 4,
+				"fight": 2,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 6,
+				"might": 1,
+				"will": 4,
+				"fate": 1,
+				"heroicActions": [],
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Resistant to Magic",
+					"Throw Stones (range 8\", Strength 1)",
+					"Family Rivalry",
+					"Considerable Wealth"
+				],
+				"wargear": [
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Holfoot Bracegirdle, Shirriff-Leader",
+				"factions": [
+					{
+						"name": "Battle of Bywater",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 40,
+				"movement": 4,
+				"fight": 3,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 3,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic March"
+				],
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Leader (Hobbit Shirriff)",
+					"Resistant to Magic",
+					"Throw Stones (range 8\", Strength 1)",
+					"Head Shirriff"
+				],
+				"wargear": [
+					"Hand-and-a-half weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Robin Smallburrow, Hobbit Shirriff",
+				"factions": [
+					{
+						"name": "Battle of Bywater",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 25,
+				"movement": 4,
+				"fight": 3,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 7,
+				"intelligence": 7,
+				"might": 1,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic March"
+				],
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Leader (Hobbit Shirriff)",
+					"Resistant to Magic",
+					"Throw Stones (range 8\", Strength 1)",
+					"A nose for shortcuts"
+				],
+				"wargear": [
+					"Hand-and-a-half weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Goldberry",
+				"factions": [
+					{
+						"name": "Road to Rivendell",
+						"heroicTier": "Independent Hero"
+					}
+				],
+				"points": 80,
+				"movement": 6,
+				"fight": 0,
+				"shoot": 0,
+				"strength": 0,
+				"defence": 0,
+				"attack": 0,
+				"wounds": 0,
+				"courage": 0,
+				"intelligence": 0,
+				"might": 0,
+				"will": 8,
+				"fate": 0,
+				"heroicActions": [],
+				"race": [
+					"Spirit"
+				],
+				"faction": [
+					"None"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"River-daughter",
+					"Sing a Jolly Song"
+				],
+				"wargear": [
+					"Unarmed"
+				],
+				"options": []
+			},
+			{
+				"name": "Frodo of the Nine Fingers",
+				"factions": [
+					{
+						"name": "Battle of Bywater",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 70,
+				"movement": 4,
+				"fight": 3,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 6,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 1,
+				"will": 3,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Defence"
+				],
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
+					"Hero",
+					"Cavalry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Resistant to Magic",
+					"It will never really heal",
+					"Home is the Hero"
+				],
+				"wargear": [
+					"Mithril Coat",
+					"Pony",
+					"Unarmed"
+				],
+				"options": [
+					{
+						"name": "Elven cloak",
+						"points": 5
+					}
+				]
+			},
+			{
+				"name": "Folco Boffin",
+				"factions": [
+					{
+						"name": "Battle of Bywater",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 25,
+				"movement": 4,
+				"fight": 2,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 8,
+				"might": 0,
+				"will": 3,
+				"fate": 1,
+				"heroicActions": [],
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Resistant to Magic",
+					"Throw Stones (range 8\", Strength 1)",
+					"A Helpful Sort",
+					"High Spirits"
+				],
+				"wargear": [
+					"Unarmed"
+				],
+				"options": []
+			},
+			{
+				"name": "Farmer Tolman Cotton",
+				"factions": [
+					{
+						"name": "Battle of Bywater",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 35,
+				"movement": 4,
+				"fight": 2,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 6,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Resolve"
+				],
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Resistant to Magic",
+					"Throw Stones (range 8\", Strength 1)",
+					"This is our country"
+				],
+				"wargear": [
+					"Pitchfork"
+				],
+				"options": []
+			},
+			{
+				"name": "Baldo Tulpenny",
+				"factions": [
+					{
+						"name": "Battle of Bywater",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 40,
+				"movement": 4,
+				"fight": 3,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 5,
+				"might": 1,
+				"will": 1,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Accuracy"
+				],
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Resistant to Magic",
+					"Sharpshooter",
+					"Throw Stones (range 8\", Strength 1)",
+					"Champion Stone Skipper",
+					"Master of Traps"
+				],
+				"wargear": [
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Will Whitfoot, Mayor of Michel Delving",
+				"factions": [
+					{
+						"name": "Battle of Bywater",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 40,
+				"movement": 4,
+				"fight": 2,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 1,
+				"will": 3,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Resolve"
+				],
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Leader (Hobbit Shirriff)",
+					"Resistant to Magic",
+					"Throw Stones (range 8\", Strength 1)",
+					"Mayor of Michel Delving"
+				],
+				"wargear": [
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Samwise the Brave",
+				"factions": [
+					{
+						"name": "Battle of Bywater",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 60,
+				"movement": 4,
+				"fight": 3,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 3,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 2,
+				"will": 2,
+				"fate": 3,
+				"heroicActions": [
+					"Heroic Resolve",
+					"Heroic Strike"
+				],
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
+					"Hero",
+					"Cavalry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Resistant to Magic",
+					"Sworn Protector (Frodo)",
+					"Sworn Protector (Rosie)",
+					"Throw Stones (range 8\", Strength 1)",
+					"There's some good in this world, Mr Frodo, and it's worth fighting for"
+				],
+				"wargear": [
+					"Sting",
+					"Pony"
+				],
+				"options": [
+					{
+						"name": "Elven cloak",
+						"points": 5
+					}
+				]
+			},
+			{
+				"name": "Meriadoc Brandybuck, Captain of the Shire",
+				"factions": [
+					{
+						"name": "Battle of Bywater",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 60,
+				"movement": 4,
+				"fight": 4,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 4,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 6,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic March",
+					"Heroic Strike"
+				],
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
+					"Hero",
+					"Cavalry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Resistant to Magic",
+					"Throw Stones (range 8\", Strength 1)"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Pony",
+					"Horn of the Riddermark"
+				],
+				"options": [
+					{
+						"name": "Elven cloak",
+						"points": 5
+					},
+					{
+						"name": "Shield",
+						"points": 5
+					}
+				],
+				"additionalRules": "If your Army includes Merry, you may upgrade any number of Hobbit Militia in his Warband to Battlin' Brandybucks at the cost of +1 point per model. Battlin' Brandybucks have a Strength of 3."
+			},
+			{
+				"name": "Peregrin Took, Captain of the Shire",
+				"factions": [
+					{
+						"name": "Battle of Bywater",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 60,
+				"movement": 4,
+				"fight": 4,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 4,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 6,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Accuracy",
+					"Heroic March",
+					"Heroic Strike"
+				],
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
+					"Hero",
+					"Cavalry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Resistant to Magic",
+					"Throw Stones (range 8\", Strength 1)",
+					"Against all odds"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Pony"
+				],
+				"options": [
+					{
+						"name": "Elven cloak",
+						"points": 5
+					}
+				],
+				"additionalRules": "If your Army includes Pippin, you may upgrade any number of Hobbit Archers in his Warband to Tookish Hunters at the cost of +1 point per model. Tookish Hunters may re-roll To Wound Rolls of a 1 when making Shooting Attacks."
+			},
+			{
+				"name": "Rúmil, Warden of Caras Galadhon",
+				"factions": [
+					{
+						"name": "Lothlorien",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 85,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 7,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 2,
+				"will": 1,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Defence"
+				],
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Lothlorien"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Woodland Creature",
+					"Swift Parry"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Shield",
+					"Elven hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Orophin, Galadhrim Captain",
+				"factions": [
+					{
+						"name": "Lothlorien",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 85,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 6,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Strength"
+				],
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Lothlorien"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Woodland Creature",
+					"Whirl of Blades"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Elven hand weapons"
+				],
+				"options": []
+			},
+			{
+				"name": "Rúmil, Warden of Caras Galadhon",
+				"factions": [
+					{
+						"name": "Lothlorien",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 85,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 7,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 2,
+				"will": 1,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Defence"
+				],
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Lothlorien"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Woodland Creature",
+					"Swift Parry"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Shield",
+					"Elven hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "No Hero (Sharkey)",
+				"factions": [
+					{
+						"name": "Sharkey's Rogues",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"unlimited": true,
+				"points": 0,
+				"movement": 0,
+				"fight": 0,
+				"shoot": 0,
+				"strength": 0,
+				"defence": 0,
+				"attack": 0,
+				"wounds": 0,
+				"courage": 0,
+				"intelligence": 0,
+				"might": 0,
+				"will": 0,
+				"fate": 0,
+				"heroicActions": [],
+				"keywords": [],
+				"options": [],
+				"specialRules": [],
+				"wargear": [],
+				"decreaseModelCount": 1,
+				"specialText": "Warband must have 10-12 ruffians."
+			},
+			{
+				"name": "Tom Bombadil",
+				"factions": [
+					{
+						"name": "Road to Rivendell",
+						"heroicTier": "Independent Hero"
+					}
+				],
+				"points": 120,
+				"movement": 6,
+				"fight": 0,
+				"shoot": 0,
+				"strength": 0,
+				"defence": 0,
+				"attack": 0,
+				"wounds": 0,
+				"courage": 0,
+				"intelligence": 0,
+				"might": 0,
+				"will": 12,
+				"fate": 0,
+				"heroicActions": [],
+				"race": [
+					"Spirit"
+				],
+				"faction": [
+					"None"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Tom is Master"
+				],
+				"wargear": [
+					"Unarmed"
+				],
+				"options": []
+			},
+			{
 				"name": "Ghan-buri-Ghan",
 				"factions": [],
 				"points": 65,
@@ -2932,6 +4295,10 @@
 					{
 						"name": "Grand Army of the South",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Umbar",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 80,
@@ -3035,7 +4402,6 @@
 						"name": "Horse",
 						"points": 20,
 						"availableIn": [
-							"The Grey Company",
 							"Rivendell"
 						]
 					}
@@ -3107,7 +4473,6 @@
 						"name": "Horse",
 						"points": 20,
 						"availableIn": [
-							"The Grey Company",
 							"Rivendell"
 						]
 					}
@@ -3183,6 +4548,10 @@
 					},
 					{
 						"name": "Grand Army of the South",
+						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Umbar",
 						"heroicTier": "Hero of Legend"
 					}
 				],
@@ -3351,18 +4720,21 @@
 				],
 				"points": 80,
 				"movement": 5,
-				"fight": 0,
-				"shoot": 0,
-				"strength": 0,
-				"defence": 0,
-				"attack": 0,
-				"wounds": 0,
-				"courage": 0,
-				"intelligence": 0,
-				"might": 0,
-				"will": 0,
-				"fate": 0,
-				"heroicActions": [],
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 8,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Strength",
+					"Heroic Strike"
+				],
 				"race": [
 					"Dwarf"
 				],
@@ -3377,8 +4749,14 @@
 				"baseSize": [
 					"25mm"
 				],
-				"specialRules": [],
-				"wargear": [],
+				"specialRules": [
+					"Sworn Protector (Durin)",
+					"Durin's Protector"
+				],
+				"wargear": [
+					"Heavy Dwarf armour",
+					"Torozul"
+				],
 				"options": []
 			},
 			{
@@ -3935,6 +5313,10 @@
 					{
 						"name": "Dragons of the North",
 						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Moria",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"unlimited": true,
@@ -4010,6 +5392,10 @@
 				"factions": [
 					{
 						"name": "Dragons of the North",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Moria",
 						"heroicTier": "Minor Hero"
 					}
 				],
@@ -6345,6 +7731,10 @@
 					{
 						"name": "Theodred's Guard",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Fords of Isen",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 85,
@@ -6940,6 +8330,10 @@
 					{
 						"name": "The Grief of Eomer",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Fords of Isen",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -7012,7 +8406,8 @@
 							"Helm's Guard",
 							"Defenders of the Pelennor",
 							"Realms of Men",
-							"The Grief of Eomer"
+							"The Grief of Eomer",
+							"Fords of Isen"
 						]
 					},
 					{
@@ -7035,7 +8430,8 @@
 							"Kingdom of Rohan",
 							"Defenders of the Pelennor",
 							"Riders of Theoden",
-							"The Grief of Eomer"
+							"The Grief of Eomer",
+							"Fords of Isen"
 						]
 					}
 				],
@@ -17807,6 +19203,75 @@
 				]
 			},
 			{
+				"name": "Gondor Avenger Bolt Thrower",
+				"factions": [
+					{
+						"name": "Minas Tirith",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Atop the Wall",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"points": 60,
+				"unlimited": true,
+				"range": [
+					"0-36\""
+				],
+				"movement": 0,
+				"fight": 0,
+				"shoot": 0,
+				"strength": 7,
+				"defence": 9,
+				"wounds": 3,
+				"baseSize": [
+					"40mm"
+				],
+				"race": [
+					"Siege Engine"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Small Siege Engine"
+				],
+				"includes": [
+					{
+						"name": "Minas Tirith Siege Veteran",
+						"dataSource": "heroes"
+					}
+				],
+				"increaseMaximumChildren": {
+					"warriors": -4
+				},
+				"requiredChildren": [
+					{
+						"elementPropertyName": "warriors",
+						"name": "Minas Tirith Siege Crew",
+						"quantity": 2,
+						"points": 0,
+						"hideFromPrint": true,
+						"lockedChildren": true
+					}
+				],
+				"specialRules": [
+					"Rapid Fire (Bolt Thrower)"
+				],
+				"options": [
+					{
+						"name": "Swift Reload",
+						"points": 20
+					}
+				],
+				"composition": "A Gondor Avenger Bolt Thrower is a Small Siege Engine, and is crewed by three Minas Tirith Siege Crew, one of which is a Siege Veteran, which use the profile below:"
+			},
+			{
 				"name": "Gondor Battlecry Trebuchet",
 				"factions": [
 					{
@@ -17936,10 +19401,6 @@
 				"name": "The Balrog",
 				"factions": [
 					{
-						"name": "Moria",
-						"heroicTier": "Hero of Legend"
-					},
-					{
 						"name": "Depths of Moria",
 						"heroicTier": "Hero of Legend"
 					}
@@ -17996,6 +19457,10 @@
 					{
 						"name": "Depths of Moria",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Moria",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -18044,7 +19509,16 @@
 			},
 			{
 				"name": "Moria Goblin Shaman",
-				"factions": [],
+				"factions": [
+					{
+						"name": "Depths of Moria",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Moria",
+						"heroicTier": "Minor Hero"
+					}
+				],
 				"unlimited": true,
 				"points": 45,
 				"movement": 5,
@@ -18114,6 +19588,10 @@
 				"factions": [
 					{
 						"name": "Depths of Moria",
+						"heroicTier": "Independent Hero"
+					},
+					{
+						"name": "Moria",
 						"heroicTier": "Independent Hero"
 					}
 				],
@@ -19125,33 +20603,43 @@
 			},
 			{
 				"name": "Grimbeorn (Man)",
-				"factions": [
-					{
-						"name": "The Beornings",
-						"heroicTier": "Hero of Valour"
-					}
-				],
+				"factions": [],
 				"unavailableSolo": true,
 				"points": 200,
 				"movement": 6,
-				"fight": 5,
+				"fight": 6,
 				"shoot": 4,
 				"strength": 5,
 				"defence": 5,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 6,
+				"courage": 4,
+				"intelligence": 4,
 				"might": 3,
 				"will": 3,
 				"fate": 3,
 				"heroicActions": [
-					"Heroic Strike",
+					"Heroic Defence",
 					"Heroic Strength",
-					"Heroic Defence"
+					"Heroic Strike"
 				],
-				"options": [],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Beorning"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"specialRules": [
 					"Burly",
+					"Dominant (2)",
 					"Fearless",
 					"Resistant to Magic",
 					"Woodland Creature",
@@ -19159,20 +20647,15 @@
 					"Leader of the Beornings"
 				],
 				"wargear": [
-					"Hand-and-a-half-axe",
-					"Great Bow"
-				]
+					"Two-handed weapon",
+					"Great bow"
+				],
+				"options": []
 			},
 			{
 				"name": "Grimbeorn the Bear",
-				"factions": [
-					{
-						"name": "The Beornings",
-						"heroicTier": "Independent Hero",
-						"unlockedBy": "Grimbeorn"
-					}
-				],
 				"unavailableSolo": true,
+				"factions": [],
 				"points": 0,
 				"movement": 8,
 				"fight": 7,
@@ -19180,30 +20663,48 @@
 				"strength": 8,
 				"defence": 8,
 				"attack": 3,
-				"wounds": 0,
-				"courage": 6,
+				"wounds": 3,
+				"courage": 3,
+				"intelligence": 6,
 				"might": 0,
 				"will": 0,
 				"fate": 0,
 				"heroicActions": [
-					"Heroic Strike",
+					"Heroic Defence",
 					"Heroic Strength",
-					"Heroic Defence"
+					"Heroic Strike"
 				],
-				"options": [],
+				"race": [
+					"Bear"
+				],
+				"faction": [
+					"Beorning"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Monster",
+					"Unique"
+				],
+				"baseSize": [
+					"60mm"
+				],
 				"specialRules": [
 					"Burly",
+					"Dominant (5)",
 					"Fearless",
+					"Monstrous Charge",
 					"Resistant to Magic",
+					"Terror",
 					"Woodland Creature",
 					"Skin-changer",
 					"Leader of the Beornings",
-					"Terror",
 					"Crushing Strength"
 				],
 				"wargear": [
-					"Teeth and Claws"
-				]
+					"Claws and teeth (hand weapons)"
+				],
+				"options": []
 			},
 			{
 				"name": "Beorn",
@@ -19383,6 +20884,10 @@
 					{
 						"name": "Grand Army of the South",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Umbar",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 50,
@@ -19494,6 +20999,10 @@
 					{
 						"name": "Grand Army of the South",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Umbar",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -19550,6 +21059,10 @@
 					},
 					{
 						"name": "Grand Army of the South",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Umbar",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -21153,6 +22666,335 @@
 		],
 		"warriors": [
 			{
+				"name": "Bat Swarm",
+				"factions": [
+					"Moria"
+				],
+				"points": 35,
+				"movement": 12,
+				"fight": 1,
+				"shoot": 6,
+				"strength": 3,
+				"defence": 3,
+				"attack": 2,
+				"wounds": 4,
+				"courage": 8,
+				"intelligence": 9,
+				"might": 0,
+				"will": 0,
+				"fate": 0,
+				"heroicActions": [],
+				"race": [
+					"Bat"
+				],
+				"faction": [
+					"Moria"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry",
+					"Beast",
+					"Swarm"
+				],
+				"baseSize": [
+					"40mm"
+				],
+				"specialRules": [
+					"Cave Dweller",
+					"Fly",
+					"Blinding Swarm"
+				],
+				"wargear": [
+					"Claws and teeth (hand weapons)"
+				],
+				"options": []
+			},
+			{
+				"name": "Moria Goblin Prowler",
+				"factions": [
+					"Moria",
+					"Depths of Moria"
+				],
+				"points": 7,
+				"movement": 5,
+				"fight": 3,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 8,
+				"intelligence": 7,
+				"might": 0,
+				"will": 0,
+				"fate": 0,
+				"heroicActions": [],
+				"race": [
+					"Goblin"
+				],
+				"faction": [
+					"Moria"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Cave Dweller",
+					"Backstabbers",
+					"Stalk Unseen"
+				],
+				"wargear": [
+					"Armour",
+					"Two-handed weapon",
+					"Throwing weapons"
+				],
+				"options": []
+			},
+			{
+				"name": "Moria Goblin Drummer",
+				"factions": [],
+				"unavailableSolo": true,
+				"movement": 5,
+				"fight": 2,
+				"shoot": 5,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Goblin"
+				],
+				"faction": [
+					"Moria"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Cave Dweller",
+					"Moria Goblin Drum",
+					"Drums in the Deep",
+					"Take up the Drum"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Moria Goblin Drum",
+				"factions": [
+					"Moria"
+				],
+				"points": 75,
+				"includes": [
+					{
+						"dataSource": "warriors",
+						"name": "Moria Goblin Drummer"
+					}
+				],
+				"options": [],
+				"specialRules": [
+					"Destroying the Drum",
+					"Take up the Drum",
+					"Drums in the Deep"
+				],
+				"wargear": []
+			},
+			{
+				"name": "Corsair Crossbowman",
+				"factions": [
+					"Umbar",
+					"Corsair Fleets"
+				],
+				"points": 10,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"might": 0,
+				"will": 0,
+				"fate": 0,
+				"heroicActions": [],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Corsair",
+					"Umbar"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [],
+				"wargear": [
+					"Hand weapon",
+					"Crossbow",
+					"Pavise"
+				],
+				"options": []
+			},
+			{
+				"name": "Wood Elf Sentinel",
+				"factions": [
+					"Lothlorien"
+				],
+				"points": 25,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 3,
+				"strength": 3,
+				"defence": 3,
+				"attack": 2,
+				"wounds": 1,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 0,
+				"will": 0,
+				"fate": 0,
+				"heroicActions": [],
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Lothlorien"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Woodland Creature",
+					"Enchanting Song"
+				],
+				"wargear": [
+					"Elven hand weapon",
+					"Elf bow",
+					"Elven cloak"
+				],
+				"options": []
+			},
+			{
+				"name": "Guard of the Galadhrim Court",
+				"factions": [
+					"Lothlorien"
+				],
+				"points": 12,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 3,
+				"strength": 3,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 4,
+				"intelligence": 5,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Lothlorien"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Woodland Creature",
+					"Caras Galadhon Fighting Style"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Elven pike"
+				],
+				"options": [
+					{
+						"name": "Exchange Elven pike for banner and Elven hand weapon",
+						"points": 25
+					}
+				]
+			},
+			{
+				"name": "Galadhrim Knight",
+				"factions": [
+					"Lothlorien"
+				],
+				"points": 18,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 3,
+				"strength": 3,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 5,
+				"intelligence": 5,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Lothlorien"
+				],
+				"unitType": [
+					"Warrior",
+					"Cavalry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Woodland Creature"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Elven hand-and-a-half weapon",
+					"Galadhrim Steed"
+				],
+				"options": [
+					{
+						"name": "Banner",
+						"points": 25,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Elf bow",
+						"points": 2,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Shield",
+						"points": 1,
+						"chooseOneKey": "a"
+					}
+				]
+			},
+			{
 				"name": "Isengard Troll",
 				"factions": [
 					"Army of the White Hand",
@@ -21477,7 +23319,8 @@
 				"factions": [
 					"Army of the Great Eye",
 					"Barad-Dur",
-					"Legions of Mordor"
+					"Legions of Mordor",
+					"Umbar"
 				],
 				"points": 10,
 				"movement": 6,
@@ -25538,7 +27381,8 @@
 					"Defenders of the Hornburg",
 					"Men of the West",
 					"Realms of Men",
-					"The Grief of Eomer"
+					"The Grief of Eomer",
+					"Fords of Isen"
 				],
 				"unavailableIn": [
 					[
@@ -25614,7 +27458,8 @@
 					"Defenders of the Hornburg",
 					"Defenders of the Pelennor",
 					"Realms of Men",
-					"The Grief of Eomer"
+					"The Grief of Eomer",
+					"Fords of Isen"
 				],
 				"points": 14,
 				"movement": 6,
@@ -25809,6 +27654,16 @@
 					{
 						"all": [
 							{
+								"in": "Theodred, Prince of Rohan"
+							},
+							{
+								"in": "Fords of Isen"
+							}
+						]
+					},
+					{
+						"all": [
+							{
 								"in": "Gamling, Captain of Rohan"
 							},
 							{
@@ -25973,7 +27828,8 @@
 							"Road to Helm's Deep",
 							"Defenders of the Pelennor",
 							"Riders of Theoden",
-							"Realms of Men"
+							"Realms of Men",
+							"Fords of Isen"
 						],
 						"chooseOneKey": "a"
 					},
@@ -25985,7 +27841,8 @@
 							"Army of Edoras",
 							"Kingdom of Rohan",
 							"Realms of Men",
-							"Defenders of Helm's Deep"
+							"Defenders of Helm's Deep",
+							"Fords of Isen"
 						]
 					},
 					{
@@ -25994,7 +27851,8 @@
 						"availableIn": [
 							"Army of Edoras",
 							"Kingdom of Rohan",
-							"Realms of Men"
+							"Realms of Men",
+							"Fords of Isen"
 						],
 						"chooseOneKey": "a"
 					},
@@ -27546,7 +29404,8 @@
 			{
 				"name": "Cave Troll",
 				"factions": [
-					"Depths of Moria"
+					"Depths of Moria",
+					"Moria"
 				],
 				"points": 75,
 				"movement": 6,
@@ -28459,7 +30318,8 @@
 					"Azog's Hunters",
 					"Pits of Dol Guldur",
 					"Rise of the Necromancer",
-					"Wolf Pack of Angmar"
+					"Wolf Pack of Angmar",
+					"Moria"
 				],
 				"points": 8,
 				"movement": 10,
@@ -28824,15 +30684,18 @@
 				],
 				"points": 15,
 				"movement": 5,
-				"fight": 0,
-				"shoot": 0,
-				"strength": 0,
-				"defence": 0,
-				"attack": 0,
-				"wounds": 0,
-				"courage": 0,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 1,
+				"courage": 6,
+				"intelligence": 6,
 				"options": [],
-				"specialRules": [],
+				"specialRules": [
+					"Mountain Dweller"
+				],
 				"race": [
 					"Dwarf"
 				],
@@ -28846,7 +30709,11 @@
 				"baseSize": [
 					"25mm"
 				],
-				"wargear": []
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon",
+					"Throwing weapons"
+				]
 			},
 			{
 				"name": "Dwarf Ranger",
@@ -28855,14 +30722,14 @@
 				],
 				"points": 8,
 				"movement": 5,
-				"fight": 0,
-				"shoot": 0,
-				"strength": 0,
-				"defence": 0,
-				"attack": 0,
+				"fight": 4,
+				"shoot": 3,
+				"strength": 3,
+				"defence": 5,
+				"attack": 1,
 				"wounds": 1,
-				"courage": 0,
-				"intelligence": 0,
+				"courage": 6,
+				"intelligence": 6,
 				"race": [
 					"Dwarf"
 				],
@@ -28890,8 +30757,14 @@
 						"points": 1
 					}
 				],
-				"specialRules": [],
-				"wargear": []
+				"specialRules": [
+					"Mountain Dweller",
+					"Mountain Fighters"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				]
 			},
 			{
 				"name": "Vault Warden Team",
@@ -29206,8 +31079,10 @@
 				]
 			},
 			{
-				"name": "Woses Warriors",
-				"factions": [],
+				"name": "Woses Warrior",
+				"factions": [
+					"Paths of the Druadan"
+				],
 				"points": 9,
 				"movement": 6,
 				"fight": 3,
@@ -29216,15 +31091,32 @@
 				"defence": 3,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Druadan"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"options": [],
 				"specialRules": [
-					"Hatred (Goblin)(Orc)(Uruk-Hai)",
+					"Hatred (Goblin)",
+					"Hatred (Orc)",
+					"Hatred (Uruk-hai)",
+					"Poisoned Attacks (blowpipe)",
 					"Stalk Unseen",
 					"Woodland Creature"
 				],
 				"wargear": [
-					"Dagger",
+					"Hand weapon",
 					"Spear",
 					"Blowpipe"
 				]
@@ -30019,7 +31911,8 @@
 				"name": "Mirkwood Hunting Spider",
 				"factions": [
 					"Pits of Dol Guldur",
-					"Rise of the Necromancer"
+					"Rise of the Necromancer",
+					"Moria"
 				],
 				"points": 20,
 				"movement": 10,
@@ -30060,7 +31953,8 @@
 			{
 				"name": "Moria Goblin Warrior",
 				"factions": [
-					"Depths of Moria"
+					"Depths of Moria",
+					"Moria"
 				],
 				"points": 4,
 				"movement": 5,
@@ -30109,78 +32003,6 @@
 					"Armour",
 					"Hand weapon"
 				]
-			},
-			{
-				"name": "Moria Goblin Prowlers",
-				"factions": [],
-				"points": 7,
-				"movement": 5,
-				"fight": 3,
-				"shoot": 4,
-				"strength": 3,
-				"defence": 4,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 2,
-				"options": [],
-				"specialRules": [
-					"Cave Dweller",
-					"Backstabbers"
-				],
-				"wargear": [
-					"Armour",
-					"Two-handed axe",
-					"Throwing Daggers"
-				]
-			},
-			{
-				"name": "Moria Goblin Drum",
-				"factions": [
-					"Moria"
-				],
-				"points": 75,
-				"includes": [
-					{
-						"dataSource": "warriors",
-						"name": "Moria Goblin Drummer"
-					},
-					{
-						"dataSource": "gear",
-						"name": "Moria Goblin Drum (Drum)"
-					}
-				],
-				"options": [],
-				"specialRules": [
-					"Destroying the Drum",
-					"Take up the Drum",
-					"Drums in the Deep"
-				],
-				"wargear": []
-			},
-			{
-				"name": "Moria Goblin Drummer",
-				"factions": [
-					"Moria"
-				],
-				"points": 0,
-				"movement": 5,
-				"fight": 2,
-				"shoot": 5,
-				"strength": 3,
-				"defence": 4,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 2,
-				"options": [],
-				"specialRules": [
-					"Cave Dweller"
-				],
-				"wargear": [
-					"Armour",
-					"Club"
-				],
-				"autoAddOnly": true,
-				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Great Eagle",
@@ -30465,7 +32287,8 @@
 				"factions": [
 					"Legions of Mordor",
 					"Harad",
-					"Grand Army of the South"
+					"Grand Army of the South",
+					"Umbar"
 				],
 				"points": 6,
 				"movement": 6,
@@ -30521,7 +32344,8 @@
 				"name": "Corsair of Umbar",
 				"factions": [
 					"Corsair Fleets",
-					"Grand Army of the South"
+					"Grand Army of the South",
+					"Umbar"
 				],
 				"points": 8,
 				"movement": 6,
@@ -30707,6 +32531,26 @@
 			}
 		],
 		"gear": [
+			{
+				"name": "The Warden's Sword",
+				"tag": "Active",
+				"definition": "This is a Master-forged hand-and-a-half weapon."
+			},
+			{
+				"name": "Pitchfork",
+				"tag": "Passive",
+				"definition": "A Pitchfork can either be used as a spear or a two-handed weapon."
+			},
+			{
+				"name": "Horn of the Riddermark",
+				"tag": "Active",
+				"definition": "This is a Unique war horn. Additionally, Merry gains the Fearless special rule."
+			},
+			{
+				"name": "Torozul",
+				"definition": "This is a Unique Foe Spear with the Trollbane special rule. Additionally, Mardin gains an additional bonus of +1 To Wound when making Strikes against Monster models.",
+				"tag": "Active"
+			},
 			{
 				"name": "The Horn of Lossarnach",
 				"tag": "Active",
@@ -30985,6 +32829,32 @@
 				"intelligence": 6,
 				"specialRules": [
 					"Sure-footed Steed"
+				]
+			},
+			{
+				"name": "Galadhrim Steed",
+				"type": "mount",
+				"race": [
+					"Horse"
+				],
+				"unitType": [
+					"Mount"
+				],
+				"baseSize": [
+					"40mm"
+				],
+				"movement": 10,
+				"fight": 2,
+				"shoot": 6,
+				"strength": 3,
+				"defence": 5,
+				"attack": 0,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"definition": "This is an armoured horse that also has the Woodland Creature special rule.",
+				"specialRules": [
+					"Woodland Creature"
 				]
 			},
 			{
@@ -32815,6 +34685,205 @@
 			}
 		],
 		"keywords": [
+			{
+				"name": "For Théoden!",
+				"tag": "Active",
+				"definition": "During the Declare Heroic Actions step of the Fight Phase, if Théoden is Engaged in Combat and is within 6\" of Déorwine, then Déorwine may declare a free Heroic Combat. If this Heroic Combat is successful, then Déorwine must use the following Move to join Théoden's Combat. If this is not possible, then Déorwine must Move as close as possible to Théoden. Déorwine cannot use this special rule if he is in the same Combat as Théoden."
+			},
+			{
+				"name": "Pinpoint Accuracy",
+				"tag": "Active",
+				"definition": "Elfhelm never suffers the -1 penalty for Moving and Shooting when using his throwing spears. Additionally, when throwing his throwing spears, Elfhelm may re-roll any failed To Hit, To Wound or In The Way Rolls when making that shooting attack."
+			},
+			{
+				"name": "Blinding Swarm",
+				"tag": "Active",
+				"definition": "Enemy models Engaged in Combat with a Bat Swarm halve their Fight Value."
+			},
+			{
+				"name": "Moria Goblin Drum",
+				"tag": "Active",
+				"definition": "A Moria Goblin Drum is always on a 25mm base and must be deployed in base contact with one of its Moria Goblin Drummers during deployment. A Moria Goblin Drum is a Heavy Object that can be shot at normally; it has a Defence of 10 and 3 Wounds. If, during the End Phase of a turn, an enemy model is in base contact with the Moria Goblin Drum, that model hasn't done anything during that turn except Move (i.e., has not made a shooting attack, cast a Magical Power, been Engaged in Combat), and that model was not affected by a Magical Power that turn, then it can remove the Moria Goblin Drum from play."
+			},
+			{
+				"name": "Drums in the Deep",
+				"tag": "Active",
+				"definition": "For the Drum to be played, at least one Moria Goblin Drummer must be in base contact with it, have not Moved that turn, and not be Engaged in Combat. Whilst the Drum is being played it has the following effects:\n    • Friendly Moria Goblin models gain a bonus of +1 to any Courage Tests they are required to take.\n    • Enemy models suffer a -1 penalty to any Courage Tests they are required to take.\n    • Friendly Moria Goblin models within 18\" count as being in range of a banner.\n    • Whilst being played, the Moria Goblin Drum counts as a banner for the purpose of Victory Points."
+			},
+			{
+				"name": "Take up the Drum",
+				"tag": "Active",
+				"definition": "If a Moria Goblin Drummer is slain, then they may pass on their wargear to a friendly Moria Goblin Warrior within 1\" of them. The chosen model becomes a Moria Goblin Drummer and exchanges their wargear for that of the slain model – replace the chosen model with the slain Moria Goblin Drummer."
+			},
+			{
+				"name": "Iron Fist",
+				"tag": "Active",
+				"definition": "The range of Durbûrz's Stand Fast is 12\" rather than 6\"."
+			},
+			{
+				"name": "Callous Leadership",
+				"tag": "Active",
+				"definition": "Once per game, at the start of any Fight Phase, before the Declare Heroic Actions Step, Durbûrz can declare he is using this ability. Until the End Phase of the turn, friendly Goblin models within 6\" of Durbûrz gain a bonus of +1 To Wound when making Strikes. However, any other friendly Goblin model within 6\" that loses a Duel Roll (not including Supporting models) must roll a D6 after any Strikes have been made against them. On the roll of a 1, the model suffers a Wound."
+			},
+			{
+				"name": "Master of the Dark Wild",
+				"tag": "Passive",
+				"definition": "Friendly Beast models within 12\" of Drúzhag may use his Courage or Intelligence values instead of their own when making a Courage Test or an Intelligence Test. Additionally, whenever Drúzhag suffers a Wound, before any Fate Rolls are made, he may roll a D6. On a 2+, he may choose a single friendly Beast model within 2\" to immediately suffer the Wound instead of him. Fate Rolls can then be made as normal."
+			},
+			{
+				"name": "In Defence of the King",
+				"tag": "Active",
+				"definition": "Whilst he is within 3\" of your General, so long as your General has the Gondor Keyword, Húrin automatically passes any Courage Tests he is required to take and may re-roll To Wound Rolls of a natural 1 when making Strikes."
+			},
+			{
+				"name": "Line of Command",
+				"tag": "Passive",
+				"definition": "Whilst Húrin is alive and on the battlefield, your opponent cannot gain any Victory Points for Wounding or slaying the enemy General, as long as your General has the Gondor Keyword."
+			},
+			{
+				"name": "Ruthless Commander",
+				"tag": "Active",
+				"definition": "Friendly Corsair Warrior models within 3\" of Delgamar may choose to re-roll a single D6 during a Duel Roll, after any other re-rolls from other sources have been used. However, if a Corsair Warrior makes this re-roll and fails to win the Duel Roll, they immediately suffer a Strength 2 hit. Only a single Corsair Warrior can use this special rule in each Combat."
+			},
+			{
+				"name": "Enchanting Song",
+				"tag": "Active",
+				"definition": "During their Activation, a Wood Elf Sentinel may sing one of the following songs to gain the relevant effect:\n        \n        • Hymn of Elbereth – Choose a friendly model within 12\". Until the End Phase of the turn, the chosen model automatically passes any Courage Tests they are required to take.\n        • Lay of Gondolin – Until the End Phase of the turn, this model and all friendly models within 3\" of them gain the Terror special rule.\n        • Eldamar Madrigal – Choose an enemy model within 12\" that is not Engaged in Combat; the chosen model must immediately take an Intelligence Test. If the test is failed, then you may immediately Move that model as if it was that model's Activation; however, the only thing they can do is Move. A model made to Move in this manner cannot enter an enemy model's Control Zone, dismount, lie down, be forced to make a Climb, Jump, Leap or Swim Test, and cannot Move in any way that would cause it direct harm (such as attempting to jump off a cliff). A model affected by this song cannot be Activated later in the turn."
+			},
+			{
+				"name": "Family Rivalry",
+				"tag": "Passive",
+				"definition": "Lotho may not take part in any Heroic Actions declared by either Bilbo Baggins or Frodo Baggins."
+			},
+			{
+				"name": "Considerable Wealth",
+				"tag": "Active",
+				"definition": "Lotho may spend his Will Points to pay off models around him in the following ways:\n        \n        • At the start of a Fight Phase, before the Declare Heroic Actions step, Lotho can spend a Will Point to use this ability. If he does, until the End Phase of the turn, friendly Hobbit models within 3\" of Lotho gain a +1 bonus to their Fight Value.\n        • At the start of a Move Phase, before the Declare Heroic Actions step, Lotho can spend a Will Point to use this ability. If he does, until the End Phase of the turn, friendly Ruffian models within 3\" of Lotho count as having the Fearless special rule.\n        • When an enemy model attempts to Charge Lotho, Lotho may spend a Will Point to use this ability. If he does, roll a D6. On a 2+, the enemy model stops 1\" away from Lotho instead of Charging him and their Activation immediately ends."
+			},
+			{
+				"name": "Head Shirriff",
+				"tag": "Passive",
+				"definition": "Holfoot, and any Hobbit Shirriffs (including Robin Smallburrow) within 3\" of him, do not suffer the -1 penalty to their Duel Roll for using their hand-and-a-half weapon as a two-handed weapon."
+			},
+			{
+				"name": "A nose for shortcuts",
+				"tag": "Passive",
+				"definition": "In Scenarios where you roll for Warbands to arrive, or ones where you roll to see which part of the board you deploy a Warband in (though not when rolling to choose deployment zones), you may choose the result instead of rolling, even if Robin is not on the battlefield. Robin may only use this special rule if his Warband only contains Hobbit Shirriffs."
+			},
+			{
+				"name": "River-daughter",
+				"tag": "Passive",
+				"definition": "Goldberry treats all kinds of terrain as Open Ground and always treats the result of any Climb, Leap, Jump and Swim Tests as a 6. Goldberry cannot be targeted by any abilities, special rules, Magical Powers, Brutal Power Attacks or shooting attacks, either friendly or enemy. This means that any Magical Powers that would target Goldberry will automatically be resisted, even if they would target multiple models. If Goldberry is hit by a missile weapon as a result of a failed In The Way Test, the shot will automatically disappear and have no effect. Goldberry does not have a Control Zone. Enemy models cannot Move into base contact with Goldberry for any reason, unless Goldberry's controlling player explicitly allows it. If a model would be forced into base contact with Goldberry, then they will stop just before moving into base contact. Goldberry may Charge enemy models as normal, and her side will automatically win any Combat that Goldberry is involved in; however, when they do, friendly models may not make Strikes in that Combat. Goldberry may never carry Objectives under any circumstances and may never be chosen in Scenarios that require a player to choose a specific Hero model."
+			},
+			{
+				"name": "Sing a Jolly Song",
+				"tag": "Active",
+				"definition": "At any point during her Activation, Goldberry may spend a Will Point to sing one of the following songs, with the relevant effect. Goldberry may sing any number of different songs during her Activation, and may sing the same songs as many times as she wishes in a game (unless otherwise specified). Each song sung will cost her a Will Point:\n        \n        • \"Supper is Ready\" - This song may only be sung by Goldberry. The target friendly model regains 1 Wound lost earlier in the battle, chosen by this song's controlling player.\n        • \"Have Peace Now\" - Enemy models within 6\" of Goldberry may not declare Heroic Actions during their phase. This song may only be sung once per turn, and may only be sung by Goldberry.\n        • \"Heed no Nightly Noises\" - Enemy models within 6\" of Goldberry and any friendly model chosen by this song's controlling player are not required to take Courage tests. Additionally, an enemy model within 6\" suffers a -1 to their Fight Value by this song. This song may only be sung once per turn, and may only be sung by Goldberry."
+			},
+			{
+				"name": "It will never really heal",
+				"tag": "Passive",
+				"definition": "Frodo may never Charge enemy models under any circumstances. Additionally, Frodo may never make Strikes if his side wins a Combat."
+			},
+			{
+				"name": "Home is the Hero",
+				"tag": "Passive",
+				"definition": "Friendly Hobbit models treat Frodo as a banner with a range of 6\"."
+			},
+			{
+				"name": "A Helpful Sort",
+				"tag": "Active",
+				"definition": "If Folco is within 3\" of Frodo, then Frodo can spend Folco's Will Points to declare a Heroic Move instead of using one of his own Might Points."
+			},
+			{
+				"name": "High Spirits",
+				"tag": "Passive",
+				"definition": "Whenever a friendly Hobbit model within 6\" of Folco spends a Might Point, they may roll a D6. On a natural 6, the Might Point spent is free and does not reduce the model's store of Might."
+			},
+			{
+				"name": "This is our country",
+				"tag": "Passive",
+				"definition": "Friendly Hobbit models within 3\" of Farmer Cotton may re-roll any rolls of a 1 when making a Duel Roll."
+			},
+			{
+				"name": "Champion Stone Skipper",
+				"tag": "Active",
+				"definition": "Baldo may re-roll failed To Hit Rolls when throwing stones. Additionally, if Baldo rolls a natural 6 when rolling To Hit, do not take any In The Way Tests and do not roll To Wound. Baldo's target automatically suffers a Wound."
+			},
+			{
+				"name": "Master of Traps",
+				"tag": "Active",
+				"definition": "At the start of the game, after both sides have deployed, Baldo may place eight 25mm Trap Markers face-down on the board; two each of Snare Traps, Tripwire Traps, Pitfall Traps, and Dummy Traps. These cannot be deployed in the enemy's deployment zone, within 3\" of another Trap Marker or an Objective Marker, or within an enemy model's Control Zone. When an enemy model Moves within 1\" of a Trap Marker, they immediately stop Moving and flip the Trap Marker; after resolving its effects, the model's Activation immediately ends. Monster, War Beast, Swarm and Chariot models are completely unaffected by Trap Markers, and will instead simply remove them from play if they Move within 1\" of them. Once a Trap has been resolved and any affected models are no longer affected, remove that Trap Marker from play. The effects of each Trap Marker are explained below:\n        \n        • Tripwire Trap – When this is revealed, Baldo's player rolls a D6. On a 2+, the model that revealed the trap suffers a Strength 2 hit and is placed Prone. Cavalry models that reveal a trap are only affected on a 4+. However, they will also be Knocked Flying in addition to the other effects.\n        • Pitfall Trap – When this is revealed, Baldo's player rolls a D6. On a 2+, the model that revealed the trap falls into the hole. Whilst in a hole, a model may not Move and always counts as Trapped. If a model begins its Move in a hole, they must roll a D6; on a 4+, the model clambers out of the hole and their Move immediately ends. Cavalry models that reveal a trap are only affected on a 4+. However, they will also be Knocked Flying in addition to the other effects.\n        • Snare Trap – When this is revealed, Baldo's player rolls a D6. On a 2+, the model that revealed the trap suffers a Strength 1 hit, is placed Prone and is now caught in the Snare Trap. A model caught in a Snare Trap cannot Activate and will always count as Trapped. During the End Phase, a model caught in a Snare Trap must roll a D6; if the roll is equal to or less than their Strength, then they are freed from the Snare Trap. Cavalry models that reveal a trap are only affected on a 4+. However, they will also be Knocked Flying in addition to the other effects.\n        • Dummy Trap – When this is revealed, the Activation of the model that revealed the Trap Marker immediately ends. There are no additional effects."
+			},
+			{
+				"name": "Mayor of Michel Delving",
+				"tag": "Active",
+				"definition": "At the beginning of a Fight Phase, before the Declare Heroic Actions step, Will Whitfoot can spend a Will Point to use this special rule. If he does, friendly Hobbit Warrior models within 3\" of him gain a bonus of +1 to their Fight Value until the End Phase of the turn."
+			},
+			{
+				"name": "There's some good in this world, Mr Frodo, and it's worth fighting for",
+				"tag": "Active",
+				"definition": "During the Declare Heroic Actions step of the Fight Phase, if Frodo and/or Rosie are Engaged in Combat and are within 6\" of Sam, then Sam may declare a free Heroic Combat. If this Heroic Combat is successful, then Sam must use the following Move to join either Frodo's or Rosie's Combat, as chosen by Sam's controlling player. If this is not possible, then Sam must Move as close as possible to either Frodo or Rosie. Sam cannot use this special rule if he is in the same Combat as either Frodo or Rosie."
+			},
+			{
+				"name": "Against all odds",
+				"tag": "Active",
+				"definition": "Pippin may re-roll any failed To Wound Rolls when making Strikes against Hero or Monster models."
+			},
+			{
+				"name": "Whirl of Blades",
+				"tag": "Active",
+				"definition": "If Orophin rolls a natural 6 when making a Duel Roll, then he will make double the number of Strikes he would normally make. Note that if the model he is fighting is Trapped, these Strikes will not also gain the benefit for Striking a Trapped model."
+			},
+			{
+				"name": "Caras Galadhon Fighting Style",
+				"tag": "Active",
+				"definition": "This model may use the Shielding rule with their Elven pike. All of the usual rules for Shielding still apply, chiefly that a model using the Shielding rule cannot be Supported by another model, not even another Guard of the Galadhrim Court."
+			},
+			{
+				"name": "Swift Parry",
+				"tag": "Active",
+				"definition": "Rúmil may force one enemy model involved in the same Combat as him to re-roll a single D6 for their Duel Roll. This must be done before all other re-rolls, and before any Might Points are spent."
+			},
+			{
+				"name": "Tom is Master",
+				"tag": "Passive",
+				"definition": "Tom Bombadil treats all kinds of terrain as Open Ground and always treats the result of any Climb, Leap, Jump and Swim Tests as a 6. Tom cannot be targeted by any abilities, special rules, Magical Powers, Brutal Power Attacks or shooting attacks, either friendly or enemy. This means that any Magical Powers that would target Tom will automatically be resisted, even if they would target multiple models. If Tom is hit by a missile weapon as a result of a failed In The Way Test, the shot will automatically disappear and have no effect. Tom Bombadil does not have a Control Zone. Enemy models cannot Move into base contact with Tom for any reason, unless Tom's controlling player explicitly allows it. If a model would be forced into base contact with Tom, then they will stop just before moving into base contact. Tom may Charge enemy models as normal, and his side will automatically win any Combat that Tom is involved in; however, when they do, friendly models may not make Strikes in that Combat. Tom Bombadil may never carry Objectives under any circumstances, and may never be chosen in Scenarios that require a player to choose a specific Hero model."
+			},
+			{
+				"name": "Swift Reload",
+				"tag": "Active",
+				"definition": "When firing the Gondor Avenger Bolt Thrower, you may roll two dice and pick the highest result when determining how many shots it may make."
+			},
+			{
+				"name": "Rapid Fire (Bolt Thrower)",
+				"tag": "Active",
+				"definition": "A Gondor Avenger Bolt Thrower doesn't shoot like a normal Siege Engine. Instead, it may make D6 shooting attacks in the same way as a normal Missile Weapon. No Scatter is required for these shots; they will either hit or miss. Each shot may be fully resolved before determining the target of the next one. Shots fired by a Gondor Avenger Bolt Thrower do not kill their targets outright if they Wound them."
+			},
+			{
+				"name": "Skin-changer",
+				"tag": "Active",
+				"definition": "At the beginning of his Activation, Grimbeorn the Bear can change his form from Bear to Man. If he does, place the Man model in base contact with the Bear model, and then remove the Bear model from play. If there is no space to place the Man model, then Grimbeorn cannot transform. Once he has transformed, Grimbeorn may continue his Activation as normal, including Charging in which case check the Line of Sight from the newly placed Man model to determine whether Grimbeorn can Charge. Once Grimbeorn the Bear has transformed, he uses the Grimbeorn profile – though his Wounds, Might, Will and Fate Points remain the same between both profiles."
+			},
+			{
+				"name": "Leader of the Beornings",
+				"tag": "Passive",
+				"definition": "Only Beorning models can benefit from Grimbeorn's Heroic Actions or Stand Fast."
+			},
+			{
+				"name": "Crushing Strength",
+				"tag": "Brutal Power Attack",
+				"definition": "If Grimbeorn wins a Duel Roll he can choose to use this Brutal Power Attack. If he does, choose a single enemy model involved in the Combat. The chosen model immediately suffers a Strength 10 hit. If the To Wound Roll is successful (even if the Wound is prevented), the model immediately suffers another Strength 10 hit, and so on until either Grimbeorn fails a To Wound Roll, or the chosen model is slain and removed as a casualty."
+			},
+			{
+				"name": "Mountain Fighters",
+				"tag": "Active",
+				"definition": "This model gains a bonus of +1 To Wound when making Strikes against a model that is within a piece of dfficult terrain, such as a piece of rocky terrain or a ruin."
+			},
+			{
+				"name": "Durin's Protector",
+				"definition": "During the Declare Heroic Actions step of the Fight Phase, if Durin is Engaged in Combat and is within 6\" of Mardin, then Mardin may declare a free Heroic Combat. If this Heroic Combat is successful, then Mardin must use the following Move to join Durin's Combat. If this is not possible, then Mardin must Move as close as possible to Durin. Mardin cannot use this special rule if he is in the same Combat as Durin."
+			},
 			{
 				"name": "Forest Stalker",
 				"tag": "Passive",
@@ -35179,6 +37248,74 @@
 			}
 		],
 		"armyBonuses": [
+			{
+				"name": "The Scorpion's Sting",
+				"definition": "Friendly models with the Poisoned Attacks (bow) special rule exchange it for Poisoned Attacks on all of their weapons."
+			},
+			{
+				"name": "Suladan's Bodyguard",
+				"definition": "So long as Suladan has Will Points remaining, friendly Elite models gain the Sworn Protector (Suladan) special rule."
+			},
+			{
+				"name": "Lethal Toxins",
+				"definition": "Once per game, at the start of any Fight Phase, Suladan can use this special rule so long as he is alive and on the battlefield. If he does, then friendly Harad models gain the Bane of Kings special rule until the End Phase of the turn. This is treated as an Active ability belonging to Suladan."
+			},
+			{
+				"name": "Seize Command",
+				"definition": "If during the End Phase of any turn, your General has only a single Wound remaining and is within 3\" and Line of Sight of a friendly Hasharin, you may choose to remove your General as a casualty. If you do, you may immediately choose another friendly Hero to be your new General (this must still be a Hero with the highest Heroic Tier remaining). The previous model loses the General keyword and no longer counts as a General for the purpose of special rules or Victory Points. If a Hasharin is your General, they cannot use this special rule to kill themselves – a different Hasharin would have to be within 3\" to use this special rule."
+			},
+			{
+				"name": "Shadows of Umbar",
+				"definition": "Friendly models gain the Stalk Unseen special rule."
+			},
+			{
+				"name": "Death to Gondor",
+				"definition": "Friendly models gain the Hatred (Gondor) special rule."
+			},
+			{
+				"name": "\"We cannot get out, they are coming\"",
+				"definition": "Friendly Moria Goblin models Engaged in Combat with an enemy model that would be considered Trapped gain a bonus of +1 to their Fight Value for the duration of the Combat."
+			},
+			{
+				"name": "Durburz's Will",
+				"definition": "Once per game, at the start of his Activation, Durburz may declare he is using this ability. If he does, Durburz may not Move during his Activation; however, all friendly Moria Goblin models gain a bonus of +2 to their Move Value until the End Phase of the turn. Additionally, in a turn in which Durburz uses this ability, all friendly Moria Goblin models within 6\" of him automatically pass any Courage Tests required when attempting to Charge a model with the Terror special rule."
+			},
+			{
+				"name": "Skittering Warriors",
+				"definition": "Friendly Moria Goblin models gain the Mountain Dweller special rule."
+			},
+			{
+				"name": "\"You do what Sharkey says!\"",
+				"definition": "Sharkey's Stand Fast will cover the entire battlefield, regardless of range."
+			},
+			{
+				"name": "Strength in Numbers",
+				"definition": "Whilst this Army is not Broken, friendly Ruffian models gain a +1 bonus to any Courage Tests they are required to take."
+			},
+			{
+				"name": "The Wizard's Command",
+				"definition": "Friendly Ruffian models within 6\" of Sharkey may use his Courage instead of their own when taking Courage Tests."
+			},
+			{
+				"name": "Sharkey's Wrath",
+				"definition": "Sharkey gains the Hatred (Hobbit) special rule."
+			},
+			{
+				"name": "The Chief's Whips",
+				"definition": "Friendly Ruffian gain a bonus of +1 To Hit when making a shooting attack with a whip."
+			},
+			{
+				"name": "Protect the Prince",
+				"definition": "Friendly models gain the Sworn Protector (Theodred) special rule."
+			},
+			{
+				"name": "Resolute Rohirrim",
+				"definition": "If your Army is Broken, friendly models gain the Dominant (2) special rule."
+			},
+			{
+				"name": "The Courage of Elfhelm",
+				"definition": "If Theodred is Engaged in Combat within 6\" of Elfhelm, then enemy models may not make Strikes against Theodred if there is another model they could make Strikes against instead."
+			},
 			{
 				"name": "\"For the White City!\"",
 				"definition": "The first turn in which this Army would be Broken and therefore have to have to take Courage Tests as a result of being a Broken Army, all friendly models will automatically pass Courage Tests for being Broken that turn."
