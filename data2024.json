@@ -2712,15 +2712,15 @@
 				"factions": [
 					{
 						"name": "The Fiefdoms",
-						"heroictier": "Hero of Fortitude"
+						"heroicTier": "Hero of Fortitude"
 					},
 					{
 						"name": "Defenders of the Pelennor",
-						"heroictier": "Hero of Fortitude"
+						"heroicTier": "Hero of Fortitude"
 					},
 					{
 						"name": "Men of the West",
-						"heroictier": "Hero of Fortitude"
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 65,
