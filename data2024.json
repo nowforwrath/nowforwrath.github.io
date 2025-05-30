@@ -2615,7 +2615,7 @@
 				"attack": 2,
 				"wounds": 2,
 				"courage": 5,
-				"intelligence": 4,
+				"intelligence": 7,
 				"might": 2,
 				"will": 2,
 				"fate": 2,
@@ -2662,18 +2662,18 @@
 					}
 				],
 				"points": 65,
-				"movement": 7,
-				"fight": 3,
-				"shoot": 5,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 3,
 				"strength": 4,
-				"defence": 4,
+				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 5,
-				"intelligence": 4,
+				"courage": 7,
+				"intelligence": 6,
 				"might": 2,
-				"will": 2,
-				"fate": 2,
+				"will": 1,
+				"fate": 1,
 				"heroicActions": [
 					"Heroic Accuracy",
 					"Heroic Defence"
@@ -2694,7 +2694,7 @@
 					"25mm"
 				],
 				"specialRules": [
-					"Mountain Dwelling",
+					"Mountain Dweller",
 					"Sharpshooter",
 					"Go for the eyes!",
 					"Lord of the Blackroot Vale"
@@ -2790,10 +2790,10 @@
 				"shoot": 4,
 				"strength": 5,
 				"defence": 5,
-				"attack": 3,
+				"attack": 2,
 				"wounds": 3,
-				"courage": 5,
-				"intelligence": 4,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 3,
 				"will": 1,
 				"fate": 1,
@@ -4890,7 +4890,8 @@
 						"name": "Banner of Arwen Evenstar",
 						"points": 40,
 						"availableIn": [
-							"The Grey Company"
+							"The Grey Company",
+							"Defenders of the Pelennor"
 						]
 					}
 				]
@@ -21106,7 +21107,8 @@
 				"name": "Blackroot Vale Archer",
 				"factions": [
 					"The Fiefdoms",
-					"Defenders of the Pelennor"
+					"Defenders of the Pelennor",
+					"Realms of Men"
 				],
 				"points": 8,
 				"movement": 6,
@@ -21116,8 +21118,8 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
-				"intelligence": 3,
+				"courage": 6,
+				"intelligence": 7,
 				"race": [
 					"Man"
 				],
@@ -21133,7 +21135,7 @@
 					"25mm"
 				],
 				"specialRules": [
-					"Mountain Dwelling",
+					"Mountain Dweller",
 					"Dead-eye Shot"
 				],
 				"wargear": [
@@ -21143,18 +21145,18 @@
 				],
 				"options": [
 					{
+						"name": "Banner",
+						"points": 25,
+						"chooseOneKey": "a"
+					},
+					{
 						"name": "War Horn",
 						"points": 25,
 						"chooseOneKey": "a"
 					},
 					{
 						"name": "Spear",
-						"points": 25,
-						"chooseOneKey": "a"
-					},
-					{
-						"name": "Armoured Horse and Bow",
-						"points": 9,
+						"points": 1,
 						"chooseOneKey": "a"
 					}
 				]
@@ -21163,18 +21165,19 @@
 				"name": "Clansman of Lamedon",
 				"factions": [
 					"The Fiefdoms",
-					"Defenders of the Pelennor"
+					"Defenders of the Pelennor",
+					"Realms of Men"
 				],
 				"points": 8,
 				"movement": 6,
-				"fight": 3,
+				"fight": 4,
 				"shoot": 4,
-				"strength": 4,
+				"strength": 3,
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
-				"intelligence": 3,
+				"courage": 6,
+				"intelligence": 8,
 				"race": [
 					"Man"
 				],
@@ -21190,7 +21193,7 @@
 					"25mm"
 				],
 				"specialRules": [
-					"The Hammer of Lamedon"
+					"The Honour of Lamedon"
 				],
 				"wargear": [
 					"Armour",
@@ -21204,7 +21207,8 @@
 					"The Fiefdoms",
 					"Defenders of the Pelennor",
 					"Men of the West",
-					"The Grief of Eomer"
+					"The Grief of Eomer",
+					"Realms of Men"
 				],
 				"points": 11,
 				"movement": 6,
@@ -21282,7 +21286,8 @@
 				"name": "Axeman of Lossarnach",
 				"factions": [
 					"The Fiefdoms",
-					"Defenders of the Pelennor"
+					"Defenders of the Pelennor",
+					"Realms of Men"
 				],
 				"points": 9,
 				"movement": 6,
@@ -32750,7 +32755,7 @@
 				"definition": "Other friendly Lamedon models within 3\" of Angbor automatically pass any Courage tests they are required to take."
 			},
 			{
-				"name": "The Hammer of Lamedon",
+				"name": "The Honour of Lamedon",
 				"tag": "Passive",
 				"definition": "Whilst within 3\" of a friendly Lamedon Hero model, this model may re-roll any rolls of a natural 1 when making a Duel Roll."
 			},
