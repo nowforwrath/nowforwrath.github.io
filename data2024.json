@@ -567,6 +567,19 @@
 	"data": {
 		"factions": [
 			{
+				"name": "Grand Army of the South",
+				"alignment": "evil",
+				"additionalRules": [
+					"Corsair Warrior models can only be included in the Warband of a Corsair Hero",
+					"Harad Warrior models can only be included in the Warband of a Harad Hero",
+					"Easterling Warrior models can only be included int he Warband of an Easterling Hero."
+				],
+				"armyBonuses": [
+					"Pride of the Southlands"
+				],
+				"specialRules": []
+			},
+			{
 				"name": "Host of the Dragon Emperor",
 				"alignment": "evil",
 				"additionalRules": [
@@ -608,6 +621,17 @@
 				"specialRules": []
 			},
 			{
+				"name": "Army of the Great Eye",
+				"alignment": "evil",
+				"additionalRules": [
+					"An Army of the Great Eye must always contain a Ringwraith model as the Army's General."
+				],
+				"armyBonuses": [
+					"The Great Eye"
+				],
+				"specialRules": []
+			},
+			{
 				"name": "Kingdom of Khazad-dum",
 				"alignment": "good",
 				"additionalRules": [
@@ -619,6 +643,95 @@
 					"Dwarven Mirrors"
 				],
 				"specialRules": []
+			},
+			{
+				"name": "Army of Dale",
+				"alignment": "good",
+				"additionalRules": [
+					"An Army of Dale Army must always contain Brand, who is always the Army's General"
+				],
+				"armyBonuses": [
+					"Skilled Bowmen",
+					"Protect the King",
+					"Stoic Defence"
+				],
+				"specialRules": [],
+				"requiredChildren": [
+					{
+						"name": "Brand, King of Dale",
+						"points": 110,
+						"mustBeLeader": true,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "The Grief of Eomer",
+				"alignment": "good",
+				"additionalRules": [
+					"A Grief of Eomer Army must always contain Eomer, who is always the Army's General",
+					"Rohan Warrior models can only be included in the Warband of a Rohan Hero.",
+					"Gondor Warrior models can only be included in the Warband of a Gondor Hero."
+				],
+				"armyBonuses": [
+					"Eomer's Wrath",
+					"Fear no enemy",
+					"Ride of Dol Amroth"
+				],
+				"specialRules": [
+					"Fearless"
+				],
+				"requiredChildren": [
+					{
+						"name": "Eomer, Marshal of the Riddermark",
+						"points": 110,
+						"mustBeLeader": true,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "The Beornings",
+				"alignment": "good",
+				"additionalRules": [],
+				"armyBonuses": [
+					"Great Resilience",
+					"Natural Resistance",
+					"Ursine Fury"
+				],
+				"specialRules": [
+					"Resistant to Magic"
+				]
+			},
+			{
+				"name": "The Grey Company",
+				"alignment": "good",
+				"additionalRules": [
+					"A Grey Company Army must always contain Aragorn, who is always the Army's General",
+					"A Grey Company Army may be deployed as a single Warband, with Aragorn as the Warband's Captain, regardless of the number of models."
+				],
+				"armyBonuses": [
+					"The Heir of Isildur",
+					"Passing of the Grey Company",
+					"\"They're dangerous folks, wandering the wilds\"",
+					"Masters of the Wild"
+				],
+				"specialRules": [],
+				"requiredChildren": [
+					{
+						"name": "Aragorn (Strider)",
+						"points": 160,
+						"mustBeLeader": true,
+						"elementPropertyName": "heroes",
+						"requiredChildren": [
+							{
+								"name": "Anduril, Flame of the West",
+								"elementPropertyName": "options",
+								"points": 0
+							}
+						]
+					}
+				]
 			},
 			{
 				"name": "The Fellowship",
@@ -1643,7 +1756,7 @@
 				"name": "Corsair Fleets",
 				"alignment": "evil",
 				"additionalRules": [
-					"A Corsair Fleets Army must always contain a Corsair Captain, who is always the Army's General."
+					"A Corsair Fleets Army must always contain a Corsair Captain, who is always the Army's General, with the exception of Dalamyr."
 				],
 				"armyBonuses": [
 					"The Fleetmaster",
@@ -1659,7 +1772,6 @@
 					{
 						"name": "Corsair Captain Leader",
 						"points": 55,
-						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
 				]
@@ -2470,6 +2582,472 @@
 		],
 		"heroes": [
 			{
+				"name": "Raza, Fang of the Serpent",
+				"factions": [
+					{
+						"name": "Grand Army of the South",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 75,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Strike"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Harad"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Bane of Kings",
+					"Leader (Serpent Guard)",
+					"Sworn Protector (Suladan)",
+					"The Serpent's Weapon"
+				],
+				"wargear": [
+					"Armour",
+					"Spear"
+				],
+				"options": []
+			},
+			{
+				"name": "Hasharin",
+				"factions": [
+					{
+						"name": "Grand Army of the South",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 80,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 4,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 4,
+				"might": 1,
+				"will": 1,
+				"fate": 3,
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic Strike"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Harad",
+					"Umbar"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Backstabbers",
+					"Bane of Kings",
+					"General Hunter",
+					"Stalk Unseen",
+					"Preternatural Agility"
+				],
+				"wargear": [
+					"Hand weapons",
+					"Throwing weapons",
+					"Blowpipe"
+				],
+				"options": []
+			},
+			{
+				"name": "Elladan",
+				"points": 160,
+				"factions": [
+					{
+						"name": "The Grey Company",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Men of the West",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Rivendell",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"movement": 6,
+				"fight": 6,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"faction": [
+					"Rivendell"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"race": [
+					"Elf"
+				],
+				"options": [
+					{
+						"name": "Horse",
+						"points": 20,
+						"availableIn": [
+							"The Grey Company",
+							"Rivendell"
+						]
+					}
+				],
+				"specialRules": [
+					"Woodland Creature",
+					"Unbreakable Bond (Elladan)",
+					"Twin Elven Blades",
+					"Strength of Brotherhood (Elladan)"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Elven hand weapons"
+				]
+			},
+			{
+				"name": "Elrohir",
+				"factions": [
+					{
+						"name": "The Grey Company",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Men of the West",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Rivendell",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 0,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic Strike"
+				],
+				"faction": [
+					"Rivendell"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"race": [
+					"Elf"
+				],
+				"options": [
+					{
+						"name": "Horse",
+						"points": 20,
+						"availableIn": [
+							"The Grey Company",
+							"Rivendell"
+						]
+					}
+				],
+				"specialRules": [
+					"Woodland Creature",
+					"Unbreakable Bond (Elrohir)",
+					"Twin Elven Blades",
+					"Strength of Brotherhood (Elrohir)"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Elven hand weapons"
+				]
+			},
+			{
+				"name": "Brand, King of Dale",
+				"factions": [
+					{
+						"name": "Army of Dale",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 110,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 3,
+				"will": 3,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Resolve",
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Dale"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Lord of Dale",
+					"Stoic Fighter"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Shield",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Dalamyr, Fleetmaster of Umbar",
+				"factions": [
+					{
+						"name": "Corsair Fleets",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Grand Army of the South",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 100,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 4,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 4,
+				"might": 2,
+				"will": 2,
+				"fate": 3,
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic Strike"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Corsair",
+					"Umbar"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Backstabbers",
+					"Bane of Kings",
+					"Stalk Unseen",
+					"Preternatural Agility"
+				],
+				"wargear": [
+					"Hand weapon",
+					"Throwing weapons",
+					"Smoke Bombs"
+				],
+				"options": []
+			},
+			{
+				"name": "Suladan, The Serpent Lord",
+				"factions": [
+					{
+						"name": "Legions of Mordor",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Grand Army of the South",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 120,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 3,
+				"will": 3,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic March",
+					"Heroic Resolve",
+					"Heroic Strike"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Harad"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Leader (Serpent Guard)",
+					"Leader (Serpent Rider)",
+					"Poisoned Attacks",
+					"The Serpent Banner",
+					"Ascendent"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"The Serpent Banner"
+				],
+				"options": [
+					{
+						"name": "Armoured Horse",
+						"points": 25
+					}
+				]
+			},
+			{
+				"name": "Brand, King of Dale",
+				"factions": [],
+				"points": 110,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 3,
+				"will": 3,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Resolve",
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Dale"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Lord of Dale",
+					"Stoic Fighter"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Shield",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
 				"name": "Mardin, the King's Ward",
 				"factions": [
 					{
@@ -2612,6 +3190,14 @@
 					{
 						"name": "The Easterlings",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Legions of Mordor",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Grand Army of the South",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -2734,6 +3320,14 @@
 				"factions": [
 					{
 						"name": "The Easterlings",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Legions of Mordor",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Grand Army of the South",
 						"heroicTier": "Hero of Valour"
 					}
 				],
@@ -2919,6 +3513,14 @@
 					{
 						"name": "Host of the Dragon Emperor",
 						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Legions of Mordor",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Grand Army of the South",
+						"heroicTier": "Minor Hero"
 					}
 				],
 				"unlimited": true,
@@ -2980,6 +3582,14 @@
 					{
 						"name": "Host of the Dragon Emperor",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Legions of Mordor",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Grand Army of the South",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -3034,32 +3644,49 @@
 				],
 				"unlimited": true,
 				"points": 200,
-				"movement": 0,
-				"fight": 0,
-				"shoot": 0,
-				"strength": 0,
-				"defence": 0,
-				"attack": 0,
-				"wounds": 0,
-				"courage": 0,
-				"intelligence": 0,
-				"might": 0,
-				"will": 0,
-				"fate": 0,
-				"heroicActions": [],
+				"movement": 6,
+				"fight": 8,
+				"shoot": 2,
+				"strength": 7,
+				"defence": 7,
+				"attack": 4,
+				"wounds": 7,
+				"courage": 6,
+				"intelligence": 5,
+				"might": 3,
+				"will": 3,
+				"fate": 3,
+				"heroicActions": [
+					"Heroic Channeling",
+					"Heroic Defence",
+					"Heroic Resolve"
+				],
 				"race": [
 					"Dragon"
 				],
-				"faction": [],
+				"faction": [
+					"Moria"
+				],
 				"unitType": [
 					"Hero",
-					"Infantry"
+					"Infantry",
+					"Monster"
 				],
 				"baseSize": [
-					"25mm"
+					"130mm"
 				],
-				"specialRules": [],
-				"wargear": [],
+				"specialRules": [
+					"Dominant (5)",
+					"Harbinger of Evil (12\")",
+					"Large Target",
+					"Monstrous Charge",
+					"Resistant to Magic",
+					"Survival Instinct",
+					"Terror"
+				],
+				"wargear": [
+					"Claws and teeth (hand weapons)"
+				],
 				"options": [
 					{
 						"name": "Breathe Fire",
@@ -3093,37 +3720,59 @@
 				],
 				"unlimited": true,
 				"points": 150,
-				"movement": 0,
-				"fight": 0,
-				"shoot": 0,
-				"strength": 0,
-				"defence": 0,
-				"attack": 0,
-				"wounds": 0,
-				"courage": 0,
-				"intelligence": 0,
-				"might": 0,
-				"will": 0,
-				"fate": 0,
-				"heroicActions": [],
-				"race": [
-					"Dragon"
+				"movement": 8,
+				"fight": 7,
+				"shoot": 5,
+				"strength": 7,
+				"defence": 7,
+				"attack": 4,
+				"wounds": 6,
+				"courage": 6,
+				"intelligence": 7,
+				"might": 1,
+				"will": 3,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Defence"
 				],
-				"faction": [],
+				"race": [
+					"Drake"
+				],
+				"faction": [
+					"Moria"
+				],
 				"unitType": [
-					"Hero",
-					"Infantry"
+					"Monster"
 				],
 				"baseSize": [
-					"25mm"
+					"100mm"
 				],
-				"specialRules": [],
-				"wargear": [],
+				"specialRules": [
+					"Cave Dweller",
+					"Dominant (4)",
+					"Large Target",
+					"Monstrous Charge",
+					"Mountain Dweller",
+					"Resistant to Magic",
+					"Terror",
+					"Woodland Creature",
+					"Protect the Nest",
+					"Cornered Beast",
+					"Gaping Maw"
+				],
+				"wargear": [
+					"Claws and teeth (hand weapons)"
+				],
 				"options": []
 			},
 			{
 				"name": "Prince Imrahil",
-				"factions": [],
+				"factions": [
+					{
+						"name": "The Grief of Eomer",
+						"heroicTier": "Hero of Legend"
+					}
+				],
 				"points": 160,
 				"movement": 6,
 				"fight": 7,
@@ -3864,6 +4513,10 @@
 					{
 						"name": "Arathorn's Stand",
 						"heroicTier": "Independent Hero"
+					},
+					{
+						"name": "The Grey Company",
+						"heroicTier": "Independent Hero"
 					}
 				],
 				"unlimited": true,
@@ -3920,6 +4573,10 @@
 					{
 						"name": "Arathorn's Stand",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Grey Company",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 70,
@@ -3965,7 +4622,9 @@
 					{
 						"name": "Banner of Arwen Evenstar",
 						"points": 40,
-						"availableIn": []
+						"availableIn": [
+							"The Grey Company"
+						]
 					}
 				]
 			},
@@ -4081,6 +4740,14 @@
 					{
 						"name": "Battle of Fornost",
 						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Rivendell",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Lindon",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 160,
@@ -5437,6 +6104,10 @@
 					{
 						"name": "Defenders of the Pelennor",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "The Grief of Eomer",
+						"heroicTier": "Hero of Legend"
 					}
 				],
 				"points": 110,
@@ -5948,6 +6619,10 @@
 					{
 						"name": "Realms of Men",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Grief of Eomer",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -6019,7 +6694,8 @@
 							"Theodred's Guard",
 							"Helm's Guard",
 							"Defenders of the Pelennor",
-							"Realms of Men"
+							"Realms of Men",
+							"The Grief of Eomer"
 						]
 					},
 					{
@@ -6041,7 +6717,8 @@
 							"Road to Helm's Deep",
 							"Kingdom of Rohan",
 							"Defenders of the Pelennor",
-							"Riders of Theoden"
+							"Riders of Theoden",
+							"The Grief of Eomer"
 						]
 					}
 				],
@@ -6346,6 +7023,10 @@
 					{
 						"name": "Host of the Witch-King",
 						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Army of the Great Eye",
+						"heroicTier": "Hero of Legend"
 					}
 				],
 				"points": 150,
@@ -6413,7 +7094,8 @@
 						"chooseOneKey": "a",
 						"availableIn": [
 							"Legions of Mordor",
-							"Minas Morgul"
+							"Minas Morgul",
+							"Army of the Great Eye"
 						]
 					},
 					{
@@ -6421,7 +7103,8 @@
 						"points": 50,
 						"chooseOneKey": "a",
 						"availableIn": [
-							"Minas Morgul"
+							"Minas Morgul",
+							"Army of the Great Eye"
 						]
 					},
 					{
@@ -6429,7 +7112,8 @@
 						"points": 25,
 						"availableIn": [
 							"Legions of Mordor",
-							"Minas Morgul"
+							"Minas Morgul",
+							"Army of the Great Eye"
 						]
 					},
 					{
@@ -6438,7 +7122,8 @@
 						"chooseOneKey": "a",
 						"availableIn": [
 							"Minas Morgul",
-							"Host of the Witch-King"
+							"Host of the Witch-King",
+							"Army of the Great Eye"
 						]
 					},
 					{
@@ -6450,7 +7135,8 @@
 						"points": 5,
 						"availableIn": [
 							"Legions of Mordor",
-							"Minas Morgul"
+							"Minas Morgul",
+							"Army of the Great Eye"
 						]
 					}
 				],
@@ -6511,6 +7197,10 @@
 					{
 						"name": "Army of Gothmog",
 						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Army of the Great Eye",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 120,
@@ -6647,6 +7337,10 @@
 					{
 						"name": "The Black Gate",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Army of the Great Eye",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 75,
@@ -6719,6 +7413,10 @@
 					{
 						"name": "Cirith Ungol",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Army of the Great Eye",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 110,
@@ -6770,6 +7468,10 @@
 					{
 						"name": "Cirith Ungol",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Army of the Great Eye",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 60,
@@ -6930,6 +7632,10 @@
 					{
 						"name": "Minas Morgul",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of the Great Eye",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -6985,6 +7691,10 @@
 				"factions": [
 					{
 						"name": "Cirith Ungol",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of the Great Eye",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -7432,6 +8142,10 @@
 					{
 						"name": "Wraiths on Wings",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of the Great Eye",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"unlimited": true,
@@ -7498,7 +8212,9 @@
 						"name": "Armoured fell beast",
 						"points": 70,
 						"chooseOneKey": "a",
-						"availableIn": []
+						"availableIn": [
+							"Army of the Great Eye"
+						]
 					},
 					{
 						"name": "Fell beast",
@@ -7507,7 +8223,8 @@
 						"availableIn": [
 							"Legions of Mordor",
 							"The Black Gate",
-							"Wraiths on Wings"
+							"Wraiths on Wings",
+							"Army of the Great Eye"
 						]
 					},
 					{
@@ -7531,7 +8248,8 @@
 						"availableIn": [
 							"Legions of Mordor",
 							"The Black Gate",
-							"Wraiths on Wings"
+							"Wraiths on Wings",
+							"Army of the Great Eye"
 						]
 					},
 					{
@@ -7590,6 +8308,10 @@
 					},
 					{
 						"name": "Minas Morgul",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of the Great Eye",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -7723,6 +8445,10 @@
 					{
 						"name": "The Black Gate",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of the Great Eye",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -7772,6 +8498,10 @@
 					},
 					{
 						"name": "Barad-Dur",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of the Great Eye",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -7823,6 +8553,10 @@
 				"factions": [
 					{
 						"name": "Cirith Ungol",
+						"heroicTier": "Independent Hero"
+					},
+					{
+						"name": "Army of the Great Eye",
 						"heroicTier": "Independent Hero"
 					}
 				],
@@ -7892,6 +8626,10 @@
 					{
 						"name": "Minas Morgul",
 						"heroicTier": "Independent Hero"
+					},
+					{
+						"name": "Army of the Great Eye",
+						"heroicTier": "Independent Hero"
 					}
 				],
 				"unlimited": true,
@@ -7939,6 +8677,10 @@
 					},
 					{
 						"name": "Army of Gothmog",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of the Great Eye",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -7990,6 +8732,10 @@
 					},
 					{
 						"name": "Army of Gothmog",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of the Great Eye",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -8527,6 +9273,10 @@
 					{
 						"name": "Defenders of the Pelennor",
 						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "The Grey Company",
+						"heroicTier": "Hero of Legend"
 					}
 				],
 				"points": 160,
@@ -8577,7 +9327,8 @@
 						"name": "Anduril, Flame of the West",
 						"points": 0,
 						"availableIn": [
-							"Return of the King"
+							"Return of the King",
+							"The Grey Company"
 						]
 					},
 					{
@@ -9805,6 +10556,10 @@
 					{
 						"name": "Realms of Men",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of Dale",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -10107,6 +10862,10 @@
 					{
 						"name": "Defenders of the Pelennor",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "The Grey Company",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 100,
@@ -10149,7 +10908,8 @@
 							"Defenders of the Pelennor",
 							"Road to Helm's Deep",
 							"Return of the King",
-							"Defenders of Helm's Deep"
+							"Defenders of Helm's Deep",
+							"The Grey Company"
 						]
 					}
 				],
@@ -10334,6 +11094,10 @@
 					{
 						"name": "Defenders of the Pelennor",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "The Grey Company",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 100,
@@ -10402,7 +11166,8 @@
 							"Road to Helm's Deep",
 							"Return of the King",
 							"Defenders of Helm's Deep",
-							"Defenders of the Pelennor"
+							"Defenders of the Pelennor",
+							"The Grey Company"
 						]
 					},
 					{
@@ -10413,7 +11178,8 @@
 							"Men of the West",
 							"Return of the King",
 							"Defenders of Helm's Deep",
-							"Defenders of the Pelennor"
+							"Defenders of the Pelennor",
+							"The Grey Company"
 						]
 					},
 					{
@@ -13346,6 +14112,10 @@
 					{
 						"name": "Host of the Dragon Emperor",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Grand Army of the South",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 60,
@@ -13522,6 +14292,10 @@
 					},
 					{
 						"name": "Realms of Men",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Grief of Eomer",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -17220,6 +17994,10 @@
 					{
 						"name": "Barad-Dur",
 						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Army of the Great Eye",
+						"heroicTier": "Minor Hero"
 					}
 				],
 				"includes": [
@@ -17914,31 +18692,6 @@
 				"decreaseModelCount": 1
 			},
 			{
-				"name": "Grimbeorn (Wanderers)",
-				"includes": [
-					{
-						"dataSource": "heroes",
-						"name": "Grimbeorn (Man)"
-					},
-					{
-						"dataSource": "heroes",
-						"name": "Grimbeorn the Bear"
-					}
-				],
-				"points": 200,
-				"factions": [
-					{
-						"name": "Wanderers in the Wild",
-						"heroicTier": "Hero of Valour"
-					}
-				],
-				"hideStats": true,
-				"heroicActions": [],
-				"options": [],
-				"specialRules": [],
-				"decreaseModelCount": 1
-			},
-			{
 				"name": "Grimbeorn (Man)",
 				"factions": [
 					{
@@ -18194,6 +18947,10 @@
 					{
 						"name": "Harad",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Grand Army of the South",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 50,
@@ -18301,6 +19058,10 @@
 					{
 						"name": "Corsair Fleets",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Grand Army of the South",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -18353,6 +19114,10 @@
 				"factions": [
 					{
 						"name": "Corsair Fleets",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Grand Army of the South",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -18968,6 +19733,10 @@
 					{
 						"name": "Harad",
 						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Grand Army of the South",
+						"heroicTier": "Hero of Legend"
 					}
 				],
 				"includes": [
@@ -19121,6 +19890,10 @@
 					},
 					{
 						"name": "Harad",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Grand Army of the South",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -19948,10 +20721,50 @@
 		],
 		"warriors": [
 			{
+				"name": "Black Numenorean Warrior",
+				"factions": [
+					"Army of the Great Eye"
+				],
+				"points": 10,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 6,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 6,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"options": [],
+				"specialRules": [
+					"Terror",
+					"Visage of Terror"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Shield",
+					"Hand weapon"
+				]
+			},
+			{
 				"name": "Dragon Cult Acolyte",
 				"factions": [
 					"The Easterlings",
-					"Host of the Dragon Emperor"
+					"Host of the Dragon Emperor",
+					"Grand Army of the South"
 				],
 				"points": 11,
 				"movement": 6,
@@ -19972,7 +20785,7 @@
 				],
 				"unitType": [
 					"Warrior",
-					"Ingantry"
+					"Infantry"
 				],
 				"baseSize": [
 					"25mm"
@@ -19993,7 +20806,9 @@
 				"name": "Easterling Kataphrakt",
 				"factions": [
 					"The Easterlings",
-					"Host of the Dragon Emperor"
+					"Host of the Dragon Emperor",
+					"Legions of Mordor",
+					"Grand Army of the South"
 				],
 				"points": 15,
 				"movement": 6,
@@ -20046,7 +20861,8 @@
 				"name": "War Drake of Rhun",
 				"factions": [
 					"The Easterlings",
-					"Host of the Dragon Emperor"
+					"Host of the Dragon Emperor",
+					"Grand Army of the South"
 				],
 				"points": 20,
 				"movement": 6,
@@ -20088,7 +20904,9 @@
 				"name": "Black Dragon Warrior",
 				"factions": [
 					"The Easterlings",
-					"Host of the Dragon Emperor"
+					"Host of the Dragon Emperor",
+					"Legions of Mordor",
+					"Grand Army of the South"
 				],
 				"points": 10,
 				"movement": 6,
@@ -22746,84 +23564,6 @@
 				"countAsProperty": "heroes"
 			},
 			{
-				"name": "Tom Bombadil",
-				"factions": [
-					"Wanderers in the Wild"
-				],
-				"unique": true,
-				"points": 160,
-				"movement": 6,
-				"fight": 0,
-				"shoot": 0,
-				"strength": 0,
-				"defence": 0,
-				"attack": 0,
-				"wounds": 0,
-				"courage": 0,
-				"might": 0,
-				"will": 15,
-				"fate": 0,
-				"heroicActions": [],
-				"specialRules": [
-					"Tom is Master",
-					"Hey! Come Merry Dol!"
-				],
-				"wargear": [
-					"Unarmed"
-				],
-				"options": [],
-				"magicalPowers": [
-					{
-						"name": "Refreshing Song",
-						"range": 3,
-						"casting": 2
-					},
-					{
-						"name": "Banishment",
-						"range": 6,
-						"casting": 3
-					}
-				],
-				"countAsProperty": "heroes"
-			},
-			{
-				"name": "Goldberry",
-				"factions": [
-					"Wanderers in the Wild"
-				],
-				"unique": true,
-				"points": 140,
-				"movement": 6,
-				"fight": 0,
-				"shoot": 0,
-				"strength": 0,
-				"defence": 0,
-				"attack": 0,
-				"wounds": 0,
-				"courage": 0,
-				"might": 0,
-				"will": 10,
-				"fate": 0,
-				"heroicActions": [],
-				"specialRules": [
-					"River-daughter",
-					"Hey! Come Merry Dol!",
-					"Tom has his House to mind, and Goldberry is waiting"
-				],
-				"wargear": [
-					"Unarmed"
-				],
-				"options": [],
-				"magicalPowers": [
-					{
-						"name": "Refreshing Song",
-						"range": 3,
-						"casting": 2
-					}
-				],
-				"countAsProperty": "heroes"
-			},
-			{
 				"name": "Thrain the Broken",
 				"factions": [
 					"The White Council"
@@ -23462,35 +24202,6 @@
 				"countAsProperty": "heroes"
 			},
 			{
-				"name": "Bill the Pony (Wanderers)",
-				"factions": [
-					"Wanderers in the Wild"
-				],
-				"unique": true,
-				"unlockedBy": "Barliman Butterbur",
-				"points": 10,
-				"movement": 8,
-				"fight": 1,
-				"shoot": 4,
-				"strength": 3,
-				"defence": 4,
-				"attack": 1,
-				"wounds": 2,
-				"courage": 3,
-				"might": 0,
-				"will": 1,
-				"fate": 1,
-				"heroicActions": [],
-				"options": [],
-				"specialRules": [
-					"Official Meals",
-					"Only a Pony",
-					"Second Breakfast"
-				],
-				"wargear": [],
-				"countAsProperty": "heroes"
-			},
-			{
 				"name": "Grima Wormtongue",
 				"factions": [
 					"Army of the White Hand",
@@ -23714,7 +24425,8 @@
 				"name": "Ranger of the North",
 				"factions": [
 					"Arnor",
-					"Arathorn's Stand"
+					"Arathorn's Stand",
+					"The Grey Company"
 				],
 				"availableIn": [
 					{
@@ -23783,7 +24495,8 @@
 					"Cirith Ungol",
 					"Barad-Dur",
 					"Fell Beings of Mirkwood",
-					"Minas Morgul"
+					"Minas Morgul",
+					"Army of the Great Eye"
 				],
 				"points": 30,
 				"movement": 6,
@@ -24007,7 +24720,8 @@
 					"Army of Edoras",
 					"Defenders of the Hornburg",
 					"Men of the West",
-					"Realms of Men"
+					"Realms of Men",
+					"The Grief of Eomer"
 				],
 				"unavailableIn": [
 					[
@@ -24082,7 +24796,8 @@
 					"Helm's Guard",
 					"Defenders of the Hornburg",
 					"Defenders of the Pelennor",
-					"Realms of Men"
+					"Realms of Men",
+					"The Grief of Eomer"
 				],
 				"points": 14,
 				"movement": 6,
@@ -24528,7 +25243,8 @@
 				"factions": [
 					"Minas Morgul",
 					"Barad-Dur",
-					"Cirith Ungol"
+					"Cirith Ungol",
+					"Army of the Great Eye"
 				],
 				"points": 5,
 				"movement": 6,
@@ -24736,7 +25452,8 @@
 					"Legions of Mordor",
 					"The Black Gate",
 					"Army of Gothmog",
-					"Minas Morgul"
+					"Minas Morgul",
+					"Army of the Great Eye"
 				],
 				"points": 8,
 				"movement": 6,
@@ -24794,7 +25511,8 @@
 			{
 				"name": "Mordor Uruk-Hai",
 				"factions": [
-					"Cirith Ungol"
+					"Cirith Ungol",
+					"Army of the Great Eye"
 				],
 				"points": 8,
 				"movement": 6,
@@ -24836,7 +25554,8 @@
 			{
 				"name": "Mordor Warg Rider",
 				"factions": [
-					"Barad-Dur"
+					"Barad-Dur",
+					"Army of the Great Eye"
 				],
 				"points": 11,
 				"movement": 6,
@@ -25066,7 +25785,8 @@
 					"The Black Gate",
 					"Army of Gothmog",
 					"Barad-Dur",
-					"Minas Morgul"
+					"Minas Morgul",
+					"Army of the Great Eye"
 				],
 				"points": 90,
 				"movement": 6,
@@ -25501,7 +26221,8 @@
 					"Reclamation of Osgiliath",
 					"Atop the Wall",
 					"Defenders of the Pelennor",
-					"Realms of Men"
+					"Realms of Men",
+					"The Grief of Eomer"
 				],
 				"availableIn": [
 					{
@@ -25651,7 +26372,8 @@
 					"Reclamatin of Osgiliath",
 					"Atop the Wall",
 					"Defenders of the Pelennor",
-					"Realms of Men"
+					"Realms of Men",
+					"The Grief of Eomer"
 				],
 				"availableIn": [
 					{
@@ -26439,10 +27161,10 @@
 				"name": "Warrior of Dale",
 				"factions": [
 					"Garrison of Dale",
-					"The Army of Dale",
 					"Defenders of Erebor",
 					"Erebor & Dale",
-					"Realms of Men"
+					"Realms of Men",
+					"Army of Dale"
 				],
 				"points": 7,
 				"movement": 6,
@@ -26504,7 +27226,9 @@
 			},
 			{
 				"name": "Knight of Dale",
-				"factions": [],
+				"factions": [
+					"Army of Dale"
+				],
 				"points": 11,
 				"movement": 6,
 				"fight": 4,
@@ -27411,7 +28135,8 @@
 				"factions": [
 					"Legions of Mordor",
 					"The Easterlings",
-					"Host of the Dragon Emperor"
+					"Host of the Dragon Emperor",
+					"Grand Army of the South"
 				],
 				"points": 8,
 				"movement": 6,
@@ -29015,10 +29740,6 @@
 					"Grimbeorn",
 					"Grimbeorn (Wanderers)"
 				],
-				"availableIn": [
-					"Grimbeorn",
-					"Grimbeorn (Wanderers)"
-				],
 				"points": 20,
 				"movement": 6,
 				"fight": 5,
@@ -29049,7 +29770,8 @@
 				"name": "Haradrim Warrior",
 				"factions": [
 					"Legions of Mordor",
-					"Harad"
+					"Harad",
+					"Grand Army of the South"
 				],
 				"points": 6,
 				"movement": 6,
@@ -29104,7 +29826,8 @@
 			{
 				"name": "Corsair of Umbar",
 				"factions": [
-					"Corsair Fleets"
+					"Corsair Fleets",
+					"Grand Army of the South"
 				],
 				"points": 8,
 				"movement": 6,
@@ -29290,6 +30013,55 @@
 			}
 		],
 		"gear": [
+			{
+				"name": "Smoke Bombs",
+				"tag": "Active",
+				"definition": "These are throwing weapons with a Strength of 1. Any model hit, but not slain, by these weapons must immediately expend a Will Point or suffer the effects of the Transfix Magical Power and have their Fight Value halved until the End Phase of the turn. Should Dalamyr ever roll a 1 To Hit with his Smoke Bombs then his supply has run out and he cannot use them for the remainder of the game."
+			},
+			{
+				"name": "The Serpent Banner",
+				"tag": "Active",
+				"definition": "The Serpent Banner is a Unique banner with a range of 6\". Suladan never suffers the -1 penalty to his Duel Rolls for carrying a banner."
+			},
+			{
+				"name": "Breathe Fire",
+				"definition": "The Dragon can Breathe Fire as a shooting attack during the Shoot Phase; treat this as a bow with a range of 12\". If the shot hits, then the model that is hit, and all models (friend or foe) within 2\" of the hit model, will suffer a Strength 10 hit. Any model that suffers a Wound from this shooting attack which is not prevented is automatically slain.",
+				"tag": "Active"
+			},
+			{
+				"name": "Fly",
+				"definition": "The Dragon gains the Fly special rule and increases its Move Value to 12\" whilst using the Fly special rule.",
+				"tag": "Active"
+			},
+			{
+				"name": "Superior Intellect",
+				"definition": "The Dragon automatically passes any Intelligence Tests it is required to take. Additionally, each tiem the Dragon spends a Might Point, roll a D6. On a 4+, the Might Point is free and does not reduce the Dragon's store of Might.",
+				"tag": "Passive"
+			},
+			{
+				"name": "Tough Hide",
+				"definition": "The Dragon increases its Wounds and Defence to 9 each.",
+				"tag": "Passive"
+			},
+			{
+				"name": "Wyrm Magic",
+				"definition": "The Dragon gains a free Will Point at the start of each turn. If this free Will Point is not spent by the end of the turn, it is lost. The Dragon may also cast the following Magical Powers.\n                Compel (Range 12\", Casting Value 3+)\n                Transfix (Range 12\", Casting Value 3+)\n                Foil Magic (Range 12\", Casting Value 4+)",
+				"tag": "Active",
+				"additionalDefinitions": [
+					{
+						"dataSource": "magicalPowers",
+						"name": "Transfix",
+						"elementPropertyName": "magicalPowers",
+						"range": 12,
+						"casting": 3
+					},
+					{
+						"dataSource": "magicalPowers",
+						"name": "Compel",
+						"elementPropertyName": "magicalPowers"
+					}
+				]
+			},
 			{
 				"name": "Exquisite Mithril Armour",
 				"definition": "This is a set of Unique Mithril Armour that will add 4 to Durin's Defence rather than the usual 3 (already included in his profile).",
@@ -31334,6 +32106,86 @@
 			}
 		],
 		"keywords": [
+			{
+				"name": "The Serpent's Weapon",
+				"tag": "Active",
+				"definition": "At the beginning of the game, after both sides have been deployed, secretly select a single Hero model in your opponent's Army to be Raza's target. At the start of a Combat where Raza is Engaged in Combat with his target, after any Heroic Actions have been resolved, reveal Raza's target. Raza gains a bonus of +2 to his Fight Value whilst Engaged in Combat with his target."
+			},
+			{
+				"name": "Unbreakable Bond (Elladan)",
+				"tag": "Active",
+				"definition": "If Elrohir is slain, make a note of the model that killed him; for the remainder of the game, Elladan increases his Strength by 1. Additionally, for the remainder of the game, whenever Elladan Activates if he can Charge an enemy model then he must do so; if he is able to Charge the enemy model that killed Elladan, then he must prioritise that model to Charge. If Elladan is Engaged in Combat with the model that killed Elladan, and that model is a Hero, he must declare a free Heroic Challenge against them. This may still be done even though Elladan cannot normally declare a Heroic Challenge, and even if the Hero has a lower Heroic Tier than Elladan."
+			},
+			{
+				"name": "Unbreakable Bond (Elrohir)",
+				"tag": "Active",
+				"definition": "If Elladan is slain, make a note of the model that killed him; for the remainder of the game, Elrohir increases his Strength by 1. Additionally, for the remainder of the game, whenever Elrohir Activates if he can Charge an enemy model then he must do so; if he is able to Charge the enemy model that killed Elladan, then he must prioritise that model to Charge. If Elrohir is Engaged in Combat with the model that killed Elladan, and that model is a Hero, he must declare a free Heroic Challenge against them. This may still be done even though Elrohir cannot normally declare a Heroic Challenge, and even if the Hero has a lower Heroic Tier than Elrohir."
+			},
+			{
+				"name": "Twin Elven Blades",
+				"tag": "Active",
+				"definition": "Whilst he has the Infantry Keyword, Elrohir can choose to fight in one of the three following ways. He must declare which way he is fighting at the start of a Combat, before any dice are rolled:\n        • Elrohir can fight with 3 Attacks rather than 2.\n        • Elrohir can use his Elven weapons as Elven hand-and-half weapons.\n        • Elrohir can use his Elven weapons to parry, which counts as Shielding."
+			},
+			{
+				"name": "Strength of Brotherhood (Elladan)",
+				"tag": "Active",
+				"definition": "Whilst within 3\" of Elladan, Elladan gains the Dominant (2) special rule and may re-roll To Wound Rolls of a natural 1 when making Strikes."
+			},
+			{
+				"name": "Strength of Brotherhood (Elrohir)",
+				"tag": "Active",
+				"definition": "Whilst within 3\" of Elladan, Elrohir gains the Dominant (2) special rule and may re-roll To Wound Rolls of a natural 1 when making Strikes."
+			},
+			{
+				"name": "Visage of Terror",
+				"tag": "Passive",
+				"definition": "If an enemy model attempts to Charge this model and fails its Courage Test as a result of the Terror special rule, then their Activation will immediately end rather than them just not being able to Move that turn. Models affected by this special rulle cannot Shoot in the Shoot PHase, and cannot Move in the Fight Phase if part of a successful Heroic Combat, but may otherwise act normally in those phases."
+			},
+			{
+				"name": "Lord of Dale",
+				"tag": "Active",
+				"definition": "The range of Brand's Stand Fast is 12\" rather than 6\"."
+			},
+			{
+				"name": "Stoic Fighter",
+				"tag": "Active",
+				"definition": "At the start of any Combat involving Brand, check to see if Brand would be considered to be Trapped should he lose the Duel Roll. If Brand would be considered to be Trapped, then he may re-roll a single D6 during the Duel Roll and re-roll a single D6 when rolling To Wound."
+			},
+			{
+				"name": "Preternatural Agility",
+				"tag": "Active",
+				"definition": "This model can never count as Trapped whilst still standing."
+			},
+			{
+				"name": "Ascendent",
+				"tag": "Active",
+				"definition": "The range of Suladan's Stand Fast is 12\" rather than 6\"."
+			},
+			{
+				"name": "Lord of Dale",
+				"tag": "Active",
+				"definition": "The range of Brand's Stand Fast is 12\" rather than 6\"."
+			},
+			{
+				"name": "Stoic Fighter",
+				"tag": "Active",
+				"definition": "At the start of any Combat involving Brand, check to see if Brand would be considered to be Trapped should he lose the Duel Roll. If Brand would be considered to be Trapped, then he may re-roll a single D6 during the Duel Roll and re-roll a single D6 when rolling To Wound."
+			},
+			{
+				"name": "Protect the Nest",
+				"definition": "At the beginning of the game, after both sides have deployed, you may place a single 25mm Nest Marker anywhere on the board. Whilst within 3\" of a friendly Nest Marker, a Cave Drake has the Fearless special rule.",
+				"tag": "Active"
+			},
+			{
+				"name": "Cornered Beast",
+				"definition": "If a Cave Drake loses a Duel Roll and is Trapped, then after any Strikes have been made against it the Cave Drake will lash out. When a Cave Drake lashes out, any models (friend or foe) that were Engaged in Combat with it, or are within 1\" of it, will immediately suffer a Strength 4 hit.",
+				"tag": "Active"
+			},
+			{
+				"name": "Gaping Maw",
+				"tag": "Brutal Power Attack",
+				"definition": "Instead of making Strikes, a Cave Drake may choose a single enemy model on a 25mm base that was involved in the same combat and roll a D6. On a 2+, the chosen model suffers a wound and, if this Wound is not prevented, the model is swallowed whole and removed as a casualty. If the Cave Drake slays a model wtih this Brutal Power Attack, they may immediately regain a Wound lost earlier in the battle."
+			},
 			{
 				"name": "The Palanquin",
 				"definition": "The Royal Palanquin is a Mount, however, it does not act like a Cavalry model and does not provide the Cavalry keyword to the Dragon Emperor. Instead, the whole model is treated as an Infantry model.\n\nIf a special rule or Magical Power would affect a Cavalry model, and will affect both the rider and the Mount of a model, then this will still affect both the Dragon Emperor and the Palanquin as normal. If a special rule or Magical Power would affect a Cavalry model, and will affect either the rider or the Mount of a model, then the player using the special rule or Magical Power may still choose either the Dragon Emperor or the Palanquin to be affected.\n\nWhilst the Palanquin has 3 or more Wounds remaining it will Move as normal. If it is reduced to 2 Wounds, then its Move Value is reduced to 3\". If it only has a single Wound remaining then it cannot Move at all.\nWhen the Palanquin is hit by a shooting attack, the shooter must take an In The Way Test to see if the Dragon Emperor or the Palanquin itself are hit. However, for this In The Way Test a roll of a 1-4 will hit the Royal Palanquin and a 5+ will hit the Dragon Emperor. A model with the Sharpshooter special rule may still target either rider or Mount as normal.\n\nThe Palanquin is always treated as a single Mount, rather than multiple single models. If the Dragon Emperor dismounts from the Palanquin, or is slain whilst riding the Palanquin, then replace the Palanquin with a number of Black Dragon Warriors with shield equal to the number of Wounds the Palanquin currently has remaining – they do not need to take Courage Tests as a result of being a Separated Mount. These models should be placed within the footprint of the Palanquin.\n\nThe Royal Palanquin cannot be knocked Prone for any reason, with the exception of if it is hit by the Direct Hit of a Siege Engine.\n\nThe Royal Palanquin, and any model riding it, cannot be affected by the Hurl or Barge Brutal Power Attacks, and cannot be forced back by Magical Powers (such as Call Winds) or by being flung back by the effects of a Siege Engine.\n\nThe Royal Palanquin has the Dominant (X) special rule, where X is the number of Wounds it has remaining.",
@@ -33568,6 +34420,58 @@
 			}
 		],
 		"armyBonuses": [
+			{
+				"name": "Pride of the Southlands",
+				"definition": "Friendly models gain a bonus of +1 to any Courage Tests they are required to take."
+			},
+			{
+				"name": "Skilled Bowmen",
+				"definition": "Friendly Dale models improve their Shoot Value to 3+"
+			},
+			{
+				"name": "Protect the King",
+				"definition": "Friendly models gain the Sworn Protector (Brand) special rule."
+			},
+			{
+				"name": "Stoic Defence",
+				"definition": "Once per game, at the start of any Move Phase before the Declare Heroic Actions step, you may declare you are using this ability. If you do, then during the Move Phase friendly moodels cannot Move during their Activation (but can otherwise act normally). Additionally, until the End Phase of the turn, friendly models gain the Dominant (2) special rule and may re-roll any failed To Wound Rolls when making Strikes."
+			},
+			{
+				"name": "Eomer's Wrath",
+				"definition": "Eomer is always treated as being under the effects of his The Price of Grief special rule. Additionally, Eomer gains a bonus of +1 to his Fight Value on a turn in which he Charges."
+			},
+			{
+				"name": "Fear no enemy",
+				"definition": "Eomer gains the Fearless special rule. Additionally, friendly Rohan models that can draw Line of Sight to Eomer automatically pass any Courage Tests they are required to take."
+			},
+			{
+				"name": "Ride of Dol Amroth",
+				"definition": "Friendly Gondor models may re-roll To Wound Rolls of a natural 1 when making Strikes in a turn in which they Charge."
+			},
+			{
+				"name": "The Great Eye",
+				"definition": "At the beginning of the game, place a 25mm Great Eye Marker on the battlefield in your deployment zone. At the end of each Move Phase, remove the Great Eye Marker and roll a D6. On a 2+, you may place it anywhere within 6\" of where it was. On a 1, Sauron has been distracted and your opponent may place it anywhere within 12\" of where it was. The Great Eye Marker can never be placed so that it overlaps another model's base, though models may finish their Move overlapping the Great Eye Marker. Friendly models treat the Great Eye Marker as a banner. Enemy models within 3\" of the Great Eye Marker suffer a -1 penalty to any Courage or Intelligence Tests they are required to take.\n                If your opponent's Army contains a Ringbearer (with the exception of Sauron), then if during the End Phase of any turn they are wearing the Ring and wtihin 3\" of the Great Eye Marker, they must roll a D6. On a 3+, they succumb to Sauron and are immediately removed as a casualty."
+			},
+			{
+				"name": "Masters of the Wild",
+				"definition": "Friendly models are not slowed by difficult terrain of any type."
+			},
+			{
+				"name": "Passing of the Grey Company",
+				"definition": "Rangers of the North may benefit from the Stand Fast of any friendly Unique Hero model."
+			},
+			{
+				"name": "Great Resilience",
+				"definition": "Whenever a friendly Bear model suffers a Wound, roll a D6. On the roll of a natural 6, the Wound is ignore."
+			},
+			{
+				"name": "Natural Resistance",
+				"definition": "Friendly models gain the Resistant to Magic special rule."
+			},
+			{
+				"name": "Ursine Fury",
+				"definition": "At the beginning of each Move Phase, before the Declare Heroic Action step, you may roll a D6 for each friendly Bear model you have on the battlefield. If any of the D6 roll a natural 6, then for the duration of the turn enemy models suffer a -1 penalty to any Couratge Tests they are required to take as a result of trying to Charge a model with the Terror special rule."
+			},
 			{
 				"name": "Dwarven Mirrors",
 				"definition": "At the start of the game, after both sides have deployed, you may deploy two 40mm Dwarven Mirror Markers anywhere on the battlefield that is not within the opposition deployment zone. The area within 6\" of a Dwarven Mirror Marker is always considered to be daylight. Enemy models targeting a friendly model within 6\" of a Dwarven Mirror Marker with a shooting attack suffers a -1 penalty to the To Hit Roll.\nAdditionally, Orc models, Goblin models, or models with the Cave Dweller special rule, suffer a -1 penalty to any Courage Tests they are required to take whilst they are within 6\" of a Dwarven Mirror Marker. If during the End Phase of a turn, an enemy model is in base contact with a Dwarven Mirror Marker, that model hasn&apos;t done anything during that turn except Move (i.e., has not made a shooting attack, cast a Magical Power, been Engaged in Combat), and that model was not affected by a Magical Power that turn, then it can remove the Dwarven Mirror Marker from play. Models cannot overlap a Dwarven Mirror Marker for any reason, though a War Beast or Chariot that Moves into base contact with one (via Trample or Chariot Charge respectively) will immediately remove it from play and may carry on as normal."
