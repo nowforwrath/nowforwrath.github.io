@@ -4831,18 +4831,20 @@
 				"unlimited": true,
 				"points": 65,
 				"movement": 5,
-				"fight": 0,
-				"shoot": 0,
-				"strength": 0,
-				"defence": 0,
-				"attack": 0,
-				"wounds": 0,
-				"courage": 0,
-				"intelligence": 0,
-				"might": 0,
-				"will": 0,
-				"fate": 0,
-				"heroicActions": [],
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 8,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic March"
+				],
 				"race": [
 					"Dwarf"
 				],
@@ -4858,7 +4860,11 @@
 					"25mm"
 				],
 				"specialRules": [],
-				"wargear": [],
+				"wargear": [
+					"Heavy armour",
+					"Shield",
+					"Hand weapon"
+				],
 				"options": []
 			},
 			{
@@ -30848,14 +30854,14 @@
 				],
 				"points": 8,
 				"movement": 5,
-				"fight": 0,
-				"shoot": 0,
-				"strength": 0,
-				"defence": 0,
-				"attack": 0,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 6,
+				"attack": 1,
 				"wounds": 1,
-				"courage": 0,
-				"intelligence": 0,
+				"courage": 6,
+				"intelligence": 6,
 				"race": [
 					"Dwarf"
 				],
