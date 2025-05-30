@@ -697,7 +697,6 @@
 					"Warrior models with one of the following keywords may only be included in your Army if your Army also includes a Hero with the same keyword: Dol Amroth, Lassarnach, Lamedon, Blackroot Vale."
 				],
 				"armyBonuses": [
-					null,
 					"\"For the White City!\"",
 					"Leaders of the Fiefdoms"
 				],
