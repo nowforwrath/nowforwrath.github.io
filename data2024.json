@@ -3156,7 +3156,12 @@
 			},
 			{
 				"name": "Lotho Sackville-Baggins",
-				"factions": [],
+				"factions": [
+					{
+						"name": "The Shire",
+						"heroicTier": "Minor Hero"
+					}
+				],
 				"points": 30,
 				"movement": 4,
 				"fight": 2,
@@ -3400,6 +3405,10 @@
 					{
 						"name": "Battle of Bywater",
 						"heroicTier": "Independent Hero"
+					},
+					{
+						"name": "The Shire",
+						"heroicTier": "Independent Hero"
 					}
 				],
 				"points": 25,
@@ -3446,6 +3455,10 @@
 				"factions": [
 					{
 						"name": "Battle of Bywater",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Shire",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -3545,6 +3558,10 @@
 				"factions": [
 					{
 						"name": "Battle of Bywater",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Shire",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -25785,7 +25802,8 @@
 			{
 				"name": "Hobbit Archer",
 				"factions": [
-					"Battle of Bywater"
+					"Battle of Bywater",
+					"The Shire"
 				],
 				"availableIn": [
 					{
