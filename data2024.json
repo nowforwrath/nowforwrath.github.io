@@ -2795,6 +2795,10 @@
 					{
 						"name": "Defenders of the Pelennor",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Fords of Isen",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 60,
@@ -3062,9 +3066,9 @@
 				"wounds": 2,
 				"courage": 5,
 				"intelligence": 5,
-				"might": 2,
-				"will": 2,
-				"fate": 2,
+				"might": 3,
+				"will": 1,
+				"fate": 1,
 				"heroicActions": [
 					"Heroic Resolve",
 					"Heroic Strength",
