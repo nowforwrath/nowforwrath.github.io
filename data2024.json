@@ -30183,45 +30183,6 @@
 				"countAsProperty": "heroes"
 			},
 			{
-				"name": "Knight of Dol Amroth",
-				"factions": [],
-				"points": 11,
-				"movement": 6,
-				"fight": 4,
-				"shoot": 4,
-				"strength": 3,
-				"defence": 6,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 4,
-				"options": [
-					{
-						"name": "War Horn",
-						"points": 30
-					},
-					{
-						"name": "Banner",
-						"points": 25
-					},
-					{
-						"name": "Armoured Horse",
-						"points": 8
-					},
-					{
-						"name": "Lance",
-						"points": 1
-					}
-				],
-				"specialRules": [
-					"Pride of Dol Amroth"
-				],
-				"wargear": [
-					"Heavy Armour",
-					"Sword",
-					"Shield"
-				]
-			},
-			{
 				"name": "Great Eagle",
 				"factions": [
 					"The Eagles",
