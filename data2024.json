@@ -2716,6 +2716,57 @@
 		],
 		"heroes": [
 			{
+				"name": "Bard II, Prince of Dale",
+				"factions": [
+					{
+						"name": "Army of Dale",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 100,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 3,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic Resolve",
+					"Heroic Strike"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Dale"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Wall of Blades"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Shield",
+					"Spear",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
 				"name": "Déorwine, Chief of the King's Knights",
 				"factions": [
 					{
@@ -22680,6 +22731,93 @@
 		],
 		"warriors": [
 			{
+				"name": "Serpent Rider",
+				"factions": [
+					"Grand Army of the South",
+					"The Serpent Horde"
+				],
+				"points": 14,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"might": 0,
+				"will": 0,
+				"fate": 0,
+				"heroicActions": [],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Harad"
+				],
+				"unitType": [
+					"Warrior",
+					"Cavalry",
+					"Elite"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Poisoned Attacks"
+				],
+				"wargear": [
+					"Armour",
+					"War spear",
+					"Horse"
+				],
+				"options": []
+			},
+			{
+				"name": "Serpent Guard",
+				"factions": [
+					"Grand Army of the South",
+					"The Serpent Horde"
+				],
+				"points": 8,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"might": 0,
+				"will": 0,
+				"fate": 0,
+				"heroicActions": [],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Harad"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry",
+					"Elite"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Poisoned Attacks"
+				],
+				"wargear": [
+					"Armour",
+					"Spear"
+				],
+				"options": []
+			},
+			{
 				"name": "Hobbit Shirriff",
 				"factions": [
 					"The Shire",
@@ -30060,7 +30198,12 @@
 				"defence": 6,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 7,
+				"might": 0,
+				"will": 0,
+				"fate": 0,
+				"heroicActions": [],
 				"race": [
 					"Man"
 				],
@@ -30069,21 +30212,21 @@
 				],
 				"unitType": [
 					"Warrior",
-					"Cavalry"
+					"Infantry"
 				],
 				"baseSize": [
 					"25mm"
 				],
-				"options": [],
 				"specialRules": [
 					"Wall of Blades"
 				],
 				"wargear": [
-					"Heavy Armour",
-					"Sword",
+					"Heavy armour",
+					"Shield",
 					"Spear",
-					"Shield"
-				]
+					"Hand weapon"
+				],
+				"options": []
 			},
 			{
 				"name": "Dale Crew",
@@ -35735,7 +35878,7 @@
 			{
 				"name": "Wall of Blades",
 				"tag": "Active",
-				"definition": "This model gains a bonus of +1 To Wound when making Strikes\n                with their spear against a model that charged them this turn."
+				"definition": "This model gains a bonus of +1 To Wound when making Strikes with their spear against a model that Charged them this turn."
 			},
 			{
 				"name": "Accurate",
