@@ -3885,55 +3885,6 @@
 				"options": []
 			},
 			{
-				"name": "Rúmil, Warden of Caras Galadhon",
-				"factions": [
-					{
-						"name": "Lothlorien",
-						"heroicTier": "Hero of Fortitude"
-					}
-				],
-				"points": 85,
-				"movement": 6,
-				"fight": 6,
-				"shoot": 3,
-				"strength": 4,
-				"defence": 7,
-				"attack": 2,
-				"wounds": 2,
-				"courage": 4,
-				"intelligence": 4,
-				"might": 2,
-				"will": 1,
-				"fate": 2,
-				"heroicActions": [
-					"Heroic Defence"
-				],
-				"race": [
-					"Elf"
-				],
-				"faction": [
-					"Lothlorien"
-				],
-				"unitType": [
-					"Hero",
-					"Infantry",
-					"Unique"
-				],
-				"baseSize": [
-					"25mm"
-				],
-				"specialRules": [
-					"Woodland Creature",
-					"Swift Parry"
-				],
-				"wargear": [
-					"Heavy armour",
-					"Shield",
-					"Elven hand weapon"
-				],
-				"options": []
-			},
-			{
 				"name": "No Hero (Sharkey)",
 				"factions": [
 					{
@@ -4062,7 +4013,7 @@
 				"factions": [
 					{
 						"name": "The Fiefdoms",
-						"heroicTier": "Hero of Fortitude"
+						"heroicTier": "Hero of Valour"
 					},
 					{
 						"name": "Defenders of the Pelennor",
@@ -4183,6 +4134,10 @@
 					},
 					{
 						"name": "Men of the West",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Grief of Eomer",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -30964,11 +30919,11 @@
 				"includes": [
 					{
 						"dataSource": "warriors",
-						"name": "Iron Shield"
+						"name": "Iron Shield Bearer"
 					},
 					{
 						"dataSource": "warriors",
-						"name": "Foe Spear"
+						"name": "Foe Spear Wielder"
 					}
 				],
 				"hideStats": true,
@@ -30977,39 +30932,72 @@
 				"wargear": []
 			},
 			{
-				"name": "Iron Shield",
+				"name": "Iron Shield Bearer",
 				"factions": [],
 				"points": 0,
 				"movement": 5,
-				"fight": 0,
-				"shoot": 0,
-				"strength": 0,
-				"defence": 0,
-				"attack": 0,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 9,
+				"attack": 1,
 				"wounds": 1,
-				"courage": 0,
-				"intelligence": 0,
+				"courage": 6,
+				"intelligence": 6,
 				"options": [],
 				"specialRules": [],
-				"wargear": [],
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Khazad-dum"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon",
+					"Iron Shield"
+				],
 				"autoAddOnly": true
 			},
 			{
-				"name": "Foe Spear",
+				"name": "Foe Spear Wielder",
 				"factions": [],
 				"points": 0,
 				"movement": 5,
-				"fight": 0,
-				"shoot": 0,
-				"strength": 0,
-				"defence": 0,
-				"attack": 0,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 1,
 				"wounds": 1,
-				"courage": 0,
-				"intelligence": 0,
+				"courage": 6,
+				"intelligence": 6,
 				"options": [],
 				"specialRules": [],
-				"wargear": [],
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Khazad-dum"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Foe Spear"
+				],
 				"autoAddOnly": true
 			},
 			{
@@ -34089,7 +34077,7 @@
 				"name": "Foe Spear",
 				"type": "Weapon",
 				"tag": "Active",
-				"definition": "This is a  Spear that when supporting a model with an Iron Shield receives a bonus of +1 when rolling To Wound Monsters."
+				"definition": "This is a spear. Additionally, if a model with a Foe Spear is Supporting a model with an Iron Shield, they gain a bonus of +1 To Wound when making Strikes against Monster models."
 			},
 			{
 				"name": "Fiery Lash",
@@ -34107,7 +34095,7 @@
 				"name": "Iron Shield",
 				"type": "Shield",
 				"tag": "Passive",
-				"definition": "A model armed with an Iron Shield cannot be barged or Hurled and is unaffected by the Rend Brutal Power Attack."
+				"definition": "This is a shield that provides a bonus of +3 to a model's Defence rather than the usual +1. Additionally, a model carrying an Iron Shield suffers a -1 penalty to their Duel Rolls, unless they are supported by a model with a Foe Spear."
 			},
 			{
 				"name": "Orcrist",
