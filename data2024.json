@@ -691,6 +691,19 @@
 				]
 			},
 			{
+				"name": "The Fiefdoms",
+				"alignment": "good",
+				"additionalRules": [
+					"Warrior models with one of the following keywords may only be included in your Army if your Army also includes a Hero with the same keyword: Dol Amroth, Lassarnach, Lamedon, Blackroot Vale."
+				],
+				"armyBonuses": [
+					null,
+					"\"For the White City!\"",
+					"Leaders of the Fiefdoms"
+				],
+				"specialRules": []
+			},
+			{
 				"name": "The Beornings",
 				"alignment": "good",
 				"additionalRules": [],
@@ -2582,6 +2595,238 @@
 		],
 		"heroes": [
 			{
+				"name": "Angbor the Fearless",
+				"factions": [
+					{
+						"name": "The Fiefdoms",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 70,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 4,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic March",
+					"Heroic Strike"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor",
+					"Lamedon"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Fearless",
+					"Mighty Blow",
+					"Chief of Lamedon"
+				],
+				"wargear": [
+					"Armour",
+					"Two-handed weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Duinhir, Lord of the Blackroot Vale",
+				"factions": [
+					{
+						"name": "The Fiefdoms",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 65,
+				"movement": 7,
+				"fight": 3,
+				"shoot": 5,
+				"strength": 4,
+				"defence": 4,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 4,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Accuracy",
+					"Heroic Defence"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor",
+					"Blackroot Vale"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Mountain Dwelling",
+					"Sharpshooter",
+					"Go for the eyes!",
+					"Lord of the Blackroot Vale"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Spear",
+					"Bow"
+				],
+				"options": []
+			},
+			{
+				"name": "Captain of Dol Amroth",
+				"factions": [
+					{
+						"name": "The Fiefdoms",
+						"heroictier": "Hero of Fortitude"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroictier": "Hero of Fortitude"
+					},
+					{
+						"name": "Men of the West",
+						"heroictier": "Hero of Fortitude"
+					}
+				],
+				"points": 65,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 6,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic March"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor",
+					"Dol Amroth"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Pride of Dol Amroth"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Shield",
+					"Hand weapon"
+				],
+				"options": [
+					{
+						"name": "Armoured horse and lance",
+						"points": 30,
+						"availableIn": [
+							"The Fiefdoms",
+							"Defenders of the Pelennor"
+						]
+					}
+				]
+			},
+			{
+				"name": "Forlong the Fat",
+				"factions": [
+					{
+						"name": "The Fiefdoms",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 90,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 5,
+				"defence": 5,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 5,
+				"intelligence": 4,
+				"might": 3,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Strength"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor",
+					"Lossarnach"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Lord of Lossarnach"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon",
+					"Spear",
+					"The Horn of Lossarnach"
+				],
+				"options": []
+			},
+			{
 				"name": "Raza, Fang of the Serpent",
 				"factions": [
 					{
@@ -3772,6 +4017,18 @@
 					{
 						"name": "The Grief of Eomer",
 						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "The Fiefdoms",
+						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Men of the West",
+						"heroicTier": "Hero of Legend"
 					}
 				],
 				"points": 160,
@@ -3820,7 +4077,12 @@
 				"options": [
 					{
 						"name": "Armoured horse and lance",
-						"points": 30
+						"points": 30,
+						"availableIn": [
+							"The Grief of Eomer",
+							"The Fiefdoms",
+							"Defenders of the Pelennor"
+						]
 					}
 				]
 			},
@@ -4577,6 +4839,10 @@
 					},
 					{
 						"name": "The Grey Company",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Defenders of the Pelennor",
 						"heroicTier": "Hero of Valour"
 					}
 				],
@@ -9024,6 +9290,121 @@
 						"casting": 4
 					}
 				]
+			},
+			{
+				"name": "Ingold, Warden of the Rammas Echor",
+				"factions": [
+					{
+						"name": "Minas Tirith",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 70,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic Strike"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Shieldwall",
+					"Resolute Fighter"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Shield",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Beregond, Guard of the Citadel",
+				"factions": [
+					{
+						"name": "Minas Tirith",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Atop the Walls",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Men of the West",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 65,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 5,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"heroicActions": [
+					"Heroic Accuracy"
+				],
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Bodyguard",
+					"An Unlikely Friendship"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon",
+					"Longbow"
+				],
+				"options": []
 			},
 			{
 				"name": "Lindir of Rivendell",
@@ -20722,6 +21103,218 @@
 		],
 		"warriors": [
 			{
+				"name": "Blackroot Vale Archer",
+				"factions": [
+					"The Fiefdoms",
+					"Defenders of the Pelennor"
+				],
+				"points": 8,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 3,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 3,
+				"intelligence": 3,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor",
+					"Blackroot Vale"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Mountain Dwelling",
+					"Dead-eye Shot"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Bow"
+				],
+				"options": [
+					{
+						"name": "War Horn",
+						"points": 25,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Spear",
+						"points": 25,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Armoured Horse and Bow",
+						"points": 9,
+						"chooseOneKey": "a"
+					}
+				]
+			},
+			{
+				"name": "Clansman of Lamedon",
+				"factions": [
+					"The Fiefdoms",
+					"Defenders of the Pelennor"
+				],
+				"points": 8,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 3,
+				"intelligence": 3,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor",
+					"Lamedon"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"The Hammer of Lamedon"
+				],
+				"wargear": [
+					"Armour",
+					"Two-handed weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Knight of Dol Amroth",
+				"factions": [
+					"The Fiefdoms",
+					"Defenders of the Pelennor",
+					"Men of the West"
+				],
+				"points": 11,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 6,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 6,
+				"intelligence": 6,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor",
+					"Dol Amroth"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Pride of Dol Amroth"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Shield",
+					"Hand weapon"
+				],
+				"options": [
+					{
+						"name": "Armoured horse and banner",
+						"points": 33,
+						"chooseOneKey": "a",
+						"availableIn": [
+							"The Fiefdoms",
+							"Defenders of the Pelennor"
+						]
+					},
+					{
+						"name": "Armoured horse and war horn",
+						"points": 33,
+						"chooseOneKey": "a",
+						"availableIn": [
+							"The Fiefdoms",
+							"Defenders of the Pelennor"
+						]
+					},
+					{
+						"name": "Banner",
+						"points": 25,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "War horn",
+						"points": 25,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Armoured horse and lance",
+						"points": 9,
+						"chooseOneKey": "a",
+						"availableIn": [
+							"The Fiefdoms",
+							"Defenders of the Pelennor"
+						]
+					}
+				]
+			},
+			{
+				"name": "Axeman of Lossarnach",
+				"factions": [
+					"The Fiefdoms",
+					"Defenders of the Pelennor"
+				],
+				"points": 9,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor",
+					"Lossarnach"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon",
+					"Axe of Lossarnach"
+				],
+				"options": []
+			},
+			{
 				"name": "Black Numenorean Warrior",
 				"factions": [
 					"Army of the Great Eye"
@@ -24439,6 +25032,16 @@
 								"in": "Battle of Fornost"
 							}
 						]
+					},
+					{
+						"all": [
+							{
+								"in": "Halbarad"
+							},
+							{
+								"in": "Defenders of the Pelennor"
+							}
+						]
 					}
 				],
 				"unlimited": true,
@@ -27228,7 +27831,10 @@
 			{
 				"name": "Knight of Dale",
 				"factions": [
-					"Army of Dale"
+					"Army of Dale",
+					"Garrison of Dale",
+					"Erebor & Dale",
+					"Realms of Men"
 				],
 				"points": 11,
 				"movement": 6,
@@ -30015,6 +30621,16 @@
 		],
 		"gear": [
 			{
+				"name": "The Horn of Lossarnach",
+				"tag": "Active",
+				"definition": "This is a Unique war horn. Additionally, once per game at the beginning of his Activation, Forlong may let out a blast on his horn. If he does, then friendly models within 12\" of Forlong count as having the Terror special rule until the end of the turn."
+			},
+			{
+				"name": "Axe of Lossarnach",
+				"tag": "Active",
+				"definition": "An Axe of Lossarnach can be used either as a spear or a two-handed weapon."
+			},
+			{
 				"name": "Smoke Bombs",
 				"tag": "Active",
 				"definition": "These are throwing weapons with a Strength of 1. Any model hit, but not slain, by these weapons must immediately expend a Will Point or suffer the effects of the Transfix Magical Power and have their Fight Value halved until the End Phase of the turn. Should Dalamyr ever roll a 1 To Hit with his Smoke Bombs then his supply has run out and he cannot use them for the remainder of the game."
@@ -32107,6 +32723,51 @@
 			}
 		],
 		"keywords": [
+			{
+				"name": "Go for the eyes!",
+				"tag": "Active",
+				"definition": "Duinhir may re-roll To Hit Rolls when shooting at an enemy Monster model within 12\". Additionally, if Duinhir successfully Wounds a Monster model with a shooting attack (i.e., a Wound is caused and is not prevented), it will roll D3 Wounds rather than 1."
+			},
+			{
+				"name": "Lord of the Blackroot Vale",
+				"tag": "Passive",
+				"definition": "Other friendly Blackroot Vale models within 3\" of Duinhir may re-roll To Hit Rolls of a 1 when making a shooting attack in the Shoot Phase, provided they did not Move in the preceding Move Phase."
+			},
+			{
+				"name": "Dead-eye Shot",
+				"tag": "Active",
+				"definition": "When benefiting from a Heroic Shoot, this model may re-roll failed To Wound Rolls when making shooting attacks."
+			},
+			{
+				"name": "Chief of Lamedon",
+				"tag": "Passive",
+				"definition": "Other friendly Lamedon models within 3\" of Angbor automatically pass any Courage tests they are required to take."
+			},
+			{
+				"name": "The Hammer of Lamedon",
+				"tag": "Passive",
+				"definition": "Whilst within 3\" of a friendly Lamedon Hero model, this model may re-roll any rolls of a natural 1 when making a Duel Roll."
+			},
+			{
+				"name": "Pride of Dol Amroth",
+				"tag": "Active",
+				"definition": "Whilst within 3\" of Prince Imrahil, this model gains a bonus of +1 to their Fight Value."
+			},
+			{
+				"name": "Lord of Lossarnach",
+				"tag": "Passive",
+				"definition": "Other friendly Lossarnach models within 3\" of Forlong the Fat may re-roll To Wound Rolls of a natural 1 when making Strikes."
+			},
+			{
+				"name": "Resolute Fighter",
+				"tag": "Passive",
+				"definition": "Ingold and friendly Gondor Warrior models within 3\" of him do not Back Away if they lose a Combat - their opponent must Back Away instead. It is important to note that models benefitting from this special rule can still be Trapped as normal, and a player should check to see if the model would be Trapped under normal circumstances should their side lose the Combat. If the model would be Trapped then opposing models will apply the effects of being Trapped, such as any of their special rules for making Strikes against a Trapped model, and will still make two To Wound Rolls for each Strike as they would against any other Trapped model."
+			},
+			{
+				"name": "An Unlikely Friendship",
+				"tag": "Active",
+				"definition": "Whilst within 3\" of a friendly Pippin, Beregond may re-roll any failed To Wound Rolls when making Strikes."
+			},
 			{
 				"name": "The Serpent's Weapon",
 				"tag": "Active",
@@ -34421,6 +35082,14 @@
 			}
 		],
 		"armyBonuses": [
+			{
+				"name": "\"For the White City!\"",
+				"definition": "The first turn in which this Army would be Broken and therefore have to have to take Courage Tests as a result of being a Broken Army, all friendly models will automatically pass Courage Tests for being Broken that turn."
+			},
+			{
+				"name": "Leaders of the Fiefdoms",
+				"definition": "If a Friendly Hero Charges into Combat, then during the Fight Phase, friendly Infantry models within 6\" of the Hero that share both of the same Faction Keywords as the Hero gain an additional +1 bonus To Wound when making Strikes."
+			},
 			{
 				"name": "Pride of the Southlands",
 				"definition": "Friendly models gain a bonus of +1 to any Courage Tests they are required to take."
