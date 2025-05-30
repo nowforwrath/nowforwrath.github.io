@@ -21109,6 +21109,18 @@
 					"Defenders of the Pelennor",
 					"Realms of Men"
 				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Gandalf the White"
+							},
+							{
+								"in": "Defenders of the Pelennor"
+							}
+						]
+					}
+				],
 				"points": 8,
 				"movement": 6,
 				"fight": 3,
@@ -21167,6 +21179,18 @@
 					"Defenders of the Pelennor",
 					"Realms of Men"
 				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Gandalf the White"
+							},
+							{
+								"in": "Defenders of the Pelennor"
+							}
+						]
+					}
+				],
 				"points": 8,
 				"movement": 6,
 				"fight": 4,
@@ -21208,6 +21232,18 @@
 					"Men of the West",
 					"The Grief of Eomer",
 					"Realms of Men"
+				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Gandalf the White"
+							},
+							{
+								"in": "Defenders of the Pelennor"
+							}
+						]
+					}
 				],
 				"points": 11,
 				"movement": 6,
@@ -21288,6 +21324,18 @@
 					"Defenders of the Pelennor",
 					"Realms of Men"
 				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Gandalf the White"
+							},
+							{
+								"in": "Defenders of the Pelennor"
+							}
+						]
+					}
+				],
 				"points": 9,
 				"movement": 6,
 				"fight": 4,
@@ -21322,7 +21370,9 @@
 			{
 				"name": "Black Numenorean Warrior",
 				"factions": [
-					"Army of the Great Eye"
+					"Army of the Great Eye",
+					"Barad-dur",
+					"Legions of Mordor"
 				],
 				"points": 10,
 				"movement": 6,
@@ -30011,94 +30061,6 @@
 					"Heavy Armour",
 					"Sword",
 					"Shield"
-				]
-			},
-			{
-				"name": "Axeman of Lossarnach",
-				"factions": [
-					"The Fiefdoms"
-				],
-				"points": 9,
-				"movement": 6,
-				"fight": 4,
-				"shoot": 4,
-				"strength": 3,
-				"defence": 5,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 3,
-				"options": [
-					{
-						"name": "Replace Axe of Lossarnach with Banner",
-						"points": 25
-					}
-				],
-				"specialRules": [],
-				"wargear": [
-					"Heavy Armour",
-					"Axe of Lossarnach",
-					"Dagger"
-				]
-			},
-			{
-				"name": "Clansmen of Lamedon",
-				"factions": [
-					"The Fiefdoms"
-				],
-				"points": 8,
-				"movement": 6,
-				"fight": 4,
-				"shoot": 4,
-				"strength": 3,
-				"defence": 4,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 5,
-				"options": [],
-				"specialRules": [
-					"The Honour of Lamedon"
-				],
-				"wargear": [
-					"Armour",
-					"Broadsword"
-				]
-			},
-			{
-				"name": "Blackroot Vale Archer",
-				"factions": [
-					"The Fiefdoms"
-				],
-				"points": 8,
-				"movement": 6,
-				"fight": 3,
-				"shoot": 3,
-				"strength": 3,
-				"defence": 4,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 2,
-				"options": [
-					{
-						"name": "War Horn",
-						"points": 30
-					},
-					{
-						"name": "Banner",
-						"points": 25
-					},
-					{
-						"name": "Spear",
-						"points": 1
-					}
-				],
-				"specialRules": [
-					"Mountain Dweller",
-					"Dead-eye Shot"
-				],
-				"wargear": [
-					"Armour",
-					"Sword",
-					"Bow"
 				]
 			},
 			{
