@@ -832,9 +832,40 @@
 			{
 				"name": "Battle of Bywater",
 				"alignment": "good",
-				"additionalRules": [],
-				"armyBonuses": [],
-				"specialRules": []
+				"additionalRules": [
+					"A Battle of Bywater Army must include Frodo, Sam, Merry and Pippin. Merry must always be the Army's General.",
+					"Hobbit Militia in Merry's Warband must be upgraded to Battlin' Brandybucks",
+					"Any Hobbit Archers in a Warband led by either Pippin or Paladin must be upgraded to Tookish Hunters"
+				],
+				"armyBonuses": [
+					"Ambush!",
+					"\"Fear! Fire! Foes!\"",
+					"Heroes of the Shire"
+				],
+				"specialRules": [],
+				"requiredChildren": [
+					{
+						"name": "Meriadoc Brandybuck, Captain of the Shire",
+						"points": 60,
+						"mustBeLeader": true,
+						"elementPropertyName": "heroes"
+					},
+					{
+						"name": "Peregrin Took, Captain of the Shire",
+						"points": 60,
+						"elementPropertyName": "heroes"
+					},
+					{
+						"name": "Frodo of the Nine Fingers",
+						"points": 70,
+						"elementPropertyName": "heroes"
+					},
+					{
+						"name": "Samwise the Brave",
+						"points": 60,
+						"elementPropertyName": "heroes"
+					}
+				]
 			},
 			{
 				"name": "The Fellowship",
@@ -3015,6 +3046,10 @@
 					{
 						"name": "Defenders of the Pelennor",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "The Grief of Eomer",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 80,
@@ -3061,7 +3096,7 @@
 				"options": [
 					{
 						"name": "Horse",
-						"points": 30
+						"points": 20
 					}
 				]
 			},
@@ -3121,12 +3156,7 @@
 			},
 			{
 				"name": "Lotho Sackville-Baggins",
-				"factions": [
-					{
-						"name": "Battle of Bywater",
-						"heroicTier": "Hero of Legend"
-					}
-				],
+				"factions": [],
 				"points": 30,
 				"movement": 4,
 				"fight": 2,
@@ -3171,7 +3201,7 @@
 				"factions": [
 					{
 						"name": "Battle of Bywater",
-						"heroicTier": "Hero of Legend"
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 40,
@@ -3220,7 +3250,7 @@
 				"factions": [
 					{
 						"name": "Battle of Bywater",
-						"heroicTier": "Hero of Legend"
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 25,
@@ -3314,7 +3344,7 @@
 				"factions": [
 					{
 						"name": "Battle of Bywater",
-						"heroicTier": "Hero of Legend"
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 70,
@@ -3369,7 +3399,7 @@
 				"factions": [
 					{
 						"name": "Battle of Bywater",
-						"heroicTier": "Hero of Legend"
+						"heroicTier": "Independent Hero"
 					}
 				],
 				"points": 25,
@@ -3416,7 +3446,7 @@
 				"factions": [
 					{
 						"name": "Battle of Bywater",
-						"heroicTier": "Hero of Legend"
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 35,
@@ -3465,7 +3495,7 @@
 				"factions": [
 					{
 						"name": "Battle of Bywater",
-						"heroicTier": "Hero of Legend"
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 40,
@@ -3515,7 +3545,7 @@
 				"factions": [
 					{
 						"name": "Battle of Bywater",
-						"heroicTier": "Hero of Legend"
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 40,
@@ -3564,7 +3594,7 @@
 				"factions": [
 					{
 						"name": "Battle of Bywater",
-						"heroicTier": "Hero of Legend"
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 60,
@@ -3621,7 +3651,7 @@
 				"factions": [
 					{
 						"name": "Battle of Bywater",
-						"heroicTier": "Hero of Legend"
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 60,
@@ -3683,7 +3713,7 @@
 				"factions": [
 					{
 						"name": "Battle of Bywater",
-						"heroicTier": "Hero of Legend"
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 60,
@@ -4298,6 +4328,10 @@
 					},
 					{
 						"name": "Umbar",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Legions of Mordor",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -25746,7 +25780,9 @@
 			},
 			{
 				"name": "Hobbit Archer",
-				"factions": [],
+				"factions": [
+					"Battle of Bywater"
+				],
 				"availableIn": [
 					{
 						"all": [
@@ -25792,10 +25828,31 @@
 				"baseSize": [
 					"25mm"
 				],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "options",
+						"name": "Tookish Hunter",
+						"in": [
+							[
+								"Battle of Bywater",
+								"Peregrin Took, Captain of the Shire"
+							]
+						],
+						"points": 1
+					}
+				],
 				"options": [
 					{
-						"name": "War horn",
-						"points": 25
+						"name": "War Horn",
+						"points": 30
+					},
+					{
+						"name": "Tookish Hunter",
+						"points": 1,
+						"availableIn": [
+							"Paladin Took",
+							"Peregrin Took, Captain of the Shire"
+						]
 					}
 				],
 				"specialRules": [
@@ -31380,7 +31437,10 @@
 			},
 			{
 				"name": "Wood Elf Sentinel",
-				"factions": [],
+				"factions": [
+					"Lothlorien",
+					"Halls of Thranduil"
+				],
 				"points": 25,
 				"movement": 6,
 				"fight": 5,
@@ -32506,27 +32566,6 @@
 				],
 				"wargear": [
 					"Teeth and claws (hand weapons)"
-				]
-			},
-			{
-				"name": "Hobbit Shirriff",
-				"factions": [],
-				"points": 5,
-				"movement": 4,
-				"fight": 3,
-				"shoot": 3,
-				"strength": 2,
-				"defence": 3,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 3,
-				"options": [],
-				"specialRules": [
-					"Resistant to Magic",
-					"Throw Stones (range 8\", Strength 1)"
-				],
-				"wargear": [
-					"Hand-and-a-half club"
 				]
 			}
 		],
@@ -35138,6 +35177,11 @@
 				"definition": "Models with this special rule will have a specific model listed in brackets as part of the special rule. Whilst the named model is alive and on the battlefield, this model automatically passes all Courage Tests it is required to make."
 			},
 			{
+				"name": "Sworn Protector (Theodred)",
+				"tag": "Passive",
+				"definition": "Models with this special rule will have a specific model listed in brackets as part of the special rule. Whilst the named model is alive and on the battlefield, this model automatically passes all Courage Tests it is required to make."
+			},
+			{
 				"name": "Sworn Protector (Theoden)",
 				"tag": "Passive",
 				"definition": "Models with this special rule will have a specific model listed in brackets as part of the special rule. Whilst the named model is alive and on the battlefield, this model automatically passes all Courage Tests it is required to make."
@@ -35201,6 +35245,11 @@
 				"name": "The Age of Men is Over",
 				"tag": "Passive",
 				"definition": "Friendly Mordor Orcs within 3\" of Gothmog gain the Hatred (Man) special rule."
+			},
+			{
+				"name": "Hatred (Hobbit)",
+				"tag": "Active",
+				"definition": "A model with this special rule gains a bonus of +1 To Wound when making Strikes against a model with the same keyword as the one shown in brackets. So, a model with the Hatred (Man) special rule would gain a bonus of +1 To Wound when making Strikes against Man models."
 			},
 			{
 				"name": "Hatred (Rohan)",
@@ -37248,6 +37297,18 @@
 			}
 		],
 		"armyBonuses": [
+			{
+				"name": "Ambush!",
+				"definition": "At the start of the game, before either side has deployed, you may choose a single Warband in your Army that is not led by either Frodo, Sam, Merry or Pippin. The chosen Warband is ambushing and does not arrive as normal. Instead, at the end of the Move Phase on the third turn (after both sides have moved all their models), the ambushing Warband must choose one of the following:\n                • Move onto the board from any board edge via the rules for Reinforcements.\n                • Deploy in, or within 1\" of, a wood, building, rocky outcrop or other similar piece of terrain that Hobbits could hide in. A degree of common sense is required when deciding which pieces of terrain Hobbits can hide in – they shouldn't be leaping out of a river or from behind a single rock! You should always agree with your opponent at the beginning of the game which terrain pieces are eligible for Hobbits to ambush from. Models deployed in this way cannot be placed in base contact with, or within the Control Zones of, enemy models. Models that enter the board in this way do not Activate as part of the Move Phase, and will count as having Moved half their Move Value for the purposes of Shooting."
+			},
+			{
+				"name": "\"Fear! Fire! Foes!\"",
+				"definition": "Friendly Hobbit models gain the Woodland Creature and Mountain Dweller special rules."
+			},
+			{
+				"name": "Heroes of the Shire",
+				"definition": "Friendly Hobbit Hero models may benefit from the Stand Fast of either Merry or Pippin."
+			},
 			{
 				"name": "The Scorpion's Sting",
 				"definition": "Friendly models with the Poisoned Attacks (bow) special rule exchange it for Poisoned Attacks on all of their weapons."
