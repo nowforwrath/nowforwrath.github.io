@@ -577,7 +577,27 @@
 				"armyBonuses": [
 					"Pride of the Southlands"
 				],
-				"specialRules": []
+				"specialRules": [],
+				"childMatchesRequired": [
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "faction",
+						"value": "Easterling",
+						"childElementPropertyName": "warriors"
+					},
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "faction",
+						"value": "Corsair",
+						"childElementPropertyName": "warriors"
+					},
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "faction",
+						"value": "Harad",
+						"childElementPropertyName": "warriors"
+					}
+				]
 			},
 			{
 				"name": "Umbar",
@@ -704,6 +724,14 @@
 						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
+				],
+				"childMatchesRequired": [
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "race",
+						"value": "Hobbit",
+						"childElementPropertyName": "warriors"
+					}
 				]
 			},
 			{
@@ -732,7 +760,15 @@
 					"The Heirs to the Kingdoms",
 					"Royal Bloodlines"
 				],
-				"specialRules": []
+				"specialRules": [],
+				"childMatchesRequired": [
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "faction",
+						"value": "Dale",
+						"childElementPropertyName": "warriors"
+					}
+				]
 			},
 			{
 				"name": "Army of Erebor",
@@ -805,6 +841,20 @@
 						"points": 110,
 						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
+					}
+				],
+				"childMatchesRequired": [
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "faction",
+						"value": "Rohan",
+						"childElementPropertyName": "warriors"
+					},
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "faction",
+						"value": "Gondor",
+						"childElementPropertyName": "warriors"
 					}
 				]
 			},
