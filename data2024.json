@@ -2869,6 +2869,157 @@
 		],
 		"heroes": [
 			{
+				"name": "Black Númenórean Marshal",
+				"factions": [
+					{
+						"name": "Barad-dur",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Legions of Mordor",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Umbar",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 70,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 6,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Shield",
+					"Hand weapon"
+				],
+				"heroicActions": [
+					"Heroic March"
+				],
+				"specialRules": [
+					"Terror",
+					"Visage of Terror"
+				],
+				"options": [
+					{
+						"name": "Armoured horse",
+						"points": 25
+					},
+					{
+						"name": "Lance",
+						"points": 5
+					}
+				]
+			},
+			{
+				"name": "Mordor Orc Shaman",
+				"factions": [
+					{
+						"name": "Barad-dur",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Legions of Mordor",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Army of Gothmog",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Minas Morgul",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Cirith Ungol",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "The Black Gate",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"points": 50,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 5,
+				"strength": 3,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 7,
+				"intelligence": 7,
+				"might": 1,
+				"will": 3,
+				"fate": 1,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon",
+					"Spear"
+				],
+				"heroicActions": [
+					"Heroic Channelling"
+				],
+				"magicalPowers": [
+					{
+						"name": "Fury (Mordor Orc)",
+						"range": 0,
+						"castingValue": 3
+					},
+					{
+						"name": "Curse",
+						"range": 12,
+						"castingValue": 4
+					},
+					{
+						"name": "Transfix",
+						"range": 12,
+						"castingValue": 5
+					}
+				],
+				"options": [
+					{
+						"name": "Warg",
+						"points": 20
+					}
+				]
+			},
+			{
 				"name": "Isengard Orc Shaman",
 				"factions": [
 					{
@@ -18094,7 +18245,12 @@
 					{
 						"name": "Troll Brute",
 						"points": 100,
-						"addsModels": 1
+						"addsModels": 1,
+						"availableIn": [
+							"Erebor Reclaimed",
+							"Defenders of Erebor",
+							"The Battle of Five Armies"
+						]
 					}
 				],
 				"specialRules": [
