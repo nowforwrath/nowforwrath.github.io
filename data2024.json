@@ -674,6 +674,33 @@
 				"specialRules": []
 			},
 			{
+				"name": "Sharkey's Rogues",
+				"alignment": "evil",
+				"additionalRules": [
+					"A Sharkey's Rogues Army must always contain Sharkey, who is always the Army's General",
+					"Hobbit Warrior models can only be included in the Warband of a Hobbit Hero.",
+					"This Army may include Warbands of 10-12 Ruffians without a Hero to lead them. In these Warbands, nominate a single Warrior model to count as the Warband's Captain for the purpose of deployment. These Warabnds may only be included after all other available Hero models have been included in the Army."
+				],
+				"armyBonuses": [
+					"\"You do what Sharkey says!\"",
+					"Strength in Numbers",
+					"The Wizard's Command",
+					"Sharkey's Wrath",
+					"The Chief's Whips"
+				],
+				"specialRules": [
+					"Hatred (Hobbit)"
+				],
+				"requiredChildren": [
+					{
+						"name": "Sharkey & Worm",
+						"points": 60,
+						"mustBeLeader": true,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
 				"name": "Army of the Great Eye",
 				"alignment": "evil",
 				"additionalRules": [
@@ -681,6 +708,36 @@
 				],
 				"armyBonuses": [
 					"The Great Eye"
+				],
+				"specialRules": []
+			},
+			{
+				"name": "Defenders of Erebor",
+				"alignment": "good",
+				"additionalRules": [
+					"A Defenders of Erebor Army must always include at least one Unique Erebor Hero, and at least one Unique Dale Hero.",
+					"Erebor Warrior models can only be included in the Warband of a Erebor Hero.",
+					"Dale Warrior models can only be included in the Warband of a Dale Hero.",
+					"Any model with the Iron Hills keyword replace it with the Erebor keyword."
+				],
+				"armyBonuses": [
+					"Long-standing Alliance",
+					"A Bond Forged in War",
+					"The Heirs to the Kingdoms",
+					"Royal Bloodlines"
+				],
+				"specialRules": []
+			},
+			{
+				"name": "Army of Erebor",
+				"alignment": "good",
+				"additionalRules": [
+					"Friendly Dwarf models gain the Erebor keyword."
+				],
+				"armyBonuses": [
+					"Wall of Steel",
+					"\"For Erebor!\"",
+					"Like Father, Like Son"
 				],
 				"specialRules": []
 			},
@@ -695,7 +752,9 @@
 					"The Stubbornness of Dwarves",
 					"Dwarven Mirrors"
 				],
-				"specialRules": []
+				"specialRules": [
+					"Dominant (2)"
+				]
 			},
 			{
 				"name": "Army of Dale",
@@ -2716,10 +2775,445 @@
 		],
 		"heroes": [
 			{
+				"name": "Bill Ferny",
+				"factions": [
+					{
+						"name": "Sharkey's Rogues",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 40,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 4,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 7,
+				"intelligence": 7,
+				"might": 1,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Ruffian"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"wargear": [
+					"Hand weapon",
+					"Whip"
+				],
+				"heroicActions": [
+					"Heroic Challenge"
+				],
+				"specialRules": [
+					"Hatred (Hobbit)",
+					"Put 'em in chains!",
+					"Sharkey's Spy"
+				],
+				"options": []
+			},
+			{
+				"name": "Sid Briarthorn",
+				"factions": [
+					{
+						"name": "Sharkey's Rogues",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 50,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 4,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 7,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Ruffian"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"wargear": [
+					"Hand weapon",
+					"Whip"
+				],
+				"heroicActions": [
+					"Heroic Strength"
+				],
+				"specialRules": [
+					"Terror (Hobbit)",
+					"Brawler",
+					"With me, lads!",
+					"Put 'em in chains!"
+				],
+				"options": []
+			},
+			{
+				"name": "Rowan Thistlewood",
+				"factions": [
+					{
+						"name": "Sharkey's Rogues",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 45,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 4,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 7,
+				"intelligence": 8,
+				"might": 1,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Ruffian"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"wargear": [
+					"Hand weapon"
+				],
+				"heroicActions": [
+					"Heroic March"
+				],
+				"specialRules": [
+					"Put 'em in chains!",
+					"Let 'em have it!",
+					"Burn it down!"
+				],
+				"options": []
+			},
+			{
+				"name": "Sharkey & Worm",
+				"factions": [
+					{
+						"name": "Sharkey's Rogues",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 60,
+				"hideStats": true,
+				"heroicActions": [],
+				"includes": [
+					{
+						"dataSource": "heroes",
+						"name": "Sharkey"
+					},
+					{
+						"dataSource": "heroes",
+						"name": "Worm"
+					}
+				],
+				"options": [],
+				"specialRules": [],
+				"increaseMaximumChildren": {
+					"warriors": -1
+				}
+			},
+			{
+				"name": "Worm",
+				"factions": [],
+				"points": 0,
+				"autoAddOnly": true,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 8,
+				"intelligence": 8,
+				"might": 0,
+				"will": 0,
+				"fate": 0,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Isengard"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"wargear": [
+					"Hand weapon"
+				],
+				"specialRules": [
+					"Stalk Unseen",
+					"Broken Loyalties",
+					"When He Sneaks"
+				],
+				"options": []
+			},
+			{
+				"name": "Sharkey",
+				"factions": [],
+				"autoAddOnly": true,
+				"points": 0,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 3,
+				"might": 2,
+				"will": 4,
+				"fate": 1,
+				"race": [
+					"Wizard"
+				],
+				"faction": [
+					"Isengard"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"wargear": [
+					"Hand weapon",
+					"Two-handed weapon"
+				],
+				"heroicActions": [
+					"Heroic Channelling"
+				],
+				"specialRules": [
+					"Hatred (Hobbit)",
+					"Whoever strikes me shall be accursed"
+				],
+				"magicalPowers": [
+					{
+						"name": "Compel",
+						"range": 12,
+						"castingValue": 3
+					},
+					{
+						"name": "Terrifying Aura",
+						"range": 0,
+						"castingValue": 3
+					},
+					{
+						"name": "Transfix",
+						"range": 12,
+						"castingValue": 3
+					}
+				],
+				"options": []
+			},
+			{
+				"name": "Ted Sandyman",
+				"points": 30,
+				"movement": 4,
+				"factions": [
+					{
+						"name": "Sharkey's Rogues",
+						"heroicTier": "Hero of ValoFortitudeur"
+					}
+				],
+				"fight": 2,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 7,
+				"intelligence": 7,
+				"might": 1,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"wargear": [
+					"Hand weapon"
+				],
+				"specialRules": [
+					"Resistant to Magic",
+					"Throw Stones (range 8\", Strength 1)",
+					"A Bad Influence"
+				],
+				"options": []
+			},
+			{
+				"name": "Dáin Ironfoot, King Under the Mountain",
+				"factions": [
+					{
+						"name": "Army of Erebor",
+						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Defenders of Erebor",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 130,
+				"movement": 5,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 8,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 3,
+				"intelligence": 4,
+				"might": 3,
+				"will": 3,
+				"fate": 1,
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Resolve",
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Fearless",
+					"Venerable",
+					"King Under the Mountain"
+				],
+				"wargear": [
+					"Heavy Dwarf armour",
+					"Barazantathûl"
+				],
+				"options": []
+			},
+			{
+				"name": "Thorin III Stonehelm",
+				"factions": [
+					{
+						"name": "Army of Erebor",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Defenders of Erebor",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 110,
+				"movement": 5,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 9,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 3,
+				"will": 3,
+				"fate": 3,
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Erebor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Cool-headed"
+				],
+				"wargear": [
+					"Heavy Dwarf armour",
+					"Shield",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
 				"name": "Bard II, Prince of Dale",
 				"factions": [
 					{
 						"name": "Army of Dale",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Erebor Reclaimed",
 						"heroicTier": "Hero of Valour"
 					}
 				],
@@ -3215,6 +3709,10 @@
 					{
 						"name": "The Shire",
 						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Sharkey's Rogues",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 30,
@@ -4190,6 +4688,10 @@
 					{
 						"name": "The Grief of Eomer",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Realms of Men",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 65,
@@ -4558,6 +5060,10 @@
 				"factions": [
 					{
 						"name": "Army of Dale",
+						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Defenders of Erebor",
 						"heroicTier": "Hero of Legend"
 					}
 				],
@@ -5498,7 +6004,10 @@
 					"Moria"
 				],
 				"unitType": [
-					"Monster"
+					"Hero",
+					"Infantry",
+					"Monster",
+					"Beast"
 				],
 				"baseSize": [
 					"100mm"
@@ -12773,6 +13282,10 @@
 					{
 						"name": "The Grey Company",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Army of Erebor",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 100,
@@ -15316,6 +15829,10 @@
 					{
 						"name": "Army of Thror",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Army of Erebor",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 85,
@@ -15556,6 +16073,10 @@
 					{
 						"name": "The Battle of Five Armies",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of Erebor",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 75,
@@ -15663,6 +16184,10 @@
 					},
 					{
 						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of Erebor",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -15912,6 +16437,10 @@
 					},
 					{
 						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of Erebor",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -16471,6 +17000,10 @@
 					{
 						"name": "Assault on Ravenhill",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Army of Erebor",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 110,
@@ -16901,6 +17434,10 @@
 					{
 						"name": "The Battle of Five Armies",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of Erebor",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 65,
@@ -17006,6 +17543,10 @@
 					},
 					{
 						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of Erebor",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -19324,6 +19865,9 @@
 				"unitType": [
 					"Small Siege Engine"
 				],
+				"keywords": [
+					"Siege Weapon"
+				],
 				"includes": [
 					{
 						"name": "Minas Tirith Siege Veteran",
@@ -19917,6 +20461,14 @@
 					{
 						"name": "Erebor Reclaimed",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Defenders of Erebor",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of Erebor",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -20123,22 +20675,32 @@
 						"heroicTier": "Minor Hero"
 					}
 				],
+				"includes": [
+					{
+						"name": "Dwarf Siege Veteran",
+						"dataSource": "heroes"
+					}
+				],
 				"unlimited": true,
 				"points": 70,
 				"movement": 0,
 				"fight": 0,
 				"shoot": 0,
-				"strength": 0,
-				"defence": 0,
+				"strength": 9,
+				"defence": 10,
 				"attack": 0,
-				"wounds": 0,
+				"wounds": 3,
 				"courage": 0,
 				"might": 0,
 				"will": 0,
 				"fate": 0,
 				"heroicActions": [],
-				"range": [],
-				"baseSize": [],
+				"range": [
+					"6\"-48\""
+				],
+				"baseSize": [
+					"40mm"
+				],
 				"increaseMaximumChildren": {
 					"warriors": -4
 				},
@@ -20146,8 +20708,22 @@
 					"Siege Weapon"
 				],
 				"options": [],
-				"specialRules": [],
-				"wargear": []
+				"specialRules": [
+					"Direct Shot",
+					"Accurate",
+					"Piercing Shot"
+				],
+				"wargear": [],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "warriors",
+						"name": "Dwarf Siege Crew",
+						"quantity": 2,
+						"points": 0,
+						"hideFromPrint": true,
+						"lockedChildren": true
+					}
+				]
 			},
 			{
 				"name": "Iron Hills Ballista",
@@ -22679,6 +23255,44 @@
 				]
 			},
 			{
+				"name": "Dwarf Siege Veteran",
+				"factions": [],
+				"autoAddOnly": true,
+				"unavailableSolo": true,
+				"points": 0,
+				"movement": 5,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 6,
+				"intelligence": 6,
+				"will": 1,
+				"might": 1,
+				"fate": 1,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Iron Hills"
+				],
+				"unitType": [
+					"Infantry",
+					"Hero"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"options": [],
+				"specialRules": [],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon"
+				]
+			},
+			{
 				"name": "Mordor Orc Siege Veteran",
 				"factions": [],
 				"autoAddOnly": true,
@@ -22756,6 +23370,52 @@
 			}
 		],
 		"warriors": [
+			{
+				"name": "Ruffian",
+				"points": 5,
+				"movement": 6,
+				"factions": [
+					"Sharkey's Rogues"
+				],
+				"fight": 2,
+				"shoot": 5,
+				"strength": 3,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Ruffian"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"wargear": [
+					"Hand weapon"
+				],
+				"specialRules": [
+					"Put 'em in chains!",
+					"At 'em, Lads!"
+				],
+				"options": [
+					{
+						"name": "Bow",
+						"points": 1
+					},
+					{
+						"name": "Whip",
+						"points": 1
+					}
+				]
+			},
 			{
 				"name": "Serpent Rider",
 				"factions": [
@@ -29822,7 +30482,8 @@
 					"The Iron Hills",
 					"Erebor Reclaimed",
 					"Defenders of Erebor",
-					"The Battle of Five Armies"
+					"The Battle of Five Armies",
+					"Army of Erebor"
 				],
 				"points": 10,
 				"movement": 5,
@@ -29887,7 +30548,8 @@
 				"factions": [
 					"The Iron Hills",
 					"Defenders of Erebor",
-					"The Battle of Five Armies"
+					"The Battle of Five Armies",
+					"Army of Erebor"
 				],
 				"points": 20,
 				"movement": 5,
@@ -29941,12 +30603,62 @@
 				"defence": 6,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 6,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"The Iron Hills"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
 					"Heavy Armour",
-					"Sword"
+					"Hand weapon"
+				]
+			},
+			{
+				"name": "Dwarf Siege Crew",
+				"factions": [
+					"The Iron Hills"
+				],
+				"autoAddOnly": true,
+				"points": 0,
+				"movement": 5,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 6,
+				"intelligence": 6,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Khazad-dum"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"options": [],
+				"specialRules": [],
+				"wargear": [
+					"Heavy Armour",
+					"Hand weapon"
 				]
 			},
 			{
@@ -30214,7 +30926,8 @@
 					"Army of Dale",
 					"Garrison of Dale",
 					"Erebor & Dale",
-					"Realms of Men"
+					"Realms of Men",
+					"Defenders of Erebor"
 				],
 				"points": 11,
 				"movement": 6,
@@ -32861,6 +33574,11 @@
 		],
 		"gear": [
 			{
+				"name": "Barazantathûl",
+				"tag": "Active",
+				"definition": "This is a Unique Master-forged two-handed weapon."
+			},
+			{
 				"name": "Battlin' Brandybuck",
 				"modifiesStats": [
 					{
@@ -35033,6 +35751,76 @@
 		],
 		"keywords": [
 			{
+				"name": "Sharkey's Spy",
+				"tag": "Passive",
+				"definition": "At the beginning of the game, after both sides have deployed, Bill Ferny may choose one enemy Hero in your opponent's Army. Whilst Bill Ferny is within 12\" of, and has Line of Sight to, the chosen Hero, whenever the chosen Hero declares a Heroic Action they must roll a D6. On a 1-2, the Heroic Action is immediately cancelled and the Might Point is not spent. The chosen Hero may not then attempt to declare the same Heroic Action again that turn."
+			},
+			{
+				"name": "Brawler",
+				"tag": "Active",
+				"definition": "If he is outnumbered in a Combat, then Sid may re-roll any rolls of a natural 1 in his Duel Roll. Additionally, Sid can never count as Unarmed."
+			},
+			{
+				"name": "With me, lads!",
+				"tag": "Passive",
+				"definition": "Other friendly Ruffian models treat Sid as a banner."
+			},
+			{
+				"name": "Put 'em in chains!",
+				"tag": "Active",
+				"definition": "If this model wins a Combat, then instead of making Strikes they may choose a single enemy Hobbit model they were Engaged in Combat with and roll a D6. If the score is higher than the chosen model's Strength then the chosen model is put in chains and suffers the effects of the Paralyse Magical Power; however, the effects will not immediately end should this model have no Will Points or be slain."
+			},
+			{
+				"name": "Let 'em have it!",
+				"tag": "Active",
+				"definition": "At the start of the Fight Phase, during the Declare Heroic Actions step, Rowan may declare a Heroic Combat for free. If he does, and the Heroic Combat is successful, Rowan must use the ensuing Move to Charge an enemy Hobbit Hero model. If Rowan cannot Charge an enemy Hobbit Hero with this Move, then he cannot use this special rule."
+			},
+			{
+				"name": "Burn it down!",
+				"tag": "Active",
+				"definition": "Once per game, if Rowan ends his Move within 1\" of a single building or a single piece of Woodland Terrain and is not Engaged in Combat, then he can try to set it alight; roll a D6. On a 3+, the selected terrain piece is set on fire. Any model that is within, or in base contact with, the terrain piece during the End Phase of any turn in which it is on fire must roll a D6. On a 4+, the model is immediately Set Ablaze."
+			},
+			{
+				"name": "Broken Loyalties",
+				"tag": "Passive",
+				"definition": "If at the beginning of any turn Sharkey has been reduced to 1 Wound and has no Fate Points remaining, Worm immediately becomes an enemy model for the remainder of the game. Additionally, after this condition has been met, if when Worm Activates he can Charge Sharkey then he must do so. If Sharkey is slain, then at the beginning of the next turn, Worm reverts back to being a friendly model."
+			},
+			{
+				"name": "When He Sneaks",
+				"tag": "Active",
+				"definition": "Before making a Duel Roll for Worm, check to see if any enemy models, with the exception of any models he is Engaged in Combat with, can see him. If no other enemy models can see him, then Worm increases his Fight Value to 4 and his Attacks to 3 for the duration of the Combat."
+			},
+			{
+				"name": "Whoever strikes me shall be accursed",
+				"tag": "Passive",
+				"definition": "After a model has resolved all of its Strikes against Sharkey during a Combat, they must take a Courage Test. If the Courage Test is failed, the model immediately suffers a single Strength 4 hit."
+			},
+			{
+				"name": "A Bad Influence",
+				"tag": "Passive",
+				"definition": "Ted Sandyman may only include Hobbit models in his Warband. Additionally, friendly Hobbit models within 3\" of Ted Sandyman gain a bonus of +1 To Wound when making Strikes."
+			},
+			{
+				"name": "At 'em, Lads!",
+				"tag": "Active",
+				"definition": "Whilst Engaged in Combat with an enemy Hobbit model, this model gains a bonus of +1 to their Fight Value."
+			},
+			{
+				"name": "Venerable",
+				"tag": "Passive",
+				"definition": "Whenever Dáin has to take a Jump, Climb or Leap Test, he rolls two D6 and chooses the lowest result."
+			},
+			{
+				"name": "King Under the Mountain",
+				"tag": "Active",
+				"definition": "Dáin's Stand Fast will cover the entire battlefield, regardless of range. Additionally, friendly Erebor Dwarf Hero models may benefit from Dáin's Stand Fast."
+			},
+			{
+				"name": "Cool-headed",
+				"tag": "Active",
+				"definition": "Whenever Thorin declares a Heroic Action, roll a D6. On a 5+, the Heroic Action is free and no Might Points are spent. Additionally, if Thorin declares a Heroic Action and an enemy model subsequently declares a Heroic Action, Thorin may choose to change the type of Heroic Action he has declared if he wishes."
+			},
+			{
 				"name": "For Théoden!",
 				"tag": "Active",
 				"definition": "During the Declare Heroic Actions step of the Fight Phase, if Théoden is Engaged in Combat and is within 6\" of Déorwine, then Déorwine may declare a free Heroic Combat. If this Heroic Combat is successful, then Déorwine must use the following Move to join Théoden's Combat. If this is not possible, then Déorwine must Move as close as possible to Théoden. Déorwine cannot use this special rule if he is in the same Combat as Théoden."
@@ -35720,7 +36508,7 @@
 			},
 			{
 				"name": "Piercing Shot",
-				"definition": "A model that is hit by the shot of a Corsair Ballista will be flung back D6\" directly away from the Ballista if it has a Strength of 5 or lower. Any model that is passed over by the flung model suffers a Strength 5 hit and will be knocked Prone. If the flung model comes into contact with a piece of impassable terrain or a model with a Strenght of 6 or higher, then it will stop and both the flung model and the model or piece of terrain that was hit will suffer one Strength 6 hit. After being flung back, the flung model will be knocked Prone if they survive. If after the model is flung back it would finish over other models and it has survived, then move the other models the minimum distance possible to allow the flung model to be placed where it has landed."
+				"definition": "A model that is hit by the shot of this model will be flung back D6\" directly away from the Ballista if it has a Strength of 5 or lower. Any model that is passed over by the flung model suffers a Strength 5 hit and will be knocked Prone. If the flung model comes into contact with a piece of impassable terrain or a model with a Strength of 6 or higher, then it will stop and both the flung model and the model or piece of terrain that was hit will suffer one Strength 6 hit. After being flung back, the flung model will be knocked Prone if they survive. If after the model is flung back it would finish over other models and it has survived, then move the other models the minimum distance possible to allow the flung model to be placed where it has landed."
 			},
 			{
 				"name": "Piercing Shot (Windlance)",
@@ -35906,10 +36694,6 @@
 				"name": "Wall of Blades",
 				"tag": "Active",
 				"definition": "This model gains a bonus of +1 To Wound when making Strikes with their spear against a model that Charged them this turn."
-			},
-			{
-				"name": "Accurate",
-				"definition": "An Iron Hills Ballista will only Scatter 3\" rather than 6\"."
 			},
 			{
 				"name": "Blades of the Dead",
@@ -37605,6 +38389,34 @@
 			}
 		],
 		"armyBonuses": [
+			{
+				"name": "Long-standing Alliance",
+				"definition": "Friendly Dale models within 1\" of a friendly Erebor model may re-roll To Wound Rolls of a natural 1 when making Strikes. Friendly Erebor models within 1\" of a friendly Dale model may re-roll To Wound Rolls of a natural 1 when making Strikes."
+			},
+			{
+				"name": "A Bond Forged in War",
+				"definition": "At the beginning of the Fight Phase, at the start of the Declare Heroic Actions step, if either Dáin or Brand would be considered Trapped then the other may declare a Heroic Combat for free. If this Heroic Combat is successful, then Dáin or Brand must use the following Move to join the other's Combat. If this is not possible, then Dáin or Brand must Move as close as possible to the other. A model cannot use this special rule if they are in the same Combat as the other."
+			},
+			{
+				"name": "The Heirs to the Kingdoms",
+				"definition": "At the beginning of the Fight Phase, at the start of the Declare Heroic Actions step, if either Thorin or Bard would be considered Trapped then the other may declare a Heroic Combat for free. If this Heroic Combat is successful, then Thorin or Bard must use the following Move to join the other's Combat. If this is not possible, then Thorin or Bard must Move as close as possible to the other. A model cannot use this special rule if they are in the same Combat as the other."
+			},
+			{
+				"name": "Royal Bloodlines",
+				"definition": "Friendly models treat each of Dáin, Thorin, Brand and Bard as a banner."
+			},
+			{
+				"name": "Wall of Steel",
+				"definition": "Friendly models that are Supporting gain a bonus of +1 To Wound when making Strikes."
+			},
+			{
+				"name": "For Erebor!",
+				"definition": "Each friendly Hero model may, once per game, declare a Heroic Combat for free."
+			},
+			{
+				"name": "Like Father, Like Son",
+				"definition": "Whilst within 3\" of each other, Gimli and Glóin may re-roll any failed To Wound Rolls when making Strikes."
+			},
 			{
 				"name": "Ambush!",
 				"definition": "At the start of the game, before either side has deployed, you may choose a single Warband in your Army that is not led by either Frodo, Sam, Merry or Pippin. The chosen Warband is ambushing and does not arrive as normal. Instead, at the end of the Move Phase on the third turn (after both sides have moved all their models), the ambushing Warband must choose one of the following:\n                • Move onto the board from any board edge via the rules for Reinforcements.\n                • Deploy in, or within 1\" of, a wood, building, rocky outcrop or other similar piece of terrain that Hobbits could hide in. A degree of common sense is required when deciding which pieces of terrain Hobbits can hide in – they shouldn't be leaping out of a river or from behind a single rock! You should always agree with your opponent at the beginning of the game which terrain pieces are eligible for Hobbits to ambush from. Models deployed in this way cannot be placed in base contact with, or within the Control Zones of, enemy models. Models that enter the board in this way do not Activate as part of the Move Phase, and will count as having Moved half their Move Value for the purposes of Shooting."
