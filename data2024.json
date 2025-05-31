@@ -2882,6 +2882,10 @@
 					{
 						"name": "Umbar",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of the Great Eye",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 70,
@@ -21222,6 +21226,80 @@
 						"elementPropertyName": "warriors",
 						"name": "Mordor Troll (Catapult)",
 						"quantity": 1,
+						"points": 0,
+						"lockedChildren": true
+					}
+				]
+			},
+			{
+				"name": "Mordor Siege Bow",
+				"factions": [
+					{
+						"name": "Legions of Mordor",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Army of Gothmog",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Barad-Dur",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Army of the Great Eye",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"includes": [
+					{
+						"dataSource": "heroes",
+						"name": "Mordor Orc Siege Veteran"
+					}
+				],
+				"increaseMaximumChildren": {
+					"warriors": -4
+				},
+				"unlimited": true,
+				"points": 50,
+				"movement": 0,
+				"fight": 0,
+				"shoot": 0,
+				"strength": 8,
+				"defence": 10,
+				"attack": 0,
+				"wounds": 4,
+				"courage": 0,
+				"might": 0,
+				"will": 0,
+				"fate": 0,
+				"heroicActions": [],
+				"range": [
+					"6\"-48\""
+				],
+				"baseSize": [
+					"40mm"
+				],
+				"keywords": [
+					"Siege Engine"
+				],
+				"options": [
+					{
+						"name": "Flaming Ammunition",
+						"points": 10
+					}
+				],
+				"specialRules": [
+					"Direct Shot",
+					"Accurate",
+					"Piercing Shot"
+				],
+				"wargear": [],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "warriors",
+						"name": "Mordor Orc Siege Crew",
+						"quantity": 2,
 						"points": 0,
 						"lockedChildren": true
 					}
