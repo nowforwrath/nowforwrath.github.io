@@ -23847,8 +23847,18 @@
 			},
 			{
 				"name": "Bat Swarm",
-				"factions": [
-					"Moria"
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Drúzhag the Beastcaller"
+							},
+							{
+								"in": "Moria"
+							}
+						]
+					}
 				],
 				"points": 35,
 				"movement": 12,
@@ -31627,8 +31637,19 @@
 					"Azog's Hunters",
 					"Pits of Dol Guldur",
 					"Rise of the Necromancer",
-					"Wolf Pack of Angmar",
-					"Moria"
+					"Wolf Pack of Angmar"
+				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Drúzhag the Beastcaller"
+							},
+							{
+								"in": "Moria"
+							}
+						]
+					}
 				],
 				"points": 8,
 				"movement": 10,
@@ -33230,8 +33251,19 @@
 				"name": "Mirkwood Hunting Spider",
 				"factions": [
 					"Pits of Dol Guldur",
-					"Rise of the Necromancer",
-					"Moria"
+					"Rise of the Necromancer"
+				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Drúzhag the Beastcaller"
+							},
+							{
+								"in": "Moria"
+							}
+						]
+					}
 				],
 				"points": 20,
 				"movement": 10,
