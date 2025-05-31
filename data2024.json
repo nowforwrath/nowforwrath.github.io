@@ -13149,6 +13149,10 @@
 					{
 						"name": "Realms of Men",
 						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Army of Dale",
+						"heroicTier": "Minor Hero"
 					}
 				],
 				"unlimited": true,
@@ -22746,6 +22750,10 @@
 					{
 						"name": "The Shire",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Battle of Bywater",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 50,
@@ -22816,6 +22824,10 @@
 					{
 						"name": "The Shire",
 						"heroicTier": "Independent Hero"
+					},
+					{
+						"name": "Battle of Bywater",
+						"heroicTier": "Independent Hero"
 					}
 				],
 				"points": 20,
@@ -22862,6 +22874,10 @@
 				"factions": [
 					{
 						"name": "The Shire",
+						"heroicTier": "Independent Hero"
+					},
+					{
+						"name": "Battle of Bywater",
 						"heroicTier": "Independent Hero"
 					}
 				],
@@ -22910,6 +22926,10 @@
 				"factions": [
 					{
 						"name": "The Shire",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Battle of Bywater",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -32583,32 +32603,6 @@
 				"wargear": [
 					"Heavy Armour",
 					"Pike"
-				]
-			},
-			{
-				"name": "Wood Elf Sentinel",
-				"factions": [
-					"Lothlorien",
-					"Halls of Thranduil"
-				],
-				"points": 25,
-				"movement": 6,
-				"fight": 5,
-				"shoot": 3,
-				"strength": 3,
-				"defence": 3,
-				"attack": 2,
-				"wounds": 1,
-				"courage": 5,
-				"options": [],
-				"specialRules": [
-					"Woodland Creature",
-					"Enchanting Song"
-				],
-				"wargear": [
-					"Elf Bow",
-					"Elven Cloak",
-					"Elven-made Sword"
 				]
 			},
 			{
