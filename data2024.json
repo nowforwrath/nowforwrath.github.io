@@ -5051,6 +5051,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
+				"unlimited": true,
 				"points": 80,
 				"movement": 6,
 				"fight": 5,
@@ -5298,7 +5299,7 @@
 				"factions": [
 					{
 						"name": "Corsair Fleets",
-						"heroicTier": "Hero of Valour"
+						"heroicTier": "Hero of Legend"
 					},
 					{
 						"name": "Grand Army of the South",
@@ -23959,7 +23960,8 @@
 				"name": "Corsair Crossbowman",
 				"factions": [
 					"Umbar",
-					"Corsair Fleets"
+					"Corsair Fleets",
+					"Grand Army of the South"
 				],
 				"points": 10,
 				"movement": 6,
@@ -24374,7 +24376,9 @@
 						"chooseOneKey": "a",
 						"availableIn": [
 							"The Fiefdoms",
-							"Defenders of the Pelennor"
+							"Defenders of the Pelennor",
+							"The Grief of Eomer",
+							"Realms of Men"
 						]
 					},
 					{
@@ -24383,7 +24387,9 @@
 						"chooseOneKey": "a",
 						"availableIn": [
 							"The Fiefdoms",
-							"Defenders of the Pelennor"
+							"Defenders of the Pelennor",
+							"The Grief of Eomer",
+							"Realms of Men"
 						]
 					},
 					{
@@ -24402,7 +24408,9 @@
 						"chooseOneKey": "a",
 						"availableIn": [
 							"The Fiefdoms",
-							"Defenders of the Pelennor"
+							"Defenders of the Pelennor",
+							"The Grief of Eomer",
+							"Realms of Men"
 						]
 					}
 				]
