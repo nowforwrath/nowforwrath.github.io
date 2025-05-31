@@ -5059,6 +5059,10 @@
 					{
 						"name": "The Serpent Horde",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Legions of Mordor",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 75,
