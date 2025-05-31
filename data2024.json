@@ -817,9 +817,47 @@
 			{
 				"name": "Paths of the Druadan",
 				"alignment": "good",
-				"additionalRules": [],
-				"armyBonuses": [],
-				"specialRules": []
+				"additionalRules": [
+					"A Paths of the Drúadan Army must always contain Ghân-buri-Ghân, who is always the Army's General.",
+					"A Paths of the Druadan Army must always contain Ghan-buri-Ghan and a Warband of at least 12 Woses Warriors",
+					"Riders of Rohan do not count towards this Army's bow limit."
+				],
+				"armyBonuses": [
+					"Know All Paths",
+					"Kill Orc-folk",
+					"Waypoints"
+				],
+				"specialRules": [],
+				"requiredChildren": [
+					{
+						"name": "Theoden, King of Rohan",
+						"points": 75,
+						"elementPropertyName": "heroes",
+						"mustBeLeader": true,
+						"requiredChildren": [
+							{
+								"name": "Exchange armour for heavy armour",
+								"elementPropertyName": "options",
+								"points": 5
+							},
+							{
+								"name": "Shield",
+								"elementPropertyName": "options",
+								"points": 5
+							},
+							{
+								"name": "Snowmane with armour",
+								"points": 35,
+								"elementPropertyName": "options"
+							}
+						]
+					},
+					{
+						"name": "Ghan-buri-Ghan",
+						"points": 85,
+						"elementPropertyName": "heroes"
+					}
+				]
 			},
 			{
 				"name": "Fords of Isen",
@@ -3274,6 +3312,10 @@
 					{
 						"name": "Defenders of the Pelennor",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Paths of the Druadan",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 70,
@@ -3314,6 +3356,18 @@
 					"Sworn Protector (Théoden)",
 					"For Théoden!"
 				],
+				"requiredChildren": [
+					{
+						"name": "Horse",
+						"points": 20,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Paths of the Druadan"
+							]
+						]
+					}
+				],
 				"wargear": [
 					"Heavy armour",
 					"Shield",
@@ -3343,6 +3397,10 @@
 					},
 					{
 						"name": "Fords of Isen",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Paths of the Druadan",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -3377,6 +3435,18 @@
 				],
 				"baseSize": [
 					"25mm"
+				],
+				"requiredChildren": [
+					{
+						"name": "Horse",
+						"points": 20,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Paths of the Druadan"
+							]
+						]
+					}
 				],
 				"specialRules": [
 					"Expert Rider",
@@ -4509,7 +4579,12 @@
 			},
 			{
 				"name": "Ghan-buri-Ghan",
-				"factions": [],
+				"factions": [
+					{
+						"name": "Paths of the Druadan",
+						"heroicTier": "Hero of Valour"
+					}
+				],
 				"points": 65,
 				"movement": 6,
 				"fight": 4,
@@ -8181,6 +8256,10 @@
 					{
 						"name": "Defenders of the Pelennor",
 						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Paths of the Druadan",
+						"heroicTier": "Hero of Legend"
 					}
 				],
 				"points": 75,
@@ -8257,7 +8336,8 @@
 							"Kingdom of Rohan",
 							"Ride Out",
 							"Defenders of the Pelennor",
-							"Riders of Theoden"
+							"Riders of Theoden",
+							"Paths of the Druadan"
 						]
 					},
 					{
@@ -8278,7 +8358,8 @@
 							"Ride Out",
 							"Defenders of the Pelennor",
 							"Riders of Theoden",
-							"Defenders of Helm's Deep"
+							"Defenders of Helm's Deep",
+							"Paths of the Druadan"
 						]
 					},
 					{
@@ -8289,7 +8370,8 @@
 							"Ride Out",
 							"Defenders of the Pelennor",
 							"Riders of Theoden",
-							"Defenders of Helm's Deep"
+							"Defenders of Helm's Deep",
+							"Paths of the Druadan"
 						]
 					}
 				],
@@ -8403,6 +8485,10 @@
 					{
 						"name": "The Grief of Eomer",
 						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Paths of the Druadan",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 110,
@@ -8447,6 +8533,9 @@
 							],
 							[
 								"Riders of Theoden"
+							],
+							[
+								"Paths of the Druadan"
 							]
 						]
 					},
@@ -8513,6 +8602,10 @@
 					{
 						"name": "Riders of Theoden",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Paths of the Druadan",
+						"heroicTier": "Independent Hero"
 					}
 				],
 				"points": 60,
@@ -8558,6 +8651,9 @@
 							],
 							[
 								"Riders of Theoden"
+							],
+							[
+								"Paths of the Druadan"
 							]
 						]
 					},
@@ -8571,6 +8667,9 @@
 							],
 							[
 								"Riders of Theoden"
+							],
+							[
+								"Paths of the Druadan"
 							]
 						]
 					},
@@ -8585,6 +8684,9 @@
 							],
 							[
 								"Riders of Theoden"
+							],
+							[
+								"Paths of the Druadan"
 							]
 						]
 					}
@@ -8601,7 +8703,8 @@
 						"unlockedBy": "Horse",
 						"availableIn": [
 							"Riders of Theoden",
-							"Defenders of the Pelennor"
+							"Defenders of the Pelennor",
+							"Paths of the Druadan"
 						]
 					},
 					{
@@ -8767,6 +8870,9 @@
 							],
 							[
 								"Riders of Theoden"
+							],
+							[
+								"Paths of the Druadan"
 							]
 						]
 					}
@@ -8779,7 +8885,8 @@
 							"Defenders of Helm's Deep",
 							"Kingdom of Rohan",
 							"Defenders of the Pelennor",
-							"Riders of Theoden"
+							"Riders of Theoden",
+							"Paths of the Druadan"
 						],
 						"points": 40
 					},
@@ -8792,7 +8899,8 @@
 							"Road to Helm's Deep",
 							"Rohan",
 							"Riders of Theoden",
-							"Defenders of the Pelennor"
+							"Defenders of the Pelennor",
+							"Paths of the Druadan"
 						]
 					}
 				],
@@ -8922,6 +9030,10 @@
 					{
 						"name": "Fords of Isen",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Paths of the Druadan",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -8974,6 +9086,9 @@
 							],
 							[
 								"Riders of Theoden"
+							],
+							[
+								"Paths of the Druadan"
 							]
 						]
 					}
@@ -8995,7 +9110,8 @@
 							"Defenders of the Pelennor",
 							"Realms of Men",
 							"The Grief of Eomer",
-							"Fords of Isen"
+							"Fords of Isen",
+							"Paths of the Druadan"
 						]
 					},
 					{
@@ -9019,7 +9135,8 @@
 							"Defenders of the Pelennor",
 							"Riders of Theoden",
 							"The Grief of Eomer",
-							"Fords of Isen"
+							"Fords of Isen",
+							"Paths of the Druadan"
 						]
 					}
 				],
@@ -23519,9 +23636,6 @@
 				"wounds": 1,
 				"courage": 7,
 				"intelligence": 7,
-				"might": 0,
-				"will": 0,
-				"fate": 0,
 				"heroicActions": [],
 				"race": [
 					"Hobbit"
@@ -23562,9 +23676,6 @@
 				"wounds": 1,
 				"courage": 7,
 				"intelligence": 7,
-				"might": 0,
-				"will": 0,
-				"fate": 0,
 				"heroicActions": [],
 				"race": [
 					"Hobbit"
@@ -26755,7 +26866,7 @@
 				"options": [
 					{
 						"name": "War Horn",
-						"points": 30
+						"points": 25
 					},
 					{
 						"name": "Tookish Hunter",
@@ -27040,7 +27151,9 @@
 			},
 			{
 				"name": "Rohirrim Traitor",
-				"factions": [],
+				"factions": [
+					"Realms of Men"
+				],
 				"availableIn": [
 					{
 						"all": [
@@ -28427,7 +28540,8 @@
 					"Defenders of the Pelennor",
 					"Realms of Men",
 					"The Grief of Eomer",
-					"Fords of Isen"
+					"Fords of Isen",
+					"Paths of the Druadan"
 				],
 				"points": 14,
 				"movement": 6,
@@ -28552,6 +28666,16 @@
 					{
 						"all": [
 							{
+								"in": "Theoden, King of Rohan"
+							},
+							{
+								"in": "Paths of the Druadan"
+							}
+						]
+					},
+					{
+						"all": [
+							{
 								"in": "Gamling, Captain of Rohan"
 							},
 							{
@@ -28582,6 +28706,16 @@
 					{
 						"all": [
 							{
+								"in": "Gamling, Captain of Rohan"
+							},
+							{
+								"in": "Paths of the Druadan"
+							}
+						]
+					},
+					{
+						"all": [
+							{
 								"in": "Hama, Captain of Rohan"
 							},
 							{
@@ -28606,6 +28740,16 @@
 							},
 							{
 								"in": "Kingdom of Rohan"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Eomer, Marshal of the Riddermark"
+							},
+							{
+								"in": "Paths of the Druadan"
 							}
 						]
 					},
@@ -28780,6 +28924,9 @@
 							],
 							[
 								"Defenders of the Pelennor"
+							],
+							[
+								"Paths of the Druadan"
 							]
 						],
 						"points": 5
@@ -28797,7 +28944,8 @@
 							"Defenders of the Pelennor",
 							"Riders of Theoden",
 							"Realms of Men",
-							"Fords of Isen"
+							"Fords of Isen",
+							"Paths of the Druadan"
 						],
 						"chooseOneKey": "a"
 					},
@@ -38389,6 +38537,18 @@
 			}
 		],
 		"armyBonuses": [
+			{
+				"name": "Know All Paths",
+				"definition": "If during the Declare Heroic Actions step of a Move Phase, both sides have declared a Heroic Move and a roll-off is required to see which side's Heroic Move happens first, this Army will gain a bonus to that roll. If they would normally win the roll-off on a 4+, they will instead win it on a 3+. If they would normally win the roll-off on a 1, 2, or 3, they will instead win the roll-off on a 1, 2, 3, or 4."
+			},
+			{
+				"name": "Kill Orc-folk",
+				"definition": "Friendly models may re-roll To Wound Rolls of a natural 1 when making Strikes against Orc, Goblin, or Uruk-hai models."
+			},
+			{
+				"name": "Waypoints",
+				"definition": "At the start of the game, after both sides have been deployed, you may place up to three 25mm Waypoint Markers anywhere on the battlefield. Whilst within 6\" of a friendly Waypoint Marker, friendly Rohan models don't suffer penalties for Moving, or Charging, through Difficult Terrain."
+			},
 			{
 				"name": "Long-standing Alliance",
 				"definition": "Friendly Dale models within 1\" of a friendly Erebor model may re-roll To Wound Rolls of a natural 1 when making Strikes. Friendly Erebor models within 1\" of a friendly Dale model may re-roll To Wound Rolls of a natural 1 when making Strikes."
