@@ -671,7 +671,9 @@
 					"Skittering Warriors",
 					"Durburz's Will"
 				],
-				"specialRules": []
+				"specialRules": [
+					"Mountain Dweller"
+				]
 			},
 			{
 				"name": "Sharkey's Rogues",
@@ -818,7 +820,7 @@
 				"name": "Paths of the Druadan",
 				"alignment": "good",
 				"additionalRules": [
-					"A Paths of the Drúadan Army must always contain Ghân-buri-Ghân, who is always the Army's General.",
+					"A Paths of the Drúadan Army must always contain Theoden, who is always the Army's General.",
 					"A Paths of the Druadan Army must always contain Ghan-buri-Ghan and a Warband of at least 12 Woses Warriors",
 					"Riders of Rohan do not count towards this Army's bow limit."
 				],
@@ -2812,6 +2814,109 @@
 			}
 		],
 		"heroes": [
+			{
+				"name": "Fredegar `Fatty` Bolger",
+				"factions": [
+					{
+						"name": "Battle of Bywater",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "The Shire",
+						"heroicTier": "Independent Hero"
+					}
+				],
+				"points": 10,
+				"movement": 4,
+				"fight": 2,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 7,
+				"intelligence": 8,
+				"might": 0,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"wargear": [
+					"Unarmed"
+				],
+				"specialRules": [
+					"Dominant (2)",
+					"Resistant to Magic",
+					"Throw Stones (range 8\", Strength 1)",
+					"Live to fight another day"
+				],
+				"options": []
+			},
+			{
+				"name": "Paladin Took, Thain of the Shire",
+				"factions": [
+					{
+						"name": "Battle of Bywater",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Shire",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 30,
+				"movement": 4,
+				"fight": 2,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 6,
+				"might": 1,
+				"will": 1,
+				"fate": 2,
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"wargear": [
+					"Hand weapon"
+				],
+				"heroicActions": [
+					"Heroic Accuracy"
+				],
+				"specialRules": [
+					"Resistant to Magic",
+					"Throw Stones (range 8\", Strength 1)",
+					"To me, Shire-folk!",
+					"For Tuckborough!"
+				],
+				"options": []
+			},
 			{
 				"name": "Bill Ferny",
 				"factions": [
@@ -26878,6 +26983,10 @@
 							[
 								"Battle of Bywater",
 								"Peregrin Took, Captain of the Shire"
+							],
+							[
+								"Battle of Bywater",
+								"Paladin Took, Thain of the Shire"
 							]
 						],
 						"points": 1
@@ -26892,7 +27001,7 @@
 						"name": "Tookish Hunter",
 						"points": 1,
 						"availableIn": [
-							"Paladin Took",
+							"Paladin Took, Thain of the Shire",
 							"Peregrin Took, Captain of the Shire"
 						]
 					}
@@ -28614,6 +28723,12 @@
 					{
 						"in": [
 							"Kingdom of Rohan"
+						],
+						"type": "bow"
+					},
+					{
+						"in": [
+							"Paths of the Druadan"
 						],
 						"type": "bow"
 					},
@@ -35893,6 +36008,21 @@
 		],
 		"keywords": [
 			{
+				"name": "Live to fight another day",
+				"tag": "Active",
+				"definition": "If Fredegar attempts to Charge an enemy model with the Terror special rule and fails the Courage Test, then Fredegar may still Move as normal; however, he may not Charge any model that turn."
+			},
+			{
+				"name": "To me, Shire-folk!",
+				"tag": "Active",
+				"definition": "Paladin's Stand Fast has a range of 12\"; however, only friendly Hobbit models may benefit from Paladin's Stand Fast."
+			},
+			{
+				"name": "For Tuckborough!",
+				"tag": "Passive",
+				"definition": "Friendly Tookish Hunters within 6\" of Paladin gain a bonus of +1 To Wound when making Strikes."
+			},
+			{
 				"name": "Sharkey's Spy",
 				"tag": "Passive",
 				"definition": "At the beginning of the game, after both sides have deployed, Bill Ferny may choose one enemy Hero in your opponent's Army. Whilst Bill Ferny is within 12\" of, and has Line of Sight to, the chosen Hero, whenever the chosen Hero declares a Heroic Action they must roll a D6. On a 1-2, the Heroic Action is immediately cancelled and the Might Point is not spent. The chosen Hero may not then attempt to declare the same Heroic Action again that turn."
@@ -36541,6 +36671,21 @@
 			},
 			{
 				"name": "Hatred (Goblin)(Orc)(Uruk-Hai)",
+				"tag": "Active",
+				"definition": "A model with this special rule gains a bonus of +1 To Wound when making Strikes against a model with the same keyword as the one shown in brackets. So, a model with the Hatred (Man) special rule would gain a bonus of +1 To Wound when making Strikes against Man models."
+			},
+			{
+				"name": "Hatred (Goblin)",
+				"tag": "Active",
+				"definition": "A model with this special rule gains a bonus of +1 To Wound when making Strikes against a model with the same keyword as the one shown in brackets. So, a model with the Hatred (Man) special rule would gain a bonus of +1 To Wound when making Strikes against Man models."
+			},
+			{
+				"name": "Hatred (Orc)",
+				"tag": "Active",
+				"definition": "A model with this special rule gains a bonus of +1 To Wound when making Strikes against a model with the same keyword as the one shown in brackets. So, a model with the Hatred (Man) special rule would gain a bonus of +1 To Wound when making Strikes against Man models."
+			},
+			{
+				"name": "Hatred (Uruk-hai)",
 				"tag": "Active",
 				"definition": "A model with this special rule gains a bonus of +1 To Wound when making Strikes against a model with the same keyword as the one shown in brackets. So, a model with the Hatred (Man) special rule would gain a bonus of +1 To Wound when making Strikes against Man models."
 			},
