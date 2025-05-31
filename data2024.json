@@ -3584,6 +3584,7 @@
 					}
 				],
 				"points": 45,
+				"unlimited": true,
 				"movement": 5,
 				"fight": 3,
 				"shoot": 5,
@@ -4875,6 +4876,7 @@
 					}
 				],
 				"points": 65,
+				"unlimited": true,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
@@ -20359,56 +20361,6 @@
 				"wargear": [
 					"Armour",
 					"Hand weapon"
-				]
-			},
-			{
-				"name": "Moria Goblin Shaman",
-				"factions": [
-					{
-						"name": "Depths of Moria",
-						"heroicTier": "Minor Hero"
-					},
-					{
-						"name": "Moria",
-						"heroicTier": "Minor Hero"
-					}
-				],
-				"unlimited": true,
-				"points": 45,
-				"movement": 5,
-				"fight": 2,
-				"shoot": 5,
-				"strength": 3,
-				"defence": 4,
-				"attack": 1,
-				"wounds": 2,
-				"courage": 3,
-				"might": 1,
-				"will": 3,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Channeling"
-				],
-				"options": [],
-				"specialRules": [
-					"Cave Dweller"
-				],
-				"wargear": [
-					"Armour",
-					"Spear"
-				],
-				"magicalPowers": [
-					{
-						"name": "Transfix",
-						"range": 12,
-						"casting": 5
-					},
-					{
-						"name": "Fury (Moria Goblin)",
-						"usesDefinition": "Fury",
-						"range": 0,
-						"casting": 3
-					}
 				]
 			},
 			{
