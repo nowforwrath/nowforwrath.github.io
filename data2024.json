@@ -2819,6 +2819,65 @@
 		],
 		"heroes": [
 			{
+				"name": "Haradrim Taskmaster",
+				"factions": [
+					{
+						"name": "The Serpent Horde",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Legions of Mordor",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Harad",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Grand Army of the South",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 45,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 4,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 3,
+				"intelligence": 3,
+				"might": 1,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Harad"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Whip"
+				],
+				"heroicActions": [
+					"Heroic March"
+				],
+				"specialRules": [
+					"Whips of the Master"
+				],
+				"options": []
+			},
+			{
 				"name": "Fredegar `Fatty` Bolger",
 				"factions": [
 					{
@@ -20902,7 +20961,7 @@
 					{
 						"elementPropertyName": "warriors",
 						"name": "Dwarf Siege Crew",
-						"quantity": 2,
+						"quantity": 1,
 						"points": 0,
 						"hideFromPrint": true,
 						"lockedChildren": true
@@ -23570,6 +23629,64 @@
 			}
 		],
 		"warriors": [
+			{
+				"name": "Haradrim Raider",
+				"factions": [
+					"The Serpent Horde",
+					"Legions of Mordor",
+					"Harad",
+					"Grand Army of the South"
+				],
+				"points": 11,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Harad"
+				],
+				"unitType": [
+					"Warrior",
+					"Cavalry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Horse"
+				],
+				"specialRules": [
+					"Poisoned Attacks (bow)"
+				],
+				"options": [
+					{
+						"name": "Banner",
+						"points": 25
+					},
+					{
+						"name": "Bow & war spear",
+						"points": 2
+					},
+					{
+						"name": "Bow",
+						"points": 1
+					},
+					{
+						"name": "War spear",
+						"points": 1
+					}
+				]
+			},
 			{
 				"name": "Ruffian",
 				"points": 5,
@@ -36018,6 +36135,11 @@
 			}
 		],
 		"keywords": [
+			{
+				"name": "Whips of the Master",
+				"tag": "Active",
+				"definition": "Standing behind allied lines, Taskmasters will bellow out commands and use their whips to drive their followers into battle.\n        \n        Whenever a friendly Hero model within 6\" declares a Heroic Move, Heroic March or Heroic Shoot, roll a D6. On a 4+, the Hero does not spend the Might Point and the Heroic Action is free."
+			},
 			{
 				"name": "Sing a Jolly Song (Tom)",
 				"tag": "Active",
