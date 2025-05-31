@@ -23675,19 +23675,23 @@
 				"options": [
 					{
 						"name": "Banner",
-						"points": 25
+						"points": 25,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Bow & war spear",
-						"points": 2
+						"points": 2,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Bow",
-						"points": 1
+						"points": 1,
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "War spear",
-						"points": 1
+						"points": 1,
+						"requireChooseOneKey": "a"
 					}
 				]
 			},
