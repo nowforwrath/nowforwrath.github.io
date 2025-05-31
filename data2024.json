@@ -7048,7 +7048,7 @@
 					},
 					{
 						"name": "Defenders of the Pelennor",
-						"heroicTier": "Hero of Valour"
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 70,
@@ -33827,6 +33827,11 @@
 		],
 		"gear": [
 			{
+				"name": "Swift Reload",
+				"tag": "Active",
+				"definition": "When firing the Gondor Avenger Bolt Thrower, you may roll two dice and pick the highest result when determining how many shots it may make."
+			},
+			{
 				"name": "Barazantathûl",
 				"tag": "Active",
 				"definition": "This is a Unique Master-forged two-handed weapon."
@@ -36272,11 +36277,6 @@
 				"name": "Tom is Master",
 				"tag": "Passive",
 				"definition": "Tom Bombadil treats all kinds of terrain as Open Ground and always treats the result of any Climb, Leap, Jump and Swim Tests as a 6. Tom cannot be targeted by any abilities, special rules, Magical Powers, Brutal Power Attacks or shooting attacks, either friendly or enemy. This means that any Magical Powers that would target Tom will automatically be resisted, even if they would target multiple models. If Tom is hit by a missile weapon as a result of a failed In The Way Test, the shot will automatically disappear and have no effect. Tom Bombadil does not have a Control Zone. Enemy models cannot Move into base contact with Tom for any reason, unless Tom's controlling player explicitly allows it. If a model would be forced into base contact with Tom, then they will stop just before moving into base contact. Tom may Charge enemy models as normal, and his side will automatically win any Combat that Tom is involved in; however, when they do, friendly models may not make Strikes in that Combat. Tom Bombadil may never carry Objectives under any circumstances, and may never be chosen in Scenarios that require a player to choose a specific Hero model."
-			},
-			{
-				"name": "Swift Reload",
-				"tag": "Active",
-				"definition": "When firing the Gondor Avenger Bolt Thrower, you may roll two dice and pick the highest result when determining how many shots it may make."
 			},
 			{
 				"name": "Rapid Fire (Bolt Thrower)",
