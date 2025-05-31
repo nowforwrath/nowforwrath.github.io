@@ -3576,11 +3576,11 @@
 				"factions": [
 					{
 						"name": "Moria",
-						"heroicTier": "Hero of Fortitude"
+						"heroicTier": "Minor Hero"
 					},
 					{
 						"name": "Depths of Moria",
-						"heroicTier": "Hero of Fortitude"
+						"heroicTier": "Minor Hero"
 					}
 				],
 				"points": 45,
