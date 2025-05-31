@@ -20949,7 +20949,7 @@
 					"40mm"
 				],
 				"increaseMaximumChildren": {
-					"warriors": -4
+					"warriors": -5
 				},
 				"keywords": [
 					"Siege Weapon"
@@ -35065,6 +35065,11 @@
 			},
 			{
 				"name": "Horse, Elf bow and Elven lance",
+				"type": "bow",
+				"definition": "24\" Range, 3 Strength"
+			},
+			{
+				"name": "Bow & war spear",
 				"type": "bow",
 				"definition": "24\" Range, 3 Strength"
 			},
