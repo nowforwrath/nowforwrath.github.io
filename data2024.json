@@ -602,7 +602,11 @@
 					"A Serpent Horde Army must always contain Suladan, who is always the Army's General",
 					"A Serpent Horde Army may have up to 50% of its Warrior models aremed with bows rather than the usual 33%"
 				],
-				"armyBonuses": [],
+				"armyBonuses": [
+					"The Scorpion's Sting",
+					"Suladan's Bodyguard",
+					"Lethal Toxins"
+				],
 				"specialRules": [],
 				"requiredChildren": [
 					{
@@ -3358,6 +3362,10 @@
 					{
 						"name": "Erebor Reclaimed",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Defenders of Erebor",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 100,
@@ -4066,7 +4074,7 @@
 				],
 				"specialRules": [
 					"River-daughter",
-					"Sing a Jolly Song"
+					"Sing a Jolly Song (Goldberry)"
 				],
 				"wargear": [
 					"Unarmed"
@@ -4676,7 +4684,9 @@
 					"25mm"
 				],
 				"specialRules": [
-					"Tom is Master"
+					"Tom is Master",
+					"Sing a Jolly Song (Tom)",
+					"Tom has his house to mind"
 				],
 				"wargear": [
 					"Unarmed"
@@ -5150,8 +5160,8 @@
 				],
 				"options": [
 					{
-						"name": "Horse",
-						"points": 20,
+						"name": "Horses",
+						"points": 40,
 						"availableIn": [
 							"Rivendell"
 						]
@@ -5219,15 +5229,7 @@
 				"race": [
 					"Elf"
 				],
-				"options": [
-					{
-						"name": "Horse",
-						"points": 20,
-						"availableIn": [
-							"Rivendell"
-						]
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Woodland Creature",
 					"Unbreakable Bond (Elrohir)",
@@ -7241,7 +7243,7 @@
 					"Heroic Strike"
 				],
 				"race": [
-					"Man"
+					"Elf"
 				],
 				"faction": [
 					"Rivendell"
@@ -11996,7 +11998,8 @@
 							"Road to Helm's Deep",
 							"The Fellowship",
 							"Breaking of the Fellowship",
-							"Road to Rivendell"
+							"Road to Rivendell",
+							"The Grey Company"
 						]
 					},
 					{
@@ -12005,7 +12008,8 @@
 						"availableIn": [
 							"Road to Helm's Deep",
 							"Return of the King",
-							"Defenders of the Pelennor"
+							"Defenders of the Pelennor",
+							"The Grey Company"
 						]
 					},
 					{
@@ -23959,7 +23963,6 @@
 			{
 				"name": "Corsair Crossbowman",
 				"factions": [
-					"Umbar",
 					"Corsair Fleets",
 					"Grand Army of the South"
 				],
@@ -35924,6 +35927,16 @@
 				"definition": "This Magical Power targets the caster. Friendly models within 6\" of the caster who have the same keywords as those shown in brackets will automatically pass any Courage Tests they are required to take."
 			},
 			{
+				"name": "Fury (Moria Goblin)",
+				"duration": "Exhaustion",
+				"definition": "This Magical Power targets the caster. Friendly models within 6\" of the caster who have the same keywords as those shown in brackets will automatically pass any Courage Tests they are required to take."
+			},
+			{
+				"name": "Fury (Beast)",
+				"duration": "Exhaustion",
+				"definition": "This Magical Power targets the caster. Friendly models within 6\" of the caster who have the same keywords as those shown in brackets will automatically pass any Courage Tests they are required to take."
+			},
+			{
 				"name": "Instill Fear",
 				"duration": "Temporary",
 				"definition": "This Magical Power targets the caster. Enemy models within 6\" of the caster are considered to have the Fearful special rule."
@@ -36000,6 +36013,16 @@
 			}
 		],
 		"keywords": [
+			{
+				"name": "Sing a Jolly Song (Tom)",
+				"tag": "Active",
+				"definition": "At any point during his Activation, Tom may spend a Will Point to sing one of the songs listed below to gain the relevant effect. Tom may sing any number of these songs during his Activation, and may sing each of these songs as many times as he wishes during his Activation unless otherwise stated. Every time Tom sings a song it will cost him a Will Point.\n        \n        • \"Hey! Come Merry Dol!\" - Choose a friendly model within 6\" of Tom Bombadil. The chosen model immediately regains a single Wound lost earlier in the battle. A model may only be chosen by this song once per turn.\n        \n        • \"Hop along, my hearties!\" - Until the end of the turn, friendly models that begin their Activation within 6\" of Tom Bombadil may add 3\" to their Move Value and will treat all areas of Difficult Terrain as Open Ground.\n        \n        • \"Wake now my merry lads!\" - Choose a friendly model within 6\" of Tom Bombadil. The chosen model immediately recovers from the effects of any enemy Magical Powers currently cast upon them. Additionally, until the end of the turn, the chosen model cannot be chosen as the target of any enemy Magical Powers or special rules.\n        \n        • \"Ring a dong dillo!\" - Until the end of the turn, friendly models within 6\" of Tom Bombadil automatically pass any Courage Tests they are required to take.\n        \n        • \"Get out, you old Wight!\" - Choose an enemy Spirit model within 6\" of Tom Bombadil. The chosen model immediately suffers a Wound. This song may only be sung once per turn."
+			},
+			{
+				"name": "Tom has his house to mind",
+				"tag": "Passive",
+				"definition": "Tom Bombadil must give up a Will Point during the End Phase of any turn in which he was Engaged in Combat. Should Tom be reduced to 0 Will Points, or if there are no friendly models on the board other than himself and/or Goldberry, then he will simply wander off back to his homestead. Remove Tom Bombadil as a casualty."
+			},
 			{
 				"name": "Live to fight another day",
 				"tag": "Active",
@@ -36176,7 +36199,7 @@
 				"definition": "Goldberry treats all kinds of terrain as Open Ground and always treats the result of any Climb, Leap, Jump and Swim Tests as a 6. Goldberry cannot be targeted by any abilities, special rules, Magical Powers, Brutal Power Attacks or shooting attacks, either friendly or enemy. This means that any Magical Powers that would target Goldberry will automatically be resisted, even if they would target multiple models. If Goldberry is hit by a missile weapon as a result of a failed In The Way Test, the shot will automatically disappear and have no effect. Goldberry does not have a Control Zone. Enemy models cannot Move into base contact with Goldberry for any reason, unless Goldberry's controlling player explicitly allows it. If a model would be forced into base contact with Goldberry, then they will stop just before moving into base contact. Goldberry may Charge enemy models as normal, and her side will automatically win any Combat that Goldberry is involved in; however, when they do, friendly models may not make Strikes in that Combat. Goldberry may never carry Objectives under any circumstances and may never be chosen in Scenarios that require a player to choose a specific Hero model."
 			},
 			{
-				"name": "Sing a Jolly Song",
+				"name": "Sing a Jolly Song (Goldberry)",
 				"tag": "Active",
 				"definition": "At any point during her Activation, Goldberry may spend a Will Point to sing one of the following songs, with the relevant effect. Goldberry may sing any number of different songs during her Activation, and may sing the same songs as many times as she wishes in a game (unless otherwise specified). Each song sung will cost her a Will Point:\n        \n        • \"Supper is Ready\" - This song may only be sung by Goldberry. The target friendly model regains 1 Wound lost earlier in the battle, chosen by this song's controlling player.\n        • \"Have Peace Now\" - Enemy models within 6\" of Goldberry may not declare Heroic Actions during their phase. This song may only be sung once per turn, and may only be sung by Goldberry.\n        • \"Heed no Nightly Noises\" - Enemy models within 6\" of Goldberry and any friendly model chosen by this song's controlling player are not required to take Courage tests. Additionally, an enemy model within 6\" suffers a -1 to their Fight Value by this song. This song may only be sung once per turn, and may only be sung by Goldberry."
 			},
