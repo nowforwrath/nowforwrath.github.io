@@ -2869,6 +2869,169 @@
 		],
 		"heroes": [
 			{
+				"name": "Isengard Orc Shaman",
+				"factions": [
+					{
+						"name": "Army of the White Hand",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Ugluk's Scouts",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Wolves of Isengard",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"points": 50,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 5,
+				"strength": 3,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 7,
+				"intelligence": 7,
+				"might": 1,
+				"will": 3,
+				"fate": 1,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Isengard"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon",
+					"Spear"
+				],
+				"heroicActions": [
+					"Heroic Channelling"
+				],
+				"magicalPowers": [
+					{
+						"name": "Fury (Isengard Orc)",
+						"range": 0,
+						"castingValue": 3
+					},
+					{
+						"name": "Enrage Beast",
+						"range": 6,
+						"castingValue": 4
+					},
+					{
+						"name": "Transfix",
+						"range": 12,
+						"castingValue": 5
+					}
+				],
+				"requiredChildren": [
+					{
+						"name": "Warg",
+						"points": 20,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Wolves of Isengard"
+							]
+						]
+					}
+				],
+				"options": [
+					{
+						"name": "Warg",
+						"points": 20,
+						"availableIn": [
+							"Army of the White Hand",
+							"Wolves of Isengard"
+						]
+					}
+				]
+			},
+			{
+				"name": "Uruk-hai Shaman",
+				"factions": [
+					{
+						"name": "Army of the White Hand",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Muster of Isengard",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Assault Upon Helm's Deep",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"points": 55,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 1,
+				"will": 3,
+				"fate": 1,
+				"race": [
+					"Uruk-hai"
+				],
+				"faction": [
+					"Isengard"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"wargear": [
+					"Hand weapon",
+					"Spear"
+				],
+				"heroicActions": [
+					"Heroic Channelling"
+				],
+				"magicalPowers": [
+					{
+						"name": "Fury (Isengard Uruk-hai)",
+						"range": 0,
+						"castingValue": 3
+					},
+					{
+						"name": "Bladewrath",
+						"range": 6,
+						"castingValue": 4
+					},
+					{
+						"name": "Transfix",
+						"range": 12,
+						"castingValue": 5
+					}
+				],
+				"options": [
+					{
+						"name": "Armour",
+						"points": 5
+					}
+				]
+			},
+			{
 				"name": "Haradrim Taskmaster",
 				"factions": [
 					{
@@ -36113,6 +36276,16 @@
 			},
 			{
 				"name": "Fury (Moria Goblin)",
+				"duration": "Exhaustion",
+				"definition": "This Magical Power targets the caster. Friendly models within 6\" of the caster who have the same keywords as those shown in brackets will automatically pass any Courage Tests they are required to take."
+			},
+			{
+				"name": "Fury (Isengard Orc)",
+				"duration": "Exhaustion",
+				"definition": "This Magical Power targets the caster. Friendly models within 6\" of the caster who have the same keywords as those shown in brackets will automatically pass any Courage Tests they are required to take."
+			},
+			{
+				"name": "Fury (Isengard Uruk-hai)",
 				"duration": "Exhaustion",
 				"definition": "This Magical Power targets the caster. Friendly models within 6\" of the caster who have the same keywords as those shown in brackets will automatically pass any Courage Tests they are required to take."
 			},
