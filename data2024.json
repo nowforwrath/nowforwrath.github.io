@@ -2872,7 +2872,7 @@
 				"name": "Black Númenórean Marshal",
 				"factions": [
 					{
-						"name": "Barad-dur",
+						"name": "Barad-Dur",
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
@@ -2941,7 +2941,7 @@
 				"name": "Mordor Orc Shaman",
 				"factions": [
 					{
-						"name": "Barad-dur",
+						"name": "Barad-Dur",
 						"heroicTier": "Minor Hero"
 					},
 					{
