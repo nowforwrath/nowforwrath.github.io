@@ -910,7 +910,7 @@
 					},
 					{
 						"name": "Ghan-buri-Ghan",
-						"points": 85,
+						"points": 65,
 						"elementPropertyName": "heroes"
 					}
 				]
@@ -962,7 +962,7 @@
 				"armyBonuses": [
 					"The Heir of Isildur",
 					"Passing of the Grey Company",
-					"\"They're dangerous folks, wandering the wilds\"",
+					"\"They're dangerous folk, wandering the wilds\"",
 					"Masters of the Wild"
 				],
 				"specialRules": [],
@@ -1270,7 +1270,7 @@
 				],
 				"armyBonuses": [
 					"\"Forth Eorlingas!\" (Edoras)",
-					"Protect the King"
+					"Protect the King (Edoras)"
 				]
 			},
 			{
@@ -2966,6 +2966,7 @@
 					}
 				],
 				"points": 50,
+				"unlimited": true,
 				"movement": 6,
 				"fight": 3,
 				"shoot": 5,
@@ -3040,6 +3041,7 @@
 					}
 				],
 				"points": 50,
+				"unlimited": true,
 				"movement": 6,
 				"fight": 3,
 				"shoot": 5,
@@ -3130,6 +3132,7 @@
 					}
 				],
 				"points": 55,
+				"unlimited": true,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 4,
@@ -3631,7 +3634,7 @@
 				"factions": [
 					{
 						"name": "Sharkey's Rogues",
-						"heroicTier": "Hero of ValoFortitudeur"
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"fight": 2,
@@ -4270,6 +4273,10 @@
 					{
 						"name": "Corsair Fleets",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Grand Army of the South",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 75,
@@ -4501,7 +4508,8 @@
 				],
 				"specialRules": [
 					"River-daughter",
-					"Sing a Jolly Song (Goldberry)"
+					"Sing a Jolly Song (Goldberry)",
+					"Goldberry is waiting"
 				],
 				"wargear": [
 					"Unarmed"
@@ -9361,6 +9369,10 @@
 					},
 					{
 						"name": "Defenders of the Pelennor",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Paths of the Druadan",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -24081,6 +24093,98 @@
 		],
 		"warriors": [
 			{
+				"name": "Fredegar `Fatty` Bolger",
+				"factions": [
+					"The Shire"
+				],
+				"unique": true,
+				"points": 10,
+				"movement": 4,
+				"fight": 2,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 7,
+				"intelligence": 8,
+				"might": 0,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"wargear": [
+					"Unarmed"
+				],
+				"specialRules": [
+					"Dominant (2)",
+					"Resistant to Magic",
+					"Throw Stones (range 8\", Strength 1)",
+					"Live to fight another day"
+				],
+				"options": [],
+				"countAsProperty": "heroes"
+			},
+			{
+				"name": "Folco Boffin",
+				"factions": [
+					"Battle of Bywater",
+					"The Shire"
+				],
+				"unique": true,
+				"points": 25,
+				"movement": 4,
+				"fight": 2,
+				"shoot": 3,
+				"strength": 2,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 8,
+				"might": 0,
+				"will": 3,
+				"fate": 1,
+				"heroicActions": [],
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Resistant to Magic",
+					"Throw Stones (range 8\", Strength 1)",
+					"A Helpful Sort",
+					"High Spirits"
+				],
+				"wargear": [
+					"Unarmed"
+				],
+				"options": [],
+				"countAsProperty": "heroes"
+			},
+			{
 				"name": "Haradrim Raider",
 				"factions": [
 					"The Serpent Horde",
@@ -24577,7 +24681,8 @@
 			{
 				"name": "Wood Elf Sentinel",
 				"factions": [
-					"Lothlorien"
+					"Lothlorien",
+					"Halls of Thranduil"
 				],
 				"points": 25,
 				"movement": 6,
@@ -29563,6 +29668,46 @@
 								"in": "Defenders of the Pelennor"
 							}
 						]
+					},
+					{
+						"all": [
+							{
+								"in": "Déorwine, Chief of the King's Knights"
+							},
+							{
+								"in": "Defenders of the Pelennor"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Déorwine, Chief of the King's Knights"
+							},
+							{
+								"in": "Paths of the Druadan"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Déorwine, Chief of the King's Knights"
+							},
+							{
+								"in": "Kingdom of Rohan"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Déorwine, Chief of the King's Knights"
+							},
+							{
+								"in": "Riders of Theoden"
+							}
+						]
 					}
 				],
 				"points": 11,
@@ -29639,7 +29784,8 @@
 							"Kingdom of Rohan",
 							"Realms of Men",
 							"Defenders of Helm's Deep",
-							"Fords of Isen"
+							"Fords of Isen",
+							"Paths of the Druadan"
 						]
 					},
 					{
@@ -31456,9 +31602,7 @@
 			},
 			{
 				"name": "Dwarf Siege Crew",
-				"factions": [
-					"The Iron Hills"
-				],
+				"factions": [],
 				"autoAddOnly": true,
 				"points": 0,
 				"movement": 5,
@@ -39621,7 +39765,7 @@
 				"definition": "Once per game, at the start of any Fight Phase, your General can use this special rule if they Charged in the preceding Move Phase. If they do, then until the end of the turn friendly Rohan models within 12\" of your General must re-roll all failed To Wound Rolls when making strikes."
 			},
 			{
-				"name": "Protect the King",
+				"name": "Protect the King (Edoras)",
 				"definition": "When a friendly Rohan Hero Charges, until the end of the turn friendly Rohan Warrior models within 6\" of them will automatically pass all Courage Tests they are required to take for Charging an enemy with the Terror special rule."
 			},
 			{
