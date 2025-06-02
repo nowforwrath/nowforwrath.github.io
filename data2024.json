@@ -25070,6 +25070,11 @@
 						]
 					}
 				],
+				"unavailableIn": [
+					[
+						"Gwaihir"
+					]
+				],
 				"points": 11,
 				"movement": 6,
 				"fight": 4,
