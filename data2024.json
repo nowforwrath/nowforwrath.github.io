@@ -2055,13 +2055,6 @@
 					"Sharpshooter",
 					"Fearless",
 					"Backstabbers"
-				],
-				"requiredChildren": [
-					{
-						"name": "Corsair Captain Leader",
-						"points": 55,
-						"elementPropertyName": "heroes"
-					}
 				]
 			},
 			{
@@ -24382,9 +24375,68 @@
 			},
 			{
 				"name": "Hobbit Shirriff",
-				"factions": [
-					"The Shire",
-					"Battle of Bywater"
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Will Whitfoot, Mayor of Michel Delving"
+							},
+							{
+								"in": "Battle of Bywater"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Will Whitfoot, Mayor of Michel Delving"
+							},
+							{
+								"in": "The Shire"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Robin Smallburrow, Hobbit Shirriff"
+							},
+							{
+								"in": "Battle of Bywater"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Robin Smallburrow, Hobbit Shirriff"
+							},
+							{
+								"in": "The Shire"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Holfoot Bracegirdle, Shirriff-Leader"
+							},
+							{
+								"in": "Battle of Bywater"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Holfoot Bracegirdle, Shirriff-Leader"
+							},
+							{
+								"in": "The Shire"
+							}
+						]
+					}
 				],
 				"points": 5,
 				"movement": 4,
@@ -32757,15 +32809,18 @@
 				"options": [
 					{
 						"name": "Dwarf longbow",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Throwing weapons",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Two-handed weapon",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
