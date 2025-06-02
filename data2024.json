@@ -3211,8 +3211,8 @@
 				"defence": 4,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 3,
-				"intelligence": 3,
+				"courage": 6,
+				"intelligence": 7,
 				"might": 1,
 				"will": 1,
 				"fate": 1,
@@ -24332,9 +24332,47 @@
 			},
 			{
 				"name": "Serpent Guard",
-				"factions": [
-					"Grand Army of the South",
-					"The Serpent Horde"
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Suladan, The Serpent Lord"
+							},
+							{
+								"in": "Grand Army of the South"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Suladan, The Serpent Lord"
+							},
+							{
+								"in": "The Serpent Horde"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Raza, Fang of the Serpent"
+							},
+							{
+								"in": "Grand Army of the South"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Raza, Fang of the Serpent"
+							},
+							{
+								"in": "The Serpent Horde"
+							}
+						]
+					}
 				],
 				"points": 8,
 				"movement": 6,
