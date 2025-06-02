@@ -32711,27 +32711,27 @@
 					{
 						"name": "Banner",
 						"points": 25,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "War Horn",
 						"points": 25,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Dwarf Bow",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Two-handed weapon",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					}
 				],
 				"specialRules": [],
@@ -32877,17 +32877,17 @@
 					{
 						"name": "Dwarf longbow",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Throwing weapons",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Two-handed weapon",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					}
 				],
 				"specialRules": [
