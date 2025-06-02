@@ -24288,9 +24288,28 @@
 			},
 			{
 				"name": "Serpent Rider",
-				"factions": [
-					"Grand Army of the South",
-					"The Serpent Horde"
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Suladan, The Serpent Lord"
+							},
+							{
+								"in": "Grand Army of the South"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Suladan, The Serpent Lord"
+							},
+							{
+								"in": "The Serpent Horde"
+							}
+						]
+					}
 				],
 				"points": 14,
 				"movement": 6,
