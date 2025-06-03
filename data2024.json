@@ -41,7 +41,25 @@
 		"Reconnoitre",
 		"Domination",
 		"To the Death!",
-		"Fog of War"
+		"Fog of War",
+		"Capture & Control",
+		"Breakthrough",
+		"Stake a Claim",
+		"Lords of Battle",
+		"Assassination",
+		"Contest of Champions",
+		"Heirloom of Ages Past",
+		"Sites of Power",
+		"Command the Battlefield",
+		"Retrieval",
+		"Seize the Prizes",
+		"Treasure Hoard",
+		"Storm the Camp",
+		"Divide & Conquer",
+		"Escort the Wounded",
+		"Clash By Moonlight",
+		"Lead from the Front",
+		"Convergence"
 	],
 	"stats": [
 		{
@@ -3204,6 +3222,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
+				"unlimited": true,
 				"points": 45,
 				"movement": 6,
 				"fight": 4,
@@ -3607,17 +3626,17 @@
 					{
 						"name": "Compel",
 						"range": 12,
-						"castingValue": 3
+						"casting": 3
 					},
 					{
 						"name": "Terrifying Aura",
 						"range": 0,
-						"castingValue": 3
+						"casting": 3
 					},
 					{
 						"name": "Transfix",
 						"range": 12,
-						"castingValue": 3
+						"casting": 3
 					}
 				],
 				"options": []
@@ -3782,10 +3801,6 @@
 				"factions": [
 					{
 						"name": "Army of Dale",
-						"heroicTier": "Hero of Valour"
-					},
-					{
-						"name": "Erebor Reclaimed",
 						"heroicTier": "Hero of Valour"
 					},
 					{
@@ -24248,6 +24263,11 @@
 				"factions": [
 					"Sharkey's Rogues"
 				],
+				"unavailableIn": [
+					[
+						"Ted Sandyman"
+					]
+				],
 				"fight": 2,
 				"shoot": 5,
 				"strength": 3,
@@ -24535,6 +24555,28 @@
 				"factions": [
 					"The Shire",
 					"Battle of Bywater"
+				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Lotho Sackville-Baggins"
+							},
+							{
+								"in": "Sharkey's Rogues"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Ted Sandyman"
+							},
+							{
+								"in": "Sharkey's Rogues"
+							}
+						]
+					}
 				],
 				"points": 4,
 				"movement": 4,
@@ -25353,7 +25395,9 @@
 				"wargear": [
 					"Heavy armour",
 					"Shield",
-					"Hand weapon"
+					"Hand weapon",
+					"Lance",
+					"Armoured horse"
 				]
 			},
 			{
