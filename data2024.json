@@ -3017,17 +3017,17 @@
 					{
 						"name": "Fury (Mordor Orc)",
 						"range": 0,
-						"castingValue": 3
+						"casting": 3
 					},
 					{
 						"name": "Curse",
 						"range": 12,
-						"castingValue": 4
+						"casting": 4
 					},
 					{
 						"name": "Transfix",
 						"range": 12,
-						"castingValue": 5
+						"casting": 5
 					}
 				],
 				"options": [
@@ -3092,17 +3092,17 @@
 					{
 						"name": "Fury (Isengard Orc)",
 						"range": 0,
-						"castingValue": 3
+						"casting": 3
 					},
 					{
 						"name": "Enrage Beast",
 						"range": 6,
-						"castingValue": 4
+						"casting": 4
 					},
 					{
 						"name": "Transfix",
 						"range": 12,
-						"castingValue": 5
+						"casting": 5
 					}
 				],
 				"requiredChildren": [
@@ -3182,17 +3182,17 @@
 					{
 						"name": "Fury (Isengard Uruk-hai)",
 						"range": 0,
-						"castingValue": 3
+						"casting": 3
 					},
 					{
 						"name": "Bladewrath",
 						"range": 6,
-						"castingValue": 4
+						"casting": 4
 					},
 					{
 						"name": "Transfix",
 						"range": 12,
-						"castingValue": 5
+						"casting": 5
 					}
 				],
 				"options": [
