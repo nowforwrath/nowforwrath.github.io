@@ -1435,7 +1435,7 @@
 				"additionalRules": [
 					"Rohan Warrior models can only be included in the Warband of a Rohan Hero.",
 					"Gondor Warrior models can only be included in the Warband of a Gondor Hero or Gandalf the White.",
-					"Dunharrow Warrior models can only be included in the Warband of a Dunharrow Hero, or in the Warband of Aragorn, Leolas, or Gimli."
+					"Dunharrow Warrior models can only be included in the Warband of a Dunharrow Hero, or in the Warband of Aragorn, Legolas, or Gimli."
 				],
 				"armyBonuses": [
 					"Defend the White City"
@@ -5398,7 +5398,7 @@
 				"fight": 5,
 				"shoot": 4,
 				"strength": 5,
-				"defence": 5,
+				"defence": 6,
 				"attack": 2,
 				"wounds": 3,
 				"courage": 6,
@@ -35932,7 +35932,7 @@
 			{
 				"name": "Morgul Blade",
 				"tag": "Active",
-				"definition": "This is a hand weapon. Once per game, a model with a Morgul Blade can use 1t during a Combat instead of their normal hand weapon; th1s must be declared before strikes are made. If they do, all their Strikes must be resolved against a single enemy model, and if the target suffers a wound that is not prevented in some way, they will immediately lose all remaining Wounds and be removed as a casualty. If the model using the Morgul Blade is mounted, they must use the Strength and Attacks of the rider rather than their Mount."
+				"definition": "This is a hand weapon. Once per game, a model with a Morgul Blade can use it during a Combat instead of their normal hand weapon; this must be declared before strikes are made. If they do, all their Strikes must be resolved against a single enemy model, and if the target suffers a wound that is not prevented in some way, they will immediately lose all remaining Wounds and be removed as a casualty. If the model using the Morgul Blade is mounted, they must use the Strength and Attacks of the rider rather than their Mount."
 			},
 			{
 				"name": "Might",
