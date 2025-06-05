@@ -27672,10 +27672,8 @@
 					{
 						"name": "Elven Cloak",
 						"points": 0,
-						"in": [
-							[
-								"Breaking of the Fellowship"
-							]
+						"availableIn": [
+							"Breaking of the Fellowship"
 						]
 					}
 				],
