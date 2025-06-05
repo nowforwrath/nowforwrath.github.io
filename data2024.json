@@ -34716,6 +34716,11 @@
 		],
 		"gear": [
 			{
+				"name": "Pavise",
+				"tag": "Passive",
+				"definition": "This is a shield that provides the bearer +3 Defence rather than +1. However, a model with a Pavise cannot gain this bonus to their Defence whilst Engaged in Combat."
+			},
+			{
 				"name": "Whip",
 				"definition": "A whip counts as a throwing weapon with a Strength of l and a range of 2\". It can also be used as a hand weapon in a Combat."
 			},
