@@ -24783,6 +24783,10 @@
 					{
 						"dataSource": "warriors",
 						"name": "Moria Goblin Drummer"
+					},
+					{
+						"dataSource": "warriors",
+						"name": "Moria Goblin Drummer"
 					}
 				],
 				"options": [],
@@ -37225,7 +37229,7 @@
 			{
 				"name": "Mountain Fighters",
 				"tag": "Active",
-				"definition": "This model gains a bonus of +1 To Wound when making Strikes against a model that is within a piece of dfficult terrain, such as a piece of rocky terrain or a ruin."
+				"definition": "This model gains a bonus of +1 To Wound when making Strikes against a model that is within a piece of dfficult terrain, such as a piece of rocky terrain, or a ruin."
 			},
 			{
 				"name": "Durin's Protector",
