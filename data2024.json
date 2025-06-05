@@ -11468,6 +11468,7 @@
 					"Whips of the Master"
 				],
 				"wargear": [
+					"Whip",
 					"Armour"
 				]
 			},
@@ -24299,11 +24300,13 @@
 				"options": [
 					{
 						"name": "Bow",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Whip",
-						"points": 1
+						"points": 1,
+						"chooseOneKey": "a"
 					}
 				]
 			},
@@ -27690,7 +27693,8 @@
 			{
 				"name": "Lobelia Sackville-Baggins",
 				"factions": [
-					"The Shire"
+					"The Shire",
+					"Battle of Bywater"
 				],
 				"unique": true,
 				"points": 20,
@@ -28355,7 +28359,8 @@
 				"name": "Rosie Cotton",
 				"factions": [
 					"The Shire",
-					"Defenders of the Shire"
+					"Defenders of the Shire",
+					"Battle of Bywater"
 				],
 				"unique": true,
 				"points": 20,
@@ -32070,9 +32075,6 @@
 				"wounds": 1,
 				"courage": 6,
 				"intelligence": 7,
-				"might": 0,
-				"will": 0,
-				"fate": 0,
 				"heroicActions": [],
 				"race": [
 					"Man"
@@ -34709,6 +34711,10 @@
 		],
 		"gear": [
 			{
+				"name": "Whip",
+				"definition": "A whip counts as a throwing weapon with a Strength of l and a range of 2\". It can also be used as a hand weapon in a Combat."
+			},
+			{
 				"name": "Swift Reload",
 				"tag": "Active",
 				"definition": "When firing the Gondor Avenger Bolt Thrower, you may roll two dice and pick the highest result when determining how many shots it may make."
@@ -34729,12 +34735,7 @@
 			},
 			{
 				"name": "Tookish Hunter",
-				"modifiesStats": [
-					{
-						"stat": "fight",
-						"modifier": 1
-					}
-				]
+				"definition": "Tookish Hunters may re-roll To Wound Rolls of a 1 when making Shooting Attacks."
 			},
 			{
 				"name": "The Warden's Sword",
@@ -38822,7 +38823,7 @@
 			{
 				"name": "Sweet Maiden of the Golden Ale",
 				"tag": "Passive",
-				"definition": "Friendly Hobbit models treat Rosie Cotton as a banner with a range of 6\". Additionally, so long as she is alive, Rosie will count as a ..."
+				"definition": "Friendly Hobbit models treat Rosie Cotton as a banner with a range of 6\". Additionally, so long as she is alive, Rosie will count as a banner for the purpose of Victory Points in Scenarios that award Victory Points for having a banner left alive."
 			},
 			{
 				"name": "Leave me flowers alone!",
