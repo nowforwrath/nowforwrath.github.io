@@ -6201,7 +6201,8 @@
 				],
 				"wargear": [
 					"Helm of the Dragon Emperor",
-					"Royal Palanquin"
+					"Royal Palanquin",
+					"The Dragon Emperor's Glaive"
 				],
 				"options": []
 			},
@@ -34722,6 +34723,7 @@
 			},
 			{
 				"name": "Whip",
+				"type": "throwingWeapon",
 				"definition": "A whip counts as a throwing weapon with a Strength of l and a range of 2\". It can also be used as a hand weapon in a Combat."
 			},
 			{
