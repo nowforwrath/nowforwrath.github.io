@@ -9199,7 +9199,7 @@
 				],
 				"heroicActions": [
 					"Heroic Defence",
-					"Heroid Resolve",
+					"Heroic Resolve",
 					"Heroic Strike"
 				],
 				"requiredChildren": [
@@ -25416,6 +25416,23 @@
 					"Host of the Dragon Emperor",
 					"Grand Army of the South"
 				],
+				"unavailableIn": [
+					[
+						"Easterling Captain"
+					],
+					[
+						"Easterling Kataphrakt Captain"
+					],
+					[
+						"Easterling War Priest"
+					],
+					[
+						"Rutabi, General of the Dragon Legion"
+					],
+					[
+						"Brorgir the Conjurer"
+					]
+				],
 				"points": 11,
 				"movement": 6,
 				"fight": 4,
@@ -25557,6 +25574,23 @@
 					"Host of the Dragon Emperor",
 					"Legions of Mordor",
 					"Grand Army of the South"
+				],
+				"unavailableIn": [
+					[
+						"Easterling Captain"
+					],
+					[
+						"Easterling Kataphrakt Captain"
+					],
+					[
+						"Easterling War Priest"
+					],
+					[
+						"Rutabi, General of the Dragon Legion"
+					],
+					[
+						"Brorgir the Conjurer"
+					]
 				],
 				"points": 10,
 				"movement": 6,
@@ -37399,7 +37433,7 @@
 			},
 			{
 				"name": "Warrior of the Dragon Cult",
-				"definition": "This model may only be included in the Warband of a Black Dragon Hero. Additionally, whilst within 3\" of a Black Dragon Hero, this model gains a bonus of +1 to thier Fight Value."
+				"definition": "This model may only be included in the Warband of a Black Dragon Hero. Additionally, whilst within 3\" of a Black Dragon Hero, this model gains a bonus of +1 to their Fight Value."
 			},
 			{
 				"name": "Emperor of the Easterlings",
@@ -38310,11 +38344,6 @@
 				"name": "Phalanx",
 				"tag": "Active",
 				"definition": "A model with this special rule can use a pike and a shield at the same time without penalty. Additionally, should an Infantry model with this special rule lose a Combat, up to two friendly models with this special rule can Make Way instead of one."
-			},
-			{
-				"name": "Warrior of the Dragon Cult",
-				"tag": "Passive",
-				"definition": "This model may only be included in the Warband of a Black Dragon Hero. Additionally, whilst within 3\" of a Black Dragon Hero, this model gains a bonus of +1 to their Fight Value."
 			},
 			{
 				"name": "Unyielding Combat Stance",
