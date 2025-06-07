@@ -671,7 +671,15 @@
 					"Heroes of the Easterlings",
 					"Easterling Phalanxes"
 				],
-				"specialRules": []
+				"specialRules": [],
+				"requiredChildren": [
+					{
+						"name": "The Dragon Emperor of Rhun",
+						"points": 200,
+						"mustBeLeader": true,
+						"elementPropertyName": "heroes"
+					}
+				]
 			},
 			{
 				"name": "The Easterlings",
@@ -37812,6 +37820,11 @@
 			},
 			{
 				"name": "Master of Battle (2+)",
+				"tag": "Active",
+				"definition": "Whenever an enemy Hero declares a Heroic Action within 6\" of this model, this model may roll a D6. If the result on the dice equals or beats the number shown in brackets, then this model may Immediately declare a Heroic Action of the same type without spending a Might Point. This may still be done if this model has no Might Points remaining or would not normally be able to declare that Heroic Action. If the roll is failed, this model may still declare a Heroic Action if they wish (though not one they cannot usually declare) for the usual cost of a Might Point."
+			},
+			{
+				"name": "Master of Battle (3+)",
 				"tag": "Active",
 				"definition": "Whenever an enemy Hero declares a Heroic Action within 6\" of this model, this model may roll a D6. If the result on the dice equals or beats the number shown in brackets, then this model may Immediately declare a Heroic Action of the same type without spending a Might Point. This may still be done if this model has no Might Points remaining or would not normally be able to declare that Heroic Action. If the roll is failed, this model may still declare a Heroic Action if they wish (though not one they cannot usually declare) for the usual cost of a Might Point."
 			},
