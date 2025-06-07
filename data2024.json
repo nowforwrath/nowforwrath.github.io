@@ -595,7 +595,6 @@
 				"armyBonuses": [
 					"Pride of the Southlands"
 				],
-				"specialRules": [],
 				"childMatchesRequired": [
 					{
 						"elementPropertyName": "heroes",
@@ -645,7 +644,6 @@
 					"Suladan's Bodyguard",
 					"Lethal Toxins"
 				],
-				"specialRules": [],
 				"requiredChildren": [
 					{
 						"name": "Suladan, The Serpent Lord",
@@ -671,7 +669,6 @@
 					"Heroes of the Easterlings",
 					"Easterling Phalanxes"
 				],
-				"specialRules": [],
 				"requiredChildren": [
 					{
 						"name": "The Dragon Emperor of Rhun",
@@ -715,8 +712,7 @@
 					"The Dragon's Hoard",
 					"Beast of Legend",
 					"Supreme Jealousy"
-				],
-				"specialRules": []
+				]
 			},
 			{
 				"name": "Moria",
@@ -776,8 +772,7 @@
 				],
 				"armyBonuses": [
 					"The Great Eye"
-				],
-				"specialRules": []
+				]
 			},
 			{
 				"name": "Defenders of Erebor",
@@ -794,7 +789,6 @@
 					"The Heirs to the Kingdoms",
 					"Royal Bloodlines"
 				],
-				"specialRules": [],
 				"childMatchesRequired": [
 					{
 						"elementPropertyName": "heroes",
@@ -814,8 +808,7 @@
 					"Wall of Steel",
 					"\"For Erebor!\"",
 					"Like Father, Like Son"
-				],
-				"specialRules": []
+				]
 			},
 			{
 				"name": "Kingdom of Khazad-dum",
@@ -844,7 +837,6 @@
 					"Protect the King",
 					"Stoic Defence"
 				],
-				"specialRules": [],
 				"requiredChildren": [
 					{
 						"name": "Brand, King of Dale",
@@ -902,8 +894,7 @@
 				"armyBonuses": [
 					"\"For the White City!\"",
 					"Leaders of the Fiefdoms"
-				],
-				"specialRules": []
+				]
 			},
 			{
 				"name": "Paths of the Druadan",
@@ -918,7 +909,6 @@
 					"Kill Orc-folk",
 					"Waypoints"
 				],
-				"specialRules": [],
 				"requiredChildren": [
 					{
 						"name": "Theoden, King of Rohan",
@@ -1000,7 +990,6 @@
 					"\"They're dangerous folk, wandering the wilds\"",
 					"Masters of the Wild"
 				],
-				"specialRules": [],
 				"requiredChildren": [
 					{
 						"name": "Aragorn (Strider)",
@@ -1030,7 +1019,6 @@
 					"\"Fear! Fire! Foes!\"",
 					"Heroes of the Shire"
 				],
-				"specialRules": [],
 				"requiredChildren": [
 					{
 						"name": "Meriadoc Brandybuck, Captain of the Shire",
