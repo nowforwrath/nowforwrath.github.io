@@ -687,6 +687,14 @@
 				"specialRules": [
 					"Fearless",
 					"Ancient Enemies (Gondor)"
+				],
+				"requiredChildren": [
+					{
+						"name": "Amdur, Lord of Blades",
+						"points": 135,
+						"mustBeLeader": true,
+						"elementPropertyName": "heroes"
+					}
 				]
 			},
 			{
