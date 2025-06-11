@@ -10744,8 +10744,8 @@
 				"shoot": 4,
 				"strength": 5,
 				"defence": 7,
-				"attack": 3,
-				"wounds": 3,
+				"attack": 2,
+				"wounds": 2,
 				"courage": 6,
 				"intelligence": 6,
 				"might": 2,
@@ -24433,9 +24433,6 @@
 				"wounds": 1,
 				"courage": 7,
 				"intelligence": 7,
-				"might": 0,
-				"will": 0,
-				"fate": 0,
 				"heroicActions": [],
 				"race": [
 					"Man"
@@ -25067,7 +25064,7 @@
 				"defence": 4,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 6,
+				"courage": 8,
 				"intelligence": 7,
 				"race": [
 					"Man"
@@ -34873,6 +34870,11 @@
 						"dataSource": "magicalPowers",
 						"name": "Compel",
 						"elementPropertyName": "magicalPowers"
+					},
+					{
+						"dataSource": "magicalPowers",
+						"name": "Foil Magic",
+						"elementPropertyName": "magicalPowers"
 					}
 				]
 			},
@@ -34960,6 +34962,10 @@
 			},
 			{
 				"name": "War Drum (Mordor Orc)",
+				"definition": "A model with a war drum may use it during the Declare Heroic Actions step of each Move Phase to declare a Heroic March for free, without spending a Might Point, even if they are not a Hero. This free Heroic March has the following exceptions:\n                • A model with a war drum that declares a Heroic March must always shout At the Double.\n                • The range of this At the Double is 12\" rather than 6\". Additionally, friendly models must finish their Activation within 12\" rather than 6\".\n                • The Heroic March declared when a model uses a war drum will only affect friendly models with the same keywords as the ones shown in brackets after the war drum. So if a model has a war drum (Mordor) then it will only affect models with the Mordor keyword.\n                As a war drum allows a model to declare a free Heroic March, models cannot be affected by both a war drum and a normal Heroic March in the same turn."
+			},
+			{
+				"name": "War Drum (Mordor)",
 				"definition": "A model with a war drum may use it during the Declare Heroic Actions step of each Move Phase to declare a Heroic March for free, without spending a Might Point, even if they are not a Hero. This free Heroic March has the following exceptions:\n                • A model with a war drum that declares a Heroic March must always shout At the Double.\n                • The range of this At the Double is 12\" rather than 6\". Additionally, friendly models must finish their Activation within 12\" rather than 6\".\n                • The Heroic March declared when a model uses a war drum will only affect friendly models with the same keywords as the ones shown in brackets after the war drum. So if a model has a war drum (Mordor) then it will only affect models with the Mordor keyword.\n                As a war drum allows a model to declare a free Heroic March, models cannot be affected by both a war drum and a normal Heroic March in the same turn."
 			},
 			{
@@ -35889,7 +35895,7 @@
 			{
 				"name": "Bow & war spear",
 				"type": "bow",
-				"definition": "24\" Range, 3 Strength"
+				"definition": "24\" Range, 2 Strength"
 			},
 			{
 				"name": "Light Shield",
@@ -38186,6 +38192,11 @@
 			},
 			{
 				"name": "Ancient Enemies (Dwarf)",
+				"tag": "Active",
+				"definition": "A model with this special rule re-rolls 1s To Wound when fighting in combat against models with the keywords listed in the brackets in its profile. For example, a model that has the Ancient Enemies (Elf) special rule will get to re-roll 1s To Wound against all Elf models"
+			},
+			{
+				"name": "Ancient Enemies (Gondor)",
 				"tag": "Active",
 				"definition": "A model with this special rule re-rolls 1s To Wound when fighting in combat against models with the keywords listed in the brackets in its profile. For example, a model that has the Ancient Enemies (Elf) special rule will get to re-roll 1s To Wound against all Elf models"
 			},
