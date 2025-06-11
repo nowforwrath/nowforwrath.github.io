@@ -39501,7 +39501,7 @@
 			{
 				"name": "Silent Hunters",
 				"tag": "Passive",
-				"defintition": "If a Mirkwood Hunting Spider is within a piece of woodland terrain (such as a forest), or is partially concealed by a piece of woodland terrain, then they cannot be seen by enemy models unless they are within 6\" of the Mirkwood Hunting Spider."
+				"definition": "If a Mirkwood Hunting Spider is within a piece of woodland terrain (such as a forest), or is partially concealed by a piece of woodland terrain, then they cannot be seen by enemy models unless they are within 6\" of the Mirkwood Hunting Spider."
 			},
 			{
 				"name": "I am fire, I am death",
