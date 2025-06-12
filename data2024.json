@@ -591,6 +591,146 @@
 	"data": {
 		"factions": [
 			{
+				"name": "The Spider Queen's Brood",
+				"alignment": "evil",
+				"additionalRules": [
+					"The Spider Queen's Brood Army must always contain The Spider Queen, who is always the Army's General."
+				],
+				"armyBonuses": [
+					"Beasts of the Forest",
+					"\"Worse are the Webs\"",
+					"Protect the Queen",
+					"Pounce",
+					"The Queen's Cunning"
+				],
+				"specialRules": [],
+				"requiredChildren": [
+					{
+						"name": "The Spider Queen",
+						"points": 120,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Far Harad",
+				"alignment": "evil",
+				"additionalRules": [
+					"A Far Harad Army must always contain a Mahûd King, who is always the Army's General."
+				],
+				"armyBonuses": [
+					"Warrior Pride",
+					"Revel in Death",
+					"Battle Frenzy"
+				],
+				"specialRules": [],
+				"requiredChildren": [
+					{
+						"name": "Mahûd King",
+						"points": 70,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Ravagers of the Shire",
+				"alignment": "evil",
+				"additionalRules": [
+					"A Ravagers of the Shire Army must always contain Golfimbul, who is always the Army's General."
+				],
+				"armyBonuses": [
+					"Golfimbul's Rage",
+					"Courage from Ignorance",
+					"Overwhelm the Foe"
+				],
+				"specialRules": [],
+				"requiredChildren": [
+					{
+						"name": "Golfimbul, Orc Captain",
+						"points": 45,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Army of Dunland",
+				"alignment": "evil",
+				"additionalRules": [
+					"An Army of Dunland Army must always contain Thrydan, who is always the Army's General."
+				],
+				"armyBonuses": [
+					"\"Death to the Forgoil!\"",
+					"Dunlending Pride",
+					"Dunlending War Cry"
+				],
+				"specialRules": [],
+				"requiredChildren": [
+					{
+						"name": "Thrydan Wolfsbane",
+						"points": 90,
+						"elementPropertyName": "heroes",
+						"mustBeLeader": true
+					}
+				]
+			},
+			{
+				"name": "Variags of Khand",
+				"alignment": "evil",
+				"additionalRules": [
+					"A Variags of Khand Army must always contain a Khandish King, who is always the Army's General.",
+					"Khandish Horsemen and Khandish Charioteers do not count towards this Army's bow limit."
+				],
+				"armyBonuses": [
+					"High King of Khand",
+					"Khandish Fury"
+				],
+				"specialRules": [],
+				"requiredChildren": [
+					{
+						"name": "Khandish King",
+						"points": 100,
+						"elementPropertyName": "heroes",
+						"mustBeLeader": true
+					}
+				]
+			},
+			{
+				"name": "Assault on Lothlorien",
+				"alignment": "evil",
+				"additionalRules": [
+					"An Assault on Lothlórien Army must always contain Muzgúr, who is always the Army's General.",
+					"An Assault on Lothlórien Army must always contain at least one Unique Goblin Hero.",
+					"Spider models may only be included in either Gróblog's or Ashrak's Warbands.",
+					"This army may not include more Goblin models than Orc models."
+				],
+				"armyBonuses": [
+					"Cover of Darkness",
+					"Ruthless Savagery"
+				],
+				"specialRules": []
+			},
+			{
+				"name": "Fell Beings of Mirkwood",
+				"alignment": "evil",
+				"additionalRules": [
+					"A Fell Beings of Mirkwood Army must always contain Razgush, who is always the Army's General."
+				],
+				"armyBonuses": [
+					"Through the Forest",
+					"The War Leader",
+					"Death to the Elves"
+				],
+				"specialRules": [],
+				"requiredChildren": [
+					{
+						"name": "Razgush, War Leader of the North",
+						"points": 120,
+						"elementPropertyName": "heroes",
+						"mustBeLeader": true
+					}
+				]
+			},
+			{
 				"name": "Expedition to the East",
 				"legacy": true,
 				"alignment": "good",
@@ -1685,7 +1825,8 @@
 					],
 					[
 						"Gil-Galad, High King of the Noldor",
-						"Elrond, Master of Rivendell"
+						"Elrond, Master of Rivendell",
+						"Erestor"
 					]
 				],
 				"childMatchesRequired": [
@@ -2400,7 +2541,7 @@
 				],
 				"armyBonuses": [
 					"\"I Feel A Song Coming On\"",
-					"Strength in Numbers",
+					"Strength in Numbers (Goblin-Town)",
 					"\"If they won't talk, we'll make them squawk!\"",
 					"\"Down down down in Goblin-town\""
 				],
@@ -3011,6 +3152,1008 @@
 		],
 		"heroes": [
 			{
+				"name": "The Spider Queen",
+				"factions": [
+					{
+						"name": "Fell Beings of Mirkwood",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "The Spider Queen's Brood",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 120,
+				"legacy": true,
+				"movement": 10,
+				"fight": 6,
+				"shoot": 6,
+				"strength": 6,
+				"defence": 4,
+				"attack": 2,
+				"wounds": 3,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 3,
+				"will": 3,
+				"fate": 0,
+				"race": [
+					"Spider"
+				],
+				"faction": [
+					"Dol Guldur"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Monster",
+					"Beast",
+					"Unique"
+				],
+				"baseSize": [
+					"60mm"
+				],
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic Strike"
+				],
+				"specialRules": [
+					"Dominant (3)",
+					"Monstrous Charge",
+					"Swift Movement",
+					"Terror",
+					"Venom",
+					"Progeny"
+				],
+				"wargear": [
+					"Large venomous fangs (hand weapons)"
+				],
+				"options": [],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "warriors",
+						"name": "Broodling",
+						"ignoreModels": true,
+						"quantity": 0,
+						"points": 0,
+						"hideFromPrint": true,
+						"lockedChildren": true
+					}
+				]
+			},
+			{
+				"name": "Golfimbul, Orc Captain",
+				"factions": [
+					{
+						"name": "Ravagers of the Shire",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 45,
+				"legacy": true,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 2,
+				"will": 1,
+				"fate": 0,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Angmar"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Challenge",
+					"Heroic Strike"
+				],
+				"specialRules": [
+					"Impressive Girth"
+				],
+				"wargear": [
+					"Armour",
+					"Hand-and-a-half weapon"
+				],
+				"options": [
+					{
+						"name": "Warg",
+						"points": 20
+					}
+				]
+			},
+			{
+				"name": "Muzgûr, Orc Shaman",
+				"factions": [
+					{
+						"name": "Army of the Great Eye",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Assault on Lothlorien",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 70,
+				"legacy": true,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 2,
+				"will": 3,
+				"fate": 1,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Channelling",
+					"Heroic March"
+				],
+				"specialRules": [
+					"Power from Death"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Spear"
+				],
+				"magicalPowers": [
+					{
+						"name": "Drain Courage",
+						"range": 12,
+						"casting": 3
+					},
+					{
+						"name": "Wither",
+						"range": 12,
+						"casting": 3
+					},
+					{
+						"name": "Transfix",
+						"range": 12,
+						"casting": 4
+					}
+				],
+				"options": []
+			},
+			{
+				"name": "Razgush, War Leader of the North",
+				"factions": [
+					{
+						"name": "Army of the Great Eye",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Fell Beings of Mirkwood",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 120,
+				"legacy": true,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 3,
+				"will": 3,
+				"fate": 1,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Gundabad"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"specialRules": [
+					"Elfbane",
+					"Hatred (Elf)",
+					"The Beasts of Mirkwood",
+					"War Leader of the North",
+					"Bone-breakers"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Bone-breaker",
+					"Shield"
+				],
+				"options": []
+			},
+			{
+				"name": "Khandish Chieftain",
+				"factions": [
+					{
+						"name": "Grand Army of the South",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Variags of Khand",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 55,
+				"legacy": true,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Khand"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic March"
+				],
+				"specialRules": [],
+				"wargear": [
+					"Armour",
+					"Hand-and-a-half weapon",
+					"Bow"
+				],
+				"options": [
+					{
+						"name": "Horse",
+						"points": 20
+					}
+				]
+			},
+			{
+				"name": "Khandish King",
+				"factions": [
+					{
+						"name": "Grand Army of the South",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Variags of Khand",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 100,
+				"legacy": true,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 3,
+				"will": 3,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Khand"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic March",
+					"Heroic Resolve",
+					"Heroic Strike"
+				],
+				"specialRules": [
+					"Commanding Presence"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Hand-and-a-half weapon",
+					"Bow"
+				],
+				"options": [
+					{
+						"name": "Khandish Chariot",
+						"points": 35
+					}
+				]
+			},
+			{
+				"name": "Mahûd Tribesmaster",
+				"factions": [
+					{
+						"name": "Grand Army of the South",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Far Harad",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 55,
+				"legacy": true,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 3,
+				"strength": 5,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 7,
+				"intelligence": 7,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Harad",
+					"Mahûd"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic March",
+					"Heroic Strength"
+				],
+				"specialRules": [
+					"Poisoned Attacks (blowpipe)"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				],
+				"options": [
+					{
+						"name": "War Camel",
+						"points": 25
+					},
+					{
+						"name": "Blowpipe",
+						"points": 5
+					},
+					{
+						"name": "Shield",
+						"points": 5
+					},
+					{
+						"name": "War spear",
+						"points": 5
+					}
+				]
+			},
+			{
+				"name": "Mahûd King",
+				"factions": [
+					{
+						"name": "Grand Army of the South",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Far Harad",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 70,
+				"legacy": true,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 3,
+				"strength": 5,
+				"defence": 6,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 6,
+				"might": 2,
+				"will": 2,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Harad",
+					"Mahûd"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"specialRules": [],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Shield"
+				],
+				"options": [
+					{
+						"name": "War Camel",
+						"points": 25
+					}
+				]
+			},
+			{
+				"name": "The Golden King of Abrakhan",
+				"factions": [
+					{
+						"name": "Legions of Mordor",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Harad",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Grand Army of the South",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 130,
+				"legacy": true,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 4,
+				"wounds": 4,
+				"courage": 6,
+				"intelligence": 5,
+				"might": 2,
+				"will": 6,
+				"fate": 2,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Harad"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"50mm"
+				],
+				"heroicActions": [
+					"Heroic Resolve"
+				],
+				"specialRules": [
+					"Burly",
+					"Riches Beyond Renown",
+					"The Lure of Wealth",
+					"The Golden Throne"
+				],
+				"wargear": [
+					"Two-handed weapon",
+					"The Golden Throne"
+				],
+				"options": []
+			},
+			{
+				"name": "Haradrim King",
+				"factions": [
+					{
+						"name": "Legions of Mordor",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Harad",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "The Serpent Horde",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Grand Army of the South",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 70,
+				"legacy": true,
+				"unlimited": true,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 2,
+				"will": 2,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Harad"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic March",
+					"Heroic Strength"
+				],
+				"specialRules": [
+					"Bane of Kings",
+					"Tribal King"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				],
+				"options": [
+					{
+						"name": "Horse",
+						"points": 20
+					}
+				]
+			},
+			{
+				"name": "Castellan of Dol Guldur",
+				"factions": [
+					{
+						"name": "Rise of the Necromancer",
+						"heroicTier": "Independent Hero"
+					}
+				],
+				"points": 50,
+				"legacy": true,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 5,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 1,
+				"courage": 4,
+				"intelligence": 7,
+				"might": 0,
+				"will": 10,
+				"fate": 0,
+				"race": [
+					"Spirit"
+				],
+				"faction": [
+					"Dol Guldur"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Terror",
+					"Will of Evil",
+					"Automatons",
+					"Will of the Necromancer",
+					"Bound in Shadow",
+					"Morgul Blade"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Morgul Blade"
+				],
+				"options": []
+			},
+			{
+				"name": "Dunlending Chieftain",
+				"factions": [
+					{
+						"name": "Army of the White Hand",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of Dunland",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 55,
+				"legacy": true,
+				"unlimited": true,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 5,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Dunland"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic March"
+				],
+				"specialRules": [],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Two-handed weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Frída Tallspear",
+				"factions": [
+					{
+						"name": "Army of the White Hand",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of Dunland",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 70,
+				"legacy": true,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 5,
+				"might": 2,
+				"will": 2,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Dunland"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic Strength"
+				],
+				"specialRules": [
+					"Leader (Dunlending Huscarl)",
+					"Readied Stance",
+					"\"Go for the Horse!\""
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Spear",
+					"Shield"
+				],
+				"options": []
+			},
+			{
+				"name": "Gorûlf Ironskin",
+				"factions": [
+					{
+						"name": "Army of the White Hand",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of Dunland",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 70,
+				"legacy": true,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 5,
+				"defence": 5,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Dunland"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"specialRules": [
+					"Leader (Dunlending Huscarl)",
+					"Ironskin"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapons"
+				],
+				"options": []
+			},
+			{
+				"name": "Thrydan Wolfsbane",
+				"factions": [
+					{
+						"name": "Army of the White Hand",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Army of Dunland",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 90,
+				"legacy": true,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 5,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 3,
+				"will": 3,
+				"fate": 3,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Dunland"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"40mm"
+				],
+				"heroicActions": [
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"specialRules": [
+					"Leader (Dunlending Huscarl)",
+					"Mighty Blow",
+					"Lord of Dunland"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Two-handed weapon"
+				],
+				"options": [
+					{
+						"name": "Horse",
+						"points": 20
+					}
+				]
+			},
+			{
+				"name": "Mauhúr",
+				"factions": [
+					{
+						"name": "Lurtz's Scouts",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Uglúk's Scouts",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 65,
+				"legacy": true,
+				"movement": 8,
+				"fight": 5,
+				"shoot": 3,
+				"strength": 5,
+				"defence": 5,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Uruk-hai"
+				],
+				"faction": [
+					"Isengard"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic March",
+					"Heroic Strength"
+				],
+				"specialRules": [
+					"Unhinged Charge"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapons"
+				],
+				"options": []
+			},
+			{
+				"name": "Vraskû",
+				"factions": [
+					{
+						"name": "Army of the White Hand",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Muster of Isengard",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 70,
+				"legacy": true,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 3,
+				"strength": 5,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 5,
+				"might": 2,
+				"will": 2,
+				"fate": 1,
+				"race": [
+					"Uruk-hai"
+				],
+				"faction": [
+					"Isengard"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Accuracy",
+					"Heroic March"
+				],
+				"specialRules": [
+					"Expert Shot",
+					"Sharpshooter"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Crossbow"
+				],
+				"options": []
+			},
+			{
 				"name": "Moria Blackshield Drum",
 				"factions": [
 					{
@@ -3181,6 +4324,10 @@
 					{
 						"name": "Moria",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Assault on Lothlorien",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 60,
@@ -5127,7 +6274,7 @@
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
-						"name": "Riders of Éomer",
+						"name": "Riders of Eomer",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -5175,12 +6322,7 @@
 					"Horse",
 					"Horn of the Hammerhand"
 				],
-				"options": [
-					{
-						"name": "Riders of Rohan in Erkenbrand's Warband may be upgraded to Westfold Redshields for +1 point per model. Westfold Redshields treat Erkenbrand as a banner.",
-						"points": 1
-					}
-				]
+				"options": []
 			},
 			{
 				"name": "King's Huntsman",
@@ -5604,6 +6746,18 @@
 					{
 						"name": "The Black Gate",
 						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Ravagers of the Shire",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Fell Beings of Mirkwood",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Assault on Lothlorien",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 50,
@@ -6657,6 +7811,10 @@
 					{
 						"name": "Depths of Moria",
 						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Assault on Lothlorien",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 45,
@@ -6773,6 +7931,10 @@
 					{
 						"name": "Moria",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Assault on Lothlorien",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 80,
@@ -9436,6 +10598,10 @@
 					{
 						"name": "Wolf Pack of Angmar",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Assault on Lothlorien",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -13942,6 +15108,18 @@
 					{
 						"name": "Army of the Great Eye",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Fell Beings of Mirkwood",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Assault on Lothlorien",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Ravagers of the Shire",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -14077,6 +15255,10 @@
 					},
 					{
 						"name": "Army of the Great Eye",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Fell Beings of Mirkwood",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -14259,6 +15441,11 @@
 					},
 					{
 						"name": "Army of the Great Eye",
+						"heroicTier": "Independent Hero"
+					},
+					null,
+					{
+						"name": "Fell Beings of Mirkwood",
 						"heroicTier": "Independent Hero"
 					}
 				],
@@ -23314,6 +24501,10 @@
 					{
 						"name": "Army of the White Hand",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of Dunland",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 55,
@@ -23421,6 +24612,10 @@
 					},
 					{
 						"name": "Moria",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Assault on Lothlorien",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -26796,6 +27991,782 @@
 		],
 		"warriors": [
 			{
+				"name": "Broodling",
+				"factions": [],
+				"autoAddOnly": true,
+				"points": 0,
+				"movement": 10,
+				"fight": 2,
+				"shoot": 6,
+				"strength": 3,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 8,
+				"intelligence": 8,
+				"options": [],
+				"specialRules": [
+					"Poisoned Attacks",
+					"Swift Movement"
+				],
+				"wargear": []
+			},
+			{
+				"name": "Corsair Reaver",
+				"factions": [
+					"Corsair Fleets",
+					"Umbar",
+					"Grand Army of the South"
+				],
+				"points": 9,
+				"legacy": true,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 3,
+				"attack": 2,
+				"wounds": 1,
+				"courage": 6,
+				"intelligence": 8,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Corsair"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Fearless",
+					"Mindless Killers"
+				],
+				"wargear": [
+					"Hand weapons"
+				],
+				"options": []
+			},
+			{
+				"name": "Khandish Charioteer",
+				"factions": [
+					"Grand Army of the South",
+					"Variags of Khand"
+				],
+				"points": 40,
+				"legacy": true,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 7,
+				"attack": 1,
+				"wounds": 3,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Khand"
+				],
+				"unitType": [
+					"Warrior",
+					"Chariot"
+				],
+				"baseSize": [
+					"60mm"
+				],
+				"specialRules": [
+					"Dominant (3)",
+					"Chariot Charge"
+				],
+				"wargear": [
+					"Armour",
+					"Hand-and-a-half weapon",
+					"Hand weapon"
+				],
+				"options": [
+					{
+						"name": "Exchange hand-and-a-half weapon for bow",
+						"points": 0
+					}
+				],
+				"ignoreLimits": [
+					{
+						"in": [
+							"Variags of Khand"
+						],
+						"type": "bow"
+					}
+				]
+			},
+			{
+				"name": "Khandish Horseman",
+				"factions": [
+					"Grand Army of the South",
+					"Variags of Khand"
+				],
+				"points": 14,
+				"legacy": true,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Khand"
+				],
+				"unitType": [
+					"Warrior",
+					"Cavalry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [],
+				"wargear": [
+					"Armour",
+					"Hand-and-a-half weapon",
+					"Hand weapon",
+					"Bow",
+					"Horse"
+				],
+				"ignoreLimits": [
+					{
+						"in": [
+							"Variags of Khand"
+						],
+						"type": "bow"
+					}
+				],
+				"options": []
+			},
+			{
+				"name": "Khandish Warrior",
+				"factions": [
+					"Grand Army of the South",
+					"Variags of Khand"
+				],
+				"points": 8,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Khand"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [],
+				"wargear": [
+					"Armour",
+					"Hand-and-a-half weapon",
+					"Hand weapon"
+				],
+				"options": [
+					{
+						"name": "Exchange hand-and-a-half weapon for bow",
+						"points": 0
+					}
+				]
+			},
+			{
+				"name": "Half Troll",
+				"factions": [
+					"Grand Army of the South",
+					"Far Harad"
+				],
+				"points": 25,
+				"legacy": true,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 6,
+				"strength": 6,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 8,
+				"intelligence": 9,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Harad",
+					"Mahûd"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Dominant (2)",
+					"Terror"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				],
+				"options": [
+					{
+						"name": "Exchange hand weapon for two-handed weapon",
+						"points": 0
+					}
+				]
+			},
+			{
+				"name": "Mahûd Raider",
+				"factions": [
+					"Grand Army of the South",
+					"Far Harad"
+				],
+				"points": 17,
+				"legacy": true,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Harad",
+					"Mahûd"
+				],
+				"unitType": [
+					"Warrior",
+					"Cavalry"
+				],
+				"baseSize": [
+					"50mm"
+				],
+				"specialRules": [
+					"Poisoned Attacks (blowpipe)"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Shield",
+					"War Camel"
+				],
+				"options": [
+					{
+						"name": "Blowpipe",
+						"points": 1,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "War spear",
+						"points": 1,
+						"requireChooseOneKey": "a"
+					}
+				]
+			},
+			{
+				"name": "Mahûd Warrior",
+				"factions": [
+					"Grand Army of the South",
+					"Far Harad"
+				],
+				"points": 8,
+				"legacy": true,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Harad",
+					"Mahûd"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Poisoned Attacks (blowpipe)"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Shield"
+				],
+				"options": [
+					{
+						"name": "Blowpipe",
+						"points": 1,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Spear",
+						"points": 1,
+						"requireChooseOneKey": "a"
+					}
+				]
+			},
+			{
+				"name": "Watcher of Kârna",
+				"factions": [
+					"Legions of Mordor",
+					"Harad",
+					"Grand Army of the South"
+				],
+				"points": 9,
+				"legacy": true,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 5,
+				"strength": 3,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 5,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Harad"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Hatred (Spirit)",
+					"Poisoned Attacks (bow)",
+					"Resistant to Magic",
+					"Steely Nerve",
+					"Twin Blades"
+				],
+				"wargear": [
+					"Light armour",
+					"Hand weapon"
+				],
+				"options": [
+					{
+						"name": "Bow",
+						"points": 1,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Twin Blades",
+						"points": 1,
+						"requireChooseOneKey": "a"
+					}
+				]
+			},
+			{
+				"name": "Abrakhan Merchant Guard",
+				"factions": [
+					"Legions of Mordor",
+					"Harad",
+					"Grand Army of the South"
+				],
+				"points": 9,
+				"legacy": true,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Harad"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Burly"
+				],
+				"wargear": [
+					"Two-handed weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Dunlending Huscarl",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Frída Tallspear"
+							},
+							{
+								"in": "Army of the White Hand"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Gorûlf Ironskin"
+							},
+							{
+								"in": "Army of the White Hand"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Thrydan Wolfsbane"
+							},
+							{
+								"in": "Army of the White Hand"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Frída Tallspear"
+							},
+							{
+								"in": "Army of Dunland"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Gorûlf Ironskin"
+							},
+							{
+								"in": "Army of Dunland"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Thrydan Wolfsbane"
+							},
+							{
+								"in": "Army of Dunland"
+							}
+						]
+					}
+				],
+				"points": 11,
+				"legacy": true,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Dunland"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry",
+					"Elite"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Bodyguard",
+					"Favour of the War Chief",
+					"Dunlending War Axe"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon",
+					"Dunlending War Axe"
+				],
+				"options": []
+			},
+			{
+				"name": "Dunlending Horseman",
+				"factions": [
+					"Army of the White Hand",
+					"Army of Dunland"
+				],
+				"points": 12,
+				"legacy": true,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Dunland"
+				],
+				"unitType": [
+					"Warrior",
+					"Cavalry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"\"Slay their Horses!\""
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Shield",
+					"Horse"
+				],
+				"options": []
+			},
+			{
+				"name": "Dunlending Warrior",
+				"factions": [
+					"Army of the White Hand",
+					"Army of Dunland"
+				],
+				"points": 7,
+				"legacy": true,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Dunland"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				],
+				"options": [
+					{
+						"name": "Banner",
+						"points": 25,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Bow",
+						"points": 1,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Shield",
+						"points": 1,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Two-handed weapon",
+						"points": 1,
+						"requireChooseOneKey": "a"
+					}
+				]
+			},
+			{
+				"name": "Feral Uruk-hai",
+				"factions": [
+					"Army of the White Hand",
+					"Muster of Isengard"
+				],
+				"legacy": true,
+				"points": 13,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 4,
+				"attack": 2,
+				"wounds": 1,
+				"courage": 5,
+				"intelligence": 8,
+				"race": [
+					"Uruk-hai"
+				],
+				"faction": [
+					"Isengard"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Hatred (Man)",
+					"Oblivious to Pain"
+				],
+				"wargear": [
+					"Light armour",
+					"Hand weapons"
+				],
+				"options": []
+			},
+			{
+				"name": "Dweller in the Dark",
+				"factions": [
+					"Moria"
+				],
+				"points": 80,
+				"legacy": true,
+				"movement": 8,
+				"fight": 7,
+				"shoot": 4,
+				"strength": 5,
+				"defence": 5,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 3,
+				"intelligence": 8,
+				"race": [
+					"Spirit"
+				],
+				"faction": [
+					"Moria"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry",
+					"Monster"
+				],
+				"baseSize": [
+					"60mm"
+				],
+				"specialRules": [
+					"Dominant (3)",
+					"Resistant to Magic",
+					"Terror",
+					"Murderous Power"
+				],
+				"wargear": [
+					"Claws and teeth (hand weapons)"
+				],
+				"options": []
+			},
+			{
+				"name": "Warg Marauder",
+				"factions": [
+					"Moria",
+					"Assault on Lothlorien"
+				],
+				"points": 35,
+				"legacy": true,
+				"movement": 5,
+				"fight": 2,
+				"shoot": 5,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Goblin"
+				],
+				"faction": [
+					"Moria"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Cave Dweller (Moria Goblin Warriors only)",
+					"On the Hunt",
+					"Lethal Union",
+					"Warg Marauder"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Orc bow",
+					"Shield"
+				],
+				"options": []
+			},
+			{
 				"name": "Moria Blackshield Warrior",
 				"factions": [
 					"Depths of Moria",
@@ -26848,7 +28819,9 @@
 					"Minas Morgul",
 					"Cirith Ungol",
 					"Army of the Great Eye",
-					"Army of Carn Dûm"
+					"Army of Carn Dûm",
+					"Fell Beings of Mirkwood",
+					"Assault on Lothlorien"
 				],
 				"points": 6,
 				"legacy": true,
@@ -27132,7 +29105,7 @@
 					"Defenders of the Pelennor",
 					"Men of the West",
 					"The Fiefdoms",
-					"The Grief of Esomer"
+					"The Grief of Eomer"
 				],
 				"points": 10,
 				"legacy": true,
@@ -27711,8 +29684,13 @@
 			},
 			{
 				"name": "Bat Swarm",
-				"factions": [],
+				"factions": [
+					"Fell Beings of Mirkwood",
+					"Assault on Lothlorien",
+					"The Spider Queen's Brood"
+				],
 				"availableIn": [
+					"Razgush, War Leader of the North",
 					{
 						"all": [
 							{
@@ -27767,7 +29745,8 @@
 				"name": "Moria Goblin Prowler",
 				"factions": [
 					"Moria",
-					"Depths of Moria"
+					"Depths of Moria",
+					"Assault on Lothlorien"
 				],
 				"points": 7,
 				"movement": 5,
@@ -32263,7 +34242,8 @@
 					"Barad-Dur",
 					"Fell Beings of Mirkwood",
 					"Minas Morgul",
-					"Army of the Great Eye"
+					"Army of the Great Eye",
+					"Fell Beings of Mirkwood"
 				],
 				"points": 30,
 				"movement": 6,
@@ -32610,6 +34590,13 @@
 						"name": "Throwing spears",
 						"points": 2,
 						"chooseOneKey": "a"
+					},
+					{
+						"name": "Westfold Redshield",
+						"points": 1,
+						"availableIn": [
+							"Erkenbrand, Captain of Rohan"
+						]
 					}
 				],
 				"specialRules": [
@@ -33116,7 +35103,10 @@
 					"Minas Morgul",
 					"Barad-Dur",
 					"Cirith Ungol",
-					"Army of the Great Eye"
+					"Army of the Great Eye",
+					"Fell Beings of Mirkwood",
+					"Assault on Lothlorien",
+					"Ravagers of the Shire"
 				],
 				"points": 5,
 				"movement": 6,
@@ -33427,7 +35417,10 @@
 				"name": "Mordor Warg Rider",
 				"factions": [
 					"Barad-Dur",
-					"Army of the Great Eye"
+					"Army of the Great Eye",
+					"Fell Beings of Mirkwood",
+					"Assault on Lothlorien",
+					"Ravagers of the Shire"
 				],
 				"points": 11,
 				"movement": 6,
@@ -33856,6 +35849,16 @@
 							},
 							{
 								"in": "Breaking of the Fellowship"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Gildor Inglorion"
+							},
+							{
+								"in": "Road to Rivendell"
 							}
 						]
 					}
@@ -35582,9 +37585,12 @@
 					"Azog's Hunters",
 					"Pits of Dol Guldur",
 					"Rise of the Necromancer",
-					"Wolf Pack of Angmar"
+					"Wolf Pack of Angmar",
+					"Fell Beings of Mirkwood",
+					"The Spider Queen's Brood"
 				],
 				"availableIn": [
+					"Razgush, War Leader of the North",
 					{
 						"all": [
 							{
@@ -35673,7 +37679,8 @@
 				"name": "Hill Troll",
 				"factions": [
 					"Buhrdur's Horde",
-					"Army of Carn Dum"
+					"Army of Carn Dum",
+					"Ravagers of the Shire"
 				],
 				"points": 75,
 				"movement": 6,
@@ -36534,7 +38541,8 @@
 			{
 				"name": "Wild Man of Dunland",
 				"factions": [
-					"Army of the White Hand"
+					"Army of the White Hand",
+					"Army of Dunland"
 				],
 				"points": 5,
 				"movement": 6,
@@ -37142,7 +39150,8 @@
 				"factions": [
 					"Army of the White Hand",
 					"Usurpers of Edoras",
-					"Besiegers of the Hornburg"
+					"Besiegers of the Hornburg",
+					"Army of Dunland"
 				],
 				"unavailableIn": [
 					[
@@ -37188,7 +39197,32 @@
 				"name": "Mirkwood Giant Spider",
 				"factions": [
 					"Pits of Dol Guldur",
-					"Rise of the Necromancer"
+					"Rise of the Necromancer",
+					"Fell Beings of Mirkwood",
+					"The Spider Queen's Brood"
+				],
+				"availableIn": [
+					"Razgush, War Leader of the North",
+					{
+						"all": [
+							{
+								"in": "Drúzhag the Beastcaller"
+							},
+							{
+								"in": "Assault on Lothlorien"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Ashrak"
+							},
+							{
+								"in": "Assault on Lothlorien"
+							}
+						]
+					}
 				],
 				"points": 20,
 				"movement": 10,
@@ -37229,9 +39263,12 @@
 				"name": "Mirkwood Hunting Spider",
 				"factions": [
 					"Pits of Dol Guldur",
-					"Rise of the Necromancer"
+					"Rise of the Necromancer",
+					"Fell Beings of Mirkwood",
+					"The Spider Queen's Brood"
 				],
 				"availableIn": [
+					"Razgush, War Leader of the North",
 					{
 						"all": [
 							{
@@ -37239,6 +39276,26 @@
 							},
 							{
 								"in": "Moria"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Drúzhag the Beastcaller"
+							},
+							{
+								"in": "Assault on Lothlorien"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Ashrak"
+							},
+							{
+								"in": "Assault on Lothlorien"
 							}
 						]
 					}
@@ -37283,7 +39340,8 @@
 				"name": "Moria Goblin Warrior",
 				"factions": [
 					"Depths of Moria",
-					"Moria"
+					"Moria",
+					"Assault on Lothlorien"
 				],
 				"points": 4,
 				"movement": 5,
@@ -37841,6 +39899,20 @@
 		],
 		"gear": [
 			{
+				"name": "Bone-breakers",
+				"definition": "This is a Unique hand weapon. Enemy models with an Elven weapon Engaged in Combat with, or supporting a model Engaged in Combat with, Razgush do not receive the bonus to the roll-off should the Duel Roll result in a Drawn Combat.",
+				"tag": "Active"
+			},
+			{
+				"name": "The Golden Throne",
+				"definition": "This is a Unique banner. The Golden King does not suffer the -1 penalty to his Duel Rolls for carrying a banner.",
+				"tag": "Passive"
+			},
+			{
+				"name": "Redshield",
+				"definition": "Westfold Redshields treat Erkenbrand as a banner."
+			},
+			{
 				"name": "Mithril Crown",
 				"definition": "This is a Unique piece of wargear. Friendly Moria Goblin models within 3\" of Gróblog gain the Dominant (2) special rule.",
 				"tag": "Active"
@@ -38205,6 +40277,60 @@
 				"wounds": 1,
 				"courage": 7,
 				"intelligence": 7
+			},
+			{
+				"name": "Khandish Chariot",
+				"type": "mount",
+				"race": [
+					"Horse"
+				],
+				"faction": [
+					"Khand"
+				],
+				"unitType": [
+					"Chariot"
+				],
+				"baseSize": [
+					"60mm"
+				],
+				"movement": 10,
+				"fight": 2,
+				"shoot": 6,
+				"strength": 3,
+				"defence": 7,
+				"attack": 1,
+				"wounds": 3,
+				"courage": 7,
+				"intelligence": 7,
+				"specialRules": [
+					"Dominant (3)",
+					"Chariot Charge (Khand)"
+				]
+			},
+			{
+				"name": "War Camel",
+				"type": "mount",
+				"race": [
+					"Camel"
+				],
+				"unitType": [
+					"Mount"
+				],
+				"baseSize": [
+					"40mm"
+				],
+				"movement": 10,
+				"fight": 2,
+				"shoot": 6,
+				"strength": 4,
+				"defence": 4,
+				"attack": 0,
+				"wounds": 1,
+				"courage": 8,
+				"intelligence": 8,
+				"specialRules": [
+					"Impaler"
+				]
 			},
 			{
 				"name": "Brego",
@@ -40134,6 +42260,150 @@
 		],
 		"keywords": [
 			{
+				"name": "Progeny",
+				"definition": "At the beginning of her Activation, the Spider Queen may spend any number of Will Points she has remaining to summon a Broodling. For each Will Point spent, place a single Broodling anywhere within 3\" of the Spider Queen. Broodlings placed in this manner can never be placed in base contact with enemy models, but may be placed within the Control Zones of enemy models. Broodlings may be Activated on a turn in which they were summoned, though may not Activate as part of a Heroic Move or Heroic March declared by a friendly model that turn as they were not on the board when the Heroic Action was declared. Broodlings are never taken into account when working out if an Army is Broken or reduced to 25%.",
+				"tag": "Active"
+			},
+			{
+				"name": "The Beasts of Mirkwood",
+				"definition": "Razgush may include Bat Swarms, Mirkwood Giant Spiders, Mirkwood Hunting Spiders and Fell Wargs in his Warband even if they are not listed in the Army List Razgush is included in.",
+				"tag": "Passive"
+			},
+			{
+				"name": "War Leader of the North",
+				"definition": "The range of Razgush's Stand Fast is 12\" rather than 6\".",
+				"tag": "Passive"
+			},
+			{
+				"name": "Power from Death",
+				"definition": "Whenever Muzgûr slays an enemy model in Combat, he immediately regains a Will Point spent earlier in the battle.",
+				"tag": "Active"
+			},
+			{
+				"name": "Impressive Girth",
+				"definition": "Whenever Golfimbul suffers a Wound, roll a D6. On the roll of a 6+, the Wound is ignored. Golfimbul may use Might to influence this roll, though he may not use this special rule against Wounds caused by Magical Powers.",
+				"tag": "Active"
+			},
+			{
+				"name": "Mindless Killers",
+				"definition": "If this model starts its Activation more than 6\" away from a friendly Corsair bo'sun, it must immediately take an Intelligence Test. If the test is passed, all is fine and this model acts as normal. If the test is failed, then you must choose another friendly model within 1\" of this model; the chosen model immediately suffers a Strength 3 hit and, after this Strength 3 hit has been resolved, this model must Charge an enemy model if able. If there are no other friendly models within 1\" of this model when it fails its Intelligence Test, then this model's Activation immediately ends. In a turn in which this model fails its Intelligence Test for this special rule, it must re-roll all failed To Wound rolls when making Strikes and gains a bonus of +1 To Wound when making Strikes.",
+				"tag": "Active"
+			},
+			{
+				"name": "Commanding Presence",
+				"definition": "Friendly Khand models treat a Khandish King as a banner with a range of 6\".",
+				"tag": "Passive"
+			},
+			{
+				"name": "Chariot Charge (Khand)",
+				"definition": "When a Khandish Chariot Moves via Chariot Charge, it will inflict 2 Strength 4 Impact Hits.",
+				"tag": "Active"
+			},
+			{
+				"name": "Impaler",
+				"definition": "Each time this model Charges into Combat, it will inflict a single Strength 4 hit upon one model it has Charged (Cavalry models suffer this hit on both the rider and the Mount). If after this hit, this model is no longer Engaged in Combat, they may continue their Move in any way their controlling player wishes; stopping straight away, Charging another enemy model, or anything in between.",
+				"tag": "Active"
+			},
+			{
+				"name": "Twin Blades",
+				"definition": "A Watcher of Kârna with Twin Blades increases its Attacks to 2.",
+				"tag": "Active"
+			},
+			{
+				"name": "Steely Nerve",
+				"definition": "Watchers of Kârna gain a bonus of +2 to their Courage Test when attempting to Charge an enemy with the Terror special rule. Additionally, when an enemy model with the Blades of the Dead makes Strikes against this model, this model will treat its Courage value as 5+ rather than 7+ (before any modifiers are applied).",
+				"tag": "Active"
+			},
+			{
+				"name": "Impact Charge",
+				"definition": "Each time this model Charges into Combat, it will inflict a single Strength 4 hit upon one model it has Charged (Cavalry models suffer the hit on both the rider and the Mount). If after this hit, this model is no longer Engaged in Combat, they may continue their Move in any way their controlling player wishes; stopping straight away, Charging another enemy model, or anything in between.",
+				"tag": "Active"
+			},
+			{
+				"name": "Riches Beyond Renown",
+				"definition": "The Golden King can spend any number of Will Points when an enemy Hero within 12\" and Line of Sight takes a Courage Test. If he does, for each Will Point spent, the Hero model's Courage Test is reduced by 1. The Golden King may wait until after the Courage Test has been rolled to use this special rule. Affected Hero models may still use Might or Will Points to improve their Courage Test after the Golden King has used this special rule.",
+				"tag": "Active"
+			},
+			{
+				"name": "The Lure of Wealth",
+				"definition": "If the Golden King loses a Duel Roll, he may immediately spend a Will Point to use this special rule. If he does, enemy models may not make Strikes against the Golden King for the duration of the Combat.",
+				"tag": "Active"
+			},
+			{
+				"name": "Automatons",
+				"definition": "This model may never provide a Stand Fast to nearby Warrior models.",
+				"tag": "Passive"
+			},
+			{
+				"name": "Will of the Necromancer",
+				"definition": "This model can spend its Will Points as if they were Fate Points.",
+				"tag": "Passive"
+			},
+			{
+				"name": "Bound in Shadow",
+				"definition": "Whilst within 6\" of Sauron or a friendly Ringwraith model, this model automatically passes any Courage Tests it is required to take.",
+				"tag": "Passive"
+			},
+			{
+				"name": "Tribal King",
+				"definition": "If this model is your General, it increases its Attacks characteristic to 3 and gains the General Hunter special rule.",
+				"tag": "Passive"
+			},
+			{
+				"name": "\"Slay their Horses!\"",
+				"definition": "Whilst this model has the Cavalry keyword, it may re-roll To Wound rolls of a natural 1 when making Strikes against an enemy Mount.",
+				"tag": "Active"
+			},
+			{
+				"name": "Dunlending War Axe",
+				"definition": "This can be used as either a spear or a two-handed weapon.",
+				"tag": "Active"
+			},
+			{
+				"name": "Favour of the War Chief",
+				"definition": "If this model is Supporting a Combat, and is within 3\" of a friendly Dunland Hero, then this model gains a bonus of +1 to its Fight Value for the duration of the Combat.",
+				"tag": "Active"
+			},
+			{
+				"name": "Lord of Dunland",
+				"definition": "The range of Thrydan's Stand Fast is 12\" rather than 6\".",
+				"tag": "Passive"
+			},
+			{
+				"name": "Ironskin",
+				"definition": "If at the start of the Fight Phase Gorûlf is Engaged in Combat with an enemy Hero model, he may declare a Heroic Defence for free.",
+				"tag": "Active"
+			},
+			{
+				"name": "Readied Stance",
+				"definition": "Cavalry models do not gain the Extra Attack and Knock to the Ground bonuses whilst Engaged in Combat with Frída, or Engaged in Combat with a model Frída is Supporting.",
+				"tag": "Passive"
+			},
+			{
+				"name": "\"Go for the Horse!\"",
+				"definition": "Friendly Dunland models within 3\" of Frída may re-roll failed To Wound rolls when making Strikes against an enemy Mount.",
+				"tag": "Active"
+			},
+			{
+				"name": "Warg Marauder",
+				"definition": "A Warg Marauder is an interesting Cavalry model that consists of three Moria Goblin Warriors riding a single Warg Mount. Two of the Moria Goblin Warriors are armed with an Orc bow, whilst the other is armed with a shield. This is treated as any other Cavalry model with the following exceptions:\n                \n                Whilst the Moria Goblin Warrior with shield remains alive, all parts of the Cavalry model gain the bonus of +1 to their Defence.\n                \n                The Warg Marauder only counts as a single model towards an Army’s Bow Limit.\n                \n                If one Moria Goblin Warrior wishes to dismount, then they must all do so together"
+			},
+			{
+				"name": "On the Hunt",
+				"definition": "During the Shoot Phase, a Warg Marauder can make a shooting attack with an Orc bow for each Moria Goblin Warrior with an Orc bow still alive upon the Warg. These shooting attacks can still be made even if the Warg Marauder has Moved further than half its Move Value that turn, and even if it is Engaged in Combat.",
+				"tag": "Active"
+			},
+			{
+				"name": "Lethal Union",
+				"definition": "Whilst the Goblins remain mounted upon the Warg, the entire model gains the Terror special rule and gains a bonus of +1 to any Courage Tests it is required to take. Additionally, during a Combat a Warg Marauder gains an additional Attack for each Goblin after the first that is still mounted upon the Warg, provided they did not shoot during the Shoot Phase.",
+				"tag": "Passive"
+			},
+			{
+				"name": "Murderous Power",
+				"definition": "Each time a Dweller in the Dark slays a model in Combat, it regains a single Wound lost earlier in the battle. These Wounds are regained at the end of the Combat. A Dweller in the Dark can only regain Wounds in this way by making Strikes, never by using a Brutal Power Attack.",
+				"tag": "Active"
+			},
+			{
 				"name": "Run and Drum",
 				"definition": "The Drum is considered to be playing so long as both the Drummer and Drum Bearer are in base contact, and the Drummer is not Engaged in Combat.\n            \n            Whilst the Drum is being played it has the following effects:\n            • Friendly Moria Goblin models gain a bonus of +1 to any Courage Tests they are required to take.\n            • Enemy models suffer a -1 penalty to any Courage Tests they are required to take.\n            • Friendly Moria Goblin models within 18\" count as being in range of a banner.\n            • Whilst being played, the Moria Blackshield Drum counts as a banner for the purpose of Victory Points.",
 				"tag": "Active"
@@ -41732,6 +44002,11 @@
 				"definition": "Warbands led by a Goblin Mercenary Captain that contain solely Goblin Mercenaries do not have to deploy on the board at the start of the game. Instead, they may be kept in reserve. \n                \n                From turn 2 onwards, the controlling player must test to see if their Goblin Mercenaries have arrived. To do this, the Goblin Mercenary Captain must make a Courage test at any point during the controlling player’s Move phase.\n                If the test is passed, the controlling player may choose whether or not the Goblin Mercenaries have arrived. \n                \n                If the test is failed, then the opposing player may choose whether or not the Goblin Mercenaries have arrived.\n                \n                Once they have arrived, the controlling player places the warband fully within any eligible terrain piece on the board. Models deployed in this way may not\n                be placed within the Control Zones of any enemy models. This counts as the Goblin Mercenaries' movement for that turn. If the entire warband cannot be\n                placed for any reason (such as there are no eligible terrain pieces), then they  may arrive as Reinforcements from a board edge of the controlling player's\n                choice instead."
 			},
 			{
+				"name": "Unhinged Charge",
+				"definition": "At the start of a Combat in which Mauhúr Charged, Mauhúr may declare he is using this special rule before any dice are rolled. If he does, then he suffers a -1 penalty to his Duel Rolls; however, if his side wins, he may re-roll any failed To Wound rolls when making Strikes in that Combat.",
+				"tag": "Active"
+			},
+			{
 				"name": "Oblivious to Pain",
 				"tag": "Passive",
 				"definition": "Whenever this model suffers a Wound, roll a D6. On a roll of a natural 6, the Wound is ignored."
@@ -43008,6 +45283,90 @@
 		],
 		"armyBonuses": [
 			{
+				"name": "Beasts of the Forest",
+				"definition": "Warbands from this Army do not need a Hero to lead them if they number six or more models. Instead, one Warrior model within the Warband takes on the role of the Warband's Captain for the purposes of deployment. Warbands without a Hero model leading them may not include more than 12 models."
+			},
+			{
+				"name": "\"Worse are the Webs\"",
+				"definition": "After both sides have deployed, but before the first turn begins, a player using this Army List may place four 25mm Web Markers on the board. Web Markers cannot be set up within 3\" of an enemy model or Objective Marker, and cannot be set up within 6\" of the edge of the board or within 9\" of another Web Marker. Any non-Spider model within 3\" of a Web Marker is considered to be in Difficult Terrain. Additionally, Spider models do not need Line of Sight to Charge a model within 3\" of a Web Marker."
+			},
+			{
+				"name": "Protect the Queen",
+				"definition": "Whenever the Spider Queen suffers a Wound, before any Fate Rolls are made, she may roll a D6. On a 3+, she may choose a single friendly Spider model within 1\" to immediately suffer the Wound instead of her."
+			},
+			{
+				"name": "Pounce",
+				"definition": "When a friendly Spider Warrior model Charges an enemy Infantry model, they gain the Knock to the Ground bonus as if they were Cavalry. This bonus is lost if they are subsequently Charged by an enemy Cavalry model."
+			},
+			{
+				"name": "The Queen's Cunning",
+				"definition": "If the Spider Queen declares a Heroic Move in the same turn as an enemy Hero, and subsequently loses the roll-off to see which Heroic Move will go first, she may choose to cancel her Heroic Move and regain the Might point spent to declare it."
+			},
+			{
+				"name": "Warrior Pride",
+				"definition": "Mahûd Warrior models within 6\" of a friendly Mahûd Hero model that is Engaged in Combat automatically pass all Courage Tests they are required to take."
+			},
+			{
+				"name": "Revel in Death",
+				"definition": "If your General slays an enemy Hero model in Combat, then until the end of the turn friendly Mahûd Warrior models within 6\" of your General gain a bonus of +1 to their Fight Value."
+			},
+			{
+				"name": "Battle Frenzy",
+				"definition": "Whenever a friendly Mahûd model suffers a Wound, roll a D6. On the roll of natural 6, the Wound is ignored."
+			},
+			{
+				"name": "Golfimbul's Rage",
+				"definition": "Golfimbul may declare a Heroic Combat each turn for free."
+			},
+			{
+				"name": "Courage from Ignorance",
+				"definition": "Whilst Golfimbul is still alive and on the battlefield, friendly Orc models gain a bonus of +1 to any Courage Tests they are required to take."
+			},
+			{
+				"name": "Overwhelm the Foe",
+				"definition": "Friendly Orc models gain a bonus of +1 To Wound when making Strikes against an enemy model that is outnumbered in a Combat."
+			},
+			{
+				"name": "\"Death to the Forgoil!\"",
+				"definition": "Friendly Dunland models gain the Hatred (Rohan) special rule."
+			},
+			{
+				"name": "Dunlending Pride",
+				"definition": "Friendly banners have a range of 6\" rather than 3\"."
+			},
+			{
+				"name": "Dunlending War Cry",
+				"definition": "Once per game, at the start of any Fight Phase, Thrydan can use this special rule so long as he is alive and on the battlefield. If he does, then until the end of the turn friendly Dunland models within 12\" of Thrydan gain a bonus of +1 To Wound when making Strikes."
+			},
+			{
+				"name": "High King of Khand",
+				"definition": "The Khandish King that is your General gains an additional Might Point. Additionally, so long as he is alive and on the battlefield, your General counts as a banner for the purpose of Victory Points."
+			},
+			{
+				"name": "Khandish Fury",
+				"definition": "Once per game, at the start of any Fight Phase, you can declare that you are using this ability so long as there is at least one friendly Hero model alive and on the battlefield. If you do, then until the end of the turn friendly Warrior models that are within 3\" of a friendly Hero model gain a bonus of +1 to their Fight Value."
+			},
+			{
+				"name": "Through the Forest",
+				"definition": "Friendly Infantry models gain the Woodland Creature special rule."
+			},
+			{
+				"name": "The War Leader",
+				"definition": "Whilst Engaged in Combat with an enemy Elf model, Razgush gains a bonus of +1 to his Fight Value."
+			},
+			{
+				"name": "Death to the Elves",
+				"definition": "Friendly models gain the Hatred (Elf) special rule."
+			},
+			{
+				"name": "Cover of Darkness",
+				"definition": "Any game using this Army List automatically takes place at night. Use the Fighting at Night special rules found on page 137 of the Middle-earth Strategy Battle Game Rules Manual."
+			},
+			{
+				"name": "Ruthless Savagery",
+				"definition": "Friendly Orc and Goblin models gain a bonus of +1 To Wound when making Strikes against an enemy model that is outnumbered in a Combat."
+			},
+			{
 				"name": "Campaign in Rhun",
 				"definition": "Friendly models gain the Hatred (Easterling) special rule."
 			},
@@ -43884,7 +46243,7 @@
 				"definition": "During the Priority Phase, after Priority has been determined, the Goblin King may choose to sing one of his songs. If he does, choose one of the songs below and apply its effects until the end of the turn. The Goblin King may not sing the same song as he sung the previous turn.\n              -\"Batter and beat, make them stammer and squeak!\" - Other friendly Goblin models treat the Goblin King as a banner with a range of 6\".\n              -\"You can yammer and yelp but there ain't no help!\" - Other friendly Goblin models within 6\" of the Goblin King cause Terror\n              -\"Abonimations, mutations, deviations\" - Whenever another friendly Goblin model within 6\" of the Goblin King suffers a Wound, roll a D6. On the roll of a natural 6, the Wound is ignored.\n              -\"Bones will be shattered, necks will be wrung\" - Other friendly Goblin models within 6\" of the Goblin King may re-roll To Wound Rolls of a natural 1 when making Strikes."
 			},
 			{
-				"name": "Strength in Numbers",
+				"name": "Strength in Numbers (Goblin-Town)",
 				"definition": "Whilst your Army is not Broken, friendly Goblin models receive a bonus of +1 to any Courage Tests they take for Charging an enemy with the Terror special rule."
 			},
 			{
