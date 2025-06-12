@@ -40010,7 +40010,7 @@
 		],
 		"gear": [
 			{
-				"name": "Bone-breakers",
+				"name": "Bone-breaker",
 				"definition": "This is a Unique hand weapon. Enemy models with an Elven weapon Engaged in Combat with, or supporting a model Engaged in Combat with, Razgush do not receive the bonus to the roll-off should the Duel Roll result in a Drawn Combat.",
 				"tag": "Active"
 			},
