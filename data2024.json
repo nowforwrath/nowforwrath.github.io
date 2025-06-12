@@ -675,6 +675,7 @@
 			},
 			{
 				"name": "Variags of Khand",
+				"legacy": true,
 				"alignment": "evil",
 				"additionalRules": [
 					"A Variags of Khand Army must always contain a Khandish King, who is always the Army's General.",
@@ -696,6 +697,7 @@
 			},
 			{
 				"name": "Assault on Lothlorien",
+				"legacy": true,
 				"alignment": "evil",
 				"additionalRules": [
 					"An Assault on Lothlórien Army must always contain Muzgúr, who is always the Army's General.",
@@ -711,6 +713,7 @@
 			},
 			{
 				"name": "Fell Beings of Mirkwood",
+				"legacy": true,
 				"alignment": "evil",
 				"additionalRules": [
 					"A Fell Beings of Mirkwood Army must always contain Razgush, who is always the Army's General."
@@ -34242,8 +34245,7 @@
 					"Barad-Dur",
 					"Fell Beings of Mirkwood",
 					"Minas Morgul",
-					"Army of the Great Eye",
-					"Fell Beings of Mirkwood"
+					"Army of the Great Eye"
 				],
 				"points": 30,
 				"movement": 6,
