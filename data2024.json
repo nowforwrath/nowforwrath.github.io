@@ -1041,6 +1041,20 @@
 				],
 				"armyBonuses": [
 					"The Great Eye"
+				],
+				"requireOne": [
+					[
+						"The Witch-King of Angmar C",
+						"The Betrayer",
+						"The Dark Marshal",
+						"The Dwimmerlaik",
+						"Khamûl the Easterling",
+						"The Knight of Umbar",
+						"Ringwraith C",
+						"The Shadow Lord",
+						"The Tainted",
+						"The Undying"
+					]
 				]
 			},
 			{
@@ -4528,8 +4542,7 @@
 				"specialRules": [],
 				"wargear": [
 					"Orc Comander",
-					"Great Beast",
-					"Howdah"
+					"Great Beast"
 				],
 				"includes": [
 					{
