@@ -4569,7 +4569,8 @@
 					"Dominant (6)",
 					"Large Target",
 					"Terror",
-					"Trample (Great Beast)"
+					"Trample (Great Beast)",
+					"Orc Archers"
 				],
 				"wargear": [
 					"Orc Commander",
@@ -42371,6 +42372,11 @@
 		],
 		"keywords": [
 			{
+				"name": "Plenty of Orcs",
+				"tag": "Passive",
+				"definition": "If the Orc Commander would lose its last Wound whilst riding the Great Beast, then the Howdah will suffer the Wound instead (this represents an Orc from the Howdah taking command). If the Great Beast is slain, then the Orc Commander will also be slain and removed as a casualty"
+			},
+			{
 				"name": "Progeny",
 				"definition": "At the beginning of her Activation, the Spider Queen may spend any number of Will Points she has remaining to summon a Broodling. For each Will Point spent, place a single Broodling anywhere within 3\" of the Spider Queen. Broodlings placed in this manner can never be placed in base contact with enemy models, but may be placed within the Control Zones of enemy models. Broodlings may be Activated on a turn in which they were summoned, though may not Activate as part of a Heroic Move or Heroic March declared by a friendly model that turn as they were not on the board when the Heroic Action was declared. Broodlings are never taken into account when working out if an Army is Broken or reduced to 25%.",
 				"tag": "Active"
@@ -44590,8 +44596,17 @@
 				"definition": "The Keeper of the Dungeons gains a bonus of +1 To Wound when making Strikes against any model carrying a ring of power - either Narya, Nenya, Vilay, the Ring of Durin, or the One Ring."
 			},
 			{
+				"name": "Orc Archers",
+				"tag": "Passive",
+				"definition": " The Orcs in the Howdah are not treated as separate models, and as such cannot be targeted individually. During the Shoot Phase, the Howdah can make a number of shooting attacks equal to its remaining Wounds, using its own Shoot Value. These shots are treated as being made with an Orc bow, can still be made if the Great Beast has Moved over half its Move Value, and do not suffer the -1 penalty for Moving and Shooting. Measure the range from the base of the Great Beast, and Line of Sight from the Commander."
+			},
+			{
 				"name": "Trample (Mumak)",
 				"definition": "When a Mumak tramples, it will inflict 3 Strength 9 Impact Hits."
+			},
+			{
+				"name": "Trample (Great Beast)",
+				"definition": "When a Great Beast of Gorgoroth tramples, it will inflict 3 Strength 6 Hits."
 			},
 			{
 				"name": "Awesome Presence",
