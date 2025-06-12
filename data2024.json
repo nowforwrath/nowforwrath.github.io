@@ -688,7 +688,7 @@
 				"specialRules": [],
 				"requiredChildren": [
 					{
-						"name": "Khandish King",
+						"name": "Khandish King (Leader)",
 						"points": 100,
 						"elementPropertyName": "heroes",
 						"mustBeLeader": true
@@ -3421,6 +3421,7 @@
 				],
 				"points": 55,
 				"legacy": true,
+				"unlimited": true,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
@@ -3463,6 +3464,65 @@
 				]
 			},
 			{
+				"name": "Khandish King (Leader)",
+				"factions": [
+					{
+						"name": "Grand Army of the South",
+						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Variags of Khand",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"points": 100,
+				"legacy": true,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 3,
+				"will": 2,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Khand"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic March",
+					"Heroic Resolve",
+					"Heroic Strike"
+				],
+				"specialRules": [
+					"Commanding Presence"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Hand-and-a-half weapon",
+					"Bow"
+				],
+				"options": [
+					{
+						"name": "Khandish Chariot",
+						"points": 35
+					}
+				]
+			},
+			{
 				"name": "Khandish King",
 				"factions": [
 					{
@@ -3486,8 +3546,8 @@
 				"wounds": 2,
 				"courage": 5,
 				"intelligence": 5,
-				"might": 3,
-				"will": 3,
+				"might": 2,
+				"will": 2,
 				"fate": 1,
 				"race": [
 					"Man"
