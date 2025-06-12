@@ -3235,16 +3235,16 @@
 				"points": 45,
 				"legacy": true,
 				"movement": 6,
-				"fight": 3,
+				"fight": 4,
 				"shoot": 4,
 				"strength": 4,
 				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
 				"courage": 6,
-				"intelligence": 6,
+				"intelligence": 8,
 				"might": 2,
-				"will": 1,
+				"will": 2,
 				"fate": 0,
 				"race": [
 					"Orc"
@@ -8955,6 +8955,36 @@
 				"wargear": [],
 				"decreaseModelCount": 1,
 				"specialText": "Warband must have 10-12 ruffians."
+			},
+			{
+				"name": "No Hero (Spider)",
+				"factions": [
+					{
+						"name": "The Spider Queen's Brood",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"unlimited": true,
+				"points": 0,
+				"movement": 0,
+				"fight": 0,
+				"shoot": 0,
+				"strength": 0,
+				"defence": 0,
+				"attack": 0,
+				"wounds": 0,
+				"courage": 0,
+				"intelligence": 0,
+				"might": 0,
+				"will": 0,
+				"fate": 0,
+				"heroicActions": [],
+				"keywords": [],
+				"options": [],
+				"specialRules": [],
+				"wargear": [],
+				"decreaseModelCount": 1,
+				"specialText": "Warband must have at least 6 warriors."
 			},
 			{
 				"name": "Tom Bombadil",
@@ -42345,7 +42375,7 @@
 			},
 			{
 				"name": "Impressive Girth",
-				"definition": "Whenever Golfimbul suffers a Wound, roll a D6. On the roll of a 6+, the Wound is ignored. Golfimbul may use Might to influence this roll, though he may not use this special rule against Wounds caused by Magical Powers.",
+				"definition": "Whenever Golfimbul suffers a Wound, roll a D6. On the roll of a 5+, the Wound is ignored. Golfimbul may use Might to influence this roll, though he may not use this special rule against Wounds caused by Magical Powers.",
 				"tag": "Active"
 			},
 			{
