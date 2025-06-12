@@ -702,7 +702,7 @@
 				"additionalRules": [
 					"An Assault on Lothlórien Army must always contain Muzgúr, who is always the Army's General.",
 					"An Assault on Lothlórien Army must always contain at least one Unique Goblin Hero.",
-					"Spider models may only be included in either Gróblog's or Ashrak's Warbands.",
+					"Spider models may only be included in either Drûzhag’s or Ashrâk’s Warbands",
 					"This army may not include more Goblin models than Orc models."
 				],
 				"armyBonuses": [
@@ -6237,7 +6237,7 @@
 				"courage": 4,
 				"intelligence": 5,
 				"might": 1,
-				"will": 1,
+				"will": 4,
 				"fate": 1,
 				"race": [
 					"Elf"
