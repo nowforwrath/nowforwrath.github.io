@@ -6415,6 +6415,10 @@
 					{
 						"name": "Fords of Isen",
 						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Realms of Men",
+						"heroicTier": "Minor Hero"
 					}
 				],
 				"points": 55,
@@ -6679,6 +6683,10 @@
 					},
 					{
 						"name": "Defenders of the Pelennor",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Realms of Men",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -29147,7 +29155,8 @@
 					"Kingdom of Rohan",
 					"Road to Helm's Deep",
 					"Fords of Isen",
-					"Paths of the Druadan"
+					"Paths of the Druadan",
+					"Realms of Men"
 				],
 				"points": 8,
 				"legacy": true,
@@ -29210,7 +29219,8 @@
 					"Defenders of the Pelennor",
 					"Men of the West",
 					"The Fiefdoms",
-					"The Grief of Eomer"
+					"The Grief of Eomer",
+					"Realms of Men"
 				],
 				"points": 10,
 				"legacy": true,
