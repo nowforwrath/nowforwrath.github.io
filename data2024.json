@@ -43352,6 +43352,11 @@
 				"definition": "A model with this special rule gains a bonus of +1 To Wound when making Strikes against a model with the same keyword as the one shown in brackets. So, a model with the Hatred (Man) special rule would gain a bonus of +1 To Wound when making Strikes against Man models."
 			},
 			{
+				"name": "Hatred (Elf)",
+				"tag": "Active",
+				"definition": "A model with this special rule gains a bonus of +1 To Wound when making Strikes against a model with the same keyword as the one shown in brackets. So, a model with the Hatred (Man) special rule would gain a bonus of +1 To Wound when making Strikes against Man models."
+			},
+			{
 				"name": "Hatred (Gundabad)",
 				"tag": "Active",
 				"definition": "A model with this special rule gains a bonus of +1 To Wound when making Strikes against a model with the same keyword as the one shown in brackets. So, a model with the Hatred (Man) special rule would gain a bonus of +1 To Wound when making Strikes against Man models."
@@ -44069,6 +44074,11 @@
 			},
 			{
 				"name": "Uruk-haibane",
+				"tag": "Active",
+				"definition": "Bane weapons cause D3 Wounds rather than 1, per successful Strike, on specific races – the race in question will be presented as Xbane, where X is the race in question. For example, a model with the Orcbane special rule will cause D3 Wounds per successful Strike against models with the Orc keyword."
+			},
+			{
+				"name": "Elfbane",
 				"tag": "Active",
 				"definition": "Bane weapons cause D3 Wounds rather than 1, per successful Strike, on specific races – the race in question will be presented as Xbane, where X is the race in question. For example, a model with the Orcbane special rule will cause D3 Wounds per successful Strike against models with the Orc keyword."
 			},
