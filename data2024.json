@@ -15259,10 +15259,6 @@
 					{
 						"name": "Army of the Great Eye",
 						"heroicTier": "Hero of Fortitude"
-					},
-					{
-						"name": "Fell Beings of Mirkwood",
-						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -15444,11 +15440,6 @@
 					},
 					{
 						"name": "Army of the Great Eye",
-						"heroicTier": "Independent Hero"
-					},
-					null,
-					{
-						"name": "Fell Beings of Mirkwood",
 						"heroicTier": "Independent Hero"
 					}
 				],
