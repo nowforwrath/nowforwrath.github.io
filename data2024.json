@@ -3475,6 +3475,7 @@
 					}
 				],
 				"points": 100,
+				"unlimited": true,
 				"legacy": true,
 				"movement": 6,
 				"fight": 5,
@@ -6818,7 +6819,17 @@
 				"options": [
 					{
 						"name": "Warg",
-						"points": 20
+						"points": 20,
+						"availableIn": [
+							"Barad-Dur",
+							"Legions of Mordor",
+							"Army of Gothmog",
+							"Minas Morgul",
+							"Cirith Ungol",
+							"The Black Gate",
+							"Ravagers of the Shire",
+							"Assault on Lothlorien"
+						]
 					}
 				]
 			},
