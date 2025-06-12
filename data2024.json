@@ -5405,7 +5405,7 @@
 				"wounds": 1,
 				"courage": 1,
 				"intelligence": 1,
-				"might": 2,
+				"might": 0,
 				"will": 16,
 				"fate": 2,
 				"race": [
@@ -5685,6 +5685,10 @@
 					{
 						"name": "Expedition to the East",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Iron Hills",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"points": 140,
@@ -5733,6 +5737,10 @@
 				"factions": [
 					{
 						"name": "Expedition to the East",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Iron Hills",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
