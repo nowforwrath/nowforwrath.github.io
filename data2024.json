@@ -8357,7 +8357,8 @@
 				"factions": [
 					{
 						"name": "Road to Rivendell",
-						"heroicTier": "Independent Hero"
+						"heroicTier": "Independent Hero",
+						"unlockedBy": "Tom Bombadil"
 					}
 				],
 				"points": 80,
