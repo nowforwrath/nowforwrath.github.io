@@ -34,7 +34,13 @@
 		}
 	],
 	"game": "Middle-Earth Strategy Battle Game - 2024",
-	"toggles": [],
+	"toggles": [
+		{
+			"property": "legacy",
+			"label": "Include Legacy",
+			"default": false
+		}
+	],
 	"scenarios": [
 		"Hold Ground",
 		"Destroy the Supplies",
@@ -584,6 +590,126 @@
 	],
 	"data": {
 		"factions": [
+			{
+				"name": "Expedition to the East",
+				"legacy": true,
+				"alignment": "good",
+				"additionalRules": [
+					"The General of an Expedition to the East Army must always be a Unique Hero.",
+					"Dwarf Warrior models can only be included in the Warband of a Dwarf Hero.",
+					"Gondor Warrior models can only be included in the Warband of a Gondor Hero."
+				],
+				"armyBonuses": [
+					"Campaign in Rhun",
+					"Unlikely Allies",
+					"Spoils of War"
+				],
+				"specialRules": [],
+				"childMatchesRequired": [
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "faction",
+						"value": "Gondor",
+						"childElementPropertyName": "warriors"
+					},
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "race",
+						"value": "Dwarf",
+						"childElementPropertyName": "warriors"
+					}
+				]
+			},
+			{
+				"name": "Reclamation of Moria",
+				"alignment": "good",
+				"legacy": true,
+				"additionalRules": [
+					"A Reclamation of Moria Army must always contain Balin, who is always the Army's General.",
+					"Ori and Óin gain the Khazad-dúm keyword."
+				],
+				"armyBonuses": [
+					"Reclaim Moria",
+					"A Desperate Defence",
+					"Balin's Last Stand"
+				],
+				"specialRules": [],
+				"requiredChildren": [
+					{
+						"name": "Balin the Dwarf, King of Moria",
+						"points": 110,
+						"mustBeLeader": true,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
+			{
+				"name": "Fields of Celebrant",
+				"legacy": true,
+				"alignment": "good",
+				"additionalRules": [
+					"A Fields of Celebrant Army must always contain Eorl the Young, who is always the Army's General.",
+					"A Fields of Celebrant Army must always contain a King of Men, which must choose the Gondor keyword as part of its Kingdoms of Men special rule. No other Kings of Men can be taken.",
+					"Rohan Warrior models can only be included in the Warband of a Rohan Hero.",
+					"Gondor Warrior models can only be included in the Warband of a Gondor Hero."
+				],
+				"armyBonuses": [
+					"Birth of an Alliance",
+					"The Charge of Eorl",
+					"Gondor's Last Defence"
+				],
+				"specialRules": [],
+				"requiredChildren": [
+					{
+						"name": "Eorl the Young",
+						"points": 120,
+						"mustBeLeader": true,
+						"elementPropertyName": "heroes"
+					},
+					{
+						"name": "King of Men (Gondor)",
+						"points": 75,
+						"elementPropertyName": "heroes"
+					}
+				],
+				"childMatchesRequired": [
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "faction",
+						"value": "Rohan",
+						"childElementPropertyName": "warriors"
+					},
+					{
+						"elementPropertyName": "heroes",
+						"matchPropertyName": "faction",
+						"value": "Gondor",
+						"childElementPropertyName": "warriors"
+					}
+				]
+			},
+			{
+				"name": "Battle of Greenfields",
+				"legacy": true,
+				"alignment": "good",
+				"additionalRules": [
+					"A Battle of Greenfields Army must always contain Bandobras Took, who is always the Army's General."
+				],
+				"armyBonuses": [
+					"The Bullroarer",
+					"\"Defend the Shire!\"",
+					"\"They're dangerous folk, wandering the wilds\"",
+					"The Bounders"
+				],
+				"specialRules": [],
+				"requiredChildren": [
+					{
+						"name": "Bandobras Took",
+						"points": 50,
+						"mustBeLeader": true,
+						"elementPropertyName": "heroes"
+					}
+				]
+			},
 			{
 				"name": "Grand Army of the South",
 				"alignment": "evil",
@@ -2884,6 +3010,1045 @@
 			}
 		],
 		"heroes": [
+			{
+				"name": "Múrin",
+				"factions": [
+					{
+						"name": "Expedition to the East",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 140,
+				"movement": 5,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 8,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 6,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Iron Hills"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strike"
+				],
+				"specialRules": [
+					"Mountain Dweller",
+					"Kalazâl"
+				],
+				"wargear": [
+					"Dwarf armour",
+					"Shield",
+					"Kalazâl"
+				],
+				"options": []
+			},
+			{
+				"name": "Drár",
+				"factions": [
+					{
+						"name": "Expedition to the East",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 0,
+				"movement": 5,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Iron Hills"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Accuracy"
+				],
+				"specialRules": [
+					"Expert Shot",
+					"Mountain Dweller",
+					"Sharpshooter"
+				],
+				"wargear": [
+					"Dwarf armour",
+					"Hand weapon",
+					"Dwarf bow"
+				],
+				"options": []
+			},
+			{
+				"name": "Dwarf Shieldbearer",
+				"factions": [
+					{
+						"name": "Kingdom of Khazad-dum",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Reclamation of Moria",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"points": 60,
+				"legacy": true,
+				"movement": 5,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 1,
+				"will": 0,
+				"fate": 0,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Khazad-dum"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"In Defence of the King"
+				],
+				"wargear": [
+					"Dwarf armour",
+					"Shield",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Balin the Dwarf, King of Moria",
+				"factions": [
+					{
+						"name": "Reclamation of Moria",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 110,
+				"legacy": true,
+				"movement": 5,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 8,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 5,
+				"will": 3,
+				"fate": 1,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Khazad-dum"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic March",
+					"Heroic Resolve",
+					"Heroic Strike"
+				],
+				"specialRules": [
+					"Leader (Khazad Guard)",
+					"Longbeard",
+					"Durin's Axe"
+				],
+				"wargear": [
+					"Heavy Dwarf armour",
+					"Durin's Axe"
+				],
+				"options": []
+			},
+			{
+				"name": "Flói Stonehand",
+				"factions": [
+					{
+						"name": "Reclamation of Moria",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"legacy": true,
+				"points": 75,
+				"movement": 5,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 4,
+				"might": 1,
+				"will": 3,
+				"fate": 1,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Khazad-dum"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Resolve"
+				],
+				"specialRules": [
+					"Loremaster",
+					"The Living Lore"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "King's Champion Group",
+				"factions": [
+					{
+						"name": "Kingdom of Khazad-dum",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Reclamation of Moria",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 140,
+				"legacy": true,
+				"hideStats": true,
+				"unlimited": true,
+				"heroicActions": [],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "warriors",
+						"name": "Herald",
+						"quantity": 2,
+						"points": 0,
+						"lockedChildren": true
+					}
+				],
+				"includes": [
+					{
+						"dataSource": "heroes",
+						"name": "King's Champion"
+					}
+				],
+				"options": [],
+				"specialRules": []
+			},
+			{
+				"name": "King's Champion",
+				"factions": [
+					{
+						"name": "Kingdom of Khazad-dum",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"legacy": true,
+				"unlimited": true,
+				"points": 0,
+				"movement": 5,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 5,
+				"defence": 7,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 6,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Khazad-Dum"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"unavailableSolo": true,
+				"options": [],
+				"specialRules": [
+					"The Herald's Duty"
+				],
+				"wargear": [
+					"Dwarf armour",
+					"Hand weapons"
+				]
+			},
+			{
+				"name": "Rivendell Stormcaller",
+				"factions": [
+					{
+						"name": "Lindon",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Rivendell",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"points": 65,
+				"unlimited": true,
+				"legacy": true,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 3,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 1,
+				"will": 3,
+				"fate": 1,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Rivendell"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Channelling"
+				],
+				"specialRules": [
+					"Woodland Creature",
+					"Powers of Nature"
+				],
+				"wargear": [
+					"Armour",
+					"Elven hand weapons"
+				],
+				"magicalPowers": [
+					{
+						"name": "Call Winds",
+						"range": 12,
+						"casting": 3
+					},
+					{
+						"name": "Foil Magic",
+						"range": 12,
+						"casting": 4
+					},
+					{
+						"name": "Strengthen Will",
+						"range": 12,
+						"casting": 3
+					}
+				],
+				"options": []
+			},
+			{
+				"name": "Lothlórien Stormcaller",
+				"factions": [
+					{
+						"name": "Lothlórien",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 65,
+				"legacy": true,
+				"unlimited": true,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 3,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 1,
+				"will": 3,
+				"fate": 1,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Lothlórien"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Channelling"
+				],
+				"specialRules": [
+					"Woodland Creature",
+					"Powers of Nature"
+				],
+				"wargear": [
+					"Armour",
+					"Elven hand weapons"
+				],
+				"magicalPowers": [
+					{
+						"name": "Call Winds",
+						"range": 12,
+						"casting": 3
+					},
+					{
+						"name": "Enchant Blades",
+						"range": 12,
+						"casting": 4
+					},
+					{
+						"name": "Writhing Vines",
+						"range": 0,
+						"casting": 4
+					}
+				],
+				"options": []
+			},
+			{
+				"name": "Erestor",
+				"factions": [
+					{
+						"name": "Lindon",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Rivendell",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Last Alliance",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 85,
+				"legacy": true,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 7,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 2,
+				"will": 2,
+				"fate": 1,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Rivendell"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strike"
+				],
+				"specialRules": [
+					"Terror",
+					"Woodland Creature",
+					"Noldorin Daggers"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Noldorin Daggers"
+				],
+				"options": []
+			},
+			{
+				"name": "Gildor Inglorion",
+				"factions": [
+					{
+						"name": "Road to Rivendell",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 70,
+				"legacy": true,
+				"movement": 8,
+				"fight": 6,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 4,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 1,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Rivendell"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Channelling",
+					"Heroic Defence",
+					"Heroic March",
+					"Heroic Resolve"
+				],
+				"specialRules": [
+					"Terror",
+					"Woodland Creature"
+				],
+				"wargear": [
+					"Elven weapon",
+					"Elven cloak"
+				],
+				"magicalPowers": [
+					{
+						"name": "Immobilise",
+						"range": 12,
+						"casting": 3
+					},
+					{
+						"name": "Writhing Vines",
+						"range": 0,
+						"casting": 4
+					}
+				]
+			},
+			{
+				"name": "Eorl the Young",
+				"factions": [
+					{
+						"name": "Fields of Celebrant",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 120,
+				"legacy": true,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 5,
+				"intelligence": 6,
+				"might": 3,
+				"will": 3,
+				"fate": 3,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Hero",
+					"Cavalry",
+					"Unique"
+				],
+				"baseSize": [
+					"40mm"
+				],
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic Resolve",
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"specialRules": [
+					"Expert Rider",
+					"Horse Lord",
+					"Leader (Son of Eorl)",
+					"Legendary Hero",
+					"Spear Mastery"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon",
+					"Shield",
+					"Throwing spears",
+					"Felarof"
+				],
+				"options": []
+			},
+			{
+				"name": "Erkenbrand, Captain of Rohan",
+				"factions": [
+					{
+						"name": "Kingdom of Rohan",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Riders of Éomer",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 90,
+				"legacy": true,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 2,
+				"will": 2,
+				"fate": 2,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Hero",
+					"Cavalry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic March",
+					"Heroic Strength"
+				],
+				"specialRules": [
+					"Expert Rider",
+					"Horse Lord",
+					"Horn of the Hammerhand"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon",
+					"Shield",
+					"Horse",
+					"Horn of the Hammerhand"
+				],
+				"options": [
+					{
+						"name": "Riders of Rohan in Erkenbrand's Warband may be upgraded to Westfold Redshields for +1 point per model. Westfold Redshields treat Erkenbrand as a banner.",
+						"points": 1
+					}
+				]
+			},
+			{
+				"name": "King's Huntsman",
+				"factions": [
+					{
+						"name": "Kingdom of Rohan",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Defenders of Helm's Deep",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Army of Edoras",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Fords of Isen",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"points": 55,
+				"unlimited": true,
+				"legacy": true,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Accuracy"
+				],
+				"specialRules": [
+					"Sharpshooter",
+					"Master Archer"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Longbow"
+				],
+				"options": []
+			},
+			{
+				"name": "Grimbold of Grimslade",
+				"factions": [
+					{
+						"name": "Kingdom of Rohan",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Fords of Isen",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 65,
+				"legacy": true,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 2,
+				"will": 2,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strength"
+				],
+				"specialRules": [
+					"Mighty Blow"
+				],
+				"wargear": [
+					"Armour",
+					"Two-handed weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Cirion, Lieutenant of Amon Barad",
+				"factions": [
+					{
+						"name": "Minas Tirith",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Expedition to the East",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 65,
+				"legacy": true,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 2,
+				"will": 2,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Resolve",
+					"Heroic Strike"
+				],
+				"specialRules": [
+					"Boldest of the Bold"
+				],
+				"wargear": [
+					"Armour",
+					"Shield",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Mablung, Ranger of Ithilien",
+				"factions": [
+					{
+						"name": "Garrison of Ithilien",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"points": 40,
+				"legacy": true,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 1,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Accuracy"
+				],
+				"specialRules": [
+					"Woodland Creature",
+					"Birdcalls"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Bow"
+				],
+				"options": []
+			},
+			{
+				"name": "Anborn, Ranger of Ithilien",
+				"factions": [
+					{
+						"name": "Garrison of Ithilien",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"points": 40,
+				"legacy": true,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 1,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Accuracy"
+				],
+				"specialRules": [
+					"Sharpshooter",
+					"Woodland Creature",
+					"Lethal Aim"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Bow"
+				],
+				"options": []
+			},
+			{
+				"name": "Knight of the White Tower",
+				"factions": [
+					{
+						"name": "Minas Tirith",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Atop the Walls",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Defenders of the Pelennor",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"unlimited": true,
+				"legacy": true,
+				"points": 75,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 5,
+				"might": 0,
+				"will": 0,
+				"fate": 0,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strike"
+				],
+				"specialRules": [
+					"The Bladelord's Skill"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon",
+					"White Sword of Gondor"
+				],
+				"options": []
+			},
 			{
 				"name": "Black Númenórean Marshal",
 				"factions": [
@@ -5980,6 +7145,10 @@
 					{
 						"name": "Kingdom of Khazad-dum",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Reclamation of Moria",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -7440,6 +8609,10 @@
 					{
 						"name": "The Grey Company",
 						"heroicTier": "Independent Hero"
+					},
+					{
+						"name": "Battle of Greenfields",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -9604,6 +10777,10 @@
 					{
 						"name": "Paths of the Druadan",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Fields of Celebrant",
+						"heroicTier": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -9659,6 +10836,9 @@
 							],
 							[
 								"Paths of the Druadan"
+							],
+							[
+								"Fields of Celebrant"
 							]
 						]
 					}
@@ -9681,7 +10861,8 @@
 							"Realms of Men",
 							"The Grief of Eomer",
 							"Fords of Isen",
-							"Paths of the Druadan"
+							"Paths of the Druadan",
+							"Fields of Celebrant"
 						]
 					},
 					{
@@ -9706,7 +10887,8 @@
 							"Riders of Theoden",
 							"The Grief of Eomer",
 							"Fords of Isen",
-							"Paths of the Druadan"
+							"Paths of the Druadan",
+							"Fields of Celebrant"
 						]
 					}
 				],
@@ -15165,6 +16347,10 @@
 					{
 						"name": "Realms of Men",
 						"heroicTier": "Hero of Legend"
+					},
+					{
+						"name": "Fields of Celebrant",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 75,
@@ -16527,6 +17713,10 @@
 					{
 						"name": "Army of Erebor",
 						"heroicTier": "Hero of Valour"
+					},
+					{
+						"name": "Reclamation of Moria",
+						"heroicTier": "Hero of Valour"
 					}
 				],
 				"points": 85,
@@ -16621,36 +17811,6 @@
 				]
 			},
 			{
-				"name": "King's Champion",
-				"factions": [],
-				"points": 0,
-				"movement": 5,
-				"fight": 6,
-				"shoot": 4,
-				"strength": 5,
-				"defence": 7,
-				"attack": 3,
-				"wounds": 2,
-				"courage": 5,
-				"might": 2,
-				"will": 1,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength"
-				],
-				"unavailableSolo": true,
-				"options": [],
-				"specialRules": [
-					"The Herald's Duty"
-				],
-				"wargear": [
-					"Heavy Dwarf Armour",
-					"Axe",
-					"Axe"
-				]
-			},
-			{
 				"name": "Ori the Dwarf, Champion of Erebor",
 				"factions": [
 					{
@@ -16659,6 +17819,10 @@
 					},
 					{
 						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Reclamation of Moria",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -17020,6 +18184,10 @@
 					},
 					{
 						"name": "The Battle of Five Armies",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Reclamation of Moria",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -17426,6 +18594,14 @@
 					},
 					{
 						"name": "The Grief of Eomer",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Fields of Celebrant",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Expedition to the East",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -22322,6 +23498,57 @@
 				"unlimited": true
 			},
 			{
+				"name": "Bandobras Took",
+				"factions": [
+					{
+						"name": "Battle of Greenfields",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"legacy": true,
+				"points": 50,
+				"movement": 4,
+				"fight": 4,
+				"shoot": 3,
+				"strength": 3,
+				"defence": 4,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 6,
+				"might": 0,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Hobbit"
+				],
+				"faction": [
+					"Shire"
+				],
+				"unitType": [
+					"Hero",
+					"Cavalry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"specialRules": [
+					"Leader (Hobbit Shirriff)",
+					"Resistant to Magic",
+					"Throw Stones (range 8\", Strength 1)",
+					"Clean strike"
+				],
+				"wargear": [
+					"Hand weapon and horse"
+				],
+				"options": []
+			},
+			{
 				"name": "Corsair Captain Leader",
 				"factions": [
 					{
@@ -24110,6 +25337,211 @@
 		],
 		"warriors": [
 			{
+				"name": "Herald",
+				"factions": [
+					"Kingdom of Khazad-dum"
+				],
+				"legacy": true,
+				"points": 0,
+				"movement": 5,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 7,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 0,
+				"will": 1,
+				"fate": 2,
+				"race": [
+					"Dwarf"
+				],
+				"faction": [
+					"Khazad-Dum"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
+				"autoAddOnly": true,
+				"options": [],
+				"specialRules": [
+					"The Herald's Duty",
+					"The Life Guard"
+				],
+				"wargear": [
+					"Dwarf armour",
+					"Hand weapon",
+					"Shield",
+					"Banner"
+				],
+				"countAsProperty": "heroes"
+			},
+			{
+				"name": "Son of Eorl",
+				"factions": [],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Eorl the Young"
+							},
+							{
+								"in": "Fields of Celebrant"
+							}
+						]
+					}
+				],
+				"legacy": true,
+				"points": 20,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 1,
+				"courage": 6,
+				"intelligence": 6,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Warrior",
+					"Cavalry",
+					"Elite"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Expert Rider",
+					"Riders of Eorl"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon",
+					"Shield",
+					"Armoured horse"
+				],
+				"options": []
+			},
+			{
+				"name": "Rohan Outrider",
+				"factions": [
+					"Kingdom of Rohan",
+					"Road to Helm's Deep",
+					"Fords of Isen",
+					"Paths of the Druadan"
+				],
+				"points": 8,
+				"legacy": true,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 3,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Expert Rider",
+					"Vanguard"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Bow"
+				],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "options",
+						"name": "Horse",
+						"in": [
+							[
+								"Road to Helm's Deep"
+							],
+							[
+								"Paths of the Druadan"
+							]
+						],
+						"points": 1
+					}
+				],
+				"options": [
+					{
+						"name": "Horse",
+						"points": 5
+					}
+				]
+			},
+			{
+				"name": "Man-at-arms of Dol Amroth",
+				"factions": [
+					"Defenders of the Pelennor",
+					"Men of the West",
+					"The Fiefdoms",
+					"The Grief of Esomer"
+				],
+				"points": 10,
+				"legacy": true,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor",
+					"Dol Amroth"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Pride of Dol Amroth"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon",
+					"Pike"
+				],
+				"options": []
+			},
+			{
 				"name": "Fredegar `Fatty` Bolger",
 				"factions": [
 					"The Shire"
@@ -24520,6 +25952,16 @@
 								"in": "The Shire"
 							}
 						]
+					},
+					{
+						"all": [
+							{
+								"in": "Bandobras Took"
+							},
+							{
+								"in": "Battle of Greenfields"
+							}
+						]
 					}
 				],
 				"points": 5,
@@ -24560,7 +26002,8 @@
 				"name": "Hobbit Militia",
 				"factions": [
 					"The Shire",
-					"Battle of Bywater"
+					"Battle of Bywater",
+					"Battle of Greenfields"
 				],
 				"availableIn": [
 					{
@@ -27782,7 +29225,8 @@
 				"name": "Hobbit Archer",
 				"factions": [
 					"Battle of Bywater",
-					"The Shire"
+					"The Shire",
+					"Battle of Greenfields"
 				],
 				"availableIn": [
 					{
@@ -28246,36 +29690,6 @@
 					"Hand weapon",
 					"Rapid-fire Bolt Thrower"
 				]
-			},
-			{
-				"name": "Herald",
-				"factions": [],
-				"points": 0,
-				"movement": 5,
-				"fight": 4,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 7,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 4,
-				"might": 0,
-				"will": 1,
-				"fate": 2,
-				"heroicActions": [],
-				"autoAddOnly": true,
-				"options": [],
-				"specialRules": [
-					"The Herald's Duty",
-					"The Life Guard"
-				],
-				"wargear": [
-					"Dwarf Armour",
-					"Axe",
-					"Shield",
-					"Banner"
-				],
-				"countAsProperty": "heroes"
 			},
 			{
 				"name": "Thrain the Broken",
@@ -29499,6 +30913,13 @@
 						"name": "Shield",
 						"points": 1,
 						"chooseOneKey": "a"
+					},
+					{
+						"name": "Helmingas",
+						"points": 1,
+						"availableIn": [
+							"Grimbold of Grimslade"
+						]
 					}
 				],
 				"specialRules": [
@@ -29525,7 +30946,8 @@
 					"Realms of Men",
 					"The Grief of Eomer",
 					"Fords of Isen",
-					"Paths of the Druadan"
+					"Paths of the Druadan",
+					"Fields of Celebrant"
 				],
 				"points": 14,
 				"movement": 6,
@@ -31044,7 +32466,9 @@
 					"Atop the Wall",
 					"Defenders of the Pelennor",
 					"Realms of Men",
-					"The Grief of Eomer"
+					"The Grief of Eomer",
+					"Fields of Celebrant",
+					"Expedition to the East"
 				],
 				"availableIn": [
 					{
@@ -31195,7 +32619,8 @@
 					"Atop the Wall",
 					"Defenders of the Pelennor",
 					"Realms of Men",
-					"The Grief of Eomer"
+					"The Grief of Eomer",
+					"Expedition to the East"
 				],
 				"availableIn": [
 					{
@@ -31380,6 +32805,16 @@
 							},
 							{
 								"in": "Realms of Men"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "King of Men (Gondor)"
+							},
+							{
+								"in": "Fields of Celebrant"
 							}
 						]
 					}
@@ -31604,7 +33039,8 @@
 				"factions": [
 					"Garrison of Ithilien",
 					"Reclamation of Osgiliath",
-					"Realms of Men"
+					"Realms of Men",
+					"Expedition to the East"
 				],
 				"points": 8,
 				"movement": 6,
@@ -32768,7 +34204,9 @@
 			{
 				"name": "Dwarf Warrior",
 				"factions": [
-					"Kingdom of Khazad-dum"
+					"Kingdom of Khazad-dum",
+					"Reclamation of Moria",
+					"Expedition to the East"
 				],
 				"points": 8,
 				"movement": 5,
@@ -32849,6 +34287,26 @@
 								"in": "Kingdom of Khazad-dum"
 							}
 						]
+					},
+					{
+						"all": [
+							{
+								"in": "Dwarf King"
+							},
+							{
+								"in": "Reclamation of Moria"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "Balin the Dwarf, King of Moria"
+							},
+							{
+								"in": "Reclamation of Moria"
+							}
+						]
 					}
 				],
 				"points": 12,
@@ -32896,7 +34354,8 @@
 			{
 				"name": "Iron Guard",
 				"factions": [
-					"Kingdom of Khazad-dum"
+					"Kingdom of Khazad-dum",
+					"Reclamation of Moria"
 				],
 				"points": 15,
 				"movement": 5,
@@ -32934,7 +34393,9 @@
 			{
 				"name": "Dwarf Ranger",
 				"factions": [
-					"Kingdom of Khazad-dum"
+					"Kingdom of Khazad-dum",
+					"Reclamation of Moria",
+					"Expedition to the East"
 				],
 				"points": 8,
 				"movement": 5,
@@ -34752,6 +36213,31 @@
 		],
 		"gear": [
 			{
+				"name": "Durin's Axe",
+				"definition": "This is a Unique Master-forged two-handed weapon. Additionally, Balin may re-roll a single D6 when making a Duel Roll.",
+				"tag": "Active"
+			},
+			{
+				"name": "Noldorin Daggers",
+				"definition": "These are Elven hand weapons, which Erestor may also use as Elven throwing weapons. Erestor may re-roll To Wound rolls of a natural 1 when making Strikes or when making Shooting Attacks with these weapons.",
+				"tag": "Active"
+			},
+			{
+				"name": "Helmingas",
+				"definition": "Helmingas have a Strength of 4, rather than 3.",
+				"modifiesStats": [
+					{
+						"stat": "strength",
+						"modifier": 1
+					}
+				]
+			},
+			{
+				"name": "Horn of the Hammerhand",
+				"definition": "This is a Unique war horn. Additionally, once per game at the start of any Move Phase, Erkenbrand can unleash a fearsome blow of the Horn of the Hammerhand. Until the End Phase of the turn, enemy models within 24\" of Erkenbrand suffer a -1 penalty to any Courage Test they are required to make.",
+				"tag": "Active"
+			},
+			{
 				"name": "Pavise",
 				"tag": "Passive",
 				"definition": "This is a shield that provides the bearer +3 Defence rather than +1. However, a model with a Pavise cannot gain this bonus to their Defence whilst Engaged in Combat."
@@ -36553,6 +38039,32 @@
 				]
 			},
 			{
+				"name": "Felarof",
+				"type": "mount",
+				"movement": 12,
+				"fight": 3,
+				"shoot": 6,
+				"strength": 3,
+				"defence": 5,
+				"attack": 0,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Horse"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Mount"
+				],
+				"baseSize": [
+					"40mm"
+				],
+				"specialRules": []
+			},
+			{
 				"name": "Troll Brute",
 				"movement": 6,
 				"fight": 5,
@@ -36988,6 +38500,101 @@
 			}
 		],
 		"keywords": [
+			{
+				"name": "In Defence of the King",
+				"definition": "During the Declare Heroic Actions step of the Fight Phase, if a friendly Dwarf General is Engaged in Combat and is within 6\" of this model, then this model may declare a free Heroic Combat. If this Heroic Combat is successful, then this model must use the following Move to join the friendly Dwarf General model's Combat if this is not possible, then this model must Move as close as possible to the Dwarf General. This model cannot use this special rule if it is in the same Combat as a friendly Dwarf General.",
+				"tag": "Active"
+			},
+			{
+				"name": "Longbeard",
+				"definition": "During the Priority Phase, after the roll for Priority has taken place, Balin can spend a Will Point to allow his controlling player to re-roll their roll for Priority.",
+				"tag": "Active"
+			},
+			{
+				"name": "Loremaster",
+				"definition": "At any point during his Activation, Flói can spend a Will Point to choose a single enemy model within 12\" and Line of Sight of himself. If he does, then for the remainder of the turn friendly models within 6\" of Flói gain a bonus of +1 To Wound against the chosen model both when making Strikes and when making Shooting Attacks.",
+				"tag": "Active"
+			},
+			{
+				"name": "The Living Lore",
+				"definition": "Whenever a friendly model slays an enemy Hero or Monster model that Flói can draw Line of Sight to, Flói may regain a Will Point spent earlier in the battle.",
+				"tag": "Passive"
+			},
+			{
+				"name": "The Life Guard",
+				"definition": "If the King’s Champion this Herald belongs to is Wounded, and this model is in base contact with it, this model may expend its Fate Points on behalf of the King’s Champion. Note that they cannot suffer Wounds on the King’s Champion’s behalf – they may only spend their Fate Points.",
+				"tag": "Active"
+			},
+			{
+				"name": "The Herald's Duty",
+				"definition": "This model receives a bonus of +1 to its Defence for each other friendly model with this special rule it is in base contact with. If you have multiple King’s Champions in your Army, they will only get this bonus for being in base contact with models from their own Warband (i.e., a Herald from one King’s Champion cannot provide the bonus to a model from another King’s Champion)",
+				"tag": "Active"
+			},
+			{
+				"name": "Powers of Nature",
+				"definition": "If this model rolls a natural 6 during its Casting Test, then upon completion of the Magical Power it regains a number of Will Points equal to the number of Will Points spent during the Casting Test.",
+				"tag": "Passive"
+			},
+			{
+				"name": "Legendary Hero",
+				"definition": "The first time each turn Eorl spends a Might Point, roll a D6. On a 3+, the Might Point is free and does not reduce Eorl's store of Might.",
+				"tag": "Active"
+			},
+			{
+				"name": "Spear Mastery",
+				"definition": "This model may use its throwing spears as a normal spear during the Fight Phase, so long as it hasn't made a shooting attack with it in either the preceding Move Phase or Shoot Phase.",
+				"tag": "Active"
+			},
+			{
+				"name": "Riders of Eorl",
+				"definition": "Whilst within 6\" of Eorl the Young, this model gains a bonus of +1 to their Fight Value.",
+				"tag": "Active"
+			},
+			{
+				"name": "Vanguard",
+				"definition": "This model may benefit from a friendly Hero model's Stand Fast regardless of range.",
+				"tag": "Active"
+			},
+			{
+				"name": "Master Archer",
+				"definition": "This model only fails an In The Way Test on the roll of a natural 1. Additionally, if this model slays an enemy Hero or Monster model with a shooting attack, then you may restore this model's Might to its starting value.",
+				"tag": "Active"
+			},
+			{
+				"name": "Pride of Dol Amroth",
+				"definition": "Whilst within 3\" of Prince Imrahil, this model gains a bonus of +1 to their Fight Value.",
+				"tag": "Active"
+			},
+			{
+				"name": "Birdcalls",
+				"definition": "Mablung and any Rangers of Gondor (including Faramir, Madril, Damrod and Anborn) within 6\" of him gain the Stalk Unseen special rule. Additionally, Mablung and any Rangers of Gondor (including Faramir, Madril, Damrod and Anborn) within 6\" of him ignore the Stalk Unseen special rule of enemy models.",
+				"tag": "Active"
+			},
+			{
+				"name": "Boldest of the Bold",
+				"definition": "Cirion gains a bonus of +2 to his Courage Test when attempting to Charge an enemy with the Terror special rule. Additionally, when an enemy model with the Blades of the Dead special rule makes Strikes against Cirion, he treats his Courage value as a 4+ rather than 6+ (before any modifiers are applied).",
+				"tag": "Active"
+			},
+			{
+				"name": "The Bladelord's Skill",
+				"definition": "If this model is Engaged in Combat with an enemy Hero, it may re-roll a single D6 during the Duel Roll.",
+				"tag": "Active"
+			},
+			{
+				"name": "White Sword of Gondor",
+				"definition": "This is a two-handed weapon. Additionally, Strikes made with a White Sword of Gondor have the Mighty Blow special rule.",
+				"tag": "Active"
+			},
+			{
+				"name": "Lethal Aim",
+				"definition": "Each turn, Anborn gains a free Might Point that can only be spent during a shooting attack on either a To Hit Roll, a To Wound Roll, or an In The Way Test. If this free Might Point is not spent by the end of the turn, it is lost.",
+				"tag": "Active"
+			},
+			{
+				"name": "Clean strike",
+				"definition": "If Bandobras rolls a natural 6 To Wound when making a Strike, and the Wound is successful, then the target will suffer 2 Wounds rather than 1.",
+				"tag": "Active"
+			},
 			{
 				"name": "Goldberry is waiting",
 				"tag": "Passive",
@@ -38320,16 +39927,6 @@
 				"name": "Longbeard",
 				"tag": "Active",
 				"definition": "During the Priority Phase, after the roll for Priority has taken place, Balin can spend a Will Point to allow his controlling player to re-roll their roll for Priority."
-			},
-			{
-				"name": "The Herald's Duty",
-				"tag": "Active",
-				"definition": "When two Heralds, or the King's Champion and a Herald, are in base contact, they receive a +1 bonus to their Defence. If both Heralds and the King's Champion are in base contact with each other, they all receive a +2 bonus to their Defence."
-			},
-			{
-				"name": "The Life Guard",
-				"tag": "Active",
-				"definition": "If the King's Champion is wounded, either Herald may expend their own Fate points on the Champion's behalf as long as they are in base contact. Note that they cannot suffer Wounds on the Champion's behalf - they may only use their Fate points."
 			},
 			{
 				"name": "Chronicler",
@@ -39677,6 +41274,58 @@
 			}
 		],
 		"armyBonuses": [
+			{
+				"name": "Campaign in Rhun",
+				"definition": "Friendly models gain the Hatred (Easterling) special rule."
+			},
+			{
+				"name": "Unlikely Allies",
+				"definition": "Friendly Dwarf models may re-roll To Wound rolls of a natural 1 whilst within 1\" of a friendly Gondor model. Friendly Gondor models may re-roll To Wound rolls of a natural 1 whilst within 1\" of a friendly Dwarf model."
+			},
+			{
+				"name": "Spoils of War",
+				"definition": "At the beginning of the game, before either Army has been deployed, your opponent secretly chooses a piece of terrain on the board; this contains the treasure your Army is seeking. If a friendly model ends its Activation in base contact with a piece of terrain and is not Engaged in Combat, it may search that piece of terrain. If it does, your opponent must reveal if that was their chosen terrain piece. If it was not, nothing happens. If it was, then the model discovers the treasure and leaves to return it to Minas Tirith. Remove the model from play – it does not count as a casualty. If when the game ends you have discovered the treasure, you gain an additional 2 Victory Points. This can never take this Army's controlling player's total Victory Points above 20."
+			},
+			{
+				"name": "Reclaim Moria",
+				"definition": "At the end of the game, if you control more Objective Markers than your opponent (if applicable), or are in possession of more Objective Markers than your opponent (if applicable), you score an additional 2 Victory Points. This can never take this Army's controlling player's total Victory Points above 20. Models that escape the board carrying an Objective Marker count as still being in possession of that Objective Marker for the purpose of this special rule."
+			},
+			{
+				"name": "A Desperate Defence",
+				"definition": "Whilst this Army is considered to be Broken, friendly models gain a bonus of +1 To Wound when making Strikes."
+			},
+			{
+				"name": "Balin's Last Stand",
+				"definition": "At the beginning of the Fight Phase, at the start of the Declare Heroic Actions Step, any friendly Dwarf Hero models that would be considered Trapped may declare a Heroic Defence for free, even if they could not normally declare a Heroic Defence."
+			},
+			{
+				"name": "Birth of an Alliance",
+				"definition": "Friendly models within 6\" of both a friendly Rohan Hero model and a friendly Gondor Hero model gain a bonus of +1 to any Courage or Intelligence Tests they are required to take."
+			},
+			{
+				"name": "The Charge of Eorl",
+				"definition": "Once per game, at the start of any friendly Activation Phase, Eorl can use this special rule so long as he is alive and on the battlefield, and has the Cavalry keyword. If he does, then until the end of the turn all friendly Cavalry models must Charge when they Move if able. Additionally, until the end of the turn, friendly Cavalry models that Charged this turn may re-roll any failed To Wound rolls when making Strikes."
+			},
+			{
+				"name": "Gondor's Last Defence",
+				"definition": "Friendly Gondor models within range of an Objective Marker may re-roll To Wound rolls of a natural 1 when making Strikes."
+			},
+			{
+				"name": "The Bullroarer",
+				"definition": "Bandobras Took may declare a Heroic Combat each turn for free."
+			},
+			{
+				"name": "\"Defend the Shire!\"",
+				"definition": "Friendly Hobbit Warrior models within 3\" of Bandobras gain the Dominant (2) special rule."
+			},
+			{
+				"name": "\"They're dangerous folk, wandering the wilds\"",
+				"definition": "Rangers of the North increase their Attacks value to 2."
+			},
+			{
+				"name": "The Bounders",
+				"definition": "Whilst wholly within their own deployment zone, friendly Hobbit models may re-roll To Hit rolls of a natural 1 when making shooting attacks."
+			},
 			{
 				"name": "Know All Paths",
 				"definition": "If during the Declare Heroic Actions step of a Move Phase, both sides have declared a Heroic Move and a roll-off is required to see which side's Heroic Move happens first, this Army will gain a bonus to that roll. If they would normally win the roll-off on a 4+, they will instead win it on a 3+. If they would normally win the roll-off on a 1, 2, or 3, they will instead win the roll-off on a 1, 2, 3, or 4."
