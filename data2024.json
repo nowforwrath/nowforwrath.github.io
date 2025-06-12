@@ -4019,7 +4019,7 @@
 				"intelligence": 6,
 				"might": 2,
 				"will": 1,
-				"fate": 1,
+				"fate": 2,
 				"race": [
 					"Man"
 				],
@@ -4073,8 +4073,8 @@
 				"courage": 6,
 				"intelligence": 6,
 				"might": 3,
-				"will": 3,
-				"fate": 3,
+				"will": 2,
+				"fate": 2,
 				"race": [
 					"Man"
 				],
