@@ -3467,10 +3467,6 @@
 				"name": "Khandish King (Leader)",
 				"factions": [
 					{
-						"name": "Grand Army of the South",
-						"heroicTier": "Hero of Valour"
-					},
-					{
 						"name": "Variags of Khand",
 						"heroicTier": "Hero of Valour"
 					}
