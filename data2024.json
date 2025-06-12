@@ -3011,6 +3011,673 @@
 		],
 		"heroes": [
 			{
+				"name": "Moria Blackshield Drum",
+				"factions": [
+					{
+						"name": "Depths of Moria",
+						"heroicTier": "Independent Hero"
+					},
+					{
+						"name": "Moria",
+						"heroicTier": "Independent Hero"
+					}
+				],
+				"points": 75,
+				"legacy": true,
+				"movement": 5,
+				"fight": 2,
+				"shoot": 5,
+				"strength": 3,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 8,
+				"race": [
+					"Goblin"
+				],
+				"faction": [
+					"Moria"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Cave Dweller",
+					"Hatred (Dwarf)",
+					"Run and Drum",
+					"Take up the Drum"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon",
+					"The Drum"
+				],
+				"options": []
+			},
+			{
+				"name": "Moria Blackshield Shaman",
+				"factions": [
+					{
+						"name": "Depths of Moria",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Moria",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"points": 50,
+				"legacy": true,
+				"movement": 5,
+				"fight": 2,
+				"shoot": 5,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 7,
+				"intelligence": 7,
+				"might": 1,
+				"will": 2,
+				"fate": 1,
+				"race": [
+					"Goblin"
+				],
+				"faction": [
+					"Moria"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Channelling"
+				],
+				"specialRules": [
+					"Cave Dweller",
+					"Hatred (Dwarf)"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				],
+				"magicalPowers": [
+					{
+						"name": "Collapse Rocks",
+						"range": 6,
+						"casting": 4
+					},
+					{
+						"name": "Renew",
+						"range": 0,
+						"casting": 5
+					}
+				],
+				"options": []
+			},
+			{
+				"name": "Moria Blackshield Captain",
+				"factions": [
+					{
+						"name": "Depths of Moria",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Moria",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 45,
+				"legacy": true,
+				"movement": 5,
+				"fight": 3,
+				"shoot": 5,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 7,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Goblin"
+				],
+				"faction": [
+					"Moria"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic March"
+				],
+				"specialRules": [
+					"Cave Dweller",
+					"Hatred (Dwarf)"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Two-handed weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Ashrak",
+				"factions": [
+					{
+						"name": "Moria",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 60,
+				"legacy": true,
+				"movement": 5,
+				"fight": 2,
+				"shoot": 5,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 1,
+				"will": 2,
+				"fate": 1,
+				"race": [
+					"Goblin"
+				],
+				"faction": [
+					"Moria"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Channelling"
+				],
+				"specialRules": [
+					"Cave Dweller",
+					"Death-touch",
+					"Spider-kin"
+				],
+				"wargear": [
+					"Armour",
+					"Two-handed weapon"
+				],
+				"magicalPowers": [
+					{
+						"name": "Fury (Spider)",
+						"range": 0,
+						"casting": 3
+					},
+					{
+						"name": "Compel",
+						"range": 12,
+						"casting": 4
+					}
+				],
+				"options": []
+			},
+			{
+				"name": "Gróblog",
+				"factions": [
+					{
+						"name": "Moria",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 55,
+				"legacy": true,
+				"movement": 5,
+				"fight": 4,
+				"shoot": 5,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 7,
+				"intelligence": 6,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Goblin"
+				],
+				"faction": [
+					"Moria"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic Strike"
+				],
+				"specialRules": [
+					"Cave Dweller",
+					"Mithril Crown"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon",
+					"Mithril Crown"
+				],
+				"options": []
+			},
+			{
+				"name": "Great Beast of Gorgoroth",
+				"factions": [
+					{
+						"name": "Legions of Mordor",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of the Great Eye",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"legacy": true,
+				"hideStats": true,
+				"unlimited": true,
+				"points": 175,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 5,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"heroicActions": [],
+				"keywords": [],
+				"options": [],
+				"specialRules": [],
+				"wargear": [
+					"Orc Comander",
+					"Great Beast",
+					"Howdah"
+				],
+				"includes": [
+					{
+						"dataSource": "heroes",
+						"name": "Orc Commander"
+					},
+					{
+						"dataSource": "heroes",
+						"name": "Great Beast"
+					}
+				],
+				"increaseMaximumChildren": {
+					"warriors": -12
+				}
+			},
+			{
+				"name": "Great Beast",
+				"factions": [
+					{
+						"name": "Mordor",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"unlimited": true,
+				"unavailableSolo": true,
+				"points": 0,
+				"movement": 8,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 6,
+				"defence": 7,
+				"attack": 3,
+				"wounds": 5,
+				"courage": 2,
+				"heroicActions": [],
+				"options": [],
+				"specialRules": [
+					"Dominant (6)",
+					"Large Target",
+					"Terror",
+					"Trample (Great Beast)"
+				],
+				"wargear": [
+					"Orc Commander",
+					"Great Beast",
+					"Howdah"
+				]
+			},
+			{
+				"name": "Orc Commander",
+				"factions": [
+					{
+						"name": "Mordor",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"unlimited": true,
+				"unavailableSolo": true,
+				"points": 0,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 5,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"heroicActions": [],
+				"keywords": [
+					"Orc",
+					"Mordor",
+					"Infantry",
+					"Hero"
+				],
+				"options": [],
+				"specialRules": [
+					"Plenty of Orcs"
+				],
+				"wargear": [
+					"Armour",
+					"Spear"
+				]
+			},
+			{
+				"name": "Kardûsh the Firecaller",
+				"factions": [
+					{
+						"name": "Minas Morgul",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of the Great Eye",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 65,
+				"legacy": true,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 5,
+				"strength": 3,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 2,
+				"courage": 7,
+				"intelligence": 5,
+				"might": 1,
+				"will": 3,
+				"fate": 1,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Channelling"
+				],
+				"specialRules": [
+					"Heart of Darkness",
+					"Shadow Pawn"
+				],
+				"wargear": [
+					"Armour",
+					"Spear"
+				],
+				"magicalPowers": [
+					{
+						"name": "Flameburst",
+						"range": 6,
+						"casting": 3
+					},
+					{
+						"name": "Fury (Mordor Orc)",
+						"range": 0,
+						"casting": 3
+					}
+				],
+				"options": []
+			},
+			{
+				"name": "Black Guard Drummer",
+				"factions": [
+					{
+						"name": "Army of the Great Eye",
+						"heroicTier": "Independent Hero"
+					}
+				],
+				"points": 35,
+				"legacy": true,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 5,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 1,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Uruk-hai"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon",
+					"War drum (Mordor Uruk-hai)"
+				],
+				"options": []
+			},
+			{
+				"name": "Captain of the Black Guard",
+				"factions": [
+					{
+						"name": "Army of the Great Eye",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 70,
+				"legacy": true,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 5,
+				"defence": 7,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Uruk-hai"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic March"
+				],
+				"specialRules": [
+					"\"For the Dark Lord!\""
+				],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon",
+					"Shield"
+				],
+				"options": []
+			},
+			{
+				"name": "Zagdush, Orc Captain",
+				"factions": [
+					{
+						"name": "Army of Gorthmog",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Legions of Mordor",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of the Great Eye",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 60,
+				"legacy": true,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 5,
+				"defence": 3,
+				"attack": 2,
+				"wounds": 6,
+				"courage": 7,
+				"intelligence": 7,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strength",
+					"Heroic Strike"
+				],
+				"specialRules": [
+					"Reckless Fighter"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapons"
+				],
+				"options": []
+			},
+			{
+				"name": "Goroth, Captain of the Morannon",
+				"factions": [
+					{
+						"name": "Army of Gorthmog",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Legions of Mordor",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of the Great Eye",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"points": 85,
+				"legacy": true,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 5,
+				"strength": 6,
+				"defence": 2,
+				"attack": 2,
+				"wounds": 6,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 2,
+				"will": 2,
+				"fate": 1,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strike"
+				],
+				"specialRules": [
+					"Burly",
+					"Dominant (2)",
+					"\"Come here maggot!\""
+				],
+				"wargear": [
+					"Heavy armour",
+					"Two-handed weapon"
+				],
+				"options": []
+			},
+			{
 				"name": "The Knight of Umbar",
 				"factions": [
 					{
@@ -26129,6 +26796,175 @@
 		],
 		"warriors": [
 			{
+				"name": "Moria Blackshield Warrior",
+				"factions": [
+					"Depths of Moria",
+					"Moria"
+				],
+				"points": 8,
+				"legacy": true,
+				"movement": 5,
+				"fight": 2,
+				"shoot": 5,
+				"strength": 3,
+				"defence": 6,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 8,
+				"race": [
+					"Goblin"
+				],
+				"faction": [
+					"Moria"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Cave Dweller",
+					"Hatred (Dwarf)"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon",
+					"Shield"
+				],
+				"options": [
+					{
+						"name": "Spear",
+						"points": 1
+					}
+				]
+			},
+			{
+				"name": "Orc Tracker",
+				"factions": [
+					"Barad-dûr",
+					"Minas Morgul",
+					"Cirith Ungol",
+					"Army of the Great Eye",
+					"Army of Carn Dûm"
+				],
+				"points": 6,
+				"legacy": true,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 8,
+				"intelligence": 7,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Mountain Dweller"
+				],
+				"wargear": [
+					"Hand weapon",
+					"Orc bow"
+				],
+				"options": []
+			},
+			{
+				"name": "Morgul Stalker",
+				"factions": [
+					"Minas Morgul",
+					"Army of the Great Eye"
+				],
+				"points": 10,
+				"legacy": true,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 5,
+				"strength": 4,
+				"defence": 4,
+				"attack": 2,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Orc"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Stalk Unseen"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Black Guard of Barad-dûr",
+				"factions": [
+					"Army of the Great Eye"
+				],
+				"points": 12,
+				"legacy": true,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 5,
+				"defence": 6,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Uruk-hai"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon",
+					"Shield"
+				],
+				"options": [
+					{
+						"name": "Exchange shield for banner",
+						"points": 25
+					}
+				]
+			},
+			{
 				"name": "Herald",
 				"factions": [
 					"Kingdom of Khazad-dum"
@@ -37005,6 +37841,11 @@
 		],
 		"gear": [
 			{
+				"name": "Mithril Crown",
+				"definition": "This is a Unique piece of wargear. Friendly Moria Goblin models within 3\" of Gróblog gain the Dominant (2) special rule.",
+				"tag": "Active"
+			},
+			{
 				"name": "Durin's Axe",
 				"definition": "This is a Unique Master-forged two-handed weapon. Additionally, Balin may re-roll a single D6 when making a Duel Roll.",
 				"tag": "Active"
@@ -39292,6 +40133,51 @@
 			}
 		],
 		"keywords": [
+			{
+				"name": "Run and Drum",
+				"definition": "The Drum is considered to be playing so long as both the Drummer and Drum Bearer are in base contact, and the Drummer is not Engaged in Combat.\n            \n            Whilst the Drum is being played it has the following effects:\n            • Friendly Moria Goblin models gain a bonus of +1 to any Courage Tests they are required to take.\n            • Enemy models suffer a -1 penalty to any Courage Tests they are required to take.\n            • Friendly Moria Goblin models within 18\" count as being in range of a banner.\n            • Whilst being played, the Moria Blackshield Drum counts as a banner for the purpose of Victory Points.",
+				"tag": "Active"
+			},
+			{
+				"name": "Take up the Drum",
+				"definition": "If the Moria Blackshield Drummer or Moria Blackshield Drum Bearer is slain, then they may pass on their wargear to a friendly Moria Blackshield Warrior within 1\" of them. The chosen model becomes a Moria Blackshield Drummer/Drum Bearer (as applicable) and exchanges their wargear for that of the slain model – replace the chosen model with the slain Moria Blackshield Drummer/Drum Bearer.",
+				"tag": "Active"
+			},
+			{
+				"name": "Death-touch",
+				"definition": "Any model that Wounds Ashrak in Combat, or is Wounded by Ashrak in Combat, must immediately roll a D6. On a 4+ the model immediately suffers the effects of the Paralyse Magical Power; however, the effects will not immediately end should Ashrak have no Will Points to be slain.",
+				"tag": "Active"
+			},
+			{
+				"name": "Spider-kin",
+				"definition": "Only Spider models may benefit from Ashrak's Stand Fast or Heroic Actions. Additionally, whilst within 3\" of a friendly Spider model, Ashrak gains the Terror special rule.",
+				"tag": "Passive"
+			},
+			{
+				"name": "Heart of Darkness",
+				"definition": "At the start of the Move Phase, before the Declare Heroic Actions step, Kardûsh can choose a single friendly Orc Warrior model within 6\" of himself. If he does, the chosen model is removed as a casualty and Kardûsh immediately regains D3 Will Points spent earlier in the battle.",
+				"tag": "Active"
+			},
+			{
+				"name": "Shadow Pawn",
+				"definition": "At the start of the Move Phase, before the Declare Heroic Actions step, Kardûsh's controlling player can choose to remove him from the battlefield as a casualty if he is within 6\" of a friendly Ringwraith. If they do, then a single friendly Ringwraith model within 6\" of where Kardûsh was immediately regains D6 Will Points spent earlier in the battle.",
+				"tag": "Active"
+			},
+			{
+				"name": "\"Come here maggot!\"",
+				"definition": "Whenever Goroth suffers a Wound, before any Fate Rolls are made, he may roll a D6. On a 2+, he may choose a single friendly Mordor Orc model within 1\" to immediately suffer the Wound instead of him. Fate Rolls can then be made as normal.",
+				"tag": "Active"
+			},
+			{
+				"name": "Reckless Fighter",
+				"definition": "At the start of any Combat involving Zagdush, before any dice are rolled, Zagdush may choose to reduce his Defence by 1 and increase his Strength by 1. This effect lasts until the Combat is resolved.",
+				"tag": "Active"
+			},
+			{
+				"name": "\"For the Dark Lord!\"",
+				"definition": "Whilst there is at least one friendly Ringwraith on the battlefield, treat this model's Courage as 4+.",
+				"tag": "Passive"
+			},
 			{
 				"name": "Master of Poisons",
 				"definition": "At the start of the Move Phase, before the Declare Heroic Actions step, the Betrayer may spend a Will Point to use this special rule. If he does, then until the End Phase of the turn, friendly models with the Poisoned Attacks special rule within 6\" of the Betrayer may re-roll all failed To Wound rolls for their Poisoned Attacks, rather than just To Wound rolls of a natural 1.",
