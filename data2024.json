@@ -3609,6 +3609,7 @@
 					}
 				],
 				"points": 55,
+				"unlimited": true,
 				"legacy": true,
 				"movement": 6,
 				"fight": 4,
@@ -5949,10 +5950,17 @@
 					{
 						"dataSource": "heroes",
 						"name": "Herald"
+					},
+					{
+						"dataSource": "heroes",
+						"name": "Herald"
 					}
 				],
 				"options": [],
-				"specialRules": []
+				"specialRules": [],
+				"increaseMaximumChildren": {
+					"warriors": -2
+				}
 			},
 			{
 				"name": "Herald",
@@ -6733,9 +6741,9 @@
 				"wounds": 2,
 				"courage": 6,
 				"intelligence": 5,
-				"might": 0,
-				"will": 0,
-				"fate": 0,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
 				"race": [
 					"Man"
 				],
@@ -40054,6 +40062,11 @@
 		],
 		"gear": [
 			{
+				"name": "Exchange hand-and-a-half weapon for bow",
+				"type": "bow",
+				"definition": "24\" Range, 2 Strength"
+			},
+			{
 				"name": "Bone-breaker",
 				"definition": "This is a Unique hand weapon. Enemy models with an Elven weapon Engaged in Combat with, or supporting a model Engaged in Combat with, Razgush do not receive the bonus to the roll-off should the Duel Roll result in a Drawn Combat.",
 				"tag": "Active"
@@ -43060,7 +43073,7 @@
 			{
 				"name": "Go for the eyes!",
 				"tag": "Active",
-				"definition": "Duinhir may re-roll To Hit Rolls when shooting at an enemy Monster model within 12\". Additionally, if Duinhir successfully Wounds a Monster model with a shooting attack (i.e., a Wound is caused and is not prevented), it will roll D3 Wounds rather than 1."
+				"definition": "Duinhir may re-roll failed To Hit Rolls when shooting at an enemy Monster model. Additionally, if Duinhir successfully Wounds an enemy Monster model with a shooting attack (i.e., a Wound is caused and is not prevented), it will deal D3 Wounds rather than 1."
 			},
 			{
 				"name": "Lord of the Blackroot Vale",
