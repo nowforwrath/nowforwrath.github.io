@@ -611,7 +611,8 @@
 						"points": 120,
 						"elementPropertyName": "heroes"
 					}
-				]
+				],
+				"badge": "Legacy"
 			},
 			{
 				"name": "Far Harad",
@@ -632,7 +633,8 @@
 						"points": 70,
 						"elementPropertyName": "heroes"
 					}
-				]
+				],
+				"badge": "Legacy"
 			},
 			{
 				"name": "Ravagers of the Shire",
@@ -653,7 +655,8 @@
 						"points": 45,
 						"elementPropertyName": "heroes"
 					}
-				]
+				],
+				"badge": "Legacy"
 			},
 			{
 				"name": "Army of Dunland",
@@ -675,7 +678,8 @@
 						"elementPropertyName": "heroes",
 						"mustBeLeader": true
 					}
-				]
+				],
+				"badge": "Legacy"
 			},
 			{
 				"name": "Variags of Khand",
@@ -697,7 +701,8 @@
 						"elementPropertyName": "heroes",
 						"mustBeLeader": true
 					}
-				]
+				],
+				"badge": "Legacy"
 			},
 			{
 				"name": "Assault on Lothlorien",
@@ -713,7 +718,8 @@
 					"Cover of Darkness",
 					"Ruthless Savagery"
 				],
-				"specialRules": []
+				"specialRules": [],
+				"badge": "Legacy"
 			},
 			{
 				"name": "Fell Beings of Mirkwood",
@@ -735,7 +741,8 @@
 						"elementPropertyName": "heroes",
 						"mustBeLeader": true
 					}
-				]
+				],
+				"badge": "Legacy"
 			},
 			{
 				"name": "Expedition to the East",
@@ -765,7 +772,8 @@
 						"value": "Dwarf",
 						"childElementPropertyName": "warriors"
 					}
-				]
+				],
+				"badge": "Legacy"
 			},
 			{
 				"name": "Reclamation of Moria",
@@ -788,7 +796,8 @@
 						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
-				]
+				],
+				"badge": "Legacy"
 			},
 			{
 				"name": "Fields of Celebrant",
@@ -832,7 +841,8 @@
 						"value": "Gondor",
 						"childElementPropertyName": "warriors"
 					}
-				]
+				],
+				"badge": "Legacy"
 			},
 			{
 				"name": "Battle of Greenfields",
@@ -855,7 +865,8 @@
 						"mustBeLeader": true,
 						"elementPropertyName": "heroes"
 					}
-				]
+				],
+				"badge": "Legacy"
 			},
 			{
 				"name": "Grand Army of the South",
