@@ -39487,7 +39487,15 @@
 				"baseSize": [
 					"40mm"
 				],
-				"options": [],
+				"options": [
+					{
+						"name": "Venom-back",
+						"points": 2,
+						"availableIn": [
+							"Ashrak"
+						]
+					}
+				],
 				"specialRules": [
 					"Poisoned Attacks (Fangs)",
 					"Stalk Unseen",
