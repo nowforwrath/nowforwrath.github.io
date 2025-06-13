@@ -8190,7 +8190,7 @@
 					"25mm"
 				],
 				"specialRules": [
-					"In Defence of the King",
+					"In Defence of the King (Hurin)",
 					"Line of Command",
 					"The Warden's Sword"
 				],
@@ -42942,7 +42942,7 @@
 				"definition": "Friendly Beast models within 12\" of Drúzhag may use his Courage or Intelligence values instead of their own when making a Courage Test or an Intelligence Test. Additionally, whenever Drúzhag suffers a Wound, before any Fate Rolls are made, he may roll a D6. On a 2+, he may choose a single friendly Beast model within 2\" to immediately suffer the Wound instead of him. Fate Rolls can then be made as normal."
 			},
 			{
-				"name": "In Defence of the King",
+				"name": "In Defence of the King (Hurin)",
 				"tag": "Active",
 				"definition": "Whilst he is within 3\" of your General, so long as your General has the Gondor Keyword, Húrin automatically passes any Courage Tests he is required to take and may re-roll To Wound Rolls of a natural 1 when making Strikes."
 			},
