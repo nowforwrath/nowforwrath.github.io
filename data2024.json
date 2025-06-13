@@ -40070,6 +40070,11 @@
 		],
 		"gear": [
 			{
+				"name": "White Sword of Gondor",
+				"definition": "This is a two-handed weapon. Additionally, Strikes made with a White Sword of Gondor have the Mighty Blow special rule.",
+				"tag": "Active"
+			},
+			{
 				"name": "Exchange hand-and-a-half weapon for bow",
 				"type": "bow",
 				"definition": "24\" Range, 2 Strength"
@@ -42757,11 +42762,6 @@
 			{
 				"name": "The Bladelord's Skill",
 				"definition": "If this model is Engaged in Combat with an enemy Hero, it may re-roll a single D6 during the Duel Roll.",
-				"tag": "Active"
-			},
-			{
-				"name": "White Sword of Gondor",
-				"definition": "This is a two-handed weapon. Additionally, Strikes made with a White Sword of Gondor have the Mighty Blow special rule.",
 				"tag": "Active"
 			},
 			{
