@@ -6338,10 +6338,10 @@
 				"attack": 3,
 				"wounds": 3,
 				"courage": 5,
-				"intelligence": 6,
+				"intelligence": 5,
 				"might": 3,
-				"will": 3,
-				"fate": 3,
+				"will": 2,
+				"fate": 2,
 				"race": [
 					"Man"
 				],
@@ -42721,7 +42721,7 @@
 			},
 			{
 				"name": "Legendary Hero",
-				"definition": "The first time each turn Eorl spends a Might Point, roll a D6. On a 3+, the Might Point is free and does not reduce Eorl's store of Might.",
+				"definition": "The first time each turn Eorl spends a Might Point, roll a D6. On a 4+, the Might Point is free and does not reduce Eorl's store of Might.",
 				"tag": "Active"
 			},
 			{
