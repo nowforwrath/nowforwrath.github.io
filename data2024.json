@@ -5597,10 +5597,10 @@
 				"points": 130,
 				"legacy": true,
 				"movement": 5,
-				"fight": 4,
-				"shoot": 5,
-				"strength": 5,
-				"defence": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 8,
 				"attack": 1,
 				"wounds": 1,
 				"courage": 4,
@@ -28491,7 +28491,7 @@
 					"Cavalry"
 				],
 				"baseSize": [
-					"50mm"
+					"25mm"
 				],
 				"specialRules": [
 					"Poisoned Attacks (blowpipe)"
