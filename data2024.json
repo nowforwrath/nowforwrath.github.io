@@ -6437,7 +6437,7 @@
 				"specialRules": [
 					"Expert Rider",
 					"Horse Lord",
-					"Horn of the Hammerhand"
+					"Horn of the Hammerhand (Erkenbrand)"
 				],
 				"wargear": [
 					"Heavy armour",
@@ -40131,7 +40131,7 @@
 				]
 			},
 			{
-				"name": "Horn of the Hammerhand",
+				"name": "Horn of the Hammerhand (Erkenbrand)",
 				"definition": "This is a Unique war horn. Additionally, once per game at the start of any Move Phase, Erkenbrand can unleash a fearsome blow of the Horn of the Hammerhand. Until the End Phase of the turn, enemy models within 24\" of Erkenbrand suffer a -1 penalty to any Courage Test they are required to make.",
 				"tag": "Active"
 			},
