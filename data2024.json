@@ -719,7 +719,21 @@
 					"Ruthless Savagery"
 				],
 				"specialRules": [],
-				"badge": "Legacy"
+				"badge": "Legacy",
+				"requiredChildren": [
+					{
+						"name": "Muzgûr, Orc Shaman",
+						"points": 70,
+						"elementPropertyName": "heroes",
+						"mustBeLeader": true
+					}
+				],
+				"requireOne": [
+					[
+						"Ashrak",
+						"Drúzhag the Beastcaller"
+					]
+				]
 			},
 			{
 				"name": "Fell Beings of Mirkwood",
@@ -17625,7 +17639,7 @@
 				"specialRules": [
 					"Hatred (Dragon)",
 					"Windlance Trained",
-					"Lord of Dale"
+					"Lord of Dale (Girion)"
 				],
 				"wargear": [
 					"Armour",
@@ -43196,11 +43210,6 @@
 				"definition": "The range of Suladan's Stand Fast is 12\" rather than 6\"."
 			},
 			{
-				"name": "Lord of Dale",
-				"tag": "Active",
-				"definition": "The range of Brand's Stand Fast is 12\" rather than 6\"."
-			},
-			{
 				"name": "Stoic Fighter",
 				"tag": "Active",
 				"definition": "At the start of any Combat involving Brand, check to see if Brand would be considered to be Trapped should he lose the Duel Roll. If Brand would be considered to be Trapped, then he may re-roll a single D6 during the Duel Roll and re-roll a single D6 when rolling To Wound."
@@ -43782,9 +43791,9 @@
 				"definition": "If this model is upgraded to take a Windlance, then he counts as the only crew for the Siege Engine. However, unlike normal Siege Engine crew, this model may move further than 6\" away from the Windlance at any point and may rotate it without suffering the -1 penalty to his rolls To Hit. Additionally, when making a shooting attack with the Windlance that targets a Monster model, this model gains a bonus of +1 to any rolls on the Scatter Table."
 			},
 			{
-				"name": "Lord of Dale",
-				"tag": "Active",
-				"definition": "This model's Stand Fast is 12\" rather than 6\". Additionally, friendly Dale models within 3\" of this model may re-roll To Wound Rolls of a natural 1 when making strikes."
+				"name": "Lord of Dale (Girion)",
+				"tag": "Passive",
+				"definition": "Girion'sStand Fast is 12\" rather than 6\". Additionally, friendly Dale models within 3\" of Girion may re-roll To Wound Rolls of a natural 1 when making strikes."
 			},
 			{
 				"name": "Wall of Blades",
