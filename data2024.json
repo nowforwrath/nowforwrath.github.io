@@ -6904,6 +6904,10 @@
 					{
 						"name": "Assault on Lothlorien",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of the Great Eye",
+						"heroicTier": "Minor Hero"
 					}
 				],
 				"points": 50,
