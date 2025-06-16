@@ -921,7 +921,7 @@
 					"An Umbar Army must always contain at least one Hasharin."
 				],
 				"armyBonuses": [
-					"Sieze Command",
+					"Seize Command",
 					"Shadows of Umbar",
 					"Death to Gondor"
 				],
@@ -30722,6 +30722,11 @@
 					"Legions of Mordor",
 					"Grand Army of the South"
 				],
+				"unavailableIn": [
+					[
+						"Easterling Dragon Knight"
+					]
+				],
 				"points": 15,
 				"movement": 6,
 				"fight": 4,
@@ -30775,6 +30780,11 @@
 					"The Easterlings",
 					"Host of the Dragon Emperor",
 					"Grand Army of the South"
+				],
+				"unavailableIn": [
+					[
+						"Easterling Dragon Knight"
+					]
 				],
 				"points": 20,
 				"movement": 6,
@@ -38371,6 +38381,11 @@
 					"The Easterlings",
 					"Host of the Dragon Emperor",
 					"Grand Army of the South"
+				],
+				"unavailableIn": [
+					[
+						"Easterling Dragon Knight"
+					]
 				],
 				"points": 8,
 				"movement": 6,
