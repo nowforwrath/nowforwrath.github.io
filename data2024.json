@@ -28295,6 +28295,11 @@
 					"Grand Army of the South",
 					"Variags of Khand"
 				],
+				"unavailableIn": [
+					[
+						"Easterling Dragon Knight"
+					]
+				],
 				"points": 40,
 				"legacy": true,
 				"movement": 6,
@@ -28349,6 +28354,11 @@
 					"Grand Army of the South",
 					"Variags of Khand"
 				],
+				"unavailableIn": [
+					[
+						"Easterling Dragon Knight"
+					]
+				],
 				"points": 14,
 				"legacy": true,
 				"movement": 6,
@@ -28396,6 +28406,11 @@
 				"factions": [
 					"Grand Army of the South",
 					"Variags of Khand"
+				],
+				"unavailableIn": [
+					[
+						"Easterling Dragon Knight"
+					]
 				],
 				"legacy": true,
 				"points": 8,
