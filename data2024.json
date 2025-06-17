@@ -4704,6 +4704,7 @@
 					}
 				],
 				"points": 35,
+				"unlimited": true,
 				"legacy": true,
 				"movement": 6,
 				"fight": 4,
@@ -28184,6 +28185,46 @@
 			}
 		],
 		"warriors": [
+			{
+				"name": "Black Guard Drummer",
+				"factions": [
+					"Army of the Great Eye"
+				],
+				"points": 35,
+				"legacy": true,
+				"movement": 6,
+				"fight": 4,
+				"shoot": 4,
+				"strength": 5,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 6,
+				"intelligence": 6,
+				"might": 1,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Uruk-hai"
+				],
+				"faction": [
+					"Mordor"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon",
+					"War drum (Mordor Uruk-hai)"
+				],
+				"options": []
+			},
 			{
 				"name": "Moria Blackshield Drum",
 				"factions": [
