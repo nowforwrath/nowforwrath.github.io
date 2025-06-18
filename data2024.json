@@ -3346,7 +3346,7 @@
 				"courage": 6,
 				"intelligence": 6,
 				"might": 2,
-				"will": 3,
+				"will": 4,
 				"fate": 1,
 				"race": [
 					"Orc"
@@ -3364,7 +3364,7 @@
 				],
 				"heroicActions": [
 					"Heroic Channelling",
-					"Heroic March"
+					"Heroic Defence"
 				],
 				"specialRules": [
 					"Power from Death"
