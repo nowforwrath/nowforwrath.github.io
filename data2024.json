@@ -800,7 +800,7 @@
 				],
 				"armyBonuses": [
 					"Reclaim Moria",
-					"A Desperate Defence",
+					"A Desperate Defence (Moria)",
 					"Balin's Last Stand"
 				],
 				"specialRules": [],
@@ -4716,8 +4716,8 @@
 				"wounds": 1,
 				"courage": 6,
 				"intelligence": 6,
-				"might": 1,
-				"will": 1,
+				"might": 0,
+				"will": 0,
 				"fate": 1,
 				"race": [
 					"Uruk-hai"
@@ -28202,8 +28202,8 @@
 				"wounds": 1,
 				"courage": 6,
 				"intelligence": 6,
-				"might": 1,
-				"will": 1,
+				"might": 0,
+				"will": 0,
 				"fate": 1,
 				"race": [
 					"Uruk-hai"
@@ -45680,7 +45680,7 @@
 				"definition": "At the end of the game, if you control more Objective Markers than your opponent (if applicable), or are in possession of more Objective Markers than your opponent (if applicable), you score an additional 2 Victory Points. This can never take this Army's controlling player's total Victory Points above 20. Models that escape the board carrying an Objective Marker count as still being in possession of that Objective Marker for the purpose of this special rule."
 			},
 			{
-				"name": "A Desperate Defence",
+				"name": "A Desperate Defence (Moria)",
 				"definition": "Whilst this Army is considered to be Broken, friendly models gain a bonus of +1 To Wound when making Strikes."
 			},
 			{
