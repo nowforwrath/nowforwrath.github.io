@@ -595,7 +595,8 @@
 				"alignment": "evil",
 				"legacy": true,
 				"additionalRules": [
-					"The Spider Queen's Brood Army must always contain The Spider Queen, who is always the Army's General."
+					"The Spider Queen's Brood Army must always contain The Spider Queen, who is always the Army's General.",
+					"Friendly models can still pick up Objective Markers even though they have the Beast keyword."
 				],
 				"armyBonuses": [
 					"Beasts of the Forest",
@@ -28343,7 +28344,7 @@
 				],
 				"points": 40,
 				"legacy": true,
-				"movement": 6,
+				"movement": 10,
 				"fight": 4,
 				"shoot": 4,
 				"strength": 3,
