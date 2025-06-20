@@ -610,7 +610,18 @@
 					{
 						"name": "The Spider Queen",
 						"points": 120,
-						"elementPropertyName": "heroes"
+						"elementPropertyName": "heroes",
+						"requiredChildren": [
+							{
+								"elementPropertyName": "warriors",
+								"name": "Broodling",
+								"ignoreModels": true,
+								"quantity": 0,
+								"points": 0,
+								"hideFromPrint": true,
+								"lockedChildren": true
+							}
+						]
 					}
 				],
 				"badge": "Legacy"
