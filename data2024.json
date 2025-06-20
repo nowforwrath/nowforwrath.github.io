@@ -40210,6 +40210,11 @@
 		],
 		"gear": [
 			{
+				"name": "The One Ring (Sauron)",
+				"tag": "Passive",
+				"definition": "Sauron does not follow the normal rules for the One Ring. Instead, each time Sauron would lose his last Wound and be removed as a casualty, roll a D6. On a 2+, the power of the One Ring sustains him and instead of being removed as a casualty he will remain on the board with 1 Wound remaining. if during a Combat Sauron suffers multiple wounds that would cause him to removed as a casualty, he will make his roll for each of them. Sauron may use Might to improve this roll."
+			},
+			{
 				"name": "Kalazâl",
 				"definition": "This is a Unique hand weapon. Múrin gains a bonus of +1 To Wound when making Strikes against Orc, Goblin or Uruk-hai models."
 			},
@@ -40504,7 +40509,7 @@
 			{
 				"name": "The One Ring",
 				"tag": "Active",
-				"definition": "See book"
+				"definition": "A model who carries the One Ring is referred to as the Ringbearer.\nWEARING THE RING\nA Ringbearer can put on the One Ring at any point during their Activation. As soon as they do they benefit from the Invisible special rule (see page 127). A Ringbearer who is unable to Activate (such as if they are Engaged in Combat) cannot put on the Ring.\nIf a model puts on the Ring whilst they are mounted, then their Mount will immediately bolt and flee the battlefield (the Mount is therefore removed), and the model must immediately take a Thrown Rider Test.\nSAURON'S WILL\nIf a Ringbearer begins its Activation wearing the One Ring, then their controlling player must test to see if the model can overcome the call of the Ring. To do this, the Ringbearer's controlling player rolls a D6 before doing anything else for the Ringbearer during their Activation. A Hero may use Might to improve this roll. On a 3+, the Ringbearer is able to keep control and may Activate as normal. However, on a 1-2 the opposing player may Move the Ringbearer during their Activation, and may even make them Charge – in this case, the model passes all Courage Tests for the Terror special rule. The opposing player cannot make the Ringbearer remove the Ring when they Move them.\nThe opposing player cannot make the Ringbearer pick up or put down items, perform anything that may bring the Ringbearer to harm (such as Jumping off a cliff or making a Leap Test), or make them leave the board in Scenarios that allow it.\nIt's important to note that even when an opposing player gets to Move the Ringbearer in this manner, they are still part of their controlling player's Army, and all other actions such as Shooting, fighting in Combat, or anything else the Ringbearer can do remains under the control of their controlling player.\nREMOVING THE RING\nSuch is the hold of the Ring, that any model who is wearing it and wants to remove it must take a Courage Test. This can be done at any point in the model's Activation, though after making the roll for Sauron's Will (if applicable). If the model fails this Courage Test then they cannot take the Ring off this turn and must wait until the following turn to try again.\nMY PRECIOUS!\nDuring a Matched Play game, if the Ringbearer is the only model left on their side and is Invisible (i.e., they are wearing the Ring), then they succumb to the call of the Ring and are removed as a casualty. If the opposing side's objective is to kill the Ringbearer, then this is still achieved if the Ringbearer is removed in this manner.\nThere may be the odd occasions in Matched Play games where there is more than one model on the battlefield who can carry the One Ring. As the One Ring is unique, there is a hierarchy as to who carries the One Ring in the case of multiple Ringbearers. The model closest to the top of the hierarchy table below will get to use the Ring – the other will not be a Ringbearer at all for that battle.\n1 The Dark Lord Sauron\n2 Isildur\n3 Bilbo Baggins or Bilbo Baggins, Master Burglar\n4 Frodo Baggins\n5 Bilbo Baggins, Ageing Hobbit\n6 Gollum\nIn the rare situation where both players have a Ringbearer, and both are at the same highest point on the hierarchy table, then both may carry the One Ring – though one of them is clearly a fake, and only the winner can claim that theirs was the real One Ring"
 			},
 			{
 				"name": "Shield and Spear",
@@ -43990,11 +43995,6 @@
 				"name": "Wormtongue",
 				"tag": "Passive",
 				"definition": "An enemy Hero within 6\" of Grima must spend 2 Might Points rather than 1 in order to declare a Heroic Action."
-			},
-			{
-				"name": "The One Ring (Sauron)",
-				"tag": "Passive",
-				"definition": "Sauron does not follow the normal rules for the One Ring. Instead, each time Sauron would lose his last Wound and be removed as a casualty, roll a D6. On a 2+, the power of the One Ring sustains him and instead of being removed as a casualty he will remain on the board with 1 Wound remaining. if during a Combat Sauron suffers multiple wounds that would cause him to removed as a casualty, he will make his roll for each of them. Sauron may use Might to improve this roll."
 			},
 			{
 				"name": "The Lord of the Rings",
