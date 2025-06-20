@@ -5737,8 +5737,7 @@
 					"Heroic Strike"
 				],
 				"specialRules": [
-					"Mountain Dweller",
-					"Kalazâl"
+					"Mountain Dweller"
 				],
 				"wargear": [
 					"Dwarf armour",
@@ -28227,22 +28226,10 @@
 				"options": []
 			},
 			{
-				"name": "Moria Blackshield Drum",
-				"factions": [
-					"Depths of Moria",
-					"Moria"
-				],
-				"points": 75,
+				"name": "Moria Blackshield Drummer",
+				"factions": [],
+				"points": 0,
 				"legacy": true,
-				"movement": 5,
-				"fight": 2,
-				"shoot": 5,
-				"strength": 3,
-				"defence": 5,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 7,
-				"intelligence": 8,
 				"race": [
 					"Goblin"
 				],
@@ -28256,7 +28243,6 @@
 				"baseSize": [
 					"25mm"
 				],
-				"decreaseModelCount": -1,
 				"specialRules": [
 					"Cave Dweller",
 					"Hatred (Dwarf)",
@@ -28269,6 +28255,58 @@
 					"The Drum"
 				],
 				"options": []
+			},
+			{
+				"name": "Moria Blackshield Drum Bearer",
+				"factions": [],
+				"points": 0,
+				"legacy": true,
+				"race": [
+					"Goblin"
+				],
+				"faction": [
+					"Moria"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Cave Dweller",
+					"Hatred (Dwarf)",
+					"Run and Drum",
+					"Take up the Drum"
+				],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon",
+					"The Drum"
+				],
+				"options": []
+			},
+			{
+				"name": "Moria Blackshield Drum",
+				"factions": [
+					"Depths of Moria",
+					"Moria"
+				],
+				"points": 75,
+				"includes": [
+					{
+						"dataSource": "warriors",
+						"name": "Moria Blackshield Drummer"
+					},
+					{
+						"dataSource": "warriors",
+						"name": "Moria Blackshield Drum Bearer"
+					}
+				],
+				"options": [],
+				"specialRules": [],
+				"wargear": []
 			},
 			{
 				"name": "Broodling",
@@ -40172,6 +40210,10 @@
 		],
 		"gear": [
 			{
+				"name": "Kalazâl",
+				"definition": "This is a Unique hand weapon. Múrin gains a bonus of +1 To Wound when making Strikes against Orc, Goblin or Uruk-hai models."
+			},
+			{
 				"name": "White Sword of Gondor",
 				"definition": "This is a two-handed weapon. Additionally, Strikes made with a White Sword of Gondor have the Mighty Blow special rule.",
 				"tag": "Active"
@@ -42783,7 +42825,7 @@
 			},
 			{
 				"name": "Miasmatic Presence",
-				"definition": "At the start of the Move Phase, before the Declare Heroic Actions step, the Tainted may spend a Will Point to use this special rule. If he does, then until the End Phase of the turn, all Warrior models (both friendly and enemy) within 6\" of the Tainted may not benefit from the Stand Fast rule, and may not make any Heroic Actions.",
+				"definition": "At the start of the Move Phase, before the Declare Heroic Actions step, the Tainted may spend a Will Point to use this special rule. If he does, then until the End Phase of the turn, all Warrior models (both friendly and enemy) within 6\" of the Tainted may not benefit from the Stand Fast rule, and may not take part in any Heroic Actions.",
 				"tag": "Active"
 			},
 			{
