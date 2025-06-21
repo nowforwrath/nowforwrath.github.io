@@ -20592,7 +20592,27 @@
 					"Heroic March",
 					"Heroic Resolve"
 				],
-				"options": [],
+				"options": [
+					{
+						"name": "Throwing Weapons",
+						"points": 0,
+						"availableIn": [
+							"Kingdom of Khazad-dum"
+						]
+					}
+				],
+				"requiredChildren": [
+					{
+						"name": "Throwing Weapons",
+						"points": 0,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Kingdom of Khazad-dum"
+							]
+						]
+					}
+				],
 				"specialRules": [
 					"Dwarven Lords"
 				],
