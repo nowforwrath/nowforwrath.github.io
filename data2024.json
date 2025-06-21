@@ -5762,11 +5762,13 @@
 				"factions": [
 					{
 						"name": "Expedition to the East",
-						"heroicTier": "Hero of Fortitude"
+						"heroicTier": "Hero of Fortitude",
+						"unlockedBy": "Múrin"
 					},
 					{
 						"name": "The Iron Hills",
-						"heroicTier": "Hero of Fortitude"
+						"heroicTier": "Hero of Fortitude",
+						"unlockedBy": "Múrin"
 					}
 				],
 				"points": 0,
@@ -27802,7 +27804,13 @@
 					"Heroic Defence",
 					"Heroic Strength"
 				],
-				"options": [],
+				"options": [
+					{
+						"name": "Full Bellies (Bert)",
+						"points": 0,
+						"unlockedBy": "Full Bellies"
+					}
+				],
 				"specialRules": [
 					"Dominant (3)",
 					"Large Target",
@@ -27854,7 +27862,13 @@
 				"heroicActions": [
 					"Heroic Defence"
 				],
-				"options": [],
+				"options": [
+					{
+						"name": "Full Bellies (Tom)",
+						"points": 0,
+						"unlockedBy": "Full Bellies"
+					}
+				],
 				"specialRules": [
 					"Dominant (3)",
 					"Large Target",
@@ -42332,7 +42346,49 @@
 			},
 			{
 				"name": "Full Bellies",
-				"definition": "Bill, Bert, and Tom increase their starting Might, Will and Fate points to 3"
+				"definition": "Bill, Bert, and Tom increase their starting Might, Will and Fate points to 3",
+				"modifiesStats": [
+					{
+						"stat": "will",
+						"modifier": 2
+					},
+					{
+						"stat": "fate",
+						"modifier": 2
+					}
+				]
+			},
+			{
+				"name": "Full Bellies (Bert)",
+				"definition": "Toggle this to include the Full Bellies bonus for Bert",
+				"modifiesStats": [
+					{
+						"stat": "might",
+						"modifier": 1
+					},
+					{
+						"stat": "fate",
+						"modifier": 2
+					},
+					{
+						"stat": "will",
+						"modifier": 2
+					}
+				]
+			},
+			{
+				"name": "Full Bellies (Tom)",
+				"definition": "Toggle this to include the Full Bellies bonus for Tom",
+				"modifiesStats": [
+					{
+						"stat": "might",
+						"modifier": 2
+					},
+					{
+						"stat": "fate",
+						"modifier": 2
+					}
+				]
 			},
 			{
 				"name": "Stone Troll Endurance",
