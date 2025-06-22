@@ -29441,6 +29441,18 @@
 					"The Grief of Eomer",
 					"Realms of Men"
 				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Gandalf the White"
+							},
+							{
+								"in": "Defenders of the Pelennor"
+							}
+						]
+					}
+				],
 				"points": 10,
 				"legacy": true,
 				"movement": 6,
