@@ -24177,7 +24177,7 @@
 					"Monstrous Charge",
 					"Resistant to Magic",
 					"Terror",
-					"Breathe Fire",
+					"Breathe Fire (Smaug)",
 					"Immovable Object",
 					"Missing Scale",
 					"Unstoppable Momentum",
@@ -40305,7 +40305,7 @@
 			},
 			{
 				"name": "Breathe Fire",
-				"definition": "The Dragon can Breathe Fire as a shooting attack during the Shoot Phase; treat this as a bow with a range of 12\". If the shot hits, then the model that is hit, and all models (friend or foe) within 2\" of the hit model, will suffer a Strength 10 hit. Any model that suffers a Wound from this shooting attack which is not prevented is automatically slain.",
+				"definition": "The Dragon can Breathe Fire as a shooting attack during the Shoot Phase; treat this as a bow with a range of 12\". If the shot hits, then the model that is hit, and all models (friend or foe) within 2\" of the hit model, will suffer a Strength 10 hit. Any model that suffers a Wound from this shooting attack which is not prevented is automatically slain. This is a fire-based attack.",
 				"tag": "Active"
 			},
 			{
@@ -44484,7 +44484,7 @@
 				"definition": "If he is Outnumbered in a Combat, Thranduil may re-roll To Wound Rolls of a natural 1 when making Strikes. If he has the Infantry keyword and is Outnumbered in a Combat, Thranduil may instead re-roll all failed To Wound Rolls when making Strikes."
 			},
 			{
-				"name": "Breathe Fire",
+				"name": "Breathe Fire (Smaug)",
 				"tag": "Active",
 				"definition": "Smaug can breathe fire as a shooting attack. This is treated as a bow with a range of 18\". If the shot hits a model, then the hit model and all models within 2\" of them immediately suffers a Strength 10 hit, and any model that suffers a Wound from this shot which is not prevented will immediately be slain and removed as a casualty. Any model hit by this shooting attack and not slain will be Set Ablaze. This is a fire-based attack, so if a model is immune to fire-based attacks, they are immune to this shooting attack."
 			},
