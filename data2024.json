@@ -33645,118 +33645,31 @@
 			{
 				"name": "Thrain the Broken",
 				"factions": [
-					"The White Council"
+					"The White Council",
+					"Dark Powers of Dol Guldur",
+					"Pits of Dol Guldur"
 				],
 				"unique": true,
 				"points": 10,
-				"movement": 5,
+				"movement": 6,
 				"fight": 4,
 				"shoot": 4,
 				"strength": 2,
 				"defence": 4,
 				"attack": 1,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 6,
+				"intelligence": 6,
 				"might": 0,
 				"will": 0,
-				"fate": 0,
+				"fate": 1,
 				"heroicActions": [],
 				"specialRules": [
-					"Shattered Spirit"
+					"Shattered Spirit",
+					"Gandalf's Intervention"
 				],
 				"wargear": [
 					"Dagger"
-				],
-				"options": [],
-				"countAsProperty": "heroes"
-			},
-			{
-				"name": "Thrain the Broken (Evil)",
-				"factions": [
-					"Dark Powers of Dol Guldur",
-					"Pits of Dol Guldur"
-				],
-				"unlockedBy": "The Necromancer of Dol Guldur",
-				"unique": true,
-				"points": 10,
-				"movement": 6,
-				"fight": 4,
-				"shoot": 4,
-				"strength": 2,
-				"defence": 4,
-				"attack": 1,
-				"wounds": 2,
-				"courage": 6,
-				"intelligence": 6,
-				"might": 0,
-				"will": 0,
-				"fate": 1,
-				"race": [
-					"Dwarf"
-				],
-				"faction": [
-					"Erebor"
-				],
-				"unitType": [
-					"Hero",
-					"Infantry",
-					"Unique"
-				],
-				"baseSize": [
-					"25mm"
-				],
-				"heroicActions": [],
-				"specialRules": [
-					"Shattered Spirit",
-					"Gandalf's Intervention"
-				],
-				"wargear": [
-					"Hand weapon"
-				],
-				"options": [],
-				"countAsProperty": "heroes"
-			},
-			{
-				"name": "Thrain the Broken (Pits)",
-				"factions": [
-					"Dark Powers of Dol Guldur",
-					"Pits of Dol Guldur"
-				],
-				"unique": true,
-				"points": 10,
-				"movement": 6,
-				"fight": 4,
-				"shoot": 4,
-				"strength": 2,
-				"defence": 4,
-				"attack": 1,
-				"wounds": 2,
-				"courage": 6,
-				"intelligence": 6,
-				"might": 0,
-				"will": 0,
-				"fate": 1,
-				"race": [
-					"Dwarf"
-				],
-				"faction": [
-					"Erebor"
-				],
-				"unitType": [
-					"Hero",
-					"Infantry",
-					"Unique"
-				],
-				"baseSize": [
-					"25mm"
-				],
-				"heroicActions": [],
-				"specialRules": [
-					"Shattered Spirit",
-					"Gandalf's Intervention"
-				],
-				"wargear": [
-					"Hand weapon"
 				],
 				"options": [],
 				"countAsProperty": "heroes"
