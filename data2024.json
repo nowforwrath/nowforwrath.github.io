@@ -4532,7 +4532,9 @@
 				"courage": 7,
 				"intelligence": 8,
 				"heroicActions": [],
-				"keywords": [],
+				"faction": [
+					"Mordor"
+				],
 				"options": [],
 				"specialRules": [],
 				"wargear": [
