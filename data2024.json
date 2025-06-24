@@ -30060,9 +30060,6 @@
 				"wounds": 4,
 				"courage": 8,
 				"intelligence": 9,
-				"might": 0,
-				"will": 0,
-				"fate": 0,
 				"heroicActions": [],
 				"race": [
 					"Bat"
@@ -41418,7 +41415,7 @@
 			{
 				"name": "Exchange Shield and Spear for Mattock",
 				"type": "Two-handed weapon",
-				"definition": "A mattock is a two-handed weapon that can either use the\n                Bash or Piercing Strike Special Strikes.",
+				"definition": "This is a two-handed weapon. Additionally, if a model wielding a Mattock wins a Duel Roll they may choose to try to knock down an enemy model instead of making Strikes. If they do, choose a single enemy model involved in the Combat. This model and the chosen model both roll a single D6 and add their Strength characteristic. If this model rolls equal to or higher than the chosen model, then the chosen model is immediately knocked Prone. This may be done before any other friendly models make their strikes.",
 				"modifiesStats": [
 					{
 						"stat": "defence",
