@@ -24919,6 +24919,7 @@
 						"heroicTier": "Independent Hero"
 					}
 				],
+				"cannotBeChild": true,
 				"points": 200,
 				"movement": 4,
 				"fight": 6,
