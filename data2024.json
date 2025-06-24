@@ -24919,7 +24919,6 @@
 						"heroicTier": "Independent Hero"
 					}
 				],
-				"cannotBeChild": true,
 				"points": 200,
 				"movement": 4,
 				"fight": 6,
@@ -33734,59 +33733,6 @@
 				],
 				"wargear": [
 					"Unarmed"
-				],
-				"countAsProperty": "heroes"
-			},
-			{
-				"name": "The Watcher in the Water",
-				"factions": [
-					"Moria"
-				],
-				"unique": true,
-				"points": 200,
-				"movement": 4,
-				"fight": 6,
-				"shoot": 3,
-				"strength": 6,
-				"defence": 6,
-				"attack": 6,
-				"wounds": 6,
-				"courage": 6,
-				"intelligence": 7,
-				"might": 1,
-				"will": 5,
-				"fate": 1,
-				"race": [
-					"Kraken"
-				],
-				"faction": [
-					"Moria"
-				],
-				"unitType": [
-					"Monster",
-					"Infantry",
-					"Hero",
-					"Unique"
-				],
-				"baseSize": [
-					"130mm"
-				],
-				"heroicActions": [],
-				"options": [],
-				"specialRules": [
-					"Dominant (6)",
-					"Harbinger of Evil (12\")",
-					"Large Target",
-					"Resistant to Magic",
-					"Terror",
-					"Many Tentacles",
-					"Water Dweller",
-					"From the Deep",
-					"Grasping Tentacles",
-					"Dragged to the Depths"
-				],
-				"wargear": [
-					"Tentacles (hand weapon)"
 				],
 				"countAsProperty": "heroes"
 			},
