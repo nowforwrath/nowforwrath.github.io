@@ -67,6 +67,57 @@
 		"Lead from the Front",
 		"Convergence"
 	],
+	"scenarioScoring": [
+		{
+			"name": "Domination",
+			"points": [
+				[
+					{
+						"text": "Objectives with more models within 3\" than your opponent.",
+						"points": 1,
+						"increment": true,
+						"max": 5
+					}
+				],
+				[
+					{
+						"text": "Objectives with at least twice as many models as your opponent within 3\" than your opponent.",
+						"points": 2,
+						"increment": true,
+						"max": 5
+					}
+				],
+				[
+					{
+						"text": "Objectives where you are the only player within 3\".",
+						"points": 3,
+						"increment": true,
+						"max": 5
+					}
+				],
+				[
+					{
+						"text": "The enemy general was wounded.",
+						"points": 1
+					},
+					{
+						"text": "The enemy general was killed.",
+						"points": 2
+					}
+				],
+				[
+					{
+						"text": "The enemy Army is Broken.",
+						"points": 1
+					},
+					{
+						"text": "The enemy Army is Broken and your Army is not.",
+						"points": 3
+					}
+				]
+			]
+		}
+	],
 	"stats": [
 		{
 			"name": "Movement",
@@ -45362,7 +45413,7 @@
 			{
 				"name": "Majestic Steed",
 				"tag": "Active",
-				"definition": "In a turn in which Thranduil Charges into Combat, he resolves his Strikes at Stength 5. Additionally, each time this model Charges into Combat, it will inflict a single Strength 4 hit upon the model it has Charged (Cavalry models suffer this hit on both the rider and the Mount). If after this hit Thranduil is no longer Engaged in Combat, he may continue his Move in any way his controlling player wishes; stopping straight away. Charging another enemy model, or anything in between."
+				"definition": "In a turn in which Thranduil Charges into Combat, he resolves his Strikes at Stength 5. Additionally, each time this model Charges into Combat, it will inflict a single Strength 4 hit upon one model it has Charged (Cavalry models suffer this hit on both the rider and the Mount). If after this hit Thranduil is no longer Engaged in Combat, he may continue his Move in any way his controlling player wishes; stopping straight away. Charging another enemy model, or anything in between."
 			},
 			{
 				"name": "Well fed, and ready to fight",
