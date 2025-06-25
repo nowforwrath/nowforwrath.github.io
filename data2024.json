@@ -767,13 +767,17 @@
 						"points": 1,
 						"increment": true,
 						"max": 4
-					},
+					}
+				],
+				[
 					{
 						"text": "For each Objective Marker, you have at least twice as many models within 3\" as your opponent",
 						"points": 2,
 						"increment": true,
 						"max": 4
-					},
+					}
+				],
+				[
 					{
 						"text": "For each Objective Marker, you are the only player to have models within 3\"",
 						"points": 3,
