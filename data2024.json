@@ -116,6 +116,1210 @@
 					}
 				]
 			]
+		},
+		{
+			"name": "To the Death!",
+			"points": [
+				[
+					{
+						"text": "The enemy General was wounded.",
+						"points": 1,
+						"increment": false
+					},
+					{
+						"text": "The enemy General was wounded and only has a single Wound remaining.",
+						"points": 3,
+						"increment": false
+					},
+					{
+						"text": "The enemy General was removed as a casualty.",
+						"points": 5,
+						"increment": false
+					}
+				],
+				[
+					{
+						"text": "The enemy Army is Broken.",
+						"points": 3,
+						"increment": false
+					},
+					{
+						"text": "The enemy Army is Broken and your Army is not.",
+						"points": 5,
+						"increment": false
+					}
+				],
+				[
+					{
+						"text": "Your opponent has no banners remaining.",
+						"points": 2,
+						"increment": false
+					}
+				],
+				[
+					{
+						"text": "You have at least one banner remaining.",
+						"points": 1,
+						"increment": false
+					},
+					{
+						"text": "You have more banners remaining than your opponent.",
+						"points": 2,
+						"increment": false
+					}
+				],
+				[
+					{
+						"text": "The enemy Army has been reduced to 25% of its starting models.",
+						"points": 3,
+						"increment": false
+					}
+				],
+				[
+					{
+						"text": "Enemy Hero models that have been removed as a casualty (max 3).",
+						"points": 1,
+						"increment": true,
+						"max": 3
+					}
+				]
+			]
+		},
+		{
+			"name": "Hold Ground",
+			"points": [
+				[
+					{
+						"text": "You have more models within 6\" of the objective than your opponent.",
+						"points": 4
+					},
+					{
+						"text": "You have twice as many models within 6\" of the objective than your opponent.",
+						"points": 8
+					},
+					{
+						"text": "You have three times as many models within 6\" of the objective than your opponent, or you are the only player to have models within 6\" of the objective.",
+						"points": 12
+					}
+				],
+				[
+					{
+						"text": "The enemy General was wounded.",
+						"points": 1
+					},
+					{
+						"text": "The enemy General was removed as a casualty.",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "The enemy Army is Broken.",
+						"points": 1
+					},
+					{
+						"text": "The enemy Army is Broken and your Army is not.",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "Your opponent has no banners remaining (if they didn't have a banner to start with, you automatically score this).",
+						"points": 2
+					}
+				]
+			]
+		},
+		{
+			"name": "Destroy the Supplies",
+			"points": [
+				[
+					{
+						"text": "Each enemy Supply Marker that has been destroyed",
+						"points": 3,
+						"increment": true,
+						"max": 3
+					}
+				],
+				[
+					{
+						"text": "Each enemy Supply Marker not destroyed, but you have more models within 3\" than your opponent",
+						"points": 1,
+						"increment": true,
+						"max": 3
+					}
+				],
+				[
+					{
+						"text": "You have destroyed more Supply Markers than your opponent",
+						"points": 1
+					}
+				],
+				[
+					{
+						"text": "The enemy General was wounded",
+						"points": 1
+					},
+					{
+						"text": "The enemy General was removed as a casualty",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "The enemy Army is Broken",
+						"points": 1
+					},
+					{
+						"text": "The enemy Army is Broken and your Army is not",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "Your opponent has no banners remaining (if they didn&apos;t have a banner to start with, you automatically score this)",
+						"points": 2
+					}
+				],
+				[
+					{
+						"text": "You have at least one banner remaining",
+						"points": 1
+					},
+					{
+						"text": "You have more banners remaining than your opponent",
+						"points": 2
+					}
+				]
+			]
+		},
+		{
+			"name": "Reconnoitre",
+			"points": [
+				[
+					{
+						"text": "More of your models have escaped the battlefield via your opponent's board edge than vice versa",
+						"points": 4
+					},
+					{
+						"text": "At least two of your models and twice as many models as your opponent have escaped the board",
+						"points": 8
+					},
+					{
+						"text": "At least three of your models, and three times as many models as your opponent have escaped the board",
+						"points": 12
+					}
+				],
+				[
+					{
+						"text": "Each of your Hero models that escapes the board (max 3)",
+						"points": 1,
+						"increment": true,
+						"max": 3
+					}
+				],
+				[
+					{
+						"text": "The enemy General was wounded",
+						"points": 1
+					},
+					{
+						"text": "The enemy General was removed as a casualty",
+						"points": 2
+					}
+				],
+				[
+					{
+						"text": "The enemy Army is Broken",
+						"points": 1
+					},
+					{
+						"text": "The enemy Army is Broken and your Army is not",
+						"points": 3
+					}
+				]
+			]
+		},
+		{
+			"name": "Fog of War",
+			"points": [
+				[
+					{
+						"text": "Your secretly nominated Hero is still alive",
+						"points": 1
+					},
+					{
+						"text": "Your secretly nominated Hero is still alive and has suffered no Wounds",
+						"points": 3
+					},
+					{
+						"text": "Your secretly nominated Hero is still alive, has suffered no Wounds, and spent no Fate Points",
+						"points": 5
+					}
+				],
+				[
+					{
+						"text": "You caused one or more Wounds on your secretly nominated opponent's Hero",
+						"points": 1
+					},
+					{
+						"text": "Your secretly nominated opponent's Hero was removed as a casualty",
+						"points": 3
+					},
+					{
+						"text": "Your secretly nominated opponent's Hero was removed as a casualty as a result of one of your models Wounding them in Combat",
+						"points": 5
+					}
+				],
+				[
+					{
+						"text": "You have more models than your opponent on or in base contact with your secretly chosen terrain piece",
+						"points": 1
+					},
+					{
+						"text": "You have at least two models and twice as many as your opponent on or in base contact with your secretly chosen terrain piece",
+						"points": 3
+					},
+					{
+						"text": "Your opponent has no models on or in base contact with your secretly chosen terrain piece and you have at least two",
+						"points": 5
+					}
+				],
+				[
+					{
+						"text": "The enemy General was wounded",
+						"points": 1
+					},
+					{
+						"text": "The enemy General was removed as a casualty",
+						"points": 2
+					}
+				],
+				[
+					{
+						"text": "The enemy Army is Broken",
+						"points": 1
+					},
+					{
+						"text": "The enemy Army is Broken and your Army is not",
+						"points": 3
+					}
+				]
+			]
+		},
+		{
+			"name": "Capture & Control",
+			"points": [
+				[
+					{
+						"text": "Each Objective Marker under your control",
+						"points": 3,
+						"increment": true,
+						"max": 5
+					}
+				],
+				[
+					{
+						"text": "The enemy General was wounded",
+						"points": 1
+					},
+					{
+						"text": "The enemy General was removed as a casualty",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "The enemy Army is Broken",
+						"points": 1
+					},
+					{
+						"text": "The enemy Army is Broken and your Army is not",
+						"points": 2
+					}
+				]
+			]
+		},
+		{
+			"name": "Breakthrough",
+			"points": [
+				[
+					{
+						"text": "More friendly models than enemy models within 3\" of the Objective Marker in your own deployment zone",
+						"points": 1
+					}
+				],
+				[
+					{
+						"text": "For each Objective Marker on the centreline, more friendly models than enemy models within 3\"",
+						"points": 1,
+						"increment": true,
+						"max": 2
+					},
+					{
+						"text": "For each Objective Marker on the centreline, at least one friendly model and no enemy models within 3\"",
+						"points": 3,
+						"increment": true,
+						"max": 2
+					}
+				],
+				[
+					{
+						"text": "More friendly models than enemy models within 3\" of the Objective Marker in your opponent's deployment zone",
+						"points": 3
+					},
+					{
+						"text": "At least one friendly model and no enemy models within 3\" of the Objective Marker in your opponent's deployment zone",
+						"points": 5
+					}
+				],
+				[
+					{
+						"text": "The enemy General was wounded",
+						"points": 1
+					},
+					{
+						"text": "The enemy General was removed as a casualty",
+						"points": 2
+					}
+				],
+				[
+					{
+						"text": "The enemy Army is Broken",
+						"points": 1
+					},
+					{
+						"text": "The enemy Army is Broken and your Army is not",
+						"points": 2
+					}
+				],
+				[
+					{
+						"text": "Your opponent has no banners remaining (if they didn&apos;t have a banner to start with, you automatically score this)",
+						"points": 2
+					}
+				],
+				[
+					{
+						"text": "The model with the highest points cost in your opponent's army (not their General) was wounded",
+						"points": 1
+					},
+					{
+						"text": "The model with the highest points cost in your opponent's army (not their General) was removed as a casualty",
+						"points": 2
+					}
+				]
+			]
+		},
+		{
+			"name": "Stake A Claim",
+			"points": [
+				[
+					{
+						"text": "You scored more Fortification Points than your opponent",
+						"points": 4
+					},
+					{
+						"text": "You scored at least twice as many Fortification Points as your opponent",
+						"points": 8
+					},
+					{
+						"text": "You scored at least three times as many Fortification Points as your opponent",
+						"points": 12
+					}
+				],
+				[
+					{
+						"text": "The enemy General was wounded",
+						"points": 1
+					},
+					{
+						"text": "The enemy General was removed as a casualty",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "The enemy Army is Broken",
+						"points": 1
+					},
+					{
+						"text": "The enemy Army is Broken and your Army is not",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "You control the most Objective Markers",
+						"points": 2
+					}
+				]
+			]
+		},
+		{
+			"name": "Lords of Battle",
+			"points": [
+				[
+					{
+						"text": "Your Wound Tally is greater than your opponent's",
+						"points": 4
+					},
+					{
+						"text": "Your Wound Tally is at least twice as large as your opponent's",
+						"points": 8
+					},
+					{
+						"text": "Your Wound Tally is at least three times as large as your opponent's, or your opponent has no models left on the board",
+						"points": 12
+					}
+				],
+				[
+					{
+						"text": "The enemy General was wounded",
+						"points": 1
+					},
+					{
+						"text": "The enemy General was removed as a casualty",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "The enemy Army is Broken",
+						"points": 1
+					},
+					{
+						"text": "The enemy Army is Broken and your Army is not",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "Each enemy Hero model that has been removed as a casualty (max 2)",
+						"points": 1,
+						"increment": true,
+						"max": 2
+					}
+				]
+			]
+		},
+		{
+			"name": "Assassination",
+			"points": [
+				[
+					{
+						"text": "Your target has suffered one or more Wounds",
+						"points": 3
+					},
+					{
+						"text": "Your target has suffered one or more Wounds, and your Assassin caused at least one of those Wounds",
+						"points": 6
+					},
+					{
+						"text": "Your target has been slain",
+						"points": 9
+					},
+					{
+						"text": "Your target has been slain, and your Assassin caused the fatal Wound",
+						"points": 12
+					}
+				],
+				[
+					{
+						"text": "The enemy General was wounded",
+						"points": 1
+					},
+					{
+						"text": "The enemy General was removed as a casualty",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "The enemy Army is Broken",
+						"points": 1
+					},
+					{
+						"text": "The enemy Army is Broken and your Army is not",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "Your Assassin is still alive",
+						"points": 1
+					}
+				],
+				[
+					{
+						"text": "The model your opponent chose as their target is still alive",
+						"points": 1
+					}
+				]
+			]
+		},
+		{
+			"name": "Contest of Champions",
+			"points": [
+				[
+					{
+						"text": "Your Champion has killed more models than your opponent's Champion",
+						"points": 4
+					},
+					{
+						"text": "Your Champion has killed at least two models and at least twice as many as your opponent's Champion",
+						"points": 8
+					},
+					{
+						"text": "Your Champion has killed at least three models and at least three times as many as your opponent's Champion",
+						"points": 12
+					}
+				],
+				[
+					{
+						"text": "Your Champion kills the opposing Champion",
+						"points": 2
+					}
+				],
+				[
+					{
+						"text": "The enemy Army is Broken",
+						"points": 1
+					},
+					{
+						"text": "The enemy Army is Broken and your Army is not",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "Your General is alive",
+						"points": 1
+					},
+					{
+						"text": "Your General is alive and has suffered no Wounds",
+						"points": 3
+					}
+				]
+			]
+		},
+		{
+			"name": "Heirlooms of Ages Past",
+			"points": [
+				[
+					{
+						"text": "Your Army is in possession of the Heirloom",
+						"points": 8
+					},
+					{
+						"text": "No model from either Army is in possession of the Heirloom, but you have more models within 3\" of the Heirloom than your opponent",
+						"points": 4
+					}
+				],
+				[
+					{
+						"text": "Each Objective Marker your Army has uncovered which has been revealed to be a decoy",
+						"points": 1,
+						"increment": true,
+						"max": 5
+					}
+				],
+				[
+					{
+						"text": "The enemy Army is Broken",
+						"points": 1
+					},
+					{
+						"text": "The enemy Army is Broken and your Army is not",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "The enemy General was wounded",
+						"points": 1
+					},
+					{
+						"text": "The enemy General was removed as a casualty",
+						"points": 2
+					}
+				],
+				[
+					{
+						"text": "You have at least one banner remaining",
+						"points": 1
+					},
+					{
+						"text": "You have more banners remaining than your opponent",
+						"points": 2
+					}
+				]
+			]
+		},
+		{
+			"name": "Sites of Power",
+			"points": [
+				[
+					{
+						"text": "For each Objective Marker, you have more models within 3\" than your opponent",
+						"points": 1,
+						"increment": true,
+						"max": 4
+					},
+					{
+						"text": "For each Objective Marker, you have at least twice as many models within 3\" as your opponent",
+						"points": 2,
+						"increment": true,
+						"max": 4
+					},
+					{
+						"text": "For each Objective Marker, you are the only player to have models within 3\"",
+						"points": 3,
+						"increment": true,
+						"max": 4
+					}
+				],
+				[
+					{
+						"text": "The enemy Army is Broken",
+						"points": 1
+					},
+					{
+						"text": "The enemy Army is Broken and your Army is not",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "The enemy General was wounded",
+						"points": 1
+					},
+					{
+						"text": "The enemy General was removed as a casualty",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "The model with the highest points cost in your opponent's army (not their General) was wounded",
+						"points": 1
+					},
+					{
+						"text": "The most expensive model that is not their General was removed as a casualty",
+						"points": 2
+					}
+				]
+			]
+		},
+		{
+			"name": "Command the Battlefield",
+			"points": [
+				[
+					{
+						"text": "For each quarter of the board, you have more friendly models wholly within it than enemy models",
+						"points": 1,
+						"increment": true,
+						"max": 4
+					},
+					{
+						"text": "For each quarter of the board, you have at least double the number of friendly models wholly within it than enemy models",
+						"points": 2,
+						"increment": true,
+						"max": 4
+					},
+					{
+						"text": "For each quarter of the board, only friendly models and no enemy models wholly within it",
+						"points": 3,
+						"increment": true,
+						"max": 4
+					}
+				],
+				[
+					{
+						"text": "The enemy Army is Broken",
+						"points": 1
+					},
+					{
+						"text": "The enemy Army is Broken and your Army is not",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "The enemy General was wounded",
+						"points": 1
+					},
+					{
+						"text": "The enemy General was removed as a casualty",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "The enemy Army has been reduced to 25% of its starting models",
+						"points": 2
+					}
+				]
+			]
+		},
+		{
+			"name": "Retrieval",
+			"points": [
+				[
+					{
+						"text": "Your opponent's Relic has moved from its original position",
+						"points": 3
+					},
+					{
+						"text": "You have retrieved your opponent's Relic",
+						"points": 6
+					},
+					{
+						"text": "You have retrieved your opponent's Relic and the model holding it is in your deployment zone",
+						"points": 9
+					},
+					{
+						"text": "You have retrieved your opponent's Relic and moved it off the board via either of the board edges in your deployment zone",
+						"points": 12
+					}
+				],
+				[
+					{
+						"text": "The enemy Army is Broken",
+						"points": 1
+					},
+					{
+						"text": "The enemy Army is Broken and your Army is not",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "The enemy General was wounded",
+						"points": 1
+					},
+					{
+						"text": "The enemy General was removed as a casualty",
+						"points": 2
+					}
+				],
+				[
+					{
+						"text": "Each enemy Hero model that has been removed as a casualty (max 3)",
+						"points": 1,
+						"increment": true,
+						"max": 3
+					}
+				]
+			]
+		},
+		{
+			"name": "Seize the Prizes",
+			"points": [
+				[
+					{
+						"text": "Each Artefact carried by one of your models within your own board half",
+						"points": 2,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"text": "Each Artefact carried by one of your models within your opponent's board half",
+						"points": 3,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"text": "Each Artefact carried off the board via your opponent's board edge",
+						"points": 4,
+						"increment": true,
+						"max": 3
+					}
+				],
+				[
+					{
+						"text": "For each Artefact still on the board but not in possession of any model, you have the most models within 3\" of the Artefact",
+						"points": 1,
+						"increment": true,
+						"max": 3
+					}
+				],
+				[
+					{
+						"text": "The enemy Army is Broken",
+						"points": 1
+					},
+					{
+						"text": "The enemy Army is Broken and your Army is not",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "The enemy General was wounded",
+						"points": 1
+					},
+					{
+						"text": "The enemy General was removed as a casualty",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "You have at least one banner remaining",
+						"points": 1
+					},
+					{
+						"text": "You have more banners remaining than your opponent",
+						"points": 2
+					}
+				]
+			]
+		},
+		{
+			"name": "Treasure Hoard",
+			"points": [
+				[
+					{
+						"text": "Each Artefact in the possession of a friendly model",
+						"points": 2,
+						"increment": true,
+						"max": 6
+					}
+				],
+				[
+					{
+						"text": "The enemy Army is Broken",
+						"points": 1
+					},
+					{
+						"text": "The enemy Army is Broken and your Army is not",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "The enemy General was wounded",
+						"points": 1
+					},
+					{
+						"text": "The enemy General was removed as a casualty",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "At least one model wholly within 12\" of your opponent's board edge",
+						"points": 1
+					},
+					{
+						"text": "At least three models wholly within 12\" of your opponent's board edge",
+						"points": 2
+					}
+				]
+			]
+		},
+		{
+			"name": "Storm the Camp",
+			"points": [
+				[
+					{
+						"text": "Your Army captured your opponent's camp",
+						"points": 5
+					},
+					{
+						"text": "Your Army captured your opponent's camp and you have a Hero model in your opponent's camp",
+						"points": 7
+					},
+					{
+						"text": "Your Army captured your opponent's camp and you have a model with a banner in your opponent's camp",
+						"points": 10
+					}
+				],
+				[
+					{
+						"text": "The enemy Army is Broken",
+						"points": 1
+					},
+					{
+						"text": "The enemy Army is Broken and your Army is not",
+						"points": 2
+					}
+				],
+				[
+					{
+						"text": "The enemy General was wounded",
+						"points": 1
+					},
+					{
+						"text": "The enemy General was removed as a casualty",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "Each model you have in your opponent's camp (max 5)",
+						"points": 1,
+						"increment": true,
+						"max": 5
+					}
+				]
+			]
+		},
+		{
+			"name": "Divide & Conquer",
+			"points": [
+				[
+					{
+						"text": "More friendly models than enemy models within 3\" of the central objective",
+						"points": 3
+					},
+					{
+						"text": "At least one friendly model and no enemy models within 3\" of the central objective",
+						"points": 6
+					}
+				],
+				[
+					{
+						"text": "For each other objective, more friendly models than enemy models within 3\"",
+						"points": 1,
+						"increment": true,
+						"max": 2
+					},
+					{
+						"text": "For each other objective, at least one friendly model and no enemy models within 3\"",
+						"points": 3,
+						"increment": true,
+						"max": 2
+					}
+				],
+				[
+					{
+						"text": "The enemy Army is Broken",
+						"points": 1
+					},
+					{
+						"text": "The enemy Army is Broken and your Army is not",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "The enemy General was wounded",
+						"points": 1
+					},
+					{
+						"text": "The enemy General was removed as a casualty",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "At the end of the game your General is within 3\" of the central objective",
+						"points": 2
+					}
+				]
+			]
+		},
+		{
+			"name": "Escort the Wounded",
+			"points": [
+				[
+					{
+						"text": "Each wounded ally being carried by a friendly model in your opponent's board half",
+						"points": 2,
+						"increment": true,
+						"max": 3
+					},
+					{
+						"text": "Each wounded ally that has been rescued",
+						"points": 4,
+						"increment": true,
+						"max": 3
+					}
+				],
+				[
+					{
+						"text": "The enemy Army is Broken",
+						"points": 1
+					},
+					{
+						"text": "The enemy Army is Broken and your Army is not",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "The enemy General was wounded",
+						"points": 1
+					},
+					{
+						"text": "The enemy General was removed as a casualty",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "Your opponent has no banners remaining (if they didn&apos;t have a banner to start with, you automatically score this)",
+						"points": 2
+					}
+				]
+			]
+		},
+		{
+			"name": "Clash By Moonlight",
+			"points": [
+				[
+					{
+						"text": "The enemy Army is Broken",
+						"points": 1
+					},
+					{
+						"text": "The enemy Army is Broken and your Army is not",
+						"points": 4
+					}
+				],
+				[
+					{
+						"text": "The enemy General was wounded",
+						"points": 1
+					},
+					{
+						"text": "The enemy General was removed as a casualty",
+						"points": 4
+					}
+				],
+				[
+					{
+						"text": "Your opponent has no banners remaining (if they didn&apos;t have a banner to start with, you automatically score this)",
+						"points": 2
+					}
+				],
+				[
+					{
+						"text": "You have at least one banner remaining",
+						"points": 1
+					},
+					{
+						"text": "You have more banners remaining than your opponent",
+						"points": 2
+					}
+				],
+				[
+					{
+						"text": "Each enemy Hero model that has been removed as a casualty (max 4)",
+						"points": 1,
+						"increment": true,
+						"max": 4
+					}
+				],
+				[
+					{
+						"text": "You have more models within 3\" of the objective than your opponent",
+						"points": 1
+					},
+					{
+						"text": "You have twice as many models within 3\" of the objective than your opponent",
+						"points": 2
+					},
+					{
+						"text": "You are the only player to have models within 3\" of the objective",
+						"points": 4
+					}
+				]
+			]
+		},
+		{
+			"name": "Lead from the Front",
+			"points": [
+				[
+					{
+						"text": "Each Objective Marker with both friendly and enemy Hero models within 3\", but only if any friendly Hero model is of a higher Heroic Tier than any enemy Hero model",
+						"points": 2,
+						"increment": true,
+						"max": 3
+					}
+				],
+				[
+					{
+						"text": "Each Objective Marker with a friendly Hero model and no enemy Hero models within 3\"",
+						"points": 4,
+						"increment": true,
+						"max": 3
+					}
+				],
+				[
+					{
+						"text": "The enemy Army is Broken",
+						"points": 1
+					},
+					{
+						"text": "The enemy Army is Broken and your Army is not",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "The enemy General was wounded",
+						"points": 1
+					},
+					{
+						"text": "The enemy General was removed as a casualty",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "Your opponent has no banners remaining (if they didn&apos;t have a banner to start with, you automatically score this)",
+						"points": 2
+					}
+				]
+			]
+		},
+		{
+			"name": "Convergence",
+			"points": [
+				[
+					{
+						"text": "Each Heirloom held by a friendly model",
+						"points": 1,
+						"increment": true,
+						"max": 4
+					},
+					{
+						"text": "Each Heirloom held by a friendly model within 6\" of the centre of the battlefield",
+						"points": 3,
+						"increment": true,
+						"max": 4
+					}
+				],
+				[
+					{
+						"text": "You have more models within 6\" of the centre of the battlefield than your opponent",
+						"points": 2
+					}
+				],
+				[
+					{
+						"text": "The enemy Army is Broken",
+						"points": 1
+					},
+					{
+						"text": "The enemy Army is Broken and your Army is not",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "The enemy General was wounded",
+						"points": 1
+					},
+					{
+						"text": "The enemy General was removed as a casualty",
+						"points": 3
+					}
+				]
+			]
 		}
 	],
 	"stats": [
