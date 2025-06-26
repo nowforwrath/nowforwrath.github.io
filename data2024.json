@@ -8135,11 +8135,21 @@
 				"options": [
 					{
 						"name": "Armoured horse",
-						"points": 25
+						"points": 25,
+						"availableIn": [
+							"Barad-Dur",
+							"Legions of Mordor",
+							"Army of the Great Eye"
+						]
 					},
 					{
 						"name": "Lance",
-						"points": 5
+						"points": 5,
+						"availableIn": [
+							"Barad-Dur",
+							"Legions of Mordor",
+							"Army of the Great Eye"
+						]
 					}
 				]
 			},
