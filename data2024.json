@@ -2006,6 +2006,16 @@
 						"Ashrak",
 						"Drúzhag the Beastcaller"
 					]
+				],
+				"counts": [
+					{
+						"propertyName": "race",
+						"value": "Orc"
+					},
+					{
+						"propertyName": "race",
+						"value": "Goblin"
+					}
 				]
 			},
 			{
