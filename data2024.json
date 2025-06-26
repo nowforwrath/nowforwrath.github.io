@@ -27334,7 +27334,7 @@
 					"Fearless",
 					"Resistant to Magic",
 					"Woodland Creature",
-					"Skin-changer",
+					"Skin-changer (Grimbeorn)",
 					"Leader of the Beornings"
 				],
 				"wargear": [
@@ -27388,7 +27388,7 @@
 					"Resistant to Magic",
 					"Terror",
 					"Woodland Creature",
-					"Skin-changer",
+					"Skin-changer (Grimbeorn)",
 					"Leader of the Beornings",
 					"Crushing Strength"
 				],
@@ -41406,6 +41406,16 @@
 				"definition": "24\" Range, 2 Strength"
 			},
 			{
+				"name": "Exchange two-handed weapon for crossbow",
+				"type": "bow",
+				"definition": "24\" Range, 3 Strength"
+			},
+			{
+				"name": "Exchange spear for crossbow",
+				"type": "bow",
+				"definition": "24\" Range, 3 Strength"
+			},
+			{
 				"name": "Bone-breaker",
 				"definition": "This is a Unique hand weapon. Enemy models with an Elven weapon Engaged in Combat with, or supporting a model Engaged in Combat with, Razgush do not receive the bonus to the roll-off should the Duel Roll result in a Drawn Combat.",
 				"tag": "Active"
@@ -44437,7 +44447,7 @@
 				"definition": "A Gondor Avenger Bolt Thrower doesn't shoot like a normal Siege Engine. Instead, it may make D6 shooting attacks in the same way as a normal Missile Weapon. No Scatter is required for these shots; they will either hit or miss. Each shot may be fully resolved before determining the target of the next one. Shots fired by a Gondor Avenger Bolt Thrower do not kill their targets outright if they Wound them."
 			},
 			{
-				"name": "Skin-changer",
+				"name": "Skin-changer (Grimbeorn)",
 				"tag": "Active",
 				"definition": "At the beginning of his Activation, Grimbeorn the Bear can change his form from Bear to Man. If he does, place the Man model in base contact with the Bear model, and then remove the Bear model from play. If there is no space to place the Man model, then Grimbeorn cannot transform. Once he has transformed, Grimbeorn may continue his Activation as normal, including Charging in which case check the Line of Sight from the newly placed Man model to determine whether Grimbeorn can Charge. Once Grimbeorn the Bear has transformed, he uses the Grimbeorn profile – though his Wounds, Might, Will and Fate Points remain the same between both profiles."
 			},
