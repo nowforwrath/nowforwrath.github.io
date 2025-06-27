@@ -1136,7 +1136,9 @@
 						"points": 2,
 						"increment": true,
 						"max": 3
-					},
+					}
+				],
+				[
 					{
 						"text": "Each wounded ally that has been rescued",
 						"points": 4,
