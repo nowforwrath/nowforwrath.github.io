@@ -14255,10 +14255,6 @@
 						"heroicTier": "Hero of Valour"
 					},
 					{
-						"name": "Theodred's Guard",
-						"heroicTier": "Hero of Valour"
-					},
-					{
 						"name": "Fords of Isen",
 						"heroicTier": "Hero of Valour"
 					}
@@ -14303,8 +14299,7 @@
 						"name": "Shield",
 						"points": 5,
 						"availableIn": [
-							"Kingdom of Rohan",
-							"Theodred's Guard"
+							"Kingdom of Rohan"
 						]
 					}
 				],
@@ -14860,10 +14855,6 @@
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
-						"name": "Theodred's Guard",
-						"heroicTier": "Hero of Fortitude"
-					},
-					{
 						"name": "Defenders of Helm's Deep",
 						"heroicTier": "Hero of Fortitude"
 					},
@@ -14976,7 +14967,6 @@
 							"Kingdom of Rohan",
 							"Riders of Theoden",
 							"Riders of Eomer",
-							"Theodred's Guard",
 							"Helm's Guard",
 							"Defenders of the Pelennor",
 							"Realms of Men",
@@ -34872,27 +34862,27 @@
 					{
 						"name": "War horn, shield, and throwing spears",
 						"points": 28,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Banner",
 						"points": 25,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Shield and throwing spears",
 						"points": 3,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Bow",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -36003,28 +35993,28 @@
 				"options": [
 					{
 						"name": "War horn, shield, and throwing spears",
-						"chooseOneKey": "a",
+						"requireChooseOneKey": "a",
 						"points": 28
 					},
 					{
 						"name": "Banner",
-						"chooseOneKey": "a",
+						"requireChooseOneKey": "a",
 						"points": 25
 					},
 					{
 						"name": "Shield and throwing spears",
-						"chooseOneKey": "a",
+						"requireChooseOneKey": "a",
 						"points": 3
 					},
 					{
 						"name": "Bow",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Helmingas",
@@ -36051,7 +36041,6 @@
 					"Kingdom of Rohan",
 					"Riders of Theoden",
 					"Riders of Eomer",
-					"Theodred's Guard",
 					"Helm's Guard",
 					"Defenders of the Hornburg",
 					"Defenders of the Pelennor",
@@ -37707,33 +37696,7 @@
 				"baseSize": [
 					"25mm"
 				],
-				"options": [
-					{
-						"name": "War horn and Shield",
-						"points": 26,
-						"requireChooseOneKey": "a"
-					},
-					{
-						"name": "Banner",
-						"points": 25,
-						"requireChooseOneKey": "a"
-					},
-					{
-						"name": "Shield and spear",
-						"points": 2,
-						"requireChooseOneKey": "a"
-					},
-					{
-						"name": "Bow",
-						"points": 1,
-						"requireChooseOneKey": "a"
-					},
-					{
-						"name": "Shield",
-						"points": 1,
-						"requireChooseOneKey": "a"
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Shieldwall"
 				],
