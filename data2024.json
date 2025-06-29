@@ -29629,6 +29629,7 @@
 					"Depths of Moria",
 					"Moria"
 				],
+				"legacy": true,
 				"points": 75,
 				"includes": [
 					{
