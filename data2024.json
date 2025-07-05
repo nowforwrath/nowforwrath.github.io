@@ -518,6 +518,14 @@
 			"points": [
 				[
 					{
+						"text": "Fortification Points",
+						"points": 0,
+						"increment": true,
+						"max": 4
+					}
+				],
+				[
+					{
 						"text": "You scored more Fortification Points than your opponent",
 						"points": 4
 					},
