@@ -1136,9 +1136,7 @@
 						"points": 2,
 						"increment": true,
 						"max": 3
-					}
-				],
-				[
+					},
 					{
 						"text": "Each wounded ally that has been rescued",
 						"points": 4,
@@ -2369,6 +2367,9 @@
 						"The Tainted",
 						"The Undying"
 					]
+				],
+				"additionalTts": [
+					"Great eye marker"
 				]
 			},
 			{
@@ -2421,6 +2422,10 @@
 				],
 				"specialRules": [
 					"Dominant (2)"
+				],
+				"additionalTts": [
+					"Dwarven mirror",
+					"Dwarven mirror"
 				]
 			},
 			{
@@ -14255,6 +14260,10 @@
 						"heroicTier": "Hero of Valour"
 					},
 					{
+						"name": "Theodred's Guard",
+						"heroicTier": "Hero of Valour"
+					},
+					{
 						"name": "Fords of Isen",
 						"heroicTier": "Hero of Valour"
 					}
@@ -14299,7 +14308,8 @@
 						"name": "Shield",
 						"points": 5,
 						"availableIn": [
-							"Kingdom of Rohan"
+							"Kingdom of Rohan",
+							"Theodred's Guard"
 						]
 					}
 				],
@@ -14855,6 +14865,10 @@
 						"heroicTier": "Hero of Fortitude"
 					},
 					{
+						"name": "Theodred's Guard",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
 						"name": "Defenders of Helm's Deep",
 						"heroicTier": "Hero of Fortitude"
 					},
@@ -14967,6 +14981,7 @@
 							"Kingdom of Rohan",
 							"Riders of Theoden",
 							"Riders of Eomer",
+							"Theodred's Guard",
 							"Helm's Guard",
 							"Defenders of the Pelennor",
 							"Realms of Men",
@@ -29619,7 +29634,6 @@
 					"Depths of Moria",
 					"Moria"
 				],
-				"legacy": true,
 				"points": 75,
 				"includes": [
 					{
@@ -34862,27 +34876,27 @@
 					{
 						"name": "War horn, shield, and throwing spears",
 						"points": 28,
-						"requireChooseOneKey": "a"
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Banner",
 						"points": 25,
-						"requireChooseOneKey": "a"
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Shield and throwing spears",
 						"points": 3,
-						"requireChooseOneKey": "a"
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Bow",
 						"points": 1,
-						"requireChooseOneKey": "a"
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
 						"points": 1,
-						"requireChooseOneKey": "a"
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -35993,28 +36007,28 @@
 				"options": [
 					{
 						"name": "War horn, shield, and throwing spears",
-						"requireChooseOneKey": "a",
+						"chooseOneKey": "a",
 						"points": 28
 					},
 					{
 						"name": "Banner",
-						"requireChooseOneKey": "a",
+						"chooseOneKey": "a",
 						"points": 25
 					},
 					{
 						"name": "Shield and throwing spears",
-						"requireChooseOneKey": "a",
+						"chooseOneKey": "a",
 						"points": 3
 					},
 					{
 						"name": "Bow",
 						"points": 1,
-						"requireChooseOneKey": "a"
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
 						"points": 1,
-						"requireChooseOneKey": "a"
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Helmingas",
@@ -36041,6 +36055,7 @@
 					"Kingdom of Rohan",
 					"Riders of Theoden",
 					"Riders of Eomer",
+					"Theodred's Guard",
 					"Helm's Guard",
 					"Defenders of the Hornburg",
 					"Defenders of the Pelennor",
@@ -37696,7 +37711,33 @@
 				"baseSize": [
 					"25mm"
 				],
-				"options": [],
+				"options": [
+					{
+						"name": "War horn and Shield",
+						"points": 26,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Banner",
+						"points": 25,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Shield and spear",
+						"points": 2,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Bow",
+						"points": 1,
+						"requireChooseOneKey": "a"
+					},
+					{
+						"name": "Shield",
+						"points": 1,
+						"requireChooseOneKey": "a"
+					}
+				],
 				"specialRules": [
 					"Shieldwall"
 				],
