@@ -11175,52 +11175,6 @@
 				]
 			},
 			{
-				"name": "Brand, King of Dale",
-				"factions": [],
-				"points": 110,
-				"movement": 6,
-				"fight": 5,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 7,
-				"attack": 3,
-				"wounds": 3,
-				"courage": 5,
-				"intelligence": 5,
-				"might": 3,
-				"will": 3,
-				"fate": 1,
-				"heroicActions": [
-					"Heroic Resolve",
-					"Heroic Strength",
-					"Heroic Strike"
-				],
-				"race": [
-					"Man"
-				],
-				"faction": [
-					"Dale"
-				],
-				"unitType": [
-					"Hero",
-					"Infantry",
-					"Unique"
-				],
-				"baseSize": [
-					"25mm"
-				],
-				"specialRules": [
-					"Lord of Dale",
-					"Stoic Fighter"
-				],
-				"wargear": [
-					"Heavy armour",
-					"Shield",
-					"Hand weapon"
-				],
-				"options": []
-			},
-			{
 				"name": "Mardin, the King's Ward",
 				"factions": [
 					{
