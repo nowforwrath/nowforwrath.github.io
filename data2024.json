@@ -65,7 +65,13 @@
 		"Escort the Wounded",
 		"Clash By Moonlight",
 		"Lead from the Front",
-		"Convergence"
+		"Convergence",
+		"No Escape",
+		"Total Conquest",
+		"Take & Hold",
+		"Clash of Champions",
+		"Cornered",
+		"Duel of Wits"
 	],
 	"scenarioScoring": [
 		{
@@ -1330,6 +1336,111 @@
 					},
 					{
 						"text": "The enemy General was removed as a casualty",
+						"points": 3
+					}
+				]
+			]
+		},
+		{
+			"name": "No Escape",
+			"points": [
+				[
+					{
+						"text": "The enemy Leader was wounded during the game",
+						"points": 1
+					},
+					{
+						"text": "The enemy Leader has been wounded, and only has a single Wound remaining",
+						"points": 3
+					},
+					{
+						"text": "The enemy Leader was removed as a casualty",
+						"points": 5
+					}
+				],
+				[
+					{
+						"text": "The enemy Army is Broken",
+						"points": 3
+					},
+					{
+						"text": "The enemy Army is Broken and your Army is not",
+						"points": 5
+					}
+				],
+				[
+					{
+						"text": "The opposing team has no banners remaining",
+						"points": 2
+					}
+				],
+				[
+					{
+						"text": "Your Army has at least one banner remaining",
+						"points": 1
+					},
+					{
+						"text": "Your army has more banners remaining than the opposing team",
+						"points": 2
+					}
+				],
+				[
+					{
+						"text": "You killed the General of the Secondary Force",
+						"points": 3
+					}
+				],
+				[
+					{
+						"text": "Each Hero model within 3\" of the centre of the board",
+						"points": 1,
+						"increment": true,
+						"max": 3
+					}
+				]
+			]
+		},
+		{
+			"name": "Total Conquest",
+			"points": [
+				[
+					{
+						"text": "Each Objective Marker with more models within 3\" than the opposing team",
+						"points": 1,
+						"increment": true
+					}
+				],
+				[
+					{
+						"name": "Each Objective Marker with at least twice as many models as the opposing team within 3\"",
+						"points": 2,
+						"increment": true
+					}
+				],
+				[
+					{
+						"text": "Each Objective Marker where your team is the only team with models within 3\"",
+						"points": 3,
+						"increment": true
+					}
+				],
+				[
+					{
+						"text": "The enemy Army is Broken",
+						"points": 1
+					},
+					{
+						"text": "The enemy Army is Broken and your Army is not",
+						"points": 2
+					}
+				],
+				[
+					{
+						"text": "The enemy leader was wounded",
+						"points": 1
+					},
+					{
+						"text": "The enemy leader was removed as a casualty",
 						"points": 3
 					}
 				]
@@ -11060,6 +11171,9 @@
 						"name": "Umbar",
 						"heroicTier": "Hero of Legend"
 					}
+				],
+				"unavailableWith": [
+					"Corsair Captain Leader"
 				],
 				"points": 100,
 				"movement": 6,
@@ -27683,6 +27797,9 @@
 						"name": "Corsair Fleets",
 						"heroicTier": "Hero of Fortitude"
 					}
+				],
+				"unavailableWith": [
+					"Dalamyr, Fleetmaster of Umbar"
 				],
 				"points": 55,
 				"movement": 6,
