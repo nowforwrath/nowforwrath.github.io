@@ -30812,7 +30812,6 @@
 				"factions": [
 					"Defenders of the Pelennor",
 					"Men of the West",
-					"The Fiefdoms",
 					"The Grief of Eomer",
 					"Realms of Men"
 				],
@@ -30824,6 +30823,26 @@
 							},
 							{
 								"in": "Defenders of the Pelennor"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "The Fiefdoms"
+							},
+							{
+								"with": "Captain of Dol Amroth"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "The Fiefdoms"
+							},
+							{
+								"with": "Prince Imrahil"
 							}
 						]
 					}
@@ -31808,7 +31827,6 @@
 			{
 				"name": "Blackroot Vale Archer",
 				"factions": [
-					"The Fiefdoms",
 					"Defenders of the Pelennor",
 					"Realms of Men"
 				],
@@ -31820,6 +31838,16 @@
 							},
 							{
 								"in": "Defenders of the Pelennor"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "The Fiefdoms"
+							},
+							{
+								"with": "Duinhir, Lord of the Blackroot Vale"
 							}
 						]
 					}
@@ -31878,7 +31906,6 @@
 			{
 				"name": "Clansman of Lamedon",
 				"factions": [
-					"The Fiefdoms",
 					"Defenders of the Pelennor",
 					"Realms of Men"
 				],
@@ -31890,6 +31917,16 @@
 							},
 							{
 								"in": "Defenders of the Pelennor"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "The Fiefdoms"
+							},
+							{
+								"with": "Angbor the Fearless"
 							}
 						]
 					}
@@ -31930,7 +31967,6 @@
 			{
 				"name": "Knight of Dol Amroth",
 				"factions": [
-					"The Fiefdoms",
 					"Defenders of the Pelennor",
 					"Men of the West",
 					"The Grief of Eomer",
@@ -31944,6 +31980,26 @@
 							},
 							{
 								"in": "Defenders of the Pelennor"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "The Fiefdoms"
+							},
+							{
+								"with": "Captain of Dol Amroth"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "The Fiefdoms"
+							},
+							{
+								"with": "Prince Imrahil"
 							}
 						]
 					}
@@ -32034,7 +32090,6 @@
 			{
 				"name": "Axeman of Lossarnach",
 				"factions": [
-					"The Fiefdoms",
 					"Defenders of the Pelennor",
 					"Realms of Men"
 				],
@@ -32046,6 +32101,16 @@
 							},
 							{
 								"in": "Defenders of the Pelennor"
+							}
+						]
+					},
+					{
+						"all": [
+							{
+								"in": "The Fiefdoms"
+							},
+							{
+								"with": "Forlong the Fat"
 							}
 						]
 					}
