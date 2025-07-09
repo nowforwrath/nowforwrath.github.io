@@ -44960,11 +44960,6 @@
 				"definition": "When Theodred Moves, he must always Charge an enemy model if possible. Additionally, in a turn in which Theodred Charges he must re-roll any failed to Wound rolls when making Strikes."
 			},
 			{
-				"name": "Mighty Blow",
-				"tag": "Passive",
-				"definition": "For each Strike that successfully Wounds in close combat, this model inflicts 2 Wounds rather than 1."
-			},
-			{
 				"name": "The Age of Men is Over",
 				"tag": "Passive",
 				"definition": "Friendly Mordor Orcs within 3\" of Gothmog gain the Hatred (Man) special rule."
