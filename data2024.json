@@ -840,13 +840,17 @@
 						"points": 1,
 						"increment": true,
 						"max": 4
-					},
+					}
+				],
+				[
 					{
 						"text": "For each quarter of the board, you have at least double the number of friendly models wholly within it than enemy models",
 						"points": 2,
 						"increment": true,
 						"max": 4
-					},
+					}
+				],
+				[
 					{
 						"text": "For each quarter of the board, only friendly models and no enemy models wholly within it",
 						"points": 3,
