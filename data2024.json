@@ -30848,6 +30848,11 @@
 						]
 					}
 				],
+				"unavailableIn": [
+					[
+						"Gwaihir"
+					]
+				],
 				"points": 10,
 				"legacy": true,
 				"movement": 6,
