@@ -6165,6 +6165,7 @@
 					}
 				],
 				"points": 70,
+				"unlimited": true,
 				"legacy": true,
 				"movement": 6,
 				"fight": 5,
