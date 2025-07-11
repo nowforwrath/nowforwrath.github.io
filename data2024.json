@@ -44853,7 +44853,7 @@
 			},
 			{
 				"name": "The Gleaming Horde",
-				"definition": "This model gains the Shieldwall special rule whilst they have the Cavalry keyword, and may still benefit from the special rulew hilst mounted. The bonus of +1 Defence is applied to both rider and Mount. Hero models with this special rule that do not have a shield will still benefit from this special rule.",
+				"definition": "This model gains the Shieldwall special rule whilst they have the Cavalry keyword, and may still benefit from the special rule whilst mounted. The bonus of +1 Defence is applied to both rider and Mount. Hero models with this special rule that do not have a shield will still benefit from this special rule.",
 				"tag": "Active"
 			},
 			{
