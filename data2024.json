@@ -30098,12 +30098,12 @@
 					{
 						"name": "Blowpipe",
 						"points": 1,
-						"requireChooseOneKey": "a"
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "Spear",
 						"points": 1,
-						"requireChooseOneKey": "a"
+						"chooseOneKey": "a"
 					}
 				]
 			},
