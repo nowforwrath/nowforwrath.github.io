@@ -1309,7 +1309,9 @@
 						"points": 1,
 						"increment": true,
 						"max": 4
-					},
+					}
+				],
+				[
 					{
 						"text": "Each Heirloom held by a friendly model within 6\" of the centre of the battlefield",
 						"points": 3,
