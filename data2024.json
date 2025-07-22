@@ -36167,28 +36167,28 @@
 				"options": [
 					{
 						"name": "War horn, shield, and throwing spears",
-						"chooseOneKey": "a",
+						"requireChooseOneKey": "a",
 						"points": 28
 					},
 					{
 						"name": "Banner",
-						"chooseOneKey": "a",
+						"requireChooseOneKey": "a",
 						"points": 25
 					},
 					{
 						"name": "Shield and throwing spears",
-						"chooseOneKey": "a",
+						"requireChooseOneKey": "a",
 						"points": 3
 					},
 					{
 						"name": "Bow",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Shield",
 						"points": 1,
-						"chooseOneKey": "a"
+						"requireChooseOneKey": "a"
 					},
 					{
 						"name": "Helmingas",
@@ -46771,7 +46771,7 @@
 			{
 				"name": "Everyone has a Price",
 				"tag": "Passive",
-				"definition": "Whilst within 6\" and in Line of Sight of the Master of Lake-town, this model may re-roll failed To Wound Rolls of a natural 1 when making STrikes. This special rule has no effect if the Master of Lake-town has no Will Points remaining."
+				"definition": "Whilst within 6\" and in Line of Sight of the Master of Lake-town, this model may re-roll failed To Wound Rolls of a natural 1 when making Strikes. This special rule has no effect if the Master of Lake-town has no Will Points remaining."
 			},
 			{
 				"name": "Just a couple of keepsakes",
