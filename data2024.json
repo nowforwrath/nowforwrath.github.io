@@ -4593,28 +4593,22 @@
 		],
 		"heroicTiers": [
 			{
-				"name": "Hero of Legend - Sauron",
-				"followers": 24
+				"name": "Hero of Legend - Sauron"
 			},
 			{
-				"name": "Hero of Legend",
-				"followers": 18
+				"name": "Hero of Legend"
 			},
 			{
-				"name": "Hero of Valour",
-				"followers": 15
+				"name": "Hero of Valour"
 			},
 			{
-				"name": "Hero of Fortitude",
-				"followers": 12
+				"name": "Hero of Fortitude"
 			},
 			{
-				"name": "Minor Hero",
-				"followers": 6
+				"name": "Minor Hero"
 			},
 			{
-				"name": "Independent Hero",
-				"followers": 0
+				"name": "Independent Hero"
 			}
 		],
 		"heroes": [
@@ -8409,8 +8403,7 @@
 							"Minas Morgul",
 							"Cirith Ungol",
 							"The Black Gate",
-							"Ravagers of the Shire",
-							"Assault on Lothlorien"
+							"Ravagers of the Shire"
 						]
 					}
 				]
@@ -44186,7 +44179,7 @@
 			},
 			{
 				"name": "Death-touch",
-				"definition": "Any model that Wounds Ashrak in Combat, or is Wounded by Ashrak in Combat, must immediately roll a D6. On a 4+ the model immediately suffers the effects of the Paralyse Magical Power; however, the effects will not immediately end should Ashrak have no Will Points to be slain.",
+				"definition": "Any model that Wounds Ashrak in Combat, or is Wounded by Ashrak in Combat, must immediately roll a D6. On a 4+ the model immediately suffers the effects of the Paralyse Magical Power; however, the effects will not immediately end should Ashrak have no Will Points or be slain.",
 				"tag": "Active"
 			},
 			{
@@ -46260,7 +46253,7 @@
 			{
 				"name": "Leave me flowers alone!",
 				"tag": "Passive",
-				"definition": "After both sides have deployed, before the first turn begins, Hamfast's controlling player may place three 25mm Flower Markers anywhere on the board. Models can Move freely over Flower Markers, but may never end their Move overlapping a Flower Marker. They may also not Back Away or Make Way so that they are overlapping a Flower Marker. Objects such as a Siege Engine, Heavy Object, or other such items can never be placed so that they are overlapping a Flower Marker. Friendly Hobbit models may re-roll failed To Wound rolls when making Strikes or shooting attacks that target an enemy model within 3\" of a friendly Flower Marker. Additionally, Hamfast gains a bonus of +1 To Wound when making Strikes or shooitng attacks that target an enemy model within 3\" of a friendly Flower Marker."
+				"definition": "After both sides have deployed, before the first turn begins, Hamfast's controlling player may place three 25mm Flower Markers anywhere on the board. Models can Move freely over Flower Markers, but may never end their Move overlapping a Flower Marker. They may also not Back Away or Make Way so that they are overlapping a Flower Marker. Objects such as a Siege Engine, Heavy Object, or other such items can never be placed so that they are overlapping a Flower Marker. Friendly Hobbit models may re-roll failed To Wound rolls when making Strikes or shooting attacks that target an enemy model within 3\" of a friendly Flower Marker. Additionally, Hamfast gains a bonus of +1 To Wound when making Strikes or shooting attacks that target an enemy model within 3\" of a friendly Flower Marker."
 			},
 			{
 				"name": "Spider Webs",
@@ -46638,7 +46631,7 @@
 			{
 				"name": "Gandalf's Rockets",
 				"tag": "Active",
-				"definition": "At the start of every friendly Shoot Phase, Gandalf may select one of the fireworks listed below, then choose one enemy model he has Line of Sight to and is within 6\" of his cart and roll a D6. On a 2+, the chosen model suffers the effect of the selected firework. This can be done even if Gandalf is engaed in Combat, and may even target an enemy model who is themselves Engaged in Combat. No In The Way Rolls are required for this special rule.\n                Wooshing Arrow - The target immediately suffers a Strength 2 hit.\n                Goblin Popper - The target is immediately knocked Prone. This has no effect on Monster models.\n                Flaming Wheel - The target suffers a -1 Penalty to their Duel Rolls in the ensuins Fight Phase.\n                The Big One - The target immediately suffers a Strength 8 hit and, if they survive, are knocked Prone. This firework can only be used once per game."
+				"definition": "At the start of every friendly Shoot Phase, Gandalf may select one of the fireworks listed below, then choose one enemy model he has Line of Sight to and is within 6\" of his cart and roll a D6. On a 2+, the chosen model suffers the effect of the selected firework. This can be done even if Gandalf is engaed in Combat, and may even target an enemy model who is themselves Engaged in Combat. No In The Way Rolls are required for this special rule.\n                Wooshing Arrow - The target immediately suffers a Strength 2 hit.\n                Goblin Popper - The target is immediately knocked Prone. This has no effect on Monster models.\n                Flaming Wheel - The target suffers a -1 Penalty to their Duel Rolls in the ensuing Fight Phase.\n                The Big One - The target immediately suffers a Strength 8 hit and, if they survive, are knocked Prone. This firework can only be used once per game."
 			},
 			{
 				"name": "Protect the little ones!",
