@@ -1243,11 +1243,7 @@
 						"points": 1
 					},
 					{
-						"text": "You have twice as many models within 3\" of the objective than your opponent",
-						"points": 2
-					},
-					{
-						"text": "You are the only player to have models within 3\" of the objective",
+						"text": "You have twice as many models within 3\" of the objective than your opponent or you are the only player with models within 3\" of the objective",
 						"points": 4
 					}
 				]
