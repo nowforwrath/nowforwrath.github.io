@@ -44943,7 +44943,7 @@
 			{
 				"name": "Bodyguard",
 				"tag": "Active",
-				"definition": "All models with this special rule in an Army must select a Hero to bodyguard; this will automatically be the General if they have the same Faction keyword as this model. If the General does not have the same Faction keyword as this model, then they will bodyguard the Hero with the highest Heroic Tier amongst those who have the same Faction keyword (if there are multiple of the same Heoric Tier, you may choose which will be bodyguarded). All models of this type must choose the same Hero to bodyguard.\n                So long as the bodyguarded Hero is alive and on the battlefield, all models who are bodygaurding that Hero will automatically pass all Courage Tests they are required to take."
+				"definition": "All models with this special rule in an Army must select a Hero to bodyguard; this will automatically be the General if they have the same Faction keyword as this model. If the General does not have the same Faction keyword as this model, then they will bodyguard the Hero with the highest Heroic Tier amongst those who have the same Faction keyword (if there are multiple of the same Heroic Tier, you may choose which will be bodyguarded). All models of this type must choose the same Hero to bodyguard.\n                So long as the bodyguarded Hero is alive and on the battlefield, all models who are bodygaurding that Hero will automatically pass all Courage Tests they are required to take."
 			},
 			{
 				"name": "Reckless Charge",
