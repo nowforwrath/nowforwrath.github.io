@@ -44710,7 +44710,7 @@
 			{
 				"name": "Twin Elven Blades",
 				"tag": "Active",
-				"definition": "Whilst he has the Infantry Keyword, Elrohir can choose to fight in one of the three following ways. He must declare which way he is fighting at the start of a Combat, before any dice are rolled:\n        • Elrohir can fight with 3 Attacks rather than 2.\n        • Elrohir can use his Elven weapons as Elven hand-and-half weapons.\n        • Elrohir can use his Elven weapons to parry, which counts as Shielding."
+				"definition": "Whilst he has the Infantry Keyword, this model can choose to fight in one of the three following ways. He must declare which way he is fighting at the start of a Combat, before any dice are rolled:\n        • This model can fight with 3 Attacks rather than 2.\n        • This model can use his Elven weapons as Elven hand-and-half weapons.\n        • This model can use his Elven weapons to parry, which counts as Shielding."
 			},
 			{
 				"name": "Strength of Brotherhood (Elladan)",
