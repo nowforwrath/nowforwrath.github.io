@@ -41561,7 +41561,7 @@
 			{
 				"name": "The One Ring (Sauron)",
 				"tag": "Passive",
-				"definition": "Sauron does not follow the normal rules for the One Ring. Instead, each time Sauron would lose his last Wound and be removed as a casualty, roll a D6. On a 2+, the power of the One Ring sustains him and instead of being removed as a casualty he will remain on the board with 1 Wound remaining. if during a Combat Sauron suffers multiple wounds that would cause him to removed as a casualty, he will make his roll for each of them. Sauron may use Might to improve this roll."
+				"definition": "Sauron does not follow the normal rules for the One Ring. Instead, each time Sauron would lose his last Wound and be removed as a casualty, roll a D6. On a 2+, the power of the One Ring sustains him and instead of being removed as a casualty he will remain on the board with 1 Wound remaining. If during a Combat Sauron suffers multiple wounds that would cause him to removed as a casualty, he will make this roll for each of them. Sauron may use Might to improve this roll."
 			},
 			{
 				"name": "Kalazâl",
