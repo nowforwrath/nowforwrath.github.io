@@ -45326,7 +45326,7 @@
 			{
 				"name": "Lord of Dale (Girion)",
 				"tag": "Passive",
-				"definition": "Girion'sStand Fast is 12\" rather than 6\". Additionally, friendly Dale models within 3\" of Girion may re-roll To Wound Rolls of a natural 1 when making strikes."
+				"definition": "Girion'Stand Fast is 12\" rather than 6\". Additionally, friendly Dale models within 3\" of Girion may re-roll To Wound Rolls of a natural 1 when making strikes."
 			},
 			{
 				"name": "Wall of Blades",
@@ -45449,7 +45449,7 @@
 			{
 				"name": "Only a Pony",
 				"tag": "Passive",
-				"definition": " Bill the Pony may never provide a Stand Fast. However, Bill the Pony may benefit from the Stand Fast of other Fellowship models."
+				"definition": "Bill the Pony may never provide a Stand Fast. However, Bill the Pony may benefit from the Stand Fast of other Fellowship models."
 			},
 			{
 				"name": "Second Breakfast",
@@ -46557,7 +46557,7 @@
 			{
 				"name": "The Shards of Narsil",
 				"tag": "Active",
-				"definition": "If your Army also contains Elendil, then if Elendil is slain, place a 25mm Marker where he was killed. If Isildur ends his Activation within 1\" of this Marker, he may gain the Shards of Narsil - remove the Marker. The Shards of Narsil are a Unique hand weapon, and a model fighting with it in Combat gains a bonus of+ 1 To Wound when making strikes."
+				"definition": "If your Army also contains Elendil, then if Elendil is slain, place a 25mm Marker where he was killed. If Isildur ends his Activation within 1\" of this Marker, he may gain the Shards of Narsil - remove the Marker. The Shards of Narsil are a Unique hand weapon, and a model fighting with it in Combat gains a bonus of +1 To Wound when making strikes."
 			},
 			{
 				"name": "Orders from Edoras",
