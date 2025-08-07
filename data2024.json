@@ -2420,7 +2420,7 @@
 				"name": "Moria",
 				"alignment": "evil",
 				"additionalRules": [
-					"Beast models may only be included in Druzhag's Warband"
+					"Beast Warrior models may only be included in Druzhag's Warband"
 				],
 				"armyBonuses": [
 					"\"We cannot get out, they are coming.\"",
@@ -2681,9 +2681,14 @@
 				"requiredChildren": [
 					{
 						"name": "Theodred, Prince of Rohan",
-						"points": 90,
+						"points": 85,
 						"mustBeLeader": true,
-						"elementPropertyName": "heroes"
+						"elementPropertyName": "heroes",
+						"requiredChildren": {
+							"name": "Shield",
+							"elementPropertyName": "options",
+							"points": 5
+						}
 					}
 				]
 			},
@@ -9564,12 +9569,12 @@
 				"magicalPowers": [
 					{
 						"name": "Enrage Beast",
-						"range": "Self",
+						"range": 6,
 						"casting": 3
 					},
 					{
 						"name": "Fury (Beast)",
-						"range": 12,
+						"range": "Self",
 						"casting": 3
 					},
 					{
@@ -12742,7 +12747,7 @@
 					}
 				],
 				"points": 200,
-				"movement": 6,
+				"movement": 12,
 				"fight": 7,
 				"shoot": 5,
 				"strength": 8,
@@ -16408,7 +16413,7 @@
 								"The Black Riders"
 							]
 						],
-						"points": 20
+						"points": 15
 					},
 					{
 						"name": "Fell Beast",
@@ -16445,10 +16450,17 @@
 					},
 					{
 						"name": "Horse",
+						"points": 15,
+						"chooseOneKey": "a",
+						"availableIn": [
+							"The Black Riders"
+						]
+					},
+					{
+						"name": "Horse",
 						"points": 20,
 						"chooseOneKey": "a",
 						"availableIn": [
-							"The Black Riders",
 							"Barad-Dur",
 							"Minas Morgul"
 						]
@@ -43630,7 +43642,7 @@
 			},
 			{
 				"name": "Merry & Pippin",
-				"definition": "If this option is taken, then both Merry and Pippin will ride into battle on Treebeard, and will use their profiles. They are still treated as individual models and will count towards the Army's total number of models and Break Point. Merry and Pippin are treated as Passengers (though this will not give Treebeard either the Cavalry or Mount keywords), with the exception that they cannot be targeted individually by shooting attacks, Magical Powers or special rules. Any shooting attacks that hit Treebeard do not need to make In The Way Tests - they will automatically hit Treebeard. Whilst riding Treebeard, Merry and Pippin may still use their Throw Stones special rule and will never count as having Moved. THey can still do this even whilst Treebeard is Engaged in Combat. Unlike other Passengers, should Merry or Pippin dismount, they may remount Treebeard again by ending their Move in base contact with him.\n                So long as at least one of Merry and Pippin remaing on Treebeard, Treebeard has the Resistant to Magic special rule.",
+				"definition": "If this option is taken, then both Merry and Pippin will ride into battle on Treebeard, and will use their profiles. They are still treated as individual models and will count towards the Army's total number of models and Break Point. Merry and Pippin are treated as Passengers (though this will not give Treebeard either the Cavalry or Mount keywords), with the exception that they cannot be targeted individually by shooting attacks, Magical Powers or special rules, and Strikes cannot be made against them in Combat. Any shooting attacks that hit Treebeard do not need to make In The Way Tests - they will automatically hit Treebeard. Whilst riding Treebeard, Merry and Pippin may still use their Throw Stones special rule and will never count as having Moved. THey can still do this even whilst Treebeard is Engaged in Combat. Unlike other Passengers, should Merry or Pippin dismount, they may remount Treebeard again by ending their Move in base contact with him.\n                So long as at least one of Merry and Pippin remaing on Treebeard, Treebeard has the Resistant to Magic special rule.",
 				"includes": [
 					{
 						"name": "Meriadoc Brandybuck",
