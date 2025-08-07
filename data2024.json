@@ -26723,9 +26723,9 @@
 				"fight": 0,
 				"shoot": 0,
 				"strength": 8,
-				"defence": 10,
+				"defence": 9,
 				"attack": 0,
-				"wounds": 4,
+				"wounds": 3,
 				"courage": 0,
 				"might": 0,
 				"will": 0,
@@ -26736,9 +26736,6 @@
 				],
 				"baseSize": [
 					"40mm"
-				],
-				"keywords": [
-					"Siege Engine"
 				],
 				"options": [
 					{
