@@ -18242,7 +18242,7 @@
 					}
 				],
 				"specialRules": [
-					"Leader (Citadel Guard",
+					"Leader (Citadel Guard)",
 					"Resistant to Magic",
 					"Sharpshooter",
 					"A Chance for Faramir, Captain of Gondor to show his Quality",
@@ -45452,7 +45452,7 @@
 			{
 				"name": "Let him go or I'll have you, Longshanks!",
 				"tag": "Active",
-				"definition": "During the Declar Heroic Actions step of the Fight Phase, if Frodo is Engaged in Combat and is within 6\" of Sam, then Sam may declare a free Heroic Combat. If this Heroic Combat is successful, then Sam must use the following Move to join Frodo's Combat. If this is not possible, then Sam must move as close as possible to Frodo. Sam cannot use this special rule if he is in the same Combat as Frodo."
+				"definition": "During the Declare Heroic Actions step of the Fight Phase, if Frodo is Engaged in Combat and is within 6\" of Sam, then Sam may declare a free Heroic Combat. If this Heroic Combat is successful, then Sam must use the following Move to join Frodo's Combat. If this is not possible, then Sam must move as close as possible to Frodo. Sam cannot use this special rule if he is in the same Combat as Frodo."
 			},
 			{
 				"name": "Official Meals",
