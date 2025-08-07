@@ -2684,11 +2684,13 @@
 						"points": 85,
 						"mustBeLeader": true,
 						"elementPropertyName": "heroes",
-						"requiredChildren": {
-							"name": "Shield",
-							"elementPropertyName": "options",
-							"points": 5
-						}
+						"requiredChildren": [
+							{
+								"name": "Shield",
+								"elementPropertyName": "options",
+								"points": 5
+							}
+						]
 					}
 				]
 			},
