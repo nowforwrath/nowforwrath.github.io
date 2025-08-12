@@ -34996,9 +34996,7 @@
 			},
 			{
 				"name": "Rohirrim Traitor",
-				"factions": [
-					"Realms of Men"
-				],
+				"factions": [],
 				"availableIn": [
 					{
 						"all": [
