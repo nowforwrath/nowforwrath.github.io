@@ -29675,7 +29675,7 @@
 					"Cave Dweller",
 					"Hatred (Dwarf)",
 					"Run and Drum",
-					"Take up the Drum"
+					"Take up the Drum (Blackshield)"
 				],
 				"wargear": [
 					"Heavy armour",
@@ -29706,7 +29706,7 @@
 					"Cave Dweller",
 					"Hatred (Dwarf)",
 					"Run and Drum",
-					"Take up the Drum"
+					"Take up the Drum (Blackshield)"
 				],
 				"wargear": [
 					"Heavy armour",
@@ -44172,7 +44172,7 @@
 				"tag": "Active"
 			},
 			{
-				"name": "Take up the Drum",
+				"name": "Take up the Drum (Blackshield)",
 				"definition": "If the Moria Blackshield Drummer or Moria Blackshield Drum Bearer is slain, then they may pass on their wargear to a friendly Moria Blackshield Warrior within 1\" of them. The chosen model becomes a Moria Blackshield Drummer/Drum Bearer (as applicable) and exchanges their wargear for that of the slain model – replace the chosen model with the slain Moria Blackshield Drummer/Drum Bearer.",
 				"tag": "Active"
 			},
