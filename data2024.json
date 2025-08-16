@@ -47343,7 +47343,7 @@
 			},
 			{
 				"name": "Great Resilience",
-				"definition": "Whenever a friendly Bear model suffers a Wound, roll a D6. On the roll of a natural 6, the Wound is ignore."
+				"definition": "Whenever a friendly Bear model suffers a Wound, roll a D6. On the roll of a natural 6, the Wound is ignored."
 			},
 			{
 				"name": "Natural Resistance",
