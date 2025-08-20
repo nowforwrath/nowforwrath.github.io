@@ -1575,6 +1575,24 @@
 			"maxPer": 1,
 			"tier": 3,
 			"message": "You must have one hero of at least Hero of Fortitude for each Siege keyword."
+		},
+		{
+			"type": "disallowedCombination",
+			"value": [
+				"Men of the West",
+				"Gwaihir",
+				"Armoured Horse"
+			],
+			"message": "If your army includes any Cavalary models, then it cannot include any Eagle models, and vice versa."
+		},
+		{
+			"type": "disallowedCombination",
+			"value": [
+				"Men of the West",
+				"Gwaihir",
+				"Horse"
+			],
+			"message": "If your army includes any Cavalary models, then it cannot include any Eagle models, and vice versa."
 		}
 	],
 	"leaderConfig": {
@@ -21204,7 +21222,7 @@
 				"specialRules": [
 					"Expert Shot",
 					"Poisoned Attacks (Orc Bow)",
-					"Lethal Aim"
+					"Lethal Aim (Narzug)"
 				],
 				"wargear": [
 					"Light armour",
@@ -45583,7 +45601,7 @@
 				"definition": "At the beginning of a Combat he is involved in, if he is within 3\" of Azog, Yazneg can declare he is using this special rule before the Duel Roll is made. If he does, then Yazneg may re-roll any number of dice during the Duel Roll. However, if Yazneg uses this special rule and fails to win the Duel Roll, then he immediately suffers a single Wound."
 			},
 			{
-				"name": "Lethal Aim",
+				"name": "Lethal Aim (Narzug)",
 				"tag": "Active",
 				"definition": "Each turn, This Hero gains a free Might Point that can only be spent during a shooting attack on either a to Hit Roll, a To Wound Roll, or an In The Way Test. If this free Might Point is not spent by the end of the turn, it is lost."
 			},
