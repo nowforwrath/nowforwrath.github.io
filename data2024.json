@@ -2432,6 +2432,14 @@
 					"The Dragon's Hoard",
 					"Beast of Legend",
 					"Supreme Jealousy"
+				],
+				"requiredChildren": [
+					{
+						"name": "Dragon Leader",
+						"points": 200,
+						"elementPropertyName": "heroes",
+						"mustBeLeader": true
+					}
 				]
 			},
 			{
@@ -11918,6 +11926,87 @@
 				"options": []
 			},
 			{
+				"name": "Dragon Leader",
+				"factions": [
+					{
+						"name": "Dragons of the North",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"points": 200,
+				"movement": 6,
+				"fight": 8,
+				"shoot": 2,
+				"strength": 7,
+				"defence": 7,
+				"attack": 4,
+				"wounds": 7,
+				"courage": 6,
+				"intelligence": 5,
+				"might": 3,
+				"will": 3,
+				"fate": 3,
+				"heroicActions": [
+					"Heroic Channeling",
+					"Heroic Defence",
+					"Heroic Resolve"
+				],
+				"race": [
+					"Dragon"
+				],
+				"faction": [
+					"Moria"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Monster"
+				],
+				"baseSize": [
+					"130mm"
+				],
+				"specialRules": [
+					"Dominant (5)",
+					"Harbinger of Evil (12\")",
+					"Large Target",
+					"Monstrous Charge",
+					"Resistant to Magic",
+					"Survival Instinct",
+					"Terror"
+				],
+				"wargear": [
+					"Claws and teeth (hand weapons)"
+				],
+				"limitChildren": [
+					{
+						"property": "options",
+						"max": 3
+					}
+				],
+				"options": [
+					{
+						"name": "Breathe Fire",
+						"points": 50
+					},
+					{
+						"name": "Fly",
+						"points": 50
+					},
+					{
+						"name": "Superior Intellect",
+						"points": 50
+					},
+					{
+						"name": "Tough Hide",
+						"points": 50
+					},
+					{
+						"name": "Wyrm Magic",
+						"points": 50
+					}
+				]
+			},
+			{
 				"name": "Dragon",
 				"factions": [
 					{
@@ -11973,6 +12062,12 @@
 				],
 				"wargear": [
 					"Claws and teeth (hand weapons)"
+				],
+				"limitChildren": [
+					{
+						"property": "options",
+						"max": 2
+					}
 				],
 				"options": [
 					{
