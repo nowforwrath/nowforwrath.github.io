@@ -41946,7 +41946,7 @@
 			},
 			{
 				"name": "Helm of the Dragon Emperor",
-				"definition": "This is a Unique piece of warger which grants the Dragon Emperor the Resistant to Magic special rule.",
+				"definition": "This is a Unique piece of wargear which grants the Dragon Emperor the Resistant to Magic special rule.",
 				"tag": "Passive"
 			},
 			{
@@ -44937,7 +44937,7 @@
 			},
 			{
 				"name": "Sorcerous Adept",
-				"definition": "Each time Brorgir rols one or more natural 6s when making a Casting Test, he will regain a single Will Point after resolving the effects of the Magical Power.",
+				"definition": "Each time Brorgir rolls one or more natural 6s when making a Casting Test, he will regain a single Will Point after resolving the effects of the Magical Power.",
 				"tag": "Active"
 			},
 			{
@@ -45583,7 +45583,7 @@
 			{
 				"name": "Cave Dweller",
 				"tag": "Active",
-				"definition": "A model with this special rule applies a +1 modifier to any Jump, Leap and Climb teststhey take. Additionally, a model with this special rule suffers no penalties to how far they can see when fighting in the dark."
+				"definition": "A model with this special rule applies a +1 modifier to any Jump, Leap and Climb tests they take. Additionally, a model with this special rule suffers no penalties to how far they can see when fighting in the dark."
 			},
 			{
 				"name": "Dominant (2)",
