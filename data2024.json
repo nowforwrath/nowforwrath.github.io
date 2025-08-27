@@ -2666,7 +2666,8 @@
 						"mustBeLeader": true,
 						"requiredChildren": [
 							{
-								"name": "Exchange armour for heavy armour",
+								"name": "Exchange armour for Heavy armour",
+								"usesDefinition": "Heavy armour",
 								"elementPropertyName": "options",
 								"points": 5
 							},
