@@ -46426,7 +46426,7 @@
 			},
 			{
 				"name": "Steadfast (Thorin's Company)",
-				"tag": "Active",
+				"tag": "Passive",
 				"definition": "Whenever a friendly Thorin's Company Hero within 3\" of Bofur is affected by an enemy special rule or Magical Power, they may roll a D6. On a 3+, the model will ignore its effects. In the case of a Magical Power, any Resist Tests must be made before using this special rule."
 			},
 			{
