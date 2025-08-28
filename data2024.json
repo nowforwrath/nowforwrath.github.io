@@ -5955,15 +5955,6 @@
 				"hideStats": true,
 				"unlimited": true,
 				"points": 175,
-				"movement": 8,
-				"fight": 4,
-				"shoot": 6,
-				"strength": 6,
-				"defence": 7,
-				"attack": 3,
-				"wounds": 6,
-				"courage": 7,
-				"intelligence": 8,
 				"heroicActions": [],
 				"faction": [
 					"Mordor"
@@ -5971,8 +5962,7 @@
 				"options": [],
 				"specialRules": [],
 				"wargear": [
-					"Orc Comander",
-					"Great Beast"
+					"Orc Comander"
 				],
 				"includes": [
 					{
@@ -5982,6 +5972,10 @@
 					{
 						"dataSource": "heroes",
 						"name": "Great Beast"
+					},
+					{
+						"dataSource": "heroes",
+						"name": "Howdah (Great Beast)"
 					}
 				]
 			},
