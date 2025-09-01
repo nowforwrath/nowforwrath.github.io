@@ -6401,7 +6401,7 @@
 					"Harbinger of Evil (12\")",
 					"Terror",
 					"Will of Evil",
-					"Combat Stance",
+					"Combat Mimicry",
 					"Armour of the Sundered Land"
 				],
 				"wargear": [
@@ -44328,7 +44328,7 @@
 				"tag": "Passive"
 			},
 			{
-				"name": "Combat Stance",
+				"name": "Combat Mimicry",
 				"definition": "At the start of the Fight Phase, before the Declare Heroic Actions step, the Knight of Umbar may spend a Will Point to use this special rule. If he does, he may immediately choose a single enemy model he is Engaged in Combat with. The Knight of Umbar can elect to use the Fight Value, Attacks and/or Strength characteristics of the chosen model (in any combination) until the End Phase of the turn.",
 				"tag": "Active"
 			},
@@ -46363,7 +46363,7 @@
 			{
 				"name": "Spider Webs",
 				"tag": "Active",
-				"definition": "A Mirkwood Giant Spider can shoot spider webs; these are treated as throwing weapons with a range of 8\". If a model is hit by a webs shot by a Mirkwood Giant Spider, no To Wound Roll is made. Instead, the hit model is immediately counted as being under the effects of the Paralyse Magical Power; however, the effects will not immediately end should this model have no Will Points or be slain. If a Cavalry model is hit by this shooting atttack, do not roll to see which part of the model (rider or Mount) is hit; both are automatically hit. A Hero model hit by a web may spend a Fate Point to avoid its effects. If they do, reduce their Fate Points by 1 and the webs have no effect. If the Hero is a Cavalry model, then a Fate Point spent in this manner will negate the webs on both rider and Mount."
+				"definition": "A Mirkwood Giant Spider can shoot spider webs; these are treated as throwing weapons with a range of 8\". If a model is hit by a webs shot by a Mirkwood Giant Spider, no To Wound Roll is made. Instead, the hit model is immediately counted as being under the effects of the Paralyse Magical Power; however, the effects will not immediately end should this model have no Will Points or be slain. If a Cavalry model is hit by this shooting attack, do not roll to see which part of the model (rider or Mount) is hit; both are automatically hit. A Hero model hit by a web may spend a Fate Point to avoid its effects. If they do, reduce their Fate Points by 1 and the webs have no effect. If the Hero is a Cavalry model, then a Fate Point spent in this manner will negate the webs on both rider and Mount."
 			},
 			{
 				"name": "Keep 'em for Later",
