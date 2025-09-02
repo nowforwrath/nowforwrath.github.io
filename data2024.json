@@ -11067,19 +11067,23 @@
 				"factions": [
 					{
 						"name": "The Grey Company",
-						"heroicTier": "Hero of Fortitude"
+						"heroicTier": "Hero of Fortitude",
+						"unlockedBy": "Elladan"
 					},
 					{
 						"name": "Defenders of the Pelennor",
-						"heroicTier": "Hero of Fortitude"
+						"heroicTier": "Hero of Fortitude",
+						"unlockedBy": "Elladan"
 					},
 					{
 						"name": "Men of the West",
-						"heroicTier": "Hero of Fortitude"
+						"heroicTier": "Hero of Fortitude",
+						"unlockedBy": "Elladan"
 					},
 					{
 						"name": "Rivendell",
-						"heroicTier": "Hero of Fortitude"
+						"heroicTier": "Hero of Fortitude",
+						"unlockedBy": "Elladan"
 					}
 				],
 				"points": 0,
