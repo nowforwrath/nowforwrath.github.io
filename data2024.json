@@ -22088,7 +22088,8 @@
 						"name": "Throwing Weapons",
 						"points": 0,
 						"availableIn": [
-							"Kingdom of Khazad-dum"
+							"Kingdom of Khazad-dum",
+							"Reclamation of Moria"
 						]
 					}
 				],
@@ -22100,6 +22101,9 @@
 						"in": [
 							[
 								"Kingdom of Khazad-dum"
+							],
+							[
+								"Reclamation of Moria"
 							]
 						]
 					}
