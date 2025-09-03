@@ -1583,7 +1583,7 @@
 				"Gwaihir",
 				"Armoured Horse"
 			],
-			"message": "If your army includes any Cavalary models, then it cannot include any Eagle models, and vice versa."
+			"message": "If your army includes any Cavalry models, then it cannot include any Eagle models, and vice versa."
 		},
 		{
 			"type": "disallowedCombination",
@@ -1592,7 +1592,7 @@
 				"Gwaihir",
 				"Horse"
 			],
-			"message": "If your army includes any Cavalary models, then it cannot include any Eagle models, and vice versa."
+			"message": "If your army includes any Cavalry models, then it cannot include any Eagle models, and vice versa."
 		}
 	],
 	"leaderConfig": {
@@ -3233,7 +3233,7 @@
 				"alignment": "good",
 				"additionalRules": [
 					"A Men of the West Army must include Aragorn, King Elessar, who is always the Army's General.",
-					"If your army includes any Cavalary models, then it cannot include any Eagle models, and vice versa.",
+					"If your army includes any Cavalry models, then it cannot include any Eagle models, and vice versa.",
 					"Only Gwaihir can include Great Eagles in his Warband, and Gwaihir can only include Great Eagles in his Warband.",
 					"Gandalf the White does not have his Staff of Power in this Army."
 				],
@@ -46108,7 +46108,7 @@
 			{
 				"name": "Flame of Udun",
 				"tag": "Passive",
-				"definition": "The Balrog is never considered to be unarmed. Additinoally at the end of a Combat involving the Balrog, any model that suffered a Wound from the Balrog (even if the Wound is prevented) and was not slain must roll a D6. On a natural 6, the model is immediately Set Ablaze. If a model is immune to fire-based attacks, they will still suffer Wounds from the Balrog's Strikes as normal, but can not be Set Ablaze. The Balrog itself is immune to fire-based attacks."
+				"definition": "The Balrog is never considered to be unarmed. Additionally at the end of a Combat involving the Balrog, any model that suffered a Wound from the Balrog (even if the Wound is prevented) and was not slain must roll a D6. On a natural 6, the model is immediately Set Ablaze. If a model is immune to fire-based attacks, they will still suffer Wounds from the Balrog's Strikes as normal, but can not be Set Ablaze. The Balrog itself is immune to fire-based attacks."
 			},
 			{
 				"name": "Demon of the Ancient World",
