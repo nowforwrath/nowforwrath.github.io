@@ -44328,7 +44328,7 @@
 			{
 				"name": "Master of Poisons",
 				"definition": "At the start of the Move Phase, before the Declare Heroic Actions step, the Betrayer may spend a Will Point to use this special rule. If he does, then until the End Phase of the turn, friendly models with the Poisoned Attacks special rule within 6\" of the Betrayer may re-roll all failed To Wound rolls for their Poisoned Attacks, rather than just To Wound rolls of a natural 1.",
-				"tag": "Active"
+				"tag": "Passive"
 			},
 			{
 				"name": "Armour of the Sundered Land",
@@ -47042,17 +47042,17 @@
 			{
 				"name": "Poisoned Attacks (Orc Bow)",
 				"tag": "Active",
-				"definition": "A model with this special rule most re-roll any To Wound Rolls of a natural 1 when making Shooting Attacks or making Strikes.\n                Sometimes, a particular weapon will be described as benefiting from this special rule. When this is the case, only To Wound Roll made for that weapon will be able to re-roll To WOund Rolls of a natural 1."
+				"definition": "A model with this special rule most re-roll any To Wound Rolls of a natural 1 when making Shooting Attacks or making Strikes.\n                Sometimes, a particular weapon will be described as benefiting from this special rule. When this is the case, only To Wound Roll made for that weapon will be able to re-roll To Wound Rolls of a natural 1."
 			},
 			{
 				"name": "Poisoned Attacks (Bow)",
 				"tag": "Active",
-				"definition": "A model with this special rule most re-roll any To Wound Rolls of a natural 1 when making Shooting Attacks or making Strikes.\n                Sometimes, a particular weapon will be described as benefiting from this special rule. When this is the case, only To Wound Roll made for that weapon will be able to re-roll To WOund Rolls of a natural 1."
+				"definition": "A model with this special rule most re-roll any To Wound Rolls of a natural 1 when making Shooting Attacks or making Strikes.\n                Sometimes, a particular weapon will be described as benefiting from this special rule. When this is the case, only To Wound Roll made for that weapon will be able to re-roll To Wound Rolls of a natural 1."
 			},
 			{
 				"name": "Poisoned Attacks (Fangs)",
 				"tag": "Active",
-				"definition": "A model with this special rule most re-roll any To Wound Rolls of a natural 1 when making Shooting Attacks or making Strikes.\n                Sometimes, a particular weapon will be described as benefiting from this special rule. When this is the case, only To Wound Roll made for that weapon will be able to re-roll To WOund Rolls of a natural 1."
+				"definition": "A model with this special rule most re-roll any To Wound Rolls of a natural 1 when making Shooting Attacks or making Strikes.\n                Sometimes, a particular weapon will be described as benefiting from this special rule. When this is the case, only To Wound Roll made for that weapon will be able to re-roll To Wound Rolls of a natural 1."
 			},
 			{
 				"name": "Sharpshooter",
