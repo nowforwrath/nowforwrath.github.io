@@ -45906,7 +45906,7 @@
 			{
 				"name": "Unyielding Combat Stance",
 				"tag": "Active",
-				"definition": "If this model would be knocked Prone for any reason, roll a D6. On a 4+, the model keeps their footing and isn't knocked Prone. If this model is mounted and passes this roll they will still be separated from their Mount but will count as rolling a 6 on the Thrown Rider Chart. If this model would nornmlly automatically suffer the Knocked Flying result, they may still make this roll and, if successful, will treat the result as a 6 on the Thrown Rider Chart,"
+				"definition": "If this model would be knocked Prone for any reason, roll a D6. On a 4+, the model keeps their footing and isn't knocked Prone. If this model is mounted and passes this roll they will still be separated from their Mount but will count as rolling a 6 on the Thrown Rider Chart. If this model would normally automatically suffer the Knocked Flying result, they may still make this roll and, if successful, will treat the result as a 6 on the Thrown Rider Chart,"
 			},
 			{
 				"name": "Defensive Bulwark",
