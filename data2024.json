@@ -42,11 +42,11 @@
 		}
 	],
 	"scenarios": [
+		"Domination",
+		"To the Death!",
 		"Hold Ground",
 		"Destroy the Supplies",
 		"Reconnoitre",
-		"Domination",
-		"To the Death!",
 		"Fog of War",
 		"Capture & Control",
 		"Breakthrough",
