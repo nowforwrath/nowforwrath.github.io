@@ -29867,6 +29867,21 @@
 				"wounds": 1,
 				"courage": 8,
 				"intelligence": 8,
+				"unitType": [
+					"Warrior",
+					"Infantry",
+					"Beast",
+					"Swarm"
+				],
+				"baseSize": [
+					"40mm"
+				],
+				"race": [
+					"Spider"
+				],
+				"faction": [
+					"Dol Guldur"
+				],
 				"options": [],
 				"specialRules": [
 					"Poisoned Attacks",
@@ -32725,6 +32740,61 @@
 					"Hand weapon"
 				],
 				"countAsProperty": "heroes"
+			},
+			{
+				"name": "Castellan of Dol Guldur",
+				"unavailableWith": [
+					"Hunter Orc Captain",
+					"Hunter Orc Warg Rider",
+					"Fell Warg",
+					"Hunter Orc Warrior",
+					"Mirkwood Giant Spider",
+					"Mirkwood Hunting Spider"
+				],
+				"factions": [
+					"Rise of the Necromancer"
+				],
+				"points": 50,
+				"legacy": true,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 5,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 1,
+				"courage": 4,
+				"intelligence": 7,
+				"might": 0,
+				"will": 10,
+				"fate": 0,
+				"race": [
+					"Spirit"
+				],
+				"faction": [
+					"Dol Guldur"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Terror",
+					"Will of Evil",
+					"Automatons",
+					"Will of the Necromancer",
+					"Bound in Shadow",
+					"Morgul Blade"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon",
+					"Morgul Blade"
+				],
+				"options": []
 			},
 			{
 				"name": "Sauron, the Necromancer",
