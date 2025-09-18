@@ -5951,6 +5951,7 @@
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
+				"decreaseModelCount": 1,
 				"legacy": true,
 				"hideStats": true,
 				"unlimited": true,
@@ -5989,7 +5990,6 @@
 				],
 				"unlimited": true,
 				"unavailableSolo": true,
-				"decreaseModelCount": 1,
 				"points": 0,
 				"movement": 8,
 				"fight": 4,
