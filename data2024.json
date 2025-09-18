@@ -38586,6 +38586,17 @@
 					"The Battle of Five Armies",
 					"Army of Erebor"
 				],
+				"unavailableIn": [
+					[
+						"Brand, King of Dale"
+					],
+					[
+						"Captain of Dale"
+					],
+					[
+						"Bard II, Prince of Dale"
+					]
+				],
 				"points": 10,
 				"movement": 5,
 				"fight": 4,
@@ -38651,6 +38662,17 @@
 					"Defenders of Erebor",
 					"The Battle of Five Armies",
 					"Army of Erebor"
+				],
+				"unavailableIn": [
+					[
+						"Brand, King of Dale"
+					],
+					[
+						"Captain of Dale"
+					],
+					[
+						"Bard II, Prince of Dale"
+					]
 				],
 				"points": 20,
 				"movement": 5,
