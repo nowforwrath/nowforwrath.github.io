@@ -5989,6 +5989,7 @@
 				],
 				"unlimited": true,
 				"unavailableSolo": true,
+				"decreaseModelCount": 1,
 				"points": 0,
 				"movement": 8,
 				"fight": 4,
