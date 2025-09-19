@@ -1901,6 +1901,12 @@
 									"propertyName": "heroicActions",
 									"label": "Heroic Actions",
 									"type": "static"
+								},
+								{
+									"propertyName": "wargear",
+									"label": "Wargear",
+									"type": "static",
+									"dataSource": "gear"
 								}
 							]
 						},
