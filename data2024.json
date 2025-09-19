@@ -13524,7 +13524,7 @@
 				],
 				"unitType": [
 					"Hero",
-					"Cavalry",
+					"Infantry",
 					"Unique"
 				],
 				"specialRules": [
@@ -13580,7 +13580,7 @@
 				],
 				"unitType": [
 					"Hero",
-					"Cavalry",
+					"Infantry",
 					"Unique"
 				],
 				"specialRules": [
@@ -13592,8 +13592,7 @@
 				"wargear": [
 					"Heavy armour",
 					"Hand weapon",
-					"Bow",
-					"Horse"
+					"Bow"
 				],
 				"options": [
 					{
