@@ -28129,6 +28129,17 @@
 				"race": [
 					"Spirit"
 				],
+				"faction": [
+					"Dol Guldur"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"40mm"
+				],
 				"heroicActions": [
 					"Heroic Challenge",
 					"Heroic Channelling",
