@@ -42693,7 +42693,20 @@
 				"defence": 5,
 				"attack": 0,
 				"wounds": 1,
-				"courage": 3,
+				"courage": 7,
+				"intelligence": 7,
+				"faction": [
+					"See Rider"
+				],
+				"race": [
+					"Goat"
+				],
+				"unitType": [
+					"Mount"
+				],
+				"baseSize": [
+					"40mm"
+				],
 				"specialRules": [
 					"Mountain Dweller",
 					"Devastating Charge"
