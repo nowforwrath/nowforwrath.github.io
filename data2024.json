@@ -7909,7 +7909,7 @@
 					"Hand weapon",
 					"Shield",
 					"Horse",
-					"Horn of the Hammerhand"
+					"Horn of the Hammerhand (Erkenbrand)"
 				],
 				"options": []
 			},
@@ -46623,7 +46623,7 @@
 			{
 				"name": "Pluck",
 				"tag": "Active",
-				"definition": "If this model Charges into COmbat, choose a single enemy model on a 25mm base that this model Moved over and roll a D6. On a 4+, the chosen model is immediately knocked Prone."
+				"definition": "If this model Charges into Combat, choose a single enemy model on a 25mm base that this model Moved over and roll a D6. On a 4+, the chosen model is immediately knocked Prone."
 			},
 			{
 				"name": "Fell Sight",
