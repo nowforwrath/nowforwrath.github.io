@@ -2011,7 +2011,6 @@
 					"Pounce",
 					"The Queen's Cunning"
 				],
-				"specialRules": [],
 				"requiredChildren": [
 					{
 						"name": "The Spider Queen",
@@ -2044,7 +2043,6 @@
 					"Revel in Death",
 					"Battle Frenzy"
 				],
-				"specialRules": [],
 				"requiredChildren": [
 					{
 						"name": "Mahûd King",
@@ -2066,7 +2064,6 @@
 					"Courage from Ignorance",
 					"Overwhelm the Foe"
 				],
-				"specialRules": [],
 				"requiredChildren": [
 					{
 						"name": "Golfimbul, Orc Captain",
@@ -2088,7 +2085,6 @@
 					"Dunlending Pride",
 					"Dunlending War Cry"
 				],
-				"specialRules": [],
 				"requiredChildren": [
 					{
 						"name": "Thrydan Wolfsbane",
@@ -2111,7 +2107,6 @@
 					"High King of Khand",
 					"Khandish Fury"
 				],
-				"specialRules": [],
 				"requiredChildren": [
 					{
 						"name": "Khandish King (Leader)",
@@ -2136,7 +2131,6 @@
 					"Cover of Darkness",
 					"Ruthless Savagery"
 				],
-				"specialRules": [],
 				"badge": "Legacy",
 				"requiredChildren": [
 					{
@@ -2175,7 +2169,6 @@
 					"The War Leader",
 					"Death to the Elves"
 				],
-				"specialRules": [],
 				"requiredChildren": [
 					{
 						"name": "Razgush, War Leader of the North",
@@ -2200,7 +2193,6 @@
 					"Unlikely Allies",
 					"Spoils of War"
 				],
-				"specialRules": [],
 				"childMatchesRequired": [
 					{
 						"elementPropertyName": "heroes",
@@ -2230,7 +2222,6 @@
 					"A Desperate Defence (Moria)",
 					"Balin's Last Stand"
 				],
-				"specialRules": [],
 				"requiredChildren": [
 					{
 						"name": "Balin the Dwarf, King of Moria",
@@ -2256,7 +2247,6 @@
 					"The Charge of Eorl",
 					"Gondor's Last Defence"
 				],
-				"specialRules": [],
 				"requiredChildren": [
 					{
 						"name": "Eorl the Young",
@@ -2299,7 +2289,6 @@
 					"\"They're dangerous folk, wandering the wilds\"",
 					"The Bounders"
 				],
-				"specialRules": [],
 				"requiredChildren": [
 					{
 						"name": "Bandobras Took",
@@ -2369,6 +2358,10 @@
 					"The Scorpion's Sting",
 					"Suladan's Bodyguard",
 					"Lethal Toxins"
+				],
+				"specialRules": [
+					"Bane of Kings",
+					"Sworn Protector (Suladan)"
 				],
 				"requiredChildren": [
 					{
@@ -43472,7 +43465,7 @@
 			{
 				"name": "The Light of Earendil",
 				"tag": "Passive",
-				"definition": "Shooting attacks that are directed against Galadriel, Lady of Light, or any model within 6\" of her, will only hit on a To Hit roll of a 6."
+				"definition": "This is a Unique piece of Wargear. At any point during her Activation, Galadriel can use the Light of Earendil to roll a D6. On a 3+, Galadriel counts as having Cast the Blinding Light Magical Power. This does not prevent Galadriel from attempting to Cast another Magical Power during her Activation."
 			},
 			{
 				"name": "Easterling Halberd",
