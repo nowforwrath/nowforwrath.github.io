@@ -29740,6 +29740,109 @@
 		],
 		"warriors": [
 			{
+				"name": "Eowyn, Shieldmaiden of Rohan",
+				"factions": [
+					"Paths of the Druadan"
+				],
+				"points": 60,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 4,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 2,
+				"will": 2,
+				"fate": 3,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Rohan"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Defence",
+					"Heroic Resolve",
+					"Heroic Strike"
+				],
+				"requiredChildren": [
+					{
+						"name": "Armour",
+						"points": 5,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Paths of the Druadan"
+							]
+						]
+					},
+					{
+						"name": "Horse",
+						"points": 20,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Paths of the Druadan"
+							]
+						]
+					},
+					{
+						"name": "Merry",
+						"points": 25,
+						"addsModels": 1,
+						"elementPropertyName": "options",
+						"in": [
+							[
+								"Paths of the Druadan"
+							]
+						]
+					}
+				],
+				"options": [
+					{
+						"name": "Horse",
+						"points": 20
+					},
+					{
+						"name": "Merry",
+						"points": 25,
+						"addsModels": 1,
+						"unlockedBy": "Horse"
+					},
+					{
+						"name": "Armour",
+						"points": 5
+					},
+					{
+						"name": "Shield",
+						"points": 5
+					},
+					{
+						"name": "Throwing spears",
+						"points": 5
+					}
+				],
+				"specialRules": [
+					"Expert Rider",
+					"Horse Lord",
+					"I shall kill you if you touch him"
+				],
+				"wargear": [
+					"Hand weapon"
+				]
+			},
+			{
 				"name": "Black Guard Drummer",
 				"factions": [
 					"Army of the Great Eye"
