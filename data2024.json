@@ -30292,12 +30292,12 @@
 					{
 						"name": "Blowpipe",
 						"points": 1,
-						"requireChooseOneKey": "a"
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "War spear",
 						"points": 1,
-						"requireChooseOneKey": "a"
+						"chooseOneKey": "a"
 					}
 				]
 			},
@@ -44292,6 +44292,11 @@
 				"name": "Fury (Spider)",
 				"duration": "Exhaustion",
 				"definition": "This Magical Power targets the caster. Friendly models within 6\" of the caster who have the same keywords as those shown in brackets will automatically pass any Courage Tests they are required to take."
+			},
+			{
+				"name": "Immobilise",
+				"duration": "Temporary",
+				"definition": "(This is the definition for Transfix. Technically this spell does not exist.) This Magical Power targets one enemy model in range. Until the End Phase of the turn, the target cannot Activate, declare Heroic Actions, use Active Abilities, or make Shooting Attacks. If the target wins a Duel Roll, they may not make Strikes. if the target has a piece of wargear that has an Active ability, they stilll have that piece of wargear but cannot use the ability tied to it."
 			},
 			{
 				"name": "Instill Fear",
