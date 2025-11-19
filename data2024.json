@@ -10997,7 +10997,7 @@
 				"factions": [
 					{
 						"name": "The Grey Company",
-						"heroicTier": "Hero of Fortitude"
+						"heroicTier": "Hero of Valour"
 					},
 					{
 						"name": "Defenders of the Pelennor",
@@ -11067,7 +11067,7 @@
 				"factions": [
 					{
 						"name": "The Grey Company",
-						"heroicTier": "Hero of Fortitude",
+						"heroicTier": "Hero of Valour",
 						"unlockedBy": "Elladan"
 					},
 					{
@@ -14491,7 +14491,7 @@
 				],
 				"options": [
 					{
-						"name": "Brego",
+						"name": "Brego (Theodred)",
 						"points": 20
 					},
 					{
@@ -46849,7 +46849,7 @@
 			{
 				"name": "Sure-footed Steed",
 				"tag": "Active",
-				"definition": "If Aragorn would be knocked Prone whilst riding Brego, and Brego is not slain as a result of the effect causing Aragorn to be knocked Prone, then before becoming a Separated Mount Aragorn may roll a D6. On a 6, Aragorn is not knocked Prone and stays mounted upon Brego. Aragorn may use Might to improve this roll."
+				"definition": "If the rider would be knocked Prone whilst riding Brego, and Brego is not slain as a result of the effect causing the rider to be knocked Prone, then before becoming a Separated Mount the rider may roll a D6. On a 6, the rider is not knocked Prone and stays mounted upon Brego. The rider may use Might to improve this roll."
 			},
 			{
 				"name": "Son of Gondor",
