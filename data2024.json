@@ -2153,7 +2153,14 @@
 					},
 					{
 						"propertyName": "race",
-						"value": "Goblin"
+						"value": "Goblin",
+						"limitPercentage": 50,
+						"roundUp": true,
+						"fromProperties": [
+							"heroes",
+							"warriors"
+						],
+						"compareWith": "Orc"
 					}
 				]
 			},
@@ -2967,7 +2974,13 @@
 				"counts": [
 					{
 						"propertyName": "faction",
-						"value": "Lothlorien"
+						"value": "Lothlorien",
+						"limitPercentage": 33,
+						"roundUp": true,
+						"fromProperties": [
+							"heroes",
+							"warriors"
+						]
 					}
 				]
 			},
