@@ -46905,7 +46905,10 @@
 			{
 				"name": "Mutual Respect",
 				"tag": "Active",
-				"definition": "Whilst within 6\" of Hera, Frealaf gains the Master of Battle (4+) special rule."
+				"definition": "Whilst within 6\" of Hera, Frealaf gains the Master of Battle (4+) special rule.",
+				"specialRules": [
+					"Master of Battle (4+)"
+				]
 			},
 			{
 				"name": "Lord of Harrowdale",
