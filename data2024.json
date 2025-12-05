@@ -4360,7 +4360,7 @@
 				],
 				"specialRules": [
 					"Hatred (Spider)",
-					"Knife Fighters"
+					"Knife Fighter"
 				],
 				"requireOne": [
 					[
@@ -31873,9 +31873,6 @@
 				"wounds": 1,
 				"courage": 7,
 				"intelligence": 7,
-				"might": 0,
-				"will": 0,
-				"fate": 0,
 				"heroicActions": [],
 				"race": [
 					"Man"
@@ -41945,12 +41942,12 @@
 			{
 				"name": "Exchange two-handed weapon for crossbow",
 				"type": "bow",
-				"definition": "24\" Range, 3 Strength"
+				"definition": "24\" Range, 4 Strength"
 			},
 			{
 				"name": "Exchange spear for crossbow",
 				"type": "bow",
-				"definition": "24\" Range, 3 Strength"
+				"definition": "24\" Range, 4 Strength"
 			},
 			{
 				"name": "Bone-breaker",
@@ -45425,6 +45422,11 @@
 			},
 			{
 				"name": "Hatred (Uruk-hai)",
+				"tag": "Active",
+				"definition": "A model with this special rule gains a bonus of +1 To Wound when making Strikes against a model with the same keyword as the one shown in brackets. So, a model with the Hatred (Man) special rule would gain a bonus of +1 To Wound when making Strikes against Man models."
+			},
+			{
+				"name": "Hatred (Spider)",
 				"tag": "Active",
 				"definition": "A model with this special rule gains a bonus of +1 To Wound when making Strikes against a model with the same keyword as the one shown in brackets. So, a model with the Hatred (Man) special rule would gain a bonus of +1 To Wound when making Strikes against Man models."
 			},
