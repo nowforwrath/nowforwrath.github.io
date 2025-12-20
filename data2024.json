@@ -21135,6 +21135,18 @@
 					"Heroic Strength",
 					"Heroic Strike"
 				],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "options",
+						"name": "Heavy Armour",
+						"in": [
+							[
+								"Army of Gundabad"
+							]
+						],
+						"points": 10
+					}
+				],
 				"options": [
 					{
 						"name": "The White Warg",
