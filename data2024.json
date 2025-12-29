@@ -14504,7 +14504,7 @@
 				],
 				"options": [
 					{
-						"name": "Brego (Theodred)",
+						"name": "Brego",
 						"points": 20
 					},
 					{
@@ -46276,7 +46276,7 @@
 			{
 				"name": "Family Bond",
 				"tag": "Passive",
-				"definition": "Whilst Bain, Son of Bard is within 6\" of Bard the Bowman, he gains a bonus of +1 to his Courage value."
+				"definition": "Whilst within 3\" of either Sigrid or Tilda (or both), Bain increases his Attacks to 2 and gains a bonus of +1 to his Courage Tests."
 			},
 			{
 				"name": "Archers, this way!",
