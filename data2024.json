@@ -29766,6 +29766,156 @@
 		],
 		"warriors": [
 			{
+				"name": "Goldberry",
+				"factions": [
+					"Road to Rivendell"
+				],
+				"unique": true,
+				"points": 80,
+				"movement": 6,
+				"fight": 0,
+				"shoot": 0,
+				"strength": 0,
+				"defence": 0,
+				"attack": 0,
+				"wounds": 0,
+				"courage": 0,
+				"intelligence": 0,
+				"might": 0,
+				"will": 8,
+				"fate": 0,
+				"heroicActions": [],
+				"race": [
+					"Spirit"
+				],
+				"faction": [
+					"None"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"River-daughter",
+					"Sing a Jolly Song (Goldberry)",
+					"Goldberry is waiting"
+				],
+				"wargear": [
+					"Unarmed"
+				],
+				"options": []
+			},
+			{
+				"name": "Tom Bombadil",
+				"factions": [
+					"Road to Rivendell"
+				],
+				"unique": true,
+				"points": 120,
+				"movement": 6,
+				"fight": 0,
+				"shoot": 0,
+				"strength": 0,
+				"defence": 0,
+				"attack": 0,
+				"wounds": 0,
+				"courage": 0,
+				"intelligence": 0,
+				"might": 0,
+				"will": 12,
+				"fate": 0,
+				"heroicActions": [],
+				"race": [
+					"Spirit"
+				],
+				"faction": [
+					"None"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Tom is Master",
+					"Sing a Jolly Song (Tom)",
+					"Tom has his house to mind"
+				],
+				"wargear": [
+					"Unarmed"
+				],
+				"options": []
+			},
+			{
+				"name": "Gildor Inglorion",
+				"factions": [
+					"Road to Rivendell"
+				],
+				"points": 70,
+				"unique": true,
+				"legacy": true,
+				"movement": 8,
+				"fight": 6,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 4,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 5,
+				"might": 1,
+				"will": 4,
+				"fate": 1,
+				"race": [
+					"Elf"
+				],
+				"faction": [
+					"Rivendell"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"options": [],
+				"heroicActions": [
+					"Heroic Channelling",
+					"Heroic Defence",
+					"Heroic March",
+					"Heroic Resolve"
+				],
+				"specialRules": [
+					"Terror",
+					"Woodland Creature"
+				],
+				"wargear": [
+					"Elven weapon",
+					"Elven cloak"
+				],
+				"magicalPowers": [
+					{
+						"name": "Immobilise",
+						"range": 12,
+						"casting": 3
+					},
+					{
+						"name": "Writhing Vines",
+						"range": "Self",
+						"casting": 4
+					}
+				]
+			},
+			{
 				"name": "Eowyn, Shieldmaiden of Rohan",
 				"factions": [
 					"Paths of the Druadan"
@@ -45040,7 +45190,7 @@
 			{
 				"name": "Mountain Fighters",
 				"tag": "Active",
-				"definition": "This model gains a bonus of +1 To Wound when making Strikes against a model that is within a piece of dfficult terrain, such as a piece of rocky terrain, or a ruin."
+				"definition": "This model gains a bonus of +1 To Wound when making Strikes against a model that is within a piece of difficult terrain, such as a piece of rocky terrain, or a ruin."
 			},
 			{
 				"name": "Durin's Protector",
