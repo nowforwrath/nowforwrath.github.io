@@ -37890,8 +37890,7 @@
 				],
 				"specialRules": [
 					"Dominant (3)",
-					"Terror",
-					"Throw Stones (range 12\", Strength 8)"
+					"Terror"
 				],
 				"wargear": [
 					"Hand weapon"
@@ -46680,7 +46679,7 @@
 			{
 				"name": "Cunning Mind",
 				"tag": "Passive",
-				"definition": "Whenever Snaga benefits from the Heroic Action of another friendly Hero, he may roll a D6. On a 5+, Snaga may regain a Might Point htat he spent earlier in the battle. Additionally, Snaga may choose to not benefit from the Heroic Move or Heroic March of a friendly Hero, in which case he does not forego his Activation and may Activate as normal later in the Move Phase."
+				"definition": "Whenever Snaga benefits from the Heroic Action of another friendly Hero, he may roll a D6. On a 5+, Snaga may regain a Might Point that he spent earlier in the battle. Additionally, Snaga may choose to not benefit from the Heroic Move or Heroic March of a friendly Hero, in which case he does not forego his Activation and may Activate as normal later in the Move Phase."
 			},
 			{
 				"name": "Commanding Bellow",
@@ -47942,7 +47941,7 @@
 			},
 			{
 				"name": "The Dragon's Hoard",
-				"definition": "Each time a friendly model slays an enemy model in Combat they may roll a D6. On a natural 6, they ahve located some gold upon the body of the fallen and claimed it or themselves - keep a note of how much gold each model claims in this way. Friendly models gain the following benefits depending on how much gold they have collected. These benefits are cumulative:\n                1 gold - The model may re-roll a single To Wound Roll when making Strikes.\n                2-3 gold - The model may re-roll a single D6 during a Duel Roll.\n                4-5 gold - The model gains the Fearless special rule.\n                6+ gold - At the end of the game, their controlling player will gain an additional 1 Victory Point. This can never tkae this Army's total number of Victory Points above 20."
+				"definition": "Each time a friendly model slays an enemy model in Combat they may roll a D6. On a natural 6, they have located some gold upon the body of the fallen and claimed it or themselves - keep a note of how much gold each model claims in this way. Friendly models gain the following benefits depending on how much gold they have collected. These benefits are cumulative:\n                1 gold - The model may re-roll a single To Wound Roll when making Strikes.\n                2-3 gold - The model may re-roll a single D6 during a Duel Roll.\n                4-5 gold - The model gains the Fearless special rule.\n                6+ gold - At the end of the game, their controlling player will gain an additional 1 Victory Point. This can never tkae this Army's total number of Victory Points above 20."
 			},
 			{
 				"name": "Beast of Legend",
