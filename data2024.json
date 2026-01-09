@@ -44558,6 +44558,10 @@
 		],
 		"keywords": [
 			{
+				"name": "Static",
+				"definition": "If a Siege Engine has the Static special rule, then it cannot be Moved or rotated."
+			},
+			{
 				"name": "Plenty of Orcs",
 				"tag": "Passive",
 				"definition": "If the Orc Commander would lose its last Wound whilst riding the Great Beast, then the Howdah will suffer the Wound instead (this represents an Orc from the Howdah taking command). If the Great Beast is slain, then the Orc Commander will also be slain and removed as a casualty"
@@ -48257,7 +48261,7 @@
 			},
 			{
 				"name": "Hunt the Ringbearer",
-				"definition": "At the start of the Fight Phase, before any other Heroic Actions are declared, a single friendly Ringwraith may declare a Heroic Combat for free. This can only be done if, should the Heroic Combat be successful, the Ringwraith could charge the Ringbearer, though any other models in the Heroic Combat may act as normal.\n                If both players declare a Heroic Combat in the Fight Phase in which this special rule is used, this player will automatically win the roll-off to see which Heroic Combat goes first; howver, this Heroic Combat declared by this special rule must be the one chosen to go first."
+				"definition": "At the start of the Fight Phase, before any other Heroic Actions are declared, a single friendly Ringwraith may declare a Heroic Combat for free. This can only be done if, should the Heroic Combat be successful, the Ringwraith could charge the Ringbearer. If the Heroic Combat is successful, the Ringwraith must Charge the Ringbearer, though any other models in the Heroic Combat may act as normal.\n                If both players declare a Heroic Combat in the Fight Phase in which this special rule is used, this player will automatically win the roll-off to see which Heroic Combat goes first; howver, this Heroic Combat declared by this special rule must be the one chosen to go first."
 			},
 			{
 				"name": "Full Force Charge",
