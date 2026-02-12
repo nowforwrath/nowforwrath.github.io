@@ -43235,16 +43235,6 @@
 				]
 			},
 			{
-				"name": "Exchange shield for war drum",
-				"definition": "A model with a war drum may use it during the Declare Heroic Actions step of each Move Phase to declare a Heroic March for free, without spending a Might Point, even if they are not a Hero. This free Heroic March has the following exceptions:\n        • A model with a war drum that declares a Heroic March must always shout At the Double.\n        • The range of this At the Double is 12\" rather than 6\". Additionally, friendly models must finish their Activation within 12\" rather than 6\".\n        • The Heroic March declared when a model uses a war drum will only affect friendly models with the same keywords as the ones shown in brackets after the war drum. So if a model has a war drum (Mordor) then it will only affect models with the Mordor keyword.\n        As a war drum allows a model to declare a free Heroic March, models cannot be affected by both a war drum and a normal Heroic March in the same turn.",
-				"modifiesStats": [
-					{
-						"stat": "defence",
-						"modifier": -1
-					}
-				]
-			},
-			{
 				"name": "Swap shield for war drum (Isengard)",
 				"modifiesStats": [
 					{
@@ -43926,6 +43916,12 @@
 				],
 				"specialRules": [
 					"Mahud Beastmaster Chieftain"
+				],
+				"modifiesStats": [
+					{
+						"stat": "might",
+						"modifier": -2
+					}
 				]
 			},
 			{
@@ -45292,7 +45288,7 @@
 			{
 				"name": "Visage of Terror",
 				"tag": "Passive",
-				"definition": "If an enemy model attempts to Charge this model and fails its Courage Test as a result of the Terror special rule, then their Activation will immediately end rather than them just not being able to Move that turn. Models affected by this special rule cannot Shoot in the Shoot Phase, and cannot Move in the Fight Phase if part of a successful Heroic Combat, but may otherwise act normally in those phases."
+				"definition": "If an enemy model attempts to Charge this model and fails its Courage Test as a result of the Terror special rule, then their Activation will immediately end rather than them just not being able to Move that turn. Models affected by this special rulle cannot Shoot in the Shoot PHase, and cannot Move in the Fight Phase if part of a successful Heroic Combat, but may otherwise act normally in those phases."
 			},
 			{
 				"name": "Lord of Dale",
@@ -46956,11 +46952,6 @@
 				"name": "Imposing Presence",
 				"tag": "Passive",
 				"definition": "Whilst mounted upon his Royal War Mûmak, the first time each turn that an enemy model declares a Heroic Move within 12\" of the Mûmak War Leader, roll a D6. On a 4+, the Heroic Move is immediately cancelled and any Might points spent in declaring it are lost. Whilst the Mûmak War Leader is atop his Royal War Mûmak, measure the range of this special rule from the Mûmak’s base."
-			},
-			{
-				"name": "High King of the South",
-				"tag": "Passive",
-				"definition": "The range of the Mumak War Leader's Stand Fast is 12\" rather than 6\". Additionally, models in the Mumak War Leader's Warband can be deployed within 12\" rather than 6\" - even outside the Howdah if they wish. Measure this range fromt he base of the Royal War Mumak."
 			},
 			{
 				"name": "Chieftain of the Dunedain",
