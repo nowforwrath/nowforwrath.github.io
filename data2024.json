@@ -3886,6 +3886,12 @@
 				"armyBonuses": [
 					"\"Thror ruled with utter surety, never doubting his house would endure\"",
 					"Erebor Treasure Hoard"
+				],
+				"adjustLimits": [
+					{
+						"type": "throwingWeapon",
+						"percentage": 50
+					}
 				]
 			},
 			{
@@ -17108,7 +17114,7 @@
 					"Unique"
 				],
 				"baseSize": [
-					"60mm"
+					"80mm"
 				],
 				"heroicActions": [],
 				"options": [],
@@ -42084,10 +42090,6 @@
 		],
 		"gear": [
 			{
-				"name": "Umbrella",
-				"definition": "This is a hand weapon. If Lobelia wins a Combat, she may not make Strikes."
-			},
-			{
 				"name": "Exchange shield for war drum",
 				"definition": "A model with a war drum may use it during the Declare Heroic Actions step of each Move Phase to declare a Heroic March for free, without spending a Might Point, even if they are not a Hero. This free Heroic March has the following exceptions:\n        • A model with a war drum that declares a Heroic March must always shout At the Double.\n        • The range of this At the Double is 12\" rather than 6\". Additionally, friendly models must finish their Activation within 12\" rather than 6\".\n        • The Heroic March declared when a model uses a war drum will only affect friendly models with the same keywords as the ones shown in brackets after the war drum. So if a model has a war drum (Mordor) then it will only affect models with the Mordor keyword.\n        As a war drum allows a model to declare a free Heroic March, models cannot be affected by both a war drum and a normal Heroic March in the same turn.",
 				"modifiesStats": [
@@ -42245,7 +42247,7 @@
 			},
 			{
 				"name": "Breathe Fire",
-				"definition": "The Dragon can Breathe Fire as a shooting attack during the Shoot Phase; treat this as a bow with a range of 12\". If the shot hits, then the model that is hit, and all models (friend or foe) within 2\" of the hit model, will suffer a Strength 10 hit. Any model that suffers a Wound from this shooting attack which is not prevented is automatically slain. This is a fire-based attack.",
+				"definition": "The Dragon can Breathe Fire as a shooting attack during the Shoot Phase; treat this as a bow with a range of 12\". If the shot hits, then the model that is hit suffers a Strength 10 hit and if they suffer a Wound from this hit, which is not prevented, they are automatically slain. Additionally, all other models (friend and foe) within 2\" are immediately Set Ablaze – though they will not be automatically slain if wounded. This is a firebased attack.",
 				"tag": "Active"
 			},
 			{
@@ -44933,7 +44935,7 @@
 			{
 				"name": "Sing a Jolly Song (Tom)",
 				"tag": "Active",
-				"definition": "At any point during his Activation, Tom may spend a Will Point to sing one of the songs listed below to gain the relevant effect. Tom may sing any number of these songs during his Activation, and may sing each of these songs as many times as he wishes during his Activation unless otherwise stated. Every time Tom sings a song it will cost him a Will Point.\n        \n        • \"Hey! Come Merry Dol!\" - Choose a friendly model within 6\" of Tom Bombadil. The chosen model immediately regains a single Wound lost earlier in the battle. A model may only be chosen by this song once per turn.\n        \n        • \"Hop along, my hearties!\" - Until the end of the turn, friendly models that begin their Activation within 6\" of Tom Bombadil may add 3\" to their Move Value and will treat all areas of Difficult Terrain as Open Ground.\n        \n        • \"Wake now my merry lads!\" - Choose a friendly model within 6\" of Tom Bombadil. The chosen model immediately recovers from the effects of any enemy Magical Powers currently cast upon them. Additionally, until the end of the turn, the chosen model cannot be chosen as the target of any enemy Magical Powers or special rules.\n        \n        • \"Ring a dong dillo!\" - Until the end of the turn, friendly models within 6\" of Tom Bombadil automatically pass any Courage Tests they are required to take.\n        \n        • \"Get out, you old Wight!\" - Choose an enemy Spirit model within 6\" of Tom Bombadil. The chosen model immediately suffers a Wound. This song may only be sung once per turn."
+				"definition": "At any point during his Activation, Tom may spend a Will Point to sing one of the songs listed below to gain the relevant effect. Tom may sing any number of these songs during his Activation, and may sing each of these songs as many times as he wishes during his Activation unless otherwise stated. Every time Tom sings a song it will cost him a Will Point.\n        \n        • \"Hey! Come Merry Dol!\" - Choose a friendly model within 6\" of Tom Bombadil. The chosen model immediately regains a single Wound lost earlier in the battle. A model may only be chosen by this song once per turn.\n        \n        • \"Hop along, my hearties!\" - Until the end of the turn, friendly models that begin their Activation within 6\" of Tom Bombadil may add 3\" to their Move Value and will treat all areas of Difficult Terrain as Open Ground. A model may only be affected by this song once per turn. \n        \n        • \"Wake now my merry lads!\" - Choose a friendly model within 6\" of Tom Bombadil. The chosen model immediately recovers from the effects of any enemy Magical Powers currently cast upon them. Additionally, until the end of the turn, the chosen model cannot be chosen as the target of any enemy Magical Powers or special rules.\n        \n        • \"Ring a dong dillo!\" - Until the end of the turn, friendly models within 6\" of Tom Bombadil automatically pass any Courage Tests they are required to take.\n        \n        • \"Get out, you old Wight!\" - Choose an enemy Spirit model within 6\" of Tom Bombadil. The chosen model immediately suffers a Wound. This song may only be sung once per turn."
 			},
 			{
 				"name": "Tom has his house to mind",
@@ -45981,7 +45983,7 @@
 			{
 				"name": "A Traitor Within",
 				"tag": "Passive",
-				"definition": "Gríma can be deployed in one of two ways, though his controlling player must decide which before either Army is deployed. Gríma can either be deployed as part of Saruman's Warband (in which case he will not take up a space in the Warband), or as part of the enemy Army.\nIf Gríma chooses to be deployed as part of the enemy Army, he must select an enemy Hero. Once that Hero and their Warband has been deployed, Gríma's controlling player can deploy Gríma as if he was also part of that Warband, following all the usual deployment rules. Gríma is still part of his controlling player's Army, and will Activate like any other model in his controlling player's Army.\nIf Gríma is deployed as part of the enemy Army, then enemy models treat him as a friendly model, and therefore cannot shoot him, Charge him, make Strikes against him, target him with special rules, or make a shooting attack in which Gríma would be In The Way. They may also ignore his Control Zone. They can, however, target him with Magical Powers like\nany other enemy model.\nWhilst Gríma is considered a friendly model, Grima may ignore the Control Zones of enemy models and may Move through enemy models as if they weren't there. When Gríma Moves this way, he cannot end his Move overlapping or in base contact with an enemy model. Grima can choose to Charge an enemy model as normal if he wishes.\nThese restrictions immediately end if Saruman is slain, if Grima Charges an enemy model, if Grima destroys an enemy Siege Engine, or if Grima interacts with an Objective Marker (such as destroying a Supply Marker or picking up an objective), at which point Grima is treated as a normal enemy model and can be Charged, shot at and slain like any other model"
+				"definition": "Gríma can be deployed in one of two ways, though his controlling player must decide which before either Army is deployed. Gríma can either be deployed as part of Saruman's Warband (in which case he will not take up a space in the Warband), or as part of the enemy Army.\nIf Gríma chooses to be deployed as part of the enemy Army, he must select an enemy Hero. Once that Hero and their Warband has been deployed, Gríma's controlling player can deploy Gríma as if he was also part of that Warband, following all the usual deployment rules. Gríma is still part of his controlling player's Army, and will Activate like any other model in his controlling player's Army.\nIf Gríma is deployed as part of the enemy Army, then enemy models treat him as a friendly model, and therefore cannot shoot him, Charge him, make Strikes against him, target him with special rules, or make a shooting attack in which Gríma would be In The Way. They may also ignore his Control Zone. They can, however, target him with Magical Powers like\nany other enemy model.\nWhilst Gríma is considered a friendly model, he does not have a Control Zone and may ignore the Control Zones of enemy models and may Move through enemy models as if they weren't there. When Gríma Moves this way, he cannot end his Move overlapping or in base contact with an enemy model. Additionally, whilst Gríma is considered a friendly model, enemy models may Move through Gríma in the same manner as described above. Gríma can choose to Charge an enemy model as normal if he wishes.\nThese restrictions immediately end if Saruman suffers an unsaved Wound, if Gríma Charges an enemy model, if Gríma destroys an enemy Siege Engine, or if Gríma interacts with an Objective Marker (such as destroying a Supply Marker or picking up an objective), at which point Gríma is treated as a normal enemy model and can be Charged, shot and slain like any other model. Additionally, Gríma can never be chosen as a target in Scenarios that require players to select friendly or enemy Hero models, such as Fog of War or Assassination."
 			},
 			{
 				"name": "Wormtongue",
@@ -48253,7 +48255,7 @@
 			},
 			{
 				"name": "Piercing Cry",
-				"definition": "Once per game, at the start of any Move Phase, Gwaihir can use this special rule so long as he is alive and on the battlefield. If he does, then enemy models within 6\" of Gwaihir cannot Move during that turn, but may otherwise act normally."
+				"definition": "Once per game, at the start of any Move Phase, Gwaihir can use this special rule so long as he is alive and on the battlefield. If he does, then enemy models within 6\" of Gwaihir cannot Charge during that turn, but may otherwise act normally."
 			},
 			{
 				"name": "\"The power of the Ring could not be undone\"",
@@ -48349,7 +48351,7 @@
 			},
 			{
 				"name": "The Voice of Saruman",
-				"definition": "During his activation, Saruman can use one of the following abilities instead of Casting a Magical Power. Each of these abilities can only be used once per game.\n                Conjure Lightning - Choose a point on the battlefield at least 12\" away from any friendly model (with the exception of Grima Wormtongue). Each model within 2\" of the chosen point suffers a Strength 6 hit. If a Cavalry model is affected, both the rider and Mount will suffer a Strength 6 hit.\n                Summon Gale - Until the end of the turn, enemy models halve their Move Value.\n                Call Thunder - Until the end of the turn, enemy models have the Fearful special rule."
+				"definition": "During his activation, Saruman can use one of the following abilities instead of Casting a Magical Power. Each of these abilities can only be used once per game.\n                Conjure Lightning - Choose a point on the battlefield at least 12\" away from any friendly model (including Grima Wormtongue). Each model within 2\" of the chosen point suffers a Strength 6 hit. If a Cavalry model is affected, both the rider and Mount will suffer a Strength 6 hit.\n                Summon Gale - Until the end of the turn, enemy models halve their Move Value.\n                Call Thunder - Until the end of the turn, enemy models have the Fearful special rule."
 			},
 			{
 				"name": "Spies of Saruman",
@@ -48433,7 +48435,7 @@
 			},
 			{
 				"name": "Drums in the Deep",
-				"definition": "Enemy models suffer a -1 penalty to any Courage Tests they are required to take, whilst friendly Moria Goblin models gain a bonus of +1 to any Courage Tests they are required to take. Additionally, friendly Moria Goblin models always count as being in range of a banner."
+				"definition": "Once per game, at the start of any Move Phase, a Depths of Moria player can declare they are using this special rule. If they do, until the End Phase of the turn, enemy models suffer a -1 penalty to any Courage Tests they are required to take, whilst friendly Moria Goblin models gain a bonus of +1 to any Courage Tests they are required to take. Additionally, until the End Phase of the turn, friendly Moria Goblin models count as being in range of a banner."
 			},
 			{
 				"name": "Dominion of the Balrog",
