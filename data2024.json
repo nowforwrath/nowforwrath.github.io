@@ -11868,7 +11868,8 @@
 					"Phalanx",
 					"The Gleaming Horde",
 					"Shield of Blades",
-					"Leader of the Dragon Cult"
+					"Leader of the Dragon Cult",
+					"Unyielding Combat Stance"
 				],
 				"wargear": [
 					"Heavy armour",
@@ -47907,7 +47908,7 @@
 			},
 			{
 				"name": "The Great Eye",
-				"definition": "At the beginning of the game, place a 25mm Great Eye Marker on the battlefield in your deployment zone. At the end of each Move Phase, remove the Great Eye Marker and roll a D6. On a 2+, you may place it anywhere within 6\" of where it was. On a 1, Sauron has been distracted and your opponent may place it anywhere within 12\" of where it was. The Great Eye Marker can never be placed so that it overlaps another model's base, though models may finish their Move overlapping the Great Eye Marker. Friendly models treat the Great Eye Marker as a banner. Enemy models within 3\" of the Great Eye Marker suffer a -1 penalty to any Courage or Intelligence Tests they are required to take.\n                If your opponent's Army contains a Ringbearer (with the exception of Sauron), then if during the End Phase of any turn they are wearing the Ring and wtihin 3\" of the Great Eye Marker, they must roll a D6. On a 3+, they succumb to Sauron and are immediately removed as a casualty."
+				"definition": "At the beginning of the game, place a 25mm Great Eye Marker on the battlefield in your deployment zone. At the end of each Move Phase, remove the Great Eye Marker and roll a D6. On a 2+, you may place it anywhere within 6\" of where it was. On a 1, Sauron has been distracted and your opponent may place it anywhere within 12\" of where it was. The Great Eye Marker can never be placed so that it overlaps another model's base, though models may finish their Move overlapping the Great Eye Marker. Friendly models treat the Great Eye Marker as a banner. Enemy models within 3\" of the Great Eye Marker suffer a -1 penalty to any Courage or Intelligence Tests they are required to take.\n                If your opponent's Army contains a Ringbearer (with the exception of Sauron), then if during the End Phase of any turn they are wearing the Ring and wtihin 3\" of the Great Eye Marker, they must roll a D6. On a 3+, they succumb to Sauron and are immediately removed as a casualty.\n                 In [Scenarios that don't have a specific deployment zone, such as Recconoitre or those that use the Maelstrom of Battle special rule], the Great Eye Marker will be deployed touching its controlling player’s board edge. In Maelstrom of Battle scenarios, determine which board edge is the controlling player’s in the same manner as if they had a Siege Engine as described on page 139 of the Middle-earth Strategy Battle Game Rules Manual."
 			},
 			{
 				"name": "Masters of the Wild",
