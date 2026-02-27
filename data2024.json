@@ -2312,7 +2312,7 @@
 				"additionalRules": [
 					"Corsair Warrior models can only be included in the Warband of a Corsair Hero",
 					"Harad Warrior models can only be included in the Warband of a Harad Hero",
-					"Easterling Warrior models can only be included int he Warband of an Easterling Hero."
+					"Easterling Warrior models can only be included in the Warband of an Easterling Hero."
 				],
 				"armyBonuses": [
 					"Pride of the Southlands"
@@ -47968,7 +47968,7 @@
 			},
 			{
 				"name": "The Dragon's Hoard",
-				"definition": "Each time a friendly model slays an enemy model in Combat they may roll a D6. On a natural 6, they have located some gold upon the body of the fallen and claimed it or themselves - keep a note of how much gold each model claims in this way. Friendly models gain the following benefits depending on how much gold they have collected. These benefits are cumulative:\n                1 gold - The model may re-roll a single To Wound Roll when making Strikes.\n                2-3 gold - The model may re-roll a single D6 during a Duel Roll.\n                4-5 gold - The model gains the Fearless special rule.\n                6+ gold - At the end of the game, their controlling player will gain an additional 1 Victory Point. This can never tkae this Army's total number of Victory Points above 20."
+				"definition": "Each time a friendly model slays an enemy model in Combat they may roll a D6. On a natural 6, they have located some gold upon the body of the fallen and claimed it or themselves - keep a note of how much gold each model claims in this way. Friendly models gain the following benefits depending on how much gold they have collected. These benefits are cumulative:\n                1 gold - The model may re-roll a single To Wound Roll when making Strikes.\n                2-3 gold - The model may re-roll a single D6 during a Duel Roll.\n                4-5 gold - The model gains the Fearless special rule.\n                6+ gold - At the end of the game, their controlling player will gain an additional 1 Victory Point. This can never take this Army's total number of Victory Points above 20."
 			},
 			{
 				"name": "Beast of Legend",
@@ -48292,7 +48292,7 @@
 			},
 			{
 				"name": "Strafing Attack",
-				"definition": "At the end of a friendly Monster model's Move, if it is not Engaged in Combat, you may choose a single enemy model, that is not Engaged in Combat, that lies int he direct path between where the Monster began its move, and where it finished its Move - the path is the same width as the Monster model's base. The chosen model suffers a Strength 5 hit and, if it survives, will be knocked Prone. Cavalry models suffer these hits on both the Mount and the rider."
+				"definition": "At the end of a friendly Monster model's Move, if it is not Engaged in Combat, you may choose a single enemy model, that is not Engaged in Combat, that lies in the direct path between where the Monster began its move, and where it finished its Move - the path is the same width as the Monster model's base. The chosen model suffers a Strength 5 hit and, if it survives, will be knocked Prone. Cavalry models suffer these hits on both the Mount and the rider."
 			},
 			{
 				"name": "The Destruction of Men",
