@@ -527,7 +527,7 @@
 						"text": "Fortification Points",
 						"points": 0,
 						"increment": true,
-						"max": 4
+						"max": 100
 					}
 				],
 				[
