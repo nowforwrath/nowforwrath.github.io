@@ -47279,6 +47279,7 @@
 			},
 			{
 				"name": "Axe Mastery",
+				"tag": "Active",
 				"definition": "If Gloin is outnumbered in a Combat, he increases his Attacks to 4 for the duration of the Combat."
 			},
 			{
