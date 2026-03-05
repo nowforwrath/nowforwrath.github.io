@@ -45359,12 +45359,12 @@
 			},
 			{
 				"name": "Standards of the Emperor",
-				"definition": "The Royal Palanquin is adorned with the banners of the Dragon Emperor, inspiring the Easterlings to fight all the harder when his colours are flying.\n\nThe Royal Palanquin is a banner with a range of 6\". As these banners are attached to the Royal Palanquin, the Dragon Emperor never suffers the -1 penalty to his Duel Rolls for carrying a banner.",
+				"definition": "The Royal Palanquin is a banner with a range of 6\". As these banners are attached to the Royal Palanquin, the Dragon Emperor never suffers the -1 penalty to his Duel Rolls for carrying a banner.",
 				"tag": "Passive"
 			},
 			{
 				"name": "In the name of the Dragon Emperor",
-				"definition": "The very presence of the Dragon Emperor fuels the Easterlings to fight with renewed vigour in his glorious name.\n\nFriendly Easterling models within 6\" of the Royal Palanquin who can draw Line of Sight to it, may re-roll To Wound Rolls of a natural 1 when making Strikes.",
+				"definition": "Friendly Easterling models within 6\" of the Royal Palanquin who can draw Line of Sight to it, may re-roll To Wound Rolls of a natural 1 when making Strikes.",
 				"tag": "Passive"
 			},
 			{
