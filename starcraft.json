@@ -1,0 +1,1313 @@
+{
+	"config": {
+		"trackHighestDivision": false
+	},
+	"appVersion": 2,
+	"disallowMultipleFactions": true,
+	"credit": [],
+	"game": "Starcraft TMG",
+	"toggles": [],
+	"scenarios": [],
+	"stats": [
+		{
+			"name": "Shield",
+			"abbreviation": "Shield"
+		},
+		{
+			"name": "Speed",
+			"abbreviation": "Speed",
+			"string": true
+		},
+		{
+			"name": "Evasion",
+			"abbreviation": "Evasion"
+		},
+		{
+			"name": "Armor",
+			"trail": "+",
+			"abbreviation": "Armor"
+		},
+		{
+			"name": "HP",
+			"abbreviation": "HP"
+		},
+		{
+			"name": "Size",
+			"abbreviation": "Size"
+		}
+	],
+	"dataTableKeys": [
+		"units"
+	],
+	"limits": [],
+	"counts": [],
+	"calculations": [],
+	"additionalPrint": [],
+	"categories": [
+		{
+			"name": "Any Phase",
+			"value": "any"
+		},
+		{
+			"name": "Movement Phase",
+			"value": "movement"
+		},
+		{
+			"name": "Assault Phase",
+			"value": "assault"
+		},
+		{
+			"name": "Combat Phase",
+			"value": "combat"
+		}
+	],
+	"elements": [
+		{
+			"propertyName": "factions",
+			"label": "Faction",
+			"type": "faction",
+			"dataSource": "factions",
+			"children": [
+				{
+					"propertyName": "units",
+					"dataSource": "units",
+					"label": "Unit",
+					"type": "main",
+					"tierProperty": "role",
+					"tierData": "roles",
+					"tiers": [
+						{
+							"name": "Hero",
+							"rank": 1
+						},
+						{
+							"name": "Elite",
+							"rank": 2
+						},
+						{
+							"name": "Core",
+							"rank": 3
+						},
+						{
+							"name": "Support",
+							"rank": 4
+						}
+					],
+					"children": [
+						{
+							"propertyName": "upgrades",
+							"type": "checkbox",
+							"dataSource": "abilities",
+							"usesCategories": true,
+							"stats": [
+								{
+									"name": "Name",
+									"propertyName": "name"
+								},
+								{
+									"name": "Range",
+									"propertyName": "range"
+								},
+								{
+									"name": "Target",
+									"propertyName": "target"
+								},
+								{
+									"name": "ROA",
+									"propertyName": "roa"
+								},
+								{
+									"name": "Hit",
+									"propertyName": "hit",
+									"trail": "+"
+								},
+								{
+									"name": "Surge",
+									"propertyName": "surge"
+								},
+								{
+									"name": "S Die",
+									"propertyName": "sdie"
+								},
+								{
+									"name": "Damage",
+									"propertyName": "damage"
+								},
+								{
+									"name": "Keywords",
+									"propertyName": "keywords"
+								}
+							]
+						},
+						{
+							"propertyName": "abilities",
+							"dataSource": "abilities",
+							"label": "Abilities",
+							"type": "static",
+							"usesCategories": true
+						},
+						{
+							"propertyName": "weapons",
+							"dataSource": "weapons",
+							"label": "Weapons",
+							"type": "static",
+							"usesCategories": true,
+							"stats": [
+								{
+									"name": "Name",
+									"propertyName": "name"
+								},
+								{
+									"name": "Range",
+									"propertyName": "range"
+								},
+								{
+									"name": "Target",
+									"propertyName": "target"
+								},
+								{
+									"name": "ROA",
+									"propertyName": "roa"
+								},
+								{
+									"name": "Hit",
+									"propertyName": "hit",
+									"trail": "+"
+								},
+								{
+									"name": "Surge",
+									"propertyName": "surge"
+								},
+								{
+									"name": "S Die",
+									"propertyName": "sdie"
+								},
+								{
+									"name": "Damage",
+									"propertyName": "damage"
+								},
+								{
+									"name": "Keywords",
+									"propertyName": "keywords"
+								}
+							],
+							"children": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"data": {
+		"roles": [
+			{
+				"name": "Hero"
+			},
+			{
+				"name": "Elite"
+			},
+			{
+				"name": "Core"
+			},
+			{
+				"name": "Support"
+			}
+		],
+		"factions": [
+			{
+				"name": "Raynor's Raiders"
+			},
+			{
+				"name": "Terran Armed Forces"
+			},
+			{
+				"name": "Kerrigan's Swarm"
+			},
+			{
+				"name": "Zerg Swarm"
+			},
+			{
+				"name": "Khalai"
+			},
+			{
+				"name": "Daelaam"
+			}
+		],
+		"units": [
+			{
+				"name": "Corpser (Roach)",
+				"points": 260,
+				"factions": [
+					{
+						"name": "Kerrigan's Swarm",
+						"role": "core"
+					},
+					{
+						"name": "Zerg Swarm",
+						"role": "core"
+					}
+				],
+				"unlimited": true,
+				"can_reinforce": false,
+				"reinforced": false,
+				"base": 2,
+				"role": "core",
+				"core": 1,
+				"shield": 0,
+				"speed": "4/7",
+				"evasion": 5,
+				"armor": 3,
+				"hp": 4,
+				"size": 2,
+				"keywords": [
+					"Armoured",
+					"Biological",
+					"Ground"
+				],
+				"upgrades": [
+					{
+						"name": "Tunneling Claws",
+						"category": "any",
+						"points": 10
+					},
+					{
+						"name": "Burrow Ambush",
+						"category": "movement",
+						"points": 20
+					},
+					{
+						"name": "Glial Reconstitution",
+						"category": "movement",
+						"points": 20
+					},
+					{
+						"name": "Hydridic Bile",
+						"category": "assault",
+						"points": 10
+					}
+				],
+				"weapons": [
+					"Acid Saliva",
+					"Claws"
+				],
+				"abilities": [
+					"Roachling Infestation",
+					"Regeneration",
+					"Devastating Charge"
+				]
+			},
+			{
+				"name": "Hydralisk",
+				"points": 140,
+				"factions": [
+					{
+						"name": "Kerrigan's Swarm",
+						"role": "elite"
+					},
+					{
+						"name": "Zerg Swarm",
+						"role": "elite"
+					}
+				],
+				"unlimited": true,
+				"can_reinforce": true,
+				"reinforced": false,
+				"base": 2,
+				"role": "elite",
+				"elite": 2,
+				"shield": 0,
+				"speed": "4/8",
+				"eva": 5,
+				"arm": 5,
+				"hp": 4,
+				"size": 2,
+				"keywords": [
+					"Biological",
+					"Light",
+					"Ground"
+				],
+				"upgrades": [
+					{
+						"name": "Ancillary Carapace",
+						"category": "any",
+						"points": 20
+					},
+					{
+						"name": "Lurking",
+						"category": "any",
+						"points": 10
+					},
+					{
+						"name": "Burrow Ambush",
+						"category": "movement",
+						"points": 20
+					},
+					{
+						"name": "Grooved Spines",
+						"category": "assault",
+						"points": 20
+					}
+				],
+				"abilities": [
+					"Squadron",
+					"Lunge"
+				],
+				"weapons": [
+					"Needle Spines",
+					"Scythe"
+				]
+			},
+			{
+				"name": "Kerrigan",
+				"factions": [
+					{
+						"name": "Kerrigan's Swarm",
+						"role": "hero"
+					},
+					{
+						"name": "Zerg Swarm",
+						"role": "hero"
+					}
+				],
+				"points": 250,
+				"unique": true,
+				"can_reinforce": false,
+				"reinforced": false,
+				"base": 2,
+				"role": "hero",
+				"hero": 1,
+				"shield": 0,
+				"speed": "7",
+				"eva": 6,
+				"arm": 5,
+				"hp": 9,
+				"size": 2,
+				"keywords": [
+					"Biological",
+					"Psionic",
+					"Ground"
+				],
+				"tier1": {
+					"count": "-",
+					"supply": 0,
+					"points": 0,
+					"lowerLimit": 0,
+					"upperLimit": 0
+				},
+				"tier2": {
+					"count": "1-1",
+					"supply": 1,
+					"points": 250,
+					"lowerLimit": 1,
+					"upperLimit": 1
+				},
+				"tier3": {
+					"count": "-",
+					"supply": 0,
+					"points": 0,
+					"lowerLimit": 0,
+					"upperLimit": 0
+				},
+				"upgrades": [],
+				"abilities": [
+					"Commander",
+					"Crushing Grip",
+					"Mutating Carapace",
+					"Leaping Strike",
+					"Devastating Charge"
+				],
+				"weapons": [
+					"Energy Blast",
+					"Blades"
+				]
+			},
+			{
+				"name": "Kerrigan Swarm Raptor (Zergling)",
+				"factions": [
+					{
+						"name": "Kerrigan's Swarm",
+						"role": "elite"
+					},
+					{
+						"name": "Zerg Swarm",
+						"role": "elite"
+					}
+				],
+				"points": 250,
+				"base": 2,
+				"role": "elite",
+				"elite": 1,
+				"shield": 0,
+				"speed": "5/9",
+				"eva": 4,
+				"arm": 5,
+				"hp": 2,
+				"size": 1,
+				"keywords": [
+					"Kerrigan's Swarm",
+					"Biological",
+					"Light",
+					"Ground"
+				],
+				"upgrades": [],
+				"abilities": [
+					"Squadron",
+					"Raptor Strain",
+					"Adrenal Overload",
+					"Leap",
+					"Devastating Charge"
+				],
+				"weapons": [
+					"Claws"
+				]
+			},
+			{
+				"name": "Omega Worm",
+				"factions": [],
+				"can_reinforce": false,
+				"reinforced": false,
+				"base": 2,
+				"role": "other",
+				"other": 0,
+				"shield": 0,
+				"speed": "-",
+				"eva": "-",
+				"arm": 5,
+				"hp": 10,
+				"size": 3,
+				"keywords": [
+					"Kerrigan's Swarm",
+					"Armoured",
+					"Biological",
+					"Ground"
+				],
+				"weapons": [],
+				"abilities": [
+					"Detection",
+					"Source of Creep",
+					"Structure",
+					"Omega Network"
+				]
+			},
+			{
+				"name": "Queen",
+				"factions": [
+					{
+						"name": "Kerrigan's Swarm",
+						"role": "support"
+					},
+					{
+						"name": "Zerg Swarm",
+						"role": "support"
+					}
+				],
+				"points": 150,
+				"unlimited": true,
+				"can_reinforce": false,
+				"reinforced": false,
+				"base": 2,
+				"role": "support",
+				"support": 1,
+				"shield": 0,
+				"speed": 4,
+				"eva": "-",
+				"arm": 4,
+				"hp": 9,
+				"size": 3,
+				"keywords": [
+					"Armoured",
+					"Biological",
+					"Psionic",
+					"Ground"
+				],
+				"tier1": {
+					"count": "-",
+					"supply": 0,
+					"points": 0,
+					"lowerLimit": 0,
+					"upperLimit": 0
+				},
+				"tier2": {
+					"count": "1-1",
+					"supply": 1,
+					"points": 150,
+					"lowerLimit": 1,
+					"upperLimit": 1
+				},
+				"tier3": {
+					"count": "-",
+					"supply": 0,
+					"points": 0,
+					"lowerLimit": 0,
+					"upperLimit": 0
+				},
+				"upgrades": [
+					{
+						"name": "Creep Speed",
+						"category": "any",
+						"points": 10
+					},
+					{
+						"name": "Domineering Presence",
+						"category": "movement",
+						"points": 10
+					}
+				],
+				"abilities": [
+					"Spawn Creep Tumor",
+					"Transfusion",
+					"Restoration",
+					"Psionic Link",
+					"Devastating Charge"
+				],
+				"weapons": [
+					"Talons (Assault)",
+					"Acid Spines",
+					"Talons (Combat)"
+				]
+			},
+			{
+				"name": "Raptor (Zergling)",
+				"factions": [
+					{
+						"name": "Kerrigan's Swarm",
+						"role": "elite"
+					},
+					{
+						"name": "Zerg Swarm",
+						"role": "elite"
+					}
+				],
+				"points": 240,
+				"unlimited": true,
+				"can_reinforce": true,
+				"reinforced": false,
+				"base": 2,
+				"role": "elite",
+				"elite": 1,
+				"shield": 0,
+				"speed": "5/9",
+				"eva": 4,
+				"arm": 6,
+				"hp": 1,
+				"size": 1,
+				"keywords": [
+					"Biological",
+					"Light",
+					"Ground"
+				],
+				"tier1": {
+					"count": "1-6",
+					"supply": 0,
+					"points": 0,
+					"lowerLimit": 1,
+					"upperLimit": 6
+				},
+				"tier2": {
+					"count": "7-12",
+					"supply": 1,
+					"points": 240,
+					"lowerLimit": 7,
+					"upperLimit": 12
+				},
+				"tier3": {
+					"count": "13-18",
+					"supply": 2,
+					"points": 300,
+					"lowerLimit": 13,
+					"upperLimit": 18
+				},
+				"abilities": [
+					"Squadron",
+					"Raptor Strain",
+					"Adrenal Overload",
+					"Metabolic Boost",
+					"Devastating Charge"
+				],
+				"weapons": [
+					"Claws"
+				],
+				"upgrades": [
+					{
+						"name": "Burrow Ambush",
+						"category": "movement",
+						"points": 20
+					},
+					{
+						"name": "Adrenal Glands",
+						"category": "combat",
+						"points": 30
+					},
+					{
+						"name": "Shredding Claws",
+						"category": "combat",
+						"points": 20
+					}
+				]
+			},
+			{
+				"name": "Roach",
+				"factions": [
+					{
+						"name": "Kerrigan's Swarm",
+						"role": "core"
+					},
+					{
+						"name": "Zerg Swarm",
+						"role": "core"
+					}
+				],
+				"points": 170,
+				"unlimited": true,
+				"can_reinforce": false,
+				"reinforced": false,
+				"base": 2,
+				"role": "core",
+				"core": 1,
+				"shield": 0,
+				"speed": "4/7",
+				"eva": 5,
+				"arm": 3,
+				"hp": 4,
+				"size": 2,
+				"keywords": [
+					"Armoured",
+					"Biological",
+					"Ground"
+				],
+				"abilities": [
+					"Burrow",
+					"Regeneration",
+					"Devastating Charge"
+				],
+				"weapons": [
+					"Acid Saliva",
+					"Claws"
+				],
+				"upgrades": [
+					{
+						"name": "Tunneling Claws",
+						"category": "any",
+						"points": 10
+					},
+					{
+						"name": "Burrow Ambush",
+						"category": "movement",
+						"points": 20
+					},
+					{
+						"name": "Glial Reconstitution",
+						"category": "movement",
+						"points": 20
+					},
+					{
+						"name": "Hydridic Bile",
+						"category": "assault",
+						"points": 10
+					}
+				]
+			},
+			{
+				"name": "Roachling",
+				"factions": [],
+				"unlimited": true,
+				"can_reinforce": false,
+				"reinforced": false,
+				"base": 2,
+				"role": "other",
+				"other": 0,
+				"shield": 0,
+				"speed": "4/7",
+				"eva": 6,
+				"arm": 6,
+				"hp": 1,
+				"size": 1,
+				"keywords": [
+					"Biological",
+					"Ground",
+					"Light"
+				],
+				"upgrades": [],
+				"abilities": [
+					"Underdeveloped Claws"
+				],
+				"weapons": [
+					"Claws"
+				]
+			},
+			{
+				"name": "Swarmling (Zergling)",
+				"factions": [
+					{
+						"name": "Kerrigan's Swarm",
+						"role": "core"
+					},
+					{
+						"name": "Zerg Swarm",
+						"role": "core"
+					}
+				],
+				"points": 270,
+				"unlimited": true,
+				"can_reinforce": false,
+				"reinforced": false,
+				"base": 2,
+				"role": "core",
+				"core": 1,
+				"shield": 0,
+				"speed": "4/8",
+				"eva": 5,
+				"arm": 6,
+				"hp": 1,
+				"size": 1,
+				"keywords": [
+					"Biological",
+					"Light",
+					"Ground"
+				],
+				"upgrades": [
+					{
+						"name": "Burrow Ambush",
+						"category": "movement",
+						"points": 20
+					}
+				],
+				"abilities": [
+					"Squadron",
+					"Zergling Reconstitution",
+					"Metabolic Boost",
+					"Devastating Charge"
+				],
+				"weapons": [
+					"Claws"
+				]
+			},
+			{
+				"name": "Vile (Roach)",
+				"factions": [
+					{
+						"name": "Kerrigan's Swarm",
+						"role": "core"
+					},
+					{
+						"name": "Zerg Swarm",
+						"role": "core"
+					}
+				],
+				"points": 200,
+				"unlimited": true,
+				"can_reinforce": false,
+				"reinforced": false,
+				"base": 2,
+				"role": "core",
+				"core": 1,
+				"shield": 0,
+				"speed": "4/7",
+				"eva": 5,
+				"arm": 3,
+				"hp": 4,
+				"size": 2,
+				"keywords": [
+					"Armoured",
+					"Biological",
+					"Ground"
+				],
+				"abilities": [
+					"Debilitating Saliva",
+					"Burrow",
+					"Regeneration",
+					"Devastating Charge"
+				],
+				"weapons": [
+					"Acid Saliva",
+					"Vile Claws"
+				],
+				"upgrades": [
+					{
+						"name": "Tunneling Claws",
+						"category": "any",
+						"points": 10
+					},
+					{
+						"name": "Burrow Ambush",
+						"category": "movement",
+						"points": 20
+					},
+					{
+						"name": "Glial Reconstitution",
+						"category": "movement",
+						"points": 20
+					},
+					{
+						"name": "Hydridic Bile",
+						"category": "assault",
+						"points": 10
+					}
+				]
+			},
+			{
+				"name": "Zergling",
+				"factions": [
+					{
+						"name": "Kerrigan's Swarm",
+						"role": "core"
+					},
+					{
+						"name": "Zerg Swarm",
+						"role": "core"
+					}
+				],
+				"points": 180,
+				"unlimited": true,
+				"can_reinforce": true,
+				"reinforced": false,
+				"base": 2,
+				"role": "core",
+				"core": 1,
+				"shield": 0,
+				"speed": "4/8",
+				"eva": 4,
+				"arm": 6,
+				"hp": 1,
+				"size": 1,
+				"keywords": [
+					"Biological",
+					"Light",
+					"Ground"
+				],
+				"abilities": [
+					"Squadron",
+					"Metabolic Boost",
+					"Devastating Charge"
+				],
+				"weapons": [
+					"Claws"
+				],
+				"upgrades": [
+					{
+						"name": "Burrow Ambush",
+						"category": "movement",
+						"points": 20
+					},
+					{
+						"name": "Shredding Claws",
+						"category": "combat",
+						"points": 20
+					},
+					{
+						"name": "Adrenal Glands",
+						"category": "combat",
+						"points": 30
+					}
+				]
+			}
+		],
+		"weapons": [
+			{
+				"name": "Acid Saliva",
+				"range": 8,
+				"category": "assault",
+				"target": "Ground",
+				"roa": 2,
+				"hit": 3,
+				"surge": "-",
+				"sdie": "-",
+				"damage": 1,
+				"keywords": [],
+				"parents": [
+					"Corpser (Roach)"
+				]
+			},
+			{
+				"name": "Needle Spines",
+				"range": 12,
+				"category": "assault",
+				"target": "All",
+				"roa": 3,
+				"hit": 3,
+				"surge": "Light, Armoured",
+				"sdie": "D3+1",
+				"damage": 2,
+				"keywords": [],
+				"parents": [
+					"Hydralisk"
+				]
+			},
+			{
+				"name": "Scythe",
+				"range": "E",
+				"category": "combat",
+				"target": "Ground",
+				"roa": 2,
+				"hit": 4,
+				"damage": 1
+			},
+			{
+				"name": "Claws",
+				"range": "E",
+				"category": "combat",
+				"target": "Ground",
+				"roa": 3,
+				"hit": 4,
+				"surge": "Light",
+				"sdie": "D3+1",
+				"damage": 1,
+				"keywords": [],
+				"parents": [
+					"Corpser (Roach)"
+				]
+			},
+			{
+				"name": "Claws",
+				"range": "E",
+				"category": "combat",
+				"target": "Ground",
+				"roa": 2,
+				"hit": 3,
+				"surge": "Light, Armoured",
+				"sdie": "D6",
+				"damage": 1,
+				"keywords": [
+					"Instant"
+				],
+				"parents": [
+					"Kerrigan Swarm Raptor (Zergling)"
+				]
+			},
+			{
+				"name": "Energy Blast",
+				"range": 8,
+				"category": "assault",
+				"target": "All",
+				"roa": 5,
+				"hit": 3,
+				"surge": "Light, Armoured",
+				"sdie": "D3",
+				"damage": 1,
+				"keywords": []
+			},
+			{
+				"name": "Blades",
+				"range": "E",
+				"category": "combat",
+				"target": "Ground",
+				"roa": 6,
+				"hit": 4,
+				"surge": "-",
+				"sdie": "-",
+				"damage": 2,
+				"keywords": [
+					"Critical Hit (2)"
+				],
+				"parents": [
+					"Kerrigan Swarm Raptor (Zergling)"
+				]
+			}
+		],
+		"abilities": [
+			{
+				"name": "Tunneling Claws",
+				"tag": "Any Phase",
+				"definition": "While this Unit has the Burrowed Status, it may perform Move and Run actions without losing that status. Additionally, it may move through other Units' bases."
+			},
+			{
+				"name": "Burrow Ambush",
+				"definition": "When this Unit is nominated to deploy from Reserves. it may resolve the PLACE (18) effect from the controlling player Entry Edge. No model may be placed Within 10\" of any Enemy model. This Unit's Activation ends."
+			},
+			{
+				"name": "Glial Reconstitution",
+				"definition": "This Unit gains BUFF SPEED (1). or BUFF SPEED (2) if the Unit is ON CREEP."
+			},
+			{
+				"name": "Hydridic Bile",
+				"definition": "This Unit's Acid Saliva weapon gains Surge Type: Light, and S Dice: D3+1."
+			},
+			{
+				"name": "Roachling Infestation",
+				"category": "any",
+				"definition": "Once per Game. Resolve the SUMMON (Roachling) effect."
+			},
+			{
+				"name": "Regeneration",
+				"category": "assault",
+				"tag": "Passive",
+				"definition": "When this Unit becomes Activated, if it has the Burrowed Status, resolve the HEAL (2) effect."
+			},
+			{
+				"name": "Squadron",
+				"category": "any",
+				"tag": "Passive",
+				"definition": "This Unit's Horizontal Coherency is 4\".'"
+			},
+			{
+				"name": "Lunge",
+				"category": "assault",
+				"tag": "Reaction (1 Biomass)",
+				"definition": "When another Friendly Unit Within 10\" is the target of a Ranged Attack, after the attack is fully resolved, this Unit, if not Engaged, may perform a Move action Directly Towards the attacking Unit."
+			},
+			{
+				"name": "Ancillary Carapace",
+				"category": "any",
+				"tag": "Passive",
+				"definition": "This Unit gains TOUGH (1) in the first Armour Roll each Activation."
+			},
+			{
+				"name": "Lurking",
+				"category": "any",
+				"tag": "Passive",
+				"definition": "If this Unit has not performed a Move, Deploy, Disengage, Run, or Charge action this Game Round, it is PASSIVE eligible to make an Evade Roll against the first Ranged Attack targeting it this Round. If this Unit is ON CREEP it gains +1 Modifier to this Evade Roll."
+			},
+			{
+				"name": "Grooved Spines",
+				"category": "assault",
+				"tag": "Passive",
+				"definition": "This Unit's Needle Spines weapon gains LONG RANGE (16\")."
+			},
+			{
+				"name": "Commander",
+				"category": "any",
+				"tag": "Passive",
+				"definition": "Treat this Unit's Supply characteristic as being increased by 1 for the purposes of Controlling and Contesting Mission Markers, completing objectives, and resolving Disengage checks."
+			},
+			{
+				"name": "Crushing Grip",
+				"category": "movement",
+				"tag": "Active (1 Biomass)",
+				"definition": "Select an Enemy Unit Within 12\", the Unit counts as Activated in this Phase (place an Activation Marker next to it)."
+			},
+			{
+				"name": "Mutating Carapace",
+				"category": "movement",
+				"tag": "Active (1 Biomass)",
+				"definition": "Select an Enemy Unit Within 18\". This Unit is eligible to make an Evade Roll against all attacks made by the selected Eneemy Unit, with a +2 Modifier applied to those Evade Rolls."
+			},
+			{
+				"name": "Leaping Strike",
+				"category": "assault",
+				"tag": "Active (1 Biomass)",
+				"definition": "If not Engaged, resolve the PLACE (6) effect."
+			},
+			{
+				"name": "Devastating Charge",
+				"category": "assault",
+				"tag": "Passive",
+				"definition": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (4) 4+ effect.",
+				"parents": [
+					"Kerrigan"
+				]
+			},
+			{
+				"name": "Devastating Charge",
+				"category": "assault",
+				"tag": "Passive",
+				"definition": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (3) 4+ effect.",
+				"parents": [
+					"Praetor Guard (Zealot)",
+					"Zealot",
+					"Corpser (Roach)"
+				]
+			},
+			{
+				"name": "Devastating Charge",
+				"category": "assault",
+				"tag": "Passive",
+				"definition": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (2) 5+ effect.",
+				"parents": [
+					"Kerrigan Swarm Raptor (Zergling)"
+				]
+			},
+			{
+				"name": "Devastating Charge",
+				"category": "assault",
+				"tag": "Passive",
+				"definition": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (4) 3+ effect.",
+				"parents": [
+					"Queen",
+					"Goliath"
+				]
+			},
+			{
+				"name": "Devastating Charge",
+				"category": "assault",
+				"tag": "Passive",
+				"definition": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (1) 5+ effect.",
+				"parents": [
+					"Raptor (Zergling)",
+					"Swarmling (Zergling)",
+					"Zergling"
+				]
+			},
+			{
+				"name": "Devastating Charge",
+				"category": "assault",
+				"tag": "Passive",
+				"definition": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (2) 4+ effect.",
+				"parents": [
+					"Roach"
+				]
+			},
+			{
+				"name": "Devastating Charge",
+				"category": "assault",
+				"tag": "Passive",
+				"definition": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (1) 4+ effect.",
+				"parents": [
+					"Vile (Roach)"
+				]
+			},
+			{
+				"name": "Devastating Charge",
+				"category": "assault",
+				"tag": "Passive",
+				"definition": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (6) 4+ effect.",
+				"parents": [
+					"Artanis"
+				]
+			},
+			{
+				"name": "Mutated Glands",
+				"category": "assault",
+				"tag": "Passive",
+				"definition": "This Unit's Metabolic Boost ability gains +1 Modifier to IMPACT for this Unit."
+			},
+			{
+				"name": "Leap",
+				"category": "assault",
+				"tag": "Active (1 Biomass)",
+				"definition": "When determining Charge Distance for this Unit, add 2 to the Charge Distance."
+			},
+			{
+				"name": "Adrenal Overload",
+				"category": "assault",
+				"tag": "Active (1 Biomass)",
+				"definition": "This Unit gains a +1 Modifier to all IMPACT Hit Rolls."
+			},
+			{
+				"name": "Detection",
+				"category": "any",
+				"tag": "Passive",
+				"definition": "While enemy units are within 6\" of this unit, they lose HIDDEN"
+			},
+			{
+				"name": "Source of Creep",
+				"category": "any",
+				"tag": "Passive",
+				"definition": "A Friendly or Enemy Ground Zerg Unit within 6' of this Unit, counts as being ON CREEP."
+			},
+			{
+				"name": "Structure",
+				"category": "any",
+				"tag": "Passive",
+				"definition": "This Unit cannot be Activated in any Phase and cannot perform actions. Additionally, its Current Supply Value is treated as 0, and it can never Control or Contest Mission Markers, ignoring the standard Zero Supply Exception. This Unit cannot be a target of an ability, unless stated otherwise."
+			},
+			{
+				"name": "Omega Network",
+				"category": "any",
+				"tag": "Passive",
+				"definition": "The base of the Omega Worm counts as an Entry Edge. Each Round, Friendly Units with a combined Supply cost of 2 or less may be Deployed via this Entry Edge. If a Friendly Leading model finishes a Move, Disengage, or Run action in base-to-base contact with the Omega Worm, the controlling player may remove that Unit from the battlefield and return it to Reserves."
+			},
+			{
+				"name": "Spawn Creep Tumor",
+				"category": "any",
+				"tag": "Active (1 Biomass)",
+				"definition": "Place a Creep Tumor token in base-to-base contact with this unit."
+			},
+			{
+				"name": "Transfusion",
+				"category": "any",
+				"tag": "Reaction (1 Biomass)",
+				"definition": "Use when another Friendly Biological Unit (including Structure) suffers Damage within 4\". Reduce the Total Damage before allocation by 2."
+			},
+			{
+				"name": "Restoration",
+				"category": "any",
+				"tag": "Reaction (1 Biomass)",
+				"definition": "Use when a friendly unit within 4\" receives a DEBUFF. Remove all DEBUFFS from it."
+			},
+			{
+				"name": "Psionic Link",
+				"category": "any",
+				"tag": "Passive",
+				"definition": "Once per Round, if there are at least 7 Friendly models within 6\" of this unit, it may resolve its Special Ability with the BM cost reduced by 1."
+			},
+			{
+				"name": "Creep Speed",
+				"category": "any",
+				"tag": "Passive",
+				"definition": "While this unit is ON CREEP, improve this unit's Speed characteristic by 2."
+			},
+			{
+				"name": "Domineering Presence",
+				"category": "movement",
+				"tag": "Active (2 Biomass)",
+				"definition": "Select another Friendly Unit Within 6\" (Line of Sight is not required). That Unit's Supply characteristic is improved by 1 for the purpose of Controlling and Contesting Mission Markers and completing objectives."
+			},
+			{
+				"name": "Raptor Strain",
+				"category": "any",
+				"tag": "Passive",
+				"definition": "This Unit can move through IMPASSABLE TERRAIN of Size 4 or lower and change elevation without using ACCESS POINTS."
+			},
+			{
+				"name": "Adrenal Overload",
+				"category": "assault",
+				"tag": "Active (1 Biomass)",
+				"definition": "This Unit gains a +1 Modifier to all IMPACT Hit Rolls."
+			},
+			{
+				"name": "Metabolic Boost",
+				"category": "assault",
+				"tag": "Active (1 Biomass)",
+				"definition": "When determining Charge Distance for this Unit, you may roll 2D6 instead of D6 and select the highest result to add to the Unit's Speed characteristic."
+			},
+			{
+				"name": "Devastating Charge",
+				"category": "assault",
+				"tag": "Passive",
+				"definition": "Immediately after this Unit completes a successful Charge, resolve the IMPACT (1) 5+ effect."
+			},
+			{
+				"name": "Burrow",
+				"category": "movement",
+				"tag": "Active (2 Biomass)",
+				"definition": "If this Unit is not Engaged, it gains or loses a Burrowed Status."
+			},
+			{
+				"name": "Regeneration",
+				"category": "assault",
+				"tag": "Passive",
+				"definition": "When this Unit becomes Activated, if it has the Burrowed Status, resolve the HEAL (2) effect."
+			},
+			{
+				"name": "Underdeveloped Claws",
+				"category": "any",
+				"tag": "Passive",
+				"definition": "This Unit cannot gain Burrowed Status."
+			},
+			{
+				"name": "Zergling Reconstitution",
+				"category": "movement",
+				"tag": "Active (1 Biomass)",
+				"definition": "Resolve the RESPAWN (2) effect, or RESPAWN (e) if the Unit is ON CREEP."
+			},
+			{
+				"name": "Debilitating Saliva",
+				"category": "any",
+				"tag": "Reaction (1 Biomass)",
+				"definition": "Use when an Enemy Unit Within 8\" declares a Ranged Attack. Apply DEBUFF Hit (1) to each ranged weapon of that Unit."
+			},
+			{
+				"name": "Shredding Claws",
+				"range": "E",
+				"category": "combat",
+				"target": "Ground",
+				"roa": 2,
+				"hit": 4,
+				"surge": "Light, Armoured",
+				"sdie": "D3",
+				"damage": 1,
+				"keywords": []
+			}
+		]
+	}
+}
