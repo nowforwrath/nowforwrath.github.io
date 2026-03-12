@@ -32785,8 +32785,7 @@
 					{
 						"name": "Exchange shield for war drum",
 						"points": 25,
-						"chooseOneKey": "a",
-						"usesDefinition": "War Drum"
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
