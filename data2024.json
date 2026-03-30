@@ -46542,7 +46542,7 @@
 			{
 				"name": "Knife Fighter",
 				"tag": "Active",
-				"definition": "If this model is Outnumbered in a Comabt, then before making their Duel Roll they gain an additional Attack for each model they are Engaged in Combat with after the first, to a maximum of 3 bonus Attacks. This bonus lasts until the end of the Combat."
+				"definition": "If this model is Outnumbered in a Combat, then before making their Duel Roll they gain an additional Attack for each model they are Engaged in Combat with after the first, to a maximum of 3 bonus Attacks. This bonus lasts until the end of the Combat."
 			},
 			{
 				"name": "Bloodoath",
