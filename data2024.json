@@ -27655,7 +27655,7 @@
 					"Woodland Creature",
 					"Skin-changer (Grimbeorn)",
 					"Leader of the Beornings",
-					"Crushing Strength"
+					"Crushing Strength (Grimbeorn)"
 				],
 				"wargear": [
 					"Claws and teeth (hand weapons)"
@@ -45210,7 +45210,7 @@
 				"definition": "Only Beorning models can benefit from Grimbeorn's Heroic Actions or Stand Fast."
 			},
 			{
-				"name": "Crushing Strength",
+				"name": "Crushing Strength (Grimbeorn)",
 				"tag": "Brutal Power Attack",
 				"definition": "If Grimbeorn wins a Duel Roll he can choose to use this Brutal Power Attack. If he does, choose a single enemy model involved in the Combat. The chosen model immediately suffers a Strength 10 hit. If the To Wound Roll is successful (even if the Wound is prevented), the model immediately suffers another Strength 10 hit, and so on until either Grimbeorn fails a To Wound Roll, or the chosen model is slain and removed as a casualty."
 			},
@@ -46542,7 +46542,7 @@
 			{
 				"name": "Knife Fighter",
 				"tag": "Active",
-				"definition": "If this model is Outnumbered in a Comabt, then before making their Duel Roll they gain an additional Attack for each model they are Engaged in Combat with after the first, to a maximum of 3 bonus Attacks. This bonus lasts until the end of the Combat."
+				"definition": "If this model is Outnumbered in a Combat, then before making their Duel Roll they gain an additional Attack for each model they are Engaged in Combat with after the first, to a maximum of 3 bonus Attacks. This bonus lasts until the end of the Combat."
 			},
 			{
 				"name": "Bloodoath",
