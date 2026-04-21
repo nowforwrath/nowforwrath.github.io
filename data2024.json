@@ -43598,7 +43598,7 @@
 			{
 				"name": "Hearing Trumpet",
 				"tag": "Active",
-				"definition": "Whenever an enemy Hero declares a Heroic Action within 6\" of Oin, you may roll a D6. On a 5+, Oin may immediately declare the same Heroic Action for free. However, on a natural 1, Oin immediately loses a Will Points. If he cannot lose a Will Point in this manner, then Oin cannot Move during that turn as he tries to fix his Hearing Trumpet."
+				"definition": "Whenever an enemy Hero declares a Heroic Action within 6\" of Oin, you may roll a D6. On a 5+, Oin may immediately declare the same Heroic Action for free. However, on a natural 1, Oin immediately loses a Will Point. If he cannot lose a Will Point in this manner, then Oin cannot Move during that turn as he tries to fix his Hearing Trumpet."
 			},
 			{
 				"name": "Narya",
@@ -44549,7 +44549,7 @@
 			{
 				"name": "Tremor",
 				"duration": "Instant",
-				"definition": "Draw an imaginary line that extends D3+3\" directly away from the caster in a direction chosen by the caster. This Magical Power targets every model (friend of foe) that lies under the line. Each target immediately suffers one Strength 4 hit and is knocked Prone; if the target was a Cavalry model, they will automatically count as suffering the Knocked Flying result on the Thrown Rider Chart. If a target is Engaged in Combat, then all other models in the same Combat are also considered to be a target - make sure to Pair Off Combats before working out which models are a target.\n                \n                Models with the Fly special rule can never be a target of this Magical Power under any circumstances."
+				"definition": "Draw an imaginary 1mm line that extends D3+3\" directly away from the caster in a direction chosen by the caster. This Magical Power targets every model (friend of foe) that lies under the line. Each target immediately suffers one Strength 4 hit and is knocked Prone; if the target was a Cavalry model, they will automatically count as suffering the Knocked Flying result on the Thrown Rider Chart. If a target is Engaged in Combat, then all other models in the same Combat are also considered to be a target - make sure to Pair Off Combats before working out which models are a target.\n                \n                Models with the Fly special rule can never be a target of this Magical Power under any circumstances."
 			},
 			{
 				"name": "Wither",
@@ -46267,7 +46267,7 @@
 			{
 				"name": "Healing Herbs (Thorin's Company)",
 				"tag": "Active",
-				"definition": "At any point during his Activation, Oin can choose a friendly Thorin's Company) Hero in base contact and roll a D6. On a 4+, the chosen model immediately regains a Wound lost earlier in the battle. Oin can only use this special rule once per turn."
+				"definition": "At any point during his Activation, Oin can choose a friendly Thorin's Company Hero in base contact and roll a D6. On a 4+, the chosen model immediately regains a Wound lost earlier in the battle. Oin can only use this special rule once per turn."
 			},
 			{
 				"name": "Bane of Kings",
