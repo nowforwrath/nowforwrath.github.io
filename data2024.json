@@ -1713,6 +1713,7 @@
 							"dataSource": "warriors",
 							"propertyName": "warriors",
 							"label": "Model",
+							"searchLabel": "Warrior",
 							"type": "list",
 							"children": [
 								{
