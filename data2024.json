@@ -1593,6 +1593,15 @@
 			"value": [
 				"Men of the West",
 				"Gwaihir",
+				"Shadowfax"
+			],
+			"message": "If your army includes any Cavalry models, then it cannot include any Eagle models, and vice versa."
+		},
+		{
+			"type": "disallowedCombination",
+			"value": [
+				"Men of the West",
+				"Gwaihir",
 				"Horse"
 			],
 			"message": "If your army includes any Cavalry models, then it cannot include any Eagle models, and vice versa."
@@ -2356,6 +2365,13 @@
 				"specialRules": [
 					"Hatred (Gondor)",
 					"Stalk Unseen"
+				],
+				"requiredChildren": [
+					{
+						"name": "Hasharin",
+						"points": 80,
+						"elementPropertyName": "heroes"
+					}
 				]
 			},
 			{
@@ -46166,7 +46182,7 @@
 			{
 				"name": "Hunt Master",
 				"tag": "Active",
-				"definition": "Whilst he has the Cavalry keyword, Fimbul does not suffer any penalties for Moving through Difficult Terrain, and therefore may still gain the bonuses for Chargin whilst in Difficult Terrain. Additionally, whilst he has the Cavalry keyword, Fimbul gains a bonus of +1 to his Fight Value on a turn in which he Charges."
+				"definition": "Whilst he has the Cavalry keyword, Fimbul does not suffer any penalties for Moving through Difficult Terrain, and therefore may still gain the bonuses for Charging whilst in Difficult Terrain. Additionally, whilst he has the Cavalry keyword, Fimbul gains a bonus of +1 to his Fight Value on a turn in which he Charges."
 			},
 			{
 				"name": "Allies 'til the End",
@@ -48278,11 +48294,11 @@
 			},
 			{
 				"name": "Screech of the Nazgul",
-				"definition": "A friendly Ringwraight model can use this special rule at the start of their Activation. If they do, choose an enemy model within 12\" and Line of Sight of the Ringwraith. The chosen model is immediately subject to the Transfix Magical Power, which will count as being Cast on a 6 - they may take a Resist test as normal. A Ringwraith model that uses this special rule cannot also Cast a Magical Power during their Activation. Only a single Ringwraight can use this special rule each turn, and each Ringwraith can only use this special rule once per game."
+				"definition": "A friendly Ringwraith model can use this special rule at the start of their Activation. If they do, choose an enemy model within 12\" and Line of Sight of the Ringwraith. The chosen model is immediately subject to the Transfix Magical Power, which will count as being Cast on a 6 - they may take a Resist test as normal. A Ringwraith model that uses this special rule cannot also Cast a Magical Power during their Activation. Only a single Ringwraight can use this special rule each turn, and each Ringwraith can only use this special rule once per game."
 			},
 			{
 				"name": "The Will of Sauron",
-				"definition": "Friendly Ringwraight models do not lose a Will Point for being Engaged in Combat as per the Will of Evil special rule."
+				"definition": "Friendly Ringwraith models do not lose a Will Point for being Engaged in Combat as per the Will of Evil special rule."
 			},
 			{
 				"name": "Hunt the Ringbearer",
