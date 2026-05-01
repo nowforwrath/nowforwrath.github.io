@@ -1462,7 +1462,8 @@
 		{
 			"name": "Shoot",
 			"abbreviation": "SV",
-			"trail": "+"
+			"trail": "+",
+			"isHighWorse": true
 		},
 		{
 			"name": "Strength",
@@ -1485,12 +1486,14 @@
 		{
 			"name": "Courage",
 			"abbreviation": "C",
-			"trail": "+"
+			"trail": "+",
+			"isHighWorse": true
 		},
 		{
 			"name": "Intelligence",
 			"abbreviation": "I",
-			"trail": "+"
+			"trail": "+",
+			"isHighWorse": true
 		},
 		{
 			"name": "",
