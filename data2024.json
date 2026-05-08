@@ -13566,6 +13566,9 @@
 					"Infantry",
 					"Unique"
 				],
+				"baseSize": [
+					"25mm"
+				],
 				"specialRules": [
 					"Expert Rider",
 					"Horse Lord",
@@ -13621,6 +13624,9 @@
 					"Hero",
 					"Infantry",
 					"Unique"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"specialRules": [
 					"Expert Rider",
@@ -13844,6 +13850,9 @@
 				],
 				"faction": [
 					"Rohan"
+				],
+				"baseSize": [
+					"25mm"
 				],
 				"unitType": [
 					"Hero",
@@ -44514,7 +44523,7 @@
 			{
 				"name": "Immobilise",
 				"duration": "Temporary",
-				"definition": "(This is the definition for Transfix. Technically this spell does not exist.) This Magical Power targets one enemy model in range. Until the End Phase of the turn, the target cannot Activate, declare Heroic Actions, use Active Abilities, or make Shooting Attacks. If the target wins a Duel Roll, they may not make Strikes. if the target has a piece of wargear that has an Active ability, they stilll have that piece of wargear but cannot use the ability tied to it."
+				"definition": "(This is the definition for Transfix. Technically this spell does not exist.) This Magical Power targets one enemy model in range. Until the End Phase of the turn, the target cannot Activate, declare Heroic Actions, use Active Abilities, or make Shooting Attacks. If the target wins a Duel Roll, they may not make Strikes. if the target has a piece of wargear that has an Active ability, they still have that piece of wargear but cannot use the ability tied to it."
 			},
 			{
 				"name": "Instill Fear",
@@ -44564,7 +44573,7 @@
 			{
 				"name": "Transfix",
 				"duration": "Temporary",
-				"definition": "This Magical Power targets one enemy model in range. Until the End Phase of the turn, the target cannot Activate, declare Heroic Actions, use Active Abilities, or make Shooting Attacks. If the target wins a Duel Roll, they may not make Strikes. if the target has a piece of wargear that has an Active ability, they stilll have that piece of wargear but cannot use the ability tied to it."
+				"definition": "This Magical Power targets one enemy model in range. Until the End Phase of the turn, the target cannot Activate, declare Heroic Actions, use Active Abilities, or make Shooting Attacks. If the target wins a Duel Roll, they may not make Strikes. if the target has a piece of wargear that has an Active ability, they still have that piece of wargear but cannot use the ability tied to it."
 			},
 			{
 				"name": "Tremor",
@@ -47183,7 +47192,7 @@
 			{
 				"name": "Shield Throw",
 				"tag": "Passive",
-				"definition": "If Lurtz has been equipped with a shield, then once per game Lurtz can use it as a throwing weapon and may re-roll the To Hit Roll. This has a Strength of 4 and any model on a 25mm base that is hit willl immediately be knocked Prone. Once Lurtz has thrown his shield, he no longer carries it; though Lurtz's Defence will not be reduced as a result."
+				"definition": "If Lurtz has been equipped with a shield, then once per game Lurtz can use it as a throwing weapon and may re-roll the To Hit Roll. This has a Strength of 4 and any model on a 25mm base that is hit will immediately be knocked Prone. Once Lurtz has thrown his shield, he no longer carries it; though Lurtz's Defence will not be reduced as a result."
 			},
 			{
 				"name": "End the Race of Men",
@@ -48678,7 +48687,7 @@
 			},
 			{
 				"name": "The Line of Durin",
-				"definition": "Friendly models treat Thorin as a banner with a range of 6\". So long as he is still alive, Thorin will count as a banner for the purpose of Victory Points in Scenarios that award Victory Points for having a banner left alive.\n                Additinoally, Kili and Fili increase their Attacks to 3 in this Army List."
+				"definition": "Friendly models treat Thorin as a banner with a range of 6\". So long as he is still alive, Thorin will count as a banner for the purpose of Victory Points in Scenarios that award Victory Points for having a banner left alive.\n                Additionally, Kili and Fili increase their Attacks to 3 in this Army List."
 			},
 			{
 				"name": "The King's Protector",
