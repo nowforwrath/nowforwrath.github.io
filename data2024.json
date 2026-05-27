@@ -27628,7 +27628,7 @@
 					"Fearless",
 					"Resistant to Magic",
 					"Woodland Creature",
-					"Skin-changer (Grimbeorn)",
+					"Skin-changer (Grimbeorn Man to Bear)",
 					"Leader of the Beornings"
 				],
 				"wargear": [
@@ -27682,7 +27682,7 @@
 					"Resistant to Magic",
 					"Terror",
 					"Woodland Creature",
-					"Skin-changer (Grimbeorn)",
+					"Skin-changer (Grimbeorn Bear to Man)",
 					"Leader of the Beornings",
 					"Crushing Strength (Grimbeorn)"
 				],
@@ -27786,7 +27786,7 @@
 					"Fearless",
 					"Resistant to Magic",
 					"Woodland Creature",
-					"Skin-changer"
+					"Skin-changer (Beorn Man to Bear)"
 				],
 				"wargear": [
 					"Two-handed Axe"
@@ -27847,7 +27847,7 @@
 					"Resistant to Magic",
 					"Terror",
 					"Woodland Creature",
-					"Skin-changer",
+					"Skin-changer (Beorn Bear to Man)",
 					"Berserk",
 					"Crushing Strength"
 				],
@@ -45221,9 +45221,24 @@
 				"definition": "A Gondor Avenger Bolt Thrower doesn't shoot like a normal Siege Engine. Instead, it may make D6 shooting attacks in the same way as a normal Missile Weapon. No Scatter is required for these shots; they will either hit or miss. Each shot may be fully resolved before determining the target of the next one. Shots fired by a Gondor Avenger Bolt Thrower do not kill their targets outright if they Wound them."
 			},
 			{
-				"name": "Skin-changer (Grimbeorn)",
+				"name": "Skin-changer (Grimbeorn Bear to Man)",
 				"tag": "Active",
 				"definition": "At the beginning of his Activation, Grimbeorn the Bear can change his form from Bear to Man. If he does, place the Man model in base contact with the Bear model, and then remove the Bear model from play. If there is no space to place the Man model, then Grimbeorn cannot transform. Once he has transformed, Grimbeorn may continue his Activation as normal, including Charging in which case check the Line of Sight from the newly placed Man model to determine whether Grimbeorn can Charge. Once Grimbeorn the Bear has transformed, he uses the Grimbeorn profile – though his Wounds, Might, Will and Fate Points remain the same between both profiles."
+			},
+			{
+				"name": "Skin-changer (Grimbeorn Man to Bear)",
+				"tag": "Active",
+				"definition": "At the beginning of his Activation, Grimbeorn can change his form from Man to Bear. If he does, place the Bear model in base contact with the Man model, and then remove the Man model from play. If there is no space to place the Bear model, then Grimbeorn cannot transform. Once he has transformed, Grimbeorn the Bear may continue his Activation as normal, including Charging in which case check the Line of Sight from the newly placed Bear model to determine whether Grimbeorn can Charge. Once Grimbeorn has transformed, he uses the Grimbeorn the Bear profile - though his Wounds, Might, Will, and Fate points remain the same between both profiles."
+			},
+			{
+				"name": "Skin-changer (Beorn Bear to Man)",
+				"tag": "Active",
+				"definition": "At the beginning of his Activation, Beorn the Bear can change his form from Bear to Man. If he does, place the Man model in base contact with the Bear model, and then remove the Bear model from play. If there is no space to place the Man model, then Beorn cannot transform. Once he has transformed, Beorn may continue his Activation as normal, including Charging in which case check the Line of Sight from the newly placed Man model to determine whether Beorn can Charge. Once Beorn the Bear has transformed, he uses the Beorn profile – though his Wounds, Might, Will and Fate Points remain the same between both profiles."
+			},
+			{
+				"name": "Skin-changer (Beorn Man to Bear)",
+				"tag": "Active",
+				"definition": "At the beginning of his Activation, Beorn can change his form from Man to Bear. If he does, place the Bear model in base contact with the Man model, and then remove the Man model from play. If there is no space to place the Bear model, then Beorn cannot transform. Once he has transformed, Beorn the Bear may continue his Activation as normal, including Charging in which case check the Line of Sight from the newly placed Bear model to determine whether Beorn can Charge. Once Beorn has transformed, he uses the Beorn the Bear profile - though his Wounds, Might, Will, and Fate points remain the same between both profiles."
 			},
 			{
 				"name": "Leader of the Beornings",
@@ -46704,11 +46719,6 @@
 				"name": "Durin's Heir",
 				"tag": "Passive",
 				"definition": "Thrain's Stand Fast has a range of 12\". Additionally, friendly Dwarf Hero models may benefit from Thrain's Stand Fast."
-			},
-			{
-				"name": "Skin-changer",
-				"tag": "Active",
-				"definition": "At the beginning of his Activation, Beorn the Bear can change his form from Bear to Man. If he does, place the Man model in base contact with the Bear model, and then remove the Bear model from play. If there is no space to place the Man model, then Beorn cannot transform. Once he has transformed, Beorn may continue his Activation as normal, including Charging in which case check the Line of Sight from the newly placed Man model to determine whether Beorn can Charge. Once Beorn the Bear has transformed, he uses the Beorn profile - though his Wounds, Might, Will and Fate Points remain the same between both profiles."
 			},
 			{
 				"name": "Leader of the Beornings",
