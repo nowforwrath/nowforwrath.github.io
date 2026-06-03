@@ -1522,6 +1522,7 @@
 		"warriors"
 	],
 	"quiz": {
+		"seedKey": "mesbg-2024",
 		"sources": [
 			"heroes",
 			"warriors"
