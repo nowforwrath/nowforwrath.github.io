@@ -1453,7 +1453,8 @@
 		{
 			"name": "Movement",
 			"abbreviation": "Mv",
-			"trail": "\""
+			"trail": "\"",
+			"excludeFromQuiz": true
 		},
 		{
 			"name": "Fight",
@@ -1520,6 +1521,21 @@
 		"heroes",
 		"warriors"
 	],
+	"quiz": {
+		"sources": [
+			"heroes",
+			"warriors"
+		],
+		"questionsPerDay": 10,
+		"minStatsOnUnit": 5,
+		"timezone": "UTC",
+		"excludeStatsBySource": {
+			"warriors": [
+				"Attack",
+				"Wounds"
+			]
+		}
+	},
 	"limits": [
 		{
 			"type": "bow",
@@ -10567,6 +10583,7 @@
 			},
 			{
 				"name": "Tom Bombadil",
+				"excludeFromQuiz": true,
 				"factions": [
 					{
 						"name": "Road to Rivendell",
@@ -29847,6 +29864,7 @@
 			},
 			{
 				"name": "Tom Bombadil",
+				"excludeFromQuiz": true,
 				"factions": [
 					"Road to Rivendell"
 				],
