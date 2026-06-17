@@ -10864,6 +10864,7 @@
 					{
 						"name": "Armoured horse and lance",
 						"points": 30,
+						"usesDefinition": "Armoured Horse",
 						"availableIn": [
 							"The Fiefdoms",
 							"Defenders of the Pelennor",
@@ -12277,6 +12278,7 @@
 				"options": [
 					{
 						"name": "Armoured horse and lance",
+						"usesDefinition": "Armoured Horse",
 						"points": 30,
 						"availableIn": [
 							"The Grief of Eomer",
@@ -13206,6 +13208,7 @@
 				"options": [
 					{
 						"name": "Armoured horse and lance",
+						"usesDefinition": "Armoured Horse",
 						"points": 30
 					}
 				]
@@ -32558,6 +32561,7 @@
 					},
 					{
 						"name": "Armoured horse and lance",
+						"usesDefinition": "Armoured Horse",
 						"points": 9,
 						"chooseOneKey": "a",
 						"availableIn": [
