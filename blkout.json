@@ -1,0 +1,497 @@
+ {
+	"appVersion": 2,
+	"disallowMultipleFactions": true,
+	"credit": [
+		{
+			"type": "text",
+			"text": "Data provided by Now For Wrath. Check out their YouTube channel with Battle Reports and talks about the game "
+		},
+		{
+			"type": "url",
+			"text": "Here!",
+			"url": "https://www.youtube.com/@NowForWrathGaming"
+		}
+	],
+	"game": "Blkout",
+	"scenarios": [
+		"Dockyard Assault",
+		"Server Defense",
+		"HVT Evac",
+		"Zero Day"
+	],
+	"stats": [],
+	"dataTableKeys": [
+		"units"
+	],
+	"additionalPrint": [
+		{
+			"propertyName": "specialRules",
+			"label": "Special Rules",
+			"dataSource": "keywords"
+		}
+	],
+	"elements": [
+		{
+			"propertyName": "factions",
+			"label": "Faction",
+			"type": "faction",
+			"dataSource": "factions",
+			"removeWhenNotPrimary": [
+				"armyBonus"
+			],
+			"children": [
+				{
+					"propertyName": "additionalRules",
+					"label": "Additional Rules: ",
+					"type": "static",
+					"bullet": true
+				},
+				{
+					"propertyName": "armyBonuses",
+					"label": "",
+					"type": "static",
+					"dataSource": "armyBonuses"
+				},
+				{
+					"propertyName": "armory",
+					"label": "Armory",
+					"type": "static",
+					"dataSource": "armory"
+				},
+				{
+					"propertyName": "specialRules",
+					"type": "static",
+					"label": "Related Special Rules: ",
+					"bullet": true,
+					"dataSource": "keywords"
+				},
+				{
+					"propertyName": "units",
+					"dataSource": "units",
+					"label": "Unit",
+					"type": "main",
+					"children": [
+						{
+							"propertyName": "specialRules",
+							"label": "Special Rules",
+							"type": "static",
+							"dataSource": "keywords",
+							"children": [
+								{
+									"label": "Special Rules",
+									"propertyName": "specialRules",
+									"type": "static",
+									"dataSource": "keywords"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"data": {
+		"factions": [
+			{
+				"name": "Harlow 1st Reaction Force",
+				"additionalRules": [
+					"Harlow First Reaction Force Units gain +2 Movement when Sprinting"
+				],
+				"armyBonuses": [
+					"Assaulters",
+					"Chaff",
+					"Stims"
+				],
+				"armory": [
+					"Boost Jump",
+					"Frag Launcher | 24\"/1",
+					"Head | 16\"/4",
+					"Micro Launcher | 4-16\"/2"
+				]
+			},
+			{
+				"name": "Manticor Borz Group",
+				"additionalRules": [
+					"Manticor Borz Group Models ignore the first point of Damage suffered from a Blast Weapon."
+				],
+				"armyBonuses": [
+					"Linked",
+					"Targeting Smoke",
+					"Thorax Shields"
+				],
+				"armory": [
+					"Air Burst Rifle | 24\"/1",
+					"RPG33 | 16\"/4",
+					"Strip Grenades | 6\"/2",
+					"Thermite Launcher | 8\"/1"
+				]
+			}
+		],
+		"units": [
+			{
+				"name": "Harlow Assault Team",
+				"factions": [
+					"Harlow 1st Reaction Force"
+				],
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/harlow%20assault%20team1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/harlow%20assault%20team2.png"
+				],
+				"specialRules": [
+					"CQB",
+					"Cyclic",
+					"Heavy"
+				]
+			},
+			{
+				"name": "Harlow Control Team",
+				"factions": [
+					"Harlow 1st Reaction Force"
+				],
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/harlow%20control%20team1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/harlow%20control%20team2.png"
+				],
+				"specialRules": [
+					"CQB"
+				]
+			},
+			{
+				"name": "Harlow Crikets",
+				"factions": [
+					"Harlow 1st Reaction Force"
+				],
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/harlow%20crikets1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/harlow%20crikets2.png"
+				],
+				"specialRules": [
+					"CQB",
+					"AP (X)",
+					"AI",
+					"Drone"
+				]
+			},
+			{
+				"name": "Harlow Engineers",
+				"factions": [
+					"Harlow 1st Reaction Force"
+				],
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/harlow%20engineers1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/harlow%20engineers2.png"
+				],
+				"specialRules": [
+					"CQB",
+					"AP (X)"
+				]
+			},
+			{
+				"name": "Harlow Springbok AI",
+				"factions": [
+					"Harlow 1st Reaction Force"
+				],
+				"expendables": [
+					{
+						"name": "Chaff Discharge",
+						"quantity": 2
+					}
+				],
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/harlow%20springbok%20ai1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/harlow%20springbok%20ai2.png"
+				],
+				"specialRules": [
+					"CQB",
+					"Sustained (X)",
+					"AI",
+					"Jump (X)"
+				]
+			},
+			{
+				"name": "Harlow Veterans",
+				"factions": [
+					"Harlow 1st Reaction Force"
+				],
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/harlow%20veterans1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/harlow%20veterans2.png"
+				],
+				"specialRules": [
+					"Jump (X)",
+					"Low Tech"
+				]
+			},
+			{
+				"name": "Manticor Bratva Team",
+				"factions": [
+					"Manticor Borz Group"
+				],
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/manticor%20bratva%20team1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/manticor%20bratva%20team2.png"
+				],
+				"specialRules": [
+					"Medium",
+					"Sustained (X)"
+				]
+			},
+			{
+				"name": "Manticor Cyka Team",
+				"factions": [
+					"Manticor Borz Group"
+				],
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/manticor%20cyka%20team1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/manticor%20cyka%20team2.png"
+				],
+				"specialRules": [
+					"Powered",
+					"Cyclic",
+					"Heavy"
+				]
+			},
+			{
+				"name": "Manticor Insertion Team",
+				"factions": [
+					"Manticor Borz Group"
+				],
+				"expendables": [
+					{
+						"name": "Sidewinder",
+						"quantity": 2
+					}
+				],
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/manticor%20insertion%20team1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/manticor%20insertion%20team2.png"
+				],
+				"specialRules": [
+					"Medium",
+					"Cyclic",
+					"Heavy"
+				]
+			},
+			{
+				"name": "Manticor Cyka Bravo",
+				"factions": [
+					"Manticor Borz Group"
+				],
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/manticor%20cyka%20bravo1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/manticor%20cyka%20bravo2.png"
+				],
+				"specialRules": [
+					"CQB",
+					"Melee",
+					"AP (X)",
+					"Powered"
+				]
+			},
+			{
+				"name": "Ubiytsa Control Team",
+				"factions": [
+					"Manticor Borz Group"
+				],
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/ubiytsa%20control%20team1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/ubiytsa%20control%20team2.png"
+				],
+				"specialRules": [
+					"AP (3)",
+					"Melee",
+					"Low Tech"
+				]
+			},
+			{
+				"name": "Manticor Ubiytsa",
+				"factions": [
+					"Manticor Borz Group"
+				],
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/manticor%20ubiytsa1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/manticor%20ubiytsa2.png"
+				],
+				"specialRules": [
+					"AP (X)",
+					"Melee",
+					"Low Tech"
+				]
+			}
+		],
+		"keywords": [
+			{
+				"name": "AI",
+				"definition": "This Model may be affected by Special Rules that only affect AI Models."
+			},
+			{
+				"name": "AP (X)",
+				"definition": "When a weapon with AP(X) inflicts damage, increase the Target’s Armor Check by +X for that attack. This makes their armor less effective—they must roll higher numbers to block damage. Example: A Model with Armor 2/4 hit by an AP(2) Weapon would now have Armor 2/6 for that attack."
+			},
+			{
+				"name": "Auto (X)",
+				"definition": "After making a Shoot Action with this Weapon, this Model may make up to X additional Shoot Actions with that Weapon, that cannot be Reacted to. Each additional attack must target a different Model within 4” of the original Target. Synergies: If the Weapon also has the Cyclic special rule, the Model may chain multiple Auto(X) attacks, benefiting from the extra Shoot Action granted by Cyclic. Limitations: The original Target and all additional Targets must still fall within the Weapon’s minimum and maximum Range."
+			},
+			{
+				"name": "Controller",
+				"definition": "This Unit may activate a friendly Unit after completing its Activation, without spending a Control Point. If Controller is granted by a Specialist, the ability is lost when that Model is removed from play."
+			},
+			{
+				"name": "CQB",
+				"definition": "This Weapon may re-roll all failed Shots against a Target within half of its maximum range. Example: A Weapon with a 24″ Range may re-roll failed Shots against a Target within 12″."
+			},
+			{
+				"name": "Cyclic",
+				"definition": "After making a Shoot Action with this Weapon, this Model may immediately make one additional Shoot or Ready Action. The extra Shoot Action is treated the same as any regular Shoot Action, subject to Weapon's special rules. Limitations: Additional Shoot Action must be made with the Weapon that triggered Cyclic. Cyclic cannot be used in Reactions."
+			},
+			{
+				"name": "Data Knife",
+				"definition": "This Model may make a Data Attack Action targeting an AI or Powered Model within Range. On a successful Skill Check, deal 1 Damage with no Armor Check allowed."
+			},
+			{
+				"name": "Data Spike",
+				"definition": "This Model may make a Data Attack Action to either apply a Pinned Marker to an enemy Unit or remove a Pinned Marker from a friendly Unit, on a successful Skill Check."
+			},
+			{
+				"name": "Deployed",
+				"definition": "If this Model Moved during its Reposition Step, it rolls only 1D10 when using this Weapon in its Activation. Reactions are not affected."
+			},
+			{
+				"name": "Drone",
+				"definition": "This Model cannot engage in CQC, use ladders, or Lean Out to gain Line of Sight. Note: Drones do not participate in CQC — if an enemy Model moves into Base-to-Base contact, no Close Quarters Combat occurs."
+			},
+			{
+				"name": "EMP",
+				"definition": "This Weapon can only Damage Units with the AI Special Rule, and that Damage ignores Armor Checks."
+			},
+			{
+				"name": "Heavy",
+				"definition": "If this Model did not Move during its Reposition Step, it rolls an extra 1D10 when using this Weapon in its Activation. Reactions with this Weapon always roll an extra 1D10."
+			},
+			{
+				"name": "Indirect",
+				"definition": "This Weapon may Target an enemy Model in Line of Sight to another Model in its Group, but Range is still measured from the firing Model."
+			},
+			{
+				"name": "Jammer",
+				"definition": "Models within range of a Jammer ignore the effects of Pinned Markers on their Unit, though Models outside the Jammer's range remain Pinned."
+			},
+			{
+				"name": "Lethal",
+				"definition": "This Model rolls 3D10 for CQC Skill Checks."
+			},
+			{
+				"name": "Low Tech",
+				"definition": "This Unit cannot gain Pinned Markers from Data Attacks and cannot be targeted by Weapons with the Indirect special rule."
+			},
+			{
+				"name": "Medium",
+				"definition": "This Weapon may re-roll one failed Shot when used in a Shoot Action."
+			},
+			{
+				"name": "Melee",
+				"definition": "This Weapon ignores Cover penalties. When used in a Shoot Action, place the attacker Base-to-Base with its Target before resolving the Action and any Reactions. Targets may only Return Fire with a Melee Weapon or Juke."
+			},
+			{
+				"name": "Outsourced",
+				"definition": "Models in this Unit cannot use Battle Drills, Armory Items, or the Force Rule. Note: Some Specialists may have exceptions to this rule — for example, the E4 Mafia in Hired Killers may explicitly use Battle Drills."
+			},
+			{
+				"name": "Powered",
+				"definition": "This Model may be affected by Special Rules that affect Powered Models."
+			},
+			{
+				"name": "Reinforcements",
+				"definition": "At the end of this Unit’s Activation, mark one box to return a Destroyed Model from this Unit. Place the returned Model within 4” of another Model from this Unit and out of Line of Sight of all Enemy Models."
+			},
+			{
+				"name": "Seeking",
+				"definition": "This Weapon ignores the -1D10 penalty for shooting a Target in Cover. Example: When firing a Seeking Weapon, you roll 2D10 against Targets in Cover, and 3D10 against Targets not in Cover."
+			},
+			{
+				"name": "Shield",
+				"definition": "This Model and one Friendly Infantry Model in Base-to-Base with it both gain Cover. Only one Friendly Model may be in Base-to-Base with this Model at a time."
+			},
+			{
+				"name": "Smoke Grenade | X\"",
+				"definition": "Before this Unit's Reposition Phase, place a Smoke Token within X” of one of its Models. Note: See Rules [8.8] Smoke for more information about this core ability."
+			},
+			{
+				"name": "Spotter",
+				"definition": "If at least two Models in this Unit can draw Line of Sight to the same Enemy Model, Models in this Unit that target that Enemy gain Medium for that Action."
+			},
+			{
+				"name": "Sustained (X)",
+				"definition": "When making an Armor Check against this Weapon, the Target must re-roll up to (X) successful Armor dice, continuing until that many have been re-rolled or all rolls fail. Example: A Model with Armor 1/6 is hit by a Sustained (2) Weapon. It rolls 1D10 for Armor. If it succeeds, it must reroll that die up to 2 times or until it fails. The final roll determines the result."
+			},
+			{
+				"name": "Team Leader",
+				"definition": "When this Model gains a Ready Token, it may instead give that token to another Model in the same Unit that has already made an Action this round. The receiving Model is treated as if it gained the Ready Token normally."
+			},
+			{
+				"name": "Jump (X)",
+				"definition": "Models with Jump [X] can Jump as a Movement. The Model may be placed anywhere withing [X]\" horizontally, and [X]\" vertically without passing through Terrain."
+			}
+		],
+		"armyBonuses": [
+			{
+				"name": "Assaulters",
+				"definition": "Models in this Unit cannot be Targeted by Overwatch when Repositioning."
+			},
+			{
+				"name": "Chaff",
+				"definition": "Place a Smoke Token (Chaff) within 6\" of a Model in this Unit, before Activating. Chaff Smoke Tokens Dissipate on a 10+."
+			},
+			{
+				"name": "Stims",
+				"definition": "Models in this Unit gain +2 Movement for their Activation."
+			},
+			{
+				"name": "Linked",
+				"definition": "When a Model in this Unit makes the Ready Action, one Model in the Unit that has already made an Action may gain a Ready Token instead of the Model making the Action."
+			},
+			{
+				"name": "Targeting Smoke",
+				"definition": "Place a Smoke Token within 6\" of any Model in this Unit. This Unit will ignore the effects of the Smoke Token during their Activation. Enemy Units will treat the Smoke Token as normal."
+			},
+			{
+				"name": "Thorax Shields",
+				"definition": "Models in this Unit gain +1D10 for Armor Checks during this Activation."
+			}
+		],
+		"armory": [
+			{
+				"name": "Boost Jump",
+				"definition": "Model gains Jump [4]"
+			},
+			{
+				"name": "Frag Launcher | 24\"/1",
+				"definition": "Sustained [2], Medium"
+			},
+			{
+				"name": "Head | 16\"/4",
+				"definition": "Blast [1]"
+			},
+			{
+				"name": "Micro Launcher | 4-16\"/2",
+				"definition": "Blast [1], Heavy"
+			},
+			{
+				"name": "Air Burst Rifle | 24\"/1",
+				"definition": "Seeking"
+			},
+			{
+				"name": "RPG33 | 16\"/4",
+				"definition": "Blast [1]"
+			},
+			{
+				"name": "Strip Grenades | 6\"/2",
+				"definition": "Blast [2]"
+			},
+			{
+				"name": "Thermite Launcher | 8\"/1",
+				"definition": "1 Shot only, Sustained [6]"
+			}
+		]
+	}
+}
