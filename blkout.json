@@ -1336,14 +1336,42 @@
 				"specialRules": []
 			},
 			{
-				"name": "Security Team",
+				"name": "Liquidation Team",
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/liquidation%20team1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/liquidation%20team2.png"
+				],
 				"factions": [
 					{
 						"name": "Black Pact Force",
 						"tier": "Unit"
 					}
 				],
-				"specialRules": []
+				"specialRules": [
+					"Melee",
+					"CQB"
+				]
+			},
+			{
+				"name": "Security Team",
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/security%20team1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/security%20team2.png"
+				],
+				"factions": [
+					{
+						"name": "Black Pact Force",
+						"tier": "Unit"
+					}
+				],
+				"specialRules": [
+					"CQB",
+					"Heavy",
+					"AP (X)",
+					"Drone",
+					"AI",
+					"Cyclic"
+				]
 			},
 			{
 				"name": "Ground Drone",
@@ -1357,33 +1385,56 @@
 			},
 			{
 				"name": "Scrap King",
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/scrap%20king1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/scrap%20king2.png"
+				],
 				"factions": [
 					{
 						"name": "Impisi Force",
 						"tier": "Unit"
 					}
 				],
-				"specialRules": []
+				"specialRules": [
+					"Medium",
+					"AP (X)",
+					"Melee",
+					"Low Tech"
+				]
 			},
 			{
 				"name": "Veterans",
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/veterans1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/veterans2.png"
+				],
 				"factions": [
 					{
 						"name": "Impisi Force",
 						"tier": "Unit"
 					}
 				],
-				"specialRules": []
+				"specialRules": [
+					"Low Tech",
+					"Cyclic",
+					"Heavy"
+				]
 			},
 			{
 				"name": "Insurgents",
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/insurgents1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/insurgents2.png"
+				],
 				"factions": [
 					{
 						"name": "Impisi Force",
 						"tier": "Unit"
 					}
 				],
-				"specialRules": []
+				"specialRules": [
+					"Low Tech"
+				]
 			}
 		],
 		"keywords": [
