@@ -1,4 +1,4 @@
- {
+{
 	"appVersion": 2,
 	"disallowMultipleFactions": true,
 	"credit": [
@@ -70,6 +70,19 @@
 					"dataSource": "units",
 					"label": "Unit",
 					"type": "main",
+					"tierProperty": "tier",
+					"tierData": "tiers",
+					"tiers": [
+						{
+							"name": "Handler",
+							"rank": 1,
+							"limit": 1
+						},
+						{
+							"name": "Unit",
+							"rank": 2
+						}
+					],
 					"children": [
 						{
 							"propertyName": "specialRules",
@@ -91,6 +104,14 @@
 		}
 	],
 	"data": {
+		"tiers": [
+			{
+				"name": "Handler"
+			},
+			{
+				"name": "Unit"
+			}
+		],
 		"factions": [
 			{
 				"name": "Harlow 1st Reaction Force",
@@ -131,7 +152,10 @@
 			{
 				"name": "Harlow Assault Team",
 				"factions": [
-					"Harlow 1st Reaction Force"
+					{
+						"name": "Harlow 1st Reaction Force",
+						"tier": "Unit"
+					}
 				],
 				"imageUrls": [
 					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/harlow%20assault%20team1.png",
@@ -146,7 +170,10 @@
 			{
 				"name": "Harlow Control Team",
 				"factions": [
-					"Harlow 1st Reaction Force"
+					{
+						"name": "Harlow 1st Reaction Force",
+						"tier": "Unit"
+					}
 				],
 				"imageUrls": [
 					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/harlow%20control%20team1.png",
@@ -159,7 +186,10 @@
 			{
 				"name": "Harlow Crikets",
 				"factions": [
-					"Harlow 1st Reaction Force"
+					{
+						"name": "Harlow 1st Reaction Force",
+						"tier": "Unit"
+					}
 				],
 				"imageUrls": [
 					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/harlow%20crikets1.png",
@@ -175,7 +205,10 @@
 			{
 				"name": "Harlow Engineers",
 				"factions": [
-					"Harlow 1st Reaction Force"
+					{
+						"name": "Harlow 1st Reaction Force",
+						"tier": "Unit"
+					}
 				],
 				"imageUrls": [
 					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/harlow%20engineers1.png",
@@ -189,7 +222,10 @@
 			{
 				"name": "Harlow Springbok AI",
 				"factions": [
-					"Harlow 1st Reaction Force"
+					{
+						"name": "Harlow 1st Reaction Force",
+						"tier": "Unit"
+					}
 				],
 				"expendables": [
 					{
@@ -211,7 +247,10 @@
 			{
 				"name": "Harlow Veterans",
 				"factions": [
-					"Harlow 1st Reaction Force"
+					{
+						"name": "Harlow 1st Reaction Force",
+						"tier": "Unit"
+					}
 				],
 				"imageUrls": [
 					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/harlow%20veterans1.png",
@@ -225,7 +264,10 @@
 			{
 				"name": "Manticor Bratva Team",
 				"factions": [
-					"Manticor Borz Group"
+					{
+						"name": "Manticor Borz Group",
+						"tier": "Unit"
+					}
 				],
 				"imageUrls": [
 					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/manticor%20bratva%20team1.png",
@@ -239,7 +281,10 @@
 			{
 				"name": "Manticor Cyka Team",
 				"factions": [
-					"Manticor Borz Group"
+					{
+						"name": "Manticor Borz Group",
+						"tier": "Unit"
+					}
 				],
 				"imageUrls": [
 					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/manticor%20cyka%20team1.png",
@@ -254,7 +299,10 @@
 			{
 				"name": "Manticor Insertion Team",
 				"factions": [
-					"Manticor Borz Group"
+					{
+						"name": "Manticor Borz Group",
+						"tier": "Unit"
+					}
 				],
 				"expendables": [
 					{
@@ -275,7 +323,10 @@
 			{
 				"name": "Manticor Cyka Bravo",
 				"factions": [
-					"Manticor Borz Group"
+					{
+						"name": "Manticor Borz Group",
+						"tier": "Unit"
+					}
 				],
 				"imageUrls": [
 					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/manticor%20cyka%20bravo1.png",
@@ -291,7 +342,10 @@
 			{
 				"name": "Ubiytsa Control Team",
 				"factions": [
-					"Manticor Borz Group"
+					{
+						"name": "Manticor Borz Group",
+						"tier": "Unit"
+					}
 				],
 				"imageUrls": [
 					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/ubiytsa%20control%20team1.png",
@@ -306,7 +360,10 @@
 			{
 				"name": "Manticor Ubiytsa",
 				"factions": [
-					"Manticor Borz Group"
+					{
+						"name": "Manticor Borz Group",
+						"tier": "Unit"
+					}
 				],
 				"imageUrls": [
 					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/manticor%20ubiytsa1.png",
@@ -316,6 +373,110 @@
 					"AP (X)",
 					"Melee",
 					"Low Tech"
+				]
+			},
+			{
+				"name": "Agent Handler",
+				"factions": [
+					{
+						"name": "Harlow 1st Reaction Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "Manticor Borz Group",
+						"tier": "Handler"
+					}
+				]
+			},
+			{
+				"name": "Assault Handler",
+				"factions": [
+					{
+						"name": "Harlow 1st Reaction Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "Manticor Borz Group",
+						"tier": "Handler"
+					}
+				]
+			},
+			{
+				"name": "Covert Handler",
+				"factions": [
+					{
+						"name": "Harlow 1st Reaction Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "Manticor Borz Group",
+						"tier": "Handler"
+					}
+				]
+			},
+			{
+				"name": "Cyber Handler",
+				"factions": [
+					{
+						"name": "Harlow 1st Reaction Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "Manticor Borz Group",
+						"tier": "Handler"
+					}
+				]
+			},
+			{
+				"name": "Keres Handler",
+				"factions": [
+					{
+						"name": "Harlow 1st Reaction Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "Manticor Borz Group",
+						"tier": "Handler"
+					}
+				]
+			},
+			{
+				"name": "Marksman Handler",
+				"factions": [
+					{
+						"name": "Harlow 1st Reaction Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "Manticor Borz Group",
+						"tier": "Handler"
+					}
+				]
+			},
+			{
+				"name": "Melee Handler",
+				"factions": [
+					{
+						"name": "Harlow 1st Reaction Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "Manticor Borz Group",
+						"tier": "Handler"
+					}
+				]
+			},
+			{
+				"name": "Siege Handler",
+				"factions": [
+					{
+						"name": "Harlow 1st Reaction Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "Manticor Borz Group",
+						"tier": "Handler"
+					}
 				]
 			}
 		],
