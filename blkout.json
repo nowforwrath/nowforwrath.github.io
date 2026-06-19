@@ -221,6 +221,18 @@
 					"Oslona Kinetyczna",
 					"Smoke Grenade (6)"
 				]
+			},
+			{
+				"name": "Impisi Force",
+				"additionalRules": [],
+				"armyBonuses": [],
+				"armory": []
+			},
+			{
+				"name": "Black Pact Force",
+				"additionalRules": [],
+				"armyBonuses": [],
+				"armory": []
 			}
 		],
 		"units": [
@@ -454,6 +466,14 @@
 				"name": "Agent Handler",
 				"factions": [
 					{
+						"name": "Impisi Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "Black Pact Force",
+						"tier": "Handler"
+					},
+					{
 						"name": "Boone Recon Force",
 						"tier": "Handler"
 					},
@@ -482,6 +502,14 @@
 			{
 				"name": "Assault Handler",
 				"factions": [
+					{
+						"name": "Impisi Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "Black Pact Force",
+						"tier": "Handler"
+					},
 					{
 						"name": "Boone Recon Force",
 						"tier": "Handler"
@@ -512,6 +540,14 @@
 				"name": "Covert Handler",
 				"factions": [
 					{
+						"name": "Impisi Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "Black Pact Force",
+						"tier": "Handler"
+					},
+					{
 						"name": "Boone Recon Force",
 						"tier": "Handler"
 					},
@@ -540,6 +576,14 @@
 			{
 				"name": "Cyber Handler",
 				"factions": [
+					{
+						"name": "Impisi Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "Black Pact Force",
+						"tier": "Handler"
+					},
 					{
 						"name": "Boone Recon Force",
 						"tier": "Handler"
@@ -570,6 +614,14 @@
 				"name": "Keres Handler",
 				"factions": [
 					{
+						"name": "Impisi Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "Black Pact Force",
+						"tier": "Handler"
+					},
+					{
 						"name": "Boone Recon Force",
 						"tier": "Handler"
 					},
@@ -598,6 +650,14 @@
 			{
 				"name": "Marksman Handler",
 				"factions": [
+					{
+						"name": "Impisi Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "Black Pact Force",
+						"tier": "Handler"
+					},
 					{
 						"name": "Boone Recon Force",
 						"tier": "Handler"
@@ -628,6 +688,14 @@
 				"name": "Melee Handler",
 				"factions": [
 					{
+						"name": "Impisi Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "Black Pact Force",
+						"tier": "Handler"
+					},
+					{
 						"name": "Boone Recon Force",
 						"tier": "Handler"
 					},
@@ -656,6 +724,14 @@
 			{
 				"name": "Siege Handler",
 				"factions": [
+					{
+						"name": "Impisi Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "Black Pact Force",
+						"tier": "Handler"
+					},
 					{
 						"name": "Boone Recon Force",
 						"tier": "Handler"
@@ -686,6 +762,14 @@
 				"name": "Banak Dust Element",
 				"factions": [
 					{
+						"name": "Impisi Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "Black Pact Force",
+						"tier": "BLKLIST"
+					},
+					{
 						"name": "Boone Recon Force",
 						"tier": "BLKLIST"
 					},
@@ -714,6 +798,14 @@
 			{
 				"name": "Exterminator Drone",
 				"factions": [
+					{
+						"name": "Impisi Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "Black Pact Force",
+						"tier": "BLKLIST"
+					},
 					{
 						"name": "Boone Recon Force",
 						"tier": "BLKLIST"
@@ -744,6 +836,14 @@
 				"name": "Gull Drones",
 				"factions": [
 					{
+						"name": "Impisi Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "Black Pact Force",
+						"tier": "BLKLIST"
+					},
+					{
 						"name": "Boone Recon Force",
 						"tier": "BLKLIST"
 					},
@@ -772,6 +872,14 @@
 			{
 				"name": "Hired Killers",
 				"factions": [
+					{
+						"name": "Impisi Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "Black Pact Force",
+						"tier": "BLKLIST"
+					},
 					{
 						"name": "Boone Recon Force",
 						"tier": "BLKLIST"
@@ -802,6 +910,14 @@
 				"name": "Nomads",
 				"factions": [
 					{
+						"name": "Impisi Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "Black Pact Force",
+						"tier": "BLKLIST"
+					},
+					{
 						"name": "Boone Recon Force",
 						"tier": "BLKLIST"
 					},
@@ -830,6 +946,14 @@
 			{
 				"name": "Rebel Miners",
 				"factions": [
+					{
+						"name": "Impisi Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "Black Pact Force",
+						"tier": "BLKLIST"
+					},
 					{
 						"name": "Boone Recon Force",
 						"tier": "BLKLIST"
@@ -860,6 +984,14 @@
 				"name": "Szabla Element",
 				"factions": [
 					{
+						"name": "Impisi Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "Black Pact Force",
+						"tier": "BLKLIST"
+					},
+					{
 						"name": "Boone Recon Force",
 						"tier": "BLKLIST"
 					},
@@ -888,6 +1020,14 @@
 			{
 				"name": "Whistler Drone",
 				"factions": [
+					{
+						"name": "Impisi Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "Black Pact Force",
+						"tier": "BLKLIST"
+					},
 					{
 						"name": "Boone Recon Force",
 						"tier": "BLKLIST"
@@ -1184,6 +1324,66 @@
 					"EMP",
 					"Low Tech"
 				]
+			},
+			{
+				"name": "Pact Boss",
+				"factions": [
+					{
+						"name": "Black Pact Force",
+						"tier": "Unit"
+					}
+				],
+				"specialRules": []
+			},
+			{
+				"name": "Security Team",
+				"factions": [
+					{
+						"name": "Black Pact Force",
+						"tier": "Unit"
+					}
+				],
+				"specialRules": []
+			},
+			{
+				"name": "Ground Drone",
+				"factions": [
+					{
+						"name": "Black Pact Force",
+						"tier": "Unit"
+					}
+				],
+				"specialRules": []
+			},
+			{
+				"name": "Scrap King",
+				"factions": [
+					{
+						"name": "Impisi Force",
+						"tier": "Unit"
+					}
+				],
+				"specialRules": []
+			},
+			{
+				"name": "Veterans",
+				"factions": [
+					{
+						"name": "Impisi Force",
+						"tier": "Unit"
+					}
+				],
+				"specialRules": []
+			},
+			{
+				"name": "Insurgents",
+				"factions": [
+					{
+						"name": "Impisi Force",
+						"tier": "Unit"
+					}
+				],
+				"specialRules": []
 			}
 		],
 		"keywords": [
