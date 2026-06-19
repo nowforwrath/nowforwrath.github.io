@@ -153,6 +153,57 @@
 					"Strip Grenades | 6\"/2",
 					"Thermite Launcher | 8\"/1"
 				]
+			},
+			{
+				"name": "UN 3rd Battalion",
+				"additionalRules": [
+					"All UN 3rd Battalion non-AI Infantry Models that are Base-to-Base with another Infantry Model may re-roll all Failed Shots with non Armory weapons."
+				],
+				"armyBonuses": [
+					"Arsenal",
+					"Peel Back",
+					"Switchback"
+				],
+				"armory": [
+					"Boost Jump",
+					"Corner Chasers | 16\"/1",
+					"Microwave Gun | 8\"/1",
+					"Shotgun | 8\"/1"
+				]
+			},
+			{
+				"name": "UN Raid Force Alpha",
+				"additionalRules": [
+					"All UN Raid Team Alpha UTG Assaulter and Specialist Units gain an additional D10 roll in all Skill Checks, including Shooitng and Close Quarters Combat (CQC)."
+				],
+				"armyBonuses": [
+					"Close Assault",
+					"Cross Fire",
+					"Switchback"
+				],
+				"armory": [
+					"Boost Jump (6)",
+					"Lance | 12\"/1",
+					"Micro Launcher | 4-16\"/2",
+					"Surge | 16\"/2"
+				]
+			},
+			{
+				"name": "Boone Recon Force",
+				"additionalRules": [
+					"Once Per Round one non-AI or Powered Infantry Model may make the Data Attack Action."
+				],
+				"armyBonuses": [
+					"Overwhelming Fire",
+					"Small Unit Tactics",
+					"Tactical Positioning"
+				],
+				"armory": [
+					"Disposable Launcher | 4-18\"/3",
+					"Pulse Grenade | 6\"/1",
+					"Smoke Grenade",
+					"Tracking Bombs | 16\"/1"
+				]
 			}
 		],
 		"units": [
@@ -386,6 +437,18 @@
 				"name": "Agent Handler",
 				"factions": [
 					{
+						"name": "Boone Recon Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "UN 3rd Battalion",
+						"tier": "Handler"
+					},
+					{
+						"name": "UN Raid Force Alpha",
+						"tier": "Handler"
+					},
+					{
 						"name": "Harlow 1st Reaction Force",
 						"tier": "Handler"
 					},
@@ -398,6 +461,18 @@
 			{
 				"name": "Assault Handler",
 				"factions": [
+					{
+						"name": "Boone Recon Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "UN 3rd Battalion",
+						"tier": "Handler"
+					},
+					{
+						"name": "UN Raid Force Alpha",
+						"tier": "Handler"
+					},
 					{
 						"name": "Harlow 1st Reaction Force",
 						"tier": "Handler"
@@ -412,6 +487,18 @@
 				"name": "Covert Handler",
 				"factions": [
 					{
+						"name": "Boone Recon Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "UN 3rd Battalion",
+						"tier": "Handler"
+					},
+					{
+						"name": "UN Raid Force Alpha",
+						"tier": "Handler"
+					},
+					{
 						"name": "Harlow 1st Reaction Force",
 						"tier": "Handler"
 					},
@@ -424,6 +511,18 @@
 			{
 				"name": "Cyber Handler",
 				"factions": [
+					{
+						"name": "Boone Recon Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "UN 3rd Battalion",
+						"tier": "Handler"
+					},
+					{
+						"name": "UN Raid Force Alpha",
+						"tier": "Handler"
+					},
 					{
 						"name": "Harlow 1st Reaction Force",
 						"tier": "Handler"
@@ -438,6 +537,18 @@
 				"name": "Keres Handler",
 				"factions": [
 					{
+						"name": "Boone Recon Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "UN 3rd Battalion",
+						"tier": "Handler"
+					},
+					{
+						"name": "UN Raid Force Alpha",
+						"tier": "Handler"
+					},
+					{
 						"name": "Harlow 1st Reaction Force",
 						"tier": "Handler"
 					},
@@ -450,6 +561,18 @@
 			{
 				"name": "Marksman Handler",
 				"factions": [
+					{
+						"name": "Boone Recon Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "UN 3rd Battalion",
+						"tier": "Handler"
+					},
+					{
+						"name": "UN Raid Force Alpha",
+						"tier": "Handler"
+					},
 					{
 						"name": "Harlow 1st Reaction Force",
 						"tier": "Handler"
@@ -464,6 +587,18 @@
 				"name": "Melee Handler",
 				"factions": [
 					{
+						"name": "Boone Recon Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "UN 3rd Battalion",
+						"tier": "Handler"
+					},
+					{
+						"name": "UN Raid Force Alpha",
+						"tier": "Handler"
+					},
+					{
 						"name": "Harlow 1st Reaction Force",
 						"tier": "Handler"
 					},
@@ -476,6 +611,18 @@
 			{
 				"name": "Siege Handler",
 				"factions": [
+					{
+						"name": "Boone Recon Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "UN 3rd Battalion",
+						"tier": "Handler"
+					},
+					{
+						"name": "UN Raid Force Alpha",
+						"tier": "Handler"
+					},
 					{
 						"name": "Harlow 1st Reaction Force",
 						"tier": "Handler"
@@ -490,6 +637,18 @@
 				"name": "Banak Dust Element",
 				"factions": [
 					{
+						"name": "Boone Recon Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "UN 3rd Battalion",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "UN Raid Force Alpha",
+						"tier": "BLKLIST"
+					},
+					{
 						"name": "Harlow 1st Reaction Force",
 						"tier": "BLKLIST"
 					},
@@ -502,6 +661,18 @@
 			{
 				"name": "Exterminator Drone",
 				"factions": [
+					{
+						"name": "Boone Recon Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "UN 3rd Battalion",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "UN Raid Force Alpha",
+						"tier": "BLKLIST"
+					},
 					{
 						"name": "Harlow 1st Reaction Force",
 						"tier": "BLKLIST"
@@ -516,6 +687,18 @@
 				"name": "Gull Drones",
 				"factions": [
 					{
+						"name": "Boone Recon Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "UN 3rd Battalion",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "UN Raid Force Alpha",
+						"tier": "BLKLIST"
+					},
+					{
 						"name": "Harlow 1st Reaction Force",
 						"tier": "BLKLIST"
 					},
@@ -528,6 +711,18 @@
 			{
 				"name": "Hired Killers",
 				"factions": [
+					{
+						"name": "Boone Recon Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "UN 3rd Battalion",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "UN Raid Force Alpha",
+						"tier": "BLKLIST"
+					},
 					{
 						"name": "Harlow 1st Reaction Force",
 						"tier": "BLKLIST"
@@ -542,6 +737,18 @@
 				"name": "Nomads",
 				"factions": [
 					{
+						"name": "Boone Recon Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "UN 3rd Battalion",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "UN Raid Force Alpha",
+						"tier": "BLKLIST"
+					},
+					{
 						"name": "Harlow 1st Reaction Force",
 						"tier": "BLKLIST"
 					},
@@ -554,6 +761,18 @@
 			{
 				"name": "Rebel Miners",
 				"factions": [
+					{
+						"name": "Boone Recon Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "UN 3rd Battalion",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "UN Raid Force Alpha",
+						"tier": "BLKLIST"
+					},
 					{
 						"name": "Harlow 1st Reaction Force",
 						"tier": "BLKLIST"
@@ -568,6 +787,18 @@
 				"name": "Szabla Element",
 				"factions": [
 					{
+						"name": "Boone Recon Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "UN 3rd Battalion",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "UN Raid Force Alpha",
+						"tier": "BLKLIST"
+					},
+					{
 						"name": "Harlow 1st Reaction Force",
 						"tier": "BLKLIST"
 					},
@@ -581,6 +812,18 @@
 				"name": "Whistler Drone",
 				"factions": [
 					{
+						"name": "Boone Recon Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "UN 3rd Battalion",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "UN Raid Force Alpha",
+						"tier": "BLKLIST"
+					},
+					{
 						"name": "Harlow 1st Reaction Force",
 						"tier": "BLKLIST"
 					},
@@ -588,6 +831,220 @@
 						"name": "Manticor Borz Group",
 						"tier": "BLKLIST"
 					}
+				]
+			},
+			{
+				"name": "UN UTG Specialists",
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/un%20utg%20specialists1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/un%20utg%20specialists2.png"
+				],
+				"factions": [
+					{
+						"name": "UN Raid Force Alpha",
+						"tier": "Unit"
+					}
+				],
+				"specialRules": [
+					"CQB",
+					"Jump (X)",
+					"AP (X)",
+					"Deployed"
+				]
+			},
+			{
+				"name": "Golem Unit",
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/golem%20unit1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/golem%20unit2.png"
+				],
+				"factions": [
+					{
+						"name": "UN Raid Force Alpha",
+						"tier": "Unit"
+					}
+				],
+				"specialRules": [
+					"Seeking",
+					"Jump (X)",
+					"Sustained (X)"
+				]
+			},
+			{
+				"name": "UN UTG Assaulters",
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/un%20utg%20assaulters1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/un%20utg%20assaulters2.png"
+				],
+				"factions": [
+					{
+						"name": "UN Raid Force Alpha",
+						"tier": "Unit"
+					}
+				],
+				"specialRules": [
+					"CQB"
+				]
+			},
+			{
+				"name": "UN Pointmen",
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/un%20pointmen1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/un%20pointmen2.png"
+				],
+				"factions": [
+					{
+						"name": "UN 3rd Battalion",
+						"tier": "Unit"
+					}
+				],
+				"specialRules": [
+					"Cyclic",
+					"Heavy",
+					"Medium"
+				]
+			},
+			{
+				"name": "UN Peacemaker",
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/un%20peacemaker1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/un%20peacemaker2.png"
+				],
+				"factions": [
+					{
+						"name": "UN 3rd Battalion",
+						"tier": "Unit"
+					}
+				],
+				"specialRules": [
+					"AP (X)",
+					"Auto (X)",
+					"Drone",
+					"AI"
+				]
+			},
+			{
+				"name": "UN Reserve Fireteam",
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/un%20reserve%20fireteam1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/un%20reserve%20fireteam2.png"
+				],
+				"factions": [
+					{
+						"name": "UN 3rd Battalion",
+						"tier": "Unit"
+					}
+				],
+				"specialRules": [
+					"AP (X)"
+				]
+			},
+			{
+				"name": "UN Batcon",
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/un%20batcon1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/un%20batcon2.png"
+				],
+				"factions": [
+					{
+						"name": "UN 3rd Battalion",
+						"tier": "Unit"
+					}
+				],
+				"specialRules": [
+					"AI",
+					"Data Spike",
+					"Medium"
+				]
+			},
+			{
+				"name": "UN UTG Mothers",
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/un%20utg%20mothers1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/un%20utg%20mothers2.png"
+				],
+				"factions": [
+					{
+						"name": "UN 3rd Battalion",
+						"tier": "Unit"
+					}
+				],
+				"specialRules": [
+					"AP (X)",
+					"Cycic",
+					"Melee",
+					"Jump (X)"
+				]
+			},
+			{
+				"name": "UN Raid Team",
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/un%20raid%20team1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/un%20raid%20team2.png"
+				],
+				"factions": [
+					{
+						"name": "UN 3rd Battalion",
+						"tier": "Unit"
+					}
+				],
+				"specialRules": [
+					"CQB",
+					"Jump (X)"
+				]
+			},
+			{
+				"name": "Boone VAT Element",
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/boone%20vat%20element1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/boone%20vat%20element2.png"
+				],
+				"factions": [
+					{
+						"name": "Boone Recon Force",
+						"tier": "Unit"
+					}
+				],
+				"specialRules": [
+					"Cycic",
+					"CQB",
+					"Jump (X)"
+				]
+			},
+			{
+				"name": "Boone Recon Team",
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/boone%20recon%20team1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/boone%20recon%20team2.png"
+				],
+				"factions": [
+					{
+						"name": "Boone Recon Force",
+						"tier": "Unit"
+					}
+				],
+				"specialRules": [
+					"Cyclic",
+					"Heavy",
+					"AP (X)"
+				]
+			},
+			{
+				"name": "Boone Razorback",
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/boone%20razorback1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/boone%20razorback2.png"
+				],
+				"factions": [
+					{
+						"name": "Boone Recon Force",
+						"tier": "Unit"
+					}
+				],
+				"specialRules": [
+					"Drone",
+					"AI",
+					"CQB"
 				]
 			}
 		],
@@ -729,12 +1186,48 @@
 			{
 				"name": "Thorax Shields",
 				"definition": "Models in this Unit gain +1D10 for Armor Checks during this Activation."
+			},
+			{
+				"name": "Arsenal",
+				"definition": "This Unit may use one Armory Item without marking a Combat Load during this Activation."
+			},
+			{
+				"name": "Peel Back",
+				"definition": "Infantry Models in this Unit may be Moved up to 2\" at the end of the Unit's Activation."
+			},
+			{
+				"name": "Switchback",
+				"definition": "Place a Smoke Token within 4\" of a Model in this Unit before Activating. All Models may be Moved up to 2\" before Activating."
+			},
+			{
+				"name": "Close Assault",
+				"definition": "Models in this Unit may Move 2\" after their Activation ends, only if it would bring them into CQC with an Enemy Model."
+			},
+			{
+				"name": "Cross Fire",
+				"definition": "If more than one Model in this Unit Targets the same Enemy Model, their Weapons gain +1 Damage."
+			},
+			{
+				"name": "Overwhelming Fire",
+				"definition": "Return Fire Reactions that Target Models in this Unit with the Cyclic Special Rule may never roll more than 1D10."
+			},
+			{
+				"name": "Small Unit Tactics",
+				"definition": "Up to half of the Models rounding up in the Unit may make the Shoot Action during the Reposition step of their Activation. This will cost them their Action during their Activation. Afterward, the remaining Models in the Unit may Reposition and then make an Action."
+			},
+			{
+				"name": "Tactical Positioning",
+				"definition": "During this Activation, Overwatch Targeting Models in this Unit suffers -1D10."
 			}
 		],
 		"armory": [
 			{
 				"name": "Boost Jump",
 				"definition": "Model gains Jump [4]"
+			},
+			{
+				"name": "Boost Jump (6)",
+				"definition": "Model gains Jump [6]"
 			},
 			{
 				"name": "Frag Launcher | 24\"/1",
@@ -763,6 +1256,42 @@
 			{
 				"name": "Thermite Launcher | 8\"/1",
 				"definition": "1 Shot only, Sustained [6]"
+			},
+			{
+				"name": "Corner Chasers | 16\"/1",
+				"definition": "CQB, Indirect"
+			},
+			{
+				"name": "Microwave Gun | 8\"/1",
+				"definition": "EMP"
+			},
+			{
+				"name": "Shotgun | 8\"/1",
+				"definition": "AP [3], CQB"
+			},
+			{
+				"name": "Lance | 12\"/1",
+				"definition": "AP (3)"
+			},
+			{
+				"name": "Surge",
+				"definition": "EMP Only"
+			},
+			{
+				"name": "Disposable Launcher | 4-18\"/3",
+				"definition": "Blast [1]"
+			},
+			{
+				"name": "Pulse Grenade | 6\"/1",
+				"definition": "EMP, Blast [1]"
+			},
+			{
+				"name": "Smoke Grenade",
+				"definition": "Place a Smoke Token within 4\" of a Grunt Model in this Unit before Repositioning."
+			},
+			{
+				"name": "Tracking Bombs | 16\"/1",
+				"definition": "AP [2], Indirect"
 			}
 		]
 	}
