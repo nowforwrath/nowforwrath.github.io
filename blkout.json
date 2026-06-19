@@ -1327,13 +1327,22 @@
 			},
 			{
 				"name": "Pact Boss",
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/pact%20boss1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/pact%20boss2.png"
+				],
 				"factions": [
 					{
 						"name": "Black Pact Force",
 						"tier": "Unit"
 					}
 				],
-				"specialRules": []
+				"specialRules": [
+					"Cyclic",
+					"CQB",
+					"Melee",
+					"AP (X)"
+				]
 			},
 			{
 				"name": "Liquidation Team",
