@@ -204,6 +204,23 @@
 					"Smoke Grenade",
 					"Tracking Bombs | 16\"/1"
 				]
+			},
+			{
+				"name": "ORK: Task Force Upyr",
+				"additionalRules": [
+					"models in Ork Task Force Upyr may move up to 2\" after their Activation if they have a Ready token. if you replace a Unit with the Szabla BLKLIST unit, they gain access to Ork Battle Drills."
+				],
+				"armyBonuses": [
+					"Czaska Targeting Suite",
+					"Peel Back",
+					"Quick Reaction"
+				],
+				"armory": [
+					"Eviscerator Linear Rifle",
+					"Microwave Gun",
+					"Oslona Kinetyczna",
+					"Smoke Grenade (6)"
+				]
 			}
 		],
 		"units": [
@@ -441,6 +458,10 @@
 						"tier": "Handler"
 					},
 					{
+						"name": "ORK: Task Force Upyr",
+						"tier": "Handler"
+					},
+					{
 						"name": "UN 3rd Battalion",
 						"tier": "Handler"
 					},
@@ -463,6 +484,10 @@
 				"factions": [
 					{
 						"name": "Boone Recon Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "ORK: Task Force Upyr",
 						"tier": "Handler"
 					},
 					{
@@ -491,6 +516,10 @@
 						"tier": "Handler"
 					},
 					{
+						"name": "ORK: Task Force Upyr",
+						"tier": "Handler"
+					},
+					{
 						"name": "UN 3rd Battalion",
 						"tier": "Handler"
 					},
@@ -513,6 +542,10 @@
 				"factions": [
 					{
 						"name": "Boone Recon Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "ORK: Task Force Upyr",
 						"tier": "Handler"
 					},
 					{
@@ -541,6 +574,10 @@
 						"tier": "Handler"
 					},
 					{
+						"name": "ORK: Task Force Upyr",
+						"tier": "Handler"
+					},
+					{
 						"name": "UN 3rd Battalion",
 						"tier": "Handler"
 					},
@@ -563,6 +600,10 @@
 				"factions": [
 					{
 						"name": "Boone Recon Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "ORK: Task Force Upyr",
 						"tier": "Handler"
 					},
 					{
@@ -591,6 +632,10 @@
 						"tier": "Handler"
 					},
 					{
+						"name": "ORK: Task Force Upyr",
+						"tier": "Handler"
+					},
+					{
 						"name": "UN 3rd Battalion",
 						"tier": "Handler"
 					},
@@ -613,6 +658,10 @@
 				"factions": [
 					{
 						"name": "Boone Recon Force",
+						"tier": "Handler"
+					},
+					{
+						"name": "ORK: Task Force Upyr",
 						"tier": "Handler"
 					},
 					{
@@ -641,6 +690,10 @@
 						"tier": "BLKLIST"
 					},
 					{
+						"name": "ORK: Task Force Upyr",
+						"tier": "BLKLIST"
+					},
+					{
 						"name": "UN 3rd Battalion",
 						"tier": "BLKLIST"
 					},
@@ -663,6 +716,10 @@
 				"factions": [
 					{
 						"name": "Boone Recon Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "ORK: Task Force Upyr",
 						"tier": "BLKLIST"
 					},
 					{
@@ -691,6 +748,10 @@
 						"tier": "BLKLIST"
 					},
 					{
+						"name": "ORK: Task Force Upyr",
+						"tier": "BLKLIST"
+					},
+					{
 						"name": "UN 3rd Battalion",
 						"tier": "BLKLIST"
 					},
@@ -713,6 +774,10 @@
 				"factions": [
 					{
 						"name": "Boone Recon Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "ORK: Task Force Upyr",
 						"tier": "BLKLIST"
 					},
 					{
@@ -741,6 +806,10 @@
 						"tier": "BLKLIST"
 					},
 					{
+						"name": "ORK: Task Force Upyr",
+						"tier": "BLKLIST"
+					},
+					{
 						"name": "UN 3rd Battalion",
 						"tier": "BLKLIST"
 					},
@@ -763,6 +832,10 @@
 				"factions": [
 					{
 						"name": "Boone Recon Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "ORK: Task Force Upyr",
 						"tier": "BLKLIST"
 					},
 					{
@@ -791,6 +864,10 @@
 						"tier": "BLKLIST"
 					},
 					{
+						"name": "ORK: Task Force Upyr",
+						"tier": "BLKLIST"
+					},
+					{
 						"name": "UN 3rd Battalion",
 						"tier": "BLKLIST"
 					},
@@ -813,6 +890,10 @@
 				"factions": [
 					{
 						"name": "Boone Recon Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "ORK: Task Force Upyr",
 						"tier": "BLKLIST"
 					},
 					{
@@ -1046,6 +1127,63 @@
 					"AI",
 					"CQB"
 				]
+			},
+			{
+				"name": "Korpus Strazy",
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/korpus%20strazy1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/korpus%20strazy2.png"
+				],
+				"factions": [
+					{
+						"name": "ORK: Task Force Upyr",
+						"tier": "Unit"
+					}
+				],
+				"specialRules": [
+					"AP (X)",
+					"Heavy",
+					"Depoyed",
+					"Data Spike"
+				]
+			},
+			{
+				"name": "Strzyga Assaulters",
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/strzyga%20assaulters1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/strzyga%20assaulters2.png"
+				],
+				"factions": [
+					{
+						"name": "ORK: Task Force Upyr",
+						"tier": "Unit"
+					}
+				],
+				"specialRules": [
+					"AP (X)",
+					"Cyclic",
+					"Jump (X)"
+				]
+			},
+			{
+				"name": "Strzyga Hunters",
+				"imageUrls": [
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/strzyga%20hunters1.png",
+					"https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/blackout/images/strzyga%20hunters2.png"
+				],
+				"factions": [
+					{
+						"name": "ORK: Task Force Upyr",
+						"tier": "Unit"
+					}
+				],
+				"specialRules": [
+					"Cyclic",
+					"Seeking",
+					"Sustained (X)",
+					"EMP",
+					"Low Tech"
+				]
 			}
 		],
 		"keywords": [
@@ -1164,6 +1302,14 @@
 		],
 		"armyBonuses": [
 			{
+				"name": "Quick Reaction",
+				"definition": "At the start of this Unit's Activation, remove a Pinned Marker from the Unit and remove an Engaged Token from one Model in the Unit."
+			},
+			{
+				"name": "Czaska Targeting Suite",
+				"definition": "During this activation, up to 2 models in this unit add a bonus 6\" to non-armory weapon ranges."
+			},
+			{
 				"name": "Assaulters",
 				"definition": "Models in this Unit cannot be Targeted by Overwatch when Repositioning."
 			},
@@ -1221,6 +1367,18 @@
 			}
 		],
 		"armory": [
+			{
+				"name": "Oslona Kinetyczna",
+				"definition": "Model gains Shield for this Activation."
+			},
+			{
+				"name": "Microwave Gun",
+				"definition": "8\" Range, Damage 1, EMP"
+			},
+			{
+				"name": "Eviscerator Linear Rifle",
+				"definition": "12\" Range, Damage 1, Seeking, Armor Piercing (3). This weapon may be fired without line of sight as a hard skill check."
+			},
 			{
 				"name": "Boost Jump",
 				"definition": "Model gains Jump [4]"
@@ -1292,6 +1450,10 @@
 			{
 				"name": "Tracking Bombs | 16\"/1",
 				"definition": "AP [2], Indirect"
+			},
+			{
+				"name": "Smoke Grenade (6)",
+				"definition": "Place a Smoke Token within 6\"."
 			}
 		]
 	}
