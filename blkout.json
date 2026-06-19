@@ -81,6 +81,10 @@
 						{
 							"name": "Unit",
 							"rank": 2
+						},
+						{
+							"name": "BLKLIST",
+							"rank": 3
 						}
 					],
 					"children": [
@@ -110,6 +114,9 @@
 			},
 			{
 				"name": "Unit"
+			},
+			{
+				"name": "BLKLIST"
 			}
 		],
 		"factions": [
@@ -476,6 +483,110 @@
 					{
 						"name": "Manticor Borz Group",
 						"tier": "Handler"
+					}
+				]
+			},
+			{
+				"name": "Banak Dust Element",
+				"factions": [
+					{
+						"name": "Harlow 1st Reaction Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "Manticor Borz Group",
+						"tier": "BLKLIST"
+					}
+				]
+			},
+			{
+				"name": "Exterminator Drone",
+				"factions": [
+					{
+						"name": "Harlow 1st Reaction Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "Manticor Borz Group",
+						"tier": "BLKLIST"
+					}
+				]
+			},
+			{
+				"name": "Gull Drones",
+				"factions": [
+					{
+						"name": "Harlow 1st Reaction Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "Manticor Borz Group",
+						"tier": "BLKLIST"
+					}
+				]
+			},
+			{
+				"name": "Hired Killers",
+				"factions": [
+					{
+						"name": "Harlow 1st Reaction Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "Manticor Borz Group",
+						"tier": "BLKLIST"
+					}
+				]
+			},
+			{
+				"name": "Nomads",
+				"factions": [
+					{
+						"name": "Harlow 1st Reaction Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "Manticor Borz Group",
+						"tier": "BLKLIST"
+					}
+				]
+			},
+			{
+				"name": "Rebel Miners",
+				"factions": [
+					{
+						"name": "Harlow 1st Reaction Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "Manticor Borz Group",
+						"tier": "BLKLIST"
+					}
+				]
+			},
+			{
+				"name": "Szabla Element",
+				"factions": [
+					{
+						"name": "Harlow 1st Reaction Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "Manticor Borz Group",
+						"tier": "BLKLIST"
+					}
+				]
+			},
+			{
+				"name": "Whistler Drone",
+				"factions": [
+					{
+						"name": "Harlow 1st Reaction Force",
+						"tier": "BLKLIST"
+					},
+					{
+						"name": "Manticor Borz Group",
+						"tier": "BLKLIST"
 					}
 				]
 			}
