@@ -22048,9 +22048,7 @@
 				"baseSize": [
 					"25mm"
 				],
-				"heroicActions": [
-					"Heroic March"
-				],
+				"heroicActions": [],
 				"specialRules": [
 					"Cave Dweller",
 					"Mountain Dweller",
@@ -35930,9 +35928,7 @@
 				"baseSize": [
 					"25mm"
 				],
-				"heroicActions": [
-					"Heroic March"
-				],
+				"heroicActions": [],
 				"specialRules": [
 					"Cave Dweller",
 					"Mountain Dweller",
