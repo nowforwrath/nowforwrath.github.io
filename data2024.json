@@ -44589,6 +44589,14 @@
 		],
 		"keywords": [
 			{
+				"name": "High King of the South",
+				"definition": "The range of the Mumak War Leader's Stand Fast is 12\" rather than 6\". Additionally, models in the Mumak War Leader's Warband can be deployed within 12\" rather than 6\" -- even outside the Howdah if they wish. measure this range from the base of the Royal War Mumak."
+			},
+			{
+				"name": "Sigils of Defiance",
+				"definition": "The Mumak and any models in the Howdah gain the Resistant to Magic special rule, and whenever they suffer a wound they may roll a D6. On a natural 6, the Wound is prevented."
+			},
+			{
 				"name": "Static",
 				"definition": "If a Siege Engine has the Static special rule, then it cannot be Moved or rotated."
 			},
