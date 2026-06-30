@@ -36621,49 +36621,6 @@
 				"countAsProperty": "heroes"
 			},
 			{
-				"name": "Meriadoc Brandybuck, Knight of the Mark",
-				"factions": [],
-				"unique": true,
-				"points": 25,
-				"movement": 4,
-				"fight": 3,
-				"shoot": 3,
-				"strength": 2,
-				"defence": 4,
-				"attack": 1,
-				"wounds": 1,
-				"courage": 4,
-				"might": 1,
-				"will": 1,
-				"fate": 2,
-				"heroicActions": [
-					"Heroic Strike"
-				],
-				"options": [
-					{
-						"name": "Elven Cloak",
-						"points": 5
-					},
-					{
-						"name": "Pony",
-						"points": 5
-					},
-					{
-						"name": "Shield",
-						"points": 5
-					}
-				],
-				"specialRules": [
-					"Resistant to Magic",
-					"Throw Stones (range 8\", Strength 1)"
-				],
-				"wargear": [
-					"Armour",
-					"Dagger"
-				],
-				"countAsProperty": "heroes"
-			},
-			{
 				"name": "Warrior of Rohan",
 				"factions": [
 					"Kingdom of Rohan",
@@ -43023,12 +42980,22 @@
 				"type": "mount",
 				"movement": 8,
 				"fight": 4,
-				"shoot": 5,
+				"shoot": 6,
 				"strength": 4,
 				"defence": 6,
 				"attack": 0,
 				"wounds": 2,
-				"courage": 3
+				"courage": 7,
+				"intelligence": 9,
+				"race": [
+					"Board"
+				],
+				"baseSize": [
+					"40mm"
+				],
+				"unitType": [
+					"Mount"
+				]
 			},
 			{
 				"name": "War goat",
