@@ -54,6 +54,7 @@
       "key": "advantage",
       "label": "Advantage",
       "required": true,
+      "perPlayer": true,
       "options": [
         "Advanced Intel",
         "Armored Assault",
@@ -381,6 +382,7 @@
           "dataSource": "commands",
           "label": "Commands",
           "type": "main",
+          "hiddenBeforeGame": true,
           "excludeFromFactionPreview": true,
           "tierProperty": "pips",
           "tierSource": "root",
