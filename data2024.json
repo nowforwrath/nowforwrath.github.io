@@ -2744,6 +2744,12 @@
 					"Resolute Rohirrim",
 					"The Courage of Elfhelm"
 				],
+				"adjustLimits": [
+					{
+						"type": "throwingWeapon",
+						"percentage": 50
+					}
+				],
 				"specialRules": [
 					"Dominant (2)",
 					"Sworn Protector (Theodred)"
@@ -8593,6 +8599,14 @@
 					{
 						"name": "Assault Upon Helm's Deep",
 						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Lurtz's Scouts",
+						"heroicTier": "Minor Hero"
+					},
+					{
+						"name": "Ugluk's Scouts",
+						"heroicTier": "minor Hero"
 					}
 				],
 				"points": 55,
@@ -12232,7 +12246,7 @@
 						"heroicTier": "Hero of Legend"
 					}
 				],
-				"points": 160,
+				"points": 140,
 				"movement": 6,
 				"fight": 7,
 				"shoot": 4,
@@ -12615,8 +12629,7 @@
 				"options": [
 					{
 						"name": "Warg",
-						"points": 20,
-						"availableIn": []
+						"points": 20
 					}
 				],
 				"magicalPowers": [
@@ -16888,6 +16901,18 @@
 					},
 					{
 						"name": "Ravagers of the Shire",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Army of Gothmog",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Legions of Mordor",
+						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "The Black Gate",
 						"heroicTier": "Hero of Fortitude"
 					}
 				],
@@ -27209,7 +27234,7 @@
 						"unlockedBy": "Gandalf the Grey (Thorin's Company)"
 					}
 				],
-				"points": 150,
+				"points": 200,
 				"movement": 12,
 				"fight": 8,
 				"shoot": 4,
@@ -28917,6 +28942,10 @@
 					{
 						"name": "The Serpent Horde",
 						"heroicTier": "Hero of Fortitude"
+					},
+					{
+						"name": "Usurpers of Edors",
+						"heroicTier": "Minor Hero"
 					}
 				],
 				"unlimited": true,
@@ -28934,11 +28963,23 @@
 				"options": [
 					{
 						"name": "Gnarled Hide",
-						"points": 25
+						"points": 25,
+						"availableIn": [
+							"Legions of Mordor",
+							"Harad",
+							"Grand Army of the South",
+							"The Serpent Horde"
+						]
 					},
 					{
 						"name": "Mahud Beastmaster Chieftain",
-						"points": 25
+						"points": 25,
+						"availableIn": [
+							"Legions of Mordor",
+							"Harad",
+							"Grand Army of the South",
+							"The Serpent Horde"
+						]
 					},
 					{
 						"name": "Rocks",
@@ -32052,7 +32093,8 @@
 			{
 				"name": "Moria Goblin Drum",
 				"factions": [
-					"Moria"
+					"Moria",
+					"Depths of Moria"
 				],
 				"points": 75,
 				"includes": [
@@ -32830,10 +32872,10 @@
 						"chooseOneKey": "a"
 					},
 					{
-						"name": "Exchange shield for war drum",
+						"name": "Exchange shield for war drum (Easterling)",
 						"points": 25,
 						"chooseOneKey": "a",
-						"usesDefinition": "War Drum"
+						"usesDefinition": "War Drum (Easterling)"
 					}
 				],
 				"specialRules": [
@@ -35523,6 +35565,26 @@
 						"name": "Two-handed weapon",
 						"points": 1,
 						"chooseOneKey": "a"
+					},
+					{
+						"name": "Banner",
+						"points": 25,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Banner and light shield",
+						"points": 26,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "War horn",
+						"points": 25,
+						"chooseOnekey": "a"
+					},
+					{
+						"name": "War horn and light shield",
+						"points": 26,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -37267,7 +37329,10 @@
 					"Army of the Great Eye",
 					"Fell Beings of Mirkwood",
 					"Assault on Lothlorien",
-					"Ravagers of the Shire"
+					"Ravagers of the Shire",
+					"Army of Gothmog",
+					"Legions of Mordor",
+					"The Black Gate"
 				],
 				"points": 5,
 				"movement": 6,
@@ -40775,6 +40840,26 @@
 						"name": "Two-handed axe",
 						"points": 1,
 						"chooseOneKey": "a"
+					},
+					{
+						"name": "Banner",
+						"points": 25,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Banner and light shield",
+						"points": 26,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "War horn",
+						"points": 25,
+						"chooseOnekey": "a"
+					},
+					{
+						"name": "War horn and light shield",
+						"points": 26,
+						"chooseOneKey": "a"
 					}
 				],
 				"specialRules": [
@@ -41341,9 +41426,9 @@
 				"fight": 2,
 				"shoot": 6,
 				"strength": 2,
-				"defence": 3,
+				"defence": 2,
 				"attack": 2,
-				"wounds": 4,
+				"wounds": 3,
 				"courage": 8,
 				"intelligence": 7,
 				"race": [
@@ -41864,6 +41949,18 @@
 					"Umbar",
 					"The Serpent Horde"
 				],
+				"availableIn": [
+					{
+						"all": [
+							{
+								"in": "Usurpers of Edoras"
+							},
+							{
+								"in": "War Mumak of Harad"
+							}
+						]
+					}
+				],
 				"points": 6,
 				"movement": 6,
 				"fight": 3,
@@ -41888,12 +41985,26 @@
 					{
 						"name": "Banner",
 						"points": 25,
-						"requireChooseOneKey": "a"
+						"requireChooseOneKey": "a",
+						"availableIn": [
+							"Legions of Mordor",
+							"Harad",
+							"Grand Army of the South",
+							"Umbar",
+							"The Serpent Horde"
+						]
 					},
 					{
 						"name": "War Horn",
 						"points": 25,
-						"requireChooseOneKey": "a"
+						"requireChooseOneKey": "a",
+						"availableIn": [
+							"Legions of Mordor",
+							"Harad",
+							"Grand Army of the South",
+							"Umbar",
+							"The Serpent Horde"
+						]
 					},
 					{
 						"name": "Bow",
@@ -42377,6 +42488,10 @@
 			},
 			{
 				"name": "War Drum (Mordor Orc)",
+				"definition": "A model with a war drum may use it during the Declare Heroic Actions step of each Move Phase to declare a Heroic March for free, without spending a Might Point, even if they are not a Hero. This free Heroic March has the following exceptions:\n                • A model with a war drum that declares a Heroic March must always shout At the Double.\n                • The range of this At the Double is 12\" rather than 6\". Additionally, friendly models must finish their Activation within 12\" rather than 6\".\n                • The Heroic March declared when a model uses a war drum will only affect friendly models with the same keywords as the ones shown in brackets after the war drum. So if a model has a war drum (Mordor) then it will only affect models with the Mordor keyword.\n                As a war drum allows a model to declare a free Heroic March, models cannot be affected by both a war drum and a normal Heroic March in the same turn."
+			},
+			{
+				"name": "War Drum (Easterling)",
 				"definition": "A model with a war drum may use it during the Declare Heroic Actions step of each Move Phase to declare a Heroic March for free, without spending a Might Point, even if they are not a Hero. This free Heroic March has the following exceptions:\n                • A model with a war drum that declares a Heroic March must always shout At the Double.\n                • The range of this At the Double is 12\" rather than 6\". Additionally, friendly models must finish their Activation within 12\" rather than 6\".\n                • The Heroic March declared when a model uses a war drum will only affect friendly models with the same keywords as the ones shown in brackets after the war drum. So if a model has a war drum (Mordor) then it will only affect models with the Mordor keyword.\n                As a war drum allows a model to declare a free Heroic March, models cannot be affected by both a war drum and a normal Heroic March in the same turn."
 			},
 			{
@@ -46090,7 +46205,7 @@
 			{
 				"name": "Deadly Shot",
 				"tag": "Active",
-				"definition": "Legolas may make three shooting attacks during the Shoot Phase instead of one, using all the normal rules for shooting. Additionally, Legolas may still make shooting attacks whilst he is Engaged in Combat and does not suffer the -1 pentalty To Hit for Moving and Shooting so long as he has the Infantry keyword. If Legolas shoots whilst he is Engaged in Combat, he may shoot at models he is Engaged in Combat with, and does not need to make In The Way Tests for shooting at models he is Engaged in Combat with (though they may still block Line of Sight as normal)"
+				"definition": "Legolas may make three shooting attacks during the Shoot Phase instead of one, using all the normal rules for shooting. Additionally, Legolas may still make shooting attacks whilst he is Engaged in Combat if there are no other friendly models engaged in the same combat, and does not suffer the -1 penalty To Hit for Moving and Shooting so long as he has the Infantry keyword. If Legolas shoots whilst he is Engaged in Combat, he may shoot at enemy models he is Engaged in Combat with, and does not need to make In The Way Tests for shooting at models\nhe is Engaged in Combat with (though they may still block Line of Sight as normal)."
 			},
 			{
 				"name": "Final Count, 42",
