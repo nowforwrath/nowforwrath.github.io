@@ -35582,7 +35582,7 @@
 					{
 						"name": "War horn",
 						"points": 25,
-						"chooseOnekey": "a"
+						"chooseOneKey": "a"
 					},
 					{
 						"name": "War horn and light shield",
