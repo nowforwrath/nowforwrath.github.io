@@ -32,6 +32,63 @@
     "Commander": "https://d26oqf9i6fvic.cloudfront.net/ranks/1.png?version=8",
     "Operative": "https://d26oqf9i6fvic.cloudfront.net/ranks/6.png?version=8"
   },
+  "scenarioPools": [
+    {
+      "key": "secondaryObjective",
+      "label": "Secondary Objective",
+      "required": true,
+      "options": [
+        "Align the Relay",
+        "Bring Them to Heel",
+        "Destroy Enemy Base",
+        "Failed Negotiations",
+        "Marked Targets",
+        "Recon Mission",
+        "Retrieve the Data",
+        "Supply Run",
+        "Surface Scan",
+        "Sweep and Clear"
+      ]
+    },
+    {
+      "key": "advantage",
+      "label": "Advantage",
+      "required": true,
+      "options": [
+        "Advanced Intel",
+        "Armored Assault",
+        "Black Ops",
+        "Command Override",
+        "Coordinated Strike",
+        "Cunning Deployment",
+        "Extreme Discipline",
+        "Fortified Position",
+        "Garrison",
+        "No Time to Lose",
+        "Ordnance",
+        "Rapid Deployment",
+        "Scrambled Orders",
+        "Strafing Run"
+      ]
+    },
+    {
+      "key": "objective",
+      "label": "Objective",
+      "required": true,
+      "options": [
+       "Breakthrough",
+        "Bunker Assault",
+        "Cauldron",
+        "Close the Pocket",
+        "Contact, Contact!",
+        "Intercept Signals",
+        "Outflank",
+        "Payload",
+        "Recover the Research",
+        "Shifting Priorities"
+      ]
+    }
+  ],
   "limits": [],
   "gameModes": [
     {
