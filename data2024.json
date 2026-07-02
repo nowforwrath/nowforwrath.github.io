@@ -28948,6 +28948,9 @@
 						"heroicTier": "Minor Hero"
 					}
 				],
+				"unavaialbleWith": [
+					"\"Freca, Lord of the West March"
+				],
 				"unlimited": true,
 				"hideStats": true,
 				"points": 250,
