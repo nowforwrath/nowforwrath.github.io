@@ -19341,6 +19341,7 @@
 						"heroicTier": "Minor Hero"
 					}
 				],
+				"type": "siegeEngine",
 				"unlimited": true,
 				"includes": [
 					{
@@ -43862,6 +43863,9 @@
 				],
 				"baseSize": [
 					"50mm"
+				],
+				"keywords": [
+					"Siege Engine"
 				],
 				"specialRules": [
 					"Direct Shot",
