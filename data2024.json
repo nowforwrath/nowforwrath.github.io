@@ -28948,8 +28948,8 @@
 						"heroicTier": "Minor Hero"
 					}
 				],
-				"unavaialbleWith": [
-					"\"Freca, Lord of the West March"
+				"unavailableWith": [
+					"Freca, Lord of the West March"
 				],
 				"unlimited": true,
 				"hideStats": true,
@@ -45827,7 +45827,7 @@
 			{
 				"name": "Woodland Creature",
 				"tag": "Active",
-				"definition": "A model with this special rule may Move through woods and forests that are classed as Difficult Terrain as if they are Open Ground. If a Cavalry model has this special rule, but their Mount does not, then this rule does not apply to the Mount. If a Mount has this special rule, then they will still gain their Cavalry Charge bonuses when they Charge, even if the rider does not have this special rule."
+				"definition": "A model with this special rule may Move through woods and forests that are classed as Difficult Terrain as if they are Open Ground. If a Cavalry model has this special rule, but their Mount does not, then this rule does not apply to the Mount. If a Mount has this special rule, then they will still gain their Cavalry Charge bonuses when they Charge, even if the rider does not have this special rule. This special rule may be used by models that are not yet on the battlefield."
 			},
 			{
 				"name": "Orcish Brawler",
@@ -45896,7 +45896,7 @@
 			{
 				"name": "Swift Movement",
 				"tag": "Active",
-				"definition": "A model with this special rule is never slowed by Difficult Terrain, with the exception of water features. It can also ignore Obstacles as it Moves, allowing it to Move at any angle without having to make a Climb or Jump Test, though it will still count any vertical distance it has Moved towards its Move Value.\n                A model with this special rule must finish its Move as flat to the playing surface as possible - no models finishing upside down, halfway up a wall, or at an angle, for example!"
+				"definition": "A model with this special rule is never slowed by Difficult Terrain, with the exception of water features. It can also ignore Obstacles as it Moves, allowing it to Move at any angle without having to make a Climb or Jump Test, though it will still count any vertical distance it has Moved towards its Move Value.\n                A model with this special rule must finish its Move as flat to the playing surface as possible - no models finishing upside down, halfway up a wall, or at an angle, for example! This special rule may be used by models that are not yet on the battlefield."
 			},
 			{
 				"name": "Venom",
@@ -46120,7 +46120,7 @@
 			{
 				"name": "Spectral Walk",
 				"tag": "Passive",
-				"definition": "A model with this special rule is never slowed by Difficult Terrain. Additionally, a model with this special rule always counts as rolling a 6 for any Climb, Jump, Leap or Swim Tests."
+				"definition": "A model with this special rule is never slowed by Difficult Terrain. Additionally, a model with this special rule always counts as rolling a 6 for any Climb, Jump, Leap or Swim Tests. This special rule may be used by models that are not yet on the battlefield."
 			},
 			{
 				"name": "The Dead and the Living",
@@ -46238,7 +46238,7 @@
 			{
 				"name": "Cave Dweller",
 				"tag": "Active",
-				"definition": "A model with this special rule applies a +1 modifier to any Jump, Leap and Climb tests they take. Additionally, a model with this special rule suffers no penalties to how far they can see when fighting in the dark."
+				"definition": "A model with this special rule applies a +1 modifier to any Jump, Leap and Climb tests they take. Additionally, a model with this special rule suffers no penalties to how far they can see when fighting in the dark. This special rule may be used by models that are not yet on the battlefield."
 			},
 			{
 				"name": "Dominant (2)",
@@ -46695,7 +46695,7 @@
 			{
 				"name": "Fly",
 				"tag": "Active",
-				"definition": "A model with this special rule ignores intervening models and terrain when it Moves - flying over buildings, woods and so on, and ignoring the vertical distance as they Move. A model that Moves in this way cannot end its Move overlapping another model, within a piece of woodland terrain, or upon any surface in which it cannot balance safely (flat rock and hills are fine, but don't try perching a model upon a sloped roof for example). Additionally, a model that Moves in this way cannot finish its Move atop a piece of terrain which it is impossible for the enemy to reach, such as at the top of a sheer rock face with no way up, or straddling one or more pieces of terrain that would allow other models to Move underneath.\n                If a model wishes to do something part way through its Move whilst it is Flying (such as Cast a Magical Power), then it must land in order to do so. When a model lands, there cannot be any models underneath it, and if it lands in an enemy model's Control Zone then it must Charge that enemy model.\n                A model with this special rule can choose not to Fly, and in which case will treat its Move Value as 4\" rather than that listed in its profile (usually 12\"). lf it does, then it gains none of the benefits of the Fly special rule, though it may enter a piece of woodland terrain; however, if it enters a piece of woodland terrain, it cannot elect to Fly again until it has completely left the woods.\n                A model that chooses to Fly will ignore enemy Control Zones as it Moves. A model that wishes to Charge when it is flying can Charge any model whose Control Zone it finishes its Move in. If a Flying model wishes to Charge a model that is already Engaged in Combat (or has otherwise lost their Control Zone) then it can only do so if it can land in a position where is is not within the Control Zones of other enemy models."
+				"definition": "A model with this special rule ignores intervening models and terrain when it Moves - flying over buildings, woods and so on, and ignoring the vertical distance as they Move. A model that Moves in this way cannot end its Move overlapping another model, within a piece of woodland terrain, or upon any surface in which it cannot balance safely (flat rock and hills are fine, but don't try perching a model upon a sloped roof for example). Additionally, a model that Moves in this way cannot finish its Move atop a piece of terrain which it is impossible for the enemy to reach, such as at the top of a sheer rock face with no way up, or straddling one or more pieces of terrain that would allow other models to Move underneath.\n                If a model wishes to do something part way through its Move whilst it is Flying (such as Cast a Magical Power), then it must land in order to do so. When a model lands, there cannot be any models underneath it, and if it lands in an enemy model's Control Zone then it must Charge that enemy model.\n                A model with this special rule can choose not to Fly, and in which case will treat its Move Value as 4\" rather than that listed in its profile (usually 12\"). lf it does, then it gains none of the benefits of the Fly special rule, though it may enter a piece of woodland terrain; however, if it enters a piece of woodland terrain, it cannot elect to Fly again until it has completely left the woods.\n                A model that chooses to Fly will ignore enemy Control Zones as it Moves. A model that wishes to Charge when it is flying can Charge any model whose Control Zone it finishes its Move in. If a Flying model wishes to Charge a model that is already Engaged in Combat (or has otherwise lost their Control Zone) then it can only do so if it can land in a position where is is not within the Control Zones of other enemy models.\n                This special rule may be used by models that are not yet on the battlefield."
 			},
 			{
 				"name": "Fleetfoot",
@@ -47152,7 +47152,7 @@
 			{
 				"name": "Mountain Dweller",
 				"tag": "Active",
-				"definition": "A model with this special rule may Move through areas of rocky terrain that are classed as Difficult Terrain as if they are Open Ground. If a Cavalry model has this special rule, but their Mount does not, then this rule does not apply to the Mount. If a Mount has this special rule, then they will still gain their Cavalry Charge bonuses when they Charge, even If the rider does not have this special rule. Additionally, a model with this special rule may re-roll any Jump, Leap or Climb Tests."
+				"definition": "A model with this special rule may Move through areas of rocky terrain that are classed as Difficult Terrain as if they are Open Ground. If a Cavalry model has this special rule, but their Mount does not, then this rule does not apply to the Mount. If a Mount has this special rule, then they will still gain their Cavalry Charge bonuses when they Charge, even If the rider does not have this special rule. Additionally, a model with this special rule may re-roll any Jump, Leap or Climb Tests. This special rule may be used by models that are not yet on the battlefield."
 			},
 			{
 				"name": "Imposing Presence",
