@@ -43271,6 +43271,16 @@
 						"stat": "defence",
 						"modifier": 2
 					}
+				],
+				"replaceProperties": [
+					[
+						{
+							"property": "wargear",
+							"value": [
+								"Hand weapon"
+							]
+						}
+					]
 				]
 			},
 			{
