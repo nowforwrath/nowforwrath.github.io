@@ -6319,7 +6319,8 @@
         "exhausts": null,
         "unique": true,
         "availableIn": [4551],
-        "factions": [1, 2, 4, 5, 9]
+        "factions": [1, 2, 4, 5, 9],
+        "replaceTier": 1
       },
       {
         "id": 3668,
@@ -7903,7 +7904,7 @@
             "rank": 1
           }
         ],
-        "upgradeTypes": [5, 5, 9, 10, 2],
+        "upgradeTypes": [5, 9, 10, 2],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/4.webp?version=8",
         "keywords": [2, 1, 4, 6, 8, 87, 202, 207, 205],
         "figures": 1,
@@ -8344,7 +8345,7 @@
           },
           {
             "id": 7,
-            "rank": 3
+            "rank": 2
           },
           {
             "id": 19,
@@ -8532,7 +8533,7 @@
           },
           {
             "id": 7,
-            "rank": 3
+            "rank": 2
           }
         ],
         "upgradeTypes": [4, 10, 6, 2, 12, 3, {
@@ -9010,7 +9011,7 @@
             "rank": 1
           }
         ],
-        "upgradeTypes": [9, 9, 10, 2, 12],
+        "upgradeTypes": [9, 9, 10, 2],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/45.webp?version=8",
         "keywords": [70, 51, 41, 87, 4, 162, 202, 207],
         "figures": 1,
@@ -9325,7 +9326,7 @@
             "rank": 1
           }
         ],
-        "upgradeTypes": [9, 10, 10, 2, 12, 15, {
+        "upgradeTypes": [9, 10, 10, 2, 15, {
             "id": 6,
             "unlockedBy": 167
           }
@@ -9377,7 +9378,7 @@
             "rank": 6
           }
         ],
-        "upgradeTypes": [9, 10, 2, 12],
+        "upgradeTypes": [9, 10, 2],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/60.webp?version=8",
         "keywords": [50, 107, 6, 7, 8],
         "figures": 1,
@@ -9438,7 +9439,7 @@
           },
           {
             "id": 15,
-            "rank": 3
+            "rank": 2
           }
         ],
         "upgradeTypes": [4, 10, 6, 12, 3, {
@@ -9966,7 +9967,7 @@
           },
           {
             "id": 21,
-            "rank": 3
+            "rank": 2
           }
         ],
         "upgradeTypes": [4, 10, 10, 2, 3],
@@ -11305,7 +11306,7 @@
         "factions": [
           {
             "id": 20,
-            "rank": 3
+            "rank": 2
           }
         ],
         "upgradeTypes": [4, 10, 3],
