@@ -34624,6 +34624,11 @@
 				"factions": [
 					"Breaking of the Fellowship"
 				],
+				"unavailableIn": [
+					[
+						"Haldir, Galadhrim Captain"
+					]
+				],
 				"unique": true,
 				"points": 100,
 				"movement": 5,
@@ -34693,6 +34698,11 @@
 				"name": "Legolas Greenleaf",
 				"factions": [
 					"Breaking of the Fellowship"
+				],
+				"unavailableIn": [
+					[
+						"Haldir, Galadhrim Captain"
+					]
 				],
 				"unique": true,
 				"points": 100,
@@ -34764,6 +34774,11 @@
 				"name": "Boromir of Gondor",
 				"factions": [
 					"Breaking of the Fellowship"
+				],
+				"unavailableIn": [
+					[
+						"Haldir, Galadhrim Captain"
+					]
 				],
 				"unique": true,
 				"points": 95,
@@ -35037,6 +35052,11 @@
 					"Road to Rivendell",
 					"Breaking of the Fellowship"
 				],
+				"unavailableIn": [
+					[
+						"Haldir, Galadhrim Captain"
+					]
+				],
 				"unique": true,
 				"points": 40,
 				"movement": 4,
@@ -35106,6 +35126,11 @@
 				"factions": [
 					"Road to Rivendell",
 					"Breaking of the Fellowship"
+				],
+				"unavailableIn": [
+					[
+						"Haldir, Galadhrim Captain"
+					]
 				],
 				"unique": true,
 				"points": 55,
@@ -36559,6 +36584,11 @@
 					"Road to Rivendell",
 					"Breaking of the Fellowship"
 				],
+				"unavailableIn": [
+					[
+						"Haldir, Galadhrim Captain"
+					]
+				],
 				"unique": true,
 				"points": 10,
 				"movement": 4,
@@ -36626,6 +36656,11 @@
 					"The Shire",
 					"Road to Rivendell",
 					"Breaking of the Fellowship"
+				],
+				"unavailableIn": [
+					[
+						"Haldir, Galadhrim Captain"
+					]
 				],
 				"unique": true,
 				"points": 10,
