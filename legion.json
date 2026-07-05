@@ -9,6 +9,43 @@
   "disallowMultipleFactions": true,
   "singleFaction": true,
   "usesIds": true,
+  "usesBuiltInUnitImages": true,
+  "imagePrintView": {
+    "nestableChildren": [
+      {
+        "propertyName": "upgrades",
+        "label": "Nest upgrades"
+      }
+    ],
+    "textChildren": [
+      {
+        "propertyName": "keywords",
+        "label": "Keywords",
+        "checkboxLabel": "Keyword definitions"
+      }
+    ],
+    "printSizes": {
+      "default": {
+        "height": "3.5in"
+      },
+      "byDataSource": {
+        "units": {
+          "height": "3.5in",
+          "width": "4.75in"
+        },
+        "upgrades": {
+          "height": "3.5in",
+          "width": "2.25in"
+        }
+      }
+    },
+    "layoutDefaults": {
+      "horizontalGapPx": 10,
+      "verticalGapPx": 14,
+      "showDividingLines": true,
+      "printTextChildren": true
+    }
+  },
   "stats": [
     {
       "name": "Health",
