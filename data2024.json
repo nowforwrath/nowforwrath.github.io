@@ -2738,7 +2738,7 @@
 				"alignment": "good",
 				"additionalRules": [
 					"A Fords of Isen Army must always contain Theodred, who is always the Army's General.",
-					"A Fords of Isen army may have up to 50% of its Warrior models armed with throwing spears rather than the usual 50%."
+					"A Fords of Isen army may have up to 50% of its Warrior models armed with throwing spears rather than the usual 33%."
 				],
 				"armyBonuses": [
 					"Protect the Prince",
