@@ -558,7 +558,7 @@
         "exhausts": null,
         "unique": false,
         "factions": [1],
-        "requiresTier": 2
+        "requiresTier": [2]
       },
       {
         "id": 960,
@@ -701,7 +701,7 @@
         "exhausts": null,
         "unique": true,
         "factions": [2, 10],
-        "requiresTier": 2,
+        "requiresTier": [2, 3],
         "chooseOneKey": "leader"
       },
       {
@@ -817,7 +817,7 @@
         "exhausts": null,
         "unique": false,
         "factions": [1],
-        "requiresTier": 2
+        "requiresTier": [2]
       },
       {
         "id": 20,
@@ -1279,7 +1279,7 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": true,
-        "requiresTier": 2,
+        "requiresTier": [2],
         "chooseOneKey": "leader",
         "factions": [1, 2, 4, 5, 12]
       },
@@ -1445,7 +1445,7 @@
         "exhausts": null,
         "unique": true,
         "factions": [1],
-        "requiresTier": 2,
+        "requiresTier": [2],
         "chooseOneKey": "leader"
       },
       {
@@ -1645,7 +1645,7 @@
         "exhausts": null,
         "unique": true,
         "factions": [4, 16],
-        "requiresTier": 2,
+        "requiresTier": [2],
         "chooseOneKey": "leader"
       },
       {
@@ -1705,7 +1705,7 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": false,
-        "requiresTier": 2,
+        "requiresTier": [2],
         "requiredProperties": [
           [
             {
@@ -1726,7 +1726,7 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": false,
-        "requiresTier": 2,
+        "requiresTier": [2],
         "requiredProperties": [
           [
             {
@@ -1781,7 +1781,7 @@
         "exhausts": null,
         "unique": false,
         "factions": [4],
-        "requiresTier": 5
+        "requiresTier": [5]
       },
       {
         "id": 16567,
@@ -2114,7 +2114,7 @@
         "unique": true,
         "availableIn": [78, 79],
         "factions": [2],
-        "requiresTier": 2
+        "requiresTier": [2]
       },
       {
         "id": 47,
@@ -3170,7 +3170,7 @@
         "exhausts": null,
         "unique": null,
         "factions": [6],
-        "requiresTier": 5,
+        "requiresTier": [5],
         "requiredProperties": [
           {
             "property": "affiliation",
@@ -3294,7 +3294,7 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": true,
-        "requiresTier": 5,
+        "requiresTier": [5],
         "factions": [1, 2, 4, 5, 14, 9],
         "requiredProperties": [
           {
@@ -3415,7 +3415,7 @@
         "unique": true,
         "availableIn": [78, 79],
         "factions": [2],
-        "requiresTier": 2,
+        "requiresTier": [2],
         "chooseOneKey": "leader"
       },
       {
@@ -3456,7 +3456,7 @@
         "exhausts": null,
         "unique": true,
         "factions": [2],
-        "requiresTier": 5,
+        "requiresTier": [5],
         "tierCounting": {
           "waivesMinimum": {
             "tiers": [1]
@@ -3865,7 +3865,7 @@
         "exhausts": null,
         "unique": false,
         "factions": [2],
-        "requiresTier": 2
+        "requiresTier": [2]
       },
       {
         "id": 19896,
@@ -4038,7 +4038,7 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": false,
-        "requiresTier": 3,
+        "requiresTier": [3],
         "chooseOneKey": "leader"
       },
       {
@@ -4219,7 +4219,7 @@
         "exhausts": null,
         "unique": true,
         "factions": [5, 20],
-        "requiresTier": 2,
+        "requiresTier": [2],
         "unavailableIn": [
           [19103]
         ],
@@ -5209,7 +5209,10 @@
         "exhausts": null,
         "unique": true,
         "factions": [6, 14, 9],
-        "requiresTier": 5,
+        "requiresTier": [5],
+        "poolBonuses": [
+          "extraMercenary"
+        ],
         "tierCounting": {
           "waivesMinimum": {
             "tiers": [1]
@@ -5241,7 +5244,7 @@
         "exhausts": null,
         "unique": false,
         "factions": [1],
-        "requiresTier": 2
+        "requiresTier": [2]
       },
       {
         "id": 16576,
@@ -5268,7 +5271,7 @@
         "exhausts": null,
         "unique": false,
         "factions": [1],
-        "requiresTier": 2
+        "requiresTier": [2]
       },
       {
         "id": 12,
@@ -5678,7 +5681,7 @@
         "exhaustsPerTurn": null,
         "exhausts": true,
         "unique": false,
-        "requiresTier": 1
+        "requiresTier": [1, 6]
       },
       {
         "id": 21915,
@@ -5746,7 +5749,7 @@
         "exhausts": null,
         "unique": true,
         "factions": [1],
-        "requiresTier": 5,
+        "requiresTier": [5],
         "tierCounting": {
           "waivesMinimum": {
             "tiers": [1]
@@ -6024,7 +6027,7 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": true,
-        "requiresTier": 6,
+        "requiresTier": [6],
         "factions": [1, 2, 4, 5, 21, 12, 7, 20]
       },
       {
@@ -6041,19 +6044,6 @@
         "availableIn": [31667, 31668]
       },
       {
-        "id": 2719,
-        "name": "Super Commando Gunslinger",
-        "points": 28,
-        "type": 4,
-        "keywords": [223],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/2719.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": false,
-        "availableIn": [4767]
-      },
-      {
         "id": 22600,
         "name": "Super Commando Gunslinger",
         "points": 30,
@@ -6065,6 +6055,19 @@
         "exhausts": null,
         "unique": null,
         "availableIn": [34890]
+      },
+      {
+        "id": 2719,
+        "name": "Super Commando Gunslinger",
+        "points": 28,
+        "type": 4,
+        "keywords": [223],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/2719.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": false,
+        "availableIn": [4767]
       },
       {
         "id": 22601,
@@ -6300,7 +6303,10 @@
         "exhausts": null,
         "unique": true,
         "availableIn": [33771],
-        "factions": [8]
+        "factions": [8],
+        "poolBonuses": [
+          "extraMercenary"
+        ]
       },
       {
         "id": 22610,
@@ -6356,8 +6362,8 @@
         "exhausts": null,
         "unique": true,
         "availableIn": [4551],
-        "factions": [1, 2, 4, 5, 9],
-        "replaceTier": 1
+        "replaceTier": 1,
+        "factions": [1, 2, 4, 5, 9]
       },
       {
         "id": 3668,
@@ -6618,7 +6624,10 @@
         "limit": null,
         "exhaustsPerTurn": null,
         "exhausts": null,
-        "unique": null
+        "unique": null,
+        "poolBonuses": [
+          "extraMercenary"
+        ]
       },
       {
         "id": 210,
@@ -6718,7 +6727,7 @@
         "exhausts": null,
         "unique": false,
         "factions": [4],
-        "requiresTier": 5
+        "requiresTier": [5]
       },
       {
         "id": 20285,
@@ -6807,7 +6816,7 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": true,
-        "requiresTier": 2,
+        "requiresTier": [2],
         "chooseOneKey": "leader",
         "factions": [1, 2, 4, 5, 12]
       },
