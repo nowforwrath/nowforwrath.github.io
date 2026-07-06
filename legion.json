@@ -419,6 +419,7 @@
           "dataSource": "commands",
           "label": "Commands",
           "type": "main",
+          "excludeFromModelCount": true,
           "hiddenBeforeGame": true,
           "excludeFromFactionPreview": true,
           "tierProperty": "pips",
@@ -457,6 +458,7 @@
           "dataSource": "deployments",
           "label": "Objectives",
           "type": "main",
+          "excludeFromModelCount": true,
           "ignoreFactionFilter": true,
           "excludeFromFactionPreview": true,
           "excludeFromTiers": true,
@@ -474,6 +476,7 @@
           "dataSource": "objectives",
           "label": "Secondary Objectives",
           "type": "main",
+          "excludeFromModelCount": true,
           "ignoreFactionFilter": true,
           "excludeFromFactionPreview": true,
           "excludeFromTiers": true,
@@ -491,6 +494,7 @@
           "dataSource": "conditions",
           "label": "Advantages",
           "type": "main",
+          "excludeFromModelCount": true,
           "excludeFromTiers": true,
           "ignoreFactionFilter": true,
           "excludeFromFactionPreview": true,
@@ -2257,8 +2261,7 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": false,
-        "availableIn": [6],
-        "factions": [1]
+        "availableIn": [6]
       },
       {
         "id": 19835,
@@ -5097,8 +5100,7 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": false,
-        "availableIn": [13, 14, 25979],
-        "factions": [1]
+        "availableIn": [13, 14, 25979]
       },
       {
         "id": 20280,
@@ -8538,6 +8540,7 @@
         "unlimited": false,
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/units-new/portraits/25.webp",
         "quantityLimitedBy": [],
+        "unavailableWith": ["1565", "15969"],
         "faction": 1,
         "unitType": 1,
         "health": 9,
