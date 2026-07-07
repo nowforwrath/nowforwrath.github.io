@@ -5660,6 +5660,7 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": true,
+        "factions": [4],
         "chooseOneKey": "leader"
       },
       {
