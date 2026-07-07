@@ -45155,7 +45155,7 @@
 			{
 				"name": "Whips of the Master",
 				"tag": "Active",
-				"definition": "Standing behind allied lines, Taskmasters will bellow out commands and use their whips to drive their followers into battle.\n        \n        Whenever a friendly Hero model within 6\" declares a Heroic Move, Heroic March or Heroic Shoot, roll a D6. On a 4+, the Hero does not spend the Might Point and the Heroic Action is free."
+				"definition": "Whenever a friendly Hero model within 6\" declares a Heroic Move, Heroic March or Heroic Shoot, roll a D6. On a 4+, the Hero does not spend the Might Point and the Heroic Action is free."
 			},
 			{
 				"name": "Sing a Jolly Song (Tom)",
