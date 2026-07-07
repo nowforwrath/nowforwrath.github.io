@@ -71,6 +71,23 @@
   },
   "scenarioPools": [
     {
+      "key": "objective",
+      "label": "Objective",
+      "required": true,
+      "options": [
+       "Breakthrough",
+        "Bunker Assault",
+        "Cauldron",
+        "Close the Pocket",
+        "Contact, Contact!",
+        "Intercept Signals",
+        "Outflank",
+        "Payload",
+        "Recover the Research",
+        "Shifting Priorities"
+      ]
+    },
+    {
       "key": "secondaryObjective",
       "label": "Secondary Objective",
       "required": true,
@@ -107,23 +124,6 @@
         "Rapid Deployment",
         "Scrambled Orders",
         "Strafing Run"
-      ]
-    },
-    {
-      "key": "objective",
-      "label": "Objective",
-      "required": true,
-      "options": [
-       "Breakthrough",
-        "Bunker Assault",
-        "Cauldron",
-        "Close the Pocket",
-        "Contact, Contact!",
-        "Intercept Signals",
-        "Outflank",
-        "Payload",
-        "Recover the Research",
-        "Shifting Priorities"
       ]
     }
   ],
@@ -3450,7 +3450,10 @@
         "exhausts": null,
         "unique": true,
         "availableIn": [6178, 6179, 34881],
-        "factions": [1]
+        "factions": [1],
+        "unavailableWith": [
+          "22586"
+        ]
       },
       {
         "id": 22586,
@@ -3464,6 +3467,9 @@
         "exhausts": null,
         "unique": true,
         "availableIn": [6178, 6179, 34881],
+        "unavailableWith": [
+          "3649"
+        ],
         "factions": [1, 2, 4, 5, 8]
       },
       {
@@ -4010,6 +4016,9 @@
         "exhausts": null,
         "unique": true,
         "availableIn": [31842, 31843],
+        "unavailableWith": [
+          "18478"
+        ],
         "factions": [1, 2, 4, 5, 21, 12]
       },
       {
@@ -4175,6 +4184,9 @@
         "exhausts": null,
         "unique": true,
         "availableIn": [19077],
+        "unavailableWith": [
+          "20803"
+        ],
         "unavailableIn": [
           [19103]
         ],
@@ -4194,6 +4206,9 @@
         "unique": true,
         "factions": [5, 20],
         "requiresTier": [2],
+        "unavailableWith": [
+          "20841"
+        ],
         "unavailableIn": [
           [19103]
         ],
@@ -5341,6 +5356,9 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": true,
+        "unavailableWith": [
+          "2718"
+        ],
         "factions": [1, 2, 4, 5, 8],
         "requiredProperties": [
           {
@@ -5361,6 +5379,9 @@
         "exhausts": null,
         "unique": true,
         "availableIn": [4767],
+        "unavailableWith": [
+          "22593"
+        ],
         "factions": [1, 2, 4, 5, 8, 9]
       },
       {
@@ -6208,6 +6229,12 @@
         "exhausts": null,
         "unique": true,
         "availableIn": [33, 34887],
+        "unavailableWith": [
+          "22612",
+          "6132",
+          "22610",
+          "22611"
+        ],
         "factions": [1, 2, 4, 5, 8]
       },
       {
@@ -6223,6 +6250,12 @@
         "unique": true,
         "availableIn": [33771],
         "factions": [8],
+        "unavailableWith": [
+          "71",
+          "6132",
+          "22610",
+          "22611"
+        ],
         "poolBonuses": [
           "extraMercenary"
         ]
@@ -6239,6 +6272,12 @@
         "exhausts": null,
         "unique": true,
         "availableIn": [11258],
+        "unavailableWith": [
+          "71",
+          "22612",
+          "22610",
+          "22611"
+        ],
         "factions": [1, 2, 4, 5, 8, 7]
       },
       {
@@ -6253,6 +6292,12 @@
         "exhausts": null,
         "unique": true,
         "availableIn": [34888],
+        "unavailableWith": [
+          "71",
+          "22612",
+          "6132",
+          "22611"
+        ],
         "factions": [1, 2, 4, 5, 8, 9]
       },
       {
@@ -6267,6 +6312,12 @@
         "exhausts": null,
         "unique": true,
         "availableIn": [6179, 34881],
+        "unavailableWith": [
+          "71",
+          "22612",
+          "6132",
+          "22610"
+        ],
         "factions": [1, 2, 4, 5, 8, 9]
       },
       {
@@ -6350,6 +6401,9 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": true,
+        "unavailableWith": [
+          "177"
+        ],
         "factions": [1, 2, 4, 5, 8],
         "requiredProperties": [
           [
@@ -6372,6 +6426,9 @@
         "exhausts": null,
         "unique": true,
         "availableIn": [71, 72],
+        "unavailableWith": [
+          "22608"
+        ],
         "factions": [1, 2, 4, 5, 8]
       },
       {
@@ -6610,6 +6667,9 @@
         "exhausts": null,
         "unique": true,
         "availableIn": [71, 72],
+        "unavailableWith": [
+          "22650"
+        ],
         "factions": [1, 2, 4, 5, 8]
       },
       {
@@ -6623,6 +6683,9 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": true,
+        "unavailableWith": [
+          "178"
+        ],
         "chooseOneKey": "leader",
         "factions": [1, 2, 4, 5, 8],
         "requiredProperties": [
@@ -7845,6 +7908,9 @@
         "health": 8,
         "courage": 0,
         "speed": 2,
+        "unavailableWith": [
+          "47"
+        ],
         "tierCounting": {
           "exempt": {
             "whenArmyIncludes": "32589",
@@ -7878,7 +7944,11 @@
         "unitType": 1,
         "health": 6,
         "courage": 3,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "46",
+          "32593"
+        ]
       },
       {
         "name": "Stormtroopers",
@@ -8270,7 +8340,10 @@
         "unitType": 1,
         "health": 6,
         "courage": 2,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "32594"
+        ]
       },
       {
         "name": "Boba Fett",
@@ -8294,7 +8367,11 @@
         "unitType": 9,
         "health": 5,
         "courage": 3,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "5000",
+          "6176"
+        ]
       },
       {
         "name": "Scout Troopers",
@@ -8454,12 +8531,15 @@
         "unlimited": false,
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/units-new/portraits/25.webp",
         "quantityLimitedBy": [],
-        "unavailableWith": ["1565", "15969"],
         "faction": 1,
         "unitType": 1,
         "health": 9,
         "courage": 2,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "1565",
+          "15969"
+        ]
       },
       {
         "name": "Director Orson Krennic",
@@ -8605,7 +8685,10 @@
         "unitType": 9,
         "health": 5,
         "courage": 2,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "34887"
+        ]
       },
       {
         "name": "Bossk",
@@ -8629,7 +8712,10 @@
         "unitType": 1,
         "health": 7,
         "courage": 2,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "4999"
+        ]
       },
       {
         "name": "Tauntaun Riders",
@@ -8986,7 +9072,10 @@
         "unitType": 1,
         "health": 8,
         "courage": 2,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "32232"
+        ]
       },
       {
         "name": "Luke Skywalker",
@@ -9010,7 +9099,11 @@
         "unitType": 1,
         "health": 7,
         "courage": 4,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "4",
+          "32593"
+        ]
       },
       {
         "name": "Darth Vader",
@@ -9034,7 +9127,10 @@
         "unitType": 1,
         "health": 6,
         "courage": 3,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "3"
+        ]
       },
       {
         "name": "DF-90 Mortar Trooper",
@@ -9253,7 +9349,10 @@
         "unitType": 6,
         "health": 4,
         "courage": 2,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "56"
+        ]
       },
       {
         "name": "R2-D2",
@@ -9277,7 +9376,10 @@
         "unitType": 6,
         "health": 4,
         "courage": 2,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "55"
+        ]
       },
       {
         "name": "Iden Versio",
@@ -9329,7 +9431,10 @@
         "unitType": 1,
         "health": 6,
         "courage": 3,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "5001"
+        ]
       },
       {
         "name": "Padme Amidala",
@@ -9513,7 +9618,10 @@
         "unitType": 1,
         "health": 6,
         "courage": 3,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "33769"
+        ]
       },
       {
         "name": "Maul",
@@ -9541,7 +9649,10 @@
         "unitType": 1,
         "health": 6,
         "courage": 3,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "4551"
+        ]
       },
       {
         "name": "Clone Commander",
@@ -9973,7 +10084,11 @@
         "unitType": 1,
         "health": 9,
         "courage": 2,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "25",
+          "15969"
+        ]
       },
       {
         "name": "IG-100 MagnaGuard",
@@ -10392,7 +10507,10 @@
         "unitType": 1,
         "health": 6,
         "courage": 3,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "74"
+        ]
       },
       {
         "name": "Black Sun Vigo",
@@ -10485,7 +10603,10 @@
         "unitType": 9,
         "health": 5,
         "courage": 2,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "34888"
+        ]
       },
       {
         "name": "A-A5 Speeder Truck",
@@ -10558,7 +10679,10 @@
         "unitType": 1,
         "health": 7,
         "courage": 2,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "34"
+        ]
       },
       {
         "name": "Boba Fett",
@@ -10588,7 +10712,11 @@
         "unitType": 9,
         "health": 5,
         "courage": 3,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "16",
+          "6176"
+        ]
       },
       {
         "name": "Cad Bane",
@@ -10632,7 +10760,10 @@
         "unitType": 1,
         "health": 6,
         "courage": 3,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "59"
+        ]
       },
       {
         "name": "Swoop Bike Riders",
@@ -10734,7 +10865,11 @@
         "unitType": 9,
         "health": 5,
         "courage": 3,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "16",
+          "5000"
+        ]
       },
       {
         "name": "IG-88",
@@ -10853,7 +10988,10 @@
         "unitType": 9,
         "health": 5,
         "courage": 3,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "34881"
+        ]
       },
       {
         "name": "Imperial Dark Troopers",
@@ -10995,7 +11133,10 @@
         "unitType": 1,
         "health": 6,
         "courage": 3,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "29671"
+        ]
       },
       {
         "name": "Wicket",
@@ -11135,6 +11276,10 @@
         "health": 11,
         "courage": 8,
         "speed": 2,
+        "unavailableWith": [
+          "25",
+          "1565"
+        ],
         "affiliation": "6"
       },
       {
@@ -11457,6 +11602,9 @@
         "health": 2,
         "courage": 3,
         "speed": 2,
+        "unavailableWith": [
+          "25086"
+        ],
         "requiredChildren": [
           {
             "id": 15011,
@@ -11608,6 +11756,9 @@
         "health": 2,
         "courage": 3,
         "speed": 2,
+        "unavailableWith": [
+          "23655"
+        ],
         "requiredChildren": [
           {
             "id": 15986,
@@ -12022,7 +12173,10 @@
         "unitType": 1,
         "health": 5,
         "courage": 2,
-        "speed": 3
+        "speed": 3,
+        "unavailableWith": [
+          "15014"
+        ]
       },
       {
         "name": "Hondo Ohnaka",
@@ -12087,7 +12241,10 @@
         "unitType": 1,
         "health": 5,
         "courage": 3,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "27"
+        ]
       },
       {
         "name": "Cassian Andor",
@@ -12111,7 +12268,10 @@
         "unitType": 1,
         "health": 6,
         "courage": 2,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "57"
+        ]
       },
       {
         "name": "Agent Kallus",
@@ -12135,7 +12295,10 @@
         "unitType": 1,
         "health": 5,
         "courage": 2,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "81"
+        ]
       },
       {
         "name": "K-2SO",
@@ -12165,6 +12328,9 @@
         "health": 5,
         "courage": 2,
         "speed": 2,
+        "unavailableWith": [
+          "68"
+        ],
         "tierCounting": {
           "ignoreMaximum": true,
           "ignoreMinimum": true
@@ -12544,7 +12710,10 @@
         "unitType": 3,
         "health": 8,
         "courage": 0,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "45"
+        ]
       },
       {
         "name": "Clone Trooper Marksmen",
@@ -12842,7 +13011,11 @@
         "unitType": 7,
         "health": 6,
         "courage": 2,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "4",
+          "46"
+        ]
       },
       {
         "name": "Han Solo",
@@ -12870,7 +13043,10 @@
         "unitType": 7,
         "health": 6,
         "courage": 2,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "15"
+        ]
       },
       {
         "name": "TSMEU-6 Wheel Bikes",
@@ -12983,7 +13159,10 @@
         "unitType": 2,
         "health": 6,
         "courage": null,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "73"
+        ]
       },
       {
         "name": "Axe Woves",
@@ -13471,7 +13650,10 @@
         "unitType": 1,
         "health": 6,
         "courage": 2,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "33793"
+        ]
       },
       {
         "name": "Savage Opress",
@@ -13495,7 +13677,10 @@
         "unitType": 1,
         "health": 6,
         "courage": 2,
-        "speed": 2
+        "speed": 2,
+        "unavailableWith": [
+          "33792"
+        ]
       },
       {
         "name": "Shaak Ti",
@@ -13680,6 +13865,9 @@
         "health": 5,
         "courage": 3,
         "speed": 2,
+        "unavailableWith": [
+          "6179"
+        ],
         "affiliation": "965"
       },
       {
@@ -13730,6 +13918,9 @@
         "health": 5,
         "courage": 2,
         "speed": 2,
+        "unavailableWith": [
+          "33"
+        ],
         "affiliation": "1082"
       },
       {
@@ -13755,6 +13946,9 @@
         "health": 5,
         "courage": 2,
         "speed": 2,
+        "unavailableWith": [
+          "4891"
+        ],
         "affiliation": "1083"
       },
       {
