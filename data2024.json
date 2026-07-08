@@ -43305,7 +43305,7 @@
 				"modifiesStats": [
 					{
 						"stat": "defence",
-						"modifier": 2
+						"modifier": 1
 					}
 				],
 				"replaceProperties": [
