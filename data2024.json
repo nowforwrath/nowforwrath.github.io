@@ -18416,7 +18416,6 @@
 						"name": "Exchange armour and bow for heavy armour",
 						"points": 0,
 						"elementPropertyName": "options",
-						"usesDefinition": "Heavy armour",
 						"in": [
 							[
 								"Minas Tirith"
