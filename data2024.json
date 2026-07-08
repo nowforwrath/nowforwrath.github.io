@@ -18441,7 +18441,6 @@
 					},
 					{
 						"name": "Exchange armour and bow for heavy armour",
-						"usesDefinition": "Heavy armour",
 						"points": 0,
 						"availableIn": [
 							"Minas Tirith"
