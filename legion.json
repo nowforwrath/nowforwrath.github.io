@@ -4643,6 +4643,7 @@
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/21907.webp?version=3",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/21907.webp?version=3",
         "limit": 1,
+        "factions": [1],
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": true,
