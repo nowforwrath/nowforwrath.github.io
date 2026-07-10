@@ -13871,12 +13871,21 @@
         "id": "32590",
         "unlimited": true,
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/units-new/portraits/32590.webp",
-        "quantityLimitedBy": [],
         "faction": 2,
         "unitType": 6,
         "health": 4,
         "courage": 1,
-        "speed": 2
+        "speed": 2,
+        "quantityLimitedBy": [
+          {
+            "tier": 3,
+            "ratio": 1
+          }
+        ],
+        "tierCounting": {
+          "ignoreMaximum": true,
+          "ignoreMinimum": true
+        }
       },
       {
         "name": "Weequay Pirates",
