@@ -403,7 +403,8 @@
               "labels": {
                 "15": "C",
                 "16": "E",
-                "17": "P"
+                "17": "P",
+                "22": "IM"
               },
               "icons": {
                 "1": "https://d26oqf9i6fvic.cloudfront.net/upgradetypes/1.webp?version=6",
@@ -1672,6 +1673,11 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
+        "unavailableWith": [
+          "Clan Wren",
+          "Clan Kryze",
+          "Clan Saxon"
+        ],
         "unavailableIn": [
           [33797],
           [33788],
@@ -1725,6 +1731,11 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
+        "unavailableWith": [
+          "Clan Wren",
+          "Clan Kryze",
+          "Clan Saxon"
+        ],
         "replaceProperties": [
           [
             {
@@ -1767,6 +1778,11 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
+        "unavailableWith": [
+          "Champion of the Watch",
+          "Clan Wren",
+          "Clan Saxon"
+        ],
         "replaceProperties": [
           [
             {
@@ -1796,6 +1812,11 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
+        "unavailableWith": [
+          "Champion of the Watch",
+          "Clan Wren",
+          "Clan Kryze"
+        ],
         "replaceProperties": [
           [
             {
@@ -1825,6 +1846,11 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
+        "unavailableWith": [
+          "Champion of the Watch",
+          "Clan Kryze",
+          "Clan Saxon"
+        ],
         "replaceProperties": [
           [
             {
@@ -3617,20 +3643,6 @@
         ]
       },
       {
-        "id": 22654,
-        "name": "GALAAR-90 Sniper Rifle",
-        "points": 5,
-        "type": 12,
-        "keywords": [8, 182, 207],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22654.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22654.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [33789, 33787]
-      },
-      {
         "id": 22419,
         "name": "GALAAR-90 Sniper Rifle",
         "points": 35,
@@ -3643,6 +3655,20 @@
         "exhausts": null,
         "unique": null,
         "availableIn": [33772, 33773, 33796, 34890]
+      },
+      {
+        "id": 22654,
+        "name": "GALAAR-90 Sniper Rifle",
+        "points": 5,
+        "type": 12,
+        "keywords": [8, 182, 207],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22654.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22654.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [33789, 33787]
       },
       {
         "id": 21339,
@@ -4643,11 +4669,11 @@
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/21907.webp?version=3",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/21907.webp?version=3",
         "limit": 1,
-        "factions": [1],
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": true,
         "availableIn": [33774, 13, 6],
+        "factions": [1],
         "unavailableWith": [
           "Jyn Erso"
         ],
@@ -5984,6 +6010,25 @@
         "availableIn": [31669, 31670]
       },
       {
+        "id": 2718,
+        "name": "Rook Kast",
+        "points": 35,
+        "type": 4,
+        "keywords": [145, 192],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/2718.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/2718.webp?version=3",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [4767],
+        "unavailableWith": [
+          "Rook Kast",
+          "22593"
+        ],
+        "factions": [1, 2, 4, 5, 8, 9]
+      },
+      {
         "id": 22593,
         "name": "Rook Kast",
         "points": 25,
@@ -6006,25 +6051,6 @@
             "value": 1083
           }
         ]
-      },
-      {
-        "id": 2718,
-        "name": "Rook Kast",
-        "points": 35,
-        "type": 4,
-        "keywords": [145, 192],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/2718.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/2718.webp?version=3",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [4767],
-        "unavailableWith": [
-          "Rook Kast",
-          "22593"
-        ],
-        "factions": [1, 2, 4, 5, 8, 9]
       },
       {
         "id": 18477,
@@ -7287,20 +7313,6 @@
         "availableIn": [2108]
       },
       {
-        "id": 16578,
-        "name": "Twin Blaster Cannons",
-        "points": 5,
-        "type": 8,
-        "keywords": [181],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/16578.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/16578.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": false,
-        "availableIn": [25966]
-      },
-      {
         "id": 964,
         "name": "Twin Blaster Cannons",
         "points": 25,
@@ -7313,6 +7325,20 @@
         "exhausts": null,
         "unique": false,
         "availableIn": [2108]
+      },
+      {
+        "id": 16578,
+        "name": "Twin Blaster Cannons",
+        "points": 5,
+        "type": 8,
+        "keywords": [181],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/16578.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/16578.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": false,
+        "availableIn": [25966]
       },
       {
         "id": 151,
@@ -7871,25 +7897,12 @@
         "name": "Mandalorian Clans",
         "id": 8,
         "alignment": "Mercenaries",
-        "showAllOptions": true,
         "rules": [
           "In a Mandalorian Clan, Mercenary units do count toward the minimum number of Ranks required and the army may include any number of Mercenaries at each Rank.",
           "All units included in this army must have the same Affiliation as at least 1 {{Commander}} or {{Operative}} unit in this army.",
           "During Setup, a player may choose to align their army with the Light Side or the Dark Side.",
           "During Army Building, if all your {{Commander}} and {{Operative}} units have the same Affiliation, your army gains that Affiliation's special rules:"
         ],
-        "propertyAnchorRules": {
-          "property": "affiliation",
-          "fallbackProperty": "faction",
-          "anchorRanks": [
-            1,
-            6
-          ],
-          "tierProperty": "rank",
-          "requireAllAnchorsUnified": true,
-          "requireEveryUnitMatchesAnchor": true,
-          "validationMessage": "Every unit must share an affiliation with a Commander or Operative in your army."
-        },
         "tierRequirements": {
           "standard": {
             "tiers": [
@@ -7930,37 +7943,27 @@
           {
             "name": "Clan Wren",
             "chooseOneKey": "a",
-            "requiresProperty": {
-              "value": 1082
-            }
+            "imageUrl": "https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/legion/images/wren.png"
           },
           {
             "name": "Children of the Watch",
             "chooseOneKey": "a",
-            "requiresProperty": {
-              "value": 965
-            }
+            "imageUrl": "https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/legion/images/children.png"
           },
           {
             "name": "Clan Kryze",
             "chooseOneKey": "a",
-            "requiresProperty": {
-              "value": 1081
-            }
+            "imageUrl": "https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/legion/images/kryze.png"
           },
           {
             "name": "Clan Saxon",
             "chooseOneKey": "a",
-            "requiresProperty": {
-              "value": 1083
-            }
+            "imageUrl": "https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/legion/images/saxon.png"
           },
           {
             "name": "Unaffiliated",
             "chooseOneKey": "a",
-            "requiresProperty": {
-              "value": 6
-            }
+            "imageUrl": "https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/legion/images/unaffiliated.png"
           },
           {
             "name": "Veterans",
@@ -9455,7 +9458,8 @@
           },
           {
             "id": 8,
-            "rank": 5
+            "rank": 5,
+            "unlockedBy": "toolsOfTrade"
           }
         ],
         "upgradeTypes": [7, 8, 6, 21],
@@ -9524,7 +9528,10 @@
         "speed": 2,
         "unavailableWith": [
           "Sabine Wren",
-          "34887"
+          "34887",
+          "Children of the Watch",
+          "Clan Saxon",
+          "Clan Kryze"
         ]
       },
       {
@@ -11484,7 +11491,10 @@
         "speed": 2,
         "unavailableWith": [
           "Gar Saxon",
-          "34888"
+          "34888",
+          "Children of the Watch",
+          "Clan Wren",
+          "Clan Kryze"
         ],
         "affiliation": "5"
       },
@@ -11499,7 +11509,8 @@
           },
           {
             "id": 8,
-            "rank": 5
+            "rank": 5,
+            "unlockedBy": "toolsOfTrade"
           }
         ],
         "upgradeTypes": [7, 8, 6, 13, 13],
@@ -11516,7 +11527,8 @@
         "health": 8,
         "courage": 6,
         "speed": 2,
-        "affiliation": "3"
+        "affiliation": "3",
+        "unavailableWith": ["Children of the Watch", "Clan Wren", "Clan Kryze", "Clan Saxon"]
       },
       {
         "name": "Bossk",
@@ -11891,7 +11903,10 @@
         "speed": 2,
         "unavailableWith": [
           "Din Djarin",
-          "34881"
+          "34881",
+          "Clan Wren",
+          "Clan Kryze",
+          "Clan Saxon"
         ]
       },
       {
@@ -13978,7 +13993,8 @@
           },
           {
             "id": 8,
-            "rank": 5
+            "rank": 5,
+            "unlockedBy": "toolsOfTrade"
           }
         ],
         "upgradeTypes": [7, 6, 13],
@@ -14236,7 +14252,10 @@
         "courage": 2,
         "speed": 3,
         "unavailableWith": [
-          "Axe Woves"
+          "Axe Woves",
+          "Children of the Watch",
+          "Clan Wren",
+          "Clan Saxon"
         ],
         "affiliation": "1081"
       },
@@ -14285,7 +14304,10 @@
         "courage": 3,
         "speed": 3,
         "unavailableWith": [
-          "Bo-Katan Kryze"
+          "Bo-Katan Kryze",
+          "Children of the Watch",
+          "Clan Wren",
+          "Clan Saxon"
         ],
         "affiliation": "1081"
       },
@@ -14566,6 +14588,26 @@
         "health": 5,
         "courage": 2,
         "speed": 3,
+        "requiredChildren": [
+          {
+            "id": 22595,
+            "with": "Clan Kryze",
+            "elementPropertyName": "upgrades",
+            "upgradeIndex": 6
+          },
+          {
+            "id": 22596,
+            "with": "Clan Wren",
+            "elementPropertyName": "upgrades",
+            "upgradeIndex": 6
+          },
+          {
+            "id": 22598,
+            "with": "Clan Saxon",
+            "elementPropertyName": "upgrades",
+            "upgradeIndex": 6
+          }
+        ],
         "affiliation": "1084"
       },
       {
@@ -14592,6 +14634,26 @@
         "health": 1,
         "courage": 1,
         "speed": 2,
+        "requiredChildren": [
+          {
+            "id": 22595,
+            "with": "Clan Kryze",
+            "elementPropertyName": "upgrades",
+            "upgradeIndex": 4
+          },
+          {
+            "id": 22596,
+            "with": "Clan Wren",
+            "elementPropertyName": "upgrades",
+            "upgradeIndex": 4
+          },
+          {
+            "id": 22598,
+            "with": "Clan Saxon",
+            "elementPropertyName": "upgrades",
+            "upgradeIndex": 4
+          }
+        ],
         "affiliation": "1084"
       },
       {
@@ -14627,6 +14689,26 @@
         "health": 5,
         "courage": 2,
         "speed": 3,
+        "requiredChildren": [
+          {
+            "id": 22595,
+            "with": "Clan Kryze",
+            "elementPropertyName": "upgrades",
+            "upgradeIndex": 7
+          },
+          {
+            "id": 22596,
+            "with": "Clan Wren",
+            "elementPropertyName": "upgrades",
+            "upgradeIndex": 7
+          },
+          {
+            "id": 22598,
+            "with": "Clan Saxon",
+            "elementPropertyName": "upgrades",
+            "upgradeIndex": 7
+          }
+        ],
         "affiliation": "1084"
       },
       {
@@ -14654,7 +14736,10 @@
         "courage": 3,
         "speed": 2,
         "unavailableWith": [
-          "Paz Viszla"
+          "Paz Viszla",
+          "Clan Wren",
+          "Clan Kryze",
+          "Clan Saxon"
         ],
         "affiliation": "965"
       },
@@ -14801,7 +14886,10 @@
         "courage": 3,
         "speed": 2,
         "unavailableWith": [
-          "The Armorer"
+          "The Armorer",
+          "Clan Wren",
+          "Clan Kryze",
+          "Clan Saxon"
         ],
         "affiliation": "965"
       },
@@ -14839,6 +14927,26 @@
         "health": 1,
         "courage": 1,
         "speed": 2,
+        "requiredChildren": [
+          {
+            "id": 22595,
+            "with": "Clan Kryze",
+            "elementPropertyName": "upgrades",
+            "upgradeIndex": 5
+          },
+          {
+            "id": 22596,
+            "with": "Clan Wren",
+            "elementPropertyName": "upgrades",
+            "upgradeIndex": 5
+          },
+          {
+            "id": 22598,
+            "with": "Clan Saxon",
+            "elementPropertyName": "upgrades",
+            "upgradeIndex": 5
+          }
+        ],
         "affiliation": "1084",
         "tierCounting": {
           "ignoreMaximum": true,
@@ -14869,6 +14977,26 @@
         "health": 1,
         "courage": 2,
         "speed": 2,
+        "requiredChildren": [
+          {
+            "id": 22595,
+            "with": "Clan Kryze",
+            "elementPropertyName": "upgrades",
+            "upgradeIndex": 6
+          },
+          {
+            "id": 22596,
+            "with": "Clan Wren",
+            "elementPropertyName": "upgrades",
+            "upgradeIndex": 6
+          },
+          {
+            "id": 22598,
+            "with": "Clan Saxon",
+            "elementPropertyName": "upgrades",
+            "upgradeIndex": 6
+          }
+        ],
         "affiliation": "1084"
       },
       {
@@ -14942,7 +15070,10 @@
         "speed": 2,
         "unavailableWith": [
           "Din Djarin",
-          "6179"
+          "6179",
+          "Clan Wren",
+          "Clan Kryze",
+          "Clan Saxon"
         ],
         "affiliation": "965"
       },
@@ -14971,7 +15102,10 @@
         "courage": 2,
         "speed": 3,
         "unavailableWith": [
-          "Rook Kast"
+          "Rook Kast",
+          "Children of the Watch",
+          "Clan Wren",
+          "Clan Kryze"
         ],
         "affiliation": "1083"
       },
@@ -15001,7 +15135,10 @@
         "speed": 2,
         "unavailableWith": [
           "Sabine Wren",
-          "33"
+          "33",
+          "Children of the Watch",
+          "Clan Saxon",
+          "Clan Kryze"
         ],
         "affiliation": "1082"
       },
@@ -15031,7 +15168,10 @@
         "speed": 2,
         "unavailableWith": [
           "Gar Saxon",
-          "4891"
+          "4891",
+          "Children of the Watch",
+          "Clan Wren",
+          "Clan Kryze"
         ],
         "affiliation": "1083"
       },
@@ -15070,7 +15210,10 @@
         "courage": 2,
         "speed": 2,
         "unavailableWith": [
-          "Ursa Wren"
+          "Ursa Wren",
+          "Children of the Watch",
+          "Clan Saxon",
+          "Clan Kryze"
         ],
         "affiliation": "1082"
       },
