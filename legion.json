@@ -183,7 +183,7 @@
     {
       "id": "recon",
       "label": "Recon",
-      "points": 500,
+      "points": 600,
       "tierRequirements": "recon"
     }
   ],
