@@ -1673,7 +1673,7 @@
         "keywords": [182, 223, 222],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/47.webp?version=3",
         "limit": null,
-        "availableIn": [14]
+        "availableIn": [14, 25979]
       },
       {
         "id": 22594,
@@ -1742,7 +1742,7 @@
         "keywords": [182, 223, 222],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/52.webp?version=3",
         "limit": null,
-        "availableIn": [26]
+        "availableIn": [26, 25981]
       },
       {
         "id": 15010,
