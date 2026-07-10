@@ -359,6 +359,7 @@
           "tierProperty": "rank",
           "tierData": "ranks",
           "tierFilterChips": true,
+          "groupArmyByTier": true,
           "groupFactionPreviewByTier": true,
           "tiers": [
             {
@@ -9459,7 +9460,7 @@
           {
             "id": 8,
             "rank": 5,
-            "unlockedBy": "toolsOfTrade"
+            "unlockedBy": "gunsForHire"
           }
         ],
         "upgradeTypes": [7, 8, 6, 21],
@@ -11510,7 +11511,7 @@
           {
             "id": 8,
             "rank": 5,
-            "unlockedBy": "toolsOfTrade"
+            "unlockedBy": "gunsForHire"
           }
         ],
         "upgradeTypes": [7, 8, 6, 13, 13],
@@ -13994,7 +13995,7 @@
           {
             "id": 8,
             "rank": 5,
-            "unlockedBy": "toolsOfTrade"
+            "unlockedBy": "gunsForHire"
           }
         ],
         "upgradeTypes": [7, 6, 13],
