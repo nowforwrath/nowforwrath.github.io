@@ -22967,7 +22967,7 @@
       {
         "id": 26,
         "name": "Impervious",
-        "definition": "While a unit with the Impervious keyword is defending, it rolls a number of extra defense dice during the Roll Defense Dice step equal to the total Pierce X value of weapons in the Attack Pool. If a unit with Impervious also has the Immune: Pierce keyword, then it does not roll extra defense dice for the Impervious keyword when defending against an attack with the Pierce X keyword."
+        "definition": "When an Attack Pool is being resolved against a unit with the Impervious keyword, at the start of the Modify Defense Dice step, reduce that Attack Pool's Pierce X keyword value by 1, to a minimum of 0."
       },
       {
         "id": 98,
