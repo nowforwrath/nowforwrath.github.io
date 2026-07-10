@@ -9459,8 +9459,7 @@
           },
           {
             "id": 8,
-            "rank": 5,
-            "unlockedBy": "gunsForHire"
+            "rank": 5
           }
         ],
         "upgradeTypes": [7, 8, 6, 21],
@@ -11510,8 +11509,7 @@
           },
           {
             "id": 8,
-            "rank": 5,
-            "unlockedBy": "gunsForHire"
+            "rank": 5
           }
         ],
         "upgradeTypes": [7, 8, 6, 13, 13],
@@ -11528,8 +11526,7 @@
         "health": 8,
         "courage": 6,
         "speed": 2,
-        "affiliation": "3",
-        "unavailableWith": ["Children of the Watch", "Clan Wren", "Clan Kryze", "Clan Saxon"]
+        "affiliation": "3"
       },
       {
         "name": "Bossk",
@@ -12549,7 +12546,13 @@
         "speed": 2,
         "unavailableWith": [
           "Seventh Sister"
-        ]
+        ],
+        "tierCounting": {
+          "exempt": {
+            "whenArmyIncludes": 19108,
+            "perSourceUnit": 1
+          }
+        }
       },
       {
         "name": "The Bad Batch",
@@ -13170,7 +13173,13 @@
         "unavailableWith": [
           "Ahsoka Tano",
           "15014"
-        ]
+        ],
+        "tierCounting": {
+          "exempt": {
+            "whenArmyIncludes": 73,
+            "perSourceUnit": 1
+          }
+        }
       },
       {
         "name": "Hondo Ohnaka",
@@ -13994,8 +14003,7 @@
           },
           {
             "id": 8,
-            "rank": 5,
-            "unlockedBy": "gunsForHire"
+            "rank": 5
           }
         ],
         "upgradeTypes": [7, 6, 13],
