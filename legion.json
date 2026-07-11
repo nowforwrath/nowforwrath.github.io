@@ -2702,7 +2702,55 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": false,
-        "availableIn": [5, 5880]
+        "availableIn": [5, 5880, {
+            "all": [
+              {
+                "in": 39,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 5,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 17,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 6180,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          }
+        ]
       },
       {
         "id": 52,
@@ -4334,7 +4382,55 @@
         "exhaustsPerTurn": false,
         "exhausts": null,
         "unique": false,
-        "availableIn": [5, 5880]
+        "availableIn": [5, 5880, {
+            "all": [
+              {
+                "in": 39,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 5,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 17,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 6180,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          }
+        ]
       },
       {
         "id": 153,
@@ -5331,7 +5427,55 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [6180]
+        "availableIn": [6180, {
+            "all": [
+              {
+                "in": 39,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 5,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 17,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 6180,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          }
+        ]
       },
       {
         "id": 22421,
@@ -6566,7 +6710,55 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": false,
-        "availableIn": [5, 5880]
+        "availableIn": [5, 5880, {
+            "all": [
+              {
+                "in": 39,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 5,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 17,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 6180,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          }
+        ]
       },
       {
         "id": 90,
@@ -6947,7 +7139,55 @@
         "exhaustsPerTurn": true,
         "exhausts": null,
         "unique": null,
-        "availableIn": [6180]
+        "availableIn": [6180, {
+            "all": [
+              {
+                "in": 39,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 5,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 17,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 6180,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          }
+        ]
       },
       {
         "id": 103,
@@ -7032,7 +7272,55 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": false,
-        "availableIn": [17, 26, 25981]
+        "availableIn": [17, 26, 25981, {
+            "all": [
+              {
+                "in": 39,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 5,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 17,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 6180,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          }
+        ]
       },
       {
         "id": 2610,
@@ -7353,7 +7641,55 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": false,
-        "availableIn": [39]
+        "availableIn": [39, {
+            "all": [
+              {
+                "in": 39,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 5,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 17,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 6180,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          }
+        ]
       },
       {
         "id": 182,
@@ -7381,7 +7717,55 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": false,
-        "availableIn": [5, 5880]
+        "availableIn": [5, 5880, {
+            "all": [
+              {
+                "in": 39,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 5,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 17,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 6180,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          }
+        ]
       },
       {
         "id": 21,
@@ -8403,7 +8787,55 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [6180]
+        "availableIn": [6180, {
+            "all": [
+              {
+                "in": 39,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 5,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 17,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "in": 6180,
+                "propertyName": "units"
+              },
+              {
+                "in": 7,
+                "propertyName": "factions"
+              }
+            ]
+          }
+        ]
       },
       {
         "id": 21726,
