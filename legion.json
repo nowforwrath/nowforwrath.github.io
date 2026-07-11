@@ -9286,6 +9286,10 @@
         "id": 12,
         "alignment": "Light",
         "parentFaction": "Galactic Republic",
+        "rules": [
+          "A 212th Attack Battalion Battle Force is part of the Galactic Republic Faction.",
+          "When an allied non-{{Commander}} non-{{Operative}} Vehicle unit is attacking or defending, it may spend up to 1 Aim token, Dodge token, or Surge token belonging to a non-{{Commander}} non-{{Operative}} allied Vehicle unit within Range 2 and in LOS, or up to 1 Aim or Dodge token belonging to an allied Clone Trooper unit within Range 2 and in LOS, as if the attacking or defending Vehicle unit had that token."
+        ],
         "tierRequirements": {
           "standard": {
             "tiers": [
@@ -9482,6 +9486,9 @@
         "id": 16,
         "alignment": "Light",
         "parentFaction": "Galactic Republic",
+        "rules": [
+          "A 501st Legion Battle Force is part of the Galactic Republic Faction."
+        ],
         "tierRequirements": {
           "standard": {
             "tiers": [
@@ -9537,6 +9544,11 @@
         "id": 17,
         "alignment": "Dark",
         "parentFaction": "Empire",
+        "rules": [
+          "A Blizzard Force Battle Force is part of the Galactic Empire Faction.",
+          "The Field Commander keyword cannot be used in a Blizzard Force army.",
+          "Imperial Probe Droid units in this army do not have the Detachment keyword."
+        ],
         "tierRequirements": {
           "standard": {
             "tiers": [
@@ -15143,7 +15155,17 @@
         "factions": [
           {
             "id": 2,
-            "rank": 3
+            "rank": 3,
+            "quantityLimitedBy": [
+              {
+                "tier": 3,
+                "ratio": 1
+              }
+            ],
+            "tierCounting": {
+              "ignoreMaximum": true,
+              "ignoreMinimum": true
+            }
           },
           {
             "id": 17,
@@ -15151,11 +15173,31 @@
           },
           {
             "id": 19,
-            "rank": 3
+            "rank": 3,
+            "quantityLimitedBy": [
+              {
+                "tier": 3,
+                "ratio": 1
+              }
+            ],
+            "tierCounting": {
+              "ignoreMaximum": true,
+              "ignoreMinimum": true
+            }
           },
           {
             "id": 10,
-            "rank": 3
+            "rank": 3,
+            "quantityLimitedBy": [
+              {
+                "tier": 3,
+                "ratio": 1
+              }
+            ],
+            "tierCounting": {
+              "ignoreMaximum": true,
+              "ignoreMinimum": true
+            }
           }
         ],
         "upgradeTypes": [],
@@ -15166,21 +15208,11 @@
         "id": "32590",
         "unlimited": true,
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/units-new/portraits/32590.webp",
-        "quantityLimitedBy": [
-          {
-            "tier": 3,
-            "ratio": 1
-          }
-        ],
         "faction": 2,
         "unitType": 6,
         "health": 4,
         "courage": 1,
-        "speed": 2,
-        "tierCounting": {
-          "ignoreMaximum": true,
-          "ignoreMinimum": true
-        }
+        "speed": 2
       },
       {
         "name": "Weequay Pirates",
