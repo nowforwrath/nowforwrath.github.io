@@ -9144,7 +9144,7 @@
         ],
         "ttsRoot": {
           "armyFaction": "",
-          "battleForce": "Mercenary Clans"
+          "battleForce": "Mandalorian Clans"
         }
       },
       {
@@ -22105,9 +22105,6 @@
       "upgrades": {
         "fromChildren": "upgrades",
         "nameField": "ttsName",
-        "excludeTypes": [
-          25
-        ],
         "excludeIf": {
           "hideInTts": true
         }
