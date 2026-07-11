@@ -8705,7 +8705,7 @@
       {
         "name": "Shadow Collective",
         "id": 9,
-        "alignment": "Mercenaries",
+        "alignment": "Dark",
         "tierRequirements": {
           "standard": {
             "tiers": [
