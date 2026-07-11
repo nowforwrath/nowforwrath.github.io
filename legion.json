@@ -9272,7 +9272,7 @@
       {
         "name": "AT-RT",
         "title": null,
-        "points": 54,
+        "points": 55,
         "factions": [
           {
             "id": 1,
@@ -9338,7 +9338,7 @@
       {
         "name": "Darth Vader",
         "title": "Dark Lord of the Sith",
-        "points": 170,
+        "points": 190,
         "factions": [
           {
             "id": 2,
@@ -9382,7 +9382,7 @@
       {
         "name": "Luke Skywalker",
         "title": "Hero of the Rebellion",
-        "points": 120,
+        "points": 150,
         "factions": [
           {
             "id": 1,
@@ -9531,7 +9531,7 @@
       {
         "name": "Snowtroopers",
         "title": null,
-        "points": 42,
+        "points": 44,
         "factions": [
           {
             "id": 2,
@@ -9580,7 +9580,7 @@
       {
         "name": "General Veers",
         "title": "Master Tactician",
-        "points": 75,
+        "points": 70,
         "factions": [
           {
             "id": 2,
@@ -9613,7 +9613,7 @@
       {
         "name": "AT-ST",
         "title": null,
-        "points": 145,
+        "points": 155,
         "factions": [
           {
             "id": 2,
@@ -9650,7 +9650,7 @@
       {
         "name": "T-47 Airspeeder",
         "title": null,
-        "points": 125,
+        "points": 130,
         "factions": [
           {
             "id": 1,
@@ -9761,7 +9761,7 @@
       {
         "name": "Rebel Commandos",
         "title": null,
-        "points": 48,
+        "points": 42,
         "factions": [
           {
             "id": 1,
@@ -9906,7 +9906,7 @@
       {
         "name": "E-Web Heavy Blaster Team",
         "title": null,
-        "points": 60,
+        "points": 50,
         "factions": [
           {
             "id": 2,
@@ -9943,7 +9943,7 @@
       {
         "name": "Wookiee Warriors",
         "title": "Freedom Fighters",
-        "points": 69,
+        "points": 62,
         "factions": [
           {
             "id": 1,
@@ -10008,7 +10008,7 @@
       {
         "name": "Director Orson Krennic",
         "title": "Architect of Terror",
-        "points": 65,
+        "points": 75,
         "factions": [
           {
             "id": 2,
@@ -10037,7 +10037,7 @@
       {
         "name": "Imperial Death Troopers",
         "title": null,
-        "points": 72,
+        "points": 66,
         "factions": [
           {
             "id": 2,
@@ -10080,7 +10080,7 @@
       {
         "name": "TX-225 GAVw Occupier Tank",
         "title": null,
-        "points": 125,
+        "points": 140,
         "factions": [
           {
             "id": 2,
@@ -10113,7 +10113,7 @@
       {
         "name": "X-34 Landspeeder",
         "title": null,
-        "points": 55,
+        "points": 60,
         "factions": [
           {
             "id": 1,
@@ -10138,7 +10138,7 @@
       {
         "name": "Sabine Wren",
         "title": "Explosive Artist",
-        "points": 125,
+        "points": 105,
         "factions": [
           {
             "id": 1,
@@ -10171,7 +10171,7 @@
       {
         "name": "Tauntaun Riders",
         "title": null,
-        "points": 95,
+        "points": 90,
         "factions": [
           {
             "id": 1,
@@ -10372,7 +10372,7 @@
       {
         "name": "Obi-Wan Kenobi",
         "title": "Civilized Warrior",
-        "points": 150,
+        "points": 170,
         "factions": [
           {
             "id": 4,
@@ -10443,7 +10443,7 @@
       {
         "name": "Droidekas",
         "title": null,
-        "points": 67,
+        "points": 70,
         "factions": [
           {
             "id": 5,
@@ -10480,7 +10480,7 @@
       {
         "name": "BARC Speeder",
         "title": null,
-        "points": 59,
+        "points": 55,
         "factions": [
           {
             "id": 4,
@@ -10513,7 +10513,7 @@
       {
         "name": "General Grievous",
         "title": "Sinister Cyborg",
-        "points": 130,
+        "points": 150,
         "factions": [
           {
             "id": 5,
@@ -10547,7 +10547,7 @@
       {
         "name": "Luke Skywalker",
         "title": "Jedi Knight",
-        "points": 165,
+        "points": 195,
         "factions": [
           {
             "id": 1,
@@ -10578,7 +10578,7 @@
       {
         "name": "Darth Vader",
         "title": "The Emperor's Apprentice",
-        "points": 155,
+        "points": 175,
         "factions": [
           {
             "id": 2,
@@ -10642,7 +10642,7 @@
       {
         "name": "Count Dooku",
         "title": "Darth Tyranus",
-        "points": 165,
+        "points": 185,
         "factions": [
           {
             "id": 5,
@@ -10708,7 +10708,7 @@
       {
         "name": "B2 Super Battle Droids",
         "title": null,
-        "points": 64,
+        "points": 45,
         "factions": [
           {
             "id": 5,
@@ -10747,7 +10747,7 @@
       {
         "name": "Saber-Class Tank",
         "title": null,
-        "points": 145,
+        "points": 160,
         "factions": [
           {
             "id": 4,
@@ -10780,7 +10780,7 @@
       {
         "name": "AAT Battle Tank",
         "title": null,
-        "points": 150,
+        "points": 175,
         "factions": [
           {
             "id": 5,
@@ -10910,7 +10910,7 @@
       {
         "name": "Padme Amidala",
         "title": "Spirited Senator",
-        "points": 52,
+        "points": 85,
         "factions": [
           {
             "id": 4,
@@ -10939,7 +10939,7 @@
       {
         "name": "Arc Troopers",
         "title": null,
-        "points": 70,
+        "points": 66,
         "factions": [
           {
             "id": 4,
@@ -10972,7 +10972,7 @@
       {
         "name": "BX-Series Droid Commandos",
         "title": null,
-        "points": 60,
+        "points": 64,
         "factions": [
           {
             "id": 5,
@@ -11009,7 +11009,7 @@
       {
         "name": "STAP Riders",
         "title": null,
-        "points": 70,
+        "points": 75,
         "factions": [
           {
             "id": 5,
@@ -11075,7 +11075,7 @@
       {
         "name": "Anakin Skywalker",
         "title": "The Chosen One",
-        "points": 170,
+        "points": 155,
         "factions": [
           {
             "id": 4,
@@ -11109,7 +11109,7 @@
       {
         "name": "Maul",
         "title": "Impatient Apprentice",
-        "points": 115,
+        "points": 160,
         "factions": [
           {
             "id": 5,
@@ -11173,7 +11173,7 @@
       {
         "name": "T-series Tactical Droid",
         "title": "Programmed For Strategy",
-        "points": 60,
+        "points": 55,
         "factions": [
           {
             "id": 5,
@@ -11308,7 +11308,7 @@
       {
         "name": "Lando Calrissian",
         "title": "Canny General",
-        "points": 105,
+        "points": 95,
         "factions": [
           {
             "id": 1,
@@ -11340,7 +11340,7 @@
       {
         "name": "Yoda",
         "title": "Grand Master of the Jedi Order",
-        "points": 150,
+        "points": 200,
         "factions": [
           {
             "id": 4,
@@ -11373,7 +11373,7 @@
       {
         "name": "LAAT/LE Patrol Transport",
         "title": null,
-        "points": 90,
+        "points": 100,
         "factions": [
           {
             "id": 4,
@@ -11431,7 +11431,7 @@
       {
         "name": "LAAT/LE Patrol Transport",
         "title": null,
-        "points": 90,
+        "points": 105,
         "factions": [
           {
             "id": 2,
@@ -11546,7 +11546,7 @@
       {
         "name": "Wookiee Warriors",
         "title": "Noble Fighters",
-        "points": 69,
+        "points": 62,
         "factions": [
           {
             "id": 4,
@@ -11650,7 +11650,7 @@
       {
         "name": "Kraken",
         "title": "Super Tactical Droid",
-        "points": 80,
+        "points": 100,
         "factions": [
           {
             "id": 5,
@@ -11683,7 +11683,7 @@
       {
         "name": "Kalani",
         "title": "Super Tactical Droid",
-        "points": 85,
+        "points": 100,
         "factions": [
           {
             "id": 5,
@@ -11745,7 +11745,7 @@
       {
         "name": "DSD1 Dwarf Spider Droid",
         "title": null,
-        "points": 50,
+        "points": 55,
         "factions": [
           {
             "id": 5,
@@ -11812,7 +11812,7 @@
       {
         "name": "Persuader-class Tank Droid",
         "title": null,
-        "points": 130,
+        "points": 145,
         "factions": [
           {
             "id": 5,
@@ -11842,7 +11842,7 @@
       {
         "name": "Pyke Syndicate Foot Soldiers",
         "title": null,
-        "points": 44,
+        "points": 42,
         "factions": [
           {
             "id": 1,
@@ -11912,7 +11912,7 @@
       {
         "name": "Pyke Syndicate Capo",
         "title": null,
-        "points": 48,
+        "points": 42,
         "factions": [
           {
             "id": 1,
@@ -12024,7 +12024,7 @@
       {
         "name": "Maul",
         "title": "A Rival",
-        "points": 130,
+        "points": 170,
         "factions": [
           {
             "id": 9,
@@ -12101,7 +12101,7 @@
       {
         "name": "Mandalorian Super Commandos",
         "title": null,
-        "points": 70,
+        "points": 66,
         "factions": [
           {
             "id": 9,
@@ -12127,7 +12127,7 @@
       {
         "name": "Gar Saxon",
         "title": "Militant Commando",
-        "points": 90,
+        "points": 100,
         "factions": [
           {
             "id": 9,
@@ -12328,7 +12328,7 @@
       {
         "name": "Swoop Bike Riders",
         "title": null,
-        "points": 70,
+        "points": 65,
         "factions": [
           {
             "id": 1,
@@ -12377,7 +12377,7 @@
       {
         "name": "Stormtroopers",
         "title": "Heavy Response Unit",
-        "points": 36,
+        "points": 40,
         "factions": [
           {
             "id": 17,
@@ -12568,7 +12568,7 @@
       {
         "name": "Clone Commander Cody",
         "title": "Leader of the 212th",
-        "points": 105,
+        "points": 95,
         "factions": [
           {
             "id": 4,
@@ -12601,7 +12601,7 @@
       {
         "name": "Moff Gideon",
         "title": "Long Live the Empire",
-        "points": 100,
+        "points": 80,
         "factions": [
           {
             "id": 2,
@@ -12634,7 +12634,7 @@
       {
         "name": "Asajj Ventress",
         "title": "Separatist Assassin",
-        "points": 115,
+        "points": 150,
         "factions": [
           {
             "id": 5,
@@ -12663,7 +12663,7 @@
       {
         "name": "Ahsoka Tano",
         "title": "Fulcrum",
-        "points": 115,
+        "points": 165,
         "factions": [
           {
             "id": 1,
@@ -12815,7 +12815,7 @@
       {
         "name": "Chewbacca",
         "title": "Let the Wookiee Win",
-        "points": 180,
+        "points": 190,
         "factions": [
           {
             "id": 18,
@@ -12851,7 +12851,7 @@
       {
         "name": "Ewok Slingers",
         "title": null,
-        "points": 38,
+        "points": 35,
         "factions": [
           {
             "id": 1,
@@ -12929,7 +12929,7 @@
       {
         "name": "Major Marquand",
         "title": "Tempest Scout 2",
-        "points": 180,
+        "points": 190,
         "factions": [
           {
             "id": 19,
@@ -12958,7 +12958,7 @@
       {
         "name": "Persuader-class Tank Droid",
         "title": "Prototype Tank Droid",
-        "points": 130,
+        "points": 145,
         "factions": [
           {
             "id": 20,
@@ -12989,7 +12989,7 @@
       {
         "name": "IG-100 MagnaGuard",
         "title": "Prototype Assassin Droids",
-        "points": 56,
+        "points": 60,
         "factions": [
           {
             "id": 20,
@@ -13071,7 +13071,7 @@
       {
         "name": "Sun Fac",
         "title": "Ruthless Lieutenant",
-        "points": 55,
+        "points": 90,
         "factions": [
           {
             "id": 5,
@@ -13100,7 +13100,7 @@
       {
         "name": "Poggle the Lesser",
         "title": "Public Leader of the Geonosians",
-        "points": 55,
+        "points": 85,
         "factions": [
           {
             "id": 5,
@@ -13599,7 +13599,7 @@
       {
         "name": "Arc Troopers",
         "title": "Strike Team",
-        "points": 23,
+        "points": 24,
         "factions": [
           {
             "id": 4,
@@ -13643,7 +13643,7 @@
       {
         "name": "Scout Troopers",
         "title": "Strike Team",
-        "points": 22,
+        "points": 20,
         "factions": [
           {
             "id": 2,
@@ -13731,7 +13731,7 @@
       {
         "name": "Aqua Droids",
         "title": null,
-        "points": 78,
+        "points": 65,
         "factions": [
           {
             "id": 5,
