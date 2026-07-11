@@ -2853,6 +2853,7 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": true,
+        "factions": [2],
         "availableIn": [30],
         "unavailableWith": [
           "DT-F16"
