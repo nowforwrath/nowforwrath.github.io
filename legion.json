@@ -5984,6 +5984,7 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
+        "requiresTier": [1, 6],
         "unavailableIn": [
           [33788],
           [33797],
@@ -6579,28 +6580,6 @@
         "availableIn": [31669, 31670]
       },
       {
-        "id": 2718,
-        "name": "Rook Kast",
-        "points": 35,
-        "type": 4,
-        "keywords": [145, 192],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/2718.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/2718.webp?version=3",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [4767],
-        "unavailableWith": [
-          "Rook Kast",
-          {
-            "id": "22593",
-            "propertyName": "upgrades"
-          }
-        ],
-        "factions": [1, 2, 4, 5, 8, 9]
-      },
-      {
         "id": 22593,
         "name": "Rook Kast",
         "points": 25,
@@ -6635,6 +6614,28 @@
             "value": 1083
           }
         ]
+      },
+      {
+        "id": 2718,
+        "name": "Rook Kast",
+        "points": 35,
+        "type": 4,
+        "keywords": [145, 192],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/2718.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/2718.webp?version=3",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [4767],
+        "unavailableWith": [
+          "Rook Kast",
+          {
+            "id": "22593",
+            "propertyName": "upgrades"
+          }
+        ],
+        "factions": [1, 2, 4, 5, 8, 9]
       },
       {
         "id": 18477,
@@ -7606,7 +7607,8 @@
         "limit": 2,
         "exhaustsPerTurn": null,
         "exhausts": null,
-        "unique": null
+        "unique": null,
+        "requiresTier": [2, 3, 4, 5]
       },
       {
         "id": 124,
@@ -7908,6 +7910,75 @@
         ]
       },
       {
+        "id": 71,
+        "name": "The Darksaber",
+        "points": 5,
+        "type": 12,
+        "keywords": [42, 4, 202, 207],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/71.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/71.webp?version=3",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [33, 34887],
+        "unavailableWith": [
+          "The Darksaber",
+          {
+            "id": "22611",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22612",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22610",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "6132",
+            "propertyName": "upgrades"
+          }
+        ],
+        "factions": [1, 2, 4, 5, 8]
+      },
+      {
+        "id": 22611,
+        "name": "The Darksaber",
+        "points": 10,
+        "type": 12,
+        "keywords": [4, 202, 207],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22611.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22611.webp?version=3",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [6179, 34881],
+        "ttsName": "The Darksaber (Din)",
+        "unavailableWith": [
+          "The Darksaber",
+          {
+            "id": "71",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22612",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22610",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "6132",
+            "propertyName": "upgrades"
+          }
+        ],
+        "factions": [1, 2, 4, 5, 8, 9]
+      },
+      {
         "id": 22612,
         "name": "The Darksaber",
         "points": 10,
@@ -7946,75 +8017,6 @@
         ]
       },
       {
-        "id": 71,
-        "name": "The Darksaber",
-        "points": 5,
-        "type": 12,
-        "keywords": [42, 4, 202, 207],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/71.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/71.webp?version=3",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [33, 34887],
-        "unavailableWith": [
-          "The Darksaber",
-          {
-            "id": "22612",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22611",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22610",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "6132",
-            "propertyName": "upgrades"
-          }
-        ],
-        "factions": [1, 2, 4, 5, 8]
-      },
-      {
-        "id": 22611,
-        "name": "The Darksaber",
-        "points": 10,
-        "type": 12,
-        "keywords": [4, 202, 207],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22611.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22611.webp?version=3",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [6179, 34881],
-        "ttsName": "The Darksaber (Din)",
-        "unavailableWith": [
-          "The Darksaber",
-          {
-            "id": "22612",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "71",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22610",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "6132",
-            "propertyName": "upgrades"
-          }
-        ],
-        "factions": [1, 2, 4, 5, 8, 9]
-      },
-      {
         "id": 22610,
         "name": "The Darksaber",
         "points": 10,
@@ -8031,15 +8033,15 @@
         "unavailableWith": [
           "The Darksaber",
           {
-            "id": "22612",
-            "propertyName": "upgrades"
-          },
-          {
             "id": "71",
             "propertyName": "upgrades"
           },
           {
             "id": "22611",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22612",
             "propertyName": "upgrades"
           },
           {
@@ -8066,15 +8068,15 @@
         "unavailableWith": [
           "The Darksaber",
           {
-            "id": "22612",
-            "propertyName": "upgrades"
-          },
-          {
             "id": "71",
             "propertyName": "upgrades"
           },
           {
             "id": "22611",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22612",
             "propertyName": "upgrades"
           },
           {
@@ -8169,28 +8171,6 @@
         ]
       },
       {
-        "id": 177,
-        "name": "Tristan Wren",
-        "points": 34,
-        "type": 4,
-        "keywords": [204, 187],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/177.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/177.webp?version=3",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [71, 72],
-        "unavailableWith": [
-          "Tristan Wren",
-          {
-            "id": "22608",
-            "propertyName": "upgrades"
-          }
-        ],
-        "factions": [1, 2, 4, 5, 8]
-      },
-      {
         "id": 22608,
         "name": "Tristan Wren",
         "points": 25,
@@ -8229,6 +8209,28 @@
             }
           ]
         ]
+      },
+      {
+        "id": 177,
+        "name": "Tristan Wren",
+        "points": 34,
+        "type": 4,
+        "keywords": [204, 187],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/177.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/177.webp?version=3",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [71, 72],
+        "unavailableWith": [
+          "Tristan Wren",
+          {
+            "id": "22608",
+            "propertyName": "upgrades"
+          }
+        ],
+        "factions": [1, 2, 4, 5, 8]
       },
       {
         "id": 19827,
@@ -8318,6 +8320,20 @@
         "availableIn": [2108]
       },
       {
+        "id": 16578,
+        "name": "Twin Blaster Cannons",
+        "points": 5,
+        "type": 8,
+        "keywords": [181],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/16578.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/16578.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": false,
+        "availableIn": [25966]
+      },
+      {
         "id": 964,
         "name": "Twin Blaster Cannons",
         "points": 25,
@@ -8331,20 +8347,6 @@
         "unique": false,
         "availableIn": [2108],
         "ttsName": "Twin Blaster Cannons (ISP)"
-      },
-      {
-        "id": 16578,
-        "name": "Twin Blaster Cannons",
-        "points": 5,
-        "type": 8,
-        "keywords": [181],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/16578.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/16578.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": false,
-        "availableIn": [25966]
       },
       {
         "id": 151,
@@ -8478,28 +8480,6 @@
         "unique": false
       },
       {
-        "id": 178,
-        "name": "Ursa Wren",
-        "points": 34,
-        "type": 4,
-        "keywords": [42, 192, 205],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/178.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/178.webp?version=3",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [71, 72],
-        "unavailableWith": [
-          "Ursa Wren",
-          {
-            "id": "22650",
-            "propertyName": "upgrades"
-          }
-        ],
-        "factions": [1, 2, 4, 5, 8]
-      },
-      {
         "id": 22650,
         "name": "Ursa Wren",
         "points": 25,
@@ -8534,6 +8514,28 @@
             "value": 1082
           }
         ]
+      },
+      {
+        "id": 178,
+        "name": "Ursa Wren",
+        "points": 34,
+        "type": 4,
+        "keywords": [42, 192, 205],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/178.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/178.webp?version=3",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [71, 72],
+        "unavailableWith": [
+          "Ursa Wren",
+          {
+            "id": "22650",
+            "propertyName": "upgrades"
+          }
+        ],
+        "factions": [1, 2, 4, 5, 8]
       },
       {
         "id": 146,
