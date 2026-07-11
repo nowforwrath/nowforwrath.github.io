@@ -8950,7 +8950,7 @@
         }
       },
       {
-        "name": "The Onaka Gang",
+        "name": "The Ohnaka Gang",
         "id": 14,
         "alignment": "Mercenaries",
         "tierRequirements": {
@@ -8986,7 +8986,7 @@
         },
         "ttsRoot": {
           "armyFaction": "",
-          "battleForce": "The Onaka Gang"
+          "battleForce": "The Ohnaka Gang"
         }
       },
       {
