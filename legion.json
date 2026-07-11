@@ -1784,9 +1784,9 @@
         "exhausts": null,
         "unique": null,
         "unavailableWith": [
-          "Clan Wren",
-          "Clan Kryze",
-          "Clan Saxon"
+          "clanWren",
+          "clanKryze",
+          "clanSaxon"
         ],
         "unavailableIn": [
           [33797],
@@ -1842,9 +1842,9 @@
         "exhausts": null,
         "unique": null,
         "unavailableWith": [
-          "Clan Wren",
-          "Clan Kryze",
-          "Clan Saxon"
+          "clanWren",
+          "clanKryze",
+          "clanSaxon"
         ],
         "replaceProperties": [
           [
@@ -1889,9 +1889,9 @@
         "exhausts": null,
         "unique": null,
         "unavailableWith": [
-          "Champion of the Watch",
-          "Clan Wren",
-          "Clan Saxon"
+          "childrenOfTheWatch",
+          "clanWren",
+          "clanSaxon"
         ],
         "replaceProperties": [
           [
@@ -1923,9 +1923,9 @@
         "exhausts": null,
         "unique": null,
         "unavailableWith": [
-          "Champion of the Watch",
-          "Clan Wren",
-          "Clan Kryze"
+          "childrenOfTheWatch",
+          "clanWren",
+          "clanKryze"
         ],
         "replaceProperties": [
           [
@@ -1957,9 +1957,9 @@
         "exhausts": null,
         "unique": null,
         "unavailableWith": [
-          "Champion of the Watch",
-          "Clan Kryze",
-          "Clan Saxon"
+          "childrenOfTheWatch",
+          "clanKryze",
+          "clanSaxon"
         ],
         "replaceProperties": [
           [
@@ -9046,26 +9046,31 @@
           {
             "name": "Clan Wren",
             "chooseOneKey": "a",
+            "id": "clanWren",
             "imageUrl": "https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/legion/images/wren.png"
           },
           {
             "name": "Children of the Watch",
             "chooseOneKey": "a",
+            "id": "childrenOfTheWatch",
             "imageUrl": "https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/legion/images/children.png"
           },
           {
             "name": "Clan Kryze",
             "chooseOneKey": "a",
+            "id": "clanKryze",
             "imageUrl": "https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/legion/images/kryze.png"
           },
           {
             "name": "Clan Saxon",
             "chooseOneKey": "a",
+            "id": "clanSaxon",
             "imageUrl": "https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/legion/images/saxon.png"
           },
           {
             "name": "Unaffiliated",
             "chooseOneKey": "a",
+            "id": "unaffiliated",
             "imageUrl": "https://raw.githubusercontent.com/nowforwrath/nowforwrath.github.io/refs/heads/main/legion/images/unaffiliated.png"
           },
           {
