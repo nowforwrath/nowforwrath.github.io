@@ -374,6 +374,7 @@
           "tierFilterChips": true,
           "groupArmyByTier": true,
           "groupFactionPreviewByTier": true,
+          "prettyViewSortByTier": true,
           "tiers": [
             {
               "name": "Commander",
@@ -494,6 +495,7 @@
           ],
           "excludeWhenUnlockedByUnmet": true,
           "groupArmyByTier": true,
+          "prettyViewSortByTier": true,
           "children": [
             {
               "propertyName": "keywords",
