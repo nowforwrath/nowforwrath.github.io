@@ -22,6 +22,56 @@
 			"primaryBackgroundColor": "#841912"
 		}
 	},
+	"encyclopedia": {
+		"dataTabs": [
+			{
+				"dataSource": "heroes",
+				"label": "Heroes",
+				"filters": [
+					{
+						"kind": "child",
+						"dataSource": "keywords",
+						"property": "specialRules",
+						"label": "Special Rule"
+					},
+					{
+						"kind": "child",
+						"dataSource": "magicalPowers",
+						"property": "magicalPowers",
+						"label": "Magical Power"
+					}
+				]
+			},
+			{
+				"dataSource": "warriors",
+				"label": "Warriors"
+			},
+			{
+				"dataSource": "gear",
+				"label": "Wargear"
+			},
+			{
+				"dataSource": "magicalPowers",
+				"label": "Magical Powers"
+			},
+			{
+				"dataSource": "keywords",
+				"label": "Special Rules"
+			},
+			{
+				"dataSource": "armyBonuses",
+				"label": "Army Bonuses",
+				"filters": [
+					{
+						"kind": "parent",
+						"dataSource": "factions",
+						"property": "armyBonuses",
+						"label": "Faction"
+					}
+				]
+			}
+		]
+	},
 	"credit": [
 		{
 			"type": "text",
