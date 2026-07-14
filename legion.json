@@ -292,11 +292,11 @@
                 },
                 {
                   "type": "paragraph",
-                  "text": "Attack dice have the following symbols: {hit}, {attackSurge}, {critical}."
+                  "text": "Attack dice have the following symbols: Hit ({hit}), Attack Surge ({attackSurge}), Critical ({critical})."
                 },
                 {
                   "type": "paragraph",
-                  "text": "Defense dice have the following symbols: {block}, {defenseSurge}."
+                  "text": "Defense dice have the following symbols: Block ({block}), Defense Surge ({defenseSurge})."
                 },
                 {
                   "type": "paragraph",
@@ -473,8 +473,7 @@
                         {
                           "type": "figure",
                           "asset": "objectiveCardAnatomy",
-                          "alt": "Labeled Objective Card anatomy",
-                          "caption": "Objective Card"
+                          "alt": "Labeled Objective Card anatomy"
                         }
                       ]
                     },
@@ -498,9 +497,7 @@
                         },
                         {
                           "type": "figure",
-                          "asset": "mapCardAnatomy",
-                          "alt": "Labeled Map Card showing territories and POI placement",
-                          "caption": "Map Card"
+                          "asset": "mapCardAnatomy"
                         }
                       ]
                     },
@@ -526,8 +523,7 @@
                         {
                           "type": "figure",
                           "asset": "secondaryObjectiveCardAnatomy",
-                          "alt": "Labeled Secondary Objective Card anatomy",
-                          "caption": "Secondary Objective Card"
+                          "alt": "Labeled Secondary Objective Card anatomy"
                         }
                       ]
                     },
@@ -551,8 +547,7 @@
                         {
                           "type": "figure",
                           "asset": "advantageCardAnatomy",
-                          "alt": "Labeled Advantage Card anatomy",
-                          "caption": "Advantage Card"
+                          "alt": "Labeled Advantage Card anatomy"
                         }
                       ]
                     }
@@ -590,8 +585,7 @@
                     {
                       "type": "figure",
                       "asset": "unitCardAnatomy",
-                      "alt": "Labeled Unit Card showing name, rank, stats, weapons, and keywords",
-                      "caption": "Unit Card"
+                      "alt": "Labeled Unit Card showing name, rank, stats, weapons, and keywords"
                     }
                   ]
                 },
@@ -618,36 +612,7 @@
                     {
                       "type": "figure",
                       "asset": "commandCardAnatomy",
-                      "alt": "Labeled Command Card showing pips, orders, and effect",
-                      "caption": "Command Card"
-                    }
-                  ]
-                },
-                {
-                  "id": "keywords",
-                  "title": "Keywords",
-                  "page": 9,
-                  "blocks": [
-                    {
-                      "type": "paragraph",
-                      "text": "Bolded words are special rules called keywords. There are four types of keywords: command, unit, upgrade, and weapon. Their full rules text is written in the Keyword Glossary instead of on the cards. Keywords are found in the Keyword Glossary on pg. 45."
-                    }
-                  ],
-                  "sections": [
-                    {
-                      "id": "x-keywords",
-                      "title": "X Keywords",
-                      "page": 9,
-                      "blocks": [
-                        {
-                          "type": "paragraph",
-                          "text": "Some keywords have a numerical value, presented as \"X\" in the Keyword Glossary. These keywords stack with themselves and can be any type of keyword. If a unit gains multiple instances of a unit keyword with a numerical value, add those values together. If a unit adds multiple instances of a weapon keyword with a numerical value to an Attack Pool, add those values together."
-                        },
-                        {
-                          "type": "paragraph",
-                          "text": "For example, Stormtroopers have the **Precise 1** keyword on their Unit Card. If they equip the **Targeting Scopes** upgrade, which gives them **Precise 1**, they will have **Precise 2**."
-                        }
-                      ]
+                      "alt": "Labeled Command Card showing pips, orders, and effect"
                     }
                   ]
                 },
@@ -677,8 +642,35 @@
                     {
                       "type": "figure",
                       "asset": "upgradeCardAnatomy",
-                      "alt": "Labeled Upgrade Card anatomy",
-                      "caption": "Upgrade Card"
+                      "alt": "Labeled Upgrade Card anatomy"
+                    }
+                  ]
+                },
+                {
+                  "id": "keywords",
+                  "title": "Keywords",
+                  "page": 9,
+                  "blocks": [
+                    {
+                      "type": "paragraph",
+                      "text": "Bolded words are special rules called keywords. There are four types of keywords: command, unit, upgrade, and weapon. Their full rules text is written in the Keyword Glossary instead of on the cards. Keywords are found in the Keyword Glossary on pg. 45."
+                    }
+                  ],
+                  "sections": [
+                    {
+                      "id": "x-keywords",
+                      "title": "X Keywords",
+                      "page": 9,
+                      "blocks": [
+                        {
+                          "type": "paragraph",
+                          "text": "Some keywords have a numerical value, presented as \"X\" in the Keyword Glossary. These keywords stack with themselves and can be any type of keyword. If a unit gains multiple instances of a unit keyword with a numerical value, add those values together. If a unit adds multiple instances of a weapon keyword with a numerical value to an Attack Pool, add those values together."
+                        },
+                        {
+                          "type": "paragraph",
+                          "text": "For example, Stormtroopers have the **Precise 1** keyword on their Unit Card. If they equip the **Targeting Scopes** upgrade, which gives them **Precise 1**, they will have **Precise 2**."
+                        }
+                      ]
                     }
                   ]
                 }
@@ -719,14 +711,12 @@
                 {
                   "type": "figure",
                   "asset": "movementTools",
-                  "alt": "Speed-1, Speed-2, and Speed-3 movement tools",
-                  "caption": "Movement Tools"
+                  "alt": "Speed-1, Speed-2, and Speed-3 movement tools"
                 },
                 {
                   "type": "figure",
                   "asset": "rangeRulers",
-                  "alt": "Range Tool segments and range icons including melee and half-range",
-                  "caption": "Range Rulers"
+                  "alt": "Range Tool segments and range icons including melee and half-range"
                 }
               ],
               "sections": [
@@ -757,8 +747,16 @@
                       "text": "Sometimes, more than one number is shown—in this case, the first number represents the minimum Range, and the second number represents the maximum Range. If only a single number is shown, then that is the maximum Range for that effect."
                     },
                     {
+                      "type": "figure",
+                      "asset": "rangeExample"
+                    },
+                    {
                       "type": "paragraph",
                       "text": "Range is always measured as the shortest distance possible between two objects. To measure Range between two objects, take the Range Tool and place it flat on the battlefield so that one end is touching the object being measured from. Then add segments until the total length of the Range Tool is longer than the distance between the two objects. The segment of the Range Tool that object is inside is equal to the Range between the two objects. When measuring to or from miniatures, always measure from the miniature's base, ignoring the miniature itself."
+                    },
+                    {
+                      "type": "figure",
+                      "asset": "meleeExample"
                     },
                     {
                       "type": "paragraph",
@@ -933,9 +931,7 @@
                     },
                     {
                       "type": "figure",
-                      "asset": "terrainTypesExample",
-                      "alt": "Clone Troopers near open barricades and an impassable building",
-                      "caption": "Example: Different Types of Terrain"
+                      "asset": "terrainTypesExample"
                     }
                   ]
                 },
@@ -960,9 +956,7 @@
                     },
                     {
                       "type": "figure",
-                      "asset": "fittingOnTerrainExample",
-                      "alt": "Trooper bases that must completely overlap obstacle terrain versus hanging off a balcony",
-                      "caption": "Example: Fitting on Terrain"
+                      "asset": "fittingOnTerrainExample"
                     }
                   ]
                 },
@@ -1040,9 +1034,7 @@
                     },
                     {
                       "type": "figure",
-                      "asset": "terrainHeightExample",
-                      "alt": "Measuring building height with a vertical Range Tool, including multi-level heights",
-                      "caption": "Example: Measuring Height"
+                      "asset": "terrainHeightExample"
                     }
                   ]
                 }
@@ -1153,13 +1145,11 @@
                     {
                       "type": "figure",
                       "asset": "freeActionExample",
-                      "alt": "Luke Skywalker using Jump as a Card action and Force Reflexes as a free action",
                       "caption": "Luke Skywalker has the {action} Jump 1 Card action on his Unit Card. During his Activation, he may spend 1 of his actions to make the Jump action."
                     },
                     {
                       "type": "figure",
                       "asset": "upgradeFreeAction",
-                      "alt": "Luke Skywalker using Jump as a Card action and Force Reflexes as a free action",
                       "caption": "Luke Skywalker also has the Force Reflexes Upgrade Card equipped. Once per Activation as a free action, he may exhaust the card to gain 1 Dodge token. This is in addition to the 2 actions he is allowed per Activation, but he may only make the Force Reflexes free action when he would normally be allowed to make an action. A unit may make any number of different free actions during its Activation."
                     }
                   ]
@@ -1297,22 +1287,18 @@
                     {
                       "type": "example",
                       "title": "Exhaust and Expend",
-                      "blocks": [
+                      "blocks": [                        
                         {
-                          "type": "paragraph",
-                          "text": "The Fleet Trooper unit adds the MPL-57 Barrage Trooper's weapon to an Attack Pool, exhausting the card once the dice are added. It cannot be added to another Attack Pool until it is readied."
+                          "type": "figure",
+                          "asset": "exhaustAndExpend1",
+                          "caption": "The Fleet Trooper unit adds the MPL-57 Barrage Trooper's weapon to an Attack Pool, exhausting the card once the dice are added. It cannot be added to another Attack Pool until it is readied."
                         },
                         {
-                          "type": "paragraph",
-                          "text": "Luke Skywalker expends Burst of Speed to increase his Speed. The card is expended and cannot be used for the rest of the game."
+                          "type": "figure",
+                          "asset": "exhaustAndExpend2",
+                          "caption": "Luke Skywalker expends Burst of Speed to increase his Speed. The card is expended and cannot be used for the rest of the game."
                         }
                       ]
-                    },
-                    {
-                      "type": "figure",
-                      "asset": "exhaustExpendExample",
-                      "alt": "Fleet Troopers exhausting an upgrade and Luke Skywalker expending Burst of Speed",
-                      "caption": "Example: Exhaust and Expend"
                     }
                   ]
                 },
@@ -1520,9 +1506,7 @@
                 },
                 {
                   "type": "figure",
-                  "asset": "missionDashboardSetup",
-                  "alt": "Mission Dashboard with Objective, Secondary Objective, and Advantage card spaces",
-                  "caption": "Building a Mission"
+                  "asset": "missionDashboard"
                 }
               ]
             },
@@ -2020,8 +2004,13 @@
                       "title": "Standby",
                       "blocks": [
                         {
-                          "type": "paragraph",
-                          "text": "Melissa's Battle Droid unit makes the Standby action and gains a Standby token. Later in the round, the enemy Clone Trooper unit activates and makes an action. Because the Clone Trooper unit is within 2 of the Battle Droids and in LOS, after the action is complete the Battle Droids may spend their Standby token to make a free Move or Attack action after the Clone Trooper's action is resolved."
+                          "type": "figure",
+                          "asset": "standbyExample1"
+                        },
+                        {
+                          "type": "figure",
+                          "asset": "standbyExample2",
+                          "caption": "Melissa's Battle Droid unit makes the Standby action and gains a Standby token. Later in the round, the enemy Clone Trooper unit activates and makes an action. Because the Clone Trooper unit is within {range2} of the Battle Droids and in LOS, after the action is complete the Battle Droids may spend their Standby token to make a free Move or Attack action after the Clone Trooper's action is resolved."
                         }
                       ]
                     }
@@ -2114,16 +2103,19 @@
                           "text": "After he is content with the placement and position of the Movement Tool, Marco picks up the Battle Droid's unit leader and places it back down on the battlefield in contact with any portion of the Movement Tool. Then he picks up the rest of the miniatures in the Battle Droid unit and places them so that they are all within 1 of their unit leader."
                         },
                         {
-                          "type": "paragraph",
-                          "text": "With their first action complete, Marco declares the second action of the B1 Battle Droids will be another Move action. Because the Battle Droids are now Deployed, he places the Movement Tool on the battlefield so that one end wholly touches the unit leader's base. He then adjusts the Movement Tool and places his unit leader in contact with it. Finally, he picks up the rest of the miniatures in the Battle Droid unit and places them so that they are all within 1 of their unit leader."
+                          "type": "figure",
+                          "asset": "standardMove1",
+                          "caption": "With their first action complete, Marco declares the second action of the B1 Battle Droids will be another Move action. Because the Battle Droids are now Deployed, he places the Movement Tool on the battlefield so that one end wholly touches the unit leader's base. He then adjusts the Movement Tool and places his unit leader in contact with it. Finally, he picks up the rest of the miniatures in the Battle Droid unit and places them so that they are all within 1 of their unit leader."
+                        },
+                        {
+                          "type": "figure",
+                          "asset": "standardMove2"
+                        },
+                        {
+                          "type": "figure",
+                          "asset": "standardMove3"
                         }
                       ]
-                    },
-                    {
-                      "type": "figure",
-                      "asset": "standardMoveExample",
-                      "alt": "B1 Battle Droids deploying and then making a second Standard Move",
-                      "caption": "Example: Making Standard Moves"
                     }
                   ]
                 },
@@ -2154,21 +2146,26 @@
                       "title": "Moving with Notched Bases",
                       "blocks": [
                         {
-                          "type": "paragraph",
-                          "text": "Simone chooses to make a Standard Move with her Swoop Bike Riders. Since the Swoop Bike Riders have the Speeder X keyword, she cannot rotate the unit leader's base. She then chooses to use the Speed-3 Movement Tool since the Swoop Bike Riders are Speed-3. She places the Movement Tool in the front notch of the Swoop Bike Riders unit leader's base. Next, she adjusts the Movement Tool as she wishes, then decides if she wants to make a full or partial Move. She decides to make a full Move and picks up the miniature and moves it along the Movement Tool, making sure to keep the Tool lined up with the front and rear notches on the miniature's base. She then places the miniature so that the rear notch is on the opposite end of the Movement Tool."
+                          "type": "figure",
+                          "asset": "movingWithNotched1",
+                          "caption": "Simone chooses to make a Standard Move with her Swoop Bike Riders. Since the Swoop Bike Riders have the Speeder X keyword, she cannot rotate the unit leader's base. She then chooses to use the Speed-3 Movement Tool since the Swoop Bike Riders are Speed-3. She places the Movement Tool in the front notch of the Swoop Bike Riders unit leader's base. Next, she adjusts the Movement Tool as she wishes, then decides if she wants to make a full or partial Move. She decides to make a full Move and picks up the miniature and moves it along the Movement Tool, making sure to keep the Tool lined up with the front and rear notches on the miniature's base. She then places the miniature so that the rear notch is on the opposite end of the Movement Tool."
                         },
                         {
-                          "type": "paragraph",
-                          "text": "If Simone wishes to make a partial Move instead, she simply stops the miniature's movement along the Movement Tool at the desired point and places it on the battlefield in such a way so that the front and rear notches on its base are parallel to the section of the Movement Tool the miniature reached at the farthest part of its Move. If terrain impedes a full or partial movement, the miniature must stop prematurely. Because the tower is stopping the Swoop Bike Riders movement, it ends its movement even though it has not traveled the full distance of the Movement Tool."
+                          "type": "figure",
+                          "asset": "movingWithNotched2"
+                       },
+                       {
+                         "type": "figure",
+                         "asset": "movingWithNotched3",
+                         "caption": "If Simone wishes to make a partial Move instead, she simply stops the miniature's movement along the Movement Tool at the desired point and places it on the battlefield in such a way so that the front and rear notches on its base are parallel to the section of the Movement Tool the miniature reached at the farthest part of its Move."
+                       },
+                       {
+                        "type": "figure",
+                        "asset": "movingWithNotched4",
+                        "caption": "If terrain impedes a full or partial movement, the miniature must stop prematurely. Because the tower is stopping the Swoop Bike Riders movement, it ends its movement even though it has not traveled the full distance of the Movement Tool."
                         }
                       ]
-                    },
-                    {
-                      "type": "figure",
-                      "asset": "notchedBaseMoveExample",
-                      "alt": "Swoop Bike Riders making a full Move along a notched Movement Tool, and stopping early for terrain",
-                      "caption": "Example: Moving with Notched Bases"
-                    }
+                    }                    
                   ]
                 },
                 {
@@ -2226,20 +2223,15 @@
                       "title": "Making a Standard Move Through Terrain",
                       "blocks": [
                         {
-                          "type": "paragraph",
-                          "text": "Evan declares a Move action with his Clone Trooper unit and chooses to make a Standard Move with them. As the clones are Speed-2, he may choose either the Speed-1 or Speed-2 Movement Tool. However, because the Clone Troopers are starting their Move on difficult terrain, their Speed is reduced by 1 to a minimum of 1, meaning they cannot use the Speed-2 Movement Tool."
+                          "type": "figure",
+                          "asset": "moveThroughTerrain",
+                          "caption": "Evan declares a Move action with his Clone Trooper unit and chooses to make a Standard Move with them. As the clones are Speed-2, he may choose either the Speed-1 or Speed-2 Movement Tool. However, because the Clone Troopers are starting their Move on difficult terrain, their Speed is reduced by 1 to a minimum of 1, meaning they cannot use the Speed-2 Movement Tool."
                         },
                         {
                           "type": "paragraph",
                           "text": "If Obi-Wan Kenobi wishes to Move into the same piece of difficult terrain as the Clone Troopers, he will reduce his Speed by 1 to a minimum of 1 and must use the Speed-1 Movement Tool because the Movement Tool will overlap the difficult terrain."
                         }
                       ]
-                    },
-                    {
-                      "type": "figure",
-                      "asset": "moveThroughTerrainExample",
-                      "alt": "Clone Troopers and Obi-Wan reducing Speed because of difficult terrain",
-                      "caption": "Example: Making a Standard Move Through Terrain"
                     }
                   ]
                 },
@@ -2271,17 +2263,13 @@
                       "type": "example",
                       "title": "Making a Climb",
                       "blocks": [
-                        {
-                          "type": "paragraph",
-                          "text": "Sarah wishes to Move her Clone Trooper unit on top of the building. She measures the height of the building and determines that it is taller than the Clone Trooper's Silhouette, meaning that the Clone Troopers cannot reach the top by making a Standard Move. Instead, Sarah makes a Climb with the Clone Troopers. The Clone Troopers Move as normal, except they must use the Speed-1 Movement Tool when Climbing, and they may Move up to a vertical distance of height 1 when making a Climb."
-                        }
-                      ]
-                    },
+                        
                     {
                       "type": "figure",
-                      "asset": "climbExample",
-                      "alt": "Clone Troopers Climbing onto a building taller than their Silhouette",
-                      "caption": "Example: Making a Climb"
+                      "asset": "makingAClimb",
+                      "caption": "Sarah wishes to Move her Clone Trooper unit on top of the building. She measures the height of the building and determines that it is taller than the Clone Trooper's Silhouette, meaning that the Clone Troopers cannot reach the top by making a Standard Move. Instead, Sarah makes a Climb with the Clone Troopers. The Clone Troopers Move as normal, except they must use the Speed-1 Movement Tool when Climbing, and they may Move up to a vertical distance of height 1 when making a Climb."
+                    }
+                      ]
                     }
                   ]
                 }
@@ -2324,20 +2312,20 @@
                       "title": "Moving into Melee",
                       "blocks": [
                         {
-                          "type": "paragraph",
-                          "text": "Will decides that he wants to Move his Clone Trooper unit into Melee with Tony's Battle Droids. Because they have a Melee weapon, the Clone Troopers may Move into base contact with the Battle Droids. To do this, Will makes a Move with the Clone Troopers' unit leader that ends with the Clone Troopers' unit leader in base contact with 1 of the Battle Droids. Then, ensuring that all of the Clone Troopers remain in Cohesion, Will places the rest of the Clone Troopers so that they are also in base contact with the Battle Droids."
+                          "type": "figure",
+                          "asset": "movingIntoMelee1"
                         },
+                        
+                    {
+                      "type": "figure",
+                      "asset": "movingIntoMelee2",
+                      "caption": "Will decides that he wants to Move his Clone Trooper unit into Melee with Tony's Battle Droids. Because they have a Melee weapon, the Clone Troopers may Move into base contact with the Battle Droids. To do this, Will makes a Move with the Clone Troopers' unit leader that ends with the Clone Troopers' unit leader in base contact with 1 of the Battle Droids. Then, ensuring that all of the Clone Troopers remain in Cohesion, Will places the rest of the Clone Troopers so that they are also in base contact with the Battle Droids."
+                    },
                         {
                           "type": "paragraph",
                           "text": "The unit leader of the Battle Droids is in base contact with an enemy miniature, so it does not Move. Tony then places the Battle Droids that are not in base contact into base contact with Will's Clone Troopers while maintaining Cohesion. The Clone Troopers and Battle Droids are Engaged and in Melee."
                         }
                       ]
-                    },
-                    {
-                      "type": "figure",
-                      "asset": "movingIntoMeleeExample",
-                      "alt": "Clone Troopers moving into base contact with Battle Droids and becoming Engaged",
-                      "caption": "Example: Moving into Melee"
                     }
                   ]
                 },
@@ -2364,34 +2352,6 @@
                     {
                       "type": "paragraph",
                       "text": "An Engaged unit may Withdraw during its Activation to leave Melee. To Withdraw, a unit must make a Move action. The unit's Speed becomes 1 during this Move action, before applying effects that increase or reduce speed. A unit with a Speed of 0 cannot Withdraw."
-                    },
-                    {
-                      "type": "paragraph",
-                      "text": "A unit cannot Move into Melee during an Activation that it Withdraws. A unit cannot make a Standby action or an attack and Withdraw during the same Activation."
-                    },
-                    {
-                      "type": "example",
-                      "title": "Moving Into Melee",
-                      "blocks": [
-                        {
-                          "type": "paragraph",
-                          "text": "Will decides that he wants to Move his Clone Trooper unit into Melee with Tony's Battle Droids. Because they have a Melee weapon, the Clone Troopers may Move into base contact with the Battle Droids."
-                        },
-                        {
-                          "type": "paragraph",
-                          "text": "To do this, Will makes a Move with the Clone Troopers' unit leader that ends with the Clone Troopers' unit leader in base contact with 1 of the Battle Droids. Then, ensuring that all of the Clone Troopers remain in Cohesion, Will places the rest of the Clone Troopers so that they are also in base contact with the Battle Droids."
-                        },
-                        {
-                          "type": "paragraph",
-                          "text": "The unit leader of the Battle Droids is in base contact with an enemy miniature, so it does not Move. Tony then places the Battle Droids that are not in base contact into base contact with Will's Clone Troopers while maintaining Cohesion. The Clone Troopers and Battle Droids are Engaged and in Melee."
-                        },
-                        {
-                          "type": "figure",
-                          "asset": "movingIntoMeleeExample",
-                          "alt": "Clone Troopers moving into Melee with Battle Droids",
-                          "caption": "Moving into Melee"
-                        }
-                      ]
                     }
                   ]
                 }
@@ -2430,9 +2390,13 @@
                     },
                     {
                       "type": "figure",
-                      "asset": "smallAndLargeSilhouetteTemplates",
-                      "alt": "Small Silhouette and Large Silhouette templates",
-                      "caption": "Small Silhouette and Large Silhouette"
+                      "asset": "largeSilhouette",
+                      "caption": "Large Silhouette"
+                    },
+                    {
+                      "type": "figure",
+                      "asset": "smallSilhouette",
+                      "caption": "Small Silhouette"
                     }
                   ]
                 },
@@ -2487,9 +2451,7 @@
                         },
                         {
                           "type": "figure",
-                          "asset": "drawingLosAndBlockingLos",
-                          "alt": "Battle Droids drawing LOS to Clone Troopers and Cody, blocked to Obi-Wan by a building",
-                          "caption": "Drawing LOS and blocking LOS"
+                          "asset": "drawingLosAndBlockingLos"
                         }
                       ]
                     }
@@ -2598,6 +2560,10 @@
                         {
                           "type": "paragraph",
                           "text": "In this case, since the Battle Droids' weapons are 1–3, Sarah must choose an enemy unit within 3 of the Battle Droids' unit leader that is also in LOS. Since the Battle Droid unit leader has LOS to both Obi-Wan Kenobi and the Clone Troopers, and both are within Range of at least 1 of the Battle Droids' weapons, Sarah can choose either as the defending unit."
+                        },{
+                          "type": "figure",
+                          "asset": "declareDefenderExample",
+                          "alt": "Example of declaring a defender"
                         }
                       ]
                     }
@@ -2648,6 +2614,10 @@
                         {
                           "type": "paragraph",
                           "text": "Then, for each eligible miniature, Summer chooses 1 of the weapons available to the unit for that miniature to contribute to the Attack Pool. A miniature must meet all requirements, if any, to choose a particular weapon. Finally, Summer cannot choose any weapons if the Clone Troopers would be closer than the weapon's minimum Range or not within the weapon's maximum Range. Since the Clone Troopers are within 2 and Summer has 4 eligible Battle Droids, she decides to add 4 Range 1–3 blaster rifles to the Attack Pool. She gathers the dice for these weapons and places them together on the battlefield next to the defending unit."
+                        },{
+                          "type": "figure",
+                          "asset": "formingAttackPoolsExample",
+                          "alt": "Example of forming Attack Pools"
                         }
                       ]
                     }
@@ -2791,12 +2761,6 @@
                         {
                           "type": "paragraph",
                           "text": "Brian then rolls 3 white defense dice in the Cover Pool, 1 for each {hit} result. Brian rolls 1 Blank result and 2 {defenseSurge} results. Because the Battle Droids have heavy Cover, 2 {hit} results are canceled in the attack roll, 1 for each {block} and {defenseSurge} result in the Cover Pool. That leaves 1 {critical} and 1 {hit} result in the Attack Pool. Brian's Battle Droids do not have any Dodge tokens, so the Apply Dodge and Cover step of the attack is over."
-                        },
-                        {
-                          "type": "figure",
-                          "asset": "applyingCoverExample",
-                          "alt": "Battle Droids obscured by a building and crates during Apply Cover",
-                          "caption": "Applying Cover"
                         }
                       ]
                     }
@@ -3022,12 +2986,6 @@
                         {
                           "type": "paragraph",
                           "text": "Because there were {hit} or {critical} results in the Attack Pool during the Roll Attack Dice step of the attack sequence, and the attack was a Ranged attack, the Rebel Trooper unit gains 1 Suppression token."
-                        },
-                        {
-                          "type": "figure",
-                          "asset": "fullAttackSequenceExample",
-                          "alt": "Snowtroopers attacking Rebel Troopers through crate cover",
-                          "caption": "Full attack sequence"
                         }
                       ]
                     }
@@ -3141,6 +3099,11 @@
           "page": 39,
           "blocks": [
             {
+              "type": "figure",
+              "asset": "notchedBases",
+              "alt": "Notched base arcs diagram"
+            },
+            {
               "type": "paragraph",
               "text": "Some miniatures in Star Wars: Legion have notched bases. Units on notched bases follow all of the rules detailed in this section."
             }
@@ -3199,12 +3162,6 @@
                 {
                   "type": "paragraph",
                   "text": "Miniatures with notched bases have four different arcs represented by lines sculpted on their bases: front, two sides, and rear. These arcs are referenced by certain rules, such as the Fixed and Weak Point keywords."
-                },
-                {
-                  "type": "figure",
-                  "asset": "notchedBaseArcs",
-                  "alt": "Notched base showing front, side, and rear arcs",
-                  "caption": "Notched base arcs"
                 }
               ]
             }
@@ -3500,7 +3457,7 @@
                       "type": "paragraph",
                       "text": "For example, a standard Galactic Empire army that includes 1 or more Black Sun Enforcers units must field at least 3 non-Mercenary Corps units and cannot field a combined number of Corps units greater than 6."
                     }
-                  ]
+                      ]
                 },
                 {
                   "type": "example",
@@ -3510,7 +3467,7 @@
                       "type": "paragraph",
                       "text": "For example, Black Sun Enforcers in a Galactic Empire army are allied to other units in the army but are not part of the Galactic Empire Faction. Black Sun Enforcers in a Galactic Empire army would use Galactic Empire Order tokens."
                     }
-                  ]
+                      ]
                 }
               ],
               "sections": [
@@ -3734,7 +3691,7 @@
       "withinExample": "https://d26oqf9i6fvic.cloudfront.net/rules-images/withinExample.jpg?version=6",
       "terrainTypesExample": "https://d26oqf9i6fvic.cloudfront.net/rules-images/terrainTypesExample.jpg?version=6",
       "fittingOnTerrainExample": "https://d26oqf9i6fvic.cloudfront.net/rules-images/fittingOnTerrainExample.jpg?version=6",
-      "terrainHeightExample": "https://d26oqf9i6fvic.cloudfront.net/rules-images/terrainHeightExample.jpg?version=6",
+      "terrainHeightExample": "https://d26oqf9i6fvic.cloudfront.net/rules-images/measuringHeight.jpg?version=6",
       "cover": "https://d26oqf9i6fvic.cloudfront.net/rules-images/cover.jpg?version=6",
       "freeActionExample": "https://d26oqf9i6fvic.cloudfront.net/rules-images/freeActionExample.jpg?version=6",
       "upgradeTypeIcons": "https://d26oqf9i6fvic.cloudfront.net/rules-images/upgradeTypeIcons.jpg?version=6",
@@ -3742,12 +3699,70 @@
       "missionDashboardSetup": "https://d26oqf9i6fvic.cloudfront.net/rules-images/missionDashboardSetup.jpg?version=6",
       "standardMoveExample": "https://d26oqf9i6fvic.cloudfront.net/rules-images/standardMoveExample.jpg?version=6",
       "notchedBaseMoveExample": "https://d26oqf9i6fvic.cloudfront.net/rules-images/notchedBaseMoveExample.jpg?version=6",
-      "moveThroughTerrainExample": "https://d26oqf9i6fvic.cloudfront.net/rules-images/moveThroughTerrainExample.jpg?version=6",
-      "climbExample": "https://d26oqf9i6fvic.cloudfront.net/rules-images/climbExample.jpg?version=6",
-      "movingIntoMeleeExample": "https://d26oqf9i6fvic.cloudfront.net/rules-images/movingIntoMeleeExample.jpg?version=6",
+      "moveThroughTerrain": "https://d26oqf9i6fvic.cloudfront.net/rules-images/moveThroughTerrain.jpg?version=6",
+      "makingAClimb": "https://d26oqf9i6fvic.cloudfront.net/rules-images/makingAClimb.jpg?version=6",
+      "movingIntoMelee1": "https://d26oqf9i6fvic.cloudfront.net/rules-images/movingIntoMelee1.jpg?version=6",
+      "movingIntoMelee2": "https://d26oqf9i6fvic.cloudfront.net/rules-images/movingIntoMelee2.jpg?version=6",
       "smallAndLargeSilhouetteTemplates": "https://d26oqf9i6fvic.cloudfront.net/rules-images/smallAndLargeSilhouetteTemplates.jpg?version=6",
-      "notchedBaseArcs": "https://d26oqf9i6fvic.cloudfront.net/rules-images/notchedBaseArcs.jpg?version=6"
-    }
+      "notchedBaseArcs": "https://d26oqf9i6fvic.cloudfront.net/rules-images/notchedBaseArcs.jpg?version=6",
+      "upgradeFreeAction": "https://d26oqf9i6fvic.cloudfront.net/rules-images/upgradeFreeAction.jpg?version=6",
+      "standardMove1": "https://d26oqf9i6fvic.cloudfront.net/rules-images/standardMove1.jpg?version=6",
+      "standardMove2": "https://d26oqf9i6fvic.cloudfront.net/rules-images/standardMove2.jpg?version=6",
+      "standardMove3": "https://d26oqf9i6fvic.cloudfront.net/rules-images/standardMove3.jpg?version=6",
+      "drawingLosAndBlockingLos": "https://d26oqf9i6fvic.cloudfront.net/rules-images/losBlocking.jpg?version=6",
+      "exhaustAndExpend1": "https://d26oqf9i6fvic.cloudfront.net/rules-images/exhaustAndExpend1.jpg?version=6",
+      "exhaustAndExpend2": "https://d26oqf9i6fvic.cloudfront.net/rules-images/exhaustAndExpend2.jpg?version=6",
+      "missionDashboard": "https://d26oqf9i6fvic.cloudfront.net/rules-images/missionDashboard.jpg?version=6",
+      "movingWithNotched1": "https://d26oqf9i6fvic.cloudfront.net/rules-images/movingWithNotched1.jpg?version=6",
+      "movingWithNotched2": "https://d26oqf9i6fvic.cloudfront.net/rules-images/movingWithNotched2.jpg?version=6",
+      "movingWithNotched3": "https://d26oqf9i6fvic.cloudfront.net/rules-images/movingWithNotched3.jpg?version=6",
+      "movingWithNotched4": "https://d26oqf9i6fvic.cloudfront.net/rules-images/movingWithNotched4.jpg?version=6",
+      "meleeExample": "https://d26oqf9i6fvic.cloudfront.net/rules-images/meleeExample.png?version=6",
+      "smallSilhouette": "https://d26oqf9i6fvic.cloudfront.net/rules-images/smallSilhouette.jpg?version=6",
+      "largeSilhouette": "https://d26oqf9i6fvic.cloudfront.net/rules-images/largeSilhouette.jpg?version=6",
+      "rangeExample": "https://d26oqf9i6fvic.cloudfront.net/rules-images/rangeExample.jpg?version=6",
+      "declareDefenderExample": "https://d26oqf9i6fvic.cloudfront.net/rules-images/declareDefenderExample.jpg?version=6",
+      "formingAttackPoolsExample": "https://d26oqf9i6fvic.cloudfront.net/rules-images/formingAttackPoolsExample.jpg?version=6",
+      "standbyExample1": "https://d26oqf9i6fvic.cloudfront.net/rules-images/standbyExample1.jpg?version=6",
+      "standbyExample2": "https://d26oqf9i6fvic.cloudfront.net/rules-images/standbyExample2.jpg?version=6",
+      "notchedBases": "https://d26oqf9i6fvic.cloudfront.net/rules-images/notchedBases.jpg?version=6"},
+      "dataTabs": [
+			{
+				"dataSource": "units",
+				"label": "Units",
+				"filters": [
+					{
+						"kind": "child",
+						"dataSource": "keywords",
+						"property": "keywords",
+						"label": "Keywords"
+					}
+				]
+			},
+			{ "dataSource": "keywords", "label": "Keywords" },
+      { "dataSource": "commands",
+        "label": "Commands",
+        "filters": [
+          {
+            "kind": "child",
+            "dataSource": "keywords",
+            "property": "keywords",
+            "label": "Keywords"
+          }
+        ]
+      },
+      { "dataSource": "upgrades",
+        "label": "Upgrades",
+        "filters": [
+          {
+            "kind": "child",
+            "dataSource": "keywords",
+            "property": "keywords",
+            "label": "Keywords"
+          }
+        ]
+      }
+    ]
   },
   "scenarioPools": [
     {
