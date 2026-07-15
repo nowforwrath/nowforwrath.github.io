@@ -7471,7 +7471,6 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "factions": [6],
         "requiresTier": [5],
         "requiredProperties": [
           {
@@ -14675,8 +14674,7 @@
         "courage": 2,
         "speed": 2,
         "tierCounting": {
-          "ignoreMaximum": true,
-          "ignoreMinimum": true
+          "ignoreMaximum": true
         }
       },
       {
@@ -14886,8 +14884,7 @@
         "courage": 2,
         "speed": 2,
         "tierCounting": {
-          "ignoreMaximum": true,
-          "ignoreMinimum": true
+          "ignoreMaximum": true
         }
       },
       {
@@ -15497,8 +15494,7 @@
         "courage": 1,
         "speed": 2,
         "tierCounting": {
-          "ignoreMaximum": true,
-          "ignoreMinimum": true
+          "ignoreMaximum": true
         }
       },
       {
@@ -17900,8 +17896,7 @@
         "speed": 2,
         "ttsName": "Rebel Commandos Strike Team",
         "tierCounting": {
-          "ignoreMaximum": true,
-          "ignoreMinimum": true
+          "ignoreMaximum": true
         }
       },
       {
@@ -17944,8 +17939,7 @@
         "speed": 2,
         "ttsName": "Arc Troopers Strike Team",
         "tierCounting": {
-          "ignoreMaximum": true,
-          "ignoreMinimum": true
+          "ignoreMaximum": true
         }
       },
       {
@@ -17992,8 +17986,7 @@
         "speed": 2,
         "ttsName": "Scout Troopers Strike Team",
         "tierCounting": {
-          "ignoreMaximum": true,
-          "ignoreMinimum": true
+          "ignoreMaximum": true
         }
       },
       {
@@ -18032,8 +18025,7 @@
         "speed": 2,
         "ttsName": "BX-series Droid Commandos Strike Team",
         "tierCounting": {
-          "ignoreMaximum": true,
-          "ignoreMinimum": true
+          "ignoreMaximum": true
         }
       },
       {
@@ -18320,8 +18312,7 @@
           }
         ],
         "tierCounting": {
-          "ignoreMaximum": true,
-          "ignoreMinimum": true
+          "ignoreMaximum": true
         }
       },
       {
@@ -18835,17 +18826,7 @@
         "factions": [
           {
             "id": 2,
-            "rank": 3,
-            "quantityLimitedBy": [
-              {
-                "tier": 3,
-                "ratio": 1
-              }
-            ],
-            "tierCounting": {
-              "ignoreMaximum": true,
-              "ignoreMinimum": true
-            }
+            "rank": 3
           },
           {
             "id": 17,
@@ -18853,31 +18834,11 @@
           },
           {
             "id": 19,
-            "rank": 3,
-            "quantityLimitedBy": [
-              {
-                "tier": 3,
-                "ratio": 1
-              }
-            ],
-            "tierCounting": {
-              "ignoreMaximum": true,
-              "ignoreMinimum": true
-            }
+            "rank": 3
           },
           {
             "id": 10,
-            "rank": 3,
-            "quantityLimitedBy": [
-              {
-                "tier": 3,
-                "ratio": 1
-              }
-            ],
-            "tierCounting": {
-              "ignoreMaximum": true,
-              "ignoreMinimum": true
-            }
+            "rank": 3
           }
         ],
         "upgradeTypes": [],
@@ -18888,11 +18849,20 @@
         "id": "32590",
         "unlimited": true,
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/units-new/portraits/32590.webp",
+        "quantityLimitedBy": [
+          {
+            "tier": 3,
+            "ratio": 1
+          }
+        ],
         "faction": 2,
         "unitType": 6,
         "health": 4,
         "courage": 1,
-        "speed": 2
+        "speed": 2,
+        "tierCounting": {
+          "ignoreMaximum": true
+        }
       },
       {
         "name": "Weequay Pirates",
@@ -20010,8 +19980,7 @@
         ],
         "affiliation": "1084",
         "tierCounting": {
-          "ignoreMaximum": true,
-          "ignoreMinimum": true
+          "ignoreMaximum": true
         }
       },
       {
