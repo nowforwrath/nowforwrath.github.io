@@ -3837,6 +3837,14 @@
       "tierRequirements": "recon"
     }
   ],
+  "campaigns": [
+    {
+      "id": "tours-of-duty",
+      "label": "Tours of Duty",
+      "kind": "poolThenList",
+      "packId": "legion-tours-of-duty"
+    }
+  ],
   "tierRequirementSets": {
     "standard": {
       "elements": {
@@ -15621,8 +15629,8 @@
         "quantityLimitedBy": [],
         "faction": 4,
         "unitType": 1,
-        "health": 6,
-        "courage": 3,
+        "health": 5,
+        "courage": 4,
         "speed": 2,
         "ttsName": "Yoda Grand Master of the Jedi Order",
         "unavailableWith": [
