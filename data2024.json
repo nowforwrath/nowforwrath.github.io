@@ -22,6 +22,7 @@
 			"primaryBackgroundColor": "#841912"
 		}
 	},
+	"testProperty": "test",
 	"encyclopedia": {
 		"dataTabs": [
 			{
