@@ -29963,7 +29963,7 @@
 					{
 						"name": "Full Bellies (Bert)",
 						"points": 0,
-						"unlockedBy": "Full Bellies"
+						"unlockedByGlobal": "Full Bellies"
 					}
 				],
 				"specialRules": [
@@ -30021,7 +30021,7 @@
 					{
 						"name": "Full Bellies (Tom)",
 						"points": 0,
-						"unlockedBy": "Full Bellies"
+						"unlockedByGlobal": "Full Bellies"
 					}
 				],
 				"specialRules": [
