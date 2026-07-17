@@ -71,7 +71,457 @@
 					}
 				]
 			}
-		]
+		],
+		"rulebook": {
+			"title": "Rulebook",
+			"sections": [
+				{
+					"id": "heroic-actions",
+					"title": "Heroic Actions",
+					"sections": [
+						{
+							"id": "universal-heroic-actions",
+							"title": "Universal Heroic Actions",
+							"blocks": [
+								{
+									"type": "paragraph",
+									"text": "Some Heroic Actions can be used by any Hero in the game, regardless of who (or what) they are – so long as they have Might Points remaining, of course! Every Hero can use the following three Heroic Actions:"
+								}
+							],
+							"sections": [
+								{
+									"id": "heroic-move",
+									"title": "Heroic Move (Move Phase) (63)",
+									"blocks": [
+										{
+											"type": "paragraph",
+											"text": "A Heroic Move enables a Hero to Activate before other models – essentially defying the usual Priority system. The Hero can then Activate exactly as normal and do anything they would normally be able to do when they Activate. The Hero cannot then be Activated again later in the Move Phase."
+										},
+										{
+											"type": "paragraph",
+											"text": "This Heroic Action can prove extremely valuable, and often when the player without Priority declares a Heroic Move their opponent will also declare one in order to try to keep the initiative."
+										},
+										{
+											"type": "paragraph",
+											"text": "If a Hero who has declared a Heroic Move is Charged and Engaged in Combat, or rendered unable to Activate in some other way, then their Heroic Move is cancelled and the Might Point spent is lost."
+										}
+									],
+									"sections": [
+										{
+											"id": "with-me",
+											"title": "With Me",
+											"blocks": [
+												{
+													"type": "paragraph",
+													"text": "A Hero who is performing a Heroic Move may choose to shout “With Me” as soon as they are Activated. If they do, note their starting position before they Activate. All friendly models within 6\" of the Hero when they shout With Me are automatically affected, and after the Hero has finished their Activation, they must choose to do one of two things:"
+												},
+												{
+													"type": "unorderedList",
+													"items": [
+														"Activate as normal in an order chosen by their controlling player. Any model that Activates as part of a With Me must finish their Activation within 6\" of the Hero that shouted With Me. If the model attempts to finish their Activation within 6\" of the Hero, but fails a roll (such as a Courage Test, Jump Test or Climb Test) that makes this impossible, they simply stop where they are.",
+														"Forego their Activation, in which case they do not Activate and cannot do so later in the Move Phase. A model that cannot finish its Activation within 6\" of the Hero that shouted With Me must choose this option."
+													]
+												},
+												{
+													"type": "paragraph",
+													"text": "In either case, the affected models cannot be Activated again later in the Move Phase for any reason."
+												},
+												{
+													"type": "paragraph",
+													"text": "A Hero that shouts With Me doesn’t have to Move as part of their Activation, and as With Me is shouted at the start of their Activation, if anything would render them unable to Move as part of their Activation (such as failing a Courage Test to Charge an enemy with the Terror special rule) then they will still shout With Me. However, should the Hero be removed as a casualty for any reason (such as fleeing or suffering Falling Damage) then their Heroic Move and With Me will immediately be cancelled."
+												},
+												{
+													"type": "paragraph",
+													"text": "If two friendly Hero models within 6\" of each other both declare a Heroic Move, and the one that goes first shouts With Me, the second Hero has two options:"
+												},
+												{
+													"type": "unorderedList",
+													"items": [
+														"Activate as normal for a model affected by With Me, in which case their Heroic Move will be cancelled.",
+														"Forego their Activation, in which case they do not Activate later in the Move Phase and their Heroic Move will be cancelled."
+													]
+												},
+												{
+													"type": "paragraph",
+													"text": "If a Hero who shouted With Me Moves off the board, then any friendly models who are affected by their With Me may also Move off the board if able; however, if they cannot then they must choose to forego their Activation. If a model is affected by a Hero model’s With Me, then they can only Move off the board if that Hero also does so."
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "heroic-shoot",
+									"title": "Heroic Shoot (Shoot Phase)",
+									"blocks": [
+										{
+											"type": "paragraph",
+											"text": "A Heroic Shoot allows a Hero to Shoot before all other models in the Shoot Phase. A Hero does not need to have a Missile Weapon to declare a Heroic Shoot, but they cannot declare a Heroic Shoot if they are Engaged in Combat."
+										}
+									],
+									"sections": [
+										{
+											"id": "loose",
+											"title": "Loose",
+											"blocks": [
+												{
+													"type": "paragraph",
+													"text": "A Hero who is performing a Heroic Shoot may choose to shout “Loose”. The Hero does not need to Shoot first (or at all if they don’t wish to) when they shout Loose."
+												},
+												{
+													"type": "paragraph",
+													"text": "If they do, all friendly models within 6\" of the Hero when they shout Loose are automatically affected, and may also Shoot at the same time as the Hero – in an order chosen by their controlling player."
+												},
+												{
+													"type": "paragraph",
+													"text": "Friendly models affected by the Loose of a friendly Hero do not need to target the same enemy model, and may Shoot as normal. However, any model affected by a friendly Hero model’s Loose that chooses not to Shoot as part of it cannot then do so later that Shoot Phase."
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "heroic-combat",
+									"title": "Heroic Combat (Fight Phase) (64)",
+									"blocks": [
+										{
+											"type": "paragraph",
+											"text": "When a Hero declares a Heroic Combat, their Combat is resolved first before any others. In addition, if the Hero wins their Combat and all enemy models involved in that Combat are removed as a casualty, then the Hero and any friendly models that were involved in that Combat (with the exception of any War Beast or Chariot models) may immediately Move in the same way as they would during the Move Phase – however, the only things they may do is to Move or Charge. If they Charge, then they will fight again in the ordinary way – i.e., in an order chosen by the player with Priority."
+										},
+										{
+											"type": "paragraph",
+											"text": "If models Charge during this Move, then the way the Combats should be divided may be altered. In this situation, the player with Priority will Pair Off Combats again after each successful Heroic Combat."
+										},
+										{
+											"type": "paragraph",
+											"text": "A model may only benefit from one Heroic Combat per turn; so, if a model that was involved in one Heroic Combat Moves to join another Combat that is also a Heroic Combat, which is then itself successful, the model may then not Move again as part of the second Heroic Combat."
+										},
+										{
+											"type": "paragraph",
+											"text": "There may be a situation where two opposing Hero models in the same Combat both declare a Heroic Combat. When this happens, if either side causes all enemy models to be removed as a casualty, then they are considered to have made a successful Heroic Combat and may Move as described above, regardless of which player’s choice of Heroic Combat it was."
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "specialised-heroic-actions",
+							"title": "Specialised Heroic Actions",
+							"blocks": [
+								{
+									"type": "paragraph",
+									"text": "Some Heroic Actions can only be declared by certain Hero models. In each Hero model’s profile there will be a section listing the additional Heroic Actions that Hero can declare. These Heroic Actions are described here:"
+								}
+							],
+							"sections": [
+								{
+									"id": "heroic-channelling",
+									"title": "Heroic Channelling (Move Phase)",
+									"blocks": [
+										{
+											"type": "paragraph",
+											"text": "A Hero who declares Heroic Channelling will count the result of their next Casting Test this turn as a 6. As a result, they do not need to roll the dice for the Casting Test but will still need to spend a Will Point to Cast the Magical Power as normal."
+										}
+									]
+								},
+								{
+									"id": "heroic-march",
+									"title": "Heroic March (Move Phase) (65)",
+									"blocks": [
+										{
+											"type": "paragraph",
+											"text": "A Hero who declares a Heroic March adds 3\" to their Move Value for the duration of the Move Phase if they have the Infantry, Chariot or War Beast keyword; if they have the Cavalry keyword or have the Fly special rule, then they add 5\" to their Move Value instead. Additionally, the Hero may not Charge under any circumstances during the same Move Phase."
+										},
+										{
+											"type": "paragraph",
+											"text": "If a Hero who has declared a Heroic March is Charged and Engaged in Combat, or rendered unable to Activate in some other way, then their Heroic March is cancelled and the Might Point spent is lost."
+										}
+									],
+									"sections": [
+										{
+											"id": "at-the-double",
+											"title": "At the Double",
+											"blocks": [
+												{
+													"type": "paragraph",
+													"text": "A Hero who is performing a Heroic March may choose to shout “At the Double” as soon as they are Activated. If they do, note their starting position before they Activate. All friendly models within 6\" of the Hero when they shout At the Double are automatically affected and, after the Hero model has Activated, gain the following benefit: A model affected by At the Double adds 3\" to their Move Value for the duration of the Move Phase if they have the Infantry, Chariot or War Beast keyword; if they have the Cavalry keyword or have the Fly special rule, then they add 5\" to their Move Value instead. Additionally, the model may not Charge under any circumstances during the same Move Phase."
+												},
+												{
+													"type": "paragraph",
+													"text": "Models affected by At the Double must finish their Activation within 6\" of the Hero that shouted At the Double. If the model attempts to finish their Activation within 6\" of the Hero, but fails a roll (such as a Courage Test, Jump Test or Climb Test) that makes this impossible, they simply stop where they are. A model that cannot finish their Activation within 6\" of the Hero who shouted At the Double must forego their Activation, and cannot be Activated later on in the same Move Phase. Models can choose not to Activate when affected by a Heroic March, in which case they will also forego their Activation."
+												},
+												{
+													"type": "paragraph",
+													"text": "Should the Hero be removed as a casualty for any reason (such as fleeing or suffering Falling Damage) then their Heroic March and At the Double will immediately be cancelled."
+												},
+												{
+													"type": "paragraph",
+													"text": "Models can only ever be affected by one Hero model’s At the Double each turn – you can’t stack multiple Heroic Marches together!"
+												},
+												{
+													"type": "paragraph",
+													"text": "If a Hero who shouted At the Double Moves off the board, then any friendly models who are affected by their At the Double may also Move off the board if able; however, if they cannot then they must choose to forego their Activation. If a model is affected by a Hero model’s At the Double, then they can only Move off the board if that Hero also does so."
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "heroic-resolve",
+									"title": "Heroic Resolve (Move Phase) (66)",
+									"blocks": [
+										{
+											"type": "paragraph",
+											"text": "When a Hero declares a Heroic Resolve it has two effects, the first of which is resolved as soon as the Heroic Action is declared. Friendly models within 6\" of a Hero who declared a Heroic Resolve gain an additional free dice when making Resist Tests until the End Phase of the turn. Note that for models that have no Will Points (or none remaining), this allows them to make a Resist Test on one dice rather than none."
+										},
+										{
+											"type": "paragraph",
+											"text": "Additionally, a Hero who declares a Heroic Resolve will automatically pass any Courage Tests they are required to make that turn as a result of their Army being Broken. If a Hero who has declared a Heroic Resolve is Charged and Engaged in Combat before they are able to Activate, they are still able to Activate solely in order to provide a Stand Fast even though they would not normally be able to (though this is the only thing they can do in this Activation). However, a Hero who has been rendered unable to Activate by some other means (such as being Transfixed) still cannot provide a Stand Fast as normal."
+										}
+									]
+								},
+								{
+									"id": "heroic-accuracy",
+									"title": "Heroic Accuracy (Shoot Phase) (67)",
+									"blocks": [
+										{
+											"type": "paragraph",
+											"text": "When a Hero declares a Heroic Accuracy, they gain the Sharpshooter special rule until the End Phase of the turn if they don’t already have it. Additionally, the Hero may re-roll any failed In The Way Tests when making a Shooting Attack. This includes any failed In The Way Tests when targeting a Cavalry model with a Shooting Attack to determine whether the target part of the model has been hit."
+										},
+										{
+											"type": "paragraph",
+											"text": "A Hero may not declare a Heroic Accuracy if they are Engaged in Combat or otherwise rendered unable to Activate."
+										}
+									],
+									"sections": [
+										{
+											"id": "take-aim",
+											"title": "Take Aim",
+											"blocks": [
+												{
+													"type": "paragraph",
+													"text": "A Hero who is performing a Heroic Accuracy may choose to shout “Take Aim”. The Hero does not need to Shoot first (or at all if they don’t wish to) when they shout Take Aim."
+												},
+												{
+													"type": "paragraph",
+													"text": "If they do, all friendly models within 6\" of the Hero when they shout Take Aim are automatically affected, and may also re-roll any failed In The Way Tests when making a Shooting Attack. This includes any failed In The Way Tests when targeting a Cavalry model with a Shooting Attack to determine whether the target part of the model (usually the rider) has been hit."
+												},
+												{
+													"type": "paragraph",
+													"text": "Friendly models affected by the Take Aim of a friendly Hero do not need to target the same enemy model, and may Shoot as normal."
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "heroic-challenge",
+									"title": "Heroic Challenge (Fight Phase) (68, 69)",
+									"blocks": [
+										{
+											"type": "paragraph",
+											"text": "When a Hero declares a Heroic Challenge they must also declare an enemy Hero within 6\" of them, with the same Heroic Tier or higher, to be the target of the Heroic Challenge. If there is no enemy Hero within 6\" with the same Heroic Tier or higher, then the Hero cannot declare a Heroic Challenge."
+										},
+										{
+											"type": "paragraph",
+											"text": "Whilst Engaged in Combat with their target, the Hero gains a bonus of +1 Attack (both in the Duel Roll and when making Strikes) and a bonus of +1 To Wound when making Strikes against their target. Additionally, if they slay their target (i.e., they inflict the final Wound that causes them to be removed as a casualty) then the Hero immediately gains 1 Might Point, though this cannot take them above their starting limit."
+										},
+										{
+											"type": "paragraph",
+											"text": "The target of the Heroic Challenge can choose to either accept or decline the challenge. If they accept, then they get the same benefits as the Hero who declared the Heroic Challenge as listed above (as if the Hero who declared the Heroic Challenge was their target). Additionally, if the target chooses to accept, then when either Hero Activates, they must Charge each other if possible. A Hero who accepts a Heroic Challenge cannot declare a Heroic Challenge themselves until the Hero who challenged them is slain. If a Hero accepts a Heroic Challenge, no other Hero may declare a Heroic Challenge against either Hero involved in the Heroic Challenge until one of them has been slain."
+										},
+										{
+											"type": "paragraph",
+											"text": "If the target declines, then they gain none of the benefits listed; though the Hero who declared the Heroic Challenge will still gain them. Additionally, if the target declines, they cannot then themselves declare a Heroic Challenge against the Hero who they declined against."
+										},
+										{
+											"type": "paragraph",
+											"text": "A Hero who has already issued a Heroic Challenge against a target cannot declare another Heroic Challenge until their target has been removed as a casualty."
+										}
+									]
+								},
+								{
+									"id": "heroic-defence",
+									"title": "Heroic Defence (Fight Phase)",
+									"blocks": [
+										{
+											"type": "paragraph",
+											"text": "A Hero model that declares a Heroic Defence will only suffer a Wound on the roll of a natural 6 in the ensuing Fight Phase, regardless of any special rules, modifiers, Brutal Power Attacks or the use of Might. If the Hero would normally be wounded on a 6+/4+, 6+/5+ or 6+/6+, then they will only be wounded if both rolls are a natural 6. Heroic Defence does not confer to a Hero model’s Mount if it has one."
+										}
+									]
+								},
+								{
+									"id": "heroic-strength",
+									"title": "Heroic Strength (Fight Phase)",
+									"blocks": [
+										{
+											"type": "paragraph",
+											"text": "A Hero that declares a Heroic Strength will count their Strength characteristic as double (to a maximum of 10) when making Strikes until the End Phase of the turn."
+										}
+									]
+								},
+								{
+									"id": "heroic-strike",
+									"title": "Heroic Strike (Fight Phase)",
+									"blocks": [
+										{
+											"type": "paragraph",
+											"text": "A Hero that declares a Heroic Strike will add D3 to their Fight Value for the duration of the Fight Phase (to a maximum of 10). This D3 is rolled at the start of the first Combat that the Hero is involved in that Fight Phase, and will last for the duration of the Fight Phase. This bonus is always applied after any other effects that would affect a model’s Fight Value."
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "brutal-power-attacks",
+					"title": "Brutal Power Attacks",
+					"blocks": [
+						{
+							"type": "paragraph",
+							"text": "If a Monster wins a Combat, its controlling player may decide for the Monster to not make Strikes and instead use a Brutal Power Attack. There are three Brutal Power Attacks that can be used by any Monster, though some may have their own unique ones in their profile."
+						},
+						{
+							"type": "paragraph",
+							"text": "It’s worth pointing out that Brutal Power Attacks are not Strikes, and therefore are not affected by any special rules, Heroic Actions or other rules that will affect a model’s Strikes (e.g., Heroic Strength, a model being Trapped, a Morgul blade, Venom, etc.). Monster models that are Supporting cannot make Brutal Power Attacks."
+						},
+						{
+							"type": "paragraph",
+							"text": "A Monster model can only ever make a single Brutal Power Attack per turn, and should a Monster wish to use a Brutal Power Attack then it must do so before any other models in the Combat resolve any Strikes."
+						},
+						{
+							"type": "paragraph",
+							"text": "In the situation where there are multiple Monster models on the same side in the same Combat, and both wish to use a Brutal Power Attack, then the order in which these are resolved is chosen by their controlling player. However, there may be situations where as a result of a Brutal Power Attack, the other Monster will find themselves unable to use one of their own – these situations will be described where relevant."
+						}
+					],
+					"sections": [
+						{
+							"id": "rend",
+							"title": "Rend (75)",
+							"blocks": [
+								{
+									"type": "paragraph",
+									"text": "When a Monster uses this Brutal Power Attack, they must nominate one enemy model involved in the Combat to Rend (if this is a Cavalry model, you must choose either the rider or the Mount). The Monster makes a number of To Wound Rolls equal to its Attacks characteristic (including any modifiers to its Attacks) against the nominated model. When resolving these To Wound Rolls, use the nominated model’s Strength characteristic instead of their Defence when using the To Wound Chart."
+								}
+							]
+						},
+						{
+							"id": "barge",
+							"title": "Barge",
+							"blocks": [
+								{
+									"type": "paragraph",
+									"text": "When a Monster wishes to use this Brutal Power Attack, enemy models do not Back Away as normal. Instead, all enemy models involved in the Combat, plus any enemy models that were Supporting, must Back Away 3\" rather than 1\". The order and direction that these models Back Away is chosen by the Monster model’s controlling player. Models may still Make Way for losing models (which will be decided by the Monster model’s controlling player) and, if they do, may Back Away up to 3\" rather than usual 1\" in a direction chosen by the Monster model’s controlling player. When a model Makes Way in this manner, it will only do so the minimum amount it needs to in order to allow the model Backing Away to Back Away 3\". It won’t be forced to Make Way a full 3\" if only Making Way 1\" would suffice to allow the Barged model to Back Away 3\", for example, and won’t be automatically knocked Prone if it is able to Make Way the required amount."
+								},
+								{
+									"type": "paragraph",
+									"text": "Any models that cannot Back Away or Make Way the full 3\" are moved as far as possible and then knocked Prone. When doing this, if it is possible for a Monster to choose a direction for a model to Back Away or Make Way so that it goes the full 3\", then it must choose that direction – it can’t force a model to Back Away or Make Way less than 3\" and be knocked Prone if there was a way for it to Back Away the full 3\"."
+								},
+								{
+									"type": "paragraph",
+									"text": "Once a Monster model has used a Barge, the Combat immediately ends and no further Strikes or Brutal Power Attacks can be made."
+								},
+								{
+									"type": "paragraph",
+									"text": "Once all models have Backed Away, the Monster that made the Barge can then Move D3+3\" in any direction, following all the usual rules for Moving a model. It can even Charge again if it wishes, in which case it will fight again that Fight Phase in the ordinary way – i.e., in an order chosen by the player with Priority."
+								},
+								{
+									"type": "paragraph",
+									"text": "A Monster cannot Barge in the same turn in which it participates in a Heroic Combat."
+								}
+							]
+						},
+						{
+							"id": "hurl",
+							"title": "Hurl (76)",
+							"blocks": [
+								{
+									"type": "paragraph",
+									"text": "When a Monster wishes to use this Brutal Power Attack, it must nominate a single enemy model involved in the Combat before models Back Away – this is the model that will be Hurled. A Monster cannot nominate a model to be Hurled that has a Strength equal to or higher than their own. Then, all other enemy models (not the nominated model) Back Away as normal. The Monster will then Hurl the nominated model."
+								},
+								{
+									"type": "paragraph",
+									"text": "To Hurl a model, follow the steps below:"
+								},
+								{
+									"type": "orderedList",
+									"items": [
+										"The Monster rolls a D3 and adds the difference in Strength between the Monster and the nominated model – this is the Hurl Distance.",
+										"The Monster must then take an Intelligence Test (if the Monster is also a Mount, it may use the Intelligence of its rider if it is better).",
+										"If the test is passed, the Monster chooses an enemy model it can draw Line of Sight to, and within the Hurl Distance from itself, to Hurl the nominated model at – this is the target. A model can only be chosen as the target of a Hurl once per turn. If the test was failed, the opposing player may choose one of their models in Line of Sight of the Monster, and within the Hurl Distance, to be the target instead.",
+										"The Hurled model suffers two Strength 6 hits (if it is a Cavalry model then both rider and Mount will suffer these hits), and if it was a Cavalry model then it is also Knocked Flying unless either the rider and/or Mount have a Strength of 6 or higher. If it is slain, skip the next step and move straight to step 6.",
+										"If it survives, place it in base contact with the target model as close to the Monster as possible. If this is not possible, place the model in base contact with the target as close to the position it should have been in as possible. If there is nowhere to place the model in base contact with the target, move other models the minimum distance to make this possible. The Hurled model is then knocked Prone.",
+										"The target model is then knocked Prone, if it has a Strength of 5 or less, and will suffer one Strength 6 hit (if it is a Cavalry model then both rider and Mount will suffer these hits). If it is a Cavalry model then it is also Knocked Flying.",
+										"If there are no enemy models eligible to be the target, then the Monster may choose a point on the battlefield it can draw Line of Sight within the Hurl Distance instead. Place the Hurled model on the chosen point; it is then knocked Prone and suffers two Strength 6 hits."
+									]
+								},
+								{
+									"type": "paragraph",
+									"text": "Once a Monster model has used a Hurl, the Combat immediately ends and no further Strikes or Brutal Power Attacks can be made."
+								},
+								{
+									"type": "paragraph",
+									"text": "A Monster cannot Hurl in the same turn in which it participates in a Heroic Combat."
+								}
+							]
+						},
+						{
+							"id": "brutal-power-attacks-faq",
+							"title": "FAQ",
+							"blocks": [
+								{
+									"type": "definitionList",
+									"items": [
+										{
+											"term": "Q: If a model fighting a Monster is being Supported by a model with a pike, who is then themselves being Supported by another model with a pike, and the Monster slays the model it is in Combat with, does the Monster get to make its free Strike on each of the pikes that were Supporting? (p.89)",
+											"text": "A: Yes."
+										},
+										{
+											"term": "Q: Can a Monster choose to make a Brutal Power Attack if there is no possibility of making Strikes? For example: if a Monster was prone and wins a Combat, normally they would not be allowed to make Strikes as they have stood up, but could they make a Brutal Power Attack? Or, if the Monster is Transfixed and wins a Combat? (p.90)",
+											"text": "A: No. A Monster may only perform a Brutal Power Attack if they would be able to make Strikes."
+										},
+										{
+											"term": "Q: Do models with Monstrous Charge still knock to the ground if they are using a Brutal Power Attack? (p.128)",
+											"text": "A: Yes. Note that while a Monster that uses the Rend Brutal Power Attack makes a number of To Wound Rolls equal to its Attacks characteristic (including any modifiers to its Attacks) against a nominated model, they do not make Strikes so will not double the number of Strikes they make against a Prone target."
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "invisible",
+					"title": "Invisible",
+					"blocks": [
+						{
+							"type": "paragraph",
+							"text": "A model that is Invisible cannot be targeted by Magical Powers, Shooting Attacks or special rules and other models cannot draw Line of Sight to it."
+						},
+						{
+							"type": "paragraph",
+							"text": "An Invisible model has no Control Zone, and models (from either side) may Move through them as if they were not there, though they cannot finish their Move overlapping the Invisible model. An Invisible model may Move through other models (from either side) and may ignore enemy Control Zones; however, it may not end its Move overlapping another model."
+						},
+						{
+							"type": "paragraph",
+							"text": "If a model wishes to Charge an Invisible model, they must take an Intelligence Test, suffering a -1 penalty to the test for every full 1\" that the Invisible model is away from them. If this Intelligence Test is failed, the model may not Charge the Invisible model at all that turn, but may Charge a different target if they wish."
+						},
+						{
+							"type": "paragraph",
+							"text": "An Invisible model may declare Heroic Actions, but friendly models may never benefit from their Heroic Actions. So, an Invisible model cannot shout With Me, At the Double, Loose or Take Aim, and if they declare a Heroic Combat, other friendly models cannot Move as part of it. An Invisible model also cannot provide a Stand Fast."
+						},
+						{
+							"type": "paragraph",
+							"text": "During the Fight Phase, if an Invisible model is Engaged in Combat and has no other friendly models as part of the Combat, they will halve the Fight Value of all enemy models they are Engaged in Combat with. A friendly model cannot Support an Invisible model, and models cannot Support a model that is only fighting an Invisible model."
+						},
+						{
+							"type": "paragraph",
+							"text": "None of the above applies to Sauron or Ringwraith models –see the Will of Evil special rule for further details."
+						}
+					]
+				}
+			]
+		}
 	},
 	"credit": [
 		{
@@ -45961,6 +46411,11 @@
 				"name": "Harbinger of Evil (18\")",
 				"tag": "Passive",
 				"definition": "An enemy model within the range shown in brackets in this model's profile suffers a -1 penalty to any Courage Tests it is required to make. This is not cumulative with other special rules that also provide a similar effect. A model with this special rule is unaffected by the Harbinger of Evil special rule of enemy models."
+			},
+			{
+				"name": "Invisible",
+				"tag": "Passive",
+				"definition": "A model that is Invisible cannot be targeted by Magical Powers, Shooting Attacks or special rules and other models cannot draw Line of Sight to it.\nAn Invisible model has no Control Zone, and models (from either side) may Move through them as if they were not there, though they cannot finish their Move overlapping the Invisible model. An Invisible model may Move through other models (from either side) and may ignore enemy Control Zones; however, it may not end its Move overlapping another model.\nIf a model wishes to Charge an Invisible model, they must take an Intelligence Test, suffering a -1 penalty to the test for every full 1\" that the Invisible model is away from them. If this Intelligence Test is failed, the model may not Charge the Invisible model at all that turn, but may Charge a different target if they wish.\nAn Invisible model may declare Heroic Actions, but friendly models may never benefit from their Heroic Actions. So, an Invisible model cannot shout With Me, At the Double, Loose or Take Aim, and if they declare a Heroic Combat, other friendly models cannot Move as part of it. An Invisible model also cannot provide a Stand Fast.\nDuring the Fight Phase, if an Invisible model is Engaged in Combat and has no other friendly models as part of the Combat, they will halve the Fight Value of all enemy models they are Engaged in Combat with. A friendly model cannot Support an Invisible model, and models cannot Support a model that is only fighting an Invisible model.\nNone of the above applies to Sauron or Ringwraith models –see the Will of Evil special rule for further details."
 			},
 			{
 				"name": "Will of Evil",
