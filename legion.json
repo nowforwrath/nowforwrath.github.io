@@ -13232,6 +13232,40 @@
                 "maximum": 2
               }
             ]
+          },
+          "recon": {
+            "tiers": [
+              {
+                "tier": 1,
+                "minimum": 1,
+                "maximum": 1
+              },
+              {
+                "tier": 2,
+                "minimum": 1,
+                "maximum": 4
+              },
+              {
+                "tier": 3,
+                "minimum": 1,
+                "maximum": 4
+              },
+              {
+                "tier": 4,
+                "minimum": 1,
+                "maximum": 2
+              },
+              {
+                "tier": 5,
+                "minimum": 0,
+                "maximum": 1
+              },
+              {
+                "tier": 6,
+                "minimum": 0,
+                "maximum": 1
+              }
+            ]
           }
         },
         "ttsRoot": {
