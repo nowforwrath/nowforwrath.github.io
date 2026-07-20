@@ -26946,14 +26946,14 @@
           "effectTypeId": "definingTrait",
           "name": "Tunnel Vision",
           "description": "No SP from Agendas; units cannot gain XP from active Agenda. If Agenda not progressed, Paragon makes Casualty Check. Resolves after 2 games.",
-          "dieFace": "crit"
+          "dieFace": "surge"
         },
         {
           "id": "story-arc-defining-trait",
           "effectTypeId": "definingTrait",
           "name": "Story Arc Defining Trait",
           "description": "Gain 1 Experience, then apply Theater of War Defining Trait.",
-          "dieFace": "surge"
+          "dieFace": "crit"
         },
         {
           "id": "disgraced",
@@ -29069,18 +29069,18 @@
               "hit",
               "hit",
               "hit",
-              "crit",
+              "hit",
+              "hit",
               "crit",
               "surge",
-              "blank",
               "blank"
             ],
             "black": [
               "hit",
               "hit",
+              "hit",
               "crit",
               "surge",
-              "blank",
               "blank",
               "blank",
               "blank"
