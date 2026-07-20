@@ -12677,6 +12677,44 @@
                 "maximum": 2
               }
             ]
+          },
+          "recon": {
+            "tiers": [
+              {
+                "tier": 1,
+                "minimum": 1,
+                "maximum": 2
+              },
+              {
+                "tier": 2,
+                "minimum": 2,
+                "maximum": 4
+              },
+              {
+                "tier": 4,
+                "minimum": 0,
+                "maximum": 1
+              },
+              {
+                "tier": 5,
+                "minimum": 0,
+                "maximum": 1
+              },
+              {
+                "tier": 6,
+                "minimum": 0,
+                "maximum": 1
+              }
+            ],
+            "combined": [
+              {
+                "tiers": [
+                  1,
+                  6
+                ],
+                "maximum": 2
+              }
+            ]
           }
         },
         "ttsRoot": {
@@ -12726,6 +12764,49 @@
                 "tier": 6,
                 "minimum": 0,
                 "maximum": 2
+              }
+            ]
+          },
+          "recon": {
+            "tiers": [
+              {
+                "tier": 1,
+                "minimum": 1,
+                "maximum": 3
+              },
+              {
+                "tier": 2,
+                "minimum": 2,
+                "maximum": 4
+              },
+              {
+                "tier": 3,
+                "minimum": 0,
+                "maximum": 3
+              },
+              {
+                "tier": 4,
+                "minimum": 0,
+                "maximum": 3
+              },
+              {
+                "tier": 5,
+                "minimum": 0,
+                "maximum": 1
+              },
+              {
+                "tier": 6,
+                "minimum": 0,
+                "maximum": 2
+              }
+            ],            
+            "combined": [
+              {
+                "tiers": [
+                  1,
+                  6
+                ],
+                "maximum": 3
               }
             ]
           }
@@ -12882,6 +12963,49 @@
                 "maximum": 4
               }
             ]
+          },
+          "recon": {
+            "tiers": [
+              {
+                "tier": 1,
+                "minimum": 1,
+                "maximum": 2
+              },
+              {
+                "tier": 2,
+                "minimum": 1,
+                "maximum": 4
+              },
+              {
+                "tier": 3,
+                "minimum": 0,
+                "maximum": 3
+              },
+              {
+                "tier": 4,
+                "minimum": 0,
+                "maximum": 2
+              },
+              {
+                "tier": 5,
+                "minimum": 0,
+                "maximum": 1
+              },
+              {
+                "tier": 6,
+                "minimum": 0,
+                "maximum": 1
+              }
+            ],
+            "combined": [
+              {
+                "tiers": [
+                  1,
+                  6
+                ],
+                "maximum": 2
+              }
+            ]
           }
         },
         "ttsRoot": {
@@ -12926,6 +13050,40 @@
                 "tier": 6,
                 "minimum": 0,
                 "maximum": 2
+              }
+            ]
+          },
+          "recon": {
+            "tiers": [
+              {
+                "tier": 1,
+                "minimum": 1,
+                "maximum": 3
+              },
+              {
+                "tier": 2,
+                "minimum": 4,
+                "maximum": 6
+              },
+              {
+                "tier": 3,
+                "minimum": 0,
+                "maximum": 2
+              },
+              {
+                "tier": 4,
+                "minimum": 0,
+                "maximum": 2
+              },
+              {
+                "tier": 5,
+                "minimum": 0,
+                "maximum": 1
+              },
+              {
+                "tier": 6,
+                "minimum": 0,
+                "maximum": 1
               }
             ]
           }
@@ -12973,6 +13131,58 @@
                 "minimum": 0,
                 "maximum": 1
               }
+            ],
+            "combined": [
+              {
+                "tiers": [
+                  1,
+                  6
+                ],
+                "maximum": 2
+              }
+            ]
+          },
+          "recon": {
+            "tiers": [
+              {
+                "tier": 1,
+                "minimum": 1,
+                "maximum": 2
+              },
+              {
+                "tier": 2,
+                "minimum": 2,
+                "maximum": 6
+              },
+              {
+                "tier": 3,
+                "minimum": 0,
+                "maximum": 1
+              },
+              {
+                "tier": 4,
+                "minimum": 0,
+                "maximum": 2
+              },
+              {
+                "tier": 5,
+                "minimum": 0,
+                "maximum": 1
+              },
+              {
+                "tier": 6,
+                "minimum": 0,
+                "maximum": 1
+              }
+            ],
+            "combined": [
+              {
+                "tiers": [
+                  1,
+                  6
+                ],
+                "maximum": 2
+              }
             ]
           }
         },
@@ -13017,6 +13227,40 @@
                 "tier": 5,
                 "minimum": 1,
                 "maximum": 3
+              },
+              {
+                "tier": 6,
+                "minimum": 0,
+                "maximum": 1
+              }
+            ]
+          },
+          "recon": {
+            "tiers": [
+              {
+                "tier": 1,
+                "minimum": 1,
+                "maximum": 2
+              },
+              {
+                "tier": 2,
+                "minimum": 1,
+                "maximum": 3
+              },
+              {
+                "tier": 3,
+                "minimum": 0,
+                "maximum": 2
+              },
+              {
+                "tier": 4,
+                "minimum": 0,
+                "maximum": 3
+              },
+              {
+                "tier": 5,
+                "minimum": 1,
+                "maximum": 2
               },
               {
                 "tier": 6,
@@ -13079,6 +13323,49 @@
                 "maximum": 4
               }
             ]
+          },
+          "recon": {
+            "tiers": [
+              {
+                "tier": 1,
+                "minimum": 1,
+                "maximum": 3
+              },
+              {
+                "tier": 2,
+                "minimum": 2,
+                "maximum": 4
+              },
+              {
+                "tier": 3,
+                "minimum": 0,
+                "maximum": 0
+              },
+              {
+                "tier": 4,
+                "minimum": 1,
+                "maximum": 3
+              },
+              {
+                "tier": 5,
+                "minimum": 0,
+                "maximum": 1
+              },
+              {
+                "tier": 6,
+                "minimum": 0,
+                "maximum": 2
+              }
+            ],
+            "combined": [
+              {
+                "tiers": [
+                  1,
+                  6
+                ],
+                "maximum": 3
+              }
+            ]
           }
         },
         "ttsRoot": {
@@ -13112,6 +13399,35 @@
                 "tier": 5,
                 "minimum": 2,
                 "maximum": 4
+              },
+              {
+                "tier": 6,
+                "minimum": 1,
+                "maximum": 1
+              }
+            ]
+          },
+          "recon": {
+            "tiers": [
+              {
+                "tier": 1,
+                "minimum": 0,
+                "maximum": 0
+              },
+              {
+                "tier": 2,
+                "minimum": 2,
+                "maximum": 5
+              },
+              {
+                "tier": 4,
+                "minimum": 0,
+                "maximum": 2
+              },
+              {
+                "tier": 5,
+                "minimum": 1,
+                "maximum": 3
               },
               {
                 "tier": 6,
@@ -13172,6 +13488,49 @@
                   6
                 ],
                 "maximum": 3
+              }
+            ]
+          },
+          "recon": {
+            "tiers": [
+              {
+                "tier": 1,
+                "minimum": 1,
+                "maximum": 2
+              },
+              {
+                "tier": 2,
+                "minimum": 1,
+                "maximum": 1
+              },
+              {
+                "tier": 3,
+                "minimum": 0,
+                "maximum": 3
+              },
+              {
+                "tier": 4,
+                "minimum": 0,
+                "maximum": 2
+              },
+              {
+                "tier": 5,
+                "minimum": 0,
+                "maximum": 2
+              },
+              {
+                "tier": 6,
+                "minimum": 0,
+                "maximum": 1
+              }
+            ],
+            "combined": [
+              {
+                "tiers": [
+                  1,
+                  6
+                ],
+                "maximum": 2
               }
             ]
           }
@@ -13326,6 +13685,35 @@
                 "maximum": 2
               }
             ]
+          },
+          "recon": {
+            "tiers": [
+              {
+                "tier": 1,
+                "minimum": 1,
+                "maximum": 2
+              },
+              {
+                "tier": 2,
+                "minimum": 2,
+                "maximum": 4
+              },
+              {
+                "tier": 3,
+                "minimum": 0,
+                "maximum": 3
+              },
+              {
+                "tier": 4,
+                "minimum": 0,
+                "maximum": 3
+              },
+              {
+                "tier": 5,
+                "minimum": 0,
+                "maximum": 1
+              }
+            ]
           }
         },
         "ttsRoot": {
@@ -13379,6 +13767,44 @@
                   6
                 ],
                 "maximum": 5
+              }
+            ]
+          },
+          "recon": {
+            "tiers": [
+              {
+                "tier": 1,
+                "minimum": 1,
+                "maximum": 4
+              },
+              {
+                "tier": 2,
+                "minimum": 2,
+                "maximum": 4
+              },
+              {
+                "tier": 3,
+                "minimum": 0,
+                "maximum": 3
+              },
+              {
+                "tier": 5,
+                "minimum": 0,
+                "maximum": 1
+              },
+              {
+                "tier": 6,
+                "minimum": 0,
+                "maximum": 3
+              }
+            ],
+            "combined": [
+              {
+                "tiers": [
+                  1,
+                  6
+                ],
+                "maximum": 4
               }
             ]
           }
@@ -13436,6 +13862,49 @@
                 "maximum": 2
               }
             ]
+          },
+          "recon": {
+            "tiers": [
+              {
+                "tier": 1,
+                "minimum": 1,
+                "maximum": 2
+              },
+              {
+                "tier": 2,
+                "minimum": 1,
+                "maximum": 2
+              },
+              {
+                "tier": 3,
+                "minimum": 1,
+                "maximum": 4
+              },
+              {
+                "tier": 4,
+                "minimum": 0,
+                "maximum": 2
+              },
+              {
+                "tier": 5,
+                "minimum": 0,
+                "maximum": 2
+              },
+              {
+                "tier": 6,
+                "minimum": 0,
+                "maximum": 1
+              }
+            ],
+            "combined": [
+              {
+                "tiers": [
+                  1,
+                  6
+                ],
+                "maximum": 2
+              }
+            ]
           }
         },
         "ttsRoot": {
@@ -13477,6 +13946,35 @@
                 "maximum": 2
               }
             ]
+          },
+          "recon": {
+            "tiers": [
+              {
+                "tier": 1,
+                "minimum": 1,
+                "maximum": 1
+              },
+              {
+                "tier": 2,
+                "minimum": 2,
+                "maximum": 4
+              },
+              {
+                "tier": 3,
+                "minimum": 0,
+                "maximum": 3
+              },
+              {
+                "tier": 4,
+                "minimum": 0,
+                "maximum": 1
+              },
+              {
+                "tier": 5,
+                "minimum": 0,
+                "maximum": 1
+              }
+            ]
           }
         },
         "ttsRoot": {
@@ -13511,6 +14009,49 @@
                 "tier": 4,
                 "minimum": 0,
                 "maximum": 3
+              },
+              {
+                "tier": 5,
+                "minimum": 0,
+                "maximum": 1
+              },
+              {
+                "tier": 6,
+                "minimum": 0,
+                "maximum": 1
+              }
+            ],
+            "combined": [
+              {
+                "tiers": [
+                  1,
+                  6
+                ],
+                "maximum": 2
+              }
+            ]
+          },
+          "recon": {
+            "tiers": [
+              {
+                "tier": 1,
+                "minimum": 1,
+                "maximum": 2
+              },
+              {
+                "tier": 2,
+                "minimum": 2,
+                "maximum": 5
+              },
+              {
+                "tier": 3,
+                "minimum": 0,
+                "maximum": 3
+              },
+              {
+                "tier": 4,
+                "minimum": 0,
+                "maximum": 2
               },
               {
                 "tier": 5,
