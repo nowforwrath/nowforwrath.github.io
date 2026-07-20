@@ -15698,7 +15698,7 @@
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/units-new/portraits/43.webp",
         "quantityLimitedBy": [],
         "faction": 5,
-        "unitType": 1,
+        "unitType": 6,
         "health": 3,
         "courage": 0,
         "speed": 2
@@ -18471,8 +18471,8 @@
           "Seventh Sister"
         ],
         "tierCounting": {
-          "ignoreMaximumWhenArmyIncludes": {
-            "whenArmyIncludes": [19108],
+          "exempt": {
+            "whenArmyIncludes": 19108,
             "perSourceUnit": 1
           }
         }
@@ -19112,8 +19112,8 @@
           }
         ],
         "tierCounting": {
-          "ignoreMaximumWhenArmyIncludes": {
-            "whenArmyIncludes": [73, 33769],
+          "exempt": {
+            "whenArmyIncludes": 73,
             "perSourceUnit": 1
           }
         }
