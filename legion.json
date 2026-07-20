@@ -26917,7 +26917,7 @@
           "effectTypeId": "setback",
           "name": "Downtrodden",
           "description": "When added to an army, point cost +15 per instance. Stackable.",
-          "dieFace": "crit",
+          "dieFace": "surge",
           "armyPointsModifierPerInstance": 15
         },
         {
@@ -26925,7 +26925,7 @@
           "effectTypeId": "setback",
           "name": "Story Arc Setback",
           "description": "Gain 1 Experience, then apply the Setback from your Theater of War.",
-          "dieFace": "surge"
+          "dieFace": "crit"
         },
         {
           "id": "captious-command",
