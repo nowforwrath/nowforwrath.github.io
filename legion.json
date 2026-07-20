@@ -3850,6 +3850,63 @@
       "packId": "legion-tours-of-duty"
     }
   ],
+  "diceSystems": [
+    {
+      "id": "legion",
+      "label": "Star Wars: Legion",
+      "attack": {
+        "red": [
+          "hit",
+          "hit",
+          "hit",
+          "hit",
+          "hit",
+          "crit",
+          "surge",
+          "blank"
+        ],
+        "black": [
+          "hit",
+          "hit",
+          "hit",
+          "crit",
+          "surge",
+          "blank",
+          "blank",
+          "blank"
+        ],
+        "white": [
+          "hit",
+          "crit",
+          "surge",
+          "blank",
+          "blank",
+          "blank",
+          "blank",
+          "blank"
+        ]
+      },
+      "defense": {
+        "red": [
+          "block",
+          "block",
+          "block",
+          "surge",
+          "blank",
+          "blank"
+        ],
+        "white": [
+          "block",
+          "surge",
+          "blank",
+          "blank",
+          "blank",
+          "blank"
+        ]
+      }
+    }
+  ],
+  "defaultDiceSystemId": "legion",
   "tierRequirementSets": {
     "standard": {
       "elements": {
@@ -29058,62 +29115,6 @@
               "description": "Return to hand at end of Command Phase."
             }
           ]
-        }
-      ],
-      "diceSystems": [
-        {
-          "id": "legion",
-          "label": "Star Wars: Legion",
-          "attack": {
-            "red": [
-              "hit",
-              "hit",
-              "hit",
-              "hit",
-              "hit",
-              "crit",
-              "surge",
-              "blank"
-            ],
-            "black": [
-              "hit",
-              "hit",
-              "hit",
-              "crit",
-              "surge",
-              "blank",
-              "blank",
-              "blank"
-            ],
-            "white": [
-              "hit",
-              "crit",
-              "surge",
-              "blank",
-              "blank",
-              "blank",
-              "blank",
-              "blank"
-            ]
-          },
-          "defense": {
-            "red": [
-              "block",
-              "block",
-              "block",
-              "surge",
-              "blank",
-              "blank"
-            ],
-            "white": [
-              "block",
-              "surge",
-              "blank",
-              "blank",
-              "blank",
-              "blank"
-            ]
-          }
         }
       ],
       "defaultDiceSystemId": "legion",
