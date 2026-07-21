@@ -29012,7 +29012,7 @@
           "name": "Request Assistance",
           "cost": 1,
           "resourceId": "supplyPoints",
-          "effectDescription": "Include 1 unique non-Commander this game.",
+          "effectDescription": "You may include 1 unique non-Commander unit and any upgrades it could equip in your army this game. This unit and its upgrades do not need to be on your Register, but its total points cost still counts toward the total points allowed in your army. This Strategic Asset may be chosen up to 2 times during the Post-Battle Sequence, instead of the normal once. You may not use this Strategic Asset during your Turning Point Mission.",
           "maxPerSequence": 2,
           "maxPerRegister": 2,
           "unavailableOnClimax": true
@@ -29022,7 +29022,7 @@
           "name": "Heroic Intervention",
           "cost": 2,
           "resourceId": "supplyPoints",
-          "effectDescription": "Include 1 unique Commander this game.",
+          "effectDescription": "You may include 1 unique Commander unit in this game. This unit and its upgrades do not need to be on your Register, but its total points cost still counts toward the total points allowed in your army. You may not use this Strategic Asset during your Turning Point Mission.",
           "maxPerRegister": 1,
           "unavailableOnClimax": true
         },
@@ -29031,7 +29031,7 @@
           "name": "Requisition Special Equipment",
           "cost": 1,
           "resourceId": "supplyPoints",
-          "effectDescription": "Include 1 unique upgrade this game.",
+          "effectDescription": "You may include 1 unique upgrade in your army in this game. This upgrade does not need to be on your Register, but its total points cost still counts toward the total points allowed in your army. This Strategic Asset may be chosen up to 2 times during the Post-Battle Sequence, instead of the normal once. You may not use this Strategic Asset during your Turning Point Mission.",
           "maxPerSequence": 2,
           "maxPerRegister": 2,
           "unavailableOnClimax": true
@@ -29041,7 +29041,7 @@
           "name": "Medevac",
           "cost": 1,
           "resourceId": "supplyPoints",
-          "effectDescription": "Chosen defeated unit skips Casualty Check.",
+          "effectDescription": "During the Determine Casualties and Setbacks step of the Post-Game Sequence, choose 1 unit in your army that was defeated in this game. The chosen unit does not make a Casualty Check.",
           "maxPerRegister": 1
         },
         {
@@ -29049,7 +29049,7 @@
           "name": "Orbital Bombardment",
           "cost": 1,
           "resourceId": "supplyPoints",
-          "effectDescription": "Once per game: roll 5 black attack near a POI for Suppression.",
+          "effectDescription": "Once this game, at the start of the Activation Phase, choose 1 POI on the battlefield and roll 5 black attack dice. Each unit within Range 1 of that POI gains 1 Suppression token for each hit or critical result rolled.",
           "maxPerRegister": 1
         },
         {
@@ -29057,7 +29057,7 @@
           "name": "Combat Drop",
           "cost": 1,
           "resourceId": "supplyPoints",
-          "effectDescription": "Chosen unit gains Infiltrate this game.",
+          "effectDescription": "In this game, choose 1 allied unit at the start of the first Activation Phase. The chosen unit gains Infiltrate this game.",
           "maxPerRegister": 1
         },
         {
@@ -29065,7 +29065,7 @@
           "name": "Authorized Extraordinary Use",
           "cost": 1,
           "resourceId": "supplyPoints",
-          "effectDescription": "Chosen unit ignores rank maximum this game.",
+          "effectDescription": "In this game, choose 1 allied unit during Army Building. The chosen unit does not count against the maximum number of units of its Rank that can be included in your army this game.",
           "maxPerRegister": 1
         },
         {
@@ -29073,7 +29073,7 @@
           "name": "Contingency Plan",
           "cost": 1,
           "resourceId": "supplyPoints",
-          "effectDescription": "Once per game, switch to another unused Agenda. Keep this asset if you did not switch.",
+          "effectDescription": "Once this game, at the start of any End Phase, you may choose one of your Agendas that you did not use this game. Your Agenda in play is no longer in play, and the chosen Agenda is now your Agenda in play. At the end of the game, if you did not switch your Agendas that game, do not remove this Strategic Asset from your Register.",
           "maxPerRegister": 1
         }
       ],
