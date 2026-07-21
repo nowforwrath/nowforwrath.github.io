@@ -14612,7 +14612,7 @@
             "rank": 1
           }
         ],
-        "upgradeTypes": [5, 5, 5, 9, 26],
+        "upgradeTypes": [5, 5, 5, 9],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/3.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/3.webp?version=8",
         "keywords": [3, 51, 28, 4, 65, 202, 207],
@@ -14708,7 +14708,7 @@
             "rank": 2
           }
         ],
-        "upgradeTypes": [4, 1, 2, 3, 22, 26, {
+        "upgradeTypes": [4, 1, 2, 3, 22, {
             "id": 4,
             "unlockedBy": 21906
           },
@@ -14757,7 +14757,7 @@
             "rank": 2
           }
         ],
-        "upgradeTypes": [4, 1, 2, 3, {
+        "upgradeTypes": [4, 1, 2, 3, 26, {
             "id": 4,
             "unlockedBy": 21908
           },
@@ -14810,7 +14810,7 @@
             "rank": 2
           }
         ],
-        "upgradeTypes": [4, 1, 2, 3, 22, 26, {
+        "upgradeTypes": [4, 1, 2, 3, 22, {
             "id": 4,
             "unlockedBy": 21906
           },
@@ -14859,7 +14859,7 @@
             "rank": 1
           }
         ],
-        "upgradeTypes": [9, 9, 2, 26],
+        "upgradeTypes": [9, 9, 2],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/8.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/8.webp?version=8",
         "keywords": [6, 8, 61, 95, 129],
@@ -15943,7 +15943,7 @@
             "rank": 1
           }
         ],
-        "upgradeTypes": [5, 5, 5, 9, 26],
+        "upgradeTypes": [5, 5, 5, 9],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/49.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/49.webp?version=8",
         "keywords": [66, 3, 4, 89, 28, 164, 202, 207, 184, 187],
@@ -16652,7 +16652,7 @@
             "rank": 1
           }
         ],
-        "upgradeTypes": [5, 5, 5, 9, 26],
+        "upgradeTypes": [5, 5, 5, 9],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/764.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/764.webp?version=8",
         "keywords": [114, 28, 4, 129, 3, 207, 187, 202, 177],
@@ -17312,7 +17312,7 @@
             "rank": 2
           }
         ],
-        "upgradeTypes": [4, 1, 2, 3, 26],
+        "upgradeTypes": [4, 1, 2, 3],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/4417.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/4417.webp?version=8",
         "keywords": [42, 147, 134, 62],
@@ -17392,7 +17392,7 @@
             "rank": 1
           }
         ],
-        "upgradeTypes": [9, 2, 26],
+        "upgradeTypes": [9, 2],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/4717.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/4717.webp?version=8",
         "keywords": [161, 42, 134],
@@ -17975,7 +17975,7 @@
         "upgradeTypes": [5, 5, 10, 10],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/13582.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/13582.webp?version=8",
-        "keywords": [1, 3, 4, 51, 134, 136, 202, 207],
+        "keywords": [1, 3, 4, 134, 40, 136, 51, 202, 207],
         "figures": 1,
         "id": "13582",
         "unlimited": false,
@@ -18447,7 +18447,7 @@
             "rank": 1
           }
         ],
-        "upgradeTypes": [9, 9, 6, 2, 26],
+        "upgradeTypes": [9, 9, 6, 2],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/19106.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/19106.webp?version=8",
         "keywords": [1, 65, 162, 140, 156],
@@ -18540,7 +18540,7 @@
             "rank": 6
           }
         ],
-        "upgradeTypes": [4, 4, 4, 4, 4, 26],
+        "upgradeTypes": [4, 4, 4, 4, 4],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/23655.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/23655.webp?version=8",
         "keywords": [159, 160, 26, 41, 8, 72],
@@ -20466,7 +20466,7 @@
             "rank": 3
           }
         ],
-        "upgradeTypes": [4, 26, {
+        "upgradeTypes": [4, {
             "id": 4,
             "unlockedBy": 21907
           }
@@ -20814,7 +20814,7 @@
             "rank": 6
           }
         ],
-        "upgradeTypes": [9, 26],
+        "upgradeTypes": [9],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33791.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33791.webp?version=8",
         "keywords": [1, 125, 2, 36, 3, 164, 4, 6, 214],
@@ -21081,7 +21081,7 @@
             "rank": 2
           }
         ],
-        "upgradeTypes": [],
+        "upgradeTypes": [26],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/34054.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/34054.webp?version=8",
         "keywords": [1, 196, 123, 41, 150, 156],
@@ -27703,6 +27703,12 @@
               "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/daring-defense-2.jpeg?version=8",
               "rewards": {
                 "kind": "chooseOnePerProgression",
+                "choiceCount": 1,
+                "casualtyReplacement": {
+                  "entryPick": "firstRewardSlot",
+                  "experienceAmount": 2,
+                  "effectTypeId": "setback"
+                },
                 "options": [
                   {
                     "id": "unit-xp",
@@ -27950,6 +27956,7 @@
                     "id": "xp",
                     "label": "Unit +1 XP",
                     "requiresEntry": true,
+                    "requiresDefeatedEntry": true,
                     "pieces": [
                       {
                         "type": "grantExperience",
@@ -28669,6 +28676,7 @@
               "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/discover-valuables-2.jpeg?version=8",
               "rewards": {
                 "kind": "chooseOnePerProgression",
+                "choicesPerProgression": 2,
                 "options": [
                   {
                     "id": "xp",
