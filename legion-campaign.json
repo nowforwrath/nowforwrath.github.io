@@ -1,0 +1,2334 @@
+{
+      "id": "legion-tours-of-duty",
+      "label": "Tours of Duty",
+      "kind": "poolThenList",
+      "registerResources": [
+        {
+          "id": "combatPotential",
+          "label": "Combat Potential",
+          "initial": 600,
+          "role": "poolCap"
+        },
+        {
+          "id": "supplyPoints",
+          "label": "Supply Points",
+          "initial": 5,
+          "role": "spendable"
+        },
+        {
+          "id": "reputation",
+          "label": "Reputation",
+          "initial": 0,
+          "role": "track"
+        }
+      ],
+      "leader": {
+        "hasCampaignLeader": true,
+        "campaignLeaderLabel": "Paragon",
+        "requirements": {
+          "rankIds": [
+            1
+          ],
+          "firstMatchingBecomesLeader": true
+        },
+        "requiredInBattle": true,
+        "cannotBeRemoved": true
+      },
+      "unitEffectTypes": [
+        {
+          "id": "commendation",
+          "label": "Commendations",
+          "stackPolicy": "unique",
+          "permanent": true
+        },
+        {
+          "id": "setback",
+          "label": "Setbacks",
+          "stackPolicy": "stack"
+        },
+        {
+          "id": "definingTrait",
+          "label": "Defining Traits",
+          "stackPolicy": "replace",
+          "expiresAfterGames": 2
+        }
+      ],
+      "experienceTypes": [
+        {
+          "id": "veteranRank",
+          "label": "Veteran Rank",
+          "ranks": [
+            {
+              "min": 0,
+              "rank": 0
+            },
+            {
+              "min": 5,
+              "rank": 1
+            },
+            {
+              "min": 13,
+              "rank": 2
+            },
+            {
+              "min": 25,
+              "rank": 3
+            },
+            {
+              "min": 40,
+              "rank": 4
+            },
+            {
+              "min": 50,
+              "rank": 5
+            }
+          ],
+          "maxRankByUnitRankId": {
+            "1": 5,
+            "2": 3,
+            "3": 3,
+            "4": 3,
+            "5": 3,
+            "6": 4
+          },
+          "absoluteMaxRank": 5,
+          "onRankUp": [
+            {
+              "offerUnitEffectTypeId": "commendation"
+            },
+            {
+              "unlockFromCatalogId": "paragon-command-cards"
+            }
+          ]
+        }
+      ],
+      "unitEffects": [
+        {
+          "id": "battle-fatigue",
+          "effectTypeId": "setback",
+          "name": "Battle-Fatigue",
+          "description": "When this unit attacks, after Convert Attack Surges, opponent may remove up to X dice showing hit results. Stackable.",
+          "dieFace": "hit"
+        },
+        {
+          "id": "battle-shaken",
+          "effectTypeId": "setback",
+          "name": "Battle-Shaken",
+          "description": "After Rally, if Suppression > Courage, suffer 1 Wound. Vehicles/single-miniature: 1 Wound at start of first Activation Phase instead.",
+          "dieFace": "blank"
+        },
+        {
+          "id": "downtrodden",
+          "effectTypeId": "setback",
+          "name": "Downtrodden",
+          "description": "When added to an army, point cost +15 per instance. Stackable.",
+          "dieFace": "surge",
+          "armyPointsModifierPerInstance": 15
+        },
+        {
+          "id": "story-arc-setback",
+          "effectTypeId": "setback",
+          "name": "Story Arc Setback",
+          "description": "Gain 1 Experience, then apply the Setback from your Theater of War.",
+          "dieFace": "crit"
+        },
+        {
+          "id": "captious-command",
+          "effectTypeId": "definingTrait",
+          "name": "Captious Command",
+          "description": "At end of game, opponent does not name a Most Feared Rival. Resolves after 2 games.",
+          "dieFace": "hit"
+        },
+        {
+          "id": "unsure",
+          "effectTypeId": "definingTrait",
+          "name": "Unsure",
+          "description": "When nominated as Commander, roll 1 red defense. On block, allied units issued an Order with a Command Card this round gain 1 Suppression. Resolves after 2 games.",
+          "dieFace": "blank"
+        },
+        {
+          "id": "tunnel-vision",
+          "effectTypeId": "definingTrait",
+          "name": "Tunnel Vision",
+          "description": "No SP from Agendas; units cannot gain XP from active Agenda. If Agenda not progressed, Paragon makes Casualty Check. Resolves after 2 games.",
+          "dieFace": "surge"
+        },
+        {
+          "id": "story-arc-defining-trait",
+          "effectTypeId": "definingTrait",
+          "name": "Story Arc Defining Trait",
+          "description": "Gain 1 Experience, then apply Theater of War Defining Trait.",
+          "dieFace": "crit"
+        },
+        {
+          "id": "disgraced",
+          "effectTypeId": "definingTrait",
+          "name": "Disgraced",
+          "description": "Allied units may only use this unit's Courage for Panic within Range 2 instead of 3."
+        },
+        {
+          "id": "faulty-equipment",
+          "effectTypeId": "definingTrait",
+          "name": "Faulty Equipment",
+          "description": "At start of first Command Phase, randomize Order tokens and draw 2; matching units gain Faulty Equipment tokens."
+        },
+        {
+          "id": "insecure",
+          "effectTypeId": "definingTrait",
+          "name": "Insecure",
+          "description": "If this unit would issue an Order to itself, roll a red defense die. On a block, it cannot issue that Order to itself and must issue it to another unit instead, if able."
+        },
+        {
+          "id": "hunted",
+          "effectTypeId": "definingTrait",
+          "name": "Hunted",
+          "description": "Narrative status from Liberate the System Turning Point loss."
+        },
+        {
+          "id": "resilient",
+          "effectTypeId": "commendation",
+          "name": "Resilient",
+          "description": "On Casualty Check with 2+ black dice, may reroll 1 die."
+        },
+        {
+          "id": "veteran-leader",
+          "effectTypeId": "commendation",
+          "name": "Veteran Leader",
+          "description": "Gains Inspire 2."
+        },
+        {
+          "id": "special-munitions",
+          "effectTypeId": "commendation",
+          "name": "Special Munitions",
+          "description": "Once per game when attacking, chosen Attack Pool gains Anti-Materiel 2 and Impact 1."
+        },
+        {
+          "id": "well-stocked",
+          "effectTypeId": "commendation",
+          "name": "Well-Stocked",
+          "description": "Special Munitions once per Round instead of once per Game.",
+          "requirements": "Special Munitions, VR 3"
+        },
+        {
+          "id": "one-in-a-million",
+          "effectTypeId": "commendation",
+          "name": "One in a Million",
+          "description": "Once per game when attacking, upgrade 2 dice in chosen Attack Pool."
+        },
+        {
+          "id": "sterner-stuff",
+          "effectTypeId": "commendation",
+          "name": "Sterner Stuff",
+          "description": "Once per game when removing last miniature from Wounds, roll black attack; on surge/crit survive with 1 Wound.",
+          "requirements": "VR 3"
+        },
+        {
+          "id": "strongpoint-expertise",
+          "effectTypeId": "commendation",
+          "name": "Strongpoint Expertise",
+          "description": "Gains Prepared Position. In allied Territory, Cover Pool rolls red defense instead of white."
+        },
+        {
+          "id": "marksmanship-badge",
+          "effectTypeId": "commendation",
+          "name": "Marksmanship Badge",
+          "description": "Gains Precise 1."
+        },
+        {
+          "id": "harsh-environments-gear",
+          "effectTypeId": "commendation",
+          "name": "Harsh Environments Gear",
+          "description": "Gains Unhindered."
+        },
+        {
+          "id": "advanced-drill",
+          "effectTypeId": "commendation",
+          "name": "Advanced Drill",
+          "description": "Gains a Training upgrade slot.",
+          "requirements": "Trooper Only",
+          "grantsUpgradeTypes": [
+            "Training"
+          ]
+        },
+        {
+          "id": "forward-patrol",
+          "effectTypeId": "commendation",
+          "name": "Forward Patrol",
+          "description": "Gains a Comms upgrade slot.",
+          "requirements": "Trooper Only",
+          "grantsUpgradeTypes": [
+            "Comms"
+          ]
+        },
+        {
+          "id": "extra-equipment",
+          "effectTypeId": "commendation",
+          "name": "Extra Equipment",
+          "description": "Gains a Gear and a Grenades upgrade slot.",
+          "requirements": "Trooper Only",
+          "grantsUpgradeTypes": [
+            "Gear",
+            "Grenades"
+          ]
+        },
+        {
+          "id": "field-modifications",
+          "effectTypeId": "commendation",
+          "name": "Field Modifications",
+          "description": "Wound Threshold +1 and Resilience +1 if it has Resilience.",
+          "requirements": "Vehicle Only"
+        },
+        {
+          "id": "flexible-response",
+          "effectTypeId": "commendation",
+          "name": "Flexible Response",
+          "description": "Gains a Heavy Weapon slot and Flexible Response X.",
+          "requirements": "Corps Trooper Only, VR 2",
+          "grantsUpgradeTypes": [
+            "Heavy Weapon"
+          ]
+        },
+        {
+          "id": "recon-badge",
+          "effectTypeId": "commendation",
+          "name": "Recon Badge",
+          "description": "Gains Scout 1.",
+          "requirements": "VR 2"
+        },
+        {
+          "id": "assault-badge",
+          "effectTypeId": "commendation",
+          "name": "Assault Badge",
+          "description": "Gains Tactical 1.",
+          "requirements": "VR 2"
+        },
+        {
+          "id": "personal-shields",
+          "effectTypeId": "commendation",
+          "name": "Personal Shields",
+          "description": "Gains Recharge 1 and Shielded 1.",
+          "requirements": "VR 2"
+        },
+        {
+          "id": "feats-of-valor",
+          "effectTypeId": "commendation",
+          "name": "Feats of Valor",
+          "description": "Courage +1.",
+          "requirements": "VR 2"
+        },
+        {
+          "id": "self-sufficient",
+          "effectTypeId": "commendation",
+          "name": "Self-Sufficient",
+          "description": "Gains Independent: Aim 1 or Dodge 1.",
+          "requirements": "VR 2"
+        },
+        {
+          "id": "fearsome",
+          "effectTypeId": "commendation",
+          "name": "Fearsome",
+          "description": "Gains Demoralize 1.",
+          "requirements": "Trooper Only, VR 2"
+        },
+        {
+          "id": "urban-assault-experts",
+          "effectTypeId": "commendation",
+          "name": "Urban Assault Experts",
+          "description": "When attacking a unit with Cover from Obscured terrain, Sharpshooter 1.",
+          "requirements": "VR 2"
+        },
+        {
+          "id": "expert-pilot",
+          "effectTypeId": "commendation",
+          "name": "Expert Pilot",
+          "description": "Gains Nimble and Outmaneuver.",
+          "requirements": "Speeder X only, VR 2"
+        },
+        {
+          "id": "dedicated-to-the-cause",
+          "effectTypeId": "commendation",
+          "name": "Dedicated to the Cause",
+          "description": "On Casualty Check with 2+ black dice, reroll up to 2.",
+          "requirements": "Resilient, VR 3",
+          "high": true
+        },
+        {
+          "id": "lucky-shot",
+          "effectTypeId": "commendation",
+          "name": "Lucky Shot",
+          "description": "One in a Million once per Round instead of once per Game.",
+          "requirements": "One in a Million, VR 3",
+          "high": true
+        },
+        {
+          "id": "implacable",
+          "effectTypeId": "commendation",
+          "name": "Implacable",
+          "description": "Sterner Stuff once per Round instead of once per Game.",
+          "requirements": "Sterner Stuff, VR 3",
+          "high": true
+        },
+        {
+          "id": "headhunters",
+          "effectTypeId": "commendation",
+          "name": "Headhunters",
+          "description": "Gains Bounty.",
+          "requirements": "Special Forces Only, VR 2",
+          "high": true
+        },
+        {
+          "id": "veteran-gunners",
+          "effectTypeId": "commendation",
+          "name": "Veteran Gunners",
+          "description": "Gains Arsenal 1.",
+          "requirements": "Vehicle Only, VR 3",
+          "high": true
+        },
+        {
+          "id": "born-to-lead",
+          "effectTypeId": "commendation",
+          "name": "Born to Lead",
+          "description": "Gains One Step Ahead.",
+          "requirements": "Paragon Only, VR 4",
+          "high": true
+        }
+      ],
+      "acts": [
+        {
+          "id": "bring-peace-to-the-galaxy",
+          "name": "Bring Peace to the Galaxy",
+          "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/bring-peace-back.png?version=8",
+          "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/bring-peace-flavor.png?version=8",
+          "thematicFaction": "Imperial",
+          "narrative": "Under the Emperor's benevolent rule, crush malcontents who sow discord. Truth and unity — For the Empire!",
+          "objectives": [
+            {
+              "id": "keep-them-in-line",
+              "name": "Keep Them in Line",
+              "description": "Token when you cause Panic. Post-game: 2+ tokens → progress once; 3+ → again. Complete at 3 progress.",
+              "completionRequired": 3,
+              "rewardDescription": "Draw Order tokens equal to progressions; matching units gain 2 XP each.",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/keep-them-in-line-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/keep-them-in-line-2.jpeg?version=8",
+              "rewards": {
+                "kind": "pickEntries",
+                "countFromProgressions": true,
+                "entryPieces": [
+                  {
+                    "type": "grantExperience",
+                    "amount": 2
+                  }
+                ]
+              }
+            },
+            {
+              "id": "gather-intelligence",
+              "name": "Gather Intelligence",
+              "description": "Trooper Listening Device actions. End Phase token if 2+ allied devices. 3+/4+ tokens progress. Complete at 3.",
+              "completionRequired": 3,
+              "rewardDescription": "Per progression: gain 2 SP OR unit +2 XP and remove 1 Setback.",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/gather-intelligence-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/gather-intelligence-2.jpeg?version=8",
+              "rewards": {
+                "kind": "chooseOnePerProgression",
+                "options": [
+                  {
+                    "id": "sp",
+                    "label": "+2 SP",
+                    "pieces": [
+                      {
+                        "type": "awardResource",
+                        "resourceId": "supplyPoints",
+                        "amount": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": "xp-clear",
+                    "label": "Unit +2 XP and remove 1 Setback",
+                    "requiresEntry": true,
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 2
+                      },
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": "persons-of-interest",
+              "name": "Persons of Interest",
+              "description": "Roll black attack at setup for target rank. Tokens on kills. 5+/7+ progress. Complete at 3.",
+              "completionRequired": 3,
+              "rewardDescription": "Per progression: choose unit; remove all Setbacks or +2 XP if none.",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/persons-of-interest-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/persons-of-interest-2.jpeg?version=8",
+              "rewards": {
+                "kind": "chooseOnePerProgression",
+                "options": [
+                  {
+                    "id": "poi-clear",
+                    "label": "Clear all Setbacks",
+                    "requiresEntry": true,
+                    "requiresHasEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": "all"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "poi-xp",
+                    "label": "+2 XP (if no Setbacks)",
+                    "requiresEntry": true,
+                    "requiresLacksEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 2
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "climax": {
+            "id": "wipe-them-out",
+            "name": "Wipe Them Out",
+            "briefing": "Eliminate evacuation resistance and secure the area.",
+            "specialRules": "5 Defensive Positions in Red Territory; 1 Evacuation Point Contested.",
+            "secondaryObjectives": "Transports / capture fleeing units. 3+ secondary VP → 2 SP.",
+            "advantages": "Blue free moves per removed Defensive Position. Red Prepared Position + Cover near positions.",
+            "victoryRewardDescription": "3 units: +1 XP or clear Setbacks. Paragon may gain Compel or Strategize 1; clear Disgraced.",
+            "lossRewardDescription": "Roll 5 red defense; per Block: unit +2 XP or remove 1 Setback. Paragon gains Disgraced.",
+            "lossDieFace": "block",
+            "victoryClearsStatus": "disgraced",
+            "lossAppliesStatus": "disgraced",
+            "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/bring-peace-tp-1.jpeg?version=8",
+            "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/bring-peace-tp-2.jpeg?version=8",
+            "rewards": {
+              "secondary": {
+                "resourceId": "supplyPoints",
+                "amount": 2,
+                "label": "3+ secondary VP → 2 SP"
+              },
+              "victory": {
+                "maxUnits": 3,
+                "unitOptions": [
+                  {
+                    "id": "unit-xp",
+                    "label": "+1 XP",
+                    "requiresEntry": true,
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": "unit-clear",
+                    "label": "Clear all Setbacks",
+                    "requiresEntry": true,
+                    "requiresHasEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": "all"
+                      }
+                    ]
+                  }
+                ],
+                "keywordChoices": [
+                  "Compel",
+                  "Strategize 1"
+                ]
+              },
+              "loss": {
+                "dice": {
+                  "kind": "defense",
+                  "color": "red",
+                  "count": 5,
+                  "successFace": "block"
+                },
+                "unitOptions": [
+                  {
+                    "id": "unit-xp",
+                    "label": "+2 XP",
+                    "requiresEntry": true,
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": "unit-clear",
+                    "label": "Remove 1 Setback",
+                    "requiresEntry": true,
+                    "requiresHasEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "unlockClimaxWhen": {
+            "objectivesCompletedAtLeast": 2
+          },
+          "mustPlayClimaxWhen": {
+            "objectivesCompletedAtLeast": 3
+          },
+          "unitEffects": [
+            {
+              "id": "failure-is-not-an-option",
+              "effectTypeId": "commendation",
+              "name": "Failure Is Not an Option",
+              "description": "This unit gains Ruthless.",
+              "requirements": "Commander or Operative, VR 4",
+              "actId": "bring-peace-to-the-galaxy"
+            },
+            {
+              "id": "flat-footed",
+              "effectTypeId": "setback",
+              "name": "Flat Footed",
+              "description": "Each Round at start of Activation Phase, if opponent played fewer pips, this unit gains 1 Suppression. Second instance before removal → casualty.",
+              "actId": "bring-peace-to-the-galaxy"
+            },
+            {
+              "id": "conspicuous",
+              "effectTypeId": "definingTrait",
+              "name": "Conspicuous",
+              "description": "Gains Advanced Targeting: Commander and Operative Trooper 1. Resolves after 2 games.",
+              "actId": "bring-peace-to-the-galaxy"
+            }
+          ]
+        },
+        {
+          "id": "liberate-the-system",
+          "name": "Liberate the System",
+          "thematicFaction": "Rebel",
+          "narrative": "A community suffers under occupation. Diverted resources, fear, and silence — if you don't fight, no one will.",
+          "objectives": [
+            {
+              "id": "midnight-strikes",
+              "name": "Midnight Strikes",
+              "description": "Token when defeating facedown-Order enemies. 2+/3+ progress. Complete at 3.",
+              "completionRequired": 3,
+              "rewardDescription": "Order-token draw: matching units +2 XP per progression.",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/midnight-strikes-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/midnight-strikes-2.jpeg?version=8",
+              "rewards": {
+                "kind": "pickEntries",
+                "countFromProgressions": true,
+                "entryPieces": [
+                  {
+                    "type": "grantExperience",
+                    "amount": 2
+                  }
+                ]
+              }
+            },
+            {
+              "id": "small-victories",
+              "name": "Small Victories",
+              "description": "Token when scoring Secondary VP. 3+ tokens progress; if lost, progress again. Complete at 3.",
+              "completionRequired": 3,
+              "rewardDescription": "Per progression: 1 SP OR unit +1 XP (once per unit).",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/small-victories-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/small-victories-2.jpeg?version=8",
+              "rewards": {
+                "kind": "chooseOnePerProgression",
+                "options": [
+                  {
+                    "id": "sp",
+                    "label": "+1 SP",
+                    "pieces": [
+                      {
+                        "type": "awardResource",
+                        "resourceId": "supplyPoints",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": "xp",
+                    "label": "Unit +1 XP",
+                    "requiresEntry": true,
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": "on-the-run",
+              "name": "On the Run",
+              "description": "Token when you gain Priority. 2+/3+ progress. Complete at 3.",
+              "completionRequired": 3,
+              "rewardDescription": "Per progression: clear all Setbacks on a unit or +2 XP if none.",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/on-the-run-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/on-the-run-2.jpeg?version=8",
+              "rewards": {
+                "kind": "chooseOnePerProgression",
+                "options": [
+                  {
+                    "id": "otr-clear",
+                    "label": "Clear all Setbacks",
+                    "requiresEntry": true,
+                    "requiresHasEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": "all"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "otr-xp",
+                    "label": "+2 XP (if no Setbacks)",
+                    "requiresEntry": true,
+                    "requiresLacksEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 2
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "climax": {
+            "id": "the-big-one",
+            "name": "The Big One",
+            "briefing": "Strike the outpost, disrupt operations, mobilize cells.",
+            "specialRules": "5 Supply Stockpiles Contested; 1 Command Center in Red.",
+            "secondaryObjectives": "Holorecorder Identify the Leaders. SP/XP bonuses apply.",
+            "advantages": "Blue Paragon Rally aura. Red Prepared Position on half of Troopers.",
+            "victoryRewardDescription": "3 units XP/clear Setbacks. Paragon Uncanny Luck 1 or One Step Ahead; clear Hunted.",
+            "lossRewardDescription": "5 red defense; per Blank: unit +2 XP or remove Setback. Paragon gains Hunted.",
+            "lossDieFace": "blank",
+            "victoryClearsStatus": "hunted",
+            "lossAppliesStatus": "hunted",
+            "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/liberate-tp-1.jpeg?version=8",
+            "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/liberate-tp-2.jpeg?version=8",
+            "rewards": {
+              "victory": {
+                "maxUnits": 3,
+                "unitOptions": [
+                  {
+                    "id": "unit-xp",
+                    "label": "+1 XP",
+                    "requiresEntry": true,
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": "unit-clear",
+                    "label": "Clear all Setbacks",
+                    "requiresEntry": true,
+                    "requiresHasEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": "all"
+                      }
+                    ]
+                  }
+                ],
+                "keywordChoices": [
+                  "Uncanny Luck 1",
+                  "One Step Ahead"
+                ]
+              },
+              "loss": {
+                "dice": {
+                  "kind": "defense",
+                  "color": "red",
+                  "count": 5,
+                  "successFace": "blank"
+                },
+                "unitOptions": [
+                  {
+                    "id": "unit-xp",
+                    "label": "+2 XP",
+                    "requiresEntry": true,
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": "unit-clear",
+                    "label": "Remove 1 Setback",
+                    "requiresEntry": true,
+                    "requiresHasEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "unlockClimaxWhen": {
+            "objectivesCompletedAtLeast": 2
+          },
+          "mustPlayClimaxWhen": {
+            "objectivesCompletedAtLeast": 3
+          },
+          "unitEffects": [
+            {
+              "id": "hopeful",
+              "effectTypeId": "commendation",
+              "name": "Hopeful",
+              "description": "Courage +1 (Vehicles: Resilience +1; if Resilience ≥ Wounds, Resilience becomes \"-\").",
+              "actId": "liberate-the-system"
+            },
+            {
+              "id": "compromised",
+              "effectTypeId": "setback",
+              "name": "Compromised",
+              "description": "Cannot Backup or Guardian. Second instance → casualty.",
+              "actId": "liberate-the-system"
+            },
+            {
+              "id": "weight-of-responsibility",
+              "effectTypeId": "definingTrait",
+              "name": "Weight of Responsibility",
+              "description": "When issuing Orders without self-Order, ordered allies gain Suppression. Resolves after 2 games.",
+              "actId": "liberate-the-system"
+            }
+          ],
+          "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/liberate.jpeg?version=8",
+          "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/liberate-flavor.jpeg?version=8"
+        },
+        {
+          "id": "peacekeeping-mission",
+          "name": "Peacekeeping Mission",
+          "thematicFaction": "Republic",
+          "narrative": "Repel invaders and deliver relief. Establish a forward base; reinforcements will fortify the system. For the Republic!",
+          "objectives": [
+            {
+              "id": "daring-defense",
+              "name": "Daring Defense",
+              "description": "Mark ally + POI; tokens for contesting. Complete at 3.",
+              "completionRequired": 3,
+              "rewardDescription": "Chosen unit +2 XP or clear Setbacks. Cheat death: casualty → +2 XP + Setback instead.",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/daring-defense-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/daring-defense-2.jpeg?version=8",
+              "rewards": {
+                "kind": "chooseOnePerProgression",
+                "choiceCount": 1,
+                "casualtyReplacement": {
+                  "entryPick": "firstRewardSlot",
+                  "experienceAmount": 2,
+                  "effectTypeId": "setback"
+                },
+                "options": [
+                  {
+                    "id": "unit-xp",
+                    "label": "+2 XP",
+                    "requiresEntry": true,
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": "unit-clear",
+                    "label": "Clear all Setbacks",
+                    "requiresEntry": true,
+                    "requiresHasEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": "all"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": "concentrated-efforts",
+              "name": "Concentrated Efforts",
+              "description": "3+ Secondary VP → progress; if more than opponent, progress again. Complete at 3.",
+              "completionRequired": 3,
+              "rewardDescription": "2 SP per progression; +1 SP if won.",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/concentrated-efforts-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/concentrated-efforts-2.jpeg?version=8",
+              "rewards": {
+                "kind": "autoPerProgression",
+                "resourcePiecesPerProgression": [
+                  {
+                    "type": "awardResource",
+                    "resourceId": "supplyPoints",
+                    "amount": 2
+                  }
+                ],
+                "ifWonResources": [
+                  {
+                    "type": "awardResource",
+                    "resourceId": "supplyPoints",
+                    "amount": 1
+                  }
+                ]
+              }
+            },
+            {
+              "id": "against-all-odds",
+              "name": "Against All Odds",
+              "description": "End of Round token if opponent has more defeated. Complete at 3.",
+              "completionRequired": 3,
+              "rewardDescription": "Order-token draw: matching units +2 XP.",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/against-all-odds-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/against-all-odds-2.jpeg?version=8",
+              "rewards": {
+                "kind": "pickEntries",
+                "countFromProgressions": true,
+                "entryPieces": [
+                  {
+                    "type": "grantExperience",
+                    "amount": 2
+                  }
+                ]
+              }
+            }
+          ],
+          "climax": {
+            "id": "the-hammer-falls",
+            "name": "The Hammer Falls",
+            "briefing": "Protect civilians; final assault with orbital bombardment.",
+            "specialRules": "5 Defense Cannons; 3 Civilians. Blue rolls for bonus VP.",
+            "secondaryObjectives": "Rescue Civilians CLAIM action. 3+ secondary VP → 2 SP.",
+            "advantages": "Blue Reinforcements. Red Bombardment tokens.",
+            "victoryRewardDescription": "3 units XP/clear Setbacks. Paragon Danger Sense 1 or Quick Thinking; clear Insecure.",
+            "lossRewardDescription": "5 red defense; per Blank: unit +2 XP or remove Setback. Paragon gains Insecure.",
+            "lossDieFace": "blank",
+            "victoryClearsStatus": "insecure",
+            "lossAppliesStatus": "insecure",
+            "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/peacekeeping-tp-1.jpeg?version=8",
+            "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/peacekeeping-tp-2.jpeg?version=8",
+            "rewards": {
+              "secondary": {
+                "resourceId": "supplyPoints",
+                "amount": 2,
+                "label": "3+ secondary VP → 2 SP"
+              },
+              "victory": {
+                "maxUnits": 3,
+                "unitOptions": [
+                  {
+                    "id": "unit-xp",
+                    "label": "+1 XP",
+                    "requiresEntry": true,
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": "unit-clear",
+                    "label": "Clear all Setbacks",
+                    "requiresEntry": true,
+                    "requiresHasEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": "all"
+                      }
+                    ]
+                  }
+                ],
+                "keywordChoices": [
+                  "Danger Sense 1",
+                  "Quick Thinking"
+                ]
+              },
+              "loss": {
+                "dice": {
+                  "kind": "defense",
+                  "color": "red",
+                  "count": 5,
+                  "successFace": "blank"
+                },
+                "unitOptions": [
+                  {
+                    "id": "unit-xp",
+                    "label": "+2 XP",
+                    "requiresEntry": true,
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": "unit-clear",
+                    "label": "Remove 1 Setback",
+                    "requiresEntry": true,
+                    "requiresHasEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "unlockClimaxWhen": {
+            "objectivesCompletedAtLeast": 2
+          },
+          "mustPlayClimaxWhen": {
+            "objectivesCompletedAtLeast": 3
+          },
+          "unitEffects": [
+            {
+              "id": "unity",
+              "effectTypeId": "commendation",
+              "name": "Unity",
+              "description": "While 1+ other Clone Trooper within Range 1, Courage +1.",
+              "requirements": "Clone Trooper, VR 3",
+              "actId": "peacekeeping-mission"
+            },
+            {
+              "id": "war-weary",
+              "effectTypeId": "setback",
+              "name": "War Weary",
+              "description": "On Casualty Check: may add 1 black die, or must reroll blanks.",
+              "actId": "peacekeeping-mission"
+            },
+            {
+              "id": "selfless-warden",
+              "effectTypeId": "definingTrait",
+              "name": "Selfless Warden",
+              "description": "Gains Inspire 2. At Aid Requests start, roll 3 white defense; lose 1 SP per block/surge. Resolves after 2 games.",
+              "actId": "peacekeeping-mission"
+            }
+          ],
+          "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/peacekeeping.jpeg?version=8",
+          "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/peacekeeping-flavor.jpeg?version=8"
+        },
+        {
+          "id": "root-out-the-corruption",
+          "name": "Root Out the Corruption",
+          "thematicFaction": "Separatist",
+          "narrative": "A Republic system calls for Separatist aid against graft. Prove malfeasance and expand the Alliance.",
+          "objectives": [
+            {
+              "id": "investigate-corruption",
+              "name": "Investigate Corruption",
+              "description": "End Phase token if Trooper within Range 1 of Contested POI. Complete at 3.",
+              "completionRequired": 3,
+              "rewardDescription": "Order-token draw: matching units +2 XP.",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/investigate-corruption-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/investigate-corruption-2.jpeg?version=8",
+              "rewards": {
+                "kind": "pickEntries",
+                "countFromProgressions": true,
+                "entryPieces": [
+                  {
+                    "type": "grantExperience",
+                    "amount": 2
+                  }
+                ]
+              }
+            },
+            {
+              "id": "show-of-strength",
+              "name": "Show of Strength",
+              "description": "Token when Commander/Operative/SF defeats enemy. Complete at 3.",
+              "completionRequired": 3,
+              "rewardDescription": "Per progression: 2 SP OR defeated ally +1 XP.",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/show-of-strength-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/show-of-strength-2.jpeg?version=8",
+              "rewards": {
+                "kind": "chooseOnePerProgression",
+                "options": [
+                  {
+                    "id": "sp",
+                    "label": "+2 SP",
+                    "pieces": [
+                      {
+                        "type": "awardResource",
+                        "resourceId": "supplyPoints",
+                        "amount": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": "xp",
+                    "label": "Unit +1 XP",
+                    "requiresEntry": true,
+                    "requiresDefeatedEntry": true,
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": "the-long-game",
+              "name": "The Long Game",
+              "description": "Token when opponent gains Priority. Complete at 3.",
+              "completionRequired": 3,
+              "rewardDescription": "Per progression: clear Setbacks or +2 XP if none.",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/the-long-game-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/the-long-game-2.jpeg?version=8",
+              "rewards": {
+                "kind": "chooseOnePerProgression",
+                "options": [
+                  {
+                    "id": "long-clear",
+                    "label": "Clear all Setbacks",
+                    "requiresEntry": true,
+                    "requiresHasEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": "all"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "long-xp",
+                    "label": "+2 XP (if no Setbacks)",
+                    "requiresEntry": true,
+                    "requiresLacksEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 2
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "climax": {
+            "id": "caught-in-the-act",
+            "name": "Caught in the Act",
+            "briefing": "Investigate corruption; protect or destroy caches.",
+            "specialRules": "6 Material Caches; token banking on caches; bombs for Red.",
+            "secondaryObjectives": "Remove bombs / destroy caches.",
+            "advantages": "Blue self-Order once; Red Commander suppression→orders/moves.",
+            "victoryRewardDescription": "3 units XP/clear Setbacks. Paragon Strategize 1 or Guidance: Droid Trooper; clear Faulty Equipment.",
+            "lossRewardDescription": "5 red defense; per Block: unit +2 XP or remove Setback. Paragon gains Faulty Equipment.",
+            "lossDieFace": "block",
+            "victoryClearsStatus": "faulty-equipment",
+            "lossAppliesStatus": "faulty-equipment",
+            "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/root-out-tp-1.jpeg?version=8",
+            "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/root-out-tp-2.jpeg?version=8",
+            "rewards": {
+              "victory": {
+                "maxUnits": 3,
+                "unitOptions": [
+                  {
+                    "id": "unit-xp",
+                    "label": "+1 XP",
+                    "requiresEntry": true,
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": "unit-clear",
+                    "label": "Clear all Setbacks",
+                    "requiresEntry": true,
+                    "requiresHasEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": "all"
+                      }
+                    ]
+                  }
+                ],
+                "keywordChoices": [
+                  "Strategize 1",
+                  "Guidance: Droid Trooper"
+                ]
+              },
+              "loss": {
+                "dice": {
+                  "kind": "defense",
+                  "color": "red",
+                  "count": 5,
+                  "successFace": "block"
+                },
+                "unitOptions": [
+                  {
+                    "id": "unit-xp",
+                    "label": "+2 XP",
+                    "requiresEntry": true,
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": "unit-clear",
+                    "label": "Remove 1 Setback",
+                    "requiresEntry": true,
+                    "requiresHasEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "unlockClimaxWhen": {
+            "objectivesCompletedAtLeast": 2
+          },
+          "mustPlayClimaxWhen": {
+            "objectivesCompletedAtLeast": 3
+          },
+          "unitEffects": [
+            {
+              "id": "well-supplied",
+              "effectTypeId": "commendation",
+              "name": "Well Supplied",
+              "description": "Gains Reliable 1.",
+              "requirements": "VR 2",
+              "actId": "root-out-the-corruption"
+            },
+            {
+              "id": "scrambled",
+              "effectTypeId": "setback",
+              "name": "Scrambled",
+              "description": "Droids can be Suppressed; non-droids Rally −1 die; damaged vehicles skip white defense / −1 action. Second instance → casualty.",
+              "actId": "root-out-the-corruption"
+            },
+            {
+              "id": "embittered",
+              "effectTypeId": "definingTrait",
+              "name": "Embittered",
+              "description": "Allied defeat within Range 3 → +2 Suppression. Attack pool + white dice equal to Suppression. Resolves after 2 games.",
+              "actId": "root-out-the-corruption"
+            }
+          ],
+          "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/root-out.jpeg?version=8",
+          "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/root-out-flavor.jpeg?version=8"
+        },
+        {
+          "id": "the-weekend-war",
+          "name": "The Weekend War",
+          "narrative": "A remote system's treasure is accessible for days. Race rivals through stellar hazards to claim it.",
+          "objectives": [
+            {
+              "id": "survey-landscape",
+              "name": "Survey Landscape",
+              "description": "Place Survey Scanners. 3+/5+ scanners → progress. Complete at 2.",
+              "completionRequired": 2,
+              "rewardDescription": "1 SP per progression; if won, unit remove Setback +1 XP.",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/survey-landscape-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/survey-landscape-2.jpeg?version=8",
+              "rewards": {
+                "kind": "autoPerProgression",
+                "resourcePiecesPerProgression": [
+                  {
+                    "type": "awardResource",
+                    "resourceId": "supplyPoints",
+                    "amount": 1
+                  }
+                ],
+                "ifWon": [
+                  {
+                    "id": "won-clear-xp",
+                    "label": "Unit: remove 1 Setback +1 XP",
+                    "requiresEntry": true,
+                    "pieces": [
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": 1
+                      },
+                      {
+                        "type": "grantExperience",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": "search-for-treasure",
+              "name": "Search for Treasure",
+              "description": "SEARCH action + red defense for Advantage tokens. Complete at 2.",
+              "completionRequired": 2,
+              "rewardDescription": "Per progression: clear Setbacks or +2 XP. If won, Combat Potential +100.",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/search-for-treasure-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/search-for-treasure-2.jpeg?version=8",
+              "rewards": {
+                "kind": "chooseOnePerProgression",
+                "options": [
+                  {
+                    "id": "treasure-clear",
+                    "label": "Clear all Setbacks",
+                    "requiresEntry": true,
+                    "requiresHasEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": "all"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "treasure-xp",
+                    "label": "+2 XP (if no Setbacks)",
+                    "requiresEntry": true,
+                    "requiresLacksEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 2
+                      }
+                    ]
+                  }
+                ],
+                "ifWonResources": [
+                  {
+                    "type": "awardResource",
+                    "resourceId": "combatPotential",
+                    "amount": 100
+                  }
+                ]
+              }
+            },
+            {
+              "id": "beat-them-to-the-punch",
+              "name": "Beat Them to the Punch",
+              "description": "Tokens from contested kills / securing Contested POIs. Complete at 2.",
+              "completionRequired": 2,
+              "rewardDescription": "Order-token draw: matching units +1 XP and remove 1 Setback.",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/beat-them-to-the-punch-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/beat-them-to-the-punch-2.jpeg?version=8",
+              "rewards": {
+                "kind": "pickEntries",
+                "countFromProgressions": true,
+                "entryPieces": [
+                  {
+                    "type": "grantExperience",
+                    "amount": 1
+                  },
+                  {
+                    "type": "removeEntryEffects",
+                    "effectTypeId": "setback",
+                    "count": 1
+                  }
+                ]
+              }
+            }
+          ],
+          "climax": {
+            "id": "running-out-of-time",
+            "name": "Running Out of Time",
+            "briefing": "Seize treasure and stash it in cargo before time runs out.",
+            "specialRules": "Stockpiles with Suppression; Seize/Stash/Grab the Goods.",
+            "secondaryObjectives": "Treasure and cargo scoring as on card.",
+            "advantages": "Scout 1 Troopers; Red Prepared Position; Blue Infiltrate.",
+            "victoryRewardDescription": "3 units XP/clear Setbacks. Paragon Eyes on the Prize: Agile 1 or Tactical 1.",
+            "lossRewardDescription": "5 red defense; per Block: unit +2 XP or remove Setback. Paragon gains On the Back Foot.",
+            "lossDieFace": "block",
+            "lossAppliesStatus": "on-the-back-foot",
+            "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/weekend-war-tp-1.jpeg?version=8",
+            "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/weekend-war-tp-2.jpeg?version=8",
+            "rewards": {
+              "victory": {
+                "maxUnits": 3,
+                "unitOptions": [
+                  {
+                    "id": "unit-xp",
+                    "label": "+1 XP",
+                    "requiresEntry": true,
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": "unit-clear",
+                    "label": "Clear all Setbacks",
+                    "requiresEntry": true,
+                    "requiresHasEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": "all"
+                      }
+                    ]
+                  }
+                ],
+                "keywordChoices": [
+                  "Agile 1",
+                  "Tactical 1"
+                ]
+              },
+              "loss": {
+                "dice": {
+                  "kind": "defense",
+                  "color": "red",
+                  "count": 5,
+                  "successFace": "block"
+                },
+                "unitOptions": [
+                  {
+                    "id": "unit-xp",
+                    "label": "+2 XP",
+                    "requiresEntry": true,
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": "unit-clear",
+                    "label": "Remove 1 Setback",
+                    "requiresEntry": true,
+                    "requiresHasEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "unlockClimaxWhen": {
+            "objectivesCompletedAtLeast": 2
+          },
+          "mustPlayClimaxWhen": {
+            "objectivesCompletedAtLeast": 2
+          },
+          "unitEffects": [
+            {
+              "id": "rapid-response",
+              "effectTypeId": "commendation",
+              "name": "Rapid Response",
+              "description": "SF/Commander: Cunning. Otherwise: Scout 1.",
+              "actId": "the-weekend-war"
+            },
+            {
+              "id": "behind-schedule",
+              "effectTypeId": "setback",
+              "name": "Behind Schedule",
+              "description": "After Command Cards revealed, if fewer pips: +2 Suppression and +2 Observation.",
+              "actId": "the-weekend-war"
+            },
+            {
+              "id": "on-the-back-foot",
+              "effectTypeId": "definingTrait",
+              "name": "On the Back Foot",
+              "description": "Once per game opponent may claim Priority. Resolves after 2 games.",
+              "actId": "the-weekend-war"
+            }
+          ],
+          "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/weekend-war.jpeg?version=8",
+          "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/weekend-war-flavor.jpeg?version=8"
+        },
+        {
+          "id": "birth-of-a-legend",
+          "name": "Birth of a Legend",
+          "narrative": "Every legend begins somewhere. Set out, gather followers, and etch your name among the stars.",
+          "objectives": [
+            {
+              "id": "martial-prowess",
+              "name": "Martial Prowess",
+              "description": "Paragon kills → progress; if Commander/Operative among them, again. Complete at 3.",
+              "completionRequired": 3,
+              "rewardDescription": "1 SP per progression; if Paragon not defeated, +1 XP and may remove Setback.",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/martial-prowess-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/martial-prowess-2.jpeg?version=8",
+              "rewards": {
+                "kind": "autoPerProgression",
+                "resourcePiecesPerProgression": [
+                  {
+                    "type": "awardResource",
+                    "resourceId": "supplyPoints",
+                    "amount": 1
+                  }
+                ],
+                "ifLeaderSurvived": [
+                  {
+                    "id": "leader-xp-clear",
+                    "label": "Paragon +1 XP and remove 1 Setback",
+                    "requiresEntry": true,
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 1
+                      },
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": "leader-xp",
+                    "label": "Paragon +1 XP",
+                    "requiresEntry": true,
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": "glorious-charge",
+              "name": "Glorious Charge",
+              "description": "End Phase token if Paragon contests/holds Objective. Complete at 3.",
+              "completionRequired": 3,
+              "rewardDescription": "Per progression: clear Setbacks or +1 XP; Paragon +1 XP if no Setbacks.",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/glorious-charge-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/glorious-charge-2.jpeg?version=8",
+              "rewards": {
+                "kind": "chooseOnePerProgression",
+                "options": [
+                  {
+                    "id": "charge-clear",
+                    "label": "Clear all Setbacks",
+                    "requiresEntry": true,
+                    "requiresHasEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": "all"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "charge-xp",
+                    "label": "+1 XP (if no Setbacks)",
+                    "requiresEntry": true,
+                    "requiresLacksEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ],
+                "ifLeaderSurvived": [
+                  {
+                    "id": "leader-xp",
+                    "label": "Paragon +1 XP (no Setbacks)",
+                    "requiresEntry": true,
+                    "requiresLacksEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": "protect-your-allies",
+              "name": "Protect Your Allies",
+              "description": "You choose 1 non-Paragon; opponent chooses 2. Complete at 3.",
+              "completionRequired": 3,
+              "rewardDescription": "Survivors +1 XP and remove Setback; if none defeated: +2 SP and Paragon +2 XP.",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/protect-your-allies-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/protect-your-allies-2.jpeg?version=8",
+              "rewards": {
+                "kind": "autoPerProgression",
+                "survivors": [
+                  {
+                    "type": "grantExperience",
+                    "amount": 1
+                  },
+                  {
+                    "type": "removeEntryEffects",
+                    "effectTypeId": "setback",
+                    "count": 1
+                  }
+                ],
+                "ifNoDefeated": {
+                  "resources": [
+                    {
+                      "type": "awardResource",
+                      "resourceId": "supplyPoints",
+                      "amount": 2
+                    }
+                  ],
+                  "leaderPieces": [
+                    {
+                      "type": "grantExperience",
+                      "amount": 2
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "climax": {
+            "id": "seize-your-destiny",
+            "name": "Seize Your Destiny",
+            "briefing": "Claim landmarks and face rivals on the dueling ground.",
+            "specialRules": "Landmarks Range 2 contest; Dueling Ground for Commander/Operative.",
+            "secondaryObjectives": "Dueling Ground VP; Infiltrate corps advantages.",
+            "advantages": "Non-unique corps Infiltrate + chosen keyword.",
+            "victoryRewardDescription": "3 units XP/clear Setbacks. Paragon becomes Lauded (2 High Commendations).",
+            "lossRewardDescription": "5 red defense; per Surge: unit +2 XP or remove Setback. Paragon gains Disillusioned.",
+            "lossDieFace": "surge",
+            "victoryAppliesStatus": "lauded",
+            "lossAppliesStatus": "disillusioned",
+            "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/birth-of-a-legend-tp-1.jpeg?version=8",
+            "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/birth-of-a-legend-tp-2.jpeg?version=8",
+            "rewards": {
+              "victory": {
+                "maxUnits": 3,
+                "unitOptions": [
+                  {
+                    "id": "unit-xp",
+                    "label": "+1 XP",
+                    "requiresEntry": true,
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": "unit-clear",
+                    "label": "Clear all Setbacks",
+                    "requiresEntry": true,
+                    "requiresHasEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": "all"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "loss": {
+                "dice": {
+                  "kind": "defense",
+                  "color": "red",
+                  "count": 5,
+                  "successFace": "surge"
+                },
+                "unitOptions": [
+                  {
+                    "id": "unit-xp",
+                    "label": "+2 XP",
+                    "requiresEntry": true,
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": "unit-clear",
+                    "label": "Remove 1 Setback",
+                    "requiresEntry": true,
+                    "requiresHasEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "unlockClimaxWhen": {
+            "objectivesCompletedAtLeast": 2
+          },
+          "mustPlayClimaxWhen": {
+            "objectivesCompletedAtLeast": 3
+          },
+          "unitEffects": [
+            {
+              "id": "legendary",
+              "effectTypeId": "commendation",
+              "name": "Legendary",
+              "description": "Start of Activation: Aim or Dodge; remove 1 Suppression from ally within Range 2.",
+              "requirements": "Paragon Only, VR 3",
+              "actId": "birth-of-a-legend"
+            },
+            {
+              "id": "losing-faith",
+              "effectTypeId": "setback",
+              "name": "Losing Faith",
+              "description": "During Remove Token, if within Range 2 of Paragon, remove 1 fewer Suppression.",
+              "actId": "birth-of-a-legend"
+            },
+            {
+              "id": "disillusioned",
+              "effectTypeId": "definingTrait",
+              "name": "Disillusioned",
+              "description": "Cannot include this unit's Command Cards; cannot be issued Orders. Resolves after 2 games.",
+              "actId": "birth-of-a-legend"
+            }
+          ],
+          "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/birth-of-a-legend.jpeg?version=8",
+          "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/birth-of-a-legend-flavor.jpeg?version=8"
+        },
+        {
+          "id": "a-pirates-life",
+          "name": "A Pirate's Life",
+          "narrative": "War is cover for plunder. Why should the rich get richer when you can just get rich?",
+          "objectives": [
+            {
+              "id": "salvage-materiel",
+              "name": "Salvage Materiel",
+              "description": "Tokens when enemy dies within Range 1 (+2 if Armor). Complete at 3.",
+              "completionRequired": 3,
+              "rewardDescription": "1 SP and unit +1 XP per progression.",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/salvage-materiel-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/salvage-materiel-2.jpeg?version=8",
+              "rewards": {
+                "kind": "autoPerProgression",
+                "resourcePiecesPerProgression": [
+                  {
+                    "type": "awardResource",
+                    "resourceId": "supplyPoints",
+                    "amount": 1
+                  }
+                ],
+                "entryPiecesPerProgression": [
+                  {
+                    "type": "grantExperience",
+                    "amount": 1
+                  }
+                ]
+              }
+            },
+            {
+              "id": "loot-and-plunder",
+              "name": "Loot and Plunder!",
+              "description": "Trooper Loot for Plunder. Complete at 3.",
+              "completionRequired": 3,
+              "rewardDescription": "Plunder units +1 XP; 1 SP per progression.",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/loot-and-plunder-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/loot-and-plunder-2.jpeg?version=8",
+              "rewards": {
+                "kind": "pickEntries",
+                "countFromProgressions": true,
+                "entryPieces": [
+                  {
+                    "type": "grantExperience",
+                    "amount": 1
+                  }
+                ],
+                "resourcePiecesPerProgression": [
+                  {
+                    "type": "awardResource",
+                    "resourceId": "supplyPoints",
+                    "amount": 1
+                  }
+                ]
+              }
+            },
+            {
+              "id": "discover-valuables",
+              "name": "Discover Valuables",
+              "description": "Mark terrain; SEARCH FOR TREASURE rolls 3 black attack. Complete at 3.",
+              "completionRequired": 3,
+              "rewardDescription": "Each progression: roll 2 red defense — surge → unit +1 XP; blank/block → +1 SP.",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/discover-valuables-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/discover-valuables-2.jpeg?version=8",
+              "rewards": {
+                "kind": "chooseOnePerProgression",
+                "choicesPerProgression": 2,
+                "options": [
+                  {
+                    "id": "xp",
+                    "label": "Unit +1 XP (surge)",
+                    "requiresEntry": true,
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": "sp",
+                    "label": "+1 SP (blank/block)",
+                    "pieces": [
+                      {
+                        "type": "awardResource",
+                        "resourceId": "supplyPoints",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "climax": {
+            "id": "golden-opportunity",
+            "name": "Golden Opportunity",
+            "briefing": "Steal military equipment and load it onto your cargo ramp.",
+            "specialRules": "4 Military Equipment + Cargo Ramp; move/remove scoring.",
+            "secondaryObjectives": "ESCAPE for Blue; defeat Blue units for Red.",
+            "advantages": "Blue center deploy Incognito; Red token bank.",
+            "victoryRewardDescription": "Add A-A5, LAAT/le, TX-225, or WLO-5 to Register with Paragon faction/affiliation.",
+            "lossRewardDescription": "1 red attack per equipment removed: hit/crit → +1 SP; surge → non-Paragon +2 XP + Setback. Paragon +2 XP + Greedy.",
+            "lossDieFace": "surge",
+            "lossAppliesStatus": "greedy",
+            "victoryAddEntries": [
+              {
+                "unitId": "aa5-speeder-truck",
+                "unitName": "A-A5 Speeder Truck",
+                "rankId": 5,
+                "points": 75
+              },
+              {
+                "unitId": "laat-le-patrol-transport",
+                "unitName": "LAAT/le Patrol Transport",
+                "rankId": 5,
+                "points": 105
+              },
+              {
+                "unitId": "tx-225-gavw-occupier-tank",
+                "unitName": "TX-225 GAVw Occupier Tank",
+                "rankId": 5,
+                "points": 90
+              },
+              {
+                "unitId": "wlo-5-speeder-tank",
+                "unitName": "WLO-5 Speeder Tank",
+                "rankId": 5,
+                "points": 70
+              }
+            ],
+            "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/a-pirates-life-tp-1.jpeg?version=8",
+            "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/a-pirates-life-tp-2.jpeg?version=8",
+            "rewards": {
+              "loss": {
+                "dice": {
+                  "kind": "attack",
+                  "color": "red",
+                  "count": 4,
+                  "successFace": "hit"
+                },
+                "unitOptions": [
+                  {
+                    "id": "sp",
+                    "label": "+1 SP (hit/crit)",
+                    "pieces": [
+                      {
+                        "type": "awardResource",
+                        "resourceId": "supplyPoints",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": "xp",
+                    "label": "Non-Paragon +2 XP",
+                    "requiresEntry": true,
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 2
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "unlockClimaxWhen": {
+            "objectivesCompletedAtLeast": 2
+          },
+          "mustPlayClimaxWhen": {
+            "objectivesCompletedAtLeast": 3
+          },
+          "unitEffects": [
+            {
+              "id": "go-where-the-money-is",
+              "effectTypeId": "commendation",
+              "name": "Go Where the Money Is",
+              "description": "Eyes on the Prize: Agile 1 or Tactical 1.",
+              "actId": "a-pirates-life"
+            },
+            {
+              "id": "self-serving",
+              "effectTypeId": "setback",
+              "name": "Self-Serving",
+              "description": "May only use own Courage when checking Panic.",
+              "actId": "a-pirates-life"
+            },
+            {
+              "id": "greedy",
+              "effectTypeId": "definingTrait",
+              "name": "Greedy",
+              "description": "End of Activation: if green tokens or contesting POI, may remove 1 Suppression; else +3 Suppression. Resolves after 2 games.",
+              "actId": "a-pirates-life"
+            }
+          ],
+          "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/a-pirates-life.jpeg?version=8",
+          "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/a-pirates-life-flavor.jpeg?version=8"
+        }
+      ],
+      "postBattleSequence": [
+        {
+          "id": "setup",
+          "kind": "setup",
+          "label": "Battle setup"
+        },
+        {
+          "id": "progressObjectives",
+          "kind": "progressObjectives",
+          "label": "Progress Agendas",
+          "when": {
+            "climaxPlayed": false
+          }
+        },
+        {
+          "id": "climaxRewards",
+          "kind": "climaxRewards",
+          "label": "Turning Point rewards",
+          "when": {
+            "climaxPlayed": true,
+            "notConceded": true
+          }
+        },
+        {
+          "id": "awardSp",
+          "kind": "awardResource",
+          "label": "Award Supply Points",
+          "resourceId": "supplyPoints",
+          "when": {
+            "notConceded": true
+          },
+          "dice": {
+            "kind": "defense",
+            "color": "red",
+            "count": 1,
+            "systemId": "legion"
+          }
+        },
+        {
+          "id": "casualtyChecks",
+          "kind": "casualtyChecks",
+          "label": "Casualties and Setbacks"
+        },
+        {
+          "id": "awardExperience",
+          "kind": "awardExperience",
+          "label": "Award Experience",
+          "experienceTypeId": "veteranRank",
+          "when": {
+            "notConceded": true
+          }
+        },
+        {
+          "id": "offerCommendations",
+          "kind": "offerUnitEffects",
+          "label": "Award Commendations",
+          "effectTypeId": "commendation",
+          "experienceTypeId": "veteranRank"
+        },
+        {
+          "id": "spendResources",
+          "kind": "spendResources",
+          "label": "Make Aid Requests"
+        },
+        {
+          "id": "editRegister",
+          "kind": "editRegister",
+          "label": "Edit Register"
+        },
+        {
+          "id": "adjustReputation",
+          "kind": "adjustTrack",
+          "label": "Adjust Reputation",
+          "trackId": "reputation",
+          "when": {
+            "climaxPlayed": true
+          }
+        },
+        {
+          "id": "chooseNextAct",
+          "kind": "chooseNextAct",
+          "label": "Choose new Story Arc",
+          "when": {
+            "climaxPlayed": true
+          }
+        },
+        {
+          "id": "review",
+          "kind": "review",
+          "label": "Review and save"
+        }
+      ],
+      "spendOptions": [
+        {
+          "id": "active-recruiting",
+          "name": "Active Recruiting",
+          "costDescription": "1 SP",
+          "effectDescription": "Increase Combat Potential by 150.",
+          "baseCost": 1,
+          "resourceId": "supplyPoints",
+          "effect": {
+            "increaseResourceId": "combatPotential",
+            "amount": 150
+          }
+        },
+        {
+          "id": "request-medical-supplies",
+          "name": "Request Medical Supplies",
+          "costDescription": "1 SP per VR (min 1)",
+          "effectDescription": "Remove Setbacks with optional follow-up rolls.",
+          "baseCost": null,
+          "resourceId": "supplyPoints",
+          "allowMultiplePerSequence": true,
+          "effect": {
+            "pickEntryToClearEffects": {
+              "effectTypeId": "setback",
+              "experienceTypeId": "veteranRank",
+              "costPerExperienceRank": true,
+              "minCost": 1,
+              "followUp": {
+                "kind": "defense",
+                "color": "red",
+                "successFace": "block"
+              }
+            }
+          }
+        },
+        {
+          "id": "request-strategic-asset",
+          "name": "Request Strategic Asset",
+          "costDescription": "X SP (asset cost)",
+          "effectDescription": "Add 1 Strategic Asset to Register.",
+          "baseCost": null,
+          "resourceId": "supplyPoints",
+          "allowMultiplePerSequence": true,
+          "effect": {
+            "pickInventoryItem": true
+          }
+        },
+        {
+          "id": "request-reinforcements",
+          "name": "Request Reinforcements",
+          "costDescription": "1 SP per VR (min 1)",
+          "effectDescription": "Add eligible Heavy Weapon or Personnel upgrade to dossier.",
+          "baseCost": null,
+          "resourceId": "supplyPoints",
+          "allowMultiplePerSequence": true,
+          "effect": {
+            "pickEntryToAddUpgrade": {
+              "allowedTypes": [
+                "Heavy Weapon",
+                "Personnel"
+              ],
+              "experienceTypeId": "veteranRank",
+              "costPerExperienceRank": true,
+              "minCost": 1
+            }
+          }
+        },
+        {
+          "id": "special-training",
+          "name": "Special Training",
+          "costDescription": "1 SP",
+          "effectDescription": "Unit at max VR: increase max VR by 1 (cap VR5).",
+          "baseCost": 1,
+          "resourceId": "supplyPoints",
+          "effect": {
+            "pickEntryToIncreaseMaxExperience": {
+              "experienceTypeId": "veteranRank"
+            }
+          }
+        },
+        {
+          "id": "supplies-and-provisions",
+          "name": "Supplies and Provisions",
+          "costDescription": "1 SP per chosen unit",
+          "effectDescription": "Each chosen unit may add 1 non-Heavy/Personnel upgrade.",
+          "baseCost": 1,
+          "resourceId": "supplyPoints",
+          "allowMultiplePerSequence": true,
+          "effect": {
+            "pickEntryToAddUpgrade": {
+              "allowedTypes": [
+                "Heavy Weapon",
+                "Personnel"
+              ],
+              "excludeAllowedTypes": true
+            }
+          }
+        },
+        {
+          "id": "reassign-unit",
+          "name": "Reassign Unit",
+          "costDescription": "1 SP",
+          "effectDescription": "Remove chosen unit from Register.",
+          "baseCost": 1,
+          "resourceId": "supplyPoints",
+          "allowMultiplePerSequence": true,
+          "effect": {
+            "pickEntryToRemove": true
+          }
+        }
+      ],
+      "inventoryItems": [
+        {
+          "id": "request-assistance",
+          "name": "Request Assistance",
+          "cost": 1,
+          "resourceId": "supplyPoints",
+          "effectDescription": "You may include 1 unique non-Commander unit and any upgrades it could equip in your army this game. This unit and its upgrades do not need to be on your Register, but its total points cost still counts toward the total points allowed in your army. This Strategic Asset may be chosen up to 2 times during the Post-Battle Sequence, instead of the normal once. You may not use this Strategic Asset during your Turning Point Mission.",
+          "maxPerSequence": 2,
+          "maxPerRegister": 2,
+          "unavailableOnClimax": true
+        },
+        {
+          "id": "heroic-intervention",
+          "name": "Heroic Intervention",
+          "cost": 2,
+          "resourceId": "supplyPoints",
+          "effectDescription": "You may include 1 unique Commander unit in this game. This unit and its upgrades do not need to be on your Register, but its total points cost still counts toward the total points allowed in your army. You may not use this Strategic Asset during your Turning Point Mission.",
+          "maxPerRegister": 1,
+          "unavailableOnClimax": true
+        },
+        {
+          "id": "requisition-special-equipment",
+          "name": "Requisition Special Equipment",
+          "cost": 1,
+          "resourceId": "supplyPoints",
+          "effectDescription": "You may include 1 unique upgrade in your army in this game. This upgrade does not need to be on your Register, but its total points cost still counts toward the total points allowed in your army. This Strategic Asset may be chosen up to 2 times during the Post-Battle Sequence, instead of the normal once. You may not use this Strategic Asset during your Turning Point Mission.",
+          "maxPerSequence": 2,
+          "maxPerRegister": 2,
+          "unavailableOnClimax": true
+        },
+        {
+          "id": "medevac",
+          "name": "Medevac",
+          "cost": 1,
+          "resourceId": "supplyPoints",
+          "effectDescription": "During the Determine Casualties and Setbacks step of the Post-Game Sequence, choose 1 unit in your army that was defeated in this game. The chosen unit does not make a Casualty Check.",
+          "maxPerRegister": 1
+        },
+        {
+          "id": "orbital-bombardment",
+          "name": "Orbital Bombardment",
+          "cost": 1,
+          "resourceId": "supplyPoints",
+          "effectDescription": "Once this game, at the start of the Activation Phase, choose 1 POI on the battlefield and roll 5 black attack dice. Each unit within Range 1 of that POI gains 1 Suppression token for each hit or critical result rolled.",
+          "maxPerRegister": 1
+        },
+        {
+          "id": "combat-drop",
+          "name": "Combat Drop",
+          "cost": 1,
+          "resourceId": "supplyPoints",
+          "effectDescription": "In this game, choose 1 allied unit at the start of the first Activation Phase. The chosen unit gains Infiltrate this game.",
+          "maxPerRegister": 1
+        },
+        {
+          "id": "authorized-extraordinary-use",
+          "name": "Authorized Extraordinary Use",
+          "cost": 1,
+          "resourceId": "supplyPoints",
+          "effectDescription": "In this game, choose 1 allied unit during Army Building. The chosen unit does not count against the maximum number of units of its Rank that can be included in your army this game.",
+          "maxPerRegister": 1
+        },
+        {
+          "id": "contingency-plan",
+          "name": "Contingency Plan",
+          "cost": 1,
+          "resourceId": "supplyPoints",
+          "effectDescription": "Once this game, at the start of any End Phase, you may choose one of your Agendas that you did not use this game. Your Agenda in play is no longer in play, and the chosen Agenda is now your Agenda in play. At the end of the game, if you did not switch your Agendas that game, do not remove this Strategic Asset from your Register.",
+          "maxPerRegister": 1
+        }
+      ],
+      "unlockCatalogs": [
+        {
+          "id": "paragon-command-cards",
+          "label": "Paragon Command Cards",
+          "cards": [
+            {
+              "id": "the-best-of-us",
+              "catalogId": "paragon-command-cards",
+              "dataSource": "commands",
+              "definitionId": 19319,
+              "description": "Choose and resolve 2 Paragon boosts."
+            },
+            {
+              "id": "enemy-down",
+              "catalogId": "paragon-command-cards",
+              "dataSource": "commands",
+              "definitionId": 19318,
+              "description": "Ordered units gain Aim; defeats grant XP."
+            },
+            {
+              "id": "objective-complete",
+              "catalogId": "paragon-command-cards",
+              "dataSource": "commands",
+              "definitionId": 19317,
+              "description": "Tokens / Agenda progress grant XP and SP."
+            },
+            {
+              "id": "standing-orders-paragon",
+              "catalogId": "paragon-command-cards",
+              "dataSource": "commands",
+              "definitionId": 19316,
+              "description": "Return to hand at end of Command Phase."
+            }
+          ]
+        }
+      ],
+      "defaultDiceSystemId": "legion",
+      "registerRules": {
+        "sameFactionRequired": true,
+        "requiresFactionAtStart": true,
+        "factionDataSource": "factions",
+        "excludeUniqueUnits": true,
+        "excludeUniqueUpgradeTypes": [
+          "Squad Leader",
+          "Personnel",
+          "Heavy Weapon",
+          "Crew",
+          "Pilot",
+          "Armament"
+        ],
+        "minByRankId": {
+          "1": 1,
+          "2": 2
+        },
+        "startingUpgradeAllowance": {
+          "byRankId": {
+            "1": {
+              "max": 2
+            },
+            "6": {
+              "max": 2
+            }
+          },
+          "byUnitType": {
+            "2": {
+              "max": 1,
+              "types": [
+                "Hardpoint"
+              ]
+            },
+            "3": {
+              "max": 1,
+              "types": [
+                "Hardpoint"
+              ]
+            }
+          },
+          "default": {
+            "max": 2,
+            "types": [
+              "Heavy Weapon",
+              "Personnel"
+            ]
+          }
+        }
+      },
+      "ui": {
+        "entryLabel": "Dossier",
+        "poolLabel": "Register",
+        "battleListLabel": "Army",
+        "actLabel": "Story Arc",
+        "selectActLabel": "Select a story arc",
+        "climaxLabel": "Turning Point"
+      }
+    }
