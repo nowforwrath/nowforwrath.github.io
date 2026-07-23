@@ -22560,6 +22560,10 @@
           {
             "id": 33791,
             "propertyName": "units"
+          },
+          {
+            "id": 33794,
+            "propertyName": "units"
           }
         ]
       },
@@ -23498,6 +23502,34 @@
         "keywords": null
       },
       {
+        "id": 19074,
+        "name": "A Disturbance in the Force",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19074.webp?version=3",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19074.webp?version=3",
+        "keywords": [13, 40],
+        "unlockedBy": [
+          {
+            "id": 33777,
+            "propertyName": "units"
+          },
+          {
+            "id": 33575,
+            "propertyName": "units"
+          },
+          {
+            "id": 33791,
+            "propertyName": "units"
+          },
+          {
+            "id": 33794,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
         "id": 19079,
         "name": "This Party's Over",
         "pips": 1,
@@ -23557,30 +23589,6 @@
         "unlockedBy": [
           {
             "id": 33777,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 19074,
-        "name": "A Disturbance in the Force",
-        "pips": 2,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19074.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19074.webp?version=3",
-        "keywords": [13, 40],
-        "unlockedBy": [
-          {
-            "id": 33777,
-            "propertyName": "units"
-          },
-          {
-            "id": 33575,
-            "propertyName": "units"
-          },
-          {
-            "id": 33791,
             "propertyName": "units"
           }
         ]
