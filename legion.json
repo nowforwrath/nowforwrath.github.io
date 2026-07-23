@@ -22540,6 +22540,30 @@
         ]
       },
       {
+        "id": 19764,
+        "name": "Wisdom of the Council",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19764.webp?version=3",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19764.webp?version=3",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 33777,
+            "propertyName": "units"
+          },
+          {
+            "id": 33575,
+            "propertyName": "units"
+          },
+          {
+            "id": 33791,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
         "id": 787,
         "name": "They Too Will Suffer",
         "pips": 1,
