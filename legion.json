@@ -18784,8 +18784,8 @@
           "Seventh Sister"
         ],
         "tierCounting": {
-          "exempt": {
-            "whenArmyIncludes": 19108,
+          "ignoreMaximumWhenArmyIncludes": {
+            "whenArmyIncludes": [19108],
             "perSourceUnit": 1
           }
         }
@@ -19425,8 +19425,8 @@
           }
         ],
         "tierCounting": {
-          "exempt": {
-            "whenArmyIncludes": 73,
+          "ignoreMaximumWhenArmyIncludes": {
+            "whenArmyIncludes": [73, 33769],
             "perSourceUnit": 1
           }
         }
@@ -20809,14 +20809,14 @@
       {
         "name": "Ki-Adi-Mundi",
         "title": "Jedi Council",
-        "points": 0,
+        "points": 155,
         "factions": [
           {
             "id": 4,
             "rank": 1
           }
         ],
-        "upgradeTypes": [],
+        "upgradeTypes": [5, 5, 5, 9, 10],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33777.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33777.webp?version=8",
         "keywords": [1, 114, 2, 13, 3, 4, 28],
@@ -21067,14 +21067,14 @@
       {
         "name": "Plo Koon",
         "title": "Jedi Council",
-        "points": 0,
+        "points": 105,
         "factions": [
           {
             "id": 4,
             "rank": 6
           }
         ],
-        "upgradeTypes": [9],
+        "upgradeTypes": [5, 5, 10],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33791.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33791.webp?version=8",
         "keywords": [1, 125, 2, 36, 3, 164, 4, 6, 214],
@@ -21163,14 +21163,14 @@
       {
         "name": "Shaak Ti",
         "title": "Jedi Council",
-        "points": 0,
+        "points": 120,
         "factions": [
           {
             "id": 4,
             "rank": 6
           }
         ],
-        "upgradeTypes": [],
+        "upgradeTypes": [5, 5, 9, 10],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33794.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33794.webp?version=8",
         "keywords": [1, 12, 161, 118, 2, 3, 4, 89],
