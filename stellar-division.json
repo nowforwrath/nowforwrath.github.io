@@ -1,0 +1,1049 @@
+{
+  "mode": "character",
+  "appVersion": 1,
+  "game": "Stellar Division",
+  "colors": {
+    "light": {
+      "primary": "#174A5B",
+      "pageBackground": "#F3F7F8",
+      "buttonBackground": "#D8E5E8",
+      "primaryBorder": "#2B687A"
+    },
+    "dark": {
+      "primary": "#8DD6E5",
+      "pageBackground": "#101D22",
+      "buttonBackground": "#24414A",
+      "primaryBorder": "#4D9CAF"
+    }
+  },
+  "stats": [
+    {
+      "id": "strength",
+      "name": "Strength",
+      "abbreviation": "STR",
+      "category": "Attributes",
+      "valueType": "number",
+      "manual": true
+    },
+    {
+      "id": "endurance",
+      "name": "Endurance",
+      "abbreviation": "END",
+      "category": "Attributes",
+      "valueType": "number",
+      "manual": true
+    },
+    {
+      "id": "agility",
+      "name": "Agility",
+      "abbreviation": "AGI",
+      "category": "Attributes",
+      "valueType": "number",
+      "manual": true
+    },
+    {
+      "id": "appearance",
+      "name": "Appearance",
+      "abbreviation": "APP",
+      "category": "Attributes",
+      "valueType": "number",
+      "manual": true
+    },
+    {
+      "id": "intelligence",
+      "name": "Intelligence",
+      "abbreviation": "INT",
+      "category": "Attributes",
+      "valueType": "number",
+      "manual": true
+    },
+    {
+      "id": "knowledge",
+      "name": "Knowledge",
+      "abbreviation": "KNO",
+      "category": "Attributes",
+      "valueType": "number",
+      "manual": true
+    },
+    {
+      "id": "ageStart",
+      "name": "Starting Age",
+      "category": "Character Details",
+      "valueType": "number",
+      "manual": true
+    },
+    {
+      "id": "speed",
+      "name": "Speed",
+      "category": "Movement",
+      "valueType": "number",
+      "manual": true
+    },
+    {
+      "id": "speed1",
+      "name": "Fly Speed",
+      "category": "Movement",
+      "valueType": "number",
+      "manual": true
+    },
+    {
+      "id": "speed2",
+      "name": "Swim Speed",
+      "category": "Movement",
+      "valueType": "number",
+      "manual": true
+    },
+    {
+      "id": "ranksArtillery",
+      "name": "Artistic Skill Ranks",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": true
+    },
+    {
+      "id": "ranksArtillery2",
+      "name": "Secondary Artistic Skill Ranks",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": true
+    },
+    {
+      "id": "ranksPsy",
+      "name": "Psychic Ranks",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": true
+    },
+    {
+      "id": "ranksBlade",
+      "name": "Blade Ranks",
+      "category": "Combat Skills",
+      "valueType": "number",
+      "manual": true
+    },
+    {
+      "id": "ranksBrawl",
+      "name": "Brawl Ranks",
+      "category": "Combat Skills",
+      "valueType": "number",
+      "manual": true
+    },
+    {
+      "id": "ranksCur",
+      "name": "Courage Ranks",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": true
+    },
+    {
+      "id": "ranksDiplomacy",
+      "name": "Diplomacy Ranks",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": true
+    },
+    {
+      "id": "ranksEngineering",
+      "name": "Engineering Ranks",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": true
+    },
+    {
+      "id": "ranksHide",
+      "name": "Hide Ranks",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": true
+    },
+    {
+      "id": "ranksPersuasion",
+      "name": "Persuasion Ranks",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": true
+    },
+    {
+      "id": "ranksRigging",
+      "name": "Rigging Ranks",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": true
+    },
+    {
+      "id": "ranksSeduction",
+      "name": "Seduction Ranks",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": true
+    },
+    {
+      "id": "ranksSwim",
+      "name": "Swim Ranks",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": true
+    },
+    {
+      "id": "abilities",
+      "name": "Species Abilities",
+      "category": "Species Traits",
+      "valueType": "stringList",
+      "manual": true
+    },
+    {
+      "id": "languages",
+      "name": "Languages",
+      "category": "Species Traits",
+      "valueType": "stringList",
+      "manual": true
+    },
+    {
+      "id": "aborianCombat",
+      "name": "Aborian Combat",
+      "category": "Close Combat Styles",
+      "valueType": "boolean",
+      "manual": true
+    },
+    {
+      "id": "intercept",
+      "name": "Intercept",
+      "category": "Close Combat Styles",
+      "valueType": "boolean",
+      "manual": true
+    },
+    {
+      "id": "artilleryAccess",
+      "name": "Artistic Skill Specialty",
+      "category": "Skill Specialties",
+      "valueType": "string",
+      "manual": true
+    },
+    {
+      "id": "deviceAccess",
+      "name": "Device Access",
+      "category": "Skill Specialties",
+      "valueType": "string",
+      "manual": true
+    },
+    {
+      "id": "artisticSkill",
+      "name": "Artistic Skill X",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(appearance + intelligence + knowledge) / 3", "precision": 0 },
+      "repeatable": true,
+      "specializationLabel": "Style or medium",
+      "description": "The ability to create and participate in artistic endeavors, including painting, poetry, musical instruments, singing, and dance."
+    },
+    {
+      "id": "barter",
+      "name": "Barter",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(appearance + intelligence + knowledge) / 3", "precision": 0 },
+      "description": "Used to obtain better prices when trading items to a merchant."
+    },
+    {
+      "id": "bureaucracyGeneral",
+      "name": "Bureaucracy, General*",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(intelligence + knowledge) / 2", "precision": 0 },
+      "description": "The ability to navigate red tape and bureaucratic processes in general terms."
+    },
+    {
+      "id": "bureaucracySpecialized",
+      "name": "Bureaucracy X*",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(intelligence + knowledge) / 2.6", "precision": 0 },
+      "repeatable": true,
+      "specializationLabel": "Government",
+      "description": "The ability to navigate a specific species government. During character creation, new instances are limited to the character\u0027s own government."
+    },
+    {
+      "id": "climbing",
+      "name": "Climbing",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(strength + agility + intelligence) / 3", "precision": 0 },
+      "description": "The character\u0027s skill at climbing vertical surfaces."
+    },
+    {
+      "id": "commerce",
+      "name": "Commerce",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(intelligence + knowledge + knowledge) / 3", "precision": 0 },
+      "description": "The ability to navigate the financial system and attempt to increase Credit Allowance."
+    },
+    {
+      "id": "commsStellar",
+      "name": "Comms, Stellar*",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(intelligence + knowledge + knowledge) / 3", "precision": 0 },
+      "description": "Skill at using long-range communication equipment, such as Starship Comms and LR Comms backpacks."
+    },
+    {
+      "id": "contacts",
+      "name": "Contacts",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(appearance + intelligence + knowledge) / 3", "precision": 0 },
+      "description": "The character\u0027s circle of influence and ability to find someone who can provide assistance."
+    },
+    {
+      "id": "demolitions",
+      "name": "Demolitions",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(agility + intelligence + knowledge) / 3", "precision": 0 },
+      "description": "The ability to set, disarm, and otherwise handle explosive devices and related electronics."
+    },
+    {
+      "id": "device",
+      "name": "Device X",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(intelligence + intelligence + knowledge) / 3", "precision": 0 },
+      "repeatable": true,
+      "specializationLabel": "Device",
+      "description": "Training with a particular device not covered by another skill, such as a drone, Geiger counter, hacking rig, scanning device, or translator."
+    },
+    {
+      "id": "discipline",
+      "name": "Discipline X*",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(intelligence + knowledge + knowledge) / 3", "precision": 0 },
+      "repeatable": true,
+      "specializationLabel": "Field of study",
+      "description": "Knowledge in a particular field of study, such as chemistry, law, mathematics, psychology, or physics."
+    },
+    {
+      "id": "diplomacy",
+      "name": "Diplomacy",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(intelligence + knowledge + knowledge) / 3", "precision": 0 },
+      "description": "The ability to handle an interpersonal situation delicately and appropriately through knowledge and logic."
+    },
+    {
+      "id": "engineeringStarship",
+      "name": "Engineering, Starship*",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(intelligence + knowledge + knowledge) / 3", "precision": 0 },
+      "description": "The skill required to run and maintain starship-class vessels."
+    },
+    {
+      "id": "etiquette",
+      "name": "Etiquette",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(appearance + appearance + knowledge) / 3", "precision": 0 },
+      "description": "The ability to navigate unfamiliar complex social situations through charm and social skills."
+    },
+    {
+      "id": "firstAid",
+      "name": "First Aid*",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(intelligence + knowledge + knowledge) / 3", "precision": 0 },
+      "description": "Training pertaining to the application of medical attention."
+    },
+    {
+      "id": "forgery",
+      "name": "Forgery",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(intelligence + intelligence + knowledge) / 3", "precision": 0 },
+      "description": "The ability to produce anything from a forged signature to complex documents."
+    },
+    {
+      "id": "gunnery",
+      "name": "Gunnery",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(agility + intelligence + intelligence) / 3", "precision": 0 },
+      "description": "The operation and firing of non-handheld weapons."
+    },
+    {
+      "id": "informationGathering",
+      "name": "Information Gathering",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(appearance + intelligence + intelligence) / 3", "precision": 0 },
+      "description": "A generalized skill at gathering information from people."
+    },
+    {
+      "id": "intimidation",
+      "name": "Intimidation",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(strength + intelligence) / 2", "precision": 0 },
+      "description": "The ability to intimidate a non-player character."
+    },
+    {
+      "id": "initiative",
+      "name": "Initiative",
+      "category": "Derived Stats",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(agility + intelligence) / 2", "precision": 0 },
+      "description": "Response time in combat. A higher Initiative score represents a faster reaction time."
+    },
+    {
+      "id": "juryRig",
+      "name": "Jury Rig",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(agility + intelligence + knowledge) / 3", "precision": 0 },
+      "description": "The ability to temporarily make something work using available materials. Repairs last for 2d3 uses."
+    },
+    {
+      "id": "lockpicking",
+      "name": "Lockpicking*",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(agility + agility + knowledge) / 3", "precision": 0 },
+      "description": "Knowledge and hands-on manipulation of physical or electronic locking devices."
+    },
+    {
+      "id": "leadership",
+      "name": "Leadership",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(appearance + appearance + knowledge) / 3", "precision": 0 },
+      "description": "The character\u0027s skill at leading and commanding others."
+    },
+    {
+      "id": "lipReading",
+      "name": "Lip Reading",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(intelligence + intelligence + agility) / 3", "precision": 0 },
+      "description": "The ability to interpret a known spoken language without hearing it."
+    },
+    {
+      "id": "mechanic",
+      "name": "Mechanic*",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(agility + intelligence + knowledge) / 3", "precision": 0 },
+      "description": "The knowledge and skill to repair mechanical and electronic devices using parts and tools."
+    },
+    {
+      "id": "navigation",
+      "name": "Navigation",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(intelligence + knowledge + knowledge) / 3", "precision": 0 },
+      "description": "General knowledge of how to read maps and plot courses."
+    },
+    {
+      "id": "navigationStellar",
+      "name": "Navigation, Stellar*",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(intelligence + intelligence + knowledge) / 3", "precision": 0 },
+      "description": "The ability to plot courses for hyperspace travel and Jump Drives."
+    },
+    {
+      "id": "perception",
+      "name": "Perception",
+      "category": "Derived Stats",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(intelligence + intelligence + agility) / 3", "precision": 0 },
+      "description": "A passive ability to spot irregularities, changes, or hidden things."
+    },
+    {
+      "id": "persuasion",
+      "name": "Persuasion",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(appearance + intelligence + intelligence) / 3", "precision": 0 },
+      "description": "The ability to convince someone to do something they may not want to do, but not necessarily against their nature."
+    },
+    {
+      "id": "pickpocket",
+      "name": "Pickpocket",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(agility + agility + intelligence) / 3", "precision": 0 },
+      "description": "Sleight of hand used to take something from a victim without their knowledge."
+    },
+    {
+      "id": "pilotingSmall",
+      "name": "Piloting, Small",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(agility + agility + intelligence) / 3", "precision": 0 },
+      "description": "The ability to pilot ground vehicles and smaller-class space vessels."
+    },
+    {
+      "id": "pilotingStarship",
+      "name": "Piloting, Starship*",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(intelligence + intelligence + knowledge) / 3", "precision": 0 },
+      "description": "The ability to pilot a starship-class vessel in real space."
+    },
+    {
+      "id": "psychicDiscipline",
+      "name": "Psychic Discipline*",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(intelligence + intelligence + knowledge) / 3", "precision": 0 },
+      "description": "A character\u0027s skill and control over the non-combat use of psychic abilities."
+    },
+    {
+      "id": "readEmotion",
+      "name": "Read Emotion",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(appearance + intelligence + intelligence) / 3", "precision": 0 },
+      "description": "The ability to judge what another being is thinking or feeling without knowing their language."
+    },
+    {
+      "id": "reconnaissance",
+      "name": "Reconnaissance",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(intelligence + intelligence + knowledge) / 3", "precision": 0 },
+      "description": "The ability to survey a situation or area for military threats and risks."
+    },
+    {
+      "id": "researchJournalism",
+      "name": "Research/Journalism",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(intelligence + intelligence + knowledge) / 3", "precision": 0 },
+      "description": "The ability to gather information from different data sources that are not self-aware."
+    },
+    {
+      "id": "scanningStarship",
+      "name": "Scanning, Starship*",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(intelligence + intelligence + knowledge) / 3", "precision": 0 },
+      "description": "Training to operate and interpret internal and external data from starship-class vessels."
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(intelligence + intelligence + agility) / 3", "precision": 0 },
+      "description": "The ability to efficiently search an area or person for concealed or hard-to-notice items."
+    },
+    {
+      "id": "seduction",
+      "name": "Seduction",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(appearance + appearance + intelligence) / 3", "precision": 0 },
+      "description": "The ability to deliberately entice another being into a short interpersonal relationship."
+    },
+    {
+      "id": "stealthHide",
+      "name": "Stealth/Hide",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(agility + intelligence + knowledge) / 3", "precision": 0 },
+      "description": "The ability to conceal oneself or items from view and avoid detection."
+    },
+    {
+      "id": "swimming",
+      "name": "Swimming*",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(strength + endurance + endurance) / 3", "precision": 0 },
+      "description": "For characters without a swim speed, this represents movement through fluid beyond merely staying afloat."
+    },
+    {
+      "id": "tactics",
+      "name": "Tactics",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(intelligence + intelligence + knowledge) / 3", "precision": 0 },
+      "description": "The ability to ascertain strategy against large-scale forces."
+    },
+    {
+      "id": "tracking",
+      "name": "Tracking*",
+      "category": "Skills",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(endurance + intelligence + knowledge) / 3", "precision": 0 },
+      "description": "The skill of tracking a target using knowledge and natural intuition."
+    },
+    {
+      "id": "willpower",
+      "name": "Willpower",
+      "category": "Derived Stats",
+      "valueType": "number",
+      "manual": false,
+      "calculation": { "expression": "(endurance + intelligence) / 2", "precision": 0 },
+      "description": "The natural passive ability to resist temptation, fear, and frightening situations."
+    }
+  ],
+  "steps": [
+    {
+      "id": "species",
+      "label": "Species",
+      "type": "choice",
+      "dataSource": "species",
+      "required": true
+    }
+  ],
+  "data": {
+    "species": [
+      {
+        "name": "Aborian",
+        "sets": {
+          "strength": 10,
+          "endurance": 15,
+          "agility": 25,
+          "appearance": 20,
+          "intelligence": 20,
+          "knowledge": 15,
+          "ageStart": 10,
+          "speed": 30,
+          "speed1": 100,
+          "speed2": 0,
+          "ranksArtillery": 2,
+          "ranksArtillery2": 2,
+          "aborianCombat": true,
+          "intercept": false,
+          "artilleryAccess": "All"
+        },
+        "abilities": [
+          "Immune: Psychics",
+          "Improved: Sight",
+          "Improved: Hearing",
+          "Frail"
+        ],
+        "languages": ["Aborian"]
+      },
+      {
+        "name": "Canidae",
+        "sets": {
+          "strength": 35,
+          "endurance": 25,
+          "agility": 20,
+          "appearance": 5,
+          "intelligence": 15,
+          "knowledge": 10,
+          "ageStart": 14,
+          "speed": 25,
+          "speed1": 0,
+          "speed2": 0
+        },
+        "abilities": [
+          "Improved: Hearing",
+          "Improved: Smell",
+          "Diminished: Vision",
+          "Resistance: Cold",
+          "Minor Regeneration",
+          "Ignore Criticals on 7+"
+        ],
+        "languages": ["Grizzgle"],
+        "equipment": [
+          {
+            "name": "Large Claws",
+            "damage": 12,
+            "tags": ["natural", "weapon"]
+          }
+        ]
+      },
+      {
+        "name": "Luvatid",
+        "sets": {
+          "strength": 15,
+          "endurance": 30,
+          "agility": 20,
+          "appearance": 10,
+          "intelligence": 10,
+          "knowledge": 15,
+          "ageStart": 14,
+          "speed": 20,
+          "speed1": 0,
+          "speed2": 0,
+          "intercept": true
+        },
+        "abilities": [
+          "Improved: Hearing",
+          "Immune: Poison/Toxin",
+          "Resistance: Cold"
+        ],
+        "languages": ["Luvanesh"],
+        "equipment": [
+          {
+            "name": "Small Claws",
+            "damage": 7,
+            "tags": ["natural", "weapon"]
+          }
+        ]
+      },
+      {
+        "name": "Terran",
+        "sets": {
+          "strength": 15,
+          "endurance": 20,
+          "agility": 15,
+          "appearance": 15,
+          "intelligence": 20,
+          "knowledge": 20,
+          "ageStart": 16,
+          "speed": 25,
+          "speed1": 0,
+          "speed2": 0
+        },
+        "abilities": [],
+        "languages": ["Omnish"]
+      },
+      {
+        "name": "Velacheem",
+        "sets": {
+          "strength": 10,
+          "endurance": 20,
+          "agility": 10,
+          "appearance": 15,
+          "intelligence": 35,
+          "knowledge": 30,
+          "ageStart": 10,
+          "speed": 10,
+          "speed1": 0,
+          "speed2": 40,
+          "ranksPsy": 2
+        },
+        "abilities": [
+          "Gain Waterbreathing",
+          "Psy: Energy Medicine",
+          "Psy: Telepathy",
+          "Susceptible: Poison/Toxin",
+          "Frail",
+          "Lose Airbreathing"
+        ],
+        "languages": ["Velrari", "Omnish"]
+      },
+      {
+        "name": "Athasian",
+        "sets": {
+          "strength": 10,
+          "endurance": 15,
+          "agility": 30,
+          "appearance": 20,
+          "intelligence": 15,
+          "knowledge": 35,
+          "ageStart": 20,
+          "speed": 30,
+          "speed1": 0,
+          "speed2": 0,
+          "ranksBlade": 1
+        },
+        "abilities": [],
+        "languages": ["Athasian", "Galatii"]
+      },
+      {
+        "name": "Cargothian",
+        "sets": {
+          "strength": 25,
+          "endurance": 35,
+          "agility": 15,
+          "appearance": 10,
+          "intelligence": 5,
+          "knowledge": 10,
+          "ageStart": 15,
+          "speed": 20,
+          "speed1": 0,
+          "speed2": 0,
+          "ranksBrawl": 2,
+          "ranksCur": 2
+        },
+        "abilities": [
+          "Tough",
+          "Resistance: Heat",
+          "Resistance: Cold"
+        ],
+        "languages": ["Grungrun", "Galatii"]
+      },
+      {
+        "name": "Drannon",
+        "sets": {
+          "strength": 25,
+          "endurance": 20,
+          "agility": 15,
+          "appearance": 5,
+          "intelligence": 25,
+          "knowledge": 20,
+          "ageStart": 16,
+          "speed": 25,
+          "speed1": 0,
+          "speed2": 20,
+          "ranksHide": 2
+        },
+        "abilities": [
+          "Immune: Poison/Toxin",
+          "Resistance: Heat",
+          "Resistance: Psychics"
+        ],
+        "languages": ["Slythessi"],
+        "equipment": [
+          {
+            "name": "Small Claws",
+            "damage": 7,
+            "tags": ["natural", "weapon"]
+          }
+        ]
+      },
+      {
+        "name": "Enorian",
+        "sets": {
+          "strength": 5,
+          "endurance": 10,
+          "agility": 15,
+          "appearance": 10,
+          "intelligence": 35,
+          "knowledge": 35,
+          "ageStart": 18,
+          "speed": 20,
+          "speed1": 0,
+          "speed2": 0,
+          "ranksEngineering": 2,
+          "ranksRigging": 2,
+          "deviceAccess": "All"
+        },
+        "abilities": ["Interface: Dunkeld"],
+        "languages": ["Enorii", "Galatii"]
+      },
+      {
+        "name": "Karthan",
+        "sets": {
+          "strength": 20,
+          "endurance": 20,
+          "agility": 15,
+          "appearance": 25,
+          "intelligence": 15,
+          "knowledge": 20,
+          "ageStart": 25,
+          "speed": 25,
+          "speed1": 0,
+          "speed2": 0
+        },
+        "abilities": [
+          "Pay double XP",
+          "Major Regeneration",
+          "Immune: Heat",
+          "Vulnerable: Cold",
+          "Immune: Criticals"
+        ],
+        "languages": ["Krarth", "Galatii"]
+      },
+      {
+        "name": "T\u0027Lorian",
+        "sets": {
+          "strength": 5,
+          "endurance": 15,
+          "agility": 10,
+          "appearance": 10,
+          "intelligence": 35,
+          "knowledge": 30,
+          "ageStart": 16,
+          "speed": 25,
+          "speed1": 0,
+          "speed2": 0,
+          "ranksPsy": 2
+        },
+        "abilities": ["Psy: Psychometry"],
+        "languages": ["T\u0027Lori", "Galatii"]
+      },
+      {
+        "name": "G\u0027rek Zoor",
+        "sets": {
+          "strength": 20,
+          "endurance": 25,
+          "agility": 25,
+          "appearance": 5,
+          "intelligence": 10,
+          "knowledge": 10,
+          "ageStart": 12,
+          "speed": 25,
+          "speed1": 0,
+          "speed2": 0,
+          "ranksBrawl": 2
+        },
+        "abilities": [
+          "Diminished: Smell",
+          "Low Light Vision"
+        ],
+        "languages": ["Zoortese"]
+      },
+      {
+        "name": "Kelfir",
+        "sets": {
+          "strength": 15,
+          "endurance": 10,
+          "agility": 30,
+          "appearance": 25,
+          "intelligence": 20,
+          "knowledge": 15,
+          "ageStart": 15,
+          "speed": 30,
+          "speed1": 0,
+          "speed2": 0,
+          "ranksArtillery": 2,
+          "ranksArtillery2": 2
+        },
+        "abilities": [
+          "Improved: Smell",
+          "Improved: Hearing"
+        ],
+        "languages": ["Kelfiran"],
+        "equipment": [
+          {
+            "name": "Small Claws",
+            "damage": 7,
+            "tags": ["natural", "weapon"]
+          }
+        ]
+      },
+      {
+        "name": "Urellian",
+        "sets": {
+          "strength": 20,
+          "endurance": 35,
+          "agility": 10,
+          "appearance": 5,
+          "intelligence": 20,
+          "knowledge": 20,
+          "ageStart": 8,
+          "speed": 15,
+          "speed1": 0,
+          "speed2": 0,
+          "ranksDiplomacy": 2
+        },
+        "abilities": [
+          "Blindsight",
+          "Immune: Criticals",
+          "Improved: Smell"
+        ],
+        "languages": ["Bloorp"]
+      },
+      {
+        "name": "the Host",
+        "sets": {
+          "strength": 30,
+          "endurance": 30,
+          "agility": 25,
+          "appearance": 15,
+          "intelligence": 10,
+          "knowledge": 15,
+          "ageStart": 2,
+          "speed": 20,
+          "speed1": 30,
+          "speed2": 0
+        },
+        "abilities": [
+          "Resistance: Psychics",
+          "No Respiration Requirement",
+          "Immune: Poison/Toxin",
+          "Immune: Cold",
+          "Susceptible: Heat",
+          "Tough",
+          "Must Attack during Combat",
+          "Interface: the Host"
+        ],
+        "languages": ["None"]
+      },
+      {
+        "name": "Mezzhet",
+        "sets": {
+          "strength": 10,
+          "endurance": 15,
+          "agility": 20,
+          "appearance": 5,
+          "intelligence": 25,
+          "knowledge": 20,
+          "ageStart": 8,
+          "speed": 20,
+          "speed1": 0,
+          "speed2": 0,
+          "ranksPsy": 2
+        },
+        "abilities": [
+          "Blindsight",
+          "Psy: Telepathy"
+        ],
+        "languages": ["None"]
+      },
+      {
+        "name": "Tse\u0027Gath",
+        "sets": {
+          "strength": 10,
+          "endurance": 15,
+          "agility": 20,
+          "appearance": 30,
+          "intelligence": 20,
+          "knowledge": 25,
+          "ageStart": 16,
+          "speed": 30,
+          "speed1": 0,
+          "speed2": 0,
+          "ranksPersuasion": 2,
+          "ranksSeduction": 2,
+          "ranksSwim": 2
+        },
+        "abilities": [
+          "Gain Waterbreathing",
+          "Pheromones (see Species entry)"
+        ],
+        "languages": ["Tse\u0027Gathi"]
+      }
+    ]
+  }
+}
