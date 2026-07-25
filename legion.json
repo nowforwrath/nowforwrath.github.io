@@ -6591,18 +6591,6 @@
           {
             "all": [
               {
-                "in": 6180,
-                "propertyName": "units"
-              },
-              {
-                "in": 7,
-                "propertyName": "factions"
-              }
-            ]
-          },
-          {
-            "all": [
-              {
                 "in": 30,
                 "propertyName": "units"
               },
@@ -6654,18 +6642,6 @@
             "all": [
               {
                 "in": 17,
-                "propertyName": "units"
-              },
-              {
-                "in": 7,
-                "propertyName": "factions"
-              }
-            ]
-          },
-          {
-            "all": [
-              {
-                "in": 6180,
                 "propertyName": "units"
               },
               {
@@ -6817,18 +6793,6 @@
             "all": [
               {
                 "in": 17,
-                "propertyName": "units"
-              },
-              {
-                "in": 7,
-                "propertyName": "factions"
-              }
-            ]
-          },
-          {
-            "all": [
-              {
-                "in": 6180,
                 "propertyName": "units"
               },
               {
@@ -8570,18 +8534,6 @@
             "all": [
               {
                 "in": 17,
-                "propertyName": "units"
-              },
-              {
-                "in": 7,
-                "propertyName": "factions"
-              }
-            ]
-          },
-          {
-            "all": [
-              {
-                "in": 6180,
                 "propertyName": "units"
               },
               {
@@ -11131,18 +11083,6 @@
           {
             "all": [
               {
-                "in": 6180,
-                "propertyName": "units"
-              },
-              {
-                "in": 7,
-                "propertyName": "factions"
-              }
-            ]
-          },
-          {
-            "all": [
-              {
                 "in": 30,
                 "propertyName": "units"
               },
@@ -11701,18 +11641,6 @@
           {
             "all": [
               {
-                "in": 6180,
-                "propertyName": "units"
-              },
-              {
-                "in": 7,
-                "propertyName": "factions"
-              }
-            ]
-          },
-          {
-            "all": [
-              {
                 "in": 30,
                 "propertyName": "units"
               },
@@ -12178,18 +12106,6 @@
           {
             "all": [
               {
-                "in": 6180,
-                "propertyName": "units"
-              },
-              {
-                "in": 7,
-                "propertyName": "factions"
-              }
-            ]
-          },
-          {
-            "all": [
-              {
                 "in": 30,
                 "propertyName": "units"
               },
@@ -12255,18 +12171,6 @@
             "all": [
               {
                 "in": 17,
-                "propertyName": "units"
-              },
-              {
-                "in": 7,
-                "propertyName": "factions"
-              }
-            ]
-          },
-          {
-            "all": [
-              {
-                "in": 6180,
                 "propertyName": "units"
               },
               {
