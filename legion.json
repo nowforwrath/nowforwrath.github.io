@@ -15429,7 +15429,7 @@
             "rank": 4
           }
         ],
-        "upgradeTypes": [6, 11, 23],
+        "upgradeTypes": [6, 11, 23, 26],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/18.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/18.webp?version=8",
         "keywords": [47, 49, 48, 141, 202, 181],
@@ -15966,7 +15966,7 @@
             "rank": 2
           }
         ],
-        "upgradeTypes": [6, 23],
+        "upgradeTypes": [6, 23, 26],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/42.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/42.webp?version=8",
         "keywords": [47, 52, 48, 60, 124, 141, 178, 179, 181],
@@ -20446,7 +20446,7 @@
         "upgradeTypes": [5, 5, 5, 9, 10, 10],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33575.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33575.webp?version=8",
-        "keywords": [1, 2, 65, 3, 4, 28],
+        "keywords": [1, 2, 65, 3, 4, 28, 229],
         "figures": 1,
         "id": "33575",
         "unlimited": false,
