@@ -6415,14 +6415,17 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": true,
-        "availableIn": [78, 79],
-        "requiredProperties": [
-          [
-            {
-              "property": "faction",
-              "value": 2
-            }
-          ]
+        "availableIn": [78, 79, {
+            "all": [
+              {
+                "property": "faction",
+                "value": 2
+              },
+              {
+                "tier": 2
+              }
+            ]
+          }
         ],
         "requiresTier": [2],
         "unavailableWith": [
@@ -6813,14 +6816,6 @@
               }
             ]
           }
-        ],
-        "requiredProperties": [
-          [
-            {
-              "property": "faction",
-              "value": 2
-            }
-          ]
         ],
         "unavailableWith": [
           "DT-F16"
@@ -8315,14 +8310,6 @@
         "exhausts": null,
         "unique": true,
         "availableIn": [6178, 6179, 34881],
-        "requiredProperties": [
-          [
-            {
-              "property": "faction",
-              "value": 1
-            }
-          ]
-        ],
         "unavailableWith": [
           "Grogu",
           {
@@ -8403,21 +8390,6 @@
         "availableIn": [31844, 31845]
       },
       {
-        "id": 20284,
-        "name": "Heavy Blaster Pistol",
-        "points": 8,
-        "type": 12,
-        "keywords": [53, 204],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20284.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20284.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [31669, 31670],
-        "ttsName": "Heavy Blaster Pistol (Rebel)"
-      },
-      {
         "id": 20275,
         "name": "Heavy Blaster Pistol",
         "points": 5,
@@ -8431,6 +8403,21 @@
         "unique": null,
         "availableIn": [31667, 31668],
         "ttsName": "Heavy Blaster Pistol (Empire)"
+      },
+      {
+        "id": 20284,
+        "name": "Heavy Blaster Pistol",
+        "points": 8,
+        "type": 12,
+        "keywords": [53, 204],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20284.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20284.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [31669, 31670],
+        "ttsName": "Heavy Blaster Pistol (Rebel)"
       },
       {
         "id": 16580,
@@ -8858,15 +8845,7 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": false,
-        "availableIn": [30, 17],
-        "requiredProperties": [
-          [
-            {
-              "property": "faction",
-              "value": 7
-            }
-          ]
-        ]
+        "availableIn": [30, 17]
       },
       {
         "id": 19828,
@@ -9264,14 +9243,6 @@
         "exhausts": null,
         "unique": true,
         "availableIn": [33774, 13, 6],
-        "requiredProperties": [
-          [
-            {
-              "property": "faction",
-              "value": 1
-            }
-          ]
-        ],
         "unavailableWith": [
           "Jyn Erso"
         ],
@@ -9924,31 +9895,7 @@
         "exhausts": null,
         "unique": false,
         "ttsName": "Offensive Stance",
-        "availableIn": [
-          "3",
-          "4",
-          "20",
-          "41",
-          "46",
-          "47",
-          "49",
-          "73",
-          "74",
-          "764",
-          "4551",
-          "13582",
-          "15014",
-          "19108",
-          "19109",
-          "29671",
-          "31842",
-          "31843",
-          "32593",
-          "33575",
-          "33777",
-          "33791",
-          "33794"
-        ]
+        "availableIn": []
       },
       {
         "id": 129,
@@ -10905,6 +10852,28 @@
         "availableIn": [31669, 31670]
       },
       {
+        "id": 2718,
+        "name": "Rook Kast",
+        "points": 35,
+        "type": 4,
+        "keywords": [145, 192],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/2718.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/2718.webp?version=3",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [4767],
+        "unavailableWith": [
+          "Rook Kast",
+          {
+            "id": "22593",
+            "propertyName": "upgrades"
+          }
+        ],
+        "factions": [1, 2, 4, 5, 8, 9]
+      },
+      {
         "id": 22593,
         "name": "Rook Kast",
         "points": 25,
@@ -10939,28 +10908,6 @@
             "value": 1083
           }
         ]
-      },
-      {
-        "id": 2718,
-        "name": "Rook Kast",
-        "points": 35,
-        "type": 4,
-        "keywords": [145, 192],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/2718.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/2718.webp?version=3",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [4767],
-        "unavailableWith": [
-          "Rook Kast",
-          {
-            "id": "22593",
-            "propertyName": "upgrades"
-          }
-        ],
-        "factions": [1, 2, 4, 5, 8, 9]
       },
       {
         "id": 18477,
@@ -11888,31 +11835,7 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [
-          "3",
-          "4",
-          "20",
-          "41",
-          "46",
-          "47",
-          "49",
-          "73",
-          "74",
-          "764",
-          "4551",
-          "13582",
-          "15014",
-          "19108",
-          "19109",
-          "29671",
-          "31842",
-          "31843",
-          "32593",
-          "33575",
-          "33777",
-          "33791",
-          "33794"
-        ]
+        "availableIn": []
       },
       {
         "id": 22924,
@@ -12477,14 +12400,6 @@
         "exhausts": null,
         "unique": true,
         "availableIn": [33771],
-        "requiredProperties": [
-          [
-            {
-              "property": "faction",
-              "value": 8
-            }
-          ]
-        ],
         "ttsName": "The Darksaber (Bo-Katan)",
         "unavailableWith": [
           "The Darksaber",
