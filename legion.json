@@ -26044,7 +26044,7 @@
       {
         "id": 217,
         "name": "Command Vehicle X",
-        "definition": "When an allied unit within Range 3 of a unit that has the Command Vehicle X keyword checks for Panic, if both units have the same Affiliation or Faction, the allied unit treats the unit that ahs the Command Vehicle X keyword as a Special Forces unit with a Courage value of X."
+        "definition": "When an allied unit within Range 3 of a unit that has the Command Vehicle X keyword checks for Panic, if both units have the same Affiliation or Faction, the allied unit treats the unit that has the Command Vehicle X keyword as a Commander unit with a Courage value of X."
       },
       {
         "id": 65,
