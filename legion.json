@@ -96,6 +96,10 @@
   "dataTableKeys": [
     "units"
   ],
+  "usesCollection": [
+    "units",
+    "upgrades"
+  ],
   "quiz": {
     "seedKey": "legion",
     "sources": [
