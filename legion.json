@@ -26539,7 +26539,7 @@
       {
         "id": 226,
         "name": "Mechanized Infantry",
-        "definition": "At the start of the Activation Phase, each unit with the Mechanized Infantry keyword may choose a different allied vehicle unit within Rage 2. If they do, the unit with the Mechanized Infantry keyword and each chosen unit gain 1 Aim token or 1 Dodge token."
+        "definition": "At the start of the Activation Phase, each unit with the Mechanized Infantry keyword may choose a different allied vehicle unit within Range 2. If they do, the unit with the Mechanized Infantry keyword and each chosen unit gain 1 Aim token or 1 Dodge token."
       },
       {
         "id": 139,
@@ -29412,5 +29412,6980 @@
         "climaxLabel": "Turning Point"
       }
     }
-  }
+  },
+  "packs": [
+    {
+      "id": "7",
+      "name": "AT-ST",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "9",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "1",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "22",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "23",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "24",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "25",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Core",
+      "factions": [3],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "1",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "2",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "4",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "5",
+          "qty": 2
+        },
+        {
+          "dataSource": "units",
+          "id": "6",
+          "qty": 2
+        },
+        {
+          "dataSource": "units",
+          "id": "3",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "3",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "4",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "5",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "6",
+          "qty": 4
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "8",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "9",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "11",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "12",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "13",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "15",
+          "qty": 4
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "16",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "32",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "7",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "19",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "14",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "10",
+          "qty": 2
+        },
+        {
+          "dataSource": "commands",
+          "id": "1",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "2",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "3",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "4",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "6",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "7",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "8",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "9",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "11",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "12",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Rebel Troopers",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "6",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "11",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "12",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "16",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "18",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "30",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Stormtroopers",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "5",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "18",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "30",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "7",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "19",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "14",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "74-Z Speeder Bikes",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "2",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "1",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "T-47 Airspeeder",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "10",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "1",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "27",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "28",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "29",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "General Veers",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "8",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "17",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "26",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "37",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "10",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "15",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "16",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Snowtroopers",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "7",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "18",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "30",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "36",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "21",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "34",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Leia Organa",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "11",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "17",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "26",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "37",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "13",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "18",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "19",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Fleet Troopers",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "12",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "18",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "30",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "31",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "35",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "39",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Rebel Commandos",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "13",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "14",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "25979",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "33",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "41",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "47",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "48",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "43",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Han Solo",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "15",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "33",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "44",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "43",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "14",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "22",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "23",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Boba Fett",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "16",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "33",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "38",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "43",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "20",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "21",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "29",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Scout Troopers",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "26",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "17",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "25981",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "33",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "41",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "52",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "53",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "43",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "E-Web Heavy Blaster Team",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "19",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "40",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "41",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "42",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "1.4 FD Laser Cannon Team",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "18",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "40",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "41",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "42",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Imperial Royal Guards",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "21",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "38",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "46",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "54",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "57",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "58",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Emperor Palpatine",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "20",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "8",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "44",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "45",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "24",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "25",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "32",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Chewbacca",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "25",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "38",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "54",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "43",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "28",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "33",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "34",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Wookiee Warriors",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "24",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "1529",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "38",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "51",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "54",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "57",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "58",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Imperial Specialists",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "23",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "17",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "58",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "65",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "66",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "67",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "68",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "50",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "27",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "37",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "38",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Rebel Specialists",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "22",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "41",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "49",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "55",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "63",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "64",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "65",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "17",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "58",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "26",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "35",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "36",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Rebel Pathfinders",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "28",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "33",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "57",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "60",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "65",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "72",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "73",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "74",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "75",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "37",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Jyn Erso",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "27",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "29928",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "33",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "58",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "59",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "62",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "69",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "30",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "39",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "40",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Director Orson Krennic",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "29",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "26",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "58",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "62",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "31",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "43",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "44",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Imperial Death Troopers",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "30",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "37",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "57",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "65",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "72",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "77",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "84",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "85",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "86",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "33",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "TX-225 GAVw Occupier",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "31",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "41",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "83",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "87",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "88",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "89",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "X-34 Landspeeder",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "32",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "80",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "81",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "82",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "90",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "91",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "92",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "41",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Bossk",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "34",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "38",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "70",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "42",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "45",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "46",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Sabine Wren",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "33",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "70",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "71",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "79",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "97",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "41",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "47",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "48",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Tauntaun Riders",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "35",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "1",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "54",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "70",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Rebel Veterans",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "36",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "42",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "37",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "70",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "72",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "76",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "98",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "Imperial Shoretroopers",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "39",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "48",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "70",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "72",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "95",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "114",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "B1 Battle Droids",
+      "factions": [5],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "38",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "94",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "101",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "105",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "106",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Phase I Clone Troopers",
+      "factions": [4],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "37",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "25964",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "93",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "101",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "103",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "108",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "109",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Clone Wars Core Set",
+      "factions": [3],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "37",
+          "qty": 2
+        },
+        {
+          "dataSource": "units",
+          "id": "38",
+          "qty": 2
+        },
+        {
+          "dataSource": "units",
+          "id": "41",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "43",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "44",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "45",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "25964",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "5",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "9",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "17",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "32",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "38",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "54",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "93",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "94",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "100",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "104",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "105",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "106",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "107",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "108",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "109",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "110",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "112",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "113",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "102",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "10",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "41",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "37",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "58",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "57",
+          "qty": 2
+        },
+        {
+          "dataSource": "commands",
+          "id": "49",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "50",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "51",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "52",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "53",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "54",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Droidekas",
+      "factions": [5],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "43",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "99",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "BARC Speeder",
+      "factions": [4],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "44",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "100",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "112",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "113",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "1",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "99",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Upgrade Card Pack",
+      "factions": [3],
+      "contents": [
+        {
+          "dataSource": "upgrades",
+          "id": "1",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "5",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "6",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "9",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "13",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "15",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "17",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "18",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "26",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "30",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "33",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "41",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "37",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "44",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "54",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "57",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "58",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "62",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "65",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "70",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "72",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "99",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "101",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "104",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "10",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "43",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "102",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "19061",
+          "qty": 3
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "Clone Captain Rex",
+      "factions": [4],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "50",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "26",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "70",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "58",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "43",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "103",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "58",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "64",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "65",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "Count Dooku",
+      "factions": [5],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "49",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "8",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "26",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "45",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "111",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "57",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "66",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "67",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "Dewback Rider",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "40",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "96",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "54",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "70",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "115",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "116",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "AT-RT",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "1",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "1",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "3",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "4",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "Crashed Escape Pod",
+      "factions": [3],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "55",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "56",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "130",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "131",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "65",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "63",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "68",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "70",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "B1 Battle Droids Upgrade",
+      "factions": [5],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "38",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "125",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "126",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "130",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "136",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "137",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "65",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "101",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "Rebel Troopers Upgrade",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "upgrades",
+          "id": "103",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "123",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "124",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "129",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "132",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "133",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "101",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "Luke Skywalker Operative",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "46",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "107",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "102",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "33",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "54",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "56",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "60",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "62",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "Imperial Stormtroopers Upgrade",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "5",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "101",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "121",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "129",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "122",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "134",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "135",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "103",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "Darth Vader Operative",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "47",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "111",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "102",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "54",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "70",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "55",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "59",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "61",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "Phase I Clone Troopers Upgrade",
+      "factions": [4],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "37",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "25964",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "103",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "127",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "128",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "129",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "138",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "139",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "101",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": "Phase II Clone Troopers",
+      "factions": [4],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "51",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "25964",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "117",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "140",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "144",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "72",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "30",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "18",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "TX-130 Saber-Class Fighter Tank",
+      "factions": [4],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "53",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "119",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "145",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "146",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "150",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "151",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "152",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "153",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "147",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "99",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "41",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "B2 Super Battle Droids",
+      "factions": [5],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "52",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "118",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "141",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "148",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "41",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "130",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "Iden Versio and ID10",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "58",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "143",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "167",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "168",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "129",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "74",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "82",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "83",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "84",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "AAT Trade Federation Battle Tank",
+      "factions": [5],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "54",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "99",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "120",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "147",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "149",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "152",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "153",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "154",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "41",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "name": "Cassian Andor and K-2SO",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "57",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "68",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "29930",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "29932",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "142",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "165",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "166",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "129",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "33",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "38",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "72",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "58",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "18",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "41",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "73",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "79",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "80",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "81",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "name": "Vital Assets",
+      "factions": [3],
+      "contents": []
+    },
+    {
+      "id": "61",
+      "name": "Cad Bane Operative",
+      "factions": [5],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "59",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "103",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "129",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "155",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "172",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "173",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "1",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "75",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "77",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "85",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "Padme Amidala Operative",
+      "factions": [4],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "60",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "156",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "172",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "43",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "173",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "44",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "129",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "76",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "78",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "86",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "Arc Troopers",
+      "factions": [4],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "61",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "62",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "25980",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "158",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "162",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "163",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "164",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "157",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "172",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "173",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "BX-Series Droid Commandos",
+      "factions": [5],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "63",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "64",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "25982",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "159",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "162",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "174",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "172",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "160",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "161",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "name": "Clan Wren",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "71",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "72",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "175",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "177",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "178",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "172",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "173",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "162",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "176",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "name": "STAP Riders",
+      "factions": [5],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "69",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "169",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "41",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "99",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "name": "Republic AT-RT",
+      "factions": [4],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "70",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "3",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "4",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "99",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "1",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "name": "Inferno Squad",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "78",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "79",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "170",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "171",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "182",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "172",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "129",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "173",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "162",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "name": "Anakin Skywalker",
+      "factions": [4],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "73",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "179",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "183",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "184",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "185",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "8",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "111",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "45",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "87",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "88",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "89",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "name": "Darth Maul and Sith Probe Droids",
+      "factions": [5],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "74",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "77",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "184",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "185",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "58",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "8",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "129",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "179",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "1",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "111",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "45",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "91",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "92",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "90",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "name": "Separatist Specialists",
+      "factions": [5],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "76",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "181",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "189",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "190",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "191",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "192",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "41",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "44",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "180",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "188",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "94",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "95",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "96",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "name": "Republic Specialists",
+      "factions": [4],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "75",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "180",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "193",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "194",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "195",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "196",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "191",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "185",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "41",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "188",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "93",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "97",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "98",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "name": "Agent Kallus",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "81",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "29931",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "186",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "187",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "191",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "188",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "172",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "185",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "173",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "180",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "name": "Lando Calrissian",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "80",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "188",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "191",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "173",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "180",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "185",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "172",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "name": "LAAT/LE Patrol Transport",
+      "factions": [3],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "771",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "773",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "199",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "200",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "201",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "202",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "203",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "204",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "205",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "147",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "152",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "153",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "41",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "99",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "name": "A-A5 Speeder Truck",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "772",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "197",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "198",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "201",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "206",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "207",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "208",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "209",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "210",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "211",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "212",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "82",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "name": "Jedi Master Yoda",
+      "factions": [4],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "1565",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "764",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "191",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "626",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "625",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "184",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "628",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "627",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "256",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "257",
+          "qty": 1
+        },
+        {
+          "dataSource": "commands",
+          "id": "258",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "name": "Republic Wookiees",
+      "factions": [4],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "1527",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "1528",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "1529",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "1563",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "24",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "413",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "618",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "628",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "188",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "54",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "180",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "51",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "58",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "name": "Super Tactical Droid",
+      "factions": [5],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "1852",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "1853",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "1854",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "26",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "188",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "191",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "918",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "628",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "180",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "1",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "name": "Raddaugh Gnasp Fluttercraft",
+      "factions": [4],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "1984",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "932",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "919",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "918",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "name": "DSD1 Dwarf Spider Droid",
+      "factions": [5],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "2019",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "962",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "961",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "947",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "950",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "948",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "949",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "918",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "name": "IG-100 MagnaGuards",
+      "factions": [5],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "1809",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "883",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "884",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "885",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "918",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "628",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "627",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "54",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "162",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "name": "NR-N99 Persuader-Class Tank Droid",
+      "factions": [5],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "2109",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "947",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "962",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "961",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "201",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "name": "Infantry Support Platform",
+      "factions": [4],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "2108",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "960",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "965",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "963",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "964",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "name": "Gar Saxon",
+      "factions": [6],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "4891",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "3006",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2773",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2775",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2774",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2609",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2631",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "name": "Upgrade Card Pack II",
+      "factions": [3],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "5001",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "5000",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "4999",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "4919",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2429",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "103",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "130",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "129",
+          "qty": 4
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "173",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "162",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "172",
+          "qty": 4
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "169",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "180",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "179",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "185",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "201",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "191",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "188",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "184",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "626",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "625",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "628",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "627",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "918",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2609",
+          "qty": 4
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2631",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2697",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2713",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2610",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2800",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2799",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "name": "Shadow Collective Starter Set",
+      "factions": [6],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "4215",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "4216",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "4417",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "4551",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "4717",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "4767",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2428",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2427",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2426",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2425",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "71",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "45",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "111",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "8",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "13",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "9",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "44",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "54",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "38",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "41",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "58",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "15",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "57",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2565",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2566",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2567",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2568",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2632",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2714",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2715",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2716",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2717",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2719",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2718",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "name": "Mandalorian Super Commandos",
+      "factions": [6],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "4767",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2609",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2631",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2713",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2714",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2715",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2716",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2717",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2718",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2719",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "name": "Black Sun Enforcers",
+      "factions": [6],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "4417",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "4717",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2565",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2566",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2567",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2568",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2609",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2697",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2610",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "name": "Pyke Syndicate Foot Soldiers",
+      "factions": [6],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "4215",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "4216",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2429",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2427",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2428",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2426",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2425",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2609",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2697",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2610",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "name": "Echo Base Defenders",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "36",
+          "qty": 4
+        },
+        {
+          "dataSource": "units",
+          "id": "35",
+          "qty": 2
+        },
+        {
+          "dataSource": "units",
+          "id": "18",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "11",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "25",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "55",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "42",
+          "qty": 4
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "3",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "4",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "180",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "99",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "15",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "54",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "40",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "98",
+          "qty": 4
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "17",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "1",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "33",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "70",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "37",
+          "qty": 4
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "42",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "72",
+          "qty": 4
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "76",
+          "qty": 4
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "172",
+          "qty": 4
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "191",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "131",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "name": "Swoop Bike Riders",
+      "factions": [6],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "5406",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "name": "Blizzard Force",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "3",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "7",
+          "qty": 3
+        },
+        {
+          "dataSource": "units",
+          "id": "9",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "5880",
+          "qty": 2
+        },
+        {
+          "dataSource": "units",
+          "id": "2",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "22",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "104",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "23",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "24",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "26",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "36",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "8",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "10",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "57",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "25",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "83",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "58",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "13",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "34",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "21",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "62",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "name": "Separatist Invasion Force",
+      "factions": [5],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "45",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "43",
+          "qty": 2
+        },
+        {
+          "dataSource": "units",
+          "id": "54",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "1809",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "38",
+          "qty": 4
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "104",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "147",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "94",
+          "qty": 4
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "152",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "110",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "105",
+          "qty": 4
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "106",
+          "qty": 4
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "885",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "153",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "41",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "883",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "130",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "99",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "154",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "627",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "884",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "62",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "54",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "name": "501st Legion",
+      "factions": [4],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "73",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "51",
+          "qty": 2
+        },
+        {
+          "dataSource": "units",
+          "id": "70",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "62",
+          "qty": 3
+        },
+        {
+          "dataSource": "units",
+          "id": "61",
+          "qty": 3
+        },
+        {
+          "dataSource": "units",
+          "id": "25980",
+          "qty": 3
+        },
+        {
+          "dataSource": "units",
+          "id": "25964",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "158",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "164",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "162",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "70",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "163",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "10",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "41",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "157",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "129",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "117",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "144",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "103",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "13",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "15",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "54",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "140",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "name": "Din Djarin & Grogu",
+      "factions": [6],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "6179",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "3649",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "3650",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "3668",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "3667",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "4413",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "19062",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "name": "IG-Series Assassin Droids",
+      "factions": [6],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "6178",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "6177",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "3648",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "4441",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "98",
+      "name": "Boba Fett (Daimyo)",
+      "factions": [6],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "6176",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "5569",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "name": "Imperial Dark Troopers",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "6180",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "6319",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "6320",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "6321",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "6322",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "6318",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "name": "Moff Gideon",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "11258",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "6132",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "101",
+      "name": "Asajj Ventress",
+      "factions": [5],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "13582",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "name": "Commander Cody",
+      "factions": [4],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "6376",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "16553",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "16554",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "name": "Ahsoka Tano",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "15014",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "name": "Ewok Warriors",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "15784",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "16377",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "9317",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "9399",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "9398",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "9402",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "9400",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "105",
+      "name": "Logray & Wicket",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "16687",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "15015",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "15016",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "9625",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "9626",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "9624",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "9317",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "name": "Bad Batch",
+      "factions": [4],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "23655",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "25086",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "15009",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "15987",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "15989",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "15988",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "15986",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "15628",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "15011",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "name": "Sun Fac and Poggle the Lesser",
+      "factions": [5],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "19105",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "19106",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "name": "Aqua Droids",
+      "factions": [5],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "28382",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "18179",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "name": "Range Troopers",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "23657",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "15014",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "15015",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "15010",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "name": "Republic Clone Commandos",
+      "factions": [4],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "23656",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "24084",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "15114",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "15012",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "name": "Fifth Brother and Seventh Sister",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "19109",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "19108",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "11867",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "name": "Geonosian Warriors",
+      "factions": [5],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "19103",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "16561",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "11866",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "11864",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "11865",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "name": "Imperial Riot Control Squad",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "25967",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "16577",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "16579",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "name": "Rebel Sleeper Cell",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "25968",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "16581",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "16576",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "118",
+      "name": "Commander & Padawan Ahsoka Tano",
+      "factions": [4],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "29671",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "117",
+      "name": "Arf Troopers",
+      "factions": [4],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "28861",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "18477",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "18476",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "18478",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "116",
+      "name": "LM-432 Crab Droid",
+      "factions": [5],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "25966",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "16578",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "16580",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "120",
+      "name": "Galactic Empire Starter Set",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "3",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "17",
+          "qty": 2
+        },
+        {
+          "dataSource": "units",
+          "id": "25981",
+          "qty": 2
+        },
+        {
+          "dataSource": "units",
+          "id": "5",
+          "qty": 2
+        },
+        {
+          "dataSource": "units",
+          "id": "3",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "8",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "129",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "62",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "58",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "53",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "52",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "19",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "122",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "14",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "16566",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "119",
+      "name": "Rebel Alliance Starter Set",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "24",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "14",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "6",
+          "qty": 2
+        },
+        {
+          "dataSource": "units",
+          "id": "25979",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "13",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "4",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "16562",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "12",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "58",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "129",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "44",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "626",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "413",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "51",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "618",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "48",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "47",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "11",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "123",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "123",
+      "name": "Customizable Rebel Officer & Agent",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "31669",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "31670",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20278",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20279",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20280",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20281",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20282",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20283",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20284",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20285",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20314",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "121",
+      "name": "Separatist Alliance Starter Set",
+      "factions": [5],
+      "contents": []
+    },
+    {
+      "id": "122",
+      "name": "Galactic Republic Starter Set",
+      "factions": [4],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "25980",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "62",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "41",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "25964",
+          "qty": 2
+        },
+        {
+          "dataSource": "units",
+          "id": "28861",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "18476",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "18478",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "158",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "6",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "129",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "58",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "16572",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "16571",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "16557",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "102",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "18477",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "124",
+      "name": "Customizable Imperial Officer & Agent",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "31668",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "31667",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20268",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20269",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20270",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20271",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20272",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20273",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20274",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20275",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20276",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20277",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "127",
+      "name": "Darth Vader & General Veers",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "3",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "8",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "128",
+      "name": "Customizable Super Tactical Command Droid",
+      "factions": [5],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "31844",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "31845",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20461",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20460",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20459",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20458",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20457",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20456",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20455",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20454",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20453",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20449",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "126",
+      "name": "Heroes of the Rebellion",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "4",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "15",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "11",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "46",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "25",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "125",
+      "name": "Customizable Jedi General and Knight",
+      "factions": [4],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "31842",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "31843",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20438",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20437",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20436",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20435",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20434",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20433",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20432",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20431",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20430",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20428",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "129",
+      "name": "Grievous' TSMEU-6 Wheel Bike",
+      "factions": [5],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "32232",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "143",
+      "name": "Leaders of the Shadow Collective",
+      "factions": [6],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "4551",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "4891",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2773",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2632",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2718",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "142",
+      "name": "Imperial Probe Droids",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "32590",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "130",
+      "name": "Clone Trooper Marksmen",
+      "factions": [4],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "32248",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "16560",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "16568",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20718",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20770",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "133",
+      "name": "TSMEU-6 Personal Wheel Bikes",
+      "factions": [5],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "32595",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "20709",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "21489",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "132",
+      "name": "Hondo Ohnaka & Weequay Pirates",
+      "factions": [6],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "29681",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "32591",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "21644",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "21643",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "21642",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "21641",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "135",
+      "name": "Heroes of the Clone Army",
+      "factions": [4],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "73",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "41",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "50",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "16569",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "16552",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "131",
+      "name": "Imperial High Command",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "32588",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "33593",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "29",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "32589",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "21595",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "21594",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "139",
+      "name": "Blizzard Force Special Edition",
+      "factions": [2],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "3",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "7",
+          "qty": 2
+        },
+        {
+          "dataSource": "units",
+          "id": "5",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "5880",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "32590",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "13",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "44",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "19",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "122",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "14",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "16566",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "21",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "36",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "34",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "16565",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "58",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "15",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "138",
+      "name": "Echo Base Defenders Special Edition",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "11",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "36",
+          "qty": 2
+        },
+        {
+          "dataSource": "units",
+          "id": "35",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "42",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "55",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "131",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "54",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "76",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "16574",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "98",
+          "qty": 2
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "180",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "191",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "137",
+      "name": "Han Solo and Luke Skywalker on Tauntauns",
+      "factions": [1],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "32594",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "32593",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "141",
+      "name": "Mandalorian Leaders",
+      "factions": [6],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "33771",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "33795",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "33770",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "33790",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "21729",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "22513",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "22512",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "22510",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "140",
+      "name": "Mandalorian Special Edition Army Box",
+      "factions": [6],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "33796",
+          "qty": 3
+        },
+        {
+          "dataSource": "units",
+          "id": "33788",
+          "qty": 3
+        },
+        {
+          "dataSource": "units",
+          "id": "33797",
+          "qty": 3
+        },
+        {
+          "dataSource": "units",
+          "id": "34881",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "33795",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "4413",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "3650",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "21729",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "22594",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "22419",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "22421",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "22420",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "22417",
+          "qty": 3
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "22418",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "22611",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "22586",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "19062",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "134",
+      "name": "Clan Wren Mandalorians",
+      "factions": [6],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "33773",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "136",
+      "name": "Mandalorian Warriors",
+      "factions": [6],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "33797",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "106",
+      "name": "AT-ST Walker",
+      "factions": [3],
+      "contents": [
+        {
+          "dataSource": "units",
+          "id": "9",
+          "qty": 1
+        },
+        {
+          "dataSource": "units",
+          "id": "15969",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "24",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "22",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "23",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "25",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "1",
+          "qty": 1
+        },
+        {
+          "dataSource": "upgrades",
+          "id": "2",
+          "qty": 1
+        }
+      ]
+    }
+  ]
 }
