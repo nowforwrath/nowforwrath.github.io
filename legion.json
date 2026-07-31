@@ -21539,7 +21539,7 @@
       {
         "id": 13,
         "name": "Marked Targets",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/13.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/13.webp?version=4",
         "gameModes": [
           "standard"
         ],
@@ -21548,7 +21548,7 @@
       {
         "id": 14,
         "name": "Sweep and Clear",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/14.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/14.webp?version=4",
         "gameModes": [
           "standard"
         ],
@@ -21557,7 +21557,7 @@
       {
         "id": 15,
         "name": "Bring Them to Heel",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/15.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/15.webp?version=4",
         "gameModes": [
           "standard"
         ],
@@ -21566,7 +21566,7 @@
       {
         "id": 16,
         "name": "Surface Scan",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/16.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/16.webp?version=4",
         "gameModes": [
           "standard"
         ],
@@ -21575,7 +21575,7 @@
       {
         "id": 17,
         "name": "Destroy Enemy Base",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/17.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/17.webp?version=4",
         "gameModes": [
           "standard"
         ],
@@ -21584,7 +21584,7 @@
       {
         "id": 18,
         "name": "Recon Mission",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/18.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/18.webp?version=4",
         "gameModes": [
           "standard"
         ],
@@ -21593,7 +21593,7 @@
       {
         "id": 21,
         "name": "Recon Mission",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/21.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/21.webp?version=4",
         "gameModes": [
           "recon"
         ],
@@ -21602,7 +21602,7 @@
       {
         "id": 20,
         "name": "Surface Scan",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/20.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/20.webp?version=4",
         "gameModes": [
           "recon"
         ],
@@ -21611,7 +21611,7 @@
       {
         "id": 19,
         "name": "Bring Them to Heel",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/19.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/19.webp?version=4",
         "gameModes": [
           "recon"
         ],
@@ -21620,7 +21620,7 @@
       {
         "id": 22,
         "name": "Supply Run",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/22.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/22.webp?version=4",
         "gameModes": [
           "standard"
         ],
@@ -21629,7 +21629,7 @@
       {
         "id": 23,
         "name": "Failed Negotiations",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/23.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/23.webp?version=4",
         "gameModes": [
           "standard"
         ],
@@ -21638,7 +21638,7 @@
       {
         "id": 24,
         "name": "Retrieve the Data",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/24.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/24.webp?version=4",
         "gameModes": [
           "standard"
         ],
@@ -21647,7 +21647,7 @@
       {
         "id": 25,
         "name": "Align the Relay",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/25.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/25.webp?version=4",
         "gameModes": [
           "standard"
         ],
@@ -21658,7 +21658,7 @@
       {
         "id": 13,
         "name": "Advanced Intel",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/13.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/13.webp?version=4",
         "gameModes": [
           "standard"
         ],
@@ -21667,7 +21667,7 @@
       {
         "id": 14,
         "name": "Fortified Position",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/14.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/14.webp?version=4",
         "gameModes": [
           "standard"
         ],
@@ -21676,7 +21676,7 @@
       {
         "id": 15,
         "name": "Cunning Deployment",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/15.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/15.webp?version=4",
         "gameModes": [
           "standard"
         ],
@@ -21685,7 +21685,7 @@
       {
         "id": 16,
         "name": "Garrison",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/16.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/16.webp?version=4",
         "gameModes": [
           "standard"
         ],
@@ -21694,7 +21694,7 @@
       {
         "id": 17,
         "name": "Ordnance",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/17.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/17.webp?version=4",
         "gameModes": [
           "standard"
         ],
@@ -21703,7 +21703,7 @@
       {
         "id": 18,
         "name": "Strafing Run",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/18.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/18.webp?version=4",
         "gameModes": [
           "standard"
         ],
@@ -21712,7 +21712,7 @@
       {
         "id": 20,
         "name": "Cunning Deployment",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/20.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/20.webp?version=4",
         "gameModes": [
           "recon"
         ],
@@ -21721,7 +21721,7 @@
       {
         "id": 19,
         "name": "Advanced Intel",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/19.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/19.webp?version=4",
         "gameModes": [
           "recon"
         ],
@@ -21730,7 +21730,7 @@
       {
         "id": 21,
         "name": "Fortified Position",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/21.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/21.webp?version=4",
         "gameModes": [
           "recon"
         ],
@@ -21739,7 +21739,7 @@
       {
         "id": 28,
         "name": "Scrambled Orders",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/28.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/28.webp?version=4",
         "gameModes": [
           "standard"
         ],
@@ -21751,7 +21751,7 @@
       {
         "id": 29,
         "name": "Extreme Discipline",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/29.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/29.webp?version=4",
         "gameModes": [
           "standard"
         ],
@@ -21763,7 +21763,7 @@
       {
         "id": 26,
         "name": "Rapid Deployment",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/26.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/26.webp?version=4",
         "gameModes": [
           "standard"
         ],
@@ -21775,7 +21775,7 @@
       {
         "id": 22,
         "name": "Black Ops",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/22.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/22.webp?version=4",
         "gameModes": [
           "standard"
         ],
@@ -21787,7 +21787,7 @@
       {
         "id": 23,
         "name": "Command Override",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/23.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/23.webp?version=4",
         "gameModes": [
           "standard"
         ],
@@ -21799,7 +21799,7 @@
       {
         "id": 24,
         "name": "Coordinated Strike",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/24.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/24.webp?version=4",
         "gameModes": [
           "standard"
         ],
@@ -21811,7 +21811,7 @@
       {
         "id": 25,
         "name": "No Time to Lose",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/25.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/25.webp?version=4",
         "gameModes": [
           "standard"
         ],
@@ -21823,7 +21823,7 @@
       {
         "id": 27,
         "name": "Armored Assault",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/27.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/27.webp?version=4",
         "gameModes": [
           "standard"
         ],
@@ -21998,8 +21998,8 @@
         "pips": 3,
         "faction": 1,
         "factions": [1, 13, 18],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/35.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/35.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/35.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/35.webp?version=7",
         "keywords": null
       },
       {
@@ -22008,8 +22008,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/57.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/57.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/57.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/57.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -22024,8 +22024,8 @@
         "pips": 3,
         "faction": 2,
         "factions": [2, 10, 19, 17, 7],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/37.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/37.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/37.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/37.webp?version=7",
         "keywords": null
       },
       {
@@ -22034,8 +22034,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16484.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16484.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16484.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16484.webp?version=7",
         "keywords": [23, 27],
         "unlockedBy": [
           {
@@ -22050,8 +22050,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16487.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16487.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16487.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16487.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -22066,8 +22066,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16488.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16488.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16488.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16488.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -22082,8 +22082,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16486.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16486.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16486.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16486.webp?version=7",
         "keywords": [2],
         "unlockedBy": [
           {
@@ -22098,8 +22098,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/22.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/22.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/22.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/22.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -22118,8 +22118,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/58.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/58.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/58.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/58.webp?version=7",
         "keywords": [6],
         "unlockedBy": [
           {
@@ -22134,8 +22134,8 @@
         "pips": 1,
         "faction": 4,
         "factions": [4, 21, 12, 16],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/93.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/93.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/93.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/93.webp?version=7",
         "keywords": null
       },
       {
@@ -22144,8 +22144,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -22168,8 +22168,8 @@
         "pips": 2,
         "faction": 2,
         "factions": [2, 10, 19, 17, 7],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/38.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/38.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/38.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/38.webp?version=7",
         "keywords": null
       },
       {
@@ -22178,8 +22178,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1963.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1963.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1963.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1963.webp?version=7",
         "keywords": [40],
         "unlockedBy": [
           {
@@ -22198,18 +22198,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1903.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1903.webp?version=3",
-        "keywords": null
-      },
-      {
-        "id": 1902,
-        "name": "Aggression",
-        "pips": 2,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1902.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1902.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1903.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1903.webp?version=7",
         "keywords": null
       },
       {
@@ -22218,8 +22208,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/54.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/54.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/54.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/54.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -22229,13 +22219,23 @@
         ]
       },
       {
+        "id": 1902,
+        "name": "Aggression",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1902.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1902.webp?version=7",
+        "keywords": null
+      },
+      {
         "id": 1962,
         "name": "Marked for Elimination",
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1962.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1962.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1962.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1962.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -22254,8 +22254,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/3083.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/3083.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/3083.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/3083.webp?version=7",
         "keywords": [134],
         "unlockedBy": [
           {
@@ -22270,8 +22270,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1827.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1827.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1827.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1827.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -22286,8 +22286,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2378.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2378.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2378.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2378.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -22306,8 +22306,8 @@
         "pips": 2,
         "faction": 5,
         "factions": [11],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2270.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2270.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2270.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2270.webp?version=7",
         "keywords": null
       },
       {
@@ -22316,8 +22316,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/3087.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/3087.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/3087.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/3087.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -22332,8 +22332,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19764.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19764.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19764.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19764.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -22360,8 +22360,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/787.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/787.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/787.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/787.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -22384,8 +22384,8 @@
         "pips": 4,
         "faction": 3,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/8.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/8.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/8.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/8.webp?version=7",
         "keywords": null
       },
       {
@@ -22394,8 +22394,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/31.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/31.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/31.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/31.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -22410,8 +22410,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1825.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1825.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1825.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1825.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -22426,8 +22426,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/60.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/60.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/60.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/60.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -22442,8 +22442,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/30.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/30.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/30.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/30.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -22458,8 +22458,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/10.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/10.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/10.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/10.webp?version=7",
         "keywords": [201, 202],
         "unlockedBy": [
           {
@@ -22474,8 +22474,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/3051.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/3051.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/3051.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/3051.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -22494,8 +22494,8 @@
         "pips": 2,
         "faction": null,
         "factions": [18],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6350.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6350.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6350.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6350.webp?version=7",
         "keywords": [33]
       },
       {
@@ -22504,8 +22504,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/540.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/540.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/540.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/540.webp?version=7",
         "keywords": [3],
         "unlockedBy": [
           {
@@ -22528,8 +22528,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/34.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/34.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/34.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/34.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -22552,8 +22552,8 @@
         "pips": 2,
         "faction": 4,
         "factions": [16],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2136.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2136.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2136.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2136.webp?version=7",
         "keywords": null
       },
       {
@@ -22562,8 +22562,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9459.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9459.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9459.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9459.webp?version=7",
         "keywords": [40],
         "unlockedBy": [
           {
@@ -22578,8 +22578,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2377.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2377.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2377.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2377.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -22598,12 +22598,28 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/4122.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/4122.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/4122.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/4122.webp?version=7",
         "keywords": [51],
         "unlockedBy": [
           {
             "id": 11258,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 100,
+        "name": "Ace Up His Sleeve",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/100.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/100.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 80,
             "propertyName": "units"
           }
         ]
@@ -22614,8 +22630,8 @@
         "pips": 2,
         "faction": null,
         "factions": [19],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/8113.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/8113.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/8113.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/8113.webp?version=7",
         "keywords": [27]
       },
       {
@@ -22624,8 +22640,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9458.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9458.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9458.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9458.webp?version=7",
         "keywords": [42],
         "unlockedBy": [
           {
@@ -22640,12 +22656,32 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/257.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/257.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/257.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/257.webp?version=7",
         "keywords": [92, 51],
         "unlockedBy": [
           {
             "id": 764,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 90,
+        "name": "At Last",
+        "pips": 3,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/90.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/90.webp?version=7",
+        "keywords": [70],
+        "unlockedBy": [
+          {
+            "id": 74,
+            "propertyName": "units"
+          },
+          {
+            "id": 4551,
             "propertyName": "units"
           }
         ]
@@ -22656,8 +22692,8 @@
         "pips": 2,
         "faction": 3,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/3.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/3.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/3.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/3.webp?version=7",
         "keywords": null
       },
       {
@@ -22666,8 +22702,8 @@
         "pips": 1,
         "faction": null,
         "factions": [19],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/8112.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/8112.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/8112.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/8112.webp?version=7",
         "keywords": [115]
       },
       {
@@ -22676,8 +22712,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2376.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2376.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2376.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2376.webp?version=7",
         "keywords": [177, 202, 189],
         "unlockedBy": [
           {
@@ -22696,8 +22732,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16619.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16619.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16619.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16619.webp?version=7",
         "keywords": [2],
         "unlockedBy": [
           {
@@ -22712,8 +22748,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16620.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16620.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16620.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16620.webp?version=7",
         "keywords": [13, 40],
         "unlockedBy": [
           {
@@ -22728,8 +22764,8 @@
         "pips": 1,
         "faction": 4,
         "factions": [4, 21, 12, 16],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16622.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16622.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16622.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16622.webp?version=7",
         "keywords": null
       },
       {
@@ -22738,8 +22774,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16624.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16624.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16624.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16624.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -22754,8 +22790,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/14378.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/14378.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/14378.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/14378.webp?version=7",
         "keywords": [6],
         "unlockedBy": [
           {
@@ -22770,8 +22806,8 @@
         "pips": 2,
         "faction": 4,
         "factions": [16],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/14377.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/14377.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/14377.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/14377.webp?version=7",
         "keywords": null
       },
       {
@@ -22780,8 +22816,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/104.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/104.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/104.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/104.webp?version=7",
         "keywords": [187],
         "unlockedBy": [
           {
@@ -22800,8 +22836,8 @@
         "pips": 3,
         "faction": null,
         "factions": [19],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/8114.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/8114.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/8114.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/8114.webp?version=7",
         "keywords": null
       },
       {
@@ -22810,8 +22846,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6508.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6508.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6508.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6508.webp?version=7",
         "keywords": [50],
         "unlockedBy": [
           {
@@ -22826,8 +22862,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/7330.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/7330.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/7330.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/7330.webp?version=7",
         "keywords": [194, 152],
         "unlockedBy": [
           {
@@ -22842,8 +22878,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/7327.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/7327.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/7327.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/7327.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -22858,8 +22894,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/17863.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/17863.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/17863.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/17863.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -22874,8 +22910,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/17864.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/17864.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/17864.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/17864.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -22890,8 +22926,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/17862.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/17862.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/17862.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/17862.webp?version=7",
         "keywords": [115, 6],
         "unlockedBy": [
           {
@@ -22906,8 +22942,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/17861.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/17861.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/17861.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/17861.webp?version=7",
         "keywords": [187],
         "unlockedBy": [
           {
@@ -22922,8 +22958,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/17928.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/17928.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/17928.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/17928.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -22942,8 +22978,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/17929.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/17929.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/17929.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/17929.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -22962,8 +22998,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/17930.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/17930.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/17930.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/17930.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -22982,8 +23018,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/17931.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/17931.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/17931.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/17931.webp?version=7",
         "keywords": [115],
         "unlockedBy": [
           {
@@ -23002,8 +23038,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18067.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18067.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18067.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18067.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -23022,8 +23058,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18068.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18068.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18068.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18068.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -23042,8 +23078,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18069.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18069.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18069.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18069.webp?version=7",
         "keywords": [18],
         "unlockedBy": [
           {
@@ -23062,8 +23098,8 @@
         "pips": 3,
         "faction": null,
         "factions": [12],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18222.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18222.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18222.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18222.webp?version=7",
         "keywords": null
       },
       {
@@ -23072,8 +23108,8 @@
         "pips": 2,
         "faction": null,
         "factions": [12],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18221.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18221.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18221.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18221.webp?version=7",
         "keywords": [110]
       },
       {
@@ -23082,8 +23118,8 @@
         "pips": 1,
         "faction": null,
         "factions": [12],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18220.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18220.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18220.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18220.webp?version=7",
         "keywords": [191, 14, 37]
       },
       {
@@ -23092,8 +23128,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18310.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18310.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18310.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18310.webp?version=7",
         "keywords": [191, 115],
         "unlockedBy": [
           {
@@ -23108,8 +23144,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18309.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18309.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18309.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18309.webp?version=7",
         "keywords": [191, 144],
         "unlockedBy": [
           {
@@ -23124,8 +23160,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/13729.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/13729.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/13729.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/13729.webp?version=7",
         "keywords": [18, 75, 62, 6, 187],
         "unlockedBy": [
           {
@@ -23144,8 +23180,8 @@
         "pips": 3,
         "faction": 1,
         "factions": [1, 13, 18],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18903.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18903.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18903.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18903.webp?version=7",
         "keywords": null
       },
       {
@@ -23154,8 +23190,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18898.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18898.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18898.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18898.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -23170,8 +23206,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18899.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18899.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18899.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18899.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -23186,8 +23222,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18900.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18900.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18900.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18900.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -23202,8 +23238,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18901.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18901.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18901.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18901.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -23218,8 +23254,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18906.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18906.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18906.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18906.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -23242,8 +23278,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18905.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18905.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18905.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18905.webp?version=7",
         "keywords": [194, 153, 154, 27],
         "unlockedBy": [
           {
@@ -23258,8 +23294,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18902.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18902.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18902.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18902.webp?version=7",
         "keywords": [191, 23, 74],
         "unlockedBy": [
           {
@@ -23274,8 +23310,8 @@
         "pips": 3,
         "faction": 4,
         "factions": [4, 21, 12, 16],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/97.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/97.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/97.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/97.webp?version=7",
         "keywords": null
       },
       {
@@ -23284,8 +23320,8 @@
         "pips": 1,
         "faction": 5,
         "factions": [5, 11, 15, 20],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19076.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19076.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19076.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19076.webp?version=7",
         "keywords": null
       },
       {
@@ -23294,8 +23330,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19074.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19074.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19074.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19074.webp?version=7",
         "keywords": [13, 40],
         "unlockedBy": [
           {
@@ -23322,8 +23358,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19079.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19079.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19079.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19079.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -23338,8 +23374,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19080.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19080.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19080.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19080.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -23354,8 +23390,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19081.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19081.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19081.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19081.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -23370,8 +23406,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19077.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19077.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19077.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19077.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -23386,8 +23422,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19075.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19075.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19075.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19075.webp?version=7",
         "keywords": [92, 7],
         "unlockedBy": [
           {
@@ -23406,8 +23442,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19078.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19078.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19078.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19078.webp?version=7",
         "keywords": [125],
         "unlockedBy": [
           {
@@ -23422,8 +23458,8 @@
         "pips": 4,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19316.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19316.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19316.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19316.webp?version=7",
         "keywords": null,
         "campaigns": [
           "tours-of-duty"
@@ -23435,8 +23471,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19317.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19317.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19317.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19317.webp?version=7",
         "keywords": null,
         "campaigns": [
           "tours-of-duty"
@@ -23448,8 +23484,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19318.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19318.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19318.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19318.webp?version=7",
         "keywords": null,
         "campaigns": [
           "tours-of-duty"
@@ -23461,8 +23497,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19319.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19319.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19319.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19319.webp?version=7",
         "keywords": [51],
         "campaigns": [
           "tours-of-duty"
@@ -23474,8 +23510,8 @@
         "pips": 1,
         "faction": null,
         "factions": [14],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19405.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19405.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19405.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19405.webp?version=7",
         "keywords": null
       },
       {
@@ -23484,8 +23520,8 @@
         "pips": 2,
         "faction": null,
         "factions": [14],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19406.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19406.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19406.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19406.webp?version=7",
         "keywords": null
       },
       {
@@ -23494,8 +23530,8 @@
         "pips": 3,
         "faction": null,
         "factions": [14],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19407.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19407.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19407.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19407.webp?version=7",
         "keywords": [225, 9, 7]
       },
       {
@@ -23504,8 +23540,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/99.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/99.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/99.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/99.webp?version=7",
         "keywords": [163],
         "unlockedBy": [
           {
@@ -23524,8 +23560,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19485.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19485.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19485.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19485.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -23540,8 +23576,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19486.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19486.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19486.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19486.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -23556,8 +23592,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19487.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19487.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19487.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19487.webp?version=7",
         "keywords": [93, 51, 207],
         "unlockedBy": [
           {
@@ -23572,8 +23608,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19483.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19483.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19483.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19483.webp?version=7",
         "keywords": [49, 189],
         "unlockedBy": [
           {
@@ -23588,8 +23624,8 @@
         "pips": 3,
         "faction": null,
         "factions": [8],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19519.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19519.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19519.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19519.webp?version=7",
         "keywords": [2, 189]
       },
       {
@@ -23598,8 +23634,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19516.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19516.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19516.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19516.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -23614,8 +23650,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19513.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19513.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19513.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19513.webp?version=7",
         "keywords": [72],
         "unlockedBy": [
           {
@@ -23625,24 +23661,24 @@
         ]
       },
       {
-        "id": 19518,
-        "name": "We Protect Our Own",
-        "pips": 3,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19518.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19518.webp?version=3",
-        "keywords": null
-      },
-      {
         "id": 19510,
         "name": "Aerial Assault",
         "pips": 2,
         "faction": null,
         "factions": [8],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19510.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19510.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19510.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19510.webp?version=7",
         "keywords": [123]
+      },
+      {
+        "id": 19518,
+        "name": "We Protect Our Own",
+        "pips": 3,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19518.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19518.webp?version=7",
+        "keywords": null
       },
       {
         "id": 19511,
@@ -23650,8 +23686,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19511.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19511.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19511.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19511.webp?version=7",
         "keywords": [62, 92]
       },
       {
@@ -23660,8 +23696,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19512.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19512.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19512.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19512.webp?version=7",
         "keywords": [183]
       },
       {
@@ -23670,8 +23706,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19515.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19515.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19515.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19515.webp?version=7",
         "keywords": [191, 14]
       },
       {
@@ -23680,8 +23716,8 @@
         "pips": 1,
         "faction": null,
         "factions": [8],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19517.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19517.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19517.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19517.webp?version=7",
         "keywords": [6]
       },
       {
@@ -23690,8 +23726,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19514.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19514.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19514.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19514.webp?version=7",
         "keywords": [23],
         "unlockedBy": [
           {
@@ -23706,8 +23742,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19530.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19530.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19530.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19530.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -23722,8 +23758,8 @@
         "pips": 3,
         "faction": 4,
         "factions": [4, 21, 12, 16],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16621.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16621.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16621.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16621.webp?version=7",
         "keywords": [115]
       },
       {
@@ -23732,8 +23768,8 @@
         "pips": 2,
         "faction": 4,
         "factions": [4, 21, 12, 16],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16623.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16623.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16623.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16623.webp?version=7",
         "keywords": [50]
       },
       {
@@ -23742,8 +23778,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16618.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16618.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16618.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16618.webp?version=7",
         "keywords": [14, 98],
         "unlockedBy": [
           {
@@ -23758,8 +23794,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/70.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/70.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/70.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/70.webp?version=7",
         "keywords": [177, 186, 187],
         "unlockedBy": [
           {
@@ -23778,8 +23814,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/67.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/67.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/67.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/67.webp?version=7",
         "keywords": [53, 51, 189],
         "unlockedBy": [
           {
@@ -23794,8 +23830,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/51.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/51.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/51.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/51.webp?version=7",
         "keywords": [7],
         "unlockedBy": [
           {
@@ -23810,8 +23846,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16485.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16485.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16485.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16485.webp?version=7",
         "keywords": [136],
         "unlockedBy": [
           {
@@ -23826,8 +23862,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/50.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/50.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/50.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/50.webp?version=7",
         "keywords": [146],
         "unlockedBy": [
           {
@@ -23846,8 +23882,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/47.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/47.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/47.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/47.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -23866,8 +23902,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/3052.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/3052.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/3052.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/3052.webp?version=7",
         "keywords": [51],
         "unlockedBy": [
           {
@@ -23886,8 +23922,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/4120.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/4120.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/4120.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/4120.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -23902,8 +23938,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6131.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6131.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6131.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6131.webp?version=7",
         "keywords": [187, 202],
         "unlockedBy": [
           {
@@ -23918,8 +23954,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6509.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6509.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6509.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6509.webp?version=7",
         "keywords": [152],
         "unlockedBy": [
           {
@@ -23934,8 +23970,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6510.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6510.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6510.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6510.webp?version=7",
         "keywords": [23],
         "unlockedBy": [
           {
@@ -23950,8 +23986,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18904.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18904.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18904.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18904.webp?version=7",
         "keywords": [110],
         "unlockedBy": [
           {
@@ -23966,8 +24002,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19484.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19484.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19484.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19484.webp?version=7",
         "keywords": [121],
         "unlockedBy": [
           {
@@ -23982,8 +24018,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/3050.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/3050.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/3050.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/3050.webp?version=7",
         "keywords": [3],
         "unlockedBy": [
           {
@@ -24006,8 +24042,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19531.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19531.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19531.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19531.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -24022,8 +24058,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/80.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/80.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/80.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/80.webp?version=7",
         "keywords": [23],
         "unlockedBy": [
           {
@@ -24042,8 +24078,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/81.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/81.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/81.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/81.webp?version=7",
         "keywords": [13],
         "unlockedBy": [
           {
@@ -24062,8 +24098,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -24078,8 +24114,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/43.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/43.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/43.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/43.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -24094,8 +24130,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/41.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/41.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/41.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/41.webp?version=7",
         "keywords": [6],
         "unlockedBy": [
           {
@@ -24114,8 +24150,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -24130,8 +24166,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/42.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/42.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/42.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/42.webp?version=7",
         "keywords": [8],
         "unlockedBy": [
           {
@@ -24150,8 +24186,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/82.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/82.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/82.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/82.webp?version=7",
         "keywords": [177, 184, 187],
         "unlockedBy": [
           {
@@ -24166,8 +24202,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/75.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/75.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/75.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/75.webp?version=7",
         "keywords": [191, 177, 178, 202, 187],
         "unlockedBy": [
           {
@@ -24186,8 +24222,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/29.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/29.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/29.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/29.webp?version=7",
         "keywords": [177, 202],
         "unlockedBy": [
           {
@@ -24210,8 +24246,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/74.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/74.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/74.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/74.webp?version=7",
         "keywords": [8],
         "unlockedBy": [
           {
@@ -24226,8 +24262,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/91.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/91.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/91.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/91.webp?version=7",
         "keywords": [191, 14],
         "unlockedBy": [
           {
@@ -24241,29 +24277,13 @@
         ]
       },
       {
-        "id": 100,
-        "name": "Ace Up His Sleeve",
-        "pips": 2,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/100.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/100.webp?version=3",
-        "keywords": null,
-        "unlockedBy": [
-          {
-            "id": 80,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 73,
         "name": "Crack Shot",
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/73.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/73.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/73.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/73.webp?version=7",
         "keywords": [10],
         "unlockedBy": [
           {
@@ -24282,8 +24302,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/66.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/66.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/66.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/66.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -24298,8 +24318,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/68.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/68.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/68.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/68.webp?version=7",
         "keywords": [148],
         "unlockedBy": [
           {
@@ -24318,8 +24338,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/15.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/15.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/15.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/15.webp?version=7",
         "keywords": [7],
         "unlockedBy": [
           {
@@ -24334,8 +24354,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/48.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/48.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/48.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/48.webp?version=7",
         "keywords": [194, 175, 180, 174, 177, 178],
         "unlockedBy": [
           {
@@ -24354,8 +24374,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/55.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/55.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/55.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/55.webp?version=7",
         "keywords": [194, 75, 191, 14],
         "unlockedBy": [
           {
@@ -24374,8 +24394,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/62.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/62.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/62.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/62.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -24398,8 +24418,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -24418,8 +24438,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/64.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/64.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/64.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/64.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -24434,8 +24454,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/12.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/12.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/12.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/12.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -24449,33 +24469,13 @@
         ]
       },
       {
-        "id": 90,
-        "name": "At Last",
-        "pips": 3,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/90.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/90.webp?version=3",
-        "keywords": [70],
-        "unlockedBy": [
-          {
-            "id": 74,
-            "propertyName": "units"
-          },
-          {
-            "id": 4551,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 24,
         "name": "And Now You Will Die",
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/24.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/24.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/24.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/24.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -24490,8 +24490,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/63.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/63.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/63.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/63.webp?version=7",
         "keywords": [27, 1],
         "unlockedBy": [
           {
@@ -24510,8 +24510,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/79.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/79.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/79.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/79.webp?version=7",
         "keywords": [40],
         "unlockedBy": [
           {
@@ -24530,8 +24530,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/59.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/59.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/59.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/59.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -24550,8 +24550,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/65.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/65.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/65.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/65.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -24566,8 +24566,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -24582,8 +24582,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/20.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/20.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/20.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/20.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -24606,8 +24606,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/786.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/786.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/786.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/786.webp?version=7",
         "keywords": [191, 144],
         "unlockedBy": [
           {
@@ -24630,8 +24630,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1961.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1961.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1961.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1961.webp?version=7",
         "keywords": [92],
         "unlockedBy": [
           {
@@ -24650,8 +24650,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/258.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/258.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/258.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/258.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -24666,8 +24666,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/785.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/785.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/785.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/785.webp?version=7",
         "keywords": [27, 26],
         "unlockedBy": [
           {
@@ -24690,8 +24690,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/256.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/256.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/256.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/256.webp?version=7",
         "keywords": [1, 2, 27],
         "unlockedBy": [
           {
@@ -24706,8 +24706,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/92.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/92.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/92.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/92.webp?version=7",
         "keywords": [27],
         "unlockedBy": [
           {
@@ -24726,8 +24726,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/77.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/77.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/77.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/77.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -24746,8 +24746,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/85.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/85.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/85.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/85.webp?version=7",
         "keywords": [11],
         "unlockedBy": [
           {
@@ -24766,8 +24766,8 @@
         "pips": 3,
         "faction": null,
         "factions": [18],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6351.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6351.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6351.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6351.webp?version=7",
         "keywords": [42, 51]
       },
       {
@@ -24776,8 +24776,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/49.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/49.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/49.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/49.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -24792,8 +24792,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/53.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/53.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/53.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/53.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -24812,8 +24812,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/56.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/56.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/56.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/56.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -24828,8 +24828,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/14.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/14.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/14.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/14.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -24848,8 +24848,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/89.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/89.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/89.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/89.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -24859,24 +24859,24 @@
         ]
       },
       {
-        "id": 6349,
-        "name": "Log Traps",
-        "pips": 1,
-        "faction": null,
-        "factions": [18],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6349.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6349.webp?version=3",
-        "keywords": [202, 207]
-      },
-      {
         "id": 9,
         "name": "Assault",
         "pips": 3,
         "faction": 3,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9.webp?version=7",
         "keywords": null
+      },
+      {
+        "id": 6349,
+        "name": "Log Traps",
+        "pips": 1,
+        "faction": null,
+        "factions": [18],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6349.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6349.webp?version=7",
+        "keywords": [202, 207]
       },
       {
         "id": 76,
@@ -24884,8 +24884,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/76.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/76.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/76.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/76.webp?version=7",
         "keywords": [13],
         "unlockedBy": [
           {
@@ -24900,8 +24900,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/25.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/25.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/25.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/25.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -24916,8 +24916,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1901.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1901.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1901.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1901.webp?version=7",
         "keywords": null
       },
       {
@@ -24926,8 +24926,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/61.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/61.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/61.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/61.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -24946,8 +24946,8 @@
         "pips": 2,
         "faction": 1,
         "factions": [1, 13, 18],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/36.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/36.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/36.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/36.webp?version=7",
         "keywords": [6]
       },
       {
@@ -24956,8 +24956,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/40.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/40.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/40.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/40.webp?version=7",
         "keywords": [6, 152],
         "unlockedBy": [
           {
@@ -24976,28 +24976,12 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/78.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/78.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/78.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/78.webp?version=7",
         "keywords": [194, 31, 6, 191, 14],
         "unlockedBy": [
           {
             "id": 60,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 88,
-        "name": "This Is Where the Fun Begins",
-        "pips": 1,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/88.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/88.webp?version=3",
-        "keywords": [1, 191, 141],
-        "unlockedBy": [
-          {
-            "id": 73,
             "propertyName": "units"
           }
         ]
@@ -25008,9 +24992,25 @@
         "pips": 2,
         "faction": 4,
         "factions": [4, 21, 12, 16],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/98.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/98.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/98.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/98.webp?version=7",
         "keywords": [176, 201]
+      },
+      {
+        "id": 88,
+        "name": "This Is Where the Fun Begins",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/88.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/88.webp?version=7",
+        "keywords": [1, 191, 141],
+        "unlockedBy": [
+          {
+            "id": 73,
+            "propertyName": "units"
+          }
+        ]
       },
       {
         "id": 27,
@@ -25018,8 +25018,8 @@
         "pips": 1,
         "faction": 2,
         "factions": [2, 10, 19, 17, 7],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/27.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/27.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/27.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/27.webp?version=7",
         "keywords": null
       },
       {
@@ -25028,8 +25028,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/4.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/4.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/4.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/4.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -25048,8 +25048,8 @@
         "pips": 1,
         "faction": 5,
         "factions": [5, 11, 15, 20],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/96.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/96.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/96.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/96.webp?version=7",
         "keywords": null
       },
       {
@@ -25058,8 +25058,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1826.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1826.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1826.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1826.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -25074,8 +25074,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/84.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/84.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/84.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/84.webp?version=7",
         "keywords": [72, 18],
         "unlockedBy": [
           {
@@ -25090,8 +25090,8 @@
         "pips": 2,
         "faction": 1,
         "factions": [13],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2274.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2274.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2274.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2274.webp?version=7",
         "keywords": null
       },
       {
@@ -25100,9 +25100,35 @@
         "pips": 2,
         "faction": 5,
         "factions": [5, 11, 15, 20],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/95.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/95.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/95.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/95.webp?version=7",
         "keywords": [201, 187]
+      },
+      {
+        "id": 44,
+        "name": "Annihilation Looms",
+        "pips": 3,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/44.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/44.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 29,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 6348,
+        "name": "Arboreal Assault",
+        "pips": 1,
+        "faction": null,
+        "factions": [18],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6348.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6348.webp?version=7",
+        "keywords": [187, 200]
       },
       {
         "id": 33,
@@ -25110,8 +25136,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/33.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/33.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/33.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/33.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -25129,29 +25155,13 @@
         ]
       },
       {
-        "id": 44,
-        "name": "Annihilation Looms",
-        "pips": 3,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/44.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/44.webp?version=3",
-        "keywords": null,
-        "unlockedBy": [
-          {
-            "id": 29,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 39,
         "name": "Complete the Mission",
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/39.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/39.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/39.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/39.webp?version=7",
         "keywords": [9],
         "unlockedBy": [
           {
@@ -25161,24 +25171,30 @@
         ]
       },
       {
-        "id": 6348,
-        "name": "Arboreal Assault",
-        "pips": 1,
-        "faction": null,
-        "factions": [18],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6348.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6348.webp?version=3",
-        "keywords": [187, 200]
-      },
-      {
         "id": 2272,
         "name": "Hold at Any Cost",
         "pips": 3,
         "faction": 1,
         "factions": [13],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2272.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2272.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2272.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2272.webp?version=7",
         "keywords": null
+      },
+      {
+        "id": 86,
+        "name": "Aggressive Negotiations",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/86.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/86.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 60,
+            "propertyName": "units"
+          }
+        ]
       },
       {
         "id": 6,
@@ -25186,8 +25202,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -25210,8 +25226,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/11.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/11.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/11.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/11.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -25229,29 +25245,13 @@
         ]
       },
       {
-        "id": 86,
-        "name": "Aggressive Negotiations",
-        "pips": 2,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/86.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/86.webp?version=3",
-        "keywords": null,
-        "unlockedBy": [
-          {
-            "id": 60,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 45,
         "name": "Reptilian Rampage",
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/45.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/45.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/45.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/45.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -25270,8 +25270,8 @@
         "pips": 1,
         "faction": 3,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/7.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/7.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/7.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/7.webp?version=7",
         "keywords": null
       },
       {
@@ -25280,8 +25280,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/32.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/32.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/32.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/32.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -25296,8 +25296,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/83.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/83.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/83.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/83.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -25312,8 +25312,8 @@
         "pips": 3,
         "faction": 4,
         "factions": [16],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2135.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2135.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2135.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2135.webp?version=7",
         "keywords": [194, 40]
       },
       {
@@ -25322,8 +25322,8 @@
         "pips": 2,
         "faction": 2,
         "factions": [17],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2276.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2276.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2276.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2276.webp?version=7",
         "keywords": [176, 177, 178, 201, 187]
       },
       {
@@ -25332,8 +25332,8 @@
         "pips": 1,
         "faction": 1,
         "factions": [1, 13, 18],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/26.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/26.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/26.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/26.webp?version=7",
         "keywords": null
       },
       {
@@ -25342,8 +25342,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/46.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/46.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/46.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/46.webp?version=7",
         "keywords": [175, 180, 177, 178],
         "unlockedBy": [
           {
@@ -25362,8 +25362,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/52.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/52.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/52.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/52.webp?version=7",
         "keywords": [27, 187, 189],
         "unlockedBy": [
           {
@@ -25382,8 +25382,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/103.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/103.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/103.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/103.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -25402,8 +25402,8 @@
         "pips": 3,
         "faction": 5,
         "factions": [5, 11, 15, 20],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/94.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/94.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/94.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/94.webp?version=7",
         "keywords": null
       },
       {
@@ -25412,8 +25412,8 @@
         "pips": 1,
         "faction": 2,
         "factions": [17],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2275.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2275.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2275.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2275.webp?version=7",
         "keywords": null
       },
       {
@@ -25422,8 +25422,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/23.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/23.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/23.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/23.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -25442,8 +25442,8 @@
         "pips": 3,
         "faction": 2,
         "factions": [17],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2277.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2277.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2277.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2277.webp?version=7",
         "keywords": [71, 187]
       },
       {
@@ -25452,8 +25452,8 @@
         "pips": 1,
         "faction": 5,
         "factions": [11],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2269.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2269.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2269.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2269.webp?version=7",
         "keywords": null
       },
       {
@@ -25462,8 +25462,8 @@
         "pips": 1,
         "faction": 1,
         "factions": [13],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2273.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2273.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2273.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2273.webp?version=7",
         "keywords": null
       },
       {
@@ -25472,8 +25472,8 @@
         "pips": 3,
         "faction": 5,
         "factions": [11],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2271.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2271.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2271.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2271.webp?version=7",
         "keywords": null
       },
       {
@@ -25482,8 +25482,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/3085.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/3085.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/3085.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/3085.webp?version=7",
         "keywords": [115, 72],
         "unlockedBy": [
           {
@@ -25497,33 +25497,33 @@
         ]
       },
       {
-        "id": 3086,
-        "name": "Anti-Capture Protocols",
-        "pips": 3,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/3086.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/3086.webp?version=3",
-        "keywords": [185],
-        "unlockedBy": [
-          {
-            "id": 6178,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 3084,
         "name": "Focused on the Kill",
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/3084.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/3084.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/3084.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/3084.webp?version=7",
         "keywords": [194],
         "unlockedBy": [
           {
             "id": 6177,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 3086,
+        "name": "Anti-Capture Protocols",
+        "pips": 3,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/3086.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/3086.webp?version=7",
+        "keywords": [185],
+        "unlockedBy": [
+          {
+            "id": 6178,
             "propertyName": "units"
           }
         ]
@@ -25534,8 +25534,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/4121.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/4121.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/4121.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/4121.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -25550,8 +25550,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/5183.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/5183.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/5183.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/5183.webp?version=7",
         "keywords": [178, 186, 187],
         "unlockedBy": [
           {
@@ -25566,8 +25566,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/5184.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/5184.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/5184.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/5184.webp?version=7",
         "keywords": [70],
         "unlockedBy": [
           {
@@ -25582,8 +25582,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/5185.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/5185.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/5185.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/5185.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -25598,8 +25598,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/5182.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/5182.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/5182.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/5182.webp?version=7",
         "keywords": [191, 194, 68, 144, 115, 89, 92],
         "unlockedBy": [
           {
@@ -25614,8 +25614,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/7328.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/7328.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/7328.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/7328.webp?version=7",
         "keywords": [92],
         "unlockedBy": [
           {
@@ -25630,8 +25630,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/7326.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/7326.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/7326.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/7326.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -25646,8 +25646,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9461.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9461.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9461.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9461.webp?version=7",
         "keywords": [115],
         "unlockedBy": [
           {
@@ -25662,8 +25662,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6511.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6511.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6511.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6511.webp?version=7",
         "keywords": [6],
         "unlockedBy": [
           {
@@ -25678,8 +25678,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/28.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/28.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/28.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/28.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -25702,8 +25702,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6130.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6130.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6130.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6130.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -25718,8 +25718,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6129.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6129.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6129.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6129.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -25734,8 +25734,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/8115.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/8115.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/8115.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/8115.webp?version=7",
         "keywords": [18, 187],
         "unlockedBy": [
           {
@@ -25750,8 +25750,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/8116.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/8116.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/8116.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/8116.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -25766,8 +25766,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/8117.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/8117.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/8117.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/8117.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -25782,8 +25782,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9451.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9451.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9451.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9451.webp?version=7",
         "keywords": [1, 50, 115],
         "unlockedBy": [
           {
@@ -25798,8 +25798,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9453.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9453.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9453.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9453.webp?version=7",
         "keywords": [164, 210],
         "unlockedBy": [
           {
@@ -25814,8 +25814,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9452.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9452.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9452.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9452.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -25830,8 +25830,8 @@
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9454.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9454.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9454.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9454.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -25846,8 +25846,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9460.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9460.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9460.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9460.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -25862,8 +25862,8 @@
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9457.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9457.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9457.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9457.webp?version=7",
         "keywords": [194],
         "unlockedBy": [
           {
@@ -25878,8 +25878,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2375.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2375.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2375.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2375.webp?version=7",
         "keywords": [17],
         "unlockedBy": [
           {
@@ -25898,8 +25898,8 @@
         "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/13.webp?version=3",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/13.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/13.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/13.webp?version=7",
         "keywords": [201],
         "unlockedBy": [
           {
