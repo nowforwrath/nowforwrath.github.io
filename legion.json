@@ -17356,7 +17356,13 @@
         "ttsName": "Kraken Super Tactical Droid",
         "unavailableWith": [
           "Kraken"
-        ]
+        ],
+        "tierCounting": {
+          "exempt": {
+            "whenArmyIncludes": "35770",
+            "perSourceUnit": 1
+          }
+        }
       },
       {
         "name": "Kalani",
@@ -17389,13 +17395,7 @@
         "ttsName": "Kalani Super Tactical Droid",
         "unavailableWith": [
           "Kalani"
-        ],
-        "tierCounting": {
-          "exempt": {
-            "whenArmyIncludes": "35770",
-            "perSourceUnit": 1
-          }
-        }
+        ]
       },
       {
         "name": "Raddaugh Gnasp Fluttercraft",
@@ -21748,7 +21748,7 @@
         "keywords": [164, 162, 159, 140, 201, 202],
         "figures": 1,
         "id": "35770",
-        "unlimited": true,
+        "unlimited": false,
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/units-new/portraits/35770.webp",
         "quantityLimitedBy": [],
         "faction": 5,
@@ -21757,6 +21757,9 @@
         "courage": 2,
         "speed": 2,
         "ttsName": "Admiral Trench Fleet Commander",
+        "unavailableWith": [
+          "Admiral Trench"
+        ],
         "requiredChildren": [
           {
             "id": 23148,
