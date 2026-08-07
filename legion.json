@@ -5062,6 +5062,20 @@
         "availableIn": [52]
       },
       {
+        "id": 23146,
+        "name": "B2-HA Rocket Droid",
+        "points": 30,
+        "type": 4,
+        "keywords": [190, 177, 202],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/23146.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/23146.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": true,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [35769]
+      },
+      {
         "id": 118,
         "name": "B2 Super Battle Droid",
         "points": 18,
@@ -5096,6 +5110,28 @@
         "exhausts": null,
         "unique": false,
         "availableIn": [52],
+        "modifiedPointsWith": [
+          {
+            "id": "Children of the Watch",
+            "property": "options",
+            "modifier": -5,
+            "in": "33788"
+          }
+        ]
+      },
+      {
+        "id": 23144,
+        "name": "B2 Super Rocket Battle Droid",
+        "points": 21,
+        "type": 1,
+        "keywords": [],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/23144.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/23144.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [35769],
         "modifiedPointsWith": [
           {
             "id": "Children of the Watch",
@@ -5599,6 +5635,23 @@
           "Cassian Andor"
         ],
         "chooseOneKey": "leader"
+      },
+      {
+        "id": 23148,
+        "name": "Caught in a Web",
+        "points": 0,
+        "type": 9,
+        "keywords": [],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/23148.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/23148.webp?version=3",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [35770],
+        "unavailableWith": [
+          "Caught in a Web"
+        ]
       },
       {
         "id": 22599,
@@ -6131,21 +6184,6 @@
         "availableIn": [36]
       },
       {
-        "id": 20272,
-        "name": "Combat Armor",
-        "points": 15,
-        "type": 2,
-        "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20272.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20272.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [31667, 31668],
-        "ttsName": "Combat Armor (Empire)"
-      },
-      {
         "id": 20282,
         "name": "Combat Armor",
         "points": 15,
@@ -6159,6 +6197,21 @@
         "unique": null,
         "availableIn": [31669, 31670],
         "ttsName": "Combat Armor (Rebel)"
+      },
+      {
+        "id": 20272,
+        "name": "Combat Armor",
+        "points": 15,
+        "type": 2,
+        "keywords": [],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20272.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20272.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [31667, 31668],
+        "ttsName": "Combat Armor (Empire)"
       },
       {
         "id": 22603,
@@ -6854,18 +6907,39 @@
         "unique": false
       },
       {
-        "id": 20697,
+        "id": 19830,
+        "name": "Dug In",
+        "points": 6,
+        "type": [10, 23],
+        "keywords": [],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/19830.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/19830.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": false,
+        "requiredProperties": [
+          [
+            {
+              "property": "unitType",
+              "value": 4
+            }
+          ]
+        ]
+      },
+      {
+        "id": 20319,
         "name": "Dug In",
         "points": 6,
         "type": 10,
         "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20697.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20697.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20319.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20319.webp?version=3",
         "limit": null,
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [31842, 31843]
+        "availableIn": [31669, 31670]
       },
       {
         "id": 19897,
@@ -6984,39 +7058,18 @@
         ]
       },
       {
-        "id": 20319,
+        "id": 20697,
         "name": "Dug In",
         "points": 6,
         "type": 10,
         "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20319.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20319.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20697.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20697.webp?version=3",
         "limit": null,
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [31669, 31670]
-      },
-      {
-        "id": 19830,
-        "name": "Dug In",
-        "points": 6,
-        "type": [10, 23],
-        "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/19830.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/19830.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": false,
-        "requiredProperties": [
-          [
-            {
-              "property": "unitType",
-              "value": 4
-            }
-          ]
-        ]
+        "availableIn": [31842, 31843]
       },
       {
         "id": 21987,
@@ -7968,20 +8021,6 @@
         ]
       },
       {
-        "id": 22419,
-        "name": "GALAAR-90 Sniper Rifle",
-        "points": 35,
-        "type": 4,
-        "keywords": [204],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22419.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22419.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [33772, 33773, 33796, 34890, 4767]
-      },
-      {
         "id": 22654,
         "name": "GALAAR-90 Sniper Rifle",
         "points": 5,
@@ -7995,6 +8034,20 @@
         "unique": null,
         "availableIn": [33789, 33787],
         "ttsName": "GALAAR-90 Sniper Rifle (Armament)"
+      },
+      {
+        "id": 22419,
+        "name": "GALAAR-90 Sniper Rifle",
+        "points": 35,
+        "type": 4,
+        "keywords": [204],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22419.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22419.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [33772, 33773, 33796, 34890, 4767]
       },
       {
         "id": 21339,
@@ -8584,7 +8637,103 @@
         "limit": null,
         "exhaustsPerTurn": null,
         "exhausts": true,
-        "unique": null
+        "unique": null,
+        "unavailableIn": [
+          [23656],
+          [32248],
+          [34881],
+          [34887],
+          [34890],
+          [34888],
+          [34889],
+          [34886],
+          [29671],
+          [19108],
+          [29931],
+          [25967],
+          [6376],
+          [33772],
+          [33777],
+          [33794],
+          [33771],
+          [33795],
+          [33797],
+          [28861],
+          [33790],
+          [33789],
+          [4767],
+          [33791],
+          [33773],
+          [25964],
+          [4891],
+          [13582],
+          [19109],
+          [11258],
+          [24084],
+          [5000],
+          [6176],
+          [15014],
+          [6179],
+          [32593],
+          [4],
+          [33],
+          [47],
+          [39],
+          [30],
+          [78],
+          [79],
+          [33770],
+          [41],
+          [33575],
+          [73],
+          [33776],
+          [31842],
+          [50],
+          [75],
+          [62],
+          [25980],
+          [45],
+          [32588],
+          [33787]
+        ],
+        "requiredProperties": [
+          [
+            {
+              "property": "unitType",
+              "value": 1
+            }
+          ],
+          [
+            {
+              "property": "unitType",
+              "value": 4
+            }
+          ],
+          [
+            {
+              "property": "unitType",
+              "value": 5
+            }
+          ],
+          [
+            {
+              "property": "unitType",
+              "value": 7
+            }
+          ],
+          [
+            {
+              "property": "unitType",
+              "value": 8
+            }
+          ],
+          [
+            {
+              "property": "unitType",
+              "value": 9
+            }
+          ]
+        ]
       },
       {
         "id": 107,
@@ -8838,20 +8987,6 @@
         ]
       },
       {
-        "id": 19896,
-        "name": "Imperial March",
-        "points": 6,
-        "type": 10,
-        "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/19896.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/19896.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": false,
-        "availableIn": [30, 17]
-      },
-      {
         "id": 19828,
         "name": "Imperial March",
         "points": 6,
@@ -8872,6 +9007,20 @@
           ]
         ],
         "requiresTier": [2]
+      },
+      {
+        "id": 19896,
+        "name": "Imperial March",
+        "points": 6,
+        "type": 10,
+        "keywords": [],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/19896.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/19896.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": false,
+        "availableIn": [30, 17]
       },
       {
         "id": 50,
@@ -9725,6 +9874,20 @@
         ]
       },
       {
+        "id": 23145,
+        "name": "Missile Pod Rocket Droid",
+        "points": 24,
+        "type": 4,
+        "keywords": [234, 184],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/23145.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/23145.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [35769]
+      },
+      {
         "id": 19826,
         "name": "Mission Objective",
         "points": 6,
@@ -9922,6 +10085,8 @@
           "33575",
           "33777",
           "33791",
+          "33792",
+          "33793",
           "33794"
         ]
       },
@@ -10880,6 +11045,28 @@
         "availableIn": [31669, 31670]
       },
       {
+        "id": 2718,
+        "name": "Rook Kast",
+        "points": 35,
+        "type": 4,
+        "keywords": [145, 192],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/2718.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/2718.webp?version=3",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [4767],
+        "unavailableWith": [
+          "Rook Kast",
+          {
+            "id": "22593",
+            "propertyName": "upgrades"
+          }
+        ],
+        "factions": [1, 2, 4, 5, 8, 9]
+      },
+      {
         "id": 22593,
         "name": "Rook Kast",
         "points": 25,
@@ -10914,28 +11101,6 @@
             "value": 1083
           }
         ]
-      },
-      {
-        "id": 2718,
-        "name": "Rook Kast",
-        "points": 35,
-        "type": 4,
-        "keywords": [145, 192],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/2718.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/2718.webp?version=3",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [4767],
-        "unavailableWith": [
-          "Rook Kast",
-          {
-            "id": "22593",
-            "propertyName": "upgrades"
-          }
-        ],
-        "factions": [1, 2, 4, 5, 8, 9]
       },
       {
         "id": 18477,
@@ -11852,6 +12017,8 @@
           "33575",
           "33777",
           "33791",
+          "33792",
+          "33793",
           "33794"
         ]
       },
@@ -11883,20 +12050,6 @@
         "availableIn": [31667, 31668]
       },
       {
-        "id": 2719,
-        "name": "Super Commando Gunslinger",
-        "points": 30,
-        "type": 4,
-        "keywords": [223],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/2719.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/2719.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": false,
-        "availableIn": [4767]
-      },
-      {
         "id": 22600,
         "name": "Super Commando Gunslinger",
         "points": 30,
@@ -11912,19 +12065,18 @@
         "ttsName": "Super Commando Gunslinger (Saxon)"
       },
       {
-        "id": 22601,
-        "name": "Super Commando Marksman",
+        "id": 2719,
+        "name": "Super Commando Gunslinger",
         "points": 30,
         "type": 4,
-        "keywords": [204],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22601.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22601.webp?version=3",
+        "keywords": [223],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/2719.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/2719.webp?version=3",
         "limit": null,
         "exhaustsPerTurn": null,
         "exhausts": null,
-        "unique": null,
-        "availableIn": [34890],
-        "ttsName": "Super Commando Marksman (Saxon)"
+        "unique": false,
+        "availableIn": [4767]
       },
       {
         "id": 2717,
@@ -11939,6 +12091,21 @@
         "exhausts": null,
         "unique": null,
         "availableIn": [4767]
+      },
+      {
+        "id": 22601,
+        "name": "Super Commando Marksman",
+        "points": 30,
+        "type": 4,
+        "keywords": [204],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22601.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22601.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [34890],
+        "ttsName": "Super Commando Marksman (Saxon)"
       },
       {
         "id": 22854,
@@ -12283,11 +12450,11 @@
         "unavailableWith": [
           "The Darksaber",
           {
-            "id": "6132",
+            "id": "71",
             "propertyName": "upgrades"
           },
           {
-            "id": "22611",
+            "id": "6132",
             "propertyName": "upgrades"
           },
           {
@@ -12295,118 +12462,11 @@
             "propertyName": "upgrades"
           },
           {
-            "id": "71",
+            "id": "22611",
             "propertyName": "upgrades"
           }
         ],
         "factions": [1, 2, 4, 5, 8, 9]
-      },
-      {
-        "id": 6132,
-        "name": "The Darksaber",
-        "points": 15,
-        "type": 12,
-        "keywords": [115, 4, 202, 207],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/6132.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/6132.webp?version=3",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [11258],
-        "ttsName": "The Darksaber (Gideon)",
-        "unavailableWith": [
-          "The Darksaber",
-          {
-            "id": "22610",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22611",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22612",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "71",
-            "propertyName": "upgrades"
-          }
-        ],
-        "factions": [1, 2, 4, 5, 8, 7]
-      },
-      {
-        "id": 22611,
-        "name": "The Darksaber",
-        "points": 10,
-        "type": 12,
-        "keywords": [4, 202, 207],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22611.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22611.webp?version=3",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [6179, 34881],
-        "ttsName": "The Darksaber (Din)",
-        "unavailableWith": [
-          "The Darksaber",
-          {
-            "id": "22610",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "6132",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22612",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "71",
-            "propertyName": "upgrades"
-          }
-        ],
-        "factions": [1, 2, 4, 5, 8, 9]
-      },
-      {
-        "id": 22612,
-        "name": "The Darksaber",
-        "points": 10,
-        "type": 12,
-        "keywords": [118, 4, 232],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22612.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22612.webp?version=3",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [33771],
-        "ttsName": "The Darksaber (Bo-Katan)",
-        "unavailableWith": [
-          "The Darksaber",
-          {
-            "id": "22610",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "6132",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22611",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "71",
-            "propertyName": "upgrades"
-          }
-        ],
-        "poolBonuses": [
-          "extraMercenary"
-        ]
       },
       {
         "id": 71,
@@ -12432,7 +12492,114 @@
             "propertyName": "upgrades"
           },
           {
+            "id": "22612",
+            "propertyName": "upgrades"
+          },
+          {
             "id": "22611",
+            "propertyName": "upgrades"
+          }
+        ],
+        "factions": [1, 2, 4, 5, 8]
+      },
+      {
+        "id": 6132,
+        "name": "The Darksaber",
+        "points": 15,
+        "type": 12,
+        "keywords": [115, 4, 202, 207],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/6132.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/6132.webp?version=3",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [11258],
+        "ttsName": "The Darksaber (Gideon)",
+        "unavailableWith": [
+          "The Darksaber",
+          {
+            "id": "22610",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "71",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22612",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22611",
+            "propertyName": "upgrades"
+          }
+        ],
+        "factions": [1, 2, 4, 5, 8, 7]
+      },
+      {
+        "id": 22612,
+        "name": "The Darksaber",
+        "points": 10,
+        "type": 12,
+        "keywords": [118, 4, 232],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22612.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22612.webp?version=3",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [33771],
+        "ttsName": "The Darksaber (Bo-Katan)",
+        "unavailableWith": [
+          "The Darksaber",
+          {
+            "id": "22610",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "71",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "6132",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22611",
+            "propertyName": "upgrades"
+          }
+        ],
+        "poolBonuses": [
+          "extraMercenary"
+        ]
+      },
+      {
+        "id": 22611,
+        "name": "The Darksaber",
+        "points": 10,
+        "type": 12,
+        "keywords": [4, 202, 207],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22611.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22611.webp?version=3",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [6179, 34881],
+        "ttsName": "The Darksaber (Din)",
+        "unavailableWith": [
+          "The Darksaber",
+          {
+            "id": "22610",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "71",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "6132",
             "propertyName": "upgrades"
           },
           {
@@ -12440,7 +12607,7 @@
             "propertyName": "upgrades"
           }
         ],
-        "factions": [1, 2, 4, 5, 8]
+        "factions": [1, 2, 4, 5, 8, 9]
       },
       {
         "id": 2632,
@@ -12527,28 +12694,6 @@
         ]
       },
       {
-        "id": 177,
-        "name": "Tristan Wren",
-        "points": 34,
-        "type": 4,
-        "keywords": [204, 187],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/177.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/177.webp?version=3",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [71, 72],
-        "unavailableWith": [
-          "Tristan Wren",
-          {
-            "id": "22608",
-            "propertyName": "upgrades"
-          }
-        ],
-        "factions": [1, 2, 4, 5, 8]
-      },
-      {
         "id": 22608,
         "name": "Tristan Wren",
         "points": 25,
@@ -12587,6 +12732,28 @@
             }
           ]
         ]
+      },
+      {
+        "id": 177,
+        "name": "Tristan Wren",
+        "points": 34,
+        "type": 4,
+        "keywords": [204, 187],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/177.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/177.webp?version=3",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [71, 72],
+        "unavailableWith": [
+          "Tristan Wren",
+          {
+            "id": "22608",
+            "propertyName": "upgrades"
+          }
+        ],
+        "factions": [1, 2, 4, 5, 8]
       },
       {
         "id": 19827,
@@ -17222,7 +17389,13 @@
         "ttsName": "Kalani Super Tactical Droid",
         "unavailableWith": [
           "Kalani"
-        ]
+        ],
+        "tierCounting": {
+          "exempt": {
+            "whenArmyIncludes": "35770",
+            "perSourceUnit": 1
+          }
+        }
       },
       {
         "name": "Raddaugh Gnasp Fluttercraft",
@@ -21040,14 +21213,14 @@
       {
         "name": "Savage Opress",
         "title": "Dooku's Apprentice",
-        "points": 0,
+        "points": 90,
         "factions": [
           {
             "id": 5,
             "rank": 6
           }
         ],
-        "upgradeTypes": [],
+        "upgradeTypes": [5, 10],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33792.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33792.webp?version=8",
         "keywords": [1, 115, 21, 4, 145],
@@ -21073,14 +21246,14 @@
       {
         "name": "Savage Opress",
         "title": "Maul's Enforcer",
-        "points": 0,
+        "points": 90,
         "factions": [
           {
             "id": 9,
             "rank": 6
           }
         ],
-        "upgradeTypes": [],
+        "upgradeTypes": [5, 10],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33793.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33793.webp?version=8",
         "keywords": [1, 115, 21, 4, 145],
@@ -21533,6 +21706,64 @@
         "courage": 2,
         "speed": 2,
         "affiliation": "1083"
+      },
+      {
+        "name": "B2 Super Rocket Battle Droids",
+        "title": null,
+        "points": 94,
+        "factions": [
+          {
+            "id": 5,
+            "rank": 5
+          }
+        ],
+        "upgradeTypes": [4, 1, 6, 2],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/35769.webp?version=8",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/35769.webp?version=8",
+        "keywords": [1, 211, 73, 223],
+        "figures": 4,
+        "id": "35769",
+        "unlimited": true,
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/units-new/portraits/35769.webp",
+        "quantityLimitedBy": [],
+        "faction": 5,
+        "unitType": 6,
+        "health": 2,
+        "courage": 2,
+        "speed": 3
+      },
+      {
+        "name": "Admiral Trench",
+        "title": "Fleet Commander",
+        "points": 85,
+        "factions": [
+          {
+            "id": 5,
+            "rank": 1
+          }
+        ],
+        "upgradeTypes": [9, 9, 9, 6, 2],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/35770.webp?version=8",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/35770.webp?version=8",
+        "keywords": [164, 162, 159, 140, 201, 202],
+        "figures": 1,
+        "id": "35770",
+        "unlimited": true,
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/units-new/portraits/35770.webp",
+        "quantityLimitedBy": [],
+        "faction": 5,
+        "unitType": 1,
+        "health": 5,
+        "courage": 2,
+        "speed": 2,
+        "ttsName": "Admiral Trench Fleet Commander",
+        "requiredChildren": [
+          {
+            "id": 23148,
+            "elementPropertyName": "upgrades",
+            "upgradeIndex": 2
+          }
+        ]
       }
     ],
     "objectives": [
@@ -22093,26 +22324,6 @@
         ]
       },
       {
-        "id": 22,
-        "name": "Change of Plans",
-        "pips": 3,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/22.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/22.webp?version=7",
-        "keywords": null,
-        "unlockedBy": [
-          {
-            "id": 15,
-            "propertyName": "units"
-          },
-          {
-            "id": 32594,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 58,
         "name": "We're Not Programmed",
         "pips": 3,
@@ -22557,22 +22768,6 @@
         "keywords": null
       },
       {
-        "id": 9459,
-        "name": "Come and Prove It",
-        "pips": 1,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9459.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9459.webp?version=7",
-        "keywords": [40],
-        "unlockedBy": [
-          {
-            "id": 19109,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 2377,
         "name": "Rule With Respect",
         "pips": 3,
@@ -22697,16 +22892,6 @@
         "keywords": null
       },
       {
-        "id": 8112,
-        "name": "Drive Them Out",
-        "pips": 1,
-        "faction": null,
-        "factions": [19],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/8112.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/8112.webp?version=7",
-        "keywords": [115]
-      },
-      {
         "id": 2376,
         "name": "Making His Way in the Galaxy",
         "pips": 2,
@@ -22722,6 +22907,72 @@
           },
           {
             "id": 6176,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 8112,
+        "name": "Drive Them Out",
+        "pips": 1,
+        "faction": null,
+        "factions": [19],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/8112.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/8112.webp?version=7",
+        "keywords": [115]
+      },
+      {
+        "id": 22,
+        "name": "Change of Plans",
+        "pips": 3,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/22.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/22.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 15,
+            "propertyName": "units"
+          },
+          {
+            "id": 32594,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 9459,
+        "name": "Come and Prove It",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9459.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9459.webp?version=7",
+        "keywords": [40],
+        "unlockedBy": [
+          {
+            "id": 19109,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 73,
+        "name": "Crack Shot",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/73.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/73.webp?version=7",
+        "keywords": [10],
+        "unlockedBy": [
+          {
+            "id": 57,
+            "propertyName": "units"
+          },
+          {
+            "id": 29930,
             "propertyName": "units"
           }
         ]
@@ -22759,16 +23010,6 @@
         ]
       },
       {
-        "id": 16622,
-        "name": "Defiance",
-        "pips": 1,
-        "faction": 4,
-        "factions": [4, 21, 12, 16],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16622.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16622.webp?version=7",
-        "keywords": null
-      },
-      {
         "id": 16624,
         "name": "Idiot's Array",
         "pips": 3,
@@ -22785,6 +23026,94 @@
         ]
       },
       {
+        "id": 16622,
+        "name": "Defiance",
+        "pips": 1,
+        "faction": 4,
+        "factions": [4, 21, 12, 16],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16622.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16622.webp?version=7",
+        "keywords": null
+      },
+      {
+        "id": 43,
+        "name": "Deploy the Garrison",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/43.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/43.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 29,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 19885,
+        "name": "I Smell Fear... and it Smells Good",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19885.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19885.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 35770,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 19886,
+        "name": "We Shall Start with Revenge",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19886.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19886.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 33792,
+            "propertyName": "units"
+          },
+          {
+            "id": 33793,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 19887,
+        "name": "For the Cause",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19887.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19887.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 35770,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 14377,
+        "name": "Lead from the Front",
+        "pips": 2,
+        "faction": 4,
+        "factions": [16],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/14377.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/14377.webp?version=7",
+        "keywords": null
+      },
+      {
         "id": 14378,
         "name": "General Skywalker",
         "pips": 3,
@@ -22799,16 +23128,6 @@
             "propertyName": "units"
           }
         ]
-      },
-      {
-        "id": 14377,
-        "name": "Lead from the Front",
-        "pips": 2,
-        "faction": 4,
-        "factions": [16],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/14377.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/14377.webp?version=7",
-        "keywords": null
       },
       {
         "id": 104,
@@ -22889,6 +23208,22 @@
         ]
       },
       {
+        "id": 17862,
+        "name": "Fearsome Oration",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/17862.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/17862.webp?version=7",
+        "keywords": [115, 6],
+        "unlockedBy": [
+          {
+            "id": 31667,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
         "id": 17863,
         "name": "Diversionary Tactics",
         "pips": 3,
@@ -22916,22 +23251,6 @@
         "unlockedBy": [
           {
             "id": 31670,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 17862,
-        "name": "Fearsome Oration",
-        "pips": 1,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/17862.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/17862.webp?version=7",
-        "keywords": [115, 6],
-        "unlockedBy": [
-          {
-            "id": 31667,
             "propertyName": "units"
           }
         ]
@@ -23753,6 +24072,22 @@
         ]
       },
       {
+        "id": 16618,
+        "name": "Corellian Spike",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16618.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16618.webp?version=7",
+        "keywords": [14, 98],
+        "unlockedBy": [
+          {
+            "id": 80,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
         "id": 16621,
         "name": "Daring Defense",
         "pips": 3,
@@ -23773,22 +24108,6 @@
         "keywords": [50]
       },
       {
-        "id": 16618,
-        "name": "Corellian Spike",
-        "pips": 1,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16618.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16618.webp?version=7",
-        "keywords": [14, 98],
-        "unlockedBy": [
-          {
-            "id": 80,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 70,
         "name": "Impromptu Immolation",
         "pips": 2,
@@ -23804,22 +24123,6 @@
           },
           {
             "id": 56,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 67,
-        "name": "Fear, Surprise, Intimidation",
-        "pips": 1,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/67.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/67.webp?version=7",
-        "keywords": [53, 51, 189],
-        "unlockedBy": [
-          {
-            "id": 49,
             "propertyName": "units"
           }
         ]
@@ -23877,6 +24180,22 @@
         ]
       },
       {
+        "id": 67,
+        "name": "Fear, Surprise, Intimidation",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/67.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/67.webp?version=7",
+        "keywords": [53, 51, 189],
+        "unlockedBy": [
+          {
+            "id": 49,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
         "id": 47,
         "name": "Symbol of Rebellion",
         "pips": 2,
@@ -23928,38 +24247,6 @@
         "unlockedBy": [
           {
             "id": 11258,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 6131,
-        "name": "Bring it Down!",
-        "pips": 1,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6131.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6131.webp?version=7",
-        "keywords": [187, 202],
-        "unlockedBy": [
-          {
-            "id": 6376,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 6509,
-        "name": "Family Reunion",
-        "pips": 2,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6509.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6509.webp?version=7",
-        "keywords": [152],
-        "unlockedBy": [
-          {
-            "id": 15014,
             "propertyName": "units"
           }
         ]
@@ -24109,22 +24396,6 @@
         ]
       },
       {
-        "id": 43,
-        "name": "Deploy the Garrison",
-        "pips": 2,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/43.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/43.webp?version=7",
-        "keywords": null,
-        "unlockedBy": [
-          {
-            "id": 29,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 41,
         "name": "Legacy of Mandalore",
         "pips": 3,
@@ -24181,17 +24452,33 @@
         ]
       },
       {
-        "id": 82,
-        "name": "Concussive Blast",
+        "id": 6131,
+        "name": "Bring it Down!",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6131.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6131.webp?version=7",
+        "keywords": [187, 202],
+        "unlockedBy": [
+          {
+            "id": 6376,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 6509,
+        "name": "Family Reunion",
         "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/82.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/82.webp?version=7",
-        "keywords": [177, 184, 187],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6509.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6509.webp?version=7",
+        "keywords": [152],
         "unlockedBy": [
           {
-            "id": 58,
+            "id": 15014,
             "propertyName": "units"
           }
         ]
@@ -24277,42 +24564,6 @@
         ]
       },
       {
-        "id": 73,
-        "name": "Crack Shot",
-        "pips": 1,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/73.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/73.webp?version=7",
-        "keywords": [10],
-        "unlockedBy": [
-          {
-            "id": 57,
-            "propertyName": "units"
-          },
-          {
-            "id": 29930,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 66,
-        "name": "Double the Fall",
-        "pips": 2,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/66.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/66.webp?version=7",
-        "keywords": null,
-        "unlockedBy": [
-          {
-            "id": 49,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 68,
         "name": "Smoke Screen",
         "pips": 3,
@@ -24328,86 +24579,6 @@
           },
           {
             "id": 56,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 15,
-        "name": "Evasive Maneuvers",
-        "pips": 2,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/15.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/15.webp?version=7",
-        "keywords": [7],
-        "unlockedBy": [
-          {
-            "id": 8,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 48,
-        "name": "Explosions!",
-        "pips": 1,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/48.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/48.webp?version=7",
-        "keywords": [194, 175, 180, 174, 177, 178],
-        "unlockedBy": [
-          {
-            "id": 33,
-            "propertyName": "units"
-          },
-          {
-            "id": 34887,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 55,
-        "name": "Darkness Descends",
-        "pips": 3,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/55.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/55.webp?version=7",
-        "keywords": [194, 75, 191, 14],
-        "unlockedBy": [
-          {
-            "id": 3,
-            "propertyName": "units"
-          },
-          {
-            "id": 47,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 62,
-        "name": "Full of Surprises",
-        "pips": 2,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/62.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/62.webp?version=7",
-        "keywords": null,
-        "unlockedBy": [
-          {
-            "id": 4,
-            "propertyName": "units"
-          },
-          {
-            "id": 46,
-            "propertyName": "units"
-          },
-          {
-            "id": 32593,
             "propertyName": "units"
           }
         ]
@@ -24433,17 +24604,113 @@
         ]
       },
       {
-        "id": 64,
-        "name": "Call Me Captain",
-        "pips": 1,
+        "id": 55,
+        "name": "Darkness Descends",
+        "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/64.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/64.webp?version=7",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/55.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/55.webp?version=7",
+        "keywords": [194, 75, 191, 14],
+        "unlockedBy": [
+          {
+            "id": 3,
+            "propertyName": "units"
+          },
+          {
+            "id": 47,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 82,
+        "name": "Concussive Blast",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/82.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/82.webp?version=7",
+        "keywords": [177, 184, 187],
+        "unlockedBy": [
+          {
+            "id": 58,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Evasive Maneuvers",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/15.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/15.webp?version=7",
+        "keywords": [7],
+        "unlockedBy": [
+          {
+            "id": 8,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 66,
+        "name": "Double the Fall",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/66.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/66.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
-            "id": 50,
+            "id": 49,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "name": "Explosions!",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/48.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/48.webp?version=7",
+        "keywords": [194, 175, 180, 174, 177, 178],
+        "unlockedBy": [
+          {
+            "id": 33,
+            "propertyName": "units"
+          },
+          {
+            "id": 34887,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "name": "Full of Surprises",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/62.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/62.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 4,
+            "propertyName": "units"
+          },
+          {
+            "id": 46,
+            "propertyName": "units"
+          },
+          {
+            "id": 32593,
             "propertyName": "units"
           }
         ]
@@ -24480,26 +24747,6 @@
         "unlockedBy": [
           {
             "id": 20,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 63,
-        "name": "Blast Off!",
-        "pips": 1,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/63.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/63.webp?version=7",
-        "keywords": [27, 1],
-        "unlockedBy": [
-          {
-            "id": 55,
-            "propertyName": "units"
-          },
-          {
-            "id": 56,
             "propertyName": "units"
           }
         ]
@@ -24601,50 +24848,6 @@
         ]
       },
       {
-        "id": 786,
-        "name": "Do Not Underestimate Our Means",
-        "pips": 3,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/786.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/786.webp?version=7",
-        "keywords": [191, 144],
-        "unlockedBy": [
-          {
-            "id": 1852,
-            "propertyName": "units"
-          },
-          {
-            "id": 1853,
-            "propertyName": "units"
-          },
-          {
-            "id": 1854,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 1961,
-        "name": "Fight Another Day",
-        "pips": 2,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1961.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1961.webp?version=7",
-        "keywords": [92],
-        "unlockedBy": [
-          {
-            "id": 4891,
-            "propertyName": "units"
-          },
-          {
-            "id": 34888,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 258,
         "name": "Luminous Beings Are We",
         "pips": 3,
@@ -24685,6 +24888,86 @@
         ]
       },
       {
+        "id": 786,
+        "name": "Do Not Underestimate Our Means",
+        "pips": 3,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/786.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/786.webp?version=7",
+        "keywords": [191, 144],
+        "unlockedBy": [
+          {
+            "id": 1852,
+            "propertyName": "units"
+          },
+          {
+            "id": 1853,
+            "propertyName": "units"
+          },
+          {
+            "id": 1854,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 63,
+        "name": "Blast Off!",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/63.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/63.webp?version=7",
+        "keywords": [27, 1],
+        "unlockedBy": [
+          {
+            "id": 55,
+            "propertyName": "units"
+          },
+          {
+            "id": 56,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 64,
+        "name": "Call Me Captain",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/64.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/64.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 50,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 1961,
+        "name": "Fight Another Day",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1961.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1961.webp?version=7",
+        "keywords": [92],
+        "unlockedBy": [
+          {
+            "id": 4891,
+            "propertyName": "units"
+          },
+          {
+            "id": 34888,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
         "id": 256,
         "name": "Size Matters Not",
         "pips": 1,
@@ -24696,26 +24979,6 @@
         "unlockedBy": [
           {
             "id": 764,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 92,
-        "name": "Duel of the Fates",
-        "pips": 1,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/92.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/92.webp?version=7",
-        "keywords": [27],
-        "unlockedBy": [
-          {
-            "id": 74,
-            "propertyName": "units"
-          },
-          {
-            "id": 4551,
             "propertyName": "units"
           }
         ]
@@ -24756,6 +25019,26 @@
           },
           {
             "id": 5001,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 92,
+        "name": "Duel of the Fates",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/92.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/92.webp?version=7",
+        "keywords": [27],
+        "unlockedBy": [
+          {
+            "id": 74,
+            "propertyName": "units"
+          },
+          {
+            "id": 4551,
             "propertyName": "units"
           }
         ]
@@ -24921,6 +25204,22 @@
         "keywords": null
       },
       {
+        "id": 78,
+        "name": "Diplomatic Cover",
+        "pips": 3,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/78.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/78.webp?version=7",
+        "keywords": [194, 31, 6, 191, 14],
+        "unlockedBy": [
+          {
+            "id": 60,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
         "id": 61,
         "name": "Fear and Dead Men",
         "pips": 2,
@@ -24971,22 +25270,6 @@
         ]
       },
       {
-        "id": 78,
-        "name": "Diplomatic Cover",
-        "pips": 3,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/78.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/78.webp?version=7",
-        "keywords": [194, 31, 6, 191, 14],
-        "unlockedBy": [
-          {
-            "id": 60,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 98,
         "name": "Air Support",
         "pips": 2,
@@ -24995,6 +25278,16 @@
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/98.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/98.webp?version=7",
         "keywords": [176, 201]
+      },
+      {
+        "id": 27,
+        "name": "Covert Observation",
+        "pips": 1,
+        "faction": 2,
+        "factions": [2, 10, 19, 17, 7],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/27.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/27.webp?version=7",
+        "keywords": null
       },
       {
         "id": 88,
@@ -25011,16 +25304,6 @@
             "propertyName": "units"
           }
         ]
-      },
-      {
-        "id": 27,
-        "name": "Covert Observation",
-        "pips": 1,
-        "faction": 2,
-        "factions": [2, 10, 19, 17, 7],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/27.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/27.webp?version=7",
-        "keywords": null
       },
       {
         "id": 4,
@@ -25437,14 +25720,14 @@
         ]
       },
       {
-        "id": 2277,
-        "name": "Debark for Ground Assault",
-        "pips": 3,
-        "faction": 2,
-        "factions": [17],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2277.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2277.webp?version=7",
-        "keywords": [71, 187]
+        "id": 2273,
+        "name": "Delaying Tactics",
+        "pips": 1,
+        "faction": 1,
+        "factions": [13],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2273.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2273.webp?version=7",
+        "keywords": null
       },
       {
         "id": 2269,
@@ -25457,14 +25740,14 @@
         "keywords": null
       },
       {
-        "id": 2273,
-        "name": "Delaying Tactics",
-        "pips": 1,
-        "faction": 1,
-        "factions": [13],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2273.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2273.webp?version=7",
-        "keywords": null
+        "id": 2277,
+        "name": "Debark for Ground Assault",
+        "pips": 3,
+        "faction": 2,
+        "factions": [17],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2277.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2277.webp?version=7",
+        "keywords": [71, 187]
       },
       {
         "id": 2271,
@@ -25497,22 +25780,6 @@
         ]
       },
       {
-        "id": 3084,
-        "name": "Focused on the Kill",
-        "pips": 1,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/3084.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/3084.webp?version=7",
-        "keywords": [194],
-        "unlockedBy": [
-          {
-            "id": 6177,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 3086,
         "name": "Anti-Capture Protocols",
         "pips": 3,
@@ -25524,6 +25791,22 @@
         "unlockedBy": [
           {
             "id": 6178,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 3084,
+        "name": "Focused on the Kill",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/3084.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/3084.webp?version=7",
+        "keywords": [194],
+        "unlockedBy": [
+          {
+            "id": 6177,
             "propertyName": "units"
           }
         ]
@@ -25697,13 +25980,13 @@
         ]
       },
       {
-        "id": 6130,
-        "name": "Have I Ever Let you Down?",
-        "pips": 2,
+        "id": 6129,
+        "name": "Combined Arms",
+        "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6130.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6130.webp?version=7",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6129.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6129.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
@@ -25713,13 +25996,13 @@
         ]
       },
       {
-        "id": 6129,
-        "name": "Combined Arms",
-        "pips": 3,
+        "id": 6130,
+        "name": "Have I Ever Let you Down?",
+        "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6129.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6129.webp?version=7",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6130.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6130.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
