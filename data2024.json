@@ -54818,6 +54818,11 @@
 					"onTheirOwnPathProfileNames": [
 						"Watcher of Kârna"
 					],
+					"onTheirOwnPathOptionNames": {
+						"Watcher of Kârna": [
+							"Twin Blades"
+						]
+					},
 					"specialRules": [
 						"Unlike other Battle Companies, a Harad Battle Company may have up to 50% of its models armed with a bow rather than 33%."
 					],
