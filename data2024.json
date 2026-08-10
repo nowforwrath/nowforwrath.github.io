@@ -540,6 +540,11 @@
 			"property": "legacy",
 			"label": "Include Legacy",
 			"default": false
+		},
+		{
+			"property": "siegeEquipment",
+			"label": "Siege Equipment",
+			"default": false
 		}
 	],
 	"scenarios": [
@@ -2520,6 +2525,40 @@
 									"inTooltip": true
 								}
 							]
+						}
+					]
+				},
+				{
+					"propertyName": "siegeEquipment",
+					"dataSource": "siegeEquipment",
+					"label": "Siege Equipment",
+					"type": "main",
+					"ignoreFactionFilter": true,
+					"excludeFromModelCount": true,
+					"excludeFromTiers": true,
+					"allowIncrement": true,
+					"tierProperty": "siegeRole",
+					"tierSource": "root",
+					"tierFilterChips": true,
+					"groupArmyByTier": true,
+					"prettyViewSortByTier": true,
+					"prettyViewStyle": "pills",
+					"tiers": [
+						{
+							"name": "Attacker Equipment",
+							"rank": 1
+						},
+						{
+							"name": "Defender Equipment",
+							"rank": 2
+						}
+					],
+					"children": [
+						{
+							"propertyName": "specialRules",
+							"label": "Special Rules",
+							"type": "static",
+							"dataSource": "keywords"
 						}
 					]
 				}
@@ -42751,6 +42790,88 @@
 				]
 			}
 		],
+		"siegeEquipment": [
+			{
+				"name": "Siege Ladder",
+				"points": 5,
+				"siegeEquipment": true,
+				"unlimited": true,
+				"siegeRole": 1,
+				"specialRules": [
+					"Siege Ladder"
+				]
+			},
+			{
+				"name": "Battering Ram",
+				"points": 15,
+				"siegeEquipment": true,
+				"unlimited": true,
+				"siegeRole": 1,
+				"specialRules": [
+					"Battering Ram"
+				]
+			},
+			{
+				"name": "Siege Tower",
+				"points": 40,
+				"siegeEquipment": true,
+				"unlimited": true,
+				"siegeRole": 1,
+				"specialRules": [
+					"Siege Tower"
+				]
+			},
+			{
+				"name": "Barricade",
+				"points": 5,
+				"siegeEquipment": true,
+				"unlimited": true,
+				"siegeRole": 2,
+				"specialRules": [
+					"Barricade"
+				]
+			},
+			{
+				"name": "Spiked Barricade",
+				"points": 10,
+				"siegeEquipment": true,
+				"unlimited": true,
+				"siegeRole": 2,
+				"specialRules": [
+					"Spiked Barricade"
+				]
+			},
+			{
+				"name": "Rallying Point",
+				"points": 25,
+				"siegeEquipment": true,
+				"unlimited": true,
+				"siegeRole": 2,
+				"specialRules": [
+					"Rallying Point"
+				]
+			},
+			{
+				"name": "Rocks",
+				"points": 5,
+				"siegeEquipment": true,
+				"unlimited": true,
+				"siegeRole": 2,
+				"specialRules": [
+					"Rocks"
+				]
+			},
+			{
+				"name": "Boiling Oil",
+				"points": 25,
+				"siegeEquipment": true,
+				"unlimited": true,
+				"siegeRole": 2,
+				"specialRules": [
+					"Boiling Oil"
+				]
+			}
+		],
 		"gear": [
 			{
 				"name": "Umbrella",
@@ -45324,6 +45445,38 @@
 			{
 				"name": "Static",
 				"definition": "If a Siege Engine has the Static special rule, then it cannot be Moved or rotated."
+			},
+			{
+				"name": "Siege Ladder",
+				"definition": "A Siege Ladder is a Heavy Object, however, it is not mounted on a 25mm base and will simply use the template of the model when carried. If it is not being carried, a Siege Ladder can be shot at and attacked as normal; it counts as having a Defence of 8 and 2 Wounds. If any model that is carrying a Siege Ladder Moves into base contact with the walls of the fortress, the Siege Ladder is immediately raised; place it in position against the wall. Models may Move up a Siege Ladder in the same way as a normal ladder."
+			},
+			{
+				"name": "Battering Ram",
+				"definition": "A Battering Ram is a Heavy Object, however, it is not mounted on a 25mm base and will simply use the template of the model when carried. If it is not being carried, a Battering Ram can be shot and attacked as normal; it counts as having a Defence of 8 and 3 Wounds. A Battering Ram must always have a minimum of two models carrying it, otherwise it cannot be carried. To use a Battering Ram, it must be in base contact with a door or gate at the start of the Fight Phase. After any Heroic Combats have been resolved, but before any other Combats are resolved, a Battering Ram can be used against the doors or gates. It will automatically hit its target, and will make a single Strike against it. Note that as a door or gate is always considered Trapped, the Battering Ram will make two rolls To Wound as a result. The Strength of the Battering Ram is equal to the Strength of the strongest model helping to carry it, +1 for each additional model carrying it, to a maximum of 10. If a Battering Ram would have a Strength of higher than 10, then it may re-roll any failed To Wound Rolls."
+			},
+			{
+				"name": "Siege Tower",
+				"definition": "A Siege Tower should be tall enough for the ramp to reach the battlements of the fortress when lowered and should be no more than 4\" wide across the ramp. Infantry models may be deployed within or on top of a Siege Tower, with the exception of Monster models. A Siege Tower can be pushed by friendly models, and will Move 6\" when they do so. It requires six Infantry models to push a Siege Tower, with an additional Infantry model required for each model in or on the Siege Tower. Monster models count as six models for the purpose of pushing a Siege Tower. To count as pushing a Siege Tower, a model must be in base contact with either the rear or side of the Siege Tower, or in base contact with another model that is pushing from the rear. If a Siege Tower moves into base contact with the fortress in the Move Phase, then the ramp is immediately lowered. Models in the Siege Tower do not count as Moving whilst the Siege Tower is being pushed, unless they specifically Move within it. A Siege Tower can be shot at or attacked normally, has a Defence of 10 and 4 Wounds, and is a Battlefield Target. If a siege tower would be destroyed, all models in or on it will suffer Falling Damage."
+			},
+			{
+				"name": "Barricade",
+				"definition": "A Barricade should be no more than 3\" in length, 1\" in width and 1\" in height. A Barricade can be defended in the same way as a Barrier (see page 54), and can be Jumped over in the same way as an Obstacle. A Barricade has a Defence of 7 and 2 Wounds."
+			},
+			{
+				"name": "Spiked Barricade",
+				"definition": "A Spiked Barricade follows all the rules for a regular Barricade, with the following additions: Any model that attempts to Jump over a Spiked Barricade will suffer one Strength 3 hit after resolving their Jump Test, unless they rolled a 6. Any model that is fighting across a Spiked Barricade and accidentally Strikes it instead of their opponent immediately suffers one Strength 3 hit."
+			},
+			{
+				"name": "Rallying Point",
+				"definition": "A Rallying Point is represented by a 25mm base. Models may Move over a Rallying Point but cannot finish their Move overlapping it. Defending models treat a Rallying Point as a banner. Additionally, defending models within 6\" of a Rallying Point apply a +1 modifier to any Courage Tests they are required to take. If, during the End Phase of a turn, an enemy model is in base contact with a Rallying Point, that model hasn't done anything during that turn except Move (i.e., has not made a Shooting Attack, Cast a Magical Power, been Engaged in Combat), and that model was not affected by a Magical Power that turn, then it can destroy the Rallying Point – remove it from play."
+			},
+			{
+				"name": "Rocks",
+				"definition": "A pile of Rocks is represented by a 25mm base and is a Light Object. A defending model in base contact with the Rocks and in base contact with the battlements can make a Shooting Attack with them during the Shoot Phase. This Shooting Attack can only target enemy models within 1\" of the walls, or climbing a Siege Ladder, and has a range of 8\". A model making a Shooting Attack with a rock treats their Shoot Value as 4+ regardless of its actual value. Any model hit by a rock suffers one Strength 6 hit. A model climbing a Siege Ladder that is hit must roll a D6, and on a 1-3 they will fall off and suffer Falling Damage."
+			},
+			{
+				"name": "Boiling Oil",
+				"definition": "A vat of Boiling Oil is a Heavy Object and is represented by a 40mm base. If two defending models are in base contact with the Boiling Oil, and are not Engaged in Combat, they can pour it on an attacker as a Shooting Attack. This Shooting Attack can only target enemy models within 1\" of the walls, or climbing a Siege Ladder, and has a range of 8\". Models making a Shooting Attack with Boiling Oil treat their Shoot Value as 4+ regardless of its actual value. Any model hit by Boiling Oil suffers one Strength 8 hit, and any model (friend or foe) within 2\" of the target suffers one Strength 4 hit. A model climbing a Siege Ladder that is hit must roll a D6, and on a 1-4 they will fall off and suffer Falling Damage. After making a Shooting Attack with Boiling Oil, the defender rolls a D6. On a 1, the supply of oil has run dry and that vat of Boiling Oil cannot be used for the remainder of the game."
 			},
 			{
 				"name": "Plenty of Orcs",
