@@ -2308,6 +2308,7 @@
 				"validationKeys": [
 					"capitalElement"
 				],
+				"autoAddOnly": true,
 				"points": 260,
 				"factions": [
 					"USNC"
