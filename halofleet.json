@@ -911,6 +911,7 @@
 				"validationKeys": [
 					"nonCapitalElement"
 				],
+				"autoAddOnly": true,
 				"points": 60,
 				"factions": [
 					"Covenant"
@@ -986,6 +987,7 @@
 				"validationKeys": [
 					"nonCapitalElement"
 				],
+				"autoAddOnly": true,
 				"points": 40,
 				"factions": [
 					"USNC"
@@ -1671,6 +1673,7 @@
 				"validationKeys": [
 					"capitalElement"
 				],
+				"autoAddOnly": true,
 				"points": 200,
 				"factions": [
 					"Covenant"
@@ -2444,6 +2447,7 @@
 				"validationKeys": [
 					"capitalElement"
 				],
+				"autoAddOnly": true,
 				"points": 135,
 				"factions": [
 					"USNC"
