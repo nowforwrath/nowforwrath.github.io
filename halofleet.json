@@ -1,3206 +1,3095 @@
 {
-  "config": {
-    "trackHighestDivision": true
-  },
-  "appVersion": 2,
-  "disallowMultipleFactions": true,
-  "credit": [],
-  "game": "Halo Fleet Battles",
-  "usesBuiltInUnitImages": true,
-  "imagePrintView": {
-    "printChildren": [
-      {
-        "parentPropertyName": "groups",
-        "propertyName": "smallShips",
-        "kind": "image",
-        "label": "Small ships",
-        "defaultPrint": true,
-        "defaultPlacement": "nest"
-      },
-      {
-        "parentPropertyName": "groups",
-        "propertyName": "capitalShips",
-        "kind": "image",
-        "label": "Capital ships",
-        "defaultPrint": true,
-        "defaultPlacement": "nest"
-      },
-      {
-        "parentPropertyName": "groups",
-        "propertyName": "flights",
-        "kind": "image",
-        "label": "Flights",
-        "defaultPrint": true,
-        "defaultPlacement": "nest"
-      },
-      {
-        "parentPropertyName": "groups",
-        "propertyName": "systemLoadouts",
-        "kind": "text",
-        "label": "Systems Loadouts",
-        "checkboxLabel": "Systems Loadout definitions",
-        "defaultPrint": true,
-        "defaultPlacement": "bottom"
-      },
-      {
-        "parentPropertyName": "groups",
-        "propertyName": "specialRules",
-        "kind": "text",
-        "label": "Special Rules",
-        "checkboxLabel": "Battle group special rule definitions",
-        "defaultPrint": true,
-        "defaultPlacement": "bottom"
-      }
-    ],
-    "printSizes": {
-      "default": {
-        "sizeBy": "height",
-        "height": "2.8in"
-      },
-      "byDataSource": {
-        "smallShips": {
-          "sizeBy": "height",
-          "height": "2.6in"
-        },
-        "capitalShips": {
-          "sizeBy": "height",
-          "height": "2.6in"
-        },
-        "flights": {
-          "sizeBy": "height",
-          "height": "2.4in"
-        },
-        "commanders": {
-          "sizeBy": "height",
-          "height": "3.5in"
-        },
-        "heroicCharacters": {
-          "sizeBy": "height",
-          "height": "3.5in"
-        }
-      }
-    },
-    "layoutDefaults": {
-      "horizontalGapPx": 10,
-      "verticalGapPx": 14,
-      "showDividingLines": true,
-      "printTextChildren": true
-    }
-  },
-  "stats": [
-    {
-      "name": "Movement",
-      "abbreviation": "Movement",
-      "trail": "\""
-    }
-  ],
-  "dataTableKeys": [
-    "smallShips",
-    "capitalShips",
-    "flights"
-  ],
-  "limits": [],
-  "counts": [],
-  "calculations": [],
-  "validations": [],
-  "additionalPrint": [],
-  "elements": [
-    {
-      "propertyName": "factions",
-      "label": "Faction",
-      "type": "faction",
-      "dataSource": "factions",
-      "children": [
-        {
-          "propertyName": "commanders",
-          "dataSource": "commanders",
-          "label": "Commanders",
-          "type": "main",
-          "children": [
-            {
-              "propertyName": "keywords",
-              "label": "Keywords",
-              "dataSource": "keywords",
-              "type": "static"
-            },
-            {
-              "propertyName": "options",
-              "label": "Options",
-              "type": "checkbox",
-              "dataSource": "keywords"
-            }
-          ]
-        },
-        {
-          "propertyName": "heroicCharacters",
-          "dataSource": "heroicCharacters",
-          "label": "Heroic Characters",
-          "type": "main",
-          "children": [
-            {
-              "propertyName": "keywords",
-              "label": "Keywords",
-              "dataSource": "keywords",
-              "type": "static"
-            },
-            {
-              "propertyName": "options",
-              "label": "Options",
-              "type": "checkbox",
-              "dataSource": "keywords"
-            }
-          ]
-        },
-        {
-          "propertyName": "groups",
-          "dataSource": "groups",
-          "label": "Battle Groups",
-          "type": "main",
-          "tierProperty": "heroicTier",
-          "tierData": "heroicTiers",
-          "childStatSumProperty": "buildRating",
-          "childStatSumLabel": "BR",
-          "showRequiredChildrenInDetails": true,
-          "tiers": [
-            {
-              "name": "Standard",
-              "rank": 1,
-              "maximumChildren": {
-                "flights": 0
-              }
-            },
-            {
-              "name": "Specialist",
-              "rank": 2,
-              "maximumChildren": {
-                "flights": 0
-              }
-            },
-            {
-              "name": "Massive",
-              "rank": 3,
-              "maximumChildren": {
-                "flights": 0
-              }
-            }
-          ],
-          "children": [
-            {
-              "singleKey": "smallShip",
-              "dataSource": "smallShips",
-              "propertyName": "smallShips",
-              "label": "Small Ship",
-              "type": "list",
-              "children": [
-                {
-                  "propertyName": "systemLoadouts",
-                  "label": "Systems Loadouts",
-                  "type": "static",
-                  "dataSource": "keywords"
-                }
-              ]
-            },
-            {
-              "singleKey": "capitalShip",
-              "dataSource": "capitalShips",
-              "propertyName": "capitalShips",
-              "label": "Capital Ship",
-              "type": "list",
-              "children": [
-                {
-                  "propertyName": "systemLoadouts",
-                  "label": "Systems Loadouts",
-                  "type": "static",
-                  "dataSource": "keywords"
-                },
-                {
-                  "propertyName": "options",
-                  "label": "Options",
-                  "type": "checkbox",
-                  "dataSource": "keywords"
-                }
-              ]
-            },
-            {
-              "singleKey": "flight",
-              "dataSource": "flights",
-              "propertyName": "flights",
-              "label": "Flight",
-              "type": "list",
-              "badges": [
-                {
-                  "propertyName": "flightSlots",
-                  "label": "Slots"
-                }
-              ],
-              "children": [
-                {
-                  "propertyName": "systemLoadouts",
-                  "label": "Systems Loadouts",
-                  "type": "static",
-                  "dataSource": "keywords"
-                }
-              ]
-            },
-            {
-              "propertyName": "specialRules",
-              "label": "Special Rules",
-              "type": "static",
-              "dataSource": "keywords"
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "data": {
-    "factions": [
-      {
-        "name": "USNC"
-      },
-      {
-        "name": "Covenant"
-      }
-    ],
-    "heroicTiers": [
-      {
-        "name": "Standard"
-      },
-      {
-        "name": "Specialist"
-      },
-      {
-        "name": "Massive"
-      }
-    ],
-    "groups": [
-      {
-        "name": "Standard Battle Group",
-        "points": 0,
-        "factions": [
-          {
-            "name": "USNC",
-            "heroicTier": "Standard"
-          },
-          {
-            "name": "Covenant",
-            "heroicTier": "Standard"
-          }
-        ],
-        "validations": [
-          {
-            "requiredChildren": [
-              {
-                "key": "capitalElement",
-                "quantity": 1,
-                "message": "Must contain at least 1 Capital Element."
-              },
-              {
-                "key": "nonCapitalElement",
-                "quantity": 1,
-                "message": "Must contain at least 1 Non-Capital Element."
-              }
-            ]
-          }
-        ],
-        "decreaseModelCount": 1
-      },
-      {
-        "name": "Solemn Vow",
-        "points": 0,
-        "factions": [
-          {
-            "name": "Covenant",
-            "heroicTier": "Specialist"
-          }
-        ],
-        "unavailableWith": [
-          "Maccabeus"
-        ],
-        "requiredChildren": [
-          {
-            "name": "Covenant Supported ORS Heavy Cruiser",
-            "points": 220,
-            "quantity": 1,
-            "elementPropertyName": "capitalShips"
-          },
-          {
-            "name": "Covenant Supported CCS Battlecruiser",
-            "points": 170,
-            "quantity": 1,
-            "elementPropertyName": "capitalShips"
-          }
-        ],
-        "decreaseModelCount": 1
-      },
-      {
-        "name": "Oathsworn",
-        "points": 0,
-        "factions": [
-          {
-            "name": "Covenant",
-            "heroicTier": "Specialist"
-          }
-        ],
-        "requiredChildren": [
-          {
-            "name": "Covenant CCS Battlecruiser",
-            "points": 150,
-            "quantity": 2,
-            "elementPropertyName": "capitalShips"
-          },
-          {
-            "name": "Covenant SDV Heavy Corvette (Line Formation)",
-            "points": 40,
-            "quantity": 2,
-            "elementPropertyName": "smallShips"
-          }
-        ],
-        "decreaseModelCount": 1
-      },
-      {
-        "name": "Sacred Pledge",
-        "points": 0,
-        "factions": [
-          {
-            "name": "Covenant",
-            "heroicTier": "Specialist"
-          }
-        ],
-        "requiredChildren": [
-          {
-            "name": "Covenant SDV Heavy Corvette (Oblique Formation)",
-            "points": 40,
-            "quantity": 2,
-            "elementPropertyName": "smallShips"
-          },
-          {
-            "name": "Covenant SDV Heavy Corvette (Line Formation)",
-            "points": 40,
-            "quantity": 2,
-            "elementPropertyName": "smallShips"
-          }
-        ],
-        "decreaseModelCount": 1
-      },
-      {
-        "name": "Harbinger",
-        "points": 0,
-        "factions": [
-          {
-            "name": "Covenant",
-            "heroicTier": "Specialist"
-          }
-        ],
-        "unavailableWith": [
-          "Maccabeus"
-        ],
-        "requiredChildren": [
-          {
-            "name": "Covenant ORS Heavy Cruiser",
-            "points": 200,
-            "quantity": 2,
-            "elementPropertyName": "capitalShips"
-          },
-          {
-            "name": "Covenant SDV Heavy Corvette (Line Formation)",
-            "points": 40,
-            "quantity": 2,
-            "elementPropertyName": "smallShips"
-          }
-        ],
-        "decreaseModelCount": 1
-      },
-      {
-        "name": "Gorgon",
-        "points": 0,
-        "factions": [
-          {
-            "name": "USNC",
-            "heroicTier": "Specialist"
-          }
-        ],
-        "requiredChildren": [
-          {
-            "name": "UNSC Supported Marathon Heavy Cruiser",
-            "points": 110,
-            "quantity": 2,
-            "elementPropertyName": "capitalShips"
-          },
-          {
-            "name": "UNSC Paris Frigates (Trident Formation)",
-            "points": 25,
-            "quantity": 2,
-            "elementPropertyName": "smallShips"
-          }
-        ],
-        "decreaseModelCount": 1
-      },
-      {
-        "name": "Orthrus",
-        "points": 0,
-        "factions": [
-          {
-            "name": "USNC",
-            "heroicTier": "Specialist"
-          }
-        ],
-        "requiredChildren": [
-          {
-            "name": "UNSC Epoch Heavy Carrier",
-            "points": 175,
-            "quantity": 2,
-            "elementPropertyName": "capitalShips"
-          }
-        ],
-        "decreaseModelCount": 1,
-        "specialRules": [
-          "Prototype Wings"
-        ]
-      },
-      {
-        "name": "Harpy",
-        "points": 0,
-        "factions": [
-          {
-            "name": "USNC",
-            "heroicTier": "Specialist"
-          }
-        ],
-        "requiredChildren": [
-          {
-            "name": "UNSC Paris Frigates (Arrowhead Formation)",
-            "points": 25,
-            "quantity": 3,
-            "elementPropertyName": "smallShips"
-          },
-          {
-            "name": "UNSC Paris Frigates (Trident Formation)",
-            "points": 25,
-            "quantity": 3,
-            "elementPropertyName": "smallShips"
-          }
-        ],
-        "decreaseModelCount": 1
-      },
-      {
-        "name": "Cyclops",
-        "points": 0,
-        "factions": [
-          {
-            "name": "USNC",
-            "heroicTier": "Specialist"
-          }
-        ],
-        "requiredChildren": [
-          {
-            "name": "UNSC Supported Marathon Heavy Cruiser",
-            "points": 110,
-            "quantity": 1,
-            "elementPropertyName": "capitalShips"
-          },
-          {
-            "name": "UNSC Paris Frigates (Trident Formation)",
-            "points": 25,
-            "quantity": 3,
-            "elementPropertyName": "smallShips"
-          }
-        ],
-        "decreaseModelCount": 1,
-        "specialRules": [
-          "Carrier Refit"
-        ]
-      },
-      {
-        "name": "Golden Path",
-        "points": 0,
-        "factions": [
-          {
-            "name": "Covenant",
-            "heroicTier": "Specialist"
-          }
-        ],
-        "requiredChildren": [
-          {
-            "name": "Covenant Reinforced CCS Battlecruiser",
-            "points": 200,
-            "quantity": 1,
-            "elementPropertyName": "capitalShips"
-          },
-          {
-            "name": "Covenant SDV Heavy Corvette (Line Formation)",
-            "points": 40,
-            "quantity": 1,
-            "elementPropertyName": "smallShips"
-          }
-        ],
-        "decreaseModelCount": 1,
-        "specialRules": [
-          "Command Centre"
-        ]
-      },
-      {
-        "name": "Supplicant",
-        "points": 0,
-        "factions": [
-          {
-            "name": "Covenant",
-            "heroicTier": "Specialist"
-          }
-        ],
-        "requiredChildren": [
-          {
-            "name": "Covenant SDV Heavy Corvette (Tri-Formation)",
-            "points": 60,
-            "quantity": 3,
-            "elementPropertyName": "smallShips"
-          }
-        ],
-        "decreaseModelCount": 1,
-        "specialRules": [
-          "Hunter Killers"
-        ]
-      },
-      {
-        "name": "Penitent (Paired CCS)",
-        "points": 0,
-        "factions": [
-          {
-            "name": "Covenant",
-            "heroicTier": "Specialist"
-          }
-        ],
-        "requiredChildren": [
-          {
-            "name": "Covenant Paired CCS Battlecruisers",
-            "points": 260,
-            "quantity": 1,
-            "elementPropertyName": "capitalShips"
-          }
-        ],
-        "decreaseModelCount": 1,
-        "specialRules": [
-          "Focused Wrath"
-        ]
-      },
-      {
-        "name": "Penitent (Penitent RCS)",
-        "points": 0,
-        "factions": [
-          {
-            "name": "Covenant",
-            "heroicTier": "Specialist"
-          }
-        ],
-        "requiredChildren": [
-          {
-            "name": "Covenant Penitent RCS Armored Cruisers",
-            "points": 220,
-            "quantity": 1,
-            "elementPropertyName": "capitalShips"
-          }
-        ],
-        "decreaseModelCount": 1,
-        "specialRules": [
-          "Focused Wrath"
-        ]
-      },
-      {
-        "name": "Cerberus",
-        "points": 0,
-        "factions": [
-          {
-            "name": "USNC",
-            "heroicTier": "Specialist"
-          }
-        ],
-        "requiredChildren": [
-          {
-            "name": "UNSC Paired Marathon Heavy Cruisers",
-            "points": 220,
-            "quantity": 1,
-            "elementPropertyName": "capitalShips"
-          }
-        ],
-        "decreaseModelCount": 1,
-        "specialRules": [
-          "Wall of Fire"
-        ]
-      },
-      {
-        "name": "Shield Wall",
-        "points": 0,
-        "factions": [
-          {
-            "name": "USNC",
-            "heroicTier": "Specialist"
-          }
-        ],
-        "requiredChildren": [
-          {
-            "name": "UNSC Paris Frigates (Shield Formation)",
-            "points": 40,
-            "quantity": 3,
-            "elementPropertyName": "smallShips"
-          }
-        ],
-        "decreaseModelCount": 1,
-        "specialRules": [
-          "Pack Hunters"
-        ]
-      },
-      {
-        "name": "Barrage",
-        "points": 0,
-        "factions": [
-          {
-            "name": "USNC",
-            "heroicTier": "Specialist"
-          }
-        ],
-        "requiredChildren": [
-          {
-            "name": "UNSC Reinforced Marathon Heavy Cruiser",
-            "points": 135,
-            "quantity": 2,
-            "elementPropertyName": "capitalShips"
-          }
-        ],
-        "decreaseModelCount": 1,
-        "specialRules": [
-          "Advanced Targeting Solutions"
-        ]
-      },
-      {
-        "name": "Bountiful Harvest",
-        "points": 0,
-        "factions": [
-          {
-            "name": "Covenant",
-            "heroicTier": "Specialist"
-          }
-        ],
-        "requiredChildren": [
-          {
-            "name": "Covenant DSC Support Ship",
-            "points": 95,
-            "quantity": 3,
-            "elementPropertyName": "capitalShips"
-          }
-        ],
-        "decreaseModelCount": 1
-      },
-      {
-        "name": "Redeeming Fury",
-        "points": 0,
-        "factions": [
-          {
-            "name": "Covenant",
-            "heroicTier": "Specialist"
-          }
-        ],
-        "requiredChildren": [
-          {
-            "name": "Covenant Defended CPV Heavy Destroyer",
-            "points": 150,
-            "quantity": 2,
-            "elementPropertyName": "capitalShips"
-          }
-        ],
-        "decreaseModelCount": 1
-      },
-      {
-        "name": "Wolf Pack",
-        "points": 0,
-        "factions": [
-          {
-            "name": "USNC",
-            "heroicTier": "Specialist"
-          }
-        ],
-        "requiredChildren": [
-          {
-            "name": "UNSC Halberd Destroyer (Axe Formation)",
-            "points": 50,
-            "quantity": 3,
-            "elementPropertyName": "smallShips"
-          }
-        ],
-        "decreaseModelCount": 1
-      },
-      {
-        "name": "Covenant Assault Carrier (CAS)",
-        "points": 0,
-        "factions": [
-          {
-            "name": "Covenant",
-            "heroicTier": "Massive"
-          }
-        ],
-        "unavailableWith": [
-          "Maccabeus"
-        ],
-        "requiredChildren": [
-          {
-            "name": "Covenant Assault Carrier (Fore Section)",
-            "points": 750,
-            "quantity": 1,
-            "elementPropertyName": "capitalShips"
-          },
-          {
-            "name": "Covenant Assault Carrier (Mid Section)",
-            "points": 0,
-            "quantity": 1,
-            "elementPropertyName": "capitalShips"
-          },
-          {
-            "name": "Covenant Assault Carrier (Aft Section)",
-            "points": 0,
-            "quantity": 1,
-            "elementPropertyName": "capitalShips"
-          }
-        ],
-        "decreaseModelCount": 1,
-        "specialRules": [
-          "Cathedral of the Faithful",
-          "Seraph Hosts",
-          "Limited Resources"
-        ]
-      },
-      {
-        "name": "Punic-class Supercarrier",
-        "points": 0,
-        "factions": [
-          {
-            "name": "USNC",
-            "heroicTier": "Massive"
-          }
-        ],
-        "requiredChildren": [
-          {
-            "name": "UNSC Punic-class Supercarrier (Fore Section)",
-            "points": 675,
-            "quantity": 1,
-            "elementPropertyName": "capitalShips"
-          },
-          {
-            "name": "UNSC Punic-class Supercarrier (Mid Section)",
-            "points": 0,
-            "quantity": 1,
-            "elementPropertyName": "capitalShips"
-          },
-          {
-            "name": "UNSC Punic-class Supercarrier (Aft Section)",
-            "points": 0,
-            "quantity": 1,
-            "elementPropertyName": "capitalShips"
-          }
-        ],
-        "decreaseModelCount": 1,
-        "specialRules": [
-          "Frigate Resupply",
-          "Automated Repair Systems",
-          "Limited Resources"
-        ]
-      }
-    ],
-    "smallShips": [
-      {
-        "name": "Covenant ADP Escort Tri-Formation",
-        "validationKeys": [
-          "nonCapitalElement"
-        ],
-        "points": 20,
-        "factions": [
-          "Covenant"
-        ],
-        "movement": "10\"",
-        "damageTrack": "3•3•3",
-        "buildRating": 1,
-        "hangars": 0,
-        "boardingCraft": 0,
-        "securityDetail": 2,
-        "systemLoadouts": [
-          "Elusive",
-          "Cloaking System",
-          "Defence Array (2)",
-          "Glide (5\")",
-          "Point Defence (2)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+ADP+Escort+Tri-Formation.png"
-      },
-      {
-        "name": "Covenant CAR Frigate (Oblique Formation)",
-        "validationKeys": [
-          "nonCapitalElement"
-        ],
-        "points": 45,
-        "factions": [
-          "Covenant"
-        ],
-        "movement": "9\"",
-        "damageTrack": "4•3•3",
-        "buildRating": 1,
-        "hangars": 0,
-        "boardingCraft": 1,
-        "securityDetail": 2,
-        "systemLoadouts": [
-          "Defence Array (2)",
-          "Elusive",
-          "Glide (5\")",
-          "Point Defence (3)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+CAR+Frigate+(Oblique+Formation).png"
-      },
-      {
-        "name": "Covenant SDV Heavy Corvette (Line Formation)",
-        "validationKeys": [
-          "nonCapitalElement"
-        ],
-        "points": 40,
-        "factions": [
-          "Covenant"
-        ],
-        "movement": "9\"",
-        "damageTrack": "4•4•3",
-        "buildRating": 1,
-        "hangars": 1,
-        "increaseParentMaximumChildren": {
-          "flights": 1
-        },
-        "boardingCraft": 0,
-        "securityDetail": 2,
-        "systemLoadouts": [
-          "Cloaking System",
-          "Defence Array (2)",
-          "Elusive",
-          "Glide (5\")",
-          "Point Defence (3)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+SDV+Heavy+Corvette+(Line+Formation).png"
-      },
-      {
-        "name": "Covenant SDV Heavy Corvette (Oblique Formation)",
-        "validationKeys": [
-          "nonCapitalElement"
-        ],
-        "points": 40,
-        "factions": [
-          "Covenant"
-        ],
-        "movement": "9\"",
-        "damageTrack": "4•3•3",
-        "buildRating": 1,
-        "hangars": 1,
-        "increaseParentMaximumChildren": {
-          "flights": 1
-        },
-        "boardingCraft": 0,
-        "securityDetail": 2,
-        "systemLoadouts": [
-          "Cloaking System",
-          "Defence Array (2)",
-          "Elusive",
-          "Glide (5\")",
-          "Point Defence (3)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+SDV+Heavy+Corvette+(Oblique+Formation).png"
-      },
-      {
-        "name": "Covenant SDV Heavy Corvette (Tri-Formation)",
-        "validationKeys": [
-          "nonCapitalElement"
-        ],
-        "points": 60,
-        "factions": [
-          "Covenant"
-        ],
-        "movement": "9\"",
-        "damageTrack": "5•4•4",
-        "buildRating": 2,
-        "hangars": 2,
-        "increaseParentMaximumChildren": {
-          "flights": 2
-        },
-        "boardingCraft": 0,
-        "securityDetail": 3,
-        "systemLoadouts": [
-          "Cloaking System",
-          "Defence Array (4)",
-          "Elusive",
-          "Glide (5\")",
-          "Point Defence (4)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+SDV+Heavy+Corvette+(Tri-Formation).png"
-      },
-      {
-        "name": "UNSC Halberd Destroyer (Axe Formation)",
-        "validationKeys": [
-          "nonCapitalElement"
-        ],
-        "points": 50,
-        "factions": [
-          "USNC"
-        ],
-        "movement": "10\"",
-        "damageTrack": "4•4•4",
-        "buildRating": 2,
-        "hangars": 0,
-        "boardingCraft": 1,
-        "securityDetail": 2,
-        "systemLoadouts": [
-          "Elusive",
-          "Hard Burn (3\")",
-          "Missile Barrage*",
-          "Point Defence (3)",
-          "Titanium Armour (3)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Halberd+Destroyer+(Axe+Formation).png"
-      },
-      {
-        "name": "UNSC Paris Frigates (Arrowhead Formation)",
-        "validationKeys": [
-          "nonCapitalElement"
-        ],
-        "points": 25,
-        "factions": [
-          "USNC"
-        ],
-        "movement": "10\"",
-        "damageTrack": "3•3•3",
-        "buildRating": 1,
-        "hangars": 0,
-        "boardingCraft": 0,
-        "securityDetail": 2,
-        "systemLoadouts": [
-          "Elusive",
-          "Hard Burn (3\")",
-          "Missile Barrage*",
-          "Point Defence (2)",
-          "Titanium Armour (2)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Paris+Frigates+(Arrowhead+Formation).png"
-      },
-      {
-        "name": "UNSC Paris Frigates (Shield Formation)",
-        "validationKeys": [
-          "nonCapitalElement"
-        ],
-        "points": 40,
-        "factions": [
-          "USNC"
-        ],
-        "movement": "10\"",
-        "damageTrack": "4•4•4",
-        "buildRating": 2,
-        "hangars": 0,
-        "boardingCraft": 0,
-        "securityDetail": 2,
-        "systemLoadouts": [
-          "Elusive",
-          "Hard Burn (3\")",
-          "Missile Barrage*",
-          "Point Defence (3)",
-          "Titanium Armour (2)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Paris+Frigates+(Shield+Formation).png"
-      },
-      {
-        "name": "UNSC Paris Frigates (Trident Formation)",
-        "validationKeys": [
-          "nonCapitalElement"
-        ],
-        "points": 25,
-        "factions": [
-          "USNC"
-        ],
-        "movement": "10\"",
-        "damageTrack": "4•3•3",
-        "buildRating": 1,
-        "hangars": 0,
-        "boardingCraft": 0,
-        "securityDetail": 2,
-        "systemLoadouts": [
-          "Elusive",
-          "Hard Burn (3\")",
-          "Missile Barrage*",
-          "Point Defence (2)",
-          "Titanium Armour (2)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Paris+Frigates+(Trident+Formation).png"
-      }
-    ],
-    "capitalShips": [
-      {
-        "name": "Covenant Assault Carrier (Aft Section)",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "autoAddOnly": true,
-        "points": 0,
-        "factions": [
-          "Covenant"
-        ],
-        "unavailableWith": [
-          "Maccabeus"
-        ],
-        "size": "Massive",
-        "movement": "5\"",
-        "damageTrack": "10•8•7",
-        "buildRating": 5,
-        "hangars": 2,
-        "increaseParentMaximumChildren": {
-          "flights": 2
-        },
-        "boardingCraft": 2,
-        "securityDetail": 6,
-        "systemLoadouts": [
-          "Defence Array (8)",
-          "Glide (3\")",
-          "Labyrinthine",
-          "Point Defence (7)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Assault+Carrier+(Aft+Section).png"
-      },
-      {
-        "name": "Covenant Assault Carrier (Fore Section)",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "autoAddOnly": true,
-        "points": 750,
-        "factions": [
-          "Covenant"
-        ],
-        "unavailableWith": [
-          "Maccabeus"
-        ],
-        "size": "Massive",
-        "movement": "5\"",
-        "damageTrack": "10•8•7",
-        "buildRating": 5,
-        "hangars": 3,
-        "increaseParentMaximumChildren": {
-          "flights": 3
-        },
-        "boardingCraft": 3,
-        "securityDetail": 6,
-        "systemLoadouts": [
-          "Defence Array (8)",
-          "Glide (3\")",
-          "Labyrinthine",
-          "Point Defence (7)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Assault+Carrier+(Fore+Section).png"
-      },
-      {
-        "name": "Covenant Assault Carrier (Mid Section)",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "autoAddOnly": true,
-        "points": 0,
-        "factions": [
-          "Covenant"
-        ],
-        "unavailableWith": [
-          "Maccabeus"
-        ],
-        "size": "Massive",
-        "movement": "5\"",
-        "damageTrack": "11•10•5",
-        "buildRating": 6,
-        "hangars": 10,
-        "increaseParentMaximumChildren": {
-          "flights": 10
-        },
-        "boardingCraft": 5,
-        "securityDetail": 8,
-        "systemLoadouts": [
-          "Carrier Action (3)",
-          "Defence Array (9)",
-          "Glide (3\")",
-          "Labyrinthine",
-          "Point Defence (8)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Assault+Carrier+(Mid+Section).png"
-      },
-      {
-        "name": "Covenant Blockade Runner",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 170,
-        "factions": [
-          "Covenant"
-        ],
-        "size": "Medium",
-        "movement": "9\"",
-        "damageTrack": "7•6•4",
-        "buildRating": 3,
-        "hangars": 2,
-        "increaseParentMaximumChildren": {
-          "flights": 2
-        },
-        "boardingCraft": 2,
-        "securityDetail": 4,
-        "systemLoadouts": [
-          "Cloaking System",
-          "Defence Array (4)",
-          "Glide (4\")",
-          "Point Defence (3)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Blockade+Runner.png"
-      },
-      {
-        "name": "Covenant Carrack Merchant Cruiser",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 145,
-        "factions": [
-          "Covenant"
-        ],
-        "unavailableWith": [
-          "Maccabeus"
-        ],
-        "size": "Large",
-        "movement": "4\"",
-        "damageTrack": "11•10•6",
-        "buildRating": 3,
-        "hangars": 0,
-        "boardingCraft": 3,
-        "securityDetail": 6,
-        "systemLoadouts": [
-          "Defence Array (2)",
-          "Hard Burn (4\")",
-          "Point Defence (3)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Carrack+Merchant+Cruiser.png"
-      },
-      {
-        "name": "Covenant CCS Battlecruiser",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 150,
-        "factions": [
-          "Covenant"
-        ],
-        "size": "Medium",
-        "movement": "8\"",
-        "damageTrack": "8•7•3",
-        "buildRating": 3,
-        "hangars": 2,
-        "increaseParentMaximumChildren": {
-          "flights": 2
-        },
-        "boardingCraft": 2,
-        "securityDetail": 4,
-        "systemLoadouts": [
-          "Carrier Action (1)",
-          "Defence Array (4)",
-          "Glide (4\")",
-          "Point Defence (3)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+CCS+Battlecruiser.png"
-      },
-      {
-        "name": "Covenant CPV Heavy Destroyer",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 110,
-        "factions": [
-          "Covenant"
-        ],
-        "size": "Medium",
-        "movement": "8\"",
-        "damageTrack": "8•6•4",
-        "buildRating": 3,
-        "hangars": 2,
-        "increaseParentMaximumChildren": {
-          "flights": 2
-        },
-        "boardingCraft": 3,
-        "systemLoadouts": [
-          "Defence Array (3)",
-          "Glide (4\")",
-          "Point Defence (4)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+CPV+Heavy+Destroyer.png"
-      },
-      {
-        "name": "Covenant DDS Light Carrier",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 200,
-        "factions": [
-          "Covenant"
-        ],
-        "unavailableWith": [
-          "Maccabeus"
-        ],
-        "size": "Large",
-        "movement": "6\"",
-        "damageTrack": "10•8•4",
-        "buildRating": 4,
-        "hangars": 6,
-        "increaseParentMaximumChildren": {
-          "flights": 6
-        },
-        "boardingCraft": 3,
-        "securityDetail": 4,
-        "systemLoadouts": [
-          "Carrier Action (2)",
-          "Cloaking System",
-          "Defence Array (4)",
-          "Glide (3\")",
-          "Point Defence (5)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+DDS+Light+Carrier.png"
-      },
-      {
-        "name": "Covenant Defended CCS Battlecruiser",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 190,
-        "factions": [
-          "Covenant"
-        ],
-        "size": "Medium",
-        "movement": "8\"",
-        "damageTrack": "8•7•5",
-        "buildRating": 4,
-        "hangars": 2,
-        "increaseParentMaximumChildren": {
-          "flights": 2
-        },
-        "boardingCraft": 2,
-        "securityDetail": 5,
-        "systemLoadouts": [
-          "Cloaking System",
-          "Carrier Action (1)",
-          "Defence Array (5)",
-          "Glide (4\")",
-          "Point Defence (5)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Defended+CCS+Battlecruiser.png"
-      },
-      {
-        "name": "Covenant Defended CPV Heavy Destroyer",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 150,
-        "factions": [
-          "Covenant"
-        ],
-        "size": "Medium",
-        "movement": "8\"",
-        "damageTrack": "8•6•6",
-        "buildRating": 4,
-        "hangars": 2,
-        "increaseParentMaximumChildren": {
-          "flights": 2
-        },
-        "boardingCraft": 3,
-        "systemLoadouts": [
-          "Cloaking System",
-          "Defence Array (4)",
-          "Glide (4\")",
-          "Point Defence (6)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Defended+CPV+Heavy+Destroyer.png"
-      },
-      {
-        "name": "Covenant Defended DSC Support Ship",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 135,
-        "factions": [
-          "Covenant"
-        ],
-        "size": "Medium",
-        "movement": "7\"",
-        "damageTrack": "7•6•6",
-        "buildRating": 3,
-        "hangars": 3,
-        "increaseParentMaximumChildren": {
-          "flights": 3
-        },
-        "boardingCraft": 4,
-        "securityDetail": 5,
-        "systemLoadouts": [
-          "Cloaking System",
-          "Defence Array (4)",
-          "Glide (4\")",
-          "Labyrinthine",
-          "Point Defence (6)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Defended+DSC+Support+Ship.png"
-      },
-      {
-        "name": "Covenant Defended RCS Armoured Cruiser",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 160,
-        "factions": [
-          "Covenant"
-        ],
-        "size": "Medium",
-        "movement": "7\"",
-        "damageTrack": "9•8•6",
-        "buildRating": 3,
-        "hangars": 2,
-        "increaseParentMaximumChildren": {
-          "flights": 2
-        },
-        "boardingCraft": 3,
-        "securityDetail": 6,
-        "systemLoadouts": [
-          "Cloaking System",
-          "Defence Array (3)",
-          "Glide (3\")",
-          "Point Defence (6)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Defended+RCS+Armoured+Cruiser.png"
-      },
-      {
-        "name": "Covenant DSC Support Ship",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 95,
-        "factions": [
-          "Covenant"
-        ],
-        "size": "Medium",
-        "movement": "7\"",
-        "damageTrack": "7•6•4",
-        "buildRating": 2,
-        "hangars": 3,
-        "increaseParentMaximumChildren": {
-          "flights": 3
-        },
-        "boardingCraft": 4,
-        "securityDetail": 4,
-        "systemLoadouts": [
-          "Defence Array (3)",
-          "Glide (4\")",
-          "Labyrinthine",
-          "Point Defence (4)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+DSC+Support+Ship.png"
-      },
-      {
-        "name": "Covenant Escorted Blockade Runner",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 210,
-        "factions": [
-          "Covenant"
-        ],
-        "size": "Medium",
-        "movement": "9\"",
-        "damageTrack": "7•6•5",
-        "buildRating": 4,
-        "hangars": 2,
-        "increaseParentMaximumChildren": {
-          "flights": 2
-        },
-        "boardingCraft": 2,
-        "securityDetail": 4,
-        "systemLoadouts": [
-          "Cloaking System",
-          "Defence Array (4)",
-          "Glide (4\")",
-          "Point Defence (4)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Escorted+Blockade+Runner.png"
-      },
-      {
-        "name": "Covenant Escorted Carrack Merchant Cruiser",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 165,
-        "factions": [
-          "Covenant"
-        ],
-        "unavailableWith": [
-          "Maccabeus"
-        ],
-        "size": "Large",
-        "movement": "4\"",
-        "damageTrack": "11•11•6",
-        "buildRating": 4,
-        "hangars": 0,
-        "boardingCraft": 3,
-        "securityDetail": 6,
-        "systemLoadouts": [
-          "Defence Array (3)",
-          "Hard Burn (4\")",
-          "Point Defence (5)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Escorted+Carrack+Merchant+Cruiser.png"
-      },
-      {
-        "name": "Covenant Escorted CCS Battlecruiser",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 170,
-        "factions": [
-          "Covenant"
-        ],
-        "size": "Medium",
-        "movement": "8\"",
-        "damageTrack": "8•7•4",
-        "buildRating": 4,
-        "hangars": 2,
-        "increaseParentMaximumChildren": {
-          "flights": 2
-        },
-        "boardingCraft": 2,
-        "securityDetail": 5,
-        "systemLoadouts": [
-          "Carrier Action (1)",
-          "Defence Array (5)",
-          "Glide (4\")",
-          "Point Defence (5)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Escorted+CCS+Battlecruiser.png"
-      },
-      {
-        "name": "Covenant Escorted CPV Heavy Destroyer",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 130,
-        "factions": [
-          "Covenant"
-        ],
-        "size": "Medium",
-        "movement": "8\"",
-        "damageTrack": "8•6•5",
-        "buildRating": 4,
-        "hangars": 2,
-        "increaseParentMaximumChildren": {
-          "flights": 2
-        },
-        "boardingCraft": 3,
-        "systemLoadouts": [
-          "Defence Array (4)",
-          "Glide (4\")",
-          "Point Defence (6)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Escorted+CPV+Heavy+Destroyer.png"
-      },
-      {
-        "name": "Covenant Escorted DSC Support Ship",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 115,
-        "factions": [
-          "Covenant"
-        ],
-        "size": "Medium",
-        "movement": "7\"",
-        "damageTrack": "7•6•5",
-        "buildRating": 3,
-        "hangars": 3,
-        "increaseParentMaximumChildren": {
-          "flights": 3
-        },
-        "boardingCraft": 4,
-        "securityDetail": 5,
-        "systemLoadouts": [
-          "Defence Array (4)",
-          "Glide (4\")",
-          "Labyrinthine",
-          "Point Defence (6)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Escorted+DSC+Support+Ship.png"
-      },
-      {
-        "name": "Covenant Escorted RCS Armoured Cruiser",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 140,
-        "factions": [
-          "Covenant"
-        ],
-        "size": "Medium",
-        "movement": "7\"",
-        "damageTrack": "9•8•5",
-        "buildRating": 3,
-        "hangars": 2,
-        "increaseParentMaximumChildren": {
-          "flights": 2
-        },
-        "boardingCraft": 3,
-        "securityDetail": 6,
-        "systemLoadouts": [
-          "Defence Array (3)",
-          "Glide (3\")",
-          "Point Defence (6)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Escorted+RCS+Armoured+Cruiser.png"
-      },
-      {
-        "name": "Covenant ORS Heavy Cruiser",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 200,
-        "factions": [
-          "Covenant"
-        ],
-        "unavailableWith": [
-          "Maccabeus"
-        ],
-        "size": "Large",
-        "movement": "5\"",
-        "damageTrack": "11•10•5",
-        "buildRating": 4,
-        "hangars": 5,
-        "increaseParentMaximumChildren": {
-          "flights": 5
-        },
-        "boardingCraft": 3,
-        "securityDetail": 4,
-        "systemLoadouts": [
-          "Cloaking System",
-          "Defence Array (4)",
-          "Glide (3\")",
-          "Point Defence (5)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+ORS+Heavy+Cruiser.png"
-      },
-      {
-        "name": "Covenant Paired CCS Battlecruisers",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "autoAddOnly": true,
-        "points": 260,
-        "factions": [
-          "Covenant"
-        ],
-        "size": "Medium",
-        "movement": "8\"",
-        "damageTrack": "11•11•4",
-        "buildRating": 8,
-        "hangars": 4,
-        "increaseParentMaximumChildren": {
-          "flights": 4
-        },
-        "boardingCraft": 4,
-        "securityDetail": 8,
-        "systemLoadouts": [
-          "Carrier Action (2)",
-          "Defence Array (7)",
-          "Glide (4\")",
-          "Point Defence (6)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Paired+CCS+Battlecruisers.png"
-      },
-      {
-        "name": "Covenant Penitent RCS Armored Cruisers",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "autoAddOnly": true,
-        "points": 220,
-        "factions": [
-          "Covenant"
-        ],
-        "size": "Medium",
-        "movement": "7\"",
-        "damageTrack": "12•9•7",
-        "buildRating": 6,
-        "hangars": 4,
-        "increaseParentMaximumChildren": {
-          "flights": 4
-        },
-        "boardingCraft": 5,
-        "securityDetail": 8,
-        "systemLoadouts": [
-          "Defence Array (5)",
-          "Glide (3\")",
-          "Point Defence (7)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Penitent+RCS+Armored+Cruisers.png"
-      },
-      {
-        "name": "Covenant RCS Armored Cruiser",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 120,
-        "factions": [
-          "Covenant"
-        ],
-        "size": "Medium",
-        "movement": "7\"",
-        "damageTrack": "9•8•4",
-        "buildRating": 2,
-        "hangars": 2,
-        "increaseParentMaximumChildren": {
-          "flights": 2
-        },
-        "boardingCraft": 3,
-        "securityDetail": 5,
-        "systemLoadouts": [
-          "Defence Array (2)",
-          "Glide (3\")",
-          "Point Defence (4)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+RCS+Armored+Cruiser.png"
-      },
-      {
-        "name": "Covenant Reinforced CCS Battlecruiser",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 200,
-        "factions": [
-          "Covenant"
-        ],
-        "size": "Medium",
-        "movement": "8\"",
-        "damageTrack": "8•7•5",
-        "buildRating": 5,
-        "hangars": 5,
-        "increaseParentMaximumChildren": {
-          "flights": 5
-        },
-        "boardingCraft": 4,
-        "securityDetail": 6,
-        "systemLoadouts": [
-          "Carrier Action (1)",
-          "Defence Array (6)",
-          "Glide (4\")",
-          "Point Defence (6)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Reinforced+CCS+Battlecruiser.png"
-      },
-      {
-        "name": "Covenant Reinforced DSC Support Ship",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 135,
-        "factions": [
-          "Covenant"
-        ],
-        "size": "Medium",
-        "movement": "7\"",
-        "damageTrack": "7•6•6",
-        "buildRating": 4,
-        "hangars": 5,
-        "increaseParentMaximumChildren": {
-          "flights": 5
-        },
-        "boardingCraft": 4,
-        "securityDetail": 5,
-        "systemLoadouts": [
-          "Defence Array (5)",
-          "Glide (4\")",
-          "Labyrinthine",
-          "Point Defence (6)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Reinforced+DSC+Support+Ship.png"
-      },
-      {
-        "name": "Covenant Reinforced RCS Armored Cruiser",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 160,
-        "factions": [
-          "Covenant"
-        ],
-        "size": "Medium",
-        "movement": "7\"",
-        "damageTrack": "9•8•6",
-        "buildRating": 4,
-        "hangars": 4,
-        "increaseParentMaximumChildren": {
-          "flights": 4
-        },
-        "boardingCraft": 3,
-        "securityDetail": 6,
-        "systemLoadouts": [
-          "Defence Array (4)",
-          "Glide (3\")",
-          "Point Defence (6)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Reinforced+RCS+Armored+Cruiser.png"
-      },
-      {
-        "name": "Covenant Supported CCS Battlecruiser",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 170,
-        "factions": [
-          "Covenant"
-        ],
-        "size": "Medium",
-        "movement": "8\"",
-        "damageTrack": "8•7•4",
-        "buildRating": 4,
-        "hangars": 3,
-        "increaseParentMaximumChildren": {
-          "flights": 3
-        },
-        "boardingCraft": 2,
-        "securityDetail": 5,
-        "systemLoadouts": [
-          "Carrier Action (1)",
-          "Defence Array (5)",
-          "Glide (4\")",
-          "Point Defence (4)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Supported+CCS+Battlecruiser.png"
-      },
-      {
-        "name": "Covenant Supported CPV Heavy Destroyer",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 130,
-        "factions": [
-          "Covenant"
-        ],
-        "size": "Medium",
-        "movement": "8\"",
-        "damageTrack": "8•7•4",
-        "buildRating": 4,
-        "hangars": 3,
-        "increaseParentMaximumChildren": {
-          "flights": 3
-        },
-        "boardingCraft": 4,
-        "systemLoadouts": [
-          "Defence Array (4)",
-          "Glide (4\")",
-          "Point Defence (4)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Supported+CPV+Heavy+Destroyer.png"
-      },
-      {
-        "name": "Covenant Supported DDS Light Carrier",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 220,
-        "factions": [
-          "Covenant"
-        ],
-        "unavailableWith": [
-          "Maccabeus"
-        ],
-        "size": "Large",
-        "movement": "6\"",
-        "damageTrack": "10•8•5",
-        "buildRating": 5,
-        "hangars": 7,
-        "increaseParentMaximumChildren": {
-          "flights": 7
-        },
-        "boardingCraft": 3,
-        "securityDetail": 5,
-        "systemLoadouts": [
-          "Carrier Action (2)",
-          "Cloaking System",
-          "Defence Array (5)",
-          "Glide (3\")",
-          "Point Defence (6)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Supported+DDS+Light+Carrier.png"
-      },
-      {
-        "name": "Covenant Supported DSC Support Ship",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 115,
-        "factions": [
-          "Covenant"
-        ],
-        "size": "Medium",
-        "movement": "7\"",
-        "damageTrack": "7•6•5",
-        "buildRating": 3,
-        "hangars": 4,
-        "increaseParentMaximumChildren": {
-          "flights": 4
-        },
-        "boardingCraft": 4,
-        "securityDetail": 5,
-        "systemLoadouts": [
-          "Defence Array (4)",
-          "Glide (4\")",
-          "Labyrinthine",
-          "Point Defence (5)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Supported+DSC+Support+Ship.png"
-      },
-      {
-        "name": "Covenant Supported ORS Heavy Cruiser",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 220,
-        "factions": [
-          "Covenant"
-        ],
-        "unavailableWith": [
-          "Maccabeus"
-        ],
-        "size": "Large",
-        "movement": "5\"",
-        "damageTrack": "11•10•6",
-        "buildRating": 5,
-        "hangars": 6,
-        "increaseParentMaximumChildren": {
-          "flights": 6
-        },
-        "boardingCraft": 3,
-        "securityDetail": 5,
-        "systemLoadouts": [
-          "Cloaking System",
-          "Defence Array (5)",
-          "Glide (3\")",
-          "Point Defence (6)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Supported+ORS+Heavy+Cruiser.png"
-      },
-      {
-        "name": "Covenant Supported RCS Armored Cruiser",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 140,
-        "factions": [
-          "Covenant"
-        ],
-        "size": "Medium",
-        "movement": "7\"",
-        "damageTrack": "9•8•5",
-        "buildRating": 3,
-        "hangars": 3,
-        "increaseParentMaximumChildren": {
-          "flights": 3
-        },
-        "boardingCraft": 3,
-        "securityDetail": 6,
-        "systemLoadouts": [
-          "Defence Array (3)",
-          "Glide (3\")",
-          "Point Defence (5)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Supported+RCS+Armored+Cruiser.png"
-      },
-      {
-        "name": "UNSC Autumn-class Heavy Cruiser",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 105,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Medium",
-        "movement": "6\"",
-        "damageTrack": "6•6•3",
-        "buildRating": 2,
-        "hangars": 2,
-        "increaseParentMaximumChildren": {
-          "flights": 2
-        },
-        "boardingCraft": 2,
-        "securityDetail": 3,
-        "systemLoadouts": [
-          "Defence Arrays (2)",
-          "Hard Burn (3\")",
-          "Missile Barrage*",
-          "Point Defence (2)",
-          "Titanium Armour (2)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Autumn-class+Heavy+Cruiser.png"
-      },
-      {
-        "name": "UNSC Defended Epoch Heavy Carrier",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 220,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Large",
-        "movement": "6\"",
-        "damageTrack": "10•8•6",
-        "buildRating": 5,
-        "hangars": 6,
-        "increaseParentMaximumChildren": {
-          "flights": 6
-        },
-        "boardingCraft": 3,
-        "securityDetail": 5,
-        "systemLoadouts": [
-          "Carrier Action (3)",
-          "Hard Burn (1\")",
-          "Missile Barrage*",
-          "Point Defence (5)",
-          "Titanium Armour (6)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Defended+Epoch+Heavy+Carrier.png"
-      },
-      {
-        "name": "UNSC Defended Orion Assault Carrier",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 160,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Medium",
-        "movement": "6\"",
-        "damageTrack": "8•6•5",
-        "buildRating": 4,
-        "hangars": 3,
-        "increaseParentMaximumChildren": {
-          "flights": 3
-        },
-        "boardingCraft": 5,
-        "securityDetail": 5,
-        "systemLoadouts": [
-          "Carrier Action (1)",
-          "Hard Burn (3\")",
-          "Missile Barrage*",
-          "Point Defence (4)",
-          "Titanium Armour (6)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Defended+Orion+Assault+Carrier.png"
-      },
-      {
-        "name": "UNSC Defended Valiant Super-Heavy Cruiser",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 160,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Medium",
-        "movement": "7\"",
-        "damageTrack": "8•6•4",
-        "buildRating": 4,
-        "hangars": 2,
-        "increaseParentMaximumChildren": {
-          "flights": 2
-        },
-        "boardingCraft": 3,
-        "securityDetail": 6,
-        "systemLoadouts": [
-          "Hard Burn (2\")",
-          "Missile Barrage*",
-          "Point Defence (4)",
-          "Titanium Armour (6)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Defended+Valiant+Super-Heavy+Cruiser.png"
-      },
-      {
-        "name": "UNSC Eion Light Carrier",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 85,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Medium",
-        "movement": "7\"",
-        "damageTrack": "6•5•4",
-        "buildRating": 2,
-        "hangars": 3,
-        "increaseParentMaximumChildren": {
-          "flights": 3
-        },
-        "boardingCraft": 2,
-        "securityDetail": 2,
-        "systemLoadouts": [
-          "Carrier Action (1)",
-          "Hard Burn (2\")",
-          "Missile Barrage*",
-          "Point Defence (3)",
-          "Titanium Armour (3)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Eion+Light+Carrier.png"
-      },
-      {
-        "name": "UNSC Epoch Heavy Carrier",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 175,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Large",
-        "movement": "6\"",
-        "damageTrack": "9•8•5",
-        "buildRating": 4,
-        "hangars": 6,
-        "increaseParentMaximumChildren": {
-          "flights": 6
-        },
-        "boardingCraft": 3,
-        "securityDetail": 4,
-        "systemLoadouts": [
-          "Carrier Action (3)",
-          "Hard Burn (1\")",
-          "Missile Barrage*",
-          "Point Defence (5)",
-          "Titanium Armour (4)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Epoch+Heavy+Carrier.png"
-      },
-      {
-        "name": "UNSC Escorted Autumn-class Heavy Cruiser",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 120,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Medium",
-        "movement": "6\"",
-        "damageTrack": "7•6•3",
-        "buildRating": 3,
-        "hangars": 2,
-        "increaseParentMaximumChildren": {
-          "flights": 2
-        },
-        "boardingCraft": 2,
-        "securityDetail": 4,
-        "systemLoadouts": [
-          "Defence Arrays (2)",
-          "Hard Burn (3\")",
-          "Missile Barrage*",
-          "Point Defence (2)",
-          "Titanium Armour (3)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Escorted+Autumn-class+Heavy+Cruiser.png"
-      },
-      {
-        "name": "UNSC Escorted Orion Assault Carrier",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 145,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Medium",
-        "movement": "6\"",
-        "damageTrack": "8•6•4",
-        "buildRating": 4,
-        "hangars": 3,
-        "increaseParentMaximumChildren": {
-          "flights": 3
-        },
-        "boardingCraft": 5,
-        "securityDetail": 4,
-        "systemLoadouts": [
-          "Carrier Action (1)",
-          "Hard Burn (3\")",
-          "Missile Barrage*",
-          "Point Defence (4)",
-          "Titanium Armour (5)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Escorted+Orion+Assault+Carrier.png"
-      },
-      {
-        "name": "UNSC Escorted Valiant Super-Heavy Cruiser",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 135,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Medium",
-        "movement": "7\"",
-        "damageTrack": "8•6•3",
-        "buildRating": 4,
-        "hangars": 2,
-        "increaseParentMaximumChildren": {
-          "flights": 2
-        },
-        "boardingCraft": 3,
-        "securityDetail": 5,
-        "systemLoadouts": [
-          "Hard Burn (2\")",
-          "Missile Barrage*",
-          "Point Defence (4)",
-          "Titanium Armour (5)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Escorted+Valiant+Super-Heavy+Cruiser.png"
-      },
-      {
-        "name": "UNSC Halcyon Light Cruiser",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 80,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Medium",
-        "movement": "6\"",
-        "damageTrack": "7•5•4",
-        "buildRating": 2,
-        "hangars": 2,
-        "increaseParentMaximumChildren": {
-          "flights": 2
-        },
-        "boardingCraft": 2,
-        "securityDetail": 3,
-        "systemLoadouts": [
-          "Hard Target",
-          "Hard Burn (2\")",
-          "Missile Barrage*",
-          "Point Defence (2)",
-          "Titanium Armour (2)",
-          "Lumbering"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Halcyon+Light+Cruiser.png"
-      },
-      {
-        "name": "UNSC MAC Platform",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 160,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Medium",
-        "movement": "0\"",
-        "damageTrack": "7•6•3",
-        "buildRating": 3,
-        "hangars": 4,
-        "increaseParentMaximumChildren": {
-          "flights": 4
-        },
-        "boardingCraft": 2,
-        "securityDetail": 6,
-        "systemLoadouts": [
-          "Emplacement",
-          "Point Defence (5)",
-          "Titanium Armour (5)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+MAC+Platform.png"
-      },
-      {
-        "name": "UNSC Marathon Heavy Cruiser",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 95,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Medium",
-        "movement": "8\"",
-        "damageTrack": "6•6•3",
-        "buildRating": 2,
-        "hangars": 2,
-        "increaseParentMaximumChildren": {
-          "flights": 2
-        },
-        "boardingCraft": 2,
-        "securityDetail": 3,
-        "systemLoadouts": [
-          "Hard Burn (2\")",
-          "Missile Barrage*",
-          "Point Defence (3)",
-          "Titanium Armour (3)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Marathon+Heavy+Cruiser.png"
-      },
-      {
-        "name": "UNSC Orion Assault Carrier",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 120,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Medium",
-        "movement": "6\"",
-        "damageTrack": "7•6•4",
-        "buildRating": 3,
-        "hangars": 3,
-        "increaseParentMaximumChildren": {
-          "flights": 3
-        },
-        "boardingCraft": 4,
-        "securityDetail": 3,
-        "systemLoadouts": [
-          "Carrier Action (1)",
-          "Hard Burn (3\")",
-          "Missile Barrage*",
-          "Point Defence (4)",
-          "Titanium Armour (4)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Orion+Assault+Carrier.png"
-      },
-      {
-        "name": "UNSC Paired Marathon Heavy Cruisers",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "autoAddOnly": true,
-        "points": 220,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Medium",
-        "movement": "8\"",
-        "damageTrack": "10•10•5",
-        "buildRating": 6,
-        "hangars": 4,
-        "increaseParentMaximumChildren": {
-          "flights": 4
-        },
-        "boardingCraft": 4,
-        "securityDetail": 6,
-        "systemLoadouts": [
-          "Hard Burn (2\")",
-          "Missile Barrage*",
-          "Point Defence (7)",
-          "Titanium Armour (7)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Paired+Marathon+Heavy+Cruisers.png"
-      },
-      {
-        "name": "UNSC Phoenix (Guardian Spirit Formation)",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 260,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Large",
-        "movement": "6\"",
-        "damageTrack": "12•11•6",
-        "buildRating": 6,
-        "hangars": 5,
-        "increaseParentMaximumChildren": {
-          "flights": 5
-        },
-        "boardingCraft": 7,
-        "securityDetail": 7,
-        "systemLoadouts": [
-          "Hard Burn (2\")",
-          "Missile Barrage*",
-          "Point Defence (6)",
-          "Titanium Armour (7)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Phoenix+(Guardian+Spirit+Formation).png"
-      },
-      {
-        "name": "UNSC Phoenix-class Colonial Support Vessel",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 200,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Large",
-        "movement": "6\"",
-        "damageTrack": "10•9•5",
-        "buildRating": 4,
-        "hangars": 3,
-        "increaseParentMaximumChildren": {
-          "flights": 3
-        },
-        "boardingCraft": 6,
-        "securityDetail": 5,
-        "systemLoadouts": [
-          "Hard Burn (2\")",
-          "Missile Barrage*",
-          "Point Defence (4)",
-          "Titanium Armour (5)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Phoenix-class+Colonial+Support+Vessel.png"
-      },
-      {
-        "name": "UNSC Punic-class Supercarrier (Aft Section)",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "autoAddOnly": true,
-        "points": 0,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Massive",
-        "movement": "6\"",
-        "damageTrack": "10•8•5",
-        "buildRating": 5,
-        "hangars": 2,
-        "increaseParentMaximumChildren": {
-          "flights": 2
-        },
-        "boardingCraft": 3,
-        "securityDetail": 6,
-        "systemLoadouts": [
-          "Hard Burn (1\")",
-          "Labyrinthine",
-          "Point Defence (7)",
-          "Titanium Armour (8)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Punic-class+Supercarrier+(Aft+Section).png"
-      },
-      {
-        "name": "UNSC Punic-class Supercarrier (Fore Section)",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "autoAddOnly": true,
-        "points": 675,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Massive",
-        "movement": "6\"",
-        "damageTrack": "10•8•5",
-        "buildRating": 5,
-        "hangars": 2,
-        "increaseParentMaximumChildren": {
-          "flights": 2
-        },
-        "boardingCraft": 3,
-        "securityDetail": 6,
-        "systemLoadouts": [
-          "Hard Burn (1\")",
-          "Labyrinthine",
-          "Point Defence (7)",
-          "Titanium Armour (8)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Punic-class+Supercarrier+(Fore+Section).png"
-      },
-      {
-        "name": "UNSC Punic-class Supercarrier (Mid Section)",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "autoAddOnly": true,
-        "points": 0,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Massive",
-        "movement": "6\"",
-        "damageTrack": "11•9•6",
-        "buildRating": 6,
-        "hangars": 10,
-        "increaseParentMaximumChildren": {
-          "flights": 10
-        },
-        "boardingCraft": 5,
-        "securityDetail": 8,
-        "systemLoadouts": [
-          "Carrier Action (3)",
-          "Hard Burn (1\")",
-          "Labyrinthine",
-          "Point Defence (8)",
-          "Titanium Armour (7)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Punic-class+Supercarrier+(Mid+Section).png"
-      },
-      {
-        "name": "UNSC Reinforced Marathon Heavy Cruiser",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 135,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Medium",
-        "movement": "8\"",
-        "damageTrack": "8•7•4",
-        "buildRating": 4,
-        "hangars": 2,
-        "increaseParentMaximumChildren": {
-          "flights": 2
-        },
-        "boardingCraft": 2,
-        "securityDetail": 4,
-        "systemLoadouts": [
-          "Hard Burn (2\")",
-          "Missile Barrage*",
-          "Point Defence (5)",
-          "Titanium Armour (4)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Reinforced+Marathon+Heavy+Cruiser.png"
-      },
-      {
-        "name": "UNSC Reinforced Orion Assault Carrier",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 150,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Medium",
-        "movement": "6\"",
-        "damageTrack": "8•6•5",
-        "buildRating": 4,
-        "hangars": 3,
-        "increaseParentMaximumChildren": {
-          "flights": 3
-        },
-        "boardingCraft": 4,
-        "securityDetail": 5,
-        "systemLoadouts": [
-          "Carrier Action (1)",
-          "Hard Burn (3\")",
-          "Missile Barrage*",
-          "Point Defence (5)",
-          "Titanium Armour (5)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Reinforced+Orion+Assault+Carrier.png"
-      },
-      {
-        "name": "UNSC Supported Eion Light Carrier",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 100,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Medium",
-        "movement": "7\"",
-        "damageTrack": "7•5•4",
-        "buildRating": 3,
-        "hangars": 4,
-        "increaseParentMaximumChildren": {
-          "flights": 4
-        },
-        "boardingCraft": 2,
-        "securityDetail": 3,
-        "systemLoadouts": [
-          "Carrier Action (1)",
-          "Hard Burn (2\")",
-          "Missile Barrage*",
-          "Point Defence (4)",
-          "Titanium Armour (3)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Supported+Eion+Light+Carrier.png"
-      },
-      {
-        "name": "UNSC Supported Epoch Heavy Carrier",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 190,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Large",
-        "movement": "6\"",
-        "damageTrack": "10•8•5",
-        "buildRating": 5,
-        "hangars": 6,
-        "increaseParentMaximumChildren": {
-          "flights": 6
-        },
-        "boardingCraft": 3,
-        "securityDetail": 5,
-        "systemLoadouts": [
-          "Carrier Action (3)",
-          "Hard Burn (1\")",
-          "Missile Barrage*",
-          "Point Defence (6)",
-          "Titanium Armour (5)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Supported+Epoch+Heavy+Carrier.png"
-      },
-      {
-        "name": "UNSC Supported Halcyon Light Cruiser",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 95,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Medium",
-        "movement": "6\"",
-        "damageTrack": "8•5•4",
-        "buildRating": 3,
-        "hangars": 2,
-        "increaseParentMaximumChildren": {
-          "flights": 2
-        },
-        "boardingCraft": 2,
-        "securityDetail": 4,
-        "systemLoadouts": [
-          "Hard Target",
-          "Hard Burn (2\")",
-          "Missile Barrage*",
-          "Point Defence (3)",
-          "Titanium Armour (2)",
-          "Lumbering"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Supported+Halcyon+Light+Cruiser.png"
-      },
-      {
-        "name": "UNSC Supported Marathon Heavy Cruiser",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 110,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Medium",
-        "movement": "8\"",
-        "damageTrack": "7•6•3",
-        "buildRating": 3,
-        "hangars": 2,
-        "increaseParentMaximumChildren": {
-          "flights": 2
-        },
-        "boardingCraft": 2,
-        "securityDetail": 4,
-        "systemLoadouts": [
-          "Hard Burn (2\")",
-          "Missile Barrage*",
-          "Point Defence (4)",
-          "Titanium Armour (3)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Supported+Marathon+Heavy+Cruiser.png"
-      },
-      {
-        "name": "UNSC Supported Orion Assault Carrier",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 135,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Medium",
-        "movement": "6\"",
-        "damageTrack": "8•6•4",
-        "buildRating": 4,
-        "hangars": 3,
-        "increaseParentMaximumChildren": {
-          "flights": 3
-        },
-        "boardingCraft": 4,
-        "securityDetail": 4,
-        "systemLoadouts": [
-          "Carrier Action (1)",
-          "Hard Burn (3\")",
-          "Missile Barrage*",
-          "Point Defence (5)",
-          "Titanium Armour (4)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Supported+Orion+Assault+Carrier.png"
-      },
-      {
-        "name": "UNSC Supported Valiant Super-Heavy Cruiser",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 135,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Medium",
-        "movement": "7\"",
-        "damageTrack": "8•6•3",
-        "buildRating": 4,
-        "hangars": 3,
-        "increaseParentMaximumChildren": {
-          "flights": 3
-        },
-        "boardingCraft": 2,
-        "securityDetail": 5,
-        "systemLoadouts": [
-          "Hard Burn (2\")",
-          "Missile Barrage*",
-          "Point Defence (5)",
-          "Titanium Armour (4)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Supported+Valiant+Super-Heavy+Cruiser.png"
-      },
-      {
-        "name": "UNSC Valiant Super-Heavy Cruiser",
-        "validationKeys": [
-          "capitalElement"
-        ],
-        "points": 115,
-        "factions": [
-          "USNC"
-        ],
-        "size": "Medium",
-        "movement": "7\"",
-        "damageTrack": "7•6•3",
-        "buildRating": 3,
-        "hangars": 2,
-        "increaseParentMaximumChildren": {
-          "flights": 2
-        },
-        "boardingCraft": 2,
-        "securityDetail": 4,
-        "systemLoadouts": [
-          "Hard Burn (2\")",
-          "Missile Barrage*",
-          "Point Defence (4)",
-          "Titanium Armour (4)"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Valiant+Super-Heavy+Cruiser.png"
-      }
-    ],
-    "flights": [
-      {
-        "name": "Covenant Seraph Interceptor Flight",
-        "validationKeys": [
-          "nonCapitalElement"
-        ],
-        "points": 0,
-        "factions": [
-          "Covenant"
-        ],
-        "movement": "16\"",
-        "damageTrack": "2",
-        "flightSlots": 1,
-        "systemLoadouts": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Seraph+Interceptor+Flight.png"
-      },
-      {
-        "name": "Covenant Banshee Interceptor Flight",
-        "validationKeys": [
-          "nonCapitalElement"
-        ],
-        "points": 0,
-        "factions": [
-          "Covenant"
-        ],
-        "movement": "14\"",
-        "damageTrack": "1",
-        "flightSlots": 0.5,
-        "systemLoadouts": [
-          "Fixed Flight"
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Banshee+Interceptor+Flight.png"
-      },
-      {
-        "name": "Covenant Tarasque Bomber Flight",
-        "validationKeys": [
-          "nonCapitalElement"
-        ],
-        "points": 0,
-        "factions": [
-          "Covenant"
-        ],
-        "movement": "14\"",
-        "damageTrack": "2",
-        "flightSlots": 1,
-        "systemLoadouts": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Tarasque+Bomber+Flight.png"
-      },
-      {
-        "name": "UNSC Broadsword Interceptor Flight (+ Sabre)",
-        "validationKeys": [
-          "nonCapitalElement"
-        ],
-        "points": 0,
-        "factions": [
-          "USNC"
-        ],
-        "movement": "16\"",
-        "damageTrack": "2",
-        "flightSlots": 1,
-        "systemLoadouts": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Broadsword+Interceptor+Flight+(++Sabre).png"
-      },
-      {
-        "name": "UNSC Longsword Bomber Flights",
-        "validationKeys": [
-          "nonCapitalElement"
-        ],
-        "points": 0,
-        "factions": [
-          "USNC"
-        ],
-        "movement": "16\"",
-        "damageTrack": "2",
-        "flightSlots": 1,
-        "systemLoadouts": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Longsword+Bomber+Flights.png"
-      }
-    ],
-    "commanders": [
-      {
-        "name": "UNSC Assault Commander",
-        "points": 50,
-        "factions": [
-          {
-            "name": "USNC"
-          }
-        ],
-        "options": [
-          {
-            "name": "Spartans",
-            "points": 40,
-            "increment": true
-          }
-        ],
-        "imageUrl": "https://github.com/andrewinge/halofleet.github.io/blob/main/images/unsc%20assault%20commander.png?raw=true",
-        "imageOrientation": "portrait"
-      },
-      {
-        "name": "UNSC Fleet Commander",
-        "points": 50,
-        "factions": [
-          {
-            "name": "USNC"
-          }
-        ],
-        "options": [
-          {
-            "name": "Spartans",
-            "points": 40,
-            "increment": true
-          }
-        ],
-        "imageUrl": "https://github.com/andrewinge/halofleet.github.io/blob/main/images/unsc%20fleet%20commander.png?raw=true",
-        "imageOrientation": "portrait"
-      },
-      {
-        "name": "UNSC Gunnery Commander",
-        "points": 50,
-        "factions": [
-          {
-            "name": "USNC"
-          }
-        ],
-        "options": [
-          {
-            "name": "Spartans",
-            "points": 40,
-            "increment": true
-          }
-        ],
-        "imageUrl": "https://github.com/andrewinge/halofleet.github.io/blob/main/images/unsc%20gunnery%20commander.png?raw=true",
-        "imageOrientation": "portrait"
-      },
-      {
-        "name": "UNSC Wing Commander",
-        "points": 50,
-        "factions": [
-          {
-            "name": "USNC"
-          }
-        ],
-        "options": [
-          {
-            "name": "Spartans",
-            "points": 40,
-            "increment": true
-          }
-        ],
-        "imageUrl": "https://github.com/andrewinge/halofleet.github.io/blob/main/images/unsc%20wing%20commander.png?raw=true",
-        "imageOrientation": "portrait"
-      },
-      {
-        "name": "Covenant Fleet Commander",
-        "points": 50,
-        "factions": [
-          {
-            "name": "Covenant"
-          }
-        ],
-        "options": [
-          {
-            "name": "Zealots",
-            "points": 10,
-            "increment": true
-          }
-        ],
-        "imageUrl": "https://github.com/andrewinge/halofleet.github.io/blob/main/images/covenant%20fleet%20commander.png?raw=true",
-        "imageOrientation": "portrait"
-      },
-      {
-        "name": "Covenant Assault Commander",
-        "points": 50,
-        "factions": [
-          {
-            "name": "Covenant"
-          }
-        ],
-        "options": [
-          {
-            "name": "Zealots",
-            "points": 10,
-            "increment": true
-          }
-        ],
-        "imageUrl": "https://github.com/andrewinge/halofleet.github.io/blob/main/images/covenant%20assault%20commander.png?raw=true",
-        "imageOrientation": "portrait"
-      },
-      {
-        "name": "Covenant Gunnery Commander",
-        "points": 50,
-        "keywords": [
-          "Fire at Will!"
-        ],
-        "factions": [
-          {
-            "name": "Covenant"
-          }
-        ],
-        "options": [
-          {
-            "name": "Zealots",
-            "points": 10,
-            "increment": true
-          }
-        ],
-        "imageUrl": "https://github.com/andrewinge/halofleet.github.io/blob/main/images/covenant%20gunnery%20commander.png?raw=true",
-        "imageOrientation": "portrait"
-      },
-      {
-        "name": "Covenant Wing Commander",
-        "points": 50,
-        "factions": [
-          {
-            "name": "Covenant"
-          }
-        ],
-        "options": [
-          {
-            "name": "Zealots",
-            "points": 10,
-            "increment": true
-          }
-        ],
-        "imageUrl": "https://github.com/andrewinge/halofleet.github.io/blob/main/images/covenant%20wing%20commander.png?raw=true",
-        "imageOrientation": "portrait"
-      },
-      {
-        "name": "Lord Hood",
-        "points": 120,
-        "factions": [
-          {
-            "name": "USNC"
-          }
-        ],
-        "options": [
-          {
-            "name": "Spartans",
-            "points": 100,
-            "increment": true
-          }
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/lord%20hood.webp",
-        "imageOrientation": "portrait"
-      },
-      {
-        "name": "Michael Stanforth",
-        "points": 100,
-        "factions": [
-          {
-            "name": "USNC"
-          }
-        ],
-        "options": [
-          {
-            "name": "Spartans",
-            "points": 40,
-            "increment": true
-          }
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/michael.webp",
-        "imageOrientation": "portrait"
-      },
-      {
-        "name": "Preston Cole",
-        "points": 140,
-        "factions": [
-          {
-            "name": "USNC"
-          }
-        ],
-        "options": [
-          {
-            "name": "Spartans",
-            "points": 40,
-            "increment": true
-          }
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/preston.webp",
-        "imageOrientation": "portrait"
-      },
-      {
-        "name": "Xytan 'Jar Wattinree",
-        "points": 120,
-        "factions": [
-          {
-            "name": "Covenant"
-          }
-        ],
-        "options": [
-          {
-            "name": "Zealots",
-            "points": 25,
-            "increment": true
-          }
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/xytan.webp",
-        "imageOrientation": "portrait"
-      },
-      {
-        "name": "Maccabeus",
-        "points": 80,
-        "factions": [
-          {
-            "name": "Covenant"
-          }
-        ],
-        "options": [
-          {
-            "name": "Brutes",
-            "points": 5,
-            "increment": true
-          }
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/maccabeus.webp",
-        "imageOrientation": "portrait"
-      },
-      {
-        "name": "Rho 'Barutamee",
-        "points": 100,
-        "factions": [
-          {
-            "name": "Covenant"
-          }
-        ],
-        "options": [
-          {
-            "name": "Zealots",
-            "points": 10,
-            "increment": true
-          }
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/rho.webp",
-        "imageOrientation": "portrait"
-      }
-    ],
-    "heroicCharacters": [
-      {
-        "name": "Cortana",
-        "points": 80,
-        "factions": [
-          {
-            "name": "USNC"
-          }
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/cortana.webp",
-        "imageOrientation": "portrait"
-      },
-      {
-        "name": "Minister of Etiology",
-        "points": 80,
-        "factions": [
-          {
-            "name": "Covenant"
-          }
-        ],
-        "options": [
-          {
-            "name": "Zealots",
-            "points": 10,
-            "increment": true
-          }
-        ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/minister.webp",
-        "imageOrientation": "portrait"
-      },
-      {
-        "name": "Lighter Than Some",
-        "points": 40,
-        "factions": [
-          {
-            "name": "Covenant"
-          }
-        ],
-        "unlockedBy": "Maccabeus",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/lighter%20than%20some.webp",
-        "imageOrientation": "portrait"
-      }
-    ],
-    "keywords": [
-      {
-        "name": "Glide (Distance\")",
-        "definition": "Elements with the Glide (Distance\") Loadout may forgo their standard Movement to move laterally (sideways) instead. The distance they may travel is denoted in the parenthesis. An Element using its Glide Loadout may not make any Turning Actions during its Movement."
-      },
-      {
-        "name": "Hard Burn (Distance\")",
-        "definition": "Elements with this Loadout may increase their movement by the value listed in parenthesis, provided the Element DOES NOT execute a Turning Action during its Activation. For example, if an Epoch Heavy Carrier Element makes a Hard Burn, its Hard Burn (1\") means its normal Movement of 6\" becomes 7\", but no turns may be made during the movement."
-      },
-      {
-        "name": "Lumbering",
-        "definition": "Elements with this Loadout count as being one size class LARGER than listed. This will affect the way this Element may execute Turning Actions (see the Movement Segment chapter on PAGE 78)."
-      },
-      {
-        "name": "Nimble",
-        "definition": "Elements with this Loadout count as being one size class SMALLER than listed. This will affect the way this Element may execute Turning Actions (see the Movement Segment chapter on PAGE 78)."
-      },
-      {
-        "name": "Cloaking System",
-        "definition": "An Element with this Loadout causes enemy Attacks to suffer a -1 to their Firepower Rating when firing at Long Range."
-      },
-      {
-        "name": "Defence Arrays (Value)",
-        "definition": "An Element with the Defence Arrays (Value) Loadout may add the Value listed in the parenthesis to its Defence Dice Pool when defending against an Attack by the enemy or when colliding with Terrain."
-      },
-      {
-        "name": "Elusive",
-        "definition": "An Element with the Elusive Loadout causes any attack made by an enemy Element against it to suffer a -1 to its Firepower Rating. However, if the attacker is a Bomber Wing on an Attack Run, or if ALL Elements initiating the Firing Solution at the target also have the Elusive Loadout, this modifier is ignored."
-      },
-      {
-        "name": "Hard Target",
-        "definition": "An element with the Hard Target Loadout critically limits ALL weaponry Attacks made against it. The effect is as follows: any Attack Dice Pool – generated by Primary or Secondary Weapons – will see ONE Success REMOVED from the Attack Dice Pool Total for each [Explosion] rolled during an attack. This is done at the end of the process and after all Successes have been determined by a player."
-      },
-      {
-        "name": "Magnetic Accelerator Cannon (Value)",
-        "definition": "Magnetic Accelerator Cannons (MACs) fire dense projectiles at extremely high velocities, delivering immense amounts of kinetic energy to their target. These weapons are governed by the following rules, designed to simulate the battle tactics of the UNSC to overwhelm and weaken the defensive systems of Covenant vessels with sustained hits from MAC-based weaponry. Roll the Attack Dice Pool as normal. Assuming the target Element is required to make a Defensive Pool Roll (because the attack is going to cause damage!), BEFORE rolling the Defence Dice Pool, check the combined values of all of the MACs taking part in the Firing Solution: Light or Medium = 1, Heavy = 2, Super = 3. If the combined Values of the MACs is 2–3, roll ONE Halo Dice and on a result of a [Skull] the Target Element gains a Vulnerable Token. If the combined Values is 4–5, roll ONE Halo Dice and on a result of a [Skull] or an [Explosion] the Target Element gains a Vulnerable Token. If the combined Values is 6 or above, roll ONE Halo Dice; on a result of an [Explosion], [Double Explosion], or [Blank] the Target Element gains a Vulnerable Token. This effect takes place BEFORE any Defence Dice Pool rolls and CANNOT be affected by Loadouts. Damage could also become Critical Damage and apply even more Vulnerable Tokens (see PAGE 30)."
-      },
-      {
-        "name": "Massive",
-        "definition": "An Element with the Massive Loadout causes enemy weaponry to gain a +1 to their Firepower Rating when firing at Short Range. See the additional rules on PAGE 115 for more details about Massive Models."
-      },
-      {
-        "name": "Missile Barrage",
-        "definition": "Despite being launched from the Port and Starboard Missile housings of a vessel, these weapons may redirect themselves to target Elements within the Fore Arc with a SINGLE salvo. However, unlike standard Firing Solutions, this salvo of Missiles MUST target the CLOSEST enemy Element in the firing Element's Fore Arc, and Port and Starboard Arcs may not be used during the Activation. For example, an Epoch Heavy Carrier can build two Firing Solutions firing into its Port and Starboard Arcs, with an Attack Dice Pool of 15 generated for each attack. Or instead, it can choose to fire in its Fore Arc with ONE Firing Solution of 15 Dice, which MUST target the nearest enemy Element in that Arc. IMPORTANT NOTE: Certain Heroic Characters have the ability to ignore the Missile Barrage closest-target rule, allowing the targeted Element to be of the player's choice."
-      },
-      {
-        "name": "Missile Weapons",
-        "definition": "Elements with the Missile Loadout gain a +1 on their Firepower Rating when firing at targets at Long Range. In addition, Elements defending against Missile Weapons may add the Value in their Point Defence (Value) Loadout when constructing a Defence Dice Pool."
-      },
-      {
-        "name": "Plasma Weapons",
-        "definition": "Only weapons of the identical type and name can be combined as part of a Firing Solution. All Plasma-based weapons irrespective of their type gain a +1 to the Firepower Rating at Short Range and a -1 at Long Range. The Covenant employ Plasma-based Weaponry summarised into: Beam, Lance, Cannon Arrays and Plasma Torpedoes. Plasma Beam Weapons are Short Range cutting ordnance that can target multiple Elements at once. These weapons may NEVER take part in Firing Solutions with any other weapon. Beam weapons are fired by nominating a Primary Target and allocating the first number in the Dice Profile to it, then a different enemy Element within 6\" of the first for the second number, then a different third target within 6\" of the second for the third number. Unlike normal Firing Solutions, these Targets do NOT have to be part of the same Battle Group. Each target is attacked and resolved separately. Beam Weapons do not permit firing beyond their stated Range or Arc of Fire, and Attack Dice Pools use a starting Firepower Rating of 5 as default (Terrain and Loadouts still apply). Plasma Cannon Arrays are capable of forming a Firing Solution across any Battle Group in the Fleet and otherwise use only the Plasma Loadout. Plasma Lances are long-range focused attacks able to deal high levels of damage. Plasma Torpedoes use Plasma Short/Long Range modifiers and also use Missile Weapons rules, so at Long Range their Firepower modifier is +0 (-1 Long Range, +1 Plasma Torpedoes); like other Missile Weapons they can be reduced by Point Defence Dice Pools."
-      },
-      {
-        "name": "Point Defence (Value)",
-        "definition": "This Loadout represents weapons most commonly used to defend against Bombers and Boarding Craft that are performing Attack Runs or Boarding Assaults against a target Element. In addition, Point Defence systems can also be used to defend against attacks made by Elements with the Missile Weapons Loadout. In all cases, the Value inside the parentheses is the number of Dice added to an Element's Defence Dice Pool prior to rolling."
-      },
-      {
-        "name": "Titanium Armour (Value)",
-        "definition": "An Element with the Titanium Armour (Value) Loadout may add the Value listed in the parenthesis to its Defence Dice Pool when defending against an Attack, provided the Attack is made against the FIRST level of Damage on the Element's Damage Track. Once an Element with Titanium Armour takes a Damage Token, the benefit of Titanium Armour is lost, and the Value can no longer be added to any Defence Dice Pools."
-      },
-      {
-        "name": "Assault Specialist (Value)",
-        "definition": "The value in the parenthesis is added to the Boarding Value for its side."
-      },
-      {
-        "name": "Labyrinthine",
-        "definition": "Elements with the Labyrinthine Loadout ALWAYS reduce the result rolled on the Boarding Result Table by -2. This is applied after all other Loadouts have taken effect."
-      },
-      {
-        "name": "Carrier Action (Value)",
-        "definition": "Elements with the Carrier Action (Value) Loadout may re-launch a number of Wings equal to the Value listed in their Loadout's parenthesis during the End Phase. The Wing or Wings are immediately deployed within 8\" of their Formation Base. Flight Tokens deployed in this manner must be formed into a legal Wing (see Fleet appendices for the minimum and maximum Wing sizes) and they may only be taken from the casualties in a Faction's Scrapyard. However, a player may choose to alter the mix of Interceptors and Bombers – the Flight Tokens simply represent the number of tokens available to redeploy into battle. For example, if you have 10 Bomber tokens in the Scrapyard, you can swap any number out for interceptor tokens (e.g. 5 and 5)."
-      },
-      {
-        "name": "Emplacement",
-        "definition": "An Element with this Loadout may only form Battle Groups with other Emplacements, may not use the Form Up Fleet Order, and do not require the usual Capital and Non-Capital Elements to form a Battle Group. In addition, Element Coherency amongst Emplacements within the same Battle Group is 12\"."
-      },
-      {
-        "name": "Heroic Save (Type)",
-        "definition": "If at any time a Token with the Heroic Save (Type) Loadout should be called upon to be removed as a casualty, roll a single Halo Dice and refer to the Type listed in the parentheses. Spartans: on a roll of anything other than a [Skull], the Spartan Token remains in play and is NOT removed as a casualty. Zealots: on a roll of an [Explosion] or [Accuracy], the Zealot Token remains in play and is NOT removed as a casualty. Troopers: on a roll of an [Accuracy], the Trooper Token is NOT removed as a casualty."
-      },
-      {
-        "name": "Command Centre",
-        "definition": "A Fleet containing a Golden Path Battle Group may re-roll a Single Order Dice at the beginning of either the Attacks or Boarding Segments (but not both)."
-      },
-      {
-        "name": "Hunter Killers",
-        "definition": "All Elements in this Battle Group may re-roll any Initial Rolls of a [Skull] when firing Plasma Torpedoes at Short Range."
-      },
-      {
-        "name": "Focused Wrath",
-        "definition": "All Plasma Cannon Array Attacks made by this Element may re-roll a single Attack Dice for each friendly Zealot on board."
-      },
-      {
-        "name": "Wall of Fire",
-        "definition": "The Cerberus Battle Group may roll 2 Halo Dice rather than 1 when resolving the effects of a MAC Loadout when attempting to overload an enemy's defence, prior to the Defence Dice Pool being rolled."
-      },
-      {
-        "name": "Pack Hunters",
-        "definition": "All Elements in this Battle Group may re-roll any Initial Rolls of a [Skull] when firing MACs – these re-rolled dice may NOT generate any further re-rolls."
-      },
-      {
-        "name": "Advanced Targeting Solutions",
-        "definition": "All Attacks made by this Battle Group may re-roll any attempt to cause a Critical Hit."
-      },
-      {
-        "name": "Prototype Wings",
-        "definition": "Interceptor wings deployed by this group may be replaced with Sabre (Interceptors). Sabres launched by this battlegroup take up ONE flight slot, not two."
-      },
-      {
-        "name": "Carrier Refit",
-        "definition": "The Supported Marathon loses its Missile Barrage Loadout but gains the Carrier (1) Loadout. Additionally, the Supported Marathon in the Cyclops Specialist Battle Group has a Hangar Rating of 5, instead of the 2 it would normally have."
-      },
-      {
-        "name": "Cathedral of the Faithful",
-        "definition": "Each Section on a CAS can replace ONE of its listed Boarding Craft with a Zealot for no points. This bonus is in addition to the standard number of Zealots available to the fleet."
-      },
-      {
-        "name": "Seraph Hosts",
-        "definition": "All Seraph Interceptor Wings launched by a CAS increase their maximum size to 6 rather than the normal 5."
-      },
-      {
-        "name": "Frigate Resupply",
-        "definition": "During the Repairs Step of an End Phase, a Punic may allow a Single Paris Element within 10\" to remove a Single Damage Marker from its base. Where applicable, this can restore Titanium Armour."
-      },
-      {
-        "name": "Automated Repair Systems",
-        "definition": "Each time a Vulnerable Marker is applied to a section of the Punic, roll a Halo Dice: on a [1] or [2], the Vulnerable Marker is immediately removed."
-      },
-      {
-        "name": "Limited Resources",
-        "definition": "All Punics and CAS exist as individual Battle Groups and are not required to follow the standard rules for Battle Group Creation. Whilst they are not Specialist Battle Groups, they are restricted by the size of Fleet they are attached to. Therefore a single Punic or CAS can be included in a Fleet for every full 1250 Points being played."
-      }
-    ]
-  }
+	"config": {
+		"trackHighestDivision": true
+	},
+	"appVersion": 2,
+	"disallowMultipleFactions": true,
+	"credit": [],
+	"game": "Halo Fleet Battles",
+	"usesBuiltInUnitImages": true,
+	"imagePrintView": {
+		"printChildren": [
+			{
+				"parentPropertyName": "groups",
+				"propertyName": "smallShips",
+				"kind": "image",
+				"label": "Small ships",
+				"defaultPrint": true,
+				"defaultPlacement": "nest"
+			},
+			{
+				"parentPropertyName": "groups",
+				"propertyName": "capitalShips",
+				"kind": "image",
+				"label": "Capital ships",
+				"defaultPrint": true,
+				"defaultPlacement": "nest"
+			},
+			{
+				"parentPropertyName": "groups",
+				"propertyName": "flights",
+				"kind": "image",
+				"label": "Flights",
+				"defaultPrint": true,
+				"defaultPlacement": "nest"
+			},
+			{
+				"parentPropertyName": "groups",
+				"propertyName": "systemLoadouts",
+				"kind": "text",
+				"label": "Systems Loadouts",
+				"checkboxLabel": "Systems Loadout definitions",
+				"defaultPrint": true,
+				"defaultPlacement": "bottom"
+			},
+			{
+				"parentPropertyName": "groups",
+				"propertyName": "specialRules",
+				"kind": "text",
+				"label": "Special Rules",
+				"checkboxLabel": "Battle group special rule definitions",
+				"defaultPrint": true,
+				"defaultPlacement": "bottom"
+			}
+		],
+		"printSizes": {
+			"default": {
+				"sizeBy": "height",
+				"height": "2.8in"
+			},
+			"byDataSource": {
+				"smallShips": {
+					"sizeBy": "height",
+					"height": "2.6in"
+				},
+				"capitalShips": {
+					"sizeBy": "height",
+					"height": "2.6in"
+				},
+				"flights": {
+					"sizeBy": "height",
+					"height": "2.4in"
+				},
+				"commanders": {
+					"sizeBy": "height",
+					"height": "3.5in"
+				},
+				"heroicCharacters": {
+					"sizeBy": "height",
+					"height": "3.5in"
+				}
+			}
+		},
+		"layoutDefaults": {
+			"horizontalGapPx": 10,
+			"verticalGapPx": 14,
+			"showDividingLines": true,
+			"printTextChildren": true
+		}
+	},
+	"stats": [
+		{
+			"name": "Movement",
+			"abbreviation": "Movement",
+			"trail": "\""
+		}
+	],
+	"dataTableKeys": [
+		"smallShips",
+		"capitalShips",
+		"flights"
+	],
+	"limits": [],
+	"counts": [],
+	"calculations": [],
+	"validations": [],
+	"additionalPrint": [],
+	"elements": [
+		{
+			"propertyName": "factions",
+			"label": "Faction",
+			"type": "faction",
+			"dataSource": "factions",
+			"children": [
+				{
+					"propertyName": "commanders",
+					"dataSource": "commanders",
+					"label": "Commanders",
+					"type": "main",
+					"children": [
+						{
+							"propertyName": "keywords",
+							"label": "Keywords",
+							"dataSource": "keywords",
+							"type": "static"
+						},
+						{
+							"propertyName": "options",
+							"label": "Options",
+							"type": "checkbox",
+							"dataSource": "keywords"
+						}
+					]
+				},
+				{
+					"propertyName": "heroicCharacters",
+					"dataSource": "heroicCharacters",
+					"label": "Heroic Characters",
+					"type": "main",
+					"children": [
+						{
+							"propertyName": "keywords",
+							"label": "Keywords",
+							"dataSource": "keywords",
+							"type": "static"
+						},
+						{
+							"propertyName": "options",
+							"label": "Options",
+							"type": "checkbox",
+							"dataSource": "keywords"
+						}
+					]
+				},
+				{
+					"propertyName": "groups",
+					"dataSource": "groups",
+					"label": "Battle Groups",
+					"type": "main",
+					"tierProperty": "heroicTier",
+					"tierData": "heroicTiers",
+					"childStatSumProperty": "buildRating",
+					"childStatSumLabel": "BR",
+					"showRequiredChildrenInDetails": true,
+					"tiers": [
+						{
+							"name": "Standard",
+							"rank": 1,
+							"maximumChildren": {
+								"flights": 0
+							}
+						},
+						{
+							"name": "Specialist",
+							"rank": 2,
+							"maximumChildren": {
+								"flights": 0
+							}
+						},
+						{
+							"name": "Massive",
+							"rank": 3,
+							"maximumChildren": {
+								"flights": 0
+							}
+						}
+					],
+					"children": [
+						{
+							"singleKey": "smallShip",
+							"dataSource": "smallShips",
+							"propertyName": "smallShips",
+							"label": "Small Ship",
+							"type": "list",
+							"children": [
+								{
+									"propertyName": "systemLoadouts",
+									"label": "Systems Loadouts",
+									"type": "static",
+									"dataSource": "keywords"
+								}
+							]
+						},
+						{
+							"singleKey": "capitalShip",
+							"dataSource": "capitalShips",
+							"propertyName": "capitalShips",
+							"label": "Capital Ship",
+							"type": "list",
+							"children": [
+								{
+									"propertyName": "systemLoadouts",
+									"label": "Systems Loadouts",
+									"type": "static",
+									"dataSource": "keywords"
+								},
+								{
+									"propertyName": "options",
+									"label": "Options",
+									"type": "checkbox",
+									"dataSource": "keywords"
+								}
+							]
+						},
+						{
+							"singleKey": "flight",
+							"dataSource": "flights",
+							"propertyName": "flights",
+							"label": "Flight",
+							"type": "list",
+							"badges": [
+								{
+									"propertyName": "flightSlots",
+									"label": "Slots"
+								}
+							],
+							"children": [
+								{
+									"propertyName": "systemLoadouts",
+									"label": "Systems Loadouts",
+									"type": "static",
+									"dataSource": "keywords"
+								}
+							]
+						},
+						{
+							"propertyName": "specialRules",
+							"label": "Special Rules",
+							"type": "static",
+							"dataSource": "keywords"
+						}
+					]
+				}
+			]
+		}
+	],
+	"data": {
+		"factions": [
+			{
+				"name": "USNC"
+			},
+			{
+				"name": "Covenant"
+			}
+		],
+		"heroicTiers": [
+			{
+				"name": "Standard"
+			},
+			{
+				"name": "Specialist"
+			},
+			{
+				"name": "Massive"
+			}
+		],
+		"groups": [
+			{
+				"name": "Standard Battle Group",
+				"points": 0,
+				"factions": [
+					{
+						"name": "USNC",
+						"heroicTier": "Standard"
+					},
+					{
+						"name": "Covenant",
+						"heroicTier": "Standard"
+					}
+				],
+				"validations": [
+					{
+						"requiredChildren": [
+							{
+								"key": "capitalElement",
+								"quantity": 1,
+								"message": "Must contain at least 1 Capital Element."
+							},
+							{
+								"key": "nonCapitalElement",
+								"quantity": 1,
+								"message": "Must contain at least 1 Non-Capital Element."
+							}
+						]
+					}
+				],
+				"decreaseModelCount": 1
+			},
+			{
+				"name": "Solemn Vow",
+				"points": 0,
+				"factions": [
+					{
+						"name": "Covenant",
+						"heroicTier": "Specialist"
+					}
+				],
+				"unavailableWith": [
+					"Maccabeus"
+				],
+				"requiredChildren": [
+					{
+						"name": "Covenant Supported ORS Heavy Cruiser",
+						"points": 220,
+						"quantity": 1,
+						"elementPropertyName": "capitalShips"
+					},
+					{
+						"name": "Covenant Supported CCS Battlecruiser",
+						"points": 170,
+						"quantity": 1,
+						"elementPropertyName": "capitalShips"
+					}
+				],
+				"decreaseModelCount": 1
+			},
+			{
+				"name": "Oathsworn",
+				"points": 0,
+				"factions": [
+					{
+						"name": "Covenant",
+						"heroicTier": "Specialist"
+					}
+				],
+				"requiredChildren": [
+					{
+						"name": "Covenant CCS Battlecruiser",
+						"points": 150,
+						"quantity": 2,
+						"elementPropertyName": "capitalShips"
+					},
+					{
+						"name": "Covenant SDV Heavy Corvette (Line Formation)",
+						"points": 40,
+						"quantity": 2,
+						"elementPropertyName": "smallShips"
+					}
+				],
+				"decreaseModelCount": 1
+			},
+			{
+				"name": "Sacred Pledge",
+				"points": 0,
+				"factions": [
+					{
+						"name": "Covenant",
+						"heroicTier": "Specialist"
+					}
+				],
+				"requiredChildren": [
+					{
+						"name": "Covenant SDV Heavy Corvette (Oblique Formation)",
+						"points": 40,
+						"quantity": 2,
+						"elementPropertyName": "smallShips"
+					},
+					{
+						"name": "Covenant SDV Heavy Corvette (Line Formation)",
+						"points": 40,
+						"quantity": 2,
+						"elementPropertyName": "smallShips"
+					}
+				],
+				"decreaseModelCount": 1
+			},
+			{
+				"name": "Harbinger",
+				"points": 0,
+				"factions": [
+					{
+						"name": "Covenant",
+						"heroicTier": "Specialist"
+					}
+				],
+				"unavailableWith": [
+					"Maccabeus"
+				],
+				"requiredChildren": [
+					{
+						"name": "Covenant ORS Heavy Cruiser",
+						"points": 200,
+						"quantity": 2,
+						"elementPropertyName": "capitalShips"
+					},
+					{
+						"name": "Covenant SDV Heavy Corvette (Line Formation)",
+						"points": 40,
+						"quantity": 2,
+						"elementPropertyName": "smallShips"
+					}
+				],
+				"decreaseModelCount": 1
+			},
+			{
+				"name": "Gorgon",
+				"points": 0,
+				"factions": [
+					{
+						"name": "USNC",
+						"heroicTier": "Specialist"
+					}
+				],
+				"requiredChildren": [
+					{
+						"name": "UNSC Supported Marathon Heavy Cruiser",
+						"points": 110,
+						"quantity": 2,
+						"elementPropertyName": "capitalShips"
+					},
+					{
+						"name": "UNSC Paris Frigates (Trident Formation)",
+						"points": 25,
+						"quantity": 2,
+						"elementPropertyName": "smallShips"
+					}
+				],
+				"decreaseModelCount": 1
+			},
+			{
+				"name": "Orthrus",
+				"points": 0,
+				"factions": [
+					{
+						"name": "USNC",
+						"heroicTier": "Specialist"
+					}
+				],
+				"requiredChildren": [
+					{
+						"name": "UNSC Epoch Heavy Carrier",
+						"points": 175,
+						"quantity": 2,
+						"elementPropertyName": "capitalShips"
+					}
+				],
+				"decreaseModelCount": 1,
+				"specialRules": [
+					"Prototype Wings"
+				]
+			},
+			{
+				"name": "Harpy",
+				"points": 0,
+				"factions": [
+					{
+						"name": "USNC",
+						"heroicTier": "Specialist"
+					}
+				],
+				"requiredChildren": [
+					{
+						"name": "UNSC Paris Frigates (Arrowhead Formation)",
+						"points": 25,
+						"quantity": 3,
+						"elementPropertyName": "smallShips"
+					},
+					{
+						"name": "UNSC Paris Frigates (Trident Formation)",
+						"points": 25,
+						"quantity": 3,
+						"elementPropertyName": "smallShips"
+					}
+				],
+				"decreaseModelCount": 1
+			},
+			{
+				"name": "Cyclops",
+				"points": 0,
+				"factions": [
+					{
+						"name": "USNC",
+						"heroicTier": "Specialist"
+					}
+				],
+				"requiredChildren": [
+					{
+						"name": "UNSC Supported Marathon Heavy Cruiser",
+						"points": 110,
+						"quantity": 1,
+						"elementPropertyName": "capitalShips"
+					},
+					{
+						"name": "UNSC Paris Frigates (Trident Formation)",
+						"points": 25,
+						"quantity": 3,
+						"elementPropertyName": "smallShips"
+					}
+				],
+				"decreaseModelCount": 1,
+				"specialRules": [
+					"Carrier Refit"
+				]
+			},
+			{
+				"name": "Golden Path",
+				"points": 0,
+				"factions": [
+					{
+						"name": "Covenant",
+						"heroicTier": "Specialist"
+					}
+				],
+				"requiredChildren": [
+					{
+						"name": "Covenant Reinforced CCS Battlecruiser",
+						"points": 200,
+						"quantity": 1,
+						"elementPropertyName": "capitalShips"
+					},
+					{
+						"name": "Covenant SDV Heavy Corvette (Line Formation)",
+						"points": 40,
+						"quantity": 1,
+						"elementPropertyName": "smallShips"
+					}
+				],
+				"decreaseModelCount": 1,
+				"specialRules": [
+					"Command Centre"
+				]
+			},
+			{
+				"name": "Supplicant",
+				"points": 0,
+				"factions": [
+					{
+						"name": "Covenant",
+						"heroicTier": "Specialist"
+					}
+				],
+				"requiredChildren": [
+					{
+						"name": "Covenant SDV Heavy Corvette (Tri-Formation)",
+						"points": 60,
+						"quantity": 3,
+						"elementPropertyName": "smallShips"
+					}
+				],
+				"decreaseModelCount": 1,
+				"specialRules": [
+					"Hunter Killers"
+				]
+			},
+			{
+				"name": "Penitent (Paired CCS)",
+				"points": 0,
+				"factions": [
+					{
+						"name": "Covenant",
+						"heroicTier": "Specialist"
+					}
+				],
+				"requiredChildren": [
+					{
+						"name": "Covenant Paired CCS Battlecruisers",
+						"points": 260,
+						"quantity": 1,
+						"elementPropertyName": "capitalShips"
+					}
+				],
+				"decreaseModelCount": 1,
+				"specialRules": [
+					"Focused Wrath"
+				]
+			},
+			{
+				"name": "Penitent (Penitent RCS)",
+				"points": 0,
+				"factions": [
+					{
+						"name": "Covenant",
+						"heroicTier": "Specialist"
+					}
+				],
+				"requiredChildren": [
+					{
+						"name": "Covenant Penitent RCS Armored Cruisers",
+						"points": 220,
+						"quantity": 1,
+						"elementPropertyName": "capitalShips"
+					}
+				],
+				"decreaseModelCount": 1,
+				"specialRules": [
+					"Focused Wrath"
+				]
+			},
+			{
+				"name": "Cerberus",
+				"points": 0,
+				"factions": [
+					{
+						"name": "USNC",
+						"heroicTier": "Specialist"
+					}
+				],
+				"requiredChildren": [
+					{
+						"name": "UNSC Paired Marathon Heavy Cruisers",
+						"points": 220,
+						"quantity": 1,
+						"elementPropertyName": "capitalShips"
+					}
+				],
+				"decreaseModelCount": 1,
+				"specialRules": [
+					"Wall of Fire"
+				]
+			},
+			{
+				"name": "Shield Wall",
+				"points": 0,
+				"factions": [
+					{
+						"name": "USNC",
+						"heroicTier": "Specialist"
+					}
+				],
+				"requiredChildren": [
+					{
+						"name": "UNSC Paris Frigates (Shield Formation)",
+						"points": 40,
+						"quantity": 3,
+						"elementPropertyName": "smallShips"
+					}
+				],
+				"decreaseModelCount": 1,
+				"specialRules": [
+					"Pack Hunters"
+				]
+			},
+			{
+				"name": "Barrage",
+				"points": 0,
+				"factions": [
+					{
+						"name": "USNC",
+						"heroicTier": "Specialist"
+					}
+				],
+				"requiredChildren": [
+					{
+						"name": "UNSC Reinforced Marathon Heavy Cruiser",
+						"points": 135,
+						"quantity": 2,
+						"elementPropertyName": "capitalShips"
+					}
+				],
+				"decreaseModelCount": 1,
+				"specialRules": [
+					"Advanced Targeting Solutions"
+				]
+			},
+			{
+				"name": "Bountiful Harvest",
+				"points": 0,
+				"factions": [
+					{
+						"name": "Covenant",
+						"heroicTier": "Specialist"
+					}
+				],
+				"requiredChildren": [
+					{
+						"name": "Covenant DSC Support Ship",
+						"points": 95,
+						"quantity": 3,
+						"elementPropertyName": "capitalShips"
+					}
+				],
+				"decreaseModelCount": 1
+			},
+			{
+				"name": "Redeeming Fury",
+				"points": 0,
+				"factions": [
+					{
+						"name": "Covenant",
+						"heroicTier": "Specialist"
+					}
+				],
+				"requiredChildren": [
+					{
+						"name": "Covenant Defended CPV Heavy Destroyer",
+						"points": 150,
+						"quantity": 2,
+						"elementPropertyName": "capitalShips"
+					}
+				],
+				"decreaseModelCount": 1
+			},
+			{
+				"name": "Wolf Pack",
+				"points": 0,
+				"factions": [
+					{
+						"name": "USNC",
+						"heroicTier": "Specialist"
+					}
+				],
+				"requiredChildren": [
+					{
+						"name": "UNSC Halberd Destroyer (Axe Formation)",
+						"points": 50,
+						"quantity": 3,
+						"elementPropertyName": "smallShips"
+					}
+				],
+				"decreaseModelCount": 1
+			},
+			{
+				"name": "Covenant Assault Carrier (CAS)",
+				"points": 0,
+				"factions": [
+					{
+						"name": "Covenant",
+						"heroicTier": "Massive"
+					}
+				],
+				"unavailableWith": [
+					"Maccabeus"
+				],
+				"requiredChildren": [
+					{
+						"name": "Covenant Assault Carrier (Fore Section)",
+						"points": 750,
+						"quantity": 1,
+						"elementPropertyName": "capitalShips"
+					},
+					{
+						"name": "Covenant Assault Carrier (Mid Section)",
+						"points": 0,
+						"quantity": 1,
+						"elementPropertyName": "capitalShips"
+					},
+					{
+						"name": "Covenant Assault Carrier (Aft Section)",
+						"points": 0,
+						"quantity": 1,
+						"elementPropertyName": "capitalShips"
+					}
+				],
+				"decreaseModelCount": 1,
+				"specialRules": [
+					"Cathedral of the Faithful",
+					"Seraph Hosts",
+					"Limited Resources"
+				]
+			},
+			{
+				"name": "Punic-class Supercarrier",
+				"points": 0,
+				"factions": [
+					{
+						"name": "USNC",
+						"heroicTier": "Massive"
+					}
+				],
+				"requiredChildren": [
+					{
+						"name": "UNSC Punic-class Supercarrier (Fore Section)",
+						"points": 675,
+						"quantity": 1,
+						"elementPropertyName": "capitalShips"
+					},
+					{
+						"name": "UNSC Punic-class Supercarrier (Mid Section)",
+						"points": 0,
+						"quantity": 1,
+						"elementPropertyName": "capitalShips"
+					},
+					{
+						"name": "UNSC Punic-class Supercarrier (Aft Section)",
+						"points": 0,
+						"quantity": 1,
+						"elementPropertyName": "capitalShips"
+					}
+				],
+				"decreaseModelCount": 1,
+				"specialRules": [
+					"Frigate Resupply",
+					"Automated Repair Systems",
+					"Limited Resources"
+				]
+			}
+		],
+		"smallShips": [
+			{
+				"name": "Covenant ADP Escort Tri-Formation",
+				"validationKeys": [
+					"nonCapitalElement"
+				],
+				"points": 20,
+				"factions": [
+					"Covenant"
+				],
+				"movement": "10\"",
+				"damageTrack": "3•3•3",
+				"buildRating": 1,
+				"hangars": 0,
+				"boardingCraft": 0,
+				"securityDetail": 2,
+				"systemLoadouts": [
+					"Elusive",
+					"Cloaking System",
+					"Defence Array (2)",
+					"Glide (5\")",
+					"Point Defence (2)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+ADP+Escort+Tri-Formation.png"
+			},
+			{
+				"name": "Covenant CAR Frigate (Oblique Formation)",
+				"validationKeys": [
+					"nonCapitalElement"
+				],
+				"points": 45,
+				"factions": [
+					"Covenant"
+				],
+				"movement": "9\"",
+				"damageTrack": "4•3•3",
+				"buildRating": 1,
+				"hangars": 0,
+				"boardingCraft": 1,
+				"securityDetail": 2,
+				"systemLoadouts": [
+					"Defence Array (2)",
+					"Elusive",
+					"Glide (5\")",
+					"Point Defence (3)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+CAR+Frigate+(Oblique+Formation).png"
+			},
+			{
+				"name": "Covenant SDV Heavy Corvette (Line Formation)",
+				"validationKeys": [
+					"nonCapitalElement"
+				],
+				"points": 40,
+				"factions": [
+					"Covenant"
+				],
+				"movement": "9\"",
+				"damageTrack": "4•4•3",
+				"buildRating": 1,
+				"hangars": 1,
+				"increaseParentMaximumChildren": {
+					"flights": 1
+				},
+				"boardingCraft": 0,
+				"securityDetail": 2,
+				"systemLoadouts": [
+					"Cloaking System",
+					"Defence Array (2)",
+					"Elusive",
+					"Glide (5\")",
+					"Point Defence (3)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+SDV+Heavy+Corvette+(Line+Formation).png"
+			},
+			{
+				"name": "Covenant SDV Heavy Corvette (Oblique Formation)",
+				"validationKeys": [
+					"nonCapitalElement"
+				],
+				"points": 40,
+				"factions": [
+					"Covenant"
+				],
+				"movement": "9\"",
+				"damageTrack": "4•3•3",
+				"buildRating": 1,
+				"hangars": 1,
+				"increaseParentMaximumChildren": {
+					"flights": 1
+				},
+				"boardingCraft": 0,
+				"securityDetail": 2,
+				"systemLoadouts": [
+					"Cloaking System",
+					"Defence Array (2)",
+					"Elusive",
+					"Glide (5\")",
+					"Point Defence (3)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+SDV+Heavy+Corvette+(Oblique+Formation).png"
+			},
+			{
+				"name": "Covenant SDV Heavy Corvette (Tri-Formation)",
+				"validationKeys": [
+					"nonCapitalElement"
+				],
+				"points": 60,
+				"factions": [
+					"Covenant"
+				],
+				"movement": "9\"",
+				"damageTrack": "5•4•4",
+				"buildRating": 2,
+				"hangars": 2,
+				"increaseParentMaximumChildren": {
+					"flights": 2
+				},
+				"boardingCraft": 0,
+				"securityDetail": 3,
+				"systemLoadouts": [
+					"Cloaking System",
+					"Defence Array (4)",
+					"Elusive",
+					"Glide (5\")",
+					"Point Defence (4)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+SDV+Heavy+Corvette+(Tri-Formation).png"
+			},
+			{
+				"name": "UNSC Halberd Destroyer (Axe Formation)",
+				"validationKeys": [
+					"nonCapitalElement"
+				],
+				"points": 50,
+				"factions": [
+					"USNC"
+				],
+				"movement": "10\"",
+				"damageTrack": "4•4•4",
+				"buildRating": 2,
+				"hangars": 0,
+				"boardingCraft": 1,
+				"securityDetail": 2,
+				"systemLoadouts": [
+					"Elusive",
+					"Hard Burn (3\")",
+					"Missile Barrage*",
+					"Point Defence (3)",
+					"Titanium Armour (3)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Halberd+Destroyer+(Axe+Formation).png"
+			},
+			{
+				"name": "UNSC Paris Frigates (Arrowhead Formation)",
+				"validationKeys": [
+					"nonCapitalElement"
+				],
+				"points": 25,
+				"factions": [
+					"USNC"
+				],
+				"movement": "10\"",
+				"damageTrack": "3•3•3",
+				"buildRating": 1,
+				"hangars": 0,
+				"boardingCraft": 0,
+				"securityDetail": 2,
+				"systemLoadouts": [
+					"Elusive",
+					"Hard Burn (3\")",
+					"Missile Barrage*",
+					"Point Defence (2)",
+					"Titanium Armour (2)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Paris+Frigates+(Arrowhead+Formation).png"
+			},
+			{
+				"name": "UNSC Paris Frigates (Shield Formation)",
+				"validationKeys": [
+					"nonCapitalElement"
+				],
+				"points": 40,
+				"factions": [
+					"USNC"
+				],
+				"movement": "10\"",
+				"damageTrack": "4•4•4",
+				"buildRating": 2,
+				"hangars": 0,
+				"boardingCraft": 0,
+				"securityDetail": 2,
+				"systemLoadouts": [
+					"Elusive",
+					"Hard Burn (3\")",
+					"Missile Barrage*",
+					"Point Defence (3)",
+					"Titanium Armour (2)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Paris+Frigates+(Shield+Formation).png"
+			},
+			{
+				"name": "UNSC Paris Frigates (Trident Formation)",
+				"validationKeys": [
+					"nonCapitalElement"
+				],
+				"points": 25,
+				"factions": [
+					"USNC"
+				],
+				"movement": "10\"",
+				"damageTrack": "4•3•3",
+				"buildRating": 1,
+				"hangars": 0,
+				"boardingCraft": 0,
+				"securityDetail": 2,
+				"systemLoadouts": [
+					"Elusive",
+					"Hard Burn (3\")",
+					"Missile Barrage*",
+					"Point Defence (2)",
+					"Titanium Armour (2)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Paris+Frigates+(Trident+Formation).png"
+			}
+		],
+		"capitalShips": [
+			{
+				"name": "Covenant Assault Carrier (Aft Section)",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"autoAddOnly": true,
+				"points": 0,
+				"factions": [
+					"Covenant"
+				],
+				"unavailableWith": [
+					"Maccabeus"
+				],
+				"size": "Massive",
+				"movement": "5\"",
+				"damageTrack": "10•8•7",
+				"buildRating": 5,
+				"hangars": 2,
+				"increaseParentMaximumChildren": {
+					"flights": 2
+				},
+				"boardingCraft": 2,
+				"securityDetail": 6,
+				"systemLoadouts": [
+					"Defence Array (8)",
+					"Glide (3\")",
+					"Labyrinthine",
+					"Point Defence (7)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Assault+Carrier+(Aft+Section).png"
+			},
+			{
+				"name": "Covenant Assault Carrier (Fore Section)",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"autoAddOnly": true,
+				"points": 750,
+				"factions": [
+					"Covenant"
+				],
+				"unavailableWith": [
+					"Maccabeus"
+				],
+				"size": "Massive",
+				"movement": "5\"",
+				"damageTrack": "10•8•7",
+				"buildRating": 5,
+				"hangars": 3,
+				"increaseParentMaximumChildren": {
+					"flights": 3
+				},
+				"boardingCraft": 3,
+				"securityDetail": 6,
+				"systemLoadouts": [
+					"Defence Array (8)",
+					"Glide (3\")",
+					"Labyrinthine",
+					"Point Defence (7)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Assault+Carrier+(Fore+Section).png"
+			},
+			{
+				"name": "Covenant Assault Carrier (Mid Section)",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"autoAddOnly": true,
+				"points": 0,
+				"factions": [
+					"Covenant"
+				],
+				"unavailableWith": [
+					"Maccabeus"
+				],
+				"size": "Massive",
+				"movement": "5\"",
+				"damageTrack": "11•10•5",
+				"buildRating": 6,
+				"hangars": 10,
+				"increaseParentMaximumChildren": {
+					"flights": 10
+				},
+				"boardingCraft": 5,
+				"securityDetail": 8,
+				"systemLoadouts": [
+					"Carrier Action (3)",
+					"Defence Array (9)",
+					"Glide (3\")",
+					"Labyrinthine",
+					"Point Defence (8)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Assault+Carrier+(Mid+Section).png"
+			},
+			{
+				"name": "Covenant Blockade Runner",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 170,
+				"factions": [
+					"Covenant"
+				],
+				"size": "Medium",
+				"movement": "9\"",
+				"damageTrack": "7•6•4",
+				"buildRating": 3,
+				"hangars": 2,
+				"increaseParentMaximumChildren": {
+					"flights": 2
+				},
+				"boardingCraft": 2,
+				"securityDetail": 4,
+				"systemLoadouts": [
+					"Cloaking System",
+					"Defence Array (4)",
+					"Glide (4\")",
+					"Point Defence (3)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Blockade+Runner.png"
+			},
+			{
+				"name": "Covenant Carrack Merchant Cruiser",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 145,
+				"factions": [
+					"Covenant"
+				],
+				"unavailableWith": [
+					"Maccabeus"
+				],
+				"size": "Large",
+				"movement": "4\"",
+				"damageTrack": "11•10•6",
+				"buildRating": 3,
+				"hangars": 0,
+				"boardingCraft": 3,
+				"securityDetail": 6,
+				"systemLoadouts": [
+					"Defence Array (2)",
+					"Hard Burn (4\")",
+					"Point Defence (3)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Carrack+Merchant+Cruiser.png"
+			},
+			{
+				"name": "Covenant CCS Battlecruiser",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 150,
+				"factions": [
+					"Covenant"
+				],
+				"size": "Medium",
+				"movement": "8\"",
+				"damageTrack": "8•7•3",
+				"buildRating": 3,
+				"hangars": 2,
+				"increaseParentMaximumChildren": {
+					"flights": 2
+				},
+				"boardingCraft": 2,
+				"securityDetail": 4,
+				"systemLoadouts": [
+					"Carrier Action (1)",
+					"Defence Array (4)",
+					"Glide (4\")",
+					"Point Defence (3)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+CCS+Battlecruiser.png"
+			},
+			{
+				"name": "Covenant CPV Heavy Destroyer",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 110,
+				"factions": [
+					"Covenant"
+				],
+				"size": "Medium",
+				"movement": "8\"",
+				"damageTrack": "8•6•4",
+				"buildRating": 3,
+				"hangars": 2,
+				"increaseParentMaximumChildren": {
+					"flights": 2
+				},
+				"boardingCraft": 3,
+				"systemLoadouts": [
+					"Defence Array (3)",
+					"Glide (4\")",
+					"Point Defence (4)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+CPV+Heavy+Destroyer.png"
+			},
+			{
+				"name": "Covenant DDS Light Carrier",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 200,
+				"factions": [
+					"Covenant"
+				],
+				"unavailableWith": [
+					"Maccabeus"
+				],
+				"size": "Large",
+				"movement": "6\"",
+				"damageTrack": "10•8•4",
+				"buildRating": 4,
+				"hangars": 6,
+				"increaseParentMaximumChildren": {
+					"flights": 6
+				},
+				"boardingCraft": 3,
+				"securityDetail": 4,
+				"systemLoadouts": [
+					"Carrier Action (2)",
+					"Cloaking System",
+					"Defence Array (4)",
+					"Glide (3\")",
+					"Point Defence (5)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+DDS+Light+Carrier.png"
+			},
+			{
+				"name": "Covenant Defended CCS Battlecruiser",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 190,
+				"factions": [
+					"Covenant"
+				],
+				"size": "Medium",
+				"movement": "8\"",
+				"damageTrack": "8•7•5",
+				"buildRating": 4,
+				"hangars": 2,
+				"increaseParentMaximumChildren": {
+					"flights": 2
+				},
+				"boardingCraft": 2,
+				"securityDetail": 5,
+				"systemLoadouts": [
+					"Cloaking System",
+					"Carrier Action (1)",
+					"Defence Array (5)",
+					"Glide (4\")",
+					"Point Defence (5)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Defended+CCS+Battlecruiser.png"
+			},
+			{
+				"name": "Covenant Defended CPV Heavy Destroyer",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 150,
+				"factions": [
+					"Covenant"
+				],
+				"size": "Medium",
+				"movement": "8\"",
+				"damageTrack": "8•6•6",
+				"buildRating": 4,
+				"hangars": 2,
+				"increaseParentMaximumChildren": {
+					"flights": 2
+				},
+				"boardingCraft": 3,
+				"systemLoadouts": [
+					"Cloaking System",
+					"Defence Array (4)",
+					"Glide (4\")",
+					"Point Defence (6)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Defended+CPV+Heavy+Destroyer.png"
+			},
+			{
+				"name": "Covenant Defended DSC Support Ship",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 135,
+				"factions": [
+					"Covenant"
+				],
+				"size": "Medium",
+				"movement": "7\"",
+				"damageTrack": "7•6•6",
+				"buildRating": 3,
+				"hangars": 3,
+				"increaseParentMaximumChildren": {
+					"flights": 3
+				},
+				"boardingCraft": 4,
+				"securityDetail": 5,
+				"systemLoadouts": [
+					"Cloaking System",
+					"Defence Array (4)",
+					"Glide (4\")",
+					"Labyrinthine",
+					"Point Defence (6)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Defended+DSC+Support+Ship.png"
+			},
+			{
+				"name": "Covenant Defended RCS Armoured Cruiser",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 160,
+				"factions": [
+					"Covenant"
+				],
+				"size": "Medium",
+				"movement": "7\"",
+				"damageTrack": "9•8•6",
+				"buildRating": 3,
+				"hangars": 2,
+				"increaseParentMaximumChildren": {
+					"flights": 2
+				},
+				"boardingCraft": 3,
+				"securityDetail": 6,
+				"systemLoadouts": [
+					"Cloaking System",
+					"Defence Array (3)",
+					"Glide (3\")",
+					"Point Defence (6)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Defended+RCS+Armoured+Cruiser.png"
+			},
+			{
+				"name": "Covenant DSC Support Ship",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 95,
+				"factions": [
+					"Covenant"
+				],
+				"size": "Medium",
+				"movement": "7\"",
+				"damageTrack": "7•6•4",
+				"buildRating": 2,
+				"hangars": 3,
+				"increaseParentMaximumChildren": {
+					"flights": 3
+				},
+				"boardingCraft": 4,
+				"securityDetail": 4,
+				"systemLoadouts": [
+					"Defence Array (3)",
+					"Glide (4\")",
+					"Labyrinthine",
+					"Point Defence (4)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+DSC+Support+Ship.png"
+			},
+			{
+				"name": "Covenant Escorted Blockade Runner",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 210,
+				"factions": [
+					"Covenant"
+				],
+				"size": "Medium",
+				"movement": "9\"",
+				"damageTrack": "7•6•5",
+				"buildRating": 4,
+				"hangars": 2,
+				"increaseParentMaximumChildren": {
+					"flights": 2
+				},
+				"boardingCraft": 2,
+				"securityDetail": 4,
+				"systemLoadouts": [
+					"Cloaking System",
+					"Defence Array (4)",
+					"Glide (4\")",
+					"Point Defence (4)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Escorted+Blockade+Runner.png"
+			},
+			{
+				"name": "Covenant Escorted Carrack Merchant Cruiser",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 165,
+				"factions": [
+					"Covenant"
+				],
+				"unavailableWith": [
+					"Maccabeus"
+				],
+				"size": "Large",
+				"movement": "4\"",
+				"damageTrack": "11•11•6",
+				"buildRating": 4,
+				"hangars": 0,
+				"boardingCraft": 3,
+				"securityDetail": 6,
+				"systemLoadouts": [
+					"Defence Array (3)",
+					"Hard Burn (4\")",
+					"Point Defence (5)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Escorted+Carrack+Merchant+Cruiser.png"
+			},
+			{
+				"name": "Covenant Escorted CCS Battlecruiser",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 170,
+				"factions": [
+					"Covenant"
+				],
+				"size": "Medium",
+				"movement": "8\"",
+				"damageTrack": "8•7•4",
+				"buildRating": 4,
+				"hangars": 2,
+				"increaseParentMaximumChildren": {
+					"flights": 2
+				},
+				"boardingCraft": 2,
+				"securityDetail": 5,
+				"systemLoadouts": [
+					"Carrier Action (1)",
+					"Defence Array (5)",
+					"Glide (4\")",
+					"Point Defence (5)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Escorted+CCS+Battlecruiser.png"
+			},
+			{
+				"name": "Covenant Escorted CPV Heavy Destroyer",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 130,
+				"factions": [
+					"Covenant"
+				],
+				"size": "Medium",
+				"movement": "8\"",
+				"damageTrack": "8•6•5",
+				"buildRating": 4,
+				"hangars": 2,
+				"increaseParentMaximumChildren": {
+					"flights": 2
+				},
+				"boardingCraft": 3,
+				"systemLoadouts": [
+					"Defence Array (4)",
+					"Glide (4\")",
+					"Point Defence (6)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Escorted+CPV+Heavy+Destroyer.png"
+			},
+			{
+				"name": "Covenant Escorted DSC Support Ship",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 115,
+				"factions": [
+					"Covenant"
+				],
+				"size": "Medium",
+				"movement": "7\"",
+				"damageTrack": "7•6•5",
+				"buildRating": 3,
+				"hangars": 3,
+				"increaseParentMaximumChildren": {
+					"flights": 3
+				},
+				"boardingCraft": 4,
+				"securityDetail": 5,
+				"systemLoadouts": [
+					"Defence Array (4)",
+					"Glide (4\")",
+					"Labyrinthine",
+					"Point Defence (6)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Escorted+DSC+Support+Ship.png"
+			},
+			{
+				"name": "Covenant Escorted RCS Armoured Cruiser",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 140,
+				"factions": [
+					"Covenant"
+				],
+				"size": "Medium",
+				"movement": "7\"",
+				"damageTrack": "9•8•5",
+				"buildRating": 3,
+				"hangars": 2,
+				"increaseParentMaximumChildren": {
+					"flights": 2
+				},
+				"boardingCraft": 3,
+				"securityDetail": 6,
+				"systemLoadouts": [
+					"Defence Array (3)",
+					"Glide (3\")",
+					"Point Defence (6)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Escorted+RCS+Armoured+Cruiser.png"
+			},
+			{
+				"name": "Covenant ORS Heavy Cruiser",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 200,
+				"factions": [
+					"Covenant"
+				],
+				"unavailableWith": [
+					"Maccabeus"
+				],
+				"size": "Large",
+				"movement": "5\"",
+				"damageTrack": "11•10•5",
+				"buildRating": 4,
+				"hangars": 5,
+				"increaseParentMaximumChildren": {
+					"flights": 5
+				},
+				"boardingCraft": 3,
+				"securityDetail": 4,
+				"systemLoadouts": [
+					"Cloaking System",
+					"Defence Array (4)",
+					"Glide (3\")",
+					"Point Defence (5)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+ORS+Heavy+Cruiser.png"
+			},
+			{
+				"name": "Covenant Paired CCS Battlecruisers",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"autoAddOnly": true,
+				"points": 260,
+				"factions": [
+					"Covenant"
+				],
+				"size": "Medium",
+				"movement": "8\"",
+				"damageTrack": "11•11•4",
+				"buildRating": 8,
+				"hangars": 4,
+				"increaseParentMaximumChildren": {
+					"flights": 4
+				},
+				"boardingCraft": 4,
+				"securityDetail": 8,
+				"systemLoadouts": [
+					"Carrier Action (2)",
+					"Defence Array (7)",
+					"Glide (4\")",
+					"Point Defence (6)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Paired+CCS+Battlecruisers.png"
+			},
+			{
+				"name": "Covenant Penitent RCS Armored Cruisers",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"autoAddOnly": true,
+				"points": 220,
+				"factions": [
+					"Covenant"
+				],
+				"size": "Medium",
+				"movement": "7\"",
+				"damageTrack": "12•9•7",
+				"buildRating": 6,
+				"hangars": 4,
+				"increaseParentMaximumChildren": {
+					"flights": 4
+				},
+				"boardingCraft": 5,
+				"securityDetail": 8,
+				"systemLoadouts": [
+					"Defence Array (5)",
+					"Glide (3\")",
+					"Point Defence (7)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Penitent+RCS+Armored+Cruisers.png"
+			},
+			{
+				"name": "Covenant RCS Armored Cruiser",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 120,
+				"factions": [
+					"Covenant"
+				],
+				"size": "Medium",
+				"movement": "7\"",
+				"damageTrack": "9•8•4",
+				"buildRating": 2,
+				"hangars": 2,
+				"increaseParentMaximumChildren": {
+					"flights": 2
+				},
+				"boardingCraft": 3,
+				"securityDetail": 5,
+				"systemLoadouts": [
+					"Defence Array (2)",
+					"Glide (3\")",
+					"Point Defence (4)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+RCS+Armored+Cruiser.png"
+			},
+			{
+				"name": "Covenant Reinforced CCS Battlecruiser",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 200,
+				"factions": [
+					"Covenant"
+				],
+				"size": "Medium",
+				"movement": "8\"",
+				"damageTrack": "8•7•5",
+				"buildRating": 5,
+				"hangars": 5,
+				"increaseParentMaximumChildren": {
+					"flights": 5
+				},
+				"boardingCraft": 4,
+				"securityDetail": 6,
+				"systemLoadouts": [
+					"Carrier Action (1)",
+					"Defence Array (6)",
+					"Glide (4\")",
+					"Point Defence (6)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Reinforced+CCS+Battlecruiser.png"
+			},
+			{
+				"name": "Covenant Reinforced DSC Support Ship",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 135,
+				"factions": [
+					"Covenant"
+				],
+				"size": "Medium",
+				"movement": "7\"",
+				"damageTrack": "7•6•6",
+				"buildRating": 4,
+				"hangars": 5,
+				"increaseParentMaximumChildren": {
+					"flights": 5
+				},
+				"boardingCraft": 4,
+				"securityDetail": 5,
+				"systemLoadouts": [
+					"Defence Array (5)",
+					"Glide (4\")",
+					"Labyrinthine",
+					"Point Defence (6)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Reinforced+DSC+Support+Ship.png"
+			},
+			{
+				"name": "Covenant Reinforced RCS Armored Cruiser",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 160,
+				"factions": [
+					"Covenant"
+				],
+				"size": "Medium",
+				"movement": "7\"",
+				"damageTrack": "9•8•6",
+				"buildRating": 4,
+				"hangars": 4,
+				"increaseParentMaximumChildren": {
+					"flights": 4
+				},
+				"boardingCraft": 3,
+				"securityDetail": 6,
+				"systemLoadouts": [
+					"Defence Array (4)",
+					"Glide (3\")",
+					"Point Defence (6)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Reinforced+RCS+Armored+Cruiser.png"
+			},
+			{
+				"name": "Covenant Supported CCS Battlecruiser",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 170,
+				"factions": [
+					"Covenant"
+				],
+				"size": "Medium",
+				"movement": "8\"",
+				"damageTrack": "8•7•4",
+				"buildRating": 4,
+				"hangars": 3,
+				"increaseParentMaximumChildren": {
+					"flights": 3
+				},
+				"boardingCraft": 2,
+				"securityDetail": 5,
+				"systemLoadouts": [
+					"Carrier Action (1)",
+					"Defence Array (5)",
+					"Glide (4\")",
+					"Point Defence (4)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Supported+CCS+Battlecruiser.png"
+			},
+			{
+				"name": "Covenant Supported CPV Heavy Destroyer",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 130,
+				"factions": [
+					"Covenant"
+				],
+				"size": "Medium",
+				"movement": "8\"",
+				"damageTrack": "8•7•4",
+				"buildRating": 4,
+				"hangars": 3,
+				"increaseParentMaximumChildren": {
+					"flights": 3
+				},
+				"boardingCraft": 4,
+				"systemLoadouts": [
+					"Defence Array (4)",
+					"Glide (4\")",
+					"Point Defence (4)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Supported+CPV+Heavy+Destroyer.png"
+			},
+			{
+				"name": "Covenant Supported DDS Light Carrier",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 220,
+				"factions": [
+					"Covenant"
+				],
+				"unavailableWith": [
+					"Maccabeus"
+				],
+				"size": "Large",
+				"movement": "6\"",
+				"damageTrack": "10•8•5",
+				"buildRating": 5,
+				"hangars": 7,
+				"increaseParentMaximumChildren": {
+					"flights": 7
+				},
+				"boardingCraft": 3,
+				"securityDetail": 5,
+				"systemLoadouts": [
+					"Carrier Action (2)",
+					"Cloaking System",
+					"Defence Array (5)",
+					"Glide (3\")",
+					"Point Defence (6)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Supported+DDS+Light+Carrier.png"
+			},
+			{
+				"name": "Covenant Supported DSC Support Ship",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 115,
+				"factions": [
+					"Covenant"
+				],
+				"size": "Medium",
+				"movement": "7\"",
+				"damageTrack": "7•6•5",
+				"buildRating": 3,
+				"hangars": 4,
+				"increaseParentMaximumChildren": {
+					"flights": 4
+				},
+				"boardingCraft": 4,
+				"securityDetail": 5,
+				"systemLoadouts": [
+					"Defence Array (4)",
+					"Glide (4\")",
+					"Labyrinthine",
+					"Point Defence (5)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Supported+DSC+Support+Ship.png"
+			},
+			{
+				"name": "Covenant Supported ORS Heavy Cruiser",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 220,
+				"factions": [
+					"Covenant"
+				],
+				"unavailableWith": [
+					"Maccabeus"
+				],
+				"size": "Large",
+				"movement": "5\"",
+				"damageTrack": "11•10•6",
+				"buildRating": 5,
+				"hangars": 6,
+				"increaseParentMaximumChildren": {
+					"flights": 6
+				},
+				"boardingCraft": 3,
+				"securityDetail": 5,
+				"systemLoadouts": [
+					"Cloaking System",
+					"Defence Array (5)",
+					"Glide (3\")",
+					"Point Defence (6)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Supported+ORS+Heavy+Cruiser.png"
+			},
+			{
+				"name": "Covenant Supported RCS Armored Cruiser",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 140,
+				"factions": [
+					"Covenant"
+				],
+				"size": "Medium",
+				"movement": "7\"",
+				"damageTrack": "9•8•5",
+				"buildRating": 3,
+				"hangars": 3,
+				"increaseParentMaximumChildren": {
+					"flights": 3
+				},
+				"boardingCraft": 3,
+				"securityDetail": 6,
+				"systemLoadouts": [
+					"Defence Array (3)",
+					"Glide (3\")",
+					"Point Defence (5)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Supported+RCS+Armored+Cruiser.png"
+			},
+			{
+				"name": "UNSC Autumn-class Heavy Cruiser",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 105,
+				"factions": [
+					"USNC"
+				],
+				"size": "Medium",
+				"movement": "6\"",
+				"damageTrack": "6•6•3",
+				"buildRating": 2,
+				"hangars": 2,
+				"increaseParentMaximumChildren": {
+					"flights": 2
+				},
+				"boardingCraft": 2,
+				"securityDetail": 3,
+				"systemLoadouts": [
+					"Defence Arrays (2)",
+					"Hard Burn (3\")",
+					"Missile Barrage*",
+					"Point Defence (2)",
+					"Titanium Armour (2)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Autumn-class+Heavy+Cruiser.png"
+			},
+			{
+				"name": "UNSC Defended Epoch Heavy Carrier",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 220,
+				"factions": [
+					"USNC"
+				],
+				"size": "Large",
+				"movement": "6\"",
+				"damageTrack": "10•8•6",
+				"buildRating": 5,
+				"hangars": 6,
+				"increaseParentMaximumChildren": {
+					"flights": 6
+				},
+				"boardingCraft": 3,
+				"securityDetail": 5,
+				"systemLoadouts": [
+					"Carrier Action (3)",
+					"Hard Burn (1\")",
+					"Missile Barrage*",
+					"Point Defence (5)",
+					"Titanium Armour (6)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Defended+Epoch+Heavy+Carrier.png"
+			},
+			{
+				"name": "UNSC Defended Orion Assault Carrier",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 160,
+				"factions": [
+					"USNC"
+				],
+				"size": "Medium",
+				"movement": "6\"",
+				"damageTrack": "8•6•5",
+				"buildRating": 4,
+				"hangars": 3,
+				"increaseParentMaximumChildren": {
+					"flights": 3
+				},
+				"boardingCraft": 5,
+				"securityDetail": 5,
+				"systemLoadouts": [
+					"Carrier Action (1)",
+					"Hard Burn (3\")",
+					"Missile Barrage*",
+					"Point Defence (4)",
+					"Titanium Armour (6)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Defended+Orion+Assault+Carrier.png"
+			},
+			{
+				"name": "UNSC Defended Valiant Super-Heavy Cruiser",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 160,
+				"factions": [
+					"USNC"
+				],
+				"size": "Medium",
+				"movement": "7\"",
+				"damageTrack": "8•6•4",
+				"buildRating": 4,
+				"hangars": 2,
+				"increaseParentMaximumChildren": {
+					"flights": 2
+				},
+				"boardingCraft": 3,
+				"securityDetail": 6,
+				"systemLoadouts": [
+					"Hard Burn (2\")",
+					"Missile Barrage*",
+					"Point Defence (4)",
+					"Titanium Armour (6)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Defended+Valiant+Super-Heavy+Cruiser.png"
+			},
+			{
+				"name": "UNSC Eion Light Carrier",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 85,
+				"factions": [
+					"USNC"
+				],
+				"size": "Medium",
+				"movement": "7\"",
+				"damageTrack": "6•5•4",
+				"buildRating": 2,
+				"hangars": 3,
+				"increaseParentMaximumChildren": {
+					"flights": 3
+				},
+				"boardingCraft": 2,
+				"securityDetail": 2,
+				"systemLoadouts": [
+					"Carrier Action (1)",
+					"Hard Burn (2\")",
+					"Missile Barrage*",
+					"Point Defence (3)",
+					"Titanium Armour (3)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Eion+Light+Carrier.png"
+			},
+			{
+				"name": "UNSC Epoch Heavy Carrier",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 175,
+				"factions": [
+					"USNC"
+				],
+				"size": "Large",
+				"movement": "6\"",
+				"damageTrack": "9•8•5",
+				"buildRating": 4,
+				"hangars": 6,
+				"increaseParentMaximumChildren": {
+					"flights": 6
+				},
+				"boardingCraft": 3,
+				"securityDetail": 4,
+				"systemLoadouts": [
+					"Carrier Action (3)",
+					"Hard Burn (1\")",
+					"Missile Barrage*",
+					"Point Defence (5)",
+					"Titanium Armour (4)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Epoch+Heavy+Carrier.png"
+			},
+			{
+				"name": "UNSC Escorted Autumn-class Heavy Cruiser",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 120,
+				"factions": [
+					"USNC"
+				],
+				"size": "Medium",
+				"movement": "6\"",
+				"damageTrack": "7•6•3",
+				"buildRating": 3,
+				"hangars": 2,
+				"increaseParentMaximumChildren": {
+					"flights": 2
+				},
+				"boardingCraft": 2,
+				"securityDetail": 4,
+				"systemLoadouts": [
+					"Defence Arrays (2)",
+					"Hard Burn (3\")",
+					"Missile Barrage*",
+					"Point Defence (2)",
+					"Titanium Armour (3)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Escorted+Autumn-class+Heavy+Cruiser.png"
+			},
+			{
+				"name": "UNSC Escorted Orion Assault Carrier",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 145,
+				"factions": [
+					"USNC"
+				],
+				"size": "Medium",
+				"movement": "6\"",
+				"damageTrack": "8•6•4",
+				"buildRating": 4,
+				"hangars": 3,
+				"increaseParentMaximumChildren": {
+					"flights": 3
+				},
+				"boardingCraft": 5,
+				"securityDetail": 4,
+				"systemLoadouts": [
+					"Carrier Action (1)",
+					"Hard Burn (3\")",
+					"Missile Barrage*",
+					"Point Defence (4)",
+					"Titanium Armour (5)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Escorted+Orion+Assault+Carrier.png"
+			},
+			{
+				"name": "UNSC Escorted Valiant Super-Heavy Cruiser",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 135,
+				"factions": [
+					"USNC"
+				],
+				"size": "Medium",
+				"movement": "7\"",
+				"damageTrack": "8•6•3",
+				"buildRating": 4,
+				"hangars": 2,
+				"increaseParentMaximumChildren": {
+					"flights": 2
+				},
+				"boardingCraft": 3,
+				"securityDetail": 5,
+				"systemLoadouts": [
+					"Hard Burn (2\")",
+					"Missile Barrage*",
+					"Point Defence (4)",
+					"Titanium Armour (5)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Escorted+Valiant+Super-Heavy+Cruiser.png"
+			},
+			{
+				"name": "UNSC Halcyon Light Cruiser",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 80,
+				"factions": [
+					"USNC"
+				],
+				"size": "Medium",
+				"movement": "6\"",
+				"damageTrack": "7•5•4",
+				"buildRating": 2,
+				"hangars": 2,
+				"increaseParentMaximumChildren": {
+					"flights": 2
+				},
+				"boardingCraft": 2,
+				"securityDetail": 3,
+				"systemLoadouts": [
+					"Hard Target",
+					"Hard Burn (2\")",
+					"Missile Barrage*",
+					"Point Defence (2)",
+					"Titanium Armour (2)",
+					"Lumbering"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Halcyon+Light+Cruiser.png"
+			},
+			{
+				"name": "UNSC MAC Platform",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 160,
+				"factions": [
+					"USNC"
+				],
+				"size": "Medium",
+				"movement": "0\"",
+				"damageTrack": "7•6•3",
+				"buildRating": 3,
+				"hangars": 4,
+				"increaseParentMaximumChildren": {
+					"flights": 4
+				},
+				"boardingCraft": 2,
+				"securityDetail": 6,
+				"systemLoadouts": [
+					"Emplacement",
+					"Point Defence (5)",
+					"Titanium Armour (5)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+MAC+Platform.png"
+			},
+			{
+				"name": "UNSC Marathon Heavy Cruiser",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 95,
+				"factions": [
+					"USNC"
+				],
+				"size": "Medium",
+				"movement": "8\"",
+				"damageTrack": "6•6•3",
+				"buildRating": 2,
+				"hangars": 2,
+				"increaseParentMaximumChildren": {
+					"flights": 2
+				},
+				"boardingCraft": 2,
+				"securityDetail": 3,
+				"systemLoadouts": [
+					"Hard Burn (2\")",
+					"Missile Barrage*",
+					"Point Defence (3)",
+					"Titanium Armour (3)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Marathon+Heavy+Cruiser.png"
+			},
+			{
+				"name": "UNSC Orion Assault Carrier",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 120,
+				"factions": [
+					"USNC"
+				],
+				"size": "Medium",
+				"movement": "6\"",
+				"damageTrack": "7•6•4",
+				"buildRating": 3,
+				"hangars": 3,
+				"increaseParentMaximumChildren": {
+					"flights": 3
+				},
+				"boardingCraft": 4,
+				"securityDetail": 3,
+				"systemLoadouts": [
+					"Carrier Action (1)",
+					"Hard Burn (3\")",
+					"Missile Barrage*",
+					"Point Defence (4)",
+					"Titanium Armour (4)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Orion+Assault+Carrier.png"
+			},
+			{
+				"name": "UNSC Paired Marathon Heavy Cruisers",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"autoAddOnly": true,
+				"points": 220,
+				"factions": [
+					"USNC"
+				],
+				"size": "Medium",
+				"movement": "8\"",
+				"damageTrack": "10•10•5",
+				"buildRating": 6,
+				"hangars": 4,
+				"increaseParentMaximumChildren": {
+					"flights": 4
+				},
+				"boardingCraft": 4,
+				"securityDetail": 6,
+				"systemLoadouts": [
+					"Hard Burn (2\")",
+					"Missile Barrage*",
+					"Point Defence (7)",
+					"Titanium Armour (7)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Paired+Marathon+Heavy+Cruisers.png"
+			},
+			{
+				"name": "UNSC Phoenix (Guardian Spirit Formation)",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 260,
+				"factions": [
+					"USNC"
+				],
+				"size": "Large",
+				"movement": "6\"",
+				"damageTrack": "12•11•6",
+				"buildRating": 6,
+				"hangars": 5,
+				"increaseParentMaximumChildren": {
+					"flights": 5
+				},
+				"boardingCraft": 7,
+				"securityDetail": 7,
+				"systemLoadouts": [
+					"Hard Burn (2\")",
+					"Missile Barrage*",
+					"Point Defence (6)",
+					"Titanium Armour (7)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Phoenix+(Guardian+Spirit+Formation).png"
+			},
+			{
+				"name": "UNSC Phoenix-class Colonial Support Vessel",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 200,
+				"factions": [
+					"USNC"
+				],
+				"size": "Large",
+				"movement": "6\"",
+				"damageTrack": "10•9•5",
+				"buildRating": 4,
+				"hangars": 3,
+				"increaseParentMaximumChildren": {
+					"flights": 3
+				},
+				"boardingCraft": 6,
+				"securityDetail": 5,
+				"systemLoadouts": [
+					"Hard Burn (2\")",
+					"Missile Barrage*",
+					"Point Defence (4)",
+					"Titanium Armour (5)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Phoenix-class+Colonial+Support+Vessel.png"
+			},
+			{
+				"name": "UNSC Punic-class Supercarrier (Aft Section)",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"autoAddOnly": true,
+				"points": 0,
+				"factions": [
+					"USNC"
+				],
+				"size": "Massive",
+				"movement": "6\"",
+				"damageTrack": "10•8•5",
+				"buildRating": 5,
+				"hangars": 2,
+				"increaseParentMaximumChildren": {
+					"flights": 2
+				},
+				"boardingCraft": 3,
+				"securityDetail": 6,
+				"systemLoadouts": [
+					"Hard Burn (1\")",
+					"Labyrinthine",
+					"Point Defence (7)",
+					"Titanium Armour (8)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Punic-class+Supercarrier+(Aft+Section).png"
+			},
+			{
+				"name": "UNSC Punic-class Supercarrier (Fore Section)",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"autoAddOnly": true,
+				"points": 675,
+				"factions": [
+					"USNC"
+				],
+				"size": "Massive",
+				"movement": "6\"",
+				"damageTrack": "10•8•5",
+				"buildRating": 5,
+				"hangars": 2,
+				"increaseParentMaximumChildren": {
+					"flights": 2
+				},
+				"boardingCraft": 3,
+				"securityDetail": 6,
+				"systemLoadouts": [
+					"Hard Burn (1\")",
+					"Labyrinthine",
+					"Point Defence (7)",
+					"Titanium Armour (8)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Punic-class+Supercarrier+(Fore+Section).png"
+			},
+			{
+				"name": "UNSC Punic-class Supercarrier (Mid Section)",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"autoAddOnly": true,
+				"points": 0,
+				"factions": [
+					"USNC"
+				],
+				"size": "Massive",
+				"movement": "6\"",
+				"damageTrack": "11•9•6",
+				"buildRating": 6,
+				"hangars": 10,
+				"increaseParentMaximumChildren": {
+					"flights": 10
+				},
+				"boardingCraft": 5,
+				"securityDetail": 8,
+				"systemLoadouts": [
+					"Carrier Action (3)",
+					"Hard Burn (1\")",
+					"Labyrinthine",
+					"Point Defence (8)",
+					"Titanium Armour (7)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Punic-class+Supercarrier+(Mid+Section).png"
+			},
+			{
+				"name": "UNSC Reinforced Marathon Heavy Cruiser",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 135,
+				"factions": [
+					"USNC"
+				],
+				"size": "Medium",
+				"movement": "8\"",
+				"damageTrack": "8•7•4",
+				"buildRating": 4,
+				"hangars": 2,
+				"increaseParentMaximumChildren": {
+					"flights": 2
+				},
+				"boardingCraft": 2,
+				"securityDetail": 4,
+				"systemLoadouts": [
+					"Hard Burn (2\")",
+					"Missile Barrage*",
+					"Point Defence (5)",
+					"Titanium Armour (4)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Reinforced+Marathon+Heavy+Cruiser.png"
+			},
+			{
+				"name": "UNSC Reinforced Orion Assault Carrier",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 150,
+				"factions": [
+					"USNC"
+				],
+				"size": "Medium",
+				"movement": "6\"",
+				"damageTrack": "8•6•5",
+				"buildRating": 4,
+				"hangars": 3,
+				"increaseParentMaximumChildren": {
+					"flights": 3
+				},
+				"boardingCraft": 4,
+				"securityDetail": 5,
+				"systemLoadouts": [
+					"Carrier Action (1)",
+					"Hard Burn (3\")",
+					"Missile Barrage*",
+					"Point Defence (5)",
+					"Titanium Armour (5)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Reinforced+Orion+Assault+Carrier.png"
+			},
+			{
+				"name": "UNSC Supported Eion Light Carrier",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 100,
+				"factions": [
+					"USNC"
+				],
+				"size": "Medium",
+				"movement": "7\"",
+				"damageTrack": "7•5•4",
+				"buildRating": 3,
+				"hangars": 4,
+				"increaseParentMaximumChildren": {
+					"flights": 4
+				},
+				"boardingCraft": 2,
+				"securityDetail": 3,
+				"systemLoadouts": [
+					"Carrier Action (1)",
+					"Hard Burn (2\")",
+					"Missile Barrage*",
+					"Point Defence (4)",
+					"Titanium Armour (3)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Supported+Eion+Light+Carrier.png"
+			},
+			{
+				"name": "UNSC Supported Epoch Heavy Carrier",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 190,
+				"factions": [
+					"USNC"
+				],
+				"size": "Large",
+				"movement": "6\"",
+				"damageTrack": "10•8•5",
+				"buildRating": 5,
+				"hangars": 6,
+				"increaseParentMaximumChildren": {
+					"flights": 6
+				},
+				"boardingCraft": 3,
+				"securityDetail": 5,
+				"systemLoadouts": [
+					"Carrier Action (3)",
+					"Hard Burn (1\")",
+					"Missile Barrage*",
+					"Point Defence (6)",
+					"Titanium Armour (5)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Supported+Epoch+Heavy+Carrier.png"
+			},
+			{
+				"name": "UNSC Supported Halcyon Light Cruiser",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 95,
+				"factions": [
+					"USNC"
+				],
+				"size": "Medium",
+				"movement": "6\"",
+				"damageTrack": "8•5•4",
+				"buildRating": 3,
+				"hangars": 2,
+				"increaseParentMaximumChildren": {
+					"flights": 2
+				},
+				"boardingCraft": 2,
+				"securityDetail": 4,
+				"systemLoadouts": [
+					"Hard Target",
+					"Hard Burn (2\")",
+					"Missile Barrage*",
+					"Point Defence (3)",
+					"Titanium Armour (2)",
+					"Lumbering"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Supported+Halcyon+Light+Cruiser.png"
+			},
+			{
+				"name": "UNSC Supported Marathon Heavy Cruiser",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 110,
+				"factions": [
+					"USNC"
+				],
+				"size": "Medium",
+				"movement": "8\"",
+				"damageTrack": "7•6•3",
+				"buildRating": 3,
+				"hangars": 2,
+				"increaseParentMaximumChildren": {
+					"flights": 2
+				},
+				"boardingCraft": 2,
+				"securityDetail": 4,
+				"systemLoadouts": [
+					"Hard Burn (2\")",
+					"Missile Barrage*",
+					"Point Defence (4)",
+					"Titanium Armour (3)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Supported+Marathon+Heavy+Cruiser.png"
+			},
+			{
+				"name": "UNSC Supported Orion Assault Carrier",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 135,
+				"factions": [
+					"USNC"
+				],
+				"size": "Medium",
+				"movement": "6\"",
+				"damageTrack": "8•6•4",
+				"buildRating": 4,
+				"hangars": 3,
+				"increaseParentMaximumChildren": {
+					"flights": 3
+				},
+				"boardingCraft": 4,
+				"securityDetail": 4,
+				"systemLoadouts": [
+					"Carrier Action (1)",
+					"Hard Burn (3\")",
+					"Missile Barrage*",
+					"Point Defence (5)",
+					"Titanium Armour (4)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Supported+Orion+Assault+Carrier.png"
+			},
+			{
+				"name": "UNSC Supported Valiant Super-Heavy Cruiser",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 135,
+				"factions": [
+					"USNC"
+				],
+				"size": "Medium",
+				"movement": "7\"",
+				"damageTrack": "8•6•3",
+				"buildRating": 4,
+				"hangars": 3,
+				"increaseParentMaximumChildren": {
+					"flights": 3
+				},
+				"boardingCraft": 2,
+				"securityDetail": 5,
+				"systemLoadouts": [
+					"Hard Burn (2\")",
+					"Missile Barrage*",
+					"Point Defence (5)",
+					"Titanium Armour (4)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Supported+Valiant+Super-Heavy+Cruiser.png"
+			},
+			{
+				"name": "UNSC Valiant Super-Heavy Cruiser",
+				"validationKeys": [
+					"capitalElement"
+				],
+				"points": 115,
+				"factions": [
+					"USNC"
+				],
+				"size": "Medium",
+				"movement": "7\"",
+				"damageTrack": "7•6•3",
+				"buildRating": 3,
+				"hangars": 2,
+				"increaseParentMaximumChildren": {
+					"flights": 2
+				},
+				"boardingCraft": 2,
+				"securityDetail": 4,
+				"systemLoadouts": [
+					"Hard Burn (2\")",
+					"Missile Barrage*",
+					"Point Defence (4)",
+					"Titanium Armour (4)"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Valiant+Super-Heavy+Cruiser.png"
+			}
+		],
+		"flights": [
+			{
+				"name": "Covenant Seraph Interceptor Flight",
+				"validationKeys": [
+					"nonCapitalElement"
+				],
+				"points": 0,
+				"factions": [
+					"Covenant"
+				],
+				"movement": "16\"",
+				"damageTrack": "2",
+				"flightSlots": 1,
+				"systemLoadouts": [],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Seraph+Interceptor+Flight.png"
+			},
+			{
+				"name": "Covenant Banshee Interceptor Flight",
+				"validationKeys": [
+					"nonCapitalElement"
+				],
+				"points": 0,
+				"factions": [
+					"Covenant"
+				],
+				"movement": "14\"",
+				"damageTrack": "1",
+				"flightSlots": 0.5,
+				"systemLoadouts": [
+					"Fixed Flight"
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Banshee+Interceptor+Flight.png"
+			},
+			{
+				"name": "Covenant Tarasque Bomber Flight",
+				"validationKeys": [
+					"nonCapitalElement"
+				],
+				"points": 0,
+				"factions": [
+					"Covenant"
+				],
+				"movement": "14\"",
+				"damageTrack": "2",
+				"flightSlots": 1,
+				"systemLoadouts": [],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/Covenant+Tarasque+Bomber+Flight.png"
+			},
+			{
+				"name": "UNSC Broadsword Interceptor Flight (+ Sabre)",
+				"validationKeys": [
+					"nonCapitalElement"
+				],
+				"points": 0,
+				"factions": [
+					"USNC"
+				],
+				"movement": "16\"",
+				"damageTrack": "2",
+				"flightSlots": 1,
+				"systemLoadouts": [],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Broadsword+Interceptor+Flight+(++Sabre).png"
+			},
+			{
+				"name": "UNSC Longsword Bomber Flights",
+				"validationKeys": [
+					"nonCapitalElement"
+				],
+				"points": 0,
+				"factions": [
+					"USNC"
+				],
+				"movement": "16\"",
+				"damageTrack": "2",
+				"flightSlots": 1,
+				"systemLoadouts": [],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/UNSC+Longsword+Bomber+Flights.png"
+			}
+		],
+		"commanders": [
+			{
+				"name": "UNSC Fleet Commander",
+				"points": 50,
+				"factions": [
+					{
+						"name": "USNC"
+					}
+				],
+				"options": [
+					{
+						"name": "Spartans",
+						"points": 40,
+						"increment": true
+					}
+				],
+				"imageUrl": "https://github.com/andrewinge/halofleet.github.io/blob/main/images/unsc%20fleet%20commander.png?raw=true",
+				"imageOrientation": "portrait"
+			},
+			{
+				"name": "Covenant Fleet Commander",
+				"points": 50,
+				"factions": [
+					{
+						"name": "Covenant"
+					}
+				],
+				"options": [
+					{
+						"name": "Zealots",
+						"points": 10,
+						"increment": true
+					}
+				],
+				"imageUrl": "https://github.com/andrewinge/halofleet.github.io/blob/main/images/covenant%20fleet%20commander.png?raw=true",
+				"imageOrientation": "portrait"
+			},
+			{
+				"name": "Lord Hood",
+				"points": 120,
+				"factions": [
+					{
+						"name": "USNC"
+					}
+				],
+				"options": [
+					{
+						"name": "Spartans",
+						"points": 100,
+						"increment": true
+					}
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/lord%20hood.webp",
+				"imageOrientation": "portrait"
+			},
+			{
+				"name": "Michael Stanforth",
+				"points": 100,
+				"factions": [
+					{
+						"name": "USNC"
+					}
+				],
+				"options": [
+					{
+						"name": "Spartans",
+						"points": 40,
+						"increment": true
+					}
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/michael.webp",
+				"imageOrientation": "portrait"
+			},
+			{
+				"name": "Preston Cole",
+				"points": 140,
+				"factions": [
+					{
+						"name": "USNC"
+					}
+				],
+				"options": [
+					{
+						"name": "Spartans",
+						"points": 40,
+						"increment": true
+					}
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/preston.webp",
+				"imageOrientation": "portrait"
+			},
+			{
+				"name": "Xytan 'Jar Wattinree",
+				"points": 120,
+				"factions": [
+					{
+						"name": "Covenant"
+					}
+				],
+				"options": [
+					{
+						"name": "Zealots",
+						"points": 25,
+						"increment": true
+					}
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/xytan.webp",
+				"imageOrientation": "portrait"
+			},
+			{
+				"name": "Maccabeus",
+				"points": 80,
+				"factions": [
+					{
+						"name": "Covenant"
+					}
+				],
+				"options": [
+					{
+						"name": "Brutes",
+						"points": 5,
+						"increment": true
+					}
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/maccabeus.webp",
+				"imageOrientation": "portrait"
+			},
+			{
+				"name": "Rho 'Barutamee",
+				"points": 100,
+				"factions": [
+					{
+						"name": "Covenant"
+					}
+				],
+				"options": [
+					{
+						"name": "Zealots",
+						"points": 10,
+						"increment": true
+					}
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/rho.webp",
+				"imageOrientation": "portrait"
+			}
+		],
+		"heroicCharacters": [
+			{
+				"name": "Cortana",
+				"points": 80,
+				"factions": [
+					{
+						"name": "USNC"
+					}
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/cortana.webp",
+				"imageOrientation": "portrait"
+			},
+			{
+				"name": "Minister of Etiology",
+				"points": 80,
+				"factions": [
+					{
+						"name": "Covenant"
+					}
+				],
+				"options": [
+					{
+						"name": "Zealots",
+						"points": 10,
+						"increment": true
+					}
+				],
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/minister.webp",
+				"imageOrientation": "portrait"
+			},
+			{
+				"name": "Lighter Than Some",
+				"points": 40,
+				"factions": [
+					{
+						"name": "Covenant"
+					}
+				],
+				"unlockedBy": "Maccabeus",
+				"imageUrl": "https://d26oqf9i6fvic.cloudfront.net/halofleet/lighter%20than%20some.webp",
+				"imageOrientation": "portrait"
+			}
+		],
+		"keywords": [
+			{
+				"name": "Glide (Distance\")",
+				"definition": "Elements with the Glide (Distance\") Loadout may forgo their standard Movement to move laterally (sideways) instead. The distance they may travel is denoted in the parenthesis. An Element using its Glide Loadout may not make any Turning Actions during its Movement."
+			},
+			{
+				"name": "Hard Burn (Distance\")",
+				"definition": "Elements with this Loadout may increase their movement by the value listed in parenthesis, provided the Element DOES NOT execute a Turning Action during its Activation. For example, if an Epoch Heavy Carrier Element makes a Hard Burn, its Hard Burn (1\") means its normal Movement of 6\" becomes 7\", but no turns may be made during the movement."
+			},
+			{
+				"name": "Lumbering",
+				"definition": "Elements with this Loadout count as being one size class LARGER than listed. This will affect the way this Element may execute Turning Actions (see the Movement Segment chapter on PAGE 78)."
+			},
+			{
+				"name": "Nimble",
+				"definition": "Elements with this Loadout count as being one size class SMALLER than listed. This will affect the way this Element may execute Turning Actions (see the Movement Segment chapter on PAGE 78)."
+			},
+			{
+				"name": "Cloaking System",
+				"definition": "An Element with this Loadout causes enemy Attacks to suffer a -1 to their Firepower Rating when firing at Long Range."
+			},
+			{
+				"name": "Defence Arrays (Value)",
+				"definition": "An Element with the Defence Arrays (Value) Loadout may add the Value listed in the parenthesis to its Defence Dice Pool when defending against an Attack by the enemy or when colliding with Terrain."
+			},
+			{
+				"name": "Elusive",
+				"definition": "An Element with the Elusive Loadout causes any attack made by an enemy Element against it to suffer a -1 to its Firepower Rating. However, if the attacker is a Bomber Wing on an Attack Run, or if ALL Elements initiating the Firing Solution at the target also have the Elusive Loadout, this modifier is ignored."
+			},
+			{
+				"name": "Hard Target",
+				"definition": "An element with the Hard Target Loadout critically limits ALL weaponry Attacks made against it. The effect is as follows: any Attack Dice Pool – generated by Primary or Secondary Weapons – will see ONE Success REMOVED from the Attack Dice Pool Total for each [Explosion] rolled during an attack. This is done at the end of the process and after all Successes have been determined by a player."
+			},
+			{
+				"name": "Magnetic Accelerator Cannon (Value)",
+				"definition": "Magnetic Accelerator Cannons (MACs) fire dense projectiles at extremely high velocities, delivering immense amounts of kinetic energy to their target. These weapons are governed by the following rules, designed to simulate the battle tactics of the UNSC to overwhelm and weaken the defensive systems of Covenant vessels with sustained hits from MAC-based weaponry. Roll the Attack Dice Pool as normal. Assuming the target Element is required to make a Defensive Pool Roll (because the attack is going to cause damage!), BEFORE rolling the Defence Dice Pool, check the combined values of all of the MACs taking part in the Firing Solution: Light or Medium = 1, Heavy = 2, Super = 3. If the combined Values of the MACs is 2–3, roll ONE Halo Dice and on a result of a [Skull] the Target Element gains a Vulnerable Token. If the combined Values is 4–5, roll ONE Halo Dice and on a result of a [Skull] or an [Explosion] the Target Element gains a Vulnerable Token. If the combined Values is 6 or above, roll ONE Halo Dice; on a result of an [Explosion], [Double Explosion], or [Blank] the Target Element gains a Vulnerable Token. This effect takes place BEFORE any Defence Dice Pool rolls and CANNOT be affected by Loadouts. Damage could also become Critical Damage and apply even more Vulnerable Tokens (see PAGE 30)."
+			},
+			{
+				"name": "Massive",
+				"definition": "An Element with the Massive Loadout causes enemy weaponry to gain a +1 to their Firepower Rating when firing at Short Range. See the additional rules on PAGE 115 for more details about Massive Models."
+			},
+			{
+				"name": "Missile Barrage",
+				"definition": "Despite being launched from the Port and Starboard Missile housings of a vessel, these weapons may redirect themselves to target Elements within the Fore Arc with a SINGLE salvo. However, unlike standard Firing Solutions, this salvo of Missiles MUST target the CLOSEST enemy Element in the firing Element's Fore Arc, and Port and Starboard Arcs may not be used during the Activation. For example, an Epoch Heavy Carrier can build two Firing Solutions firing into its Port and Starboard Arcs, with an Attack Dice Pool of 15 generated for each attack. Or instead, it can choose to fire in its Fore Arc with ONE Firing Solution of 15 Dice, which MUST target the nearest enemy Element in that Arc. IMPORTANT NOTE: Certain Heroic Characters have the ability to ignore the Missile Barrage closest-target rule, allowing the targeted Element to be of the player's choice."
+			},
+			{
+				"name": "Missile Weapons",
+				"definition": "Elements with the Missile Loadout gain a +1 on their Firepower Rating when firing at targets at Long Range. In addition, Elements defending against Missile Weapons may add the Value in their Point Defence (Value) Loadout when constructing a Defence Dice Pool."
+			},
+			{
+				"name": "Plasma Weapons",
+				"definition": "Only weapons of the identical type and name can be combined as part of a Firing Solution. All Plasma-based weapons irrespective of their type gain a +1 to the Firepower Rating at Short Range and a -1 at Long Range. The Covenant employ Plasma-based Weaponry summarised into: Beam, Lance, Cannon Arrays and Plasma Torpedoes. Plasma Beam Weapons are Short Range cutting ordnance that can target multiple Elements at once. These weapons may NEVER take part in Firing Solutions with any other weapon. Beam weapons are fired by nominating a Primary Target and allocating the first number in the Dice Profile to it, then a different enemy Element within 6\" of the first for the second number, then a different third target within 6\" of the second for the third number. Unlike normal Firing Solutions, these Targets do NOT have to be part of the same Battle Group. Each target is attacked and resolved separately. Beam Weapons do not permit firing beyond their stated Range or Arc of Fire, and Attack Dice Pools use a starting Firepower Rating of 5 as default (Terrain and Loadouts still apply). Plasma Cannon Arrays are capable of forming a Firing Solution across any Battle Group in the Fleet and otherwise use only the Plasma Loadout. Plasma Lances are long-range focused attacks able to deal high levels of damage. Plasma Torpedoes use Plasma Short/Long Range modifiers and also use Missile Weapons rules, so at Long Range their Firepower modifier is +0 (-1 Long Range, +1 Plasma Torpedoes); like other Missile Weapons they can be reduced by Point Defence Dice Pools."
+			},
+			{
+				"name": "Point Defence (Value)",
+				"definition": "This Loadout represents weapons most commonly used to defend against Bombers and Boarding Craft that are performing Attack Runs or Boarding Assaults against a target Element. In addition, Point Defence systems can also be used to defend against attacks made by Elements with the Missile Weapons Loadout. In all cases, the Value inside the parentheses is the number of Dice added to an Element's Defence Dice Pool prior to rolling."
+			},
+			{
+				"name": "Titanium Armour (Value)",
+				"definition": "An Element with the Titanium Armour (Value) Loadout may add the Value listed in the parenthesis to its Defence Dice Pool when defending against an Attack, provided the Attack is made against the FIRST level of Damage on the Element's Damage Track. Once an Element with Titanium Armour takes a Damage Token, the benefit of Titanium Armour is lost, and the Value can no longer be added to any Defence Dice Pools."
+			},
+			{
+				"name": "Assault Specialist (Value)",
+				"definition": "The value in the parenthesis is added to the Boarding Value for its side."
+			},
+			{
+				"name": "Labyrinthine",
+				"definition": "Elements with the Labyrinthine Loadout ALWAYS reduce the result rolled on the Boarding Result Table by -2. This is applied after all other Loadouts have taken effect."
+			},
+			{
+				"name": "Carrier Action (Value)",
+				"definition": "Elements with the Carrier Action (Value) Loadout may re-launch a number of Wings equal to the Value listed in their Loadout's parenthesis during the End Phase. The Wing or Wings are immediately deployed within 8\" of their Formation Base. Flight Tokens deployed in this manner must be formed into a legal Wing (see Fleet appendices for the minimum and maximum Wing sizes) and they may only be taken from the casualties in a Faction's Scrapyard. However, a player may choose to alter the mix of Interceptors and Bombers – the Flight Tokens simply represent the number of tokens available to redeploy into battle. For example, if you have 10 Bomber tokens in the Scrapyard, you can swap any number out for interceptor tokens (e.g. 5 and 5)."
+			},
+			{
+				"name": "Emplacement",
+				"definition": "An Element with this Loadout may only form Battle Groups with other Emplacements, may not use the Form Up Fleet Order, and do not require the usual Capital and Non-Capital Elements to form a Battle Group. In addition, Element Coherency amongst Emplacements within the same Battle Group is 12\"."
+			},
+			{
+				"name": "Heroic Save (Type)",
+				"definition": "If at any time a Token with the Heroic Save (Type) Loadout should be called upon to be removed as a casualty, roll a single Halo Dice and refer to the Type listed in the parentheses. Spartans: on a roll of anything other than a [Skull], the Spartan Token remains in play and is NOT removed as a casualty. Zealots: on a roll of an [Explosion] or [Accuracy], the Zealot Token remains in play and is NOT removed as a casualty. Troopers: on a roll of an [Accuracy], the Trooper Token is NOT removed as a casualty."
+			},
+			{
+				"name": "Command Centre",
+				"definition": "A Fleet containing a Golden Path Battle Group may re-roll a Single Order Dice at the beginning of either the Attacks or Boarding Segments (but not both)."
+			},
+			{
+				"name": "Hunter Killers",
+				"definition": "All Elements in this Battle Group may re-roll any Initial Rolls of a [Skull] when firing Plasma Torpedoes at Short Range."
+			},
+			{
+				"name": "Focused Wrath",
+				"definition": "All Plasma Cannon Array Attacks made by this Element may re-roll a single Attack Dice for each friendly Zealot on board."
+			},
+			{
+				"name": "Wall of Fire",
+				"definition": "The Cerberus Battle Group may roll 2 Halo Dice rather than 1 when resolving the effects of a MAC Loadout when attempting to overload an enemy's defence, prior to the Defence Dice Pool being rolled."
+			},
+			{
+				"name": "Pack Hunters",
+				"definition": "All Elements in this Battle Group may re-roll any Initial Rolls of a [Skull] when firing MACs – these re-rolled dice may NOT generate any further re-rolls."
+			},
+			{
+				"name": "Advanced Targeting Solutions",
+				"definition": "All Attacks made by this Battle Group may re-roll any attempt to cause a Critical Hit."
+			},
+			{
+				"name": "Prototype Wings",
+				"definition": "Interceptor wings deployed by this group may be replaced with Sabre (Interceptors). Sabres launched by this battlegroup take up ONE flight slot, not two."
+			},
+			{
+				"name": "Carrier Refit",
+				"definition": "The Supported Marathon loses its Missile Barrage Loadout but gains the Carrier (1) Loadout. Additionally, the Supported Marathon in the Cyclops Specialist Battle Group has a Hangar Rating of 5, instead of the 2 it would normally have."
+			},
+			{
+				"name": "Cathedral of the Faithful",
+				"definition": "Each Section on a CAS can replace ONE of its listed Boarding Craft with a Zealot for no points. This bonus is in addition to the standard number of Zealots available to the fleet."
+			},
+			{
+				"name": "Seraph Hosts",
+				"definition": "All Seraph Interceptor Wings launched by a CAS increase their maximum size to 6 rather than the normal 5."
+			},
+			{
+				"name": "Frigate Resupply",
+				"definition": "During the Repairs Step of an End Phase, a Punic may allow a Single Paris Element within 10\" to remove a Single Damage Marker from its base. Where applicable, this can restore Titanium Armour."
+			},
+			{
+				"name": "Automated Repair Systems",
+				"definition": "Each time a Vulnerable Marker is applied to a section of the Punic, roll a Halo Dice: on a [1] or [2], the Vulnerable Marker is immediately removed."
+			},
+			{
+				"name": "Limited Resources",
+				"definition": "All Punics and CAS exist as individual Battle Groups and are not required to follow the standard rules for Battle Group Creation. Whilst they are not Specialist Battle Groups, they are restricted by the size of Fleet they are attached to. Therefore a single Punic or CAS can be included in a Fleet for every full 1250 Points being played."
+			}
+		]
+	}
 }
