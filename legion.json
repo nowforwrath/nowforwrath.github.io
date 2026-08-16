@@ -10344,7 +10344,7 @@
       },
       {
         "id": 22510,
-        "name": "Paz Viszla",
+        "name": "Paz Vizsla",
         "points": 40,
         "type": 1,
         "keywords": [192, 231],
@@ -10363,7 +10363,7 @@
           }
         ],
         "unavailableWith": [
-          "Paz Viszla"
+          "Paz Vizsla"
         ],
         "chooseOneKey": "leader",
         "factions": [1, 2, 4, 5, 8],
@@ -21149,7 +21149,7 @@
         "affiliation": "1084"
       },
       {
-        "name": "Paz Viszla",
+        "name": "Paz Vizsla",
         "title": "Proud Warrior",
         "points": 105,
         "factions": [
@@ -21174,7 +21174,7 @@
         "speed": 2,
         "ttsName": "Paz Vizsla Proud Warrior",
         "unavailableWith": [
-          "Paz Viszla",
+          "Paz Vizsla",
           "Clan Wren",
           "Clan Kryze",
           "Clan Saxon"
