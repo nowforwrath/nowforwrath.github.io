@@ -36367,14 +36367,15 @@
 				"unique": true,
 				"points": 30,
 				"movement": 6,
-				"fight": 3,
+				"fight": 2,
 				"shoot": 4,
 				"strength": 3,
 				"defence": 3,
 				"attack": 1,
 				"wounds": 1,
-				"courage": 3,
-				"might": 0,
+				"courage": 8,
+				"intelligence": 7,
+				"might": 1,
 				"will": 3,
 				"fate": 1,
 				"race": [
@@ -36391,14 +36392,10 @@
 				"baseSize": [
 					"25mm"
 				],
-				"heroicActions": [
-					"Heroic Strike",
-					"Heroic Strength",
-					"Heroic Resolve",
-					"Heroic Accuracy"
-				],
+				"heroicActions": [],
 				"options": [],
 				"specialRules": [
+					"Fearful",
 					"Dubious Counsel"
 				],
 				"wargear": [
