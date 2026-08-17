@@ -20245,7 +20245,16 @@
         "factions": [
           {
             "id": 2,
-            "rank": 3
+            "rank": 3,
+            "quantityLimitedBy": [
+              {
+                "tier": 3,
+                "ratio": 1
+              }
+            ],
+            "tierCounting": {
+              "ignoreMaximum": true
+            }
           },
           {
             "id": 17,
@@ -20253,11 +20262,29 @@
           },
           {
             "id": 19,
-            "rank": 3
+            "rank": 3,
+            "quantityLimitedBy": [
+              {
+                "tier": 3,
+                "ratio": 1
+              }
+            ],
+            "tierCounting": {
+              "ignoreMaximum": true
+            }
           },
           {
             "id": 10,
-            "rank": 3
+            "rank": 3,
+            "quantityLimitedBy": [
+              {
+                "tier": 3,
+                "ratio": 1
+              }
+            ],
+            "tierCounting": {
+              "ignoreMaximum": true
+            }
           }
         ],
         "upgradeTypes": [],
@@ -20268,20 +20295,12 @@
         "id": "32590",
         "unlimited": true,
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/units-new/portraits/32590.webp",
-        "quantityLimitedBy": [
-          {
-            "tier": 3,
-            "ratio": 1
-          }
-        ],
+        "quantityLimitedBy": [],
         "faction": 2,
         "unitType": 6,
         "health": 4,
         "courage": 1,
-        "speed": 2,
-        "tierCounting": {
-          "ignoreMaximum": true
-        }
+        "speed": 2
       },
       {
         "name": "Weequay Pirates",
@@ -21174,10 +21193,7 @@
         "speed": 2,
         "ttsName": "Paz Vizsla Proud Warrior",
         "unavailableWith": [
-          "Paz Vizsla",
-          "Clan Wren",
-          "Clan Kryze",
-          "Clan Saxon"
+          "Paz Vizsla"
         ],
         "affiliation": "965"
       },
