@@ -3,6 +3,10 @@
 		"trackHighestDivision": true
 	},
 	"appVersion": 2,
+	"update": {
+		"manifestUrl": "https://nowforwrath.github.io/data2024.update.json",
+		"contentVersion": "2026.08.21.0"
+	},
 	"disallowMultipleFactions": true,
 	"colors": {
 		"light": {
