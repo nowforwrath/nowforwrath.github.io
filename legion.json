@@ -26310,6 +26310,16 @@
         "definition": "Units with the Allies of Convenience keyword may issue Orders to allied Mercenary units regardless of Affiliation. Additionally, when building an army, players may include 1 extra Mercenary unit in their army regardless of Rank if there is at least 1 unit with the Allies of Convenience keyword, though they cannot take more units of a particular Rank than normally allowed."
       },
       {
+        "id": 233,
+        "name": "Anti-Materiel X",
+        "definition": "When a unit makes an attack that has the Anti-Materiel X keyword in the Attack Pool, if the defending unit is a Vehicle unit, upgrade X of that weapon's attack dice."
+      },
+      {
+        "id": 234,
+        "name": "Anti-Personnel",
+        "definition": "When a unit makes an attack that has the Anti-Personnel X keyword in the Attack Pool, if the defending unit is a Trooper unit, upgrade X of that weapon's attack dice."
+      },
+      {
         "id": 174,
         "name": "Area Weapon",
         "definition": "A weapon with a yellow range icon 1 is an area weapon. When using an area weapon, perform a separate attack against each unit, friendly and enemy, that is in LOS and at the range indicated by the number on the range icon, even if that unit is engaged. Attacks made by area weapons are always ranged attacks. \n\nArea weapons can never be in an attack pool made by a unit and must always be the only weapon in an attack pool."
@@ -26412,7 +26422,7 @@
       {
         "id": 217,
         "name": "Command Vehicle X",
-        "definition": "When an allied unit within Range 3 of a unit that has the Command Vehicle X keyword checks for Panic, if both units have the same Affiliation or Faction, the allied unit treats the unit that has the Command Vehicle X keyword as a Commander unit with a Courage value of X."
+        "definition": "When an allied unit within Range 3 of a unit that has the Command Vehicle X keyword checks for Panic, if both units have the same Affiliation or Faction, the allied unit treats the unit that ahs the Command Vehicle X keyword as a Commander unit with a Courage value of X."
       },
       {
         "id": 65,
@@ -26632,7 +26642,7 @@
       {
         "id": 127,
         "name": "Field Commander",
-        "definition": "During Army Building, an army that includes a unit with the Field Commander keyword may ignore the minimum Commander Rank requirement. If a player's army contains no Commander units during Setup but does contain a unit with the Field Commander keyword, that unit gains a Commander token. When a player reveals a non-Commander or Operative specific Command Card, they may nominate an allied unit with the Field Commander keyword to be Commander and issue Orders. A unit with the Field Commander keyword is not a Commander and only counts as one for the purposes of issuing Orders with a Command Card during the Command Phase. A unit with the Field Commander keyword counts as a Commander of that Faction or Affiliation when building a Command Hand.\n\nAdditionally, if an allied Unit is within Range 3 of the unit with the Commander token and both units share the same Faction or Affiliation, that allied unit may treat the unit that has the Field Commander keyword as a Special Forces unit with a Courage of 2."
+        "definition": "During Army Building, an army that includes a unit with the Field Commander keyword may ignore the minimum Commander Rank requirement. If a player's army contains no Commander units during Setup but does contain a unit with the Field Commander keyword, that unit gains a Commander token. When a player reveals a non-Commander or Operative specific Command Card, they may nominate an allied unit with the Field Commander keyword to be Commander and issue Orders. A unit with the Field Commander keyword is not a Commander and only counts as one for the purposes of issuing Orders with a Command Card during the Command Phase. A unit with the Field Commander keyword counts as a Special Forces of that Faction or Affiliation when building a Command Hand.\n\nAdditionally, if an allied Unit is within Range 3 of the unit with the Commander token and both units share the same Faction or Affiliation, that allied unit may treat the unit that has the Field Commander keyword as a Commander unit with a Courage of 2."
       },
       {
         "id": 60,
@@ -26875,6 +26885,11 @@
         "definition": "When a unit with the Makashi Mastery keyword makes a Melee attack, it can reduce the Pierce X value of a weapon in the Attack Pool by 1 during the Choose Weapons and Gather Dice step. If it does, the defender cannot use the Immune: Melee Pierce, Immune: Pierce, and/or Impervious keywords during this attack."
       },
       {
+        "id": 232,
+        "name": "Mandalorians are Stronger Together",
+        "definition": "When an allied unit with the Mandalorians are Stronger Together keyword spends 1 or more Aim tokens during an attack, after the attack is resolved, it gains 1 Dodge token if it is within Range 2 of another allied unit with the Mandalorians Are Stronger Together keyword.\nWhen an allied unit with the Mandalorians are Stronger Together keyword spends 1 or more Dodge tokens during an attack, after the attack is resolved, it gains 1 Aim token if it is within Range 2 of another allied unit with the Mandalorians are Stronger Together keyword."
+      },
+      {
         "id": 17,
         "name": "Marksman",
         "definition": "A unit with the Marksman keyword may spend any number of Aim tokens after converting attack surges during the Convert Attack Surges step. For each Aim token spent in this way, instead of rerolling dice, change 1 Blank result to a Hit result, 1 HIT result to a Crit result, or spend 2 Aim tokens to change 1 Blank result to a Crit result."
@@ -26907,7 +26922,7 @@
       {
         "id": 216,
         "name": "My Mood is Based On Profit",
-        "definition": "Keywords and stats that have an X value on the Unit Card of a unit with the My Mood is Based on Profit keyword have an X value equal to the number of pips on the Command Card that the unit's controlling player most recently played and revealed that Game, to a minimum of 1. If a player has not yet revealed a Command Card this Game, traet X as 1 instead."
+        "definition": "Keywords and stats that have an X value on the Unit Card of a unit with the My Mood is Based on Profit keyword have an X value equal to the number of pips on the Command Card that the unit's controlling player most recently played and revealed that Game, to a minimum of 1. If a player has not yet revealed a Command Card this Game, treat X as 1 instead."
       },
       {
         "id": 7,
@@ -27092,7 +27107,7 @@
       {
         "id": 184,
         "name": "Scatter",
-        "definition": "Aer a unit performs an attack against a trooper unit on small bases using an attack pool that includes a weapon with the Scatter keyword, it may place any non-unit leader miniatures in the defending unit, following all the rules of cohesion, as if the defending unit leader had just performed a standard move."
+        "definition": "When a unit attacks a small based Trooper unit with an Attack Pool that has the Scatter keyword, after the attack is resolved, it may place any of the non-unit leader miniatures in the defending unit in Cohesion."
       },
       {
         "id": 90,
@@ -27255,6 +27270,11 @@
         "definition": "If an allied unit is defeated by an enemy attack and the attacking unit is within 3 of a unit with the Tempted keyword, after the attack is resolved, that unit with the Tempted keyword may make a free Attack action or a Speed-2 Move ignoring difficult terrain. A unit may use the Tempted keyword only once each Round."
       },
       {
+        "id": 231,
+        "name": "This is the Way",
+        "definition": "When an allied unit with the This is the Way keyword is issued an Order, choose up to X other allied Children of the Watch units within Range 2 of that unit. Each chosen unit performs the Action listed by the unit that was issued the order's This is the Way keyword as a free action."
+      },
+      {
         "id": 188,
         "name": "Tow Cable",
         "definition": "After a vehicle suffers 1 or more Wounds from an attack that has a Tow Cable in the Attack Pool, the attacking player makes a Pivot with that Vehicle, then it gains 1 Immobilize token."
@@ -27295,9 +27315,19 @@
         "definition": "A unit with the Unstoppable keyword is eligible to activate during the Activation Phase while it has 1 or fewer Order tokens. This unit may never have more than 1 faceup Order token. While this unit is not defeated, when its controlling player is creating their Order Pool, they add an additional Order token corresponding to this unit's Rank to their Order Pool."
       },
       {
+        "id": 229,
+        "name": "Vaapad Mastery",
+        "definition": "When a unit with the Vaapad Mastery keyword attacks, before rolling dice, it adds 1 white attack die to the pool for each Wound token it has, to a maximum of 3.\nWhen a unit with the Vaapad Mastery keyword defends, before rolling dice it adds 1 white defense die to the pool for each Wound token it has, to a maximum of 3."
+      },
+      {
         "id": 189,
         "name": "Versatile",
         "definition": "Some ranged weapons have the Versatile keyword. Units can perform ranged attacks using a weapon with the Versatile keyword even while engaged. A weapon with the Versatile keyword that is both a ranged weapon and a melee weapon can be used to perform either a ranged attack or a melee attack."
+      },
+      {
+        "id": 228,
+        "name": "Victory or Death",
+        "definition": "When an allied unit with the Victory or Death keyword suffers 1 or more Wounds from an enemy attack, after the attack is resolved, the allied unit may gain 1 Suppression token. If it does, it may gain 1 Aim token or 1 Dodge token."
       },
       {
         "id": 155,
@@ -27315,6 +27345,11 @@
         "definition": "While a unit with the Weak Point X: Front/Rear/Sides keyword defends, if the attacking unit's unit leader is at least partially inside the specified firing arc of the defending unit, the Attack Pool gains the Impact X keyword where X is equal to the value of Weak Point X.\nWhile a unit with the Weak Point X keyword defends against a Ranged attack made by an area weapon, treat the Charge token or Advantage token as the attacking unit leader."
       },
       {
+        "id": 230,
+        "name": "We Fight For Our Family",
+        "definition": "When a unit with the We Fight For Our Family keyword makes an attack action, after the effect is resolved, choose another allied unit with the We Fight for Our Family keyword within Range 2, if able. The chosen unit gains 1 Dodge token."
+      },
+      {
         "id": 156,
         "name": "Weighed Down",
         "definition": "A unit with the Weighed Down keyword cannot use the Jump keyword while it is holding 1 or more Objective tokens."
@@ -27327,7 +27362,7 @@
       {
         "id": 86,
         "name": "Wheel Mode",
-        "definition": "At the start of its Activation, a unit with the Wheel Mode keyword may change its Speed to 3 until the end of that Activation. If it does, until the end of the Round, it loses the Unconcerned keyword, gains the AI: Move and Cover 2 keywords, and cannot flip its active Shield tokens\n To indicate that a unit of Droidekas is using the Wheel Mode keyword, a player may replace their standing Droideka miniatures with ball-form Droideka miniatures, or simply mark the unit with a Wheel Mode token until the end of the Round.\nPlayers should use the ball-form Droideka miniatures only when the unit uses the Wheel Mode keyword and only for the duration of that Round. At the end of the Round, any ball- form Droideka miniatures should be replaced with standing Droideka miniatures."
+        "definition": "At the start of its Activation, a unit with the Wheel Mode keyword may change its Speed to 3 until the end of that Activation. If it does, until the end of the Round, it loses the Unconcerned keyword, gains the AI: Move and Cover 2 keywords, and cannot make attacks or flip its active Shield tokens\n To indicate that a unit of Droidekas is using the Wheel Mode keyword, a player may replace their standing Droideka miniatures with ball-form Droideka miniatures, or simply mark the unit with a Wheel Mode token until the end of the Round.\nPlayers should use the ball-form Droideka miniatures only when the unit uses the Wheel Mode keyword and only for the duration of that Round. At the end of the Round, any ball- form Droideka miniatures should be replaced with standing Droideka miniatures."
       },
       {
         "id": 157,
