@@ -5,7 +5,7 @@
 	"appVersion": 2,
 	"update": {
 		"manifestUrl": "https://nowforwrath.github.io/data2024.update.json",
-		"contentVersion": "2026.08.21.1"
+		"contentVersion": "2026.08.21.2"
 	},
 	"disallowMultipleFactions": true,
 	"colors": {
@@ -39025,33 +39025,7 @@
 				"baseSize": [
 					"25mm"
 				],
-				"options": [
-					{
-						"name": "War horn and Shield",
-						"points": 26,
-						"requireChooseOneKey": "a"
-					},
-					{
-						"name": "Banner",
-						"points": 25,
-						"requireChooseOneKey": "a"
-					},
-					{
-						"name": "Shield and spear",
-						"points": 2,
-						"requireChooseOneKey": "a"
-					},
-					{
-						"name": "Bow",
-						"points": 1,
-						"requireChooseOneKey": "a"
-					},
-					{
-						"name": "Shield",
-						"points": 1,
-						"requireChooseOneKey": "a"
-					}
-				],
+				"options": [],
 				"specialRules": [
 					"Shieldwall"
 				],
