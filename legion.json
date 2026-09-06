@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.08.21.4"
+    "contentVersion": "2026.08.21.5"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -5304,20 +5304,6 @@
         "availableIn": [53]
       },
       {
-        "id": 22602,
-        "name": "Beskad Duelist",
-        "points": 30,
-        "type": 4,
-        "keywords": [2, 207],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22602.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22602.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [33773]
-      },
-      {
         "id": 175,
         "name": "Beskad Duelist",
         "points": 24,
@@ -5330,6 +5316,20 @@
         "exhausts": null,
         "unique": false,
         "availableIn": [71]
+      },
+      {
+        "id": 22602,
+        "name": "Beskad Duelist",
+        "points": 30,
+        "type": 4,
+        "keywords": [2, 207],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22602.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22602.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [33773]
       },
       {
         "id": 4413,
@@ -5719,6 +5719,32 @@
         ],
         "chooseOneKey": "leader",
         "factions": [1, 2, 4, 5, 21]
+      },
+      {
+        "id": 23419,
+        "name": "Chewbacca, Courageous Co-Pilot",
+        "points": 0,
+        "type": 1,
+        "keywords": [36, 204, 202, 207],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/23419.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/23419.webp?version=3",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [33775],
+        "modifiedPointsWith": [
+          {
+            "id": "Children of the Watch",
+            "property": "options",
+            "modifier": -5,
+            "in": "33788"
+          }
+        ],
+        "unavailableWith": [
+          "Chewbacca, Courageous Co-Pilot"
+        ],
+        "factions": [1, 2, 4, 5]
       },
       {
         "id": 22597,
@@ -6194,21 +6220,6 @@
         "availableIn": [36]
       },
       {
-        "id": 20282,
-        "name": "Combat Armor",
-        "points": 15,
-        "type": 2,
-        "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20282.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20282.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [31669, 31670],
-        "ttsName": "Combat Armor (Rebel)"
-      },
-      {
         "id": 20272,
         "name": "Combat Armor",
         "points": 15,
@@ -6222,6 +6233,21 @@
         "unique": null,
         "availableIn": [31667, 31668],
         "ttsName": "Combat Armor (Empire)"
+      },
+      {
+        "id": 20282,
+        "name": "Combat Armor",
+        "points": 15,
+        "type": 2,
+        "keywords": [],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20282.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20282.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [31669, 31670],
+        "ttsName": "Combat Armor (Rebel)"
       },
       {
         "id": 22603,
@@ -6416,11 +6442,15 @@
         "keywords": [73, 8],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22660.webp?version=3",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22660.webp?version=3",
-        "limit": null,
+        "limit": 1,
         "exhaustsPerTurn": null,
         "exhausts": null,
-        "unique": null,
-        "availableIn": [33789, 33787]
+        "unique": true,
+        "availableIn": [33789, 33787],
+        "unavailableWith": [
+          "Deadeye"
+        ],
+        "factions": [1, 2, 4, 5, 8]
       },
       {
         "id": 20270,
@@ -6955,6 +6985,20 @@
         "availableIn": [31669, 31670]
       },
       {
+        "id": 21987,
+        "name": "Dug In",
+        "points": 6,
+        "type": 10,
+        "keywords": [],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/21987.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/21987.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [31668, 31667]
+      },
+      {
         "id": 19897,
         "name": "Dug In",
         "points": 6,
@@ -7083,20 +7127,6 @@
         "exhausts": null,
         "unique": null,
         "availableIn": [31842, 31843]
-      },
-      {
-        "id": 21987,
-        "name": "Dug In",
-        "points": 6,
-        "type": 10,
-        "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/21987.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/21987.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [31668, 31667]
       },
       {
         "id": 24,
@@ -8038,6 +8068,20 @@
         ]
       },
       {
+        "id": 22419,
+        "name": "GALAAR-90 Sniper Rifle",
+        "points": 35,
+        "type": 4,
+        "keywords": [204],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22419.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22419.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [33772, 33773, 33796, 34890, 4767]
+      },
+      {
         "id": 22654,
         "name": "GALAAR-90 Sniper Rifle",
         "points": 5,
@@ -8051,20 +8095,6 @@
         "unique": null,
         "availableIn": [33789, 33787],
         "ttsName": "GALAAR-90 Sniper Rifle (Armament)"
-      },
-      {
-        "id": 22419,
-        "name": "GALAAR-90 Sniper Rifle",
-        "points": 35,
-        "type": 4,
-        "keywords": [204],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22419.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22419.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [33772, 33773, 33796, 34890, 4767]
       },
       {
         "id": 21339,
@@ -8352,6 +8382,28 @@
         "unique": false
       },
       {
+        "id": 3649,
+        "name": "Grogu",
+        "points": 17,
+        "type": 15,
+        "keywords": [130, 137, 198],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/3649.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/3649.webp?version=3",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [6178, 6179, 34881],
+        "unavailableWith": [
+          "Grogu",
+          {
+            "id": "22586",
+            "propertyName": "upgrades"
+          }
+        ],
+        "factions": [1, 2, 4, 5]
+      },
+      {
         "id": 22586,
         "name": "Grogu",
         "points": 17,
@@ -8373,28 +8425,6 @@
           }
         ],
         "factions": [1, 2, 4, 5, 8]
-      },
-      {
-        "id": 3649,
-        "name": "Grogu",
-        "points": 17,
-        "type": 15,
-        "keywords": [130, 137, 198],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/3649.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/3649.webp?version=3",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [6178, 6179, 34881],
-        "unavailableWith": [
-          "Grogu",
-          {
-            "id": "22586",
-            "propertyName": "upgrades"
-          }
-        ],
-        "factions": [1, 2, 4, 5]
       },
       {
         "id": 22661,
@@ -8422,6 +8452,32 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": false
+      },
+      {
+        "id": 23420,
+        "name": "Han Solo, Reckless Smuggler",
+        "points": 0,
+        "type": 1,
+        "keywords": [10, 134, 204],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/23420.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/23420.webp?version=3",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [33775],
+        "modifiedPointsWith": [
+          {
+            "id": "Children of the Watch",
+            "property": "options",
+            "modifier": -5,
+            "in": "33788"
+          }
+        ],
+        "unavailableWith": [
+          "Han Solo, Reckless Smuggler"
+        ],
+        "factions": [1, 2, 4, 5]
       },
       {
         "id": 22914,
@@ -8468,21 +8524,6 @@
         "availableIn": [31844, 31845]
       },
       {
-        "id": 20284,
-        "name": "Heavy Blaster Pistol",
-        "points": 8,
-        "type": 12,
-        "keywords": [53, 204],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20284.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20284.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [31669, 31670],
-        "ttsName": "Heavy Blaster Pistol (Rebel)"
-      },
-      {
         "id": 20275,
         "name": "Heavy Blaster Pistol",
         "points": 5,
@@ -8496,6 +8537,21 @@
         "unique": null,
         "availableIn": [31667, 31668],
         "ttsName": "Heavy Blaster Pistol (Empire)"
+      },
+      {
+        "id": 20284,
+        "name": "Heavy Blaster Pistol",
+        "points": 8,
+        "type": 12,
+        "keywords": [53, 204],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20284.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20284.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [31669, 31670],
+        "ttsName": "Heavy Blaster Pistol (Rebel)"
       },
       {
         "id": 16580,
@@ -9138,7 +9194,7 @@
         "unavailableWith": [
           "Improvised Orders"
         ],
-        "factions": [1, 2, 4, 5, 10, 8, 11, 21, 13, 19, 12, 14, 15, 16, 17, 7, 18, 20, 9]
+        "factions": [1, 2, 4, 5, 10, 11, 21, 13, 19, 12, 14, 15, 8, 16, 17, 7, 18, 20, 9]
       },
       {
         "id": 22918,
@@ -9494,32 +9550,6 @@
         ]
       },
       {
-        "id": 20841,
-        "name": "Kraken",
-        "points": 30,
-        "type": 4,
-        "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20841.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20841.webp?version=3",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [19077],
-        "unavailableWith": [
-          "Kraken",
-          {
-            "id": "20803",
-            "propertyName": "upgrades"
-          }
-        ],
-        "unavailableIn": [
-          [19103]
-        ],
-        "chooseOneKey": "leader",
-        "factions": [1, 2, 4, 5, 20]
-      },
-      {
         "id": 20803,
         "name": "Kraken",
         "points": 30,
@@ -9544,6 +9574,32 @@
           "Kraken",
           {
             "id": "20841",
+            "propertyName": "upgrades"
+          }
+        ],
+        "unavailableIn": [
+          [19103]
+        ],
+        "chooseOneKey": "leader",
+        "factions": [1, 2, 4, 5, 20]
+      },
+      {
+        "id": 20841,
+        "name": "Kraken",
+        "points": 30,
+        "type": 4,
+        "keywords": [],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20841.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20841.webp?version=3",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [19077],
+        "unavailableWith": [
+          "Kraken",
+          {
+            "id": "20803",
             "propertyName": "upgrades"
           }
         ],
@@ -12473,19 +12529,19 @@
         ]
       },
       {
-        "id": 22610,
+        "id": 6132,
         "name": "The Darksaber",
-        "points": 10,
+        "points": 15,
         "type": 12,
-        "keywords": [2, 4, 115, 202],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22610.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22610.webp?version=3",
+        "keywords": [115, 4, 202, 207],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/6132.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/6132.webp?version=3",
         "limit": 1,
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": true,
-        "availableIn": [34888],
-        "ttsName": "The Darksaber (Gar)",
+        "availableIn": [11258],
+        "ttsName": "The Darksaber (Gideon)",
         "unavailableWith": [
           "The Darksaber",
           {
@@ -12493,19 +12549,19 @@
             "propertyName": "upgrades"
           },
           {
-            "id": "6132",
+            "id": "22611",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22610",
             "propertyName": "upgrades"
           },
           {
             "id": "22612",
             "propertyName": "upgrades"
-          },
-          {
-            "id": "22611",
-            "propertyName": "upgrades"
           }
         ],
-        "factions": [1, 2, 4, 5, 8, 9]
+        "factions": [1, 2, 4, 5, 8, 7]
       },
       {
         "id": 71,
@@ -12523,95 +12579,23 @@
         "unavailableWith": [
           "The Darksaber",
           {
-            "id": "22610",
-            "propertyName": "upgrades"
-          },
-          {
             "id": "6132",
             "propertyName": "upgrades"
           },
           {
-            "id": "22612",
+            "id": "22611",
             "propertyName": "upgrades"
           },
           {
-            "id": "22611",
+            "id": "22610",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22612",
             "propertyName": "upgrades"
           }
         ],
         "factions": [1, 2, 4, 5, 8]
-      },
-      {
-        "id": 6132,
-        "name": "The Darksaber",
-        "points": 15,
-        "type": 12,
-        "keywords": [115, 4, 202, 207],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/6132.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/6132.webp?version=3",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [11258],
-        "ttsName": "The Darksaber (Gideon)",
-        "unavailableWith": [
-          "The Darksaber",
-          {
-            "id": "22610",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "71",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22612",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22611",
-            "propertyName": "upgrades"
-          }
-        ],
-        "factions": [1, 2, 4, 5, 8, 7]
-      },
-      {
-        "id": 22612,
-        "name": "The Darksaber",
-        "points": 10,
-        "type": 12,
-        "keywords": [118, 4, 232],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22612.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22612.webp?version=3",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [33771],
-        "ttsName": "The Darksaber (Bo-Katan)",
-        "unavailableWith": [
-          "The Darksaber",
-          {
-            "id": "22610",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "71",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "6132",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22611",
-            "propertyName": "upgrades"
-          }
-        ],
-        "poolBonuses": [
-          "extraMercenary"
-        ]
       },
       {
         "id": 22611,
@@ -12630,7 +12614,7 @@
         "unavailableWith": [
           "The Darksaber",
           {
-            "id": "22610",
+            "id": "6132",
             "propertyName": "upgrades"
           },
           {
@@ -12638,7 +12622,7 @@
             "propertyName": "upgrades"
           },
           {
-            "id": "6132",
+            "id": "22610",
             "propertyName": "upgrades"
           },
           {
@@ -12647,6 +12631,78 @@
           }
         ],
         "factions": [1, 2, 4, 5, 8, 9]
+      },
+      {
+        "id": 22610,
+        "name": "The Darksaber",
+        "points": 10,
+        "type": 12,
+        "keywords": [2, 4, 115, 202],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22610.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22610.webp?version=3",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [34888],
+        "ttsName": "The Darksaber (Gar)",
+        "unavailableWith": [
+          "The Darksaber",
+          {
+            "id": "6132",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "71",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22611",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22612",
+            "propertyName": "upgrades"
+          }
+        ],
+        "factions": [1, 2, 4, 5, 8, 9]
+      },
+      {
+        "id": 22612,
+        "name": "The Darksaber",
+        "points": 10,
+        "type": 12,
+        "keywords": [118, 4, 232],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22612.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22612.webp?version=3",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [33771],
+        "ttsName": "The Darksaber (Bo-Katan)",
+        "unavailableWith": [
+          "The Darksaber",
+          {
+            "id": "6132",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "71",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22611",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22610",
+            "propertyName": "upgrades"
+          }
+        ],
+        "poolBonuses": [
+          "extraMercenary"
+        ]
       },
       {
         "id": 2632,
@@ -20926,7 +20982,7 @@
       {
         "name": "Han & Chewie",
         "title": "Notorious Scoundrels",
-        "points": 0,
+        "points": 120,
         "factions": [
           {
             "id": 1,
@@ -20939,7 +20995,7 @@
             }
           }
         ],
-        "upgradeTypes": [],
+        "upgradeTypes": [1, 1, 10, 10],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33775.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33775.webp?version=8",
         "keywords": [139, 159, 147, 11],
@@ -20956,6 +21012,18 @@
         "ttsName": "Han & Chewie Notorious Scoundrels",
         "unavailableWith": [
           "Han & Chewie"
+        ],
+        "requiredChildren": [
+          {
+            "id": 23420,
+            "elementPropertyName": "upgrades",
+            "upgradeIndex": 0
+          },
+          {
+            "id": 23419,
+            "elementPropertyName": "upgrades",
+            "upgradeIndex": 1
+          }
         ]
       },
       {
@@ -22479,22 +22547,6 @@
         "keywords": null
       },
       {
-        "id": 54,
-        "name": "Knowledge and Defense",
-        "pips": 2,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/54.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/54.webp?version=7",
-        "keywords": null,
-        "unlockedBy": [
-          {
-            "id": 41,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 1902,
         "name": "Aggression",
         "pips": 2,
@@ -22895,22 +22947,6 @@
         "keywords": [27]
       },
       {
-        "id": 9458,
-        "name": "I Care Not for your Struggles",
-        "pips": 3,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9458.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9458.webp?version=7",
-        "keywords": [42],
-        "unlockedBy": [
-          {
-            "id": 19108,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 257,
         "name": "There Is No Try",
         "pips": 2,
@@ -22942,6 +22978,22 @@
           },
           {
             "id": 4551,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 9458,
+        "name": "I Care Not for your Struggles",
+        "pips": 3,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9458.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9458.webp?version=7",
+        "keywords": [42],
+        "unlockedBy": [
+          {
+            "id": 19108,
             "propertyName": "units"
           }
         ]
@@ -23169,16 +23221,6 @@
         ]
       },
       {
-        "id": 14377,
-        "name": "Lead from the Front",
-        "pips": 2,
-        "faction": 4,
-        "factions": [16],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/14377.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/14377.webp?version=7",
-        "keywords": null
-      },
-      {
         "id": 14378,
         "name": "General Skywalker",
         "pips": 3,
@@ -23190,6 +23232,80 @@
         "unlockedBy": [
           {
             "id": 73,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 14377,
+        "name": "Lead from the Front",
+        "pips": 2,
+        "faction": 4,
+        "factions": [16],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/14377.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/14377.webp?version=7",
+        "keywords": null
+      },
+      {
+        "id": 54,
+        "name": "Knowledge and Defense",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/54.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/54.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 41,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 20008,
+        "name": "Wookiee Life Debt",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/20008.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/20008.webp?version=7",
+        "keywords": [194, 44, 23],
+        "unlockedBy": [
+          {
+            "id": 33775,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 20009,
+        "name": "Never Tell me the Odds",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/20009.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/20009.webp?version=7",
+        "keywords": [17],
+        "unlockedBy": [
+          {
+            "id": 33775,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 20010,
+        "name": "Boring Conversation Anyway",
+        "pips": 3,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/20010.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/20010.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 33775,
             "propertyName": "units"
           }
         ]
@@ -23289,6 +23405,22 @@
         ]
       },
       {
+        "id": 17861,
+        "name": "Inexorable Advance",
+        "pips": 3,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/17861.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/17861.webp?version=7",
+        "keywords": [187],
+        "unlockedBy": [
+          {
+            "id": 31668,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
         "id": 17863,
         "name": "Diversionary Tactics",
         "pips": 3,
@@ -23316,22 +23448,6 @@
         "unlockedBy": [
           {
             "id": 31670,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 17861,
-        "name": "Inexorable Advance",
-        "pips": 3,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/17861.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/17861.webp?version=7",
-        "keywords": [187],
-        "unlockedBy": [
-          {
-            "id": 31668,
             "propertyName": "units"
           }
         ]
@@ -24193,22 +24309,6 @@
         ]
       },
       {
-        "id": 51,
-        "name": "Hello There!",
-        "pips": 1,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/51.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/51.webp?version=7",
-        "keywords": [7],
-        "unlockedBy": [
-          {
-            "id": 41,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 16485,
         "name": "Revenge Is Not the Jedi Way",
         "pips": 2,
@@ -24256,6 +24356,22 @@
         "unlockedBy": [
           {
             "id": 49,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "name": "Hello There!",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/51.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/51.webp?version=7",
+        "keywords": [7],
+        "unlockedBy": [
+          {
+            "id": 41,
             "propertyName": "units"
           }
         ]
@@ -24461,62 +24577,6 @@
         ]
       },
       {
-        "id": 41,
-        "name": "Legacy of Mandalore",
-        "pips": 3,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/41.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/41.webp?version=7",
-        "keywords": [6],
-        "unlockedBy": [
-          {
-            "id": 33,
-            "propertyName": "units"
-          },
-          {
-            "id": 34887,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 16,
-        "name": "Imperial Discipline",
-        "pips": 3,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16.webp?version=7",
-        "keywords": null,
-        "unlockedBy": [
-          {
-            "id": 8,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 42,
-        "name": "Lying in Wait",
-        "pips": 3,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/42.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/42.webp?version=7",
-        "keywords": [8],
-        "unlockedBy": [
-          {
-            "id": 34,
-            "propertyName": "units"
-          },
-          {
-            "id": 4999,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 6131,
         "name": "Bring it Down!",
         "pips": 1,
@@ -24549,21 +24609,57 @@
         ]
       },
       {
-        "id": 75,
-        "name": "I Make the Rules Now",
+        "id": 16,
+        "name": "Imperial Discipline",
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/75.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/75.webp?version=7",
-        "keywords": [191, 177, 178, 202, 187],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16.webp?version=7",
+        "keywords": null,
         "unlockedBy": [
           {
-            "id": 59,
+            "id": 8,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "Legacy of Mandalore",
+        "pips": 3,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/41.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/41.webp?version=7",
+        "keywords": [6],
+        "unlockedBy": [
+          {
+            "id": 33,
             "propertyName": "units"
           },
           {
-            "id": 5001,
+            "id": 34887,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "name": "Lying in Wait",
+        "pips": 3,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/42.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/42.webp?version=7",
+        "keywords": [8],
+        "unlockedBy": [
+          {
+            "id": 34,
+            "propertyName": "units"
+          },
+          {
+            "id": 4999,
             "propertyName": "units"
           }
         ]
@@ -24737,6 +24833,26 @@
         ]
       },
       {
+        "id": 75,
+        "name": "I Make the Rules Now",
+        "pips": 3,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/75.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/75.webp?version=7",
+        "keywords": [191, 177, 178, 202, 187],
+        "unlockedBy": [
+          {
+            "id": 59,
+            "propertyName": "units"
+          },
+          {
+            "id": 5001,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
         "id": 48,
         "name": "Explosions!",
         "pips": 1,
@@ -24781,26 +24897,6 @@
         ]
       },
       {
-        "id": 12,
-        "name": "Implacable",
-        "pips": 1,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/12.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/12.webp?version=7",
-        "keywords": null,
-        "unlockedBy": [
-          {
-            "id": 3,
-            "propertyName": "units"
-          },
-          {
-            "id": 47,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 24,
         "name": "And Now You Will Die",
         "pips": 1,
@@ -24812,26 +24908,6 @@
         "unlockedBy": [
           {
             "id": 20,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 79,
-        "name": "Last Stand",
-        "pips": 2,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/79.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/79.webp?version=7",
-        "keywords": [40],
-        "unlockedBy": [
-          {
-            "id": 57,
-            "propertyName": "units"
-          },
-          {
-            "id": 29930,
             "propertyName": "units"
           }
         ]
@@ -24908,22 +24984,6 @@
           },
           {
             "id": 6176,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 258,
-        "name": "Luminous Beings Are We",
-        "pips": 3,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/258.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/258.webp?version=7",
-        "keywords": null,
-        "unlockedBy": [
-          {
-            "id": 764,
             "propertyName": "units"
           }
         ]
@@ -25033,6 +25093,62 @@
         ]
       },
       {
+        "id": 12,
+        "name": "Implacable",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/12.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/12.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 3,
+            "propertyName": "units"
+          },
+          {
+            "id": 47,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 79,
+        "name": "Last Stand",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/79.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/79.webp?version=7",
+        "keywords": [40],
+        "unlockedBy": [
+          {
+            "id": 57,
+            "propertyName": "units"
+          },
+          {
+            "id": 29930,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 258,
+        "name": "Luminous Beings Are We",
+        "pips": 3,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/258.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/258.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 764,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
         "id": 256,
         "name": "Size Matters Not",
         "pips": 1,
@@ -25049,21 +25165,21 @@
         ]
       },
       {
-        "id": 77,
-        "name": "I'm in Control",
-        "pips": 2,
+        "id": 92,
+        "name": "Duel of the Fates",
+        "pips": 1,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/77.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/77.webp?version=7",
-        "keywords": null,
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/92.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/92.webp?version=7",
+        "keywords": [27],
         "unlockedBy": [
           {
-            "id": 59,
+            "id": 74,
             "propertyName": "units"
           },
           {
-            "id": 5001,
+            "id": 4551,
             "propertyName": "units"
           }
         ]
@@ -25089,21 +25205,21 @@
         ]
       },
       {
-        "id": 92,
-        "name": "Duel of the Fates",
-        "pips": 1,
+        "id": 77,
+        "name": "I'm in Control",
+        "pips": 2,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/92.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/92.webp?version=7",
-        "keywords": [27],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/77.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/77.webp?version=7",
+        "keywords": null,
         "unlockedBy": [
           {
-            "id": 74,
+            "id": 59,
             "propertyName": "units"
           },
           {
-            "id": 4551,
+            "id": 5001,
             "propertyName": "units"
           }
         ]
@@ -25155,22 +25271,6 @@
         ]
       },
       {
-        "id": 56,
-        "name": "I am a Jedi",
-        "pips": 3,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/56.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/56.webp?version=7",
-        "keywords": null,
-        "unlockedBy": [
-          {
-            "id": 46,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 14,
         "name": "Reckless Diversion",
         "pips": 2,
@@ -25217,14 +25317,20 @@
         "keywords": null
       },
       {
-        "id": 6349,
-        "name": "Log Traps",
-        "pips": 1,
+        "id": 56,
+        "name": "I am a Jedi",
+        "pips": 3,
         "faction": null,
-        "factions": [18],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6349.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6349.webp?version=7",
-        "keywords": [202, 207]
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/56.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/56.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 46,
+            "propertyName": "units"
+          }
+        ]
       },
       {
         "id": 76,
@@ -25257,6 +25363,16 @@
             "propertyName": "units"
           }
         ]
+      },
+      {
+        "id": 6349,
+        "name": "Log Traps",
+        "pips": 1,
+        "faction": null,
+        "factions": [18],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6349.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6349.webp?version=7",
+        "keywords": [202, 207]
       },
       {
         "id": 1901,
@@ -25355,6 +25471,22 @@
         "keywords": null
       },
       {
+        "id": 1826,
+        "name": "His Eminence",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1826.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1826.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 4551,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
         "id": 88,
         "name": "This Is Where the Fun Begins",
         "pips": 1,
@@ -25399,22 +25531,6 @@
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/96.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/96.webp?version=7",
         "keywords": null
-      },
-      {
-        "id": 1826,
-        "name": "His Eminence",
-        "pips": 2,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1826.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1826.webp?version=7",
-        "keywords": null,
-        "unlockedBy": [
-          {
-            "id": 4551,
-            "propertyName": "units"
-          }
-        ]
       },
       {
         "id": 84,
@@ -25623,22 +25739,6 @@
         "keywords": null
       },
       {
-        "id": 32,
-        "name": "Give in to Your Anger",
-        "pips": 2,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/32.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/32.webp?version=7",
-        "keywords": null,
-        "unlockedBy": [
-          {
-            "id": 20,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 83,
         "name": "Incapacitate",
         "pips": 2,
@@ -25663,6 +25763,22 @@
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2135.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2135.webp?version=7",
         "keywords": [194, 40]
+      },
+      {
+        "id": 32,
+        "name": "Give in to Your Anger",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/32.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/32.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 20,
+            "propertyName": "units"
+          }
+        ]
       },
       {
         "id": 2276,
