@@ -5,7 +5,7 @@
 	"appVersion": 2,
 	"update": {
 		"manifestUrl": "https://nowforwrath.github.io/data2024.update.json",
-		"contentVersion": "2026.08.21.6"
+		"contentVersion": "2026.08.21.0"
 	},
 	"disallowMultipleFactions": true,
 	"colors": {
@@ -2200,7 +2200,6 @@
 					"dataSource": "heroes",
 					"label": "Hero",
 					"type": "main",
-					"groupFactionPreviewByTier": true,
 					"tierProperty": "heroicTier",
 					"tierData": "heroicTiers",
 					"tiers": [
@@ -55960,6 +55959,7 @@
 					"id": "sorcerer",
 					"label": "Path of the Sorcerer",
 					"startingHeroicAction": "Heroic Channeling",
+					"startingMagicalPowerChoice": true,
 					"rareLimit": 1,
 					"maximums": {
 						"Fv": 2,
@@ -56412,7 +56412,8 @@
 							],
 							"takeOtherRollToo": true,
 							"grantSpecialRule": "Heroic Resolve Mastery",
-							"companyHeroUpgradeAllowed": true
+							"companyHeroUpgradeAllowed": true,
+							"improveAllChoices": true
 						},
 						{
 							"total": 8,
