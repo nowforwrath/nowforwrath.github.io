@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.08.21.5"
+    "contentVersion": "2026.08.21.6"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -29059,7 +29059,7 @@
             "objectivesCompletedAtLeast": 2
           },
           "mustPlayClimaxWhen": {
-            "objectivesCompletedAtLeast": 2
+            "objectivesCompletedAtLeast": 3
           },
           "unitEffects": [
             {
