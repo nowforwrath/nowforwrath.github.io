@@ -5,7 +5,7 @@
 	"appVersion": 2,
 	"update": {
 		"manifestUrl": "https://nowforwrath.github.io/data2024.update.json",
-		"contentVersion": "2026.08.21.5"
+		"contentVersion": "2026.08.21.6"
 	},
 	"disallowMultipleFactions": true,
 	"colors": {
@@ -48288,7 +48288,7 @@
 			{
 				"name": "Majestic Steed",
 				"tag": "Active",
-				"definition": "In a turn in which Thranduil Charges into Combat, he resolves his Strikes at Stength 5. Additionally, each time this model Charges into Combat, it will inflict a single Strength 4 hit upon one model it has Charged (Cavalry models suffer this hit on both the rider and the Mount). If after this hit Thranduil is no longer Engaged in Combat, he may continue his Move in any way his controlling player wishes; stopping straight away. Charging another enemy model, or anything in between."
+				"definition": "In a turn in which Thranduil Charges into Combat, he resolves his Strikes at Strength 5. Additionally, each time this model Charges into Combat, it will inflict a single Strength 4 hit upon one model it has Charged (Cavalry models suffer this hit on both the rider and the Mount). If after this hit Thranduil is no longer Engaged in Combat, he may continue his Move in any way his controlling player wishes; stopping straight away. Charging another enemy model, or anything in between."
 			},
 			{
 				"name": "Well fed, and ready to fight",
