@@ -5,7 +5,7 @@
 	"appVersion": 2,
 	"update": {
 		"manifestUrl": "https://nowforwrath.github.io/data2024.update.json",
-		"contentVersion": "2026.08.21.3"
+		"contentVersion": "2026.08.21.5"
 	},
 	"disallowMultipleFactions": true,
 	"colors": {
@@ -22516,7 +22516,7 @@
 				"race": [
 					"Goblin"
 				],
-				"factino": [
+				"faction": [
 					"Goblin-town"
 				],
 				"unitType": [
@@ -46339,6 +46339,16 @@
 				"name": "Sworn Protector (Durin)",
 				"tag": "Active",
 				"definition": "Whilst Durin is alive and on the battlefield, this model passes all Courage tests."
+			},
+			{
+				"name": "Sworn Protector (Frodo)",
+				"tag": "Active",
+				"definition": "Whilst Frodo is alive and on the battlefield, this model passes all Courage tests."
+			},
+			{
+				"name": "Sworn Protector (Rosie)",
+				"tag": "Active",
+				"definition": "Whilst Rosie is alive and on the battlefield, this model passes all Courage tests."
 			},
 			{
 				"name": "Sworn Protector (Suladan)",
