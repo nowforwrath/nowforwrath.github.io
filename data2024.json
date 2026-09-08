@@ -5,7 +5,7 @@
 	"appVersion": 2,
 	"update": {
 		"manifestUrl": "https://nowforwrath.github.io/data2024.update.json",
-		"contentVersion": "2026.08.21.7"
+		"contentVersion": "2026.08.21.9"
 	},
 	"disallowMultipleFactions": true,
 	"colors": {
@@ -38696,7 +38696,7 @@
 				"requiredChildren": [
 					{
 						"elementPropertyName": "options",
-						"name": "Noldorian Exile",
+						"name": "Noldorin Exile",
 						"in": [
 							[
 								"Gildor Inglorion"
@@ -38727,7 +38727,7 @@
 						"chooseOneKey": "a"
 					},
 					{
-						"name": "Noldorian Exile",
+						"name": "Noldorin Exile",
 						"points": 1,
 						"availableIn": [
 							"Gildor Inglorion"
@@ -44282,7 +44282,7 @@
 				"definition": "When buying the Witch-king for your\n                force, decide how many points of Might/Will/Fate to give\n                him, up to the maximums shown in his profile. At his\n                weakest, the Witch-king starts the game with no Might, no\n                Fate and 10 points of Will, and costs 70 points. Each extra\n                point of Might, Will or Fate costs an extra 5 points, so the\n                Witch-king with 3 Might, 3 Fate and 20 Will points will cost\n                150 points, before any upgrades."
 			},
 			{
-				"name": "Noldorian Exile",
+				"name": "Noldorin Exile",
 				"type": "stat",
 				"modifiesStats": [
 					{
