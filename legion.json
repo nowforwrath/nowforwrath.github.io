@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.08.21.9"
+    "contentVersion": "2026.08.21.10"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -20457,7 +20457,7 @@
         "upgradeTypes": [4, 1, 1, 10, 2, 3],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/32591.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/32591.webp?version=8",
-        "keywords": [2, 134, 147, 189],
+        "keywords": [2, 134, 147, 227, 189],
         "figures": 4,
         "id": "32591",
         "unlimited": true,
