@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.08.21.10"
+    "contentVersion": "2026.08.21.11"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -7963,6 +7963,12 @@
         "exhausts": null,
         "unique": null,
         "requiresTier": [5],
+        "unavailableWith": [
+          {
+            "id": 8,
+            "propertyName": "factions"
+          }
+        ],
         "requiredProperties": [
           {
             "property": "affiliation",
@@ -9065,6 +9071,12 @@
               "value": 3
             }
           ]
+        ],
+        "unavailableWith": [
+          {
+            "id": 8,
+            "propertyName": "factions"
+          }
         ]
       },
       {
@@ -10533,7 +10545,13 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [32592]
+        "availableIn": [32592],
+        "unavailableWith": [
+          {
+            "id": 8,
+            "propertyName": "factions"
+          }
+        ]
       },
       {
         "id": 190,
