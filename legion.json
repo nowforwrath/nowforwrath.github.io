@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.08.21.11"
+    "contentVersion": "2026.08.21.12"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -4100,6 +4100,7 @@
           "tierProperty": "rank",
           "tierData": "ranks",
           "tierFilterChips": true,
+          "pickerImageColumns": 1,
           "groupArmyByTier": true,
           "groupFactionPreviewByTier": true,
           "prettyViewSortByTier": true,
@@ -4199,6 +4200,7 @@
           "label": "Commands",
           "type": "main",
           "prettyViewStyle": "pills",
+          "pickerImageColumns": 1,
           "excludeFromModelCount": true,
           "hiddenBeforeGame": true,
           "excludeFromFactionPreview": true,
@@ -4241,6 +4243,7 @@
           "label": "Objectives",
           "type": "main",
           "prettyViewStyle": "pills",
+          "pickerImageColumns": 1,
           "excludeFromModelCount": true,
           "ignoreFactionFilter": true,
           "excludeFromFactionPreview": true,
@@ -4260,6 +4263,7 @@
           "label": "Secondary Objectives",
           "type": "main",
           "prettyViewStyle": "pills",
+          "pickerImageColumns": 1,
           "excludeFromModelCount": true,
           "ignoreFactionFilter": true,
           "excludeFromFactionPreview": true,
@@ -4279,6 +4283,7 @@
           "label": "Advantages",
           "type": "main",
           "prettyViewStyle": "pills",
+          "pickerImageColumns": 1,
           "excludeFromModelCount": true,
           "excludeFromTiers": true,
           "ignoreFactionFilter": true,
