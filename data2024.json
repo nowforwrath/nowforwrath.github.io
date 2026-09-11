@@ -5,7 +5,7 @@
 	"appVersion": 2,
 	"update": {
 		"manifestUrl": "https://nowforwrath.github.io/data2024.update.json",
-		"contentVersion": "2026.08.21.10"
+		"contentVersion": "2026.08.21.11"
 	},
 	"disallowMultipleFactions": true,
 	"colors": {
@@ -136,7 +136,7 @@
 												},
 												{
 													"type": "paragraph",
-													"text": "If two friendly Hero models within 6\" of each other both declare a Heroic Move, and the one that goes first shouts With Me, the second Hero has two options:"
+													"text": "If two friendly **Hero** models within 6\" of each other both declare a Heroic Move, and the one that goes first shouts With Me, the second Hero has two options:"
 												},
 												{
 													"type": "unorderedList",
@@ -177,7 +177,7 @@
 												},
 												{
 													"type": "paragraph",
-													"text": "Friendly models affected by the Loose of a friendly Hero do not need to target the same enemy model, and may Shoot as normal. However, any model affected by a friendly Hero model’s Loose that chooses not to Shoot as part of it cannot then do so later that Shoot Phase."
+													"text": "Friendly models affected by the Loose of a friendly Hero do not need to target the same enemy model, and may Shoot as normal. However, any model affected by a friendly **Hero** model’s Loose that chooses not to Shoot as part of it cannot then do so later that Shoot Phase."
 												}
 											]
 										}
@@ -189,7 +189,7 @@
 									"blocks": [
 										{
 											"type": "paragraph",
-											"text": "When a Hero declares a Heroic Combat, their Combat is resolved first before any others. In addition, if the Hero wins their Combat and all enemy models involved in that Combat are removed as a casualty, then the Hero and any friendly models that were involved in that Combat (with the exception of any War Beast or Chariot models) may immediately Move in the same way as they would during the Move Phase – however, the only things they may do is to Move or Charge. If they Charge, then they will fight again in the ordinary way – i.e., in an order chosen by the player with Priority."
+											"text": "When a Hero declares a Heroic Combat, their Combat is resolved first before any others. In addition, if the Hero wins their Combat and all enemy models involved in that Combat are removed as a casualty, then the Hero and any friendly models that were involved in that Combat (with the exception of any **War Beast** or **Chariot** models) may immediately Move in the same way as they would during the Move Phase – however, the only things they may do is to Move or Charge. If they Charge, then they will fight again in the ordinary way – i.e., in an order chosen by the player with Priority."
 										},
 										{
 											"type": "paragraph",
@@ -1764,7 +1764,7 @@
 			"points": [
 				[
 					{
-						"text": "Each Objective Marker with both friendly and enemy Hero models within 3\", but only if any friendly Hero model is of a higher Heroic Tier than any enemy Hero model",
+						"text": "Each Objective Marker with both friendly and enemy Hero models within 3\", but only if any friendly **Hero** model is of a higher Heroic Tier than any enemy Hero model",
 						"points": 2,
 						"increment": true,
 						"max": 3
@@ -1772,7 +1772,7 @@
 				],
 				[
 					{
-						"text": "Each Objective Marker with a friendly Hero model and no enemy Hero models within 3\"",
+						"text": "Each Objective Marker with a friendly **Hero** model and no enemy Hero models within 3\"",
 						"points": 4,
 						"increment": true,
 						"max": 3
@@ -42869,7 +42869,7 @@
 			},
 			{
 				"name": "Kalazâl",
-				"definition": "This is a Unique hand weapon. Múrin gains a bonus of +1 To Wound when making Strikes against Orc, Goblin or Uruk-hai models."
+				"definition": "This is a **Unique** hand weapon. Múrin gains a bonus of +1 To Wound when making Strikes against **Orc**, **Goblin** or **Uruk-hai** models."
 			},
 			{
 				"name": "White Sword of Gondor",
@@ -42893,12 +42893,12 @@
 			},
 			{
 				"name": "Bone-breaker",
-				"definition": "This is a Unique hand weapon. Enemy models with an Elven weapon Engaged in Combat with, or supporting a model Engaged in Combat with, Razgush do not receive the bonus to the roll-off should the Duel Roll result in a Drawn Combat.",
+				"definition": "This is a **Unique** hand weapon. Enemy models with an Elven weapon Engaged in Combat with, or supporting a model Engaged in Combat with, Razgush do not receive the bonus to the roll-off should the Duel Roll result in a Drawn Combat.",
 				"tag": "Active"
 			},
 			{
 				"name": "The Golden Throne",
-				"definition": "This is a Unique banner. The Golden King does not suffer the -1 penalty to his Duel Rolls for carrying a banner.",
+				"definition": "This is a **Unique** banner. The Golden King does not suffer the -1 penalty to his Duel Rolls for carrying a banner.",
 				"tag": "Passive"
 			},
 			{
@@ -42907,12 +42907,12 @@
 			},
 			{
 				"name": "Mithril Crown",
-				"definition": "This is a Unique piece of wargear. Friendly Moria Goblin models within 3\" of Gróblog gain the Dominant (2) special rule.",
+				"definition": "This is a **Unique** piece of wargear. Friendly Moria Goblin models within 3\" of Gróblog gain the Dominant (2) special rule.",
 				"tag": "Active"
 			},
 			{
 				"name": "Durin's Axe",
-				"definition": "This is a Unique Master-forged two-handed weapon. Additionally, this model may re-roll a single D6 when making a Duel Roll.",
+				"definition": "This is a **Unique** Master-forged two-handed weapon. Additionally, this model may re-roll a single D6 when making a Duel Roll.",
 				"tag": "Active"
 			},
 			{
@@ -42932,7 +42932,7 @@
 			},
 			{
 				"name": "Horn of the Hammerhand (Erkenbrand)",
-				"definition": "This is a Unique war horn. Additionally, once per game at the start of any Move Phase, Erkenbrand can unleash a fearsome blow of the Horn of the Hammerhand. Until the End Phase of the turn, enemy models within 24\" of Erkenbrand suffer a -1 penalty to any Courage Test they are required to make.",
+				"definition": "This is a **Unique** war horn. Additionally, once per game at the start of any Move Phase, Erkenbrand can unleash a fearsome blow of the Horn of the Hammerhand. Until the End Phase of the turn, enemy models within 24\" of Erkenbrand suffer a -1 penalty to any Courage Test they are required to make.",
 				"tag": "Active"
 			},
 			{
@@ -42953,7 +42953,7 @@
 			{
 				"name": "Barazantathûl",
 				"tag": "Active",
-				"definition": "This is a Unique Master-forged two-handed weapon."
+				"definition": "This is a **Unique** Master-forged two-handed weapon."
 			},
 			{
 				"name": "Battlin' Brandybuck",
@@ -42981,17 +42981,17 @@
 			{
 				"name": "Horn of the Riddermark",
 				"tag": "Active",
-				"definition": "This is a Unique war horn. Additionally, Merry gains the Fearless special rule."
+				"definition": "This is a **Unique** war horn. Additionally, Merry gains the Fearless special rule."
 			},
 			{
 				"name": "Torozul",
-				"definition": "This is a Unique Foe Spear with the Trollbane special rule. Additionally, Mardin gains an additional bonus of +1 To Wound when making Strikes against Monster models.",
+				"definition": "This is a **Unique** Foe Spear with the Trollbane special rule. Additionally, Mardin gains an additional bonus of +1 To Wound when making Strikes against Monster models.",
 				"tag": "Active"
 			},
 			{
 				"name": "The Horn of Lossarnach",
 				"tag": "Active",
-				"definition": "This is a Unique war horn. Additionally, once per game at the beginning of his Activation, Forlong may let out a blast on his horn. If he does, then friendly models within 12\" of Forlong count as having the Terror special rule until the end of the turn."
+				"definition": "This is a **Unique** war horn. Additionally, once per game at the beginning of his Activation, Forlong may let out a blast on his horn. If he does, then friendly models within 12\" of Forlong count as having the Terror special rule until the end of the turn."
 			},
 			{
 				"name": "Axe of Lossarnach",
@@ -43064,22 +43064,22 @@
 			},
 			{
 				"name": "Exquisite Mithril Armour",
-				"definition": "This is a set of Unique Mithril Armour that will add 4 to Durin's Defence rather than the usual 3 (already included in his profile).",
+				"definition": "This is a set of **Unique** Mithril Armour that will add 4 to Durin's Defence rather than the usual 3 (already included in his profile).",
 				"tag": "Passive"
 			},
 			{
 				"name": "The Ring of Durin",
-				"definition": "This is a Unique piece of wargear. Once per game during the Priority Phase, after the roll for Priority has taken place, the bearer of the Ring of Durin can re-roll their side's Priority Roll.",
+				"definition": "This is a **Unique** piece of wargear. Once per game during the Priority Phase, after the roll for Priority has taken place, the bearer of the Ring of Durin can re-roll their side's Priority Roll.",
 				"tag": "Passive"
 			},
 			{
 				"name": "The Crown of Kings",
-				"definition": "This is a Unique piece of wargear. Whenever Durin suffers a Wound, roll a D6. On a natural 6, the Wound is prevented and is ignored.",
+				"definition": "This is a **Unique** piece of wargear. Whenever Durin suffers a Wound, roll a D6. On a natural 6, the Wound is prevented and is ignored.",
 				"tag": "Passive"
 			},
 			{
 				"name": "The Horn of Zirakzigil",
-				"definition": "This is a Unique war horn, which also gives Durin the Terror special rule.",
+				"definition": "This is a **Unique** war horn, which also gives Durin the Terror special rule.",
 				"tag": "Active"
 			},
 			{
@@ -43126,17 +43126,17 @@
 			},
 			{
 				"name": "Helm of the Dragon Emperor",
-				"definition": "This is a Unique piece of wargear which grants the Dragon Emperor the Resistant to Magic special rule.",
+				"definition": "This is a **Unique** piece of wargear which grants the Dragon Emperor the Resistant to Magic special rule.",
 				"tag": "Passive"
 			},
 			{
 				"name": "The Dragon Emperor's Glaive",
-				"definition": "This is a Unique Elven spear. Additionally, the Dragon Emperor may use it to use the Shielding rule even though he does not have a shield. The Dragon Emperor cannot Support whilst mounted upon his Royal Palanquin.",
+				"definition": "This is a **Unique** Elven spear. Additionally, the Dragon Emperor may use it to use the Shielding rule even though he does not have a shield. The Dragon Emperor cannot Support whilst mounted upon his Royal Palanquin.",
 				"tag": "Active"
 			},
 			{
 				"name": "Durtuz, the Silver Falchion",
-				"definition": "This is a Unique Elven hand-and-a-half weapon. Additionally, when making Strikes against an enemy Hero model, a roll of a natural 5+ will always Wound the target, regardless of the Hero model's Defence",
+				"definition": "This is a **Unique** Elven hand-and-a-half weapon. Additionally, when making Strikes against an enemy Hero model, a roll of a natural 5+ will always Wound the target, regardless of the Hero model's Defence",
 				"tag": "Active"
 			},
 			{
@@ -43233,7 +43233,7 @@
 			{
 				"name": "Ring of Barahir",
 				"tag": "Passive",
-				"definition": "This is a Unique piece of Wargear. Whenever Aragorn is affected by a Magical Power, after any Resist Tests have been made (if able), he may roll a D6. On a natural 6, Aragorn is not affected by that Magical Power."
+				"definition": "This is a **Unique** piece of Wargear. Whenever Aragorn is affected by a Magical Power, after any Resist Tests have been made (if able), he may roll a D6. On a natural 6, Aragorn is not affected by that Magical Power."
 			},
 			{
 				"name": "Flaming Brand",
@@ -44065,7 +44065,7 @@
 			{
 				"name": "War Horn",
 				"type": "horn",
-				"definition": "Models within 24\" of a friendly model with a war horn gain a bonus of +1 to any Courage Tests they take. Additionally, a model with a war horn gains the Dominant (2) special rule and can use it once per game to increase the range of a friendly Hero model's Stand Fast by 3\", so long as the model with the war horn is in range of the Hero model's Stand Fast before this increase. If a Hero model has a war horn themselves, they may use it to increase the range of their own Stand Fast by 3\" instead. A war horn is treated as an Active ability."
+				"definition": "Models within 24\" of a friendly model with a war horn gain a bonus of +1 to any Courage Tests they take. Additionally, a model with a war horn gains the Dominant (2) special rule and can use it once per game to increase the range of a friendly **Hero** model's Stand Fast by 3\", so long as the model with the war horn is in range of the Hero model's Stand Fast before this increase. If a Hero model has a war horn themselves, they may use it to increase the range of their own Stand Fast by 3\" instead. A war horn is treated as an Active ability."
 			},
 			{
 				"name": "Banner",
@@ -44257,17 +44257,17 @@
 						"modifier": 1
 					}
 				],
-				"definition": "This is a Unique shield. Additionally, if Thorin elects to shield with the Oakenshield and wins the Combat, then he may inflict a single Strength 4 hit on one enemy model involved in the Combat."
+				"definition": "This is a **Unique** shield. Additionally, if Thorin elects to shield with the Oakenshield and wins the Combat, then he may inflict a single Strength 4 hit on one enemy model involved in the Combat."
 			},
 			{
 				"name": "Crown of Morgul",
 				"tag": "Passive",
-				"definition": "This is a Unique piece of Wargear. Whilst wearing the Crown of Morgul, enemy models within 6\" of the Witch-king, or attempting to Charge the Witch-king, cannot benefit from special rules that would allow them to automatically pass Courage Tests, with the exception of Heroic Resolve. Additionally, once per game, at the start of any Fight Phase, the Witch-king can imbue its great power to ignite his hand weapon - until the end of the turn, any model that suffers a Wound from a Strike made by the Witch-king is Set Ablaze."
+				"definition": "This is a **Unique** piece of Wargear. Whilst wearing the Crown of Morgul, enemy models within 6\" of the Witch-king, or attempting to Charge the Witch-king, cannot benefit from special rules that would allow them to automatically pass Courage Tests, with the exception of Heroic Resolve. Additionally, once per game, at the start of any Fight Phase, the Witch-king can imbue its great power to ignite his hand weapon - until the end of the turn, any model that suffers a Wound from a Strike made by the Witch-king is Set Ablaze."
 			},
 			{
 				"name": "Morgul Blade",
 				"tag": "Active",
-				"definition": "This is a hand weapon. Once per game, a model with a Morgul Blade can use it during a Combat instead of their normal hand weapon; this must be declared before strikes are made. If they do, all their Strikes must be resolved against a single enemy model, and if the target suffers a wound that is not prevented in some way, they will immediately lose all remaining Wounds and be removed as a casualty. If the model using the Morgul Blade is mounted, they must use the Strength and Attacks of the rider rather than their Mount."
+				"definition": "This is a hand weapon. Once per game, a model with a Morgul Blade can use it during a Combat instead of their normal hand weapon; this must be declared before strikes are made. If they do, all their Strikes must be resolved against a single enemy model, and if the target suffers a wound that is not prevented in some way, they will immediately lose all remaining Wounds and be removed as a casualty. If the model using the Morgul Blade is mounted, they must use the Strength and Attacks of the rider rather than their **Mount**."
 			},
 			{
 				"name": "Might",
@@ -44294,11 +44294,11 @@
 			{
 				"name": "Aiglos",
 				"tag": "Active",
-				"definition": "This is a Unique Elven spear. Additionally, a model wielding Aiglos gains a bonus of +l To Wound When making Strikes."
+				"definition": "This is a **Unique** Elven spear. Additionally, a model wielding Aiglos gains a bonus of +l To Wound When making Strikes."
 			},
 			{
 				"name": "Hadhafang",
-				"definition": "This is a Unique Elven hand-and-a-half weapon. Additionally, a model wielding Hadhafang gains a bonus of +1 To Wound when making Strikes against a Spirit model."
+				"definition": "This is a **Unique** Elven hand-and-a-half weapon. Additionally, a model wielding Hadhafang gains a bonus of +1 To Wound when making Strikes against a Spirit model."
 			},
 			{
 				"name": "Vilya",
@@ -44341,23 +44341,23 @@
 				"name": "Banner of Arwen Evenstar",
 				"type": "Banner",
 				"tag": "Passive",
-				"definition": "This is a Unique banner with a range of 6\" rather than 3\", and Halbarad never suffers the -1 penalty to his Duel Rolls for carrying a banner. Additionally, friendly models within 6\" and Line of Sight of the Banner of Arwen Evenstar automatically pass any Courage Tests they are required to take."
+				"definition": "This is a **Unique** banner with a range of 6\" rather than 3\", and Halbarad never suffers the -1 penalty to his Duel Rolls for carrying a banner. Additionally, friendly models within 6\" and Line of Sight of the Banner of Arwen Evenstar automatically pass any Courage Tests they are required to take."
 			},
 			{
 				"name": "Horn of Gondor",
 				"tag": "Active",
-				"definition": "This is a Unique war horn. At the start of a Combat involving Boromir, if he is outnumbered in the combat then he may blow the Horn of Gondor. If he does, then one enemy model involved in the Combat (chosen by their controlling player) must take a Courage Test. If the Courage Test is passed then the combat is fought as normal. If the Courage Test is failed then no Duel Roll is made and Boromir automatically wins the Combat."
+				"definition": "This is a **Unique** war horn. At the start of a Combat involving Boromir, if he is outnumbered in the combat then he may blow the Horn of Gondor. If he does, then one enemy model involved in the Combat (chosen by their controlling player) must take a Courage Test. If the Courage Test is passed then the combat is fought as normal. If the Courage Test is failed then no Duel Roll is made and Boromir automatically wins the Combat."
 			},
 			{
 				"name": "Horn of the Hammerhand",
 				"tag": "Active",
-				"definition": "This is a Unique war horn. Additionally, once per game at the start of any Move Phase, Helm can unleash a fearsome blow of the Horn of the Hammerhand. Until the End Phase of the turn, enemy models within 24\" of Helm suffer a -1 penalty to any Courage Test they are required to make."
+				"definition": "This is a **Unique** war horn. Additionally, once per game at the start of any Move Phase, Helm can unleash a fearsome blow of the Horn of the Hammerhand. Until the End Phase of the turn, enemy models within 24\" of Helm suffer a -1 penalty to any Courage Test they are required to make."
 			},
 			{
 				"name": "Banner of Minas Tirith",
 				"type": "Banner",
 				"tag": "Passive",
-				"definition": "This is a Unique banner with a range of 6\". Boromir does not suffer the -1 penalty to his Duel Roll for carrying a banner. Additionally, if a friendly Gondor Warrior model within range of the Banner of Minas Tirith is involved in a Drawn Combat, and the Combat is tied at the Gondor Warrior model's Fight Value (i.e. both sides have Fight Value 4 as their highest), then instead of rolling off to see who wins, the Gondor Warrior model wins instead. If both sides have a similar special rule, roll off as normal."
+				"definition": "This is a **Unique** banner with a range of 6\". Boromir does not suffer the -1 penalty to his Duel Roll for carrying a banner. Additionally, if a friendly **Gondor Warrior* model within range of the Banner of Minas Tirith is involved in a Drawn Combat, and the Combat is tied at the Gondor Warrior model's Fight Value (i.e. both sides have Fight Value 4 as their highest), then instead of rolling off to see who wins, the Gondor Warrior model wins instead. If both sides have a similar special rule, roll off as normal."
 			},
 			{
 				"name": "Anduril, Flame of the West",
@@ -44371,7 +44371,7 @@
 			{
 				"name": "Glamdring",
 				"tag": "Active",
-				"definition": "This is a Unique Elven hand-and-a-half weapon. A model gains a bonus of +1 to their Strength when making Strikes with Glamdring."
+				"definition": "This is a **Unique** Elven hand-and-a-half weapon. A model gains a bonus of +1 to their Strength when making Strikes with Glamdring."
 			},
 			{
 				"name": "Grasper & Keeper",
@@ -44381,7 +44381,7 @@
 			{
 				"name": "Herugrim",
 				"tag": "Active",
-				"definition": "This is a Unique hand weapon. Additionally, if a model armed with Herugrim is involved in a Drawn Combat where the Combat is tied at this model's Fight Value (i.e. both sides have Fight Value 5 as their highest, or whatever Fight Value Theoden reaches should he declare a Heroic Strike), then instead of rolling off to see who wins, this model wins instead. If both sides have a similar special rule, roll off as normal."
+				"definition": "This is a **Unique** hand weapon. Additionally, if a model armed with Herugrim is involved in a Drawn Combat where the Combat is tied at this model's Fight Value (i.e. both sides have Fight Value 5 as their highest, or whatever Fight Value Theoden reaches should he declare a Heroic Strike), then instead of rolling off to see who wins, this model wins instead. If both sides have a similar special rule, roll off as normal."
 			},
 			{
 				"name": "Spyglass",
@@ -44396,7 +44396,7 @@
 			{
 				"name": "Narya",
 				"tag": "Passive",
-				"definition": "This is a Unique piece of Wargear. Gandalf may re-roll any failed Fate rolls."
+				"definition": "This is a **Unique** piece of Wargear. Gandalf may re-roll any failed Fate rolls."
 			},
 			{
 				"name": "Staff of Power",
@@ -44409,13 +44409,13 @@
 			{
 				"name": "Sting",
 				"tag": "Active",
-				"definition": "This is a Unique Elven hand weapon. A model gains a bonus of +1 to their Strength when making Strikes with Sting."
+				"definition": "This is a **Unique** Elven hand weapon. A model gains a bonus of +1 to their Strength when making Strikes with Sting."
 			},
 			{
 				"name": "Mithril Coat",
 				"type": "armour",
 				"tag": "Passive",
-				"definition": "This is a Unique piece of Mithril armour. Models cannot use the Rend Brutal Power Attack against a model wearing Mithril Armour. Additionally, the wearer may re-roll Fate rolls of a 1.",
+				"definition": "This is a **Unique** piece of Mithril armour. Models cannot use the Rend Brutal Power Attack against a model wearing Mithril Armour. Additionally, the wearer may re-roll Fate rolls of a 1.",
 				"modifiesStats": [
 					{
 						"stat": "defence",
@@ -44426,7 +44426,7 @@
 			{
 				"name": "Stone Flail",
 				"tag": "Active",
-				"definition": "This is a Unique two-handed weapon. If Azog uses the Stone Flail during a Combat, he gains the Mighty Blow special rule, though reduces his Fight Value to 6 for the duration of the Combat - even after a Heroic Strike. Additionally, any model that is struck by the Stone Flail and not slain will be Knocked Prone at the end of the Combat."
+				"definition": "This is a **Unique** two-handed weapon. If Azog uses the Stone Flail during a Combat, he gains the Mighty Blow special rule, though reduces his Fight Value to 6 for the duration of the Combat - even after a Heroic Strike. Additionally, any model that is struck by the Stone Flail and not slain will be Knocked Prone at the end of the Combat."
 			},
 			{
 				"name": "Flail",
@@ -44441,7 +44441,7 @@
 			{
 				"name": "The Arkenstone",
 				"tag": "Passive",
-				"definition": "This is a Unique piece of wargear. The bearer of the Arkenstone passes Fate Rolls on a 3+. Additionally, when making a Fate Roll, if the result is a 4 or better, then the Fate Point is free and is not spent."
+				"definition": "This is a **Unique** piece of wargear. The bearer of the Arkenstone passes Fate Rolls on a 3+. Additionally, when making a Fate Roll, if the result is a 4 or better, then the Fate Point is free and is not spent."
 			},
 			{
 				"name": "Easterling Halberd and shield",
@@ -44457,7 +44457,7 @@
 				"name": "Foe Spear",
 				"type": "Weapon",
 				"tag": "Active",
-				"definition": "This is a spear. Additionally, if a model with a Foe Spear is Supporting a model with an Iron Shield, they gain a bonus of +1 To Wound when making Strikes against Monster models."
+				"definition": "This is a spear. Additionally, if a model with a Foe Spear is Supporting a model with an Iron Shield, they gain a bonus of +1 To Wound when making Strikes against **Monster** models."
 			},
 			{
 				"name": "Fiery Lash",
@@ -44481,7 +44481,7 @@
 				"name": "Orcrist",
 				"type": "Weapon",
 				"tag": "Active",
-				"definition": "This is a Unique Elven hand-and-a-half weapon. Orcrist has the Orcbane, Goblinbane and Uruk-haibane special rules. Additionally, the wielder of Orctrist has the Terror (Orc), Terror (Goblin) and Terror (Uruk-hai) special rules."
+				"definition": "This is a **Unique** Elven hand-and-a-half weapon. Orcrist has the Orcbane, Goblinbane and Uruk-haibane special rules. Additionally, the wielder of Orctrist has the Terror (Orc), Terror (Goblin) and Terror (Uruk-hai) special rules."
 			},
 			{
 				"name": "The Oakenshield",
@@ -44499,7 +44499,7 @@
 				"name": "Narsil",
 				"type": "Weapon",
 				"tag": "Active",
-				"definition": "This is a Unique Master-forged two-handed weapon. Additionally, a model wielding Narsil may declare a Heroic Combat during each Fight Phase for free."
+				"definition": "This is a **Unique** Master-forged two-handed weapon. Additionally, a model wielding Narsil may declare a Heroic Combat during each Fight Phase for free."
 			},
 			{
 				"name": "Mirror of Galadriel",
@@ -44551,12 +44551,12 @@
 			{
 				"name": "Sebastian",
 				"tag": "Active",
-				"definition": "This is a Unique piece of Wargear. During a Combat, Radagast may roll an additional D6 in his Duel Roll, and may make an additional Strike if he wins the Combat. This additional D6 cannot be modified by Might, and is treated as being Strength 1 when making Strikes - roll a separate dice for Sebastian to make sure."
+				"definition": "This is a **Unique** piece of Wargear. During a Combat, Radagast may roll an additional D6 in his Duel Roll, and may make an additional Strike if he wins the Combat. This additional D6 cannot be modified by Might, and is treated as being Strength 1 when making Strikes - roll a separate dice for Sebastian to make sure."
 			},
 			{
 				"name": "The Light of Earendil",
 				"tag": "Passive",
-				"definition": "This is a Unique piece of Wargear. At any point during her Activation, Galadriel can use the Light of Earendil to roll a D6. On a 3+, Galadriel counts as having Cast the Blinding Light Magical Power. This does not prevent Galadriel from attempting to Cast another Magical Power during her Activation."
+				"definition": "This is a **Unique** piece of Wargear. At any point during her Activation, Galadriel can use the Light of Earendil to roll a D6. On a 3+, Galadriel counts as having Cast the Blinding Light Magical Power. This does not prevent Galadriel from attempting to Cast another Magical Power during her Activation."
 			},
 			{
 				"name": "Easterling Halberd",
@@ -44621,7 +44621,7 @@
 			},
 			{
 				"name": "Catapult",
-				"definition": "The Catapult on the back of the Catapult Troll can be fired in the same way as a normal Siege Engine; it has a range of 12\"-96\" and has a Strength of 10. The Catapult may still be fired even if the Troll has Moved, even up to its full Move Value; however, in either instance it will only ever hit on the roll of a natural 6. The Catapult may still be fired if the Troll is Engaged in Combat; however, if a natural 1 is rolled when rolling To Hit in this instance, the Catapult will malfunction and the Troll will suffer a Wound.\n                The Catapult does not have a conventional crew, and therefore can always be fired so long as the Troll is still alive. Additionally, other models can never fire this Catapult as Untrained Crew. Additionally, unlike other Siege Engine models, the Catapult cannot be destroyed by an enemy model spending an entire turn in base contact with it.\n                \n                The Catapult has the Arcing Shot special rule."
+				"definition": "The Catapult on the back of the Catapult Troll can be fired in the same way as a normal **Siege Engine**; it has a range of 12\"-96\" and has a Strength of 10. The Catapult may still be fired even if the Troll has Moved, even up to its full Move Value; however, in either instance it will only ever hit on the roll of a natural 6. The Catapult may still be fired if the Troll is Engaged in Combat; however, if a natural 1 is rolled when rolling To Hit in this instance, the Catapult will malfunction and the Troll will suffer a Wound.\n                The Catapult does not have a conventional crew, and therefore can always be fired so long as the Troll is still alive. Additionally, other models can never fire this Catapult as Untrained Crew. Additionally, unlike other Siege Engine models, the Catapult cannot be destroyed by an enemy model spending an entire turn in base contact with it.\n                \n                The Catapult has the Arcing Shot special rule."
 			},
 			{
 				"name": "Metal Gauntlets",
@@ -44631,7 +44631,7 @@
 			{
 				"name": "Royal Standard of Rohan",
 				"tag": "Passive",
-				"definition": "This is a Unique banner with a range of 6\". Gamling does not suffer the -1 penalty to his Duel Roll for carrying a banner. Additionally, whenever a friendly Rohan Hero model within 6\" of the Royal Standard of Rohan spends a Might Point, they may roll a D6. On a natural 6, the Might Point is free and is not spent."
+				"definition": "This is a **Unique** banner with a range of 6\". Gamling does not suffer the -1 penalty to his Duel Roll for carrying a banner. Additionally, whenever a friendly **Rohan Hero** model within 6\" of the Royal Standard of Rohan spends a Might Point, they may roll a D6. On a natural 6, the Might Point is free and is not spent."
 			},
 			{
 				"name": "Elven Cloak",
@@ -45490,7 +45490,7 @@
 			},
 			{
 				"name": "Commanding Presence",
-				"definition": "Friendly Khand models treat a Khandish King as a banner with a range of 6\".",
+				"definition": "Friendly **Khand** models treat a Khandish King as a banner with a range of 6\".",
 				"tag": "Passive"
 			},
 			{
@@ -45500,7 +45500,7 @@
 			},
 			{
 				"name": "Impaler",
-				"definition": "Each time this model Charges into Combat, it will inflict a single Strength 4 hit upon one model it has Charged (Cavalry models suffer this hit on both the rider and the Mount). If after this hit, this model is no longer Engaged in Combat, they may continue their Move in any way their controlling player wishes; stopping straight away, Charging another enemy model, or anything in between.",
+				"definition": "Each time this model Charges into Combat, it will inflict a single Strength 4 hit upon one model it has Charged (**Cavalry** models suffer this hit on both the rider and the **Mount**). If after this hit, this model is no longer Engaged in Combat, they may continue their Move in any way their controlling player wishes; stopping straight away, Charging another enemy model, or anything in between.",
 				"tag": "Active"
 			},
 			{
@@ -45520,7 +45520,7 @@
 			},
 			{
 				"name": "Riches Beyond Renown",
-				"definition": "The Golden King can spend any number of Will Points when an enemy Hero within 12\" and Line of Sight takes a Courage Test. If he does, for each Will Point spent, the Hero model's Courage Test is reduced by 1. The Golden King may wait until after the Courage Test has been rolled to use this special rule. Affected Hero models may still use Might or Will Points to improve their Courage Test after the Golden King has used this special rule.",
+				"definition": "The Golden King can spend any number of Will Points when an enemy Hero within 12\" and Line of Sight takes a Courage Test. If he does, for each Will Point spent, the **Hero** model's Courage Test is reduced by 1. The Golden King may wait until after the Courage Test has been rolled to use this special rule. Affected **Hero** models may still use Might or Will Points to improve their Courage Test after the Golden King has used this special rule.",
 				"tag": "Active"
 			},
 			{
@@ -45540,17 +45540,17 @@
 			},
 			{
 				"name": "Bound in Shadow",
-				"definition": "Whilst within 6\" of Sauron or a friendly Ringwraith model, this model automatically passes any Courage Tests it is required to take.",
+				"definition": "Whilst within 6\" of Sauron or a friendly **Ringwraith** model, this model automatically passes any Courage Tests it is required to take.",
 				"tag": "Passive"
 			},
 			{
 				"name": "Tribal King",
-				"definition": "If this model is your General, it increases its Attacks characteristic to 3 and gains the General Hunter special rule.",
+				"definition": "If this model is your **General**, it increases its Attacks characteristic to 3 and gains the General Hunter special rule.",
 				"tag": "Passive"
 			},
 			{
 				"name": "\"Slay their Horses!\"",
-				"definition": "Whilst this model has the Cavalry keyword, it may re-roll To Wound rolls of a natural 1 when making Strikes against an enemy Mount.",
+				"definition": "Whilst this model has the Cavalry keyword, it may re-roll To Wound rolls of a natural 1 when making Strikes against an enemy **Mount**.",
 				"tag": "Active"
 			},
 			{
@@ -45560,7 +45560,7 @@
 			},
 			{
 				"name": "Favour of the War Chief",
-				"definition": "If this model is Supporting a Combat, and is within 3\" of a friendly Dunland Hero, then this model gains a bonus of +1 to its Fight Value for the duration of the Combat.",
+				"definition": "If this model is Supporting a Combat, and is within 3\" of a friendly **Dunland Hero**, then this model gains a bonus of +1 to its Fight Value for the duration of the Combat.",
 				"tag": "Active"
 			},
 			{
@@ -45575,17 +45575,17 @@
 			},
 			{
 				"name": "Readied Stance",
-				"definition": "Cavalry models do not gain the Extra Attack and Knock to the Ground bonuses whilst Engaged in Combat with Frída, or Engaged in Combat with a model Frída is Supporting.",
+				"definition": "**Cavalry** models do not gain the Extra Attack and Knock to the Ground bonuses whilst Engaged in Combat with Frída, or Engaged in Combat with a model Frída is Supporting.",
 				"tag": "Passive"
 			},
 			{
 				"name": "\"Go for the Horse!\"",
-				"definition": "Friendly Dunland models within 3\" of Frída may re-roll failed To Wound rolls when making Strikes against an enemy Mount.",
+				"definition": "Friendly Dunland models within 3\" of Frída may re-roll failed To Wound rolls when making Strikes against an enemy **Mount**.",
 				"tag": "Active"
 			},
 			{
 				"name": "Warg Marauder",
-				"definition": "A Warg Marauder is an interesting Cavalry model that consists of three Moria Goblin Warriors riding a single Warg Mount. Two of the Moria Goblin Warriors are armed with an Orc bow, whilst the other is armed with a shield. This is treated as any other Cavalry model with the following exceptions:\n                \n                Whilst the Moria Goblin Warrior with shield remains alive, all parts of the Cavalry model gain the bonus of +1 to their Defence.\n                \n                The Warg Marauder only counts as a single model towards an Army’s Bow Limit.\n                \n                If one Moria Goblin Warrior wishes to dismount, then they must all do so together"
+				"definition": "A Warg Marauder is an interesting **Cavalry** model that consists of three Moria Goblin Warriors riding a single Warg **Mount**. Two of the Moria Goblin Warriors are armed with an Orc bow, whilst the other is armed with a shield. This is treated as any other **Cavalry** model with the following exceptions:\n                \n                Whilst the Moria Goblin Warrior with shield remains alive, all parts of the **Cavalry** model gain the bonus of +1 to their Defence.\n                \n                The Warg Marauder only counts as a single model towards an Army’s Bow Limit.\n                \n                If one Moria Goblin Warrior wishes to dismount, then they must all do so together"
 			},
 			{
 				"name": "On the Hunt",
@@ -45624,17 +45624,17 @@
 			},
 			{
 				"name": "Heart of Darkness",
-				"definition": "At the start of the Move Phase, before the Declare Heroic Actions step, Kardûsh can choose a single friendly Orc Warrior model within 6\" of himself. If he does, the chosen model is removed as a casualty and Kardûsh immediately regains D3 Will Points spent earlier in the battle.",
+				"definition": "At the start of the Move Phase, before the Declare Heroic Actions step, Kardûsh can choose a single friendly **Orc Warrior** model within 6\" of himself. If he does, the chosen model is removed as a casualty and Kardûsh immediately regains D3 Will Points spent earlier in the battle.",
 				"tag": "Active"
 			},
 			{
 				"name": "Shadow Pawn",
-				"definition": "At the start of the Move Phase, before the Declare Heroic Actions step, Kardûsh's controlling player can choose to remove him from the battlefield as a casualty if he is within 6\" of a friendly Ringwraith. If they do, then a single friendly Ringwraith model within 6\" of where Kardûsh was immediately regains D6 Will Points spent earlier in the battle.",
+				"definition": "At the start of the Move Phase, before the Declare Heroic Actions step, Kardûsh's controlling player can choose to remove him from the battlefield as a casualty if he is within 6\" of a friendly **Ringwraith**. If they do, then a single friendly **Ringwraith** model within 6\" of where Kardûsh was immediately regains D6 Will Points spent earlier in the battle.",
 				"tag": "Active"
 			},
 			{
 				"name": "\"Come here maggot!\"",
-				"definition": "Whenever Goroth suffers a Wound, before any Fate Rolls are made, he may roll a D6. On a 2+, he may choose a single friendly Mordor Orc model within 1\" to immediately suffer the Wound instead of him. Fate Rolls can then be made as normal.",
+				"definition": "Whenever Goroth suffers a Wound, before any Fate Rolls are made, he may roll a D6. On a 2+, he may choose a single friendly **Mordor Orc** model within 1\" to immediately suffer the Wound instead of him. Fate Rolls can then be made as normal.",
 				"tag": "Active"
 			},
 			{
@@ -45644,7 +45644,7 @@
 			},
 			{
 				"name": "\"For the Dark Lord!\"",
-				"definition": "Whilst there is at least one friendly Ringwraith on the battlefield, treat this model's Courage as 4+.",
+				"definition": "Whilst there is at least one friendly **Ringwraith** on the battlefield, treat this model's Courage as 4+.",
 				"tag": "Passive"
 			},
 			{
@@ -45679,12 +45679,12 @@
 			},
 			{
 				"name": "Sap Fortitude",
-				"definition": "At the start of the Move Phase, before the Declare Heroic Actions step, the Dwimmerlaik may spend a Will Point to use this special rule. If he does, then until the End Phase of the turn, whenever an enemy Hero model within 6\" of the Dwimmerlaik declares a Heroic Action, they must take an Intelligence Test. If the test is failed the Heroic Action is immediately cancelled, and the Might Point spent to declare it is lost.",
+				"definition": "At the start of the Move Phase, before the Declare Heroic Actions step, the Dwimmerlaik may spend a Will Point to use this special rule. If he does, then until the End Phase of the turn, whenever an enemy **Hero** model within 6\" of the Dwimmerlaik declares a Heroic Action, they must take an Intelligence Test. If the test is failed the Heroic Action is immediately cancelled, and the Might Point spent to declare it is lost.",
 				"tag": "Active"
 			},
 			{
 				"name": "Rule Through Fear",
-				"definition": "At the start of the Fight Phase, before the Declare Heroic Actions step, the Dark Marshal may spend a Will Point to use this special rule. If he does, then until the End Phase of the turn, friendly Warrior models treat the Dark Marshal as a banner with a range of 6\".",
+				"definition": "At the start of the Fight Phase, before the Declare Heroic Actions step, the Dark Marshal may spend a Will Point to use this special rule. If he does, then until the End Phase of the turn, friendly **Warrior** models treat the Dark Marshal as a banner with a range of 6\".",
 				"tag": "Active"
 			},
 			{
@@ -45694,17 +45694,17 @@
 			},
 			{
 				"name": "Miasmatic Presence",
-				"definition": "At the start of the Move Phase, before the Declare Heroic Actions step, the Tainted may spend a Will Point to use this special rule. If he does, then until the End Phase of the turn, all Warrior models (both friendly and enemy) within 6\" of the Tainted may not benefit from the Stand Fast rule, and may not take part in any Heroic Actions.",
+				"definition": "At the start of the Move Phase, before the Declare Heroic Actions step, the Tainted may spend a Will Point to use this special rule. If he does, then until the End Phase of the turn, all **Warrior** models (both friendly and enemy) within 6\" of the Tainted may not benefit from the Stand Fast rule, and may not take part in any Heroic Actions.",
 				"tag": "Active"
 			},
 			{
 				"name": "Seeping Decay",
-				"definition": "At the start of the Fight Phase, before the Declare Heroic Actions step, roll a D6 for every non-Spirit model in base contact with the Tainted, both friendly and enemy. On the roll of a natural 6, the model immediately suffers a Wound. If the model in base contact is a Cavalry model, roll for both the rider and the Mount separately. If after this special rule has been resolved the Tainted is no longer in base contact with any enemy models, then he will not count as being Engaged in Combat that turn (unless he is subsequently Charged as a result of a Heroic Combat).",
+				"definition": "At the start of the Fight Phase, before the Declare Heroic Actions step, roll a D6 for every non-**Spirit** model in base contact with the Tainted, both friendly and enemy. On the roll of a natural 6, the model immediately suffers a Wound. If the model in base contact is a **Cavalry** model, roll for both the rider and the **Mount** separately. If after this special rule has been resolved the Tainted is no longer in base contact with any enemy models, then he will not count as being Engaged in Combat that turn (unless he is subsequently Charged as a result of a Heroic Combat).",
 				"tag": "Active"
 			},
 			{
 				"name": "In Defence of the King",
-				"definition": "During the Declare Heroic Actions step of the Fight Phase, if a friendly Dwarf General is Engaged in Combat and is within 6\" of this model, then this model may declare a free Heroic Combat. If this Heroic Combat is successful, then this model must use the following Move to join the friendly Dwarf General model's Combat if this is not possible, then this model must Move as close as possible to the Dwarf General. This model cannot use this special rule if it is in the same Combat as a friendly Dwarf General.",
+				"definition": "During the Declare Heroic Actions step of the Fight Phase, if a friendly **Dwarf General** is Engaged in Combat and is within 6\" of this model, then this model may declare a free Heroic Combat. If this Heroic Combat is successful, then this model must use the following Move to join the friendly **Dwarf General** model's Combat if this is not possible, then this model must Move as close as possible to the **Dwarf General**. This model cannot use this special rule if it is in the same Combat as a friendly **Dwarf General**.",
 				"tag": "Active"
 			},
 			{
@@ -45719,7 +45719,7 @@
 			},
 			{
 				"name": "The Living Lore",
-				"definition": "Whenever a friendly model slays an enemy Hero or Monster model that Flói can draw Line of Sight to, Flói may regain a Will Point spent earlier in the battle.",
+				"definition": "Whenever a friendly model slays an enemy **Hero** or **Monster** model that Flói can draw Line of Sight to, Flói may regain a Will Point spent earlier in the battle.",
 				"tag": "Passive"
 			},
 			{
@@ -45754,12 +45754,12 @@
 			},
 			{
 				"name": "Vanguard",
-				"definition": "This model may benefit from a friendly Hero model's Stand Fast regardless of range.",
+				"definition": "This model may benefit from a friendly **Hero** model's Stand Fast regardless of range.",
 				"tag": "Active"
 			},
 			{
 				"name": "Master Archer",
-				"definition": "This model only fails an In The Way Test on the roll of a natural 1. Additionally, if this model slays an enemy Hero or Monster model with a shooting attack, then you may restore this model's Might to its starting value.",
+				"definition": "This model only fails an In The Way Test on the roll of a natural 1. Additionally, if this model slays an enemy **Hero** or **Monster** model with a shooting attack, then you may restore this model's Might to its starting value.",
 				"tag": "Active"
 			},
 			{
@@ -45800,12 +45800,12 @@
 			{
 				"name": "Whips of the Master",
 				"tag": "Active",
-				"definition": "Whenever a friendly Hero model within 6\" declares a Heroic Move, Heroic March or Heroic Shoot, roll a D6. On a 4+, the Hero does not spend the Might Point and the Heroic Action is free."
+				"definition": "Whenever a friendly **Hero** model within 6\" declares a Heroic Move, Heroic March or Heroic Shoot, roll a D6. On a 4+, the Hero does not spend the Might Point and the Heroic Action is free."
 			},
 			{
 				"name": "Sing a Jolly Song (Tom)",
 				"tag": "Active",
-				"definition": "At any point during his Activation, Tom may spend a Will Point to sing one of the songs listed below to gain the relevant effect. Tom may sing any number of these songs during his Activation, and may sing each of these songs as many times as he wishes during his Activation unless otherwise stated. Every time Tom sings a song it will cost him a Will Point.\n        \n        • \"Hey! Come Merry Dol!\" - Choose a friendly model within 6\" of Tom Bombadil. The chosen model immediately regains a single Wound lost earlier in the battle. A model may only be chosen by this song once per turn.\n        \n        • \"Hop along, my hearties!\" - Until the end of the turn, friendly models that begin their Activation within 6\" of Tom Bombadil may add 3\" to their Move Value and will treat all areas of Difficult Terrain as Open Ground. A model may only be affected by this song once per turn. \n        \n        • \"Wake now my merry lads!\" - Choose a friendly model within 6\" of Tom Bombadil. The chosen model immediately recovers from the effects of any enemy Magical Powers currently cast upon them. Additionally, until the end of the turn, the chosen model cannot be chosen as the target of any enemy Magical Powers or special rules.\n        \n        • \"Ring a dong dillo!\" - Until the end of the turn, friendly models within 6\" of Tom Bombadil automatically pass any Courage Tests they are required to take.\n        \n        • \"Get out, you old Wight!\" - Choose an enemy Spirit model within 6\" of Tom Bombadil. The chosen model immediately suffers a Wound. This song may only be sung once per turn."
+				"definition": "At any point during his Activation, Tom may spend a Will Point to sing one of the songs listed below to gain the relevant effect. Tom may sing any number of these songs during his Activation, and may sing each of these songs as many times as he wishes during his Activation unless otherwise stated. Every time Tom sings a song it will cost him a Will Point.\n        \n        • **\"Hey! Come Merry Dol!\"** - Choose a friendly model within 6\" of Tom Bombadil. The chosen model immediately regains a single Wound lost earlier in the battle. A model may only be chosen by this song once per turn.\n        \n        • **\"Hop along, my hearties!\"** - Until the end of the turn, friendly models that begin their Activation within 6\" of Tom Bombadil may add 3\" to their Move Value and will treat all areas of Difficult Terrain as Open Ground. A model may only be affected by this song once per turn. \n        \n        • **\"Wake now my merry lads!\"** - Choose a friendly model within 6\" of Tom Bombadil. The chosen model immediately recovers from the effects of any enemy Magical Powers currently cast upon them. Additionally, until the end of the turn, the chosen model cannot be chosen as the target of any enemy Magical Powers or special rules.\n        \n        • **\"Ring a dong dillo!\"** - Until the end of the turn, friendly models within 6\" of Tom Bombadil automatically pass any Courage Tests they are required to take.\n        \n        • **\"Get out, you old Wight!\"** - Choose an enemy **Spirit** model within 6\" of Tom Bombadil. The chosen model immediately suffers a Wound. This song may only be sung once per turn."
 			},
 			{
 				"name": "Tom has his house to mind",
@@ -45820,7 +45820,7 @@
 			{
 				"name": "To me, Shire-folk!",
 				"tag": "Active",
-				"definition": "Paladin's Stand Fast has a range of 12\"; however, only friendly Hobbit models may benefit from Paladin's Stand Fast."
+				"definition": "Paladin's Stand Fast has a range of 12\"; however, only friendly **Hobbit** models may benefit from Paladin's Stand Fast."
 			},
 			{
 				"name": "For Tuckborough!",
@@ -45840,7 +45840,7 @@
 			{
 				"name": "With me, lads!",
 				"tag": "Passive",
-				"definition": "Other friendly Ruffian models treat Sid as a banner."
+				"definition": "Other friendly **Ruffian** models treat Sid as a banner."
 			},
 			{
 				"name": "Put 'em in chains!",
@@ -45875,7 +45875,7 @@
 			{
 				"name": "A Bad Influence",
 				"tag": "Passive",
-				"definition": "Ted Sandyman may only include Hobbit models in his Warband. Additionally, friendly Hobbit models within 3\" of Ted Sandyman gain a bonus of +1 To Wound when making Strikes."
+				"definition": "Ted Sandyman may only include Hobbit models in his Warband. Additionally, friendly **Hobbit** models within 3\" of Ted Sandyman gain a bonus of +1 To Wound when making Strikes."
 			},
 			{
 				"name": "At 'em, Lads!",
@@ -45890,7 +45890,7 @@
 			{
 				"name": "King Under the Mountain",
 				"tag": "Active",
-				"definition": "Dáin's Stand Fast will cover the entire battlefield, regardless of range. Additionally, friendly Erebor Dwarf Hero models may benefit from Dáin's Stand Fast."
+				"definition": "Dáin's Stand Fast will cover the entire battlefield, regardless of range. Additionally, friendly **Erebor Dwarf Hero** models may benefit from Dáin's Stand Fast."
 			},
 			{
 				"name": "Cool-headed",
@@ -45920,7 +45920,7 @@
 			{
 				"name": "Drums in the Deep",
 				"tag": "Active",
-				"definition": "For the Drum to be played, at least one Moria Goblin Drummer must be in base contact with it, have not Moved that turn, and not be Engaged in Combat. Whilst the Drum is being played it has the following effects:\n    • Friendly Moria Goblin models gain a bonus of +1 to any Courage Tests they are required to take.\n    • Enemy models suffer a -1 penalty to any Courage Tests they are required to take.\n    • Friendly Moria Goblin models within 18\" count as being in range of a banner.\n    • Whilst being played, the Moria Goblin Drum counts as a banner for the purpose of Victory Points."
+				"definition": "For the Drum to be played, at least one Moria Goblin Drummer must be in base contact with it, have not Moved that turn, and not be Engaged in Combat. Whilst the Drum is being played it has the following effects:\n    • Friendly **Moria Goblin** models gain a bonus of +1 to any Courage Tests they are required to take.\n    • Enemy models suffer a -1 penalty to any Courage Tests they are required to take.\n    • Friendly **Moria Goblin** models within 18\" count as being in range of a banner.\n    • Whilst being played, the Moria Goblin Drum counts as a banner for the purpose of Victory Points."
 			},
 			{
 				"name": "Take up the Drum",
@@ -45945,12 +45945,12 @@
 			{
 				"name": "In Defence of the King (Hurin)",
 				"tag": "Active",
-				"definition": "Whilst he is within 3\" of your General, so long as your General has the Gondor Keyword, Húrin automatically passes any Courage Tests he is required to take and may re-roll To Wound Rolls of a natural 1 when making Strikes."
+				"definition": "Whilst he is within 3\" of your **General**, so long as your **General** has the **Gondor** Keyword, Húrin automatically passes any Courage Tests he is required to take and may re-roll To Wound Rolls of a natural 1 when making Strikes."
 			},
 			{
 				"name": "Line of Command",
 				"tag": "Passive",
-				"definition": "Whilst Húrin is alive and on the battlefield, your opponent cannot gain any Victory Points for Wounding or slaying the enemy General, as long as your General has the Gondor Keyword."
+				"definition": "Whilst Húrin is alive and on the battlefield, your opponent cannot gain any Victory Points for Wounding or slaying the enemy **General**, as long as your **General** has the **Gondor** Keyword."
 			},
 			{
 				"name": "Ruthless Commander",
@@ -45960,7 +45960,7 @@
 			{
 				"name": "Enchanting Song",
 				"tag": "Active",
-				"definition": "During their Activation, a Wood Elf Sentinel may sing one of the following songs to gain the relevant effect:\n        \n        • Hymn of Elbereth – Choose a friendly model within 12\". Until the End Phase of the turn, the chosen model automatically passes any Courage Tests they are required to take.\n        • Lay of Gondolin – Until the End Phase of the turn, this model and all friendly models within 3\" of them gain the Terror special rule.\n        • Eldamar Madrigal – Choose an enemy model within 12\" that is not Engaged in Combat; the chosen model must immediately take an Intelligence Test. If the test is failed, then you may immediately Move that model as if it was that model's Activation; however, the only thing they can do is Move. A model made to Move in this manner cannot enter an enemy model's Control Zone, dismount, lie down, be forced to make a Climb, Jump, Leap or Swim Test, and cannot Move in any way that would cause it direct harm (such as attempting to jump off a cliff). A model affected by this song cannot be Activated later in the turn."
+				"definition": "During their Activation, a Wood Elf Sentinel may sing one of the following songs to gain the relevant effect:\n        \n        • **Hymn of Elbereth** – Choose a friendly model within 12\". Until the End Phase of the turn, the chosen model automatically passes any Courage Tests they are required to take.\n        • **Lay of Gondolin** – Until the End Phase of the turn, this model and all friendly models within 3\" of them gain the Terror special rule.\n        • **Eldamar Madrigal** – Choose an enemy model within 12\" that is not Engaged in Combat; the chosen model must immediately take an Intelligence Test. If the test is failed, then you may immediately Move that model as if it was that model's Activation; however, the only thing they can do is Move. A model made to Move in this manner cannot enter an enemy model's Control Zone, dismount, lie down, be forced to make a Climb, Jump, Leap or Swim Test, and cannot Move in any way that would cause it direct harm (such as attempting to jump off a cliff). A model affected by this song cannot be Activated later in the turn."
 			},
 			{
 				"name": "Family Rivalry",
@@ -45970,7 +45970,7 @@
 			{
 				"name": "Considerable Wealth",
 				"tag": "Active",
-				"definition": "Lotho may spend his Will Points to pay off models around him in the following ways:\n        \n        • At the start of a Fight Phase, before the Declare Heroic Actions step, Lotho can spend a Will Point to use this ability. If he does, until the End Phase of the turn, friendly Hobbit models within 3\" of Lotho gain a +1 bonus to their Fight Value.\n        • At the start of a Move Phase, before the Declare Heroic Actions step, Lotho can spend a Will Point to use this ability. If he does, until the End Phase of the turn, friendly Ruffian models within 3\" of Lotho count as having the Fearless special rule.\n        • When an enemy model attempts to Charge Lotho, Lotho may spend a Will Point to use this ability. If he does, roll a D6. On a 2+, the enemy model stops 1\" away from Lotho instead of Charging him and their Activation immediately ends."
+				"definition": "Lotho may spend his Will Points to pay off models around him in the following ways:\n        \n        • At the start of a Fight Phase, before the Declare Heroic Actions step, Lotho can spend a Will Point to use this ability. If he does, until the End Phase of the turn, friendly **Hobbit** models within 3\" of Lotho gain a +1 bonus to their Fight Value.\n        • At the start of a Move Phase, before the Declare Heroic Actions step, Lotho can spend a Will Point to use this ability. If he does, until the End Phase of the turn, friendly **Ruffian** models within 3\" of Lotho count as having the Fearless special rule.\n        • When an enemy model attempts to Charge Lotho, Lotho may spend a Will Point to use this ability. If he does, roll a D6. On a 2+, the enemy model stops 1\" away from Lotho instead of Charging him and their Activation immediately ends."
 			},
 			{
 				"name": "Head Shirriff",
@@ -45990,7 +45990,7 @@
 			{
 				"name": "Sing a Jolly Song (Goldberry)",
 				"tag": "Active",
-				"definition": "At any point during her Activation, Goldberry may spend a Will Point to sing one of the songs listed below to gain the relevant effect. Goldberry may sing any number of these songs during her Activation, and may sing each of these songs as many times as she wishes during her Activation unless otherwise stated. Every time Goldberry sings a song it will cost her a Will Point.\n        \n        • \"Supper is Ready\" - Choose a friendly model within 6\" of Goldberry. The chosen model immediately regains a single Wound lost earlier in the battle. A model may only be chosen by this song once per turn.\n        • \"Have Peace Now\" - Choose an enemy model within 6\" of Goldberry. The chosen model may not be Activated during their player's Activation Phase this turn, but may otherwise act normally in all other Phases. This song may only be sung once per turn.\n        • \"Heed no Nightly Noises\" - Choose a friendly model within 6\" of Goldberry. Untilt he end of the turn, the chosen model automatically passes any Courage Tests it is required to take. Additionally, if the chosen model Charges an enemy model, the chosen model will increase their Fight Value by 1 until the End Phase of the turn. A model may only be chosen by this song once per turn."
+				"definition": "At any point during her Activation, Goldberry may spend a Will Point to sing one of the songs listed below to gain the relevant effect. Goldberry may sing any number of these songs during her Activation, and may sing each of these songs as many times as she wishes during her Activation unless otherwise stated. Every time Goldberry sings a song it will cost her a Will Point.\n        \n        • **\"Supper is Ready\"** - Choose a friendly model within 6\" of Goldberry. The chosen model immediately regains a single Wound lost earlier in the battle. A model may only be chosen by this song once per turn.\n        • **\"Have Peace Now\"** - Choose an enemy model within 6\" of Goldberry. The chosen model may not be Activated during their player's Activation Phase this turn, but may otherwise act normally in all other Phases. This song may only be sung once per turn.\n        • **\"Heed no Nightly Noises\"** - Choose a friendly model within 6\" of Goldberry. Untilt he end of the turn, the chosen model automatically passes any Courage Tests it is required to take. Additionally, if the chosen model Charges an enemy model, the chosen model will increase their Fight Value by 1 until the End Phase of the turn. A model may only be chosen by this song once per turn."
 			},
 			{
 				"name": "It will never really heal",
@@ -46000,7 +46000,7 @@
 			{
 				"name": "Home is the Hero",
 				"tag": "Passive",
-				"definition": "Friendly Hobbit models treat Frodo as a banner with a range of 6\"."
+				"definition": "friendly **Hobbit** models treat Frodo as a banner with a range of 6\"."
 			},
 			{
 				"name": "A Helpful Sort",
@@ -46010,12 +46010,12 @@
 			{
 				"name": "High Spirits",
 				"tag": "Passive",
-				"definition": "Whenever a friendly Hobbit model within 6\" of Folco spends a Might Point, they may roll a D6. On a natural 6, the Might Point spent is free and does not reduce the model's store of Might."
+				"definition": "Whenever a friendly **Hobbit** model within 6\" of Folco spends a Might Point, they may roll a D6. On a natural 6, the Might Point spent is free and does not reduce the model's store of Might."
 			},
 			{
 				"name": "This is our country",
 				"tag": "Passive",
-				"definition": "Friendly Hobbit models within 3\" of Farmer Cotton may re-roll any rolls of a 1 when making a Duel Roll."
+				"definition": "friendly **Hobbit** models within 3\" of Farmer Cotton may re-roll any rolls of a 1 when making a Duel Roll."
 			},
 			{
 				"name": "Champion Stone Skipper",
@@ -46040,7 +46040,7 @@
 			{
 				"name": "Against all odds",
 				"tag": "Active",
-				"definition": "Pippin may re-roll any failed To Wound Rolls when making Strikes against Hero or Monster models."
+				"definition": "Pippin may re-roll any failed To Wound Rolls when making Strikes against **Hero** or **Monster** models."
 			},
 			{
 				"name": "Whirl of Blades",
@@ -46065,32 +46065,32 @@
 			{
 				"name": "Rapid Fire (Bolt Thrower)",
 				"tag": "Active",
-				"definition": "A Gondor Avenger Bolt Thrower doesn't shoot like a normal Siege Engine. Instead, it may make D6 shooting attacks in the same way as a normal Missile Weapon. No Scatter is required for these shots; they will either hit or miss. Each shot may be fully resolved before determining the target of the next one. Shots fired by a Gondor Avenger Bolt Thrower do not kill their targets outright if they Wound them."
+				"definition": "A Gondor Avenger Bolt Thrower doesn't shoot like a normal **Siege Engine**. Instead, it may make D6 shooting attacks in the same way as a normal Missile Weapon. No Scatter is required for these shots; they will either hit or miss. Each shot may be fully resolved before determining the target of the next one. Shots fired by a Gondor Avenger Bolt Thrower do not kill their targets outright if they Wound them."
 			},
 			{
 				"name": "Skin-changer (Grimbeorn Bear to Man)",
 				"tag": "Active",
-				"definition": "At the beginning of his Activation, Grimbeorn the Bear can change his form from Bear to Man. If he does, place the Man model in base contact with the Bear model, and then remove the Bear model from play. If there is no space to place the Man model, then Grimbeorn cannot transform. Once he has transformed, Grimbeorn may continue his Activation as normal, including Charging in which case check the Line of Sight from the newly placed Man model to determine whether Grimbeorn can Charge. Once Grimbeorn the Bear has transformed, he uses the Grimbeorn profile – though his Wounds, Might, Will and Fate Points remain the same between both profiles."
+				"definition": "At the beginning of his Activation, Grimbeorn the Bear can change his form from **Bear** to **Man**. If he does, place the **Man** model in base contact with the **Bear** model, and then remove the **Bear** model from play. If there is no space to place the **Man** model, then Grimbeorn cannot transform. Once he has transformed, Grimbeorn may continue his Activation as normal, including Charging in which case check the Line of Sight from the newly placed **Man** model to determine whether Grimbeorn can Charge. Once Grimbeorn the Bear has transformed, he uses the Grimbeorn profile – though his Wounds, Might, Will and Fate Points remain the same between both profiles."
 			},
 			{
 				"name": "Skin-changer (Grimbeorn Man to Bear)",
 				"tag": "Active",
-				"definition": "At the beginning of his Activation, Grimbeorn can change his form from Man to Bear. If he does, place the Bear model in base contact with the Man model, and then remove the Man model from play. If there is no space to place the Bear model, then Grimbeorn cannot transform. Once he has transformed, Grimbeorn the Bear may continue his Activation as normal, including Charging in which case check the Line of Sight from the newly placed Bear model to determine whether Grimbeorn can Charge. Once Grimbeorn has transformed, he uses the Grimbeorn the Bear profile - though his Wounds, Might, Will, and Fate points remain the same between both profiles."
+				"definition": "At the beginning of his Activation, Grimbeorn can change his form from **Man** to **Bear**. If he does, place the **Bear** model in base contact with the **Man** model, and then remove the **Man** model from play. If there is no space to place the **Bear** model, then Grimbeorn cannot transform. Once he has transformed, Grimbeorn the Bear may continue his Activation as normal, including Charging in which case check the Line of Sight from the newly placed **Bear** model to determine whether Grimbeorn can Charge. Once Grimbeorn has transformed, he uses the Grimbeorn the Bear profile - though his Wounds, Might, Will, and Fate points remain the same between both profiles."
 			},
 			{
 				"name": "Skin-changer (Beorn Bear to Man)",
 				"tag": "Active",
-				"definition": "At the beginning of his Activation, Beorn the Bear can change his form from Bear to Man. If he does, place the Man model in base contact with the Bear model, and then remove the Bear model from play. If there is no space to place the Man model, then Beorn cannot transform. Once he has transformed, Beorn may continue his Activation as normal, including Charging in which case check the Line of Sight from the newly placed Man model to determine whether Beorn can Charge. Once Beorn the Bear has transformed, he uses the Beorn profile – though his Wounds, Might, Will and Fate Points remain the same between both profiles."
+				"definition": "At the beginning of his Activation, Beorn the Bear can change his form from **Bear** to **Man**. If he does, place the **Man** model in base contact with the **Bear** model, and then remove the **Bear** model from play. If there is no space to place the **Man** model, then Beorn cannot transform. Once he has transformed, Beorn may continue his Activation as normal, including Charging in which case check the Line of Sight from the newly placed **Man** model to determine whether Beorn can Charge. Once Beorn the Bear has transformed, he uses the Beorn profile – though his Wounds, Might, Will and Fate Points remain the same between both profiles."
 			},
 			{
 				"name": "Skin-changer (Beorn Man to Bear)",
 				"tag": "Active",
-				"definition": "At the beginning of his Activation, Beorn can change his form from Man to Bear. If he does, place the Bear model in base contact with the Man model, and then remove the Man model from play. If there is no space to place the Bear model, then Beorn cannot transform. Once he has transformed, Beorn the Bear may continue his Activation as normal, including Charging in which case check the Line of Sight from the newly placed Bear model to determine whether Beorn can Charge. Once Beorn has transformed, he uses the Beorn the Bear profile - though his Wounds, Might, Will, and Fate points remain the same between both profiles."
+				"definition": "At the beginning of his Activation, Beorn can change his form from **Man to Bear**. If he does, place the **Bear** model in base contact with the **Man** model, and then remove the **Man** model from play. If there is no space to place the **Bear** model, then Beorn cannot transform. Once he has transformed, Beorn the Bear may continue his Activation as normal, including Charging in which case check the Line of Sight from the newly placed **Bear** model to determine whether Beorn can Charge. Once Beorn has transformed, he uses the Beorn the Bear profile - though his Wounds, Might, Will, and Fate points remain the same between both profiles."
 			},
 			{
 				"name": "Leader of the Beornings",
 				"tag": "Passive",
-				"definition": "Only Beorning models can benefit from Grimbeorn's Heroic Actions or Stand Fast."
+				"definition": "Only **Beorning** models can benefit from Grimbeorn's Heroic Actions or Stand Fast."
 			},
 			{
 				"name": "Crushing Strength (Grimbeorn)",
@@ -46109,17 +46109,17 @@
 			{
 				"name": "Forest Stalker",
 				"tag": "Passive",
-				"definition": "Whenever a friendly Druadan model within 6\" of Ghan-buri-Ghan that is within a piece of woodland terrain suffers a Wound, roll a D6. On the roll of a natural 6, the Wound is ignored."
+				"definition": "Whenever a friendly **Druadan** model within 6\" of Ghan-buri-Ghan that is within a piece of woodland terrain suffers a Wound, roll a D6. On the roll of a natural 6, the Wound is ignored."
 			},
 			{
 				"name": "Go for the eyes!",
 				"tag": "Active",
-				"definition": "Duinhir may re-roll failed To Hit Rolls when shooting at an enemy Monster model. Additionally, if Duinhir successfully Wounds an enemy Monster model with a shooting attack (i.e., a Wound is caused and is not prevented), it will deal D3 Wounds rather than 1."
+				"definition": "Duinhir may re-roll failed To Hit Rolls when shooting at an enemy **Monster** model. Additionally, if Duinhir successfully Wounds an enemy **Monster** model with a shooting attack (i.e., a Wound is caused and is not prevented), it will deal D3 Wounds rather than 1."
 			},
 			{
 				"name": "Lord of the Blackroot Vale",
 				"tag": "Passive",
-				"definition": "Other friendly Blackroot Vale models within 3\" of Duinhir may re-roll To Hit Rolls of a 1 when making a shooting attack in the Shoot Phase, provided they did not Move in the preceding Move Phase."
+				"definition": "Other friendly **Blackroot Vale** models within 3\" of Duinhir may re-roll To Hit Rolls of a 1 when making a shooting attack in the Shoot Phase, provided they did not Move in the preceding Move Phase."
 			},
 			{
 				"name": "Dead-eye Shot",
@@ -46129,12 +46129,12 @@
 			{
 				"name": "Chief of Lamedon",
 				"tag": "Passive",
-				"definition": "Other friendly Lamedon models within 3\" of Angbor automatically pass any Courage tests they are required to take."
+				"definition": "Other friendly **Lamedon** models within 3\" of Angbor automatically pass any Courage tests they are required to take."
 			},
 			{
 				"name": "The Honour of Lamedon",
 				"tag": "Passive",
-				"definition": "Whilst within 3\" of a friendly Lamedon Hero model, this model may re-roll any rolls of a natural 1 when making a Duel Roll."
+				"definition": "Whilst within 3\" of a friendly **Lamedon Hero** model, this model may re-roll any rolls of a natural 1 when making a Duel Roll."
 			},
 			{
 				"name": "Pride of Dol Amroth",
@@ -46144,12 +46144,12 @@
 			{
 				"name": "Lord of Lossarnach",
 				"tag": "Passive",
-				"definition": "Other friendly Lossarnach models within 3\" of Forlong the Fat may re-roll To Wound Rolls of a natural 1 when making Strikes."
+				"definition": "Other friendly **Lossarnach** models within 3\" of Forlong the Fat may re-roll To Wound Rolls of a natural 1 when making Strikes."
 			},
 			{
 				"name": "Resolute Fighter",
 				"tag": "Passive",
-				"definition": "Ingold and friendly Gondor Warrior models within 3\" of him do not Back Away if they lose a Combat - their opponent must Back Away instead. It is important to note that models benefitting from this special rule can still be Trapped as normal, and a player should check to see if the model would be Trapped under normal circumstances should their side lose the Combat. If the model would be Trapped then opposing models will apply the effects of being Trapped, such as any of their special rules for making Strikes against a Trapped model, and will still make two To Wound Rolls for each Strike as they would against any other Trapped model."
+				"definition": "Ingold and friendly **Gondor Warrior* models within 3\" of him do not Back Away if they lose a Combat - their opponent must Back Away instead. It is important to note that models benefitting from this special rule can still be Trapped as normal, and a player should check to see if the model would be Trapped under normal circumstances should their side lose the Combat. If the model would be Trapped then opposing models will apply the effects of being Trapped, such as any of their special rules for making Strikes against a Trapped model, and will still make two To Wound Rolls for each Strike as they would against any other Trapped model."
 			},
 			{
 				"name": "An Unlikely Friendship",
@@ -46164,17 +46164,17 @@
 			{
 				"name": "Unbreakable Bond (Elladan)",
 				"tag": "Active",
-				"definition": "If Elrohir is slain, make a note of the model that killed him; for the remainder of the game, Elladan increases his Strength by 1. Additionally, for the remainder of the game, whenever Elladan Activates if he can Charge an enemy model then he must do so; if he is able to Charge the enemy model that killed Elladan, then he must prioritise that model to Charge. If Elladan is Engaged in Combat with the model that killed Elladan, and that model is a Hero, he must declare a free Heroic Challenge against them. This may still be done even though Elladan cannot normally declare a Heroic Challenge, and even if the Hero has a lower Heroic Tier than Elladan."
+				"definition": "If Elrohir is slain, make a note of the model that killed him; for the remainder of the game, Elladan increases his Strength by 1. Additionally, for the remainder of the game, whenever Elladan Activates if he can Charge an enemy model then he must do so; if he is able to Charge the enemy model that killed Elladan, then he must prioritise that model to Charge. If Elladan is Engaged in Combat with the model that killed Elladan, and that model is a Hero, he must declare a free Heroic Challenge against them. This may still be done even though Elladan cannot normally declare a Heroic Challenge, and even if the **Hero** has a lower Heroic Tier than Elladan."
 			},
 			{
 				"name": "Unbreakable Bond (Elrohir)",
 				"tag": "Active",
-				"definition": "If Elladan is slain, make a note of the model that killed him; for the remainder of the game, Elrohir increases his Strength by 1. Additionally, for the remainder of the game, whenever Elrohir Activates if he can Charge an enemy model then he must do so; if he is able to Charge the enemy model that killed Elladan, then he must prioritise that model to Charge. If Elrohir is Engaged in Combat with the model that killed Elladan, and that model is a Hero, he must declare a free Heroic Challenge against them. This may still be done even though Elrohir cannot normally declare a Heroic Challenge, and even if the Hero has a lower Heroic Tier than Elrohir."
+				"definition": "If Elladan is slain, make a note of the model that killed him; for the remainder of the game, Elrohir increases his Strength by 1. Additionally, for the remainder of the game, whenever Elrohir Activates if he can Charge an enemy model then he must do so; if he is able to Charge the enemy model that killed Elladan, then he must prioritise that model to Charge. If Elrohir is Engaged in Combat with the model that killed Elladan, and that model is a Hero, he must declare a free Heroic Challenge against them. This may still be done even though Elrohir cannot normally declare a Heroic Challenge, and even if the **Hero** has a lower Heroic Tier than Elrohir."
 			},
 			{
 				"name": "Twin Elven Blades",
 				"tag": "Active",
-				"definition": "Whilst he has the Infantry Keyword, this model can choose to fight in one of the three following ways. He must declare which way he is fighting at the start of a Combat, before any dice are rolled:\n        • This model can fight with 3 Attacks rather than 2.\n        • This model can use his Elven weapons as Elven hand-and-half weapons.\n        • This model can use his Elven weapons to parry, which counts as Shielding."
+				"definition": "Whilst he has the **Infantry** Keyword, this model can choose to fight in one of the three following ways. He must declare which way he is fighting at the start of a Combat, before any dice are rolled:\n        • This model can fight with 3 Attacks rather than 2.\n        • This model can use his Elven weapons as Elven hand-and-half weapons.\n        • This model can use his Elven weapons to parry, which counts as Shielding."
 			},
 			{
 				"name": "Strength of Brotherhood (Elladan)",
@@ -46591,7 +46591,7 @@
 			{
 				"name": "Whips of the Master",
 				"tag": "Active",
-				"definition": "Whenever a friendly Hero model within 6\" declares a Heroic Move, Heroic March, or Heroic Shoot, roll a D6. On a 4+ the Hero does not spend the Might Point and the Heroic Action is free."
+				"definition": "Whenever a friendly **Hero** model within 6\" declares a Heroic Move, Heroic March, or Heroic Shoot, roll a D6. On a 4+ the Hero does not spend the Might Point and the Heroic Action is free."
 			},
 			{
 				"name": "Monstrous Charge",
@@ -46775,7 +46775,7 @@
 			{
 				"name": "Voice of Curunir",
 				"tag": "Active",
-				"definition": "The range of Saruman's Stand Fast is 12\" rather than 6\". Additionally, friendly Hero models can benefit from Saruman's Stand Fast."
+				"definition": "The range of Saruman's Stand Fast is 12\" rather than 6\". Additionally, friendly **Hero** models can benefit from Saruman's Stand Fast."
 			},
 			{
 				"name": "Head Taker",
@@ -46815,7 +46815,7 @@
 			{
 				"name": "Lord of Dale (Girion)",
 				"tag": "Passive",
-				"definition": "Girion'Stand Fast is 12\" rather than 6\". Additionally, friendly Dale models within 3\" of Girion may re-roll To Wound Rolls of a natural 1 when making strikes."
+				"definition": "Girion'Stand Fast is 12\" rather than 6\". Additionally, friendly **Dale** models within 3\" of Girion may re-roll To Wound Rolls of a natural 1 when making strikes."
 			},
 			{
 				"name": "Wall of Blades",
@@ -46878,7 +46878,7 @@
 			{
 				"name": "Lead by Example",
 				"tag": "Active",
-				"definition": "If Buhrdûr slays an enemy Hero or Monster in Combat, then for the rest of the game other friendly Orc or Troll models treat Buhrdûr as a banner. If Buhrdûr has slain 3 or more enemy Hero or Monster models, then for the rest of the game other friendly Orc or Troll models treat Buhrdûr as a banner with a range of 6\" instead."
+				"definition": "If Buhrdûr slays an enemy **Hero** or **Monster** in Combat, then for the rest of the game other friendly Orc or Troll models treat Buhrdûr as a banner. If Buhrdûr has slain 3 or more enemy **Hero** or **Monster** models, then for the rest of the game other friendly Orc or Troll models treat Buhrdûr as a banner with a range of 6\" instead."
 			},
 			{
 				"name": "Packlord",
@@ -47103,7 +47103,7 @@
 			{
 				"name": "Fight to the Last",
 				"tag": "Passive",
-				"definition": "If at the start of the Fight phase Haleth is Engaged in Combat, then for the duration of the Fight Phase Aragorn and other friendly Rohan Infantry models within\n                6\" of Haleth gain a bonus of +1 to their Fight value. This benefit ends immediately if Haleth is slain."
+				"definition": "If at the start of the Fight phase Haleth is Engaged in Combat, then for the duration of the Fight Phase Aragorn and other friendly **Rohan Infantry** models within\n                6\" of Haleth gain a bonus of +1 to their Fight value. This benefit ends immediately if Haleth is slain."
 			},
 			{
 				"name": "Relentless Advance",
@@ -47158,12 +47158,12 @@
 			{
 				"name": "Chronicler",
 				"tag": "Active",
-				"definition": "Whenever a friendly Erebor Hero within 6\" and Line of Sight of Ori slays an enemy Hero or Monster, then that Erebor Hero may immediately regain a single point of either Might, Will or Fate spent earlier in the battle. If they are unable to regain a point of Might, Will or Fate, because their stores of each are full, then you may choose a different friendly Erebor Hero within 6\" and Line of Sight of Ori to regain it instead."
+				"definition": "Whenever a friendly Erebor Hero within 6\" and Line of Sight of Ori slays an enemy **Hero** or **Monster**, then that Erebor Hero may immediately regain a single point of either Might, Will or Fate spent earlier in the battle. If they are unable to regain a point of Might, Will or Fate, because their stores of each are full, then you may choose a different friendly Erebor Hero within 6\" and Line of Sight of Ori to regain it instead."
 			},
 			{
 				"name": "Chronicler (Thorin's Company)",
 				"tag": "Active",
-				"definition": "Whenever a friendly Thorin's Company model within 6\" and Line of Sight of Ori slays an enemy Hero or Monster, then that Thorin's Company model may immediately regain a single point of either Might, Will or Fate spent earlier in the battle. If they are unable to regain a point of Might, Will or Fate, because their stores of each are full, then you may choose a different friendly Thorin's Company Hero within 6\" and Line of Sight of Ori to regain it instead."
+				"definition": "Whenever a friendly Thorin's Company model within 6\" and Line of Sight of Ori slays an enemy **Hero** or **Monster**, then that Thorin's Company model may immediately regain a single point of either Might, Will or Fate spent earlier in the battle. If they are unable to regain a point of Might, Will or Fate, because their stores of each are full, then you may choose a different friendly Thorin's Company Hero within 6\" and Line of Sight of Ori to regain it instead."
 			},
 			{
 				"name": "Healing Herbs",
@@ -47309,11 +47309,6 @@
 				"name": "The Lord of Lorien",
 				"tag": "Active",
 				"definition": "Celeborn gains a free Will Point at the start of each turn. If this free Will Point is not spent by the end of the turn, it is lost."
-			},
-			{
-				"name": "Enchanting Song",
-				"tag": "Active",
-				"definition": "A Sentinel may sing one song each turn, providing they are not Engaged in combat. These function exactly like Magical Powers except they are automatically cast without spending Will, and cannot be resisted.\n        \n                The Hymn of Elbereth - Range 12\" - This beautiful song raises the spirits of the targeted model. The target friendly model will automatically pass Courage tests for the remainder of the turn.\n                \n                Eldamar Madrigal - Range 12\" - The target enemy model must immediately take a Courage test. If the test is passed, nothing happens. If the test is failed, the target model falls under the control of the opposing player who then may move it up to its maximum Move, even if it has already moved that turn. This move cannot be used to enter an enemy's Control Zone, dismount, lay down, perform an action that would cause harm to the target (such as jumping off a cliff, etc) or anything that would require the model to roll a D6 (such as a Jump test). Affected models may move no further that turn.\n                \n                The Lay of Gondolin - This somber verse recalls the mighty Elf city of Gondolin - a name fit to freeze the hearts of Evil beings. If the Sentinel sings this song, they cause Terror until the end of the turn."
 			},
 			{
 				"name": "Bludgeon",
@@ -47524,7 +47519,7 @@
 			{
 				"name": "\"Dol Amroth for Gondor!\"",
 				"tag": "Passive",
-				"definition": "Other friendly Dol Amroth models treat Prince Imrahil as a banner with a range of 6\"."
+				"definition": "Other friendly **Dol Amroth** models treat Prince Imrahil as a banner with a range of 6\"."
 			},
 			{
 				"name": "Master of Birds",
@@ -47595,12 +47590,12 @@
 			{
 				"name": "Berserk",
 				"tag": "Passive",
-				"definition": "When Beorn the Bear begins his Activation, he must check to see if he can Charge an enemy model. If he can then he may not change form during this Activation and he must Charge an enemy model if possible. Additionally, Beorn the Bear may not benefit from the Heroic Actions of other friendly models with the exception of friendly Bear models, and other friendly models may not benefit from the Heroic Actions or Stand fast of Beorn unless they have the Beorning keyword."
+				"definition": "When Beorn the Bear begins his Activation, he must check to see if he can Charge an enemy model. If he can then he may not change form during this Activation and he must Charge an enemy model if possible. Additionally, Beorn the Bear may not benefit from the Heroic Actions of other friendly models with the exception of friendly **Bear** models, and other friendly models may not benefit from the Heroic Actions or Stand fast of Beorn unless they have the Beorning keyword."
 			},
 			{
 				"name": "Followers of the Bear",
 				"tag": "Passive",
-				"definition": "This model treats friendly Bear models as a banner."
+				"definition": "This model treats friendly **Bear** models as a banner."
 			},
 			{
 				"name": "Cunning Mind",
@@ -47635,7 +47630,7 @@
 			{
 				"name": "Gift of Foresight",
 				"tag": "Active",
-				"definition": "Whenever a friendly Arnor model within 6\" and Line of Sight of Malbeth suffers a Wound, roll a D6. On a 5+, the Wound has been prevented and is ignored. Note that if this roll is failed, a Hero model may still use Fate Points as normal."
+				"definition": "Whenever a friendly **Arnor** model within 6\" and Line of Sight of Malbeth suffers a Wound, roll a D6. On a 5+, the Wound has been prevented and is ignored. Note that if this roll is failed, a **Hero** model may still use Fate Points as normal."
 			},
 			{
 				"name": "One of Nine",
@@ -47718,12 +47713,12 @@
 			{
 				"name": "Sweet Maiden of the Golden Ale",
 				"tag": "Passive",
-				"definition": "Friendly Hobbit models treat Rosie Cotton as a banner with a range of 6\". Additionally, so long as she is alive, Rosie will count as a banner for the purpose of Victory Points in Scenarios that award Victory Points for having a banner left alive."
+				"definition": "friendly **Hobbit** models treat Rosie Cotton as a banner with a range of 6\". Additionally, so long as she is alive, Rosie will count as a banner for the purpose of Victory Points in Scenarios that award Victory Points for having a banner left alive."
 			},
 			{
 				"name": "Leave me flowers alone!",
 				"tag": "Passive",
-				"definition": "After both sides have deployed, before the first turn begins, Hamfast's controlling player may place three 25mm Flower Markers anywhere on the board. Models can Move freely over Flower Markers, but may never end their Move overlapping a Flower Marker. They may also not Back Away or Make Way so that they are overlapping a Flower Marker. Objects such as a Siege Engine, Heavy Object, or other such items can never be placed so that they are overlapping a Flower Marker. Friendly Hobbit models may re-roll failed To Wound rolls when making Strikes or shooting attacks that target an enemy model within 3\" of a friendly Flower Marker. Additionally, Hamfast gains a bonus of +1 To Wound when making Strikes or shooting attacks that target an enemy model within 3\" of a friendly Flower Marker."
+				"definition": "After both sides have deployed, before the first turn begins, Hamfast's controlling player may place three 25mm Flower Markers anywhere on the board. Models can Move freely over Flower Markers, but may never end their Move overlapping a Flower Marker. They may also not Back Away or Make Way so that they are overlapping a Flower Marker. Objects such as a Siege Engine, Heavy Object, or other such items can never be placed so that they are overlapping a Flower Marker. friendly **Hobbit** models may re-roll failed To Wound rolls when making Strikes or shooting attacks that target an enemy model within 3\" of a friendly Flower Marker. Additionally, Hamfast gains a bonus of +1 To Wound when making Strikes or shooting attacks that target an enemy model within 3\" of a friendly Flower Marker."
 			},
 			{
 				"name": "Spider Webs",
@@ -47872,12 +47867,12 @@
 			{
 				"name": "Chieftain of the Dunedain",
 				"tag": "Passive",
-				"definition": "Friendly Dúnedain Hero models may benefit from Arathorn’s Stand Fast."
+				"definition": "Friendly **Dúnedain Hero** models may benefit from Arathorn’s Stand Fast."
 			},
 			{
 				"name": "A Fool's Challenge",
 				"tag": "Active",
-				"definition": "If Eärnur is ever the target of a Heroic Challenge, he may never choose to decline under any circumstances. Additionally, when Eärnur Activates, if he is able to Charge an enemy Hero model then he must do so."
+				"definition": "If Eärnur is ever the target of a Heroic Challenge, he may never choose to decline under any circumstances. Additionally, when Eärnur Activates, if he is able to Charge an enemy **Hero** model then he must do so."
 			},
 			{
 				"name": "Master Duellist",
@@ -47952,7 +47947,7 @@
 			{
 				"name": "The Warrior Poet",
 				"tag": "Passive",
-				"definition": "Hama may spend a Will Point at the start of any Fight Phase to use this ability. If he does, friendly Rohan models within 6\" of Hama may re-roll To Wound Rolls of a 1 when making Strikes until the end of the turn."
+				"definition": "Hama may spend a Will Point at the start of any Fight Phase to use this ability. If he does, friendly **Rohan** models within 6\" of Hama may re-roll To Wound Rolls of a 1 when making Strikes until the end of the turn."
 			},
 			{
 				"name": "Spear Mastery",
@@ -47981,7 +47976,7 @@
 			{
 				"name": "Protectors of the White Tree",
 				"tag": "Passive",
-				"definition": "If this model is within 6\" of a friendly Gondor General, it is treated as having the Dominant (2) special rule."
+				"definition": "If this model is within 6\" of a friendly **Gondor General**, it is treated as having the Dominant (2) special rule."
 			},
 			{
 				"name": "A Chance for Faramir, Captain of Gondor to show his Quality",
@@ -48049,7 +48044,7 @@
 			{
 				"name": "Orders from Edoras",
 				"tag": "Passive",
-				"definition": "Lief may spend a Will Point at the end of his Activation to use this ability, so long as he is not Engaged in Combat. If he does, pick one of the following orders; its effects will last until the end of the turn. Each order can only be chosen once per game.\n• Friendly Rohan Hero models within 3\" of Lief may declare a Heroic Combat for free.\n• Friendly Rohan models within 3\" of Lief gain the Fearless special rule.\n• Friendly Rohan models within 3° of Lief do not suffer the -1 penalty To Hit when moving and shooting and may re-roll failed To Hit rolls when making shooting attacks.\n• Friendly Rohan models that start their Activation within 3\" of Lief gain the Woodland Creature and Mountain Dweller special rules.\n• Friendly Rohan models that start their Activation within 3\" of Lief increase their Move Value by 2\"."
+				"definition": "Lief may spend a Will Point at the end of his Activation to use this ability, so long as he is not Engaged in Combat. If he does, pick one of the following orders; its effects will last until the end of the turn. Each order can only be chosen once per game.\n• Friendly **Rohan Hero** models within 3\" of Lief may declare a Heroic Combat for free.\n• Friendly **Rohan** models within 3\" of Lief gain the Fearless special rule.\n• Friendly **Rohan** models within 3° of Lief do not suffer the -1 penalty To Hit when moving and shooting and may re-roll failed To Hit rolls when making shooting attacks.\n• Friendly **Rohan** models that start their Activation within 3\" of Lief gain the Woodland Creature and Mountain Dweller special rules.\n• Friendly **Rohan** models that start their Activation within 3\" of Lief increase their Move Value by 2\"."
 			},
 			{
 				"name": "Stalwart Fighter",
@@ -48287,7 +48282,7 @@
 			{
 				"name": "Majestic Steed",
 				"tag": "Active",
-				"definition": "In a turn in which Thranduil Charges into Combat, he resolves his Strikes at Strength 5. Additionally, each time this model Charges into Combat, it will inflict a single Strength 4 hit upon one model it has Charged (Cavalry models suffer this hit on both the rider and the Mount). If after this hit Thranduil is no longer Engaged in Combat, he may continue his Move in any way his controlling player wishes; stopping straight away. Charging another enemy model, or anything in between."
+				"definition": "In a turn in which Thranduil Charges into Combat, he resolves his Strikes at Strength 5. Additionally, each time this model Charges into Combat, it will inflict a single Strength 4 hit upon one model it has Charged (**Cavalry** models suffer this hit on both the rider and the **Mount**). If after this hit Thranduil is no longer Engaged in Combat, he may continue his Move in any way his controlling player wishes; stopping straight away. Charging another enemy model, or anything in between."
 			},
 			{
 				"name": "Well fed, and ready to fight",
@@ -48467,12 +48462,12 @@
 			{
 				"name": "Remnants of Arnor",
 				"tag": "Passive",
-				"definition": "Friendly Dunedain models treat Aranarth as a banner. Additionally, all Dunedain models in the same Army List as Aranarth gain the Arnor Keyword."
+				"definition": "Friendly **Dunedain** models treat Aranarth as a banner. Additionally, all **Dunedain** models in the same Army List as Aranarth gain the **Arnor** Keyword."
 			},
 			{
 				"name": "Hero of the Elves",
 				"tag": "Active",
-				"definition": "Glorfindel gains a bonus of +1 To Wound when making Strikes against Monster models."
+				"definition": "Glorfindel gains a bonus of +1 To Wound when making Strikes against **Monster** models."
 			},
 			{
 				"name": "Brutish Cunning",
@@ -48515,35 +48510,35 @@
 		"armyBonuses": [
 			{
 				"name": "Beasts of the Forest",
-				"definition": "Warbands from this Army do not need a Hero to lead them if they number six or more models. Instead, one Warrior model within the Warband takes on the role of the Warband's Captain for the purposes of deployment. Warbands without a Hero model leading them may not include more than 12 models."
+				"definition": "Warbands from this Army do not need a **Hero** to lead them if they number six or more models. Instead, one **Warrior** model within the Warband takes on the role of the Warband's Captain for the purposes of deployment. Warbands without a **Hero** model leading them may not include more than 12 models."
 			},
 			{
 				"name": "\"Worse are the Webs\"",
-				"definition": "After both sides have deployed, but before the first turn begins, a player using this Army List may place four 25mm Web Markers on the board. Web Markers cannot be set up within 3\" of an enemy model or Objective Marker, and cannot be set up within 6\" of the edge of the board or within 9\" of another Web Marker. Any non-Spider model within 3\" of a Web Marker is considered to be in Difficult Terrain. Additionally, Spider models do not need Line of Sight to Charge a model within 3\" of a Web Marker."
+				"definition": "After both sides have deployed, but before the first turn begins, a player using this Army List may place four 25mm Web Markers on the board. Web Markers cannot be set up within 3\" of an enemy model or Objective Marker, and cannot be set up within 6\" of the edge of the board or within 9\" of another Web Marker. Any non-**Spider** model within 3\" of a Web Marker is considered to be in Difficult Terrain. Additionally, **Spider** models do not need Line of Sight to Charge a model within 3\" of a Web Marker."
 			},
 			{
 				"name": "Protect the Queen",
-				"definition": "Whenever the Spider Queen suffers a Wound, before any Fate Rolls are made, she may roll a D6. On a 3+, she may choose a single friendly Spider model within 1\" to immediately suffer the Wound instead of her."
+				"definition": "Whenever the Spider Queen suffers a Wound, before any Fate Rolls are made, she may roll a D6. On a 3+, she may choose a single friendly **Spider** model within 1\" to immediately suffer the Wound instead of her."
 			},
 			{
 				"name": "Pounce",
-				"definition": "When a friendly Spider Warrior model Charges an enemy Infantry model, they gain the Knock to the Ground bonus as if they were Cavalry. This bonus is lost if they are subsequently Charged by an enemy Cavalry model."
+				"definition": "When a friendly **Spider Warrior** model Charges an enemy **Infantry** model, they gain the Knock to the Ground bonus as if they were **Cavalry**. This bonus is lost if they are subsequently Charged by an enemy **Cavalry** model."
 			},
 			{
 				"name": "The Queen's Cunning",
-				"definition": "If the Spider Queen declares a Heroic Move in the same turn as an enemy Hero, and subsequently loses the roll-off to see which Heroic Move will go first, she may choose to cancel her Heroic Move and regain the Might point spent to declare it."
+				"definition": "If the Spider Queen declares a Heroic Move in the same turn as an enemy **Hero**, and subsequently loses the roll-off to see which Heroic Move will go first, she may choose to cancel her Heroic Move and regain the Might point spent to declare it."
 			},
 			{
 				"name": "Warrior Pride",
-				"definition": "Mahûd Warrior models within 6\" of a friendly Mahûd Hero model that is Engaged in Combat automatically pass all Courage Tests they are required to take."
+				"definition": "Mahûd **Warrior** models within 6\" of a friendly **Mahûd Hero** model that is Engaged in Combat automatically pass all Courage Tests they are required to take."
 			},
 			{
 				"name": "Revel in Death",
-				"definition": "If your General slays an enemy Hero model in Combat, then until the end of the turn friendly Mahûd Warrior models within 6\" of your General gain a bonus of +1 to their Fight Value."
+				"definition": "If your **General** slays an enemy Hero model in Combat, then until the end of the turn friendly **Mahûd Warrior** models within 6\" of your **General** gain a bonus of +1 to their Fight Value."
 			},
 			{
 				"name": "Battle Frenzy",
-				"definition": "Whenever a friendly Mahûd model suffers a Wound, roll a D6. On the roll of natural 6, the Wound is ignored."
+				"definition": "Whenever a friendly **Mahûd** model suffers a Wound, roll a D6. On the roll of natural 6, the Wound is ignored."
 			},
 			{
 				"name": "Golfimbul's Rage",
@@ -48559,7 +48554,7 @@
 			},
 			{
 				"name": "\"Death to the Forgoil!\"",
-				"definition": "Friendly Dunland models gain the Hatred (Rohan) special rule."
+				"definition": "Friendly **Dunland** models gain the Hatred (**Rohan**) special rule."
 			},
 			{
 				"name": "Dunlending Pride",
@@ -48571,15 +48566,15 @@
 			},
 			{
 				"name": "High King of Khand",
-				"definition": "The Khandish King that is your General gains an additional Might Point. Additionally, so long as he is alive and on the battlefield, your General counts as a banner for the purpose of Victory Points."
+				"definition": "The Khandish King that is your General gains an additional Might Point. Additionally, so long as he is alive and on the battlefield, your **General** counts as a banner for the purpose of Victory Points."
 			},
 			{
 				"name": "Khandish Fury",
-				"definition": "Once per game, at the start of any Fight Phase, you can declare that you are using this ability so long as there is at least one friendly Hero model alive and on the battlefield. If you do, then until the end of the turn friendly Warrior models that are within 3\" of a friendly Hero model gain a bonus of +1 to their Fight Value."
+				"definition": "Once per game, at the start of any Fight Phase, you can declare that you are using this ability so long as there is at least one friendly **Hero** model alive and on the battlefield. If you do, then until the end of the turn friendly **Warrior** models that are within 3\" of a friendly **Hero** model gain a bonus of +1 to their Fight Value."
 			},
 			{
 				"name": "Through the Forest",
-				"definition": "Friendly Infantry models gain the Woodland Creature special rule."
+				"definition": "Friendly **Infantry** models gain the Woodland Creature special rule."
 			},
 			{
 				"name": "The War Leader",
@@ -48587,7 +48582,7 @@
 			},
 			{
 				"name": "Death to the Elves",
-				"definition": "Friendly models gain the Hatred (Elf) special rule."
+				"definition": "Friendly models gain the Hatred (**Elf**) special rule."
 			},
 			{
 				"name": "Cover of Darkness",
@@ -48603,7 +48598,7 @@
 			},
 			{
 				"name": "Unlikely Allies",
-				"definition": "Friendly Dwarf models may re-roll To Wound rolls of a natural 1 whilst within 1\" of a friendly Gondor model. Friendly Gondor models may re-roll To Wound rolls of a natural 1 whilst within 1\" of a friendly Dwarf model."
+				"definition": "Friendly Dwarf models may re-roll To Wound rolls of a natural 1 whilst within 1\" of a friendly **Gondor** model. Friendly **Gondor** models may re-roll To Wound rolls of a natural 1 whilst within 1\" of a friendly **Dwarf** model."
 			},
 			{
 				"name": "Spoils of War",
@@ -48623,7 +48618,7 @@
 			},
 			{
 				"name": "Birth of an Alliance",
-				"definition": "Friendly models within 6\" of both a friendly Rohan Hero model and a friendly Gondor Hero model gain a bonus of +1 to any Courage or Intelligence Tests they are required to take."
+				"definition": "Friendly models within 6\" of both a friendly **Rohan Hero** model and a friendly **Gondor Hero** model gain a bonus of +1 to any Courage or Intelligence Tests they are required to take."
 			},
 			{
 				"name": "The Charge of Eorl",
@@ -48631,7 +48626,7 @@
 			},
 			{
 				"name": "Gondor's Last Defence",
-				"definition": "Friendly Gondor models within range of an Objective Marker may re-roll To Wound rolls of a natural 1 when making Strikes."
+				"definition": "Friendly **Gondor** models within range of an Objective Marker may re-roll To Wound rolls of a natural 1 when making Strikes."
 			},
 			{
 				"name": "The Bullroarer",
@@ -48647,7 +48642,7 @@
 			},
 			{
 				"name": "The Bounders",
-				"definition": "Whilst wholly within their own deployment zone, friendly Hobbit models may re-roll To Hit rolls of a natural 1 when making shooting attacks."
+				"definition": "Whilst wholly within their own deployment zone, friendly **Hobbit** models may re-roll To Hit rolls of a natural 1 when making shooting attacks."
 			},
 			{
 				"name": "Know All Paths",
@@ -48655,15 +48650,15 @@
 			},
 			{
 				"name": "Kill Orc-folk",
-				"definition": "Friendly models may re-roll To Wound Rolls of a natural 1 when making Strikes against Orc, Goblin, or Uruk-hai models."
+				"definition": "Friendly models may re-roll To Wound Rolls of a natural 1 when making Strikes against **Orc**, **Goblin**, or **Uruk-hai** models."
 			},
 			{
 				"name": "Waypoints",
-				"definition": "At the start of the game, after both sides have been deployed, you may place up to three 25mm Waypoint Markers anywhere on the battlefield. Whilst within 6\" of a friendly Waypoint Marker, friendly Rohan models don't suffer penalties for Moving, or Charging, through Difficult Terrain."
+				"definition": "At the start of the game, after both sides have been deployed, you may place up to three 25mm Waypoint Markers anywhere on the battlefield. Whilst within 6\" of a friendly Waypoint Marker, friendly **Rohan** models don't suffer penalties for Moving, or Charging, through Difficult Terrain."
 			},
 			{
 				"name": "Long-standing Alliance",
-				"definition": "Friendly Dale models within 1\" of a friendly Erebor model may re-roll To Wound Rolls of a natural 1 when making Strikes. Friendly Erebor models within 1\" of a friendly Dale model may re-roll To Wound Rolls of a natural 1 when making Strikes."
+				"definition": "Friendly **Dale** models within 1\" of a friendly Erebor model may re-roll To Wound Rolls of a natural 1 when making Strikes. Friendly Erebor models within 1\" of a friendly **Dale** model may re-roll To Wound Rolls of a natural 1 when making Strikes."
 			},
 			{
 				"name": "A Bond Forged in War",
@@ -48683,7 +48678,7 @@
 			},
 			{
 				"name": "\"For Erebor!\"",
-				"definition": "Each friendly Hero model may, once per game, declare a Heroic Combat for free."
+				"definition": "Each friendly **Hero** model may, once per game, declare a Heroic Combat for free."
 			},
 			{
 				"name": "Like Father, Like Son",
@@ -48695,11 +48690,11 @@
 			},
 			{
 				"name": "\"Fear! Fire! Foes!\"",
-				"definition": "Friendly Hobbit models gain the Woodland Creature and Mountain Dweller special rules."
+				"definition": "friendly **Hobbit** models gain the Woodland Creature and Mountain Dweller special rules."
 			},
 			{
 				"name": "Heroes of the Shire",
-				"definition": "Friendly Hobbit Hero models may benefit from the Stand Fast of either Merry or Pippin."
+				"definition": "Friendly **Hobbit Hero** models may benefit from the Stand Fast of either Merry or Pippin."
 			},
 			{
 				"name": "The Scorpion's Sting",
@@ -48743,11 +48738,11 @@
 			},
 			{
 				"name": "Strength in Numbers",
-				"definition": "Whilst this Army is not Broken, friendly Ruffian models gain a +1 bonus to any Courage Tests they are required to take."
+				"definition": "Whilst this Army is not Broken, friendly **Ruffian** models gain a +1 bonus to any Courage Tests they are required to take."
 			},
 			{
 				"name": "The Wizard's Command",
-				"definition": "Friendly Ruffian models within 6\" of Sharkey may use his Courage instead of their own when taking Courage Tests."
+				"definition": "friendly **Ruffian** models within 6\" of Sharkey may use his Courage instead of their own when taking Courage Tests."
 			},
 			{
 				"name": "Sharkey's Wrath",
@@ -48775,7 +48770,7 @@
 			},
 			{
 				"name": "Leaders of the Fiefdoms",
-				"definition": "If a Friendly Hero Charges into Combat, then during the Fight Phase, friendly Infantry models within 6\" of the Hero that share both of the same Faction Keywords as the Hero gain an additional +1 bonus To Wound when making Strikes."
+				"definition": "If a Friendly **Hero** Charges into Combat, then during the Fight Phase, friendly **Infantry** models within 6\" of the Hero that share both of the same Faction Keywords as the Hero gain an additional +1 bonus To Wound when making Strikes."
 			},
 			{
 				"name": "Pride of the Southlands",
@@ -48783,7 +48778,7 @@
 			},
 			{
 				"name": "Skilled Bowmen",
-				"definition": "Friendly Dale models improve their Shoot Value to 3+"
+				"definition": "Friendly **Dale** models improve their Shoot Value to 3+"
 			},
 			{
 				"name": "Protect the King",
@@ -48799,11 +48794,11 @@
 			},
 			{
 				"name": "Fear no enemy",
-				"definition": "Eomer gains the Fearless special rule. Additionally, friendly Rohan models that can draw Line of Sight to Eomer automatically pass any Courage Tests they are required to take."
+				"definition": "Eomer gains the Fearless special rule. Additionally, friendly **Rohan** models that can draw Line of Sight to Eomer automatically pass any Courage Tests they are required to take."
 			},
 			{
 				"name": "Ride of Dol Amroth",
-				"definition": "Friendly Gondor models may re-roll To Wound Rolls of a natural 1 when making Strikes in a turn in which they Charge."
+				"definition": "Friendly **Gondor** models may re-roll To Wound Rolls of a natural 1 when making Strikes in a turn in which they Charge."
 			},
 			{
 				"name": "The Great Eye",
@@ -48815,11 +48810,11 @@
 			},
 			{
 				"name": "Passing of the Grey Company",
-				"definition": "Rangers of the North may benefit from the Stand Fast of any friendly Unique Hero model."
+				"definition": "Rangers of the North may benefit from the Stand Fast of any friendly **Unique Hero** model."
 			},
 			{
 				"name": "Great Resilience",
-				"definition": "Whenever a friendly Bear model suffers a Wound, roll a D6. On the roll of a natural 6, the Wound is ignored."
+				"definition": "Whenever a friendly **Bear** model suffers a Wound, roll a D6. On the roll of a natural 6, the Wound is ignored."
 			},
 			{
 				"name": "Natural Resistance",
@@ -48827,15 +48822,15 @@
 			},
 			{
 				"name": "Ursine Fury",
-				"definition": "At the beginning of each Move Phase, before the Declare Heroic Action step, you may roll a D6 for each friendly Bear model you have on the battlefield. If any of the D6 roll a natural 6, then for the duration of the turn enemy models suffer a -1 penalty to any Couratge Tests they are required to take as a result of trying to Charge a model with the Terror special rule."
+				"definition": "At the beginning of each Move Phase, before the Declare Heroic Action step, you may roll a D6 for each friendly **Bear** model you have on the battlefield. If any of the D6 roll a natural 6, then for the duration of the turn enemy models suffer a -1 penalty to any Couratge Tests they are required to take as a result of trying to Charge a model with the Terror special rule."
 			},
 			{
 				"name": "Dwarven Mirrors",
-				"definition": "At the start of the game, after both sides have deployed, you may deploy two 40mm Dwarven Mirror Markers anywhere on the battlefield that is not within the opposition deployment zone. The area within 6\" of a Dwarven Mirror Marker is always considered to be daylight. Enemy models targeting a friendly model within 6\" of a Dwarven Mirror Marker with a shooting attack suffers a -1 penalty to the To Hit Roll.\nAdditionally, Orc models, Goblin models, or models with the Cave Dweller special rule, suffer a -1 penalty to any Courage Tests they are required to take whilst they are within 6\" of a Dwarven Mirror Marker. If during the End Phase of a turn, an enemy model is in base contact with a Dwarven Mirror Marker, that model hasn't done anything during that turn except Move (i.e., has not made a shooting attack, cast a Magical Power, been Engaged in Combat), and that model was not affected by a Magical Power that turn, then it can remove the Dwarven Mirror Marker from play. Models cannot overlap a Dwarven Mirror Marker for any reason, though a War Beast or Chariot that Moves into base contact with one (via Trample or Chariot Charge respectively) will immediately remove it from play and may carry on as normal."
+				"definition": "At the start of the game, after both sides have deployed, you may deploy two 40mm Dwarven Mirror Markers anywhere on the battlefield that is not within the opposition deployment zone. The area within 6\" of a Dwarven Mirror Marker is always considered to be daylight. Enemy models targeting a friendly model within 6\" of a Dwarven Mirror Marker with a shooting attack suffers a -1 penalty to the To Hit Roll.\nAdditionally, **Orc** models, **Goblin** models, or models with the Cave Dweller special rule, suffer a -1 penalty to any Courage Tests they are required to take whilst they are within 6\" of a Dwarven Mirror Marker. If during the End Phase of a turn, an enemy model is in base contact with a Dwarven Mirror Marker, that model hasn't done anything during that turn except Move (i.e., has not made a shooting attack, cast a Magical Power, been Engaged in Combat), and that model was not affected by a Magical Power that turn, then it can remove the Dwarven Mirror Marker from play. Models cannot overlap a Dwarven Mirror Marker for any reason, though a War Beast or Chariot that Moves into base contact with one (via Trample or Chariot Charge respectively) will immediately remove it from play and may carry on as normal."
 			},
 			{
 				"name": "The Stubbornness of Dwarves",
-				"definition": "During a Duel Roll, before any re-rolls have been used, if the opposition player has rolled more dice (including for Supporting models), then a single friendly Khazad-dum model may re-roll a single D6 as part of the Duel Roll."
+				"definition": "During a Duel Roll, before any re-rolls have been used, if the opposition player has rolled more dice (including for Supporting models), then a single friendly **Khazad-dum** model may re-roll a single D6 as part of the Duel Roll."
 			},
 			{
 				"name": "Steadfast Warriors",
@@ -48931,11 +48926,11 @@
 			},
 			{
 				"name": "Shielded from Unfriendly Eyes",
-				"definition": "Friendly Hero models gain an Elven Cloak for free."
+				"definition": "Friendly **Hero** models gain an Elven Cloak for free."
 			},
 			{
 				"name": "\"Ride for ruin and the world's ending\"",
-				"definition": "Friendly Rohan Cavalry models gain a bonus of +1 to their Strength on a turn in which they Charge."
+				"definition": "Friendly **Rohan Cavalry** models gain a bonus of +1 to their Strength on a turn in which they Charge."
 			},
 			{
 				"name": "Home of the Horse Lords",
@@ -48983,23 +48978,23 @@
 			},
 			{
 				"name": "\"Forth Eorlingas!\" (Edoras)",
-				"definition": "Once per game, at the start of any Fight Phase, your General can use this special rule if they Charged in the preceding Move Phase. If they do, then until the end of the turn friendly Rohan models within 12\" of your General must re-roll all failed To Wound Rolls when making strikes."
+				"definition": "Once per game, at the start of any Fight Phase, your General can use this special rule if they Charged in the preceding Move Phase. If they do, then until the end of the turn friendly **Rohan** models within 12\" of your General must re-roll all failed To Wound Rolls when making strikes."
 			},
 			{
 				"name": "Protect the King (Edoras)",
-				"definition": "When a friendly Rohan Hero Charges, until the end of the turn friendly Rohan Warrior models within 6\" of them will automatically pass all Courage Tests they are required to take for Charging an enemy with the Terror special rule."
+				"definition": "When a friendly **Rohan Hero** Charges, until the end of the turn friendly **Rohan Warrior** models within 6\" of them will automatically pass all Courage Tests they are required to take for Charging an enemy with the Terror special rule."
 			},
 			{
 				"name": "Defend the Hornburg",
-				"definition": "Friendly Rohan Infantry gain the Dominant (2) special rule."
+				"definition": "Friendly **Rohan Infantry** gain the Dominant (2) special rule."
 			},
 			{
 				"name": "A Desperate Defence",
-				"definition": "Friendly Rohan Infantry Warrior models must re-roll To Wound Roll of a Natural 1 when making Strikes."
+				"definition": "Friendly **Rohan Infantry Warrior** models must re-roll To Wound Roll of a Natural 1 when making Strikes."
 			},
 			{
 				"name": "Frnezy of the King",
-				"definition": "At the start of the End Phase of a turn in which Helm Hammerhand kills an enemy Hero or Monster, enemy models within 3\" of Helm must take a Courage Test in an order chosen by Helm's controlling player. If the test if failed, the model must Move up to its Move Value directly away from Helm."
+				"definition": "At the start of the End Phase of a turn in which Helm Hammerhand kills an enemy **Hero** or **Monster**, enemy models within 3\" of Helm must take a Courage Test in an order chosen by Helm's controlling player. If the test if failed, the model must Move up to its Move Value directly away from Helm."
 			},
 			{
 				"name": "\"Do you think the eyes of the white tower are blind?\"",
@@ -49011,7 +49006,7 @@
 			},
 			{
 				"name": "Faramir's Charge",
-				"definition": "Whilst he has the Cavalry keyword, before Faramir Charges make a note of where he begins his Activation. Until the end of the turn, friendly Gondor Cavalry Warrior models within 6\" of where Faramir begins his Activation gain the Fearless special rule and, if they Charge, gain a bonus of +1 to their Fight Value."
+				"definition": "Whilst he has the Cavalry keyword, before Faramir Charges make a note of where he begins his Activation. Until the end of the turn, friendly **Gondor Cavalry Warrior** models within 6\" of where Faramir begins his Activation gain the Fearless special rule and, if they Charge, gain a bonus of +1 to their Fight Value."
 			},
 			{
 				"name": "Captured by Gondor",
@@ -49023,7 +49018,7 @@
 			},
 			{
 				"name": "Experienced Trackers",
-				"definition": "At the start of each game, you may choose either Woodland Creature or Mountain Dwellers. Friendly Gondor models gain the chosen special rule for the duration of the game."
+				"definition": "At the start of each game, you may choose either Woodland Creature or Mountain Dwellers. Friendly **Gondor** models gain the chosen special rule for the duration of the game."
 			},
 			{
 				"name": "\"I think at last we understand one another, Frodo Baggins\"",
@@ -49039,19 +49034,19 @@
 			},
 			{
 				"name": "\"For Gondor!\"",
-				"definition": "Once per game, at the start of any Fight Phase, Boromir can use this special rule so long as he is alive and on the battlefield. If he does, then friendly Gondor Warrior models within 6\" of Boromir gain a bonus of +1 To Wound when making Strikes until the end of the turn. This is treated as an Active ability belonging to Boromir."
+				"definition": "Once per game, at the start of any Fight Phase, Boromir can use this special rule so long as he is alive and on the battlefield. If he does, then friendly **Gondor Warrior* models within 6\" of Boromir gain a bonus of +1 To Wound when making Strikes until the end of the turn. This is treated as an Active ability belonging to Boromir."
 			},
 			{
 				"name": "\"Fight to the last Man\"",
-				"definition": "Friendly Gondor models within 12\" of Gandalf the White automatically pass any Courage Tests they have to take."
+				"definition": "Friendly **Gondor** models within 12\" of Gandalf the White automatically pass any Courage Tests they have to take."
 			},
 			{
 				"name": "\"Return to your posts\"",
-				"definition": "Friendly Gondor models within range of an Objective Marker may re-roll To Wound rolls of a natural 1 when making shooting attacks or making Strikes."
+				"definition": "Friendly **Gondor** models within range of an Objective Marker may re-roll To Wound rolls of a natural 1 when making shooting attacks or making Strikes."
 			},
 			{
 				"name": "\"Send these foul creatures into the abyss\"",
-				"definition": "Friendly Gondor models within 12\" of Gandalf the White gain the Hatred (Mordor) special rule."
+				"definition": "Friendly **Gondor** models within 12\" of Gandalf the White gain the Hatred (Mordor) special rule."
 			},
 			{
 				"name": "The Heir of Isildur",
@@ -49083,7 +49078,7 @@
 			},
 			{
 				"name": "The Final Stand",
-				"definition": "Friendly Infantry models within 3\" of a friendly Hero model gain the Dominant (2) special rule."
+				"definition": "Friendly Infantry models within 3\" of a friendly **Hero** model gain the Dominant (2) special rule."
 			},
 			{
 				"name": "Blood of Numenor",
@@ -49207,7 +49202,7 @@
 			},
 			{
 				"name": "Bring the City to its Knees",
-				"definition": "Friendly Hero models may re-roll To Wound Rolls of a natural 1 when making Strikes against an enemy Hero model."
+				"definition": "Friendly **Hero** models may re-roll To Wound Rolls of a natural 1 when making Strikes against an enemy Hero model."
 			},
 			{
 				"name": "The Dead City",
@@ -49511,7 +49506,7 @@
 			},
 			{
 				"name": "\"Death!\"",
-				"definition": "Once per game, at the start of any Fight Phase, Theoden can use this special rule so long as he is alive and on the battlefield. If he does, then each friendly Rohan Hero within 12\" of Theoden can declare a free Heroic Combat or a free Heroic Strike (if able) during the declare Heroic Actions Step. This is treated as an Active ability belonging to Theoden."
+				"definition": "Once per game, at the start of any Fight Phase, Theoden can use this special rule so long as he is alive and on the battlefield. If he does, then each friendly **Rohan Hero** within 12\" of Theoden can declare a free Heroic Combat or a free Heroic Strike (if able) during the declare Heroic Actions Step. This is treated as an Active ability belonging to Theoden."
 			},
 			{
 				"name": "\"Forth Eorlingas!\"",
@@ -49575,31 +49570,31 @@
 			},
 			{
 				"name": "\"Girion, lord of the city, rallied his bowmen to fire upon the beast\"",
-				"definition": "Friendly Dale models improve their Shoot Value to 3+."
+				"definition": "Friendly **Dale** models improve their Shoot Value to 3+."
 			},
 			{
 				"name": "Bring down the Dragon",
-				"definition": "Friendly Dale models may apply their Hatred (Dragon) special rule to their shooting attacks. Additionally, friendly Dale models may re-roll failed To Hit Rolls when making a shooting attack targeting a Monster model."
+				"definition": "Friendly **Dale** models may apply their Hatred (Dragon) special rule to their shooting attacks. Additionally, friendly **Dale** models may re-roll failed To Hit Rolls when making a shooting attack targeting a Monster model."
 			},
 			{
 				"name": "Girion's Last Stand",
-				"definition": "Girion gains the Fearless special rule. Additionally, friendly Dale models that can draw Line of Sight to Girion gain a bonus of +1 to any Courage Tests they are required to take."
+				"definition": "Girion gains the Fearless special rule. Additionally, friendly **Dale** models that can draw Line of Sight to Girion gain a bonus of +1 to any Courage Tests they are required to take."
 			},
 			{
 				"name": "Defenders of Dale",
-				"definition": "Friendly Dale models that are within their deployment zone, and/or within 6\" of a friendly Windlance, gain a bonus of +1 To Wound when making strikes."
+				"definition": "Friendly **Dale** models that are within their deployment zone, and/or within 6\" of a friendly Windlance, gain a bonus of +1 To Wound when making strikes."
 			},
 			{
 				"name": "Alliance of Men and Dwarves",
-				"definition": "Friendly Dale models may re-roll To Wound Rolls of a natural 1 when making Strikes if there is a friendly Erebor model Engaged in the same Combat. Friendly Erebor models may re-roll To Wound Rolls of a natural 1 when making Strikes if there is a friendly Dale model Engaged in the same Combat."
+				"definition": "Friendly **Dale** models may re-roll To Wound Rolls of a natural 1 when making Strikes if there is a friendly Erebor model Engaged in the same Combat. Friendly Erebor models may re-roll To Wound Rolls of a natural 1 when making Strikes if there is a friendly **Dale** model Engaged in the same Combat."
 			},
 			{
 				"name": "Lords of the Kingdoms",
-				"definition": "Friendly Dale models treat Girion as a banner. Friendly Erebor models treat Thror as a banner."
+				"definition": "Friendly **Dale** models treat Girion as a banner. Friendly **Erebor** models treat Thror as a banner."
 			},
 			{
 				"name": "Great Prosperity",
-				"definition": "Whenever a friendly Hero model spends a Might Point, roll a D6. On a natural 6, the Might Point was free and does not reduce the Hero model's store of Might."
+				"definition": "Whenever a friendly **Hero** model spends a Might Point, roll a D6. On a natural 6, the Might Point was free and does not reduce the Hero model's store of Might."
 			},
 			{
 				"name": "\"The Eagles are Coming!\"",
@@ -49659,11 +49654,11 @@
 			},
 			{
 				"name": "Defend the King",
-				"definition": "Whilst within 6\" of Arvedui, friendly Arnor models automatically pass any Courage Tests they are required to take."
+				"definition": "Whilst within 6\" of Arvedui, friendly **Arnor** models automatically pass any Courage Tests they are required to take."
 			},
 			{
 				"name": "Power of the Seer",
-				"definition": "Friendly Arnor Hero models receive a bonus of +1 when rolling for Malbeth’s Gift of Foresight special rule."
+				"definition": "Friendly **Arnor Hero** models receive a bonus of +1 when rolling for Malbeth’s Gift of Foresight special rule."
 			},
 			{
 				"name": "Seeing Stones",
@@ -49671,7 +49666,7 @@
 			},
 			{
 				"name": "The Charge of Gondor",
-				"definition": "Friendly Gondor Cavalry models gain a bonus of +1 to their Fight Value on a turn in which they Charge."
+				"definition": "Friendly **Gondor Cavalry** models gain a bonus of +1 to their Fight Value on a turn in which they Charge."
 			},
 			{
 				"name": "Power of the Elves",
@@ -49755,7 +49750,7 @@
 			},
 			{
 				"name": "Frenzy of the King",
-				"definition": "At the start of the End Phase of a turn in which Helm Hammerhand kills an enemy Hero or Monster, enemy models within 3\" of Helm must take a Courage Test in an order chosen by Helm's controlling player. If the test is failed, the model must Move up to its Move Value directly away from Helm."
+				"definition": "At the start of the End Phase of a turn in which Helm Hammerhand kills an enemy **Hero** or **Monster**, enemy models within 3\" of Helm must take a Courage Test in an order chosen by Helm's controlling player. If the test is failed, the model must Move up to its Move Value directly away from Helm."
 			}
 		]
 	},
@@ -53967,11 +53962,12 @@
 							"description": "This model may re-roll any failed To Wound rolls when making Strikes."
 						}
 					],
+					"recruitsAreHeroesInTheMaking": true,
 					"specialRules": [
 						"Tookish Hunter & Battlin' Brandybuck are upgrades to the Hobbit Archer & Hobbit Militia respectively (Armies of Middle-Earth).",
 						"All newly recruited models automatically promote to Heroes in the Making and therefore will add 1 Might, Will, and Fate to their profile.",
 						"The Hobbit reinforcement result is any Hobbit profile from the Starting Battle Company that was lost.",
-						"While a friendly Hobbit model is alive and on the battlefield, all friendly Men, Elf, and Dwarf models are considered Fearless.",
+						"While a friendly **Hobbit** model is alive and on the battlefield, all friendly Men, Elf, and Dwarf models are considered Fearless.",
 						"All members of the Battle Company gain the Woodland Creature special rule for no additional cost."
 					],
 					"alignment": "good"
