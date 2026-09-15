@@ -40,6 +40,43 @@
 		"units"
 	],
 	"limits": [],
+	"gameModes": [
+		{
+			"id": "standard",
+			"label": "Standard",
+			"tierRequirements": "standard"
+		}
+	],
+	"tierRequirementSets": {
+		"standard": {
+			"elements": {
+				"units": {
+					"tiers": [
+						{
+							"tier": 1,
+							"minimum": 0,
+							"maximum": 0
+						},
+						{
+							"tier": 2,
+							"minimum": 0,
+							"maximum": 0
+						},
+						{
+							"tier": 3,
+							"minimum": 0,
+							"maximum": 0
+						},
+						{
+							"tier": 4,
+							"minimum": 0,
+							"maximum": 0
+						}
+					]
+				}
+			}
+		}
+	},
 	"counts": [],
 	"calculations": [],
 	"additionalPrint": [],
@@ -98,6 +135,12 @@
 							"propertyName": "upgrades",
 							"type": "checkbox",
 							"dataSource": "abilities",
+							"usesCategories": true
+						},
+						{
+							"propertyName": "weaponUpgrades",
+							"type": "checkbox",
+							"dataSource": "weapons",
 							"usesCategories": true,
 							"stats": [
 								{
@@ -194,6 +237,15 @@
 							"children": []
 						}
 					]
+				},
+				{
+					"propertyName": "tacticalCards",
+					"dataSource": "tacticalCards",
+					"label": "Tactical Card",
+					"type": "main",
+					"prettyViewStyle": "pills",
+					"excludeFromModelCount": true,
+					"excludeFromFactionPreview": true
 				}
 			]
 		}
@@ -201,16 +253,24 @@
 	"data": {
 		"roles": [
 			{
-				"name": "Hero"
+				"name": "Hero",
+				"rank": 1,
+				"id": 1
 			},
 			{
-				"name": "Elite"
+				"name": "Elite",
+				"rank": 2,
+				"id": 2
 			},
 			{
-				"name": "Core"
+				"name": "Core",
+				"rank": 3,
+				"id": 3
 			},
 			{
-				"name": "Support"
+				"name": "Support",
+				"rank": 4,
+				"id": 4
 			}
 		],
 		"factions": [
@@ -221,7 +281,37 @@
 				"name": "Terran Armed Forces"
 			},
 			{
-				"name": "Kerrigan's Swarm"
+				"name": "Kerrigan's Swarm",
+				"tierRequirements": {
+					"standard": {
+						"elements": {
+							"units": {
+								"tiers": [
+									{
+										"tier": 1,
+										"minimum": 0,
+										"maximum": 1
+									},
+									{
+										"tier": 2,
+										"minimum": 0,
+										"maximum": 2
+									},
+									{
+										"tier": 3,
+										"minimum": 0,
+										"maximum": 3
+									},
+									{
+										"tier": 4,
+										"minimum": 0,
+										"maximum": 0
+									}
+								]
+							}
+						}
+					}
+				}
 			},
 			{
 				"name": "Zerg Swarm"
@@ -231,6 +321,78 @@
 			},
 			{
 				"name": "Daelaam"
+			}
+		],
+		"tacticalCards": [
+			{
+				"name": "Academy",
+				"unique": true,
+				"definition": "Allows 2 Support units.",
+				"factions": [
+					{
+						"name": "Raynor's Raiders"
+					},
+					{
+						"name": "Terran Armed Forces"
+					},
+					{
+						"name": "Kerrigan's Swarm"
+					},
+					{
+						"name": "Zerg Swarm"
+					},
+					{
+						"name": "Khalai"
+					},
+					{
+						"name": "Daelaam"
+					}
+				],
+				"addsTierRequirements": {
+					"units": {
+						"tiers": [
+							{
+								"tier": 4,
+								"maximum": 2
+							}
+						]
+					}
+				}
+			},
+			{
+				"name": "Barracks",
+				"unique": true,
+				"definition": "Allows 1 additional Core unit.",
+				"factions": [
+					{
+						"name": "Raynor's Raiders"
+					},
+					{
+						"name": "Terran Armed Forces"
+					},
+					{
+						"name": "Kerrigan's Swarm"
+					},
+					{
+						"name": "Zerg Swarm"
+					},
+					{
+						"name": "Khalai"
+					},
+					{
+						"name": "Daelaam"
+					}
+				],
+				"addsTierRequirements": {
+					"units": {
+						"tiers": [
+							{
+								"tier": 3,
+								"maximum": 1
+							}
+						]
+					}
+				}
 			}
 		],
 		"units": [
@@ -637,7 +799,9 @@
 						"name": "Adrenal Glands",
 						"category": "combat",
 						"points": 30
-					},
+					}
+				],
+				"weaponUpgrades": [
 					{
 						"name": "Shredding Claws",
 						"category": "combat",
@@ -890,14 +1054,16 @@
 						"points": 20
 					},
 					{
-						"name": "Shredding Claws",
-						"category": "combat",
-						"points": 20
-					},
-					{
 						"name": "Adrenal Glands",
 						"category": "combat",
 						"points": 30
+					}
+				],
+				"weaponUpgrades": [
+					{
+						"name": "Shredding Claws",
+						"category": "combat",
+						"points": 20
 					}
 				]
 			}
@@ -1002,6 +1168,18 @@
 				"parents": [
 					"Kerrigan Swarm Raptor (Zergling)"
 				]
+			},
+			{
+				"name": "Shredding Claws",
+				"range": "E",
+				"category": "combat",
+				"target": "Ground",
+				"roa": 2,
+				"hit": 4,
+				"surge": "Light, Armoured",
+				"sdie": "D3",
+				"damage": 1,
+				"keywords": []
 			}
 		],
 		"abilities": [
@@ -1297,16 +1475,10 @@
 				"definition": "Use when an Enemy Unit Within 8\" declares a Ranged Attack. Apply DEBUFF Hit (1) to each ranged weapon of that Unit."
 			},
 			{
-				"name": "Shredding Claws",
-				"range": "E",
+				"name": "Adrenal Glands",
 				"category": "combat",
-				"target": "Ground",
-				"roa": 2,
-				"hit": 4,
-				"surge": "Light, Armoured",
-				"sdie": "D3",
-				"damage": 1,
-				"keywords": []
+				"tag": "Passive",
+				"definition": "This Unit's Claws and Shredding Claws weapons gain PRECISION (2)."
 			}
 		]
 	}
