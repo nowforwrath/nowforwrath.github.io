@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.08.21.13"
+    "contentVersion": "2026.08.21.14"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -16171,7 +16171,11 @@
         "speed": 2,
         "ttsName": "Obi-Wan Kenobi Civilized Warrior",
         "unavailableWith": [
-          "Obi-Wan Kenobi"
+          "Obi-Wan Kenobi",
+          {
+            "id": "36283",
+            "propertyName": "units"
+          }
         ]
       },
       {
@@ -16279,7 +16283,13 @@
         "unitType": 3,
         "health": 5,
         "courage": 3,
-        "speed": 2
+        "speed": 2,
+        "tierCounting": {
+          "exempt": {
+            "whenArmyIncludes": "36283",
+            "perSourceUnit": 1
+          }
+        }
       },
       {
         "name": "General Grievous",
@@ -16782,7 +16792,7 @@
         ],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/64.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/64.webp?version=8",
-        "keywords": [96, 26, 41, 37, 8, 1],
+        "keywords": [211, 26, 41, 37, 8, 1],
         "figures": 1,
         "id": "64",
         "unlimited": true,
@@ -17428,7 +17438,7 @@
         ],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/1809.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/1809.webp?version=8",
-        "keywords": [96, 2, 23, 133, 145, 25],
+        "keywords": [211, 2, 23, 133, 145, 25],
         "figures": 3,
         "id": "1809",
         "unlimited": true,
@@ -18837,7 +18847,7 @@
         "upgradeTypes": [4, 10, 3],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/19077.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/19077.webp?version=8",
-        "keywords": [96, 2, 133, 150, 25],
+        "keywords": [211, 2, 133, 150, 25],
         "figures": 4,
         "id": "19077",
         "unlimited": true,
@@ -20748,14 +20758,14 @@
       {
         "name": "Anakin Skywalker",
         "title": "Mounted Jedi General",
-        "points": 0,
+        "points": 110,
         "factions": [
           {
             "id": 4,
             "rank": 6
           }
         ],
-        "upgradeTypes": [],
+        "upgradeTypes": [5, 5, 10, 10, 6],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33769.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33769.webp?version=8",
         "keywords": [54, 134, 4, 52, 58],
@@ -21052,7 +21062,7 @@
       {
         "name": "Jedi Knight",
         "title": "Mounted Jedi General",
-        "points": 0,
+        "points": 110,
         "factions": [
           {
             "id": 4,
@@ -21918,6 +21928,39 @@
             "id": 23148,
             "elementPropertyName": "upgrades",
             "upgradeIndex": 2
+          }
+        ]
+      },
+      {
+        "name": "Obi-Wan Kenobi",
+        "title": "Mounted Jedi General",
+        "points": 140,
+        "factions": [
+          {
+            "id": 4,
+            "rank": 1
+          }
+        ],
+        "upgradeTypes": [5, 5, 9, 10, 6],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/36283.webp?version=8",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/36283.webp?version=8",
+        "keywords": [161, 217, 54, 162, 4, 28, 58, 178, 202, 206, 207, 184, 181],
+        "figures": 1,
+        "id": "36283",
+        "unlimited": false,
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/units-new/portraits/36283.webp",
+        "quantityLimitedBy": [],
+        "faction": 4,
+        "unitType": 2,
+        "health": 6,
+        "courage": 0,
+        "speed": 3,
+        "ttsName": "Obi-Wan Kenobi Mounted Jedi General",
+        "unavailableWith": [
+          "Obi-Wan Kenobi",
+          {
+            "id": "41",
+            "propertyName": "units"
           }
         ]
       }
