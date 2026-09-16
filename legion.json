@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.08.21.14"
+    "contentVersion": "2026.08.21.15"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -22573,16 +22573,6 @@
         ]
       },
       {
-        "id": 38,
-        "name": "Pinned Down",
-        "pips": 2,
-        "faction": 2,
-        "factions": [2, 10, 19, 17, 7],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/38.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/38.webp?version=7",
-        "keywords": null
-      },
-      {
         "id": 1963,
         "name": "Victory or Death!",
         "pips": 3,
@@ -23075,6 +23065,16 @@
         "keywords": null
       },
       {
+        "id": 8112,
+        "name": "Drive Them Out",
+        "pips": 1,
+        "faction": null,
+        "factions": [19],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/8112.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/8112.webp?version=7",
+        "keywords": [115]
+      },
+      {
         "id": 2376,
         "name": "Making His Way in the Galaxy",
         "pips": 2,
@@ -23093,16 +23093,6 @@
             "propertyName": "units"
           }
         ]
-      },
-      {
-        "id": 8112,
-        "name": "Drive Them Out",
-        "pips": 1,
-        "faction": null,
-        "factions": [19],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/8112.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/8112.webp?version=7",
-        "keywords": [115]
       },
       {
         "id": 22,
@@ -23161,22 +23151,6 @@
         ]
       },
       {
-        "id": 16619,
-        "name": "I Rebel",
-        "pips": 1,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16619.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16619.webp?version=7",
-        "keywords": [2],
-        "unlockedBy": [
-          {
-            "id": 29928,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 16620,
         "name": "Rebellions Are Built on Hope",
         "pips": 3,
@@ -23185,6 +23159,22 @@
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16620.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16620.webp?version=7",
         "keywords": [13, 40],
+        "unlockedBy": [
+          {
+            "id": 29928,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 16619,
+        "name": "I Rebel",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16619.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16619.webp?version=7",
+        "keywords": [2],
         "unlockedBy": [
           {
             "id": 29928,
@@ -23389,6 +23379,88 @@
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/8114.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/8114.webp?version=7",
         "keywords": null
+      },
+      {
+        "id": 38,
+        "name": "Pinned Down",
+        "pips": 2,
+        "faction": 2,
+        "factions": [2, 10, 19, 17, 7],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/38.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/38.webp?version=7",
+        "keywords": null
+      },
+      {
+        "id": 74,
+        "name": "Pulse Scan",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/74.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/74.webp?version=7",
+        "keywords": [8],
+        "unlockedBy": [
+          {
+            "id": 58,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 20052,
+        "name": "Into the Breach",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/20052.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/20052.webp?version=7",
+        "keywords": [178, 202, 207],
+        "unlockedBy": [
+          {
+            "id": 36283,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 20053,
+        "name": "Evasive Action",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/20053.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/20053.webp?version=7",
+        "keywords": [92, 7],
+        "unlockedBy": [
+          {
+            "id": 3377,
+            "propertyName": "units"
+          },
+          {
+            "id": 36283,
+            "propertyName": "units"
+          },
+          {
+            "id": 33769,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 20054,
+        "name": "I'm Sorry Master, I Didn't Catch That",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/20054.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/20054.webp?version=7",
+        "keywords": [10],
+        "unlockedBy": [
+          {
+            "id": 33769,
+            "propertyName": "units"
+          }
+        ]
       },
       {
         "id": 6508,
@@ -23767,6 +23839,22 @@
         ]
       },
       {
+        "id": 18902,
+        "name": "Moment of Triumph",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18902.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18902.webp?version=7",
+        "keywords": [191, 23, 74],
+        "unlockedBy": [
+          {
+            "id": 32589,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
         "id": 18900,
         "name": "I Have Graphs AND the Command",
         "pips": 1,
@@ -23834,22 +23922,6 @@
         "unlockedBy": [
           {
             "id": 32594,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 18902,
-        "name": "Moment of Triumph",
-        "pips": 1,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18902.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18902.webp?version=7",
-        "keywords": [191, 23, 74],
-        "unlockedBy": [
-          {
-            "id": 32589,
             "propertyName": "units"
           }
         ]
@@ -24195,6 +24267,22 @@
         ]
       },
       {
+        "id": 19514,
+        "name": "No One Threatens Our Family",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19514.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19514.webp?version=7",
+        "keywords": [23],
+        "unlockedBy": [
+          {
+            "id": 34889,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
         "id": 19513,
         "name": "Make the Impossible Possible",
         "pips": 2,
@@ -24269,22 +24357,6 @@
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19517.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19517.webp?version=7",
         "keywords": [6]
-      },
-      {
-        "id": 19514,
-        "name": "No One Threatens Our Family",
-        "pips": 1,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19514.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19514.webp?version=7",
-        "keywords": [23],
-        "unlockedBy": [
-          {
-            "id": 34889,
-            "propertyName": "units"
-          }
-        ]
       },
       {
         "id": 19530,
@@ -24462,22 +24534,6 @@
           },
           {
             "id": 34881,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 4120,
-        "name": "Moment of Consideration",
-        "pips": 3,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/4120.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/4120.webp?version=7",
-        "keywords": null,
-        "unlockedBy": [
-          {
-            "id": 11258,
             "propertyName": "units"
           }
         ]
@@ -24715,6 +24771,22 @@
         ]
       },
       {
+        "id": 4120,
+        "name": "Moment of Consideration",
+        "pips": 3,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/4120.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/4120.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 11258,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
         "id": 29,
         "name": "Z-6 Jetpack Rocket",
         "pips": 3,
@@ -24734,22 +24806,6 @@
           },
           {
             "id": 6176,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 74,
-        "name": "Pulse Scan",
-        "pips": 1,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/74.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/74.webp?version=7",
-        "keywords": [8],
-        "unlockedBy": [
-          {
-            "id": 58,
             "propertyName": "units"
           }
         ]
@@ -24790,26 +24846,6 @@
           },
           {
             "id": 56,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 1,
-        "name": "New Ways to Motivate Them",
-        "pips": 2,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1.webp?version=7",
-        "keywords": null,
-        "unlockedBy": [
-          {
-            "id": 3,
-            "propertyName": "units"
-          },
-          {
-            "id": 47,
             "propertyName": "units"
           }
         ]
@@ -24947,6 +24983,26 @@
         ]
       },
       {
+        "id": 1,
+        "name": "New Ways to Motivate Them",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 3,
+            "propertyName": "units"
+          },
+          {
+            "id": 47,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
         "id": 24,
         "name": "And Now You Will Die",
         "pips": 1,
@@ -25034,30 +25090,6 @@
           },
           {
             "id": 6176,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 785,
-        "name": "Preservation Protocols",
-        "pips": 2,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/785.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/785.webp?version=7",
-        "keywords": [27, 26],
-        "unlockedBy": [
-          {
-            "id": 1852,
-            "propertyName": "units"
-          },
-          {
-            "id": 1853,
-            "propertyName": "units"
-          },
-          {
-            "id": 1854,
             "propertyName": "units"
           }
         ]
@@ -25194,6 +25226,30 @@
         "unlockedBy": [
           {
             "id": 764,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 785,
+        "name": "Preservation Protocols",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/785.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/785.webp?version=7",
+        "keywords": [27, 26],
+        "unlockedBy": [
+          {
+            "id": 1852,
+            "propertyName": "units"
+          },
+          {
+            "id": 1853,
+            "propertyName": "units"
+          },
+          {
+            "id": 1854,
             "propertyName": "units"
           }
         ]
@@ -25357,6 +25413,22 @@
         ]
       },
       {
+        "id": 76,
+        "name": "Our Fate is in Your Hands",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/76.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/76.webp?version=7",
+        "keywords": [13],
+        "unlockedBy": [
+          {
+            "id": 60,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
         "id": 9,
         "name": "Assault",
         "pips": 3,
@@ -25378,22 +25450,6 @@
         "unlockedBy": [
           {
             "id": 46,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 76,
-        "name": "Our Fate is in Your Hands",
-        "pips": 1,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/76.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/76.webp?version=7",
-        "keywords": [13],
-        "unlockedBy": [
-          {
-            "id": 60,
             "propertyName": "units"
           }
         ]
@@ -25423,16 +25479,6 @@
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6349.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6349.webp?version=7",
         "keywords": [202, 207]
-      },
-      {
-        "id": 1901,
-        "name": "Ploy",
-        "pips": 1,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1901.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1901.webp?version=7",
-        "keywords": null
       },
       {
         "id": 78,
@@ -25469,6 +25515,16 @@
             "propertyName": "units"
           }
         ]
+      },
+      {
+        "id": 1901,
+        "name": "Ploy",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1901.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1901.webp?version=7",
+        "keywords": null
       },
       {
         "id": 36,
@@ -25537,22 +25593,6 @@
         ]
       },
       {
-        "id": 88,
-        "name": "This Is Where the Fun Begins",
-        "pips": 1,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/88.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/88.webp?version=7",
-        "keywords": [1, 191, 141],
-        "unlockedBy": [
-          {
-            "id": 73,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 4,
         "name": "Master of Evil",
         "pips": 3,
@@ -25581,6 +25621,22 @@
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/96.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/96.webp?version=7",
         "keywords": null
+      },
+      {
+        "id": 88,
+        "name": "This Is Where the Fun Begins",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/88.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/88.webp?version=7",
+        "keywords": [1, 191, 141],
+        "unlockedBy": [
+          {
+            "id": 73,
+            "propertyName": "units"
+          }
+        ]
       },
       {
         "id": 84,
@@ -25711,30 +25767,6 @@
         ]
       },
       {
-        "id": 6,
-        "name": "My Ally Is the Force",
-        "pips": 2,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6.webp?version=7",
-        "keywords": null,
-        "unlockedBy": [
-          {
-            "id": 4,
-            "propertyName": "units"
-          },
-          {
-            "id": 46,
-            "propertyName": "units"
-          },
-          {
-            "id": 32593,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 11,
         "name": "Son of Skywalker",
         "pips": 1,
@@ -25789,6 +25821,30 @@
         "keywords": null
       },
       {
+        "id": 6,
+        "name": "My Ally Is the Force",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/6.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/6.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 4,
+            "propertyName": "units"
+          },
+          {
+            "id": 46,
+            "propertyName": "units"
+          },
+          {
+            "id": 32593,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
         "id": 83,
         "name": "Incapacitate",
         "pips": 2,
@@ -25831,26 +25887,6 @@
         ]
       },
       {
-        "id": 2276,
-        "name": "Overwhelming Barrage",
-        "pips": 2,
-        "faction": 2,
-        "factions": [17],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2276.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2276.webp?version=7",
-        "keywords": [176, 177, 178, 201, 187]
-      },
-      {
-        "id": 26,
-        "name": "Sabotaged Communications",
-        "pips": 1,
-        "faction": 1,
-        "factions": [1, 13, 18],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/26.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/26.webp?version=7",
-        "keywords": null
-      },
-      {
         "id": 46,
         "name": "Merciless Munitions",
         "pips": 1,
@@ -25869,6 +25905,26 @@
             "propertyName": "units"
           }
         ]
+      },
+      {
+        "id": 2276,
+        "name": "Overwhelming Barrage",
+        "pips": 2,
+        "faction": 2,
+        "factions": [17],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2276.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2276.webp?version=7",
+        "keywords": [176, 177, 178, 201, 187]
+      },
+      {
+        "id": 26,
+        "name": "Sabotaged Communications",
+        "pips": 1,
+        "faction": 1,
+        "factions": [1, 13, 18],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/26.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/26.webp?version=7",
+        "keywords": null
       },
       {
         "id": 52,
