@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.08.21.18"
+    "contentVersion": "2026.08.21.19"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -21945,6 +21945,10 @@
           {
             "id": 4,
             "rank": 1
+          },
+          {
+            "id": 12,
+            "rank": 1
           }
         ],
         "upgradeTypes": [5, 5, 9, 10, 6],
@@ -23273,22 +23277,6 @@
         "keywords": null
       },
       {
-        "id": 54,
-        "name": "Knowledge and Defense",
-        "pips": 2,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/54.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/54.webp?version=7",
-        "keywords": null,
-        "unlockedBy": [
-          {
-            "id": 41,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 20008,
         "name": "Wookiee Life Debt",
         "pips": 2,
@@ -23480,6 +23468,26 @@
         "unlockedBy": [
           {
             "id": 50,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 54,
+        "name": "Knowledge and Defense",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/54.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/54.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 41,
+            "propertyName": "units"
+          },
+          {
+            "id": 36283,
             "propertyName": "units"
           }
         ]
@@ -24525,6 +24533,10 @@
           {
             "id": 41,
             "propertyName": "units"
+          },
+          {
+            "id": 36283,
+            "propertyName": "units"
           }
         ]
       },
@@ -25366,6 +25378,10 @@
         "unlockedBy": [
           {
             "id": 41,
+            "propertyName": "units"
+          },
+          {
+            "id": 36283,
             "propertyName": "units"
           }
         ]
