@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.08.21.19"
+    "contentVersion": "2026.08.21.20"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -23263,6 +23263,10 @@
           {
             "id": 73,
             "propertyName": "units"
+          },
+          {
+            "id": 33769,
+            "propertyName": "units"
           }
         ]
       },
@@ -25439,6 +25443,10 @@
           {
             "id": 73,
             "propertyName": "units"
+          },
+          {
+            "id": 33769,
+            "propertyName": "units"
           }
         ]
       },
@@ -25623,22 +25631,6 @@
         ]
       },
       {
-        "id": 88,
-        "name": "This Is Where the Fun Begins",
-        "pips": 1,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/88.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/88.webp?version=7",
-        "keywords": [1, 191, 141],
-        "unlockedBy": [
-          {
-            "id": 73,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 4,
         "name": "Master of Evil",
         "pips": 3,
@@ -25654,6 +25646,26 @@
           },
           {
             "id": 47,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 88,
+        "name": "This Is Where the Fun Begins",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/88.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/88.webp?version=7",
+        "keywords": [1, 191, 141],
+        "unlockedBy": [
+          {
+            "id": 73,
+            "propertyName": "units"
+          },
+          {
+            "id": 33769,
             "propertyName": "units"
           }
         ]
