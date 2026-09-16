@@ -42,8 +42,15 @@
 	"limits": [],
 	"gameModes": [
 		{
+			"id": "skirmish",
+			"label": "Skirmish",
+			"points": 1000,
+			"tierRequirements": "standard"
+		},
+		{
 			"id": "standard",
 			"label": "Standard",
+			"points": 2000,
 			"tierRequirements": "standard"
 		}
 	],
@@ -78,7 +85,16 @@
 		}
 	},
 	"counts": [],
-	"calculations": [],
+	"calculations": [
+		{
+			"label": "Vespine Gas",
+			"properties": [
+				"gas"
+			],
+			"limitFrom": "maxPoints",
+			"limitPercentage": 10
+		}
+	],
 	"additionalPrint": [],
 	"categories": [
 		{
@@ -245,7 +261,13 @@
 					"type": "main",
 					"prettyViewStyle": "pills",
 					"excludeFromModelCount": true,
-					"excludeFromFactionPreview": true
+					"excludeFromFactionPreview": true,
+					"badges": [
+						{
+							"propertyName": "gas",
+							"label": "Gas"
+						}
+					]
 				}
 			]
 		}
@@ -357,7 +379,8 @@
 							}
 						]
 					}
-				}
+				},
+				"gas": 35
 			},
 			{
 				"name": "Barracks",
@@ -392,7 +415,8 @@
 							}
 						]
 					}
-				}
+				},
+				"gas": 25
 			}
 		],
 		"units": [
