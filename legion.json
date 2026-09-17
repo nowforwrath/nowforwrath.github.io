@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.08.21.20"
+    "contentVersion": "2026.09.17.0"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -10111,7 +10111,7 @@
         "name": "Nose-Mounted Ion Blaster",
         "points": 30,
         "type": 8,
-        "keywords": [190, 181, 203, 202],
+        "keywords": [178, 181, 202, 203],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/949.webp?version=3",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/949.webp?version=3",
         "limit": null,
