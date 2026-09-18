@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.09.18.0"
+    "contentVersion": "2026.09.18.1"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -8076,6 +8076,32 @@
             "modifier": -5,
             "in": 33797
           }
+        ],
+        "requiredProperties": [
+          [
+            {
+              "property": "affiliation",
+              "value": 1084
+            }
+          ],
+          [
+            {
+              "property": "affiliation",
+              "value": 1083
+            }
+          ],
+          [
+            {
+              "property": "affiliation",
+              "value": 1082
+            }
+          ],
+          [
+            {
+              "property": "affiliation",
+              "value": 1081
+            }
+          ]
         ]
       },
       {
