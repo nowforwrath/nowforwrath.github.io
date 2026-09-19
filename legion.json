@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.09.18.1"
+    "contentVersion": "2026.09.19.0"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -15967,9 +15967,9 @@
             "id": "34887",
             "propertyName": "units"
           },
-          "Children of the Watch",
-          "Clan Saxon",
-          "Clan Kryze"
+          "childrenOfTheWatch",
+          "clanSaxon",
+          "clanKryze"
         ]
       },
       {
@@ -18005,9 +18005,9 @@
             "id": "34888",
             "propertyName": "units"
           },
-          "Children of the Watch",
-          "Clan Wren",
-          "Clan Kryze"
+          "childrenOfTheWatch",
+          "clanWren",
+          "clanKryze"
         ],
         "affiliation": "5"
       },
@@ -20867,9 +20867,9 @@
         "ttsName": "Axe Woves Cunning Warrior",
         "unavailableWith": [
           "Axe Woves",
-          "Children of the Watch",
-          "Clan Wren",
-          "Clan Saxon"
+          "childrenOfTheWatch",
+          "clanWren",
+          "clanSaxon"
         ],
         "affiliation": "1081"
       },
@@ -20920,9 +20920,9 @@
         "ttsName": "Bo-Katan Kryze Savior of Mandalore",
         "unavailableWith": [
           "Bo-Katan Kryze",
-          "Children of the Watch",
-          "Clan Wren",
-          "Clan Saxon"
+          "childrenOfTheWatch",
+          "clanWren",
+          "clanSaxon"
         ],
         "affiliation": "1081"
       },
@@ -21527,9 +21527,9 @@
         "ttsName": "The Armorer Forging the Future",
         "unavailableWith": [
           "The Armorer",
-          "Clan Wren",
-          "Clan Kryze",
-          "Clan Saxon"
+          "clanWren",
+          "clanKryze",
+          "clanSaxon"
         ],
         "affiliation": "965"
       },
@@ -21716,9 +21716,9 @@
             "id": "6179",
             "propertyName": "units"
           },
-          "Clan Wren",
-          "Clan Kryze",
-          "Clan Saxon"
+          "clanWren",
+          "clanKryze",
+          "clanSaxon"
         ],
         "affiliation": "965"
       },
@@ -21749,9 +21749,9 @@
         "ttsName": "Rook Kast Devoted to the Cause",
         "unavailableWith": [
           "Rook Kast",
-          "Children of the Watch",
-          "Clan Wren",
-          "Clan Kryze"
+          "childrenOfTheWatch",
+          "clanWren",
+          "clanKryze"
         ],
         "affiliation": "1083"
       },
@@ -21786,9 +21786,9 @@
             "id": "33",
             "propertyName": "units"
           },
-          "Children of the Watch",
-          "Clan Saxon",
-          "Clan Kryze"
+          "childrenOfTheWatch",
+          "clanSaxon",
+          "clanKryze"
         ],
         "affiliation": "1082"
       },
@@ -21823,9 +21823,9 @@
             "id": "4891",
             "propertyName": "units"
           },
-          "Children of the Watch",
-          "Clan Wren",
-          "Clan Kryze"
+          "childrenOfTheWatch",
+          "clanWren",
+          "clanKryze"
         ],
         "affiliation": "1083"
       },
@@ -21866,9 +21866,9 @@
         "ttsName": "Ursa Wren Leader of Clan Wren",
         "unavailableWith": [
           "Ursa Wren",
-          "Children of the Watch",
-          "Clan Saxon",
-          "Clan Kryze"
+          "childrenOfTheWatch",
+          "clanSaxon",
+          "clanKryze"
         ],
         "affiliation": "1082"
       },
