@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.09.19.1"
+    "contentVersion": "2026.09.19.2"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -6752,7 +6752,6 @@
             ]
           }
         ],
-        "requiresTier": [2],
         "unavailableWith": [
           "Del Meeko"
         ],
@@ -10830,7 +10829,36 @@
         "exhausts": null,
         "unique": false,
         "ttsName": "Offensive Stance",
-        "availableIn": []
+        "availableIn": [
+          "3",
+          "4",
+          "20",
+          "41",
+          "46",
+          "47",
+          "49",
+          "73",
+          "74",
+          "764",
+          "4551",
+          "13582",
+          "15014",
+          "19108",
+          "19109",
+          "29671",
+          "31842",
+          "31843",
+          "32593",
+          "33575",
+          "33769",
+          "33776",
+          "33777",
+          "33791",
+          "33792",
+          "33793",
+          "33794",
+          "36283"
+        ]
       },
       {
         "id": 129,
@@ -13035,7 +13063,36 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [],
+        "availableIn": [
+          "3",
+          "4",
+          "20",
+          "41",
+          "46",
+          "47",
+          "49",
+          "73",
+          "74",
+          "764",
+          "4551",
+          "13582",
+          "15014",
+          "19108",
+          "19109",
+          "29671",
+          "31842",
+          "31843",
+          "32593",
+          "33575",
+          "33769",
+          "33776",
+          "33777",
+          "33791",
+          "33792",
+          "33793",
+          "33794",
+          "36283"
+        ],
         "addProperties": [
           [
             {
