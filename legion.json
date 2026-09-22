@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.09.21.0"
+    "contentVersion": "2026.09.22.0"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -4559,7 +4559,15 @@
             "tiers": [1]
           }
         },
-        "factions": [1, 2, 4, 5]
+        "factions": [1, 2, 4, 5],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [6, 127]
+            }
+          ]
+        ]
       },
       {
         "id": 20268,
@@ -4577,7 +4585,15 @@
         "unavailableWith": [
           "Academy Trained"
         ],
-        "factions": [1, 2, 4, 5, 10, 19, 17, 7]
+        "factions": [1, 2, 4, 5, 10, 19, 17, 7],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [95, 6, 151]
+            }
+          ]
+        ]
       },
       {
         "id": 22901,
@@ -4686,6 +4702,14 @@
               "value": 5
             }
           ]
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [87, 2, 134]
+            }
+          ]
         ]
       },
       {
@@ -4782,7 +4806,15 @@
         "limit": null,
         "exhaustsPerTurn": true,
         "exhausts": null,
-        "unique": false
+        "unique": false,
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [41]
+            }
+          ]
+        ]
       },
       {
         "id": 16581,
@@ -4905,13 +4937,15 @@
           [
             {
               "property": "unitType",
-              "value": 2
+              "value": [2, 3]
             }
-          ],
+          ]
+        ],
+        "addProperties": [
           [
             {
-              "property": "unitType",
-              "value": 3
+              "property": "keywords",
+              "value": [211, 62]
             }
           ]
         ]
@@ -4975,6 +5009,14 @@
             "property": "affiliation",
             "value": 1081
           }
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [14, 134]
+            }
+          ]
         ]
       },
       {
@@ -5019,6 +5061,14 @@
             "modifier": -5,
             "in": "33788"
           }
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [40]
+            }
+          ]
         ]
       },
       {
@@ -5127,6 +5177,14 @@
             "modifier": -5,
             "in": "33788"
           }
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [40]
+            }
+          ]
         ]
       },
       {
@@ -5352,7 +5410,15 @@
         "unavailableWith": [
           "Beskar Spear"
         ],
-        "factions": [1, 2, 4, 5, 8]
+        "factions": [1, 2, 4, 5, 8],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [39]
+            }
+          ]
+        ]
       },
       {
         "id": 74,
@@ -5406,6 +5472,14 @@
             "modifier": -5,
             "in": "33788"
           }
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [121]
+            }
+          ]
         ]
       },
       {
@@ -5447,7 +5521,15 @@
           "Boil"
         ],
         "chooseOneKey": "leader",
-        "factions": [1, 2, 4, 5, 12]
+        "factions": [1, 2, 4, 5, 12],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [23, 37]
+            }
+          ]
+        ]
       },
       {
         "id": 22513,
@@ -5493,7 +5575,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": false,
-        "availableIn": [6178]
+        "availableIn": [6178],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [68, 211]
+            }
+          ]
+        ]
       },
       {
         "id": 51,
@@ -5548,7 +5638,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": false,
-        "availableIn": [63, 64, 25982]
+        "availableIn": [63, 64, 25982],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [85, 143]
+            }
+          ]
+        ]
       },
       {
         "id": 159,
@@ -5576,7 +5674,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": false,
-        "availableIn": [63, 64, 25982]
+        "availableIn": [63, 64, 25982],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [2]
+            }
+          ]
+        ]
       },
       {
         "id": 131,
@@ -5704,6 +5810,14 @@
               "value": 9
             }
           ]
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [231]
+            }
+          ]
         ]
       },
       {
@@ -5749,7 +5863,15 @@
         "unavailableWith": [
           "Chewbacca, Courageous Co-Pilot"
         ],
-        "factions": [1, 2, 4, 5]
+        "factions": [1, 2, 4, 5],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [36]
+            }
+          ]
+        ]
       },
       {
         "id": 22597,
@@ -5864,6 +5986,14 @@
               "value": 9
             }
           ]
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [228]
+            }
+          ]
         ]
       },
       {
@@ -5898,6 +6028,14 @@
               "value": 9
             }
           ]
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [230]
+            }
+          ]
         ]
       },
       {
@@ -5912,7 +6050,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": false,
-        "chooseOneKey": "leader"
+        "chooseOneKey": "leader",
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [92, 36]
+            }
+          ]
+        ]
       },
       {
         "id": 20802,
@@ -5953,7 +6099,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": false,
-        "chooseOneKey": "leader"
+        "chooseOneKey": "leader",
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [6, 75]
+            }
+          ]
+        ]
       },
       {
         "id": 21910,
@@ -5972,7 +6126,15 @@
           "Clone Commander Cody"
         ],
         "chooseOneKey": "leader",
-        "factions": [1, 2, 4, 5, 12]
+        "factions": [1, 2, 4, 5, 12],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [226, 62]
+            }
+          ]
+        ]
       },
       {
         "id": 200,
@@ -5995,7 +6157,15 @@
             "tiers": [1]
           }
         },
-        "factions": [1, 2, 4, 5]
+        "factions": [1, 2, 4, 5],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [127]
+            }
+          ]
+        ]
       },
       {
         "id": 194,
@@ -6023,6 +6193,14 @@
             {
               "property": "unitType",
               "value": 5
+            }
+          ]
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [60]
             }
           ]
         ]
@@ -6053,6 +6231,14 @@
             {
               "property": "unitType",
               "value": 5
+            }
+          ]
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [196]
             }
           ]
         ]
@@ -6186,6 +6372,14 @@
             "modifier": -5,
             "in": "33788"
           }
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [40]
+            }
+          ]
         ]
       },
       {
@@ -6208,6 +6402,14 @@
             "modifier": -5,
             "in": "33788"
           }
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [40]
+            }
+          ]
         ]
       },
       {
@@ -6288,6 +6490,14 @@
               "value": 9
             }
           ]
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [85]
+            }
+          ]
         ]
       },
       {
@@ -6328,13 +6538,7 @@
           [
             {
               "property": "unitType",
-              "value": 2
-            }
-          ],
-          [
-            {
-              "property": "unitType",
-              "value": 3
+              "value": [2, 3]
             }
           ]
         ]
@@ -6395,7 +6599,15 @@
         "unavailableWith": [
           "Crosshair"
         ],
-        "factions": [1, 2, 4, 5]
+        "factions": [1, 2, 4, 5],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [62]
+            }
+          ]
+        ]
       },
       {
         "id": 21916,
@@ -6455,7 +6667,15 @@
         "unavailableWith": [
           "Deadeye"
         ],
-        "factions": [1, 2, 4, 5, 8]
+        "factions": [1, 2, 4, 5, 8],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [73, 8]
+            }
+          ]
+        ]
       },
       {
         "id": 20270,
@@ -6473,7 +6693,15 @@
         "unavailableWith": [
           "Defend in Depth"
         ],
-        "factions": [1, 2, 4, 5, 10, 17, 7]
+        "factions": [1, 2, 4, 5, 10, 17, 7],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [161, 141, 61]
+            }
+          ]
+        ]
       },
       {
         "id": 961,
@@ -6495,13 +6723,15 @@
           [
             {
               "property": "unitType",
-              "value": 2
+              "value": [2, 3]
             }
-          ],
+          ]
+        ],
+        "addProperties": [
           [
             {
-              "property": "unitType",
-              "value": 3
+              "property": "keywords",
+              "value": [7, 92, 211]
             }
           ]
         ]
@@ -6530,7 +6760,6 @@
             ]
           }
         ],
-        "requiresTier": [2],
         "unavailableWith": [
           "Del Meeko"
         ],
@@ -6631,7 +6860,15 @@
         "unavailableWith": [
           "Din's Jetpack"
         ],
-        "factions": [1, 2, 4, 5, 8]
+        "factions": [1, 2, 4, 5, 8],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [1]
+            }
+          ]
+        ]
       },
       {
         "id": 174,
@@ -6826,10 +7063,12 @@
         "exhausts": null,
         "unique": false,
         "requiredProperties": [
-          {
-            "property": "keywords",
-            "value": 158
-          }
+          [
+            {
+              "property": "keywords",
+              "value": 158
+            }
+          ]
         ]
       },
       {
@@ -6844,7 +7083,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [31842, 31843]
+        "availableIn": [31842, 31843],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [2]
+            }
+          ]
+        ]
       },
       {
         "id": 16572,
@@ -6925,7 +7172,15 @@
           "DT-F16"
         ],
         "chooseOneKey": "leader",
-        "factions": [1, 2, 4, 5]
+        "factions": [1, 2, 4, 5],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [65]
+            }
+          ]
+        ]
       },
       {
         "id": 22653,
@@ -6939,7 +7194,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [33789, 33787]
+        "availableIn": [33789, 33787],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [2, 10]
+            }
+          ]
+        ]
       },
       {
         "id": 33,
@@ -7305,7 +7568,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [31844, 31845]
+        "availableIn": [31844, 31845],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [2, 133]
+            }
+          ]
+        ]
       },
       {
         "id": 46,
@@ -7333,7 +7604,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [32591]
+        "availableIn": [32591],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [133]
+            }
+          ]
+        ]
       },
       {
         "id": 885,
@@ -7435,13 +7714,15 @@
           [
             {
               "property": "unitType",
-              "value": 2
+              "value": [2, 3]
             }
-          ],
+          ]
+        ],
+        "addProperties": [
           [
             {
-              "property": "unitType",
-              "value": 3
+              "property": "keywords",
+              "value": [211]
             }
           ]
         ]
@@ -7458,7 +7739,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [31844, 31845]
+        "availableIn": [31844, 31845],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [8]
+            }
+          ]
+        ]
       },
       {
         "id": 37,
@@ -7471,7 +7760,15 @@
         "limit": null,
         "exhaustsPerTurn": null,
         "exhausts": null,
-        "unique": false
+        "unique": false,
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [25]
+            }
+          ]
+        ]
       },
       {
         "id": 189,
@@ -7504,6 +7801,14 @@
               "value": 6
             }
           ]
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [199]
+            }
+          ]
         ]
       },
       {
@@ -7526,6 +7831,14 @@
             "modifier": -5,
             "in": "33788"
           }
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [40]
+            }
+          ]
         ]
       },
       {
@@ -7548,6 +7861,14 @@
             "modifier": -5,
             "in": "33788"
           }
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [40]
+            }
+          ]
         ]
       },
       {
@@ -7613,6 +7934,14 @@
         "unique": false,
         "requiredDivisions": [
           "Dark"
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [115]
+            }
+          ]
         ]
       },
       {
@@ -7632,7 +7961,15 @@
           "Fifth Brother"
         ],
         "chooseOneKey": "leader",
-        "factions": [1, 2, 4, 5]
+        "factions": [1, 2, 4, 5],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [71]
+            }
+          ]
+        ]
       },
       {
         "id": 22906,
@@ -7678,7 +8015,15 @@
         "unavailableWith": [
           "First Sergeant Arbmab"
         ],
-        "factions": [1, 2, 4, 5]
+        "factions": [1, 2, 4, 5],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [18]
+            }
+          ]
+        ]
       },
       {
         "id": 16552,
@@ -7696,7 +8041,15 @@
           "Fives"
         ],
         "chooseOneKey": "leader",
-        "factions": [1, 2, 4, 5, 16]
+        "factions": [1, 2, 4, 5, 16],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [2, 210]
+            }
+          ]
+        ]
       },
       {
         "id": 22607,
@@ -7775,6 +8128,14 @@
             "modifier": -5,
             "in": "33788"
           }
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [40]
+            }
+          ]
         ]
       },
       {
@@ -7862,7 +8223,15 @@
         "limit": null,
         "exhaustsPerTurn": null,
         "exhausts": null,
-        "unique": null
+        "unique": null,
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [85]
+            }
+          ]
+        ]
       },
       {
         "id": 102,
@@ -7940,6 +8309,14 @@
               "value": 7
             }
           ]
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [37]
+            }
+          ]
         ]
       },
       {
@@ -7997,7 +8374,15 @@
         "unavailableWith": [
           "Frontline Commander"
         ],
-        "factions": [1, 2, 4, 5, 13]
+        "factions": [1, 2, 4, 5, 13],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [161, 40, 71, 18]
+            }
+          ]
+        ]
       },
       {
         "id": 22662,
@@ -8117,7 +8502,15 @@
         "exhausts": null,
         "unique": null,
         "availableIn": [33789, 33787],
-        "ttsName": "GALAAR-90 Sniper Rifle (Armament)"
+        "ttsName": "GALAAR-90 Sniper Rifle (Armament)",
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [8]
+            }
+          ]
+        ]
       },
       {
         "id": 22419,
@@ -8155,6 +8548,14 @@
             "property": "affiliation",
             "value": 3
           }
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [217]
+            }
+          ]
         ]
       },
       {
@@ -8186,6 +8587,14 @@
             "property": "affiliation",
             "value": 1083
           }
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [65]
+            }
+          ]
         ]
       },
       {
@@ -8223,7 +8632,15 @@
         "unavailableWith": [
           "General of the Republic"
         ],
-        "factions": [1, 2, 4, 5]
+        "factions": [1, 2, 4, 5],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [107, 164, 6]
+            }
+          ]
+        ]
       },
       {
         "id": 25,
@@ -8257,7 +8674,15 @@
             "tiers": [1]
           }
         },
-        "factions": [1, 2, 4, 5, 17]
+        "factions": [1, 2, 4, 5, 17],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [53, 127]
+            }
+          ]
+        ]
       },
       {
         "id": 11864,
@@ -8301,6 +8726,14 @@
             "modifier": -5,
             "in": "33788"
           }
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [40]
+            }
+          ]
         ]
       },
       {
@@ -8331,7 +8764,15 @@
           "Gideon Hask"
         ],
         "chooseOneKey": "leader",
-        "factions": [1, 2, 4, 5]
+        "factions": [1, 2, 4, 5],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [210]
+            }
+          ]
+        ]
       },
       {
         "id": 932,
@@ -8403,7 +8844,15 @@
             "tiers": [1]
           }
         },
-        "factions": [1, 2, 4, 5]
+        "factions": [1, 2, 4, 5],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [127]
+            }
+          ]
+        ]
       },
       {
         "id": 18,
@@ -8416,7 +8865,15 @@
         "limit": null,
         "exhaustsPerTurn": null,
         "exhausts": null,
-        "unique": false
+        "unique": false,
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [22]
+            }
+          ]
+        ]
       },
       {
         "id": 3649,
@@ -8471,11 +8928,23 @@
         "keywords": [68],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22661.webp?version=3",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22661.webp?version=3",
-        "limit": null,
+        "limit": 1,
         "exhaustsPerTurn": null,
         "exhausts": null,
-        "unique": null,
-        "availableIn": [33787]
+        "unique": true,
+        "availableIn": [33787],
+        "unavailableWith": [
+          "Guild Member"
+        ],
+        "factions": [1, 2, 4, 5, 8],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [68]
+            }
+          ]
+        ]
       },
       {
         "id": 918,
@@ -8514,7 +8983,15 @@
         "unavailableWith": [
           "Han Solo, Reckless Smuggler"
         ],
-        "factions": [1, 2, 4, 5]
+        "factions": [1, 2, 4, 5],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [10, 134]
+            }
+          ]
+        ]
       },
       {
         "id": 22914,
@@ -8573,7 +9050,15 @@
         "exhausts": null,
         "unique": null,
         "availableIn": [31669, 31670],
-        "ttsName": "Heavy Blaster Pistol (Rebel)"
+        "ttsName": "Heavy Blaster Pistol (Rebel)",
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [53]
+            }
+          ]
+        ]
       },
       {
         "id": 20275,
@@ -8588,7 +9073,15 @@
         "exhausts": null,
         "unique": null,
         "availableIn": [31667, 31668],
-        "ttsName": "Heavy Blaster Pistol (Empire)"
+        "ttsName": "Heavy Blaster Pistol (Empire)",
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [8, 73]
+            }
+          ]
+        ]
       },
       {
         "id": 16580,
@@ -8814,37 +9307,7 @@
           [
             {
               "property": "unitType",
-              "value": 1
-            }
-          ],
-          [
-            {
-              "property": "unitType",
-              "value": 4
-            }
-          ],
-          [
-            {
-              "property": "unitType",
-              "value": 5
-            }
-          ],
-          [
-            {
-              "property": "unitType",
-              "value": 7
-            }
-          ],
-          [
-            {
-              "property": "unitType",
-              "value": 8
-            }
-          ],
-          [
-            {
-              "property": "unitType",
-              "value": 9
+              "value": [1, 4, 5, 7, 8, 9]
             }
           ]
         ]
@@ -8863,6 +9326,14 @@
         "unique": false,
         "requiredDivisions": [
           "Light"
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [6]
+            }
+          ]
         ]
       },
       {
@@ -8888,6 +9359,14 @@
               "value": 2
             }
           ]
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [8]
+            }
+          ]
         ]
       },
       {
@@ -8906,7 +9385,15 @@
         "unavailableWith": [
           "Hound & Grizzer"
         ],
-        "factions": [1, 2, 4, 5]
+        "factions": [1, 2, 4, 5],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [110]
+            }
+          ]
+        ]
       },
       {
         "id": 41,
@@ -9017,7 +9504,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [32595]
+        "availableIn": [32595],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [133]
+            }
+          ]
+        ]
       },
       {
         "id": 30,
@@ -9171,7 +9666,15 @@
           [6180],
           [23657]
         ],
-        "chooseOneKey": "leader"
+        "chooseOneKey": "leader",
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [6]
+            }
+          ]
+        ]
       },
       {
         "id": 21906,
@@ -9255,13 +9758,7 @@
           [
             {
               "property": "unitType",
-              "value": 2
-            }
-          ],
-          [
-            {
-              "property": "unitType",
-              "value": 3
+              "value": [2, 3]
             }
           ]
         ]
@@ -9278,7 +9775,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [19108, 19109]
+        "availableIn": [19108, 19109],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [115]
+            }
+          ]
+        ]
       },
       {
         "id": 9400,
@@ -9354,7 +9859,15 @@
         "unavailableWith": [
           "Jedi Consular"
         ],
-        "factions": [1, 2, 4, 5, 21, 12]
+        "factions": [1, 2, 4, 5, 21, 12],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [72]
+            }
+          ]
+        ]
       },
       {
         "id": 20431,
@@ -9377,7 +9890,15 @@
             "propertyName": "upgrades"
           }
         ],
-        "factions": [1, 2, 4, 5, 21, 12]
+        "factions": [1, 2, 4, 5, 21, 12],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [2]
+            }
+          ]
+        ]
       },
       {
         "id": 18478,
@@ -9392,7 +9913,15 @@
         "exhausts": null,
         "unique": false,
         "requiresTier": [3],
-        "chooseOneKey": "leader"
+        "chooseOneKey": "leader",
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [2]
+            }
+          ]
+        ]
       },
       {
         "id": 32,
@@ -9440,7 +9969,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [31842, 31843, 33776]
+        "availableIn": [31842, 31843, 33776],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [1]
+            }
+          ]
+        ]
       },
       {
         "id": 20435,
@@ -9454,7 +9991,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [31842, 31843, 33776]
+        "availableIn": [31842, 31843, 33776],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [87]
+            }
+          ]
+        ]
       },
       {
         "id": 20436,
@@ -9468,7 +10013,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [31842, 31843, 33776]
+        "availableIn": [31842, 31843, 33776],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [141, 75, 48]
+            }
+          ]
+        ]
       },
       {
         "id": 20437,
@@ -9482,7 +10035,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [31842, 31843, 33776]
+        "availableIn": [31842, 31843, 33776],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [129]
+            }
+          ]
+        ]
       },
       {
         "id": 22605,
@@ -9525,7 +10086,15 @@
           "Jyn Erso"
         ],
         "chooseOneKey": "leader",
-        "factions": [1, 2, 4, 5]
+        "factions": [1, 2, 4, 5],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [13, 42]
+            }
+          ]
+        ]
       },
       {
         "id": 166,
@@ -9588,6 +10157,14 @@
             {
               "property": "unitType",
               "value": 5
+            }
+          ]
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [133]
             }
           ]
         ]
@@ -9677,7 +10254,15 @@
         "limit": null,
         "exhaustsPerTurn": null,
         "exhausts": null,
-        "unique": false
+        "unique": false,
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [6]
+            }
+          ]
+        ]
       },
       {
         "id": 20432,
@@ -9691,7 +10276,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [31842, 31843]
+        "availableIn": [31842, 31843],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [87]
+            }
+          ]
+        ]
       },
       {
         "id": 20454,
@@ -9727,19 +10320,15 @@
           [
             {
               "property": "unitType",
-              "value": 4
+              "value": [4, 2, 3]
             }
-          ],
+          ]
+        ],
+        "addProperties": [
           [
             {
-              "property": "unitType",
-              "value": 2
-            }
-          ],
-          [
-            {
-              "property": "unitType",
-              "value": 3
+              "property": "keywords",
+              "value": [73]
             }
           ]
         ]
@@ -9853,49 +10442,13 @@
           [
             {
               "property": "unitType",
-              "value": 1
-            }
-          ],
-          [
+              "value": [1, 4, 5, 6, 7, 8, 9]
+            },
             {
-              "property": "unitType",
-              "value": 4
+              "property": "keywords",
+              "value": [14, 141]
             }
-          ],
-          [
-            {
-              "property": "unitType",
-              "value": 5
-            }
-          ],
-          [
-            {
-              "property": "unitType",
-              "value": 6
-            }
-          ],
-          [
-            {
-              "property": "unitType",
-              "value": 7
-            }
-          ],
-          [
-            {
-              "property": "unitType",
-              "value": 8
-            }
-          ],
-          [
-            {
-              "property": "unitType",
-              "value": 9
-            }
-          ],
-          {
-            "property": "keywords",
-            "value": 14
-          }
+          ]
         ]
       },
       {
@@ -9934,6 +10487,14 @@
             {
               "property": "unitType",
               "value": 5
+            }
+          ]
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [65, 133]
             }
           ]
         ]
@@ -9986,6 +10547,14 @@
             "modifier": -5,
             "in": "33788"
           }
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [40]
+            }
+          ]
         ]
       },
       {
@@ -10000,7 +10569,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [4767]
+        "availableIn": [4767],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [121]
+            }
+          ]
+        ]
       },
       {
         "id": 91,
@@ -10094,7 +10671,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [31844, 31845]
+        "availableIn": [31844, 31845],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [41, 72]
+            }
+          ]
+        ]
       },
       {
         "id": 28,
@@ -10164,7 +10749,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": false,
-        "availableIn": [6178]
+        "availableIn": [6178],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [96]
+            }
+          ]
+        ]
       },
       {
         "id": 948,
@@ -10225,7 +10818,15 @@
           "Obi-Wan Kenobi"
         ],
         "chooseOneKey": "leader",
-        "factions": [1, 2, 4, 5, 12]
+        "factions": [1, 2, 4, 5, 12],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [4]
+            }
+          ]
+        ]
       },
       {
         "id": 179,
@@ -10282,7 +10883,15 @@
         "limit": null,
         "exhaustsPerTurn": true,
         "exhausts": null,
-        "unique": false
+        "unique": false,
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [18]
+            }
+          ]
+        ]
       },
       {
         "id": 15628,
@@ -10323,13 +10932,15 @@
           [
             {
               "property": "unitType",
-              "value": 2
+              "value": [2, 3]
             }
-          ],
+          ]
+        ],
+        "addProperties": [
           [
             {
-              "property": "unitType",
-              "value": 3
+              "property": "keywords",
+              "value": [210]
             }
           ]
         ]
@@ -10399,7 +11010,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": false,
-        "availableIn": [54]
+        "availableIn": [54],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [81]
+            }
+          ]
+        ]
       },
       {
         "id": 20455,
@@ -10413,7 +11032,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [31844, 31845]
+        "availableIn": [31844, 31845],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [164]
+            }
+          ]
+        ]
       },
       {
         "id": 82,
@@ -10436,6 +11063,14 @@
             {
               "property": "unitType",
               "value": 2
+            }
+          ]
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [54]
             }
           ]
         ]
@@ -10491,7 +11126,15 @@
         "limit": null,
         "exhaustsPerTurn": null,
         "exhausts": null,
-        "unique": false
+        "unique": false,
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [48]
+            }
+          ]
+        ]
       },
       {
         "id": 2425,
@@ -10555,6 +11198,14 @@
             "property": "affiliation",
             "value": 965
           }
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [231]
+            }
+          ]
         ]
       },
       {
@@ -10583,6 +11234,14 @@
             {
               "property": "unitType",
               "value": 9
+            }
+          ]
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [85, 143]
             }
           ]
         ]
@@ -10666,6 +11325,14 @@
               "value": 6
             }
           ]
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [196, 212]
+            }
+          ]
         ]
       },
       {
@@ -10684,7 +11351,15 @@
         "unavailableWith": [
           "Platoon Commander"
         ],
-        "factions": [1, 2, 4, 5, 10, 19, 7]
+        "factions": [1, 2, 4, 5, 10, 19, 7],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [8]
+            }
+          ]
+        ]
       },
       {
         "id": 150,
@@ -10706,7 +11381,15 @@
             "propertyName": "upgrades"
           }
         ],
-        "factions": [1, 2, 4, 5]
+        "factions": [1, 2, 4, 5],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [50]
+            }
+          ]
+        ]
       },
       {
         "id": 22964,
@@ -10737,6 +11420,14 @@
               "value": 5
             }
           ]
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [133]
+            }
+          ]
         ]
       },
       {
@@ -10750,7 +11441,15 @@
         "limit": null,
         "exhaustsPerTurn": null,
         "exhausts": null,
-        "unique": false
+        "unique": false,
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [5]
+            }
+          ]
+        ]
       },
       {
         "id": 2609,
@@ -10777,7 +11476,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [6180]
+        "availableIn": [6180],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [145]
+            }
+          ]
+        ]
       },
       {
         "id": 627,
@@ -10822,7 +11529,15 @@
         "unavailableWith": [
           "Proven Tactician"
         ],
-        "factions": [1, 2, 4, 5, 13]
+        "factions": [1, 2, 4, 5, 13],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [12, 95]
+            }
+          ]
+        ]
       },
       {
         "id": 2428,
@@ -10880,6 +11595,14 @@
             "modifier": -5,
             "in": "33788"
           }
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [121]
+            }
+          ]
         ]
       },
       {
@@ -10902,6 +11625,14 @@
             "modifier": -5,
             "in": "33788"
           }
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [40]
+            }
+          ]
         ]
       },
       {
@@ -10927,6 +11658,14 @@
         "unavailableIn": [
           [6180],
           [23657]
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [193]
+            }
+          ]
         ]
       },
       {
@@ -10975,7 +11714,15 @@
             "tiers": [1]
           }
         },
-        "factions": [1, 2, 4, 5, 14, 9]
+        "factions": [1, 2, 4, 5, 14, 9],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [118, 127, 115]
+            }
+          ]
+        ]
       },
       {
         "id": 15014,
@@ -11144,6 +11891,14 @@
             "modifier": -5,
             "in": "33788"
           }
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [40]
+            }
+          ]
         ]
       },
       {
@@ -11188,6 +11943,14 @@
             "modifier": -5,
             "in": "33788"
           }
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [40]
+            }
+          ]
         ]
       },
       {
@@ -11201,7 +11964,15 @@
         "limit": null,
         "exhaustsPerTurn": null,
         "exhausts": null,
-        "unique": false
+        "unique": false,
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [37]
+            }
+          ]
+        ]
       },
       {
         "id": 20281,
@@ -11219,7 +11990,15 @@
         "unavailableWith": [
           "Reluctant Hero"
         ],
-        "factions": [1, 2, 4, 5, 13]
+        "factions": [1, 2, 4, 5, 13],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [14, 51]
+            }
+          ]
+        ]
       },
       {
         "id": 20283,
@@ -11233,7 +12012,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [31669, 31670]
+        "availableIn": [31669, 31670],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [62]
+            }
+          ]
+        ]
       },
       {
         "id": 22593,
@@ -11269,6 +12056,14 @@
             "property": "affiliation",
             "value": 1083
           }
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [145]
+            }
+          ]
         ]
       },
       {
@@ -11291,7 +12086,15 @@
             "propertyName": "upgrades"
           }
         ],
-        "factions": [1, 2, 4, 5, 8, 9]
+        "factions": [1, 2, 4, 5, 8, 9],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [145]
+            }
+          ]
+        ]
       },
       {
         "id": 18477,
@@ -11593,7 +12396,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [30]
+        "availableIn": [30],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [23, 145]
+            }
+          ]
+        ]
       },
       {
         "id": 20450,
@@ -11607,7 +12418,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [31844, 31845]
+        "availableIn": [31844, 31845],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [115, 17, 73]
+            }
+          ]
+        ]
       },
       {
         "id": 20273,
@@ -11621,7 +12440,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [31667, 31668]
+        "availableIn": [31667, 31668],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [143, 85, 110]
+            }
+          ]
+        ]
       },
       {
         "id": 185,
@@ -11654,7 +12481,15 @@
           "Seventh Sister"
         ],
         "chooseOneKey": "leader",
-        "factions": [1, 2, 4, 5]
+        "factions": [1, 2, 4, 5],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [115, 192, 197]
+            }
+          ]
+        ]
       },
       {
         "id": 21727,
@@ -11680,7 +12515,15 @@
         "unavailableWith": [
           "Shaak Ti"
         ],
-        "chooseOneKey": "leader"
+        "chooseOneKey": "leader",
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [121, 133]
+            }
+          ]
+        ]
       },
       {
         "id": 95,
@@ -11724,6 +12567,14 @@
             "modifier": -5,
             "in": "33788"
           }
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [40]
+            }
+          ]
         ]
       },
       {
@@ -11755,7 +12606,15 @@
             "tiers": [1]
           }
         },
-        "factions": [1, 2, 4, 5]
+        "factions": [1, 2, 4, 5],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [127]
+            }
+          ]
+        ]
       },
       {
         "id": 22420,
@@ -11789,7 +12648,15 @@
         "limit": null,
         "exhaustsPerTurn": null,
         "exhausts": null,
-        "unique": false
+        "unique": false,
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [92]
+            }
+          ]
+        ]
       },
       {
         "id": 20451,
@@ -11874,6 +12741,14 @@
             "modifier": -5,
             "in": "33788"
           }
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [40]
+            }
+          ]
         ]
       },
       {
@@ -11998,13 +12873,7 @@
           [
             {
               "property": "unitType",
-              "value": 2
-            }
-          ],
-          [
-            {
-              "property": "unitType",
-              "value": 3
+              "value": [2, 3]
             }
           ]
         ]
@@ -12110,6 +12979,14 @@
             "modifier": -5,
             "in": "33788"
           }
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [40]
+            }
+          ]
         ]
       },
       {
@@ -12124,7 +13001,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [31844, 31845]
+        "availableIn": [31844, 31845],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [151]
+            }
+          ]
+        ]
       },
       {
         "id": 62,
@@ -12152,10 +13037,12 @@
         "exhausts": null,
         "unique": false,
         "requiredProperties": [
-          {
-            "property": "keywords",
-            "value": 58
-          }
+          [
+            {
+              "property": "keywords",
+              "value": 58
+            }
+          ]
         ]
       },
       {
@@ -12217,6 +13104,14 @@
           "33793",
           "33794",
           "36283"
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [134]
+            }
+          ]
         ]
       },
       {
@@ -12244,7 +13139,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [31667, 31668]
+        "availableIn": [31667, 31668],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [115]
+            }
+          ]
+        ]
       },
       {
         "id": 22600,
@@ -12550,7 +13453,15 @@
         "limit": null,
         "exhaustsPerTurn": null,
         "exhausts": null,
-        "unique": false
+        "unique": false,
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [62]
+            }
+          ]
+        ]
       },
       {
         "id": 15988,
@@ -12568,7 +13479,15 @@
         "unavailableWith": [
           "Tech"
         ],
-        "factions": [1, 2, 4, 5]
+        "factions": [1, 2, 4, 5],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [121, 18]
+            }
+          ]
+        ]
       },
       {
         "id": 54,
@@ -12664,7 +13583,15 @@
             "propertyName": "upgrades"
           }
         ],
-        "factions": [1, 2, 4, 5, 8, 9]
+        "factions": [1, 2, 4, 5, 8, 9],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [2, 4, 115]
+            }
+          ]
+        ]
       },
       {
         "id": 22611,
@@ -12734,7 +13661,15 @@
             "propertyName": "upgrades"
           }
         ],
-        "factions": [1, 2, 4, 5, 8, 7]
+        "factions": [1, 2, 4, 5, 8, 7],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [115, 4]
+            }
+          ]
+        ]
       },
       {
         "id": 22612,
@@ -12771,6 +13706,14 @@
         ],
         "poolBonuses": [
           "extraMercenary"
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [118, 4, 232]
+            }
+          ]
         ]
       },
       {
@@ -12805,7 +13748,15 @@
             "propertyName": "upgrades"
           }
         ],
-        "factions": [1, 2, 4, 5, 8]
+        "factions": [1, 2, 4, 5, 8],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [42, 4]
+            }
+          ]
+        ]
       },
       {
         "id": 2632,
@@ -12874,7 +13825,15 @@
         "unavailableWith": [
           "Tip of the Spear"
         ],
-        "factions": [1, 2, 4, 5, 10, 19, 17, 7]
+        "factions": [1, 2, 4, 5, 10, 19, 17, 7],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [161, 164, 18]
+            }
+          ]
+        ]
       },
       {
         "id": 19831,
@@ -12928,6 +13887,14 @@
             {
               "property": "unitType",
               "value": 9
+            }
+          ]
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [62]
             }
           ]
         ]
@@ -12995,7 +13962,15 @@
             }
           ]
         ],
-        "chooseOneKey": "leader"
+        "chooseOneKey": "leader",
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [75]
+            }
+          ]
+        ]
       },
       {
         "id": 120,
@@ -13014,7 +13989,15 @@
           "waivesMinimum": {
             "tiers": [1]
           }
-        }
+        },
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [127]
+            }
+          ]
+        ]
       },
       {
         "id": 20709,
@@ -13143,6 +14126,14 @@
         "unique": null,
         "poolBonuses": [
           "extraMercenary"
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [118]
+            }
+          ]
         ]
       },
       {
@@ -13175,7 +14166,15 @@
         "unavailableWith": [
           "Unseen Saboteur"
         ],
-        "factions": [1, 2, 4, 5, 13]
+        "factions": [1, 2, 4, 5, 13],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [141, 9]
+            }
+          ]
+        ]
       },
       {
         "id": 209,
@@ -13296,7 +14295,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [31669, 31670]
+        "availableIn": [31669, 31670],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [2]
+            }
+          ]
+        ]
       },
       {
         "id": 22658,
@@ -13310,7 +14317,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [33789, 33787]
+        "availableIn": [33789, 33787],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [2, 39]
+            }
+          ]
+        ]
       },
       {
         "id": 191,
@@ -13356,6 +14371,14 @@
               "value": 6
             }
           ]
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [110]
+            }
+          ]
         ]
       },
       {
@@ -13374,7 +14397,15 @@
         "unavailableWith": [
           "War Party Leader"
         ],
-        "factions": [1, 2, 4, 5, 8]
+        "factions": [1, 2, 4, 5, 8],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [164, 6]
+            }
+          ]
+        ]
       },
       {
         "id": 16553,
@@ -13393,7 +14424,15 @@
           "Waxer"
         ],
         "chooseOneKey": "leader",
-        "factions": [1, 2, 4, 5, 12]
+        "factions": [1, 2, 4, 5, 12],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [74, 37]
+            }
+          ]
+        ]
       },
       {
         "id": 29,
@@ -13427,7 +14466,15 @@
             "tiers": [1]
           }
         },
-        "factions": [1, 2, 4, 5, 13]
+        "factions": [1, 2, 4, 5, 13],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [127]
+            }
+          ]
+        ]
       },
       {
         "id": 21643,
@@ -13486,6 +14533,14 @@
             "modifier": -5,
             "in": "33788"
           }
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [40]
+            }
+          ]
         ]
       },
       {
@@ -13594,7 +14649,15 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [31667, 31668]
+        "availableIn": [31667, 31668],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [133]
+            }
+          ]
+        ]
       },
       {
         "id": 16,
@@ -22611,22 +23674,6 @@
         ]
       },
       {
-        "id": 58,
-        "name": "We're Not Programmed",
-        "pips": 3,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/58.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/58.webp?version=7",
-        "keywords": [6],
-        "unlockedBy": [
-          {
-            "id": 50,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 2,
         "name": "Return of the Jedi",
         "pips": 3,
@@ -22651,26 +23698,6 @@
         ]
       },
       {
-        "id": 1963,
-        "name": "Victory or Death!",
-        "pips": 3,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1963.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1963.webp?version=7",
-        "keywords": [40],
-        "unlockedBy": [
-          {
-            "id": 4891,
-            "propertyName": "units"
-          },
-          {
-            "id": 34888,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 1903,
         "name": "Discretion",
         "pips": 3,
@@ -22678,7 +23705,14 @@
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1903.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1903.webp?version=7",
-        "keywords": null
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "property": "faction",
+            "value": 6,
+            "propertyName": "units"
+          }
+        ]
       },
       {
         "id": 1902,
@@ -22688,7 +23722,14 @@
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1902.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1902.webp?version=7",
-        "keywords": null
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "property": "faction",
+            "value": 6,
+            "propertyName": "units"
+          }
+        ]
       },
       {
         "id": 1962,
@@ -22763,16 +23804,6 @@
         ]
       },
       {
-        "id": 2270,
-        "name": "Unrelenting Assault",
-        "pips": 2,
-        "faction": 5,
-        "factions": [11],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2270.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2270.webp?version=7",
-        "keywords": null
-      },
-      {
         "id": 3087,
         "name": "Mechanical Carnage",
         "pips": 1,
@@ -22815,6 +23846,16 @@
             "propertyName": "units"
           }
         ]
+      },
+      {
+        "id": 2270,
+        "name": "Unrelenting Assault",
+        "pips": 2,
+        "faction": 5,
+        "factions": [11],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2270.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2270.webp?version=7",
+        "keywords": null
       },
       {
         "id": 787,
@@ -23459,30 +24500,6 @@
         ]
       },
       {
-        "id": 20053,
-        "name": "Evasive Action",
-        "pips": 2,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/20053.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/20053.webp?version=7",
-        "keywords": [92, 7],
-        "unlockedBy": [
-          {
-            "id": 3377,
-            "propertyName": "units"
-          },
-          {
-            "id": 36283,
-            "propertyName": "units"
-          },
-          {
-            "id": 33769,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 20054,
         "name": "I'm Sorry Master, I Didn't Catch That",
         "pips": 2,
@@ -23494,6 +24511,30 @@
         "unlockedBy": [
           {
             "id": 33769,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 20053,
+        "name": "Evasive Action",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/20053.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/20053.webp?version=7",
+        "keywords": [92, 7],
+        "unlockedBy": [
+          {
+            "id": 33769,
+            "propertyName": "units"
+          },
+          {
+            "id": 36283,
+            "propertyName": "units"
+          },
+          {
+            "id": 33776,
             "propertyName": "units"
           }
         ]
@@ -23570,6 +24611,42 @@
           },
           {
             "id": 36283,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 1963,
+        "name": "Victory or Death!",
+        "pips": 3,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1963.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1963.webp?version=7",
+        "keywords": [40],
+        "unlockedBy": [
+          {
+            "id": 4891,
+            "propertyName": "units"
+          },
+          {
+            "id": 34888,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 58,
+        "name": "We're Not Programmed",
+        "pips": 3,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/58.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/58.webp?version=7",
+        "keywords": [6],
+        "unlockedBy": [
+          {
+            "id": 50,
             "propertyName": "units"
           }
         ]
@@ -23865,22 +24942,6 @@
         "keywords": [191, 14, 37]
       },
       {
-        "id": 18310,
-        "name": "Fear Will Keep Them in Line",
-        "pips": 3,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18310.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18310.webp?version=7",
-        "keywords": [191, 115],
-        "unlockedBy": [
-          {
-            "id": 32589,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 18309,
         "name": "We Must Wait and Watch",
         "pips": 2,
@@ -23892,6 +24953,22 @@
         "unlockedBy": [
           {
             "id": 32588,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 18310,
+        "name": "Fear Will Keep Them in Line",
+        "pips": 3,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18310.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18310.webp?version=7",
+        "keywords": [191, 115],
+        "unlockedBy": [
+          {
+            "id": 32589,
             "propertyName": "units"
           }
         ]
@@ -24159,26 +25236,6 @@
         ]
       },
       {
-        "id": 19075,
-        "name": "Evasive Action",
-        "pips": 2,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19075.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19075.webp?version=7",
-        "keywords": [92, 7],
-        "unlockedBy": [
-          {
-            "id": 33769,
-            "propertyName": "units"
-          },
-          {
-            "id": 33776,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 19078,
         "name": "I Don't Believe in Chance",
         "pips": 2,
@@ -24361,30 +25418,31 @@
         ]
       },
       {
-        "id": 19519,
-        "name": "Weapons Are Our Religion",
+        "id": 19518,
+        "name": "We Protect Our Own",
         "pips": 3,
         "faction": null,
-        "factions": [8],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19519.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19519.webp?version=7",
-        "keywords": [2, 189]
-      },
-      {
-        "id": 19516,
-        "name": "Vengeful Strike",
-        "pips": 2,
-        "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19516.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19516.webp?version=7",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19518.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19518.webp?version=7",
         "keywords": null,
         "unlockedBy": [
           {
-            "id": 34886,
+            "property": "affiliation",
+            "value": 1082,
             "propertyName": "units"
           }
         ]
+      },
+      {
+        "id": 19517,
+        "name": "We Are Mandalorians",
+        "pips": 1,
+        "faction": null,
+        "factions": [8],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19517.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19517.webp?version=7",
+        "keywords": [6]
       },
       {
         "id": 19514,
@@ -24429,34 +25487,14 @@
         "keywords": [123]
       },
       {
-        "id": 19518,
-        "name": "We Protect Our Own",
+        "id": 19519,
+        "name": "Weapons Are Our Religion",
         "pips": 3,
         "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19518.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19518.webp?version=7",
-        "keywords": null
-      },
-      {
-        "id": 19511,
-        "name": "Close Formation",
-        "pips": 2,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19511.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19511.webp?version=7",
-        "keywords": [62, 92]
-      },
-      {
-        "id": 19512,
-        "name": "Death Before Defeat",
-        "pips": 3,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19512.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19512.webp?version=7",
-        "keywords": [183]
+        "factions": [8],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19519.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19519.webp?version=7",
+        "keywords": [2, 189]
       },
       {
         "id": 19515,
@@ -24466,17 +25504,64 @@
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19515.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19515.webp?version=7",
-        "keywords": [191, 14]
+        "keywords": [191, 14],
+        "unlockedBy": [
+          {
+            "property": "affiliation",
+            "value": 965,
+            "propertyName": "units"
+          }
+        ]
       },
       {
-        "id": 19517,
-        "name": "We Are Mandalorians",
-        "pips": 1,
+        "id": 19516,
+        "name": "Vengeful Strike",
+        "pips": 2,
         "faction": null,
-        "factions": [8],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19517.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19517.webp?version=7",
-        "keywords": [6]
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19516.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19516.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 34886,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 19511,
+        "name": "Close Formation",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19511.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19511.webp?version=7",
+        "keywords": [62, 92],
+        "unlockedBy": [
+          {
+            "property": "affiliation",
+            "value": 1081,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 19512,
+        "name": "Death Before Defeat",
+        "pips": 3,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/19512.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/19512.webp?version=7",
+        "keywords": [183],
+        "unlockedBy": [
+          {
+            "property": "affiliation",
+            "value": 1083,
+            "propertyName": "units"
+          }
+        ]
       },
       {
         "id": 19530,
@@ -24666,26 +25751,6 @@
         "unlockedBy": [
           {
             "id": 33787,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 81,
-        "name": "Volunteer Mission",
-        "pips": 3,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/81.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/81.webp?version=7",
-        "keywords": [13],
-        "unlockedBy": [
-          {
-            "id": 57,
-            "propertyName": "units"
-          },
-          {
-            "id": 29930,
             "propertyName": "units"
           }
         ]
@@ -24911,25 +25976,21 @@
         ]
       },
       {
-        "id": 29,
-        "name": "Z-6 Jetpack Rocket",
+        "id": 81,
+        "name": "Volunteer Mission",
         "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/29.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/29.webp?version=7",
-        "keywords": [177, 202],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/81.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/81.webp?version=7",
+        "keywords": [13],
         "unlockedBy": [
           {
-            "id": 16,
+            "id": 57,
             "propertyName": "units"
           },
           {
-            "id": 5000,
-            "propertyName": "units"
-          },
-          {
-            "id": 6176,
+            "id": 29930,
             "propertyName": "units"
           }
         ]
@@ -25127,50 +26188,14 @@
         ]
       },
       {
-        "id": 24,
-        "name": "And Now You Will Die",
-        "pips": 1,
+        "id": 29,
+        "name": "Z-6 Jetpack Rocket",
+        "pips": 3,
         "faction": null,
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/24.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/24.webp?version=7",
-        "keywords": null,
-        "unlockedBy": [
-          {
-            "id": 20,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 59,
-        "name": "Vader's Might",
-        "pips": 1,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/59.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/59.webp?version=7",
-        "keywords": null,
-        "unlockedBy": [
-          {
-            "id": 3,
-            "propertyName": "units"
-          },
-          {
-            "id": 47,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
-        "id": 20,
-        "name": "Whipcord Launcher",
-        "pips": 1,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/20.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/20.webp?version=7",
-        "keywords": null,
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/29.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/29.webp?version=7",
+        "keywords": [177, 202],
         "unlockedBy": [
           {
             "id": 16,
@@ -25182,6 +26207,22 @@
           },
           {
             "id": 6176,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "And Now You Will Die",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/24.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/24.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 20,
             "propertyName": "units"
           }
         ]
@@ -25363,6 +26404,50 @@
         ]
       },
       {
+        "id": 59,
+        "name": "Vader's Might",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/59.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/59.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 3,
+            "propertyName": "units"
+          },
+          {
+            "id": 47,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Whipcord Launcher",
+        "pips": 1,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/20.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/20.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 16,
+            "propertyName": "units"
+          },
+          {
+            "id": 5000,
+            "propertyName": "units"
+          },
+          {
+            "id": 6176,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
         "id": 92,
         "name": "Duel of the Fates",
         "pips": 1,
@@ -25509,26 +26594,6 @@
         ]
       },
       {
-        "id": 89,
-        "name": "You Underestimate My Power",
-        "pips": 2,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/89.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/89.webp?version=7",
-        "keywords": null,
-        "unlockedBy": [
-          {
-            "id": 73,
-            "propertyName": "units"
-          },
-          {
-            "id": 33769,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 76,
         "name": "Our Fate is in Your Hands",
         "pips": 1,
@@ -25566,6 +26631,26 @@
         "unlockedBy": [
           {
             "id": 46,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 89,
+        "name": "You Underestimate My Power",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/89.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/89.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 73,
+            "propertyName": "units"
+          },
+          {
+            "id": 33769,
             "propertyName": "units"
           }
         ]
@@ -25650,7 +26735,14 @@
         "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/1901.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/1901.webp?version=7",
-        "keywords": null
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "property": "faction",
+            "value": 6,
+            "propertyName": "units"
+          }
+        ]
       },
       {
         "id": 40,
@@ -26067,6 +27159,16 @@
         "keywords": null
       },
       {
+        "id": 2275,
+        "name": "Unrelenting Fire",
+        "pips": 1,
+        "faction": 2,
+        "factions": [17],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2275.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2275.webp?version=7",
+        "keywords": null
+      },
+      {
         "id": 103,
         "name": "ISB Investigation",
         "pips": 2,
@@ -26115,16 +27217,6 @@
             "propertyName": "units"
           }
         ]
-      },
-      {
-        "id": 2275,
-        "name": "Unrelenting Fire",
-        "pips": 1,
-        "faction": 2,
-        "factions": [17],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/2275.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/2275.webp?version=7",
-        "keywords": null
       },
       {
         "id": 2273,
@@ -26483,22 +27575,6 @@
         ]
       },
       {
-        "id": 9453,
-        "name": "We Serve the Queen",
-        "pips": 2,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9453.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9453.webp?version=7",
-        "keywords": [164, 210],
-        "unlockedBy": [
-          {
-            "id": 19106,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 9452,
         "name": "Let the Executions Begin!",
         "pips": 1,
@@ -26523,6 +27599,22 @@
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9454.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9454.webp?version=7",
         "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 19106,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 9453,
+        "name": "We Serve the Queen",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/9453.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/9453.webp?version=7",
+        "keywords": [164, 210],
         "unlockedBy": [
           {
             "id": 19106,
