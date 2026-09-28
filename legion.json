@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.09.22.0"
+    "contentVersion": "2026.09.28.0"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -9639,7 +9639,8 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": false,
-        "availableIn": [30, 17]
+        "availableIn": [30, 17],
+        "factions": [7]
       },
       {
         "id": 50,
@@ -13684,6 +13685,7 @@
         "exhausts": null,
         "unique": true,
         "availableIn": [33771],
+        "factions": [8],
         "ttsName": "The Darksaber (Bo-Katan)",
         "unavailableWith": [
           "The Darksaber",
@@ -14944,8 +14946,7 @@
               }
             ],
             "unlockedBy": "Unaffiliated",
-            "grantsBonusUpgradeSlot": {
-              "key": "toolsOfTrade",
+            "grantedUpgradeCopy": {
               "upgrades": [
                 22607,
                 22605,
@@ -14954,9 +14955,9 @@
               "eligibleUnitTypes": [
                 9
               ],
-              "maxPerUpgradeArmyWide": 1,
+              "count": 1,
               "points": 0,
-              "maxParentQuantity": 1
+              "ignoreRestrictions": true
             }
           },
           {
