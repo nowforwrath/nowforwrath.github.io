@@ -5,7 +5,7 @@
 	"appVersion": 2,
 	"update": {
 		"manifestUrl": "https://nowforwrath.github.io/data2024.update.json",
-		"contentVersion": "2026.08.21.13"
+		"contentVersion": "2026.09.28.00"
 	},
 	"disallowMultipleFactions": true,
 	"colors": {
@@ -4942,7 +4942,7 @@
 				"alignment": "good",
 				"additionalRules": [
 					"A Rangers of Mirkwood list must include at least one Unique Elf Hero.",
-					"If your Army includes Legolas, then he must be your General. If your Army includes Tauriel, but does not include Legolas, then she must byour General.",
+					"If your Army includes Legolas, then he must be your General. If your Army includes Tauriel, but does not include Legolas, then she must be your General.",
 					"Mirkwood Rangers may only be included in the Warbands of Mirkwood Hero models.",
 					"Mirkwood Rangers do not count towards this Army's Bow Limit."
 				],
@@ -49234,7 +49234,7 @@
 			},
 			{
 				"name": "The Hordes of Mordor",
-				"definition": "Friendly Mordor Orc models engaged in a Combat gain a bonus of +1 To Wound when making strikes against an outnumbered opponent."
+				"definition": "Friendly **Mordor Orc** models engaged in a Combat gain a bonus of +1 To Wound when making strikes against an outnumbered opponent."
 			},
 			{
 				"name": "Temptation of Sauron",
