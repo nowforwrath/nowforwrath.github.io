@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.09.28.0"
+    "contentVersion": "2026.09.29.0"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -23121,7 +23121,7 @@
       {
         "id": 13,
         "name": "Marked Targets",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/13.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/13.webp?version=3",
         "gameModes": [
           "standard"
         ],
@@ -23130,7 +23130,7 @@
       {
         "id": 14,
         "name": "Sweep and Clear",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/14.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/14.webp?version=3",
         "gameModes": [
           "standard"
         ],
@@ -23139,7 +23139,7 @@
       {
         "id": 15,
         "name": "Bring Them to Heel",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/15.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/15.webp?version=3",
         "gameModes": [
           "standard"
         ],
@@ -23148,7 +23148,7 @@
       {
         "id": 16,
         "name": "Surface Scan",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/16.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/16.webp?version=3",
         "gameModes": [
           "standard"
         ],
@@ -23157,7 +23157,7 @@
       {
         "id": 17,
         "name": "Destroy Enemy Base",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/17.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/17.webp?version=3",
         "gameModes": [
           "standard"
         ],
@@ -23166,7 +23166,7 @@
       {
         "id": 18,
         "name": "Recon Mission",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/18.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/18.webp?version=3",
         "gameModes": [
           "standard"
         ],
@@ -23175,7 +23175,7 @@
       {
         "id": 21,
         "name": "Recon Mission",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/21.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/21.webp?version=3",
         "gameModes": [
           "recon"
         ],
@@ -23184,7 +23184,7 @@
       {
         "id": 20,
         "name": "Surface Scan",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/20.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/20.webp?version=3",
         "gameModes": [
           "recon"
         ],
@@ -23193,7 +23193,7 @@
       {
         "id": 19,
         "name": "Bring Them to Heel",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/19.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/19.webp?version=3",
         "gameModes": [
           "recon"
         ],
@@ -23202,7 +23202,7 @@
       {
         "id": 22,
         "name": "Supply Run",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/22.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/22.webp?version=3",
         "gameModes": [
           "standard"
         ],
@@ -23211,7 +23211,7 @@
       {
         "id": 23,
         "name": "Failed Negotiations",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/23.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/23.webp?version=3",
         "gameModes": [
           "standard"
         ],
@@ -23220,7 +23220,7 @@
       {
         "id": 24,
         "name": "Retrieve the Data",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/24.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/24.webp?version=3",
         "gameModes": [
           "standard"
         ],
@@ -23229,7 +23229,7 @@
       {
         "id": 25,
         "name": "Align the Relay",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/25.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/objectives/25.webp?version=3",
         "gameModes": [
           "standard"
         ],
@@ -23240,7 +23240,7 @@
       {
         "id": 13,
         "name": "Advanced Intel",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/13.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/13.webp?version=3",
         "gameModes": [
           "standard"
         ],
@@ -23249,7 +23249,7 @@
       {
         "id": 14,
         "name": "Fortified Position",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/14.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/14.webp?version=3",
         "gameModes": [
           "standard"
         ],
@@ -23258,7 +23258,7 @@
       {
         "id": 15,
         "name": "Cunning Deployment",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/15.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/15.webp?version=3",
         "gameModes": [
           "standard"
         ],
@@ -23267,7 +23267,7 @@
       {
         "id": 16,
         "name": "Garrison",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/16.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/16.webp?version=3",
         "gameModes": [
           "standard"
         ],
@@ -23276,7 +23276,7 @@
       {
         "id": 17,
         "name": "Ordnance",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/17.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/17.webp?version=3",
         "gameModes": [
           "standard"
         ],
@@ -23285,7 +23285,7 @@
       {
         "id": 18,
         "name": "Strafing Run",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/18.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/18.webp?version=3",
         "gameModes": [
           "standard"
         ],
@@ -23294,7 +23294,7 @@
       {
         "id": 20,
         "name": "Cunning Deployment",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/20.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/20.webp?version=3",
         "gameModes": [
           "recon"
         ],
@@ -23303,7 +23303,7 @@
       {
         "id": 19,
         "name": "Advanced Intel",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/19.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/19.webp?version=3",
         "gameModes": [
           "recon"
         ],
@@ -23312,7 +23312,7 @@
       {
         "id": 21,
         "name": "Fortified Position",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/21.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/21.webp?version=3",
         "gameModes": [
           "recon"
         ],
@@ -23321,98 +23321,82 @@
       {
         "id": 28,
         "name": "Scrambled Orders",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/28.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/28.webp?version=3",
         "gameModes": [
           "standard"
         ],
         "unique": true,
-        "factions": [
-          1
-        ]
+        "factions": [1, 13, 18]
       },
       {
         "id": 29,
         "name": "Extreme Discipline",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/29.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/29.webp?version=3",
         "gameModes": [
           "standard"
         ],
         "unique": true,
-        "factions": [
-          2, 7, 10, 17, 19
-        ]
+        "factions": [2, 10, 19, 17, 7]
       },
       {
         "id": 26,
         "name": "Rapid Deployment",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/26.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/26.webp?version=3",
         "gameModes": [
           "standard"
         ],
         "unique": true,
-        "factions": [
-          4, 12, 16, 21
-        ]
+        "factions": [4, 21, 12, 16]
       },
       {
         "id": 22,
         "name": "Black Ops",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/22.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/22.webp?version=3",
         "gameModes": [
           "standard"
         ],
         "unique": true,
-        "factions": [
-          2, 7, 10, 17, 19
-        ]
+        "factions": [2, 10, 19, 17, 7]
       },
       {
         "id": 23,
         "name": "Command Override",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/23.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/23.webp?version=3",
         "gameModes": [
           "standard"
         ],
         "unique": true,
-        "factions": [
-          5, 11, 15, 20
-        ]
+        "factions": [5, 11, 15, 20]
       },
       {
         "id": 24,
         "name": "Coordinated Strike",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/24.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/24.webp?version=3",
         "gameModes": [
           "standard"
         ],
         "unique": true,
-        "factions": [
-          4, 12, 16, 21
-        ]
+        "factions": [4, 21, 12, 16]
       },
       {
         "id": 25,
         "name": "No Time to Lose",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/25.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/25.webp?version=3",
         "gameModes": [
           "standard"
         ],
         "unique": true,
-        "factions": [
-          1, 13, 18
-        ]
+        "factions": [1, 13, 18]
       },
       {
         "id": 27,
         "name": "Armored Assault",
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/27.webp?version=4",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/conditions/27.webp?version=3",
         "gameModes": [
           "standard"
         ],
         "unique": true,
-        "factions": [
-          5, 11, 15, 20
-        ]
+        "factions": [5, 11, 15, 20]
       }
     ],
     "deployments": [
