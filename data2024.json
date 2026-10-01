@@ -5,7 +5,7 @@
 	"appVersion": 2,
 	"update": {
 		"manifestUrl": "https://nowforwrath.github.io/data2024.update.json",
-		"contentVersion": "2026.09.28.00"
+		"contentVersion": "2026.09.30.00"
 	},
 	"disallowMultipleFactions": true,
 	"colors": {
@@ -9035,7 +9035,8 @@
 							"Minas Morgul",
 							"Cirith Ungol",
 							"The Black Gate",
-							"Ravagers of the Shire"
+							"Ravagers of the Shire",
+							"Army of the Great Eye"
 						]
 					}
 				]
@@ -45795,7 +45796,7 @@
 			{
 				"name": "Goldberry is waiting",
 				"tag": "Passive",
-				"definition": "Goldberry may only be included in your Army if it includes Tom Bombadil. Goldberry must give up a WIll Point during the End Phase of any turn in which she was Engaged in Combat. Should Goldberry be reduced to 0 Will Points, or if there are no friendly models on the board other tahn herself and/or Tom Bombadil, then she will simply wander off back to her homestead. Remove Goldberry as a casualty."
+				"definition": "Goldberry may only be included in your Army if it includes Tom Bombadil. Goldberry must give up a Will Point during the End Phase of any turn in which she was Engaged in Combat. Should Goldberry be reduced to 0 Will Points, or if there are no friendly models on the board other than herself and/or Tom Bombadil, then she will simply wander off back to her homestead. Remove Goldberry as a casualty."
 			},
 			{
 				"name": "Whips of the Master",
@@ -48822,7 +48823,7 @@
 			},
 			{
 				"name": "Ursine Fury",
-				"definition": "At the beginning of each Move Phase, before the Declare Heroic Action step, you may roll a D6 for each friendly **Bear** model you have on the battlefield. If any of the D6 roll a natural 6, then for the duration of the turn enemy models suffer a -1 penalty to any Couratge Tests they are required to take as a result of trying to Charge a model with the Terror special rule."
+				"definition": "At the beginning of each Move Phase, before the Declare Heroic Action step, you may roll a D6 for each friendly **Bear** model you have on the battlefield. If any of the D6 roll a natural 6, then for the duration of the turn enemy models suffer a -1 penalty to any Courage Tests they are required to take as a result of trying to Charge a model with the Terror special rule."
 			},
 			{
 				"name": "Dwarven Mirrors",
