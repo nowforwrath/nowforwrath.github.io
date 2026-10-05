@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.10.02.0"
+    "contentVersion": "2026.10.05.0"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -8600,8 +8600,8 @@
         "points": 10,
         "type": 8,
         "keywords": [202, 181],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/16580.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/16580.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades/trimmed/16580.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades/16580.webp?version=3",
         "limit": null,
         "exhaustsPerTurn": null,
         "exhausts": null,
@@ -13054,8 +13054,8 @@
         "points": 5,
         "type": 8,
         "keywords": [181],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/16578.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/16578.webp?version=3",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades/trimmed/16578.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades/16578.webp?version=3",
         "limit": null,
         "exhaustsPerTurn": null,
         "exhausts": null,
