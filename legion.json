@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.10.05.0"
+    "contentVersion": "2026.10.08.0"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -17285,8 +17285,8 @@
         "quantityLimitedBy": [],
         "faction": 4,
         "unitType": 2,
-        "health": 6,
-        "courage": 2,
+        "health": 8,
+        "courage": 6,
         "speed": 2
       },
       {
@@ -17339,8 +17339,8 @@
         "quantityLimitedBy": [],
         "faction": 2,
         "unitType": 2,
-        "health": 1,
-        "courage": 2,
+        "health": 8,
+        "courage": 6,
         "speed": 2
       },
       {
