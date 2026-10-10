@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.10.10.1"
+    "contentVersion": "2026.10.10.2"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -13778,24 +13778,6 @@
         ],
         "replaceTier": 1,
         "factions": [1, 2, 4, 5, 9]
-      },
-      {
-        "id": 3668,
-        "name": "The Mando's Jetpack",
-        "points": 15,
-        "type": 2,
-        "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/3668.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/3668.webp?version=3",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [6179, 34881],
-        "unavailableWith": [
-          "The Mando's Jetpack"
-        ],
-        "factions": [1, 2, 4, 5]
       },
       {
         "id": 20314,
