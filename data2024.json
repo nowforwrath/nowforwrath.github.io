@@ -5,7 +5,7 @@
 	"appVersion": 2,
 	"update": {
 		"manifestUrl": "https://nowforwrath.github.io/data2024.update.json",
-		"contentVersion": "2026.09.30.00"
+		"contentVersion": "2026.10.10.00"
 	},
 	"disallowMultipleFactions": true,
 	"colors": {
@@ -42495,6 +42495,19 @@
 				"wounds": 2,
 				"courage": 5,
 				"intelligence": 5,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Beornings"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
 				"options": [
 					{
 						"name": "Swap hand-and-a-half weapon for great bow",
