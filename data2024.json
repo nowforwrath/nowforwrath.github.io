@@ -5,7 +5,7 @@
 	"appVersion": 2,
 	"update": {
 		"manifestUrl": "https://nowforwrath.github.io/data2024.update.json",
-		"contentVersion": "2026.10.19.00"
+		"contentVersion": "2026.10.23.00"
 	},
 	"disallowMultipleFactions": true,
 	"colors": {
@@ -32480,19 +32480,6 @@
 				],
 				"wargear": [
 					"Hand weapon"
-				],
-				"requiredChildren": [
-					{
-						"elementPropertyName": "options",
-						"name": "Battlin' Brandybuck",
-						"in": [
-							[
-								"Battle of Bywater",
-								"Meriadoc Brandybuck, Captain of the Shire"
-							]
-						],
-						"points": 1
-					}
 				],
 				"options": [
 					{
