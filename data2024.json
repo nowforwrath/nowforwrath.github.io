@@ -5,7 +5,7 @@
 	"appVersion": 2,
 	"update": {
 		"manifestUrl": "https://nowforwrath.github.io/data2024.update.json",
-		"contentVersion": "2026.10.23.00"
+		"contentVersion": "2026.10.24.00"
 	},
 	"disallowMultipleFactions": true,
 	"colors": {
@@ -45666,12 +45666,12 @@
 			{
 				"name": "Pall of Darkness",
 				"definition": "At the start of the Move Phase, before the Declare Heroic Actions step, the Shadow Lord may spend a Will Point to use this special rule. If he does, then until the End Phase of the turn, Shooting Attacks that target the Shadow Lord, or any model within 6\" of him, will only ever hit on the roll of a 6.",
-				"tag": "Active"
+				"tag": "Passive"
 			},
 			{
 				"name": "Arcana Leech",
 				"definition": "At the start of the Move Phase, before the Declare Heroic Actions step, the Undying may spend a Will Point to use this special rule. If he does, then until the End Phase of the turn, the Undying regains a Will Point spent earlier in the battle every time another model successfully casts a Magical Power within 6\".",
-				"tag": "Active"
+				"tag": "Passive"
 			},
 			{
 				"name": "Eternal Willpower",
@@ -45686,7 +45686,7 @@
 			{
 				"name": "Rule Through Fear",
 				"definition": "At the start of the Fight Phase, before the Declare Heroic Actions step, the Dark Marshal may spend a Will Point to use this special rule. If he does, then until the End Phase of the turn, friendly **Warrior** models treat the Dark Marshal as a banner with a range of 6\".",
-				"tag": "Active"
+				"tag": "Passive"
 			},
 			{
 				"name": "Essence Leech",
@@ -45696,12 +45696,12 @@
 			{
 				"name": "Miasmatic Presence",
 				"definition": "At the start of the Move Phase, before the Declare Heroic Actions step, the Tainted may spend a Will Point to use this special rule. If he does, then until the End Phase of the turn, all **Warrior** models (both friendly and enemy) within 6\" of the Tainted may not benefit from the Stand Fast rule, and may not take part in any Heroic Actions.",
-				"tag": "Active"
+				"tag": "Passive"
 			},
 			{
 				"name": "Seeping Decay",
 				"definition": "At the start of the Fight Phase, before the Declare Heroic Actions step, roll a D6 for every non-**Spirit** model in base contact with the Tainted, both friendly and enemy. On the roll of a natural 6, the model immediately suffers a Wound. If the model in base contact is a **Cavalry** model, roll for both the rider and the **Mount** separately. If after this special rule has been resolved the Tainted is no longer in base contact with any enemy models, then he will not count as being Engaged in Combat that turn (unless he is subsequently Charged as a result of a Heroic Combat).",
-				"tag": "Active"
+				"tag": "Passive"
 			},
 			{
 				"name": "In Defence of the King",
