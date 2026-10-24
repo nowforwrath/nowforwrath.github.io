@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.10.20.0"
+    "contentVersion": "2026.10.24.0"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -17583,7 +17583,13 @@
             "id": "3",
             "propertyName": "units"
           }
-        ]
+        ],
+        "tierCounting": {
+          "exempt": {
+            "whenArmyIncludes": "32589",
+            "perSourceUnit": 1
+          }
+        }
       },
       {
         "name": "DF-90 Mortar Trooper",
@@ -21098,12 +21104,7 @@
             "rank": 6
           }
         ],
-        "upgradeTypes": [
-          {
-            "id": 24,
-            "required": true
-          },
-          9, 10, 2, 2, 12],
+        "upgradeTypes": [24, 9, 10, 2, 2, 12],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/31667.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/31667.webp?version=8",
         "keywords": [51, 159],
