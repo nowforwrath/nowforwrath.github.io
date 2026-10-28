@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.10.24.0"
+    "contentVersion": "2026.10.28.0"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -17427,7 +17427,7 @@
         "upgradeTypes": [6],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/43.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/43.webp?version=8",
-        "keywords": [83, 85, 86, 84, 187, 153, 201],
+        "keywords": [83, 85, 52, 86, 84, 187, 153, 201],
         "figures": 1,
         "id": "43",
         "unlimited": true,
@@ -22598,7 +22598,7 @@
         "upgradeTypes": [5, 10],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33792.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33792.webp?version=8",
-        "keywords": [1, 115, 21, 4, 145],
+        "keywords": [1, 115, 21, 4, 145, 202, 207, 183, 208, 184],
         "figures": 1,
         "id": "33792",
         "unlimited": false,
@@ -22631,7 +22631,7 @@
         "upgradeTypes": [5, 10],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33793.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33793.webp?version=8",
-        "keywords": [1, 115, 21, 4, 145],
+        "keywords": [1, 115, 21, 4, 145, 202, 207, 183, 208, 184],
         "figures": 1,
         "id": "33793",
         "unlimited": false,
