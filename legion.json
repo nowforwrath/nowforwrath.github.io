@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.10.28.1"
+    "contentVersion": "2026.10.28.2"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -5829,7 +5829,7 @@
         "unavailableWith": [
           "Caught in a Web"
         ],
-        "factions": [1, 2, 4, 5]
+        "factions": [1, 2, 4, 5, 15]
       },
       {
         "id": 22599,
@@ -9802,7 +9802,7 @@
         "unavailableWith": [
           "Improvised Orders"
         ],
-        "factions": [1, 2, 4, 5, 10, 11, 21, 13, 19, 12, 14, 15, 8, 16, 17, 7, 18, 20, 9]
+        "factions": [1, 2, 4, 5, 10, 11, 21, 13, 19, 12, 14, 8, 15, 16, 17, 7, 18, 20, 9]
       },
       {
         "id": 22918,
