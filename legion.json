@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.10.30.0"
+    "contentVersion": "2026.10.30.1"
   },
   "credit": [],
   "game": "Star Wars: Legion",
