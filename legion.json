@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.02.2"
+    "contentVersion": "2026.11.02.3"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -23386,7 +23386,7 @@
             "rank": 2
           }
         ],
-        "upgradeTypes": [4, 1, 2, 3, 26, {
+        "upgradeTypes": [4, 1, 2, 3, 22, 26, {
             "id": 4,
             "unlockedBy": 21906
           },
