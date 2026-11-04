@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.02.3"
+    "contentVersion": "2026.11.04.0"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -7016,7 +7016,8 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [36806]
+        "availableIn": [36806],
+        "ttsName": "DLT-19 Stormtrooper (Wet)"
       },
       {
         "id": 7,
@@ -12361,7 +12362,8 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [36806]
+        "availableIn": [36806],
+        "ttsName": "RT-97C Stormtrooper (Wet)"
       },
       {
         "id": 90,
