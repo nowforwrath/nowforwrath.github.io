@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.10.0"
+    "contentVersion": "2026.11.10.1"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -17240,7 +17240,6 @@
             "rank": 5
           },
           {
-            "id": 22,
             "rank": 5
           }
         ],
@@ -17718,7 +17717,11 @@
             "rank": 6
           }
         ],
-        "upgradeTypes": [5, 5, 5, 10],
+        "upgradeTypes": [5, 5, 5, 10, {
+            "id": 5,
+            "unlockedBy": 20438
+          }
+        ],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/46.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/46.webp?version=8",
         "keywords": [2, 3, 27, 4, 1, 28, 202, 207],
@@ -17776,13 +17779,7 @@
             "id": "3",
             "propertyName": "units"
           }
-        ],
-        "tierCounting": {
-          "exempt": {
-            "whenArmyIncludes": "32589",
-            "perSourceUnit": 1
-          }
-        }
+        ]
       },
       {
         "name": "DF-90 Mortar Trooper",
@@ -20184,11 +20181,6 @@
         "health": 11,
         "courage": 8,
         "speed": 2,
-        "tierCounting": {
-          "waivesMinimum": {
-            "tiers": [1]
-          }
-        },
         "ttsName": "Major Marquand Tempest Scout 2",
         "unavailableWith": [
           "Major Marquand"
@@ -21197,11 +21189,6 @@
         "health": 6,
         "courage": 2,
         "speed": 2,
-        "tierCounting": {
-          "waivesMinimum": {
-            "tiers": [1]
-          }
-        },
         "ttsName": "Cassian Andor Capable Intelligence Agent",
         "unavailableWith": [
           "Cassian Andor",
@@ -21349,7 +21336,6 @@
             "rank": 1
           },
           {
-            "id": 22,
             "rank": 1
           }
         ],
@@ -22762,11 +22748,6 @@
         "health": 5,
         "courage": 3,
         "speed": 2,
-        "tierCounting": {
-          "waivesMinimum": {
-            "tiers": [1]
-          }
-        },
         "ttsName": "Paz Vizsla Proud Warrior",
         "unavailableWith": [
           "Paz Vizsla"
@@ -23415,7 +23396,6 @@
             "rank": 4
           },
           {
-            "id": 22,
             "rank": 4
           }
         ],
@@ -23444,7 +23424,6 @@
             "rank": 2
           },
           {
-            "id": 22,
             "rank": 2
           }
         ],
