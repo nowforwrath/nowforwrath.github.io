@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.17.3"
+    "contentVersion": "2026.11.17.4"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -6826,7 +6826,7 @@
       {
         "id": 170,
         "name": "Del Meeko",
-        "points": 35,
+        "points": 28,
         "type": 4,
         "keywords": [196, 182, 204, 212],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/170.webp?version=3",
@@ -8636,6 +8636,20 @@
         ]
       },
       {
+        "id": 22419,
+        "name": "GALAAR-90 Sniper Rifle",
+        "points": 35,
+        "type": 4,
+        "keywords": [204],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22419.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22419.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [33772, 33773, 33796, 34890, 4767]
+      },
+      {
         "id": 22654,
         "name": "GALAAR-90 Sniper Rifle",
         "points": 5,
@@ -8657,20 +8671,6 @@
             }
           ]
         ]
-      },
-      {
-        "id": 22419,
-        "name": "GALAAR-90 Sniper Rifle",
-        "points": 35,
-        "type": 4,
-        "keywords": [204],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22419.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22419.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [33772, 33773, 33796, 34890, 4767]
       },
       {
         "id": 21339,
@@ -9785,6 +9785,21 @@
         ]
       },
       {
+        "id": 19896,
+        "name": "Imperial March",
+        "points": 6,
+        "type": 10,
+        "keywords": [],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/19896.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/19896.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": false,
+        "availableIn": [30, 17],
+        "factions": [7]
+      },
+      {
         "id": 19828,
         "name": "Imperial March",
         "points": 6,
@@ -9805,21 +9820,6 @@
           ]
         ],
         "requiresTier": [2]
-      },
-      {
-        "id": 19896,
-        "name": "Imperial March",
-        "points": 6,
-        "type": 10,
-        "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/19896.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/19896.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": false,
-        "availableIn": [30, 17],
-        "factions": [7]
       },
       {
         "id": 50,
@@ -10050,6 +10050,29 @@
         ]
       },
       {
+        "id": 18478,
+        "name": "Jedi Guardian",
+        "points": 22,
+        "type": 19,
+        "keywords": [2, 192, 197],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/18478.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/18478.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": false,
+        "requiresTier": [3],
+        "chooseOneKey": "leader",
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [2]
+            }
+          ]
+        ]
+      },
+      {
         "id": 20431,
         "name": "Jedi Guardian",
         "points": 8,
@@ -10071,29 +10094,6 @@
           }
         ],
         "factions": [1, 2, 4, 5, 12, 21],
-        "addProperties": [
-          [
-            {
-              "property": "keywords",
-              "value": [2]
-            }
-          ]
-        ]
-      },
-      {
-        "id": 18478,
-        "name": "Jedi Guardian",
-        "points": 22,
-        "type": 19,
-        "keywords": [2, 192, 197],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/18478.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/18478.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": false,
-        "requiresTier": [3],
-        "chooseOneKey": "leader",
         "addProperties": [
           [
             {
