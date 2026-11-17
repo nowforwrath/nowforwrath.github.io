@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.17.0"
+    "contentVersion": "2026.11.17.1"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -4654,7 +4654,7 @@
         "unavailableWith": [
           "Academy Trained"
         ],
-        "factions": [1, 2, 4, 5, 10, 19, 17, 7],
+        "factions": [1, 2, 4, 5, 10, 19, 22, 17, 7],
         "addProperties": [
           [
             {
@@ -6132,7 +6132,7 @@
       {
         "id": 20802,
         "name": "Clone Captain Rex",
-        "points": 38,
+        "points": 26,
         "type": 19,
         "keywords": [],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20802.webp?version=3",
@@ -6496,21 +6496,6 @@
         "availableIn": [36]
       },
       {
-        "id": 20272,
-        "name": "Combat Armor",
-        "points": 11,
-        "type": 2,
-        "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20272.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20272.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [31667, 31668],
-        "ttsName": "Combat Armor (Empire)"
-      },
-      {
         "id": 20282,
         "name": "Combat Armor",
         "points": 11,
@@ -6524,6 +6509,21 @@
         "unique": null,
         "availableIn": [31669, 31670],
         "ttsName": "Combat Armor (Rebel)"
+      },
+      {
+        "id": 20272,
+        "name": "Combat Armor",
+        "points": 11,
+        "type": 2,
+        "keywords": [],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20272.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20272.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [31667, 31668],
+        "ttsName": "Combat Armor (Empire)"
       },
       {
         "id": 22603,
@@ -6585,7 +6585,7 @@
         "unavailableWith": [
           "Command and Control Uplink"
         ],
-        "factions": [1, 2, 4, 5, 10, 19, 7]
+        "factions": [1, 2, 4, 5, 10, 19, 22, 7]
       },
       {
         "id": 169,
@@ -6762,7 +6762,7 @@
         "unavailableWith": [
           "Defend in Depth"
         ],
-        "factions": [1, 2, 4, 5, 10, 17, 7],
+        "factions": [1, 2, 4, 5, 10, 22, 17, 7],
         "addProperties": [
           [
             {
@@ -7330,6 +7330,27 @@
         "availableIn": [31842, 31843]
       },
       {
+        "id": 19830,
+        "name": "Dug In",
+        "points": 6,
+        "type": [10, 23],
+        "keywords": [],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/19830.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/19830.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": false,
+        "requiredProperties": [
+          [
+            {
+              "property": "unitType",
+              "value": 4
+            }
+          ]
+        ]
+      },
+      {
         "id": 20319,
         "name": "Dug In",
         "points": 6,
@@ -7463,27 +7484,6 @@
         ]
       },
       {
-        "id": 19830,
-        "name": "Dug In",
-        "points": 6,
-        "type": [10, 23],
-        "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/19830.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/19830.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": false,
-        "requiredProperties": [
-          [
-            {
-              "property": "unitType",
-              "value": 4
-            }
-          ]
-        ]
-      },
-      {
         "id": 24,
         "name": "DW-3 Concussion Grenade Launcher",
         "points": 8,
@@ -7557,7 +7557,7 @@
       {
         "id": 16569,
         "name": "Echo, ARC Marksman",
-        "points": 46,
+        "points": 36,
         "type": 4,
         "keywords": [192, 75, 178, 204, 201],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/16569.webp?version=3",
@@ -8073,7 +8073,7 @@
         "unavailableWith": [
           "Fire Control"
         ],
-        "factions": [1, 2, 4, 5]
+        "factions": [1, 2, 4, 5, 22]
       },
       {
         "id": 87,
@@ -8115,7 +8115,7 @@
       {
         "id": 16552,
         "name": "Fives",
-        "points": 40,
+        "points": 36,
         "type": 19,
         "keywords": [192, 2, 210],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades/trimmed/16552.webp?version=3",
@@ -8600,20 +8600,6 @@
         ]
       },
       {
-        "id": 22419,
-        "name": "GALAAR-90 Sniper Rifle",
-        "points": 35,
-        "type": 4,
-        "keywords": [204],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22419.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22419.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [33772, 33773, 33796, 34890, 4767]
-      },
-      {
         "id": 22654,
         "name": "GALAAR-90 Sniper Rifle",
         "points": 5,
@@ -8635,6 +8621,20 @@
             }
           ]
         ]
+      },
+      {
+        "id": 22419,
+        "name": "GALAAR-90 Sniper Rifle",
+        "points": 35,
+        "type": 4,
+        "keywords": [204],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22419.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22419.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [33772, 33773, 33796, 34890, 4767]
       },
       {
         "id": 21339,
@@ -9011,7 +9011,7 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": true,
-        "availableIn": [6178, 6179, 34881],
+        "availableIn": [6178, 6179, 34881, 6178],
         "unavailableWith": [
           "Grogu",
           {
@@ -9162,29 +9162,6 @@
         "availableIn": [31844, 31845]
       },
       {
-        "id": 20275,
-        "name": "Heavy Blaster Pistol",
-        "points": 5,
-        "type": 12,
-        "keywords": [8, 73, 204, 205],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20275.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20275.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [31667, 31668],
-        "ttsName": "Heavy Blaster Pistol (Empire)",
-        "addProperties": [
-          [
-            {
-              "property": "keywords",
-              "value": [8, 73]
-            }
-          ]
-        ]
-      },
-      {
         "id": 20284,
         "name": "Heavy Blaster Pistol",
         "points": 12,
@@ -9203,6 +9180,29 @@
             {
               "property": "keywords",
               "value": [53]
+            }
+          ]
+        ]
+      },
+      {
+        "id": 20275,
+        "name": "Heavy Blaster Pistol",
+        "points": 5,
+        "type": 12,
+        "keywords": [8, 73, 204, 205],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20275.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20275.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [31667, 31668],
+        "ttsName": "Heavy Blaster Pistol (Empire)",
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [8, 73]
             }
           ]
         ]
@@ -11525,7 +11525,7 @@
         "unavailableWith": [
           "Platoon Commander"
         ],
-        "factions": [1, 2, 4, 5, 10, 19, 7],
+        "factions": [1, 2, 4, 5, 10, 19, 22, 7],
         "addProperties": [
           [
             {
@@ -13292,7 +13292,7 @@
         "unavailableWith": [
           "Strike Team Leader"
         ],
-        "factions": [1, 2, 4, 5, 12, 21, 7, 20]
+        "factions": [1, 2, 4, 5, 12, 21, 22, 7, 20]
       },
       {
         "id": 22922,
@@ -14053,7 +14053,7 @@
         "unavailableWith": [
           "Tip of the Spear"
         ],
-        "factions": [1, 2, 4, 5, 10, 19, 17, 7],
+        "factions": [1, 2, 4, 5, 10, 19, 22, 17, 7],
         "addProperties": [
           [
             {
@@ -14164,7 +14164,7 @@
         "unavailableWith": [
           "Trusted Agent"
         ],
-        "factions": [1, 2, 4, 5, 10, 13, 7, 9]
+        "factions": [1, 2, 4, 5, 10, 13, 22, 7, 9]
       },
       {
         "id": 181,
@@ -19420,7 +19420,7 @@
       {
         "name": "Bossk",
         "title": "Trandoshan Terror",
-        "points": 105,
+        "points": 96,
         "factions": [
           {
             "id": 2,
@@ -19707,7 +19707,7 @@
       {
         "name": "IG-88",
         "title": "Notorious Assassin Droid",
-        "points": 110,
+        "points": 100,
         "factions": [
           {
             "id": 2,
@@ -19742,7 +19742,7 @@
       {
         "name": "IG-11",
         "title": "Nurse and Protect",
-        "points": 105,
+        "points": 93,
         "factions": [
           {
             "id": 1,
@@ -19770,11 +19770,7 @@
             "id": 18,
             "required": true
           },
-          10, 6, 2, {
-            "id": 15,
-            "unlockedBy": 3648
-          }
-        ],
+          10, 6, 2, 15],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/6178.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/6178.webp?version=8",
         "keywords": [10, 8, 26, 79, 142, 207],
@@ -20474,7 +20470,7 @@
       {
         "name": "The Bad Batch",
         "title": "Clone Force 99",
-        "points": 170,
+        "points": 140,
         "factions": [
           {
             "id": 4,
@@ -20635,7 +20631,7 @@
       {
         "name": "The Bad Batch",
         "title": "Clone Force 99",
-        "points": 150,
+        "points": 140,
         "factions": [
           {
             "id": 1,
@@ -22223,6 +22219,10 @@
         "factions": [
           {
             "id": 4,
+            "rank": 6
+          },
+          {
+            "id": 16,
             "rank": 6
           }
         ],
@@ -24006,7 +24006,7 @@
         "name": "Coordinated Fire",
         "pips": 3,
         "faction": 2,
-        "factions": [2, 10, 19, null, 17, 7],
+        "factions": [2, 10, 19, 22, 17, 7],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/37.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/37.webp?version=7",
         "keywords": null
@@ -24698,7 +24698,7 @@
         "name": "Defiance",
         "pips": 1,
         "faction": 4,
-        "factions": [4, 21, 12, 16],
+        "factions": [4, 12, 21, 16],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16622.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16622.webp?version=7",
         "keywords": null
@@ -24848,7 +24848,7 @@
         "name": "Pinned Down",
         "pips": 2,
         "faction": 2,
-        "factions": [2, 10, 19, null, 17, 7],
+        "factions": [2, 10, 19, 22, 17, 7],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/38.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/38.webp?version=7",
         "keywords": null
@@ -24950,7 +24950,7 @@
         "name": "Synchronized Offensive",
         "pips": 1,
         "faction": 4,
-        "factions": [4, 21, 12, 16],
+        "factions": [4, 12, 21, 16],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/93.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/93.webp?version=7",
         "keywords": null
@@ -25372,7 +25372,7 @@
         "name": "Creeping Barrage",
         "pips": 3,
         "faction": null,
-        "factions": [null],
+        "factions": [22],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/20425.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/20425.webp?version=7",
         "keywords": null
@@ -25382,7 +25382,7 @@
         "name": "In the Trenches",
         "pips": 2,
         "faction": null,
-        "factions": [null],
+        "factions": [22],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/20426.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/20426.webp?version=7",
         "keywords": [72]
@@ -25392,7 +25392,7 @@
         "name": "Over the Top",
         "pips": 1,
         "faction": null,
-        "factions": [null],
+        "factions": [22],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/20427.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/20427.webp?version=7",
         "keywords": null
@@ -25552,7 +25552,7 @@
         "name": "Attack of the Clones",
         "pips": 3,
         "faction": 4,
-        "factions": [4, 21, 12, 16],
+        "factions": [4, 12, 21, 16],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/97.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/97.webp?version=7",
         "keywords": null
@@ -26008,7 +26008,7 @@
         "name": "Daring Defense",
         "pips": 3,
         "faction": 4,
-        "factions": [4, 21, 12, 16],
+        "factions": [4, 12, 21, 16],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16621.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16621.webp?version=7",
         "keywords": [115]
@@ -26018,7 +26018,7 @@
         "name": "Get In Position",
         "pips": 2,
         "faction": 4,
-        "factions": [4, 21, 12, 16],
+        "factions": [4, 12, 21, 16],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16623.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16623.webp?version=7",
         "keywords": [50]
@@ -26982,26 +26982,6 @@
         ]
       },
       {
-        "id": 14,
-        "name": "Reckless Diversion",
-        "pips": 2,
-        "faction": null,
-        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/14.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/14.webp?version=7",
-        "keywords": null,
-        "unlockedBy": [
-          {
-            "id": 15,
-            "propertyName": "units"
-          },
-          {
-            "id": 32594,
-            "propertyName": "units"
-          }
-        ]
-      },
-      {
         "id": 76,
         "name": "Our Fate is in Your Hands",
         "pips": 1,
@@ -27075,6 +27055,22 @@
         "unlockedBy": [
           {
             "id": 20,
+            "propertyName": "units"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Reckless Diversion",
+        "pips": 2,
+        "faction": null,
+        "factions": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/14.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/14.webp?version=7",
+        "keywords": null,
+        "unlockedBy": [
+          {
+            "id": 15,
             "propertyName": "units"
           }
         ]
@@ -27177,7 +27173,7 @@
         "name": "Air Support",
         "pips": 2,
         "faction": 4,
-        "factions": [4, 21, 12, 16],
+        "factions": [4, 12, 21, 16],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/98.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/98.webp?version=7",
         "keywords": [176, 201]
@@ -27187,7 +27183,7 @@
         "name": "Covert Observation",
         "pips": 1,
         "faction": 2,
-        "factions": [2, 10, 19, null, 17, 7],
+        "factions": [2, 10, 19, 22, 17, 7],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/27.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/27.webp?version=7",
         "keywords": null
@@ -27519,10 +27515,6 @@
           {
             "id": 45,
             "propertyName": "units"
-          },
-          {
-            "id": 32232,
-            "propertyName": "units"
           }
         ]
       },
@@ -27597,16 +27589,6 @@
         ]
       },
       {
-        "id": 94,
-        "name": "Roger, Roger!",
-        "pips": 3,
-        "faction": 5,
-        "factions": [5, 11, 15, 20],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/94.webp?version=7",
-        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/94.webp?version=7",
-        "keywords": null
-      },
-      {
         "id": 23,
         "name": "Sorry About the Mess",
         "pips": 1,
@@ -27619,12 +27601,18 @@
           {
             "id": 15,
             "propertyName": "units"
-          },
-          {
-            "id": 32594,
-            "propertyName": "units"
           }
         ]
+      },
+      {
+        "id": 94,
+        "name": "Roger, Roger!",
+        "pips": 3,
+        "faction": 5,
+        "factions": [5, 11, 15, 20],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/94.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/94.webp?version=7",
+        "keywords": null
       },
       {
         "id": 2273,
