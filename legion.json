@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.18.19"
+    "contentVersion": "2026.11.18.21"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -9026,7 +9026,7 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": false,
-        "availableIn": [1984, 19078]
+        "availableIn": [1984, 19078, 37053]
       },
       {
         "id": 919,
@@ -9040,7 +9040,7 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": false,
-        "availableIn": [1984, 19078]
+        "availableIn": [1984, 19078, 37053]
       },
       {
         "id": 22913,
@@ -14872,14 +14872,6 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "requiredProperties": [
-          [
-            {
-              "property": "faction",
-              "value": null
-            }
-          ]
-        ],
         "factions": [21]
       },
       {
@@ -14894,14 +14886,6 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "requiredProperties": [
-          [
-            {
-              "property": "faction",
-              "value": null
-            }
-          ]
-        ],
         "factions": [21]
       },
       {
@@ -14916,14 +14900,6 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "requiredProperties": [
-          [
-            {
-              "property": "faction",
-              "value": null
-            }
-          ]
-        ],
         "factions": [21]
       },
       {
@@ -14938,14 +14914,6 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "requiredProperties": [
-          [
-            {
-              "property": "faction",
-              "value": null
-            }
-          ]
-        ],
         "factions": [21]
       },
       {
@@ -14960,14 +14928,6 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "requiredProperties": [
-          [
-            {
-              "property": "faction",
-              "value": null
-            }
-          ]
-        ],
         "factions": [21]
       },
       {
@@ -15174,14 +15134,6 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "requiredProperties": [
-          [
-            {
-              "property": "faction",
-              "value": null
-            }
-          ]
-        ],
         "factions": [21]
       },
       {
@@ -15196,14 +15148,6 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "requiredProperties": [
-          [
-            {
-              "property": "faction",
-              "value": null
-            }
-          ]
-        ],
         "factions": [21],
         "chooseOneKey": "leader"
       },
@@ -17082,14 +17026,7 @@
                   { "tier": 5, "maximum": 1 }
                 ]
               }
-            },
-            "grantedUpgradeSlots": [
-              {
-                "upgradeType": 1,
-                "eligibleRanks": [2],
-                "eligibleUnitTypes": [1, 5]
-              }
-            ]
+            }
           },
           {
             "name": "Superior ARC Training",
@@ -21582,7 +21519,7 @@
             "rank": 2
           }
         ],
-        "upgradeTypes": [19, 4, 1, 1, 10, 2, 3, {
+        "upgradeTypes": [19, 4, 1, { "id": 1, "unlockedBy": { "id": "ccbReinforced", "name": "Reinforced", "propertyName": "options" } }, 10, 2, 3, {
             "id": 4,
             "unlockedBy": 24082
           },
@@ -22660,7 +22597,7 @@
             "rank": 2
           }
         ],
-        "upgradeTypes": [19, 4, 1, 1, 10, 2, {
+        "upgradeTypes": [19, 4, 1, { "id": 1, "unlockedBy": { "id": "ccbReinforced", "name": "Reinforced", "propertyName": "options" } }, 10, 2, {
             "id": 2,
             "unlockedBy": 16567
           }
