@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.18.4"
+    "contentVersion": "2026.11.18.5"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -16824,7 +16824,7 @@
               {
                 "tier": 1,
                 "minimum": 1,
-                "maximum": 4
+                "maximum": 5
               },
               {
                 "tier": 2,
@@ -17269,6 +17269,10 @@
           {
             "id": 10,
             "rank": 2
+          },
+          {
+            "id": 22,
+            "rank": 2
           }
         ],
         "upgradeTypes": [4, 1, 2, 3, 22, {
@@ -17464,6 +17468,10 @@
           },
           {
             "id": 10,
+            "rank": 5
+          },
+          {
+            "id": 22,
             "rank": 5
           }
         ],
@@ -17760,6 +17768,10 @@
           },
           {
             "id": 10,
+            "rank": 4
+          },
+          {
+            "id": 22,
             "rank": 4
           }
         ],
@@ -21543,6 +21555,10 @@
           {
             "id": 10,
             "rank": 2
+          },
+          {
+            "id": 22,
+            "rank": 2
           }
         ],
         "upgradeTypes": [4, 4, 10, 2, {
@@ -24448,6 +24464,31 @@
         "courage": 2,
         "speed": 2,
         "ttsName": "Stormtrooper Riot Squad Trench Busters"
+      },
+      {
+        "name": "T-65 X-wing Fighter",
+        "title": null,
+        "points": 115,
+        "factions": [
+          {
+            "id": 1,
+            "rank": 7
+          }
+        ],
+        "upgradeTypes": [],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/37056.webp?version=8",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/37056.webp?version=8",
+        "keywords": [44, 54, 143, 85],
+        "figures": 1,
+        "id": "37056",
+        "unlimited": true,
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/units-new/portraits/37056.webp",
+        "quantityLimitedBy": [],
+        "faction": 1,
+        "unitType": 1,
+        "health": 6,
+        "courage": 4,
+        "speed": 3
       }
     ],
     "objectives": [
