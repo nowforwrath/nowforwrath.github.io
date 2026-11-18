@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.18.7"
+    "contentVersion": "2026.11.18.8"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -20400,7 +20400,11 @@
             "rank": 2
           }
         ],
-        "upgradeTypes": [4, 4, 22],
+        "upgradeTypes": [4, 4, 22, {
+            "id": 4,
+            "unlockedBy": 21906
+          }
+        ],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/5880.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/5880.webp?version=8",
         "keywords": [128, 62, 150, 25],
@@ -21555,10 +21559,6 @@
           {
             "id": 10,
             "rank": 2
-          },
-          {
-            "id": 22,
-            "rank": 2
           }
         ],
         "upgradeTypes": [4, 4, 10, 2, {
@@ -22141,6 +22141,10 @@
           },
           {
             "id": 10,
+            "rank": 6
+          },
+          {
+            "id": 22,
             "rank": 6
           }
         ],
@@ -23278,7 +23282,11 @@
             "id": 4,
             "required": true
           },
-          10, 10, 2, 3],
+          10, 10, 2, 3, {
+            "id": 4,
+            "unlockedBy": 21907
+          }
+        ],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33774.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33774.webp?version=8",
         "keywords": [128, 134, 14, 223],
@@ -24448,7 +24456,12 @@
         "name": "Stormtrooper Riot Squad",
         "title": "Trench Busters",
         "points": 50,
-        "factions": [],
+        "factions": [
+          {
+            "id": 22,
+            "rank": 3
+          }
+        ],
         "upgradeTypes": [4, 4, 10, 2, 3],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/37054.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/37054.webp?version=8",
