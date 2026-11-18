@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.18.26"
+    "contentVersion": "2026.11.18.27"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -17025,12 +17025,12 @@
             "name": "Reinforced",
             "id": "ccbReinforced",
             "requireChooseOneKey": "veteran",
-            "definition": "Allied Corps Trooper units gain 1 Personnel upgrade slot.\nThis army may take up to 1 additional Support unit and up to 1 additional Heavy unit.",
+            "definition": "Allied Corps Trooper units gain 1 Personnel upgrade slot.\nThis army may take up to 1 additional Commander unit and up to 1 additional Operative unit.",
             "addsTierRequirements": {
               "units": {
                 "tiers": [
-                  { "tier": 4, "maximum": 1 },
-                  { "tier": 5, "maximum": 1 }
+                  { "tier": 1, "maximum": 1 },
+                  { "tier": 6, "maximum": 1 }
                 ]
               }
             }
