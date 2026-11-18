@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.18.12"
+    "contentVersion": "2026.11.18.13"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -17102,8 +17102,8 @@
           }
         ],
         "upgradeTypes": [8, 6],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/1.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/1.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/1.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/1.webp?version=9",
         "keywords": [45, 22, 44, 37, 202],
         "figures": 1,
         "id": "1",
@@ -17143,8 +17143,8 @@
           }
         ],
         "upgradeTypes": [6, 20],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/2.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/2.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/2.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/2.webp?version=9",
         "keywords": [54, 58, 181, 202],
         "figures": 1,
         "id": "2",
@@ -17176,8 +17176,8 @@
           }
         ],
         "upgradeTypes": [5, 5, 5, 9],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/3.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/3.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/3.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/3.webp?version=9",
         "keywords": [3, 51, 28, 4, 65, 202, 207],
         "figures": 1,
         "id": "3",
@@ -17219,8 +17219,8 @@
           }
         ],
         "upgradeTypes": [5, 9, 10, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/4.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/4.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/4.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/4.webp?version=9",
         "keywords": [2, 1, 4, 6, 8, 87, 202, 207, 205],
         "figures": 1,
         "id": "4",
@@ -17296,8 +17296,8 @@
             "unlockedBy": 67
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/5.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/5.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/5.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/5.webp?version=9",
         "keywords": [62],
         "figures": 1,
         "id": "5",
@@ -17353,8 +17353,8 @@
             "unlockedBy": 55
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/6.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/6.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/6.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/6.webp?version=9",
         "keywords": [7, 50],
         "figures": 1,
         "id": "6",
@@ -17402,8 +17402,8 @@
             "unlockedBy": 67
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/7.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/7.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/7.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/7.webp?version=9",
         "keywords": [72],
         "figures": 4,
         "id": "7",
@@ -17431,8 +17431,8 @@
           }
         ],
         "upgradeTypes": [9, 9, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/8.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/8.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/8.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/8.webp?version=9",
         "keywords": [6, 8, 61, 95, 129],
         "figures": 1,
         "id": "8",
@@ -17476,8 +17476,8 @@
           }
         ],
         "upgradeTypes": [7, 8, 8, 8, 6],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/9.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/9.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/9.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/9.webp?version=9",
         "keywords": [53, 76, 79, 181, 202],
         "figures": 1,
         "id": "9",
@@ -17505,8 +17505,8 @@
           }
         ],
         "upgradeTypes": [7, 8, 6, 20],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/10.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/10.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/10.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/10.webp?version=9",
         "keywords": [44, 54, 55, 56, 57, 58, 53, 202, 181],
         "figures": 1,
         "id": "10",
@@ -17538,8 +17538,8 @@
           }
         ],
         "upgradeTypes": [9, 9, 10, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/11.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/11.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/11.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/11.webp?version=9",
         "keywords": [5, 6, 7, 8, 95],
         "figures": 1,
         "id": "11",
@@ -17587,8 +17587,8 @@
             "unlockedBy": 55
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/12.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/12.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/12.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/12.webp?version=9",
         "keywords": [2],
         "figures": 4,
         "id": "12",
@@ -17624,8 +17624,8 @@
             "unlockedBy": 20800
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/13.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/13.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/13.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/13.webp?version=9",
         "keywords": [9, 37, 8],
         "figures": 1,
         "id": "13",
@@ -17657,8 +17657,8 @@
           }
         ],
         "upgradeTypes": [9, 10, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/15.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/15.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/15.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/15.webp?version=9",
         "keywords": [10, 11, 8, 72, 9, 207],
         "figures": 1,
         "id": "15",
@@ -17710,8 +17710,8 @@
             "unlockedBy": 20801
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/17.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/17.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/17.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/17.webp?version=9",
         "keywords": [37, 8, 9],
         "figures": 1,
         "id": "17",
@@ -17739,8 +17739,8 @@
           }
         ],
         "upgradeTypes": [6, 11, 23, 26],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/18.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/18.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/18.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/18.webp?version=9",
         "keywords": [47, 49, 48, 141, 202, 181],
         "figures": 1,
         "id": "18",
@@ -17780,8 +17780,8 @@
           }
         ],
         "upgradeTypes": [6, 11, 23],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/19.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/19.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/19.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/19.webp?version=9",
         "keywords": [48, 52, 141, 179, 181, 202],
         "figures": 1,
         "id": "19",
@@ -17805,8 +17805,8 @@
           }
         ],
         "upgradeTypes": [4, 10, 10, 2, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/24.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/24.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/24.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/24.webp?version=9",
         "keywords": [2, 40, 41, 39],
         "figures": 1,
         "id": "24",
@@ -17839,8 +17839,8 @@
           }
         ],
         "upgradeTypes": [10, 10, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/25.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/25.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/25.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/25.webp?version=9",
         "keywords": [21, 22, 23, 24, 204, 202, 207],
         "figures": 1,
         "id": "25",
@@ -17876,8 +17876,8 @@
           }
         ],
         "upgradeTypes": [9, 9, 2, 26],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/29.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/29.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/29.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/29.webp?version=9",
         "keywords": [65, 67, 66, 95, 61],
         "figures": 1,
         "id": "29",
@@ -17917,8 +17917,8 @@
             "unlockedBy": 20801
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/30.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/30.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/30.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/30.webp?version=9",
         "keywords": [74, 62, 34],
         "figures": 1,
         "id": "30",
@@ -17964,8 +17964,8 @@
           }
         ],
         "upgradeTypes": [7, 8, 6, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/31.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/31.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/31.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/31.webp?version=9",
         "keywords": [53, 52, 158, 77, 79, 187, 181, 202],
         "figures": 1,
         "id": "31",
@@ -17993,8 +17993,8 @@
           }
         ],
         "upgradeTypes": [7, 8, 6, 20, 13, 13],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/32.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/32.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/32.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/32.webp?version=9",
         "keywords": [53, 58, 54, 79],
         "figures": 1,
         "id": "32",
@@ -18018,8 +18018,8 @@
           }
         ],
         "upgradeTypes": [10, 2, 2, 12],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33.webp?version=9",
         "keywords": [1, 10, 26, 7, 207],
         "figures": 1,
         "id": "33",
@@ -18058,8 +18058,8 @@
           }
         ],
         "upgradeTypes": [10, 6],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/35.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/35.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/35.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/35.webp?version=9",
         "keywords": [50, 51, 8, 25, 52, 183],
         "figures": 1,
         "id": "35",
@@ -18111,8 +18111,8 @@
             "unlockedBy": 55
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/36.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/36.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/36.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/36.webp?version=9",
         "keywords": [35, 141, 9],
         "figures": 4,
         "id": "36",
@@ -18156,8 +18156,8 @@
             "unlockedBy": 20803
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/38.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/38.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/38.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/38.webp?version=9",
         "keywords": [80, 81],
         "figures": 6,
         "id": "38",
@@ -18205,8 +18205,8 @@
             "unlockedBy": 67
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/39.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/39.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/39.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/39.webp?version=9",
         "keywords": [35, 141, 205],
         "figures": 4,
         "id": "39",
@@ -18230,8 +18230,8 @@
           }
         ],
         "upgradeTypes": [10, 6, 12],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/40.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/40.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/40.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/40.webp?version=9",
         "keywords": [79, 51, 71, 25, 52, 178, 187],
         "figures": 1,
         "id": "40",
@@ -18259,8 +18259,8 @@
           }
         ],
         "upgradeTypes": [5, 5, 9, 10],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/41.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/41.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/41.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/41.webp?version=9",
         "keywords": [2, 1, 23, 4, 82, 28, 3, 178, 207, 202],
         "figures": 1,
         "id": "41",
@@ -18296,8 +18296,8 @@
           }
         ],
         "upgradeTypes": [6, 23, 26],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/42.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/42.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/42.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/42.webp?version=9",
         "keywords": [47, 52, 48, 60, 124, 141, 178, 179, 181],
         "figures": 1,
         "id": "42",
@@ -18341,8 +18341,8 @@
           }
         ],
         "upgradeTypes": [6],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/43.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/43.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/43.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/43.webp?version=9",
         "keywords": [83, 85, 52, 86, 84, 187, 153, 201],
         "figures": 1,
         "id": "43",
@@ -18382,8 +18382,8 @@
           }
         ],
         "upgradeTypes": [6, 20, 13],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/44.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/44.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/44.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/44.webp?version=9",
         "keywords": [53, 54, 58, 181],
         "figures": 1,
         "id": "44",
@@ -18417,8 +18417,8 @@
           }
         ],
         "upgradeTypes": [9, 9, 10, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/45.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/45.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/45.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/45.webp?version=9",
         "keywords": [70, 51, 41, 87, 4, 162, 202, 207],
         "figures": 1,
         "id": "45",
@@ -18454,8 +18454,8 @@
             "unlockedBy": 20438
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/46.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/46.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/46.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/46.webp?version=9",
         "keywords": [2, 3, 27, 4, 1, 28, 202, 207],
         "figures": 1,
         "id": "46",
@@ -18491,8 +18491,8 @@
           }
         ],
         "upgradeTypes": [5, 5, 10, 10],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/47.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/47.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/47.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/47.webp?version=9",
         "keywords": [3, 4, 70, 28, 51, 202, 207, 177, 184],
         "figures": 1,
         "id": "47",
@@ -18530,8 +18530,8 @@
           }
         ],
         "upgradeTypes": [6, 22, 23],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/48.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/48.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/48.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/48.webp?version=9",
         "keywords": [60, 47, 52, 48, 124, 178, 179, 187, 181, 141],
         "figures": 1,
         "id": "48",
@@ -18567,8 +18567,8 @@
           }
         ],
         "upgradeTypes": [5, 5, 5, 9],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/49.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/49.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/49.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/49.webp?version=9",
         "keywords": [66, 3, 4, 89, 28, 164, 202, 207, 184, 187],
         "figures": 1,
         "id": "49",
@@ -18600,8 +18600,8 @@
           }
         ],
         "upgradeTypes": [9, 10, 2, 2, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/50.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/50.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/50.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/50.webp?version=9",
         "keywords": [10, 37, 90, 8, 18],
         "figures": 1,
         "id": "50",
@@ -18637,8 +18637,8 @@
             "unlockedBy": 20803
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/52.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/52.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/52.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/52.webp?version=9",
         "keywords": [80],
         "figures": 1,
         "id": "52",
@@ -18680,8 +18680,8 @@
           }
         ],
         "upgradeTypes": [7, 8, 6, 14, 14],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/53.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/53.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/53.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/53.webp?version=9",
         "keywords": [53, 91, 92, 76, 77, 79, 178, 181, 202],
         "figures": 1,
         "id": "53",
@@ -18713,8 +18713,8 @@
           }
         ],
         "upgradeTypes": [7, 6, 14, 14],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/54.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/54.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/54.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/54.webp?version=9",
         "keywords": [80, 53, 93, 91, 76, 79, 181, 178, 182],
         "figures": 1,
         "id": "54",
@@ -18742,8 +18742,8 @@
           }
         ],
         "upgradeTypes": [6, 15],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/55.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/55.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/55.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/55.webp?version=9",
         "keywords": [29, 31, 33, 14, 187, 212],
         "figures": 1,
         "id": "55",
@@ -18775,8 +18775,8 @@
           }
         ],
         "upgradeTypes": [6, 15],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/56.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/56.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/56.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/56.webp?version=9",
         "keywords": [29, 31, 33, 14, 187, 212],
         "figures": 1,
         "id": "56",
@@ -18812,8 +18812,8 @@
             "unlockedBy": 167
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/58.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/58.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/58.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/58.webp?version=9",
         "keywords": [12, 17, 7, 207, 14, 182, 178, 202],
         "figures": 1,
         "id": "58",
@@ -18841,8 +18841,8 @@
           }
         ],
         "upgradeTypes": [9, 10, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/60.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/60.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/60.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/60.webp?version=9",
         "keywords": [50, 107, 6, 7, 8],
         "figures": 1,
         "id": "60",
@@ -18886,8 +18886,8 @@
             "unlockedBy": 20802
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/62.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/62.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/62.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/62.webp?version=9",
         "keywords": [26, 37, 8, 18, 2, 41],
         "figures": 1,
         "id": "62",
@@ -18923,8 +18923,8 @@
             "unlockedBy": 21911
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/64.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/64.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/64.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/64.webp?version=9",
         "keywords": [211, 26, 41, 37, 8, 1],
         "figures": 1,
         "id": "64",
@@ -18956,8 +18956,8 @@
           }
         ],
         "upgradeTypes": [6, 20],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/69.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/69.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/69.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/69.webp?version=9",
         "keywords": [50, 100, 81, 54, 58, 101, 178, 181],
         "figures": 1,
         "id": "69",
@@ -18997,8 +18997,8 @@
           }
         ],
         "upgradeTypes": [8, 6],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/70.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/70.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/70.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/70.webp?version=9",
         "keywords": [45, 22, 37, 79, 202, 178],
         "figures": 1,
         "id": "70",
@@ -19026,8 +19026,8 @@
           }
         ],
         "upgradeTypes": [5, 5, 10, 10],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/73.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/73.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/73.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/73.webp?version=9",
         "keywords": [1, 103, 4, 105, 2, 3, 28, 202, 207],
         "figures": 1,
         "id": "73",
@@ -19063,8 +19063,8 @@
           }
         ],
         "upgradeTypes": [5, 5, 10, 10],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/74.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/74.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/74.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/74.webp?version=9",
         "keywords": [3, 4, 106, 1, 202, 207],
         "figures": 1,
         "id": "74",
@@ -19104,8 +19104,8 @@
           }
         ],
         "upgradeTypes": [9, 10, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/75.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/75.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/75.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/75.webp?version=9",
         "keywords": [108, 8, 107],
         "figures": 1,
         "id": "75",
@@ -19138,8 +19138,8 @@
           }
         ],
         "upgradeTypes": [9, 6, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/76.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/76.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/76.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/76.webp?version=9",
         "keywords": [107, 95, 164],
         "figures": 1,
         "id": "76",
@@ -19164,8 +19164,8 @@
           }
         ],
         "upgradeTypes": [6],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/77.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/77.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/77.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/77.webp?version=9",
         "keywords": [110, 98, 111, 187],
         "figures": 3,
         "id": "77",
@@ -19201,8 +19201,8 @@
             "unlockedBy": 20801
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/78.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/78.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/78.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/78.webp?version=9",
         "keywords": [14, 17, 75],
         "figures": 1,
         "id": "78",
@@ -19226,8 +19226,8 @@
           }
         ],
         "upgradeTypes": [4, 4, 10, 10, 6, 2, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/79.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/79.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/79.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/79.webp?version=9",
         "keywords": [112, 14, 17, 113, 75],
         "figures": 1,
         "id": "79",
@@ -19264,8 +19264,8 @@
           }
         ],
         "upgradeTypes": [9, 10, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/80.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/80.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/80.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/80.webp?version=9",
         "keywords": [129, 213, 118, 72, 11, 205],
         "figures": 1,
         "id": "80",
@@ -19300,8 +19300,8 @@
           }
         ],
         "upgradeTypes": [5, 5, 5, 9],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/764.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/764.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/764.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/764.webp?version=9",
         "keywords": [114, 28, 4, 129, 3, 207, 187, 202, 177],
         "figures": 1,
         "id": "764",
@@ -19341,8 +19341,8 @@
           }
         ],
         "upgradeTypes": [7, 6, 14, 14, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/771.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/771.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/771.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/771.webp?version=9",
         "keywords": [53, 54, 111, 55, 56, 57, 79, 158, 181, 202],
         "figures": 1,
         "id": "771",
@@ -19370,8 +19370,8 @@
           }
         ],
         "upgradeTypes": [7, 8, 6, 13, 13],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/772.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/772.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/772.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/772.webp?version=9",
         "keywords": [91, 52, 76, 79, 158],
         "figures": 1,
         "id": "772",
@@ -19403,8 +19403,8 @@
           }
         ],
         "upgradeTypes": [7, 6, 14, 14, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/773.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/773.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/773.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/773.webp?version=9",
         "keywords": [57, 158, 55, 56, 53, 54, 111, 79, 202, 181],
         "figures": 1,
         "id": "773",
@@ -19432,8 +19432,8 @@
             "unlockedBy": 24082
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/1527.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/1527.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/1527.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/1527.webp?version=9",
         "keywords": [40, 41, 8],
         "figures": 3,
         "id": "1527",
@@ -19458,8 +19458,8 @@
           }
         ],
         "upgradeTypes": [9, 10, 10, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/1528.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/1528.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/1528.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/1528.webp?version=9",
         "keywords": [50, 2, 39, 40, 41, 202, 207],
         "figures": 1,
         "id": "1528",
@@ -19484,8 +19484,8 @@
           }
         ],
         "upgradeTypes": [4, 10, 2, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/1529.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/1529.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/1529.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/1529.webp?version=9",
         "keywords": [40, 41, 8],
         "figures": 3,
         "id": "1529",
@@ -19514,8 +19514,8 @@
             "unlockedBy": 24082
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/1563.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/1563.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/1563.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/1563.webp?version=9",
         "keywords": [2, 39, 40, 41],
         "figures": 3,
         "id": "1563",
@@ -19544,8 +19544,8 @@
           }
         ],
         "upgradeTypes": [10, 10, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/1565.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/1565.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/1565.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/1565.webp?version=9",
         "keywords": [21, 23, 75, 41, 204, 178, 202, 207],
         "figures": 1,
         "id": "1565",
@@ -19589,8 +19589,8 @@
             "unlockedBy": 21912
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/1809.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/1809.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/1809.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/1809.webp?version=9",
         "keywords": [211, 2, 23, 133, 145, 25],
         "figures": 3,
         "id": "1809",
@@ -19624,8 +19624,8 @@
           }
         ],
         "upgradeTypes": [9, 9, 10, 6, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/1852.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/1852.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/1852.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/1852.webp?version=9",
         "keywords": [95, 8, 140, 151, 2, 204],
         "figures": 1,
         "id": "1852",
@@ -19663,8 +19663,8 @@
           }
         ],
         "upgradeTypes": [9, 9, 9, 6, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/1854.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/1854.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/1854.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/1854.webp?version=9",
         "keywords": [95, 8, 144, 151, 164, 204],
         "figures": 1,
         "id": "1854",
@@ -19692,8 +19692,8 @@
           }
         ],
         "upgradeTypes": [6, 20, 13],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/1984.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/1984.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/1984.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/1984.webp?version=9",
         "keywords": [54, 55, 56, 57, 58],
         "figures": 1,
         "id": "1984",
@@ -19726,8 +19726,8 @@
             "required": true
           },
           8, 6],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/2019.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/2019.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/2019.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/2019.webp?version=9",
         "keywords": [185, 79, 45, 22, 142, 202],
         "figures": 1,
         "id": "2019",
@@ -19763,8 +19763,8 @@
           }
         ],
         "upgradeTypes": [7, 8, 6],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/2108.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/2108.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/2108.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/2108.webp?version=9",
         "keywords": [79, 54, 91, 76, 77],
         "figures": 1,
         "id": "2108",
@@ -19793,8 +19793,8 @@
             "required": true
           },
           6, 14, 14, 21],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/2109.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/2109.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/2109.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/2109.webp?version=9",
         "keywords": [79, 53, 142, 52, 158, 77, 178, 181, 202, 203],
         "figures": 1,
         "id": "2109",
@@ -19862,8 +19862,8 @@
             "unlockedBy": 21905
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/4215.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/4215.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/4215.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/4215.webp?version=9",
         "keywords": [92, 147, 134, 13],
         "figures": 4,
         "id": "4215",
@@ -19928,8 +19928,8 @@
           }
         ],
         "upgradeTypes": [9, 2, 26],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/4216.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/4216.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/4216.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/4216.webp?version=9",
         "keywords": [117, 13, 134],
         "figures": 1,
         "id": "4216",
@@ -19974,8 +19974,8 @@
           }
         ],
         "upgradeTypes": [4, 1, 2, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/4417.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/4417.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/4417.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/4417.webp?version=9",
         "keywords": [42, 147, 134, 62],
         "figures": 4,
         "id": "4417",
@@ -20000,8 +20000,8 @@
           }
         ],
         "upgradeTypes": [5, 5, 9, 10, 12],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/4551.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/4551.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/4551.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/4551.webp?version=9",
         "keywords": [1, 3, 106, 118, 4, 157, 202, 207],
         "figures": 1,
         "id": "4551",
@@ -20054,8 +20054,8 @@
           }
         ],
         "upgradeTypes": [9, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/4717.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/4717.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/4717.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/4717.webp?version=9",
         "keywords": [161, 42, 134],
         "figures": 1,
         "id": "4717",
@@ -20080,8 +20080,8 @@
           }
         ],
         "upgradeTypes": [4, 10, 6, 2, 12, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/4767.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/4767.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/4767.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/4767.webp?version=9",
         "keywords": [36, 1, 26, 134],
         "figures": 3,
         "id": "4767",
@@ -20106,8 +20106,8 @@
           }
         ],
         "upgradeTypes": [10, 10, 6, 2, 2, 12, 12],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/4891.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/4891.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/4891.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/4891.webp?version=9",
         "keywords": [118, 26, 1, 65, 8, 207],
         "figures": 1,
         "id": "4891",
@@ -20147,8 +20147,8 @@
           }
         ],
         "upgradeTypes": [7, 8, 6, 13, 13],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/4919.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/4919.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/4919.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/4919.webp?version=9",
         "keywords": [79, 91, 52, 158, 76],
         "figures": 1,
         "id": "4919",
@@ -20193,8 +20193,8 @@
           }
         ],
         "upgradeTypes": [10, 10, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/4999.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/4999.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/4999.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/4999.webp?version=9",
         "keywords": [139, 68, 159, 51, 235, 207, 187],
         "figures": 1,
         "id": "4999",
@@ -20239,8 +20239,8 @@
           }
         ],
         "upgradeTypes": [10, 10, 6, 2, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/5000.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/5000.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/5000.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/5000.webp?version=9",
         "keywords": [1, 53, 68, 26, 8, 134, 202, 189, 207],
         "figures": 1,
         "id": "5000",
@@ -20316,8 +20316,8 @@
           }
         ],
         "upgradeTypes": [10, 10, 10, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/5001.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/5001.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/5001.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/5001.webp?version=9",
         "keywords": [139, 1, 68, 27, 159, 72, 11, 200, 187],
         "figures": 1,
         "id": "5001",
@@ -20380,8 +20380,8 @@
           }
         ],
         "upgradeTypes": [6, 20],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/5406.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/5406.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/5406.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/5406.webp?version=9",
         "keywords": [54, 134, 144, 58, 206],
         "figures": 1,
         "id": "5406",
@@ -20409,8 +20409,8 @@
             "unlockedBy": 21906
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/5880.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/5880.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/5880.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/5880.webp?version=9",
         "keywords": [128, 62, 150, 25],
         "figures": 3,
         "id": "5880",
@@ -20441,8 +20441,8 @@
           }
         ],
         "upgradeTypes": [10, 10, 2, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/6176.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/6176.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/6176.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/6176.webp?version=9",
         "keywords": [1, 53, 26, 134, 48, 8, 18, 207],
         "figures": 1,
         "id": "6176",
@@ -20484,8 +20484,8 @@
           }
         ],
         "upgradeTypes": [10, 10, 6, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/6177.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/6177.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/6177.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/6177.webp?version=9",
         "keywords": [139, 44, 68, 159, 26, 51, 8, 207],
         "figures": 1,
         "id": "6177",
@@ -20536,8 +20536,8 @@
           }
         ],
         "upgradeTypes": [10, 10, 6, 2, 15],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/6178.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/6178.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/6178.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/6178.webp?version=9",
         "keywords": [139, 44, 68, 159, 10, 26, 8, 72, 207, 202],
         "figures": 1,
         "id": "6178",
@@ -20580,8 +20580,8 @@
             "unlockedBy": 67
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/6180.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/6180.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/6180.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/6180.webp?version=9",
         "keywords": [116, 153, 79, 154],
         "figures": 3,
         "id": "6180",
@@ -20615,8 +20615,8 @@
           }
         ],
         "upgradeTypes": [9, 10, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/6376.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/6376.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/6376.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/6376.webp?version=9",
         "keywords": [164, 1, 5, 73, 110, 204, 202],
         "figures": 1,
         "id": "6376",
@@ -20648,8 +20648,8 @@
           }
         ],
         "upgradeTypes": [9, 9, 10, 2, 12],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/11258.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/11258.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/11258.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/11258.webp?version=9",
         "keywords": [110, 8, 162, 18, 146, 207],
         "figures": 1,
         "id": "11258",
@@ -20677,8 +20677,8 @@
           }
         ],
         "upgradeTypes": [5, 5, 10, 10],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/13582.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/13582.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/13582.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/13582.webp?version=9",
         "keywords": [1, 3, 4, 134, 40, 136, 51, 202, 207],
         "figures": 1,
         "id": "13582",
@@ -20706,8 +20706,8 @@
           }
         ],
         "upgradeTypes": [5, 5, 10, 10],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/15014.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/15014.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/15014.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/15014.webp?version=9",
         "keywords": [1, 2, 3, 36, 136, 4, 202, 207],
         "figures": 1,
         "id": "15014",
@@ -20753,8 +20753,8 @@
           }
         ],
         "upgradeTypes": [10, 10, 10],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/15015.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/15015.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/15015.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/15015.webp?version=9",
         "keywords": [9, 7, 25, 134, 51, 37, 90, 207, 209],
         "figures": 1,
         "id": "15015",
@@ -20787,8 +20787,8 @@
           }
         ],
         "upgradeTypes": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/15016.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/15016.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/15016.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/15016.webp?version=9",
         "keywords": [65, 14, 126, 138],
         "figures": 1,
         "id": "15016",
@@ -20835,8 +20835,8 @@
             "unlockedBy": 9402
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/15784.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/15784.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/15784.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/15784.webp?version=9",
         "keywords": [9, 25],
         "figures": 6,
         "id": "15784",
@@ -20865,8 +20865,8 @@
           }
         ],
         "upgradeTypes": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/15969.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/15969.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/15969.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/15969.webp?version=9",
         "keywords": [53, 6, 79, 98, 76, 181, 177, 202],
         "figures": 1,
         "id": "15969",
@@ -20921,8 +20921,8 @@
             "unlockedBy": 9402
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/16377.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/16377.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/16377.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/16377.webp?version=9",
         "keywords": [9, 73, 25, 134, 209],
         "figures": 6,
         "id": "16377",
@@ -20951,8 +20951,8 @@
           }
         ],
         "upgradeTypes": [9, 10, 10, 10],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/16687.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/16687.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/16687.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/16687.webp?version=9",
         "keywords": [6, 9, 7, 161, 134, 187],
         "figures": 1,
         "id": "16687",
@@ -20981,8 +20981,8 @@
           }
         ],
         "upgradeTypes": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/17348.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/17348.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/17348.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/17348.webp?version=9",
         "keywords": [44, 53, 76, 181, 177, 202],
         "figures": 1,
         "id": "17348",
@@ -21020,8 +21020,8 @@
             "required": true
           },
           6, 14, 14],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/19076.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/19076.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/19076.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/19076.webp?version=9",
         "keywords": [79, 53, 164, 142, 52, 150, 77, 181, 202, 203, 178],
         "figures": 1,
         "id": "19076",
@@ -21046,8 +21046,8 @@
           }
         ],
         "upgradeTypes": [4, 10, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/19077.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/19077.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/19077.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/19077.webp?version=9",
         "keywords": [211, 2, 133, 150, 25],
         "figures": 4,
         "id": "19077",
@@ -21067,8 +21067,8 @@
         "points": 57,
         "factions": [],
         "upgradeTypes": [6, 20, 13],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/19078.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/19078.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/19078.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/19078.webp?version=9",
         "keywords": [120, 54, 55, 56, 57, 52, 58, 150],
         "figures": 1,
         "id": "19078",
@@ -21097,8 +21097,8 @@
             "unlockedBy": 20803
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/19103.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/19103.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/19103.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/19103.webp?version=9",
         "keywords": [1, 41, 123, 156],
         "figures": 4,
         "id": "19103",
@@ -21123,8 +21123,8 @@
           }
         ],
         "upgradeTypes": [10, 6, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/19105.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/19105.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/19105.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/19105.webp?version=9",
         "keywords": [1, 54, 41, 123, 164, 145, 156, 207, 187],
         "figures": 1,
         "id": "19105",
@@ -21152,8 +21152,8 @@
           }
         ],
         "upgradeTypes": [9, 9, 6, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/19106.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/19106.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/19106.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/19106.webp?version=9",
         "keywords": [1, 65, 162, 140, 156],
         "figures": 1,
         "id": "19106",
@@ -21181,8 +21181,8 @@
           }
         ],
         "upgradeTypes": [5, 10, 10],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/19108.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/19108.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/19108.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/19108.webp?version=9",
         "keywords": [4, 21, 87, 42, 183, 202, 207],
         "figures": 1,
         "id": "19108",
@@ -21210,8 +21210,8 @@
           }
         ],
         "upgradeTypes": [5, 10, 10],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/19109.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/19109.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/19109.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/19109.webp?version=9",
         "keywords": [119, 87, 2, 74, 4, 1, 135, 202, 207],
         "figures": 1,
         "id": "19109",
@@ -21245,8 +21245,8 @@
           }
         ],
         "upgradeTypes": [4, 4, 4, 4, 4],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/23655.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/23655.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/23655.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/23655.webp?version=9",
         "keywords": [159, 160, 26, 41, 8, 72],
         "figures": 0,
         "id": "23655",
@@ -21313,8 +21313,8 @@
           }
         ],
         "upgradeTypes": [10, 6, 2, 12, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/23656.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/23656.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/23656.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/23656.webp?version=9",
         "keywords": [122, 159, 187, 14, 143, 73, 85],
         "figures": 4,
         "id": "23656",
@@ -21345,8 +21345,8 @@
           }
         ],
         "upgradeTypes": [4, 1, 6, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/23657.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/23657.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/23657.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/23657.webp?version=9",
         "keywords": [215, 79, 40, 41, 71],
         "figures": 4,
         "id": "23657",
@@ -21374,8 +21374,8 @@
           }
         ],
         "upgradeTypes": [10, 10, 6, 2, 12, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/24084.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/24084.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/24084.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/24084.webp?version=9",
         "keywords": [122, 159, 14, 134, 143, 73, 85, 187],
         "figures": 4,
         "id": "24084",
@@ -21416,8 +21416,8 @@
           }
         ],
         "upgradeTypes": [4, 4, 4, 4, 15],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/25086.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/25086.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/25086.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/25086.webp?version=9",
         "keywords": [26, 41, 8, 72, 160, 159],
         "figures": 0,
         "id": "25086",
@@ -21503,8 +21503,8 @@
             "unlockedBy": 16567
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/25964.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/25964.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/25964.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/25964.webp?version=9",
         "keywords": [75],
         "figures": 4,
         "id": "25964",
@@ -21537,8 +21537,8 @@
             "required": true
           },
           8, 6],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/25966.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/25966.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/25966.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/25966.webp?version=9",
         "keywords": [79, 45, 142, 52, 41, 37, 90, 202, 207],
         "figures": 1,
         "id": "25966",
@@ -21574,8 +21574,8 @@
             "unlockedBy": 20801
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/25967.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/25967.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/25967.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/25967.webp?version=9",
         "keywords": [2, 163, 187],
         "figures": 4,
         "id": "25967",
@@ -21607,8 +21607,8 @@
             "unlockedBy": 55
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/25968.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/25968.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/25968.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/25968.webp?version=9",
         "keywords": [18, 37, 7, 202, 187],
         "figures": 6,
         "id": "25968",
@@ -21638,8 +21638,8 @@
             "required": true
           },
           10, 6, 2, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/25979.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/25979.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/25979.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/25979.webp?version=9",
         "keywords": [124, 38, 9, 98, 141],
         "figures": 1,
         "id": "25979",
@@ -21685,8 +21685,8 @@
             "required": true
           },
           10, 6, 2, 2, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/25980.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/25980.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/25980.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/25980.webp?version=9",
         "keywords": [36, 124, 38, 26, 98, 141],
         "figures": 1,
         "id": "25980",
@@ -21732,8 +21732,8 @@
             "unlockedBy": 20801
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/25981.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/25981.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/25981.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/25981.webp?version=9",
         "keywords": [124, 38, 9, 98, 141],
         "figures": 1,
         "id": "25981",
@@ -21771,8 +21771,8 @@
             "required": true
           },
           10, 6, 12, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/25982.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/25982.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/25982.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/25982.webp?version=9",
         "keywords": [211, 124, 38, 26, 98, 141],
         "figures": 1,
         "id": "25982",
@@ -21805,8 +21805,8 @@
           }
         ],
         "upgradeTypes": [4, 6],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/28382.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/28382.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/28382.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/28382.webp?version=9",
         "keywords": [211, 79, 14, 52, 153],
         "figures": 3,
         "id": "28382",
@@ -21842,8 +21842,8 @@
           }
         ],
         "upgradeTypes": [19, 4, 1, 10, 6, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/28861.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/28861.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/28861.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/28861.webp?version=9",
         "keywords": [110, 37, 9, 25],
         "figures": 4,
         "id": "28861",
@@ -21871,8 +21871,8 @@
           }
         ],
         "upgradeTypes": [5, 9, 10],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/29671.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/29671.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/29671.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/29671.webp?version=9",
         "keywords": [119, 214, 1, 3, 4, 134, 37],
         "figures": 1,
         "id": "29671",
@@ -21950,8 +21950,8 @@
           }
         ],
         "upgradeTypes": [9, 6, 2, 3, 3, 26],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/29681.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/29681.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/29681.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/29681.webp?version=9",
         "keywords": [53, 134, 7, 75, 11, 216, 27],
         "figures": 1,
         "id": "29681",
@@ -21984,8 +21984,8 @@
           }
         ],
         "upgradeTypes": [9, 10, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/29928.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/29928.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/29928.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/29928.webp?version=9",
         "keywords": [50, 27, 134, 14, 7, 8, 187, 205, 207],
         "figures": 1,
         "id": "29928",
@@ -22021,8 +22021,8 @@
           }
         ],
         "upgradeTypes": [9, 10, 10, 2, 12],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/29930.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/29930.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/29930.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/29930.webp?version=9",
         "keywords": [13, 159, 127, 14, 17, 8, 18],
         "figures": 1,
         "id": "29930",
@@ -22059,8 +22059,8 @@
           }
         ],
         "upgradeTypes": [9, 10, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/29931.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/29931.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/29931.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/29931.webp?version=9",
         "keywords": [110, 68, 2, 164, 133, 135, 178, 204, 205],
         "figures": 1,
         "id": "29931",
@@ -22096,8 +22096,8 @@
           }
         ],
         "upgradeTypes": [6, 12],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/29932.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/29932.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/29932.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/29932.webp?version=9",
         "keywords": [79, 98, 99, 97],
         "figures": 1,
         "id": "29932",
@@ -22153,8 +22153,8 @@
           }
         ],
         "upgradeTypes": [24, 9, 10, 2, 2, 12],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/31667.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/31667.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/31667.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/31667.webp?version=9",
         "keywords": [51, 159],
         "figures": 1,
         "id": "31667",
@@ -22204,8 +22204,8 @@
             "required": true
           },
           9, 10, 10, 2, 2, 12],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/31668.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/31668.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/31668.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/31668.webp?version=9",
         "keywords": [6, 159],
         "figures": 1,
         "id": "31668",
@@ -22239,8 +22239,8 @@
             "required": true
           },
           9, 10, 10, 2, 12, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/31669.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/31669.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/31669.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/31669.webp?version=9",
         "keywords": [6, 159],
         "figures": 1,
         "id": "31669",
@@ -22278,8 +22278,8 @@
             "required": true
           },
           9, 10, 2, 12, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/31670.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/31670.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/31670.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/31670.webp?version=9",
         "keywords": [134, 7, 159],
         "figures": 1,
         "id": "31670",
@@ -22333,8 +22333,8 @@
             "unlockedBy": 20428
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/31842.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/31842.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/31842.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/31842.webp?version=9",
         "keywords": [3, 159, 4, 28],
         "figures": 1,
         "id": "31842",
@@ -22392,8 +22392,8 @@
             "unlockedBy": 20429
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/31843.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/31843.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/31843.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/31843.webp?version=9",
         "keywords": [3, 159, 4],
         "figures": 1,
         "id": "31843",
@@ -22439,8 +22439,8 @@
             "unlockedBy": 20449
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/31844.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/31844.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/31844.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/31844.webp?version=9",
         "keywords": [159, 140],
         "figures": 1,
         "id": "31844",
@@ -22486,8 +22486,8 @@
             "unlockedBy": 20449
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/31845.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/31845.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/31845.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/31845.webp?version=9",
         "keywords": [161, 159, 140],
         "figures": 1,
         "id": "31845",
@@ -22520,8 +22520,8 @@
           }
         ],
         "upgradeTypes": [9, 10, 2, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/32232.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/32232.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/32232.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/32232.webp?version=9",
         "keywords": [79, 45, 217, 162, 133, 218],
         "figures": 1,
         "id": "32232",
@@ -22569,8 +22569,8 @@
             "unlockedBy": 16567
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/32248.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/32248.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/32248.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/32248.webp?version=9",
         "keywords": [17, 141, 205],
         "figures": 1,
         "id": "32248",
@@ -22594,8 +22594,8 @@
           }
         ],
         "upgradeTypes": [9, 9, 9, 10, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/32588.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/32588.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/32588.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/32588.webp?version=9",
         "keywords": [151, 66, 164, 39, 95, 213, 18],
         "figures": 1,
         "id": "32588",
@@ -22623,8 +22623,8 @@
           }
         ],
         "upgradeTypes": [9, 9, 9, 26],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/32589.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/32589.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/32589.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/32589.webp?version=9",
         "keywords": [63, 162],
         "figures": 1,
         "id": "32589",
@@ -22691,8 +22691,8 @@
           }
         ],
         "upgradeTypes": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/32590.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/32590.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/32590.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/32590.webp?version=9",
         "keywords": [110, 185, 124, 27, 14, 111],
         "figures": 1,
         "id": "32590",
@@ -22760,8 +22760,8 @@
           }
         ],
         "upgradeTypes": [4, 1, 1, 10, 2, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/32591.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/32591.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/32591.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/32591.webp?version=9",
         "keywords": [2, 134, 147, 227, 189],
         "figures": 4,
         "id": "32591",
@@ -22838,8 +22838,8 @@
           }
         ],
         "upgradeTypes": [7, 6, 13],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/32592.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/32592.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/32592.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/32592.webp?version=9",
         "keywords": [79, 53, 91, 158, 155, 181, 202],
         "figures": 1,
         "id": "32592",
@@ -22868,8 +22868,8 @@
           }
         ],
         "upgradeTypes": [5, 9, 10, 6],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/32593.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/32593.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/32593.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/32593.webp?version=9",
         "keywords": [61, 5, 4, 6, 51, 52, 71, 25, 202, 204, 207, 183, 205],
         "figures": 1,
         "id": "32593",
@@ -22909,8 +22909,8 @@
           }
         ],
         "upgradeTypes": [9, 10, 6, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/32594.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/32594.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/32594.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/32594.webp?version=9",
         "keywords": [53, 2, 134, 52, 71, 11, 25, 183, 207, 189],
         "figures": 1,
         "id": "32594",
@@ -22946,8 +22946,8 @@
           }
         ],
         "upgradeTypes": [7, 10, 6, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/32595.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/32595.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/32595.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/32595.webp?version=9",
         "keywords": [211, 79, 45, 218],
         "figures": 0,
         "id": "32595",
@@ -22977,8 +22977,8 @@
           }
         ],
         "upgradeTypes": [5, 5, 5, 9, 10, 10],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33575.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33575.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33575.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33575.webp?version=9",
         "keywords": [1, 2, 65, 3, 4, 28, 229],
         "figures": 1,
         "id": "33575",
@@ -23006,8 +23006,8 @@
           }
         ],
         "upgradeTypes": [9, 9, 9, 10, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33593.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33593.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33593.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33593.webp?version=9",
         "keywords": [97, 159, 95, 6],
         "figures": 1,
         "id": "33593",
@@ -23046,8 +23046,8 @@
           }
         ],
         "upgradeTypes": [5, 5, 10, 10, 6],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33769.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33769.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33769.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33769.webp?version=9",
         "keywords": [54, 134, 4, 52, 58],
         "figures": 1,
         "id": "33769",
@@ -23099,8 +23099,8 @@
           }
         ],
         "upgradeTypes": [10, 10, 6, 2, 2, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33770.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33770.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33770.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33770.webp?version=9",
         "keywords": [139, 1, 2, 210, 26, 232, 18, 204],
         "figures": 1,
         "id": "33770",
@@ -23152,8 +23152,8 @@
           }
         ],
         "upgradeTypes": [9, 10, 10, 2, 2, 12, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33771.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33771.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33771.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33771.webp?version=9",
         "keywords": [139, 1, 123, 26, 232, 18],
         "figures": 1,
         "id": "33771",
@@ -23205,8 +23205,8 @@
           }
         ],
         "upgradeTypes": [4, 1, 10, 2, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33772.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33772.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33772.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33772.webp?version=9",
         "keywords": [139, 1, 26, 18, 232],
         "figures": 5,
         "id": "33772",
@@ -23242,8 +23242,8 @@
           }
         ],
         "upgradeTypes": [4, 1, 10, 2, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33773.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33773.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33773.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33773.webp?version=9",
         "keywords": [139, 1, 42, 26, 7, 230],
         "figures": 3,
         "id": "33773",
@@ -23291,8 +23291,8 @@
             "unlockedBy": 21907
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33774.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33774.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33774.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33774.webp?version=9",
         "keywords": [128, 134, 14, 223],
         "figures": 4,
         "id": "33774",
@@ -23322,8 +23322,8 @@
           }
         ],
         "upgradeTypes": [1, 1, 10, 10],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33775.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33775.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33775.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33775.webp?version=9",
         "keywords": [139, 159, 147, 11],
         "figures": 1,
         "id": "33775",
@@ -23367,8 +23367,8 @@
             "unlockedBy": 20438
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33776.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33776.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33776.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33776.webp?version=9",
         "keywords": [161, 217, 54, 36, 4, 58],
         "figures": 1,
         "id": "33776",
@@ -23393,8 +23393,8 @@
           }
         ],
         "upgradeTypes": [5, 5, 5, 9, 10],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33777.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33777.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33777.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33777.webp?version=9",
         "keywords": [1, 114, 2, 13, 3, 4, 28],
         "figures": 1,
         "id": "33777",
@@ -23471,8 +23471,8 @@
             "required": true
           },
           3, 25],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33787.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33787.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33787.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33787.webp?version=9",
         "keywords": [139, 1, 159, 26],
         "figures": 1,
         "id": "33787",
@@ -23517,8 +23517,8 @@
           }
         ],
         "upgradeTypes": [4, 1, 10, 3, 25],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33788.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33788.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33788.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33788.webp?version=9",
         "keywords": null,
         "figures": 5,
         "id": "33788",
@@ -23572,8 +23572,8 @@
             "required": true
           },
           3, 25],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33789.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33789.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33789.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33789.webp?version=9",
         "keywords": [1, 159, 26, 145],
         "figures": 1,
         "id": "33789",
@@ -23618,8 +23618,8 @@
           }
         ],
         "upgradeTypes": [10, 10, 2, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33790.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33790.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33790.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33790.webp?version=9",
         "keywords": [1, 127, 26, 72, 231, 207, 223],
         "figures": 1,
         "id": "33790",
@@ -23653,8 +23653,8 @@
           }
         ],
         "upgradeTypes": [5, 5, 9, 10],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33791.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33791.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33791.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33791.webp?version=9",
         "keywords": [1, 125, 2, 36, 3, 164, 4, 6, 214],
         "figures": 1,
         "id": "33791",
@@ -23682,8 +23682,8 @@
           }
         ],
         "upgradeTypes": [5, 10],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33792.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33792.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33792.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33792.webp?version=9",
         "keywords": [1, 115, 21, 4, 145, 202, 207, 183, 208, 184],
         "figures": 1,
         "id": "33792",
@@ -23715,8 +23715,8 @@
           }
         ],
         "upgradeTypes": [5, 10],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33793.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33793.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33793.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33793.webp?version=9",
         "keywords": [1, 115, 21, 4, 145, 202, 207, 183, 208, 184],
         "figures": 1,
         "id": "33793",
@@ -23749,8 +23749,8 @@
           }
         ],
         "upgradeTypes": [5, 5, 9, 10],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33794.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33794.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33794.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33794.webp?version=9",
         "keywords": [1, 12, 161, 118, 2, 3, 4, 89],
         "figures": 1,
         "id": "33794",
@@ -23781,8 +23781,8 @@
           }
         ],
         "upgradeTypes": [9, 9, 10, 2, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33795.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33795.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33795.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33795.webp?version=9",
         "keywords": [1, 161, 2, 26, 75, 231],
         "figures": 1,
         "id": "33795",
@@ -23819,8 +23819,8 @@
             "required": true
           },
           1, 10, 2, 3, 25],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33796.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33796.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33796.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33796.webp?version=9",
         "keywords": [1, 124, 38, 26, 8],
         "figures": 4,
         "id": "33796",
@@ -23874,8 +23874,8 @@
           }
         ],
         "upgradeTypes": [4, 1, 10, 2, 12, 3, 25],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33797.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33797.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33797.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33797.webp?version=9",
         "keywords": [1, 39, 26],
         "figures": 5,
         "id": "33797",
@@ -23920,8 +23920,8 @@
           }
         ],
         "upgradeTypes": [26],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/34054.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/34054.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/34054.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/34054.webp?version=9",
         "keywords": [1, 196, 123, 41, 150, 156],
         "figures": 4,
         "id": "34054",
@@ -23966,8 +23966,8 @@
           }
         ],
         "upgradeTypes": [10, 10, 6, 2, 2, 12, 15],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/34881.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/34881.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/34881.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/34881.webp?version=9",
         "keywords": [139, 53, 68, 26, 134, 18, 204, 205, 189],
         "figures": 1,
         "id": "34881",
@@ -24003,8 +24003,8 @@
           }
         ],
         "upgradeTypes": [9, 10, 6, 2, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/34886.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/34886.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/34886.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/34886.webp?version=9",
         "keywords": [1, 210, 26, 145, 73, 228, 223],
         "figures": 1,
         "id": "34886",
@@ -24036,8 +24036,8 @@
           }
         ],
         "upgradeTypes": [10, 2, 2, 12, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/34887.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/34887.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/34887.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/34887.webp?version=9",
         "keywords": [1, 10, 26, 7, 230, 177, 223],
         "figures": 1,
         "id": "34887",
@@ -24073,8 +24073,8 @@
           }
         ],
         "upgradeTypes": [9, 10, 10, 2, 2, 12, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/34888.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/34888.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/34888.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/34888.webp?version=9",
         "keywords": [1, 215, 118, 65, 26, 17, 228, 182, 204],
         "figures": 1,
         "id": "34888",
@@ -24120,8 +24120,8 @@
           }
         ],
         "upgradeTypes": [9, 10, 10, 2, 2, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/34889.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/34889.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/34889.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/34889.webp?version=9",
         "keywords": [139, 107, 1, 162, 26, 6, 7, 230],
         "figures": 1,
         "id": "34889",
@@ -24153,8 +24153,8 @@
           }
         ],
         "upgradeTypes": [4, 1, 10, 2, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/34890.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/34890.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/34890.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/34890.webp?version=9",
         "keywords": [1, 36, 26, 134, 228],
         "figures": 4,
         "id": "34890",
@@ -24179,8 +24179,8 @@
           }
         ],
         "upgradeTypes": [4, 1, 6, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/35769.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/35769.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/35769.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/35769.webp?version=9",
         "keywords": [1, 211, 73, 223],
         "figures": 4,
         "id": "35769",
@@ -24208,8 +24208,8 @@
           }
         ],
         "upgradeTypes": [9, 9, 9, 6, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/35770.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/35770.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/35770.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/35770.webp?version=9",
         "keywords": [164, 162, 159, 140, 201, 202],
         "figures": 1,
         "id": "35770",
@@ -24252,8 +24252,8 @@
           }
         ],
         "upgradeTypes": [5, 5, 9, 10, 6],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/36283.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/36283.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/36283.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/36283.webp?version=9",
         "keywords": [161, 217, 54, 162, 4, 28, 58, 178, 202, 206, 207, 184, 181],
         "figures": 1,
         "id": "36283",
@@ -24289,8 +24289,8 @@
           }
         ],
         "upgradeTypes": [4, 10, 2, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/36806.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/36806.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/36806.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/36806.webp?version=9",
         "keywords": [81, 9, 141, 25, 224],
         "figures": 4,
         "id": "36806",
@@ -24330,8 +24330,8 @@
             "unlockedBy": 67
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/36899.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/36899.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/36899.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/36899.webp?version=9",
         "keywords": [25],
         "figures": 5,
         "id": "36899",
@@ -24355,8 +24355,8 @@
           }
         ],
         "upgradeTypes": [9, 10, 10, 2],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/37050.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/37050.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/37050.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/37050.webp?version=9",
         "keywords": [50, 2, 39, 40, 41, 150, 202, 207],
         "figures": 1,
         "id": "37050",
@@ -24385,8 +24385,8 @@
             "unlockedBy": 24082
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/37051.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/37051.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/37051.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/37051.webp?version=9",
         "keywords": [2, 40, 41, 150],
         "figures": 3,
         "id": "37051",
@@ -24415,8 +24415,8 @@
             "unlockedBy": 24082
           }
         ],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/37052.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/37052.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/37052.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/37052.webp?version=9",
         "keywords": [40, 41, 150],
         "figures": 3,
         "id": "37052",
@@ -24441,8 +24441,8 @@
           }
         ],
         "upgradeTypes": [6, 13],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/37053.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/37053.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/37053.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/37053.webp?version=9",
         "keywords": [54, 159, 55, 56, 57, 52, 150, 58],
         "figures": 1,
         "id": "37053",
@@ -24467,8 +24467,8 @@
           }
         ],
         "upgradeTypes": [4, 4, 10, 2, 3],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/37054.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/37054.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/37054.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/37054.webp?version=9",
         "keywords": [148, 2, 163, 25, 150, 187],
         "figures": 4,
         "id": "37054",
@@ -24493,8 +24493,8 @@
           }
         ],
         "upgradeTypes": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/37056.webp?version=8",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/37056.webp?version=8",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/37056.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/37056.webp?version=9",
         "keywords": [44, 54, 143, 85],
         "figures": 1,
         "id": "37056",
