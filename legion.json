@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.18.27"
+    "contentVersion": "2026.11.18.28"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -16977,7 +16977,7 @@
             "name": "Scout",
             "id": "ccbScout",
             "requireChooseOneKey": "battalion",
-            "definition": "When an allied unit makes an attack against an enemy unit that has 1 or more Observation tokens, during the Declare Defender step, the attacking unit may spend 1 of those Observation tokens. If it does, it gains 1 Aim token.\nAt the end of each allied Support and allied Heavy unit's Activation, it may make an **Observe 1** action. If your army is At the Ready, at the end of each allied Vehicle unit's Activation, it may make an **Observe 1** action.\nAdd LAAT/le Patrol Transport and BARC Speeder units to this army's allowed units."
+            "definition": "When an allied unit makes an attack against an enemy unit that has 1 or more Observation tokens, during the Declare Defender step, the attacking unit may spend 1 of those Observation tokens. If it does, it gains 1 Aim token.\nAt the end of each allied Commander and allied Operative unit's Activation, it may make an **Observe 1** action. If your army is At the Ready, at the end of each allied Vehicle unit's Activation, it may make an **Observe 1** action.\nAdd LAAT/le Patrol Transport and BARC Speeder units to this army's allowed units."
           },
           {
             "name": "Decisive",
@@ -17019,7 +17019,7 @@
             "name": "Hand Picked",
             "id": "ccbHandPicked",
             "requireChooseOneKey": "veteran",
-            "definition": "Allied Clone Commandos units gain **Retinue: Support**.\nAdd Clone Commandos units to this army's allowed units."
+            "definition": "Allied Clone Commandos units gain **Retinue: Commander**.\nAdd Clone Commandos units to this army's allowed units."
           },
           {
             "name": "Reinforced",
