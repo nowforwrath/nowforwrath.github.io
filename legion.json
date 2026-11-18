@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.18.9"
+    "contentVersion": "2026.11.18.10"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -24713,7 +24713,7 @@
           "standard"
         ],
         "unique": true,
-        "factions": [1, 13, 18]
+        "factions": [1, 24, 13, 18]
       },
       {
         "id": 29,
@@ -24723,7 +24723,7 @@
           "standard"
         ],
         "unique": true,
-        "factions": [2, 10, 19, 17, 7]
+        "factions": [2, 22, 10, 19, 17, 7]
       },
       {
         "id": 26,
@@ -24733,7 +24733,7 @@
           "standard"
         ],
         "unique": true,
-        "factions": [4, 21, 12, 16]
+        "factions": [4, 12, 23, 21, 16]
       },
       {
         "id": 22,
@@ -24743,7 +24743,7 @@
           "standard"
         ],
         "unique": true,
-        "factions": [2, 10, 19, 17, 7]
+        "factions": [2, 22, 10, 19, 17, 7]
       },
       {
         "id": 23,
@@ -24763,7 +24763,7 @@
           "standard"
         ],
         "unique": true,
-        "factions": [4, 21, 12, 16]
+        "factions": [4, 12, 23, 21, 16]
       },
       {
         "id": 25,
@@ -24773,7 +24773,7 @@
           "standard"
         ],
         "unique": true,
-        "factions": [1, 13, 18]
+        "factions": [1, 24, 13, 18]
       },
       {
         "id": 27,
@@ -24950,7 +24950,7 @@
         "name": "Covering Fire",
         "pips": 3,
         "faction": 1,
-        "factions": [1, 13, 18],
+        "factions": [1, 24, 13, 18],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/35.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/35.webp?version=7",
         "keywords": null
@@ -24992,7 +24992,7 @@
         "name": "Coordinated Fire",
         "pips": 3,
         "faction": 2,
-        "factions": [2, 10, 19, 22, 17, 7],
+        "factions": [2, 22, 10, 19, 17, 7],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/37.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/37.webp?version=7",
         "keywords": null
@@ -25684,7 +25684,7 @@
         "name": "Defiance",
         "pips": 1,
         "faction": 4,
-        "factions": [4, 12, 21, 16],
+        "factions": [4, 12, 23, 21, 16],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16622.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16622.webp?version=7",
         "keywords": null
@@ -25834,7 +25834,7 @@
         "name": "Pinned Down",
         "pips": 2,
         "faction": 2,
-        "factions": [2, 10, 19, 22, 17, 7],
+        "factions": [2, 22, 10, 19, 17, 7],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/38.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/38.webp?version=7",
         "keywords": null
@@ -25936,7 +25936,7 @@
         "name": "Synchronized Offensive",
         "pips": 1,
         "faction": 4,
-        "factions": [4, 12, 21, 16],
+        "factions": [4, 12, 23, 21, 16],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/93.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/93.webp?version=7",
         "keywords": null
@@ -26404,11 +26404,41 @@
         ]
       },
       {
+        "id": 20488,
+        "name": "Relentless Resistance",
+        "pips": 3,
+        "faction": null,
+        "factions": [21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/20488.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/20488.webp?version=7",
+        "keywords": null
+      },
+      {
+        "id": 20489,
+        "name": "Ferocious Leadership",
+        "pips": 2,
+        "faction": null,
+        "factions": [21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/20489.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/20489.webp?version=7",
+        "keywords": null
+      },
+      {
+        "id": 20490,
+        "name": "Crashing Counterattack",
+        "pips": 1,
+        "faction": null,
+        "factions": [21],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/20490.webp?version=7",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/20490.webp?version=7",
+        "keywords": null
+      },
+      {
         "id": 18903,
         "name": "Not Out of it Yet",
         "pips": 3,
         "faction": 1,
-        "factions": [1, 13, 18],
+        "factions": [1, 24, 13, 18],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/18903.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/18903.webp?version=7",
         "keywords": null
@@ -26538,7 +26568,7 @@
         "name": "Attack of the Clones",
         "pips": 3,
         "faction": 4,
-        "factions": [4, 12, 21, 16],
+        "factions": [4, 12, 23, 21, 16],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/97.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/97.webp?version=7",
         "keywords": null
@@ -26994,7 +27024,7 @@
         "name": "Daring Defense",
         "pips": 3,
         "faction": 4,
-        "factions": [4, 12, 21, 16],
+        "factions": [4, 12, 23, 21, 16],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16621.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16621.webp?version=7",
         "keywords": [115]
@@ -27004,7 +27034,7 @@
         "name": "Get In Position",
         "pips": 2,
         "faction": 4,
-        "factions": [4, 12, 21, 16],
+        "factions": [4, 12, 23, 21, 16],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/16623.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/16623.webp?version=7",
         "keywords": [50]
@@ -28112,7 +28142,7 @@
         "name": "Turning the Tide",
         "pips": 2,
         "faction": 1,
-        "factions": [1, 13, 18],
+        "factions": [1, 24, 13, 18],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/36.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/36.webp?version=7",
         "keywords": [6]
@@ -28159,7 +28189,7 @@
         "name": "Air Support",
         "pips": 2,
         "faction": 4,
-        "factions": [4, 12, 21, 16],
+        "factions": [4, 12, 23, 21, 16],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/98.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/98.webp?version=7",
         "keywords": [176, 201]
@@ -28169,7 +28199,7 @@
         "name": "Covert Observation",
         "pips": 1,
         "faction": 2,
-        "factions": [2, 10, 19, 22, 17, 7],
+        "factions": [2, 22, 10, 19, 17, 7],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/27.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/27.webp?version=7",
         "keywords": null
@@ -28539,7 +28569,7 @@
         "name": "Sabotaged Communications",
         "pips": 1,
         "faction": 1,
-        "factions": [1, 13, 18],
+        "factions": [1, 24, 13, 18],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/resized/26.webp?version=7",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/commands-new/portraits/26.webp?version=7",
         "keywords": null
