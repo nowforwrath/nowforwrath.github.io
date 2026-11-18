@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.18.0"
+    "contentVersion": "2026.11.18.1"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -5424,7 +5424,7 @@
       {
         "id": 145,
         "name": "Beam Turret",
-        "points": 15,
+        "points": 10,
         "type": 8,
         "keywords": [176],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/145.webp?version=3",
@@ -6110,7 +6110,7 @@
       {
         "id": 16556,
         "name": "Clone Captain",
-        "points": 22,
+        "points": 21,
         "type": 19,
         "keywords": [192, 92, 36],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades/trimmed/16556.webp?version=3",
@@ -6134,22 +6134,14 @@
         "name": "Clone Captain Rex",
         "points": 26,
         "type": 19,
-        "keywords": [],
+        "keywords": [192],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20802.webp?version=3",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20802.webp?version=3",
         "limit": 1,
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": true,
-        "requiredProperties": [
-          [
-            {
-              "property": "faction",
-              "value": 4
-            }
-          ]
-        ],
-        "requiresTier": [2],
+        "availableIn": [62, 25980, 25964],
         "unavailableWith": [
           "Clone Captain Rex"
         ],
@@ -6159,7 +6151,7 @@
       {
         "id": 16555,
         "name": "Clone Commander",
-        "points": 30,
+        "points": 27,
         "type": 19,
         "keywords": [192, 6, 75],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades/trimmed/16555.webp?version=3",
@@ -6277,7 +6269,7 @@
       {
         "id": 195,
         "name": "Clone Engineer",
-        "points": 17,
+        "points": 14,
         "type": 1,
         "keywords": [196],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/195.webp?version=3",
@@ -6380,7 +6372,7 @@
       {
         "id": 16567,
         "name": "Clone Specialist",
-        "points": 17,
+        "points": 14,
         "type": 1,
         "keywords": [],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/16567.webp?version=3",
@@ -6514,21 +6506,6 @@
         "factions": [1, 2, 4, 5]
       },
       {
-        "id": 20272,
-        "name": "Combat Armor",
-        "points": 11,
-        "type": 2,
-        "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20272.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20272.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [31667, 31668],
-        "ttsName": "Combat Armor (Empire)"
-      },
-      {
         "id": 20282,
         "name": "Combat Armor",
         "points": 11,
@@ -6542,6 +6519,21 @@
         "unique": null,
         "availableIn": [31669, 31670],
         "ttsName": "Combat Armor (Rebel)"
+      },
+      {
+        "id": 20272,
+        "name": "Combat Armor",
+        "points": 11,
+        "type": 2,
+        "keywords": [],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20272.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20272.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [31667, 31668],
+        "ttsName": "Combat Armor (Empire)"
       },
       {
         "id": 22603,
@@ -7034,21 +7026,6 @@
         ]
       },
       {
-        "id": 23968,
-        "name": "DLT-19 Stormtrooper",
-        "points": 18,
-        "type": 4,
-        "keywords": [202],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/23968.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/23968.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [36806],
-        "ttsName": "DLT-19 Stormtrooper (Wet)"
-      },
-      {
         "id": 7,
         "name": "DLT-19 Stormtrooper",
         "points": 20,
@@ -7109,6 +7086,21 @@
             ]
           }
         ]
+      },
+      {
+        "id": 23968,
+        "name": "DLT-19 Stormtrooper",
+        "points": 18,
+        "type": 4,
+        "keywords": [202],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/23968.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/23968.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [36806],
+        "ttsName": "DLT-19 Stormtrooper (Wet)"
       },
       {
         "id": 52,
@@ -7320,20 +7312,6 @@
         "unique": false
       },
       {
-        "id": 21987,
-        "name": "Dug In",
-        "points": 6,
-        "type": 10,
-        "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/21987.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/21987.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [31668, 31667]
-      },
-      {
         "id": 19830,
         "name": "Dug In",
         "points": 6,
@@ -7353,20 +7331,6 @@
             }
           ]
         ]
-      },
-      {
-        "id": 20697,
-        "name": "Dug In",
-        "points": 6,
-        "type": 10,
-        "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20697.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20697.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [31842, 31843]
       },
       {
         "id": 20319,
@@ -7502,6 +7466,34 @@
         ]
       },
       {
+        "id": 21987,
+        "name": "Dug In",
+        "points": 6,
+        "type": 10,
+        "keywords": [],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/21987.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/21987.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [31668, 31667]
+      },
+      {
+        "id": 20697,
+        "name": "Dug In",
+        "points": 6,
+        "type": 10,
+        "keywords": [],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20697.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20697.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [31842, 31843]
+      },
+      {
         "id": 24,
         "name": "DW-3 Concussion Grenade Launcher",
         "points": 8,
@@ -7576,7 +7568,7 @@
         "id": 16569,
         "name": "Echo, ARC Marksman",
         "points": 36,
-        "type": 4,
+        "type": 19,
         "keywords": [192, 75, 178, 204, 201],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/16569.webp?version=3",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/16569.webp?version=3",
@@ -7584,7 +7576,7 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": true,
-        "requiresTier": [2, 3],
+        "availableIn": [62, 25980, 32248],
         "unavailableWith": [
           "Echo, ARC Marksman"
         ],
@@ -7592,15 +7584,7 @@
           [25980]
         ],
         "chooseOneKey": "leader",
-        "factions": [1, 2, 4, 5, 16],
-        "requiredProperties": [
-          [
-            {
-              "property": "unitType",
-              "value": 5
-            }
-          ]
-        ]
+        "factions": [1, 2, 4, 5, 16]
       },
       {
         "id": 19063,
@@ -8142,6 +8126,7 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": true,
+        "availableIn": [25964, 32248],
         "unavailableWith": [
           "Fives"
         ],
@@ -13443,6 +13428,20 @@
         ]
       },
       {
+        "id": 2719,
+        "name": "Super Commando Gunslinger",
+        "points": 30,
+        "type": 4,
+        "keywords": [223],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/2719.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/2719.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": false,
+        "availableIn": [4767]
+      },
+      {
         "id": 22600,
         "name": "Super Commando Gunslinger",
         "points": 30,
@@ -13456,20 +13455,6 @@
         "unique": null,
         "availableIn": [34890],
         "ttsName": "Super Commando Gunslinger (Saxon)"
-      },
-      {
-        "id": 2719,
-        "name": "Super Commando Gunslinger",
-        "points": 30,
-        "type": 4,
-        "keywords": [223],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/2719.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/2719.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": false,
-        "availableIn": [4767]
       },
       {
         "id": 22601,
@@ -13858,6 +13843,91 @@
         ]
       },
       {
+        "id": 6132,
+        "name": "The Darksaber",
+        "points": 10,
+        "type": 12,
+        "keywords": [115, 4, 202, 207],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/6132.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/6132.webp?version=3",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [11258],
+        "ttsName": "The Darksaber (Gideon)",
+        "unavailableWith": [
+          "The Darksaber",
+          {
+            "id": "71",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22610",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22611",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22612",
+            "propertyName": "upgrades"
+          }
+        ],
+        "factions": [1, 2, 4, 5, 8, 7],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [115, 4]
+            }
+          ]
+        ]
+      },
+      {
+        "id": 71,
+        "name": "The Darksaber",
+        "points": 5,
+        "type": 12,
+        "keywords": [42, 4, 202, 207],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/71.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/71.webp?version=3",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [33, 34887],
+        "unavailableWith": [
+          "The Darksaber",
+          {
+            "id": "6132",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22610",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22611",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22612",
+            "propertyName": "upgrades"
+          }
+        ],
+        "factions": [1, 2, 4, 5, 8],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [42, 4]
+            }
+          ]
+        ]
+      },
+      {
         "id": 22610,
         "name": "The Darksaber",
         "points": 10,
@@ -13874,15 +13944,15 @@
         "unavailableWith": [
           "The Darksaber",
           {
-            "id": "22611",
-            "propertyName": "upgrades"
-          },
-          {
             "id": "6132",
             "propertyName": "upgrades"
           },
           {
             "id": "71",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22611",
             "propertyName": "upgrades"
           },
           {
@@ -13917,15 +13987,15 @@
         "unavailableWith": [
           "The Darksaber",
           {
-            "id": "22610",
-            "propertyName": "upgrades"
-          },
-          {
             "id": "6132",
             "propertyName": "upgrades"
           },
           {
             "id": "71",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22610",
             "propertyName": "upgrades"
           },
           {
@@ -13934,91 +14004,6 @@
           }
         ],
         "factions": [1, 2, 4, 5, 8, 9]
-      },
-      {
-        "id": 6132,
-        "name": "The Darksaber",
-        "points": 10,
-        "type": 12,
-        "keywords": [115, 4, 202, 207],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/6132.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/6132.webp?version=3",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [11258],
-        "ttsName": "The Darksaber (Gideon)",
-        "unavailableWith": [
-          "The Darksaber",
-          {
-            "id": "22610",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22611",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "71",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22612",
-            "propertyName": "upgrades"
-          }
-        ],
-        "factions": [1, 2, 4, 5, 8, 7],
-        "addProperties": [
-          [
-            {
-              "property": "keywords",
-              "value": [115, 4]
-            }
-          ]
-        ]
-      },
-      {
-        "id": 71,
-        "name": "The Darksaber",
-        "points": 5,
-        "type": 12,
-        "keywords": [42, 4, 202, 207],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/71.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/71.webp?version=3",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [33, 34887],
-        "unavailableWith": [
-          "The Darksaber",
-          {
-            "id": "22610",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22611",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "6132",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22612",
-            "propertyName": "upgrades"
-          }
-        ],
-        "factions": [1, 2, 4, 5, 8],
-        "addProperties": [
-          [
-            {
-              "property": "keywords",
-              "value": [42, 4]
-            }
-          ]
-        ]
       },
       {
         "id": 22612,
@@ -14038,19 +14023,19 @@
         "unavailableWith": [
           "The Darksaber",
           {
-            "id": "22610",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22611",
-            "propertyName": "upgrades"
-          },
-          {
             "id": "6132",
             "propertyName": "upgrades"
           },
           {
             "id": "71",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22610",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22611",
             "propertyName": "upgrades"
           }
         ],
@@ -14158,6 +14143,28 @@
         ]
       },
       {
+        "id": 177,
+        "name": "Tristan Wren",
+        "points": 34,
+        "type": 4,
+        "keywords": [204, 187],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/177.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/177.webp?version=3",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [71, 72],
+        "unavailableWith": [
+          "Tristan Wren",
+          {
+            "id": "22608",
+            "propertyName": "upgrades"
+          }
+        ],
+        "factions": [1, 2, 4, 5, 8]
+      },
+      {
         "id": 22608,
         "name": "Tristan Wren",
         "points": 25,
@@ -14204,28 +14211,6 @@
             }
           ]
         ]
-      },
-      {
-        "id": 177,
-        "name": "Tristan Wren",
-        "points": 34,
-        "type": 4,
-        "keywords": [204, 187],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/177.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/177.webp?version=3",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [71, 72],
-        "unavailableWith": [
-          "Tristan Wren",
-          {
-            "id": "22608",
-            "propertyName": "upgrades"
-          }
-        ],
-        "factions": [1, 2, 4, 5, 8]
       },
       {
         "id": 19827,
@@ -14334,6 +14319,20 @@
         "availableIn": [2108]
       },
       {
+        "id": 16578,
+        "name": "Twin Blaster Cannons",
+        "points": 5,
+        "type": 8,
+        "keywords": [181],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades/trimmed/16578.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades/16578.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": false,
+        "availableIn": [25966]
+      },
+      {
         "id": 964,
         "name": "Twin Blaster Cannons",
         "points": 20,
@@ -14347,20 +14346,6 @@
         "unique": false,
         "availableIn": [2108],
         "ttsName": "Twin Blaster Cannons (ISP)"
-      },
-      {
-        "id": 16578,
-        "name": "Twin Blaster Cannons",
-        "points": 5,
-        "type": 8,
-        "keywords": [181],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades/trimmed/16578.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades/16578.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": false,
-        "availableIn": [25966]
       },
       {
         "id": 151,
