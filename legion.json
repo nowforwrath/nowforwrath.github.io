@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.18.2"
+    "contentVersion": "2026.11.18.3"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -16727,7 +16727,7 @@
         }
       },
       {
-        "name": "Wookiee Defenders",
+        "name": "Wookiee War Grove",
         "id": 21,
         "alignment": "Light",
         "parentFaction": "Galactic Republic",
@@ -16747,7 +16747,7 @@
               {
                 "tier": 3,
                 "minimum": 0,
-                "maximum": 4
+                "maximum": 3
               },
               {
                 "tier": 4,
@@ -16757,23 +16757,20 @@
               {
                 "tier": 5,
                 "minimum": 0,
-                "maximum": 1
+                "maximum": 2
               },
               {
                 "tier": 6,
                 "minimum": 0,
-                "maximum": 1
-              }
-            ],
-            "combined": [
+                "maximum": 2
+              },
               {
-                "tiers": [
-                  1,
-                  6
-                ],
+                "tier": 7,
+                "minimum": 0,
                 "maximum": 2
               }
-            ]
+            ],
+            "combined": []
           },
           "recon": {
             "tiers": [
@@ -16785,12 +16782,201 @@
               {
                 "tier": 2,
                 "minimum": 2,
-                "maximum": 5
+                "maximum": 4
+              },
+              {
+                "tier": 3,
+                "minimum": 0,
+                "maximum": 2
+              },
+              {
+                "tier": 4,
+                "minimum": 0,
+                "maximum": 2
+              },
+              {
+                "tier": 5,
+                "minimum": 0,
+                "maximum": 1
+              },
+              {
+                "tier": 7,
+                "minimum": 0,
+                "maximum": 1
+              }
+            ],
+            "combined": []
+          }
+        },
+        "ttsRoot": {
+          "armyFaction": "",
+          "battleForce": "Wookiee War Grove"
+        }
+      },
+      {
+        "name": "224th Armored Division",
+        "id": 22,
+        "alignment": "Dark",
+        "parentFaction": "Empire",
+        "tierRequirements": {
+          "standard": {
+            "tiers": [
+              {
+                "tier": 1,
+                "minimum": 1,
+                "maximum": 4
+              },
+              {
+                "tier": 2,
+                "minimum": 4,
+                "maximum": 7
               },
               {
                 "tier": 3,
                 "minimum": 0,
                 "maximum": 3
+              },
+              {
+                "tier": 4,
+                "minimum": 0,
+                "maximum": 5
+              },
+              {
+                "tier": 5,
+                "minimum": 0,
+                "maximum": 2
+              },
+              {
+                "tier": 6,
+                "minimum": 0,
+                "maximum": 4
+              },
+              {
+                "tier": 7,
+                "minimum": 0,
+                "maximum": 2
+              }
+            ],
+            "combined": [
+              {
+                "tiers": [1, 6],
+                "maximum": 5
+              }
+            ]
+          },
+          "recon": {
+            "tiers": [
+              {
+                "tier": 1,
+                "minimum": 1,
+                "maximum": 4
+              },
+              {
+                "tier": 2,
+                "minimum": 3,
+                "maximum": 5
+              },
+              {
+                "tier": 3,
+                "minimum": 0,
+                "maximum": 2
+              },
+              {
+                "tier": 4,
+                "minimum": 0,
+                "maximum": 4
+              },
+              {
+                "tier": 5,
+                "minimum": 0,
+                "maximum": 1
+              },
+              {
+                "tier": 6,
+                "minimum": 0,
+                "maximum": 3
+              },
+              {
+                "tier": 7,
+                "minimum": 0,
+                "maximum": 1
+              }
+            ],
+            "combined": [
+              {
+                "tiers": [1, 6],
+                "maximum": 4
+              }
+            ]
+          }
+        },
+        "ttsRoot": {
+          "armyFaction": "",
+          "battleForce": "224th Armored Division"
+        }
+      },
+      {
+        "name": "Custom Clone Battalion",
+        "id": 23,
+        "alignment": "Light",
+        "parentFaction": "Galactic Republic",
+        "tierRequirements": {
+          "standard": {
+            "tiers": [
+              {
+                "tier": 1,
+                "minimum": 1,
+                "maximum": 2
+              },
+              {
+                "tier": 2,
+                "minimum": 3,
+                "maximum": 6
+              },
+              {
+                "tier": 3,
+                "minimum": 0,
+                "maximum": 3
+              },
+              {
+                "tier": 4,
+                "minimum": 0,
+                "maximum": 3
+              },
+              {
+                "tier": 5,
+                "minimum": 0,
+                "maximum": 2
+              },
+              {
+                "tier": 6,
+                "minimum": 0,
+                "maximum": 2
+              },
+              {
+                "tier": 7,
+                "minimum": 0,
+                "maximum": 2
+              }
+            ],
+            "combined": []
+          },
+          "recon": {
+            "tiers": [
+              {
+                "tier": 1,
+                "minimum": 1,
+                "maximum": 2
+              },
+              {
+                "tier": 2,
+                "minimum": 2,
+                "maximum": 4
+              },
+              {
+                "tier": 3,
+                "minimum": 0,
+                "maximum": 2
               },
               {
                 "tier": 4,
@@ -16806,32 +16992,101 @@
                 "tier": 6,
                 "minimum": 0,
                 "maximum": 1
+              },
+              {
+                "tier": 7,
+                "minimum": 0,
+                "maximum": 1
               }
             ],
-            "combined": [
-              {
-                "tiers": [
-                  1,
-                  6
-                ],
-                "maximum": 2
-              }
-            ]
+            "combined": []
           }
         },
         "ttsRoot": {
           "armyFaction": "",
-          "battleForce": "Wookiee Defenders"
+          "battleForce": "Custom Clone Battalion"
         }
       },
       {
-        "name": "224th Armored Division",
-        "id": 22,
-        "alignment": "Dark",
-        "parentFaction": "Empire",
+        "name": "Irregulars",
+        "id": 24,
+        "alignment": "Light",
+        "parentFaction": "Rebel",
+        "tierRequirements": {
+          "standard": {
+            "tiers": [
+              {
+                "tier": 2,
+                "minimum": 1,
+                "maximum": 6
+              },
+              {
+                "tier": 3,
+                "minimum": 1,
+                "maximum": 3
+              },
+              {
+                "tier": 4,
+                "minimum": 0,
+                "maximum": 3
+              },
+              {
+                "tier": 5,
+                "minimum": 1,
+                "maximum": 3
+              },
+              {
+                "tier": 6,
+                "minimum": 1,
+                "maximum": 4
+              },
+              {
+                "tier": 7,
+                "minimum": 0,
+                "maximum": 2
+              }
+            ],
+            "combined": []
+          },
+          "recon": {
+            "tiers": [
+              {
+                "tier": 2,
+                "minimum": 1,
+                "maximum": 4
+              },
+              {
+                "tier": 3,
+                "minimum": 1,
+                "maximum": 2
+              },
+              {
+                "tier": 4,
+                "minimum": 0,
+                "maximum": 2
+              },
+              {
+                "tier": 5,
+                "minimum": 1,
+                "maximum": 2
+              },
+              {
+                "tier": 6,
+                "minimum": 1,
+                "maximum": 2
+              },
+              {
+                "tier": 7,
+                "minimum": 0,
+                "maximum": 1
+              }
+            ],
+            "combined": []
+          }
+        },
         "ttsRoot": {
           "armyFaction": "",
-          "battleForce": "224th Armored Division"
+          "battleForce": "Irregulars"
         }
       }
     ],
@@ -18599,7 +18854,15 @@
             "rank": 3
           }
         ],
-        "upgradeTypes": [19, 4, 10, 6, 2, 2, 3],
+        "upgradeTypes": [19, 4, 10, 6, 2, 2, 3, {
+            "id": 9,
+            "unlockedBy": 20802
+          },
+          {
+            "id": 10,
+            "unlockedBy": 20802
+          }
+        ],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/62.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/62.webp?version=8",
         "keywords": [26, 37, 8, 18, 2, 41],
@@ -22252,14 +22515,6 @@
           }
         ],
         "upgradeTypes": [19, 4, 1, 10, 2, {
-            "id": 9,
-            "unlockedBy": 20802
-          },
-          {
-            "id": 10,
-            "unlockedBy": 20802
-          },
-          {
             "id": 2,
             "unlockedBy": 16567
           }
