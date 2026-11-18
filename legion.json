@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.17.4"
+    "contentVersion": "2026.11.18.0"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -8745,7 +8745,7 @@
       },
       {
         "id": 23966,
-        "name": "Gas Grenade",
+        "name": "Gas Grenades",
         "points": 5,
         "type": 3,
         "keywords": [208],
@@ -19579,7 +19579,7 @@
         "upgradeTypes": [10, 10, 2],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/4999.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/4999.webp?version=8",
-        "keywords": [134, 68, 21, 69, 41, 207, 187],
+        "keywords": [139, 68, 159, 51, 235, 207, 187],
         "figures": 1,
         "id": "4999",
         "unlimited": false,
@@ -19596,6 +19596,13 @@
           {
             "id": "34",
             "propertyName": "units"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "id": 24077,
+            "elementPropertyName": "upgrades",
+            "upgradeIndex": 0
           }
         ]
       },
@@ -19692,7 +19699,7 @@
             "rank": 6
           }
         ],
-        "upgradeTypes": [10, 10, 6, 2, 12, 3],
+        "upgradeTypes": [10, 10, 10, 2],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/5001.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/5001.webp?version=8",
         "keywords": [139, 1, 68, 27, 159, 72, 11, 200, 187],
@@ -19712,6 +19719,13 @@
           {
             "id": "59",
             "propertyName": "units"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "id": 24076,
+            "elementPropertyName": "upgrades",
+            "upgradeIndex": 2
           }
         ]
       },
@@ -19849,10 +19863,10 @@
             }
           }
         ],
-        "upgradeTypes": [10, 6, 2],
+        "upgradeTypes": [10, 10, 6, 2],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/6177.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/6177.webp?version=8",
-        "keywords": [68, 8, 26, 79, 53, 207, 189],
+        "keywords": [139, 44, 68, 159, 26, 51, 8, 207],
         "figures": 1,
         "id": "6177",
         "unlimited": false,
@@ -19866,6 +19880,13 @@
         "ttsName": "IG-88 Notorious Assassin Droid",
         "unavailableWith": [
           "IG-88"
+        ],
+        "requiredChildren": [
+          {
+            "id": 24078,
+            "elementPropertyName": "upgrades",
+            "upgradeIndex": 1
+          }
         ]
       },
       {
@@ -19894,15 +19915,10 @@
             }
           }
         ],
-        "upgradeTypes": [
-          {
-            "id": 18,
-            "required": true
-          },
-          10, 6, 2, 15],
+        "upgradeTypes": [10, 10, 6, 2, 15],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/6178.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/6178.webp?version=8",
-        "keywords": [10, 8, 26, 79, 142, 207],
+        "keywords": [139, 44, 68, 159, 10, 26, 8, 72, 207, 202],
         "figures": 1,
         "id": "6178",
         "unlimited": false,
@@ -19916,6 +19932,13 @@
         "ttsName": "IG-11 Nurse and Protect",
         "unavailableWith": [
           "IG-11"
+        ],
+        "requiredChildren": [
+          {
+            "id": 24079,
+            "elementPropertyName": "upgrades",
+            "upgradeIndex": 1
+          }
         ]
       },
       {
