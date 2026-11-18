@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.18.22"
+    "contentVersion": "2026.11.18.23"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -17858,7 +17858,7 @@
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/units-new/portraits/24.webp",
         "quantityLimitedBy": [],
         "faction": 1,
-        "unitType": 1,
+        "unitType": 8,
         "health": 3,
         "courage": 2,
         "speed": 2,
@@ -19481,7 +19481,7 @@
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/units-new/portraits/1527.webp",
         "quantityLimitedBy": [],
         "faction": 4,
-        "unitType": 1,
+        "unitType": 8,
         "health": 3,
         "courage": 2,
         "speed": 2,
@@ -19533,7 +19533,7 @@
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/units-new/portraits/1529.webp",
         "quantityLimitedBy": [],
         "faction": 1,
-        "unitType": 1,
+        "unitType": 8,
         "health": 3,
         "courage": null,
         "speed": 2,
@@ -19563,7 +19563,7 @@
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/units-new/portraits/1563.webp",
         "quantityLimitedBy": [],
         "faction": 4,
-        "unitType": 1,
+        "unitType": 8,
         "health": 3,
         "courage": 2,
         "speed": 2,
@@ -21526,7 +21526,15 @@
             "rank": 2
           }
         ],
-        "upgradeTypes": [19, 4, 1, { "id": 1, "unlockedBy": { "id": "ccbReinforced", "name": "Reinforced", "propertyName": "options" } }, 10, 2, 3, {
+        "upgradeTypes": [19, 4, {
+            "id": 1,
+            "unlockedBy": {
+              "id": "ccbReinforced",
+              "name": "Reinforced",
+              "propertyName": "options"
+            }
+          },
+          1, 10, 2, 3, {
             "id": 4,
             "unlockedBy": 24082
           },
@@ -22604,7 +22612,15 @@
             "rank": 2
           }
         ],
-        "upgradeTypes": [19, 4, 1, { "id": 1, "unlockedBy": { "id": "ccbReinforced", "name": "Reinforced", "propertyName": "options" } }, 10, 2, {
+        "upgradeTypes": [19, 4, {
+            "id": 1,
+            "unlockedBy": {
+              "id": "ccbReinforced",
+              "name": "Reinforced",
+              "propertyName": "options"
+            }
+          },
+          1, 10, 2, {
             "id": 2,
             "unlockedBy": 16567
           }
