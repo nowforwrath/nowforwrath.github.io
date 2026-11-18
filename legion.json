@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.18.25"
+    "contentVersion": "2026.11.18.26"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -18004,7 +18004,8 @@
           },
           {
             "id": 24,
-            "rank": 5
+            "rank": 5,
+            "replaceProperties": [[{ "property": "faction", "value": 1 }]]
           }
         ],
         "upgradeTypes": [7, 8, 6, 21],
@@ -19494,7 +19495,8 @@
           },
           {
             "id": 24,
-            "rank": 5
+            "rank": 5,
+            "replaceProperties": [[{ "property": "faction", "value": 1 }]]
           }
         ],
         "upgradeTypes": [7, 6, 14, 14, 21],
@@ -22976,7 +22978,8 @@
           },
           {
             "id": 24,
-            "rank": 5
+            "rank": 5,
+             "replaceProperties": [[{ "property": "faction", "value": 1 }]]
           }
         ],
         "upgradeTypes": [7, 6, 13],
