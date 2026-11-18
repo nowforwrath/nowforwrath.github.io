@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.18.3"
+    "contentVersion": "2026.11.18.4"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -5874,7 +5874,7 @@
           "Cassian Andor"
         ],
         "chooseOneKey": "leader",
-        "factions": [1, 2, 4, 5, null]
+        "factions": [1, 2, 4, 5, 24]
       },
       {
         "id": 23148,
@@ -8168,7 +8168,7 @@
         "unavailableWith": [
           "Fire Control"
         ],
-        "factions": [1, 2, 4, 5, 22, null]
+        "factions": [1, 2, 4, 5, 22, 23]
       },
       {
         "id": 87,
@@ -9998,7 +9998,7 @@
         "unavailableWith": [
           "Improvised Orders"
         ],
-        "factions": [1, 2, 4, 5, null, 10, 11, 13, 19, 12, 14, 8, null, 21, 15, 16, 17, 7, 18, 20, 9]
+        "factions": [1, 2, 4, 5, 24, 10, 11, 13, 19, 12, 14, 8, 23, 21, 15, 16, 17, 7, 18, 20, 9]
       },
       {
         "id": 22918,
@@ -10344,7 +10344,7 @@
           "Jyn Erso"
         ],
         "chooseOneKey": "leader",
-        "factions": [1, 2, 4, 5, null],
+        "factions": [1, 2, 4, 5, 24],
         "addProperties": [
           [
             {
@@ -12323,7 +12323,7 @@
         "unavailableWith": [
           "Reluctant Hero"
         ],
-        "factions": [1, 2, 4, 5, null, 13],
+        "factions": [1, 2, 4, 5, 24, 13],
         "addProperties": [
           [
             {
@@ -13451,7 +13451,7 @@
         "unavailableWith": [
           "Strike Team Leader"
         ],
-        "factions": [1, 2, 4, 5, 22, null, 12, null, 21, 7, 20]
+        "factions": [1, 2, 4, 5, 22, 24, 12, 23, 21, 7, 20]
       },
       {
         "id": 22922,
@@ -14629,7 +14629,7 @@
         "exhausts": null,
         "unique": false,
         "availableIn": [31670, 31669],
-        "factions": [null],
+        "factions": [24],
         "addProperties": [
           [
             {
@@ -17011,7 +17011,7 @@
         "name": "Irregulars",
         "id": 24,
         "alignment": "Light",
-        "parentFaction": "Rebel",
+        "parentFaction": "Rebels",
         "tierRequirements": {
           "standard": {
             "tiers": [
@@ -17320,6 +17320,7 @@
             "rank": 2
           },
           {
+            "id": 24,
             "rank": 2
           }
         ],
@@ -17942,6 +17943,7 @@
             "rank": 5
           },
           {
+            "id": 24,
             "rank": 5
           }
         ],
@@ -17970,6 +17972,7 @@
             "rank": 5
           },
           {
+            "id": 24,
             "rank": 5
           }
         ],
@@ -18350,6 +18353,7 @@
             "rank": 4
           },
           {
+            "id": 23,
             "rank": 4
           },
           {
@@ -18357,6 +18361,7 @@
             "rank": 4
           },
           {
+            "id": 23,
             "rank": 4
           }
         ],
@@ -18654,6 +18659,7 @@
             "rank": 5
           },
           {
+            "id": 23,
             "rank": 5
           }
         ],
@@ -18851,6 +18857,7 @@
             "rank": 3
           },
           {
+            "id": 23,
             "rank": 3
           }
         ],
@@ -18965,9 +18972,11 @@
             "rank": 4
           },
           {
+            "id": 23,
             "rank": 4
           },
           {
+            "id": 24,
             "rank": 4
           }
         ],
@@ -19074,6 +19083,7 @@
             "rank": 1
           },
           {
+            "id": 23,
             "rank": 1
           }
         ],
@@ -19310,6 +19320,7 @@
             "rank": 5
           },
           {
+            "id": 23,
             "rank": 5
           }
         ],
@@ -19338,6 +19349,7 @@
             "rank": 5
           },
           {
+            "id": 24,
             "rank": 5
           }
         ],
@@ -19370,6 +19382,7 @@
             "rank": 5
           },
           {
+            "id": 24,
             "rank": 5
           }
         ],
@@ -19725,6 +19738,7 @@
             "rank": 5
           },
           {
+            "id": 23,
             "rank": 5
           },
           {
@@ -21274,6 +21288,7 @@
             "rank": 4
           },
           {
+            "id": 23,
             "rank": 4
           }
         ],
@@ -21443,6 +21458,7 @@
             "rank": 2
           },
           {
+            "id": 23,
             "rank": 2
           },
           {
@@ -21562,6 +21578,7 @@
             "rank": 3
           },
           {
+            "id": 24,
             "rank": 3
           }
         ],
@@ -21638,6 +21655,7 @@
             "rank": 4
           },
           {
+            "id": 23,
             "rank": 4
           }
         ],
@@ -21799,6 +21817,7 @@
             "rank": 3
           },
           {
+            "id": 23,
             "rank": 3
           }
         ],
@@ -21940,6 +21959,7 @@
             "rank": 6
           },
           {
+            "id": 24,
             "rank": 6
           }
         ],
@@ -21976,6 +21996,7 @@
             "rank": 6
           },
           {
+            "id": 24,
             "rank": 6
           }
         ],
@@ -22050,6 +22071,7 @@
             "rank": 6
           },
           {
+            "id": 24,
             "rank": 6
           }
         ],
@@ -22222,6 +22244,7 @@
             "rank": 6
           },
           {
+            "id": 24,
             "rank": 6
           }
         ],
@@ -22256,6 +22279,7 @@
             "rank": 1
           },
           {
+            "id": 23,
             "rank": 1
           }
         ],
@@ -22314,6 +22338,7 @@
             "rank": 6
           },
           {
+            "id": 23,
             "rank": 6
           },
           {
@@ -22511,6 +22536,7 @@
             "rank": 2
           },
           {
+            "id": 23,
             "rank": 2
           }
         ],
@@ -22783,6 +22809,7 @@
             "rank": 5
           },
           {
+            "id": 24,
             "rank": 5
           }
         ],
@@ -23222,6 +23249,7 @@
             "rank": 3
           },
           {
+            "id": 24,
             "rank": 3
           }
         ],
