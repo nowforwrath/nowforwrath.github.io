@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.18.24"
+    "contentVersion": "2026.11.18.25"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -18414,11 +18414,35 @@
           },
           {
             "id": 23,
-            "rank": 4
+            "rank": 4,
+            "unlockedBy": [
+              {
+                "id": "ccbScout",
+                "name": "Scout",
+                "propertyName": "options"
+              },
+              {
+                "id": "ccbEliteRepulsorCrews",
+                "name": "Elite Repulsor Crews",
+                "propertyName": "options"
+              }
+            ]
           },
           {
             "id": 23,
-            "rank": 4
+            "rank": 4,
+            "unlockedBy": [
+              {
+                "id": "ccbScout",
+                "name": "Scout",
+                "propertyName": "options"
+              },
+              {
+                "id": "ccbEliteRepulsorCrews",
+                "name": "Elite Repulsor Crews",
+                "propertyName": "options"
+              }
+            ]
           },
           {
             "id": 21,
@@ -18720,7 +18744,14 @@
           },
           {
             "id": 23,
-            "rank": 5
+            "rank": 5,
+            "unlockedBy": [
+              {
+                "id": "ccbArmoredSupport",
+                "name": "Armored Support",
+                "propertyName": "options"
+              }
+            ]
           }
         ],
         "upgradeTypes": [7, 8, 6, 14, 14],
@@ -18918,7 +18949,19 @@
           },
           {
             "id": 23,
-            "rank": 3
+            "rank": 3,
+            "unlockedBy": [
+              {
+                "id": "ccbAssault",
+                "name": "Assault",
+                "propertyName": "options"
+              },
+              {
+                "id": "ccbSuperiorArcTraining",
+                "name": "Superior ARC Training",
+                "propertyName": "options"
+              }
+            ]
           }
         ],
         "upgradeTypes": [19, 4, 10, 6, 2, 2, 3, {
@@ -19377,7 +19420,19 @@
           },
           {
             "id": 23,
-            "rank": 5
+            "rank": 5,
+            "unlockedBy": [
+              {
+                "id": "ccbScout",
+                "name": "Scout",
+                "propertyName": "options"
+              },
+              {
+                "id": "ccbEliteRepulsorCrews",
+                "name": "Elite Repulsor Crews",
+                "propertyName": "options"
+              }
+            ]
           }
         ],
         "upgradeTypes": [7, 6, 14, 14, 21],
@@ -21349,7 +21404,14 @@
           },
           {
             "id": 23,
-            "rank": 4
+            "rank": 4,
+            "unlockedBy": [
+              {
+                "id": "ccbHandPicked",
+                "name": "Hand Picked",
+                "propertyName": "options"
+              }
+            ]
           }
         ],
         "upgradeTypes": [10, 6, 2, 12, 3],
@@ -21724,7 +21786,19 @@
           },
           {
             "id": 23,
-            "rank": 4
+            "rank": 4,
+            "unlockedBy": [
+              {
+                "id": "ccbAssault",
+                "name": "Assault",
+                "propertyName": "options"
+              },
+              {
+                "id": "ccbSuperiorArcTraining",
+                "name": "Superior ARC Training",
+                "propertyName": "options"
+              }
+            ]
           }
         ],
         "upgradeTypes": [
@@ -21886,7 +21960,19 @@
           },
           {
             "id": 23,
-            "rank": 3
+            "rank": 3,
+            "unlockedBy": [
+              {
+                "id": "ccbGarrison",
+                "name": "Garrison",
+                "propertyName": "options"
+              },
+              {
+                "id": "ccbForwardObservers",
+                "name": "Forward Observers",
+                "propertyName": "options"
+              }
+            ]
           }
         ],
         "upgradeTypes": [19, 4, 1, 10, 6, 3],
