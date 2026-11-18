@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.18.6"
+    "contentVersion": "2026.11.18.7"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -8138,7 +8138,7 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": true,
-        "availableIn": [25967],
+        "availableIn": [25967, 37054],
         "unavailableWith": [
           "Fifth Brother"
         ],
@@ -10428,32 +10428,6 @@
         ]
       },
       {
-        "id": 20803,
-        "name": "Kraken",
-        "points": 30,
-        "type": 4,
-        "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20803.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20803.webp?version=3",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [38, 52],
-        "unavailableWith": [
-          "Kraken",
-          {
-            "id": "20841",
-            "propertyName": "upgrades"
-          }
-        ],
-        "unavailableIn": [
-          [19103]
-        ],
-        "chooseOneKey": "leader",
-        "factions": [1, 2, 4, 5, 20]
-      },
-      {
         "id": 20841,
         "name": "Kraken",
         "points": 30,
@@ -10480,6 +10454,32 @@
         "factions": [1, 2, 4, 5, 20]
       },
       {
+        "id": 20803,
+        "name": "Kraken",
+        "points": 30,
+        "type": 4,
+        "keywords": [],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20803.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20803.webp?version=3",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [38, 52],
+        "unavailableWith": [
+          "Kraken",
+          {
+            "id": "20841",
+            "propertyName": "upgrades"
+          }
+        ],
+        "unavailableIn": [
+          [19103]
+        ],
+        "chooseOneKey": "leader",
+        "factions": [1, 2, 4, 5, 20]
+      },
+      {
         "id": 16579,
         "name": "KX-Series Security Droids",
         "points": 18,
@@ -10491,7 +10491,7 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": false,
-        "availableIn": [25967]
+        "availableIn": [25967, 37054]
       },
       {
         "id": 2697,
@@ -12500,21 +12500,6 @@
         "availableIn": [40]
       },
       {
-        "id": 23967,
-        "name": "RT-97C Stormtrooper",
-        "points": 20,
-        "type": 4,
-        "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/23967.webp?version=3",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/23967.webp?version=3",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [36806],
-        "ttsName": "RT-97C Stormtrooper (Wet)"
-      },
-      {
         "id": 121,
         "name": "RT-97C Stormtrooper",
         "points": 22,
@@ -12575,6 +12560,21 @@
             ]
           }
         ]
+      },
+      {
+        "id": 23967,
+        "name": "RT-97C Stormtrooper",
+        "points": 20,
+        "type": 4,
+        "keywords": [],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/23967.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/23967.webp?version=3",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [36806],
+        "ttsName": "RT-97C Stormtrooper (Wet)"
       },
       {
         "id": 90,
@@ -13325,7 +13325,7 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": false,
-        "availableIn": [25967]
+        "availableIn": [25967, 37054]
       },
       {
         "id": 135,
@@ -17324,6 +17324,7 @@
             "rank": 2
           },
           {
+            "id": 24,
             "rank": 2
           }
         ],
@@ -17954,6 +17955,7 @@
             "rank": 5
           },
           {
+            "id": 24,
             "rank": 5
           }
         ],
@@ -17982,6 +17984,7 @@
             "rank": 5
           },
           {
+            "id": 24,
             "rank": 5
           }
         ],
@@ -18362,6 +18365,7 @@
             "rank": 4
           },
           {
+            "id": 23,
             "rank": 4
           },
           {
@@ -18369,6 +18373,7 @@
             "rank": 4
           },
           {
+            "id": 23,
             "rank": 4
           }
         ],
@@ -18666,6 +18671,7 @@
             "rank": 5
           },
           {
+            "id": 23,
             "rank": 5
           }
         ],
@@ -18863,6 +18869,7 @@
             "rank": 3
           },
           {
+            "id": 23,
             "rank": 3
           }
         ],
@@ -18977,9 +18984,11 @@
             "rank": 4
           },
           {
+            "id": 23,
             "rank": 4
           },
           {
+            "id": 24,
             "rank": 4
           }
         ],
@@ -19086,6 +19095,7 @@
             "rank": 1
           },
           {
+            "id": 23,
             "rank": 1
           }
         ],
@@ -19322,6 +19332,7 @@
             "rank": 5
           },
           {
+            "id": 23,
             "rank": 5
           }
         ],
@@ -19350,6 +19361,7 @@
             "rank": 5
           },
           {
+            "id": 24,
             "rank": 5
           }
         ],
@@ -19382,6 +19394,7 @@
             "rank": 5
           },
           {
+            "id": 24,
             "rank": 5
           }
         ],
@@ -19737,6 +19750,7 @@
             "rank": 5
           },
           {
+            "id": 23,
             "rank": 5
           },
           {
@@ -20386,11 +20400,7 @@
             "rank": 2
           }
         ],
-        "upgradeTypes": [4, 4, 22, {
-            "id": 4,
-            "unlockedBy": 21906
-          }
-        ],
+        "upgradeTypes": [4, 4, 22],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/5880.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/5880.webp?version=8",
         "keywords": [128, 62, 150, 25],
@@ -21290,6 +21300,7 @@
             "rank": 4
           },
           {
+            "id": 23,
             "rank": 4
           }
         ],
@@ -21459,6 +21470,7 @@
             "rank": 2
           },
           {
+            "id": 23,
             "rank": 2
           },
           {
@@ -21543,6 +21555,10 @@
           {
             "id": 10,
             "rank": 2
+          },
+          {
+            "id": 22,
+            "rank": 2
           }
         ],
         "upgradeTypes": [4, 4, 10, 2, {
@@ -21578,6 +21594,7 @@
             "rank": 3
           },
           {
+            "id": 24,
             "rank": 3
           }
         ],
@@ -21654,6 +21671,7 @@
             "rank": 4
           },
           {
+            "id": 23,
             "rank": 4
           }
         ],
@@ -21815,6 +21833,7 @@
             "rank": 3
           },
           {
+            "id": 23,
             "rank": 3
           }
         ],
@@ -21956,6 +21975,7 @@
             "rank": 6
           },
           {
+            "id": 24,
             "rank": 6
           }
         ],
@@ -21992,6 +22012,7 @@
             "rank": 6
           },
           {
+            "id": 24,
             "rank": 6
           }
         ],
@@ -22066,6 +22087,7 @@
             "rank": 6
           },
           {
+            "id": 24,
             "rank": 6
           }
         ],
@@ -22238,6 +22260,7 @@
             "rank": 6
           },
           {
+            "id": 24,
             "rank": 6
           }
         ],
@@ -22272,6 +22295,7 @@
             "rank": 1
           },
           {
+            "id": 23,
             "rank": 1
           }
         ],
@@ -22330,6 +22354,7 @@
             "rank": 6
           },
           {
+            "id": 23,
             "rank": 6
           },
           {
@@ -22527,6 +22552,7 @@
             "rank": 2
           },
           {
+            "id": 23,
             "rank": 2
           }
         ],
@@ -22799,6 +22825,7 @@
             "rank": 5
           },
           {
+            "id": 24,
             "rank": 5
           }
         ],
@@ -23238,6 +23265,7 @@
             "rank": 3
           },
           {
+            "id": 24,
             "rank": 3
           }
         ],
@@ -23250,11 +23278,7 @@
             "id": 4,
             "required": true
           },
-          10, 10, 2, 3, {
-            "id": 4,
-            "unlockedBy": 21907
-          }
-        ],
+          10, 10, 2, 3],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/33774.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/33774.webp?version=8",
         "keywords": [128, 134, 14, 223],
@@ -24424,12 +24448,7 @@
         "name": "Stormtrooper Riot Squad",
         "title": "Trench Busters",
         "points": 50,
-        "factions": [
-          {
-            "id": 22,
-            "rank": 3
-          }
-        ],
+        "factions": [],
         "upgradeTypes": [4, 4, 10, 2, 3],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/420/37054.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/new-unit-cards/front/37054.webp?version=8",
