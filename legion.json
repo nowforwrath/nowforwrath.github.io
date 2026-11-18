@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.18.28"
+    "contentVersion": "2026.11.18.29"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -10157,7 +10157,7 @@
             "propertyName": "upgrades"
           }
         ],
-        "factions": [1, 2, 4, 5, 23, 12],
+        "factions": [1, 2, 4, 5, 23, 21, 12],
         "addProperties": [
           [
             {
@@ -13549,6 +13549,20 @@
         ]
       },
       {
+        "id": 2719,
+        "name": "Super Commando Gunslinger",
+        "points": 30,
+        "type": 4,
+        "keywords": [223],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/2719.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/2719.webp?version=4",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": false,
+        "availableIn": [4767]
+      },
+      {
         "id": 22600,
         "name": "Super Commando Gunslinger",
         "points": 30,
@@ -13564,17 +13578,17 @@
         "ttsName": "Super Commando Gunslinger (Saxon)"
       },
       {
-        "id": 2719,
-        "name": "Super Commando Gunslinger",
+        "id": 2717,
+        "name": "Super Commando Marksman",
         "points": 30,
         "type": 4,
-        "keywords": [223],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/2719.webp?version=4",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/2719.webp?version=4",
+        "keywords": [204],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/2717.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/2717.webp?version=4",
         "limit": null,
         "exhaustsPerTurn": null,
         "exhausts": null,
-        "unique": false,
+        "unique": null,
         "availableIn": [4767]
       },
       {
@@ -13591,20 +13605,6 @@
         "unique": null,
         "availableIn": [34890],
         "ttsName": "Super Commando Marksman (Saxon)"
-      },
-      {
-        "id": 2717,
-        "name": "Super Commando Marksman",
-        "points": 30,
-        "type": 4,
-        "keywords": [204],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/2717.webp?version=4",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/2717.webp?version=4",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [4767]
       },
       {
         "id": 22854,
@@ -13970,92 +13970,6 @@
         ]
       },
       {
-        "id": 6132,
-        "name": "The Darksaber",
-        "points": 5,
-        "type": 12,
-        "keywords": [115, 4, 202, 207],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/6132.webp?version=4",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/6132.webp?version=4",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [11258],
-        "ttsName": "The Darksaber (Gideon)",
-        "unavailableWith": [
-          "The Darksaber",
-          {
-            "id": "22610",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22612",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22611",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "71",
-            "propertyName": "upgrades"
-          }
-        ],
-        "factions": [1, 2, 4, 5, 8, 7],
-        "addProperties": [
-          [
-            {
-              "property": "keywords",
-              "value": [115, 4]
-            }
-          ]
-        ]
-      },
-      {
-        "id": 22610,
-        "name": "The Darksaber",
-        "points": 10,
-        "type": 12,
-        "keywords": [2, 4, 115, 202],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22610.webp?version=4",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22610.webp?version=4",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [34888],
-        "ttsName": "The Darksaber (Gar)",
-        "unavailableWith": [
-          "The Darksaber",
-          {
-            "id": "6132",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22612",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22611",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "71",
-            "propertyName": "upgrades"
-          }
-        ],
-        "factions": [1, 2, 4, 5, 9, 8],
-        "addProperties": [
-          [
-            {
-              "property": "keywords",
-              "value": [2, 4, 115]
-            }
-          ]
-        ]
-      },
-      {
         "id": 22612,
         "name": "The Darksaber",
         "points": 10,
@@ -14073,7 +13987,7 @@
         "unavailableWith": [
           "The Darksaber",
           {
-            "id": "6132",
+            "id": "22611",
             "propertyName": "upgrades"
           },
           {
@@ -14081,7 +13995,7 @@
             "propertyName": "upgrades"
           },
           {
-            "id": "22611",
+            "id": "6132",
             "propertyName": "upgrades"
           },
           {
@@ -14118,7 +14032,7 @@
         "unavailableWith": [
           "The Darksaber",
           {
-            "id": "6132",
+            "id": "22612",
             "propertyName": "upgrades"
           },
           {
@@ -14126,7 +14040,7 @@
             "propertyName": "upgrades"
           },
           {
-            "id": "22612",
+            "id": "6132",
             "propertyName": "upgrades"
           },
           {
@@ -14135,6 +14049,92 @@
           }
         ],
         "factions": [1, 2, 4, 5, 9, 8]
+      },
+      {
+        "id": 22610,
+        "name": "The Darksaber",
+        "points": 10,
+        "type": 12,
+        "keywords": [2, 4, 115, 202],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22610.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22610.webp?version=4",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [34888],
+        "ttsName": "The Darksaber (Gar)",
+        "unavailableWith": [
+          "The Darksaber",
+          {
+            "id": "22612",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22611",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "6132",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "71",
+            "propertyName": "upgrades"
+          }
+        ],
+        "factions": [1, 2, 4, 5, 9, 8],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [2, 4, 115]
+            }
+          ]
+        ]
+      },
+      {
+        "id": 6132,
+        "name": "The Darksaber",
+        "points": 5,
+        "type": 12,
+        "keywords": [115, 4, 202, 207],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/6132.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/6132.webp?version=4",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [11258],
+        "ttsName": "The Darksaber (Gideon)",
+        "unavailableWith": [
+          "The Darksaber",
+          {
+            "id": "22612",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22611",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22610",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "71",
+            "propertyName": "upgrades"
+          }
+        ],
+        "factions": [1, 2, 4, 5, 8, 7],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [115, 4]
+            }
+          ]
+        ]
       },
       {
         "id": 71,
@@ -14152,7 +14152,11 @@
         "unavailableWith": [
           "The Darksaber",
           {
-            "id": "6132",
+            "id": "22612",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22611",
             "propertyName": "upgrades"
           },
           {
@@ -14160,11 +14164,7 @@
             "propertyName": "upgrades"
           },
           {
-            "id": "22612",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22611",
+            "id": "6132",
             "propertyName": "upgrades"
           }
         ],
@@ -14228,29 +14228,6 @@
         ]
       },
       {
-        "id": 24099,
-        "name": "Tip of the Spear",
-        "points": 8,
-        "type": 24,
-        "keywords": [161, 164, 18],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/24099.webp?version=4",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/24099.webp?version=4",
-        "limit": 2,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": false,
-        "availableIn": [31667, 31668],
-        "factions": [22],
-        "addProperties": [
-          [
-            {
-              "property": "keywords",
-              "value": [161, 164, 18]
-            }
-          ]
-        ]
-      },
-      {
         "id": 20269,
         "name": "Tip of the Spear",
         "points": 8,
@@ -14271,6 +14248,29 @@
           }
         ],
         "factions": [1, 2, 4, 5, 10, 19, 17, 7],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [161, 164, 18]
+            }
+          ]
+        ]
+      },
+      {
+        "id": 24099,
+        "name": "Tip of the Spear",
+        "points": 8,
+        "type": 24,
+        "keywords": [161, 164, 18],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/24099.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/24099.webp?version=4",
+        "limit": 2,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": false,
+        "availableIn": [31667, 31668],
+        "factions": [22],
         "addProperties": [
           [
             {
@@ -14899,7 +14899,7 @@
         "id": 24092,
         "name": "War Grove Gnasp Bombardier",
         "points": 20,
-        "type": 4,
+        "type": 13,
         "keywords": [206, 187],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/24092.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/24092.webp?version=4",
@@ -14913,7 +14913,7 @@
         "id": 24093,
         "name": "War Grove Gnasp Gunner",
         "points": 15,
-        "type": 4,
+        "type": 13,
         "keywords": [53, 181, 202, 207],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/24093.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/24093.webp?version=4",
