@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.18.33"
+    "contentVersion": "2026.11.18.34"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -4730,7 +4730,7 @@
       {
         "id": 20801,
         "name": "Agent Kallus",
-        "points": 28,
+        "points": 25,
         "type": 4,
         "keywords": [192, 115, 197, 205],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20801.webp?version=4",
