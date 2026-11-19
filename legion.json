@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.18.34"
+    "contentVersion": "2026.11.18.35"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -29490,7 +29490,7 @@
       {
         "id": 66,
         "name": "Cunning",
-        "definition": "When determining priority, if there is a tie, the player who controls this unit is Favored until the end of the Round. A\nplayer that is Favored may reroll the die for determining which player chooses who has priority. If both players are Favored, neither player may reroll that die."
+        "definition": "When determining priority, if there is a tie, the player who controls this unit is Favored until the end of the Round. A player that is Favored may reroll the die for determining which player chooses who has priority. If both players are Favored, neither player may reroll that die."
       },
       {
         "id": 190,
@@ -29980,7 +29980,7 @@
       {
         "id": 206,
         "name": "Overrun X",
-        "definition": "A weapon with a red overrun range icon is an overrun weapon and can only be used during overrun attacks. Overrun attacks are not ranged or melee attacks. A unit may make X overrun attacks during its activation. A unit with an overrun weapon can perform an overrun attack after it performs a standard move in which the movement tool or one of its miniatures’ bases overlapped an enemy miniature’s base. After completing the move, the unit with the overrun weapon performs an attack against the unit it moved through, ignoring range when making this attack. It can only form one attack pool when making this attack, and only weapons with the Overrun X keyword can be in this attack pool. The overrun weapon is only added to the attack pool once, even if there are multiple miniatures in the unit.\n\nIf a unit can perform multiple overrun attacks during its activation, it must perform a separate move through an enemy unit for each overrun attack."
+        "definition": "When this unit makes a Move action, if its Speed is greater than 1 and if it is not a Flying Vehicle, it may reduce its Speed by 1 for that Move action. If it does, after the movement is resolved, choose an enemy non-Flying Vehicle unit within Range 1/2 and within a vertical distance equal to the height of the moving unit’s Silhouette. Then this unit makes an attack against the chosen unit. During the attack, this unit may only add 1 weapon to the attack pool and that weapon must have the Overrun X keyword.\n\nWhen this unit ends its Cruising Move, if it has a weapon with the Overrun X keyword and if it is a Flying Vehicle, choose an enemy non-Flying Vehicle unit within Range 1/2 of it. This unit makes an attack against the chosen unit. During this attack, this unit may only add 1 weapon to the Attack Pool and that weapon must have the Overrun X keyword.\n\nA unit may use the Overrun X keyword a maximum of X times during its Activation, and only once per Move action."
       },
       {
         "id": 223,
@@ -30340,7 +30340,7 @@
       {
         "id": 154,
         "name": "Unstoppable",
-        "definition": "This unit is eligible to activate during the Activation Phase while it has 1 or fewer Order tokens. This unit may never have more than 1 faceup Order token. While this unit is not defeated, when its controlling player is creating their Order Pool, they add an additional Order token corresponding to this unit’s Rank to their Order Pool.\n\nDuring the Command Phase, when counting undefeated units during the Create the Pass Pool step, this unit counts as\ntwo units."
+        "definition": "This unit is eligible to activate during the Activation Phase while it has 1 or fewer Order tokens. This unit may never have more than 1 faceup Order token. While this unit is not defeated, when its controlling player is creating their Order Pool, they add an additional Order token corresponding to this unit’s Rank to their Order Pool.\n\nDuring the Command Phase, when counting undefeated units during the Create the Pass Pool step, this unit counts as two units."
       },
       {
         "id": 229,
