@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.18.32"
+    "contentVersion": "2026.11.18.33"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -29280,12 +29280,12 @@
       {
         "id": 211,
         "name": "AI: Action",
-        "definition": "When a unit that has the AI keyword starts its Make Actions step, it must make 1 of the actions listed in its AI keyword if it does not have a faceup Order token and if 1 of the following conditions are met:\n\nThe unit is Suppressed but not Panicked.\nThe unit has a Vehicle Damage token.\nThe unit is a Vehicle unit and half or more of the miniatures it started the game with have been defeated.\n\nIf the unit with the AI keyword cannot make any of its listed actions, it makes 1 fewer action during its Make Actions step."
+        "definition": "When a unit that has the AI keyword starts its Make Actions step, it must make 1 of the actions listed in its AI keyword if it does not have a faceup Order token and if 1 of the following conditions are met:\n\nThe unit is Suppressed but not Panicked.\nThe unit has a Vehicle Damage token.\nThe unit is a Vehicle unit and half or more of the miniatures it started the game with have been defeated.\nThe unit is a Flying Vehicle unit and was undeployed at the start of its Activation.\n\nIf the unit with the AI keyword cannot make any of its listed actions, it makes 1 fewer action during its Make Actions step."
       },
       {
         "id": 80,
         "name": "AI: Attack",
-        "definition": "When a unit that has the AI keyword starts its Make Actions step, it must make 1 of the actions listed in its AI keyword if it does not have a faceup Order token and if 1 of the following conditions are met:\n\nThe unit is Suppressed but not Panicked.\nThe unit has a Vehicle Damage token.\nThe unit is a Vehicle unit and half or more of the miniatures it started the game with have been defeated.\n\nIf the unit with the AI keyword cannot make any of its listed actions, it makes 1 fewer action during its Make Actions step."
+        "definition": "When a unit that has the AI keyword starts its Make Actions step, it must make 1 of the actions listed in its AI keyword if it does not have a faceup Order token and if 1 of the following conditions are met:\n\nThe unit is Suppressed but not Panicked.\nThe unit has a Vehicle Damage token.\nThe unit is a Vehicle unit and half or more of the miniatures it started the game with have been defeated.\nThe unit is a Flying Vehicle unit and was undeployed at the start of its Activation.\n\nIf the unit with the AI keyword cannot make any of its listed actions, it makes 1 fewer action during its Make Actions step."
       },
       {
         "id": 83,
@@ -29295,7 +29295,7 @@
       {
         "id": 161,
         "name": "Aid",
-        "definition": "Each time a unit with the Aid keyword would gain an Aim, Dodge, or Surge token, another allied unit of the Affiliation or unit type listed within Range 2 and in LOS may gain that token instead. If it does, the unit with the Aid keyword gains 1 suppression token, if able."
+        "definition": "When this unit, if it is not Suppressed, would gain 1 or more Aim tokens, Dodge tokens, or Surge tokens, choose another allied unit that has the A\u001Aliation or unit type listed within Range 2 and in LOS of this unit. The chosen unit may gain 1 of those tokens instead. If the chosen unit does, this unit gains 1 Suppression token, if able."
       },
       {
         "id": 96,
@@ -29365,7 +29365,7 @@
       {
         "id": 114,
         "name": "Ataru Mastery",
-        "definition": "A unit with the Ataru Mastery keyword can make up to 2 Attack actions during its Activation. When it attacks, it gains 1 Dodge token after the attack is resolved. When it defends, it gains 1 Aim token after the attack is resolved."
+        "definition": "This unit can make up to 2 Attack actions during its Activation. When this unit attacks, after the attack is resolved, it gains 1 Dodge token. When this unit defends, after the attack is resolved, it gains 1 Aim token."
       },
       {
         "id": 120,
@@ -29395,12 +29395,12 @@
       {
         "id": 87,
         "name": "Block",
-        "definition": "When a unit with the Block keyword is defending, if it spends 1 or more Dodge tokens during the Apply Dodge and Cover step, it gains SURGE:BLOCK until the end of that attack."
+        "definition": "When this unit is defending, if it spends 1 or more Dodge tokens during the Apply Dodge and Cover step, it gains Surge: Dodge until the end of that attack."
       },
       {
         "id": 107,
         "name": "➦Bolster",
-        "definition": "As a Card action, a unit with the Bolster X keyword can choose up to X allied units within 2 to each gain 1 Surge token."
+        "definition": "As a Card action or a Free Card action, this unit chooses up to X allied units within 2. Each chosen unit gains 1 Surge token."
       },
       {
         "id": 68,
@@ -29415,7 +29415,7 @@
       {
         "id": 97,
         "name": "➦Calculate Odds",
-        "definition": "As a Card action, a unit with the Calculate Odds keyword can choose an allied Trooper unit within 2 and in LOS to gain 1 Aim token, 1 Dodge token, and 1 Suppression token."
+        "definition": "As a Card action or a Free Card action, this unit chooses an allied Trooper unit within 2 and in LOS. The chosen unit gains 1 Aim token, 1 Dodge token, and 1 Suppression token."
       },
       {
         "id": 2,
@@ -29490,7 +29490,7 @@
       {
         "id": 66,
         "name": "Cunning",
-        "definition": "When determining priority during the Command Phase, if a player reveals a Commander or Operative specific Command Card that belongs to a unit with the Cunning keyword and there would be a tie for priority, treat that Command Card as having 1 fewer pip, to a minimum of 0. If both players reveal a specific Commander or Operative Command Card that belongs to a unit with the Cunning keyword, there is still a tie for priority."
+        "definition": "When determining priority, if there is a tie, the player who controls this unit is Favored until the end of the Round. A\nplayer that is Favored may reroll the die for determining which player chooses who has priority. If both players are Favored, neither player may reroll that die."
       },
       {
         "id": 190,
@@ -29520,7 +29520,7 @@
       {
         "id": 3,
         "name": "Deflect",
-        "definition": "While a unit with the Deflect keyword defends against a Ranged attack or uses the Guardian X keyword, its surge conversion chart gains Surge: Block. Additionally, during the Convert Defense Surges step before converting SURGE results, the attacker suffers 1 Wound if there is at least 1 Surge result in the defense roll. When a unit with the Deflect keyword uses the Guardian X keyword, before converting any defense surges using the Soresu Mastery keyword, the attacker suffers 1 Wound if at least 1 of the dice rolled with Guardian X rolled at least 1 SURGE result. If the Deflect keyword causes the attacking unit to be defeated, the attack continues, and the defender can still suffer Wounds. While defending or using the Guardian X keyword against an attack made only with weapons that have the High Velocity keyword, the Deflect keyword has no effect."
+        "definition": "While this unit defends against a Ranged attack, before converting Surge: Block results, its surge conversion chart gains Surge: Block, and if there is at least 1 Surge: Block result in the roll, the attacker suffers 1 Wound.\n\nWhen a unit with the Deflect keyword uses the Guardian X keyword, before converting e results, the attacker suffers 1 Wound if at least 1 of the dice rolled with Guardian X rolled a Surge: Block.\n\nWhile defending or using the Guardian X keyword against an attack made only with weapons that have the High Velocity keyword, the Deflect keyword has no effect.\n\nIf the Deflect keyword causes the attacking unit to be defeated, the attack continues, and the defender can still suffer Wounds."
       },
       {
         "id": 115,
@@ -29593,6 +29593,11 @@
         "definition": "When a unit with the Duelist keyword makes a Melee attack, if it spends 1 or more Aim tokens during the Reroll Attack Dice step, the Attack Pool gains the Pierce 1 weapon keyword. While a unit with the Duelist keyword defends against a Melee attack, if it spends at least 1 Dodge token during the Apply Dodge and Cover step, it gains the Immune: Pierce keyword. A unit with the Duelist keyword gets these effects in addition to the normal effects of spending Aim or Dodge tokens."
       },
       {
+        "id": 236,
+        "name": "Elusive",
+        "definition": "This unit gains 1 Dodge token when one of the following conditions are met:\n• An enemy Flying Vehicle ends a Cruising Move or Combat Move with this unit in its front arc.\n• An enemy unit Breaks Offand this unit is undeployed."
+      },
+      {
         "id": 21,
         "name": "Enrage",
         "definition": "When a unit with the Enrage X keyword has Wound tokens greater than or equal to X, that unit gains the Charge keyword and its Courage becomes \"-\". If a unit with the Enrage X keyword has Wound tokens greater than or equal to X but removes Wound tokens through an effect so that it has fewer than X, it no longer benefits from the Enrage X keyword until it has Wound tokens greater than or equal to X again."
@@ -29650,7 +29655,7 @@
       {
         "id": 127,
         "name": "Field Commander",
-        "definition": "During Army Building, an army that includes a unit with the Field Commander keyword may ignore the minimum Commander Rank requirement. If a player's army contains no Commander units during Setup but does contain a unit with the Field Commander keyword, that unit gains a Commander token. When a player reveals a non-Commander or Operative specific Command Card, they may nominate an allied unit with the Field Commander keyword to be Commander and issue Orders. A unit with the Field Commander keyword is not a Commander and only counts as one for the purposes of issuing Orders with a Command Card during the Command Phase. A unit with the Field Commander keyword counts as a Special Forces of that Faction or Affiliation when building a Command Hand.\n\nAdditionally, if an allied Unit is within Range 3 of the unit with the Commander token and both units share the same Faction or Affiliation, that allied unit may treat the unit that has the Field Commander keyword as a Commander unit with a Courage of 2."
+        "definition": "During Army Building, an army that includes one or more units with the Field Commander keyword may ignore the minimum Commander Rank Requirement. At the start of each Command Phase, if a player has no undefeated Commander units and if no allied units have a Commander token, this unit gains a Commander token.\n\nIf this unit has a Commander token, allied units within 3 that share the same Faction or Affiliation treat this unit as a Commander unit with Courage of 2.\n\nAdditionally, a unit with the Field Commander keyword counts as a Commander unit of that Faction or Affiliation when building a Command Hand."
       },
       {
         "id": 60,
@@ -29670,7 +29675,7 @@
       {
         "id": 128,
         "name": "Flexible Response [X]",
-        "definition": "During Army Building, a unit with the Flexible Response keyword must equip X Heavy Weapon upgrades."
+        "definition": "During Army Building, a unit with the Flexible Response keyword must equip X or more Heavy Weapon upgrades."
       },
       {
         "id": 47,
@@ -29701,6 +29706,11 @@
         "id": 10,
         "name": "Gunslinger",
         "definition": "When a unit with the Gunslinger keyword reaches the Declare Additional Defender step, it may declare an additional defender and create an Attack Pool consisting solely of a Ranged weapon that has already been contributed to another Attack Pool. The Gunslinger keyword can only be used once per attack sequence."
+      },
+      {
+        "id": 237,
+        "name": "Hard Break",
+        "definition": "As a Card action or a Free Card action, this unit may rotate its unit leader's base up to 90° to the left or right, keeping the center of the base in the same place."
       },
       {
         "id": 38,
@@ -29790,7 +29800,7 @@
       {
         "id": 98,
         "name": "Incognito",
-        "definition": "A unit with the Incognito keyword cannot be attacked by enemy units that are not within 1 of it, cannot Contest Objectives, and cannot provide Backup. If a unit with the Incognito keyword ever makes an attack or defends against an attack, it loses the Incognito keyword for the remainder of the game. Additionally, at the beginning of a unit with the Incognito keyword's Activation, it may choose to lose the Incognito keyword for the remainder of the game."
+        "definition": "This unit:\n• Cannot be attacked by enemy Flying Vehicles.\n• Cannot be attacked by units that are not within 1 of it.\n• Cannot Contest Objectives.\n• Cannot provide Backup.\nIf this unit makes an attack or defends against an attack, it loses Incognito.\n\nAdditionally, at the start of this unit's Activation it may choose to lose Incognito."
       },
       {
         "id": 33,
@@ -29805,7 +29815,7 @@
       {
         "id": 40,
         "name": "Indomitable",
-        "definition": "When a unit that has the Indomitable keyword Rallies, it rolls red defense dice instead of white defense dice."
+        "definition": "When this unit Rallies, it rolls red defense dice instead of white defense dice."
       },
       {
         "id": 14,
@@ -29820,12 +29830,12 @@
       {
         "id": 6,
         "name": "Inspire",
-        "definition": "When a unit with the Inspire X keyword ends its Activation, remove up to X total Suppression tokens from other allied units within Range 2."
+        "definition": "When this unit ends its Activation, remove up to X total Suppression tokens from other allied units within Range 2."
       },
       {
         "id": 135,
         "name": "Interrogate",
-        "definition": "During the Command Phase, if a player reveals a Command Card that belongs to a unit within Range 1 of 1 or more enemy units with the Interrogate keyword and there would be a tie for priority, treat that Command Card as having 1 more pip."
+        "definition": "When determining priority, if there is a tie and if this unit is within Range 1 of 1 or more enemy Commander units or enemy units with the Field Commander keyword, the player that controls this unit becomes Favored until the end of the Round. A player that is Favored may reroll the die for determining which player chooses who has priority. If both players are Favored, neither player may reroll that die."
       },
       {
         "id": 203,
@@ -29835,17 +29845,22 @@
       {
         "id": 136,
         "name": "Jar'Kai Mastery",
-        "definition": "When a unit with the Jar'Kai Mastery keyword makes a Melee attack, it may spend any number of Dodge tokens after converting attack surges during the Convert Attack Surges step. For each Dodge token spent in this way, change a Blank result to a Hit result, a Hit result to a Crit result, or spend 2 Dodge tokens to change a Blank result to a Crit result."
+        "definition": "When this unit makes a Melee attack, at the end of the Convert Attack Surges step, it may spend any number of Dodge tokens. For each Dodge token spent in this way, change a Blank result to a Hit result or a Hit result to a Crit result. A die may be chosen more than once in this way."
       },
       {
         "id": 70,
         "name": "Jedi Hunter",
-        "definition": "When a unit with the Jedi Hunter keyword attacks a unit with a Force upgrade icon on its upgrade bar, the attacking unit gains Surge: Crit until the end of that attack."
+        "definition": "When this unit attacks a unit that has a Force upgrade icon on its upgrade bar, the attacking unit gains Surge: Crit until the end of the attack."
+      },
+      {
+        "id": 238,
+        "name": "Jink",
+        "definition": "When this unit defends against an enemy Ranged attack, before rolling its Cover Pool, it may gain a Jink token. While a unit has a Jink token, it rolls red defense instead of white defense dice when rolling its Cover Pool and cannot make attacks. At the end of this unit’s Activation, it loses all Jink tokens it has. A unit may only have 1 Jink token at a time."
       },
       {
         "id": 1,
         "name": "Jump",
-        "definition": "A unit that has the Jump X keyword can make the Jump X Card action any time it could make a Move action. The unit makes a Move action as normal and can ignore or end its movement on top of terrain that is height X or lower. While making a Move with the Jump X action, a unit ignores the effects of difficult terrain and other miniatures with a height equal to or lower than X. When making a Move with the Jump X action, a unit may place the Movement Tool overlapping impassable terrain but may not end its Move overlapping it. When a unit makes the Jump X action, measure height from that unit's starting position."
+        "definition": "As a Card action or a Free Card action, this unit may Jump. When it does, this unit makes a Move action with the following special rules:\n• This unit may ignore the effects of difficult terrain.\n• This unit may ignore terrain with height X or lower relative to this unit’s starting position.\n• This unit may end its movement on top of terrain with height X or lower relative to this unit’s starting position.\n• This unit may move through impassable terrain but may not end its movement overlapping impassable terrain."
       },
       {
         "id": 106,
@@ -29890,7 +29905,7 @@
       {
         "id": 89,
         "name": "Makashi Mastery",
-        "definition": "When a unit with the Makashi Mastery keyword makes a Melee attack, it can reduce the Pierce X value of a weapon in the Attack Pool by 1 during the Choose Weapons and Gather Dice step. If it does, the defender cannot use the Immune: Melee Pierce, Immune: Pierce, and/or Impervious keywords during this attack."
+        "definition": "When this unit makes a Melee attack, during the Form Attack Pool step, it may choose one of its Attack Pools that contains a Melee weapon. If it does, reduce the Pierce X value of this Attack Pool by 1. The defender cannot use the Immune: Melee Pierce, Immune: Pierce, and/or Impervious keywords against this Attack Pool."
       },
       {
         "id": 232,
@@ -30020,7 +30035,7 @@
       {
         "id": 12,
         "name": "➦Quick Thinking",
-        "definition": "When a unit makes the Quick Thinking Card action, it gains 1 Aim and 1 Dodge token."
+        "definition": "As a Card action or a Free Card action, this unit gains 1 Aim token and 1 Dodge token."
       },
       {
         "id": 183,
@@ -30090,7 +30105,7 @@
       {
         "id": 145,
         "name": "Retinue",
-        "definition": "At the start of each Activation Phase, if a unit with the Retinue keyword is within 2 of another allied unit or unit type specified by the Retinue keyword, the unit with the Retinue keyword gains either 1 Aim or 1 Dodge token. Additionally, a unit with the Retinue keyword ignores the Corps Rank requirement to provide Backup to the specified unit."
+        "definition": "At the start of each Activation Phase, if this unit is within 2 of 1 or more specified allied units, this unit may gain either 1 Aim token or 1 Dodge token.\n\nAdditionally, this unit ignores the Corps Rank requirement to provide Backup to a specified unit."
       },
       {
         "id": 113,
@@ -30205,7 +30220,7 @@
       {
         "id": 61,
         "name": "➦Spotter",
-        "definition": "As a Card or Free Card action, a unit with the Spotter X keyword can choose up to X allied units within 2. Each chosen unit gains 1 Aim token."
+        "definition": "As a Card action or a Free Card action, this unit chooses up to X allied units within Range 2. Each chosen unit gains 1 Aim token."
       },
       {
         "id": 186,
@@ -30230,12 +30245,17 @@
       {
         "id": 151,
         "name": "Strategize",
-        "definition": "When a unit makes the Strategize X action, it gains 1 Suppression token, then chooses X allied units within 2. Each chosen unit gains 1 Aim token and 1 Dodge token."
+        "definition": "As a Card action or a Free Card action, this unit gains 1 Suppression token. Then this unit chooses up to X allied units\nwithin 2. Each chosen unit gains 1 Aim token and 1 Dodge token."
       },
       {
         "id": 187,
         "name": "Suppressive",
         "definition": "After defending against an attack pool that includes a weapon with the Suppressive keyword, the defending unit gains one suppression token during the Assign Suppression Token to Defender step."
+      },
+      {
+        "id": 239,
+        "name": "Swarm",
+        "definition": "When this unit attacks an enemy unit that is within another allied Flying Vehicle unit's front arc, upgrade 2 of this unit's\nattack dice."
       },
       {
         "id": 227,
@@ -30250,7 +30270,7 @@
       {
         "id": 5,
         "name": "➦Take Cover",
-        "definition": "As a Card or Free Card action, a unit with the Take Cover X keyword can choose up to X allied units within 2. Each chosen unit gains 1 Dodge token."
+        "definition": "As a Card action or a Free Card action, this unit chooses up to X allied units within Range 2. Each chosen unit gains 1 Dodge token."
       },
       {
         "id": 73,
@@ -30305,7 +30325,7 @@
       {
         "id": 11,
         "name": "Uncanny Luck",
-        "definition": "While a unit with the Uncanny Luck X keyword defends, it may reroll up to X defense dice during the Reroll Defense Dice step. Any dice rerolled with the Uncanny Luck X keyword must be rerolled at the same time, and each die cannot be rerolled more than once."
+        "definition": "When this unit defends, it may reroll up to X defense dice during the Reroll Defense Dice step."
       },
       {
         "id": 153,
@@ -30320,7 +30340,7 @@
       {
         "id": 154,
         "name": "Unstoppable",
-        "definition": "A unit with the Unstoppable keyword is eligible to activate during the Activation Phase while it has 1 or fewer Order tokens. This unit may never have more than 1 faceup Order token. While this unit is not defeated, when its controlling player is creating their Order Pool, they add an additional Order token corresponding to this unit's Rank to their Order Pool."
+        "definition": "This unit is eligible to activate during the Activation Phase while it has 1 or fewer Order tokens. This unit may never have more than 1 faceup Order token. While this unit is not defeated, when its controlling player is creating their Order Pool, they add an additional Order token corresponding to this unit’s Rank to their Order Pool.\n\nDuring the Command Phase, when counting undefeated units during the Create the Pass Pool step, this unit counts as\ntwo units."
       },
       {
         "id": 229,
@@ -30331,6 +30351,11 @@
         "id": 189,
         "name": "Versatile",
         "definition": "Some ranged weapons have the Versatile keyword. Units can perform ranged attacks using a weapon with the Versatile keyword even while engaged. A weapon with the Versatile keyword that is both a ranged weapon and a melee weapon can be used to perform either a ranged attack or a melee attack."
+      },
+      {
+        "id": 235,
+        "name": "Vicious",
+        "definition": "When this unit makes an attack, during the Form Attack Pool step, choose 1 of its Attack Pools. For each Suppression token the unit defending against that Attack Pool has, this unit may upgrade X attack dice in that Attack Pool."
       },
       {
         "id": 228,
@@ -30371,6 +30396,11 @@
         "id": 86,
         "name": "Wheel Mode",
         "definition": "At the start of its Activation, a unit with the Wheel Mode keyword may change its Speed to 3 until the end of that Activation. If it does, until the end of the Round, it loses the Unconcerned keyword, gains the AI: Move and Cover 2 keywords, and cannot make attacks or flip its active Shield tokens\n To indicate that a unit of Droidekas is using the Wheel Mode keyword, a player may replace their standing Droideka miniatures with ball-form Droideka miniatures, or simply mark the unit with a Wheel Mode token until the end of the Round.\nPlayers should use the ball-form Droideka miniatures only when the unit uses the Wheel Mode keyword and only for the duration of that Round. At the end of the Round, any ball- form Droideka miniatures should be replaced with standing Droideka miniatures."
+      },
+      {
+        "id": 240,
+        "name": "Wingman: Unit Name/Unit Type",
+        "definition": "Once per Turn, when this unit gains an Aim token or a Dodge token, choose an allied unit with the unit name or unit type specified by this unit’s Wingman keyword. The chosen unit gains a token of the corresponding type. A unit cannot use Wingman on a token it gains due to this keyword."
       },
       {
         "id": 157,
