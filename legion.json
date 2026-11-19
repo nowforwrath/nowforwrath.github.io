@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.18.29"
+    "contentVersion": "2026.11.18.30"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -10150,13 +10150,6 @@
         "unique": true,
         "availableIn": [31842, 31843],
         "ttsName": "Jedi Guardian (doctrine)",
-        "unavailableWith": [
-          "Jedi Guardian",
-          {
-            "id": "18478",
-            "propertyName": "upgrades"
-          }
-        ],
         "factions": [1, 2, 4, 5, 23, 21, 12],
         "addProperties": [
           [
