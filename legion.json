@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.18.35"
+    "contentVersion": "2026.11.18.36"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -14497,7 +14497,7 @@
       {
         "id": 151,
         "name": "Twin Laser Turret",
-        "points": 14,
+        "points": 10,
         "type": 8,
         "keywords": [178],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/151.webp?version=4",
