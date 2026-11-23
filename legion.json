@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.20.1"
+    "contentVersion": "2026.11.23.01"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -9136,35 +9136,13 @@
         ]
       },
       {
-        "id": 3649,
-        "name": "Grogu",
-        "points": 17,
-        "type": 15,
-        "keywords": [130, 137, 198],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/3649.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/3649.webp?version=11",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [6178, 6179, 34881, 6178],
-        "unavailableWith": [
-          "Grogu",
-          {
-            "id": "22586",
-            "propertyName": "upgrades"
-          }
-        ],
-        "factions": [1]
-      },
-      {
         "id": 22586,
         "name": "Grogu",
         "points": 17,
         "type": 15,
         "keywords": [130, 137, 198],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22586.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22586.webp?version=11",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22586.webp?version=12",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22586.webp?version=12",
         "limit": 1,
         "exhaustsPerTurn": null,
         "exhausts": null,
@@ -9172,11 +9150,7 @@
         "availableIn": [6178, 6179, 34881],
         "ttsName": "Grogu The Child (CotW)",
         "unavailableWith": [
-          "Grogu",
-          {
-            "id": "3649",
-            "propertyName": "upgrades"
-          }
+          "Grogu"
         ],
         "factions": [8]
       },
@@ -11162,7 +11136,36 @@
         "exhausts": null,
         "unique": false,
         "ttsName": "Offensive Stance",
-        "availableIn": []
+        "availableIn": [
+          "3",
+          "4",
+          "20",
+          "41",
+          "46",
+          "47",
+          "49",
+          "73",
+          "74",
+          "764",
+          "4551",
+          "13582",
+          "15014",
+          "19108",
+          "19109",
+          "29671",
+          "31842",
+          "31843",
+          "32593",
+          "33575",
+          "33769",
+          "33776",
+          "33777",
+          "33791",
+          "33792",
+          "33793",
+          "33794",
+          "36283"
+        ]
       },
       {
         "id": 129,
@@ -13451,7 +13454,36 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": null,
-        "availableIn": [],
+        "availableIn": [
+          "3",
+          "4",
+          "20",
+          "41",
+          "46",
+          "47",
+          "49",
+          "73",
+          "74",
+          "764",
+          "4551",
+          "13582",
+          "15014",
+          "19108",
+          "19109",
+          "29671",
+          "31842",
+          "31843",
+          "32593",
+          "33575",
+          "33769",
+          "33776",
+          "33777",
+          "33791",
+          "33792",
+          "33793",
+          "33794",
+          "36283"
+        ],
         "addProperties": [
           [
             {
@@ -16633,6 +16665,11 @@
         "id": 21,
         "alignment": "Light",
         "parentFaction": "Galactic Republic",
+        "rules": [
+          "A Wookiee War Grove Battle Force is part of the Galactic Republic Faction.",
+          "Reduce the cost of the **Tenacity** Upgrade Card to 0 points for **Wookiee Warriors (Treetop Defenders)**",
+          "Allied **Raddaugh Gnasp Fluttercraft** gain **Transport**"
+        ],
         "tierRequirements": {
           "standard": {
             "tiers": [
@@ -16720,6 +16757,11 @@
         "id": 22,
         "alignment": "Dark",
         "parentFaction": "Empire",
+        "rules": [
+          "During Army Building, your army may include 1 additional copy each of Academy Trained, Defend in Depth, Platoon Commander, and Tip of the Spear.",
+          "During the **Resolve Setup Effects** step, place 2 Trench tokens (Asset) within allied Territory. Trooper units completely within Range 1/2 of a Trench token benefit from heavy Cover.",
+          "During the **Resolve Setup Effects** step, after placing allied Trench tokens, you may choose up to 2 allied Trooper units. If a chosen unit has **Prepared Position**, when they Deploy it gains 1 Aim token. Otherwise, it gains **Prepared Position**. When the chosen units Deploy, they must Deploy completely within Range 1/2 of a Trench token in allied Territory, if able."
+        ],
         "tierRequirements": {
           "standard": {
             "tiers": [
@@ -17001,6 +17043,19 @@
         "id": 24,
         "alignment": "Light",
         "parentFaction": "Rebels",
+        "rules": [
+          "An Irregulars Battle Force is part of the Rebel Alliance Faction.",
+          "This army may include any number of the **Unseen Saboteur** Upgrade cards.",
+          "Allied {{Corps}} units gain **Field Commander**.",
+          "Allied units cannot use another unit's {{Courage}} value when determining Panic.",
+          "Allied units that are not within {{Range1}} of an allied {{Corps}} unit cannot be issued Orders, unless they are issuing an Order to themselves.",
+          "You may include 0-1 TX-225 GAVw Occupier Tank, 0-1 WLO-5 Speeder Tank, and 0-1 LAAT/le Patrol Transport units in this army. These units change their Faction to {{Rebel}}.",
+          "**Undisciplined:** At the start of each **Activation Phase**, choose up to 2 allied units that have different Ranks and that do not have faceup Order tokens. For each chosen unit, resolve the corresponding effect:",
+          "{{Special Forces}} or {{Heavy}}: The chosen unit may make a Speed-1 Move or, if it is undeployed, may instead gain 1 Dodge token.",
+          "{{Corps}}: The chosen unit may gain 1 Dodge token and may make a Free Recover action.",
+          "{{Support}} or {{Flyer}}: The chosen unit may gain 1 Surge token and 1 Dodge token.",
+          "{{Commander}}: Choose 1 POI that is within {{HalfRange}} of the chosen unit. Then roll 5 black attack dice. For each {{Hit}} result in the roll each unit within {{HalfRange}} of the chosen POI gains 1 Suppression token. For each {{Critical}} result in the roll each unit within {{HalfRange}} of the chosen objective gains 1 Suppression token and suffers 1 Wound."
+        ],
         "tierRequirements": {
           "standard": {
             "tiers": [
