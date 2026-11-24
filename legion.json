@@ -4640,29 +4640,6 @@
         ]
       },
       {
-        "id": 24100,
-        "name": "Academy Trained",
-        "points": 10,
-        "type": 24,
-        "keywords": [95, 6, 151],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/24100.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/24100.webp?version=11",
-        "limit": 2,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": false,
-        "availableIn": [31668],
-        "factions": [22],
-        "addProperties": [
-          [
-            {
-              "property": "keywords",
-              "value": [95, 6, 151]
-            }
-          ]
-        ]
-      },
-      {
         "id": 20268,
         "name": "Academy Trained",
         "points": 10,
@@ -4693,13 +4670,36 @@
         ]
       },
       {
+        "id": 24100,
+        "name": "Academy Trained",
+        "points": 10,
+        "type": 24,
+        "keywords": [95, 6, 151],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/24100.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/24100.webp?version=11",
+        "limit": 2,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": false,
+        "availableIn": [31668],
+        "factions": [22],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [95, 6, 151]
+            }
+          ]
+        ]
+      },
+      {
         "id": 22901,
         "name": "Adaptive Combat Network",
         "points": 4,
         "type": 6,
         "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22901.webp?version=12",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22901.webp?version=12",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22901.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22901.webp?version=11",
         "limit": null,
         "exhaustsPerTurn": true,
         "exhausts": null,
@@ -5696,8 +5696,8 @@
         "points": 20,
         "type": 19,
         "keywords": [23],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/16554.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/16554.webp?version=11",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades/trimmed/16554.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades/16554.webp?version=11",
         "limit": 1,
         "exhaustsPerTurn": null,
         "exhausts": null,
@@ -6970,7 +6970,18 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": true,
-        "availableIn": [78, 79, 39],
+        "availableIn": [78, 79, {
+            "all": [
+              {
+                "property": "faction",
+                "value": 2
+              },
+              {
+                "tier": 2
+              }
+            ]
+          }
+        ],
         "unavailableWith": [
           "Del Meeko"
         ],
@@ -7158,21 +7169,6 @@
         ]
       },
       {
-        "id": 23968,
-        "name": "DLT-19 Stormtrooper",
-        "points": 18,
-        "type": 4,
-        "keywords": [202],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/23968.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/23968.webp?version=11",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [36806],
-        "ttsName": "DLT-19 Stormtrooper (Wet)"
-      },
-      {
         "id": 7,
         "name": "DLT-19 Stormtrooper",
         "points": 20,
@@ -7233,6 +7229,21 @@
             ]
           }
         ]
+      },
+      {
+        "id": 23968,
+        "name": "DLT-19 Stormtrooper",
+        "points": 18,
+        "type": 4,
+        "keywords": [202],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/23968.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/23968.webp?version=11",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [36806],
+        "ttsName": "DLT-19 Stormtrooper (Wet)"
       },
       {
         "id": 52,
@@ -7444,34 +7455,6 @@
         "unique": false
       },
       {
-        "id": 24149,
-        "name": "Dug In",
-        "points": 6,
-        "type": 10,
-        "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/24149.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/24149.webp?version=11",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [31669, 31670]
-      },
-      {
-        "id": 21987,
-        "name": "Dug In",
-        "points": 6,
-        "type": 10,
-        "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/21987.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/21987.webp?version=11",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [31668, 31667]
-      },
-      {
         "id": 19897,
         "name": "Dug In",
         "points": 6,
@@ -7591,34 +7574,6 @@
         ]
       },
       {
-        "id": 20319,
-        "name": "Dug In",
-        "points": 6,
-        "type": 10,
-        "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20319.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20319.webp?version=11",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [31669, 31670]
-      },
-      {
-        "id": 20697,
-        "name": "Dug In",
-        "points": 6,
-        "type": 10,
-        "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20697.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20697.webp?version=11",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [31842, 31843]
-      },
-      {
         "id": 19830,
         "name": "Dug In",
         "points": 6,
@@ -7638,6 +7593,62 @@
             }
           ]
         ]
+      },
+      {
+        "id": 20697,
+        "name": "Dug In",
+        "points": 6,
+        "type": 10,
+        "keywords": [],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20697.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20697.webp?version=11",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [31842, 31843]
+      },
+      {
+        "id": 24149,
+        "name": "Dug In",
+        "points": 6,
+        "type": 10,
+        "keywords": [],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/24149.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/24149.webp?version=11",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [31669, 31670]
+      },
+      {
+        "id": 21987,
+        "name": "Dug In",
+        "points": 6,
+        "type": 10,
+        "keywords": [],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/21987.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/21987.webp?version=11",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [31668, 31667]
+      },
+      {
+        "id": 20319,
+        "name": "Dug In",
+        "points": 6,
+        "type": 10,
+        "keywords": [],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20319.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20319.webp?version=11",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [31669, 31670]
       },
       {
         "id": 24,
@@ -8280,8 +8291,8 @@
         "points": 36,
         "type": 19,
         "keywords": [192, 2, 210],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/16552.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/16552.webp?version=11",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades/trimmed/16552.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades/16552.webp?version=11",
         "limit": 1,
         "exhaustsPerTurn": null,
         "exhausts": null,
@@ -8781,20 +8792,6 @@
         ]
       },
       {
-        "id": 22419,
-        "name": "GALAAR-90 Sniper Rifle",
-        "points": 35,
-        "type": 4,
-        "keywords": [204],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22419.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22419.webp?version=11",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [33772, 33773, 33796, 34890, 4767]
-      },
-      {
         "id": 22654,
         "name": "GALAAR-90 Sniper Rifle",
         "points": 5,
@@ -8816,6 +8813,20 @@
             }
           ]
         ]
+      },
+      {
+        "id": 22419,
+        "name": "GALAAR-90 Sniper Rifle",
+        "points": 35,
+        "type": 4,
+        "keywords": [204],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22419.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22419.webp?version=11",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [33772, 33773, 33796, 34890, 4767]
       },
       {
         "id": 21339,
@@ -9053,7 +9064,18 @@
         "exhaustsPerTurn": null,
         "exhausts": null,
         "unique": true,
-        "availableIn": [78, 79, 5],
+        "availableIn": [78, 79, {
+            "all": [
+              {
+                "property": "faction",
+                "value": 2
+              },
+              {
+                "tier": 2
+              }
+            ]
+          }
+        ],
         "unavailableWith": [
           "Gideon Hask"
         ],
@@ -9306,29 +9328,6 @@
         "availableIn": [31844, 31845]
       },
       {
-        "id": 20275,
-        "name": "Heavy Blaster Pistol",
-        "points": 8,
-        "type": 12,
-        "keywords": [8, 73, 204, 205],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20275.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20275.webp?version=11",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [31667, 31668],
-        "ttsName": "Heavy Blaster Pistol (Empire)",
-        "addProperties": [
-          [
-            {
-              "property": "keywords",
-              "value": [8, 73]
-            }
-          ]
-        ]
-      },
-      {
         "id": 20284,
         "name": "Heavy Blaster Pistol",
         "points": 12,
@@ -9347,6 +9346,29 @@
             {
               "property": "keywords",
               "value": [53]
+            }
+          ]
+        ]
+      },
+      {
+        "id": 20275,
+        "name": "Heavy Blaster Pistol",
+        "points": 8,
+        "type": 12,
+        "keywords": [8, 73, 204, 205],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20275.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20275.webp?version=11",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [31667, 31668],
+        "ttsName": "Heavy Blaster Pistol (Empire)",
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [8, 73]
             }
           ]
         ]
@@ -10451,35 +10473,9 @@
         ]
       },
       {
-        "id": 20803,
-        "name": "Kraken",
-        "points": 24,
-        "type": 4,
-        "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20803.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20803.webp?version=11",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [38, 52],
-        "unavailableWith": [
-          "Kraken",
-          {
-            "id": "20841",
-            "propertyName": "upgrades"
-          }
-        ],
-        "unavailableIn": [
-          [19103]
-        ],
-        "chooseOneKey": "leader",
-        "factions": [1, 2, 4, 5, 20]
-      },
-      {
         "id": 20841,
         "name": "Kraken",
-        "points": 24,
+        "points": 30,
         "type": 4,
         "keywords": [],
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20841.webp?version=11",
@@ -10493,6 +10489,32 @@
           "Kraken",
           {
             "id": "20803",
+            "propertyName": "upgrades"
+          }
+        ],
+        "unavailableIn": [
+          [19103]
+        ],
+        "chooseOneKey": "leader",
+        "factions": [1, 2, 4, 5, 20]
+      },
+      {
+        "id": 20803,
+        "name": "Kraken",
+        "points": 30,
+        "type": 4,
+        "keywords": [],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20803.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20803.webp?version=11",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [38, 52],
+        "unavailableWith": [
+          "Kraken",
+          {
+            "id": "20841",
             "propertyName": "upgrades"
           }
         ],
@@ -12379,6 +12401,36 @@
         ]
       },
       {
+        "id": 2718,
+        "name": "Rook Kast",
+        "points": 35,
+        "type": 4,
+        "keywords": [145, 192],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/2718.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/2718.webp?version=11",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [4767],
+        "unavailableWith": [
+          "Rook Kast",
+          {
+            "id": "22593",
+            "propertyName": "upgrades"
+          }
+        ],
+        "factions": [1, 2, 4, 5, 9, 8],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [145]
+            }
+          ]
+        ]
+      },
+      {
         "id": 22593,
         "name": "Rook Kast",
         "points": 25,
@@ -12413,36 +12465,6 @@
             "value": 1083
           }
         ],
-        "addProperties": [
-          [
-            {
-              "property": "keywords",
-              "value": [145]
-            }
-          ]
-        ]
-      },
-      {
-        "id": 2718,
-        "name": "Rook Kast",
-        "points": 35,
-        "type": 4,
-        "keywords": [145, 192],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/2718.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/2718.webp?version=11",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [4767],
-        "unavailableWith": [
-          "Rook Kast",
-          {
-            "id": "22593",
-            "propertyName": "upgrades"
-          }
-        ],
-        "factions": [1, 2, 4, 5, 9, 8],
         "addProperties": [
           [
             {
@@ -12523,6 +12545,21 @@
         "availableIn": [40]
       },
       {
+        "id": 23967,
+        "name": "RT-97C Stormtrooper",
+        "points": 20,
+        "type": 4,
+        "keywords": [],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/23967.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/23967.webp?version=11",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [36806],
+        "ttsName": "RT-97C Stormtrooper (Wet)"
+      },
+      {
         "id": 121,
         "name": "RT-97C Stormtrooper",
         "points": 22,
@@ -12583,21 +12620,6 @@
             ]
           }
         ]
-      },
-      {
-        "id": 23967,
-        "name": "RT-97C Stormtrooper",
-        "points": 20,
-        "type": 4,
-        "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/23967.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/23967.webp?version=11",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [36806],
-        "ttsName": "RT-97C Stormtrooper (Wet)"
       },
       {
         "id": 90,
@@ -13592,6 +13614,20 @@
         "ttsName": "Super Commando Gunslinger (Saxon)"
       },
       {
+        "id": 2717,
+        "name": "Super Commando Marksman",
+        "points": 30,
+        "type": 4,
+        "keywords": [204],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/2717.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/2717.webp?version=11",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [4767]
+      },
+      {
         "id": 22601,
         "name": "Super Commando Marksman",
         "points": 30,
@@ -13605,20 +13641,6 @@
         "unique": null,
         "availableIn": [34890],
         "ttsName": "Super Commando Marksman (Saxon)"
-      },
-      {
-        "id": 2717,
-        "name": "Super Commando Marksman",
-        "points": 30,
-        "type": 4,
-        "keywords": [204],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/2717.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/2717.webp?version=11",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [4767]
       },
       {
         "id": 22854,
@@ -13984,91 +14006,6 @@
         ]
       },
       {
-        "id": 71,
-        "name": "The Darksaber",
-        "points": 5,
-        "type": 12,
-        "keywords": [42, 4, 202, 207],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/71.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/71.webp?version=11",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [33, 34887],
-        "unavailableWith": [
-          "The Darksaber",
-          {
-            "id": "22610",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "6132",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22611",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22612",
-            "propertyName": "upgrades"
-          }
-        ],
-        "factions": [1, 2, 4, 5, 8],
-        "addProperties": [
-          [
-            {
-              "property": "keywords",
-              "value": [42, 4]
-            }
-          ]
-        ]
-      },
-      {
-        "id": 22610,
-        "name": "The Darksaber",
-        "points": 10,
-        "type": 12,
-        "keywords": [2, 4, 115, 202],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22610.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22610.webp?version=11",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [34888],
-        "ttsName": "The Darksaber (Gar)",
-        "unavailableWith": [
-          "The Darksaber",
-          {
-            "id": "71",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "6132",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22611",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22612",
-            "propertyName": "upgrades"
-          }
-        ],
-        "factions": [1, 2, 4, 5, 9, 8],
-        "addProperties": [
-          [
-            {
-              "property": "keywords",
-              "value": [2, 4, 115]
-            }
-          ]
-        ]
-      },
-      {
         "id": 6132,
         "name": "The Darksaber",
         "points": 5,
@@ -14085,7 +14022,7 @@
         "unavailableWith": [
           "The Darksaber",
           {
-            "id": "71",
+            "id": "22611",
             "propertyName": "upgrades"
           },
           {
@@ -14093,11 +14030,11 @@
             "propertyName": "upgrades"
           },
           {
-            "id": "22611",
+            "id": "22612",
             "propertyName": "upgrades"
           },
           {
-            "id": "22612",
+            "id": "71",
             "propertyName": "upgrades"
           }
         ],
@@ -14128,7 +14065,7 @@
         "unavailableWith": [
           "The Darksaber",
           {
-            "id": "71",
+            "id": "6132",
             "propertyName": "upgrades"
           },
           {
@@ -14136,15 +14073,58 @@
             "propertyName": "upgrades"
           },
           {
+            "id": "22612",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "71",
+            "propertyName": "upgrades"
+          }
+        ],
+        "factions": [1, 2, 4, 5, 9, 8]
+      },
+      {
+        "id": 22610,
+        "name": "The Darksaber",
+        "points": 10,
+        "type": 12,
+        "keywords": [2, 4, 115, 202],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22610.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22610.webp?version=11",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [34888],
+        "ttsName": "The Darksaber (Gar)",
+        "unavailableWith": [
+          "The Darksaber",
+          {
             "id": "6132",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22611",
             "propertyName": "upgrades"
           },
           {
             "id": "22612",
             "propertyName": "upgrades"
+          },
+          {
+            "id": "71",
+            "propertyName": "upgrades"
           }
         ],
-        "factions": [1, 2, 4, 5, 9, 8]
+        "factions": [1, 2, 4, 5, 9, 8],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [2, 4, 115]
+            }
+          ]
+        ]
       },
       {
         "id": 22612,
@@ -14164,7 +14144,11 @@
         "unavailableWith": [
           "The Darksaber",
           {
-            "id": "71",
+            "id": "6132",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22611",
             "propertyName": "upgrades"
           },
           {
@@ -14172,11 +14156,7 @@
             "propertyName": "upgrades"
           },
           {
-            "id": "6132",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22611",
+            "id": "71",
             "propertyName": "upgrades"
           }
         ],
@@ -14188,6 +14168,48 @@
             {
               "property": "keywords",
               "value": [118, 4, 232]
+            }
+          ]
+        ]
+      },
+      {
+        "id": 71,
+        "name": "The Darksaber",
+        "points": 5,
+        "type": 12,
+        "keywords": [42, 4, 202, 207],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/71.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/71.webp?version=11",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [33, 34887],
+        "unavailableWith": [
+          "The Darksaber",
+          {
+            "id": "6132",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22611",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22610",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22612",
+            "propertyName": "upgrades"
+          }
+        ],
+        "factions": [1, 2, 4, 5, 8],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [42, 4]
             }
           ]
         ]
@@ -14487,6 +14509,20 @@
         "availableIn": [2108]
       },
       {
+        "id": 16578,
+        "name": "Twin Blaster Cannons",
+        "points": 5,
+        "type": 8,
+        "keywords": [181],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades/trimmed/16578.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades/16578.webp?version=11",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": false,
+        "availableIn": [25966]
+      },
+      {
         "id": 964,
         "name": "Twin Blaster Cannons",
         "points": 20,
@@ -14500,20 +14536,6 @@
         "unique": false,
         "availableIn": [2108],
         "ttsName": "Twin Blaster Cannons (ISP)"
-      },
-      {
-        "id": 16578,
-        "name": "Twin Blaster Cannons",
-        "points": 5,
-        "type": 8,
-        "keywords": [181],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades/trimmed/16578.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades/16578.webp?version=11",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": false,
-        "availableIn": [25966]
       },
       {
         "id": 151,
@@ -14690,6 +14712,28 @@
         "unique": false
       },
       {
+        "id": 178,
+        "name": "Ursa Wren",
+        "points": 34,
+        "type": 4,
+        "keywords": [42, 192, 205],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/178.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/178.webp?version=11",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [71, 72],
+        "unavailableWith": [
+          "Ursa Wren",
+          {
+            "id": "22650",
+            "propertyName": "upgrades"
+          }
+        ],
+        "factions": [1, 2, 4, 5, 8]
+      },
+      {
         "id": 22650,
         "name": "Ursa Wren",
         "points": 25,
@@ -14724,28 +14768,6 @@
             "value": 1082
           }
         ]
-      },
-      {
-        "id": 178,
-        "name": "Ursa Wren",
-        "points": 34,
-        "type": 4,
-        "keywords": [42, 192, 205],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/178.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/178.webp?version=11",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [71, 72],
-        "unavailableWith": [
-          "Ursa Wren",
-          {
-            "id": "22650",
-            "propertyName": "upgrades"
-          }
-        ],
-        "factions": [1, 2, 4, 5, 8]
       },
       {
         "id": 146,
@@ -14983,8 +15005,8 @@
         "points": 22,
         "type": 19,
         "keywords": [192, 74, 37],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/16553.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/16553.webp?version=11",
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades/trimmed/16553.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades/16553.webp?version=11",
         "limit": 1,
         "exhaustsPerTurn": null,
         "exhausts": null,
@@ -30497,6 +30519,18 @@
           "description": "Allied units may only use this unit's Courage for Panic within Range 2 instead of 3."
         },
         {
+          "id": "overconfident",
+          "effectTypeId": "definingTrait",
+          "name": "Overconfident",
+          "description": "During each Command Phase, after creating your Pass Pool, remove 1 Advantage token from your Pass Pool."
+        },
+        {
+          "id": "haunted",
+          "effectTypeId": "definingTrait",
+          "name": "Haunted",
+          "description": "When an allied unit is defeated, after the effect is resolved, this unit gains 3 Suppression tokens."
+        },
+        {
           "id": "faulty-equipment",
           "effectTypeId": "definingTrait",
           "name": "Faulty Equipment",
@@ -32305,6 +32339,432 @@
           ],
           "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/a-pirates-life.jpeg?version=8",
           "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/a-pirates-life-flavor.jpeg?version=8"
+        },
+        {
+          "id": "break-the-stalemate",
+          "name": "Break the Stalemate",
+          "narrative": "The enemy is firmly entrenched in this sector, and our progress across the front has stalled. Losses are mounting, and further delays will push our timetable for the system back months, if not years. Your orders are to launch a major offensive across the front and break the stalemate.",
+          "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/break-the-stalemate.jpg?version=8",
+          "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/break-the-stalemate-flavor.jpg?version=8",
+          "objectives": [
+            {
+              "id": "place-artillery-beacons",
+              "name": "Place Artillery Beacons",
+              "description": "Troopers place Artillery Beacons; enemies can Destroy Beacon. End of game: 2+ allied beacons within Range 1 of enemy Territory → progress once; 3+ → again. Complete at 3 progress.",
+              "completionRequired": 3,
+              "rewardDescription": "Gain 2 SP per progression. If you won, choose a unit; it removes all Setbacks.",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/place-artillery-beacons-1.jpg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/place-artillery-beacons-2.jpg?version=8",
+              "rewards": {
+                "kind": "autoPerProgression",
+                "resourcePiecesPerProgression": [
+                  {
+                    "type": "awardResource",
+                    "resourceId": "supplyPoints",
+                    "amount": 2
+                  }
+                ],
+                "ifWon": [
+                  {
+                    "id": "clear-setbacks",
+                    "label": "Clear all Setbacks",
+                    "requiresEntry": true,
+                    "requiresHasEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": "all"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": "probe-their-defenses",
+              "name": "Probe Their Defenses",
+              "description": "Token when an allied unit ends Activation in enemy Territory; Trooper may leave battlefield from enemy Territory for 2 tokens. Post-game: 3+ tokens → progress once; 4+ → again. Complete at 3 progress.",
+              "completionRequired": 3,
+              "rewardDescription": "Draw Order tokens equal to progressions; matching units gain 2 XP each.",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/probe-their-defenses-1.jpg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/probe-their-defenses-2.jpg?version=8",
+              "rewards": {
+                "kind": "pickEntries",
+                "countFromProgressions": true,
+                "entryPieces": [
+                  {
+                    "type": "grantExperience",
+                    "amount": 2
+                  }
+                ]
+              }
+            },
+            {
+              "id": "take-forward-positions",
+              "name": "Take Forward Positions",
+              "description": "Troopers Dig In on Contested/Enemy POIs. 2+ Fortification tokens → Low Profile. End of game: 3+ POIs with 2+ Fortifications → progress once; 1+ such POI in Enemy Territory → again. Complete at 3 progress.",
+              "completionRequired": 3,
+              "rewardDescription": "Per progression: choose a unit; clear all Setbacks, or +2 XP if it had none. A unit may only be chosen once per game.",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/take-forward-positions-1.jpg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/take-forward-positions-2.jpg?version=8",
+              "rewards": {
+                "kind": "chooseOnePerProgression",
+                "options": [
+                  {
+                    "id": "clear-setbacks",
+                    "label": "Clear all Setbacks",
+                    "requiresEntry": true,
+                    "requiresHasEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": "all"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "xp",
+                    "label": "+2 XP (if no Setbacks)",
+                    "requiresEntry": true,
+                    "requiresLacksEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 2
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "climax": {
+            "id": "all-out-assault",
+            "name": "All Out Assault",
+            "briefing": "Your efforts are about to pay off, commander. The preliminary bombardments have begun, and the troops are ready to attack. Your victory here will have a cascading effect across the system, turning the tide of the war itself in our favor. Give the order. Launch the assault.",
+            "specialRules": "Place 3 Dugouts (POI) and 2 Bunkers (POI) in the Red Player's Territory and 5 Obstacles (Asset) in Contested Territory as shown on the map. Story Arc player is Blue; opponent is Red. Starting in Round 2 End Phase: 1 VP per Dugout Secured; Blue scores 3 additional VP per Bunker Secured, then removes that Bunker.",
+            "secondaryObjectives": "Forlorn Hope (Blue VP in Enemy Territory) / Repel the Assault (Red VP when Blue Contested unit defeated). 3+ secondary VP → choose up to 3 units; each gains 1 Experience.",
+            "advantages": "Blue: up to 2 Smoke in Contested Territory each Activation Phase. Red: Trenches (Prepared Position; Low Profile near POIs), Obstacles (block Movement Tool lines; Destroy Obstacle), Bunkers (2 Suppression to LOS enemies each Activation Phase).",
+            "victoryRewardDescription": "3 units: +1 XP or clear Setbacks. Paragon may permanently gain Ruthless or Guidance: Trooper; clear Overconfident.",
+            "lossRewardDescription": "Roll 5 red defense; per Blank: unit +2 XP or remove 1 Setback. Paragon gains Overconfident.",
+            "lossDieFace": "blank",
+            "victoryClearsStatus": "overconfident",
+            "lossAppliesStatus": "overconfident",
+            "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/break-the-stalemate-tp-1.jpg?version=8",
+            "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/break-the-stalemate-tp-2.jpg?version=8",
+            "rewards": {
+              "victory": {
+                "maxUnits": 3,
+                "unitOptions": [
+                  {
+                    "id": "unit-xp",
+                    "label": "+1 XP",
+                    "requiresEntry": true,
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": "unit-clear",
+                    "label": "Clear all Setbacks",
+                    "requiresEntry": true,
+                    "requiresHasEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": "all"
+                      }
+                    ]
+                  }
+                ],
+                "keywordChoices": [
+                  "Ruthless",
+                  "Guidance: Trooper"
+                ]
+              },
+              "loss": {
+                "dice": {
+                  "kind": "defense",
+                  "color": "red",
+                  "count": 5,
+                  "successFace": "blank"
+                },
+                "unitOptions": [
+                  {
+                    "id": "unit-xp",
+                    "label": "+2 XP",
+                    "requiresEntry": true,
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": "unit-clear",
+                    "label": "Remove 1 Setback",
+                    "requiresEntry": true,
+                    "requiresHasEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "unlockClimaxWhen": {
+            "objectivesCompletedAtLeast": 2
+          },
+          "mustPlayClimaxWhen": {
+            "objectivesCompletedAtLeast": 3
+          },
+          "unitEffects": [
+            {
+              "id": "assault-leader",
+              "effectTypeId": "commendation",
+              "name": "Assault Leader",
+              "description": "Allied Trooper units within Range 2 of this unit have Spur.",
+              "requirements": "VR 3",
+              "actId": "break-the-stalemate"
+            },
+            {
+              "id": "shell-shocked-break-the-stalemate",
+              "effectTypeId": "setback",
+              "name": "Shell Shocked",
+              "description": "When this unit gains 1 or more Suppression tokens, if it has Suppression greater than or equal to its Courage, it suffers 1 Wound. Second instance before removal → casualty.",
+              "actId": "break-the-stalemate"
+            },
+            {
+              "id": "callous",
+              "effectTypeId": "definingTrait",
+              "name": "Callous",
+              "description": "Gains Direct: Trooper Unit. When a unit in your army is issued an Order, it gains 1 Suppression token. Resolves after 2 games.",
+              "actId": "break-the-stalemate"
+            }
+          ]
+        },
+        {
+          "id": "hold-at-all-costs",
+          "name": "Hold at All Costs",
+          "narrative": "The war drags on and on, and the enemy has launched a major offensive in an attempt to turn the tide. Command has identified your sector in particular as having significant strategic importance. Your orders are to shore up defenses, delay an assault as long as possible, and force enemy attrition. You must hold at all costs. Good luck.",
+          "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/hold-at-all-costs.jpg?version=8",
+          "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/hold-at-all-costs-flavor.jpg?version=8",
+          "objectives": [
+            {
+              "id": "silence-the-big-guns",
+              "name": "Silence the Big Guns",
+              "description": "Token when an enemy Support, Heavy, or Vehicle is defeated; then at end of game +1 token if 3+ enemy Troopers were defeated. Post-game: 2+ tokens → progress once; 3+ → again. Complete at 3 progress.",
+              "completionRequired": 3,
+              "rewardDescription": "Gain 2 SP per progression. If you won, gain 1 additional SP and choose a unit that took part; it gains 1 Experience.",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/silence-the-big-guns-1.jpg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/silence-the-big-guns-2.jpg?version=8",
+              "rewards": {
+                "kind": "autoPerProgression",
+                "resourcePiecesPerProgression": [
+                  {
+                    "type": "awardResource",
+                    "resourceId": "supplyPoints",
+                    "amount": 2
+                  }
+                ],
+                "ifWonResources": [
+                  {
+                    "type": "awardResource",
+                    "resourceId": "supplyPoints",
+                    "amount": 1
+                  }
+                ],
+                "ifWon": [
+                  {
+                    "id": "unit-xp",
+                    "label": "+1 XP",
+                    "requiresEntry": true,
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": "delaying-tactics",
+              "name": "Delaying Tactics",
+              "description": "End Phase: for each Contested/Enemy POI Contested only by allies, put 1 token on this Agenda. Post-game: 5+ tokens → progress once; 7+ → again. Complete at 3 progress.",
+              "completionRequired": 3,
+              "rewardDescription": "Draw Order tokens equal to progressions; matching units gain 2 XP each.",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/delaying-tactics-1.jpg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/delaying-tactics-2.jpg?version=8",
+              "rewards": {
+                "kind": "pickEntries",
+                "countFromProgressions": true,
+                "entryPieces": [
+                  {
+                    "type": "grantExperience",
+                    "amount": 2
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fortify-defensive-positions",
+              "name": "Fortify Defensive Positions",
+              "description": "Troopers Fortify Contested/Allied POIs (Low Profile at 2+, Indomitable at 3+, Man Defensive Positions at 4+). End of game: 3+ POIs with 2+ Fortifications → progress once; 1+ POI with 4+ Fortifications in Contested Territory → again. Complete at 3 progress.",
+              "completionRequired": 3,
+              "rewardDescription": "Per progression: gain 2 SP, or keep a Strategic Asset you used this game on your Register.",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/fortify-defensive-positions-1.jpg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/fortify-defensive-positions-2.jpg?version=8",
+              "rewards": {
+                "kind": "chooseOnePerProgression",
+                "options": [
+                  {
+                    "id": "sp",
+                    "label": "+2 SP",
+                    "pieces": [
+                      {
+                        "type": "awardResource",
+                        "resourceId": "supplyPoints",
+                        "amount": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": "keep-asset",
+                    "label": "Keep a Strategic Asset used this game",
+                    "pieces": []
+                  }
+                ]
+              }
+            }
+          ],
+          "climax": {
+            "id": "last-stand",
+            "name": "Last Stand",
+            "briefing": "Command, this is Firebase Omega, they're inside the wire, we're being overrun! Please advise! Firebase Omega, reinforcements have been dispatched — a bomber squadron is enroute to your position, ETA 15 minutes. You will hold until relieved. Good luck.",
+            "specialRules": "Place 3 Strongpoints (POI) and 1 Bunker (POI) in the Blue Player's Territory as shown. Dense terrain in Blue Territory; sparse in Red and Contested. Story Arc player is Blue; opponent is Red. Starting Round 2 End Phase: Blue scores 2 VP per Bunker Secured (+1 VP in Rounds 4–5). Red scores 9 VP per Bunker Secured, then removes that Bunker.",
+            "secondaryObjectives": "Eliminate Resistance (Red destroys Strongpoints) / To the Last (Blue VP for enemy defeats). 4+ secondary VP → choose up to 3 units that did not make a Casualty Check; each gains 2 Experience and removes 1 Setback.",
+            "advantages": "Red: Second Wave (non-unique non-Commander/Operative Troopers return undeployed with Spur; Casualty Check post-battle). Blue: Trenches (Courage +1, Prepared Position; Cover 2 and Low Profile near POIs); from Round 3, Commanders/Operatives have Exemplar and gain Aim+Dodge each Activation Phase.",
+            "victoryRewardDescription": "3 units: +1 XP or clear Setbacks. Paragon may permanently gain Courage +1 or Take Cover 2; clear Haunted.",
+            "lossRewardDescription": "Roll 5 red defense; per Block: unit +2 XP or remove 1 Setback. Paragon gains Haunted.",
+            "lossDieFace": "block",
+            "victoryClearsStatus": "haunted",
+            "lossAppliesStatus": "haunted",
+            "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/hold-at-all-costs-tp-1.jpg?version=8",
+            "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/hold-at-all-costs-tp-2.jpg?version=8",
+            "rewards": {
+              "victory": {
+                "maxUnits": 3,
+                "unitOptions": [
+                  {
+                    "id": "unit-xp",
+                    "label": "+1 XP",
+                    "requiresEntry": true,
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": "unit-clear",
+                    "label": "Clear all Setbacks",
+                    "requiresEntry": true,
+                    "requiresHasEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": "all"
+                      }
+                    ]
+                  }
+                ],
+                "keywordChoices": [
+                  "Courage +1",
+                  "Take Cover 2"
+                ]
+              },
+              "loss": {
+                "dice": {
+                  "kind": "defense",
+                  "color": "red",
+                  "count": 5,
+                  "successFace": "block"
+                },
+                "unitOptions": [
+                  {
+                    "id": "unit-xp",
+                    "label": "+2 XP",
+                    "requiresEntry": true,
+                    "pieces": [
+                      {
+                        "type": "grantExperience",
+                        "amount": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": "unit-clear",
+                    "label": "Remove 1 Setback",
+                    "requiresEntry": true,
+                    "requiresHasEffectTypeId": "setback",
+                    "pieces": [
+                      {
+                        "type": "removeEntryEffects",
+                        "effectTypeId": "setback",
+                        "count": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "unlockClimaxWhen": {
+            "objectivesCompletedAtLeast": 2
+          },
+          "mustPlayClimaxWhen": {
+            "objectivesCompletedAtLeast": 3
+          },
+          "unitEffects": [
+            {
+              "id": "grim-resolve",
+              "effectTypeId": "commendation",
+              "name": "Grim Resolve",
+              "description": "Allied Trooper units within Range 2 of this unit have Disciplined 2.",
+              "requirements": "VR 3",
+              "actId": "hold-at-all-costs"
+            },
+            {
+              "id": "shell-shocked-hold-at-all-costs",
+              "effectTypeId": "setback",
+              "name": "Shell Shocked",
+              "description": "When this unit gains 1 or more Suppression tokens, if it has Suppression greater than or equal to its Courage, it suffers 1 Wound. Second instance before removal → casualty.",
+              "actId": "hold-at-all-costs"
+            },
+            {
+              "id": "hemmed-in",
+              "effectTypeId": "definingTrait",
+              "name": "Hemmed In",
+              "description": "During Issue Orders, if this unit is the nominated Commander, issue 1 fewer Order from Command Cards (minimum 1). When a unit in your army is issued an Order, it gains 1 Aim or 1 Dodge. Resolves after 2 games.",
+              "actId": "hold-at-all-costs"
+            }
+          ]
         }
       ],
       "postBattleSequence": [
