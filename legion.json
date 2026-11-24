@@ -32344,8 +32344,8 @@
           "id": "break-the-stalemate",
           "name": "Break the Stalemate",
           "narrative": "The enemy is firmly entrenched in this sector, and our progress across the front has stalled. Losses are mounting, and further delays will push our timetable for the system back months, if not years. Your orders are to launch a major offensive across the front and break the stalemate.",
-          "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/break-the-stalemate.jpg?version=8",
-          "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/break-the-stalemate-flavor.jpg?version=8",
+          "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/break-the-stalemate.png?version=8",
+          "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/break-the-stalemate-flavor.jpeg?version=8",
           "objectives": [
             {
               "id": "place-artillery-beacons",
@@ -32353,8 +32353,8 @@
               "description": "Troopers place Artillery Beacons; enemies can Destroy Beacon. End of game: 2+ allied beacons within Range 1 of enemy Territory → progress once; 3+ → again. Complete at 3 progress.",
               "completionRequired": 3,
               "rewardDescription": "Gain 2 SP per progression. If you won, choose a unit; it removes all Setbacks.",
-              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/place-artillery-beacons-1.jpg?version=8",
-              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/place-artillery-beacons-2.jpg?version=8",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/place-artillery-beacons-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/place-artillery-beacons-2.jpeg?version=8",
               "rewards": {
                 "kind": "autoPerProgression",
                 "resourcePiecesPerProgression": [
@@ -32387,8 +32387,8 @@
               "description": "Token when an allied unit ends Activation in enemy Territory; Trooper may leave battlefield from enemy Territory for 2 tokens. Post-game: 3+ tokens → progress once; 4+ → again. Complete at 3 progress.",
               "completionRequired": 3,
               "rewardDescription": "Draw Order tokens equal to progressions; matching units gain 2 XP each.",
-              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/probe-their-defenses-1.jpg?version=8",
-              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/probe-their-defenses-2.jpg?version=8",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/probe-their-defenses-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/probe-their-defenses-2.jpeg?version=8",
               "rewards": {
                 "kind": "pickEntries",
                 "countFromProgressions": true,
@@ -32406,8 +32406,8 @@
               "description": "Troopers Dig In on Contested/Enemy POIs. 2+ Fortification tokens → Low Profile. End of game: 3+ POIs with 2+ Fortifications → progress once; 1+ such POI in Enemy Territory → again. Complete at 3 progress.",
               "completionRequired": 3,
               "rewardDescription": "Per progression: choose a unit; clear all Setbacks, or +2 XP if it had none. A unit may only be chosen once per game.",
-              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/take-forward-positions-1.jpg?version=8",
-              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/take-forward-positions-2.jpg?version=8",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/take-forward-positions-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/take-forward-positions-2.jpeg?version=8",
               "rewards": {
                 "kind": "chooseOnePerProgression",
                 "options": [
@@ -32452,8 +32452,8 @@
             "lossDieFace": "blank",
             "victoryClearsStatus": "overconfident",
             "lossAppliesStatus": "overconfident",
-            "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/break-the-stalemate-tp-1.jpg?version=8",
-            "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/break-the-stalemate-tp-2.jpg?version=8",
+            "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/break-the-stalemate-tp-1.jpeg?version=8",
+            "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/break-the-stalemate-tp-2.jpeg?version=8",
             "rewards": {
               "victory": {
                 "maxUnits": 3,
@@ -32559,8 +32559,8 @@
           "id": "hold-at-all-costs",
           "name": "Hold at All Costs",
           "narrative": "The war drags on and on, and the enemy has launched a major offensive in an attempt to turn the tide. Command has identified your sector in particular as having significant strategic importance. Your orders are to shore up defenses, delay an assault as long as possible, and force enemy attrition. You must hold at all costs. Good luck.",
-          "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/hold-at-all-costs.jpg?version=8",
-          "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/hold-at-all-costs-flavor.jpg?version=8",
+          "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/hold-at-all-costs.jpeg?version=8",
+          "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/hold-at-all-costs-flavor.jpeg?version=8",
           "objectives": [
             {
               "id": "silence-the-big-guns",
@@ -32568,8 +32568,8 @@
               "description": "Token when an enemy Support, Heavy, or Vehicle is defeated; then at end of game +1 token if 3+ enemy Troopers were defeated. Post-game: 2+ tokens → progress once; 3+ → again. Complete at 3 progress.",
               "completionRequired": 3,
               "rewardDescription": "Gain 2 SP per progression. If you won, gain 1 additional SP and choose a unit that took part; it gains 1 Experience.",
-              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/silence-the-big-guns-1.jpg?version=8",
-              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/silence-the-big-guns-2.jpg?version=8",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/silence-the-big-guns-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/silence-the-big-guns-2.jpeg?version=8",
               "rewards": {
                 "kind": "autoPerProgression",
                 "resourcePiecesPerProgression": [
@@ -32607,8 +32607,8 @@
               "description": "End Phase: for each Contested/Enemy POI Contested only by allies, put 1 token on this Agenda. Post-game: 5+ tokens → progress once; 7+ → again. Complete at 3 progress.",
               "completionRequired": 3,
               "rewardDescription": "Draw Order tokens equal to progressions; matching units gain 2 XP each.",
-              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/delaying-tactics-1.jpg?version=8",
-              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/delaying-tactics-2.jpg?version=8",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/delaying-tactics-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/delaying-tactics-2.jpeg?version=8",
               "rewards": {
                 "kind": "pickEntries",
                 "countFromProgressions": true,
@@ -32626,8 +32626,8 @@
               "description": "Troopers Fortify Contested/Allied POIs (Low Profile at 2+, Indomitable at 3+, Man Defensive Positions at 4+). End of game: 3+ POIs with 2+ Fortifications → progress once; 1+ POI with 4+ Fortifications in Contested Territory → again. Complete at 3 progress.",
               "completionRequired": 3,
               "rewardDescription": "Per progression: gain 2 SP, or keep a Strategic Asset you used this game on your Register.",
-              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/fortify-defensive-positions-1.jpg?version=8",
-              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/fortify-defensive-positions-2.jpg?version=8",
+              "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/fortify-defensive-positions-1.jpeg?version=8",
+              "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/agendas/fortify-defensive-positions-2.jpeg?version=8",
               "rewards": {
                 "kind": "chooseOnePerProgression",
                 "options": [
@@ -32663,8 +32663,8 @@
             "lossDieFace": "block",
             "victoryClearsStatus": "haunted",
             "lossAppliesStatus": "haunted",
-            "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/hold-at-all-costs-tp-1.jpg?version=8",
-            "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/hold-at-all-costs-tp-2.jpg?version=8",
+            "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/hold-at-all-costs-tp-1.jpeg?version=8",
+            "imageBackUrl": "https://d26oqf9i6fvic.cloudfront.net/tours-of-duty/hold-at-all-costs-tp-2.jpeg?version=8",
             "rewards": {
               "victory": {
                 "maxUnits": 3,
