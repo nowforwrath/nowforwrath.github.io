@@ -1,0 +1,4330 @@
+{
+  "appVersion": 2,
+  "game": "Star Wars: Shatterpoint",
+  "config": {
+    "trackHighestDivision": false
+  },
+  "disallowMultipleFactions": true,
+  "skipFactionSelection": true,
+  "hideModelCount": true,
+  "usesIds": true,
+  "usesBuiltInUnitImages": true,
+  "stats": [],
+  "limits": [],
+  "counts": [],
+  "calculations": [],
+  "additionalPrint": [],
+  "dataTableKeys": [
+    "primary",
+    "secondary",
+    "supporting"
+  ],
+  "usesCollection": [
+    "primary",
+    "secondary",
+    "supporting"
+  ],
+  "imagePrintView": {
+    "printChildren": [
+      {
+        "parentPropertyName": "squads",
+        "propertyName": "primary",
+        "kind": "image",
+        "label": "Primary",
+        "defaultPrint": true,
+        "defaultPlacement": "nest"
+      },
+      {
+        "parentPropertyName": "squads",
+        "propertyName": "secondary",
+        "kind": "image",
+        "label": "Secondary",
+        "defaultPrint": true,
+        "defaultPlacement": "nest"
+      },
+      {
+        "parentPropertyName": "squads",
+        "propertyName": "supporting",
+        "kind": "image",
+        "label": "Supporting",
+        "defaultPrint": true,
+        "defaultPlacement": "nest"
+      }
+    ],
+    "printSizes": {
+      "default": {
+        "sizeBy": "height",
+        "height": "2.5in"
+      }
+    },
+    "layoutDefaults": {
+      "horizontalGapPx": 10,
+      "verticalGapPx": 14,
+      "showDividingLines": true
+    }
+  },
+  "elements": [
+    {
+      "propertyName": "factions",
+      "label": "Strike Team",
+      "type": "faction",
+      "dataSource": "factions",
+      "divisions": [],
+      "children": [
+        {
+          "propertyName": "squads",
+          "label": "Squad",
+          "type": "main",
+          "dataSource": "eras",
+          "tierProperty": "rank",
+          "excludeFromTiers": true,
+          "tiers": [
+            {
+              "name": "Squad",
+              "rank": 1,
+              "maximumChildren": {
+                "primary": 1,
+                "secondary": 1,
+                "supporting": 1
+              }
+            }
+          ],
+          "sortMainOptionsAlphabetically": false,
+          "entryRequirements": {
+            "minimum": 2,
+            "maximum": 2,
+            "hint": "Choose 2",
+            "validationMessage": "A strike team has exactly 2 squads"
+          },
+          "children": [
+            {
+              "propertyName": "primary",
+              "label": "Primary",
+              "type": "list",
+              "dataSource": "primary",
+              "badges": [
+                {
+                  "propertyName": "squadPoints",
+                  "label": "SP"
+                },
+                {
+                  "propertyName": "forcePoints",
+                  "label": "FP"
+                }
+              ]
+            },
+            {
+              "propertyName": "secondary",
+              "label": "Secondary",
+              "type": "list",
+              "dataSource": "secondary",
+              "badges": [
+                {
+                  "propertyName": "forcePoints",
+                  "label": "FP"
+                }
+              ]
+            },
+            {
+              "propertyName": "supporting",
+              "label": "Supporting",
+              "type": "list",
+              "dataSource": "supporting",
+              "badges": [
+                {
+                  "propertyName": "forcePoints",
+                  "label": "FP"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "data": {
+    "factions": [
+      {
+        "id": 1,
+        "name": "Strike Team"
+      }
+    ],
+    "eras": [
+      {
+        "id": "clone",
+        "name": "Clone Wars",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-eras/clone%20logo.png",
+        "unlimited": true,
+        "factions": [
+          {
+            "id": 1,
+            "rank": 1
+          }
+        ],
+        "statLimits": [
+          {
+            "stat": "points",
+            "limit": 0,
+            "label": "Squad points"
+          }
+        ],
+        "validations": [
+          {
+            "requiredChildren": [
+              {
+                "key": "primary",
+                "quantity": 1,
+                "message": "Choose a primary unit"
+              },
+              {
+                "key": "secondary",
+                "quantity": 1,
+                "message": "Choose a secondary unit"
+              },
+              {
+                "key": "supporting",
+                "quantity": 1,
+                "message": "Choose a supporting unit"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reign",
+        "name": "Reign of the Empire",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-eras/reign.png",
+        "unlimited": true,
+        "factions": [
+          {
+            "id": 1,
+            "rank": 1
+          }
+        ],
+        "statLimits": [
+          {
+            "stat": "points",
+            "limit": 0,
+            "label": "Squad points"
+          }
+        ],
+        "validations": [
+          {
+            "requiredChildren": [
+              {
+                "key": "primary",
+                "quantity": 1,
+                "message": "Choose a primary unit"
+              },
+              {
+                "key": "secondary",
+                "quantity": 1,
+                "message": "Choose a secondary unit"
+              },
+              {
+                "key": "supporting",
+                "quantity": 1,
+                "message": "Choose a supporting unit"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rebellion",
+        "name": "Age of Rebellion",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-eras/rebellion%20logo.png",
+        "unlimited": true,
+        "factions": [
+          {
+            "id": 1,
+            "rank": 1
+          }
+        ],
+        "statLimits": [
+          {
+            "stat": "points",
+            "limit": 0,
+            "label": "Squad points"
+          }
+        ],
+        "validations": [
+          {
+            "requiredChildren": [
+              {
+                "key": "primary",
+                "quantity": 1,
+                "message": "Choose a primary unit"
+              },
+              {
+                "key": "secondary",
+                "quantity": 1,
+                "message": "Choose a secondary unit"
+              },
+              {
+                "key": "supporting",
+                "quantity": 1,
+                "message": "Choose a supporting unit"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "newrepublic",
+        "name": "New Republic",
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-eras/new%20republic%20logo.png",
+        "unlimited": true,
+        "factions": [
+          {
+            "id": 1,
+            "rank": 1
+          }
+        ],
+        "statLimits": [
+          {
+            "stat": "points",
+            "limit": 0,
+            "label": "Squad points"
+          }
+        ],
+        "validations": [
+          {
+            "requiredChildren": [
+              {
+                "key": "primary",
+                "quantity": 1,
+                "message": "Choose a primary unit"
+              },
+              {
+                "key": "secondary",
+                "quantity": 1,
+                "message": "Choose a secondary unit"
+              },
+              {
+                "key": "supporting",
+                "quantity": 1,
+                "message": "Choose a supporting unit"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "primary": [
+      {
+        "id": "121",
+        "name": "Ahsoka Tano, Fulcrum",
+        "uniqueName": "Ahsoka Tano",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 4,
+        "tags": [
+          "Force User",
+          "Rebellion"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/121.webp?version=5",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/121.webp?version=5",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/121.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/121.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/121.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/121.webp?version=5"
+        ],
+        "unavailableWith": [
+          "Padawan Ahsoka Tano",
+          "Ahsoka Tano, Jedi No More"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      },
+      {
+        "id": "1",
+        "name": "Ahsoka Tano, Jedi No More",
+        "uniqueName": "Ahsoka Tano",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Force User",
+          "Galactic Republic"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/1.webp?version=7",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/1.webp?version=7",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/1.webp?version=7",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/1.webp?version=7",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/1.webp?version=7",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/1.webp?version=7"
+        ],
+        "unavailableWith": [
+          "Padawan Ahsoka Tano",
+          "Ahsoka Tano, Fulcrum"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "name": "Asajj Ventress, Sith Assassin",
+        "uniqueName": "Asajj Ventress",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Dathomirian",
+          "Force User",
+          "Nightsister",
+          "Separatist Alliance"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/6.webp?version=5",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/6.webp?version=5",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/6.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/6.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/6.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/6.webp?version=5"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      },
+      {
+        "id": "151",
+        "name": "Baylan Skoll",
+        "uniqueName": "Baylan Skoll",
+        "factions": [
+          "New Republic"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Force User",
+          "Mercenary",
+          "Scoundrel"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/151.webp?version=5",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/151.webp?version=5",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/151.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/151.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/151.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/151.webp?version=5"
+        ],
+        "squadPoints": 7,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 7
+          }
+        ]
+      },
+      {
+        "id": "45",
+        "name": "Cad Bane, Notorious Hunter",
+        "uniqueName": "Cad Bane",
+        "factions": [
+          "Clone Wars",
+          "Reign of the Empire",
+          "Age of Rebellion",
+          "New Republic"
+        ],
+        "forcePoints": 2,
+        "tags": [
+          "Bounty Hunter",
+          "Mercenary",
+          "Scoundrel"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/45.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/45.webp?version=3",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/45.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/45.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/45.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/45.webp?version=3"
+        ],
+        "squadPoints": 9,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 9
+          }
+        ]
+      },
+      {
+        "id": "132",
+        "name": "Captain Cassian Andor",
+        "uniqueName": "Cassian Andor",
+        "factions": [
+          "Reign of the Empire",
+          "Age of Rebellion"
+        ],
+        "forcePoints": 2,
+        "tags": [
+          "Rebel Alliance",
+          "Scoundrel",
+          "Spy"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/132.webp?version=6",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/132.webp?version=6",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/132.webp?version=6",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/132.webp?version=6",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/132.webp?version=6",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/132.webp?version=6"
+        ],
+        "squadPoints": 9,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 9
+          }
+        ]
+      },
+      {
+        "id": "61",
+        "name": "Chief Chirpa",
+        "uniqueName": "Chirpa",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Endor",
+          "Ewok",
+          "Chief"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/61.webp?version=5",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/61.webp?version=5",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/61.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/61.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/61.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/61.webp?version=5"
+        ],
+        "squadPoints": 7,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 7
+          }
+        ]
+      },
+      {
+        "id": "74",
+        "name": "Clone Sergeant Hunter",
+        "uniqueName": "CT-9901",
+        "factions": [
+          "Clone Wars",
+          "Reign of the Empire"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Bad Batch",
+          "Clone Trooper",
+          "Galactic Republic",
+          "Scoundrel"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/74.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/74.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/74.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/74.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/74.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/74.webp?version=1"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      },
+      {
+        "id": "83",
+        "name": "Commander Iden Versio",
+        "uniqueName": "Iden Versio",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Galactic Empire",
+          "Scout"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/83.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/83.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/83.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/83.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/83.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/83.webp?version=1"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      },
+      {
+        "id": "22",
+        "name": "Count Dooku, Separatist Leader",
+        "uniqueName": "Count Dooku",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 4,
+        "tags": [
+          "Force User",
+          "Separatist Alliance",
+          "Sith"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/22.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/22.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/22.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/22.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/22.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/22.webp?version=1"
+        ],
+        "squadPoints": 7,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 7
+          }
+        ]
+      },
+      {
+        "id": "110",
+        "name": "CT-9904, Elite Squad Leader",
+        "uniqueName": "CT-9904",
+        "factions": [
+          "Reign of the Empire",
+          "Age of Rebellion"
+        ],
+        "forcePoints": 2,
+        "tags": [
+          "Clone Trooper",
+          "Galactic Empire"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/110.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/110.webp?version=11",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/110.webp?version=11",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/110.webp?version=11",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/110.webp?version=11",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/110.webp?version=11"
+        ],
+        "unavailableWith": [
+          "Crosshair"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      },
+      {
+        "id": "36",
+        "name": "Darth Vader, Jedi Hunter",
+        "uniqueName": "Darth Vader",
+        "factions": [
+          "Clone Wars",
+          "Reign of the Empire",
+          "Age of Rebellion"
+        ],
+        "forcePoints": 4,
+        "tags": [
+          "Force User",
+          "Galactic Empire",
+          "Galactic Republic",
+          "Inquisitorious",
+          "Sith"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/36.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/36.webp?version=3",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/36.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/36.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/36.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/36.webp?version=3"
+        ],
+        "unavailableWith": [
+          "Darth Vader, The Emperor's Servant",
+          "Darth Vader, Fallen Master"
+        ],
+        "squadPoints": 7,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 7
+          }
+        ]
+      },
+      {
+        "id": "57",
+        "name": "Darth Vader, The Emperor's Servant",
+        "uniqueName": "Darth Vader",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Force User",
+          "Galactic Empire",
+          "Sith"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/57.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/57.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/57.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/57.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/57.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/57.webp?version=1"
+        ],
+        "unavailableWith": [
+          "Darth Vader, Fallen Master",
+          "Darth Vader, Jedi Hunter"
+        ],
+        "squadPoints": 7,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 7
+          }
+        ]
+      },
+      {
+        "id": "127",
+        "name": "Director Krennic",
+        "uniqueName": "Orson Krennic",
+        "factions": [
+          "Reign of the Empire",
+          "Age of Rebellion"
+        ],
+        "forcePoints": 2,
+        "tags": [
+          "Galactic Empire",
+          "Officer"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/127.webp?version=5",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/127.webp?version=5",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/127.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/127.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/127.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/127.webp?version=5"
+        ],
+        "squadPoints": 9,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 9
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "name": "General Anakin Skywalker",
+        "uniqueName": "Anakin Skywalker",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 4,
+        "tags": [
+          "501st",
+          "Force User",
+          "Galactic Republic",
+          "Jedi"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/5.webp?version=7",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/5.webp?version=7",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/5.webp?version=7",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/5.webp?version=7",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/5.webp?version=7",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/5.webp?version=7"
+        ],
+        "squadPoints": 7,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 7
+          }
+        ]
+      },
+      {
+        "id": "29",
+        "name": "General Grievous",
+        "uniqueName": "General Grievous",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Droid",
+          "Separatist Alliance"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/29.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/29.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/29.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/29.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/29.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/29.webp?version=1"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      },
+      {
+        "id": "21",
+        "name": "General Obi-Wan Kenobi",
+        "uniqueName": "Obi-Wan Kenobi",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "212th",
+          "Force User",
+          "Galactic Republic",
+          "Jedi"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/21.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/21.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/21.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/21.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/21.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/21.webp?version=1"
+        ],
+        "unavailableWith": [
+          "Obi-Wan Kenobi, Out of Hiding"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      },
+      {
+        "id": "87",
+        "name": "General Solo",
+        "uniqueName": "Han Solo",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Rebel Alliance",
+          "Scoundrel",
+          "Scout"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/87.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/87.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/87.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/87.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/87.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/87.webp?version=1"
+        ],
+        "unavailableWith": [
+          "Han and Chewie, In it For the Money"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      },
+      {
+        "id": "109",
+        "name": "General Veers, Tactical Genius",
+        "uniqueName": "Veers",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Galactic Empire",
+          "Officer"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/109.webp?version=10",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/109.webp?version=10",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/109.webp?version=10",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/109.webp?version=10",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/109.webp?version=10",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/109.webp?version=10"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      },
+      {
+        "id": "92",
+        "name": "Grand Admiral Thrawn",
+        "uniqueName": "Thrawn",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 2,
+        "tags": [
+          "Galactic Empire",
+          "Warrior",
+          "Officer"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/92.webp?version=7",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/92.webp?version=7",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/92.webp?version=7",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/92.webp?version=7",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/92.webp?version=7",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/92.webp?version=7"
+        ],
+        "squadPoints": 7,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 7
+          }
+        ]
+      },
+      {
+        "id": "33",
+        "name": "Grand Inquisitor, Fallen Jedi",
+        "uniqueName": "Grand Inquisitor",
+        "factions": [
+          "Clone Wars",
+          "Reign of the Empire",
+          "Age of Rebellion"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Force User",
+          "Galactic Empire",
+          "Inquisitorious"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/33.webp?version=5",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/33.webp?version=5",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/33.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/33.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/33.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/33.webp?version=5"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      },
+      {
+        "id": "95",
+        "name": "Hera Syndulla, Spectre-2",
+        "uniqueName": "Hera Syndulla",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Rebel Alliance",
+          "Spectre"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/95.webp?version=6",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/95.webp?version=6",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/95.webp?version=6",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/95.webp?version=6",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/95.webp?version=6",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/95.webp?version=6"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      },
+      {
+        "id": "69",
+        "name": "Hondo, Honest Businessman",
+        "uniqueName": "Hondo Ohnaka",
+        "factions": [
+          "Clone Wars",
+          "Reign of the Empire",
+          "Age of Rebellion"
+        ],
+        "forcePoints": 2,
+        "tags": [
+          "Mercenary",
+          "Scoundrel",
+          "Weequay"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/69.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/69.webp?version=3",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/69.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/69.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/69.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/69.webp?version=3"
+        ],
+        "squadPoints": 7,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 7
+          }
+        ]
+      },
+      {
+        "id": "53",
+        "name": "Jedi Knight Luke Skywalker",
+        "uniqueName": "Luke Skywalker",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Force User",
+          "Jedi",
+          "Rebel Alliance"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/53.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/53.webp?version=3",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/53.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/53.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/53.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/53.webp?version=3"
+        ],
+        "squadPoints": 7,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 7
+          }
+        ]
+      },
+      {
+        "id": "125",
+        "name": "Jedi Master Ki-Adi-Mundi",
+        "uniqueName": "Ki-Adi-Mundi",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Force User",
+          "Galactic Republic",
+          "Jedi"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/125.webp?version=5",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/125.webp?version=5",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/125.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/125.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/125.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/125.webp?version=5"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      },
+      {
+        "id": "126",
+        "name": "Jedi Master Kit Fisto",
+        "uniqueName": "Kit Fisto",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Aquatic",
+          "Force User",
+          "Galactic Republic",
+          "Jedi"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/126.webp?version=6",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/126.webp?version=6",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/126.webp?version=6",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/126.webp?version=6",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/126.webp?version=6",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/126.webp?version=6"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      },
+      {
+        "id": "27",
+        "name": "Jedi Master Luminara Unduli",
+        "uniqueName": "Luminara Unduli",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Force User",
+          "Galactic Republic",
+          "Jedi"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/27.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/27.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/27.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/27.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/27.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/27.webp?version=1"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      },
+      {
+        "id": "41",
+        "name": "Jedi Master Mace Windu",
+        "uniqueName": "Mace Windu",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 4,
+        "tags": [
+          "Force User",
+          "Galactic Republic",
+          "Jedi"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/41.webp?version=5",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/41.webp?version=5",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/41.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/41.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/41.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/41.webp?version=5"
+        ],
+        "squadPoints": 7,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 7
+          }
+        ]
+      },
+      {
+        "id": "55",
+        "name": "Jedi Master Plo Koon",
+        "uniqueName": "Plo Koon",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Force User",
+          "Galactic Republic",
+          "Jedi"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/55.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/55.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/55.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/55.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/55.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/55.webp?version=1"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      },
+      {
+        "id": "141",
+        "name": "Jyn Erso, Stardust",
+        "uniqueName": "Jyn Erso",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Rebel Alliance",
+          "Scoundrel",
+          "Spy"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/141.webp?version=5",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/141.webp?version=5",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/141.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/141.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/141.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/141.webp?version=5"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      },
+      {
+        "id": "85",
+        "name": "Kanan Jarrus, Spectre-1",
+        "uniqueName": "Caleb Dume",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Force User",
+          "Jedi",
+          "Rebel Alliance",
+          "Scoundrel",
+          "Spectre"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/85.webp?version=5",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/85.webp?version=5",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/85.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/85.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/85.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/85.webp?version=5"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      },
+      {
+        "id": "105",
+        "name": "Lando Calrissian, Galactic Entrepeneur",
+        "uniqueName": "Lando Calrissian",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Bespin",
+          "Scoundrel"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/105.webp?version=8",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/105.webp?version=8",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/105.webp?version=8",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/105.webp?version=8",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/105.webp?version=8",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/105.webp?version=8"
+        ],
+        "unavailableWith": [
+          "Lando and R2-D2, Inside Job"
+        ],
+        "squadPoints": 0,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 0
+          }
+        ]
+      },
+      {
+        "id": "65",
+        "name": "Leia Organa, Freedom Fighter",
+        "uniqueName": "Leia Organa",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Endor",
+          "Rebel Alliance",
+          "Scout",
+          "Warrior"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/65.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/65.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/65.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/65.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/65.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/65.webp?version=1"
+        ],
+        "unavailableWith": [
+          "Boushh (Leia Organa)",
+          "Princess Leia, Charming to the Last"
+        ],
+        "squadPoints": 7,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 7
+          }
+        ]
+      },
+      {
+        "id": "64",
+        "name": "Logray, Bright Tree Shaman",
+        "uniqueName": "Logray",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Endor",
+          "Ewok",
+          "Shaman"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/64.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/64.webp?version=3",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/64.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/64.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/64.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/64.webp?version=3"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      },
+      {
+        "id": "18",
+        "name": "Lord Maul",
+        "uniqueName": "Maul",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Dathomirian",
+          "Force User",
+          "Scoundrel",
+          "Shadow Collective"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/18.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/18.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/18.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/18.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/18.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/18.webp?version=1"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      },
+      {
+        "id": "68",
+        "name": "Moff Gideon",
+        "factions": [
+          "Age of Rebellion",
+          "New Republic"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Galactic Empire",
+          "Scoundrel"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/68.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/68.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/68.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/68.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/68.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/68.webp?version=1"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      },
+      {
+        "id": "146",
+        "name": "Morgan Elsbeth",
+        "factions": [
+          "New Republic"
+        ],
+        "forcePoints": 2,
+        "tags": [
+          "Dathomirian",
+          "Nightsister",
+          "Galactic Empire"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/146.webp?version=5",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/146.webp?version=5",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/146.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/146.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/146.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/146.webp?version=5"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      },
+      {
+        "id": "40",
+        "name": "Mother Talzin",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Dathomirian",
+          "Nightsister",
+          "Force User"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/40.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/40.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/40.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/40.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/40.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/40.webp?version=1"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      },
+      {
+        "id": "112",
+        "name": "Princess Leia, Charming to the Last",
+        "uniqueName": "Leia Organa",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Rebel Alliance",
+          "Spy",
+          "Warrior"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/112.webp?version=5",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/112.webp?version=5",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/112.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/112.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/112.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/112.webp?version=5"
+        ],
+        "unavailableWith": [
+          "Boushh (Leia Organa)",
+          "Leia Organa, Freedom Fighter"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      },
+      {
+        "id": "46",
+        "name": "Queen Padme, Amidala",
+        "uniqueName": "Padme Amidala",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Galactic Republic"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/46.webp?version=2",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/46.webp?version=2",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/46.webp?version=2",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/46.webp?version=2",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/46.webp?version=2",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/46.webp?version=2"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      },
+      {
+        "id": "138",
+        "name": "RC-1138 \"Boss\"",
+        "uniqueName": "RC-1138",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 2,
+        "tags": [
+          "Clone Commando",
+          "Clone Trooper",
+          "Delta Squad",
+          "Galactic Republic"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/138.webp?version=8",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/138.webp?version=8",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/138.webp?version=8",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/138.webp?version=8",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/138.webp?version=8",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/138.webp?version=8"
+        ],
+        "squadPoints": 9,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 9
+          }
+        ]
+      },
+      {
+        "id": "144",
+        "name": "Riff Tamson",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 2,
+        "tags": [
+          "Aquatic",
+          "Scoundrel",
+          "Separatist Alliance"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/144.webp?version=6",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/144.webp?version=6",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/144.webp?version=6",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/144.webp?version=6",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/144.webp?version=6",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/144.webp?version=6"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      },
+      {
+        "id": "119",
+        "name": "The Armorer",
+        "factions": [
+          "New Republic"
+        ],
+        "forcePoints": 2,
+        "tags": [
+          "Mandalorian",
+          "Mercenary",
+          "Scoundrel"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/119.webp?version=8",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/119.webp?version=8",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/119.webp?version=8",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/119.webp?version=8",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/119.webp?version=8",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/119.webp?version=8"
+        ],
+        "squadPoints": 9,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 9
+          }
+        ]
+      },
+      {
+        "id": "80",
+        "name": "The Mandalorian",
+        "uniqueName": "Din Djarin",
+        "factions": [
+          "Age of Rebellion",
+          "New Republic"
+        ],
+        "forcePoints": 3,
+        "tags": [
+          "Bounty Hunter",
+          "Mandalorian",
+          "Mercenary",
+          "Scoundrel"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "primary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/80.webp?version=2",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/80.webp?version=2",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/80.webp?version=2",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/80.webp?version=2",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/80.webp?version=2",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/80.webp?version=2"
+        ],
+        "squadPoints": 8,
+        "adjustStatLimits": [
+          {
+            "stat": "points",
+            "modifier": 8
+          }
+        ]
+      }
+    ],
+    "secondary": [
+      {
+        "id": "93",
+        "name": "Agent Kallus, Inside Man",
+        "uniqueName": "Alexsandr Kallus",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/93.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/93.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/93.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/93.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/93.webp?version=4"
+        ],
+        "points": 4
+      },
+      {
+        "id": "47",
+        "name": "Aurra Sing",
+        "uniqueName": "Aurra Sing",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Bounty Hunter",
+          "Mercenary",
+          "Scoundrel"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/47.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/47.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/47.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/47.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/47.webp?version=4"
+        ],
+        "points": 5
+      },
+      {
+        "id": "28",
+        "name": "Barriss Offee, Jedi Padawan",
+        "uniqueName": "Barriss Offee",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Force User",
+          "Galactic Republic",
+          "Jedi",
+          "Padawan"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/28.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/28.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/28.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/28.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/28.webp?version=1"
+        ],
+        "points": 4
+      },
+      {
+        "id": "2",
+        "name": "Bo-Katan Kryze",
+        "uniqueName": "Bo-Katan Kryze",
+        "factions": [
+          "Clone Wars",
+          "Reign of the Empire",
+          "Age of Rebellion",
+          "New Republic"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Clan Kryze",
+          "Death Watch",
+          "Mandalorian",
+          "Nite Owls"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/2.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/2.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/2.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/2.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/2.webp?version=1"
+        ],
+        "points": 4
+      },
+      {
+        "id": "101",
+        "name": "Boba Fett, On Contract",
+        "uniqueName": "Boba Fett",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Bounty Hunter",
+          "Mercenary"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/101.webp?version=6",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/101.webp?version=6",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/101.webp?version=6",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/101.webp?version=6",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/101.webp?version=6"
+        ],
+        "points": 4
+      },
+      {
+        "id": "142",
+        "name": "Bodhi Rook",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Rebel Alliance",
+          "Scoundrel",
+          "Spy"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/142.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/142.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/142.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/142.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/142.webp?version=4"
+        ],
+        "points": 3
+      },
+      {
+        "id": "115",
+        "name": "Bossk, Single-Minded Slayer",
+        "uniqueName": "Bossk",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Bounty Hunter",
+          "Mercenary",
+          "Scoundrel"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/115.webp?version=6",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/115.webp?version=6",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/115.webp?version=6",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/115.webp?version=6",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/115.webp?version=6"
+        ],
+        "points": 3
+      },
+      {
+        "id": "51",
+        "name": "Boushh (Leia Organa)",
+        "uniqueName": "Leia Organa",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Bounty Hunter",
+          "Rebel Alliance",
+          "Scoundrel",
+          "Spy"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/51.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/51.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/51.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/51.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/51.webp?version=1"
+        ],
+        "unavailableWith": [
+          "Princess Leia, Charming to the Last",
+          "Leia Organa, Freedom Fighter"
+        ],
+        "points": 4
+      },
+      {
+        "id": "52",
+        "name": "C-3PO and R2-D2",
+        "uniqueName": "C-3PO",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Droid",
+          "Rebel Alliance"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/52.webp?version=5",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/52.webp?version=5",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/52.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/52.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/52.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/52.webp?version=5"
+        ],
+        "points": 3
+      },
+      {
+        "id": "25",
+        "name": "CC-2224 Clone Commander Cody",
+        "uniqueName": "CC-2224",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "212th",
+          "Clone Commando",
+          "Clone Trooper",
+          "Galactic Republic"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/25.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/25.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/25.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/25.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/25.webp?version=4"
+        ],
+        "points": 4
+      },
+      {
+        "id": "63",
+        "name": "CC-3636 Commander Wolffe",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Clone Trooper",
+          "Galactic Republic",
+          "Wolfpack"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/63.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/63.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/63.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/63.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/63.webp?version=1"
+        ],
+        "points": 4
+      },
+      {
+        "id": "123",
+        "name": "CC-3714 Clone Commander Fil",
+        "uniqueName": "CC-3714",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Clone Trooper",
+          "Fil's Squad",
+          "Galactic Republic"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/123.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/123.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/123.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/123.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/123.webp?version=4"
+        ],
+        "points": 3
+      },
+      {
+        "id": "7",
+        "name": "CC-7567 Captain Rex",
+        "uniqueName": "Captain Rex",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "501st",
+          "Clone Trooper",
+          "Galactic Republic"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/7.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/7.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/7.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/7.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/7.webp?version=1"
+        ],
+        "points": 4
+      },
+      {
+        "id": "81",
+        "name": "Chewie",
+        "uniqueName": "Chewbacca",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Rebel Alliance",
+          "Scoundrel",
+          "Scout"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/81.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/81.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/81.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/81.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/81.webp?version=1"
+        ],
+        "points": 4
+      },
+      {
+        "id": "78",
+        "name": "Crosshair",
+        "uniqueName": "CT-9904",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Bad Batch",
+          "Clone Trooper",
+          "Galactic Republic"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/78.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/78.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/78.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/78.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/78.webp?version=1"
+        ],
+        "unavailableWith": [
+          "CT-9904, Elite Squad Leader"
+        ],
+        "points": 4
+      },
+      {
+        "id": "44",
+        "name": "CT-411 Commander Ponds",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Clone Commando",
+          "Clone Trooper",
+          "Galactic Republic"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/44.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/44.webp?version=3",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/44.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/44.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/44.webp?version=3"
+        ],
+        "points": 3
+      },
+      {
+        "id": "122",
+        "name": "Darth Vader, Fallen Master",
+        "uniqueName": "Darth Vader",
+        "factions": [
+          "Reign of the Empire",
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Force User",
+          "Galactic Empire",
+          "Inquisitorious",
+          "Sith"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/122.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/122.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/122.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/122.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/122.webp?version=4"
+        ],
+        "unavailableWith": [
+          "Darth Vader, The Emperor's Servant",
+          "Darth Vader, Jedi Hunter"
+        ],
+        "points": 5
+      },
+      {
+        "id": "72",
+        "name": "Death Trooper Escort",
+        "factions": [
+          "Age of Rebellion",
+          "New Republic"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Death Trooper",
+          "Galactic Empire",
+          "Stormtrooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/72.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/72.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/72.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/72.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/72.webp?version=1"
+        ],
+        "points": 4
+      },
+      {
+        "id": "136",
+        "name": "Death Trooper Specialist",
+        "factions": [
+          "Reign of the Empire",
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Death Trooper",
+          "Galactic Empire",
+          "Stormtrooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/136.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/136.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/136.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/136.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/136.webp?version=4"
+        ],
+        "points": 5
+      },
+      {
+        "id": "103",
+        "name": "Dengar, The Demolisher",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Bounty Hunter",
+          "Mercenary",
+          "Scoundrel"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/103.webp?version=7",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/103.webp?version=7",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/103.webp?version=7",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/103.webp?version=7",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/103.webp?version=7"
+        ],
+        "points": 4
+      },
+      {
+        "id": "149",
+        "name": "Enoch, Captain of the Guard",
+        "uniqueName": "Enoch",
+        "factions": [
+          "New Republic"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Galactic Empire",
+          "Night Trooper",
+          "Stormtrooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/149.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/149.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/149.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/149.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/149.webp?version=4"
+        ],
+        "points": 3
+      },
+      {
+        "id": "104",
+        "name": "ES-04, Firebrand",
+        "factions": [
+          "Reign of the Empire",
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Galactic Empire"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/104.webp?version=7",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/104.webp?version=7",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/104.webp?version=7",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/104.webp?version=7",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/104.webp?version=7"
+        ],
+        "points": 4
+      },
+      {
+        "id": "99",
+        "name": "Ezra Bridger",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Force User",
+          "Padawan",
+          "Rebel Alliance",
+          "Scoundrel",
+          "Spectre"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/99.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/99.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/99.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/99.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/99.webp?version=4"
+        ],
+        "points": 4
+      },
+      {
+        "id": "11",
+        "name": "Gar Saxon, Merciless Commander",
+        "uniqueName": "Gar Saxon",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Mandalorian",
+          "Shadow Collective",
+          "Super Commando"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/11.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/11.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/11.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/11.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/11.webp?version=1"
+        ],
+        "points": 4
+      },
+      {
+        "id": "90",
+        "name": "Gideon Hask, Inferno Squad",
+        "uniqueName": "Gideon Hask",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Galactic Empire",
+          "Scout"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/90.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/90.webp?version=3",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/90.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/90.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/90.webp?version=3"
+        ],
+        "points": 4
+      },
+      {
+        "id": "71",
+        "name": "Greef Karga",
+        "uniqueName": "Greef Karga",
+        "factions": [
+          "Age of Rebellion",
+          "New Republic"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Mercenary",
+          "Scoundrel"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/71.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/71.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/71.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/71.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/71.webp?version=1"
+        ],
+        "points": 3
+      },
+      {
+        "id": "76",
+        "name": "Gwarm",
+        "factions": [
+          "Clone Wars",
+          "Reign of the Empire",
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Mercenary",
+          "Scoundrel",
+          "Weequay"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/76.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/76.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/76.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/76.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/76.webp?version=4"
+        ],
+        "points": 3
+      },
+      {
+        "id": "116",
+        "name": "IG-88B, Created to Succeed",
+        "uniqueName": "IG-88",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Bounty Hunter",
+          "Droid",
+          "Mercenary",
+          "Scoundrel"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/116.webp?version=7",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/116.webp?version=7",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/116.webp?version=7",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/116.webp?version=7",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/116.webp?version=7"
+        ],
+        "points": 5
+      },
+      {
+        "id": "24",
+        "name": "Jango Fett, Bounty Hunter",
+        "uniqueName": "Jango Fett",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Bounty Hunter",
+          "Mercenary",
+          "Scoundrel",
+          "Separatist Alliance"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/24.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/24.webp?version=3",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/24.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/24.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/24.webp?version=3"
+        ],
+        "points": 4
+      },
+      {
+        "id": "130",
+        "name": "Jedi Master Shaak Ti",
+        "uniqueName": "Shaak Ti",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 1,
+        "tags": [
+          "Force User",
+          "Galactic Republic",
+          "Jedi"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/130.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/130.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/130.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/130.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/130.webp?version=4"
+        ],
+        "points": 5
+      },
+      {
+        "id": "134",
+        "name": "K-2SO, Outspoken Enforcer",
+        "uniqueName": "K-2SO",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Droid",
+          "Rebel Alliance",
+          "Spy"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/134.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/134.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/134.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/134.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/134.webp?version=4"
+        ],
+        "points": 5
+      },
+      {
+        "id": "8",
+        "name": "Kalani, Super Tactical Droid",
+        "uniqueName": "General Kalani",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Battle Droid",
+          "Droid",
+          "Separatist Alliance"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/8.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/8.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/8.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/8.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/8.webp?version=1"
+        ],
+        "points": 5
+      },
+      {
+        "id": "31",
+        "name": "Kraken, Super Tactical Droid",
+        "uniqueName": "Kraken",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Battle Droid",
+          "Droid",
+          "Separatist Alliance"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/31.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/31.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/31.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/31.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/31.webp?version=1"
+        ],
+        "points": 4
+      },
+      {
+        "id": "106",
+        "name": "Lobot, Computer Liaison Officer",
+        "uniqueName": "Lobot",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Bespin",
+          "Scoundrel"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/106.webp?version=6",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/106.webp?version=6",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/106.webp?version=6",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/106.webp?version=6",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/106.webp?version=6"
+        ],
+        "points": 5
+      },
+      {
+        "id": "113",
+        "name": "Luke Skywalker, Daring Hero",
+        "uniqueName": "Luke Skywaler",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Force User",
+          "Rebel Alliance",
+          "Spy"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/113.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/113.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/113.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/113.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/113.webp?version=4"
+        ],
+        "points": 3
+      },
+      {
+        "id": "129",
+        "name": "Nahdar Vebb, Jedi Knight",
+        "uniqueName": "Nahdar Vebb",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Aquatic",
+          "Force User",
+          "Galactic Republic",
+          "Jedi"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/129.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/129.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/129.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/129.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/129.webp?version=4"
+        ],
+        "points": 5
+      },
+      {
+        "id": "145",
+        "name": "Nossor Ri",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Aquatic",
+          "Scoundrel",
+          "Separatist Alliance"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/145.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/145.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/145.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/145.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/145.webp?version=4"
+        ],
+        "points": 3
+      },
+      {
+        "id": "35",
+        "name": "Obi-Wan Kenobi, Out of Hiding",
+        "uniqueName": "Obi-Wan Kenobi",
+        "factions": [
+          "Clone Wars",
+          "Reign of the Empire",
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Force User",
+          "Jedi"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/35.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/35.webp?version=3",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/35.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/35.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/35.webp?version=3"
+        ],
+        "unavailableWith": [
+          "General Obi-Wan Kenobi"
+        ],
+        "points": 4
+      },
+      {
+        "id": "4",
+        "name": "Padawan Ahsoka Tano",
+        "uniqueName": "Ahsoka Tano",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Force User",
+          "Galactic Republic",
+          "Jedi",
+          "Padawan"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/4.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/4.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/4.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/4.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/4.webp?version=1"
+        ],
+        "unavailableWith": [
+          "Ahsoka Tano, Jedi No More",
+          "Ahsoka Tano, Fulcrum"
+        ],
+        "points": 4
+      },
+      {
+        "id": "66",
+        "name": "Paploo, Curious Creature",
+        "uniqueName": "Paploo",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Endor",
+          "Ewok",
+          "Scout"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/66.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/66.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/66.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/66.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/66.webp?version=1"
+        ],
+        "points": 4
+      },
+      {
+        "id": "107",
+        "name": "Paz Vizsla",
+        "factions": [
+          "New Republic"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Mandalorian",
+          "Mercenary",
+          "Scoundrel"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/107.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/107.webp?version=9",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/107.webp?version=9",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/107.webp?version=9",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/107.webp?version=9",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/107.webp?version=9"
+        ],
+        "points": 5
+      },
+      {
+        "id": "139",
+        "name": "RC-1140 \"Fixer\"",
+        "uniqueName": "RC-1140",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Clone Commando",
+          "Clone Trooper",
+          "Delta Squad",
+          "Galactic Republic"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/139.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/139.webp?version=3",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/139.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/139.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/139.webp?version=3"
+        ],
+        "points": 4
+      },
+      {
+        "id": "49",
+        "name": "Sabe, Royal Bodyguard",
+        "uniqueName": "Sabe",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Galactic Republic",
+          "Handmaiden"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/49.webp?version=2",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/49.webp?version=2",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/49.webp?version=2",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/49.webp?version=2",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/49.webp?version=2"
+        ],
+        "points": 4
+      },
+      {
+        "id": "86",
+        "name": "Sabine Wren, Spectre-5",
+        "uniqueName": "Sabine Wren",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Clan Wren",
+          "Mandalorian",
+          "Rebel Alliance",
+          "Spectre"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/86.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/86.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/86.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/86.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/86.webp?version=4"
+        ],
+        "points": 4
+      },
+      {
+        "id": "42",
+        "name": "Savage Opress",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Dathomirian",
+          "Force User",
+          "Separatist Alliance",
+          "Sith"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/42.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/42.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/42.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/42.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/42.webp?version=1"
+        ],
+        "points": 4
+      },
+      {
+        "id": "147",
+        "name": "Shin Hati, Eager Apprentice",
+        "uniqueName": "Shin Hati",
+        "factions": [
+          "New Republic"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Force User",
+          "Mercenary",
+          "Scoundrel"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/147.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/147.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/147.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/147.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/147.webp?version=4"
+        ],
+        "points": 4
+      },
+      {
+        "id": "108",
+        "name": "Snowtrooper Lieutenant",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Galactic Empire",
+          "Stormtrooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/108.webp?version=5",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/108.webp?version=5",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/108.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/108.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/108.webp?version=5"
+        ],
+        "points": 4
+      },
+      {
+        "id": "56",
+        "name": "Stormtrooper Sergeant",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Galactic Empire",
+          "Stormtrooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/56.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/56.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/56.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/56.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/56.webp?version=1"
+        ],
+        "points": 3
+      },
+      {
+        "id": "34",
+        "name": "Third Sister",
+        "uniqueName": "Third Sister",
+        "factions": [
+          "Clone Wars",
+          "Reign of the Empire",
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Force User",
+          "Galactic Empire",
+          "Inquisitorious"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/34.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/34.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/34.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/34.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/34.webp?version=4"
+        ],
+        "points": 4
+      },
+      {
+        "id": "60",
+        "name": "Wicket, Intrepid Warrior",
+        "uniqueName": "Wicket",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Endor",
+          "Ewok",
+          "Warrior"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/60.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/60.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/60.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/60.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/60.webp?version=1"
+        ],
+        "points": 4
+      },
+      {
+        "id": "75",
+        "name": "Wrecker and Omega",
+        "uniqueName": "CT-9903",
+        "factions": [
+          "Clone Wars",
+          "Reign of the Empire"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Bad Batch",
+          "Clone Trooper",
+          "Galactic Republic",
+          "Scoundrel"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "secondary"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/75.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/75.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/75.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/75.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/75.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/75.webp?version=1"
+        ],
+        "points": 4
+      }
+    ],
+    "supporting": [
+      {
+        "id": "82",
+        "name": "\"Chopper\" (C1-10P), Spectre-3",
+        "uniqueName": "Chopper",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Droid",
+          "Rebel Alliance",
+          "Spectre"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/82.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/82.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/82.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/82.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/82.webp?version=4"
+        ],
+        "points": 4
+      },
+      {
+        "id": "140",
+        "name": "\"Sev\" and \"Scorch\"",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Clone Commando",
+          "Clone Trooper",
+          "Delta Squad",
+          "Galactic Republic"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/140.webp?version=5",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/140.webp?version=5",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/140.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/140.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/140.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/140.webp?version=5"
+        ],
+        "points": 5
+      },
+      {
+        "id": "88",
+        "name": "\"Zeb\" Orrelios, Spectre-4",
+        "uniqueName": "Orrelios",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Rebel Alliance",
+          "Spectre",
+          "Warrior"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/88.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/88.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/88.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/88.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/88.webp?version=4"
+        ],
+        "points": 4
+      },
+      {
+        "id": "20",
+        "name": "104th Wolfpack Troopers",
+        "uniqueName": "104th Wolfpack Troopers",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Clone Trooper",
+          "Galactic Republic",
+          "Trooper",
+          "Wolfpack"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/20.webp?version=2",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/20.webp?version=2",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/20.webp?version=2",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/20.webp?version=2",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/20.webp?version=2"
+        ],
+        "points": 4
+      },
+      {
+        "id": "26",
+        "name": "212th Clone Troopers",
+        "uniqueName": "212th Clone Troopers",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "212th",
+          "Clone Trooper",
+          "Galactic Republic",
+          "Trooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/26.webp?version=7",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/26.webp?version=7",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/26.webp?version=7",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/26.webp?version=7",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/26.webp?version=7"
+        ],
+        "points": 4
+      },
+      {
+        "id": "9",
+        "name": "501st Clone Troopers",
+        "uniqueName": "501st Clone Troopers",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "501st",
+          "Clone Trooper",
+          "Galactic Republic",
+          "Trooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/9.webp?version=5",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/9.webp?version=5",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/9.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/9.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/9.webp?version=5"
+        ],
+        "points": 3
+      },
+      {
+        "id": "137",
+        "name": "Aqua Droids",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Aquatic",
+          "Battle Droid",
+          "Droid",
+          "Separatist Alliance",
+          "Trooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/137.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/137.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/137.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/137.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/137.webp?version=4"
+        ],
+        "points": 5
+      },
+      {
+        "id": "43",
+        "name": "ARF Clone Troopers",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "ARF",
+          "Clone Trooper",
+          "Galactic Republic",
+          "Trooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/43.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/43.webp?version=3",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/43.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/43.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/43.webp?version=3"
+        ],
+        "points": 3
+      },
+      {
+        "id": "10",
+        "name": "B1 Battle Droids",
+        "uniqueName": "B1 Battle Droids",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "B1",
+          "Battle Droid",
+          "Droid",
+          "Separatist Alliance",
+          "Trooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/10.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/10.webp?version=3",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/10.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/10.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/10.webp?version=3"
+        ],
+        "points": 3
+      },
+      {
+        "id": "32",
+        "name": "B2 Battle Droids",
+        "uniqueName": "B2 Battle Droids",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "B2",
+          "Battle Droid",
+          "Droid",
+          "Separatist Alliance",
+          "Trooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/32.webp?version=2",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/32.webp?version=2",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/32.webp?version=2",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/32.webp?version=2",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/32.webp?version=2"
+        ],
+        "points": 4
+      },
+      {
+        "id": "143",
+        "name": "Baze Malbus and Chirrut Imwe",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Rebel Alliance",
+          "Scoundrel"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/143.webp?version=6",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/143.webp?version=6",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/143.webp?version=6",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/143.webp?version=6",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/143.webp?version=6"
+        ],
+        "points": 5
+      },
+      {
+        "id": "48",
+        "name": "Bounty Hunters",
+        "uniqueName": "Bounty Hunters",
+        "factions": [
+          "Clone Wars",
+          "Reign of the Empire",
+          "Age of Rebellion",
+          "New Republic"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Bounty Hunter",
+          "Mercenary",
+          "Scoundrel",
+          "Trooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/48.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/48.webp?version=3",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/48.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/48.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/48.webp?version=3"
+        ],
+        "points": 4
+      },
+      {
+        "id": "3",
+        "name": "Clan Kryze Mandalorians",
+        "factions": [
+          "Clone Wars",
+          "Reign of the Empire",
+          "Age of Rebellion",
+          "New Republic"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Mandalorian",
+          "Death Watch",
+          "Clan Kryze",
+          "Trooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/3.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/3.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/3.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/3.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/3.webp?version=1"
+        ],
+        "points": 4
+      },
+      {
+        "id": "102",
+        "name": "Covert Mandalorians",
+        "factions": [
+          "New Republic"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Mandalorian",
+          "Mercenary",
+          "Scoundrel"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/102.webp?version=7",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/102.webp?version=7",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/102.webp?version=7",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/102.webp?version=7",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/102.webp?version=7"
+        ],
+        "points": 4
+      },
+      {
+        "id": "73",
+        "name": "Dark Troopers",
+        "factions": [
+          "Age of Rebellion",
+          "New Republic"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Droid",
+          "Galactic Empire"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/73.webp?version=7",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/73.webp?version=7",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/73.webp?version=7",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/73.webp?version=7",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/73.webp?version=7"
+        ],
+        "points": 4
+      },
+      {
+        "id": "133",
+        "name": "Death Troopers",
+        "factions": [
+          "Reign of the Empire",
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Death Trooper",
+          "Galactic Empire",
+          "Stormtrooper",
+          "Trooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/133.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/133.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/133.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/133.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/133.webp?version=4"
+        ],
+        "points": 4
+      },
+      {
+        "id": "89",
+        "name": "Del Meeko",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Galactic Empire",
+          "Scout"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/89.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/89.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/89.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/89.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/89.webp?version=1"
+        ],
+        "points": 4
+      },
+      {
+        "id": "79",
+        "name": "Echo and Tech",
+        "uniqueName": "CT-1409",
+        "factions": [
+          "Clone Wars",
+          "Reign of the Empire"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Bad Batch",
+          "Clone Trooper",
+          "Galactic Republic",
+          "Scoundrel"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/79.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/79.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/79.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/79.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/79.webp?version=1"
+        ],
+        "points": 4
+      },
+      {
+        "id": "114",
+        "name": "Elite Squad Troopers",
+        "factions": [
+          "Reign of the Empire",
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Galactic Empire",
+          "Trooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/114.webp?version=9",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/114.webp?version=9",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/114.webp?version=9",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/114.webp?version=9",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/114.webp?version=9"
+        ],
+        "points": 4
+      },
+      {
+        "id": "62",
+        "name": "Ewok Hunters",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Endor",
+          "Ewok",
+          "Warrior"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/62.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/62.webp?version=3",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/62.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/62.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/62.webp?version=3"
+        ],
+        "points": 3
+      },
+      {
+        "id": "67",
+        "name": "Ewok Trappers",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Endor",
+          "Ewok",
+          "Scout"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/67.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/67.webp?version=3",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/67.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/67.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/67.webp?version=3"
+        ],
+        "points": 4
+      },
+      {
+        "id": "37",
+        "name": "Fifth Brother",
+        "factions": [
+          "Clone Wars",
+          "Reign of the Empire",
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Force User",
+          "Galactic Empire",
+          "Inquisitorious"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/37.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/37.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/37.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/37.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/37.webp?version=1"
+        ],
+        "points": 4
+      },
+      {
+        "id": "124",
+        "name": "Fil's Clones",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Clone Trooper",
+          "Fil's Squad",
+          "Galactic Republic",
+          "Trooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/124.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/124.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/124.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/124.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/124.webp?version=4"
+        ],
+        "points": 3
+      },
+      {
+        "id": "38",
+        "name": "Fourth Sister",
+        "factions": [
+          "Clone Wars",
+          "Reign of the Empire",
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Force User",
+          "Galactic Empire",
+          "Inquisitorious"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/38.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/38.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/38.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/38.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/38.webp?version=4"
+        ],
+        "points": 4
+      },
+      {
+        "id": "111",
+        "name": "Han and Chewie, In it For the Money",
+        "uniqueName": "Han Solo",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Mercenary",
+          "Scoundrel",
+          "Spy"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/111.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/111.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/111.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/111.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/111.webp?version=4"
+        ],
+        "unavailableWith": [
+          "General Solo"
+        ],
+        "points": 5
+      },
+      {
+        "id": "148",
+        "name": "HK-87 Assassin Droids",
+        "factions": [
+          "Clone Wars",
+          "Reign of the Empire",
+          "Age of Rebellion",
+          "New Republic"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Droid",
+          "Mercenary",
+          "Trooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/148.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/148.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/148.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/148.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/148.webp?version=4"
+        ],
+        "points": 3
+      },
+      {
+        "id": "70",
+        "name": "IG-11, Assassin Droid",
+        "uniqueName": "IG-11",
+        "factions": [
+          "Age of Rebellion",
+          "New Republic"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Bounty Hunter",
+          "Mercenary",
+          "Scoundrel",
+          "Droid"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/70.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/70.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/70.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/70.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/70.webp?version=1"
+        ],
+        "points": 5
+      },
+      {
+        "id": "84",
+        "name": "Imperial Special Forces",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Galactic Empire",
+          "Scout"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/84.webp?version=5",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/84.webp?version=5",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/84.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/84.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/84.webp?version=5"
+        ],
+        "points": 4
+      },
+      {
+        "id": "94",
+        "name": "ISB Agents",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Galactic Empire",
+          "Trooper",
+          "Spy"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/94.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/94.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/94.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/94.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/94.webp?version=4"
+        ],
+        "points": 3
+      },
+      {
+        "id": "54",
+        "name": "Lando and R2-D2, Inside Job",
+        "uniqueName": "Lando Calrissian",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Rebel Alliance",
+          "Scoundrel",
+          "Spy"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/54.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/54.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/54.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/54.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/54.webp?version=1"
+        ],
+        "unavailableWith": [
+          "Lando Calrissian, Galactic Entrepeneur"
+        ],
+        "points": 3
+      },
+      {
+        "id": "23",
+        "name": "MagnaGuard",
+        "uniqueName": "MagnaGuard",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Battle Droid",
+          "Droid",
+          "Separatist Alliance",
+          "Trooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/23.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/23.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/23.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/23.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/23.webp?version=4"
+        ],
+        "points": 3
+      },
+      {
+        "id": "19",
+        "name": "Mandalorian Super Commandos",
+        "uniqueName": "Mandalorian Super Commandos",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Mandalorian",
+          "Shadow Collective",
+          "Super Commando",
+          "Trooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/19.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/19.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/19.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/19.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/19.webp?version=1"
+        ],
+        "points": 4
+      },
+      {
+        "id": "50",
+        "name": "Naboo Royal Handmaidens",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Galactic Republic",
+          "Handmaiden",
+          "Trooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/50.webp?version=3",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/50.webp?version=3",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/50.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/50.webp?version=3",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/50.webp?version=3"
+        ],
+        "points": 4
+      },
+      {
+        "id": "150",
+        "name": "Night Troopers",
+        "factions": [
+          "New Republic"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Galactic Empire",
+          "Night Trooper",
+          "Stormtrooper",
+          "Trooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/150.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/150.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/150.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/150.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/150.webp?version=4"
+        ],
+        "points": 5
+      },
+      {
+        "id": "39",
+        "name": "Nightsister Acolytes",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Dathomirian",
+          "Nightsister",
+          "Trooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/39.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/39.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/39.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/39.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/39.webp?version=1"
+        ],
+        "points": 4
+      },
+      {
+        "id": "128",
+        "name": "Padawan Learners",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Force User",
+          "Galactic Republic",
+          "Jedi",
+          "Padawan"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/128.webp?version=5",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/128.webp?version=5",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/128.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/128.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/128.webp?version=5"
+        ],
+        "points": 3
+      },
+      {
+        "id": "91",
+        "name": "Rebel Commandos",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Rebel Alliance",
+          "Scout",
+          "Trooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/91.webp?version=2",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/91.webp?version=2",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/91.webp?version=2",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/91.webp?version=2",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/91.webp?version=2"
+        ],
+        "points": 4
+      },
+      {
+        "id": "135",
+        "name": "Rebel Pathfinders",
+        "factions": [
+          "Reign of the Empire",
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Rebel Alliance",
+          "Scout",
+          "Spy",
+          "Trooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/135.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/135.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/135.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/135.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/135.webp?version=4"
+        ],
+        "points": 4
+      },
+      {
+        "id": "30",
+        "name": "Republic Clone Commandos",
+        "factions": [
+          "Clone Wars"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Clone Commando",
+          "Clone Trooper",
+          "Galactic Republic",
+          "Trooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/30.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/30.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/30.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/30.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/30.webp?version=4"
+        ],
+        "points": 4
+      },
+      {
+        "id": "131",
+        "name": "Shoretroopers",
+        "factions": [
+          "Reign of the Empire",
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Galactic Empire",
+          "Stormtrooper",
+          "Trooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/131.webp?version=4",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/131.webp?version=4",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/131.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/131.webp?version=4",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/131.webp?version=4"
+        ],
+        "points": 4
+      },
+      {
+        "id": "120",
+        "name": "Snowtroopers",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Galactic Empire",
+          "Stormtrooper",
+          "Trooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/120.webp?version=5",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/120.webp?version=5",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/120.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/120.webp?version=5",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/120.webp?version=5"
+        ],
+        "points": 3
+      },
+      {
+        "id": "59",
+        "name": "Stormtroopers",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Galactic Empire",
+          "Stormtrooper",
+          "Trooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/59.webp?version=1",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/59.webp?version=1",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/59.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/59.webp?version=1",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/59.webp?version=1"
+        ],
+        "points": 4
+      },
+      {
+        "id": "77",
+        "name": "Weequay Pirates",
+        "factions": [
+          "Clone Wars",
+          "Reign of the Empire",
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Mercenary",
+          "Scoundrel",
+          "Trooper",
+          "Weequay"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/77.webp?version=8",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/77.webp?version=8",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/77.webp?version=8",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/77.webp?version=8",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/77.webp?version=8"
+        ],
+        "points": 4
+      },
+      {
+        "id": "118",
+        "name": "Wing Guard",
+        "factions": [
+          "Age of Rebellion"
+        ],
+        "forcePoints": 0,
+        "tags": [
+          "Bespin",
+          "Scoundrel",
+          "Trooper"
+        ],
+        "unique": true,
+        "validationKeys": [
+          "supporting"
+        ],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/118.webp?version=6",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/118.webp?version=6",
+        "imageUrls": [
+          "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/118.webp?version=6",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-back/trimmed/118.webp?version=6",
+          "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/118.webp?version=6"
+        ],
+        "points": 3
+      }
+    ]
+  }
+}
