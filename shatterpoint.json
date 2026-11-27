@@ -2,7 +2,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/shatterpoint.update.json",
-    "contentVersion": "2026.11.27.06"
+    "contentVersion": "2026.11.27.07"
   },
   "game": "Star Wars: Shatterpoint",
   "config": {
@@ -25,6 +25,8 @@
   ],
   "skipFactionSelection": true,
   "hideModelCount": true,
+  "prettyViewHideFaction": true,
+  "prettyViewHidePoints": true,
   "usesIds": true,
   "usesBuiltInUnitImages": true,
   "stats": [
