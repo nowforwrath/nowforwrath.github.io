@@ -1,10 +1,24 @@
 {
   "appVersion": 2,
+  "update": {
+    "manifestUrl": "https://nowforwrath.github.io/shatterpoint.update.json",
+    "contentVersion": "2026.11.27.00"
+  },
   "game": "Star Wars: Shatterpoint",
   "config": {
     "trackHighestDivision": false
   },
   "disallowMultipleFactions": true,
+  "gameModes": [
+    {
+      "id": "standard",
+      "label": "Standard"
+    },
+    {
+      "id": "premiere",
+      "label": "Premiere"
+    }
+  ],
   "skipFactionSelection": true,
   "hideModelCount": true,
   "usesIds": true,
@@ -14,10 +28,28 @@
   "counts": [],
   "calculations": [],
   "additionalPrint": [],
+  "codeExports": [
+    {
+      "id": "spt",
+      "label": "SPT code",
+      "description": "Paste into Longshanks event registration or the TTS importer.",
+      "field": "sptCode",
+      "order": [
+        "primary",
+        "secondary",
+        "supporting",
+        "missions"
+      ],
+      "prefix": "spt[",
+      "separator": ",",
+      "suffix": "]"
+    }
+  ],
   "dataTableKeys": [
     "primary",
     "secondary",
-    "supporting"
+    "supporting",
+    "missions"
   ],
   "usesCollection": [
     "primary",
@@ -90,11 +122,29 @@
             }
           ],
           "sortMainOptionsAlphabetically": false,
+          "sumChildPoints": true,
+          "childTagSummary": {
+            "property": "tags",
+            "childElements": [
+              "primary",
+              "secondary",
+              "supporting"
+            ],
+            "expectedCount": 3
+          },
           "entryRequirements": {
             "minimum": 2,
             "maximum": 2,
             "hint": "Choose 2",
-            "validationMessage": "A strike team has exactly 2 squads"
+            "validationMessage": "A strike team has exactly 2 squads",
+            "byGameMode": {
+              "premiere": {
+                "minimum": 4,
+                "maximum": 4,
+                "hint": "Choose 4",
+                "validationMessage": "A Premiere strike team has exactly 4 squads"
+              }
+            }
           },
           "children": [
             {
@@ -102,6 +152,7 @@
               "label": "Primary",
               "type": "list",
               "dataSource": "primary",
+              "hideSingleQuantity": true,
               "badges": [
                 {
                   "propertyName": "squadPoints",
@@ -118,6 +169,7 @@
               "label": "Secondary",
               "type": "list",
               "dataSource": "secondary",
+              "hideSingleQuantity": true,
               "badges": [
                 {
                   "propertyName": "forcePoints",
@@ -130,6 +182,7 @@
               "label": "Supporting",
               "type": "list",
               "dataSource": "supporting",
+              "hideSingleQuantity": true,
               "badges": [
                 {
                   "propertyName": "forcePoints",
@@ -138,6 +191,23 @@
               ]
             }
           ]
+        },
+        {
+          "propertyName": "missions",
+          "label": "Mission",
+          "type": "main",
+          "dataSource": "missions",
+          "prettyViewStyle": "pills",
+          "excludeFromModelCount": true,
+          "ignoreFactionFilter": true,
+          "excludeFromFactionPreview": true,
+          "excludeFromTiers": true,
+          "hideSingleQuantity": true,
+          "entryRequirements": {
+            "maximum": 1,
+            "hint": "Optional",
+            "validationMessage": "A strike team has at most 1 mission"
+          }
         }
       ]
     }
@@ -153,6 +223,7 @@
       {
         "id": "clone",
         "name": "Clone Wars",
+        "specialText": "Primary (21)\nAhsoka Tano, Jedi No More\nAsajj Ventress, Sith Assassin\nCad Bane, Notorious Hunter\nClone Sergeant Hunter\nCount Dooku, Separatist Leader\nDarth Vader, Jedi Hunter\nGeneral Anakin Skywalker\nGeneral Grievous\nGeneral Obi-Wan Kenobi\nGrand Inquisitor, Fallen Jedi\nHondo, Honest Businessman\nJedi Master Ki-Adi-Mundi\nJedi Master Kit Fisto\nJedi Master Luminara Unduli\nJedi Master Mace Windu\nJedi Master Plo Koon\nLord Maul\nMother Talzin\nQueen Padme, Amidala\nRC-1138 \"Boss\"\nRiff Tamson\n\nSecondary (24)\nAurra Sing\nBarriss Offee, Jedi Padawan\nBo-Katan Kryze\nCC-2224 Clone Commander Cody\nCC-3636 Commander Wolffe\nCC-3714 Clone Commander Fil\nCC-7567 Captain Rex\nCrosshair\nCT-411 Commander Ponds\nGar Saxon, Merciless Commander\nGwarm\nJango Fett, Bounty Hunter\nJedi Master Shaak Ti\nKalani, Super Tactical Droid\nKraken, Super Tactical Droid\nNahdar Vebb, Jedi Knight\nNossor Ri\nObi-Wan Kenobi, Out of Hiding\nPadawan Ahsoka Tano\nRC-1140 \"Fixer\"\nSabe, Royal Bodyguard\nSavage Opress\nThird Sister\nWrecker and Omega\n\nSupporting (22)\n\"Sev\" and \"Scorch\"\n104th Wolfpack Troopers\n212th Clone Troopers\n501st Clone Troopers\nAqua Droids\nARF Clone Troopers\nB1 Battle Droids\nB2 Battle Droids\nBounty Hunters\nClan Kryze Mandalorians\nEcho and Tech\nFifth Brother\nFil's Clones\nFourth Sister\nHK-87 Assassin Droids\nMagnaGuard\nMandalorian Super Commandos\nNaboo Royal Handmaidens\nNightsister Acolytes\nPadawan Learners\nRepublic Clone Commandos\nWeequay Pirates",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-eras/clone%20logo.png",
         "unlimited": true,
         "factions": [
@@ -193,6 +264,7 @@
       {
         "id": "reign",
         "name": "Reign of the Empire",
+        "specialText": "Primary (8)\nCad Bane, Notorious Hunter\nCaptain Cassian Andor\nClone Sergeant Hunter\nCT-9904, Elite Squad Leader\nDarth Vader, Jedi Hunter\nDirector Krennic\nGrand Inquisitor, Fallen Jedi\nHondo, Honest Businessman\n\nSecondary (8)\nBo-Katan Kryze\nDarth Vader, Fallen Master\nDeath Trooper Specialist\nES-04, Firebrand\nGwarm\nObi-Wan Kenobi, Out of Hiding\nThird Sister\nWrecker and Omega\n\nSupporting (11)\nBounty Hunters\nClan Kryze Mandalorians\nDeath Troopers\nEcho and Tech\nElite Squad Troopers\nFifth Brother\nFourth Sister\nHK-87 Assassin Droids\nRebel Pathfinders\nShoretroopers\nWeequay Pirates",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-eras/reign.png",
         "unlimited": true,
         "factions": [
@@ -233,6 +305,7 @@
       {
         "id": "rebellion",
         "name": "Age of Rebellion",
+        "specialText": "Primary (24)\nAhsoka Tano, Fulcrum\nCad Bane, Notorious Hunter\nCaptain Cassian Andor\nChief Chirpa\nCommander Iden Versio\nCT-9904, Elite Squad Leader\nDarth Vader, Jedi Hunter\nDarth Vader, The Emperor's Servant\nDirector Krennic\nGeneral Solo\nGeneral Veers, Tactical Genius\nGrand Admiral Thrawn\nGrand Inquisitor, Fallen Jedi\nHera Syndulla, Spectre-2\nHondo, Honest Businessman\nJedi Knight Luke Skywalker\nJyn Erso, Stardust\nKanan Jarrus, Spectre-1\nLando Calrissian, Galactic Entrepeneur\nLeia Organa, Freedom Fighter\nLogray, Bright Tree Shaman\nMoff Gideon\nPrincess Leia, Charming to the Last\nThe Mandalorian\n\nSecondary (28)\nAgent Kallus, Inside Man\nBo-Katan Kryze\nBoba Fett, On Contract\nBodhi Rook\nBossk, Single-Minded Slayer\nBoushh (Leia Organa)\nC-3PO and R2-D2\nChewie\nDarth Vader, Fallen Master\nDeath Trooper Escort\nDeath Trooper Specialist\nDengar, The Demolisher\nES-04, Firebrand\nEzra Bridger\nGideon Hask, Inferno Squad\nGreef Karga\nGwarm\nIG-88B, Created to Succeed\nK-2SO, Outspoken Enforcer\nLobot, Computer Liaison Officer\nLuke Skywalker, Daring Hero\nObi-Wan Kenobi, Out of Hiding\nPaploo, Curious Creature\nSabine Wren, Spectre-5\nSnowtrooper Lieutenant\nStormtrooper Sergeant\nThird Sister\nWicket, Intrepid Warrior\n\nSupporting (26)\n\"Chopper\" (C1-10P), Spectre-3\n\"Zeb\" Orrelios, Spectre-4\nBaze Malbus and Chirrut Imwe\nBounty Hunters\nClan Kryze Mandalorians\nDark Troopers\nDeath Troopers\nDel Meeko\nElite Squad Troopers\nEwok Hunters\nEwok Trappers\nFifth Brother\nFourth Sister\nHan and Chewie, In it For the Money\nHK-87 Assassin Droids\nIG-11, Assassin Droid\nImperial Special Forces\nISB Agents\nLando and R2-D2, Inside Job\nRebel Commandos\nRebel Pathfinders\nShoretroopers\nSnowtroopers\nStormtroopers\nWeequay Pirates\nWing Guard",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-eras/rebellion%20logo.png",
         "unlimited": true,
         "factions": [
@@ -273,6 +346,7 @@
       {
         "id": "newrepublic",
         "name": "New Republic",
+        "specialText": "Primary (6)\nBaylan Skoll\nCad Bane, Notorious Hunter\nMoff Gideon\nMorgan Elsbeth\nThe Armorer\nThe Mandalorian\n\nSecondary (6)\nBo-Katan Kryze\nDeath Trooper Escort\nEnoch, Captain of the Guard\nGreef Karga\nPaz Vizsla\nShin Hati, Eager Apprentice\n\nSupporting (7)\nBounty Hunters\nClan Kryze Mandalorians\nCovert Mandalorians\nDark Troopers\nHK-87 Assassin Droids\nIG-11, Assassin Droid\nNight Troopers",
         "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-eras/new%20republic%20logo.png",
         "unlimited": true,
         "factions": [
@@ -320,6 +394,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 4,
+        "sptCode": "00810101",
         "tags": [
           "Force User",
           "Rebellion"
@@ -356,6 +431,7 @@
           "Clone Wars"
         ],
         "forcePoints": 3,
+        "sptCode": "00010102",
         "tags": [
           "Force User",
           "Galactic Republic"
@@ -392,6 +468,7 @@
           "Clone Wars"
         ],
         "forcePoints": 3,
+        "sptCode": "00010103",
         "tags": [
           "Dathomirian",
           "Force User",
@@ -426,6 +503,7 @@
           "New Republic"
         ],
         "forcePoints": 3,
+        "sptCode": "00820101",
         "tags": [
           "Force User",
           "Mercenary",
@@ -462,6 +540,7 @@
           "New Republic"
         ],
         "forcePoints": 2,
+        "sptCode": "00090101",
         "tags": [
           "Bounty Hunter",
           "Mercenary",
@@ -496,6 +575,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 2,
+        "sptCode": "00310101",
         "tags": [
           "Rebel Alliance",
           "Scoundrel",
@@ -529,6 +609,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 3,
+        "sptCode": "00270102",
         "tags": [
           "Endor",
           "Ewok",
@@ -563,6 +644,7 @@
           "Reign of the Empire"
         ],
         "forcePoints": 3,
+        "sptCode": "00380101",
         "tags": [
           "Bad Batch",
           "Clone Trooper",
@@ -597,6 +679,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 3,
+        "sptCode": "00340101",
         "tags": [
           "Galactic Empire",
           "Scout"
@@ -629,6 +712,7 @@
           "Clone Wars"
         ],
         "forcePoints": 4,
+        "sptCode": "00030101",
         "tags": [
           "Force User",
           "Separatist Alliance",
@@ -663,6 +747,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 2,
+        "sptCode": "00360101",
         "tags": [
           "Clone Trooper",
           "Galactic Empire"
@@ -700,6 +785,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 4,
+        "sptCode": "00300101",
         "tags": [
           "Force User",
           "Galactic Empire",
@@ -739,6 +825,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 3,
+        "sptCode": "00210101",
         "tags": [
           "Force User",
           "Galactic Empire",
@@ -777,6 +864,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 2,
+        "sptCode": "00510101",
         "tags": [
           "Galactic Empire",
           "Officer"
@@ -809,6 +897,7 @@
           "Clone Wars"
         ],
         "forcePoints": 4,
+        "sptCode": "00010109",
         "tags": [
           "501st",
           "Force User",
@@ -843,6 +932,7 @@
           "Clone Wars"
         ],
         "forcePoints": 3,
+        "sptCode": "00050102",
         "tags": [
           "Droid",
           "Separatist Alliance"
@@ -875,6 +965,7 @@
           "Clone Wars"
         ],
         "forcePoints": 3,
+        "sptCode": "00060103",
         "tags": [
           "212th",
           "Force User",
@@ -912,6 +1003,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 3,
+        "sptCode": "00350101",
         "tags": [
           "Rebel Alliance",
           "Scoundrel",
@@ -948,6 +1040,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 3,
+        "sptCode": "00460101",
         "tags": [
           "Galactic Empire",
           "Officer"
@@ -980,6 +1073,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 2,
+        "sptCode": "00280101",
         "tags": [
           "Galactic Empire",
           "Warrior",
@@ -1015,6 +1109,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 3,
+        "sptCode": "00120103",
         "tags": [
           "Force User",
           "Galactic Empire",
@@ -1048,6 +1143,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 3,
+        "sptCode": "00440101",
         "tags": [
           "Rebel Alliance",
           "Spectre"
@@ -1082,6 +1178,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 2,
+        "sptCode": "00100101",
         "tags": [
           "Mercenary",
           "Scoundrel",
@@ -1115,6 +1212,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 3,
+        "sptCode": "00220101",
         "tags": [
           "Force User",
           "Jedi",
@@ -1148,6 +1246,7 @@
           "Clone Wars"
         ],
         "forcePoints": 3,
+        "sptCode": "00500101",
         "tags": [
           "Force User",
           "Galactic Republic",
@@ -1181,6 +1280,7 @@
           "Clone Wars"
         ],
         "forcePoints": 3,
+        "sptCode": "00370101",
         "tags": [
           "Aquatic",
           "Force User",
@@ -1215,6 +1315,7 @@
           "Clone Wars"
         ],
         "forcePoints": 3,
+        "sptCode": "00040102",
         "tags": [
           "Force User",
           "Galactic Republic",
@@ -1248,6 +1349,7 @@
           "Clone Wars"
         ],
         "forcePoints": 4,
+        "sptCode": "00080101",
         "tags": [
           "Force User",
           "Galactic Republic",
@@ -1281,6 +1383,7 @@
           "Clone Wars"
         ],
         "forcePoints": 3,
+        "sptCode": "00110101",
         "tags": [
           "Force User",
           "Galactic Republic",
@@ -1314,6 +1417,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 3,
+        "sptCode": "00520101",
         "tags": [
           "Rebel Alliance",
           "Scoundrel",
@@ -1347,6 +1451,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 3,
+        "sptCode": "00290101",
         "tags": [
           "Force User",
           "Jedi",
@@ -1382,6 +1487,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00470101",
         "tags": [
           "Bespin",
           "Scoundrel"
@@ -1417,6 +1523,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 3,
+        "sptCode": "00270101",
         "tags": [
           "Endor",
           "Rebel Alliance",
@@ -1455,6 +1562,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 3,
+        "sptCode": "00390101",
         "tags": [
           "Endor",
           "Ewok",
@@ -1488,6 +1596,7 @@
           "Clone Wars"
         ],
         "forcePoints": 3,
+        "sptCode": "00010111",
         "tags": [
           "Dathomirian",
           "Force User",
@@ -1522,6 +1631,7 @@
           "New Republic"
         ],
         "forcePoints": 3,
+        "sptCode": "00260101",
         "tags": [
           "Galactic Empire",
           "Scoundrel"
@@ -1553,6 +1663,7 @@
           "New Republic"
         ],
         "forcePoints": 2,
+        "sptCode": "00830101",
         "tags": [
           "Dathomirian",
           "Nightsister",
@@ -1585,6 +1696,7 @@
           "Clone Wars"
         ],
         "forcePoints": 3,
+        "sptCode": "00070101",
         "tags": [
           "Dathomirian",
           "Nightsister",
@@ -1618,6 +1730,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 3,
+        "sptCode": "00410101",
         "tags": [
           "Rebel Alliance",
           "Spy",
@@ -1655,6 +1768,7 @@
           "Clone Wars"
         ],
         "forcePoints": 3,
+        "sptCode": "00150101",
         "tags": [
           "Galactic Republic"
         ],
@@ -1686,6 +1800,7 @@
           "Clone Wars"
         ],
         "forcePoints": 2,
+        "sptCode": "00620101",
         "tags": [
           "Clone Commando",
           "Clone Trooper",
@@ -1719,6 +1834,7 @@
           "Clone Wars"
         ],
         "forcePoints": 2,
+        "sptCode": "00630101",
         "tags": [
           "Aquatic",
           "Scoundrel",
@@ -1751,6 +1867,7 @@
           "New Republic"
         ],
         "forcePoints": 2,
+        "sptCode": "00160101",
         "tags": [
           "Mandalorian",
           "Mercenary",
@@ -1785,6 +1902,7 @@
           "New Republic"
         ],
         "forcePoints": 3,
+        "sptCode": "00240101",
         "tags": [
           "Bounty Hunter",
           "Mandalorian",
@@ -1821,6 +1939,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00280102",
         "tags": [],
         "unique": true,
         "validationKeys": [
@@ -1843,6 +1962,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00090102",
         "tags": [
           "Bounty Hunter",
           "Mercenary",
@@ -1869,6 +1989,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00040101",
         "tags": [
           "Force User",
           "Galactic Republic",
@@ -1899,6 +2020,7 @@
           "New Republic"
         ],
         "forcePoints": 0,
+        "sptCode": "00010105",
         "tags": [
           "Clan Kryze",
           "Death Watch",
@@ -1926,6 +2048,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00250101",
         "tags": [
           "Bounty Hunter",
           "Mercenary"
@@ -1950,6 +2073,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00520102",
         "tags": [
           "Rebel Alliance",
           "Scoundrel",
@@ -1976,6 +2100,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00250102",
         "tags": [
           "Bounty Hunter",
           "Mercenary",
@@ -2002,6 +2127,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00220102",
         "tags": [
           "Bounty Hunter",
           "Rebel Alliance",
@@ -2033,6 +2159,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00390103",
         "tags": [
           "Droid",
           "Rebel Alliance"
@@ -2059,6 +2186,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00060102",
         "tags": [
           "212th",
           "Clone Commando",
@@ -2085,6 +2213,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00110102",
         "tags": [
           "Clone Trooper",
           "Galactic Republic",
@@ -2111,6 +2240,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00370103",
         "tags": [
           "Clone Trooper",
           "Fil's Squad",
@@ -2137,6 +2267,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00010106",
         "tags": [
           "501st",
           "Clone Trooper",
@@ -2163,6 +2294,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00350102",
         "tags": [
           "Rebel Alliance",
           "Scoundrel",
@@ -2189,6 +2321,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00380103",
         "tags": [
           "Bad Batch",
           "Clone Trooper",
@@ -2217,6 +2350,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00080102",
         "tags": [
           "Clone Commando",
           "Clone Trooper",
@@ -2244,6 +2378,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00810102",
         "tags": [
           "Force User",
           "Galactic Empire",
@@ -2275,6 +2410,7 @@
           "New Republic"
         ],
         "forcePoints": 0,
+        "sptCode": "00260102",
         "tags": [
           "Death Trooper",
           "Galactic Empire",
@@ -2301,6 +2437,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00510102",
         "tags": [
           "Death Trooper",
           "Galactic Empire",
@@ -2326,6 +2463,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00250103",
         "tags": [
           "Bounty Hunter",
           "Mercenary",
@@ -2352,6 +2490,7 @@
           "New Republic"
         ],
         "forcePoints": 0,
+        "sptCode": "00830102",
         "tags": [
           "Galactic Empire",
           "Night Trooper",
@@ -2378,6 +2517,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00360102",
         "tags": [
           "Galactic Empire"
         ],
@@ -2401,6 +2541,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00290102",
         "tags": [
           "Force User",
           "Padawan",
@@ -2429,6 +2570,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00010108",
         "tags": [
           "Mandalorian",
           "Shadow Collective",
@@ -2455,6 +2597,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00340102",
         "tags": [
           "Galactic Empire",
           "Scout"
@@ -2481,6 +2624,7 @@
           "New Republic"
         ],
         "forcePoints": 0,
+        "sptCode": "00240102",
         "tags": [
           "Mercenary",
           "Scoundrel"
@@ -2507,6 +2651,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00100102",
         "tags": [
           "Mercenary",
           "Scoundrel",
@@ -2533,6 +2678,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00250104",
         "tags": [
           "Bounty Hunter",
           "Droid",
@@ -2560,6 +2706,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00030102",
         "tags": [
           "Bounty Hunter",
           "Mercenary",
@@ -2587,6 +2734,7 @@
           "Clone Wars"
         ],
         "forcePoints": 1,
+        "sptCode": "00500102",
         "tags": [
           "Force User",
           "Galactic Republic",
@@ -2613,6 +2761,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00310102",
         "tags": [
           "Droid",
           "Rebel Alliance",
@@ -2639,6 +2788,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00010110",
         "tags": [
           "Battle Droid",
           "Droid",
@@ -2665,6 +2815,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00050103",
         "tags": [
           "Battle Droid",
           "Droid",
@@ -2691,6 +2842,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00470102",
         "tags": [
           "Bespin",
           "Scoundrel"
@@ -2716,6 +2868,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00410102",
         "tags": [
           "Force User",
           "Rebel Alliance",
@@ -2742,6 +2895,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00370102",
         "tags": [
           "Aquatic",
           "Force User",
@@ -2768,6 +2922,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00630102",
         "tags": [
           "Aquatic",
           "Scoundrel",
@@ -2796,6 +2951,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00300102",
         "tags": [
           "Force User",
           "Jedi"
@@ -2824,6 +2980,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00010113",
         "tags": [
           "Force User",
           "Galactic Republic",
@@ -2855,6 +3012,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00270103",
         "tags": [
           "Endor",
           "Ewok",
@@ -2880,6 +3038,7 @@
           "New Republic"
         ],
         "forcePoints": 0,
+        "sptCode": "00160102",
         "tags": [
           "Mandalorian",
           "Mercenary",
@@ -2907,6 +3066,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00620102",
         "tags": [
           "Clone Commando",
           "Clone Trooper",
@@ -2934,6 +3094,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00150102",
         "tags": [
           "Galactic Republic",
           "Handmaiden"
@@ -2959,6 +3120,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00440102",
         "tags": [
           "Clan Wren",
           "Mandalorian",
@@ -2985,6 +3147,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00070102",
         "tags": [
           "Dathomirian",
           "Force User",
@@ -3012,6 +3175,7 @@
           "New Republic"
         ],
         "forcePoints": 0,
+        "sptCode": "00820102",
         "tags": [
           "Force User",
           "Mercenary",
@@ -3037,6 +3201,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00460102",
         "tags": [
           "Galactic Empire",
           "Stormtrooper"
@@ -3061,6 +3226,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00210102",
         "tags": [
           "Galactic Empire",
           "Stormtrooper"
@@ -3088,6 +3254,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00120104",
         "tags": [
           "Force User",
           "Galactic Empire",
@@ -3114,6 +3281,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00390102",
         "tags": [
           "Endor",
           "Ewok",
@@ -3141,6 +3309,7 @@
           "Reign of the Empire"
         ],
         "forcePoints": 0,
+        "sptCode": "00380102",
         "tags": [
           "Bad Batch",
           "Clone Trooper",
@@ -3171,6 +3340,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00440103",
         "tags": [
           "Droid",
           "Rebel Alliance",
@@ -3196,6 +3366,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00620103",
         "tags": [
           "Clone Commando",
           "Clone Trooper",
@@ -3224,6 +3395,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00290103",
         "tags": [
           "Rebel Alliance",
           "Spectre",
@@ -3250,6 +3422,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00110103",
         "tags": [
           "Clone Trooper",
           "Galactic Republic",
@@ -3277,6 +3450,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00060101",
         "tags": [
           "212th",
           "Clone Trooper",
@@ -3304,6 +3478,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00010101",
         "tags": [
           "501st",
           "Clone Trooper",
@@ -3330,6 +3505,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00630103",
         "tags": [
           "Aquatic",
           "Battle Droid",
@@ -3357,6 +3533,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00080103",
         "tags": [
           "ARF",
           "Clone Trooper",
@@ -3384,6 +3561,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00010104",
         "tags": [
           "B1",
           "Battle Droid",
@@ -3412,6 +3590,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00050101",
         "tags": [
           "B2",
           "Battle Droid",
@@ -3439,6 +3618,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00520103",
         "tags": [
           "Rebel Alliance",
           "Scoundrel"
@@ -3467,6 +3647,7 @@
           "New Republic"
         ],
         "forcePoints": 0,
+        "sptCode": "00090103",
         "tags": [
           "Bounty Hunter",
           "Mercenary",
@@ -3496,6 +3677,7 @@
           "New Republic"
         ],
         "forcePoints": 0,
+        "sptCode": "00010107",
         "tags": [
           "Mandalorian",
           "Death Watch",
@@ -3522,6 +3704,7 @@
           "New Republic"
         ],
         "forcePoints": 0,
+        "sptCode": "00160103",
         "tags": [
           "Mandalorian",
           "Mercenary",
@@ -3548,6 +3731,7 @@
           "New Republic"
         ],
         "forcePoints": 0,
+        "sptCode": "00260103",
         "tags": [
           "Droid",
           "Galactic Empire"
@@ -3573,6 +3757,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00510104",
         "tags": [
           "Death Trooper",
           "Galactic Empire",
@@ -3599,6 +3784,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00340103",
         "tags": [
           "Galactic Empire",
           "Scout"
@@ -3625,6 +3811,7 @@
           "Reign of the Empire"
         ],
         "forcePoints": 0,
+        "sptCode": "00380104",
         "tags": [
           "Bad Batch",
           "Clone Trooper",
@@ -3652,6 +3839,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00360103",
         "tags": [
           "Galactic Empire",
           "Trooper"
@@ -3676,6 +3864,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00270104",
         "tags": [
           "Endor",
           "Ewok",
@@ -3701,6 +3890,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00390104",
         "tags": [
           "Endor",
           "Ewok",
@@ -3728,6 +3918,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00120101",
         "tags": [
           "Force User",
           "Galactic Empire",
@@ -3753,6 +3944,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00370104",
         "tags": [
           "Clone Trooper",
           "Fil's Squad",
@@ -3781,6 +3973,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00120102",
         "tags": [
           "Force User",
           "Galactic Empire",
@@ -3807,6 +4000,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00410103",
         "tags": [
           "Mercenary",
           "Scoundrel",
@@ -3838,6 +4032,7 @@
           "New Republic"
         ],
         "forcePoints": 0,
+        "sptCode": "00820103",
         "tags": [
           "Droid",
           "Mercenary",
@@ -3865,6 +4060,7 @@
           "New Republic"
         ],
         "forcePoints": 0,
+        "sptCode": "00240103",
         "tags": [
           "Bounty Hunter",
           "Mercenary",
@@ -3891,6 +4087,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00340104",
         "tags": [
           "Galactic Empire",
           "Scout"
@@ -3915,6 +4112,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00280103",
         "tags": [
           "Galactic Empire",
           "Trooper",
@@ -3941,6 +4139,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00220103",
         "tags": [
           "Rebel Alliance",
           "Scoundrel",
@@ -3970,6 +4169,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00030103",
         "tags": [
           "Battle Droid",
           "Droid",
@@ -3997,6 +4197,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00010112",
         "tags": [
           "Mandalorian",
           "Shadow Collective",
@@ -4023,6 +4224,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00150103",
         "tags": [
           "Galactic Republic",
           "Handmaiden",
@@ -4048,6 +4250,7 @@
           "New Republic"
         ],
         "forcePoints": 0,
+        "sptCode": "00830103",
         "tags": [
           "Galactic Empire",
           "Night Trooper",
@@ -4074,6 +4277,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00070103",
         "tags": [
           "Dathomirian",
           "Nightsister",
@@ -4099,6 +4303,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00500103",
         "tags": [
           "Force User",
           "Galactic Republic",
@@ -4125,6 +4330,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00350103",
         "tags": [
           "Rebel Alliance",
           "Scout",
@@ -4151,6 +4357,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00310103",
         "tags": [
           "Rebel Alliance",
           "Scout",
@@ -4177,6 +4384,7 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "sptCode": "00040103",
         "tags": [
           "Clone Commando",
           "Clone Trooper",
@@ -4204,6 +4412,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00510103",
         "tags": [
           "Galactic Empire",
           "Stormtrooper",
@@ -4229,6 +4438,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00460103",
         "tags": [
           "Galactic Empire",
           "Stormtrooper",
@@ -4254,6 +4464,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00210103",
         "tags": [
           "Galactic Empire",
           "Stormtrooper",
@@ -4281,6 +4492,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00100103",
         "tags": [
           "Mercenary",
           "Scoundrel",
@@ -4307,6 +4519,7 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "sptCode": "00470103",
         "tags": [
           "Bespin",
           "Scoundrel",
@@ -4324,6 +4537,38 @@
           "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/118.webp?version=6"
         ],
         "points": 3
+      }
+    ],
+    "missions": [
+      {
+        "id": "first-contact",
+        "name": "First Contact",
+        "sptCode": "00490201",
+        "unique": true
+      },
+      {
+        "id": "never-tell-me-the-odds",
+        "name": "Never Tell Me The Odds",
+        "sptCode": "00480201",
+        "unique": true
+      },
+      {
+        "id": "sabotage-showdown",
+        "name": "Sabotage Showdown",
+        "sptCode": "00450201",
+        "unique": true
+      },
+      {
+        "id": "shifting-priorities",
+        "name": "Shifting Priorities",
+        "sptCode": "00010201",
+        "unique": true
+      },
+      {
+        "id": "strategic-positions",
+        "name": "Strategic Positions",
+        "sptCode": "00720201",
+        "unique": true
       }
     ]
   }
