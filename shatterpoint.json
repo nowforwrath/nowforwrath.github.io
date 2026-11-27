@@ -2,7 +2,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/shatterpoint.update.json",
-    "contentVersion": "2026.11.27.05"
+    "contentVersion": "2026.11.27.06"
   },
   "game": "Star Wars: Shatterpoint",
   "config": {
@@ -13,6 +13,10 @@
     {
       "id": "standard",
       "label": "Standard"
+    },
+    {
+      "id": "threemiere",
+      "label": "Threemiere"
     },
     {
       "id": "premiere",
@@ -34,6 +38,12 @@
       "abbreviation": "Dur",
       "expendable": true,
       "onlyExpendableIfGreaterThanOne": true
+    },
+    {
+      "name": "Force Points",
+      "propertyName": "forcePoints",
+      "abbreviation": "FP",
+      "expendable": true
     }
   ],
   "limits": [],
@@ -161,6 +171,12 @@
             "hint": "Choose 2",
             "validationMessage": "A strike team has exactly 2 squads",
             "byGameMode": {
+              "threemiere": {
+                "minimum": 3,
+                "maximum": 3,
+                "hint": "Choose 3",
+                "validationMessage": "A Threemiere strike team has exactly 3 squads"
+              },
               "premiere": {
                 "minimum": 4,
                 "maximum": 4,
@@ -176,7 +192,13 @@
               "type": "list",
               "dataSource": "primary",
               "hideSingleQuantity": true,
+              "hideCapacity": true,
+              "disallowIncrement": true,
               "pickerImageColumns": 1,
+              "tagFilter": {
+                "property": "tags",
+                "label": "Filter by keyword"
+              },
               "badges": [
                 {
                   "propertyName": "squadPoints",
@@ -194,7 +216,13 @@
               "type": "list",
               "dataSource": "secondary",
               "hideSingleQuantity": true,
-              "pickerImageColumns": 1
+              "hideCapacity": true,
+              "disallowIncrement": true,
+              "pickerImageColumns": 1,
+              "tagFilter": {
+                "property": "tags",
+                "label": "Filter by keyword"
+              }
             },
             {
               "propertyName": "supporting",
@@ -202,7 +230,13 @@
               "type": "list",
               "dataSource": "supporting",
               "hideSingleQuantity": true,
-              "pickerImageColumns": 1
+              "hideCapacity": true,
+              "disallowIncrement": true,
+              "pickerImageColumns": 1,
+              "tagFilter": {
+                "property": "tags",
+                "label": "Filter by keyword"
+              }
             }
           ]
         },
