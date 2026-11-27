@@ -2,7 +2,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/shatterpoint.update.json",
-    "contentVersion": "2026.11.27.04"
+    "contentVersion": "2026.11.27.05"
   },
   "game": "Star Wars: Shatterpoint",
   "config": {
@@ -23,7 +23,19 @@
   "hideModelCount": true,
   "usesIds": true,
   "usesBuiltInUnitImages": true,
-  "stats": [],
+  "stats": [
+    {
+      "name": "Stamina",
+      "abbreviation": "Stam",
+      "expendable": true
+    },
+    {
+      "name": "Durability",
+      "abbreviation": "Dur",
+      "expendable": true,
+      "onlyExpendableIfGreaterThanOne": true
+    }
+  ],
   "limits": [],
   "counts": [],
   "calculations": [],
@@ -182,13 +194,7 @@
               "type": "list",
               "dataSource": "secondary",
               "hideSingleQuantity": true,
-              "pickerImageColumns": 1,
-              "badges": [
-                {
-                  "propertyName": "forcePoints",
-                  "label": "FP"
-                }
-              ]
+              "pickerImageColumns": 1
             },
             {
               "propertyName": "supporting",
@@ -196,13 +202,7 @@
               "type": "list",
               "dataSource": "supporting",
               "hideSingleQuantity": true,
-              "pickerImageColumns": 1,
-              "badges": [
-                {
-                  "propertyName": "forcePoints",
-                  "label": "FP"
-                }
-              ]
+              "pickerImageColumns": 1
             }
           ]
         },
@@ -409,6 +409,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 4,
+        "stamina": 9,
+        "durability": 3,
         "sptCode": "00810101",
         "tags": [
           "Force User",
@@ -447,6 +449,8 @@
           "Clone Wars"
         ],
         "forcePoints": 3,
+        "stamina": 9,
+        "durability": 3,
         "sptCode": "00010102",
         "tags": [
           "Force User",
@@ -485,6 +489,8 @@
           "Clone Wars"
         ],
         "forcePoints": 3,
+        "stamina": 9,
+        "durability": 3,
         "sptCode": "00010103",
         "tags": [
           "Dathomirian",
@@ -521,6 +527,8 @@
           "New Republic"
         ],
         "forcePoints": 3,
+        "stamina": 10,
+        "durability": 3,
         "sptCode": "00820101",
         "tags": [
           "Force User",
@@ -559,6 +567,8 @@
           "New Republic"
         ],
         "forcePoints": 2,
+        "stamina": 9,
+        "durability": 3,
         "sptCode": "00090101",
         "tags": [
           "Bounty Hunter",
@@ -595,6 +605,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 2,
+        "stamina": 10,
+        "durability": 3,
         "sptCode": "00310101",
         "tags": [
           "Rebel Alliance",
@@ -630,6 +642,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 3,
+        "stamina": 10,
+        "durability": 2,
         "sptCode": "00270102",
         "tags": [
           "Endor",
@@ -666,6 +680,8 @@
           "Reign of the Empire"
         ],
         "forcePoints": 3,
+        "stamina": 9,
+        "durability": 3,
         "sptCode": "00380101",
         "tags": [
           "Bad Batch",
@@ -702,6 +718,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 3,
+        "stamina": 9,
+        "durability": 3,
         "sptCode": "00340101",
         "tags": [
           "Galactic Empire",
@@ -736,6 +754,8 @@
           "Clone Wars"
         ],
         "forcePoints": 4,
+        "stamina": 10,
+        "durability": 3,
         "sptCode": "00030101",
         "tags": [
           "Force User",
@@ -772,6 +792,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 2,
+        "stamina": 9,
+        "durability": 3,
         "sptCode": "00360101",
         "tags": [
           "Clone Trooper",
@@ -811,6 +833,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 4,
+        "stamina": 12,
+        "durability": 3,
         "sptCode": "00300101",
         "tags": [
           "Force User",
@@ -852,6 +876,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 3,
+        "stamina": 12,
+        "durability": 3,
         "sptCode": "00210101",
         "tags": [
           "Force User",
@@ -872,8 +898,8 @@
           "https://d26oqf9i6fvic.cloudfront.net/sp-stance2/trimmed/57.webp?version=1"
         ],
         "unavailableWith": [
-          "Darth Vader, Fallen Master",
-          "Darth Vader, Jedi Hunter"
+          "Darth Vader, Jedi Hunter",
+          "Darth Vader, Fallen Master"
         ],
         "squadPoints": 7,
         "adjustStatLimits": [
@@ -892,6 +918,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 2,
+        "stamina": 9,
+        "durability": 3,
         "sptCode": "00510101",
         "tags": [
           "Galactic Empire",
@@ -926,6 +954,8 @@
           "Clone Wars"
         ],
         "forcePoints": 4,
+        "stamina": 11,
+        "durability": 3,
         "sptCode": "00010109",
         "tags": [
           "501st",
@@ -962,6 +992,8 @@
           "Clone Wars"
         ],
         "forcePoints": 3,
+        "stamina": 11,
+        "durability": 3,
         "sptCode": "00050102",
         "tags": [
           "Droid",
@@ -996,6 +1028,8 @@
           "Clone Wars"
         ],
         "forcePoints": 3,
+        "stamina": 10,
+        "durability": 3,
         "sptCode": "00060103",
         "tags": [
           "212th",
@@ -1035,6 +1069,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 3,
+        "stamina": 9,
+        "durability": 3,
         "sptCode": "00350101",
         "tags": [
           "Rebel Alliance",
@@ -1073,6 +1109,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 3,
+        "stamina": 9,
+        "durability": 3,
         "sptCode": "00460101",
         "tags": [
           "Galactic Empire",
@@ -1107,6 +1145,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 2,
+        "stamina": 9,
+        "durability": 3,
         "sptCode": "00280101",
         "tags": [
           "Galactic Empire",
@@ -1144,6 +1184,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 3,
+        "stamina": 9,
+        "durability": 3,
         "sptCode": "00120103",
         "tags": [
           "Force User",
@@ -1179,6 +1221,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 3,
+        "stamina": 9,
+        "durability": 3,
         "sptCode": "00440101",
         "tags": [
           "Rebel Alliance",
@@ -1215,6 +1259,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 2,
+        "stamina": 9,
+        "durability": 3,
         "sptCode": "00100101",
         "tags": [
           "Mercenary",
@@ -1250,6 +1296,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 3,
+        "stamina": 11,
+        "durability": 3,
         "sptCode": "00220101",
         "tags": [
           "Force User",
@@ -1285,6 +1333,8 @@
           "Clone Wars"
         ],
         "forcePoints": 3,
+        "stamina": 10,
+        "durability": 3,
         "sptCode": "00500101",
         "tags": [
           "Force User",
@@ -1320,6 +1370,8 @@
           "Clone Wars"
         ],
         "forcePoints": 3,
+        "stamina": 10,
+        "durability": 3,
         "sptCode": "00370101",
         "tags": [
           "Aquatic",
@@ -1356,6 +1408,8 @@
           "Clone Wars"
         ],
         "forcePoints": 3,
+        "stamina": 9,
+        "durability": 3,
         "sptCode": "00040102",
         "tags": [
           "Force User",
@@ -1391,6 +1445,8 @@
           "Clone Wars"
         ],
         "forcePoints": 4,
+        "stamina": 11,
+        "durability": 3,
         "sptCode": "00080101",
         "tags": [
           "Force User",
@@ -1426,6 +1482,8 @@
           "Clone Wars"
         ],
         "forcePoints": 3,
+        "stamina": 10,
+        "durability": 3,
         "sptCode": "00110101",
         "tags": [
           "Force User",
@@ -1461,6 +1519,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 3,
+        "stamina": 9,
+        "durability": 3,
         "sptCode": "00520101",
         "tags": [
           "Rebel Alliance",
@@ -1496,6 +1556,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 3,
+        "stamina": 10,
+        "durability": 3,
         "sptCode": "00290101",
         "tags": [
           "Force User",
@@ -1533,6 +1595,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 3,
         "sptCode": "00470101",
         "tags": [
           "Bespin",
@@ -1570,6 +1634,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 3,
+        "stamina": 10,
+        "durability": 3,
         "sptCode": "00270101",
         "tags": [
           "Endor",
@@ -1610,6 +1676,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 3,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00390101",
         "tags": [
           "Endor",
@@ -1645,6 +1713,8 @@
           "Clone Wars"
         ],
         "forcePoints": 3,
+        "stamina": 11,
+        "durability": 2,
         "sptCode": "00010111",
         "tags": [
           "Dathomirian",
@@ -1681,6 +1751,8 @@
           "New Republic"
         ],
         "forcePoints": 3,
+        "stamina": 10,
+        "durability": 3,
         "sptCode": "00260101",
         "tags": [
           "Galactic Empire",
@@ -1714,6 +1786,8 @@
           "New Republic"
         ],
         "forcePoints": 2,
+        "stamina": 10,
+        "durability": 3,
         "sptCode": "00830101",
         "tags": [
           "Dathomirian",
@@ -1748,6 +1822,8 @@
           "Clone Wars"
         ],
         "forcePoints": 3,
+        "stamina": 10,
+        "durability": 3,
         "sptCode": "00070101",
         "tags": [
           "Dathomirian",
@@ -1783,6 +1859,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 3,
+        "stamina": 9,
+        "durability": 3,
         "sptCode": "00410101",
         "tags": [
           "Rebel Alliance",
@@ -1822,6 +1900,8 @@
           "Clone Wars"
         ],
         "forcePoints": 3,
+        "stamina": 10,
+        "durability": 3,
         "sptCode": "00150101",
         "tags": [
           "Galactic Republic"
@@ -1855,6 +1935,8 @@
           "Clone Wars"
         ],
         "forcePoints": 2,
+        "stamina": 10,
+        "durability": 3,
         "sptCode": "00620101",
         "tags": [
           "Clone Commando",
@@ -1890,6 +1972,8 @@
           "Clone Wars"
         ],
         "forcePoints": 2,
+        "stamina": 9,
+        "durability": 3,
         "sptCode": "00630101",
         "tags": [
           "Aquatic",
@@ -1924,6 +2008,8 @@
           "New Republic"
         ],
         "forcePoints": 2,
+        "stamina": 10,
+        "durability": 3,
         "sptCode": "00160101",
         "tags": [
           "Mandalorian",
@@ -1960,6 +2046,8 @@
           "New Republic"
         ],
         "forcePoints": 3,
+        "stamina": 11,
+        "durability": 3,
         "sptCode": "00240101",
         "tags": [
           "Bounty Hunter",
@@ -1998,6 +2086,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00280102",
         "tags": [],
         "unique": true,
@@ -2022,6 +2112,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00090102",
         "tags": [
           "Bounty Hunter",
@@ -2050,6 +2142,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00040101",
         "tags": [
           "Force User",
@@ -2082,6 +2176,8 @@
           "New Republic"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00010105",
         "tags": [
           "Clan Kryze",
@@ -2111,6 +2207,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00250101",
         "tags": [
           "Bounty Hunter",
@@ -2137,6 +2235,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00520102",
         "tags": [
           "Rebel Alliance",
@@ -2165,6 +2265,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00250102",
         "tags": [
           "Bounty Hunter",
@@ -2193,6 +2295,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00220102",
         "tags": [
           "Bounty Hunter",
@@ -2213,8 +2317,8 @@
           "https://d26oqf9i6fvic.cloudfront.net/sp-stance1/trimmed/51.webp?version=1"
         ],
         "unavailableWith": [
-          "Princess Leia, Charming to the Last",
-          "Leia Organa, Freedom Fighter"
+          "Leia Organa, Freedom Fighter",
+          "Princess Leia, Charming to the Last"
         ],
         "points": 4
       },
@@ -2226,6 +2330,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00390103",
         "tags": [
           "Droid",
@@ -2254,6 +2360,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00060102",
         "tags": [
           "212th",
@@ -2282,6 +2390,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00110102",
         "tags": [
           "Clone Trooper",
@@ -2310,6 +2420,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00370103",
         "tags": [
           "Clone Trooper",
@@ -2338,6 +2450,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00010106",
         "tags": [
           "501st",
@@ -2366,6 +2480,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 12,
+        "durability": 2,
         "sptCode": "00350102",
         "tags": [
           "Rebel Alliance",
@@ -2394,6 +2510,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00380103",
         "tags": [
           "Bad Batch",
@@ -2424,6 +2542,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 7,
+        "durability": 2,
         "sptCode": "00080102",
         "tags": [
           "Clone Commando",
@@ -2453,6 +2573,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00810102",
         "tags": [
           "Force User",
@@ -2486,6 +2608,8 @@
           "New Republic"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00260102",
         "tags": [
           "Death Trooper",
@@ -2514,6 +2638,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00510102",
         "tags": [
           "Death Trooper",
@@ -2541,6 +2667,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00250103",
         "tags": [
           "Bounty Hunter",
@@ -2569,6 +2697,8 @@
           "New Republic"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00830102",
         "tags": [
           "Galactic Empire",
@@ -2597,6 +2727,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00360102",
         "tags": [
           "Galactic Empire"
@@ -2622,6 +2754,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00290102",
         "tags": [
           "Force User",
@@ -2652,6 +2786,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00010108",
         "tags": [
           "Mandalorian",
@@ -2680,6 +2816,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00340102",
         "tags": [
           "Galactic Empire",
@@ -2708,6 +2846,8 @@
           "New Republic"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00240102",
         "tags": [
           "Mercenary",
@@ -2736,6 +2876,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00100102",
         "tags": [
           "Mercenary",
@@ -2764,6 +2906,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00250104",
         "tags": [
           "Bounty Hunter",
@@ -2793,6 +2937,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00030102",
         "tags": [
           "Bounty Hunter",
@@ -2822,6 +2968,8 @@
           "Clone Wars"
         ],
         "forcePoints": 1,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00500102",
         "tags": [
           "Force User",
@@ -2850,6 +2998,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00310102",
         "tags": [
           "Droid",
@@ -2878,6 +3028,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 10,
+        "durability": 2,
         "sptCode": "00010110",
         "tags": [
           "Battle Droid",
@@ -2906,6 +3058,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 10,
+        "durability": 2,
         "sptCode": "00050103",
         "tags": [
           "Battle Droid",
@@ -2934,6 +3088,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00470102",
         "tags": [
           "Bespin",
@@ -2961,6 +3117,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 7,
+        "durability": 2,
         "sptCode": "00410102",
         "tags": [
           "Force User",
@@ -2989,6 +3147,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00370102",
         "tags": [
           "Aquatic",
@@ -3017,6 +3177,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 7,
+        "durability": 2,
         "sptCode": "00630102",
         "tags": [
           "Aquatic",
@@ -3047,6 +3209,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00300102",
         "tags": [
           "Force User",
@@ -3077,6 +3241,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00010113",
         "tags": [
           "Force User",
@@ -3110,6 +3276,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00270103",
         "tags": [
           "Endor",
@@ -3137,6 +3305,8 @@
           "New Republic"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 3,
         "sptCode": "00160102",
         "tags": [
           "Mandalorian",
@@ -3166,6 +3336,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00620102",
         "tags": [
           "Clone Commando",
@@ -3195,6 +3367,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00150102",
         "tags": [
           "Galactic Republic",
@@ -3222,6 +3396,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00440102",
         "tags": [
           "Clan Wren",
@@ -3250,6 +3426,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 10,
+        "durability": 2,
         "sptCode": "00070102",
         "tags": [
           "Dathomirian",
@@ -3279,6 +3457,8 @@
           "New Republic"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00820102",
         "tags": [
           "Force User",
@@ -3306,6 +3486,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00460102",
         "tags": [
           "Galactic Empire",
@@ -3332,6 +3514,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00210102",
         "tags": [
           "Galactic Empire",
@@ -3361,6 +3545,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00120104",
         "tags": [
           "Force User",
@@ -3389,6 +3575,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00390102",
         "tags": [
           "Endor",
@@ -3418,6 +3606,8 @@
           "Reign of the Empire"
         ],
         "forcePoints": 0,
+        "stamina": 10,
+        "durability": 2,
         "sptCode": "00380102",
         "tags": [
           "Bad Batch",
@@ -3450,6 +3640,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00440103",
         "tags": [
           "Droid",
@@ -3477,6 +3669,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00620103",
         "tags": [
           "Clone Commando",
@@ -3507,6 +3701,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 3,
         "sptCode": "00290103",
         "tags": [
           "Rebel Alliance",
@@ -3535,6 +3731,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00110103",
         "tags": [
           "Clone Trooper",
@@ -3564,6 +3762,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00060101",
         "tags": [
           "212th",
@@ -3593,6 +3793,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00010101",
         "tags": [
           "501st",
@@ -3621,6 +3823,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00630103",
         "tags": [
           "Aquatic",
@@ -3650,6 +3854,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00080103",
         "tags": [
           "ARF",
@@ -3679,6 +3885,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 3,
         "sptCode": "00010104",
         "tags": [
           "B1",
@@ -3709,6 +3917,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00050101",
         "tags": [
           "B2",
@@ -3738,6 +3948,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00520103",
         "tags": [
           "Rebel Alliance",
@@ -3768,6 +3980,8 @@
           "New Republic"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00090103",
         "tags": [
           "Bounty Hunter",
@@ -3799,6 +4013,8 @@
           "New Republic"
         ],
         "forcePoints": 0,
+        "stamina": 7,
+        "durability": 2,
         "sptCode": "00010107",
         "tags": [
           "Mandalorian",
@@ -3827,6 +4043,8 @@
           "New Republic"
         ],
         "forcePoints": 0,
+        "stamina": 7,
+        "durability": 2,
         "sptCode": "00160103",
         "tags": [
           "Mandalorian",
@@ -3855,6 +4073,8 @@
           "New Republic"
         ],
         "forcePoints": 0,
+        "stamina": 7,
+        "durability": 2,
         "sptCode": "00260103",
         "tags": [
           "Droid",
@@ -3882,6 +4102,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 7,
+        "durability": 2,
         "sptCode": "00510104",
         "tags": [
           "Death Trooper",
@@ -3910,6 +4132,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00340103",
         "tags": [
           "Galactic Empire",
@@ -3938,6 +4162,8 @@
           "Reign of the Empire"
         ],
         "forcePoints": 0,
+        "stamina": 7,
+        "durability": 2,
         "sptCode": "00380104",
         "tags": [
           "Bad Batch",
@@ -3967,6 +4193,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00360103",
         "tags": [
           "Galactic Empire",
@@ -3993,6 +4221,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00270104",
         "tags": [
           "Endor",
@@ -4020,6 +4250,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00390104",
         "tags": [
           "Endor",
@@ -4049,6 +4281,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00120101",
         "tags": [
           "Force User",
@@ -4076,6 +4310,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00370104",
         "tags": [
           "Clone Trooper",
@@ -4106,6 +4342,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00120102",
         "tags": [
           "Force User",
@@ -4134,6 +4372,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 10,
+        "durability": 2,
         "sptCode": "00410103",
         "tags": [
           "Mercenary",
@@ -4167,6 +4407,8 @@
           "New Republic"
         ],
         "forcePoints": 0,
+        "stamina": 7,
+        "durability": 2,
         "sptCode": "00820103",
         "tags": [
           "Droid",
@@ -4196,6 +4438,8 @@
           "New Republic"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 3,
         "sptCode": "00240103",
         "tags": [
           "Bounty Hunter",
@@ -4224,6 +4468,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00340104",
         "tags": [
           "Galactic Empire",
@@ -4250,6 +4496,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00280103",
         "tags": [
           "Galactic Empire",
@@ -4278,6 +4526,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 7,
+        "durability": 2,
         "sptCode": "00220103",
         "tags": [
           "Rebel Alliance",
@@ -4309,6 +4559,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00030103",
         "tags": [
           "Battle Droid",
@@ -4338,6 +4590,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00010112",
         "tags": [
           "Mandalorian",
@@ -4366,6 +4620,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00150103",
         "tags": [
           "Galactic Republic",
@@ -4393,6 +4649,8 @@
           "New Republic"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00830103",
         "tags": [
           "Galactic Empire",
@@ -4421,6 +4679,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 7,
+        "durability": 2,
         "sptCode": "00070103",
         "tags": [
           "Dathomirian",
@@ -4448,6 +4708,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00500103",
         "tags": [
           "Force User",
@@ -4476,6 +4738,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00350103",
         "tags": [
           "Rebel Alliance",
@@ -4504,6 +4768,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00310103",
         "tags": [
           "Rebel Alliance",
@@ -4532,6 +4798,8 @@
           "Clone Wars"
         ],
         "forcePoints": 0,
+        "stamina": 7,
+        "durability": 2,
         "sptCode": "00040103",
         "tags": [
           "Clone Commando",
@@ -4561,6 +4829,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00510103",
         "tags": [
           "Galactic Empire",
@@ -4588,6 +4858,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00460103",
         "tags": [
           "Galactic Empire",
@@ -4615,6 +4887,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00210103",
         "tags": [
           "Galactic Empire",
@@ -4644,6 +4918,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 9,
+        "durability": 2,
         "sptCode": "00100103",
         "tags": [
           "Mercenary",
@@ -4672,6 +4948,8 @@
           "Age of Rebellion"
         ],
         "forcePoints": 0,
+        "stamina": 8,
+        "durability": 2,
         "sptCode": "00470103",
         "tags": [
           "Bespin",
