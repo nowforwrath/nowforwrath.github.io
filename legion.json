@@ -5,7 +5,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/legion.update.json",
-    "contentVersion": "2026.11.27.00"
+    "contentVersion": "2026.11.27.01"
   },
   "credit": [],
   "game": "Star Wars: Legion",
@@ -4640,6 +4640,29 @@
         ]
       },
       {
+        "id": 24100,
+        "name": "Academy Trained",
+        "points": 10,
+        "type": 24,
+        "keywords": [95, 6, 151],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/24100.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/24100.webp?version=11",
+        "limit": 2,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": false,
+        "availableIn": [31668],
+        "factions": [22],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [95, 6, 151]
+            }
+          ]
+        ]
+      },
+      {
         "id": 20268,
         "name": "Academy Trained",
         "points": 10,
@@ -4660,29 +4683,6 @@
           }
         ],
         "factions": [1, 2, 4, 5, 10, 19, 17, 7],
-        "addProperties": [
-          [
-            {
-              "property": "keywords",
-              "value": [95, 6, 151]
-            }
-          ]
-        ]
-      },
-      {
-        "id": 24100,
-        "name": "Academy Trained",
-        "points": 10,
-        "type": 24,
-        "keywords": [95, 6, 151],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/24100.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/24100.webp?version=11",
-        "limit": 2,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": false,
-        "availableIn": [31668],
-        "factions": [22],
         "addProperties": [
           [
             {
@@ -5553,20 +5553,6 @@
         "availableIn": [53]
       },
       {
-        "id": 175,
-        "name": "Beskad Duelist",
-        "points": 24,
-        "type": 4,
-        "keywords": [39],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/175.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/175.webp?version=11",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": false,
-        "availableIn": [71]
-      },
-      {
         "id": 22602,
         "name": "Beskad Duelist",
         "points": 30,
@@ -5579,6 +5565,20 @@
         "exhausts": null,
         "unique": null,
         "availableIn": [33773]
+      },
+      {
+        "id": 175,
+        "name": "Beskad Duelist",
+        "points": 24,
+        "type": 4,
+        "keywords": [39],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/175.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/175.webp?version=11",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": false,
+        "availableIn": [71]
       },
       {
         "id": 4413,
@@ -6052,7 +6052,7 @@
           [
             {
               "property": "keywords",
-              "value": [36]
+              "value": [36, 241, 204, 202, 207]
             }
           ]
         ]
@@ -6873,6 +6873,29 @@
         ]
       },
       {
+        "id": 24098,
+        "name": "Defend in Depth",
+        "points": 5,
+        "type": 24,
+        "keywords": [161, 141, 61],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/24098.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/24098.webp?version=11",
+        "limit": 2,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": false,
+        "availableIn": [31667, 31668],
+        "factions": [22],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [161, 141, 61]
+            }
+          ]
+        ]
+      },
+      {
         "id": 20270,
         "name": "Defend in Depth",
         "points": 5,
@@ -6893,29 +6916,6 @@
           }
         ],
         "factions": [1, 2, 4, 5, 10, 17, 7],
-        "addProperties": [
-          [
-            {
-              "property": "keywords",
-              "value": [161, 141, 61]
-            }
-          ]
-        ]
-      },
-      {
-        "id": 24098,
-        "name": "Defend in Depth",
-        "points": 5,
-        "type": 24,
-        "keywords": [161, 141, 61],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/24098.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/24098.webp?version=11",
-        "limit": 2,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": false,
-        "availableIn": [31667, 31668],
-        "factions": [22],
         "addProperties": [
           [
             {
@@ -7444,6 +7444,20 @@
         "unique": false
       },
       {
+        "id": 21987,
+        "name": "Dug In",
+        "points": 6,
+        "type": 10,
+        "keywords": [],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/21987.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/21987.webp?version=11",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [31668, 31667]
+      },
+      {
         "id": 24149,
         "name": "Dug In",
         "points": 6,
@@ -7456,27 +7470,6 @@
         "exhausts": null,
         "unique": null,
         "availableIn": [31669, 31670]
-      },
-      {
-        "id": 19830,
-        "name": "Dug In",
-        "points": 6,
-        "type": [10, 23],
-        "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/19830.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/19830.webp?version=11",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": false,
-        "requiredProperties": [
-          [
-            {
-              "property": "unitType",
-              "value": 4
-            }
-          ]
-        ]
       },
       {
         "id": 20319,
@@ -7612,20 +7605,6 @@
         ]
       },
       {
-        "id": 21987,
-        "name": "Dug In",
-        "points": 6,
-        "type": 10,
-        "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/21987.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/21987.webp?version=11",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [31668, 31667]
-      },
-      {
         "id": 20697,
         "name": "Dug In",
         "points": 6,
@@ -7638,6 +7617,27 @@
         "exhausts": null,
         "unique": null,
         "availableIn": [31842, 31843]
+      },
+      {
+        "id": 19830,
+        "name": "Dug In",
+        "points": 6,
+        "type": [10, 23],
+        "keywords": [],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/19830.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/19830.webp?version=11",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": false,
+        "requiredProperties": [
+          [
+            {
+              "property": "unitType",
+              "value": 4
+            }
+          ]
+        ]
       },
       {
         "id": 24,
@@ -8781,20 +8781,6 @@
         ]
       },
       {
-        "id": 22419,
-        "name": "GALAAR-90 Sniper Rifle",
-        "points": 35,
-        "type": 4,
-        "keywords": [204],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22419.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22419.webp?version=11",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [33772, 33773, 33796, 34890, 4767]
-      },
-      {
         "id": 22654,
         "name": "GALAAR-90 Sniper Rifle",
         "points": 5,
@@ -8816,6 +8802,20 @@
             }
           ]
         ]
+      },
+      {
+        "id": 22419,
+        "name": "GALAAR-90 Sniper Rifle",
+        "points": 35,
+        "type": 4,
+        "keywords": [204],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22419.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22419.webp?version=11",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [33772, 33773, 33796, 34890, 4767]
       },
       {
         "id": 21339,
@@ -10158,29 +10158,6 @@
         ]
       },
       {
-        "id": 18478,
-        "name": "Jedi Guardian",
-        "points": 22,
-        "type": 19,
-        "keywords": [2, 192, 197],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/18478.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/18478.webp?version=11",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": false,
-        "requiresTier": [3],
-        "chooseOneKey": "leader",
-        "addProperties": [
-          [
-            {
-              "property": "keywords",
-              "value": [2]
-            }
-          ]
-        ]
-      },
-      {
         "id": 20431,
         "name": "Jedi Guardian",
         "points": 8,
@@ -10195,6 +10172,29 @@
         "availableIn": [31842, 31843],
         "ttsName": "Jedi Guardian (Doctrine)",
         "factions": [1, 2, 4, 5, 23, 21, 12],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [2]
+            }
+          ]
+        ]
+      },
+      {
+        "id": 18478,
+        "name": "Jedi Guardian",
+        "points": 22,
+        "type": 19,
+        "keywords": [2, 192, 197],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/18478.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/18478.webp?version=11",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": false,
+        "requiresTier": [3],
+        "chooseOneKey": "leader",
         "addProperties": [
           [
             {
@@ -10451,32 +10451,6 @@
         ]
       },
       {
-        "id": 20803,
-        "name": "Kraken",
-        "points": 24,
-        "type": 4,
-        "keywords": [],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20803.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20803.webp?version=11",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [38, 52],
-        "unavailableWith": [
-          "Kraken",
-          {
-            "id": "20841",
-            "propertyName": "upgrades"
-          }
-        ],
-        "unavailableIn": [
-          [19103]
-        ],
-        "chooseOneKey": "leader",
-        "factions": [1, 2, 4, 5, 20]
-      },
-      {
         "id": 20841,
         "name": "Kraken",
         "points": 24,
@@ -10493,6 +10467,32 @@
           "Kraken",
           {
             "id": "20803",
+            "propertyName": "upgrades"
+          }
+        ],
+        "unavailableIn": [
+          [19103]
+        ],
+        "chooseOneKey": "leader",
+        "factions": [1, 2, 4, 5, 20]
+      },
+      {
+        "id": 20803,
+        "name": "Kraken",
+        "points": 24,
+        "type": 4,
+        "keywords": [],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/20803.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/20803.webp?version=11",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [38, 52],
+        "unavailableWith": [
+          "Kraken",
+          {
+            "id": "20841",
             "propertyName": "upgrades"
           }
         ],
@@ -12379,6 +12379,36 @@
         ]
       },
       {
+        "id": 2718,
+        "name": "Rook Kast",
+        "points": 35,
+        "type": 4,
+        "keywords": [145, 192],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/2718.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/2718.webp?version=11",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [4767],
+        "unavailableWith": [
+          "Rook Kast",
+          {
+            "id": "22593",
+            "propertyName": "upgrades"
+          }
+        ],
+        "factions": [1, 2, 4, 5, 9, 8],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [145]
+            }
+          ]
+        ]
+      },
+      {
         "id": 22593,
         "name": "Rook Kast",
         "points": 25,
@@ -12413,36 +12443,6 @@
             "value": 1083
           }
         ],
-        "addProperties": [
-          [
-            {
-              "property": "keywords",
-              "value": [145]
-            }
-          ]
-        ]
-      },
-      {
-        "id": 2718,
-        "name": "Rook Kast",
-        "points": 35,
-        "type": 4,
-        "keywords": [145, 192],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/2718.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/2718.webp?version=11",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [4767],
-        "unavailableWith": [
-          "Rook Kast",
-          {
-            "id": "22593",
-            "propertyName": "upgrades"
-          }
-        ],
-        "factions": [1, 2, 4, 5, 9, 8],
         "addProperties": [
           [
             {
@@ -13592,20 +13592,6 @@
         "availableIn": [4767]
       },
       {
-        "id": 2717,
-        "name": "Super Commando Marksman",
-        "points": 30,
-        "type": 4,
-        "keywords": [204],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/2717.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/2717.webp?version=11",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": null,
-        "availableIn": [4767]
-      },
-      {
         "id": 22601,
         "name": "Super Commando Marksman",
         "points": 30,
@@ -13619,6 +13605,20 @@
         "unique": null,
         "availableIn": [34890],
         "ttsName": "Super Commando Marksman (Saxon)"
+      },
+      {
+        "id": 2717,
+        "name": "Super Commando Marksman",
+        "points": 30,
+        "type": 4,
+        "keywords": [204],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/2717.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/2717.webp?version=11",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": null,
+        "availableIn": [4767]
       },
       {
         "id": 22854,
@@ -13984,95 +13984,6 @@
         ]
       },
       {
-        "id": 22610,
-        "name": "The Darksaber",
-        "points": 10,
-        "type": 12,
-        "keywords": [2, 4, 115, 202],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22610.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22610.webp?version=11",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [34888],
-        "ttsName": "The Darksaber (Gar)",
-        "unavailableWith": [
-          "The Darksaber",
-          {
-            "id": "22612",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "71",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "6132",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22611",
-            "propertyName": "upgrades"
-          }
-        ],
-        "factions": [1, 2, 4, 5, 9, 8],
-        "addProperties": [
-          [
-            {
-              "property": "keywords",
-              "value": [2, 4, 115]
-            }
-          ]
-        ]
-      },
-      {
-        "id": 22612,
-        "name": "The Darksaber",
-        "points": 10,
-        "type": 12,
-        "keywords": [118, 4, 232],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22612.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22612.webp?version=11",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [33771],
-        "factions": [8],
-        "ttsName": "The Darksaber (Bo-Katan)",
-        "unavailableWith": [
-          "The Darksaber",
-          {
-            "id": "22610",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "71",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "6132",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22611",
-            "propertyName": "upgrades"
-          }
-        ],
-        "poolBonuses": [
-          "extraMercenary"
-        ],
-        "addProperties": [
-          [
-            {
-              "property": "keywords",
-              "value": [118, 4, 232]
-            }
-          ]
-        ]
-      },
-      {
         "id": 71,
         "name": "The Darksaber",
         "points": 5,
@@ -14092,15 +14003,15 @@
             "propertyName": "upgrades"
           },
           {
-            "id": "22612",
-            "propertyName": "upgrades"
-          },
-          {
             "id": "6132",
             "propertyName": "upgrades"
           },
           {
             "id": "22611",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22612",
             "propertyName": "upgrades"
           }
         ],
@@ -14110,6 +14021,49 @@
             {
               "property": "keywords",
               "value": [42, 4]
+            }
+          ]
+        ]
+      },
+      {
+        "id": 22610,
+        "name": "The Darksaber",
+        "points": 10,
+        "type": 12,
+        "keywords": [2, 4, 115, 202],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22610.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22610.webp?version=11",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [34888],
+        "ttsName": "The Darksaber (Gar)",
+        "unavailableWith": [
+          "The Darksaber",
+          {
+            "id": "71",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "6132",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22611",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22612",
+            "propertyName": "upgrades"
+          }
+        ],
+        "factions": [1, 2, 4, 5, 9, 8],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [2, 4, 115]
             }
           ]
         ]
@@ -14131,19 +14085,19 @@
         "unavailableWith": [
           "The Darksaber",
           {
-            "id": "22610",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22612",
-            "propertyName": "upgrades"
-          },
-          {
             "id": "71",
             "propertyName": "upgrades"
           },
           {
+            "id": "22610",
+            "propertyName": "upgrades"
+          },
+          {
             "id": "22611",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22612",
             "propertyName": "upgrades"
           }
         ],
@@ -14174,23 +14128,69 @@
         "unavailableWith": [
           "The Darksaber",
           {
-            "id": "22610",
-            "propertyName": "upgrades"
-          },
-          {
-            "id": "22612",
-            "propertyName": "upgrades"
-          },
-          {
             "id": "71",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22610",
             "propertyName": "upgrades"
           },
           {
             "id": "6132",
             "propertyName": "upgrades"
+          },
+          {
+            "id": "22612",
+            "propertyName": "upgrades"
           }
         ],
         "factions": [1, 2, 4, 5, 9, 8]
+      },
+      {
+        "id": 22612,
+        "name": "The Darksaber",
+        "points": 10,
+        "type": 12,
+        "keywords": [118, 4, 232],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/22612.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/22612.webp?version=11",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [33771],
+        "factions": [8],
+        "ttsName": "The Darksaber (Bo-Katan)",
+        "unavailableWith": [
+          "The Darksaber",
+          {
+            "id": "71",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22610",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "6132",
+            "propertyName": "upgrades"
+          },
+          {
+            "id": "22611",
+            "propertyName": "upgrades"
+          }
+        ],
+        "poolBonuses": [
+          "extraMercenary"
+        ],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [118, 4, 232]
+            }
+          ]
+        ]
       },
       {
         "id": 2632,
@@ -14311,6 +14311,28 @@
         ]
       },
       {
+        "id": 177,
+        "name": "Tristan Wren",
+        "points": 34,
+        "type": 4,
+        "keywords": [204, 187],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/177.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/177.webp?version=11",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [71, 72],
+        "unavailableWith": [
+          "Tristan Wren",
+          {
+            "id": "22608",
+            "propertyName": "upgrades"
+          }
+        ],
+        "factions": [1, 2, 4, 5, 8]
+      },
+      {
         "id": 22608,
         "name": "Tristan Wren",
         "points": 25,
@@ -14357,28 +14379,6 @@
             }
           ]
         ]
-      },
-      {
-        "id": 177,
-        "name": "Tristan Wren",
-        "points": 34,
-        "type": 4,
-        "keywords": [204, 187],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/177.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/177.webp?version=11",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [71, 72],
-        "unavailableWith": [
-          "Tristan Wren",
-          {
-            "id": "22608",
-            "propertyName": "upgrades"
-          }
-        ],
-        "factions": [1, 2, 4, 5, 8]
       },
       {
         "id": 19827,
@@ -14487,20 +14487,6 @@
         "availableIn": [2108]
       },
       {
-        "id": 16578,
-        "name": "Twin Blaster Cannons",
-        "points": 5,
-        "type": 8,
-        "keywords": [181],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades/trimmed/16578.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades/16578.webp?version=11",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": false,
-        "availableIn": [25966]
-      },
-      {
         "id": 964,
         "name": "Twin Blaster Cannons",
         "points": 20,
@@ -14514,6 +14500,20 @@
         "unique": false,
         "availableIn": [2108],
         "ttsName": "Twin Blaster Cannons (ISP)"
+      },
+      {
+        "id": 16578,
+        "name": "Twin Blaster Cannons",
+        "points": 5,
+        "type": 8,
+        "keywords": [181],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades/trimmed/16578.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades/16578.webp?version=11",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": false,
+        "availableIn": [25966]
       },
       {
         "id": 151,
@@ -14610,6 +14610,29 @@
         "availableIn": [772, 4919]
       },
       {
+        "id": 24096,
+        "name": "Unseen Saboteur",
+        "points": 5,
+        "type": 24,
+        "keywords": [141, 9],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/24096.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/24096.webp?version=11",
+        "limit": null,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": false,
+        "availableIn": [31670, 31669],
+        "factions": [24],
+        "addProperties": [
+          [
+            {
+              "property": "keywords",
+              "value": [141, 9]
+            }
+          ]
+        ]
+      },
+      {
         "id": 20279,
         "name": "Unseen Saboteur",
         "points": 5,
@@ -14630,29 +14653,6 @@
           }
         ],
         "factions": [1, 2, 4, 5, 13],
-        "addProperties": [
-          [
-            {
-              "property": "keywords",
-              "value": [141, 9]
-            }
-          ]
-        ]
-      },
-      {
-        "id": 24096,
-        "name": "Unseen Saboteur",
-        "points": 5,
-        "type": 24,
-        "keywords": [141, 9],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/24096.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/24096.webp?version=11",
-        "limit": null,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": false,
-        "availableIn": [31670, 31669],
-        "factions": [24],
         "addProperties": [
           [
             {
@@ -14690,28 +14690,6 @@
         "unique": false
       },
       {
-        "id": 178,
-        "name": "Ursa Wren",
-        "points": 34,
-        "type": 4,
-        "keywords": [42, 192, 205],
-        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/178.webp?version=11",
-        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/178.webp?version=11",
-        "limit": 1,
-        "exhaustsPerTurn": null,
-        "exhausts": null,
-        "unique": true,
-        "availableIn": [71, 72],
-        "unavailableWith": [
-          "Ursa Wren",
-          {
-            "id": "22650",
-            "propertyName": "upgrades"
-          }
-        ],
-        "factions": [1, 2, 4, 5, 8]
-      },
-      {
         "id": 22650,
         "name": "Ursa Wren",
         "points": 25,
@@ -14746,6 +14724,28 @@
             "value": 1082
           }
         ]
+      },
+      {
+        "id": 178,
+        "name": "Ursa Wren",
+        "points": 34,
+        "type": 4,
+        "keywords": [42, 192, 205],
+        "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/trimmed/178.webp?version=11",
+        "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/upgrades-new/178.webp?version=11",
+        "limit": 1,
+        "exhaustsPerTurn": null,
+        "exhausts": null,
+        "unique": true,
+        "availableIn": [71, 72],
+        "unavailableWith": [
+          "Ursa Wren",
+          {
+            "id": "22650",
+            "propertyName": "upgrades"
+          }
+        ],
+        "factions": [1, 2, 4, 5, 8]
       },
       {
         "id": 146,
@@ -18772,7 +18772,7 @@
         }
       },
       {
-        "name": "Saber-Class Tank",
+        "name": "Saber-class Tank",
         "title": null,
         "points": 145,
         "factions": [
@@ -18952,7 +18952,7 @@
         ]
       },
       {
-        "name": "Padme Amidala",
+        "name": "Padmé Amidala",
         "title": "Spirited Senator",
         "points": 52,
         "factions": [
@@ -18975,13 +18975,13 @@
         "health": 6,
         "courage": 3,
         "speed": 2,
-        "ttsName": "Padme Amidala Spirited Senator",
+        "ttsName": "Padmé Amidala Spirited Senator",
         "unavailableWith": [
-          "Padme Amidala"
+          "Padmé Amidala"
         ]
       },
       {
-        "name": "Arc Troopers",
+        "name": "ARC Troopers",
         "title": null,
         "points": 70,
         "factions": [
@@ -19216,7 +19216,7 @@
       },
       {
         "name": "Clone Commander",
-        "title": "Trained For Leadership",
+        "title": "Trained for Leadership",
         "points": 53,
         "factions": [
           {
@@ -19246,7 +19246,7 @@
         "health": 4,
         "courage": 2,
         "speed": 2,
-        "ttsName": "Clone Commander Trained For Leadership"
+        "ttsName": "Clone Commander Trained for Leadership"
       },
       {
         "name": "T-series Tactical Droid",
@@ -19448,7 +19448,7 @@
         ]
       },
       {
-        "name": "LAAT/LE Patrol Transport",
+        "name": "LAAT/le Patrol Transport",
         "title": null,
         "points": 90,
         "factions": [
@@ -19526,7 +19526,7 @@
         "speed": 2
       },
       {
-        "name": "LAAT/LE Patrol Transport",
+        "name": "LAAT/le Patrol Transport",
         "title": null,
         "points": 90,
         "factions": [
@@ -20922,7 +20922,7 @@
         "affiliation": "7"
       },
       {
-        "name": "C-3P0",
+        "name": "C-3PO",
         "title": "Golden God",
         "points": 40,
         "factions": [
@@ -20949,9 +20949,9 @@
         "health": 3,
         "courage": 2,
         "speed": 2,
-        "ttsName": "C-3P0 Golden God",
+        "ttsName": "C-3PO Golden God",
         "unavailableWith": [
-          "C-3P0"
+          "C-3PO"
         ],
         "affiliation": "6"
       },
@@ -21321,7 +21321,7 @@
       },
       {
         "name": "Fifth Brother",
-        "title": "The Kill is Mine",
+        "title": "The Kill Is Mine",
         "points": 82,
         "factions": [
           {
@@ -21343,7 +21343,7 @@
         "health": 6,
         "courage": 2,
         "speed": 2,
-        "ttsName": "Fifth Brother The Kill is Mine",
+        "ttsName": "Fifth Brother The Kill Is Mine",
         "unavailableWith": [
           "Fifth Brother"
         ]
@@ -21837,7 +21837,7 @@
         }
       },
       {
-        "name": "Arc Troopers",
+        "name": "ARC Troopers",
         "title": "Strike Team",
         "points": 23,
         "factions": [
@@ -21890,7 +21890,7 @@
         "health": 1,
         "courage": 2,
         "speed": 2,
-        "ttsName": "Arc Troopers Strike Team",
+        "ttsName": "ARC Troopers Strike Team",
         "tierCounting": {
           "ignoreMaximum": true
         }
@@ -30123,6 +30123,11 @@
         "id": 231,
         "name": "This is the Way",
         "definition": "When an allied unit with the This is the Way keyword is issued an Order, choose up to X other allied Children of the Watch units within Range 2 of that unit. Each chosen unit performs the Action listed by the unit that was issued the order's This is the Way keyword as a free action."
+      },
+      {
+        "id": 241,
+        "name": "Tough",
+        "definition": "A miniature with the Tough keyword can be assigned Wounds even if it is the unit leader or is not the miniature with the most Wound tokens in the unit."
       },
       {
         "id": 188,
