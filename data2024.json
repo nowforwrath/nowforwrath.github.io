@@ -5,7 +5,7 @@
 	"appVersion": 2,
 	"update": {
 		"manifestUrl": "https://nowforwrath.github.io/data2024.update.json",
-		"contentVersion": "2026.11.09.00"
+		"contentVersion": "2026.11.27.00"
 	},
 	"disallowMultipleFactions": true,
 	"colors": {
@@ -34379,7 +34379,7 @@
 					{
 						"name": "Nature's Wrath",
 						"range": 3,
-						"casting": 4
+						"casting": 5
 					},
 					{
 						"name": "Writhing Vines",
