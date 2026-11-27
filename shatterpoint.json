@@ -2,7 +2,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/shatterpoint.update.json",
-    "contentVersion": "2026.11.27.00"
+    "contentVersion": "2026.11.27.01"
   },
   "game": "Star Wars: Shatterpoint",
   "config": {
