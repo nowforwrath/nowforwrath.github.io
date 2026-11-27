@@ -2,7 +2,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/shatterpoint.update.json",
-    "contentVersion": "2026.11.27.01"
+    "contentVersion": "2026.11.27.03"
   },
   "game": "Star Wars: Shatterpoint",
   "config": {
@@ -122,6 +122,7 @@
             }
           ],
           "sortMainOptionsAlphabetically": false,
+          "excludeFromCollection": true,
           "sumChildPoints": true,
           "childTagSummary": {
             "property": "tags",
@@ -153,6 +154,7 @@
               "type": "list",
               "dataSource": "primary",
               "hideSingleQuantity": true,
+              "pickerImageColumns": 1,
               "badges": [
                 {
                   "propertyName": "squadPoints",
@@ -170,6 +172,7 @@
               "type": "list",
               "dataSource": "secondary",
               "hideSingleQuantity": true,
+              "pickerImageColumns": 1,
               "badges": [
                 {
                   "propertyName": "forcePoints",
@@ -183,6 +186,7 @@
               "type": "list",
               "dataSource": "supporting",
               "hideSingleQuantity": true,
+              "pickerImageColumns": 1,
               "badges": [
                 {
                   "propertyName": "forcePoints",
@@ -199,6 +203,7 @@
           "dataSource": "missions",
           "prettyViewStyle": "pills",
           "excludeFromModelCount": true,
+          "excludeFromCollection": true,
           "ignoreFactionFilter": true,
           "excludeFromFactionPreview": true,
           "excludeFromTiers": true,
