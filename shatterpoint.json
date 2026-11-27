@@ -2,7 +2,7 @@
   "appVersion": 2,
   "update": {
     "manifestUrl": "https://nowforwrath.github.io/shatterpoint.update.json",
-    "contentVersion": "2026.11.27.03"
+    "contentVersion": "2026.11.27.04"
   },
   "game": "Star Wars: Shatterpoint",
   "config": {
@@ -45,6 +45,16 @@
       "suffix": "]"
     }
   ],
+  "quiz": {
+    "seedKey": "shatterpoint",
+    "sources": [
+      "primary",
+      "secondary",
+      "supporting"
+    ],
+    "questionsPerDay": 10,
+    "timezone": "UTC"
+  },
   "dataTableKeys": [
     "primary",
     "secondary",
@@ -408,6 +418,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/121.webp?version=5",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/121.webp?version=5",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/121.webp?version=5",
         "imageUrls": [
@@ -445,6 +456,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/1.webp?version=7",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/1.webp?version=7",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/1.webp?version=7",
         "imageUrls": [
@@ -484,6 +496,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/6.webp?version=5",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/6.webp?version=5",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/6.webp?version=5",
         "imageUrls": [
@@ -518,6 +531,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/151.webp?version=5",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/151.webp?version=5",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/151.webp?version=5",
         "imageUrls": [
@@ -555,6 +569,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/45.webp?version=3",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/45.webp?version=3",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/45.webp?version=3",
         "imageUrls": [
@@ -590,6 +605,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/132.webp?version=6",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/132.webp?version=6",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/132.webp?version=6",
         "imageUrls": [
@@ -624,6 +640,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/61.webp?version=5",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/61.webp?version=5",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/61.webp?version=5",
         "imageUrls": [
@@ -660,6 +677,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/74.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/74.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/74.webp?version=1",
         "imageUrls": [
@@ -693,6 +711,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/83.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/83.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/83.webp?version=1",
         "imageUrls": [
@@ -727,6 +746,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/22.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/22.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/22.webp?version=1",
         "imageUrls": [
@@ -761,6 +781,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/110.webp?version=11",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/110.webp?version=11",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/110.webp?version=11",
         "imageUrls": [
@@ -802,6 +823,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/36.webp?version=3",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/36.webp?version=3",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/36.webp?version=3",
         "imageUrls": [
@@ -840,6 +862,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/57.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/57.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/57.webp?version=1",
         "imageUrls": [
@@ -878,6 +901,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/127.webp?version=5",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/127.webp?version=5",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/127.webp?version=5",
         "imageUrls": [
@@ -913,6 +937,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/5.webp?version=7",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/5.webp?version=7",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/5.webp?version=7",
         "imageUrls": [
@@ -946,6 +971,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/29.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/29.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/29.webp?version=1",
         "imageUrls": [
@@ -981,6 +1007,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/21.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/21.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/21.webp?version=1",
         "imageUrls": [
@@ -1018,6 +1045,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/87.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/87.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/87.webp?version=1",
         "imageUrls": [
@@ -1054,6 +1082,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/109.webp?version=10",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/109.webp?version=10",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/109.webp?version=10",
         "imageUrls": [
@@ -1088,6 +1117,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/92.webp?version=7",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/92.webp?version=7",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/92.webp?version=7",
         "imageUrls": [
@@ -1124,6 +1154,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/33.webp?version=5",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/33.webp?version=5",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/33.webp?version=5",
         "imageUrls": [
@@ -1157,6 +1188,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/95.webp?version=6",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/95.webp?version=6",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/95.webp?version=6",
         "imageUrls": [
@@ -1193,6 +1225,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/69.webp?version=3",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/69.webp?version=3",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/69.webp?version=3",
         "imageUrls": [
@@ -1227,6 +1260,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/53.webp?version=3",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/53.webp?version=3",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/53.webp?version=3",
         "imageUrls": [
@@ -1261,6 +1295,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/125.webp?version=5",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/125.webp?version=5",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/125.webp?version=5",
         "imageUrls": [
@@ -1296,6 +1331,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/126.webp?version=6",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/126.webp?version=6",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/126.webp?version=6",
         "imageUrls": [
@@ -1330,6 +1366,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/27.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/27.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/27.webp?version=1",
         "imageUrls": [
@@ -1364,6 +1401,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/41.webp?version=5",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/41.webp?version=5",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/41.webp?version=5",
         "imageUrls": [
@@ -1398,6 +1436,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/55.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/55.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/55.webp?version=1",
         "imageUrls": [
@@ -1432,6 +1471,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/141.webp?version=5",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/141.webp?version=5",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/141.webp?version=5",
         "imageUrls": [
@@ -1468,6 +1508,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/85.webp?version=5",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/85.webp?version=5",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/85.webp?version=5",
         "imageUrls": [
@@ -1501,6 +1542,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/105.webp?version=8",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/105.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/105.webp?version=8",
         "imageUrls": [
@@ -1539,6 +1581,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/65.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/65.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/65.webp?version=1",
         "imageUrls": [
@@ -1577,6 +1620,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/64.webp?version=3",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/64.webp?version=3",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/64.webp?version=3",
         "imageUrls": [
@@ -1612,6 +1656,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/18.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/18.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/18.webp?version=1",
         "imageUrls": [
@@ -1645,6 +1690,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/68.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/68.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/68.webp?version=1",
         "imageUrls": [
@@ -1678,6 +1724,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/146.webp?version=5",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/146.webp?version=5",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/146.webp?version=5",
         "imageUrls": [
@@ -1711,6 +1758,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/40.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/40.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/40.webp?version=1",
         "imageUrls": [
@@ -1745,6 +1793,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/112.webp?version=5",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/112.webp?version=5",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/112.webp?version=5",
         "imageUrls": [
@@ -1781,6 +1830,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/46.webp?version=2",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/46.webp?version=2",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/46.webp?version=2",
         "imageUrls": [
@@ -1816,6 +1866,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/138.webp?version=8",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/138.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/138.webp?version=8",
         "imageUrls": [
@@ -1849,6 +1900,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/144.webp?version=6",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/144.webp?version=6",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/144.webp?version=6",
         "imageUrls": [
@@ -1882,6 +1934,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/119.webp?version=8",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/119.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/119.webp?version=8",
         "imageUrls": [
@@ -1918,6 +1971,7 @@
         "validationKeys": [
           "primary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/80.webp?version=2",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/80.webp?version=2",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/80.webp?version=2",
         "imageUrls": [
@@ -1950,6 +2004,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/93.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/93.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/93.webp?version=4",
         "imageUrls": [
@@ -1977,6 +2032,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/47.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/47.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/47.webp?version=4",
         "imageUrls": [
@@ -2005,6 +2061,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/28.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/28.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/28.webp?version=1",
         "imageUrls": [
@@ -2036,6 +2093,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/2.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/2.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/2.webp?version=1",
         "imageUrls": [
@@ -2062,6 +2120,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/101.webp?version=6",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/101.webp?version=6",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/101.webp?version=6",
         "imageUrls": [
@@ -2088,6 +2147,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/142.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/142.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/142.webp?version=4",
         "imageUrls": [
@@ -2115,6 +2175,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/115.webp?version=6",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/115.webp?version=6",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/115.webp?version=6",
         "imageUrls": [
@@ -2143,6 +2204,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/51.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/51.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/51.webp?version=1",
         "imageUrls": [
@@ -2173,6 +2235,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/52.webp?version=5",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/52.webp?version=5",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/52.webp?version=5",
         "imageUrls": [
@@ -2202,6 +2265,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/25.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/25.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/25.webp?version=4",
         "imageUrls": [
@@ -2228,6 +2292,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/63.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/63.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/63.webp?version=1",
         "imageUrls": [
@@ -2255,6 +2320,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/123.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/123.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/123.webp?version=4",
         "imageUrls": [
@@ -2282,6 +2348,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/7.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/7.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/7.webp?version=1",
         "imageUrls": [
@@ -2309,6 +2376,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/81.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/81.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/81.webp?version=1",
         "imageUrls": [
@@ -2336,6 +2404,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/78.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/78.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/78.webp?version=1",
         "imageUrls": [
@@ -2365,6 +2434,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/44.webp?version=3",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/44.webp?version=3",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/44.webp?version=3",
         "imageUrls": [
@@ -2394,6 +2464,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/122.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/122.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/122.webp?version=4",
         "imageUrls": [
@@ -2425,6 +2496,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/72.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/72.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/72.webp?version=1",
         "imageUrls": [
@@ -2452,6 +2524,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/136.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/136.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/136.webp?version=4",
         "imageUrls": [
@@ -2478,6 +2551,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/103.webp?version=7",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/103.webp?version=7",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/103.webp?version=7",
         "imageUrls": [
@@ -2505,6 +2579,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/149.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/149.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/149.webp?version=4",
         "imageUrls": [
@@ -2530,6 +2605,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/104.webp?version=7",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/104.webp?version=7",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/104.webp?version=7",
         "imageUrls": [
@@ -2558,6 +2634,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/99.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/99.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/99.webp?version=4",
         "imageUrls": [
@@ -2585,6 +2662,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/11.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/11.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/11.webp?version=1",
         "imageUrls": [
@@ -2611,6 +2689,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/90.webp?version=3",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/90.webp?version=3",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/90.webp?version=3",
         "imageUrls": [
@@ -2638,6 +2717,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/71.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/71.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/71.webp?version=1",
         "imageUrls": [
@@ -2666,6 +2746,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/76.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/76.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/76.webp?version=4",
         "imageUrls": [
@@ -2694,6 +2775,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/116.webp?version=7",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/116.webp?version=7",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/116.webp?version=7",
         "imageUrls": [
@@ -2722,6 +2804,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/24.webp?version=3",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/24.webp?version=3",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/24.webp?version=3",
         "imageUrls": [
@@ -2749,6 +2832,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/130.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/130.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/130.webp?version=4",
         "imageUrls": [
@@ -2776,6 +2860,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/134.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/134.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/134.webp?version=4",
         "imageUrls": [
@@ -2803,6 +2888,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/8.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/8.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/8.webp?version=1",
         "imageUrls": [
@@ -2830,6 +2916,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/31.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/31.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/31.webp?version=1",
         "imageUrls": [
@@ -2856,6 +2943,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/106.webp?version=6",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/106.webp?version=6",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/106.webp?version=6",
         "imageUrls": [
@@ -2883,6 +2971,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/113.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/113.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/113.webp?version=4",
         "imageUrls": [
@@ -2911,6 +3000,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/129.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/129.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/129.webp?version=4",
         "imageUrls": [
@@ -2937,6 +3027,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/145.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/145.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/145.webp?version=4",
         "imageUrls": [
@@ -2965,6 +3056,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/35.webp?version=3",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/35.webp?version=3",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/35.webp?version=3",
         "imageUrls": [
@@ -2996,6 +3088,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/4.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/4.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/4.webp?version=1",
         "imageUrls": [
@@ -3027,6 +3120,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/66.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/66.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/66.webp?version=1",
         "imageUrls": [
@@ -3053,6 +3147,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/107.webp?version=9",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/107.webp?version=9",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/107.webp?version=9",
         "imageUrls": [
@@ -3082,6 +3177,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/139.webp?version=3",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/139.webp?version=3",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/139.webp?version=3",
         "imageUrls": [
@@ -3108,6 +3204,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/49.webp?version=2",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/49.webp?version=2",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/49.webp?version=2",
         "imageUrls": [
@@ -3136,6 +3233,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/86.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/86.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/86.webp?version=4",
         "imageUrls": [
@@ -3163,6 +3261,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/42.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/42.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/42.webp?version=1",
         "imageUrls": [
@@ -3190,6 +3289,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/147.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/147.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/147.webp?version=4",
         "imageUrls": [
@@ -3215,6 +3315,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/108.webp?version=5",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/108.webp?version=5",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/108.webp?version=5",
         "imageUrls": [
@@ -3240,6 +3341,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/56.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/56.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/56.webp?version=1",
         "imageUrls": [
@@ -3269,6 +3371,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/34.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/34.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/34.webp?version=4",
         "imageUrls": [
@@ -3296,6 +3399,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/60.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/60.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/60.webp?version=1",
         "imageUrls": [
@@ -3325,6 +3429,7 @@
         "validationKeys": [
           "secondary"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/75.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/75.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/75.webp?version=1",
         "imageUrls": [
@@ -3355,6 +3460,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/82.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/82.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/82.webp?version=4",
         "imageUrls": [
@@ -3382,6 +3488,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/140.webp?version=5",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/140.webp?version=5",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/140.webp?version=5",
         "imageUrls": [
@@ -3410,6 +3517,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/88.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/88.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/88.webp?version=4",
         "imageUrls": [
@@ -3438,6 +3546,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/20.webp?version=2",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/20.webp?version=2",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/20.webp?version=2",
         "imageUrls": [
@@ -3466,6 +3575,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/26.webp?version=7",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/26.webp?version=7",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/26.webp?version=7",
         "imageUrls": [
@@ -3494,6 +3604,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/9.webp?version=5",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/9.webp?version=5",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/9.webp?version=5",
         "imageUrls": [
@@ -3522,6 +3633,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/137.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/137.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/137.webp?version=4",
         "imageUrls": [
@@ -3549,6 +3661,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/43.webp?version=3",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/43.webp?version=3",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/43.webp?version=3",
         "imageUrls": [
@@ -3578,6 +3691,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/10.webp?version=3",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/10.webp?version=3",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/10.webp?version=3",
         "imageUrls": [
@@ -3607,6 +3721,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/32.webp?version=2",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/32.webp?version=2",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/32.webp?version=2",
         "imageUrls": [
@@ -3632,6 +3747,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/143.webp?version=6",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/143.webp?version=6",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/143.webp?version=6",
         "imageUrls": [
@@ -3663,6 +3779,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/48.webp?version=3",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/48.webp?version=3",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/48.webp?version=3",
         "imageUrls": [
@@ -3693,6 +3810,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/3.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/3.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/3.webp?version=1",
         "imageUrls": [
@@ -3719,6 +3837,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/102.webp?version=7",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/102.webp?version=7",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/102.webp?version=7",
         "imageUrls": [
@@ -3745,6 +3864,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/73.webp?version=7",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/73.webp?version=7",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/73.webp?version=7",
         "imageUrls": [
@@ -3773,6 +3893,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/133.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/133.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/133.webp?version=4",
         "imageUrls": [
@@ -3798,6 +3919,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/89.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/89.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/89.webp?version=1",
         "imageUrls": [
@@ -3827,6 +3949,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/79.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/79.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/79.webp?version=1",
         "imageUrls": [
@@ -3853,6 +3976,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/114.webp?version=9",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/114.webp?version=9",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/114.webp?version=9",
         "imageUrls": [
@@ -3879,6 +4003,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/62.webp?version=3",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/62.webp?version=3",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/62.webp?version=3",
         "imageUrls": [
@@ -3905,6 +4030,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/67.webp?version=3",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/67.webp?version=3",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/67.webp?version=3",
         "imageUrls": [
@@ -3933,6 +4059,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/37.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/37.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/37.webp?version=1",
         "imageUrls": [
@@ -3960,6 +4087,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/124.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/124.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/124.webp?version=4",
         "imageUrls": [
@@ -3988,6 +4116,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/38.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/38.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/38.webp?version=4",
         "imageUrls": [
@@ -4015,6 +4144,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/111.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/111.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/111.webp?version=4",
         "imageUrls": [
@@ -4047,6 +4177,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/148.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/148.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/148.webp?version=4",
         "imageUrls": [
@@ -4076,6 +4207,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/70.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/70.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/70.webp?version=1",
         "imageUrls": [
@@ -4101,6 +4233,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/84.webp?version=5",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/84.webp?version=5",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/84.webp?version=5",
         "imageUrls": [
@@ -4127,6 +4260,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/94.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/94.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/94.webp?version=4",
         "imageUrls": [
@@ -4154,6 +4288,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/54.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/54.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/54.webp?version=1",
         "imageUrls": [
@@ -4185,6 +4320,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/23.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/23.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/23.webp?version=4",
         "imageUrls": [
@@ -4213,6 +4349,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/19.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/19.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/19.webp?version=1",
         "imageUrls": [
@@ -4239,6 +4376,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/50.webp?version=3",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/50.webp?version=3",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/50.webp?version=3",
         "imageUrls": [
@@ -4266,6 +4404,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/150.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/150.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/150.webp?version=4",
         "imageUrls": [
@@ -4292,6 +4431,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/39.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/39.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/39.webp?version=1",
         "imageUrls": [
@@ -4319,6 +4459,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/128.webp?version=5",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/128.webp?version=5",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/128.webp?version=5",
         "imageUrls": [
@@ -4345,6 +4486,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/91.webp?version=2",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/91.webp?version=2",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/91.webp?version=2",
         "imageUrls": [
@@ -4373,6 +4515,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/135.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/135.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/135.webp?version=4",
         "imageUrls": [
@@ -4400,6 +4543,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/30.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/30.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/30.webp?version=4",
         "imageUrls": [
@@ -4427,6 +4571,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/131.webp?version=4",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/131.webp?version=4",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/131.webp?version=4",
         "imageUrls": [
@@ -4453,6 +4598,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/120.webp?version=5",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/120.webp?version=5",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/120.webp?version=5",
         "imageUrls": [
@@ -4479,6 +4625,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/59.webp?version=1",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/59.webp?version=1",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/59.webp?version=1",
         "imageUrls": [
@@ -4508,6 +4655,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/77.webp?version=8",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/77.webp?version=8",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/77.webp?version=8",
         "imageUrls": [
@@ -4534,6 +4682,7 @@
         "validationKeys": [
           "supporting"
         ],
+        "portraitUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/portraits/118.webp?version=6",
         "imageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/trimmed/118.webp?version=6",
         "highResImageUrl": "https://d26oqf9i6fvic.cloudfront.net/sp-units/118.webp?version=6",
         "imageUrls": [
